@@ -1,0 +1,312 @@
+#10001
+red bone mask~
+a redbone mask~
+A mask made of redbone is here with an evil grin on it.~
+~
+9 gj ae
+5 0 0 0 0 0 0 20 14
+2 50000 151
+A
+5 2
+A
+13 10
+#10002
+torch light~
+a torch~
+A torch is here on the wall.~
+~
+1 0 am
+0 0 60 0 0 0 0 0 14
+2 5 1
+#10003
+sword bloody~
+a bloody sword~
+A sword covered in dried blood is lying on the ground here.~
+~
+5 jl am
+0 1 10 3 0 0 0 13 14
+10 1 1200
+#10004
+crown darkshade brilliant ebony~
+a brilliant, ebony crown~
+A brilliant crown made of ebony is lying in the corner.~
+~
+9 jmns ae
+20 0 0 0 0 0 0 20 14
+3 100000 7100
+A
+3 2
+A
+12 20
+#10005
+cloak ebony darkshade dark heavy~
+an ebony-colored cloak~
+A cloak made of heavy dark fabric lies here.~
+~
+9 x aj
+0 0 0 0 0 0 0 20 14
+3 30000 3500
+A
+14 20
+A
+24 10
+#10006
+bag holding~
+a small bag~
+A small bag is sitting on the ground.~
+~
+15 0 ao
+1000 1 -1 0 0 0 0 20 14
+5 10000 100
+#10007
+rack torture~
+the Rack~
+A strange and painful looking device is in the center of the room.~
+~
+12 0 0
+0 0 0 0 0 0 0 0 14
+34464 1 1
+#10008
+iron maiden device~
+the Iron Maiden~
+An iron maiden is hanging in the corner of the room.~
+~
+12 0 ad
+0 0 0 0 0 0 0 0 14
+200 10 1
+A
+13 24
+#10009
+table operation~
+an operating table~
+A long operating table covered in fresh blood is here.~
+~
+12 0 0
+0 0 0 0 0 0 0 0 14
+34464 0 1
+#10010
+cross holy symbol wooden sygarin~
+a wooden sygarin~
+A wooden sygarin is lying here.~
+~
+5 0 am
+0 0 0 0 0 0 0 10 14
+1 1 1
+E
+sigarin wooden~
+   The sigarin is a symbol of torture and pain.  It is also the
+name of a torture device upon which The Lord Moriquendi was laid
+upon before he died.
+~
+#10011
+bottle beer~
+a bottle of beer~
+A beer bottle is sitting here.~
+~
+12 0 am
+5 5 1 0 0 0 0 0 14
+10 1 1
+#10012
+dagger~
+a dagger~
+A dagger has been left here.~
+~
+5 E am
+10 3 6 11 0 0 0 19 14
+3 9599 8000
+#10013
+potion bottle~
+a dark green potion~
+A flask filled with a dark green liquid is here.~
+~
+10 0 a
+15 86 83 53 0 0 0 0 14
+1 25000 1250
+#10014
+crystal ball~
+a crystal ball~
+A crystal ball is hovering in midair here.~
+~
+9 kloprt 0
+2 0 0 0 0 0 0 0 14
+2 500000 245
+E
+crystal ball~
+The quest of the Overseer.  This probably wont be too much fun for
+people over 20 or so.  In fact if anyone over level 25 comes to me
+with the completed quest I won't accept it and you wont get rewarded.
+
+Anyways...You must collect the 4 crystal balls and take them to the hermit
+errr where the last crystal ball says for u to take it.  If the mob that
+the last ball mentions doesnt respond just be really loud, pray to the gods
+whatever....wait until i get there basically.  I may not be on so you'll have
+to wait i guess.  
+
+Anyhow...your first clue to find the second ball (the ball besides this one)
+is this:  Deep in the heart of Sir-dem-Ir-Lesk
+~
+A
+12 50
+A
+24 -20
+#10015
+skeleton hand~
+a skeletal hand~
+A skeletal hand is here, clutching something.~
+~
+15 q a
+10 1 -1 0 0 0 0 0 14
+5 0 1
+#10016
+ring silver~
+a silver ring~
+A silver ring has carelessly been left here.~
+~
+9 i ab
+1 0 0 0 0 0 0 15 14
+2 5000 501
+A
+2 2
+A
+23 25
+#10017
+sword longsword long crooked~
+a crooked longsword~
+A crooked longsword has been carelessly left here.~
+~
+5 dhjmn am
+0 3 2 3 0 0 0 14 14
+8 4800 3150
+A
+18 -5
+A
+23 -25
+#10018
+robe white~
+a white robe~
+A pile of white cloth is lying here.~
+~
+11 0 ad
+2 0 0 0 0 0 0 15 14
+1 0 0
+A
+13 3
+#10019
+cloak black~
+a black cloak~
+A pile of black fabric is lying here.~
+~
+9 0 ad
+4 0 0 0 0 0 0 15 14
+1 8 2
+#10020
+pick lockpick~
+a lock pick~
+A long thin sliver of metal has been left here.~
+~
+18 0 am
+-1 0 0 0 0 0 0 15 14
+1 25 5
+#10021
+bracelet ruby~
+a ruby bracelet~
+A loop made of ruby lies here.~
+~
+9 0 al
+2 0 0 0 0 0 0 18 14
+1 10000 2400
+A
+14 10
+#10026
+lance guardians guardian glasgian~
+Lance of Guardians~
+A white lance with a diamond fitted onto the end is on the ground here.~
+~
+5 adg am
+0 7 2 11 0 0 0 0 14
+15 0 0
+A
+5 5
+A
+18 5
+#10027
+dirk small sharp~
+a sharp dirk~
+A very small weapon is lying here with a very short blade.~
+~
+5 0 am
+3 2 4 11 0 0 0 15 14
+2 2000 300
+#10101
+key black spine~
+a small black key~
+A key is here glowing with a strange, black aura.~
+~
+18 0 a
+0 0 0 0 0 0 0 0 14
+1 1 1
+#10102
+gold~
+a huge pile of gold~
+The floor is covered in gold coins.~
+~
+20 0 a
+50000 0 0 0 0 0 0 0 14
+16 1 1
+#10103
+cloak long black~
+a long, black cloak~
+A black pile of cloth is lying on the ground here.~
+~
+11 jl ac
+0 0 0 0 0 0 0 15 14
+3 10000 1000
+#10104
+gray long cloak~
+a long, gray cloak~
+A gray pile of cloth lies here.~
+~
+11 jk ac
+0 0 0 0 0 0 0 15 14
+3 10000 1000
+#10105
+white cloak long~
+a long, white cloak~
+A pile of white cloth is lying by your feet here.~
+~
+11 kl ac
+0 0 0 0 0 0 0 15 14
+3 10000 1000
+#10106
+dagger long sharp double bladed~
+a double bladed dagger~
+A dagger with two razor sharp blades lies here collecting dust.~
+~
+5 E am
+5 5 3 11 0 0 0 15 14
+2 12000 1000
+A
+18 4
+A
+19 4
+#10107
+dirk black small~
+a small, black dirk~
+A small black weapon is stuck in the ground here.~
+~
+5 0 am
+2 3 5 11 0 0 0 15 14
+1 100000 2000
+#10108
+glasgian light golden shield~
+a golden shield~
+A golden shield with the ankh of Glasgian on its face lies here.~
+~
+9 adklq am
+25 0 0 0 0 0 0 19 14
+12 1000000 5000
+A
+13 50
+A
+19 2
+$~

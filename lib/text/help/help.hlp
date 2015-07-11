@@ -1,0 +1,3454 @@
+
+#
+! ^
+
+Use ! to repeat the last command typed at the keyboard.
+
+Use ^ to replace a string from the last command with a new string.  The
+syntax is the same as in csh: "^old-string^replacement"  For example:
+
+> tell rasmusse Hi there, how are you?
+No-one by that name here.
+
+> ^rasmusse^rasmussen
+You tell Rasmussen, 'Hi there, how are you?'
+
+> ^you^you doing^
+You tell Rasmussen, 'Hi there, how are you doing?'
+
+See also: ALIAS
+#
+ACCEPT
+Level: Guild Leader
+Syntax: accept <petitioning playername>
+
+This command allows the leader of the guild to accept a player
+petitioning the guild.  The player will automatically recieve
+mudmail stating that they have been accepted.
+
+See Also: ADVANCE REJECT
+
+#
+ADVANCE PROMOTE
+Level: Immortal
+
+Adavnce allows an immortal with this command to advance a player to a
+higher level.  Abuse of this command WILL result in a deletion.
+
+Level: Guild Leader
+
+Promote allows the Guild Leader to advance other members of his/her guild
+to a higher status within the guild.  
+#
+AFFIRM
+
+This command allows you to affirm (join) a religion within the game.
+There are 5 religions, one for each alignment as well as two others
+recently added for fun and any alignment.
+
+See Also: RELIGION RENOUNCE
+#
+AGE
+
+Your age is based on your race.  Some races live much longer than other, 
+and therefore mature at different rates.  A dwarf can live nearly 200 years
+and will reach maturity at 69 rather than human who will reach his maturity
+at age 17.  Quit filling the bug file wondering why you are 189 years old!!
+#
+ALIAS ALIASES
+
+An alias is a single command used to represent one or more other commands.
+The ALIAS command can be used to manipulate your character's aliases.  Type
+ALIAS alone to see a list of your currently defined aliases.
+
+> alias
+
+Type ALIAS <alias name> <command> to create a new alias.  The alias name must
+be one word.  The command can be any string.  Aliases may not be nested or
+used recursively.  Any command may be overridden by an alias (other than the
+ALIAS command itself, of course).
+
+> alias gbb get bread bag
+> alias gac get all corpse
+
+Type ALIAS <alias-name> to delete an alias that has already been defined.
+
+> alias gbb
+
+A semicolon (";") can be used to define multiple actions to be taken with
+a single alias.
+
+> alias eat get bread bag; eat bread
+
+Note that the 'eat' contained within the eat alias is interpreted as the MUD's
+internal eat command; aliases may not be nested or used recursively.  The
+variables $1, $2, ... $9 may be used to represent arguments given with
+an alias.  For example:
+
+> alias killem cast 'fireball' $1; cast 'harm' $2
+> killem fido mage
+
+Would cast fireball on fido, followed by casting harm on mage.  Variables
+may be used repeatedly and in any order:
+
+> alias helpem cast 'heal' $1; cast 'bless' $1; cast 'armor' $1
+
+The special variable $* represents the entire input line after an alias:
+
+> alias tr tell rasmussen $*
+> tr hi there, how are you today?
+You tell Rasmussen, 'hi there, how are you today?'
+
+See also:  ! ^
+#
+ALIGNMENT
+
+Your alignment plays a crucial role in your character's abilities.
+You picked a permanent align during your character's generation which
+will stay that align.  You also have a current align which changes
+depending on the alignment of the monsters/players you kill.  
+Ie. If you kill Satan (alignment = -1000) your alignment will fall
+drastically.  
+
+If your current align falls out of line with the perm align you will
+probably not be able to cast or pray for spells.
+
+Some religions will not accept you if your align differs from that
+god's alignment (which can be found if you type 'affirm').
+#
+"ANIMATE DEAD"
+Usage       : cast 'animate dead' <corpse>
+Sphere      :
+Duration    : Permenent
+
+Animates a corpse, and charms it under your control.
+
+See Also: SUMMON
+#
+APPRAISE
+
+This command allows you to either determine the worth of an item or
+see how much it will cost to have a service performed upon it (like
+repairing it or enchanting it).
+
+See Also: REPAIR ENCHANT_WEAPON
+#
+"AERIEL SERVANT"
+Usage       : cast 'aeriel servant'
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will conjure an aeriel servant to
+follow you.
+
+See Also: SUMMON, GATE
+#
+"ARMOR" "GHOSTLY SHIELD" "GROUP ARMOR"
+Usage       : cast 'armor' <victim> | cast 'ghostly shield' <victim>
+Accumulative: No
+Sphere      :
+Duration    : Based on Level
+
+These spells harden the target's current physical armor, and/or his/her
+flesh, making it harder to damage the target.
+
+See Also: -
+#
+ASSIST
+
+Usage: ASSIST <person in need>
+
+If Quifael is being beaten senseless by a warg and you feel brave enough
+to help him, type ASSIST QUIFAEL to hit the warg.  Note that the warg will
+keep hitting Quifael; assist only makes you start to fight whomever you're
+trying to assist.
+
+> assist quifael
+
+See also:  RESCUE, STUDY, FLEE, AUTOASSIST, COMBAT
+#
+ANSI COLOR
+
+If you have a color-capable terminal and wish to see useful color-coding
+of information, use the COLOR command to set the level of coloring you see.
+
+> color off
+This command disables all color.
+
+> color sparse
+> color normal
+> color complete
+
+These three commands turn color on to various levels.  Experiment to see
+which level suits your personal taste.
+
+Using color will slow down the speed at which you see messages VERY slightly.
+The effect is more noticeable on slower connections.  Even if you have
+color turned on, non-colorized messages will not be slowed down at all.
+
+Temporarily Disabled Color Codes that you will be able to insert into any
+text are:
+
+   Modifiers:
+   %N/%n - Normal Text   %B/%b - Bold Text   %F/%f - Faint Text
+   %U/%u - Underline (May not work on your screen)
+   %I/%i - Blinking/Flashing Text            %R/%r - Reverse Text
+
+   Foreground Colors:
+   %0 - Black (Invis)    %1 - Red            %2 - Green
+   %3 - Brown            %4 - Blue           %5 - Magenta
+   %6 - Cyan             %7 - Light Gray
+
+   Background Colors:
+   %8 - Black (Normal)   %9 - Red            %z - Green
+   %y - Brown            %x - Blue           %w - Magenta
+   %v - Cyan             %u - Light Gray
+
+   And %% will print the % sign.
+
+See also: COLORSPRAY
+#
+"ASTRAL WALK"
+Usage       : cast 'astral walk' <target>
+Accumulative: No
+Sphere      :
+
+This spell, if successfully cast, will transport the target to the
+Astral Plane.
+
+See Also: -
+#
+ATTRIBUTES
+
+    The allocation of system helps you create a more unique character.
+The * represents the amount of points you currently have on that stat.
+To raise a certain stat, simply type a plus (+) and then the key letter
+in the bracket of the target attribute.  To lower an attribute place
+a minus (-) before the keyletter.
+
+    Each race has a different set of predetermined attributes.  For
+instance, a human has all average stats.  But a half-giant, would have
+an above average strength yet below average intelligence.  So the
+attributes will be determined and shown accordingly.
+
+    To learn the certain spheres you need to have some basic pre-requisite
+attributes.
+
+Combat Proficiency              - High Strength and High Constitution
+General                         - All Attributes Average.
+Thaumaturgy                     - High Intelligence and High Dexterity
+Theomachy                       - High Wisdom and High Will Power
+Thievery                        - High Dexterity and High Intelligence
+
+See Also: COMBAT KNOWLEDGE THAUMATURGY THEOMACHY THIEVERY
+#
+AUTO AUTOASSIST AUTOLOOT AUTOEXIT AUTOGOLD
+
+These commands turn on some basic features that save you typing.
+
+     -	Autoassist will automatically assist the person you are following
+	  if he or she is attacked or attacks someone else.
+     -  Autoloot will get everything from the corpse of your victim once
+	  you kill him/her/it.
+     -  Autogold will get only coins from the corpse of your victim.
+     -  Autoexit will show the exits from the room when you enter it.
+
+See Also: TOGGLE INFOBAR SCOREBAR METER
+#
+BACKSTAB
+
+Backstab is a way to sneak up on a person and attempt to place your dagger
+in his back, at exactly the point where it does most damage.  A successful
+backstab gives a damage multiplier, depending on level:
+
+Levels  Multiplier
+------  ----------
+ 1-7        2
+ 8-13       3
+14-20       4
+21-30       5
+31-40       6
+41-50       7
+51-55       8
+
+The chance of successfully backstabbing a person depends on how well you
+have practiced backstab at your guild.  You can always backstab sleeping
+people.
+
+See Also: MURDER
+#
+BALANCE
+Sphere      :
+Accumulative: No
+Usage       : pray 'balance' <victim>
+
+This spell is quite powerful as it will change the victims alignment
+as well as their PERM ALIGN.  
+
+See also:  Alignment, Purify, Corrupt
+#
+BASH
+
+The success of a bash depends upon how well you are learned. To bash someone
+is to attempt to knock that person over. If you succeed you will inflict
+minor damage, and cause the victim to fall on it's rear. The victim will be
+unable to issue any commands for 3 rounds of violence. If you miss you loose
+your balance and fall.
+
+A bash makes you unable to type commands for 4 rounds of violence.
+Note that hitting a person who is resting/sitting will inflict 1.5*damage.
+
+See Also : KICK RESCUE PUMMEL
+#
+BEHEAD
+
+This is a skill which can be used to 'behead' a corpse.  There is no
+truly beneficial use to this skill except it is good for proof of kill.
+You must be using a slashing weapon to behead a corpse.
+#
+BERSERK
+
+A handy skill for fighters.  It hits EVERYTHING in the room that is not
+in the fighters group.  Be careful however, you will be unable to use
+any other command for a several rounds afterwards.  This skill will not
+be effective as the initial attack.
+
+See Also: COMBAT
+#
+"BLACK MANTLE"
+Usage       : cast 'black mantle' <victim>
+Accumulative: No
+Sphere      : 
+Duration    : Black mantle
+
+When affected by black mantle the victim receives double damage in
+combat.
+
+See Also: -
+#
+"BLADE BARRIER"
+Usage       : cast/pray 'blade barrier'
+Accumulative: no
+Sphere      : Conjuration
+Duration    : 1 game hour
+
+Summons a wall of blades which surrounds the entire room the caster is in.
+If anyone in the room tries to leave while it is in effect, they will take
+damage from the barrier.  If anyone tries to enter the room, they will 
+take damage.
+#
+BLESS
+Usage       : cast 'bless' <victim or object>
+Accumulative: No
+Sphere      :
+Duration    : 6 Hours, permanent for objects.
+
+Bless on a victim will improve the victims saving throw versus spells
+by 1, and furthermore improve the hitroll by 1.
+
+Bless on an item currently has no defined action. It is only possible
+to bless non-evil items, and the object blessed may weight no more
+than five pounds per level of caster.
+
+See Also: -
+#
+BLINDNESS
+Usage       : cast 'blindness' <victim>
+Accumulative: No.
+Sphere      :
+Duration    : 2 hours.
+
+Blindness will blind a victim failing its saving throw.
+A blinded person will have -4 penalty to hitroll and and -40 to AC.
+
+See Also: AC
+#
+BOARDS
+
+Bulletin boards are the forum of interplayer communication on the MUD.
+There are different bulletin boards for different purposes -- for example,
+a standard mortal board, a board for immortals, a board for fun "social"
+messages, etc.  Naturally, not all players may be allowed to read all
+types of boards.
+
+Type "LOOK BOARD" to see the messages already posted on a board.  Type
+"WRITE <subject>" to post a message to a board; terminate a message with
+a '@' as the first character on a line.  Type "READ <number>" to read a
+post.  Type "REMOVE <number>" to remove your own messages.
+
+> look at board
+> write Am I using these boards correctly?
+[writes the message; terminates with a '@']
+> look at board
+> read 6
+> remove 6
+#
+BRIEF
+
+Toggle "brief mode".  When in brief mode, you don't see the descriptions of
+the room you are in; only the name of the room and the people and objects
+there.  Unless you're very familiar with the area in which you're travelling,
+however, it is not advisable to use this command.  Frequently, you will find
+small but vital hints in the descriptions of the rooms: An extra peek at your
+surroundings could mean the difference between life and death!
+
+If you explicitly type 'look', you will always see the full room description,
+even in BRIEF mode.
+
+See also: COMPACT, LOOK
+#
+BUG TYPO IDEA
+For making useful suggestions to the Powers that Be.
+
+{bug | typo | idea} <text>
+
+> bug the entire game crashes when I type 'put bag in bag'
+> idea make a restaurant in Elrhinn
+> typo 'sence' should be spelled 'sense'
+#
+NEWBUILDER
+
+Do's and Don't for builders on The Dominion:
+
+The Do's
+--------
+1. Talk to Grendel or Kirahn before you do anything.
+2. Have your area planned out before you begin writing rooms/mobs/etc.
+3. Make a map to help you out.
+4. Try to keep syntax errors to a minimum.
+5. Write a colorful description.
+
+The Dont's
+----------
+1. Don't make silly names for rooms, areas, mobs, objs. Keep it serious.
+2. Don't put actions in the descriptions.  
+3. Don't put people in room descs.
+4. Don't put speech into a description.
+5. Don't copy rooms too often (don't make the same room desc over and over)
+6. Don't make more than one DT per zone unless absolutely necessary,
+   and dont make DT's silly; ex., You have just walked out a window and
+   fall to your doom!  No one would walk out a window in reality.
+
+Just try to put a lot of flavor into what you are doing but keep it
+concise.  Make the players exploring your zone get the feeling that
+they can picturize where they are by your descriptions.  
+#
+BUILDING
+
+   For those of you interested in obtaining the building documents for
+The Dominon, they should be available shortly via anonymous ftp from
+dominion.ulaverne.edu (login as anonymous, and password is your user name).
+They should be located in pub/dominion.  Also any ideas you may have for more
+skills, spells, classes, areas, mob interaction, quests, etc should be
+directed to mountcas@pluto.ee.cua.edu
+
+   Thanks,
+
+   - Glasgian
+#
+"BURNING HANDS"
+Usage       : cast 'burning hands' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the chill touch spell.
+
+See Also: CHILL TOUCH
+#
+BUY
+
+If you'd like to purchase an item from a shop and have the money, you can buy
+it.  Items can be bought by name, or by their number in the shop listing,
+and can be bought in quantity.
+
+Examples:
+
+> buy sword        (buy the first sword on the list)
+> buy #3           (buy the third item on the list)
+> buy 4.sword      (buy the fourth sword on the list)
+> buy 10 bread     (buy 10 pieces of bread)
+> buy 10 #2        (buy 10 of the second item on the list)
+
+See Also: SHOPS SELL LIST VALUE
+#
+"CALL LIGHTNING"
+Usage       : cast 'call lightning' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell will use the "force of nature" to make a lightning
+strike the victim. It is therefore only possible to call lightning
+outside, and it has to be raining (or worse).
+
+The lightning will inflict (level)d8 points of damage, up to a
+maximum of 15d8 damage points.
+
+See Also: WEATHER and CONTROL WEATHER
+#
+CASE
+
+This is a shady skill which allows you to study your opponent without
+them seeing you.  It also sizes up a few additional things that is not
+revealed when you normally 'study' the opponent.
+
+See also: STUDY
+#
+CAST
+
+For "magical" people. If you want to throw a spell at someone or something.
+Example : cast 'burning hands' <player>
+   Note that the name of the spell must be enclosed by "'"s.
+
+See also : help on each individual spell, for example:
+  > help cure light
+  > help ventri
+  > help energy drain
+
+See Also: THAUMATURGY, THEOMACHY
+#
+CHANNEL CHANNELS
+
+The Dominion has several different forms of communication accessible by
+Channels.
+
+wish       - This is a form of communication between you and the gods.
+	     Only you and the immortals online will be able to hear your
+	     wishes.
+say        - The most basic of all forms of communication.  Only heard by
+	     those in the room with you.
+whisper    - whisper <player> It will only be heard by the target of the
+	     whisper.
+tell       - tell <victim> You may use TELL to tell something to someone
+	     anywhere in the world (provided you can see them).
+OOC        - This is the only global channel.  It can be heard by everyone.
+Gossip     - This channel is only heard by people in the surrounding rooms.
+Shout      - Can only be heard by those in the zone with you.
+Guild      - Used for communication between members of a guild.  Can only
+	     be heard by those in YOUR guild.
+gsay/gtell - Used for communication between people in a group.
+
+See Also: MAIL BOARDS COMMUNICATION
+#
+CHARM "CHARM PERSON"
+Usage       : cast 'charm person' <victim>
+Accumulative: -
+Sphere      :
+Duration    : Based on Level
+
+This spell attempts to charm the victim under your control.
+
+See Also: ORDER
+#
+"CHILL TOUCH"
+Usage       : cast 'chill touch' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the magic missile spell.
+A victim failing its saving throw will get its strength
+reduced by one.
+
+See Also: MAGIC MISSILE
+#
+CLEAR CLS
+
+Clears the screen on many terminals.
+
+See Also: REDRAW
+#
+CLASS CLASSES
+
+The Dominion is a classless mud.
+
+See Instead: PRACTICE SPHERE GAIN
+#
+CLONE
+Usage       : cast 'clone' <victim or object>
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+Clone cast on a victim or object, will make a 'nearly' perfect copy.
+Clone has its limitations.
+
+See Also: -
+#
+CLOSE OPEN LOCK UNLOCK
+
+These commands allow you to do different things with doors and doorlike
+objects.  They are pretty self explanitory.   They are all used in the
+same manner:
+
+> open door
+> close door
+> lock door
+> unlock door
+
+If there is more than one door in the room you can specify the direction:
+
+> unlock door w
+> open door s
+> close door sw
+#
+"COLOR SPRAY"
+Usage       : cast 'color spray' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the lightning bolt spell.
+
+See Also: LIGHTNING BOLT
+
+For help on actual color, see:  ANSI
+#
+COMBAT PROFICIENCY
+
+	This sphere is the key to the art of warfare.  Masters of this
+art range from great military generals to moneyhungry mercenaries.  To
+excel in this field you will require great strength, stamina, and dexterity.
+The Captain of the Elrhinn Guard will begin your training in this sphere.
+
+See also: Sphere, Hand to Hand, Martial Arts, and Weapons.
+#
+COMMANDS
+
+The COMMANDS command gives a canonical list of all the known verbs.
+
+> commands
+
+Each command listed should have help available by typing "HELP <command>".
+#
+COMPACT
+
+This command toggles the extra blank line output to your screen after each
+command.  Useful if you have a small display.
+
+See also: BRIEF
+#
+CONJURATION
+
+   Conjuration is a sub-sphere of the Thaumaturgy.  After much study into
+this field you can become proficient at summoning dazzling, and dangerous
+creatures.
+
+See also: THAUMATURGY
+#
+CONSIDER
+
+See Instead: STUDY, CASE
+#
+"CONTROL WEATHER"
+Usage       : cast 'control weather' ('better' | 'worse')
+Accumulative: Yes
+Sphere      :
+Duration    : -
+
+This spell will change the "course" of the current weather.
+Example:
+
+> cast 'control wea' worse
+
+See Also: -
+#
+CORRUPT
+Usage       : pray 'corrupt' <victim>
+Sphere      : 
+Accumulative: No
+Duration    : Permanent
+
+This powerful spell deals massive damage to good aligned players and
+it brings their alignment and their PERM ALIGN down to evil as well.
+
+See also: alignment, purify, balance
+#
+"CREATE FOOD"
+Usage       : cast 'create food'
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+This spell instantly creates an edible magic mushroom. The mushroom
+will be filling for the next (5+level) hours, up to a maximum of 24 hours.
+
+See Also: -
+#
+"CREATE WATER"
+Usage       : cast 'create water' <drink container>
+Accumulative: No
+Sphere      :
+Duration    : Instantaneous
+
+Expect disastrous results if cast upon a drink container which contains
+another liquid than water. Empty or water containers will be filled
+depending on the level of the caster.
+
+Double amount of water will be created if it is raining (or worse).
+
+See Also: -
+#
+"CURE BLIND" "CURE BLINDNESS"
+Usage       : cast 'cure blind' <victim>
+Accumulative: No
+Sphere      :
+Duration    : Instantaneous
+
+This spell will cure a person blinded by the "blindness" spell, it
+can not remove blindness caused by for example cursed items.
+
+See Also: -
+#
+"CURE CRITIC"
+Usage       : cast 'cure critic' <victim>
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+This spell cures 3d8+3 hitpoints of damage.
+
+See Also: -
+#
+"CURE LIGHT"
+Usage       : cast 'cure light' <victim>
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+This spell cures 1d8 hitpoints of damage.
+
+See Also: -
+#
+"CURE SERIOUS"
+Usage       : cast 'cure serious' <victim>
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+This spell cures 2d8+2 hitpoints of damage.
+
+See Also: -
+#
+CURSE
+Usage       : cast 'curse' (victim | object)
+Accumulative: No
+Sphere      :
+Duration    : 7 Days, permanent on objects.
+
+Curse cast on a person that fails the saving throw, will reduce the
+hitroll by one, and reduce the saving throw versus paralysation by
+one.
+
+See Also: -
+#
+"CURSE ARMOR"
+Usage       : cast 'curse armor' <armor>
+Accumulative: No
+Sphere      :
+Duration    : Permanent
+
+This spell will enchant non-cursed armors only.  The only way
+to know if a piece of armor is suitable for enchantment is to
+fully identify it.
+
+The message for this spell appears the same as enchant armor so on-
+lookers will have no idea that you are really cursing it.
+
+See Also: "CURSE ARMOR"
+#
+"CURSE WEAPON"
+Usage       : cast 'curse weapon' <weapon>
+Accumulative: No
+Sphere      :
+Duration    : Permanent
+
+This spell will enchant non-cursed weapons only. The only way to
+know if a weapon is suitable for enchantment is to fully identify it.
+
+The message for this spell appears the same as enchant weapon so on-
+lookers will have no idea that you are really cursing it.
+
+See Also: "CURSE ARMOR"
+#
+DECEPTION
+
+The skills within this subsphere will help hone your abilties towards 
+becoming a better spy, assassin or thief....whiever path you happen to
+choose.  Sneak, shadow, and hide are the basics for attaining these shadowy
+goals.
+#
+DEPOSIT
+
+This command allows you to deposit money into your bank account.  It can
+only be used inside a bank or around a money lender.
+
+See Also: BALANCE WITHDRAW
+#
+"DETECT ALIGNMENT" "SOUL SEARCH"
+Usage       : cast 'detect alignment' | cast 'soul search'
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+This spell allows you to see the alignment of others in the same room as
+yourself.
+
+See Also: -
+#
+"DETECT EVIL"
+Usage       : cast 'detect evil' [self]
+Accumulative: No
+Sphere      :
+Duration    : 5 hours per level
+
+Detect evil will enable you to see the red aura surrounding evil
+persons and items.
+
+See Also: -
+#
+"DETECT INVISIBILITY"
+Usage       : cast 'detect invisibility' [self]
+Accumulative: No
+Sphere      :
+Duration    : 5 hours per level
+
+This spell enables you to see invisible items and players.
+
+See Also: -
+#
+"DETECT MAGIC"
+Usage       : cast 'detect magic' [self]
+Accumulative: No
+Sphere      :
+Duration    : 5 hours per level
+
+This spell will let you see the magical aura surrounding magical
+objects.
+
+See Also: -
+#
+"DETECT POISON"
+Usage       : cast 'detect poison' (victim | food | drink)
+Accumulative: No
+Sphere      :
+Duration    : Instantaneous
+
+Cast on food or drinks (drink containers) you will be able to
+sense if it is poisoned.
+
+Cast on a person you will be able to see if that person is
+poisoned.
+
+See Also: -
+#
+DISEASE "PLAGUE"
+Usage       : cast 'disease' <victim> | cast 'plague'
+Accumulative: Yes
+Duration    : Based on level
+Sphere      :
+Save        : Versus spell for half damage.
+
+Disease will infect the target with the plague, which is a highly contagious
+diseae.  Plague will infect EVERYONE in the room other than the caster with
+the plague.  It is recommended that you do not spend any length of time with
+those affected by the plague.
+
+See Also: -
+#
+"DISPEL EVIL"
+Usage       : cast 'dispel evil' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      : Faith
+Save        : Special
+
+This spell will only affect evil creatures. An evil person of level
+equal or less than caster will suffer 100 damage points.
+
+If the victim is higher level than caster, the spell will inflict
+(caster_level)d4 damage points, saving throw versus half damage.
+
+See Also: -
+#
+"DISPEL GOOD"
+Usage       : cast 'dispel good' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      : Faith
+Save        : Special
+
+This spell will only affect good creatures. An good person of level
+equal or less than caster will suffer 100 damage points.
+
+If the victim is higher level than caster, the spell will inflict
+(caster_level)d4 damage points, saving throw versus half damage.
+
+See Also: -
+#
+"DISPEL ILLUSION"
+Usage       : cast 'dispel illusion' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will disbelieve a monster you think is an illusion.
+
+See Also: SUMMON, GATE
+#
+"DISPEL MAGIC"
+Usage       : cast 'dispel magic' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell, if successful will remove all spell affects from the target.
+
+See Also: -
+#
+DISPLAY PROMPT
+
+Modify your prompt to show your hit points, mana, movement points,
+experience, tank's condition, and/or enemy's condition.
+
+display <H | M | V | X | T | E | all | auto | off>
+
+> display hv            Display hit points and movement points
+> display off           Return to normal display
+> display all           Display hit, mana, move points, exp, and enemy.
+> display auto          Display hit, mana, and move when they are below 30%
+
+See also:  TOGGLE
+#
+DISMOUNT MOUNT
+
+These commands allow you to ride and get off certain animals within the
+game.  Riding is a faster and less tiring way to get around The Dominion.
+
+See Also: -
+#
+DONATE
+This command takes an object that you no longer want and deposits it in the
+donation room of Midgaard to assist newbies in getting started.  There is
+a 75% chance objects donated will wind up in a donation room in Phalar
+and a 25% chance the item will be junked.
+
+donate <object>
+donate <number> coins
+
+> donate shield
+> donate all.bread
+> donate 500 coins
+
+See also: JUNK
+#
+EARTHQUAKE
+Usage       : cast 'earthquake'
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : -
+
+This spell will damage everybody except the caster by
+1d8+level_of_caster hitpoints.
+
+See Also: -
+#
+EAT DRINK SIP TASTE
+If you're hungry or thirsty, these commands are for you!
+
+> eat bread
+> taste bread
+> drink from cup
+> sip fountain
+#
+EMOTE :
+Show people what you're feeling.  The shorthand is ":".
+
+"emote <string>" will display your name, then the string.  For example,
+if your name is "Quifael",
+
+> emote is feeling very sad today.
+
+will display:
+
+Quifael is feeling very sad today.
+
+See also: SOCIALS
+#
+"ENCHANT WEAPON"
+Usage       : cast 'enchant weapon' <weapon>
+Accumulative: No
+Sphere      :
+Duration    : Permanent
+
+This spell will enchant non-magical (non-modifying) weapons only.
+By non-modifying weapons we refer to weapons that might alter any
+ability such as for example damage. The only way to know if a weapon
+is suitable for enchantment is to fully identify it.
+
+The enchantment will modify the weapon as:
+
+Level    Hit Roll    Damage
+
+ 0..17     +1         +1
+18..19     +2         +1
+20+        +2         +2
+
+See Also: -
+#
+"ENCHANT ARMOR"
+Usage       : cast 'enchant armor' <armor>
+Accumulative: No
+Sphere      :
+Duration    : Permanent
+
+This spell will enchant non-magical (non-modifying) armors only.
+By non-modifying armors we refer to armors that might alter any
+ability such as for example hit/mana/move. The only way to know
+if an armor is suitable for enchantment is to fully identify it.
+
+See Also: -
+#
+"ENERGY DRAIN"
+Usage       : cast 'energy drain' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell does not give much damage, but victims failing their
+saving throws will loose up to 40,000 XP points. You will gain
+a quarter of this XP.
+
+Beware that this spell is evil.
+
+See Also: -
+#
+ENTER
+
+If you type 'enter' while you are outdoors, you'll enter any nearby
+shelter.  You can also The Dominion 'enter' with an argument; for
+example, 'enter window'.
+
+See Also: -
+#
+EQUIPMENT
+
+Gives you a list of all the equipment you're wearing, holding, and wielding.
+
+See also: INVENTORY
+#
+EVALUATE
+
+This little skill allows you to assess the value, weight, damage (if
+it is a weapon) and a few other little things about the target object.
+
+#
+EXAMINE
+
+May give you some valuable information about an item.
+
+See also: LOOK
+#
+EXITS
+
+Gives you a list of the obvious exits from your location. Of course,
+the less obvious ones won't show up here - you have to THINK in order
+to locate those.
+
+See Also: -
+#
+EXPERIENCE XP
+
+Whenever you kill a monster or a player, you earn experience points. When
+enough experience points are earned, you raise a level.
+
+Things you should know about experience points:
+
+  * When damaging a monster, you get experience points.
+
+  * If you kill a monster of higher level than yourself, you get bonus
+    experience points. If killing a monster of lower level you'll gain
+    less experience points
+
+  * When you successfully complete a quest, or one of the many puzzles
+    within the game you gain experience.
+
+  * When you are found to be role-playing your character well, you may be
+    awarded addition experience.
+
+  * When damaged by someone you lose experience points.
+
+  * When you flee you lose experience points.
+
+  * When you do something stupid you lose experience points.
+
+See Also: GROUP GAIN COMBAT
+#
+FILL
+
+If you want to fill a container you're holding with liquid from a
+fountain in the same room as you.
+
+> fill canteen fountain
+
+See also: POUR
+#
+FIREBALL
+Usage       : cast 'fireball' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      : Invocation
+Save        : Versus spell for half damage.
+
+This spell invokes a large flaming ball which is propelled at high
+speed at your intended victim.
+
+See Also: COLORSPRAY
+#
+"FIRE STORM"
+Usage       : cast 'fire storm'
+Accumulative: No
+Sphere      :
+
+This spell causes it to rain fire on the surrounding area, covering all those
+not grouped with the caster with burning embers.
+
+See Also: "ICE SHOWER", "METEOR SWARM"
+#
+FIREWALL
+Usage       : cast 'firewall' <victim>
+Accumulative: No
+Sphere      : Enchantment
+Duration    : 1 game hour (tick)
+
+This spell conjures forth a wall of fire which surrounds one target.  That
+person affected by the spell cannot leave the room and will take damage 
+trying.  The victim under the spell cannot be attacked until the spell wears
+off.
+#
+FLAGS
+
+Players sometimes have FLAGS after their names in the WHO list.  These
+flags are always in parentheses, not brackets or braces.
+
+FLAG        MEANING
+----------- ---------------------------------------------------------
+(NEWBIE)    Players with this flag cannot be attacked by other players.
+(invis)     Player is invisible; you can see him/her because you are
+	     sensitive to the presence of invisible things.
+(writing)   Player is writing on the board; do not disturb.
+(mailing)   Player is writing mail; do not disturb.
+(editing)   Immortal is editing the world; DO NOT DISTURB.
+(deaf)      Player has chosen not to hear shouts.
+(notell)    Player has chosen not to accept tells.
+(quest)     Player is participating in a quest currently being run by
+	     the Gods.
+
+See Also: STEAL VISIBLE NOSHOUT NOTELL QUEST
+#
+FLEE
+
+If you are in a fight and things are beginning to get a little uncomfortable
+(maybe your are dying), just type 'flee', and presto! you are out of harm's
+way - that is, IF there is a suitable exit nearby, and IF that exit doesn't
+simply bring you from the ashes to the fire... but then, who wants to live
+forever?
+
+WARNING: It is now very tough to flee from mobs (and players) several levels
+	 above yours.  Be smart about who or what you wish to fight.
+
+See Also: STUDY WIMPY
+#
+FLY
+Usage       : cast 'fly' <victim>
+Accumulative: Yes
+Duration    : Based on level
+Sphere      :
+
+This spell causes the target to float off the ground.  Great for crossing
+large chasms and canyons or seeing what really lives up in the sky.
+
+See Also: -
+#
+FOLLOW SHADOW
+
+Use FOLLOW to automatically follow someone else.
+
+> follow ras
+> follow self
+
+Use SHADOW to secretly follow someone else.
+
+> shadow ras
+> shadow
+
+See Also: -
+#
+"FREE ACTION" "CURE PARALYSIS"
+Usage       : cast 'free action' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will cure the victim of his/her paralysis.
+
+See Also: -
+#
+"FORCE BOLT"
+Usage       : cast 'force bolt' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+This spell creates a huge shockwave which is directed at the target.
+
+See Also: -
+#
+GARROTTE
+
+Usage:  garrotte <victim>
+
+The garrotte skill is available only to masters of murder, it enables
+them to instantly kill one opponent, player or mobile.  The use of this
+skill requires an extreme amount of determination so the user will lose
+several hundred piety points.
+
+See Also: MURDER
+#
+GAROU KINNSLAYER
+
+Garou is one of the Elder Gods in The Dominion.  He has been the lord of
+the forests for many years, has won many battles protecting his honor.
+The Kinnslayer's Pack is and always has been one of the strongest deities
+in the Dominion.  His followers are very devoted to him.
+
+See Also: RELIGION AFFIRM DENOUNCE
+#
+"GATE ONE" "GATE" "GATE TWO" "GATE THREE" "GATE FOUR"
+Usage       : cast 'gate one'
+	      cast 'gate two'
+	      cast 'gate three'
+	      cast 'gate four'
+Duration    : Instantaneous
+Sphere      :
+
+If successful these spells will conjure monsters from other planes.
+
+See Also: SUMMON, GATE
+#
+GLASGIAN CREATOR
+
+Glasgian is the Creator of All.  Because of his humble nature he is
+not often seen.  His followers are very strong usually and do their duty
+as Protectors of the Light well.
+
+See Also: RELIGION AFFIRM DENOUNCE
+#
+GET TAKE
+
+If you find something interesting on the ground, you may use 'get' to pick
+it up.  'get' can also be used to extract items from containers.
+
+> get sword corpse
+> get all corpse
+> get all all.bag
+> get all.bread all.bag
+
+See Also: DROP PUT
+#
+GAIN
+
+To advance in your career (gain levels), you must visit the leader of
+your hometown (the Template in Elrhinn at the moment for everyone).
+
+See Also: EXPERIENCE, GUILDS, LEVELS
+#
+GENERAL GENERAL_COMMANDS
+
+The general commands used in the game are:
+
+North  South  East  West  Up  Down  Northeast  Northwest  Southeast
+Southwest Exits  Sleep  Wake  Scan  Sit Stand Rest  Eat  Drink  Write
+Look Read Examine Score  Fill   Pour  Open  Close  Equipment  Inventory
+Time  Weather   Wield Wear   Hold   Gain   Quaff   Recite   Get   Enter
+
+See Also: COMMANDS HELP
+#
+GIVE
+
+If you feel benevolent, you may give some stuff to someone in need.
+
+give <object> <victim>
+give <number> coins <victim>
+
+> give all garou
+> give bread glasgian
+> give all.bronze kirahn
+> give 400 coins aramina
+
+See Also: -
+#
+GOLD PURSE
+
+This command shows how many gold pieces you have in your purse.
+
+See Also: -
+#
+GRAB HOLD
+
+For getting a good grip on something; a torch, for example.
+
+> hold torch
+> grab stone
+
+See Also: WEAR, WIELD, EQUIPMENT, REMOVE
+#
+KIRAHN BLOODLORD
+
+The Overseer is the Supreme Lord of Darkness.  His followers have a very
+chaotic method to their ways and are sometimes called Bloodriders.  They are
+out there to further themselves and nothing else.  No religions make allies
+with the Bloodriders because the chances of the peace being broken is very
+high.  There is little honor in the Overseer's heart.
+
+See Also: RELIGION AFFIRM DENOUNCE
+#
+GROUP
+
+Usage : GROUP [player]
+	GROUP all
+
+GROUP with no arguments shows the status of your group.  GROUP <player>
+adds or removes <player> from your group.  GROUP ALL adds everyone who is
+following you to your group.
+
+If you are a group member, then you will share experience points for killing
+monsters equally among the group. Experience points will only be shared among
+group members that are in the same location, at the time of the killing
+blow. Sharing is regardless of whether the group members have been
+participating in the fight.
+
+Group with no argument shows a list of people with whom you are grouped.
+"group all" groups all people who are following you.
+
+To make a group, a "leader" must be selected. All members of the group
+must then "follow" the leader using the follow command. The leader should
+NOT follow anyone at all! The leader can now toggle group membership for
+each player in the group, by using "group <player_name>". The leader
+should remember to include himself in the group.
+
+Example:
+
+Quifael and Redferne wishes to group with Dragon.
+
+Quifael : "follow dragon"
+Redferne: "follow dragon"
+(Dragon should be following no one but himself)
+Dragon  : "group dragon"
+Dragon  : "group redferne"
+Dragon  : "group quifael"
+
+Later when Dragon get upset at Quifael (because he is sleeping all the time)
+he types : "Group Quifael" to kick Quifael out of the group.
+
+See Also: XP EXPERIENCE UNGROUP
+#
+GSAY GTELL
+
+Tell something to all the members of your group, even if they're not in
+the room.
+
+See Also: TELL SAY
+#
+GUILDS GUILD
+
+   Guilds play an important role in the everyday life of The Dominion.
+No longer will you just go to a guild for the sole purpose of gaining and
+training.  Each guild has it's own basic philosophy on how life should be
+led.  Some guilds are evil, some are fanatics, some are loremasters, some
+are filled with death dealing assassins.  Each guild is run by a guild leader
+who can 'advance' and 'accept' more members.  If you are in a guild,
+type GUILD without any arguments to see who is in your guild, type
+GUILD <messg> to chat between members of your guild.  It is ILLEGAL
+for ANY Immortals to be in a guild, interefere with any guild policy
+(except Kirahn who is allowed to do anything he wishes), or have
+a mortal character as a guild leader.  If any immortals are caught
+breaking this rule, they will be demoted or deleted altogether.
+
+See Also: SPHERE ADVANCE PETITION RANK ACCEPT CHANNELS REJECT
+#
+RANKS
+
+Each guild has several different ranks.  The guild leader may advance
+members of his/her guild to higher ranks at his/her disposition.  You
+do not gain any physical power (ie HP/MANA/MOVES) when you advance in rank 
+within the guild but gain more political power.
+
+See Also:  ADVANCE GUILD PETITION
+#
+HASTE
+Usage       : cast 'haste' <victim>
+Accumulative: No
+Sphere      :
+
+This spell hastens the target so that they are harder to hit and hit others
+more often.  Yet, this spell also ages the victim 1 year.
+
+See Also: -
+#
+HARM
+Usage       : cast 'harm' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell removes all but 2d4 hitpoints from the victim IF he or she
+is less than or equal to half of the caster's level.  Otherwise,
+the spell does 8d8 damage to the victim.
+It is not possible to kill using this spell (but almost).
+
+See Also: -
+#
+HEAL "GROUP HEAL"
+Usage       : cast 'heal' <victim>
+Accumulative: No
+Sphere      :
+Duration    : Instantaneous
+
+Heal will heal all the hitpoints from a person, except 1d4 points.
+Maximum 100 points can be healed. A victim who is blinded will also
+be cured by the heal spell.
+
+See Also: "Cure Blindness"
+#
+HELP
+
+Following help is available:
+
+HELP help       - This text.
+HELP            - A list of some of the most useful commands.
+
+Help searches for a partial match of the entered word, including any
+spaces that may follow the word.
+
+Example:
+> 'help magic mis'
+    will find the help text for the magic missile spell.
+
+> 'help mag '
+   will not match anything.
+
+> 'help mag'
+   will match 'magic user' or 'magic missile' depending on first
+   occurrence in the help file.
+
+See Also:  COMMANDS SOCIALS
+#
+HIDE
+
+When you type hide there is a chance that you hide in the room. If hidden
+you can only be "sensed" by the "sense life" spell. Even if sensed your
+identity will remain hidden. Hide is broken by pressing return, regardless
+of whether you typed a command or not.
+
+Example:
+
+> hide
+  Ok.
+>  (you wait for ex. 5 mins and remain hidden for 5 mins)
+
+>  (You pressed enter and no longer hide)
+
+See Also: -
+#
+HOUSE HOUSES
+
+The HOUSE command is used to add or remove guests from your house's guest
+list.  You must be standing in your house to use this command.  Only the
+primary owner of a house (not guests) may change the guest list using the
+HOUSE command.
+
+Usage: house [<player name>]
+
+Typing 'house' with no arguments gives a list of the people currently on
+your house's guest list.  Typing 'house' with the name of a player will add
+that player to your guest list if the player is not on the list, or will
+remove the player from the guest list if the player is already on the list.
+The player specified must be in the player database for the MUD, although
+he or she does not necessarily have to be logged on at the time.
+
+Guests of your house will be able to enter your house until you remove them
+from the guest list.
+
+%I*** HOUSES HAVE BEEN TEMPORARILY DISABLED ***%N
+
+See Also: HOUSES
+#
+"ICE SHOWER"
+Usage       : cast 'ice shower'
+Accumulative: No
+Sphere      :
+
+Upon casting this spell shards of razor sharp ice will rain down upon the
+area, hitting all those not grouped with the caster.
+
+See Also: "FIRE STORM", "METEOR SWARM"
+#
+"ILLUSIONARY PRESENCE" "ILLUS PRES ONE" "ILLUS PRES TWO" "ILLUS PRES THREE" "ILLUS PRES FOUR"
+Usage       : cast 'illus pres one'
+	      cast 'illus pres two'
+	      cast 'illus pres three'
+	      cast 'illus pres four'
+Duration    : Instantaneous
+Sphere      :
+
+If successful these spells will create illusionary monsters which
+will follow you around and obey your orders.
+
+See Also: SUMMON, GATE
+#
+IMPLEMENTOR CREATOR
+
+The most powerful being in existence.
+i.e. Glasgian
+
+See Also: GLASGIAN KIRAHN GAROU
+#
+INFINITE "INFINITE LOOP"
+
+See Instead: LOOP,INFINITE
+#
+INFO NEWS POLICY CREDITS VERSION DISCLAIMER
+
+These commands show you important information about The Dominion.  It
+is a good idea to read them every once in a while.
+
+info         - useful information about the game for beginners
+news         - latest changes to the code and areas
+policy       - policies on topics like playerkilling
+credits      - the people who made The Dominion possible!
+version      - displays the current The Dominion version number
+disclaimer   - displays the short disclaimer which you agreed to by
+	       playing this MUD.
+
+See Also: -
+#
+INFOBAR SCOREBAR METER RESIZE
+
+These commands turn on and off the graphical Infobar, Scorebar, and
+Enemy Health Meter.  These displays may not work for everyone, so if
+it doesn't work properly for you, turn it off, please don't sit there
+and whine about it.  Resize will change the size of your screen and
+hopefully fix any problems those without 24 line displays have.
+
+See Also: DISPLAY
+#
+INN INNS CRYOGENIC CRYO RECEPTION
+
+Inns are places where the weary traveller may rest while the innkeeper looks
+after his equipment and treasure.
+
+Specifically, the game will save your equipment while you are logged out.
+There is a daily cost for renting, based on your equipment.  Each item has
+a per diem charge.  The per diem charge is calculated to the nearest second,
+however -- if you rent at the rate of 2400 coins per day, and you come back
+39 hours later, you will be charged 3900 coins.
+
+A CRYOGENIC CENTRE will store your items for a one-time charge of four
+days rent.
+
+Rent files are deleted if you run out of money to pay the per diem charges
+or after 30 days.  Cryogenic-rent files are deleted after 60 days.
+
+See Also: OFFER RENT
+#
+INFRAVISION "UNDEAD EYES"
+Usage       : cast 'infravision' <victim> | cast 'undead eyes' <victim>
+Accumulative: No
+Sphere      :
+Duration    : Based on level
+
+This spell allows the target to see in the dark.
+
+See Also: -
+#
+INVENTORY
+
+If you're uncertain about what you're carrying, or simply want to check
+that no thieves have got to your backpack.
+
+See Also: EQUIPMENT
+#
+INVISIBILITY
+Usage       : cast 'invisibility' <victim | object>
+Accumulative: No
+Sphere      :
+Duration    : 24 hours, permanent on objects.
+
+Self Explanatory.
+Attacking while invisible will immediately break the spell.
+
+See Also: "detect invisibility"
+#
+JUNK
+
+Use JUNK instead of DROP if you want to keep the world a little cleaner.  If
+you JUNK something, it will disappear and you'll get a few coins or experience
+points, just as if you had dropped it in the dump.
+
+donate <object>
+donate <number> coins
+
+> junk cup
+> junk all.bronze
+> junk 500 coins
+
+See also: DROP DONATE
+#
+KICK
+
+The success of a kick depends upon how well you are learned. The higher
+level you reach the harder you kick. There is one small catch -- whenever
+you kick (or miss) you will be unable to type any command for three
+rounds of 'Violence' -- so be sure that you do not need to flee!
+
+See Also: RESCUE BASH COMBAT
+#
+KILL HIT
+
+A good way to start a fight.
+
+For killing other players try MURDER.
+
+See Also: MURDER
+#
+KNOCK
+Usage       : cast 'knock' <door>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will unlock a locked door.
+
+See Also: "PASS DOOR"
+#
+"GENERAL KNOWLEDGE"
+
+   Skills which are not limited to one particular field of study are
+contained within the sphere of General Knowledge.  The Sage of Elrhinn
+should be able to aid you further in this field.
+
+See Also: SPHERE
+#
+LEAVE
+
+If you feel claustrophobic, typing 'leave' will make you use the nearest
+obvious exit to the outside.
+
+See Also: -
+#
+LEVELS
+
+Lists the levels of your guild.
+
+See Also: GAIN GUILD
+#
+LIFESTEAL
+Usage       : cast 'lifesteal' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will remove life from the victim and give it to
+the caster.
+
+See Also: -
+#
+"LIGHTNING BOLT"
+Usage       : cast 'lightning bolt' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the shocking grasp spell.
+
+See Also: SHOCKING GRASP
+#
+LINK
+
+A lot of players have problems with their links to the game.  This can be
+very hazardous to your health in the middle of a battle, of course.
+
+ I. If your link is broken, you will automatically attempt to flee each
+    time someone attempts to hit you.  If you manage to flee, then you
+    will be saved by divine forces, and put in a safe place until you
+    reconnect to the game.
+
+II. If your link jams (freezes), you have a problem.  The only solution we
+    can give is that you break your link as quickly as possible.  By
+    breaking the link you can hope that the above procedure is initiated.
+
+    Do not try to get out of a fight by breaking link.  You will be not
+    reimbursed for any experience or equipment if you purposefully
+    cut your link.
+
+See Also: Stevens, Advanced Unix Programming
+#
+LIST
+
+If you'd like to see what items a shop has for sale, take a look at the
+list.  The list contains all of the items currently for sale and in
+what quantity.  The price for each item is also listed.  If you are
+interested in a particular type of item, you can specify which items to
+list.
+
+Examples:
+
+> list             (list all items for sale)
+> list sword       (list all swords for sale)
+
+See also: SHOPS BUY SELL VALUE
+#
+"LOCATE OBJECT"
+Usage       : cast 'locate object' <object>
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+If possible you will know exactly where an object is, or the
+name of the person using it. If more than one object by the
+same name exists, you will get a listing of several objects.
+The maximum number of objects you can simultaneously locate is
+your level divided by 2.
+
+See Also: -
+#
+LOOK
+
+For studying your surroundings. Examples:
+look
+look AT the angel
+look IN the bag
+look TO the south   (or just: look south)
+
+Note that if you LOOK AT CORPSE you will not see its inventory.
+To see what's inside a container (i.e. a corpse) use LOOK IN <OBJECT>.
+
+See Also: EXAMINE, READ
+#
+LOOP  "LOOP, INFINITE"
+
+See Instead: "INFINITE LOOP"
+#
+LOOTING
+
+This subsphere of Thievery contains the skills necessary for being a 
+pickpocket.  Steal and peek are the most commonly practiced skills spawned
+from this sphere.
+#
+"MAGIC MISSILE"
+Usage       : cast 'magic missile' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This is the least powerful offensive magic user spell.
+
+See Also: -
+#
+MAIL CHECK RECEIVE
+
+The commands used by the Phalar Mail System (PMS) are MAIL, CHECK, and
+RECEIVE.  These commands can only be used while in an Official MMS Post
+Office.
+
+To write mail to Quifael:
+> mail quifael
+
+To check and see if you have any mail waiting:
+> check
+
+To ask the Postmaster to give you your mail, if you have any waiting:
+> receive
+
+Due to the dangerous nature of The Dominion and the refusal of many
+people to become letter carriers, stamps now cost 150 coins each.
+
+See Also: -
+#
+"MAJOR GLOBE OF INVULNERABILITY" "MAJOR GLOBE"
+Usage       : cast 'major globe' <victim>
+Accumulative: No
+Sphere      :
+
+This spell makes the victim temporarily immune to medium powered magics.
+
+See Also: "MINOR GLOBE"
+#
+MEDITATE MEDITATION
+
+This command allows you to meditate, during which time you'll regain
+hit, piety and movement points at an increased rate.
+
+Once you type anything (including enter) you will no longer be meditating.
+
+See Also: -
+#
+"MEDUSAS GAZE"
+Usage       : cast 'medusas gaze' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will petrify the victim.
+
+See Also: -
+#
+"METEOR SWARM"
+Usage       : cast 'meteor swarm'
+Accumulative: No
+Sphere      :
+
+This spell causes tiny red-hot meteorites to rain down upon all those in the
+area who are not grouped with the caster.
+
+See Also: "FIRE STORM", "ICE SHOWER"
+#
+"MINOR GLOBE OF INVULNERABILITY" "MINOR GLOBE"
+Usage       : cast 'minor globe' <victim>
+Accumulative: No
+Sphere      :
+
+This spell makes the victim temporarily immune to low powered magics.
+
+See Also: "MAJOR GLOBE"
+#
+"MONSTER SUMMON ONE" "MONSUM" "MONSUM TWO" "MONSUM THREE" "MONSUM FOUR"
+Usage       : cast 'monster summon one'
+	      cast 'monster summon two'
+	      cast 'monster summon three'
+	      cast 'monster summon four'
+Duration    : Instantaneous
+Sphere      :
+
+If successful these spells will conjure monsters from  somewhere else in
+the world.
+
+See Also: SUMMON, GATE
+#
+MOBPROGS
+
+Some NPC's in The Dominion have been made to be semi interactive.  By
+saying certain keywords, giving certain objects or amounts of money,
+they may respond or react to your actions.  We suggest that you try many
+different commands when trying to interact with these NPC's.
+#
+MULTIKILLING MULTIKILL
+
+Multikilling is defined as killing the SAME player more than once within
+1 MUD Day (approx one half-hour real time).  Multikilling WILL NOT be
+tolerated and those who are caught multikilling will be banned.
+
+All player deaths are logged to a file, so it will only be a matter of
+time before the person is caught.
+
+This is your ONE and ONLY warning against this.
+
+For further information read the POLICY.
+
+See Also: POLICY NEWS MOTD
+#
+MURDER
+
+This subsphere contains the skills needed to carry out the dark art of
+taking lives, both by secrecy as well as out and out 'dagger in the throat'
+killings.  
+
+See also:  THIEVERY, DECEPTION, LOOTING
+#
+NEWBIE NEWBIES
+
+   A newbie is anyone from level 1 - 5.  They cannot pkill or be pkilled.
+Newbies start out with the bare essentials here at The Dominion to aid
+them in their rise of power and glory.
+   Darkweir Hallows is an ancient forest south of Elrhinn designated
+especially for new players.  There they can find monsters to kill as well
+as some more items that can help them out.  Even though it is a place for
+newbies to learn the basics of fighting and is relatively easy, it is
+still a dangerous place.  It may be wise to seek out other newbies
+and form a party to venture into the dark hallows.
+   Newbies also have the added bonus of being able to type 'recall' or
+'/' to bring them right back to the Elrhinn Town Square, it is hoped that
+this will give newbies the incentive to go out and explore.
+
+See Also: HELP
+#
+NOREPEAT
+
+This command toggles whether or not you see your communication echoed
+back to you (i.e., from commands such as SAY, SHOUT, HOLLER, GOSSIP, etc.)
+Useful if you have a slow connection or if it just annoys you.
+
+See Also: TOGGLE BRIEF COMMANDS
+#
+NORTH SOUTH EAST WEST UP DOWN NORTHEAST NORTHWEST SOUTHEAST SOUTHWEST
+
+These commands allow you to walk in a given direction.
+
+See Also: MOUNT
+#
+NOSHOUT
+
+NOSHOUT toggles whether or not you hear shouts.  (deaf) will appear after
+your name in the WHO list.
+
+See Also: FLAGS SHOUT WHO
+#
+NOTELL
+
+Use NOTELL if you wish to prevent other players from using "tell" to
+communicate with you.  (notell) will appear after your name in the WHO
+list if you have notell on.
+
+See also: FLAGS TELL WHO TOGGLE
+#
+OFFER RENT
+
+For use in the receptions of inns.
+
+Offer makes the innkeeper tell you the cost of storing your belongings
+for one day.  Rent stores you belongings and exits you from the game.
+When you re-enter, you will start where you rented.
+
+NOTICE:  We have changed the rent system so that now, you will get rent
+	 based on your level.  It breaks down like this:
+
+		CREDIT = (800) x LEVEL
+
+This will make it so a level 5 player will get a 4000 Gold Rent Credit.
+the innkeeper will tally up how much all of his eq costs and subtract
+it from the Credit.
+
+ex. If player has 4000 gold worth of eq on him and he is level 5
+he will be under the limit and will be able to rent free of charge.
+
+> offer
+> rent
+
+Note: If you type QUIT, all your equipment will fall to the ground and
+      will _NOT_ be saved.
+
+See Also: INNS
+#
+OOC
+
+The OOC channel is the "Out-Of Character" Channel.  It is the
+only world wide channel and is only for talking out Out of Character.
+Please do not abuse this channel or it will be removed.
+
+See Also: CHANNELS
+#
+OPEN CLOSE LOCK UNLOCK
+
+To open, close, lock, and unlock doors, of course.
+
+<open | close | lock | unlock> <door> [direction]
+
+> open portal
+> lock door
+> unlock door south
+> close gate
+
+See Also: PICK
+#
+ORDER
+
+Used for ordering pets and charmed people to do your evil bidding.  You
+can order everyone under your command with "order followers".
+
+order <character> <command>
+order followers <command>
+
+> order puppy eat bread
+> order cityguard sleep
+
+See also: CHARM
+#
+PALM "QUIVERING PALM"
+
+Palm is an instant kill.  You can palm those who have hit points in
+a certain proportion to yours.
+
+See Also: MARTIAL ARTS
+#
+PETITION
+syntax: Petition <guildname>
+
+This command allows you to make the petitioned guild aware that you
+wish to be considered for enrollment into the guild.  You need only
+petition a guild once...You will receive mudmail declaring you rejected
+or accepted into the guild.  
+
+See also:  REJECT ACCEPT
+#
+"PASS DOOR" "GROUP PASS DOOR"
+Usage       : cast 'pass door' <door>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will allow you to pass through the target door.
+
+See Also: KNOCK
+#
+"PICK LOCKS"
+
+Thieves only.
+For picking locks.  Not all locks can be picked.
+
+pick <door>
+
+> pick door
+> pick safe
+
+See Also : OPEN, CLOSE, LOCK, UNLOCK
+#
+POISON
+Usage       : cast 'poison' <victim | food | drink>
+Accumulative: Yes on persons.
+Sphere      :
+Duration    : 2*level hours, or permanent on food and drinks.
+
+Casting poison on food or drink (containers) will poison it.
+Eating poisoned food/drinks will poison the person eating or
+drinking.
+
+A person who is poisoned will suffer 2 points of damage every
+hour, and gain less points than usual.
+
+See Also: "detect poison" or "cure poison"
+#
+PORTAL "GROUP PORTAL"
+Usage       : cast 'portal' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+
+This spell, if successful with create a portal between you and your target.
+
+See Also: -
+#
+POUR
+If you want to pour some liquid from one container to another.
+
+> pour canteen cup
+
+See also: FILL
+#
+"POWER WORD KILL"
+Usage       : cast 'power word kill' <victim>
+Accumulative: No
+Sphere      :
+
+If successfully cast this spell will kill the intended victim, and age the
+caster 5 years.
+
+See Also: DEATH
+#
+PRACTICE PRACTISE
+
+Through the use of the practice command you will learn and improve your
+skills and spells.  To use the command you must seek out the person who
+teaches the skill you wish to learn.
+
+If you want to see which skills you already have or those that you are
+eligible to learn, just type sphere.  Or sphere <sphere name> to see
+skills that are encapsulated within that sphere.
+
+This command also shows how many practice points you have remaining. 
+Practice points are a way for us to gauge how much you can learn based
+upon the experience you have accumulated in your travels.
+
+See also: SPHERE GAIN EXPERIENCE
+#
+PURIFY
+Usage       : cast 'purify' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will do a tremendous amount of damage to an evil
+victim or cure and heal a good character.  This is the only spell which
+can change a player's permanent alignment.
+
+See Also: -
+#
+THEOMACHY PRAYER
+
+Rigorous study in this field can prove fulfilling both spiritually and
+physically.  High Priests have the ability to call upon their god at
+any time for aid.  To excel in this sphere one must have wisdom beyond
+their years, a strong mind and willful soul.
+
+See also: SPHERE, "ACTS OF THE DEITIES", "HAND OF THE DEITIES", CURES,
+	  AFFLICTIONS, and FAITH
+#
+"PROTECTION FROM EVIL"
+Usage       : cast 'protection from evil' [self]
+Accumulative: No
+Sphere      :
+Duration    : 24 hours
+
+This spell will protect you from being attacked by aggressive monsters.
+
+See Also: -
+#
+"PROTECTION FROM GOOD"
+Usage       : cast 'protection from good' [self]
+Accumulative: No
+Sphere      :
+Duration    : 24 hours
+
+This spell will protect you from being attacked by aggressive monsters.
+
+See Also: -
+#
+PUMMEL
+sphere: Hand to Hand
+Usage : pummel <victim>
+
+If you are not using a weapon, you can 'pummel' your opponent and do
+some sweet damage to them.
+#
+PUNCH
+
+Right now, punch is only a social :( But soon it will be just like the 
+KICK skill.
+#
+PUT
+
+For putting items into containers.
+
+> put bread bag
+> put all.bread bag
+> put all chest
+
+See also: GET
+#
+QSAY
+
+To tell something to everyone on the current Quest.
+
+See also: QUEST
+#
+QUAFF POTION POTIONS
+
+Use : Quaff <Potion>
+
+Quaff is used to "drink" a (magical) potion.
+
+See Also: -
+#
+QUEST
+
+This simple toggle command merely informs the Powers that Be that you
+wish to participate in the currently running Quest.  If an immortal
+is running a Quest and needs to know who wishes to participate, he/she
+will ask players to turn on their Quest flags using this QUEST command
+if they are interested in the Quest.  It also allows you to listen in on
+the quest channel and receive information specific to the quest.
+
+> quest
+
+See also:  QSAY
+#
+QUI SHUTDOW
+
+Just to prevent accidental quittings and/or shutdowns.
+This command doesn't DO anything, it simply is.
+
+See Also: LOOP
+#
+QUIT
+
+When you get tired of playing, you can leave the game by typing 'quit'.
+Note that quitting this way causes any items you might be carrying to
+simply be left on the ground.  If you wish to have your equipment stored,
+you'll have to find an inn and pay rent.
+
+See also: INN
+#
+HUMAN
+
+Human :  The standard race in The Dominion.  No class restrictions, no level
+limitations, hail from all parts of this reality.  Once the most numerous of
+the races, the human species has slowly levelled out with the other types of
+creatures and now finds themselves not atop the ladder of sheer numbers, but
+on the same rung as everyone else.  Tall, short, skinny, robust, powerful,
+weak, intelligent, stupid: all shapes and sizes and consequently, that makes
+them the most adaptable race in The Dominion.
+
+No bonuses.  No minuses.  No affections of any kind.
+#
+ARMACHNAE "HIGH ELF"
+
+This race of elves prides themselves in being that of A purer strain than the
+rest.  Taller and slender than the other tribes, the Armachnaen Elves devote
+most of their time to study and mental abilities, seeing hand-to-hand combat
+as barbaric.  Often pale, with fair hair, this race exists on the surface of
+the land, but withdraws from other groups, so as not to defile themselves.
+They make solid clerics, druids, and good mages.
+
+Bonuses:    +1 Int / +1 Wis    Minuses: -1 Str / -1 Con
+Affections: None
+#
+TARMIRNAE "GREY ELF"
+
+Over 2000 years ago, a split occurred within the High Elf city where one
+faction stressed staying pure to their roots while the other advocated a
+mingling with other races.  The "Grey Elves", as the Tarmirnae came to be
+called, were banished from the Armachnaen society.  Making their home in the
+forests, these elves are well-rounded individuals who delight in learning
+new things when they can.  Somewhat shorter than their fellow elves, many
+are dark-haired and of a darker shade of skin.
+
+Bonuses:  +1 Wis    Minuses:  -1 Con
+Affections: 50% chance of infravision.
+#
+RADINAE "WILD ELF"
+
+A lost race of The Dominion, these Elves have remained hidden, until now.
+Savage, nomadic, and tough, the Wild Elves are scorned by their fellows as
+barbaric and stupid.  But this group isn't as incompetent as one might think.
+Most are tall, muscular, and tan from all the time spent outdoors.  The
+Radinae make excellent fighters and rangers, gaining a slight bonus in
+ability if either are chosen as a way of life.
+
+Bonuses:  +1 Con / +1 Dex    Minuses: -2 Int / -2 Cha
+Affections: Automatic Infravision.
+#
+DROW "DARK ELF" DARGONAE
+
+Once thought to be a legend, this race of elves is a reality that some wish
+hadn't come true.  Living for most of their lives below the surface of the
+earth, the Drow are one of the few races that is almost totally evil as a
+people.  Some have strayed from their blood-thirsty ways of life, and still
+more have left their homeland and chosen to walk on the surface.  White-
+haired and dark-skinned, the Dargonae are normally shunned by all other
+species in The Dominion.  They make excellent thieves and fighters, gaining
+minor bonuses if chosen.
+
+Bonuses:  +2 Dex / +1 Int     Minuses: -1 Str / -1 Con / -1 Cha
+Affections: Automatic Infravision.
+#
+THURGAR
+
+Clan Thurgar :  Much like the High Elves, this race of dwarves has been the
+ruling class for thousands of years, holding complete control on the rest of
+the clans with an iron fist.  Very wise and very hardy, they treat most other
+races with respect and honor, both of these things being intrinsic to the
+dwarven way of life.  Most members of this clan distrust magic, which is why
+minor subtractions occur if that class is picked.
+
+Bonuses:  +2 Str / +2 Con     Minuses: -1 Dex
+Affections: Resistant to some magic.
+#
+DAERWAR
+
+Clan Daerwar :  These dwarves believe that in knowledge, lies strength, and
+so the Daerwar have naturally studied every scrap of knowledge that they
+could find in The Dominion.  Magic and spellcrafting are intrinsic to their
+way of life, for without the Art, they have no purpose; nothing to strive
+for.  Easily picked out from their brothers and sisters by the ritual scars
+that decorate their hands, this race is one to be reckoned with at higher
+levels as they are extremely potent in magic.
+
+Bonuses:    +2 Wis / +1 Int    Minuses: -1 Dex / -1 Con / -1 Cha
+Affections: Spell strength increases at very high levels.
+#
+KAERGAR
+
+Clan Kaergar :  This holy order of the dwarves is a strong one, so strong
+in fact, that their numbers rival that of the Thurgar.  Believing that
+religion and belief are intrinsic to strength, the Kaergar concentrate
+them-selves on only a few professions, but their powers in those classes
+are considerable.  Be it the Order of Kirahn, the Religion of Glasgian, or
+the Tribe of the Kinnslayer, this race is made up of crusaders and devout
+worshippers, worthy foes one and all.
+
+Bonuses:  +1 Wis / +2 Con    Minuses:  -1 Dex / -1 Cha
+#
+ZAKHAR
+
+Clan Zakhar :  A small race of dwarves from the south-eastern mountains
+known as the Fallorian Cliffs, the Zakhar are the dwarven counterpart to
+the Drow race.  Delighting in bloodshed, torture, and black magic, this
+vile race has been persecuted and hunted by their fellow brothers to the
+point of near genocide.  Today, less than 1000 remain, but in their reduced
+numbers, the Zakhar have found strength and will one day rise up again to
+wreak havoc on dwarven society and take their revenge. . . . .
+
+Bonuses: +1 Str / +1 Con     Minuses:  -3 Cha
+#
+KENDER
+
+An offbreed of the Halfling society, these troublemakers are one of the most
+annoying races found in The Dominion.  Short in stature, light on their feet,
+and devoid of guilt, the Kender constantly find themselves in trouble and
+adventure.  While not especially powerful clerics or mages, Kender are born
+thieves with high dexterity and good wisdom scores.  Sadly, there is no way
+to shut them up, so if one tags along on a journey, be prepared for a non-
+stop stream of chatter.
+
+Bonuses:  +3 Dex / +1 Wis     Minuses: -2 Str / -1 Con / -1 Cha
+Affections: Automatic Infravision,  Immunity to Fear.
+#
+HALFLINGS HALFLING
+
+Distant cousins of the dwarves and reluctant brothers to the Kender, the
+Halfling society in The Dominion isn't a large one.  Short, independent,
+and very quick on their feet.  Most have a love for the outdoors, which
+makes them good rangers with a solid dexterity and good constitution ratings.
+The bonus to dexterity can also be used in the most chosen guild for
+Halflings, the thief.  Though not universally loved, they're not universally
+hated either.
+
+Bonuses:  +3 Dex / +1 Con      Minuses: -2 Str / -1 Cha
+Affections: Automatic Infravision.
+#
+HALF-GIANT
+
+Large, brutish, and ugly, the giants of The Dominion love a good fight.
+Barbaric in nature, they are some of the strongest creatures alive.  This
+brutal instinct is rarely held in check since their intelligence leaves
+something to be desired.  Most are simple fighters, but a few have picked up
+on the art of spell-casting and fight as rangers.
+
+Bonuses: +3 Str / +3 Con    Minuses: -2 Wis / -3 Int / -3 Cha
+Affections: None
+#
+CENTAURS
+
+Half-horse and half-man, these fun-loving nomads are surprisingly intelligent.
+Lovers of nature and masters of woodland spellcasting, they make some of the
+best druids and rangers in The Dominion.  The Centaurs don't believe in
+cliques or tribes, all are one under their way of life.  Consequently,
+most all of them worship the God of Nature, Garou.  Although some follow
+Glasgian or Sand.  All in all, the philosophy of the centaur is to have a
+good time, to which they do with abandon!
+
+Bonuses:  +2 Dex / +1 Str     Minuses: -1 Cha / -1 Int
+Affections: Sense Life
+#
+SESSANATHI LIZARD-MAN
+
+Twisted, lizard-man beasts, this race was a product of Kirahn's twisted
+imagination.  Several thousand men and woman were forced to undergo a
+horrific type of metamorphosis that changed them into dragonspawn.
+They are shunned all over The Dominion by the original races, and are
+all believed to be evil incarnate.
+
+Bonuses:    +1 Str / +2 Wis       Minuses: -1 Dex / -3 Cha
+Affections: None
+#
+ATHASIANAE "HALF ELVES" "HALF ELF"
+
+Usually the product of Wild Elves and humans, the Athasianae are a species
+with no culture to call their own.  Most Elven tribes and sects routinely
+shun them, while the human population with their normal distrust of elvish
+things, also tend to shut the half-elves out.  So with persecution on all
+sides, this race has better survival tactics than any other in The Dominion.
+With human blood, they don't lose the point of Con that most other elves do.
+The only way to really identify them from humans is the pointed ears that
+most grow their hair long to hide.
+
+Bonuses:    +1 Dex / +1 Con     Minuses:  -1 Cha
+Affections: None.
+#
+HALF-OGRE
+
+This race is one to be reckoned with.  Tall, slimmer than ogres but much
+bigger than humans, the half-ogres gain the best aspects of both species,
+with the added intelligence of a human to the brutal strength of the ogres.
+Most dwell in the northern mountains with the snow and the polar bears,
+but they love to travel, rarely staying in one place for any length of time.
+As a result, they can be found in cities and towns, although that is not to
+say that they are especially well treated.  Due to a genetic deficiency, all
+members of this race, male and female, are bald.
+
+Bonuses:    +1 Str / +2 Con      Minuses:  -1 Int / -1 Wis / -1 Cha
+Affections: None.
+#
+QUINTALS KINTHALAS "KINTHALASIAN MINOTAURS"
+
+The larger clan of the minotaur race, this is the species most general-
+isations are made from.  The Kinthalasian way is that of war and fighting.
+To gain rank and status in their society, you must fight your way there, or
+die trying.  Intelligent, strong, and quick, they can fight easily with their
+bare hands or with weapons, depending on what is needed or close at hand.
+Located on a small peninsula on the western reaches of The Dominion, few
+have ever seen their homeland, as they routinely kill all intruders.  Strict
+and militaristic, a single minotaur is a fearsome opponent.  Several would
+be close to unstoppable. . . .
+
+Bonuses:    +2 Str / +2 Con     Minuses: -1 Wis / -1 Cha
+Affections: Ability to "gore" opponents.
+#
+BYTERIAN "BYTERIAN MINOTAUR"
+
+The smaller of the two sects, the Byterian Minataurs  have forgone the
+militaristic way of life for one of study and purification.  Honor, loyalty,
+and mental and physical unity are what they strive for.  Routinely scorned
+for their beliefs by the Kinthalasians, the Byterians still are worthy
+opponents as they mix mental abilities with physical ones.  Almost all of
+them are either monks or clerics, but a few look for union in other guilds.
+The Byterians are easily spotted from their brothers by their more slender
+builds, smaller horns, and the 4 earrings of emerald, sapphire, ruby, and
+stone that are worn in the left ears of the clan.
+
+Bonuses:    +2 Str / +1 Con    Minuses:  -1 Cha
+Affections: Ability to "gore" opponents.
+#
+GNOME GNOMES GNOMISH
+
+Gnomes are a race of short, thin, frail people.  They have the ability to
+see in the dark, and are exceptionally perceptive.  This perception aids
+them in the casting of spells, and thus they make very good spell-casters.
+Yet their poor constitutions and strengths limit their usefulness as
+fighters.
+#
+MINOTAUR MINOTAURS
+
+Minotaurs are a race of half-man, half-bull people.  They are a very
+proud, and thus very stubborn people.  They are very strong and stoic,
+yet not as dextrous as other races, also due to their unyielding
+stubbornness, they are also not as wise as some other races.  Though
+Minotaurs do not gain mana very well, they are able to take a tremendous
+amount of damage and still keep going.  Due to their extraordinary
+olfactory senses they can sense life within 5 yards of them.
+
+See Also KINTHALAS BYTERIAN
+#
+ELVES ELF
+
+The elves of The Dominion are, with the exception of the Drow, are a tall,
+slim people.  They all have the chance to see in the dark and most races of
+elf gain bonuses in dexterity at the expense of constitution.
+
+See also ARMACHANAE TARMIRNAE RADINAE DARGONAE
+#
+RACE RACES
+
+ Human                - Standard race with no restictions, bonuses or
+			minuses.
+ Armachnae (High Elf) - A tall, slender race who have high intelligence
+			and wisdom but lower strength and constitution.
+ Tarmirnae (Grey Elf) - Distant cousins of the Armachnae who live a forest
+			life.  They have high wisdom and dexterity but low
+			strength and constition.
+ Radinae (Wild Elf)   - A savage, nomadic race, well suited the the warrior
+			life.  They have high consititution and dexterity,
+			but low intelligence and wisdom.
+ Dargonae (Dark Elf)  - The only truly evil race of elves.  Returning to
+			the surface from generations of living underground.
+			They have infravision and high dexterity and
+			intelligence but low in charisma, strength and
+			constitution.
+ Thurgar (Dwarf)      - A wise, hardy race with a distrust and resistance
+			to magic.  High strength and constitution but low
+			dexterity.
+ Daerwar (Dwarf)      - These dwarves believe that in knowledge lies
+			strength.  They are well studied in all areas of
+			magic and as such have high wisdom and intelligence
+			but low dexterity, constitution and charisma.
+ Kaergar (Dwarf)      - Crusaders and devout worshippers one and all, no
+			matter what the religion.  They are known for their
+			wisdom and fortitude but lack dexterity and charisma.
+ Zakhar	(Dwarf)       - Small and vicious they attack other races of dwarf on
+			sight.  They have high strength and constitution and
+			a very low wisdom and charisma.
+ Kender               - Curious beings who are related to the halflings, they
+			have a very high dexterity but due to their small
+			stature they have a lower strength and constitution.
+ Halflings            - As agile as the kender but more hardy.  Halflings
+			have high dexterity and constitution, but low strength
+			and charisma.
+ Half-Giants          - A barbaric race that love a good fight.  They have
+			unnaturally high strengths and constitution but suffer
+			with an intense lack of intelligence, wisdom and
+			charisma.
+ Centaurs             - Half horse and half man, these creatures are at one
+			with nature.  Due to their form they have very high
+			dexterity and strength but low charisma.
+ Sessanathi           - An unnatural product of Kirahn's twisted mind.
+			These creatures are lizard-men who are very strong and
+			wise with low dexterity and charisma.
+ Athasianae (HalfElf) - A child of human and elf.  They retain the dexterity of
+			the Elves and the constitution of the Humans.  Though
+			due to their heritage they are shunned by both Humans
+			and Elves.
+ Half-Ogre            - Powerful humanoids who are known for their strength
+			rather than their quickness of mind.
+ Kinthalas Minotaurs  - A tribal band of minotaurs who honor combat above all
+			else, as such they are reknown for their amazing
+			strength and consitution.
+ Byterian Minotaurs   - The other tribe of minotaurs who strive for physical
+			and mental unity.  They are not as big in stature as
+			their Kinthalian brethren, yet are much more
+			intelligent.
+ Gnome                - Highly intelligent creatures.  Make great tinker's
+                        and alchemists as well as Mages - though they do
+                        not always grasp the full concept of magic.
+
+See Also: The help for the individual races.
+#
+"RANGED WEAPONS"
+Sphere: Combat Proficiency
+Sub-Sphere: Weapons Prof.
+
+Ranged weapons is a skill which allows you to fire a missile from
+a missile weapon at something or someone nearby within your range.  
+
+Syntax:
+SCAN                              (to see who is in range)
+LOAD <weapon> <missile>           (to ready your weapon)
+SHOOT <mob or player in range>    (shoots the missile)
+#
+READ
+
+When you want to read something.
+
+READ is also used to read messages on bulletin boards; type HELP BOARDS
+for more information.
+
+> read note
+
+See also: BOARDS
+#
+RECALL /
+
+This command allows newbies to spontaneously teleport back to the Center
+Square of Elrhinn.
+
+See Also: TELEPORT
+#
+RECITE SCROLL SCROLLS
+
+Use : Recite <Scroll> [Target]
+
+Is used to "read" a magical scroll. Target can be an object, character or
+nothing (which may be yourself).
+
+See Also: "READ MAGIC"
+#
+REFRESH
+Usage       : cast 'refresh' person
+Accumulative: No
+Sphere      :
+
+This spell refreshes the target returning all of his/her stamina to him/her.
+And making the target fully rested.
+
+See Also: TIRED
+#
+REJECT
+Level: Guild Leader
+
+This command allows the guild leader to reject a player who has 
+petitioned his/her guild.  It erases them from the Petition list.
+The rejected player will receive mudmail stating that they have been
+rejected from the guild they were petitioning.
+
+See Also:  ACCEPT GUILD
+#
+RELIGION RELIGIONS
+
+Religions play an integralpart in the Roleplaying aspect of The Dominion.
+Not only does it add another layer of depth to the game, it allows the
+players to band together and work together.  There are 5 different deities
+but each race has a different view of what the deity stands for, as well
+as may have a different name altogether.  Type AFFIRM to see which deities
+you may join.  The type AFFIRM <godname> to join that religion.
+To cast any spell within the Theomachy Sphere, you must be in a religion.
+
+Also see help on: AFFIRM
+#
+REMOVE
+
+If you tire of wearing some armor or wielding a weapon.
+
+> remove boots
+> remove sword
+> remove all
+> remove all.bronze
+
+See also: WEAR, WIELD, HOLD
+#
+"REMOVE CURSE"
+Usage       : cast 'remove curse' <person | object>
+Accumulative: No
+Sphere      :
+Duration    : Instantaneous
+
+Will remove a curse on carried objects or any persons in the room.
+
+See Also: -
+#
+"REMOVE POISON"
+Usage       : cast 'remove poison' <victim | food | drink>
+Accumulative: No
+Sphere      :
+Duration    : Instantaneous
+
+Will remove poison.
+
+See Also: Poison
+#
+REPORT
+
+This command sends a report of your current condition to your
+group.  You can use this command to let potential rescuers know
+how close to death you are without forcing them to use the "group"
+command.  It is designed as a convenience for groups with members
+who get lag or have slow modems.
+
+> report
+
+See Also: GROUP
+#
+RESCUE
+
+This command is useful if you want to try and make an attacker hit you
+instead of your poor friend who is being pummelled.  You can only 'turn'
+one monster for each rescue attempt.  This is highly useful when playing
+in groups, of course.
+
+Usage: rescue <victim>
+
+> rescue quifael
+
+See Also: HIT KILL "SWITCH OPPONENTS"
+#
+ROLEPLAYING RP
+
+   Role-playing is a term used in many different sorts of activities
+dating a long way back.  Most commonly used in Drama.  In drama, role-
+playing is the key to putting on a good performance.  The actors and
+actresses roleplay by putting themselves 'into the minds' of the character
+they are going to play.  If done well, the audience is thrilled to see
+such believable actors.
+   In The Dominion, we wish for you to Roleplay as well.  No one can tell
+you how to roleplay but they can all feel it.  Read the help on races and
+pay attention to how your race acts and the short history that belongs to
+your race.  For example, if you are a kender, small yet fearless, cunning
+yet annoying, you must try to think like the kender would think.  Speak
+loudly for no damn reason when your party is trying to sneak up on a known
+assassin.  Kender get themselves into trouble a lot.  See what you can do
+to cause some harmless trouble.  If you happen to be a brutish half-ogre,
+think how an ogre looks and acts in your mind then try to become that ogre.
+They lumber along with their clubs dragging on the ground as the clomp
+noisily through the brush.  They speak slowly and not the most intelligent
+beings in The Dominion.
+   Above all, the most important part of roleplaying is this:  Never
+play another character of yours the same way you play another.  Every
+different character has his own lifestyle and history.  Become someone
+else with each character you have.
+
+See Also:  RACES
+#
+SANCTUARY
+Usage       : cast 'sanctuary' [target]
+Accumulative: No
+Sphere      :
+Duration    : 3 hours
+
+When protected by sanctuary you can never receive more that one-half damage
+points in one strike.
+
+See Also: -
+#
+SAVE
+
+Save your persona.  This includes experience points, strength, gold, etc.
+Your equipment is also saved in the (unlikely?) event of a crash.  The
+game periodically auto-saves you and your equipment, so it is not necessary
+to have your client auto-save you as well.
+
+You CANNOT load a saved version if you die -- your persona still exists,
+but you will lose experience, and all your objects stay in the game, with
+your corpse.
+
+Note that the SAVE command only saves your equipment in the event of a
+crash.  If you are leaving the game normally, SAVE will NOT save your
+equipment -- you must find an Inn to store your belongings.
+
+> save
+
+See also:  INN RENT
+#
+SAY TELL ASK WHISPER SHOUT YELL HOLLER OOC GOSSIP '
+
+If you consider communicating with other beings, you might be understood
+better if you start your sentences with either say, tell, whisper or shout.
+
+<say | shout | holler> <string>
+<tell | whisper | ask> <player> <string>
+
+> say Hey, does anyone know how to get to the Adarkar Wastes?
+> tell uncle hi, how are you?
+
+You can use ' as a shorthand for say, as in: ' hello there.
+
+Shout broadcasts your message to everyone is your geographic zone.  Holler
+broadcasts to everyone in the game but costs 20 movement points.  You must
+be level 2 before you can use shout and yell.
+
+See also: GOSSIP AUCTION GSAY NOREPEAT QSAY
+#
+SCAN
+
+This command allows you to scan around you peering into the room around you
+looking for others.
+
+See Also: LOOK
+#
+SELL
+
+If you'd like to sell an item to a shopkeeper, trying selling it to them.
+Most shops specialise in what they will buy, so you may have to look around
+to find a buyer for your items.
+
+Examples:
+
+> sell sword       (sell the first sword in your inventory)
+> sell 3 sword     (sell the first three swords in your inventory)
+
+See also: SHOPS BUY LIST VALUE
+#
+"SENSE LIFE"
+Usage       : cast 'sense life' [self]
+Accumulative: No
+Sphere      :
+Duration    : 5 hours per level
+
+This spell will enable you to sense hidden life forms in a room.
+Invisible persons are also considered hidden.
+
+See Also: HIDE
+#
+"SHOCKING GRASP"
+Usage       : cast 'shocking grasp' <victim>
+Accumulative: -
+Duration    : Instantaneous
+Sphere      :
+Save        : Versus spell for half damage.
+
+This spell is more powerful than the burning hands spell.
+
+See Also: BURNING HANDS
+#
+SHOPS
+
+Shops are places where the adventurer may purchase equipment for his quests,
+and where he may sell his treasure if he should manage to survive the perils
+with his life and sanity intact. Many shops trade only in a specific type of
+merchandise. Thus, a baker may well refuse to buy your armor, even if it is
+of high quality!
+   To some people, the prospect of obtaining the entire inventory of a shop
+by murdering the keeper may appear tempting - but beware: The shopkeepers
+are often rugged, capable men; roughened by years of trading and, indeed,
+surviving in a world where the only safe prospect is death in the end.
+
+See also: BUY, SELL, LIST, VALUE
+#
+SKILLS SPELLS
+****************************************************************************
+                          Sphere: Hand To Hand
+Hand to Hand:
+bash                                      
+berserk                                   
+double attack                             
+grapple                                   
+kick                                      
+pummel                                    
+punch                                     
+rescue                                    
+switch opponents                          
+triple attack                             
+****************************************************************************
+                          Martial Arts:
+dodge
+karate
+quivering palm
+****************************************************************************
+Weapons:
+blunt weapons                             
+pierce                                    
+polearms                                  
+ranged weapons                            
+swords                                    
+throwing
+****************************************************************************
+                          General Knowledge:
+bandage
+read magic
+riding
+track
+****************************************************************************
+                          Conjuration:
+aerial servant                            
+blade barrier                             
+monster summon four                       
+monster summon one                        
+monster summon three                      
+monster summon two
+power word kill                           
+sum air elemental                         
+sum earth elemental                       
+sum fire elemental                        
+sum water elemental                       
+teleport
+****************************************************************************
+                          Divination:
+detect illusion                           
+detect invisibility                       
+detect magic                              
+detect poison                             
+locate object
+sense life                                
+soul search                               
+wizard eye
+****************************************************************************
+                          Enchantment:
+black mantle                              
+burning hands                             
+calm                                      
+chill touch
+curse armor                               
+curse weapon                              
+enchant armor                             
+enchant weapon                            
+firewall                                  
+fly                                       
+ghostly shield                            
+group pass door                           
+haste                                     
+shocking grasp                            
+sleep
+strength                                  
+trolls blood                              
+undead eyes                               
+****************************************************************************
+                          Entropic:
+animate dead
+clone
+lifesteal
+****************************************************************************
+                          Invocation:
+dispel magic                              
+energy drain                              
+fire storm                                
+fireball                                  
+ice shower                                
+lightning bolt                            
+magic missile                             
+phantasmic:
+color spray                               
+dispel illusion                           
+illus pres four                           
+illus pres one                            
+illus pres three                          
+illus pres two                            
+invisibility                              
+mask presence                             
+****************************************************************************
+                          Acts of Deities:
+call lightning                            
+charm person                              
+control weather                           
+curse
+earthquake                                
+gate four                                 
+gate one                                  
+gate three                                
+gate two                                  
+group portal                              
+meteor swarm                              
+plague                                    
+portal                                    
+****************************************************************************
+                          Afflictions:
+blind                                     
+disease                                   
+harm                                      
+harm critical                             
+harm light                                
+harm serious
+poison                                    
+****************************************************************************
+                          Cures:
+cure blind
+cure critical wounds                      
+cure disease                              
+cure light wounds                         
+cure poison                               
+cure serious wounds
+free action                               
+group heal                                
+heal                                      
+refresh                                   
+****************************************************************************
+                          Faith:
+dispel evil                               
+dispel good                               
+protection from evil                      
+protection from good                      
+turn undead                               
+****************************************************************************
+                          Hand of Deities:
+armor                                     
+balance                                   
+bless                                     
+corrupt                                   
+create food                               
+create water                              
+group armor                               
+infravision                               
+purify                                    
+remove curse                              
+sanctuary                                 
+silence                                   
+waterbreath                               
+waterwalk                                 
+****************************************************************************
+                          Deception:
+hide 
+shadow
+sneak
+****************************************************************************
+                          Looting:
+peek
+pick lock
+search
+steal
+treadlight
+****************************************************************************
+murder:
+backstab
+circle
+cudgle
+garrotte
+poison weapon
+stab
+
+- J Olvey
+
+See Also: SPHERES
+#
+SILENCE
+Usage       : cast 'silence' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell will prevent the victim from casting and speaking.
+
+See Also: -
+#
+SLEEP
+Usage       : cast 'sleep' <person>
+Accumulative: Yes (duration)
+Sphere      :
+Duration    : 4 hours + one hour per level
+
+If failing saving throw versus spell, the person will fall asleep.
+A person who is affected by sleep can only be awakened if attacked.
+
+See Also: -
+#
+SNEAK
+
+Used for sneaking (moving in and out of rooms without anyone taking notice).
+When you type sneak, there is no way to know if you're actually sneaking.
+If you successfully sneak, then you'll continue to sneak for a little while.
+
+> sneak
+
+See Also : HIDE
+#
+SOCIALS
+
+Socials are commands used to show your affective state to others.  The
+actor, victim and bystanders may receive different messages.  Generally,
+social commands are used only to express emotion, but it is possible that
+some mobs (or players) will take action based on the social.
+
+<social> [<victim>]
+
+> shake homer
+> applaud marge
+> stare
+
+The SOCIALS command generates a canonical listing of all available socials.
+
+> socials
+
+See Also: EMOTE
+#
+SCAN
+
+Scan is a utility anyone can use to 'scan' their surroundings.
+Just type SCAN and you will be shown any players or mobiles nearby
+and which direction they are in.  You will not be able to see them if
+they are hidden or invisible.
+
+See Also: LOOK
+#
+MAGIC
+
+Spells play an integral part in The Dominion.  Many mages have perfected
+spells which will be used for combat or a myriad of other things which
+require a magical touch.  Clerics, druids, rangers, mages, and even monks
+get different kinds of spells to assist them in the harsh world of The
+Dominion.
+
+You cannot know what spells you will have in the future anymore.
+
+If there is a problem with any spell, please be sure to use the
+'bug' command to report it.  Also if you have an idea for a new spell or
+would like to see a spell implemented that is on another MUD, use the
+'idea' command.
+
+See Also: THAUMATURGY, THEOMACHY
+#
+"SPHERE" "SPHERES"
+
+   The Dominion is now a classless realm.  If you type sphere you will access
+a general list of the 5 basic spheres you may attempt to train in.  You can
+train in any sphere you wish, but be warned you will only be able to train
+to a certain point based upon your attributes.  Ex. If you have a strength
+of 17 and an intelligence of 10 you will be able to train in the sphere of
+combat to a much higher proficiency than you would in the sphere of arcana.
+Within each of the 5 basic spheres (Combat, Thaumaturgy, Theomachy, Thievery,
+and General Knowledge) there are sub-spheres.  Ex.  If you practice combat
+enough you will notice that you can now train hand to hand combat.  The
+more you practice the basic 'combat' sphere the better you will be able
+to train the Hand to Hand sub-sphere.  The subspheres contain skills which
+help in everyday life.
+
+See Also: THEOMACHY, THAUMATURGY, COMBAT, THIEVERY, GENERAL KNOWLEDGE
+#
+"SOUL SUMMON ONE" "SOUL SUMMON TWO" "SOUL SUMMON THREE" "SOUL SUMMON FOUR"
+Usage       : cast 'soul summon one'
+	      cast 'soul summon two'
+	      cast 'soul summon three'
+	      cast 'soul summon four'
+Duration    : Instantaneous
+Sphere      :
+
+If successful these spells will conjure an undead being to serve you.
+
+See Also: SUMMON, GATE, "MON SUM"
+#
+STEAL
+
+Use steal to steal gold or items from people. The chance of not getting
+caught depends on how well you have practised steal, and if the person
+is asleep.
+
+You may now steal ANYWHERE, but beware if you are caught stealing in the
+city you will be flagged - if you get away with it, who's gonna know? :)
+
+Example:
+
+> steal gold drunk
+> steal sword mercenary
+  (only possible if he is sleeping or if its not equipped)
+
+See Also: TAKE
+#
+"SUMMON FIRE ELE" "SUMMON WATER ELE" "SUMMON EARTH ELE" "SUMMON AIR ELE"
+Usage       : cast 'summon fire ele'
+	      cast 'summon water ele'
+	      cast 'summon earth ele'
+	      cast 'summon air ele'
+Duration    : Instantaneous
+Sphere      :
+
+If successful these spells will conjure the specified elemental from the
+proper plane.
+
+See Also: SUMMON, GATE
+#
+THIEVERY
+
+This sphere contains the knowledge necessary to carry out acts such as
+looting, thieving and murder.  To excel in this area you need high
+dexterity, intelligence and charisma.  To begin your training as a rogue,
+seek the cunning halfling in the shadows of Elrhinn.
+
+See Also: SPHERE, LOOTING, THIEVING, and MURDER
+#
+"TROLLS BLOOD"
+Usage       : cast 'trolls blood' <victim>
+Duration    : Based on level
+Sphere      :
+
+If successful this spell will allow the victim to temporarily regenerate.
+
+See Also: -
+#
+STRENGTH
+Usage       : cast 'strength' <victim>
+Accumulative: Yes (strength)
+Sphere      :
+Duration    : Level hours
+
+A person will gain 1 strength point per spell (2 points if level of
+caster is greater than 18). Maximum strength is 18/100.
+
+See Also: -
+#
+STRING
+
+For changing the text-strings associated with objects and characters. The
+format is:
+
+string <type> <name> <field> [<string> | <keyword>]
+
+Type is either 'obj' or 'char'.
+Field is one of the following(the names may be abbreviated):
+Name                  (the call-name of an obj/char - kill giant)
+Short                 (for inventory lists (obj's) and actions (char's))
+Long                  (for when obj/character is seen in room)
+Title                 (for players)
+Description           (For look at. For obj's, must be followed by a keyword)
+Delete-description    (only for obj's. Must be followed by keyword)
+
+Where a string is expected as the last argument, a newline will make you enter
+a string mode, and the game will prompt you for new lines to the string until
+you exceed the maximum length for the string or you end a line with a '@'.
+
+Mobiles and objects currently can not be strung.
+
+See Also: "BUILDING DOCS"
+#
+STUDY
+
+This skill allows you to sum up your opponents abilities vs. your abilties.
+Mainly lets you know how much of a chance you have against the target
+of yor study.  Warning:  The target of the study will notice you checking
+them out.
+
+First line:  Your level compared to target of study.
+Second line: Their moves compared yours
+Final line:  How bad they will beat you up.
+
+See Also: CASE
+#
+SUMMON
+Usage       : cast 'summon' <victim>
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+Will summon a person of the name spoken. It is not possible to
+summon someone of three or more levels above yourself.
+If you attempt to summon a monster, it will get a saving throw.
+
+See Also: -
+#
+TELEPORT
+Usage       : cast 'teleport' [self]
+Accumulative: -
+Sphere      :
+Duration    : Instant
+
+Teleport (with error) will instantly transfer you to another location
+in the world. This location is random, and thus there will always be
+a risk of landing in a fatal location.
+
+See Also: -
+#
+THAUMATURGY
+
+	This sphere deals in the power of Magic.  It is often considered
+the weakest sphere but if enough time and devotion are put into the art
+it can be the most powerful of all.  To exccel in this sphere, you must
+be proficient in dexterity, wisdom, and of course, intelligence.  To
+begin your training Thaumaturgy, seek the wizard in the Tower of Magus.
+
+See also: SPHERE, CONJURATION, DIVINATION, ENCHANTMENT, INVOCATION,
+	  ENTROPIC, and PHANTASMIC.
+#
+TICK
+
+This approximately one minute real-life time, and exactly one hour game time.
+It randomizes every time, so it is not a good yard stick to judge time by.
+
+See Also: -
+#
+TITLE
+
+Sets the title people see on the WHO list.  You can't use parentheses
+(the "(" and ")" characters) because those are reserved for flags.
+
+Do not abuse this command; if you do, it will be taken from you.
+
+See also:  FLAGS
+#
+TIRED
+
+This meter counts down how long you need until you become so tired that
+you will need to sleep.  If you do become tired and refuse to sleep, you
+will regen less hp/mana/move at the tick.
+
+Sleeping for two ticks (i.e. 2 Game Hours) will restore you to fully-rested.
+#
+TOGGLE
+
+TOGGLE shows you the current values of various toggles available on the MUD.
+This command CAN NOT be used to change these values (see related commands.)
+All of these toggles remain the same until you change them; i.e. they are
+saved when you quit or rent.
+
+See Also: DISPLAY BRIEF COMPACT NOTELL NOSHOUT NOSUMMON QUEST
+	  REPEAT WIMP NOSPAM INFOBAR SCOREBAR METER
+#
+TRACK
+
+Used for finding the first step on the shortest route to a monster.
+
+> track fido
+
+See Also: HUNT
+#
+UNGROUP
+
+UNGROUP can be used by group leaders to disband the entire group, or
+to kick a specific group member out of the group (and stop him/her from
+following the leader).
+
+> ungroup
+> ungroup homer
+
+See also: GROUP
+#
+USE WAND STAFF STAFFS WANDS
+
+Use : Use <Staff>
+      Use <Wand> <Target>
+
+Using staff's will automatically target everybody (or everything) in a
+room, except yourself. Therefore staff's are naturally very powerful, and
+yet may be very dangerous to use around other players.
+
+Using wands require that you point it at a target, which can be either a
+character or an object.
+
+Both staff's and wand's must be HELD in the hand prior to use! (Use the
+grab or hold commands). You must still supply the name of the staff or
+wand to avoid confusion.
+
+See Also: MAGIC
+#
+VALUE
+
+Before selling an item to a shop, you can ask the shopkeeper how much
+he or she is willing to pay for it.
+
+Example:
+
+> value bread
+
+See also: SHOPS BUY SELL LIST
+#
+VISIBLE
+
+Use this command to break your spell of invisibility before it expires.
+
+See Also: INVISIBLE
+#
+WAKE SLEEPING REST SIT STAND
+
+For changing your position.  If you feel weary, it's probably a good idea
+to sit and rest for a while, or maybe even take a nap.
+
+See Also: TIRED
+#
+"Weapons Proficiency"
+
+This sub-sphere of Combat Proficiency holds skills which make your combat
+much more....proficient :)  Swords, Daggers, polearms, and blunt weapons
+all do the same thing pretty much depending on the type of weapon you
+are currently wielding.  If you know 'swords' and are wielding a sword,
+you will hit much more often, if you know 'blunt weapons' but are not 
+wielding a hammer, or other bludgeoning weapon, you will not hit as often.
+
+See also: Ranged Weapons
+#
+WEAR
+
+If you want to wear some clothes, armor or the likes.
+
+Also, to wear everything in your inventory (or at least try to, as wearing
+things like loaves of bread is not a good way to win friends and influence
+people) you can type "wear all".
+
+Optionally, you can specify what part of your body to wear the equipment on.
+
+> wear boots
+> wear all.bronze
+> wear all
+> wear ring finger
+
+See also: EQUIPMENT, REMOVE EQUIPMENT
+#
+WATERBREATH
+Usage       : cast 'waterbreath' <victim>
+Accumulative: No
+Sphere      :
+Duration    : Based on level
+
+Allows the target to breath underwater without drowning.
+
+See Also: -
+#
+WATERWALK
+Usage       : cast 'waterwalk' <victim>
+Accumulative: No
+Sphere      :
+Duration    : Based on level
+
+Allows the target to walk on water, removing the necessity of a boat.
+
+See Also: -
+#
+WHERE
+
+Tells you the location of a monster, a player or an object.
+
+Mortals can only "where" monsters or players, and only from their own
+zone.
+
+Immortals may type 'where' without arguments to see where everybody is.
+
+> where
+> where torch
+> where dragon
+
+See Also: WHO
+#
+WHO
+
+Lists the people currently in the game.  Some people may be invisible.
+
+See Also: WHERE
+#
+WIELD
+
+When you get tired of bashing monsters with your fists, you might consider
+wielding a weapon.
+
+> wield sword
+
+See also: EQUIPMENT, REMOVE EQUIPMENT
+#
+WIMP WIMPY
+
+Use the WIMP command to automatically wimp out of a fight.
+
+WIMP 35 will make your character automatically flee a fight if he/she has
+	less than 35% of his/her hit points.
+WIMP 0  will turn off wimpy mode.
+WIMP    will show you your current wimp status.
+
+See also:  TOGGLE
+#
+WISH
+
+This command allows you to speak to any immortals online.  No one will
+be able to hear your except the immortals.  Please do NOT use this channel
+for RP purposes, for chit-chat, this is for serious problems only.  Do not
+abuse this channel or you will be frozen.
+
+See Also: CHANNELS
+#
+WIZLIST IMMLIST
+
+Lists the most powerful beings on the MUD.
+
+See Also: INFO NEWS POLICY
+#
+"WIZARD EYE"
+Usage       : cast 'wizard eye' <victim>
+Duration    : Instantaneous
+Sphere      :
+
+If successful this spell allows the cast to get a glimpse of the room and
+all of its contents, that the victim is in.
+
+See Also: -
+#
+"WORD OF RECALL" "GROUP RECALL"
+Usage       : cast 'word of recall'
+Accumulative: -
+Sphere      :
+Duration    : Instantaneous
+
+The caster will be transferred back to his sanctuary (presently
+the Temple of Midgaard).
+
+See Also: -
+#
+WRITE
+
+In order to write a note, you need a piece of blank paper (or similar), and
+a pen of some sort. You can then type something like "write on the paper with
+the pen", whereupon you'll be asked to type in your note at the keyboard.
+
+WRITE is also used to post messages to bulletin boards.  Type HELP BOARDS
+for more information.
+
+See also: BOARDS
+#
+CIRCLEMUD
+
+	      C  I  R  C  L  E  M  U  D     3  .  0
+
+The Dominion was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+Johns Hopkins University's Department of Computer Science.  All code unique
+to The Dominion is protected under a copyright by the Trustees of the Johns
+Hopkins University.
+
+Many, many people contributed to The Dominion in one way or another throughout
+the course of its development.  Although it's impossible for me to remember
+them all, I'd like to extend special thanks to certain people:
+
+  -- Jeff Fink, for submitting a veritable mountain of excellent code.
+  -- Fred Merkel, Ryan Watkins, Jay Levino, and Sharon Goza, for other
+     code and area submissions.
+  -- Danny Baker, for single-handedly managing Circle's world files.
+  -- Brett Turner, for managing the The Dominion Mailing List.
+  -- Bryan Jolson, Steven Lacher, Cat Stanton, and Naved Surve, for being
+     there in the very early days of Circle's development.
+  -- Jean-Jack Riethoven, for porting the code to the Amiga.
+  -- Bill Bogstad and Tim Stearns, for allowing Circle to exist.
+  -- The DikuMUD folk, and the good old WhatMUD implementors Dave & Justin,
+     for starting the ball rolling.
+  -- And, of course, Ben, Erica, Aly, and Josh, for keping me sane.
+
+...plus everyone else in the Circle community who has submitted material!
+Thanks everyone!
+
+  Anoymous FTP:  ftp.cs.jhu.edu:pub/CircleMUD
+Author's Email:  jelson@cs.jhu.edu
+	URL:  http://www.cs.jhu.edu/other/jelson/circle.html
+  Mailing List:  circle@marble.bu.edu
+#~
+$
+
+
+

@@ -1,0 +1,144 @@
+#320
+Serdim-ir-Lesk~
+Gray~
+LOW-MID~
+3001 1
+32399 24 2
+*
+* Last Updated: Sat Nov 23 14:07:42 
+*           By: Kirahn
+*
+D 0 32171 1 1 100 		* Close Eastern door at Inside the Small Hut
+M 0 32003 1 32171 100 	* the old woman at Inside the Small Hut. (Max: 1)
+E 1 32012 1 18 100 			* And equip it with a black skull. (Max: 1)
+G 1 32006 1  100 			* And give it a black, twisted stick. (Max: 1)
+E 1 32013 1 13 100 			* And equip it with the Black Robe. (Max: 1)
+G 1 32007 1  100 			* And give it a dark witches scroll. (Max: 1)
+M 0 5665 4 32049 100 	* the current at End of the Chute. (Max: 4)
+M 0 5665 4 32048 100 	* the current at The Chute. (Max: 4)
+M 0 5661 2 32047 100 	* the current at The Chute. (Max: 2)
+M 0 5665 4 32046 100 	* the current at The Chute. (Max: 4)
+M 0 5663 4 32042 100 	* the current at Downhill River. (Max: 4)
+M 0 5665 4 32045 100 	* the current at Turn in the River. (Max: 4)
+M 0 5663 4 32044 100 	* the current at Gentle Downhill River. (Max: 4)
+M 0 5663 4 32039 100 	* the current at Speeding through the Rapids. (Max: 4)
+M 0 5664 1 32041 100 	* the current at Turn in the River. (Max: 1)
+M 0 5663 1 32040 100 	* the current at Racing Rapids. (Max: 1)
+M 0 5662 1 32038 100 	* the current at Over the Falls!. (Max: 1)
+M 0 5661 1 32037 100 	* the current at Downhill Rapids. (Max: 1)
+M 0 5660 1 32035 100 	* the current at Downhill Stream. (Max: 1)
+M 0 32000 40 32007 100 	* the sessanathi soldier at Serdim-ir-Lesk. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+E 1 32020 40 4 100 			* And equip it with some green scales. (Max: 40)
+M 0 32005 10 32007 100 	* a Leskbat at Serdim-ir-Lesk. (Max: 10)
+M 0 32009 5 32007 100 	* a strange, flailing bush at Serdim-ir-Lesk. (Max: 5)
+O 0 5893 1 32007 100 	* a hallow log at Serdim-ir-Lesk. (Max: 1)
+P 1 5890 1 5893 100 	* Put a silverleaf in a hallow log. (Max: 1)
+M 0 32008 1 32211 100 	* the mirror at End of the Mysterious Passageway. (Max: 1)
+D 0 32239 0 1 100 		* Close Northern door at Before the cave
+O 0 32030 2 32093 100 	* the singing mushroom at The Mushroom Garden. (Max: 2)
+O 0 32030 2 32092 100 	* the singing mushroom at The Mushroom Garden. (Max: 2)
+M 0 32000 20 32000 100 	* the sessanathi soldier at Serdim-ir-Lesk. (Max: 20)
+E 1 32003 20 17 100 			* And equip it with a long spear. (Max: 20)
+E 1 32020 20 4 100 			* And equip it with some green scales. (Max: 20)
+M 0 32005 12 32000 100 	* a Leskbat at Serdim-ir-Lesk. (Max: 12)
+D 0 32235 2 2 100 		* Lock and Close Southern door at Hallway within the Tower
+D 0 32236 2 2 100 		* Lock and Close Southern door at Hallway to the Tower
+D 0 32237 2 2 100 		* Lock and Close Southern door at Hallway to the Ancient Tower
+D 0 32238 2 2 100 		* Lock and Close Southern door at Hallway to the Tower
+D 0 32215 1 2 100 		* Lock and Close Southern door at The Chamber at the Top of the Tower
+D 0 32215 0 2 100 		* Lock and Close Northern door at The Chamber at the Top of the Tower
+D 0 32215 2 2 100 		* Lock and Close Southern door at The Chamber at the Top of the Tower
+D 0 32215 3 2 100 		* Lock and Close Southern door at The Chamber at the Top of the Tower
+D 0 32080 3 1 100 		* Close Eastern door at East of the Tree on Dry Land
+D 0 32081 1 1 100 		* Close Eastern door at Inside the Tree
+D 0 32004 2 1 100 		* Close Eastern door at Inside the Tree
+D 0 32086 1 1 100 		* Close Eastern door at Before the Gate
+D 0 32087 3 1 100 		* Close Eastern door at In the Mushroom Garden
+D 0 32170 3 1 100 		* Close Eastern door at The Small Hut in the Valley
+O 0 32000 1 32187 100 	* the Colossus of Phalar at Before the Colossus. (Max: 1)
+O 0 15 1 32233 100 	* the Dragonsword at A large room. (Max: 1)
+O 0 19 1 32234 100 	* Ring of the Dominion at The Dominion Room. (Max: 1)
+O 0 16 1 32233 100 	* the Dragonshield at A large room. (Max: 1)
+O 0 17 1 32233 100 	* a Bracer of the Dragon at A large room. (Max: 1)
+O 0 18 1 32233 100 	* Dragon Platemail at A large room. (Max: 1)
+O 0 32027 1 32232 100 	* the king's wealth at The golden room. (Max: 1)
+O 0 32026 1 32231 100 	* the scroll at A small chamber. (Max: 1)
+M 0 32004 2 32194 100 	* the wayguard at The Serdim-ir-Lesk Waypost. (Max: 2)
+E 1 32009 1 17 100 			* And equip it with a long sword. (Max: 1)
+E 1 10104 1 13 100 			* And equip it with a long, gray cloak. (Max: 1)
+O 0 32001 1 32082 100 	* the window at The Bedroom. (Max: 1)
+P 1 32015 1 32001 100 	* Put a pair of dark red arm bracers in the window. (Max: 1)
+P 1 32016 1 32001 100 	* Put dark-red plate leggings in the window. (Max: 1)
+P 1 32017 1 32001 100 	* Put a dark-red visor in the window. (Max: 1)
+P 1 32018 1 32001 100 	* Put a dark-red shield in the window. (Max: 1)
+P 1 32019 1 32001 100 	* Put a dark-red bladed axe in the window. (Max: 1)
+M 0 32011 1 32083 100 	* Thyet Weltinelf at The Small Study within the Tree. (Max: 1)
+G 1 32029 1  100 			* And give it a key. (Max: 1)
+O 0 32028 1 32094 100 	* the singing mushroom at The Mushroom Garden. (Max: 1)
+P 1 32002 1 32028 100 	* Put a small key in the singing mushroom. (Max: 1)
+M 0 32000 40 32216 100 	* the sessanathi soldier at The sharp grass. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+M 0 32000 40 32221 100 	* the sessanathi soldier at Corner of the Swampy Pool. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+E 1 32020 40 4 100 			* And equip it with some green scales. (Max: 40)
+M 0 32000 40 32014 100 	* the sessanathi soldier at A small trail through the Serdim-ir-Lesk. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+M 0 32000 40 32198 100 	* the sessanathi soldier at Edge of a murky pool. (Max: 40)
+E 1 32020 40 4 100 			* And equip it with some green scales. (Max: 40)
+M 0 32000 40 32201 100 	* the sessanathi soldier at Pool in Serdim-ir-Lesk. (Max: 40)
+M 0 32000 40 32098 100 	* the sessanathi soldier at A muddy pool. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+E 1 32020 40 4 100 			* And equip it with some green scales. (Max: 40)
+M 0 32000 40 32120 100 	* the sessanathi soldier at On the Swampy Pool. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+M 0 32000 40 32109 100 	* the sessanathi soldier at On the Pool. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+E 1 32020 40 4 100 			* And equip it with some green scales. (Max: 40)
+M 0 32000 40 32106 100 	* the sessanathi soldier at On the Pool. (Max: 40)
+E 1 32003 40 17 100 			* And equip it with a long spear. (Max: 40)
+M 0 32006 1 32034 100 	* the draduml at In a Muddy Bog. (Max: 1)
+M 0 32006 1 32225 100 	* the draduml at Deep Water in the Serdim-ir-Lesk. (Max: 1)
+M 0 32006 1 32098 100 	* the draduml at A muddy pool. (Max: 1)
+M 0 32001 3 32014 100 	* the sessanathi shaman at A small trail through the Serdim-ir-Lesk. (Max: 3)
+E 1 32004 3 17 100 			* And equip it with a long vine whip. (Max: 3)
+G 1 32021 3  100 			* And give it a green potion. (Max: 3)
+G 1 32005 2  100 			* And give it a bright green gem. (Max: 2)
+M 0 32001 3 32098 100 	* the sessanathi shaman at A muddy pool. (Max: 3)
+E 1 32004 3 17 100 			* And equip it with a long vine whip. (Max: 3)
+E 1 32024 3 11 100 			* And equip it with a sessanathi armband. (Max: 3)
+G 1 32021 3  100 			* And give it a green potion. (Max: 3)
+G 1 32005 2  100 			* And give it a bright green gem. (Max: 2)
+M 0 32001 3 32107 100 	* the sessanathi shaman at On the dark pool. (Max: 3)
+E 1 32004 3 17 100 			* And equip it with a long vine whip. (Max: 3)
+G 1 32021 3  100 			* And give it a green potion. (Max: 3)
+M 0 32005 10 32166 100 	* a Leskbat at Northeastern Corner of the Valley. (Max: 10)
+M 0 32005 10 32193 100 	* a Leskbat at Northeastern Valley. (Max: 10)
+M 0 32005 10 32176 100 	* a Leskbat at Southern Edge of the Valley. (Max: 10)
+M 0 32005 10 32159 100 	* a Leskbat at Southeastern Corner of the Valley. (Max: 10)
+M 0 32005 10 32162 100 	* a Leskbat at Eastern Edge of the Valley. (Max: 10)
+M 0 32005 10 32189 100 	* a Leskbat at Western Edge of the Valley. (Max: 10)
+M 0 32005 10 32221 100 	* a Leskbat at Corner of the Swampy Pool. (Max: 10)
+M 0 32005 10 32198 100 	* a Leskbat at Edge of a murky pool. (Max: 10)
+M 0 32005 10 32110 100 	* a Leskbat at On the Dark Pool. (Max: 10)
+M 0 32005 10 32107 100 	* a Leskbat at On the dark pool. (Max: 10)
+M 0 32004 2 32134 100 	* the wayguard at The Western Waypost. (Max: 2)
+M 0 32012 3 32088 100 	* a giant mushroom at In the Mushroom Garden. (Max: 3)
+M 0 32012 3 32089 100 	* a giant mushroom at The Mushroom Garden. (Max: 3)
+M 0 32012 3 32090 100 	* a giant mushroom at The Mushroom Garden. (Max: 3)
+M 0 32009 5 32002 100 	* a strange, flailing bush at On Dry Land. (Max: 5)
+M 0 32009 8 32098 100 	* a strange, flailing bush at A muddy pool. (Max: 8)
+M 0 32009 5 32166 100 	* a strange, flailing bush at Northeastern Corner of the Valley. (Max: 5)
+M 0 32009 5 32189 100 	* a strange, flailing bush at Western Edge of the Valley. (Max: 5)
+M 0 32010 5 32014 100 	* a rugged hunter at A small trail through the Serdim-ir-Lesk. (Max: 5)
+M 0 32010 5 32120 100 	* a rugged hunter at On the Swampy Pool. (Max: 5)
+M 0 32010 5 32159 100 	* a rugged hunter at Southeastern Corner of the Valley. (Max: 5)
+M 0 32010 5 32201 100 	* a rugged hunter at Pool in Serdim-ir-Lesk. (Max: 5)
+M 0 32010 5 32109 100 	* a rugged hunter at On the Pool. (Max: 5)
+O 0 32031 1 32235 100 	* the picture at Hallway within the Tower. (Max: 1)
+O 0 32032 1 32236 100 	* the picture at Hallway to the Tower. (Max: 1)
+O 0 32033 1 32237 100 	* the picture at Hallway to the Ancient Tower. (Max: 1)
+O 0 32034 1 32238 100 	* the picture at Hallway to the Tower. (Max: 1)
+M 0 32013 1 32005 100 	* the old hermit at Under the Tree. (Max: 1)
+S
+$~

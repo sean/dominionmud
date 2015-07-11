@@ -1,0 +1,2579 @@
+#26000
+Beyond the Foothills~
+   Passing through the foothills you venture upon a wide plain choked 
+with dust.  Off in the horizon lies a dim, dark line of mountains.  
+You feel a chill in your soul as you gaze ahead.
+~
+260 4 -1 0 0 0 0 2
+D0
+The plains extend exhaustingly to the north.
+~
+~
+0 -1 26001
+D3
+~
+~
+0 -1 10128
+S
+#26001
+In the Midst of the Ashen Plains~
+   Desolate plains surround you as you approach the mountains.  The 
+land seems irrevocably scarred from the many battles and fires which 
+have swept across it.  On the right hand side, you see a giant cairn,
+built for those slain in the last defeat.  The mountains loom ominously 
+to the north.
+~
+260 4 -1 0 0 0 0 2
+D0
+To the north the twisted plains rise to meet the slopes
+of the upthrusted mountains.
+~
+~
+0 -1 26002
+D3
+~
+barrier~
+1 0 10128
+E
+cairn~
+     You gaze in awe and pity at the hill of the dead.  Many
+songs of woe have been sung of the Battle of Sudden Flame,
+where the last hope of the North died.
+~
+S
+#26002
+The Ashen Plains~
+   The mountains hover proudly above you, occupying your entire 
+field of vision to the north.  The plains become more and more 
+convoluted as you near the peaks.  Great fissures and pits expel 
+choking smoke and writhing flames to either side.
+~
+260 4 -1 0 0 0 0 2
+D0
+You distinguish three massive peaks on the southern rim
+of the mountains ahead.
+~
+~
+0 -1 26003
+D2
+The swirling dust obscures your view to the south.
+~
+~
+0 -1 26001
+S
+#26003
+Crumbled Foothills~
+   You begin the laborious climb toward the three peaks. The land 
+is quiet, but you feel a tenseness as if some hostile force was 
+trying to repel you from here.  Hard thorn bushes and shrubs fight 
+each other for each precious inch of soil; here even the plants 
+have been corrupted.  You feel sickened.
+~
+260 4 -1 0 0 0 0 4
+D0
+The three peaks form a small, sorrowful dale within which
+you can see a huge iron gate.
+~
+~
+0 -1 26004
+D2
+You can only guess where Moria lies in the distance.
+~
+~
+0 -1 26002
+S
+#26004
+At the Gates of Thangorodrim~
+   Massive iron gates stand before you.  Upon the doors you can 
+see many symbols and runes describing the forthcoming destruction 
+of the world.  A gigantic crown forged in iron, symbolic of Melkor's 
+power and reach, hovers above the gates.  The cliff-tops are covered 
+with cruel battlements, and the hills along the gates are bu261owed
+with countless orc holes.
+~
+260 0 -1 0 0 0 0 4
+D0
+The gates are all you can see to the north.
+~
+gate iron~
+1 26010 26005
+D2
+A path leads out of the mournful dale back into the foothills,
+to lands where hope still exists.
+~
+~
+0 -1 26003
+S
+#26005
+Inside Thangorodrim~
+   As you enter Thangorodrim you immediately feel a sense of 
+approaching doom.  The air is stifling and thick. Mud and bones 
+litter the floor of the tunnel, extending into the darkness in 
+all directions.
+~
+260 13 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26008
+D1
+~
+~
+0 -1 26006
+D2
+Light from the gates stirs a sudden desire to run far
+away from this dreadful place.
+~
+iron gate~
+1 26010 26004
+D3
+~
+~
+0 -1 26007
+S
+#26006
+Wolves' Den~
+   The claw marks and blood that cakes the walls indicate that 
+this evil hole is usually inhabited by wolves, both young and old.  
+Carcasses litter the floor, mixed with debris and bones.  The only 
+exit is to the west.
+~
+260 9 -1 0 0 0 0 4
+D3
+~
+~
+0 -1 26005
+S
+#26007
+Wolves' Den~
+   The claw marks and blood that cakes the walls indicate that this 
+evil hole is usually inhabited by wolves, both young and old.  
+Carcasses litter the floor, mixed with debris and bones.  The only 
+exit is to the east.
+~
+260 9 -1 0 0 0 0 4
+D1
+~
+~
+0 -1 26005
+S
+#26008
+A Dark Tunnel~
+   It looks like you have happened upon some kind of tunnel. Much of 
+it looks very old, but it seems as if there has been some work done 
+here recently to clear blockage and widen the passage.  There is 
+absolutely no light, and the tunnel heads off to the north further 
+than you can see.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26009
+D2
+~
+~
+0 -1 26005
+S
+#26009
+A Dark Tunnel~
+   The tunnel is amazingly dark...darker than the depths of any cavern 
+you have seen before.  You can barely discern the claw marks on the 
+floor, made in ages past by nameless victims that were foolish enough 
+to wander in past the Great Gates.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26010
+D2
+~
+~
+0 -1 26008
+S
+#26010
+A Dark Tunnel~
+   Feelings of dread overwhelm you as you hear cries of suffering 
+from afar.  The darkness seems to be an entity unto itself, battling 
+you for every step.  Delusions and visions seem to suddenly enter into 
+your thoughts, almost as if put there by some outside presence.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26011
+D2
+~
+~
+0 -1 26009
+S
+#26011
+A Dark Tunnel~
+     Feelings of dread overwhelm you as you hear cries of suffering 
+from afar.  The darkness seems to be an entity unto itself, battling 
+you for every step.  You cannot tell where you are, if you've moved 
+anywhere, or whether this whole experience is just some dark dream.  
+You hope to wake soon...
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26012
+D2
+~
+~
+0 -1 26010
+S
+#26012
+A Dark Tunnel~
+   Feelings of dread overwhelm you as you hear cries of suffering 
+from afar.  The darkness seems to be an entity unto itself, battling 
+you for every step.  You feel as if you are some meaningless pawn in 
+Melkor's hand, and you will be allowed to leave only when he is finished 
+amusing himself with your insignificant life.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26013
+D2
+~
+~
+0 -1 26011
+S
+#26013
+A Dark Tunnel~
+   A wave of ill will blasts through you, numbing all of your senses 
+except smell, and that is to your torment:  for the first time, you 
+notice the foul stench of this fell place.  You nearly faint from the 
+reek ahead.  A large iron door sits on the right hand wall.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26014
+D1
+~
+iron door~
+1 -1 26028
+D2
+~
+~
+0 -1 26012
+S
+#26014
+A Dark Tunnel~
+   The tunnel slowly becomes more roughly hewn and more unkept.  
+There are just the faint marks of iron shod feet on the floor 
+indicating that it is still being used.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26015
+D2
+~
+~
+0 -1 26013
+S
+#26015
+A Dark Tunnel~
+   The tunnel widens as you continue forth.  The walls and ceilings 
+fall away into the unnatural night around you.  Peering into the 
+darkness you sense the faint outline of a large iron door to your left.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26031
+D2
+~
+~
+0 -1 26014
+D3
+~
+iron door~
+1 26011 26016
+S
+#26016
+A Narrow Passage~
+   The tunnel again narrows, although the roughness of the walls around 
+you continues.  If it is possible this passage is darker than the 
+section you just left.  Maybe its just the small size, perhaps a trick 
+of your weary mind,  but either way something in your gut tells you that 
+you are creeping closer and closer to the source of the evil dwelling 
+here.  Dread secures itself thoroughly in your heart.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+iron door~
+1 26011 26015
+D3
+~
+~
+0 -1 26017
+S
+#26017
+A Narrow Passage~
+   The walls begin to creep in upon either side as the passage begins 
+to slope downward.  You fear that to continue is sheer folly, and to 
+flee is wisdom.  You stop suddenly.....  the garbling stony voices of 
+many orcs can be heard ahead.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26016
+D3
+~
+~
+0 -1 26018
+S
+#26018
+A Narrow Passage~
+   As the passage slopes down you are overcome by some horrible stench.  
+You cover your nose with your hands and try to look ahead.  Every fiber 
+in your body is screaming for light and freedom.  It is too dark to see 
+more than a few feet in front of you.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26017
+D3
+~
+~
+0 -1 26019
+S
+#26019
+A Narrow Passage~
+   The slope of the passage becomes greater forcing you to move more 
+carefully and slowly.  Your mind races back to when you stood at the 
+Gates...you cannot tell if it has been hours, days or years since you 
+were there.  Small stones slip from under your feet, bounding into the 
+gloom ahead and snapping you out of your daze.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26018
+D3
+~
+~
+0 -1 26020
+S
+#26020
+A Narrow Passage~
+   The slope of the passage continues downward, carrying you deep into 
+the heart of the rock.  You feel that if you misstep, your death will 
+be quick and easy.  The fleeting thought occurs to you that maybe that 
+would be better than what awaits you below.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26019
+D3
+~
+~
+0 -1 26021
+S
+#26021
+A Narrow Passage~
+   Once again the passage widens and the walls blend into the darkness.  
+Suddenly you feel like you have wandered into a vast void with only the 
+floor at your feet.  You are an island in the gloom, and you feel ho261ibly 
+visible to whatever dwells here.  Harsh voices barking orders remind you 
+that you are not alone....
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26020
+D3
+~
+~
+0 -1 26022
+S
+#26022
+A Narrow Passage~
+   The tunnel levels off and the walls dimly reappear on either side.  
+You stumble over unseen obstacles and fall to a hard, crudely tiled floor.  
+As you struggle to quietly stand up, the sound of your labored breathing 
+seems to echo loudly around the passage.  You can barely hear the sound 
+of dripping water above the din.  Darkness is everlasting here, and 
+darkness is all.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26021
+D3
+~
+~
+0 -1 26023
+S
+#26023
+The Dead Pool~
+   Clamoring through the passage you stop abruptly as you splash into 
+icy cold water.  The thick air that stifled you in the passages above 
+lessens a bit, and the echoes are amplified and redoubled, nearly 
+driving you mad. You feel the urge to bound forward into the darkness, 
+to challenge the taunting presence which has dogged you since your
+entrance.
+   Only an occasional mournful dripping from the unseen roof disturbs 
+the still waters.  You are aghast at the sickly serenity of this accursed 
+place.
+~
+260 13 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26024
+D1
+~
+~
+0 -1 26022
+S
+#26024
+On the Dead Pool~
+   Paranoia begins to get the better of your thoughts as you slowly float 
+further away from solid ground.  You feel like a fly who is about to be 
+squashed.   As you look about you see weird flickers of light against 
+the muddy cavern walls.  As you look down, you realize its source and your
+stomach convolutes.
+   There seems to be a faint morbid glow emanating from the depths of 
+the pool below.
+~
+260 13 -1 0 0 0 0 7
+D0
+~
+~
+0 -1 26025
+D2
+~
+~
+0 -1 26023
+S
+#26025
+On the Dead Pool~
+   Floating over the still waters the murky far bank slowly comes into 
+view.  The ceiling of the cavern converges with the walls to form a small 
+bay in the rock ahead.  As your gaze creeps along the edges of the shore 
+you see rows upon rows of strange posts poking out oddly from the mud.  
+Your curiosity is piqued, but the darkness cloaks the exact nature
+of the posts.
+~
+260 13 -1 0 0 0 0 7
+D0
+~
+~
+0 -1 26026
+D2
+~
+~
+0 -1 26024
+S
+#26026
+At the Shore~
+   You stagger in horror as you realize what the strange totems are.
+   Severed heads, many of them crushed and disfigured, have been set 
+mercilessly atop iron poles along the bank. You wonder who these people 
+were, what their crime against Melkor was, and most importantly, if you 
+will be joining them anytime soon.
+   In the darkness you perceive the shadowed movements of countless 
+figures.
+~
+260 13 -1 0 0 0 0 2
+D0
+~
+~
+0 -1 26027
+D2
+~
+~
+0 -1 26025
+S
+#26027
+Behind the Pool~
+   Inching through the grotesque warnings you come upon a smaller inlet 
+that ends abruptly at a set of large iron doors.  Pictures on the doors 
+cruelly depict Melkor leering within stormy skies, withering the earth 
+and scorching the people with his malice.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+iron door~
+1 26013 26042
+D2
+~
+~
+0 -1 26026
+S
+#26028
+A Narrow Passage~
+   Rough walls mark this dreary passageway which seems to have been 
+literally torn through the rock.  All kinds of debris litter the floor 
+below your feet.  The heavy silent darkness, lost briefly at the pool, 
+has returned with greater force.  Half-gnawed bones, thrown about 
+carelessly by whatever was here earlier,  jut out at your feet with 
+sharp edges.
+~
+260 9 -1 0 0 0 0 4
+D1
+~
+~
+0 -1 26029
+D3
+~
+iron door~
+1 -1 26013
+S
+#26029
+A Narrow Passage~
+   The tunnel bores through the rock haphazardly.  There are tattered 
+pieces of cloth and hide which crunch unpleasantly below your feet.  
+You notice that a faint orange light cuts into the ever-present darkness 
+about you.
+~
+260 9 -1 0 0 0 0 4
+D1
+~
+~
+0 -1 26030
+D3
+~
+~
+0 -1 26028
+S
+#26030
+Orc Lair~
+   A large rectangular cavern opens eastward.  Torches giving off a 
+dim light hover in front of you,  blinding compared to the darkness of 
+the tunnel behind.
+   Everywhere you look the signs of death greets you.  Floors are 
+covered with refuse, food is scattered, and torn apart corpses lay 
+awkwardly about.  The overpowering stench makes you double over in 
+disgust.
+~
+260 9 -1 0 0 0 0 5
+D3
+~
+~
+0 -1 26029
+S
+#26031
+A Dark Tunnel~
+  This section of the tunnel feels quite a bit older and emptier.  
+A new fear, sharp yet unknown, find its way into your heart.  As 
+you grope your way down the passage, you notice the walls and floor, 
+heretofore icy cold, are slowly becoming hotter.
+~
+260 13 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26032
+D2
+~
+~
+0 -1 26015
+S
+#26032
+A Dark Tunnel~
+   The ancient tunnel winds deeper through the heart of the mountains.  
+Even the concept of light and life seem foreign to you now, and you 
+wonder what must have possessed you to venture this far.
+   The heat becomes more intense.  There is an eerie silence about this 
+place - the stony voices of Melkor's foul minions do not make their way 
+here.  It is as if even they fear to tread down this road.  And why should
+you not heed the warning?....
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26033
+D2
+~
+~
+0 -1 26031
+S
+#26033
+A Dark Tunnel~
+   As you press on the tense silence greatens, broken only the achingly 
+loud sounds of your footsteps on the floor.  You become fearful of every 
+step, not only for the sound it creates but also for the pain that 
+accompanies it - the floors and walls are now intensely hot.  Your 
+vision is blurred by wisps of steam which rise in the darkness, but 
+you can see the faint shape of a large iron door to the left.  The 
+passage carries on wearingly to the north.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26036
+D2
+~
+~
+0 -1 26032
+D3
+~
+iron door~
+1 -1 26034
+S
+#26034
+A Narrow Passage~
+   Through the darkness you can see huge jagged ruts cut in the walls 
+along the length of the passage.  All is still, as if the air itself 
+awaits some stroke of doom.  Your light shines dully in the thick musty 
+steam.
+   The heat is unbearable.
+~
+260 9 -1 0 0 0 0 4
+D1
+~
+iron door~
+1 -1 26033
+D3
+~
+~
+0 -1 26035
+S
+#26035
+Bragollachmar, Den of the Silver Dragon~
+   You step forth into a large hall whose further end is lost is mist and 
+shadow.  You feel the cold bite of outside air upon your face; you gaze up 
+and see that the room has an open roof through which the by now forgotten 
+sky peers from far above.
+   As you lose yourself in the feelings of wind and stars and sky, your 
+light catches a fleeting reflection across the room.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26034
+S
+#26036
+A Dark Tunnel~
+   Upon passing the door to the west you feel the heat subside dramatically.  
+Even the darkness lifts slightly as you move north, and the hope of escape 
+once again creeps into your heart.
+~
+260 13 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26037
+D2
+~
+~
+0 -1 26033
+S
+#26037
+A Dark Tunnel~
+   The light that you have been wishing over and over for slowly seeps in 
+through the darkness.  As your eyes slowly adjust, dim shapes around you 
+become clearer.  There are gigantic grooves cut into the walls and floor.  
+Human skulls, old and smashed, lay all about you.   You almost wish for
+darkness again, to hide the true hideousness of this realm.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26038
+D2
+~
+~
+0 -1 26036
+S
+#26038
+A Dark Tunnel~
+   The light from the north shows this tunnel to be very old, very rough, 
+and incredibly sad.   All around you are the signs of misuse and 
+carelessness.  A feeling of pity, real pity, overwhelms you as you wonder 
+if any creature is evil enough to deserve to live in this haggard place.
+   A trail of bones leads down a hole-like tunnel to the right.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26040
+D1
+~
+~
+0 -1 26039
+D2
+~
+~
+0 -1 26037
+S
+#26039
+Angaancka~
+   The passage opens suddenly into a great rustic cave.  The only light 
+comes from a large bonfire in the center of room.   Roughly cut statues 
+lean against the walls.
+~
+260 9 -1 0 0 0 0 5
+D3
+~
+~
+0 -1 26038
+S
+#26040
+A Dark Tunnel~
+   Coming out of the murkiness you squint as you approach the light from 
+the north.  The tunnel is covered with dust and is obviously used 
+infrequently, and you feel your hope return.
+   A smile comes to your lips as you sense your journey through these 
+dreadful mountains is almost at an end.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+~
+0 -1 26041
+D2
+~
+~
+0 -1 26038
+S
+#26041
+Facing the Wasteland~
+   The hope that you had fades quickly as you stand atop a lofty cliff 
+face.  The light from the north reveals a barren frigid wasteland covered 
+in ice and snow.  You are many thousands of feet above the ground, and 
+there is no way down.  You must go back the way you came.....
+~
+260 9 -1 0 0 0 0 5
+D2
+~
+~
+0 -1 26040
+S
+#26042
+The Stairs of Angadur~
+   A dark twisting stairwell coils downward into the dark rock.  The 
+steps are hewn of some slick metal, and climbing them proves quite 
+precarious.  You pause to clean yourself of all the blood and grime 
+and sweat that has accumulated.
+   As you begin your descent, the air begins to vibrate.  You strain 
+to listen, and it becomes unmistakable...
+   In the distance, the sounds of heavy thudding drums approach you 
+like an invisible living creature.
+~
+260 9 -1 0 0 0 0 5
+D2
+~
+door~
+1 26013 26027
+D5
+~
+~
+0 -1 26043
+S
+#26043
+The Stairs of Angadur~
+   The stairs wind to and fro, making the climb a weariness to the limbs 
+and a drudgery to the mind.  The air shakes violently with the great 
+thumping of drums from below.
+   As you wipe the orc blood off of your face, you realize that killing 
+has never been this unpleasant.
+~
+260 9 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26042
+D5
+~
+~
+0 -1 26044
+S
+#26044
+The Stairs of Angadur~
+   The drums roll wave after wave, each more painful and disturbing than 
+the last.  With each beat you can feel the energy draining from your body, 
+and you can't seem to get the buzzing in your ears to cease.  All you want 
+to do is lay down, rest, and forget the troubles of the world.
+~
+260 9 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26043
+D5
+~
+~
+0 -1 26045
+S
+#26045
+The Stairs of Angadur~
+   Nightmarish dreams and the living world blend into one as you continue 
+your seemingly endless march downward. You wonder if you can force your 
+aching limbs to carry you much further.  The drums continue to echo and
+reverberate around you.
+~
+260 9 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26044
+D5
+~
+~
+0 -1 26046
+S
+#26046
+The Stairs of Angadur~
+   The stairs come to an abrupt halt.  Looming before you stands a massive 
+set of doors, intricately molded with large iron handles wrought in the 
+form of hideous leering skulls.  Melkor's standard, a giant black crown, 
+in embossed on the double doors.
+   The drums pulse through the air, hitting every nerve in your body.  
+The choice between life and death never seemed so clear....
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+iron door~
+1 26014 26047
+D4
+~
+~
+0 -1 26045
+S
+#26047
+Hall of Narris~
+   Strange torches line the sides of this great hall.  The roughly 
+burrowed passages above have given way to elaborately carved walls 
+and tiled floors.  Intricate statues of human and bestial shape rise 
+to great heights to support the vaulted roof.  No woven thread hangs 
+here, no debris litters the tiles.  This is an incredibly silent, 
+horrifically grand abode.
+~
+260 9 -1 0 0 0 0 0
+D1
+~
+~
+0 -1 26048
+D3
+~
+iron door~
+1 26014 26046
+S
+#26048
+Hall of Narris~
+   Traveling across the hall you see the source of most of the light in 
+the room.  A great flaming fissure has opened from right to left, 
+cracking the floor and dividing the room. A hastily constructed bridge 
+spans the rift.
+~
+260 9 -1 0 0 0 0 0
+D1
+~
+~
+0 -1 26049
+D3
+~
+~
+0 -1 26047
+S
+#26049
+Upon the Bridge~
+   Mixing haste and care you venture across the bridge which moans and 
+creaks with every step.  Looking down you espy the dull red glow of lava 
+far below.  An occasional flame jumps from the fissure, scorching the 
+bottom of the bridge and quickening your pace.
+~
+260 9 -1 0 0 0 0 4
+D1
+~
+~
+0 -1 26050
+D3
+~
+~
+0 -1 26048
+S
+#26050
+Hall of Narris~
+   As the loud thumping of drums resume you notice for the first time 
+their previous absence.  An ancient throne of vast girth stands before 
+you, with double doors exiting the room: black doors to the left, iron 
+doors to the right.
+   Folklore tells of this place, for this was the very location of a 
+great battle before Melkor's old throne.  This is the spot where 
+minstrels sing their sad songs of the death of Belegril, a haughty 
+dwarven king who sought to wrest the Silmarils from Melkor's great 
+crown.
+   Later legends say that so mighty was the dwarven king's fall that a 
+great fissure was created, cracking the throne room floor.  Melkor, his
+thoneroom in ruins and his pride hurt, dug himself deeper into the 
+mountains to discourage any further challenges to his strength.
+~
+260 9 -1 0 0 0 0 4
+D0
+~
+black~
+1 -1 26051
+D2
+~
+iron~
+1 -1 26057
+D3
+~
+~
+0 -1 26049
+S
+#26051
+A Sloping Tunnel~
+   The tunnel exits back into the darkness.  You begin to shake off the 
+somber nature of the place you just left as you realize that there is no 
+weeping for the dead when great deeds remain to be done.
+   The beating of the drums falls away as you venture on.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26052
+D2
+~
+black~
+1 -1 26050
+S
+#26052
+A Sloping Tunnel~
+   As the wide tunnel inches upward you notice gaping holes in the walls 
+and countless large boulders in the path.  It is as if someone or something 
+has intentionally torn the tunnel apart, just to have it rebuilt again.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26053
+D2
+~
+~
+0 -1 26051
+S
+#26053
+A Sloping Tunnel~
+   As the wide tunnel continues to inch upward the gaping holes in the 
+walls and floor become larger and more frequent.  It is if whoever was 
+responsible for the repairs behind decided that it was too dangerous
+to do the same here.  Along the jagged passage an odious slime drips 
+slowly.  You pick up a keen smell, and it isn't pleasant.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26054
+D2
+~
+~
+0 -1 26052
+S
+#26054
+A Sloping Tunnel~
+   The passage gets more and more wrecked as you progress. Soon you find 
+yourself having to leap over wide chasms and crawl between large boulders.  
+The tunnel is in complete disarray, and you feel that every foot you 
+struggle on brings you closer to evil.
+   The stench has been slowly growing again.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26055
+D2
+~
+~
+0 -1 26053
+S
+#26055
+A Great Bend~
+   The passage levels off.  As you squeeze under a massive fallen stone, 
+you can see that the way takes a sharp turn to the left ahead.  While you 
+lay sprawled on the floor, a large shadow moves across the far wall.  You 
+shudder at the prospect of meeting whatever is around the bend.
+~
+260 9 -1 0 0 0 0 5
+D2
+~
+~
+0 -1 26054
+D3
+~
+~
+0 -1 26056
+S
+#26056
+Cara-Fuin~
+   You enter through a tumbled archway to a cavern wider than any you 
+have seen yet in these great mountains.  The entire room is a cluttered 
+mix of crushed rock and dust.  As you look in awe upon the ruined hall, 
+you see the cause of all the turmoil: a large shadow lies peacefully on 
+the floor directly ahead of you.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26055
+S
+#26057
+Into the Depths of Thangorodrim~
+   Moving past the hall dread begins to once more seep into your body, 
+pushing out any sadness you felt for Belegril.  You realize that sorrow 
+will not keep you alive here.  The tunnel again darkens and you must 
+grope your way down the passage.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+iron~
+1 -1 26050
+D2
+~
+~
+0 -1 26058
+S
+#26058
+Into the Depths of Thangorodrim~
+   As the tunnel twists around a large shoulder of rock you feel waves of 
+heat join the drums;  your fear, the oppressive heat, and the thumping air 
+seem to surround you, forming some bizarre symphony of death.  Your joints
+pain you more with every step forward, and you feel as if this gloom is all 
+you have ever known and all you will ever be.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26057
+D2
+~
+~
+0 -1 26059
+S
+#26059
+Into the Depths of Thangorodrim~
+   The heat and the boom of drums continue, forcing you to concentrate 
+on each step.  Feeling each groove in the wall is the only way to make 
+sure you are moving at all.
+   Voices within your mind make you question again the wisdom of going 
+further.  You pause for an instant...your own voice seems so far away, 
+so foreign to your present situation.
+   You begin to doubt that the voices are your own.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26058
+D2
+~
+~
+0 -1 26060
+S
+#26060
+Into the Depths of Thangorodrim~
+   Laughter, sick haunting laughter, comes from the darkness all 
+around you.  You wish for everything to just end.  The rocks shake as 
+the drums boom and the laughter lingers on and on and on.  Fear quickens 
+the pace of your heart and you close your eyes praying for the noise to 
+subside.
+   Do you remember who you are?
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26059
+D2
+~
+~
+0 -1 26061
+S
+#26061
+Into the Depths of Thangorodrim~
+   The tunnel makes a turn to the left, cleaving through a great buttress 
+of rock which has reared itself here under the mountains.  You notice that 
+upon the wall about the passageway there are many foul runes and symbols, 
+scrawled cruelly by the heavy handed minions of Melkor.  Another iron door 
+blocks your passage.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26060
+D1
+~
+iron door~
+1 26015 26062
+S
+#26062
+Into the Depths of Thangorodrim~
+   You pass under a low archway and enter upon a massive chamber with a 
+lofty roof.   Within the hall and below where you now stand, you can 
+perceive many shadowy forms silently worshipping a large monolith in the 
+center.  You get the very distinct feeling that this macabre proceeding 
+might be better left alone.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26063
+D3
+~
+iron door~
+1 26015 26061
+S
+#26063
+Chamber of Thuringwethil~
+   You are at the base of a black monolith, which at its root must be 
+at least one hundred feet wide.  The base is unnoteworthy, save for the 
+pitiful creatures that appear to have been left here as food for....
+something.
+   Iron double doors span the wall past the obelisk.
+~
+260 8 -1 0 0 0 0 4
+D1
+~
+iron door~
+1 -1 26067
+D3
+~
+~
+0 -1 26062
+D4
+It looks like the brave man could attempt a climb here.  Are you brave?
+~
+~
+0 -1 26064
+S
+#26064
+Climbing Daeseregbarad ~
+   You struggle to maintain your hold upon this sheer tower of rock.  
+Already the floor seems far below.
+~
+260 8 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26065
+D5
+~
+~
+0 -1 26063
+S
+#26065
+Climbing the Daeseregbarad~
+   Your fingers ache.  As you try to discern the floor through the haze, 
+you momentarily lose your grip, sending a small stone downward.  You 
+strain to listen, and it seems like eons before hearing the soft tap of 
+the rock hitting bottom.
+~
+260 8 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26066
+D5
+~
+~
+0 -1 26064
+S
+#26066
+Atop Daeseregbarad~
+   You stand upon a wide platform which crowns the monolith.  The 
+ever-present drums echo faintly.  The air has become so thick that 
+you can hardly see your own feet.  You feel like a solitary tree in 
+the mist awaiting the onset of a great storm.
+~
+260 8 -1 0 0 0 0 4
+D5
+~
+~
+0 -1 26065
+S
+#26067
+Into the Depths of Thangorodrim~
+   Beyond the monolith the passage resumes its downward slope.  Along 
+the walls, you can feel small shafts opening to both sides, undoubtedly 
+set here to allow the foul air to penetrate the furthest reaches of the 
+labyrinth.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26068
+D3
+~
+iron door~
+1 -1 26063
+S
+#26068
+Into the Depths of Thangorodrim~
+   The tunnel plunges further into the darkness.  As you creep along, a 
+flickering tongue of fire jumps out of a shaft on the right, temporarily 
+filling your mind with blinding red.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+~
+0 -1 26069
+D3
+~
+~
+0 -1 26067
+S
+#26069
+Into the Depths of Thangorodrim~
+   The passage splits, heading left and right.  Both sides are doused in 
+the same unnatural night that you have grown all too accustomed to.  An 
+iron door blocks your progress to the south.  You wonder which direction 
+to take, and whether it even really matters.  After all, do you think
+you've been the one in control of your movements?
+   Nay, weary traveler.  It is He...
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26070
+D2
+~
+iron door~
+1 26016 26075
+D3
+~
+~
+0 -1 26068
+S
+#26070
+Into the Depths of Thangorodrim~
+   Moving slowly down the tunnel you notice the walls are quite a bit 
+rougher here,  much like those you passed through earlier.  Empty 
+lanterns hang from the ceiling; stale food lines the floor.  There has 
+obviously been some sort of activity here recently.
+   The drums roll on.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26071
+D2
+~
+~
+0 -1 26069
+S
+#26071
+Into the Depths of Thangorodrim~
+   The walls are rougher to the touch with each step you take onward.  
+The tunnel's floor is covered with muddy pools which splash mournfully 
+as you touch them.  A water barrel lies crushed to your left.  Above the 
+beating of the drums comes a loud *dink* from ahead.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26072
+D2
+~
+~
+0 -1 26070
+S
+#26072
+Into the Depths of Thangorodrim~
+   The noise gets louder and more frequent as you continue on.  There are 
+worn out shoes and hammers strewn all about, left to rot.  After listening 
+closely you think the noise is being made by something slowly chipping away 
+at the rock.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26073
+D2
+~
+~
+0 -1 26071
+S
+#26073
+Into the Depths of Thangorodrim~
+   The chipping noise, and whatever is making it, is very close now.  
+The walls are very rough to the touch, and they look as if they were 
+just carved.
+   Garbled voices cackling back and forth are noticeable echoing from 
+ahead.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26074
+D2
+~
+~
+0 -1 26072
+S
+#26074
+A Dead End~
+   This half dug-out cavern is filled with fresh dirt and rock from the 
+mountain.  Large digging machines and tools are scattered about carelessly;  
+makeshift torches give off a flickering light, forming eerie shadows which 
+dance on the rough cave sides.
+~
+260 9 -1 0 0 0 0 5
+D2
+~
+~
+0 -1 26073
+S
+#26075
+Into the Depths of Thangorodrim~
+   Beyond the split you see an endlessly winding passage before you.  
+Twists and turns make the dark route down a very slow one, for you must 
+watch every step; however you get the sense that you are not deviating 
+from a southerly direction.
+   A great cry from below halts the beating of the drums.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+iron door~
+1 26016 26069
+D2
+~
+~
+0 -1 26076
+S
+#26076
+Into the Depths of Thangorodrim~
+   Each stride carries you further into the heart of Thangorodrim, 
+closer and closer toward the very center of the dark power of this 
+evil place.  You struggle to remember, but cannot, why exactly you 
+are here.  All you can recall is endless years of walking in the 
+dark, many miles under the earth.
+   You can feel many invisible strands of webbing graze across your 
+face as you press on.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26075
+D2
+~
+~
+0 -1 26077
+S
+#26077
+Into the Depths of Thangorodrim~
+   The slope continues downward as bugs and other filthy creatures crawl 
+toward your light.  The walls here are of polished stone with many sharp 
+edges.  To the left you can a pile of petrified bones.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26076
+D2
+~
+~
+0 -1 26078
+S
+#26078
+Into the Depths of Thangorodrim~
+   The slope of the passage increases as the tunnel bores its way into 
+the rock.  The way narrows a bit, but you hardly notice.  You are numbed 
+to all.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26077
+D2
+~
+~
+0 -1 26079
+S
+#26079
+Into the Depths of Thangorodrim~
+   The passageway is little more than a yard wide now, and you must 
+walk sideways to get through.  You wonder by what devilish means Melkor 
+moves his troops from the depths.  Little can you comprehend the vastness 
+of this realm, with its labyrinthine tunnels and countless chambers.  
+Perhaps it does not serve Melkor to show you any more than this route.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26078
+D2
+~
+~
+0 -1 26080
+S
+#26080
+At the Door~
+   The darkness slowly subsides as a large iron door at the end of the 
+passage starts to glow as you approach it.  The red light illuminates a 
+grotesquely wrought head spanning the width of the door.  The light's 
+intensity grows as you get nearer.
+   Slowly the eyes of the leering figure open, staring right at you 
+unnaturally.  A great fear overwhelms you... you must fight the urge to 
+run far away from this hideous face.
+~
+260 9 -1 0 0 0 0 5
+D0
+~
+~
+0 -1 26079
+D1
+~
+door~
+1 26017 26081
+S
+#26081
+The Stairs of Angagurth~
+   Iron stairs lead down from here, twisting into the unholy arms of 
+the darkness.  The walls shine with the luster of dull metal, not rock.  
+The stairs are even and straight, and do not falter.
+   From below you can hear a sharp horn blast pierce the brooding silence.  
+In answer, the drums begin to sound again.
+~
+260 13 -1 0 0 0 0 5
+D3
+~
+door~
+1 26017 26080
+D5
+~
+~
+0 -1 26082
+S
+#26082
+The Stairs of Angagurth~
+   This stairwell is convincingly different from any you have seen before 
+- the masonry is flawless, blending the tortuous upheaval of rock with all 
+the skill of Melkor's evil hand.  They are obviously very well kept, for 
+there is no sign of the litter and misuse that plagued the upper levels.
+   All of that is trivial now, though.  The heavy oppression of this place 
+has finally taken over your soul;  you begin to feel as if your spirit is 
+being slowly ripped away from your flesh.  You are simply a passive 
+spectator in the events to come.
+   The drums redouble in their intensity.  You never thought a funeral 
+procession would sound like this.
+~
+260 9 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26081
+D5
+~
+~
+0 -1 26083
+S
+#26083
+The Stairs of Angagurth~
+   You can feel the walls and floor vibrate with the pulsing sounds of 
+the drums.  The stairs continue on their coiling descent into the furthest 
+reaches of Melkor's realm.  A new fear rears itself unto you...assuming you 
+finally reach the throne, what assurance do you have that any of your magic 
+will not fail you?  As you ponder this, you do not hear as much as sense
+that Melkor is laughing at that fear at this very moment.
+~
+260 9 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26082
+D5
+~
+~
+0 -1 26084
+S
+#26084
+The Stairs of Angagurth~
+   Still the endless stairs continue on.  A blast of steam rises from your 
+left, scorching your skin.  Waves of sound throb through every inch of your 
+body, chilling you to the bones.
+   All urges to turn around have left you, for you realize that you cannot 
+leave.  He does not will it to be so.
+   A dark thought emerges in your head, but you lose it in the tumult.  The
+drums roll on.
+~
+260 9 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26083
+D5
+~
+~
+0 -1 26085
+S
+#26085
+The Stairs of Angagurth~
+   The iron stairs become hotter on your feet.  Steam rises all about 
+you, making the air even hazier, and the air becomes so thick that it 
+is a pain to breathe.  Ahead you can faintly see the stairway take a 
+sharp turn to the right.
+   You stop suddenly as a grim revelation hits you.  The drums are not 
+beating in idle celebration, or even in anticipation of your arrival as 
+you had previously feared.  Nay, the drums are not sounding for some small 
+frightened party trying to sneak into Thangorodrim.
+   It is much worse than that.  Melkor is going to war.
+~
+260 9 -1 0 0 0 0 5
+D4
+~
+~
+0 -1 26084
+D5
+~
+~
+0 -1 26086
+S
+#26086
+The Stairs of Angagurth~
+   The stairs abruptly end at another set of black doors.  They are 
+enormous, big enough for legions of armies to pass through, and their 
+black surfaces are covered with ancient runes.
+   The hot air makes you cough and choke, draining you of the last bit 
+of energy you had.  As you stumble in the murk, your flesh and will 
+finally give in.  As you crouch under the great doors, you think of 
+your home.  At first the vision seems small and remote, as if you are 
+seeing it through a looking glass.  However, the more and more you 
+think about sky and grass and trees, the more present and tangible the 
+memory becomes.
+   And then a voice in your head -your voice, not the delusions of your 
+fatigue or Melkor's taunting- tells you that must go on, you must see it 
+through.  As your head clears, a new sense of purpose and resolve possesses 
+you.  You know that even if you fail, there will always be some flower that 
+grows, or some bird that sings, untouched by the evil of Melkor.  He will
+not endure forever, for in the end the shadow is but a passing thing.
+~
+260 9 -1 0 0 0 0 5
+D1
+~
+black~
+1 -1 26087
+D4
+~
+~
+0 -1 26085
+S
+#26087
+Muster Room~
+   The drums continue their breakneck pace as you enter this large 
+nondescript room.  Carven images of war lie in the walls, and items of 
+battle are piled in the corners.  You realize that this must be a 
+muster-site, where Melkor's legions gather before they march to fight.  
+A large iron door grins at you from across the room.
+~
+260 9 -1 0 0 0 0 4
+D1
+~
+iron~
+1 26018 26088
+D3
+~
+black~
+1 -1 26086
+S
+#26088
+Western End of the Hall of Del-ia-lhach~
+   Just as a man with his eyes closed can feel the direction of the sun, 
+you can sense Melkor's evil presence very near you.  Elaborate pictures 
+and carvings decorate the walls.  You imagine that few mortal men have 
+ever beheld this beautiful yet evil hall.  A large flaming chasm opens
+into the earth in the center of the room.  Passages open to the right 
+and left.  The hall looms on before you.
+~
+260 8 -1 0 0 0 0 0
+D0
+~
+~
+0 -1 26090
+D1
+~
+~
+0 -1 26089
+D2
+~
+~
+0 -1 26091
+D3
+~
+iron~
+1 26018 26087
+S
+#26089
+Eastern End of the Hall of Del-ia-lhach~
+   Melkor's power is here stronger still, but your determination persists.  
+You have accepted death, indeed you seek it knowingly now.
+   Flames from the chasm leap up, licking the ceiling.  An intricately 
+designed door blocks your passage to the east.  As your eyes scan over 
+the carvings you sense in your gut your ultimate doom awaits you beyond 
+the portal.
+   Passages lead to the north and south.
+~
+260 8 -1 0 0 0 0 0
+D0
+~
+~
+0 -1 26092
+D1
+~
+door~
+1 26019 26094
+D2
+~
+~
+0 -1 26093
+D3
+~
+~
+0 -1 26088
+S
+#26090
+Dungeons of Thangorodrim~
+   A feeling of lost hope and despair fills the room.  Wailing prisoners 
+clutch at the bars of cruelly designed cages to the north and west.  The 
+smell of rotten food and flesh wafts in the air.  Your feelings of pity 
+are overruled by a sense of realism.  You know that it is not within your 
+power to help the captives.
+   There will be no escape for the unfortunate souls that are imprisoned 
+here.
+~
+260 8 -1 0 0 0 0 0
+D1
+~
+~
+0 -1 26092
+D2
+~
+~
+0 -1 26088
+S
+#26091
+Forges of Melkor~
+   Steam flows through the room, the result of the burning furnaces that 
+must have created the armor that lines the walls of this giant forge.  
+Dank water drips from the roof.  Smelting pots burn; water cauldrons boil 
+over in rage; and well-oiled machinery groans, endlessly building the 
+weaponry of Melkor's minions.
+~
+260 8 -1 0 0 0 0 0
+D0
+~
+~
+0 -1 26088
+D1
+~
+~
+0 -1 26093
+S
+#26092
+The Dungeon of Thangorodrim~
+   Feelings of dread and pain pulse through your body.  Here prisoners 
+are not left to rot in their own decay; nay, this area is for those 
+prisoners that Melkor takes a more active and expedient interest in.  
+The cruel instruments of torture hang ominously from the rafters.  
+The screams of the agonized, hapless prisoners seem to form together 
+in some twisted psalm in deference to Melkor's cruelty and strength.
+~
+260 8 -1 0 0 0 0 0
+D2
+~
+~
+0 -1 26089
+D3
+~
+~
+0 -1 26090
+S
+#26093
+Thaur-atarnole~
+   The chamber of creation.  Many of the evil creatures that run amuck 
+through the land have been twisted into being here by Melkor's te261ible 
+hand.  Piles of corpses litter the room giving off a hideous stench, the 
+failed attempts at further evil.  Weird, unnatural lights bounce off the 
+ceiling and walls from unseen sources, illuminating the room with 
+disturbing glow.
+   Centering the room like a conductor for some ghastly symphony is a 
+hideous statue of Melkor.  In his hands he holds glowing blue orbs of 
+light.
+~
+260 8 -1 0 0 0 0 0
+D0
+~
+~
+0 -1 26089
+D3
+~
+~
+0 -1 26091
+S
+#26094
+Melkor's Passage~
+   Turning eastward once again you sense the evil presence growing 
+stronger.  The feelings of dread begin to overcome you again.  An 
+iron gate stops you from going any further.
+~
+260 9 -1 0 0 0 0 0
+D1
+~
+gate~
+1 26020 26095
+D3
+~
+door~
+1 26019 26089
+S
+#26095
+Melkor's Passage~
+   Passing through the iron gate you quickly encounter another 
+impediment to your easterly progress.  A large seamless wall of 
+iron, with no hinges to be seen, lies before you.  As you scrutinize 
+the wall you notice it is marked by naught save a small hole in the 
+center.
+   Your strength is waning fast, as if the last push through the hall 
+has spent you.
+~
+260 9 -1 0 0 0 0 0
+D1
+~
+wall iron~
+1 26021 26096
+D3
+~
+gate~
+1 26020 26094
+S
+#26096
+Melkor's Passage~
+   Evil seeps through the cracks around the ancient portal to the east.  
+Decorative runes describing the creation of the land cover the surface 
+of the door.
+   You feel that for better or worse, this journey is almost at an end.  
+You struggle to stay on your feet, and your head begins to swim.
+   He is near.
+~
+260 9 -1 0 0 0 0 0
+D1
+~
+portal~
+1 26022 26097
+D3
+~
+wall iron~
+1 26021 26095
+S
+#26097
+Angaamarth~
+   Your light shines pale and cold in the impenetrable gloom.  Through 
+the endless darkness you have come upon the nethermost hall of 
+Thangorodrim, that which is lit with evil, held up by horror, and filled 
+with dread.  The twisted half-shadows of instruments of war and torture 
+hang along the walls.  You can barely discern  doors in every direction.
+   Three illustrious points of light, like stars gone astray, crown a 
+huge hulking shadow which you know immediately to be Melkor Bauglith, 
+Enemy of the World.  At his feet lies some great form of wolf shape.
+   He knows why you have come.
+~
+260 9 -1 0 0 0 0 0
+D0
+~
+iron-door~
+1 26023 26099
+D1
+~
+old-door~
+1 26025 26098
+D2
+~
+black-door~
+1 26024 26100
+D3
+~
+portal~
+1 26022 26096
+S
+#26098
+Ancient Stairs~
+   The hinges of the door creak, as if it has not been opened in eons.  
+Thousands of strands of old hoary cobwebs grab and pull at you as you 
+walk through.
+~
+260 9 -1 0 0 0 0 0
+D1
+~
+~
+0 0 26101
+D3
+~
+old~
+1 26025 26097
+S
+#26099
+Groth-Telpelaure, the Treasury of Melkor~
+   You have entered a vast room, filled with the spoils of Melkor's 
+previous victories.  Artifacts and rings clutter the room.  They have 
+no worth to Melkor, for he covets not gold nor any trinkets of earthly 
+power.  Nay, his only purpose, as in all of his acts, is but to deprive 
+others of happiness and hope.
+~
+260 9 -1 0 0 0 0 0
+D2
+~
+door~
+1 26023 26097
+S
+#26100
+Tur-iaurnole, Melkor's Study~
+   Floating images hover about the room: of the awakening of man and 
+elves, of the creation of the world, of the many cruel victories that 
+He has won... all of the important moments of history are chronicled 
+here.  In the midst of the room looms a huge globe showing all the 
+mortal and immortal lands.  Ah, where the seeds of Melkor's dark secret 
+thoughts are sown, where plans of war are made, where death is conceived.
+   This is a completely unholy place.
+~
+260 9 -1 0 0 0 0 0
+D0
+~
+door~
+1 26024 26097
+S
+#26101
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D3
+~
+~
+0 0 26098
+D4
+~
+~
+0 -1 26102
+S
+#26102
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26103
+D5
+~
+~
+0 -1 26101
+S
+#26103
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26104
+D5
+~
+~
+0 -1 26102
+S
+#26104
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26105
+D5
+~
+~
+0 -1 26103
+S
+#26105
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26106
+D5
+~
+~
+0 -1 26104
+S
+#26106
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26107
+D5
+~
+~
+0 -1 26105
+S
+#26107
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26108
+D5
+~
+~
+0 -1 26106
+S
+#26108
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26109
+D5
+~
+~
+0 -1 26107
+S
+#26109
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26110
+D5
+~
+~
+0 -1 26108
+S
+#26110
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26111
+D5
+~
+~
+0 -1 26109
+S
+#26111
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26112
+D5
+~
+~
+0 -1 26110
+S
+#26112
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26113
+D5
+~
+~
+0 -1 26111
+S
+#26113
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26114
+D5
+~
+~
+0 -1 26112
+S
+#26114
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26115
+D5
+~
+~
+0 -1 26113
+S
+#26115
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26116
+D5
+~
+~
+0 -1 26114
+S
+#26116
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26117
+D5
+~
+~
+0 -1 26115
+S
+#26117
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26118
+D5
+~
+~
+0 -1 26116
+S
+#26118
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26119
+D5
+~
+~
+0 -1 26117
+S
+#26119
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26120
+D5
+~
+~
+0 -1 26118
+S
+#26120
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26121
+D5
+~
+~
+0 -1 26119
+S
+#26121
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26122
+D5
+~
+~
+0 -1 26120
+S
+#26122
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26123
+D5
+~
+~
+0 -1 26121
+S
+#26123
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26124
+D5
+~
+~
+0 -1 26122
+S
+#26124
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26125
+D5
+~
+~
+0 -1 26123
+S
+#26125
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26126
+D5
+~
+~
+0 -1 26124
+S
+#26126
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26127
+D5
+~
+~
+0 -1 26125
+S
+#26127
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26128
+D5
+~
+~
+0 -1 26126
+S
+#26128
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26129
+D5
+~
+~
+0 -1 26127
+S
+#26129
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26130
+D5
+~
+~
+0 -1 26128
+S
+#26130
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26131
+D5
+~
+~
+0 -1 26129
+S
+#26131
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26132
+D5
+~
+~
+0 -1 26130
+S
+#26132
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26133
+D5
+~
+~
+0 -1 26131
+S
+#26133
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26134
+D5
+~
+~
+0 -1 26132
+S
+#26134
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26135
+D5
+~
+~
+0 -1 26133
+S
+#26135
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26136
+D5
+~
+~
+0 -1 26134
+S
+#26136
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26137
+D5
+~
+~
+0 -1 26135
+S
+#26137
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26138
+D5
+~
+~
+0 -1 26136
+S
+#26138
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26139
+D5
+~
+~
+0 -1 26137
+S
+#26139
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26140
+D5
+~
+~
+0 -1 26138
+S
+#26140
+Ancient Stairs~
+   Steps crumble under your feet, sending pebbles back in the darkness 
+below.  The stairs steepen and lead up further than you can see.
+~
+260 9 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26141
+D5
+~
+~
+0 -1 26139
+S
+#26141
+Ancient Stairs~
+   Light.....DAYLIGHT!  Looking up the ancient stairs the feelings of 
+gloom and dread slowly slip away.  Even this dim light shinning down 
+into the stairwell is blinding compared to the darkness that you have 
+been immersed in for what seems like an eternity.
+~
+260 8 -1 0 0 0 0 4
+D4
+~
+~
+0 -1 26142
+D5
+~
+~
+0 -1 26140
+S
+#26142
+Ancient Stairs~
+   The daylight draws closer with each step, renewing your hope and 
+enthusiasm for life.  Not too much further until you may bask in the 
+joyful sunlight you had almost forgotten.
+~
+260 8 -1 0 0 0 0 0
+D4
+~
+~
+0 -1 26143
+D5
+~
+~
+0 -1 26141
+E
+drawing~
+   Etched into the wall is a circle with arounds all around it that point
+in every direction.  You wonder what this symbol could mean....
+~
+S
+#26143
+Peak of Thangorodrim~
+   Your breath is taken away as you stand upon some high hard horn of 
+the world.  The lands below are covered in mists, lofty snowcapped peaks 
+surround you.  As you blink sleepily in the sun, you can hear a voice 
+coming from above.
+   Looking up and behind you, your heart is pierced with pity.  There, 
+above a sheer cliff, rests a mighty black chair.  Sitting within is a 
+man, an old beaten man, whose eyes stare blankly ahead to something not 
+in this place or this time.  He appears once to have been a haughty 
+warrior, now withered with many years of imprisonment and torture upon 
+the peak.  However, he has not been broken, for he is still hale and his 
+face is proud.
+   This undoubtedly is Hurin, he who dared to ride alone to the very 
+Gates of Thangorodrim, only to be captured and set upon the rock.  For 
+fifty long years he has been here, seeing only what Melkor would allow 
+him, forced to live only for his and his family's torment.
+~
+260 4 -1 0 0 0 0 5
+D5
+~
+~
+0 -1 26142
+E
+hurin~
+     Hurin, still looking forward, struggles to speak through
+parched lips.
+"....that you have come here and achieved a great deed of
+which the minstrels shall sing.  None could have foreseen what
+has come to pass through your valour and might.  For these
+things which you have wrested from Him are of worth greater
+than you can comprehend, and are treasured by Him above
+all else.  Yea, these are the very jewels which Feanor himself
+wrought in Valinor in times long passed."
+     Hurin pauses, as if stirred by some bittersweet memory.
+"These, brave travelers, are the Silmarils, they in which
+the full splendor of the Two Trees is captured forever; that
+glory cannot be regained, for Melkor poisoned the Trees
+and put out their light.  These are they which caused many bitter
+wars, where kinsmen fought each other for their possession.
+Although they have great power unto themselves individually,
+when combined, their might is redoubled in force.  The
+legends speak of a mighty smith who lives within the mightiest
+forest in this region of the world.  He can set the three in a casing
+which will ensure that the Silmarils will never fade.  His name
+is Telchontar...."
+     You see a tear run down Hurin's proud face.
+"Go now, my friends.  My doom is well nigh, and it is not within
+your power, nor any power within the world as it now exists, to
+change it.  Leave me to drink the bitter cup which has been
+set before me."
+     Hurin says no more.
+~
+S
+$~

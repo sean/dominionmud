@@ -1,0 +1,420 @@
+#1400
+rook black chess bqr~
+the black Rook~
+A black rook stands here, prepared for battle.
+~
+It reminds of you a stone golem, but quite a bit smaller.
+~
+2 0 -700 S
+5 15 5 1d1+61 2d4+0
+400 900
+8 8 1 17
+#1401
+knight black chess bqn~
+the black Knight~
+There is a scraggly knight dressed in black here.
+~
+This is most certainly not the Black Knight of legendary fame.
+~
+2 0 -500 S
+3 17 7 1d1+36 1d7+0
+100 350
+8 8 1 0
+#1402
+bishop black chess bqb~
+the black Bishop~
+There is a bishop dressed in black standing here.
+~
+Hmm, maybe it's an arch bishop.  Or an arch arch bishop.
+~
+2 0 -500 S
+3 18 5 1d1+36 1d7+0
+100 350
+8 8 1 0
+#1403
+queen black chess bq~
+the black Queen~
+There is a queen dressed in black standing here.
+~
+She looks rather fearsome.
+~
+2 8 -1000 S
+8 10 1 1d1+100 3d4+0
+1100 3800
+8 8 2 0
+#1404
+king black chess bk~
+the black King~
+The King, Ruler of Darkness, is standing here.
+~
+He is a far cry from the white haired wizened old man you might expect.  It
+looks as though he could put up a good fight.
+~
+2 8 -1000 S
+12 6 2 1d1+15000 2d7+1
+6000 1300000
+8 8 1 0
+#1405
+bishop black chess bkb~
+the black Bishop~
+There is a bishop dressed in black standing here.
+~
+Hmm, maybe it's an arch bishop.  Or an arch arch bishop.
+~
+2 0 -500 S
+3 18 5 1d1+36 1d7+0
+100 3500
+8 8 1 0
+#1406
+knight black chess bkn~
+the black Knight~
+There is a scraggly knight dressed in black here.
+~
+This is most certainly not the Black Knight of legendary fame.
+~
+2 0 -500 S
+3 17 7 1d1+36 1d7+0
+100 350
+8 8 1 0
+#1407
+rook black chess bkr~
+the black Rook~
+A black rook stands here, prepared for battle.
+~
+It reminds of you a stone golem, but quite a bit smaller.  He matches the
+black marble quite nicely.
+~
+2 0 -700 S
+5 15 5 1d1+75 2d4+0
+300 900
+8 8 0 17
+#1408
+pawn black chess bpqr~
+the black Pawn~
+A statuesque black pawn stands here.
+~
+Though this scrawny fighter is not an impressive sight, he is obedient to his
+master.
+~
+130 0 -300 S
+1 20 9 1d1+10 1d5+0
+20 1100
+8 8 1 0
+#1417
+mini flayer mindflayer minimindflayer~
+The Mini Mindflayer~
+The mini mindflayer is here, looking at you with a... well, some kind of look.
+~
+It's a three foot tall humanoid that seems rather menacing for its size.
+In the middle of its head are four tentacles with sharp points.
+~
+132 8 -250 S
+2 17 6 1d1+30 1d6+2
+50 200
+8 8 0 17
+#1418
+curser~
+The Curser~
+The Curser is here, muttering incomprehensible obscenities to the air.
+~
+It is short stocky guy dressed in clashing colors, spewing gutteral sounds
+and interjections continuously.
+~
+64 0 -600 S
+3 16 5 1d1+38 2d4+0
+100 350
+8 8 0 0
+#1419
+cow~
+The Cow~
+A hard-eyed cow is here, going about his business.
+~
+He is walking around purposefully, as if searching for something,
+occasionally lowering his head, sniffing at the air, then eating
+pieces of the ground that are apparently somewhat grassy.  When he
+notices your intense scrutiny, he looks at you coldly, until you are
+forced to look away.
+~
+0 0 400 S
+5 10 6 1d1+65 2d4+0
+300 900
+8 8 1 14
+#1420
+net lag~
+Net Lag~
+Net Lag cuts your link, throws his head back, and cackles with insane glee!
+~
+As you try to peer into his beady eyes, you feel your sense of time slowing,
+slowing, slowing....
+~
+0 0 0 S
+1 20 5 1d1+20 1d3+0
+10 100
+8 8 0 20
+#1421
+sapling young~
+The young sapling, walking on dainty roots~
+A sapling stands here eye to eye with you.
+~
+Its roots are rather petite, and small parts of them are above ground.
+~
+0 0 0 S
+6 13 4 1d1+78 1d2+1
+800 1500
+8 8 0 -1
+#1428
+juggler jugglernaut~
+The Jugglernaut~
+A Jugglernaut is here, juggling madly.
+~
+It is kind of large, some 10 yds in length, walking on several hundred
+tiny legs. It is metallic-looking, with large spots of corrosion
+marring its angular skin. On its sides are large signs, written in an
+incomprehensible language. On its top, a small eye cluster swivels back
+and forth continually.  A number of tentacles are juggling a dizzying
+blur of objects.
+~
+84 8 0 S
+8 11 3 1d1+105 2d5+1
+1500 3750
+8 8 0 -1
+#1433
+mutterfly butterfly fly~
+The Mutterfly~
+An ugly butterfly-like thing is here, muttering about its problems.
+~
+	it is ugly, and unfriendly
+~
+80 0 -1000 S
+1 20 9 1d1+15 1d3+0
+10 100
+8 8 0 -1
+#1437
+peel banana~
+The banana peel~
+There is a magical banana peel here.
+~
+It seems harmless enough, although according to ancient legend, they
+cause people to slip and fall.
+~
+160 524328 -400 S
+2 19 7 1d1+30 1d4+0
+50 200
+8 8 0 -1
+#1448
+pawn white chess wpqr~
+the white Pawn~
+A statuesque white pawn stands here.
+~
+Though this scrawny fighter is not an impressive sight, he is obedient to his
+master.
+~
+130 0 300 S
+1 20 9 1d1+15 1d5+0
+10 1100
+8 8 1 0
+#1456
+rook white chess wqr~
+the white Rook~
+A white rook stands here, prepared for battle.
+~
+It reminds of you a stone golem, but quite a bit smaller.  He matches the
+white marble quite nicely.
+~
+2 8 700 S
+5 15 5 1d1+70 2d4+0
+300 900
+8 8 0 16
+#1457
+knight white chess wqn~
+the white Knight~
+There is a scraggly knight dressed in white here.
+~
+You're not so sure that you'd want *him* to come to your rescue.
+~
+2 33554432 600 S
+3 17 7 1d1+45 1d7+0
+75 13500
+8 8 1 0
+#1458
+bishop white chess wqb~
+the white Bishop~
+There is a bishop dressed in white standing here.
+~
+Hmm, maybe it's an arch bishop.  Or an arch arch bishop.
+~
+2 0 500 S
+3 18 5 1d1+45 1d7+0
+75 350
+8 8 1 0
+#1459
+queen white chess wq~
+the white Queen~
+There is a queen dressed in white standing here.
+~
+She looks rather fearsome.
+~
+2 0 1000 S
+8 10 1 1d1+11000 3d4+0
+1500 975000
+8 8 2 8
+#1460
+king white chess wk~
+the white King~
+The King, Protector of the Flame, is standing here.
+~
+He is a far cry from the white haired wizened old man you might expect.  It
+looks as though he could put up a good fight.
+~
+2 0 1000 S
+12 6 2 1d1+15000 2d7+1
+7000 1700000
+8 8 1 8
+#1461
+bishop white chess wkb~
+the white Bishop~
+There is a bishop dressed in white standing here.
+~
+Hmm, maybe it's an arch bishop.  Or an arch arch bishop.
+~
+2 0 500 S
+3 18 5 1d1+39 1d7+0
+75 350
+8 8 1 0
+#1462
+knight white chess wkn~
+the white Knight~
+There is a scraggly knight dressed in white here.
+~
+You're not so sure that you'd want *him* to come to your rescue.
+~
+2 0 600 S
+3 17 7 1d1+46 1d7+0
+75 350
+8 8 1 0
+#1463
+rook white chess wkr~
+the white Rook~
+A white rook stands here, prepared for battle.
+~
+It reminds of you a stone golem, but quite a bit smaller.
+~
+2 0 700 S
+5 15 5 1d1+75 2d4+0
+350 900
+8 8 0 17
+#1470
+jabberwocky~
+The Jabberwocky~
+The Jabberwocky stands here, prepared to maul you.
+~
+It is big, and alien in appearance.  Probably not here for a cup of tea.
+~
+38 8 -900 S
+14 4 0 1d1+180 1d8+2
+9000 18000
+8 8 0 -1
+#1471
+medics pair paramedics~
+A pair of Medics~
+A pair of Medics is here, looking for someone to help.
+~
+Not only are they identical twins, but they do everything in perfect unison.
+~
+132 0 1000 S
+7 14 4 1d1+90 2d4+2
+1000 2275
+8 8 0 0
+#1472
+flame~
+The Flame~
+The Flame hovers here before you.
+~
+The Flame flickers almost imperceptibly about you.  You can barely feel the
+warmth, so gentle is The Flame.
+~
+2 0 900 S
+14 3 0 1d1+180 3d3+4
+9000 18000
+8 8 3 -1
+#1493
+oil beast~
+A Delivery Beast~
+An Oil Beast is here, sleeping on the job.
+~
+Well, it looks beastly.  And oily.  It's black, and shiny, and oozes
+slime as it goes...hard to be more specific than that.
+~
+2 0 800 S
+10 10 2 1d1+130 2d6+3
+4000 9000
+4 4 0 -1
+#1494
+oil beast~
+An Oil Beast~
+An Oil Beast is here, working quasi-diligently.
+~
+Well, it looks beastly.  And oily.  It's black, and shiny, and oozes
+slime as it goes...hard to be more specific than that.
+~
+2 0 800 S
+10 10 2 1d1+130 2d6+3
+4000 9000
+8 8 0 -1
+#1495
+elf~
+The Delivery Elf~
+An Elf is here, making deliveries for the Market Plaza Bakery.
+~
+~
+2 8 800 S
+10 10 2 1d1+135 2d6+3
+4000 9000
+8 8 0 9
+#1496
+elf~
+An Elf~
+An Elf is here, working diligently.
+~
+~
+2 0 800 S
+10 10 2 1d1+130 2d6+3
+4000 9000
+8 8 0 9
+#1497
+cat cheshire~
+The Cheshire Cat~
+The Cheshire Cat flashes a grin at you.
+~
+Looks like the obligatory invisible monster for this area.  He has that
+confident, artificial smile that means he knows too much about you.
+~
+4 8 600 S
+4 15 3 1d1+48 1d9+0
+200 600
+8 8 1 14
+#1498
+pigeon~
+The Pigeon~
+A plump pigeon is wandering here, oblivious to your presence.
+~
+Dinner on the table....
+~
+128 0 0 S
+1 20 9 1d1+15 1d4+0
+10 300
+8 8 0 14
+#1499
+sisyphus~
+Sisyphus~
+Sisyphus of Corinth stands here, guarding the gate.
+~
+The once tyrannical King of Corinth has been consigned to barring
+unqualified characters from entering the Tower.  A Sisyphean task indeed.
+~
+2 0 1000 S
+47 0 -70 1d1+18000 10d10+60
+50 80000000
+8 8 1 0
+$~
+

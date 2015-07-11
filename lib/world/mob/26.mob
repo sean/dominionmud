@@ -1,0 +1,14 @@
+#2600
+cabalguard cabal badass~
+the Cabal's guard~
+An tough-looking veteran, armed to the teeth, stands here on guard duty.
+~
+The guard to the guildhouse of the Bleak Cabal is one of their better 
+warriors so as not to have anyone not of the guild drop in.  He looks 
+very tough and the sword in his hand is held with practiced ease.
+~
+bdglm fr 150 S
+30 30 10 10d75+10 5d5+20
+1250 750000
+8 8 1
+$~

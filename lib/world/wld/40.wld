@@ -1,0 +1,1179 @@
+#4000
+The Hills~
+   You stand at the brink of a deep valley between several large mountains.
+You can feel the forces of evil all about you.  There is a broken sign
+swinging in the breeze on the branch of a tree.  Maybe it would help you
+out if you took a look see as to what it says.
+~
+40 c 4
+D0
+~
+~
+0 0 4031
+E
+sign~
+   Kirahn was here
+~
+S
+#4001
+The Hills~
+   You are on a small path leading north, dark threatening hills
+surround you on almost all sides.
+~
+40 c 4
+D0
+~
+~
+0 -1 4002
+D2
+~
+~
+0 -1 4000
+S
+#4002
+The End Of The Path~
+   The path stops here, to the north is a single mountain and around you
+are some threatening hills.  There is a dark cave to the north.  You see a
+large sign on the mountain.
+~
+40 c 4
+D0
+~
+~
+0 -1 4010
+D2
+~
+~
+0 -1 4001
+E
+sign~
+The sign says:
+************************************************************
+*                                                          *
+* ******************************************************** *
+* *                                                      * *
+* *                 The Mines of Moria                   * *
+* *                                                      * *
+* *              Enter at your own risk.                 * *
+* *                                                      * *
+* *           Welcome to the mines of Moria...           * *
+* *                                                      * *
+* *        Are you below level 3?  Don't enter...        * *
+* *     Are you below level 8?  Don't enter alone...     * *
+* *                                                      * *
+* ******************************************************** *
+*                                                          *
+************************************************************
+~
+S
+#4010
+Entrance to the Mines of Moria~
+   Upon entering the dark mine you hear the dirty sound of creatures
+scuurying in the mud ahead.  The light to the south seems far away, but
+a quick run will still allow you to escape before you discover the mine's
+inhabitants...or they discover you.
+~
+40 ad 0
+D0
+~
+~
+0 -1 4011
+D2
+~
+~
+0 -1 4002
+S
+#4011
+Main Tunnel~
+   The black tunnel continues to the north and south.  The noise of 
+creeping beasts is closer, and you wonder if they are aware of your 
+presence yet.  You faintly hope that taking them by surprise is still
+an option, and then you realize that escape is the safest choice.  The 
+dimming light from the south beckons you.
+~
+40 ad 0
+D0
+~
+~
+0 -1 4014
+D2
+~
+~
+0 -1 4010
+S
+#4012
+The Tunnel~
+   The dreary tunnel becomes more cramped with each 
+step westward;  soon your arms are scraping on both
+walls.  Just as you start to feel the pass become
+too narrow to continue, a large gap in the wall opens
+to the north.  The natural doorway seems to lead to
+a foul smelling cave from which an eerie glow eminates.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4016
+D1
+~
+~
+0 -1 4013
+S
+#4013
+The Tunnel~
+   The side tunnel narrows as you trek eastward.  You can feel
+hoary moss and slime covering the walls, and occasionally you stumble
+upon the many stones littering the floor.  A chilly draft from below
+warns you of the presence of a large opening in the ground.  As
+you lean down to the hole, you can hear the faint echoes 
+of voices coming up from a great distance.  The passage continues
+dankly to the east and west.
+~
+40 ad 3
+D1
+~
+~
+0 -1 4014
+D3
+~
+~
+0 -1 4012
+S
+#4014
+Main Tunnel~
+   As you peer around in the permanent night around you, you can see
+that a small passageway shoots westward from the main tunnel.  There 
+are strange grooves cut deeply into the mine's walls, and debris is
+strewn upon the floor.  You can tell that there are exits to the north
+and south, but you cannot see very far in either direction.
+~
+40 ad 0
+D0
+~
+~
+0 -1 4018
+D2
+~
+~
+0 -1 4011
+D3
+~
+~
+0 -1 4013
+S
+#4015
+End of a Side Tunnel~
+   The small tunnel end abruptly here.  A few bones litter the area, but
+the room is immaculate compared to that of the tunnel north of you.  The
+hideous stench drifts in, but it is far less severe than it was to the
+north.
+~
+40 ad 0
+D0
+~
+~
+0 -1 4019
+S
+#4016
+The Large Cave~
+   You stand in the center of a lofty cavern which steches from east
+to west.  The walls seem to be etched, but the exact 
+details of the work are lost in the years of dust and moss.
+To the south, a small hole opens to a narrow tunnel.
+~
+40 ad 2
+D1
+~
+~
+0 -1 4017
+D2
+~
+~
+0 -1 4012
+D3
+~
+~
+0 -1 4023
+S
+#4017
+The Large Cave~
+   The natural course of the cave comes to an abrupt end to the east.
+A large wall has been built across the span of the tunnel, with no
+door or hinge to be seen.  As you press your ear against the 
+barrier, you can hear a soft wimper coming from behind.  For some,
+you realise, there will never be escape or light.
+~
+40 ad 2
+D3
+~
+~
+0 -1 4016
+S
+#4018
+Main Tunnel~
+   As you move deeper into the ancient mines you begin to imagine
+what they must have looked like in the days when dwarves still 
+lived and worked here.  Wise men tell that when the the world 
+was young and untouched by evil, the Thurgar dwarrows dug wide 
+and deep, carving grand halls and finding the rock and ore which
+would be the foundation for Phalar.  However, some great strife
+befell the inhabitants here and the once proud mines fell into
+corruption.  The sound of grubby creatures behind unseen walls
+reminds you that Moria's new tenants have no appreciation of its 
+history, or of you.
+~
+40 ad 0
+D0
+~
+~
+0 -1 4025
+D2
+~
+~
+0 -1 4014
+E
+pile bones~
+Well you better watch out - some of the bones are human !
+~
+S
+#4019
+A Side Tunnel~
+   Northward, shrouded by darkness, you can make out an intersection with
+tunnels leading in all directions.  This side passage is covered in more
+filth than you could have ever imagined.  Half eaten carcasses lie on
+the floor, giving off a rank odor that makes you wretch.  Even dead orcs
+rot here, forgotten by their comrades.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4026
+D2
+~
+~
+0 -1 4015
+S
+#4020
+The Hole~
+   You are by a hole in the floor, you can leave down, or north.
+~
+40 acd 3
+D0
+~
+~
+0 -1 4027
+D5
+~
+~
+0 -1 4064
+S
+#4021
+The Hole~
+   You stand at the edge of a perfectly round opening in
+the floor which measures about four fathoms across.  The
+masonry around the lip is clever and true, reminding you
+that the mine's former inhabitants showed skill in 
+stone-work like none that has been seen in the world 
+since their departure from Moria.
+   However, you notice there are chains attached cruelly
+to posts set outside the hole; perhaps failure in battle
+meant punishment hanging in the well.  For the courageous
+the chains provide a quick way down to the lower levels.
+   Are you courageous, or wise?
+~
+40 acd 3
+D1
+~
+~
+0 -1 4022
+S
+#4022
+The Damp Tunnel~
+   As you creep through the dank tunnel, your garments become
+wet and slimy.  The passage swings to the north and east to
+avoid a large gaping hole in the western floor.  From a distance,
+the opening seems to have been deftly crafted, perhaps used as
+a ventilating shaft for the countless levels below.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4024
+D1
+~
+~
+0 -1 4023
+D3
+~
+~
+0 -1 4021
+S
+#4023
+The Large Cave~
+   You meander along a large cavern whose western end tapers
+into a narrow passageway.  You can feel the bite of air on
+your face, but where it eminates from is hidden in the 
+blackness of the mines.
+~
+40 ad 2
+D1
+~
+~
+0 -1 4016
+D3
+~
+~
+0 -1 4022
+S
+#4024
+The Damp Tunnel~
+   The roof of the tunnel hangs very low, causing you to 
+stoop uncomfortably as you make your way.  To the south, you 
+can see a large hole and bend in the passage.  The concourse
+broadens and bends to the west, passing through a doorway which 
+has been eroded by many years of strife and abuse.
+~
+40 ad 3
+D2
+~
+~
+0 -1 4022
+D3
+~
+~
+0 -1 4059
+S
+#4025
+End of the Main Tunnel~
+   The wide main tunnel ends here into a large cave.  Stalagtites
+crawl down from the ceiling, glistening with moisture.  As you glance
+around the cave you see that this cave must have been used for storage
+in the days when these mines were actually mined, not used to house
+the unnatural creatures that plague the tunnels now.  Broken crates,
+looted long ago, litter the floor.  A smaller tunnel leads into the
+darkness to the east.
+~
+40 ad 0
+D1
+~
+~
+0 -1 4026
+D2
+~
+~
+0 -1 4018
+S
+#4026
+Eastern Tunnel~
+   Chunks of stone crumble from the tunnel walls as you move eastward.
+Looking up you decide that the passage is still safe, but the decay is
+more evident with every step.  Two tunnels intersect here, one leading
+north and south, the other leading east and west.  Neither of them looks
+more pleasant than the other.
+~
+40 ad 0
+D0
+~
+~
+0 -1 4028
+D1
+~
+~
+0 -1 4027
+D2
+~
+~
+0 -1 4019
+D3
+~
+~
+0 -1 4025
+S
+#4027
+Eastern Tunnel~
+   The floor appears to be dusty here, but the footprints in the dust
+indicate that it is not abandoned.  The tunnel runs into a stone wall,
+turning north and south.  As you examine your options you notice a
+slight, cool breeze coming from the north.  Obviously there is another
+exit out of the mines somewhere in that direction.  Southward the
+tunnel is as still and dark as ever.
+~
+40 ad 0
+D0
+~
+~
+0 -1 4029
+D2
+~
+~
+0 -1 4020
+D3
+~
+~
+0 -1 4026
+S
+#4028
+The Smelly Tunnel~
+   You are in a north-south leading tunnel, you see a small light
+to the north.  You notice a strange smell from the north..
+~
+40 ad 3
+D0
+~
+~
+0 -1 4030
+D2
+~
+~
+0 -1 4026
+S
+#4029
+The Cave~
+   You are in a cave that is filled with fresh air, you sense the
+wind blowing from the north.  To the south you see a small tunnel
+continue into the mountain.
+~
+40 ad 2
+D0
+~
+~
+0 -1 4031
+D2
+~
+~
+0 -1 4027
+S
+#4030
+The Light Cave~
+   You are in a light cave, through a hole large above you, you see 
+the sky.  A small tunnel to the south is the only way out.
+You notice the source of the strange smell, all around you there is
+corpses from several monsters.
+~
+40 d 2
+D2
+~
+~
+0 -1 4028
+E
+corpse corpses~
+IT STINKS!
+~
+S
+#4031
+The Valley~
+   You are in a small valley, surrounded by hills and a mountain to 
+the south.  In the mountain there is a cave.  To the north you can
+enter the hills.  There is a small trail leading up a steep hill to
+the east.
+~
+40 0 2
+D0
+~
+~
+0 -1 4032
+D1
+You spot a small trail leading into the hills to the east.
+~
+~
+0 -1 4045
+D2
+~
+~
+0 -1 4000
+E
+cave~
+Well it doesn't look nice, but it is the only way out..
+~
+S
+#4032
+The Foothills~
+   You are on a winding path that leads through the foothills on the
+other side of the mountain.  The path continues north.
+~
+40 0 2
+D0
+~
+~
+0 -1 4033
+D2
+~
+~
+0 -1 4031
+S
+#4033
+The Intersection In The Foothills~
+   The small path you have been travelling on splits here.  A road made
+of black glass leads off to the east towards a dark city.  To the north
+all you can see are mountains.
+~
+40 0 2
+D0
+~
+~
+0 -1 4034
+D2
+~
+~
+0 -1 4032
+S
+#4034
+The Grassy Area In The Foothills~
+   The grass here is unusually high.  You notice several areas where
+someone or something large has crushed spots of it down.  Several
+very large rocks litter this area.  You can go north, west or south.
+~
+40 0 2
+D0
+~
+~
+0 -1 4035
+D2
+~
+~
+0 -1 4033
+D3
+~
+~
+0 -1 4042
+S
+#4035
+At The Foothills' End~
+   At this point you are leaving the foothills.  You see a large
+area of plains to the north of here.
+~
+40 0 2
+D0
+~
+~
+0 -1 4036
+D1
+You see the beginnings of Dragon Spyre.
+~
+~
+0 -1 6600
+D2
+~
+~
+0 -1 4034
+S
+#4036
+The Plains~
+   You are in the plains.  The path leads to the south.  As you look around
+you notice a small almost invisible trail leading away to the west towards
+a copse of trees.
+~
+40 0 2
+D2
+~
+~
+0 -1 4035
+D3
+~
+~
+0 -1 4075
+S
+#4037
+The Black Glass Road~
+   The road made of black glass leads on through the hills.  To the east
+everything looks very dark and gloomy.  To the west all you can see are mountains and hills.
+~
+40 cg 4
+D1
+~
+~
+0 -1 4038
+D3
+~
+~
+0 -1 4033
+S
+#4038
+The Base Of The Mountain~
+   Exits are east and west.
+~
+40 0 2
+D1
+~
+~
+0 -1 4039
+D3
+~
+~
+0 -1 4037
+S
+#4039
+The black glass road~
+   A black glass road leads off through the hills east and west.  To the
+northeast you spy a dark city with evil eminating from it.
+~
+40 0 2
+D1
+~
+~
+0 -1 4040
+D3
+~
+~
+0 -1 4038
+S
+#4040
+A Black Glass Road~
+   The glass road turns here to the north leading towards the gates of a 
+large city.  To the west a black glass road leads through the hills.
+Everything seems strangely quiet.
+~
+40 c 1
+D0
+~
+~
+0 -1 4041
+D3
+~
+~
+0 -1 4039
+S
+#4041
+The Lion's Den~
+   The only exit is south.
+~
+40 d 2
+D2
+~
+~
+0 -1 4040
+S
+#4042
+The Level Foothills~
+   Exits are east and west.
+~
+40 0 2
+D1
+~
+~
+0 -1 4034
+D3
+~
+~
+0 -1 4043
+S
+#4043
+The Cave Entrance~
+   Exits are east and west.
+~
+40 d 2
+D1
+~
+~
+0 -1 4042
+D3
+~
+~
+0 -1 4044
+S
+#4044
+The Hill Giant Cave~
+   The only exit is to the east.
+~
+40 ad 2
+D1
+~
+~
+0 -1 4043
+S
+#4045
+The Steep Trail~
+   This trail leads up a steep hill to a point where it levels out as
+it begins to pass between the mountains that surround you.  It continues
+through the hills to the east and heads down to the valley to the west.
+~
+40 c 5
+D1
+The rocky trail continues.
+~
+~
+0 -1 4046
+D3
+The valley lies at the bottom of the steep trail.
+~
+~
+0 -1 4031
+S
+#4046
+Between The Mountains~
+   The trail between the mountains seems almost endless as you continue
+to trek along it.  It continues to both the east and west.
+~
+40 c 5
+D1
+The trail continues eastwards.
+~
+~
+0 -1 4047
+D3
+The trail continues westwards.
+~
+~
+0 -1 4045
+S
+#4047
+The Foothills~
+   After a long trek, you find yourself in the foothills again.  You spot
+a narrow trail leading away to the northwest not too far distant to the
+west.
+~
+40 c 5
+D1
+You can head towards the narrow trail this way.
+~
+~
+0 -1 4049
+D3
+The trail leading back through the mountains seems to go on forever.
+~
+~
+0 -1 4046
+S
+#4048
+The Foothills~
+   A short trek through the foothills and you find yourself facing a
+trail that leads between the mountains to the west.  The trail through
+them looks to be very long and probably quite tiring.  You spot a narrow
+trail leading away to the northwest not too far distant to the west.
+~
+40 c 5
+D1
+You can head towards the narrow trail this way.
+~
+~
+0 -1 4049
+D3
+The trail leading through the mountains seems to go on forever.
+~
+~
+0 -1 4046
+S
+#4049
+The Foothills~
+   You are at a point on the trail where it turns slowly from an
+almost straight westwards trail into a trail meandering towards
+the northwest. 
+~
+40 c 4
+D3
+~
+~
+0 0 4048
+S
+#4050
+The Tunnel~
+   You are in a tunnel, which turns here.  The tunnel continues to the
+east and the south.
+~
+40 ad 3
+D1
+~
+~
+0 -1 4051
+D2
+~
+~
+0 -1 4053
+S
+#4051
+The Tunnel~
+   You are in an east-west leading tunnel.  The tunnel is very narrow
+here.
+~
+40 ad 3
+D1
+~
+~
+0 -1 4052
+D3
+~
+~
+0 -1 4050
+S
+#4052
+The Tunnel~
+   You are in an east-west leading tunnel.
+~
+40 ad 3
+D3
+~
+~
+0 -1 4051
+S
+#4053
+The Tunnel~
+   You are at a turn, the tunnel continues north and east.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4050
+D1
+~
+~
+0 -1 4054
+S
+#4054
+The Light Cave~
+   You are in a cave, to south from you there is a large fire that lights
+the entire cave, to the east and west tunnels leads off.
+~
+40 d 2
+D1
+~
+~
+0 -1 4055
+D2
+~
+~
+0 -1 4056
+D3
+~
+~
+0 -1 4053
+S
+#4055
+The Maze~
+   You are in a maze of small damp tunnels.  The only exit is west to a 
+light cave.
+~
+40 ad 3
+D3
+~
+~
+0 -1 4054
+S
+#4056
+The Light Cave~
+   You are in a light cave, a large fire in front of you lights the room.
+The cave continues to the north and south.
+~
+40 d 2
+D0
+~
+~
+0 -1 4054
+D2
+~
+~
+0 -1 4061
+E
+fire~
+Well, errh - It looks somehow quite warm..!
+~
+S
+#4057
+The Maze~
+   You are in a maze of small damp tunnels.  Exits leads both north
+and south.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4055
+D2
+~
+~
+0 -1 4062
+S
+#4058
+The Maze~
+   You are in a maze of small damp tunnels.  Exits leads west and south.
+~
+40 ad 3
+D2
+~
+~
+0 -1 4063
+D3
+~
+~
+0 -1 4057
+S
+#4059
+The Tunnel~
+     As you stumble wearily through the ancient mines, you can detect
+a faint rumbling coming from far below.  You pause to get a feel for
+what might be causing the disturbance; small pebbles begin to fall at 
+your feet.  The noise quickly intensifies until the sound of twisting
+rock shakes the length of the passage.  You are snapped out of a daze
+by a large chunk of roof which crashes a few yards in front of you.
+Instinct forces you to seek cover; at any moment you anticipate the
+dull crunch of stone crushing your skull.
+     Just as you duck under a large steel girder which spans the roof,
+the clamour ends as quickly as it began.  Looking out, you realize
+that you are now in a completely different section of the mines.  the
+walls are older but more deftly crafted than the section you were just
+in; the roof is lofty and smooth.  You lost all sense of direction in
+the earlier chaos, but as it turns out, that does not matter.    
+     The west, from which you think you came, is now completely blocked
+by a mass of fallen rock and twisted metal.  For better or worse, you
+must now head east.
+~
+40 acd 3
+D1
+~
+~
+0 -1 4060
+S
+#4060
+The Tunnel~
+     The course of the mine spans from east to west.  As you gaze 
+upon the walls, you notice that they are adorned with an intricate
+description of the history of the dwarrows here, both in paint and
+etching.
+~
+40 ad 3
+D1
+~
+~
+0 -1 4061
+D3
+~
+~
+0 -1 4059
+S
+#4061
+The Light Cave~
+   You are in the south end of a light cave, tunnels leads of to the
+south and west.
+~
+40 d 2
+D0
+~
+~
+0 -1 4056
+D2
+~
+~
+0 -1 4065
+D3
+~
+~
+0 -1 4060
+S
+#4062
+The Maze~
+   You are in a maze of small damp tunnels.  Exits leads east and west.
+~
+40 ad 3
+D1
+~
+~
+0 -1 4063
+D3
+~
+~
+0 -1 4061
+S
+#4063
+The Maze~
+   You are in a maze of small damp tunnels.  Exits leads north and east.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4054
+D1
+~
+~
+0 -1 4064
+S
+#4064
+The Tunnel~
+   You are in a tunnel, only exit is west - Only exit, well there is 
+also a hole in the ceiling.
+~
+40 ad 3
+D3
+~
+~
+0 -1 4063
+D4
+~
+~
+0 -1 4020
+S
+#4065
+The Maze~
+   You are in a maze of small damp tunnels.  The tunnel continues east.
+To the north there is a light cave.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4061
+D1
+~
+~
+0 -1 4066
+S
+#4066
+The Maze~
+   You are in a maze of small damp tunnels.  Exits leads east and
+north.  To the south is a large cave.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4062
+D1
+~
+~
+0 -1 4067
+D2
+~
+~
+0 -1 4069
+S
+#4067
+The Maze~
+   You are in a maze of small damp tunnels.  Exits leads west and
+north.
+~
+40 ad 3
+D0
+~
+~
+0 -1 4063
+D3
+~
+~
+0 -1 4066
+S
+#4068
+The Large Cave~
+   You are in the northwest end of a large cave.
+~
+40 ad 2
+D1
+~
+~
+0 -1 4069
+D2
+~
+~
+0 -1 4070
+S
+#4069
+The Large Cave~
+   You are in the northeast end of a large cave.  To the north the
+is a small damp tunnel.
+~
+40 ad 2
+D0
+~
+~
+0 -1 4066
+D2
+~
+~
+0 -1 4071
+D3
+~
+~
+0 -1 4068
+S
+#4070
+The Large Cave~
+   You are in the southwest end of a large cave.
+~
+40 ad 2
+D0
+~
+~
+0 -1 4068
+D1
+~
+~
+0 -1 4071
+S
+#4071
+The Large Cave~
+   You are in the southeast end of a large cave.  To the east you
+notice a small tunnel.
+~
+40 ad 2
+D0
+~
+~
+0 -1 4069
+D1
+~
+~
+0 -1 4072
+D3
+~
+~
+0 -1 4070
+S
+#4072
+The Tunnel~
+   You are in a narrow tunnel, which leads both to the east and the
+south.  There is also an exit towards the west, where you see a large
+cave.
+~
+40 ad 3
+D1
+~
+~
+0 -1 4073
+D2
+~
+~
+0 -1 4074
+D3
+~
+~
+0 -1 4071
+S
+#4073
+The End Of The Tunnel~
+   The tunnel stops here.  There is no other exits than the one you
+came from.
+~
+40 ad 3
+D3
+~
+~
+0 -1 4072
+S
+#4074
+The Hole~
+   You are at a small hole in the floor. Alas, you can only leave
+north because to leave down into the unknown, you must be able to
+fit through the hole, which is far too small for you!
+~
+40 ad 3
+D0
+~
+~
+0 -1 4072
+S
+#4075
+The Copse Of Trees~
+   Standing in this copse of trees gives you an eerie feeling.  Off to
+the east you can see the plains, and just to the north a strange shadow
+seems to be changing shape constantly and almost seems to beckon you to
+enter it. 
+~
+40 0 4
+D1
+~
+~
+0 -1 4036
+S
+$~

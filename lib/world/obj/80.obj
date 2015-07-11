@@ -1,0 +1,416 @@
+#8000
+pick mining~
+a mining pick~
+A mining pick is lying here on its side.~
+~
+5 0 am
+1 2 3 11 0 0 0 14 0
+8 100 10
+#8001
+shovel~
+a shovel~
+A long shovel is lying here on the ground.~
+~
+5 0 am
+2 2 2 5 0 0 0 10 0
+4 40 5
+#8002
+cord long black~
+a long, black cord~
+A long, black length of cord lies here.~
+~
+25 0 am
+8 2 1 2 0 0 0 14 0
+2 30 5
+#8003
+mirror strange~
+the mirror~
+A large, strange mirror is here reflecting your image back at you.~
+~
+1 a 0
+0 0 0 0 0 0 0 20 0
+1000 1 1
+#8004
+black scales~
+black wyrm scales~
+Some hard, black scales are lying here.~
+~
+9 0 ak
+15 0 0 0 0 0 0 20 0
+9 1000 1000
+A
+1 2
+A
+19 5
+#8005
+green staff crystal~
+a green, crystal staff~
+A deep green staff, made of crystal is lying here.~
+~
+4 dq am
+15 10 10 80 0 0 0 20 0
+9 10000 1200
+A
+12 15
+#8006
+breastplate krishala deep green~
+a deep-green breastplate~
+A deep green breastplate made from krisahla is lying here.~
+~
+9 d ad
+95 0 0 0 0 0 0 19 14
+11 10000 4000
+A
+13 12
+A
+12 12
+A
+14 12
+#8007
+well small~
+the small, wooden well~
+A small, wooden well is here providing water.~
+~
+23 0 0
+1000000 1000000 0 0 0 0 0 19 8
+1000005 0 0
+#8008
+bone necklace black~
+a bone necklace~
+A small pile of charred black bones is here with a string threaded through it.~
+~
+9 0 ac
+5 0 0 0 0 0 0 20 0
+4 10 10
+A
+12 10
+#8009
+key silver~
+a silver key~
+A large silver key is lying here.~
+~
+18 0 am
+0 0 0 0 0 0 0 0 0
+2 2 0
+#8010
+amulet magda~
+a blood-red amulet~
+A blood-red amulet lies here in the dirt.~
+~
+4 0 ac
+30 1000 20 103 0 0 0 20 0
+2 1 1
+A
+13 10
+A
+19 7
+#8011
+note~
+a note~
+A note is lying here on the ground.~
+~
+12 cd am
+0 0 0 0 0 0 0 22 0
+1 0 0
+E
+note~
+   Centuries ago, the Temple of Garou was lost to the world.  Nothing
+is left to tell where it lies or what is in it.  His immortal archivist,
+wishes you to find this temple, and copy down any two of the laws
+inscribed upon the tome.
+You will be rewarded for this task.
+When you have completed your assignment, mail Kirahn what you have found.
+~
+#8012
+shield runed~
+a runed shield~
+A golden shield with dark-red runes carved into it lies here.~
+~
+9 g am
+13 0 0 0 0 0 0 20 0
+7 10000 5000
+A
+13 10
+#8013
+warhammer hammer runed~
+a runed warhammer~
+A warhammer covered in strange, red runes lies here.~
+~
+5 0 am
+10 4 3 5 0 0 0 20 0
+10 12000 6000
+E
+warhammer hammer~
+The head of the warhammer is made of adamantite and finely etched
+runes have been carved into the shaft of the weapon.
+~
+A
+18 5
+A
+19 5
+#8014
+runed plate breast~
+a golden-runed breastplate~
+A golden colored breastplate with red colored runes etched into it lies here.~
+~
+9 ak ad
+20 0 0 0 0 0 0 20 0
+10 10000 5000
+A
+5 1
+A
+13 10
+A
+14 -5
+#8015
+rock dull grey~
+a dull grey rock~
+A dull, grey rock lies here collecting dust.~
+~
+5 E am
+0 1 3 0 0 0 0 9 0
+2 0 0
+E
+rock grey~
+The rock is of a medium weight and fits well in the palm of your hand.
+~
+#8016
+gem amber stone~
+a small gem of amber~
+A small dull stone of amber lies here in the dust.~
+~
+8 0 am
+0 0 0 0 0 0 0 9 0
+3 1000 90
+E
+amber stone gem~
+The stone is made from amber and gives off a dull sheen in the light.
+It almost looks like it is still liquid but to the touch it is no
+different than marble.
+~
+#8017
+ring golden runed~
+a golden-runed ring~
+A golden runed ring lies here in the dust.~
+~
+9 k ab
+1 0 0 0 0 0 0 20 0
+2 250000 4000
+E
+ring golden~
+The ring is covered with strange red colored runes.  The actual
+material of the ring is made of the fabled 'krisahla', no doubt.
+~
+A
+19 5
+A
+13 15
+#8018
+cloak black dragonscale~
+a black, dragonscale cloak~
+A black heap of dragonscales lies here.~
+~
+9 0 aj
+8 0 0 0 0 0 0 20 0
+7 8000 2000
+E
+dragonscale cloak black~
+The cloak seems to have been fashioned from the scales of a black
+dragon.
+~
+A
+1 1
+A
+13 8
+#8019
+morrolan~
+a jewelled chest~
+A very expensive chest lies here pushed into the corner.~
+~
+15 0 a
+2000 1 -1 2000 0 0 0 19 0
+20 5000000 10000
+#8020
+sword onyx nightfang~
+an onyx sword *Nightfang*~
+A sword made purely of onyx is standing point first in the ground.~
+~
+5 bE am
+10 5 4 16 0 0 0 20 0
+6 0 0
+E
+sword onyx~
+This sword is made entirely of the precious stone called onyx.
+It is the color death itself with a golden hilt.  The blade seems
+to shimmer with the colors of the rainbow in the light.  
+~
+A
+18 10
+A
+19 10
+#8021
+suit leather bodysuit~
+a black, leather bodysuit~
+A black, leather body suit is lying here in a crumpled heap.~
+~
+9 0 ad
+5 0 0 0 0 0 0 8 0
+2 100 1
+E
+leather bodysuit suit black~
+The bodysuit is made of sleek, black leather.  Chains follow the seams
+around the neck and shoulders.  
+~
+#8022
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8023
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8024
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8025
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8026
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8027
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8028
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8029
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8030
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8031
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8032
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8033
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8034
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8035
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8036
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8037
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8038
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8039
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+#8040
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0
+$~

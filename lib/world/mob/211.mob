@@ -1,0 +1,560 @@
+#21103
+mountain goat~
+a mountain goat~
+There is a large mountain goat here. She thinks you look like a target.
+~
+She has big curved horns. It's likely she's just being playful.
+~
+hfb 0 0 E
+5 19 10 1d5+18 1d4+0
+30 400
+8 8 2
+BareHandAttack: 4
+E
+#21104
+bat~
+the dark bat~
+The bat hangs from the roof, swaying slightly.
+~
+It's hard to distinguish one bat from another, there are so many.
+~
+b t 0 E
+1 20 10 1d3+10 1d3+0
+10 100
+8 8 1
+BareHandAttack: 4
+E
+#21105
+cave fisher~
+the cave fisher~
+A large cave fisher is here, reeling you in for a welcome meal.
+~
+It's a big ugly squat beast, on four legs, with a hard exoskeleton and a long
+sticky tongue-like appendage with which it lifts its prey into its formidable
+looking jaws. Flee if you can!
+~
+fb d -500 E
+15 15 8 1d80+38 1d6+0
+50 1400
+8 8 1
+BareHandAttack: 4
+E
+#21106
+yellow mold~
+the yellow mold~
+There is a spotted yellow-colored mold flourishing here.
+~
+What did you expect? It's spores galore!
+~
+fb 0 0 S
+12 16 8 1d80+32 1d6+0
+50 1200
+8 8 0
+#21107
+red mold~
+the red mold~
+There is bit of red mold growing near the water. 
+~
+It is a rusty reddish color. Sort of like rusted matel...
+~
+fb 0 0 S
+14 16 8 1d80+36 1d6+0
+50 1400
+8 8 0
+#21108
+cave wight~
+the cave wight~
+A shadowy cave wight eyes you hungrily.
+~
+It is difficult to make out precisely, as it blends in with the
+shadows, but from what you can see, you realize this is a fearsome
+creature, and its undead claws twitch in anticipation as it closes in
+on you.
+~
+fcba db -1000 S
+13 16 8 1d80+34 1d6+0
+50 1200
+8 8 1
+#21109
+troglodyte trog~
+the large troglodyte~
+A large troglodyte stands pounces on you from behind a stone!
+~
+An ugly troglodtye with large yellow teeth stands here, preparing to make you
+into a meal for the whole family. He eyes your weapons and armor greedily.
+~
+fcb d -500 S
+5 19 10 1d5+18 1d4+0
+30 400
+8 8 1
+#21110
+lieutenant trog troglodyte~
+the troglodyte lieutenant~
+A troglodyte lieutenant stands here, ordering others about.
+~
+He is in complete control here.
+~
+fcb d -500 S
+12 16 8 1d80+32 1d6+0
+50 1200
+8 8 1
+#21111
+cave spider~
+the cave spider~
+The cave spider hangs nimbly from the webby roof.
+~
+The spider's hard exoskeleton is covered with an oily substance that keeps its
+sticky webs from clinging to it. It is large and quite dangerous looking.
+~
+fb 0 0 S
+10 17 10 1d7+28 1d5+0
+40 1000
+8 8 1
+#21112
+trapper~
+the gigantic trapper~
+A gigantic trapper engulfs you from the floor below!
+~
+It looks exactly like the floor it mimics.
+~
+fb d -898 S
+15 15 8 1d80+38 1d6+0
+50 1400
+8 8 0
+#21113
+troglodyte trog evil~
+the evil troglodyte~
+The troglodyte attacks you with a yell!
+~
+He is dirty, and covered in grime and dried blood, some of which is apparently
+his own. He doesn't look particularly well fed, but would like to take this
+opportunity to improve that situation.
+~
+fcb d -1000 S
+9 17 10 1d7+26 1d5+0
+40 800
+8 8 1
+#21114
+troglodyte guard trog~
+the troglodyte guard~
+The troglodyte guardsman defends his post from all invaders.
+~
+They guard their post diligently, fighting off all who would attack their
+homeland and pose a threat to the survival of their people. Each is armored
+and carries a sharp weapon.
+~
+fb d -500 S
+8 18 10 1d7+24 1d5+0
+40 800
+8 8 1
+#21115
+troglodyte teen trog~
+the adolescent troglodyte~
+The young troglodyte rests here between training sessions.
+~
+He looks at you with alarm. He isn't sure whether he should stay and fight, or
+run. He scrambles for his weapons, just in case...
+~
+hcb d -200 S
+4 19 10 1d5+16 1d4+0
+30 400
+8 8 1
+#21116
+troglodyte adolescent student trog~
+the adolescent troglodyte~
+The young troglodyte is bashing his fellows with abandon.
+~
+He looks at his battlemaster, who urges him to slay you.
+~
+fcb d -200 S
+4 19 10 1d5+16 1d4+0
+30 400
+8 8 1
+#21117
+troglodyte trog battlemaster~
+the troglodyte battlemaster~
+The battlemaster screams at his pupils to attack, then assaults you himself.
+~
+He is extremely large, and is covered with battlescars. His armor is nice, and
+is finely polished, as is his sword, which is sharp and wicked looking.
+~
+fcb d -800 S
+16 15 8 1d80+40 1d8+0
+60 1600
+1 39 8
+#21118
+troglodyte trog clansman~
+the troglodyte clansman~
+The troglodyte clansman cries for aid as he defends his homeland.
+~
+He looks like an ordinary troglodyte, about six feet tall, weighing slightly
+less than two hundred pounds. He is well armored, and carries a sharp weapon.
+~
+fcb d -500 S
+5 19 10 1d5+18 1d4+0
+30 400
+8 8 1
+#21119
+troglodyte trog clansman~
+the troglodyte clansman~
+The troglodyte clansman is here, foraging for food.
+~
+He looks like an ordinary troglodyte, about six feet tall, weighing slightly
+less than two hundred pounds. He is well armored, and carries a sharp weapon.
+~
+gfc d -500 S
+5 19 10 1d5+18 1d4+0
+30 400
+8 8 1
+#21120
+tunnel rat~
+the tunnel rat~
+There is a tunnel rat here, running for its life.
+~
+It is trying desperately to avoid becoming a troglodyte meal, like others of
+its kind. It edges away as you approach.
+~
+hg t 0 E
+1 20 10 1d3+10 1d3+0
+10 100
+8 8 1
+BareHandAttack: 4
+E
+#21121
+troglodyte cook trog~
+the troglodyte cook~
+A troglodyte cook is here, slaving over an pot of tunnel rat stew.
+~
+She looks at you as if you would make an excellent addition to the stew. Given
+the large knife she brandishes at you, you think she just might do it, too.
+~
+fb d -500 S
+4 19 10 1d5+16 1d4+0
+30 400
+8 8 1
+#21122
+troglodyte shaman trog~
+the troglodyte shaman~
+A troglodyte shaman is here, mumbling incantations.
+~
+She curses you, lifting aloft the small humanoid skull around her neck. The
+incantations spewing from her mouth send shivers down your spine.
+~
+gb d -1000 S
+26 12 7 1d80+180 4d8+2
+80 8000
+8 8 2
+#21123
+troglodyte chief trog~
+the troglodyte chief~
+The great chief of the troglodytes is here, regarding you dispassionately.
+~
+He is the largest troglodyte you've ever seen. He is covered with battle scars.
+He looks at you with resignation, and slowly pulls out his great sword for
+battle.
+~
+fb d -700 S
+28 11 6 1d80+240 4d8+3
+90 11000
+8 8 1
+#21124
+golgar god~
+Golgar, god of the troglodytes~
+Golgar, the mighty god of the troglodytes, prepares to smite you.
+~
+This lordly figure is like a troglodyte, only on a larger scale. He must be
+twenty feet tall, and as such barely fits inside the caves of his believers.
+Golgar wears no armor and holds no weapon - his skin looks like it is carved
+from solid granite, and his heavy fists area easily larger than the head of
+any humanoid. You feel a tremendous urge to grovel in supplication before him,
+but this is slightly weaker than your urge to run in terror.
+~
+gf hd -1000 S
+30 0 0 8d100+33000 13d8+41
+4800 1550000
+8 8 1
+#21125
+troglodyte clanswoman trog~
+the troglodyte clanswoman~
+The troglodyte clanswoman is here, crushing bone to paste.
+~
+She doesn't appear to think much or your company.
+~
+fcb d -500 S
+4 19 10 1d5+16 1d4+0
+30 400
+8 8 2
+#21126
+troglodyte matron trog~
+the troglodyte matron~
+The troglodyte matron is here, watching over the young.
+~
+She would kill you just for *thinking* about touching one of the little ones.
+~
+fcb d -500 S
+5 19 10 1d5+18 1d4+0
+30 400
+8 8 2
+#21127
+troglodyte clanswoman trog~
+the troglodyte clanswoman~
+The troglodyte clanswoman is here, getting some needed rest.
+~
+She looks annoyed and frightened at your intrusion.
+~
+fcb d -500 S
+4 19 10 1d5+16 1d4+0
+30 400
+8 8 2
+#21128
+troglodyte young trog~
+the young troglodyte~
+The young troglodyte is annoying the adults here.
+~
+It ceases all such activity when you enter, and attacks you dutifully.
+~
+fcb d -100 S
+1 20 10 1d3+10 1d3+0
+10 100
+8 8 1
+#21129
+troglodyte infant trog~
+the infant troglodyte~
+The infant troglodyte is here, waddling around and acting cute.
+~
+It's too young to understand the concept of killing.
+~
+b d 0 S
+1 20 10 1d3+10 1d3+0
+10 100
+8 8 1
+#21130
+valik wizened mage~
+Valik~
+A wizened mage paces quietly here, waiting for the end of time.
+~
+The robes he wears are old and worn, and his pointy hat droops a bit as he
+walks to and fro, intently staring with unfocused eyes at a point somewhere
+on the infinite horizon. When his attention flicks by you, a strong feeling
+of guilt washes over you and fades, like everything must in the passage of
+time. You suddenly recall a phrase you've heard somewhere:
+
+    "Do not meddle in the affairs of wizards, for they are subtle,
+     and quick to anger."
+~
+b hdb 1000 S
+29 0 0 5d100+23000 13d8+39
+4400 1450000
+8 8 1
+#21131
+blind fish~
+a blind fish~
+A blind fish swims about in the dark water, searching for food.
+~
+It isn't very big, and it doesn't look very appetizing. 
+~
+hg 0 0 S
+4 19 10 1d5+16 1d4+0
+30 400
+8 8 1
+#21132
+eel mud~
+the mud eel~
+There is an a dark eel swimmimg along the lake bottom.
+~
+It's hard to get a good look at it with all the mud, but you'd estimate it as
+being a good four inches in diameter. As it turns, you get a brief glimpse of
+some sharp and nasty looking teeth.
+~
+b d 0 S
+11 17 10 1d7+30 1d5+0
+40 1000
+8 8 1
+#21133
+crayfish~
+a lake crayfish~
+A small crayfish scuttles along the lake floor.
+~
+It is barely visible, what with all the mud and darkness.
+~
+hb 0 0 E
+3 19 10 1d3+14 1d3+0
+10 200
+8 8 1
+BareHandAttack: 8
+E
+#21134
+gar fish~
+a humongous lake gar~
+A really big fish with lots of sharp teeth has lucked into its next meal.
+~
+This fresh water whopper must weigh half a ton. It is shaped like a cigar
+tube, and has the same silver coloring. It's fins are small, but its teeth
+more than make up for its lack of maneuverability.
+~
+fb 0 0 E
+26 12 7 1d80+180 4d8+2
+80 8000
+8 8 1
+BareHandAttack: 4
+E
+#21135
+troll cave~
+the cave troll~
+A gangly cave troll grins at you hungrily, showing lots of bug teeth.
+~
+He grins when you look at him. Good thing you came along, as he was just
+starting to get hungry.
+~
+gfc d -700 S
+18 14 8 1d80+60 1d8+0
+60 1800
+8 8 1
+#21136
+cobra snake~
+a cobra~
+A cobra is staying cool in the shade here.
+~
+It erects itself and flattens out it's neck as you approach, warning you to
+keep a safe distance. It looks quite deadly.
+~
+b 0 0 E
+5 19 10 1d5+18 1d4+0
+30 400
+8 8 1
+BareHandAttack: 4
+E
+#21137
+yeti beast~
+the yeti~
+A huge ape-like beast covered in white fur leaps to the attack!
+~
+The yeti is a big, white, furry animal with very sharp claws and very long
+fangs. The yeti seems impervious to the icy cold.
+~
+fb 0 -200 S
+13 16 8 1d80+34 1d6+0
+50 1200
+8 8 1
+#21138
+ghost soldier~
+the ghostly Soldier~
+A ghostly soldier makes you cower in dread as he floats nearby.
+~
+He is covered in ghostly armor, and holds a ghostly sword. There is little
+doubt in your mind that this fearsome undead creature will do real damage,
+however.
+~
+gc db -800 S
+23 13 8 1d80+120 2d8+1
+70 4500
+8 8 1
+#21139
+ghost lieutenant~
+the ghostly Lieutenant~
+You cover your eyes in horror as you see the ghostly lieutenant.
+~
+He radiates with a red glow, through which you can see he is covered in
+armor, which also seems to be spritual in nature. He has such a fearsome
+visage that just looking at him makes you shiver in dread.
+~
+gc db -900 S
+25 12 7 1d80+160 4d8+2
+80 7000
+8 8 1
+#21140
+ghost captain~
+the Ghost Captain~
+The visage of the ghostly captain makes you cringe in terror!
+~
+You cannot keep your eyes on him, his countenance is so ghastly!
+~
+gfc hdb -1000 S
+35 9 6 1d250+380 5d8+4
+100 16000
+8 8 1
+#21141
+orc lattimore~
+an orc~
+A small orc is trying to break into a locker.  He looks rather purposeful.
+~
+The orc is small and pitiful looking.  He is dressed in filthy clothes,
+and looks rather repulsive.
+~
+cb 0 0 S
+10 17 10 1d7+28 1d5+0
+40 1000
+8 8 1
+#21142
+guardian gate~
+the Gate Guardian~
+The guardian of the gate is astonished to see a visitor from the north!
+~
+He is a huge man, covered with strange black armor. He wields a large sword.
+There is a kindness in his eyes, but a hardness too. This man is not to be
+trifled with.
+~
+eb hd 1000 S
+78 -6 2 1d250+1880 6d8+16
+330 330000
+8 8 1
+#21143
+invisible watcher~
+the invisible watcher~
+The invisible watcher looks at you with disdain.
+~
+It's invisible..what did you expect??
+~
+b t 0 S
+20 14 8 1d80+80 2d8+1
+70 4000
+8 8 1
+#21144
+lieutenant trog troglodyte~
+the troglodyte lieutenant~
+The chief's lieutenants snarl and attack.
+~
+They hope to impress their leader with your swift destruction.
+~
+fcb d -500 S
+12 16 8 1d80+32 1d6+0
+50 1200
+8 8 1
+#21145
+troglodyte trog clansman~
+the troglodyte clansman~
+The troglodyte clansman jumps up from his nap with a yell!
+~
+He doesn't seem to like having been interrupted.
+~
+fcb d -500 S
+6 18 10 1d5+20 1d4+0
+30 600
+8 8 1
+#21146
+demon frost~
+the frost demon~
+An evil frost demon is spewing ice and snow into the air.
+~
+It's hard to believe this creature could be the cause of all this snow, but
+at the rate it's generating ice and snow, it may well be a possibility.
+~
+fcb hd -800 E
+68 -2 3 1d250+1140 6d8+14
+280 230000
+8 8 1
+BareHandAttack: 4
+E
+#21147
+blob acid~
+the acid blob~
+A menacing acid blob quivers with anticipation as it oozes towards you.
+~
+~
+fb 0 -100 E
+26 12 7 1d80+180 4d8+2
+80 8000
+8 8 1
+BareHandAttack: 1
+E
+$~

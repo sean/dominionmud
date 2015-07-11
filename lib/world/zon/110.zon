@@ -1,0 +1,123 @@
+#110
+Three of Swords~
+C.A.W.~
+MED-HIGH~
+13430 1
+11099 15 2
+*
+* Last Updated: Fri Sep 13 11:12:28 
+*           By: Saji
+*
+M 0 8012 9 11084 100 	* the furred dwarf at A clearing in the woods. (Max: 9)
+M 0 11015 25 11021 100 	* the bandit at Cave Passageway. (Max: 25)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11015 25 11025 100 	* the bandit at Cave Passageway. (Max: 25)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 8013 1 11089 100 	* the furred dwarf shaman at The Shaman's Hut. (Max: 1)
+E 1 8008 1 2 100 			* And equip it with a bone necklace. (Max: 1)
+M 0 8012 4 11087 100 	* the furred dwarf at A run down hut. (Max: 4)
+O 0 8007 1 11083 100 	* the small, wooden well at A small village. (Max: 1)
+D 0 11062 5 1 100 		* Close Eastern door at Torched Cottage
+M 0 11003 4 11098 100 	* the horse at Corner of the pasture. (Max: 4)
+M 0 11003 4 11096 100 	* the horse at Corner of the pasture. (Max: 4)
+M 0 11020 4 11092 100 	* the arumb at Corner of the Pasture. (Max: 4)
+M 0 11020 4 11090 100 	* the arumb at The Corner of the Pasture. (Max: 4)
+M 0 11002 1 11094 100 	* the farm girl at The lush pasture. (Max: 1)
+M 0 11018 1 11094 100 	* the Farmer at The lush pasture. (Max: 1)
+E 1 11012 10 17 100 			* And equip it with a long sword. (Max: 10)
+M 0 11000 2 11046 100 	* the mountaineer at Main Road. (Max: 2)
+M 0 11000 2 11053 100 	* the mountaineer at Small Road. (Max: 2)
+M 0 11001 1 11045 100 	* the Storekeeper at General Store. (Max: 1)
+G 1 11022 1000  100 			* And give it a bag. (Max: 1000)
+G 1 11023 1000  100 			* And give it a torch. (Max: 1000)
+G 1 11024 1000  100 			* And give it a short, iron sword. (Max: 1000)
+G 1 11025 1000  100 			* And give it a leather waterskin. (Max: 1000)
+M 0 11002 1 11047 100 	* the farm girl at Corral. (Max: 1)
+M 0 11003 4 11047 100 	* the horse at Corral. (Max: 4)
+M 0 11003 4 11047 100 	* the horse at Corral. (Max: 4)
+M 0 11003 4 11047 100 	* the horse at Corral. (Max: 4)
+M 0 11003 4 11047 100 	* the horse at Corral. (Max: 4)
+M 0 11004 1 11050 100 	* the Farmer's Wife at Farmer's Market. (Max: 1)
+G 1 11000 1000  100 			* And give it an orange. (Max: 1000)
+G 1 11001 1000  100 			* And give it a bale of wheat. (Max: 1000)
+G 1 11008 1000  100 			* And give it an apple. (Max: 1000)
+G 1 11009 1000  100 			* And give it a loaf of bread. (Max: 1000)
+G 1 11010 1000  100 			* And give it a melon. (Max: 1000)
+M 0 11005 1 11075 100 	* Aglandiir at Lair. (Max: 1)
+E 1 30 1 17 100 			* And equip it with the Ring of Murana. (Max: 1)
+G 1 11013 5  100 			* And give it a short sword. (Max: 5)
+O 1 11002 5 11075 100 	* a big zither at Lair. (Max: 5)
+O 1 11003 5 11075 100 	* a barrel of perfume at Lair. (Max: 5)
+O 1 11004 5 11075 100 	* a statue at Lair. (Max: 5)
+O 1 11005 25 11075 100 	* a halberd at Lair. (Max: 25)
+O 1 11006 25 11075 100 	* a potion of protection at Lair. (Max: 25)
+O 1 11007 1 11075 100 	* a dragon's crown at Lair. (Max: 1)
+M 0 11006 3 11068 100 	* the Cyclops at Small, Dangerous Path. (Max: 3)
+M 0 11006 3 11068 100 	* the Cyclops at Small, Dangerous Path. (Max: 3)
+M 0 11006 3 11068 100 	* the Cyclops at Small, Dangerous Path. (Max: 3)
+M 0 11007 1 11057 100 	* Salle at Common Room. (Max: 1)
+E 1 11018 25 4 100 			* And equip it with a leather vest. (Max: 25)
+E 1 11012 20 17 100 			* And equip it with a long sword. (Max: 20)
+M 0 11008 1 11030 100 	* Duwick at Cavern. (Max: 1)
+E 1 11011 10 17 100 			* And equip it with a knife. (Max: 10)
+M 0 11009 1 11058 100 	* the Receptionist at Reception. (Max: 1)
+M 0 11010 1 11056 100 	* the innkeeper at Stanneg Inn. (Max: 1)
+M 0 11011 2 11049 100 	* the hunter at Small Road. (Max: 2)
+E 1 11017 1000 18 100 			* And equip it with a hunting bow. (Max: 1000)
+M 0 11011 2 11055 100 	* the hunter at Main Road. (Max: 2)
+E 1 11017 1000 18 100 			* And equip it with a hunting bow. (Max: 1000)
+M 0 11012 1 11057 100 	* a waiter at Common Room. (Max: 1)
+M 0 11013 1 11057 100 	* a waitress at Common Room. (Max: 1)
+M 0 11014 1 11057 100 	* a bartender at Common Room. (Max: 1)
+G 1 11019 1000  100 			* And give it a glass. (Max: 1000)
+G 1 11020 1000  100 			* And give it a glass. (Max: 1000)
+G 1 11021 1000  100 			* And give it a shot. (Max: 1000)
+M 0 11015 9 11019 100 	* the bandit at Cave Passageway. (Max: 9)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11015 9 11023 100 	* the bandit at Cave. (Max: 9)
+E 1 11015 1000 18 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11015 9 11027 100 	* the bandit at Cave Passageway. (Max: 9)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11015 9 11032 100 	* the bandit at Cave Passageway. (Max: 9)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11015 9 11036 100 	* the bandit at Cave Passageway. (Max: 9)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11015 9 11039 100 	* the bandit at Cave Passageway. (Max: 9)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11015 9 11027 100 	* the bandit at Cave Passageway. (Max: 9)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11016 5 11029 100 	* the bandit guard at End of the Passageway. (Max: 5)
+E 1 11015 1000 18 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11016 5 11029 100 	* the bandit guard at End of the Passageway. (Max: 5)
+E 1 11015 1000 18 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11016 5 11040 100 	* the bandit guard at End of Passage. (Max: 5)
+E 1 11015 1000 18 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11016 5 11040 100 	* the bandit guard at End of Passage. (Max: 5)
+E 1 11015 1000 17 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11016 5 11017 100 	* the bandit guard at Cave Entrance. (Max: 5)
+E 1 11015 1000 18 100 			* And equip it with a scimitar. (Max: 1000)
+M 0 11017 2 11040 100 	* the slave at End of Passage. (Max: 2)
+M 0 11017 2 11040 100 	* the slave at End of Passage. (Max: 2)
+M 0 11018 2 11057 100 	* the Farmer at Common Room. (Max: 2)
+M 0 11018 2 11057 100 	* the Farmer at Common Room. (Max: 2)
+M 0 11019 1 11057 100 	* the hunter at Common Room. (Max: 1)
+E 1 11017 1000 17 100 			* And equip it with a hunting bow. (Max: 1000)
+O 0 11014 1 11004 100 	* a dismembered and burnt corpse at Smithery. (Max: 1)
+O 0 11016 3 11030 100 	* a crate at Cavern. (Max: 3)
+O 0 11016 3 11030 100 	* a crate at Cavern. (Max: 3)
+O 0 11016 3 11030 100 	* a crate at Cavern. (Max: 3)
+O 0 11015 2 11023 100 	* a scimitar at Cave. (Max: 2)
+O 0 11015 2 11023 100 	* a scimitar at Cave. (Max: 2)
+D 0 11008 5 1 100 		* Close Eastern door at Diverging Paths
+D 0 11029 0 1 100 		* Close Northern door at End of the Passageway
+D 0 11030 2 1 100 		* Close Eastern door at Cavern
+D 0 11051 1 1 100 		* Close Eastern door at Small Road
+D 0 11052 3 1 100 		* Close Eastern door at Private Home
+D 0 11053 2 1 100 		* Close Eastern door at Small Road
+D 0 11054 0 1 100 		* Close Northern door at Private Home
+D 0 11055 0 1 100 		* Close Northern door at Main Road
+D 0 11056 2 1 100 		* Close Eastern door at Stanneg Inn
+D 0 11097 2 1 100 		* Close Eastern door at Near the Gates of the Pasture
+D 0 11099 0 1 100 		* Close Northern door at Small Road
+S
+$~

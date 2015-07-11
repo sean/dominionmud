@@ -1,0 +1,138 @@
+#4601
+Munchkin~
+Munchkin~
+A little munchkin is here singing a tune.
+~
+This guy is small.  He appears to have a permanent smile etched on is face and
+continuously sings "We welcome you to munchkin land".  He could be a real pain
+if you weren't so patient.
+~
+4 8 600 S
+5 16 5 1d1+61 2d4+0
+500 900 
+8 8 1
+#4602
+Lollipop Kid~
+Lollipop Kid~
+A little munchkin is here holding a sucker.
+~
+This guy is one of three brothers who represent the lollipop kids.  They are
+kind of cute but if they sing that song one more time!!!
+~
+2 0 100 S
+7 14 4 3d5+80 1d4+3
+500 2250
+8 8 1
+#4603
+Lullibye Munchkin~
+Lullibye Munchkin~
+A member of the lullibye league stand here.
+~
+This little girl is one of 3 in the lullibye league.  They are kind of cute but
+their song is getting on your nerves.
+~
+2 0 100 S
+7 14 4 3d5+80 1d4+3
+500 2250
+8 8 2
+#4604
+Munchkin Baker~
+Munchkin Baker~
+The town baker is here baking cinammon swirls
+~
+A short midget with a white cap.  He appears happy as he goes about his daily
+chores of making food for munchkin land.
+~
+2 0 100 S
+7 14 4 3d5+8000 3d4+3
+500 2250
+8 8 1
+#4605
+Munchkin Grocer~
+Munchkin Grocer~
+The town grocer is here selling his wares.
+~
+A short munchkin wearing long overalls and a baseball cap.  Hmmm do they have
+baseball here?  He peers at you wondering if your a thief.
+~
+2 0 100 S
+7 14 4 3d5+8000 3d4+3
+500 2250
+8 8 1
+#4606
+Munchkin Magician~
+Munchkin Magician~
+The local mage is here mixing some spells.
+~
+A short wizard with a pointy hat.  His beard only two feet long almost touches
+his toes.  He is very busy but may have time to sell you a spell or two.
+~
+2 0 100 S
+7 14 4 3d5+8000 3d4+3
+500 2250
+8 8 1
+#4607
+Munchkin Fortune Teller~
+Munchkin Fortune Teller~
+The local fortune teller is here gazing at the ceiling.
+~
+A quaint old woman with a few warts.  The fact that she is only 3 feet tall is
+the only thing keeping her from looking 200 years old.  She seems to have
+discovered something, maybe she would share it.
+~
+2 0 100 S
+7 14 4 3d5+8000 3d4+3
+500 2250
+8 8 1
+#4608
+Mayor~
+Mayor of Munchkin Land~
+The Mayor of Munchkin Land is here making a proclamation.
+~
+A short guy with a rather large stomach.  He seems very happy with the way
+things  are going.  He keeps singing "Ding dong the witch is dead". 
+Interesting.
+~
+2 0 100 S
+27 0 -7 1d1+1601 4d6+4
+30000 200000
+8 8 1
+#4609
+Glenda witch~
+Glenda the Good Witch~
+Glenda the good witch is here.
+~
+A beautiful witch of normal heighth.  She has long flowing blonde hair and a
+smile that can hypnotise.  She looks at you as if too say "Are you lost?".
+~
+2 0 100 S
+27 0 -7 1d1+10601 6d4+4
+30000 200000
+8 8 2 
+#4610
+Auntie Em~
+Auntie Em~ 
+Auntie Em is here looking for Dorothy.
+~
+A dear old lady with long silky gray hair.  Wrinkles line her face from long
+years of work on the farm.
+~
+2 0 100 S
+7 14 4 3d5+80 1d4+3
+500 2250
+8 8 2
+#4611
+Uncle Henry~
+Uncle Henry~ 
+Uncle Henry is searching for Dorothy.
+~
+A lanky old farmer who has worked the fields of his farm for years and years.
+He appears worried as if he has lost his best friend.
+~
+2 0 100 S
+7 14 4 3d5+80 1d4+3
+500 2250
+8 8 1  
+$~
+
+

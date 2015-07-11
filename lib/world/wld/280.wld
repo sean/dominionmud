@@ -1,0 +1,836 @@
+#28000
+Trail leading into the hills~
+     A path leading northward lies before you.  Ahead you see a tranquil path
+patially shaded by the long stretching branches of the Norik trees.  Further
+north in the distance you can se the tips of the northern mountains. The path
+continues north and south.
+~
+280 0 0
+D0
+~
+~
+0 0 28001
+S
+#28001
+Trail leading into the hills~
+     A gentle breeze brushes your hair to one side as you continue your trek
+along this solem trail.  The smell of rain is in the air.  The clouds seem
+a bit darker to the north.  The hills are coming more into your view as you
+travel more northward.  The trail comtinues north and south.
+~
+280 0 0
+D0
+~
+~
+0 0 28002
+D2
+~
+~
+0 0 28000
+S
+#28002
+Trail leading into the hills~
+     Just ahead you see the base of the the hills.  A small drop of rain lands
+on your collar.  Instictively, you reach to pull you cloak around you body
+in expectation of foul weather.  You see small animal tracks along the trail.
+The trail leads north towards the hills or south back towards Phalar.
+~
+280 0 0
+D0
+~
+~
+0 0 28004
+D2
+~
+~
+0 0 28001
+D5
+A hole under some brush is here, just off the path
+~
+hole~
+1 0 28003
+E
+hole~
+This hole is covered by some brush, but looks as though you could enter it
+~
+S
+#28003
+The small burrow~
+     You squeeze down the narrow hole, desending into a small animals dwelling.
+You are forced to crawl on your hands and knees to search this burrow.  To
+the north you see two small eyes watching you intently through a crawlway.
+The exits lead up back through the mouth of the hole or north into the crawlway
+~
+280 0 0
+D0
+~
+~
+0 0 28006
+D4
+You can see a small beam of light coming through the brush covering the hole
+~
+hole~
+1 0 28002
+E
+hole~
+The hole seems to lead back to the surface.
+~
+S
+#28004
+An unfinished room~
+You are in an unfinished room.
+~
+280 0 0
+D0
+~
+~
+0 0 28007
+D2
+~
+~
+0 0 28002
+S
+#28005
+Rabbit Den~
+     Shhh.  The mother rabbit has left her babies here to sleep while she
+searches for roots in the hills.  The babies are curled up in a heap to keep
+each other warm.  In the corner is a collection of odds and ends the rabbits
+must have found out in the foothills.  You can leave quietly to the west
+without waking the sleeping babes.
+~
+280 0 0
+D3
+~
+~
+0 0 28006
+S
+#28006
+Rabbit Burrow~
+     The burrow is oval in shape, a few half eaten vegtables lie on the floor
+This appears to be the home of a small family of animals.  The crawlway leads
+east, or back to the entrance to the south.
+
+~
+280 0 0
+D1
+~
+~
+0 0 28005
+D2
+~
+~
+0 0 28003
+S
+#28007
+The Base of the Hills~
+You are in an unfinished room.
+~
+280 0 0
+D1
+~
+~
+0 0 28008
+D2
+~
+~
+0 0 28004
+D3
+~
+~
+0 0 0
+S
+#28008
+An unfinished room~
+You are in an unfinished room.
+~
+280 0 0
+D1
+~
+~
+0 0 28009
+D3
+~
+~
+0 0 28007
+S
+#28009
+An unfinished room~
+You are in an unfinished room.
+~
+280 0 0
+D1
+~
+~
+0 0 28010
+D3
+~
+~
+0 0 28008
+S
+#28010
+An unfinished room~
+You are in an unfinished room.
+~
+280 0 0
+D0
+~
+~
+0 0 28012
+D1
+~
+~
+0 0 28011
+D3
+~
+~
+0 0 28009
+S
+#28011
+An unfinished room~
+You are in an unfinished room.
+~
+280 0 0
+D3
+~
+~
+0 0 28010
+S
+#28012
+An unfinished room~
+You are in an unfinished room.
+~
+280 0 0
+D0
+~
+~
+0 0 28013
+D2
+~
+~
+0 0 28010
+S
+#28013
+An unfinished room~
+You are in an unfinished room.
+~
+280 0 0
+D0
+~
+~
+0 0 0
+D2
+~
+~
+0 0 28012
+S
+#28048
+Blocked off in the plains~
+       Your way onward is blocked effectively by a small grove of odd-
+looking trees and shrubs with thick thorns along the trunks.  It extends
+in a right angle from the eastern side of the trail to the south, forming
+an effective blockade.  Your choices seem to be limited to doubling back
+the way you came, or taking the only available route left.
+~
+0 0 -1 0 0 0 2
+S
+#28049
+On a thin trail through the plains~
+       You arrive at the head of a small trail that runs along the edge of 
+the grasslands.  The trail is bordered on one side by the plains and on the
+other by a large group of hills that look pretty difficult to climb in this 
+area.  The wind has picked up a bit and the grass sways to it's movement.
+You see several impressions in the dirt that could be tracks, but you're
+not really sure about that.
+~
+280 0 -1 0 0 0 2
+D1
+Onward down the thin trail
+~
+~
+0 0 28056
+D2
+Continuing on through the plains....
+~
+~
+0 0 28050
+S
+#28050
+On a path in the plains~
+       You pause a second to catch you breath after traversing several more
+acres of the grassy plains that extend in all directions.  To the north, 
+you begin to see large hills that rise up seemingly from nowhere.  The trail
+begins to thin a bit in that directions, but still looks well used as tracks
+are imprinted firmly into the soft soil.  The knee-to-thigh high grass whips
+slightly around your legs as you pause to decide where to go next.
+~
+280 0 2
+D0
+North to the hills.
+~
+~
+0 0 28049
+D2
+~
+~
+0 0 28051
+S
+#28051
+On a path in the plains.~
+       You continue to trudge through the grass across acres of flat plains
+that, for the moment, continue as far as the eye can see in all directions.
+The well-worn trail below your feet splits up into several directions from
+this point.  From somewhere off in the distance, you hear the sounds of 
+something rhythmic.  You're not sure if it's thunder or not.
+~
+280 0 2
+D0
+Onward through the grassland...
+~
+~
+0 0 28050
+D1
+Eastward along the path....
+~
+~
+0 0 28058
+D2
+Taking the southern trail....
+~
+~
+0 0 28052
+S
+#28052
+In the northern plains~
+      Grass, grass, everywhere.  It snags your equipment, it makes you jumpy,
+it smells kind of funny, and it's beginning to really piss you off.  The
+smoke you noticed earlier is now floating in from the east, and you can make
+out several huts off in the distance.  The smoke seems to be coming from
+there.  Perhaps it's a village of somekind.
+~
+280 0 2
+D0
+~
+~
+0 0 0
+D2
+~
+~
+0 0 28053
+S
+#28053
+Walking across the plains~
+      The grass swishes around your knees as you stroll across the plains.
+The wind around you continues to swirl, causing the strands of plants to 
+whisper and sway against one another.  You feel shivers run up and down your
+back involuntarily.  You can't help it, the effect of the whispering grass 
+is just eerie as hell.
+~
+280 0 2
+D0
+~
+~
+0 0 28052
+D1
+There seems to be a crossroads a ways up the trail.
+~
+~
+0 0 28060
+D2
+~
+~
+0 0 28054
+S
+#28054
+Travelling through the plains~
+      The trail forms a right angle here and stretches for what seems to be
+miles to the north and about 400 yards to the west before it ends.  The 
+grasses you're walking through continue to drift across your feet as you plod
+though the trails.  A thin, almost invisible line of smoke is drifting in on
+the wind, swirling from the northeast.
+~
+280 0 2
+D0
+~
+~
+0 0 28053
+D3
+~
+~
+0 0 0
+S
+#28055
+A watering hole~
+      You step out of the tall grass and into an open area roughly 30 feet
+by 30 feet.  In the center of this clearing is a clear pool of water, around
+which several animals drink contentedly out of.  A gentle breeze forces the 
+water to lap at the sides of the pool and you realize that this would be a
+wonderful place to hunt.  It's secluded, peaceful, and crawling with all 
+sorts of game.  Perhaps a nap would be in order.
+~
+280 0 2
+D1
+Back through to the taller grass.
+~
+~
+0 0 28076
+S
+#28056
+A corner trail in the plains.~
+      The trail runs up to the edges of a thick forest and then curves along
+the boundries of it.  The grasses that you've been walking through seem
+to shrink back from that clogging swarm of thick trunks and branches.  Even
+if you did want to enter that forest, it would be impossible from here.  Your
+choices at this time seem to be limited to south and east.
+~
+280 0 2
+D2
+~
+~
+0 0 28057
+D3
+~
+~
+0 0 28049
+S
+#28057
+A trail in the plains~
+      Flat.  Flat and barren and, except for the sounds of the swishing grass,
+totally and completely silent.  Every so often you see flashes of animals
+or even several tracks of humanoids.  You're beginning to wonder what could
+possibly exist out here.
+~
+280 0 2
+D0
+You see a large thick forest loom to the north.
+~
+~
+0 0 28056
+D2
+There seems to be a crossroads to the south.
+~
+~
+0 0 28058
+S
+#28058
+A crossroad on the plains~
+      You've arrived at a crossroads in the northern plains.  Standing for
+a second to get your bearings, you note smoke on the horizon.  It seems to be
+drifting in on the wind from the southeast.  But other than that, the area
+seems to be totally barren.
+~
+280 0 0
+D0
+The trail continues onward through the plains.
+~
+~
+0 0 28057
+D1
+Footprints lead in this direction.
+~
+~
+0 0 28063
+D2
+More grass this way.
+~
+~
+0 0 28059
+D3
+In the distance, you think you see a canyon.
+~
+~
+0 0 0
+S
+#28059
+On the plains~
+      The trek through the plains continues and you see nothing around you
+for miles except empty grassland.  The wind has picked up a bit and it stirs
+the long tendrils you're traveling through, whipping them gently against
+your legs.  Other than the sound of the wind, the air is dead silent.
+~
+280 0 2
+D0
+There appears to be another crossroads up ahead.
+~
+~
+0 0 28058
+D2
+The trail continues onward.
+~
+~
+0 0 28060
+S
+#28060
+A crossroads in the plains~
+        You've arrived in a four-way intersection where two trails cross over
+one another.  All directions look equally identical and you begin to see
+how easy it would be to get lost out here.  That, hopefully, won't happen to
+you.  You catch the whiff of smoke coming from the northeast.
+~
+280 0 2
+D0
+Nothing all that new in this direction.
+~
+~
+0 0 28059
+D1
+A well-worn path leads this way.
+~
+~
+0 0 28062
+D2
+The trail begins to narrow in this direction.
+~
+~
+0 0 28061
+D3
+If your sense of direction hasn't failed you, this should lead you back 
+to the outskirts of the plains.
+~
+~
+0 0 28053
+S
+#28061
+Traveling through the plains~
+        The grass wavers gently in the wind as you continue your trek through
+the plains.  The sound of that breeze blowing through the blades is almost
+hypnotic, and you find yourself trying to fight to stay awake.  From the way
+your senses have been jumping, you guess that falling asleep out here would
+not be the best of ideas.
+~
+280 0 2
+D0
+The path through the grass continues onward.
+~
+~
+0 0 28060
+D2
+A thin trail leads this direction.
+Several animal tracks also follow this trail.
+~
+~
+0 0 28076
+S
+#28062
+The open plains~
+        Hills of rock and grass loom in the south and the east, making travel
+in those directions nearly impossible.  The smooth trail you've been following
+through the thigh-high grass stretches back towards the plains and also 
+turns to the north.  From somewhere out here, you begin to hear the faint 
+sounds of some kind of noise.  Maybe a drum or something, being struck at a
+solid tempo.
+~
+280 0 2
+D0
+The noise you noticed seems to come from this direction.
+~
+~
+0 0 28064
+D3
+The grassy plains continue in this direction.
+~
+~
+0 0 28060
+S
+#28063
+The open plains~
+        You seem to have reached the edges of the plains.  Impassable hills
+and jagged rocks to the north and east disapate any ideas you might have had 
+for traveling in those directions.  From the south, you faintly hear sounds
+of something being pounded at a steady tempo.
+~
+280 0 2
+D2
+The sounds you hear seem to be coming from this way.
+~
+~
+0 0 28064
+D3
+The fields continue to stretch out before you.
+~
+~
+0 0 28058
+S
+#28064
+The Entrance to the Village~
+       You stand in front of the entrance to a small village.  More than
+likely, the plains people you ran into on the open trail live here.  That
+is, when they're not attacking travelers like yourself.  From this vantage
+point, not much can be seen, save for a few huts made of animal skin and 
+grass mats.  On a lingering breeze, you catch a whiff of smoke.  Probably
+some sort of cooking fire.
+~
+280 0 2
+D0
+Back out into the plains.
+~
+~
+0 0 28063
+D1
+From here, you can't see much of the village inside.
+~
+~
+0 0 28065
+D2
+Back out into the grasslands.
+~
+~
+0 0 28062
+S
+#28065
+In the Village~
+     Inside the village you go, and that damnned pounding is back again.  The
+noise is really starting to drive you nuts.  As far as the village goes, it's
+not much to talk about.  Small, run-down huts with almost no people to be 
+seen.  You can leave the village by reutrning back or, of course, you could
+continue onward and see what awaits you.
+~
+280 0 2
+D2
+~
+~
+0 0 28066
+D3
+~
+~
+0 0 28064
+S
+#28066
+In the Village~
+     The huts along the sides of the trail get thicker, the father you walk
+into the village.  The noise that you were hearing has stopped, as if you
+disturbed someone or something by entering the village.  In the distance, you
+can see a long, tall hut towering over the rest of the living areas.  To get
+there, it would seem logical to simply follow the path.
+~
+280 0 2
+D0
+~
+~
+0 0 28065
+D1
+~
+~
+0 0 28068
+S
+#28067
+The Headman's Hut~
+     Whoa.  This is pretty strange.  The interior of the hut is covered with
+shelves holding every spice and herb you've seen before in you life and 
+plenty more that you haven't.  The interior itself is smoky, this no doubt 
+coming from the large bowl of herbs smoldering on the floor.  You notice that
+the shelves are also holding various skulls of different animals and *gulp* 
+races.  A large book on the biggest shelf seems to stand out more than anything
+else.  You can just make out the writing on the front if you look hard
+enough.
+~
+280 0 0
+D0
+~
+door~
+1 0 28068
+E
+book large ~
+"Serving the Races of The Dominion : 1001 Ways and Styles Covering the Best
+Techniques Known Across the Plains."
+~
+S
+#28068
+In the Village~
+     You contiue walking down the, well, street, you guess.  It's not really
+much of one, what with the rough dirt and clumps of rocks everywhere.  Huts
+line the sides of the walkway, but a large one to the south catches your eye.
+It stands apart from the others, bigger, neater, and covered with strange
+markings you've never seen before.  You could always check inside, or keep
+walking down the path to the east.
+~
+280 0 2
+D1
+~
+~
+0 0 28069
+D2
+~
+door~
+1 0 28067
+D3
+~
+~
+0 0 28066
+S
+#28069
+In the Village~
+    The ground below you smooths out a bit as you walk farther into the
+village.  The place is starting to remind you a bit of a maze, except in this
+case, the path is leading you in one direction, not many.  Several eyes peer
+out of the huts to you right, but when you glance that direction, they shrink
+back out of sight.  You wonder what could've made these people so frightened.
+Or for that matter, so determined not to be seen.
+~
+280 0 2
+D0
+~
+~
+0 0 28070
+D3
+~
+~
+0 0 28068
+S
+#28070
+In the Village~
+    You continue along the only real path presented to you at this point.  Any
+other way of travel is pretty pointless since the huts and tents crowd the
+sides of the path, forcing you in this direction.  The noise is beginning to
+start up again, this time from the northwest.  You wonder where all the people
+could be in a village of this size.  Might they be off somewhere important?
+Did they flee something horrible that now sits in the village?  Are you nuts for
+even coming here?
+~
+280 0 2
+D0
+~
+~
+0 0 28071
+D2
+~
+~
+0 0 28069
+S
+#28071
+In the Village~
+     You continue to stroll along the compound with a rim of icy fear starting
+to form around your gut.  The small huts to the sides of you are pointless to
+enter, each of them being so rundown and small.  You see shapes moving about
+inside, but they don't seem to be bothering you....yet.  That noise you heard
+earlier is getting progressively louder the farther into the compound you go.
+The rythmic pounding suggests some big event might be occuring soon, but what
+could it possibly be?
+~
+280 0 2
+D2
+~
+~
+0 0 28070
+D3
+~
+~
+0 0 28072
+E
+huts hut~
+The small huts look very, very shoddy.  But you notice with alarm, that some of
+the decoration used on the outside of them looks a little like your own races'
+skeletal remains....
+~
+S
+#28072
+Outside a large hut~
+    Well, now.  THIS is cozy.  In front of you sits a large cauldron of
+water, currently being heated by a roaring bonfire.  The sounds of drums
+thunder in your ears as they are pounded by tribesman that are hidden in the
+small huts around you.  By the looks of things, you are destined to be
+invited to dinner if you don't get moving soon.  Hopefully you can get out
+of this place before these people get really hungry.
+~
+280 0 2
+D1
+~
+~
+0 0 28071
+D2
+The large hut you spotted has it's entrance directly this way.
+~
+door s south~
+1 0 28073
+E
+bonfire fire flames~
+It's a large fire....under a big kettle....with the obvious intent here
+being to cook something to eat. GET THE POINT?!?!?!?
+~
+S
+#28073
+Inside the hut~
+     You blink a few times to adjust your eyes to the new surroundings.  The
+interior of the hut is shadowy, but nothing that you need torches to see in.
+The sound of the drums from the rest of the tribe fades behind the stretched
+walls of leather that are strung over thick poles.  The craftsmanship it 
+took to build this place must've been amazing.  Coming back to the present, 
+you see that this hut is a split-level.  To gain access to the next floor, a
+rickety-looking rope ladder seems to be your only way up.  Or you could
+always go back outside.
+~
+280 d 0
+D0
+~
+door n north~
+1 0 28072
+D4
+~
+~
+0 0 28074
+S
+#28074
+On the upper floor of the hut~
+     After climbing the ladder, you pause to take in your surroundings.  The
+only way onward besides going back down the ladder, is through a door made
+of animal skin to the north.  The ladder offers you passage back down to
+the ground and out into the compound again.  You notice a smoky smell coming
+from behind the door and you get a feeling that the owner of the hut may be
+back there.
+~
+280 d 0
+D0
+Nothing other than the door and a room beyond it.
+~
+door~
+1 0 28075
+D5
+Back down the rope ladder you go.
+~
+~
+0 0 28073
+S
+#28075
+Top Floor of the Chieftain's Hut~
+     This room at the top of the hut is covered from floor to ceiling with
+animal skins of all shapes and sizes.  Weapons of all sorts line the 
+walls and you note there is everything here from slings to four-foot 
+broadswords.  This is most likely the Chieftain's private room.  In the
+center of the floor, a shallow pit burns some type of root that sends it's
+smoke out through a hole in the roof.  You begin to wonder if coming up
+here without asking was such a good idea.
+~
+280 d 0
+D2
+This will take you back out to the rope ladder.
+~
+door~
+1 0 28074
+S
+#28076
+On a thin trail in the plains~
+        The trail thins and the grass grows even higher on this section of
+the path.  Several types of animal tracks are impressioned into the dirt
+ranging from small tracks to large ones.  The trail bends in the neck-high
+grass to the west.  From this vantage point, it's difficult to see what
+lies out there.  The trail also continues to the north, where the grass is
+somewhat shorter.
+~
+280 0 2
+D0
+The trail widens and the grass shortens to the north.
+~
+~
+0 0 28061
+D3
+You can't make out much in the tall grass, but the trail gives suggestions
+of widening out.
+~
+~
+0 0 28055
+E
+tracks track dirt~
+Well, by the looks of it, there are several buffalo tracks, a few bird tracks,
+and many boot or shoe tracks.
+~
+S
+$~

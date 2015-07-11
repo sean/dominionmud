@@ -1,0 +1,76 @@
+#192
+Assylum~
+* Builder  Cair
+Cair~
+BUILDING~
+3001 1
+19299 60 0
+*
+* This zone is for Cair's use.
+*downstairs
+M 0 19200 1 19200     *Door Guard
+E 1 19201 1 17        *Door key in guards hand
+M 0 19201 1 19205     *doctor
+M 0 19202 1 19205     *patient
+M 0 19203 1 19207     *Door guard to Guard Station
+E 1 19202 1 17        *key to door guard 
+M 0 19204 1 19208     *Orderly
+M 0 19205 1 19208     *Guard
+E 1 19203 1 17        *key in guards hand
+M 0 19206 4 19202     *janitor
+M 0 19206 4 19210     *janitor
+M 0 19207 1 19229     *skitzo
+M 0 19208 4 19212     *retarded crazies dudes
+M 0 19208 4 19212
+M 0 19208 4 19212
+M 0 19208 4 19212
+M 0 19209 1 19213     *Large man
+*upstairs
+M 0 19206 4 19217     *janitor
+M 0 19206 4 19215     *janitor
+M 0 19210 1 19219     *The keeper
+M 0 19211 1 19221     *psycho
+M 0 19212 7 19221     *psychoS hidden
+M 0 19212 7 19221
+M 0 19212 7 19221
+M 0 19212 7 19221
+M 0 19212 7 19221
+M 0 19212 7 19221
+M 0 19212 7 19221
+M 0 19213 1 19226     *Lunatic
+*doors
+D 0 19200 0 2
+D 0 19201 2 2
+D 0 19204 3 1
+D 0 19205 0 1
+D 0 19205 1 1
+D 0 19207 0 2
+D 0 19208 2 2
+D 0 19208 1 2
+D 0 19208 3 2
+D 0 19209 1 2
+D 0 19210 3 2
+D 0 19211 1 2
+D 0 19211 0 2
+D 0 19229 2 2
+D 0 19212 5 1
+D 0 19212 3 2
+D 0 19213 4 1
+D 0 19214 1 2
+*D 0 19214 3 2
+D 0 19217 2 2
+D 0 19218 0 1
+D 0 19219 2 1
+D 0 19220 1 2
+D 0 19221 3 2
+D 0 19221 1 1
+D 0 19223 0 2
+D 0 19224 1 1
+D 0 19225 3 1
+D 0 19226 3 2
+D 0 19226 2 2
+D 0 19228 0 2
+D 0 19228 2 2
+D 0 19230 0 2
+S
+$

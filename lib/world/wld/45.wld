@@ -1,0 +1,1103 @@
+#4500
+A pass through the steep hills~
+       The footing is not the best you've seen and, at the moment, small 
+rocks dislodged at your passing are tumbling down the path behind you.  Large
+hills covered with green plants and rocks flank you on either side and short
+of continuing onward, there's not much of a reason to stick around.  
+~
+45 0 4
+D0
+~
+~
+0 0 4501
+S
+#4501
+In trouble in the pass~
+       Oh, no.....the rocks you're standing on are starting to GIVE WAY!!!!!
+Quick!  Either leap up the pass or leap ahead of the slide or else you could
+be in for a nasty fall!  Hurry!!!
+~
+45 0 4
+D0
+~
+~
+0 0 4502
+D2
+~
+~
+0 0 4500
+S
+#4502
+At the top of the pass~
+       You clear the high hills and crest to the top of the path, breathing
+hard and glancing back down at that narrow trail you were just following.
+From this angle, your thinking is that you must have been nuts to try and
+climb it in the first place.  Looking around, you catch a pretty spectacular
+view of several townships and off in the distance, you can see the Sea of T
+Tears.  A small trail leads onwards, as does the path *gulp* down the hills.
+~
+45 0 4
+D1
+~
+~
+0 0 4503
+D2
+Back down into the pass.
+~
+~
+0 0 4501
+S
+#4503
+On a trail somewhere in the hills~
+       Black earth crunches beneath your feet as you stride down the trail.
+You've hit a junction where the path seems to split up.  The trail off to
+the south seems little worn, almost like a path used by game, if there are
+any up here at all.  The main path seems to extend east to west and looks
+almost as little used as the southern direction.  Doesn't look like many 
+people venture up this way.
+~
+45 0 4
+D1
+~
+~
+0 0 4506
+D2
+~
+~
+0 0 4504
+D3
+~
+~
+0 0 4502
+S
+#4504
+A small monument of stones~
+      You push away some thick brush to see better and find yourself standing
+in a....well.....temple of some sort.  You'd almost call it a grotto except
+the stones are really carved in any way, they just seem to be aligned in
+patterns that you can't really understand.  The stones are make of black rock,
+almost obsidian, with gray streaks running through them and the clearing runs
+about 40 feet across at the diameter.  Other than the path you came in on, you
+don't really see to much else here to look at.
+~
+45 0 4
+D0
+~
+~
+0 0 4503
+D5
+~
+rock~
+1 0 4505
+E
+stones stone rocks rock~
+    This is odd.  The sequence of stones almost makes an arrow that points
+to one of the rocks off to the side from the others.  The rock in question
+also seems to have tracks leading up to it, but not away from it.
+~
+S
+#4505
+A chamber beneath the hills~
+       You're beneath the rock....and not seeing much of anything save for
+a few moldy bones of human remains and a few scraps of parchment littered
+onto the ground.  Every movement you make causes tons of dust and dirt to 
+disperse through the air and it's getting a little difficult to breathe down
+here.
+~
+45 a 0
+D4
+~
+rock~
+1 0 4504
+D5
+Shrieks of pain echo back to you from down in the darkness....
+~
+trapdoor~
+1 0 4600
+E
+bones dirt ground walls wall down d~
+Nothing but bones...moldy ones....dirt, more dirt, the scraps of paper, more
+dirt, a few more bones, a thin line on the floor, more dirt, and a really
+awful smell.  Leaving would be good....
+~
+S
+#4506
+On the path over the hills~
+       Treking onward, you hit another junction and pause to take in the 
+situation.  You've noticed that, so far, you've seen no signs of life and no
+sounds of animals, wind, or even your footsteps.  It's like this place is 
+starting to get effectively muffled of sound.  You seem to be at another 
+T-Junction with paths leading north, south, and east.
+~
+45 0 4
+D0
+~
+~
+0 0 4507
+D1
+~
+~
+0 0 4508
+D3
+~
+~
+0 0 4503
+S
+#4507
+At a junction on the path~
+       The trail halts at the top of a steep hill and cuts back through some
+grassy plants at a right angle.  Looking over the edge, you see the valley
+and plains far below and a few people moving around.  From up here, they
+look like ants.  You nod in satisfaction of the view, heft your pack and look
+to continue on your way down the trail.
+~
+45 0 4
+D1
+~
+~
+0 0 4509
+D2
+~
+~
+0 0 4506
+S
+#4508
+A clearing on the trail~
+       The bushes and grass give way to large rock formations as you start
+to edge closer to the low mountains that surround this hillside.  The trail
+widens out here and turns from blackened dirt to pebbles and rocks.  The 
+footing seems somewhat secure, at least it's better than some you've seen.
+You've hit a circular patch of ground that looks a bit like a clearing in a
+forest, but it's hard to make the comparison since there are no trees.  The
+path stretches on in three directions from here and you notice that the
+southeastern trail dips down a bit.
+~
+45 0 4
+D0
+~
+~
+0 0 4509
+D3
+~
+~
+0 0 4506
+D8
+~
+~
+0 0 4510
+S
+#4509
+Stuck in the shrubs~
+       The branches and thorns from some of the plant-life up here is 
+starting to get on your nerves.  You are standing, entangled as usual, when
+a thin vine attempts to snake it's way around your foot.  With a look of
+disgust, you step around from it just before it gets a good grip on your leg.
+Picking a few brambles from your clothing, you look to move onward, either
+to the west or to the south.
+~
+45 0 4
+D2
+~
+~
+0 0 4508
+D3
+~
+~
+0 0 4507
+S
+#4510
+On a descending path~
+       The trail slopes downward into the depths of the rocks and hills and
+with each step, you get the feeling that somebody is watching.  Maybe it's
+the hair on your neck standing up (or scales, or whatever), but you don't
+feel completely at ease up here.  There are places on this world where people
+instinctively shun for one reason or antoher.....you feel that you could
+possibly be heading to one of those sites.
+~
+45 0 4
+D1
+~
+~
+0 0 4511
+D7
+~
+~
+0 0 4508
+S
+#4511
+Shadowed spot on the trail~
+       You're standing on a sloping trail that is leading in a decided 
+northwest-to-southeast manner.  No wind can be heard, nothing is here to look
+at save for the hills around you, and no sounds are appearing anywhere, save
+for the crunch of rocks beneath your feet.  Pausing for a moment to take
+in your surroundings, you see that the trail continues onward with no apparent
+stopping from what you can tell.
+~
+45 0 4
+D3
+~
+~
+0 0 4510
+D8
+~
+~
+0 0 4512
+S
+#4512
+Continuing on the trail in the lower hills~
+       The hills that you climbed to the top of are practically looming over
+you at this point as you stand almost at the base of the trail.  You can
+tell that it continues downward for another quarter mile or so and extends
+upward for quite a few more.  You continue to feel odd about the lack of 
+sound from any direction.  It's almost as if you were heading to a place of
+revrence or a area of great mourning.  That, or a graveyard....
+~
+45 0 1
+D1
+~
+~
+0 0 4513
+D7
+~
+~
+0 0 4511
+S
+#4513
+At the base of the trail~
+       You arrive at the base of the trail with the hills looming up over
+you.  The ground beneath you slopes away to a VERY steep path that you'd be
+nuts to try and navigate.  There's a chance you could move quick to the 
+bottom but nimbleness would be a key here to avoid breaking anything.  It's
+also darker than Kirhan's Realm at the bottom, so you can't really see what's
+all down there.  Or you could hike up the trail to the top of the hills.
+~
+45 0 4
+D3
+~
+~
+0 0 4512
+D5
+Wow.  Steep.  Dark at the bottom.  This would be crazy to try.
+~
+~
+0 0 4514
+S
+#4514
+Lucking out like Starburst Himself~
+       AHHHHHHHHHHH!!!!!!  With a cry to every god you can think of, you 
+scramble down the sheer trail, rocks and stones tumbling around you.  Into
+the darkness you plunge, sliding, slipping, screaming a cry of triumph and
+landing, amazingly enough, with one or two minor nicks from sharp pieces of
+stone.  Enjoying the adrenaline rush and gazing at the steep trail with an
+air of disgust (after all, you just showed it who's boss), you see that there
+is a very, very narrow passage that you're going to have to crawl to get 
+through it.  It looks very old, and very unused, as the unbroken cobwebs 
+would seem to show.
+~
+45 0 4
+D0
+~
+~
+0 0 4516
+D4
+~
+~
+0 0 4513
+S
+#4515
+At the base of the hill~
+       You emerge from the tunnel and stand at the base of a very, very steep
+hill that you remember nearly breaking your neck on awhile back.  The rocks
+look just as dangerous and pebbles trickle, every so often, down the slope
+to give you an eerie impression that the slope is just waiting for you to
+try your luck yet again.  Or, you could crawl back into the tunnels if you
+so desire.
+~
+45 0 4
+D0
+~
+~
+0 0 4516
+D4
+~
+~
+0 0 4513
+S
+#4516
+In the tunnels~
+       You are in the first hundred yards of tunnel from the trail and 
+and thick cobwebs and dust threaten to sufficate you.  This is an
+extremely tight fit through here and you're lucky to even have the room
+to move your arms so you can drag yourself along the floor of the tunnel.
+In the dim light, you're hoping that you can wriggle a bit farther since
+your feeling a bit cramped at the moment....
+~
+45 aci 0
+D0
+~
+~
+0 0 4517
+D2
+~
+~
+0 0 4515
+S
+#4517
+In the tunnels~
+       You inch your way along in the very cramped spaces that the tunnel
+provides and pause a moment to catch your breath.  Of course, as you suck
+in a deep gulp of stale air, cobwebs and dust particles fly up your 
+nostrils and you come close to sneezing up your lungs.  Hacking and coughing,
+you see that not too much else is different in this passage.  Up ahead are more
+spiderwebs which don't look all that appealing to crawl through.  But then
+again, the choice is up to you.
+~
+45 aci 0
+D0
+~
+~
+0 0 4518
+D2
+~
+~
+0 0 4516
+S
+#4518
+At a wider point in the tunnel~
+       The walls of packed dirt spread out a bit, allowing you a bit more
+in the way of elbow room and a chance to rest for a moment.  You notice that
+there is more rock and sand starting to show up in the floor beneath you
+and also inbedded into the walls of the tunnel.  Your guess is that you must
+be pretty far below the hills at the moment.
+~
+45 aci 0
+D0
+~
+~
+0 0 4519
+D2
+~
+~
+0 0 4517
+S
+#4519
+At a junction~
+       You crawl and inch your way forward, fighting for room as the tunnel
+shrinks to almost impassable sizes.  Brushing a thick cobweb away from your
+face, you see that the tunnel divides at a crossroads, giving you several 
+options for departure.  The path west looks more rocky than the path to the
+east and the path running north and south is more of the same dust and webs
+that you've seen before.
+~
+45 aci 0
+D0
+~
+~
+0 0 4528
+D1
+~
+~
+0 0 4520
+D2
+~
+~
+0 0 4518
+D3
+~
+~
+0 0 4524
+S
+#4520
+Down a dark tunnel~
+       The light, dim as it was before, begins to flicker as the inky black
+shadows that play along the wall make an attempt to crush you in darkness.
+You catch a whiff of....hmmm....something musty that seems to be floating in
+from the east in the stale, dead air.  You also notice that the deadly quiet
+that's been with you since you arrived here is growing more and more silent,
+to the point where even your movements are starting to lose the noise that 
+you frequently attribute to them.
+~
+45 aci 0
+D1
+~
+~
+0 0 4521
+D3
+~
+~
+0 0 4519
+S
+#4521
+Crawling down a dark tunnel~
+       The darkness almost gets absolute as you inch your way forward down 
+the rcoky slope.  Shadows begin to flicker on the walls and there is a musty
+smell, almost like a graveyard on a hot day, that is starting to get 
+stronger as you drag your body along.  The silence is complete at this point.
+You can barely even hear the sound of your movements as you crawl.
+~
+45 aci 0
+D1
+~
+~
+0 0 4522
+D3
+~
+~
+0 0 4520
+S
+#4522
+In a darker part of the tunnel~
+       The musty, decaying smell is very strong here and the light has almost
+completely gone out.  It seems that your meager attempt to light this section
+of the tunnel is being combated with the darkness that inhabits this tunnel.
+You can't see anything ahead of you, but you feel that the tunnel must 
+continue somehow since you haven't seen what or where the smell is coming 
+from yet.
+~
+45 aci 0
+D1
+Putting your hand out in front of you, you don't feel anything where the
+rocky floor of the tunnel should be.  It seems to drop off into a sub-chamber
+of some sort.....
+~
+~
+0 0 4523
+D3
+~
+~
+0 0 4521
+S
+#4523
+Tumbling into danger....~
+       You slide from the floor of the tunnel into a sub-room that seems to
+exist just below it.  Picking yourself up off of the floor, you see that you
+are standing in the middle of a mass grave or some sort.  Bones, body parts,
+and half-eaten corpses lie in grotesque heaps and the smell of death is 
+everywhere.  And rising up out of the bodies is something large and something
+intent on making you it's next meal.....
+~
+45 a 0
+D3
+~
+~
+0 0 4522
+S
+#4524
+In a tunnel beneath the hills~
+       Grunting with the effort of moving around in such a small space, you
+continue treking in your chosen direction.  This section of tunnel looks
+as if it hasn't been used in decades.  Thick, ropy strands of cobweb dangle
+past your face and you begin to hope that the spiders who created this are 
+long dead.  Not that you fear spiders or anything, but the area to fight in
+down here is very, very small.
+~
+45 aci 0
+D1
+~
+~
+0 0 4519
+D3
+~
+~
+0 0 4525
+S
+#4525
+Crawling through the tunnels~
+       The darkness down here couldn't be more absolute if it tried.  It
+smothers you, even worse than the dust and webbing.  Inching along, you
+pause to catch your breath and figure out what way you're going.  This section
+of the tunnel seems to lead in only two directions so it's either 
+backtrack or press onward.
+~
+45 0 1
+D1
+~
+~
+0 0 4524
+D3
+~
+~
+0 0 4526
+S
+#4526
+At a wider point in the tunnel~
+       The tunnel widens up at this point and you stop crawling on your
+hands and knees, stand and stretch.  Ahhhh, that feels good.  This section
+of the area looks a bit cleaner than the others you've crawled through
+and you notice some scrawl marks on the walls.  You also notice that the
+dust dissapates in this area and there's no more of it to the west, nor are
+there any more cobwebs.
+~
+45 ac 0
+D1
+~
+~
+0 0 4525
+D3
+~
+~
+0 0 4527
+E
+mark marks wall walls scrawl~
+       "To any else who pass this way, remember the name of Korr..."
+~
+S
+#4527
+Room #4527~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4528
+Room #4528~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4529
+Room #4529~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4530
+Room #4530~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4531
+Room #4531~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4532
+Room #4532~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4533
+Room #4533~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4534
+Room #4534~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4535
+Room #4535~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4536
+Room #4536~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4537
+Room #4537~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4538
+Room #4538~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4539
+Room #4539~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4540
+Room #4540~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4541
+Room #4541~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4542
+Room #4542~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4543
+Room #4543~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4544
+Room #4544~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4545
+Room #4545~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4546
+Room #4546~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4547
+Room #4547~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4548
+Room #4548~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4549
+Room #4549~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4550
+Room #4550~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4551
+Room #4551~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4552
+Room #4552~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4553
+Room #4553~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4554
+Room #4554~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4555
+Room #4555~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4556
+Room #4556~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4557
+Room #4557~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4558
+Room #4558~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4559
+Room #4559~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4560
+Room #4560~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4561
+Room #4561~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4562
+Room #4562~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4563
+Room #4563~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4564
+Room #4564~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4565
+Room #4565~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4566
+Room #4566~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4567
+Room #4567~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4568
+Room #4568~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4569
+Room #4569~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4570
+Room #4570~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4571
+Room #4571~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4572
+Room #4572~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4573
+Room #4573~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4574
+Room #4574~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4575
+Room #4575~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4576
+Room #4576~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4577
+Room #4577~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4578
+Room #4578~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4579
+Room #4579~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4580
+Room #4580~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4581
+Room #4581~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4582
+Room #4582~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4583
+Room #4583~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4584
+Room #4584~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4585
+Room #4585~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4586
+Room #4586~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4587
+Room #4587~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4588
+Room #4588~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4589
+Room #4589~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4590
+Room #4590~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4591
+Room #4591~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4592
+Room #4592~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4593
+Room #4593~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4594
+Room #4594~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4595
+Room #4595~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4596
+Room #4596~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4597
+Room #4597~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4598
+Room #4598~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4599
+Room #4599~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4600
+Room #4600~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4601
+Room #4601~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4602
+Room #4602~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4603
+Room #4603~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4604
+Room #4604~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4605
+Room #4605~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4606
+Room #4606~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4607
+Room #4607~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4608
+Room #4608~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4609
+Room #4609~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4610
+Room #4610~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4611
+Room #4611~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4612
+Room #4612~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4613
+Room #4613~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4614
+Room #4614~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4615
+Room #4615~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4616
+Room #4616~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4617
+Room #4617~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4618
+Room #4618~
+This description is yet unfinished...
+~
+45 0 1
+S
+#4619
+Room #4619~
+This description is yet unfinished...
+~
+45 0 1
+S
+$~

@@ -1,0 +1,133 @@
+#104
+Ancalador~
+C.A.W.~
+MED~
+3001 1
+10499 20 1
+M 0 10408 1 10401             hermit
+*
+M 0 10409 2 10404             green slime
+M 0 10409 2 10404             green slime
+*
+M 0 10410 2 10409             flame dweller
+M 0 10410 2 10412             flame dweller
+*
+M 0 10411 5 10418             green spider
+M 0 10411 5 10420             green spider
+E 1 10417 5 9              (minstrels glove)
+M 0 10411 5 10422             green spider
+M 0 10411 5 10424             green spider
+E 1 10413 7 11             (arsenal shield)
+P 1 10414 49 10413         (throwing knives)
+P 1 10414 49 10413
+P 1 10414 49 10413
+P 1 10414 49 10413
+P 1 10414 49 10413
+P 1 10414 49 10413
+P 1 10414 49 10413
+M 0 10411 5 10426             green spider
+*
+M 0 10412 5 10419             yellow spider
+M 0 10412 5 10421             yellow spider
+M 0 10412 5 10423             yellow spider
+M 0 10412 5 10425             yellow spider
+M 0 10412 5 10424             yellow spider
+*
+O 0 10415 1 10424        pile of midgaard stuff
+P 1 3021 1 10415                small sword
+P 1 3045 1 10415                scale mail jacket             
+*P 1 5241 1 10415                lamia stone (so no 'get all pile')
+P 1 3076 1 10415                lth cap
+P 1 3020 1 10415                dagger
+P 1 3075 1 10415                bronze helm
+P 1 3030 1 10415                torch
+*
+M 0 10413 1 10427             warden
+E 1 10416 16 16                 (guisarme)
+G 1 10419 2                (granite key)
+D 0 10427 1 2            skull door
+D 0 10461 3 2
+*
+D 0 10428 0 1            fissure
+D 0 10461 2 1
+*
+M 0 10414 8 10430             Umber hulks
+M 0 10414 8 10434
+M 0 10414 8 10437
+M 0 10414 8 10441
+M 0 10414 8 10443
+M 0 10414 8 10444
+*
+M 0 10415 8 10431             Ochre Jellos
+G 1 3020 99 10415          (midgaard dag)
+M 0 10415 8 10435
+G 1 6111 20 10415          (large shield)
+M 0 10415 8 10438
+G 1 3051 99                (yellow potion)
+M 0 10415 8 10441
+*G 1 3065 99 10415          (leather sleeves)
+M 0 10415 8 10444
+*G 1 5230 3                 (lamia stone)
+M 0 10415 8 10444
+G 1 10418 1                (shabby mail)
+*
+M 0 10499 3 10453             Necro
+E 1 10499 15 16                 (grave beater)
+G 1 10402 5                (chalice)
+M 0 10406 5 10453             Wraith knight
+E 1 10401 50 16                 (falchion)
+M 0 10406 5 10453             Wraith knight
+E 1 10401 50 16                 (falchion)
+*
+M 0 10499 3 10456             Necro
+E 1 10499 15 16                 (grave beater)
+G 1 10406 1                (skeleton key)
+M 0 10401 3 10456             Zombie (x2)
+M 0 10401 3 10456
+O 0 10408 1 10456             Pool o' blood
+*
+M 0 10401 3 10428             Zombie
+*
+M 0 10499 3 10457             Necro
+E 1 10499 15 16                 (grave beater)
+G 1 10420 1                (flesh)
+M 0 10401 3 10457             Zombie
+D 0 10457 3 1            Door to alter
+D 0 10458 1 1
+*
+M 0 10406 5 10454             Wraith knight
+E 1 10401 50 16                 (falchion)
+*
+M 0 10405 2 10450             Undead beetle
+*
+M 0 10404 1 10451             Laz
+E 1 10407 10 16                 (blowgun)
+O 0 10403 1 10451             Coffer
+P 1 10404 20 10403         (tonic)
+P 1 10405 20 10403         (elixir)
+*
+D 0 10451 3 1            Door to Laz
+D 0 10452 1 1  
+*
+M 0 10403 1 10458             Morticia
+E 1 10410 20 16                 (heartseeker)
+E 1 10411 20 11                 (scarab shield)
+M 0 10406 5 10458             Wraith knight
+E 1 10401 50 16                 (falchion)
+M 0 10406 5 10458             Wraith knight
+E 1 10401 50 16                 (falchion)
+M 0 10406 5 10458             Wraith knight
+E 1 10401 50 16                 (falchion)
+D 0 10459 4 2            Grating
+D 0 10458 5 2              (lock from both sides!?)
+*
+M 0 10407 1 10459             Crypt Keeper
+E 1 10412 5 16             (mace of fred)
+E 1 10409 1 17             (bloodstone)
+M 0 10402 3 10459             Asps
+M 0 10402 3 10459
+M 0 10402 3 10459
+*
+S
+#99999
+$~

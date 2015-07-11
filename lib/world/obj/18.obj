@@ -1,0 +1,245 @@
+#1800
+club~
+a club~
+A large club with an iron spike lies here.~
+~
+5 m am
+0 2 4 6 0 0 0 15 14
+2 10 2
+#1801
+buckler small~
+a small, wooden buckler~
+A small round wooden buckler has been left here.~
+~
+9 m am
+5 0 0 0 0 0 0 14 14
+1 20 20
+#1802
+bow darkweir longbow long~
+a blue wooden longbow~
+A longbow made from dark-blue wood lies here.~
+~
+6 0 am
+1 0 1 11 0 0 0 10 14
+2 8000 250
+A
+18 1
+#1803
+chainmail mail chain~
+a chainmail vest~
+A pile of steel chains linked together lies here.~
+~
+9 m ad
+6 0 0 0 0 0 0 12 14
+4 250 75
+#1804
+plate breast blue dark-blue breastplate~
+a blue wooden breastplate~
+A large piece of dark-blue wood has been carved into a breastplate here.~
+~
+9 ort ad
+22 0 0 0 0 0 0 5 14
+8 1000 250
+A
+13 5
+#1805
+leather pouch~
+a leather beltpouch~
+A pouch made of leather is sitting on the ground here.~
+~
+15 0 ak
+10 1 0 0 0 0 0 8 14
+1 900 50
+#1806
+blue dark-blue ring~
+a blue wooden ring~
+A small ring made of dark-blue wood lies almost unnoticed in the dirt here.~
+~
+11 0 ab
+3 0 -1 0 0 0 0 15 14
+1 1500 100
+E
+ring blue dark~
+   The ring is made from a dark-blue wood, commonly found in Darkweir 
+Hallows.  Etched into the wood of the ring are strange foreign runes.
+Other than that, the ring is very ordinary.
+~
+A
+5 1
+#1807
+quarterstaff staff~
+a wooden quarterstaff~
+A long, finely sanded-down quarterstaff lies on the ground.~
+~
+5 ir am
+0 2 5 7 0 0 0 10 14
+3 100 300
+#1808
+leather boot~
+a leather boot~
+A worn leather boot has been left here.~
+~
+9 0 ag
+18 0 0 0 0 0 0 8 14
+2 500 50
+A
+14 5
+#1809
+drerim mask~
+a hideous mask~
+A hideous mask lies on the ground, it eminates pure evil.~
+~
+9 adhsu ae
+-5 0 0 0 0 0 0 13 14
+5 0 1000
+A
+6 -10
+A
+1 -5
+#1810
+blue short shortsword~
+a dark-blue shortsword~
+A shortsword made of dark-blue wood gleams in the sun here.~
+~
+5 gr am
+0 3 2 3 0 0 0 16 14
+4 3000 100
+A
+18 1
+#1811
+leather-bound canteen~
+a leather bound-canteen~
+A small, leather-bound canteen is sitting here.~
+~
+17 0 am
+20 20 15 0 0 0 0 12 14
+25 32 10
+#1812
+leggings leaf blue dark-blue~
+a pair of dark-blue leggings~
+A pair of dark-blue leggings made of tree leaves are here.~
+~
+9 0 af
+15 0 0 0 0 0 0 7 14
+2 5000 100
+A
+1 2
+A
+18 1
+#1813
+shirt leaf blue dark-blue~
+a dark-blue shirt~
+A shirt made of dark-blue leaves lies on the ground here.~
+~
+9 0 ad
+15 0 0 0 0 0 0 15 14
+5 5000 100
+#1814
+wood dark dark-blue blue~
+some dark-blue wood~
+Some dark-blue colored wood rests on the ground here.~
+~
+12 bkp am
+10 5 5 25 0 0 0 14 14
+2 10 10
+#1815
+waybread bread~
+a loaf of waybread~
+A load of waybread is on the ground here.~
+~
+19 0 a
+14 0 0 0 0 0 0 0 14
+1 0 1
+#1816
+cap blue dark-blue~
+a dark-blue cap~
+A dark-blue cap made from Darkweir leaves is here on the ground.~
+~
+9 0 ae
+3 0 0 0 0 0 0 14 14
+2 2000 50
+A
+4 1
+#1817
+wooden knife~
+a wooden knife~
+A tiny crudely fashioned wooden knife is here.~
+~
+5 r a
+0 2 2 11 0 0 0 10 14
+3 20 5
+#1818
+stinger sting stirge~
+a stirge's stinger~
+The bloody stinger of a stirge lies here in a pool of blood, twitching.~
+~
+5 b am
+3 2 2 1 0 0 0 10 14
+1 5 2
+#1819
+headress korred satyr~
+a blue-leaf headress~
+A Korred's headress lies in the dirt.~
+~
+9 ak ae
+0 0 -1 0 0 0 0 14 14
+9 20000 400
+A
+12 5
+#1820
+feather hippogriff~
+a hippogriff's feather~
+A golden-brown feather lies on the ground here.~
+~
+3 cg am
+10 5 5 42 0 0 0 14 14
+1 100000 6000
+A
+4 3
+#1821
+staff druid knotty~
+a knotted staff~
+A knotted staff lies on the ground here.~
+~
+4 j am
+20 5 5 30 0 0 0 14 14
+3 300 300
+#1822
+key blue dark~
+a dark-blue key~
+A small dark-blue key lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 14 14
+1 1 1
+#1823
+headdress black druid drerim~
+a black headdress~
+A headdress with long, thick strands of hair attached to it lies here.~
+~
+9 dghj ae
+7 0 0 0 0 0 0 14 14
+7 1000 200
+A
+3 2
+A
+5 -2
+A
+4 1
+#1824
+orb blackfire~
+Orb of Blackfire~
+An orb is floating in mid-air here with swirling black fire within.~
+~
+8 agkq ao
+0 0 0 0 0 0 0 0 14
+8 1000 8000
+#1899
+card table~
+a card table~
+A large, round card table is here, filling up most of the room.~
+~
+12 0 0
+0 0 0 0 0 0 0 0 14
+10000000 100000 10000000
+$~

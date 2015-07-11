@@ -1,0 +1,2327 @@
+#3000
+The Heart of the Temple of Midgaard~
+   You are in a large room deep within the temple.  It is extremely quiet -
+the marble walls seem to absorb all noise - and you find it easy to relax and
+meditate while you rest here.
+   A spiral staircase rises from the center of the room upward to the temple
+aerie above.
+~
+30 12 0
+D4
+~
+~
+0 -1 3001
+S
+#3001
+The Aerie of the Temple of Midgaard~
+   You are under the domed roof in the aerie of the circular Temple of
+Midgaard.  Though it has only a ring of marble columns where an outside wall
+would normally be, you do not feel exposed to the elements - quite the
+contrary, in fact.  The temple radiates a sense of peace and protection, and
+you feel utterly at ease here.  A spiral staircase descends into the heart of
+the temple from the exact center of the aerie.
+   Large steps lead down in all directions, descending to the bustling temple
+square below.
+~
+30 12 0
+D0
+Past the northern section of the temple square you can make out the north
+gate of Midgaard.
+~
+~
+0 -1 3012
+D1
+Across the temple square to the east stands a large building bearing a wooden
+sign which reads, 'The Grunting Boar Inn and Tavern' - it's a good place for a
+drink with your friends or for rooms rented for only a night or two at a time.
+~
+~
+0 -1 3017
+D2
+You look down the huge stone steps at the fountain in the temple square below.
+Past the fountain is the market square, and beyond that you see the Red Wolf
+Inn - a boarding house and restaurant which offers cheap room rates for those
+wishing to rent for several nights at once.
+~
+~
+0 -1 3021
+D3
+An ornate walkway crosses the temple square to the east to the Midgaard
+Abbey and Guild of Healers.
+~
+~
+0 -1 3016
+D5
+A spiral staircase descends from the center of the aerie into the heart of the
+temple, where you can find the altar room and the rooms of the priests.
+~
+~
+0 -1 3000
+E
+column columns marble~
+These tall columns are made of the finest blue and grey streaked marble, which
+contrasts nicely with the snow-white stone used to fashion the dome that they
+support.  An invisible barrier of some sort keeps it pleasant inside the
+aerie, despite it's apparent openness.
+~
+E
+dome~
+Above you a huge dome of snow-white marble is supported by a ring of grey and
+blue streaked marble columns.  Upon closer inspection, it appears that the
+dome was actually fashioned from a single piece of marble!  Obviously magick
+of some sort was involved in the construction of this temple.
+~
+E
+stairs spiral staircase~
+A marble staircase spirals downward into the heart of the temple itself, where
+you can find the temple altar and the rooms of the priests.
+~
+E
+sig signature~
+This adaptation of Midgaard was designed and written by Danhiel Baker aka
+Derkhil CatSpawn for the v3.0 release of CircleMUD code.  Send any bugs/
+comments/questions regarding these files to: dbaker@dcs.uga.edu
+~
+S
+#3002
+Northwest Corner of Wall Street~
+   You are at a southeastward turn in a wide, cobbled street that runs through
+Midgaard along the inside of it's north and western walls.  To the southeast,
+along North Wall Street, is a shop with many fancy outfits and fine fabrics
+displayed in the windows.
+~
+30 0 1
+D1
+North Wall Street continues southward past Godiva's Wardrobe and the
+Silver Serpent towards an intersection and more shops.
+~
+~
+0 -1 3003
+D2
+West Wall Street continues southward past the Shoppe of Curious Beasts towards
+a bridge in the far distance.
+~
+~
+0 -1 3010
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3003
+North Wall Street~
+   You are on a wide, cobbled street running east-west through Midgaard
+along the inside of it's western wall.  On the south side of the street 
+is a shop with many fancy outfits and fabrics displayed in the windows.
+~
+30 8 0
+D1
+North Wall Street continues to the east past the north gate.  Next to Godiva's
+Wardrobe, immediately to the southeast, is a jeweler's shop, and farther
+east past the north gate is a bakery and a butcher's shop.
+~
+~
+0 -1 3004
+D2
+Hanging from an iron hook swings a wooden sign sporting a woman on a
+white horse, whose hair has been woven to form her dress.  Above this
+picture in golden letters is written, "Godiva's Wardrobe: a tailor's
+shoppe".  In smaller lettering near the bottom of the sign is the phrase -
+"Nudity is not for thee."
+~
+~
+0 -1 3300
+D3
+~
+~
+0 -1 3002
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3004
+North Wall Street~
+   You are on a wide, cobbled street running east-west through Midgaard
+along the inside of it's northern wall.  On the south side of the street
+is a shop whose windows practically glitter with jewelry and gems of every
+description.
+~
+30 8 0
+D1
+~
+~
+0 -1 3005
+D2
+Inlaid in pure silver upon the window of the shop is a long, sinously curved
+serpent.  Jewelry of all types, some imported from lands far away, can be seen
+in the displays through the window, as well as a sparkling array of cut and
+polished gemstones.
+~
+~
+0 -1 3301
+D3
+~
+~
+0 -1 3003
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+window jewelry gems gem shop~
+Inlaid in pure silver upon the window of the shop is a long, sinously curved
+serpent.  Jewelry of all types, some imported from lands far away, can be seen
+in the displays through the window, as well as a sparkling array of cut and
+polished gemstones.
+~
+S
+#3005
+Northern Market Square~
+   You are standing in the north market square, where vendors sometimes set
+up their stands to sell fresh fruit and vegetables just south of the
+north-most city gate.  Shops can be seen along Wall Street, which extends to
+the east and west from the square.  Directly south of you stairs lead upward
+from the temple square into the circular Temple of Midgaard.
+~
+30 0 1
+D0
+~
+~
+0 -1 3006
+D1
+~
+~
+0 -1 3007
+D2
+Across the temple square to the south the large marble stairs of the
+circular Temple of Midgaard rise towards the Temple Aerie.
+~
+~
+0 -1 3012
+D3
+~
+~
+0 -1 3004
+S
+#3006
+Inside the West Gate of Midgaard~
+   You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  A street leads
+south across Wall Street towards the Temple of Midgaard, and to the east is a
+small guard station.
+~
+30 0 1
+D0
+~
+gate~
+1 3133 3064
+D1
+A small stone building extends from the wall, providing the city guards with a
+place to rest and a means to reach the walkway along the top of the city wall.
+~
+~
+0 -1 -1
+D2
+~
+~
+0 -1 3005
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
+~
+S
+#3007
+North Wall Street~
+   You are on a wide, cobbled street running east-west through Midgaard
+along the inside of it's northern wall.  On the south side of the street
+is a shop with a huge, much-abused cutting block hanging over the door.
+Through the windows of the shop you can see a large man slicing and salting
+various sorts of meat.
+~
+30 0 1
+D1
+~
+~
+0 -1 3008
+D2
+A large, well muscled man can be seen through the window using an
+appropriately sized butcher's knife to carve meat from a freshly killed
+deer carcass.
+~
+~
+0 -1 3302
+D3
+~
+~
+0 -1 3005
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+cutting block sign door~
+Over the door hangs a large "sign" made from a cutting block of gigantic
+proportions.  Blood stains and deep gashes in the wood lead you to believe
+that this block was actually used at one time to cut meat upon!  Judging by
+the size of the butcher you see through the windows, this isn't much of a
+stretch of the imagination.
+~
+E
+butcher window meat salted meats~
+A large, well muscled man can be seen through the window using an
+appropriately sized butcher's knife to carve meat from a freshly killed
+deer carcass.
+~
+S
+#3008
+North Wall Street~
+   You are on a wide, cobbled street running east-west through Midgaard
+along the inside of it's western wall.  On the south side of the street
+a delicious smell drifts out of the door of the local bakery.
+~
+30 0 1
+D1
+~
+~
+0 -1 3009
+D2
+~
+~
+0 -1 3304
+D3
+~
+~
+0 -1 3007
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3009
+Northwest Corner of Wall Street~
+   You are at a southeastward turn in a wide, cobbled street that runs through
+Midgaard along the inside of it's north and western walls.  To the southeast,
+along North Wall Street, is a shop with many fancy outfits and fine fabrics
+displayed in the windows.
+~
+30 0 1
+D2
+You see the entrance to High Ridge Outfitters, and beyond that, the entrance
+to the east city gate.  Far beyond that is a tall wooden fence extending from
+the city wall, partitioning off Broad River Shipyard.
+~
+~
+0 -1 3014
+D3
+Several shops can be seen on the southern side of the street, including a
+baker, a butcher, and farther along, a jeweler and a fine clothier.  The
+northern city gate and an entrance to the temple square is about midway to the
+end of Wall Street.
+~
+~
+0 -1 3008
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3010
+West Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's western wall.  Through the large windows of the shop
+on the east side of the street you can see cages containing every sort of
+tamed beast imaginable!
+~
+30 0 1
+D0
+To the north you see the northwest corner of the city wall.  West Wall Street
+rounds a corner to the east there, to become North Wall Street.
+~
+~
+0 -1 3002
+D2
+West Wall Street continues southward past the Shoppe of Curious Beasts towards
+a bridge in the far distance.
+~
+~
+0 -1 3015
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+windows window beasts beast shop~
+Through the sparkling glass you can make out many different varieties of
+animals that have been trained to be companions and hunters.
+~
+S
+#3011
+The Temple Square~
+   You are standing in the temple square, just northwest of the Temple of
+Midgaard.  Huge marble steps lead upward to the southeast into the temple.
+The entrance to the Midgaard Abbey and Guild of Healers is to the southwest,
+and the temple square continues to the east and south.
+~
+30 0 1
+D1
+~
+~
+0 -1 3012
+D2
+~
+~
+0 -1 3016
+D4
+The steps to the Temple Aerie rise to the southeast.
+~
+~
+0 -1 3001
+S
+#3012
+The Temple Square~
+   You are standing in the temple square, just north of the Temple of Midgaard.
+Huge marble steps lead upward to the south into the temple.  A road leads
+northward towards a large gate and North Wall Street.  The temple square
+continues to the east and west.
+~
+30 0 1
+D0
+~
+~
+0 -1 3005
+D1
+~
+~
+0 -1 3013
+D2
+~
+~
+0 -1 3001
+D3
+~
+~
+0 -1 3011
+D4
+The steps to the Temple Aerie rise to the south.
+~
+~
+0 -1 3001
+S
+#3013
+The Temple Square~
+   You are standing in the temple square, northeast of the Temple of Midgaard.
+Huge marble steps lead upward to the southwest into the temple.  The entrance
+to The Grunting Boar Tavern and Inn is to the southeast.  The temple square
+continues to the west and south.
+~
+30 0 1
+D1
+Through the dirty windows of The Grunting Boar Inn and Tavern you see weary
+travelers heading upstairs to rent a room for the night, and drunken revelers
+in the tavern to the south of the inn.
+~
+~
+0 -1 -1
+D2
+The temple square continues to the south.
+~
+~
+0 -1 3017
+D3
+The temple square continues to the west.
+~
+~
+0 -1 3012
+D4
+The steps to the Temple Aerie rise to the southwest.
+~
+~
+0 -1 3001
+S
+#3014
+East Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's eastern wall.  Through the windows on the west side
+of the street you can several displays of drygoods and camping supplies, and
+just about anything else you may need to survive in the wilderness.  To the
+southwest is the entrance to the store, and to the north Wall Street turns
+west at the northeastern corner of the city wall.
+~
+30 0 1
+D0
+Wall Street turns westward, and a sign on the corner leads you to think that a
+bakery is right around the bend.
+~
+~
+0 -1 3009
+D2
+You see the entrance to High Ridge Outfitters, and beyond that, the entrance
+to the east city gate.  Far beyond that is a tall wooden fence extending from
+the city wall, partitioning off Broad River Shipyard.
+~
+~
+0 -1 3018
+D3
+The large wooden sign proclaims in no-nonsense carved lettering "High 
+Ridge Outfitters".  In smaller lettering below this has been painted:
+"If we don't have it, you don't need it!".  Various dryed rations and 
+equipment one would need on an extended journey are visible through the 
+well-cleaned windows of the store.
+~
+~
+0 -1 -1
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3015
+West Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's western wall.  On the east side of the street is 
+a shop which sells exotic animals as pets.
+~
+30 0 1
+D0
+~
+~
+0 -1 3010
+D1
+Animals and creatures of all sorts can be seen through the large front
+windows of the Shoppe of Curious Beasts.
+~
+~
+0 -1 3305
+D2
+West Wall Street continues southward through an intersection with Main
+street towards a bridge in the distance.
+~
+~
+0 -1 3019
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3016
+The Temple Square~
+   You are standing in the temple square, just west of the Temple of Midgaard.
+Huge marble steps lead upward to the east into the temple.  The entrance to
+the Midgaard Abbey and Guild of Healers is to your west.  South of the Abbey
+you can see the Abbey's Donation room, and the temple square continues to the
+north and south.
+~
+30 0 1
+D0
+You see the northwest corner of the temple square.
+~
+~
+0 -1 3011
+D1
+You see the Temple of Midgaard.
+~
+~
+0 -1 3001
+D2
+You see the southwest corner of the temple square.  Southwest of you, off of
+the temple square, is a small building that you know to be the Abbey's
+Donation room.
+~
+~
+0 -1 3020
+D3
+You see the entrance to the Guild of Healers.
+~
+~
+0 -1 3052
+D4
+The steps to the Temple Aerie rise to the east.
+~
+~
+0 -1 3001
+S
+#3017
+The Temple Square~
+   You are standing in the temple square, just east of the Temple of Midgaard.
+Huge marble steps lead upward to the west into the temple.  The entrance to The
+Grunting Boar Inn and Tavern is to the east.  The temple square continues to
+the north and south.
+~
+30 0 1
+D0
+The temple square continues to the north.
+~
+~
+0 -1 3013
+D1
+Through the open doors of The Grunting Boar Tavern and Inn you see weary
+travelers heading upstairs to rent a room for the night, and drunken revelers
+in the tavern in the southern part of the inn.
+~
+~
+0 -1 3307
+D2
+The temple square continues to the south.
+~
+~
+0 -1 3022
+D3
+The huge Temple of Midgaard is a circular building with stairs all around
+leading up into the
+~
+~
+0 -1 3001
+D4
+The steps to the Temple Aerie rise to the west.
+~
+~
+0 -1 3001
+S
+#3018
+East Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's eastern wall.  On the west side of the street is 
+a large store with drygoods and camping supplies displayed in it's windows.
+~
+30 0 1
+D0
+~
+~
+0 -1 3014
+D2
+~
+~
+0 -1 3023
+D3
+The large wooden sign proclaims in no-nonsense carved lettering "High 
+Ridge Outfitters".  In smaller lettering below this has been painted:
+"If we don't have it, you don't need it!".  Various dryed rations and 
+equipment one would need on an extended journey are visible through the 
+well-cleaned windows of the store.
+~
+~
+0 -1 3311
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3019
+West Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's western wall.  Through the large windows of the shop
+on the east side of the street you can see cages containing every sort of
+tamed beast imaginable!
+~
+30 0 1
+D0
+West Wall Street continues northward past the Shoppe of Curious Beasts towards
+the northwest corner of the city wall.
+~
+~
+0 -1 3015
+D2
+West Wall Street continues southward through an intersection with Main
+street towards a bridge in the distance.
+~
+~
+0 -1 3025
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+windows window beasts beast shop~
+Through the sparkling glass you can make out many different varieties of
+animals that have been trained to be companions and hunters.
+~
+S
+#3020
+The Temple Square~
+   You are standing in the temple square, just southwest of the Temple of
+Midgaard.  Huge marble steps lead upward to the northeast into the temple.
+The entrance to the Midgaard Abbey and Guild of Healers is to the northwest,
+off of the temple square.  Directly to the west you can see the Abbey's
+Donation room, and the temple square continues to the north and east.
+~
+30 0 1
+D0
+~
+~
+0 -1 3016
+D1
+~
+~
+0 -1 3021
+D3
+~
+~
+0 -1 3062
+D4
+The steps to the Temple Aerie rise to the northeast of you.
+~
+~
+0 -1 3001
+S
+#3021
+The Temple Square at the Fountain~
+   You are standing in the temple square, just south of the Temple of Midgaard.
+Huge marble steps lead upward to the north to the temple aerie.  To the south
+you can see the bustling southern market square, and the temple square
+continues to the east and west.
+~
+30 0 1
+D0
+The steps to the Temple Aerie rise to the north of you.
+~
+~
+0 -1 3001
+D1
+The Grunting Boar Inn and Tavern is off of the Temple Sqaure to the east, and
+the entrance to the Tavern is directy east of you once you leave the square.
+~
+~
+0 -1 3022
+D2
+You see the thriving South Market Square, and beyond that is the Red Wolf Inn,
+which rents rooms cheaply for extended periods of time.
+~
+~
+0 -1 3029
+D3
+Off of the temple square to the west you see the large Midgaard Abbey, and
+directly to the west beyond the temple square is the Abbey's Donation room.
+~
+~
+0 -1 3020
+D4
+The steps to the Temple Aerie rise to the north of you.
+~
+~
+0 -1 3001
+S
+#3022
+The Temple Square~
+   You are standing in the temple square, just southeast of the Temple of
+Midgaard.  Huge marble steps lead upward to the northwest to the temple aerie.
+The entrance to the Grunting Boar Tavern is to the east, and the temple square
+continues to the north and west.
+~
+30 0 1
+D0
+~
+~
+0 -1 3017
+D1
+~
+~
+0 -1 3309
+D3
+~
+~
+0 -1 3021
+D4
+The steps to the Temple Aerie rise to the northwest.
+~
+~
+0 -1 3001
+S
+#3023
+East Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's eastern wall.  Through the windows on the west side
+of the street you can several displays of drygoods and camping supplies, and
+just about anything else you may need to survive in the wilderness.  To the
+northwest is the entrance to the store, and to the south Wall Street
+intersects with Main street, near the east city gate.
+~
+30 0 1
+D0
+To the north is the entrance to the High Ridge Outfitters, and beyond that
+Wall Street turns westward.
+~
+~
+0 -1 3018
+D2
+To the east of the intersection of Wall Street and Main is the city gate.
+Beyond that, at a turn in the road, is a tall wooden fence extending from
+the city wall, partitioning off Broad River Shipyard.
+~
+~
+0 -1 3033
+D3
+Above the door to the north is a large wooden sign proclaiming in no-nonsense
+carved lettering, "High Ridge Outfitters".  In smaller lettering below this
+has been painted: "If we don't have it, you don't need it!".  Various dryed
+rations and equipment one would need on an extended journey are visible
+through the well-cleaned windows of the store.
+~
+~
+0 -1 -1
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3024
+Inside the West Gate of Midgaard~
+   You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  Main Street leads
+east into the city proper, and to the north is a small guard station.
+~
+30 0 1
+D0
+A small stone building extends from the wall, providing the city guards with a
+place to rest and a means to reach the walkway along the top of the city wall.
+~
+~
+0 -1 -1
+D1
+Main street is lined with magickal and sagicious shops on it's north side, and
+the Mage's Guildhouse and the Red Wolf Inn and Restaraunt on the south side.
+At the far end of the street you can see another gatehouse and guards, and a
+gate identical to the gate west of you.
+~
+~
+0 -1 3025
+D3
+A large wooden gate is to the west.
+~
+gate~
+1 3133 3063
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3025
+The Intersection of Main and West Wall Street~
+   You are at the intersection of two cobblestone streets, one of which heads
+east through the commercial district and the other running north-south along
+the inside of the west wall of the city.  To the west you can see a large
+wooden gate that leads out of the city and to the east are several magick-
+oriented shops.  Odd animal noises can be heard from the north, and a large
+bridge spans the Broad river in the distance to the south.
+~
+30 0 1
+D0
+West Wall Street continues northward past the Shoppe of Curious Beasts towards
+the northwest corner of the city wall.
+~
+~
+0 -1 3019
+D1
+Main street is lined with magickal and sagicious shops on it's north side, and
+the Mage's Guildhouse and the Red Wolf Inn and Restaraunt on the south side.
+At the far end of the street you can see another gatehouse and guards, and a
+gate identical to the gate west of you.
+~
+~
+0 -1 3026
+D2
+Past a small, alley-like street that leads off to the east from Wall Street
+you see the magickly supported bridge arcing over the Broad river.
+~
+~
+0 -1 3035
+D3
+You see a small gatehouse at which several guards are stationed and beyond
+that a large, sturdy looking wooden gate.
+~
+~
+0 -1 3024
+E
+bridge broad river~
+The bridge would be a feat of modern architectural design, 'twere it not for
+the powerful magicks required to keep it's arching structure suspended without
+obvious supports (barring the connections to the banks of the river!) over the
+river.  You would judge it to be nearly sixty feet across to the south bank of
+the Broad river, which is nearly ten feet higher than this bank, which is why
+the bridge was constructed in such a strange manner.
+~
+S
+#3026
+Main Street~
+   You are on a very wide cobblestone street that runs through the commercial
+district of town.  This end of the street is lined to the north with shops
+of a magickal and intellectual nature.  To your north is the Talismonger's
+shop, and to the south is the entrance to the Mage's Guild.
+   To the west you can cross West Wall Street and leave town through the
+west gate, and to the east you see more shops and the market square.
+~
+30 0 1
+D0
+Through the crystalline windows of the shop you can see various staves, wands,
+and magickal trinkets displayed on shelves around the room.  Oddly glowing
+letters floating mystically above the entrance proclaim, "The Talismonger".
+~
+~
+0 -1 3312
+D1
+~
+~
+0 -1 3027
+D2
+You see the entrance hall to the Mage's Guild.
+~
+~
+0 -1 3053
+D3
+~
+~
+0 -1 3025
+S
+#3027
+Main Street~
+   You are on a very wide cobblestone street that runs through the commercial
+district of town.  This end of the street is lined to the north with shops
+of a magickal and intellectual nature.  On the sign above the door of the shop
+north of you is clearly written "The Philosopher's Stone".  Past a shop to the
+west you can cross Wall Street and leave town through the west gate, and to
+the east you see more shops and the market square.
+~
+30 0 1
+D0
+You see a shop with a sign above the door which reads "The Philospher's
+Stone", and bears the alchemical symbols for fire and water overlapping one
+another.  The windows of the shop have various other symbols and formulae
+etched and painted onto their surface from both the inside and the outside.
+~
+~
+0 -1 3313
+D1
+~
+~
+0 -1 3028
+D3
+~
+~
+0 -1 3026
+E
+sign~
+The sign reads "The Philosopher's Stone", and below the writing the alchemical
+symbols for fire and water have been carved so that the two symbols overlap
+one another.
+~
+S
+#3028
+Main Street west of the Market Square~
+   You are on a very wide cobblestone street that runs through the commercial
+district of town.  This end of the street is lined to the north with shops
+of a magickal and intellectual nature.  To the north is the office of a
+scribe and a scroll shop, and through the windows to the south you can see
+patrons eating at the restaurant in the Red Wolf Inn.
+   To the west you see more shops and the entrance to the Mage's Guild, and to
+the east the street continues through the market square and past several
+combat-oriented shops.
+~
+30 0 1
+D0
+~
+~
+0 -1 3314
+D1
+~
+~
+0 -1 3029
+D3
+~
+~
+0 -1 3027
+S
+#3029
+Southern Market Square~
+   You are standing on the market square, the famous Square of Midgaard.
+A large, peculiar looking statue has been erected in the middle of the square.
+Main Street lies to the east and west, and to the north you can see the Temple
+of Midgaard past the fountain in the temple square.  Mouthwatering scents
+drift to you from the Red Wolf Inn, a restaurant and boarding house to the 
+south.
+~
+30 0 1
+D0
+You see the temple square.
+~
+~
+0 -1 3021
+D1
+You see the main street.
+~
+~
+0 -1 3030
+D2
+You see the Red Wolf Inn, a boarding house at which you can rent for multiple
+days in a row for cheaper rates than the single day rate at the Grunting Boar.
+~
+~
+0 -1 3318
+D3
+You see the main street.
+~
+~
+0 -1 3028
+S
+#3030
+Main Street east of the Market Square~
+   You are on a very wide cobblestone street that runs through the commercial
+district of town.  Above the door of the shop to the north hangs a large
+tortoise shell, and in the window many types of armor are displayed.  To the
+west is the bustling market square, and beyond that are more shops and then
+the city gate.  East of you can be seen the entrance to the Swordsmen's Guild
+and more combat-oriented shops.
+~
+30 0 1
+D0
+A large tortoise shell is suspended above the door of the shop you see.
+Through the windows you see a wide expanse of metal armors, helmets, etc,
+displayed.
+~
+~
+0 -1 3315
+D1
+On the north side of the street you see a leatherworkers shop and then a
+weaponsmith's shop.  On the south is the entrance to the Swordsman's Guild.
+Across Wall Street you can see the large wooden east gate.
+~
+~
+0 -1 3031
+D3
+~
+~
+0 -1 3029
+S
+#3031
+Main Street~
+   You are on a very wide cobblestone street that runs through the commercial
+district of town.  The smell of fresh leather reaches you from the open door
+to the north.  The sign above the door reads "Masada Leather", and leather
+armor and items can be seen through the windows.  To the southeast you see the
+entrance to the Swordsman's guild, and beyond that the street intersects Wall
+Street.  To the west the street goes past several other shops and the market
+square.
+~
+30 0 1
+D0
+You see the many fine leather goods and armor of Masada Leather.
+~
+~
+0 -1 3316
+D1
+~
+~
+0 -1 3032
+D3
+~
+~
+0 -1 3030
+S
+#3032
+Main Street~
+   You are on a very wide cobblestone street that runs through the commercial
+district of town.  To the north is The Flashing Blade, whose windows shine
+with weapons of undeniable sharpness.  On the southern side of the street is
+the large building housing the Guild of Swordsmen, and to the east the street
+intersects Wall Street on it's way to the east city gate.  To the west the
+street goes past several other shops and the market square.
+~
+30 0 1
+D0
+You see The Flashing Blade, a well stocked weapon store.
+~
+~
+0 -1 3317
+D1
+At the end of Main Street, across Wall Street, you see the eastern city gate.
+~
+~
+0 -1 3033
+D2
+You see the entrance to the Guild of Swordsmen.
+~
+~
+0 -1 3056
+D3
+The main street leads westward to the market square, past many different sorts
+of shops.
+~
+~
+0 -1 3031
+S
+#3033
+The Intersection of Main and East Wall Street~
+   You are at the intersection of two cobblestone streets, one of which heads
+west through the commercial district and the other running north-south along
+the inside of the east wall of the city.  To the east you can see a large
+wooden gate that leads out of the city and to the west are several combat-
+oriented shops.  An outfitter's shop is off of Wall Street to the north, and
+at a turn in the road south of you is the Slaver's Corner.
+~
+30 0 1
+D0
+A little down Wall Street you see the entrance to the High Ridge Outfitters on
+the west side of the street, and beyond that Wall Street turns west to run
+along the north wall of the city.
+~
+~
+0 -1 3023
+D1
+A large wooden gate lies to the east of you.
+~
+~
+0 -1 3034
+D2
+Wall Street continues to the south up to a tall wooden fence, at which it
+turns westward at what is known as Slaver's Corner to become the Street of
+Smells.
+~
+~
+0 -1 3036
+D3
+Main Street continues westward past several combat-oriented shops and the
+Swordsmans Guild to the market square.  Beyond that are shops dealing in more
+magickal and sagely items and the entrance to the Mage's Guild, and at the end
+of the road is another large gate.
+~
+~
+0 -1 3032
+E
+bridge broad river~
+The bridge would be a feat of modern architectural design, 'twere it not for
+the powerful magicks required to keep it's arching structure suspended without
+obvious supports (barring the connections to the banks of the river!) over the
+river.  You would judge it to be nearly sixty feet across to the south bank of
+the Broad river, which is nearly ten feet higher than this bank, which is why
+the bridge was constructed in such a strange manner.
+~
+S
+#3034
+Inside the West Gate of Midgaard~
+   You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  Main Street leads
+east into the city proper, and to the north is a small guard station.
+~
+30 0 1
+D0
+A small stone building extends from the wall, providing the city guards with a
+place to rest and a means to reach the walkway along the top of the city wall.
+~
+~
+0 -1 -1
+D1
+You see a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+gate~
+1 3133 3065
+D3
+Main Street continues westward past several combat-oriented shops and the
+Swordsmans Guild to the market square.  Beyond that are shops dealing in more
+magickal and sagely items and the entrance to the Mage's Guild, and at the end
+of the road is another large gate.
+~
+gate~
+0 -1 3033
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3035
+West Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's western wall.  A large bridge can be seen farther to
+the south, spanning the Broad river.  Odors which you'd rather not sample
+further are carried to you from the Street of Smells, which can be seen
+extending eastward from the Wall Street between yourself and the bridge.
+~
+30 0 1
+D0
+You see the intersection of Wall Street and Main.
+~
+~
+0 -1 3025
+D2
+Past a small, alley-like street that leads off to the east from Wall Street
+you see the magickly supported bridge arcing over the Broad river.
+~
+~
+0 -1 3037
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+bridge broad river~
+The bridge would be a feat of modern architectural design, 'twere it not for
+the powerful magicks required to keep it's arching structure suspended without
+obvious supports (barring the connections to the banks of the river!) over the
+river.  You would judge it to be nearly sixty feet across to the south bank of
+the Broad river, which is nearly ten feet higher than this bank, which is why
+the bridge was constructed in such a strange manner.
+~
+S
+#3036
+East Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard along
+the inside of it's eastern wall.  A tall wooden fence rises at a westward turn
+of the street that you see to the south.  Odors which you'd rather not sample
+further are carried to you from the Street of Smells south of you, which leads
+westward from Slaver's Corner.  Wall Street continues northward across Main
+street, past the east city gate.
+~
+30 0 1
+D0
+You see the commercial district of Midgaard - well, the _legal_ commerical
+district, in any case.  It seems much safer and cleaner than the area
+souht of where you are now, that is certain... To the northeast you can see
+the east City Gate at the end of Main Street.
+~
+~
+0 -1 3033
+D2
+You see Slaver's Corner to the south, to which a wide staircase leads down
+from the slave auction platform.  The street turns westward into the Street of
+Smells there, bounded to the south by a tall wooden fence erected to keep the
+vagrants and beggars out of the shipyard.
+~
+~
+0 -1 3044
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+shipyard fence fencing wharf wooden~
+A tall wooden fence has been erected to keep vagrants and beggars from
+sleeping in the boats stored in the Midgaard shipyard south of Slaver's
+Corner.  The actual entrance to the shipyard is on the west side of its
+walled structure, off of the wharf.
+~
+E
+slaver's slavers slaver corner street smells~
+You see Slaver's Corner to the south, to which a wide staircase leads down
+from the slave auction platform.  The street turns westward into the Street of
+Smells there, bounded to the south by a tall wooden fence erected to keep the
+vagrants and beggars out of the shipyard.
+~
+S
+#3037
+West Wall Street at the end of the Street of Smells~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's western wall.  A small street - almost an alley -
+leads away to the east towards the city dump and a number of warehouses.
+Immediately to the east you can see - and smell! - a Tannery to the north and
+a blacksmith to the south.
+~
+30 0 1
+D0
+~
+~
+0 -1 3035
+D1
+~
+~
+0 -1 3038
+D2
+~
+~
+0 -1 3045
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+tannery tanner blacksmithy smithy blacksmith~
+Though you realize that both the Tannery and Blacksmith are important, you
+wish that they would fulfill their purposes in a less olfactory manner!  When
+the wind sets from the east the smell here is virtually unbearable, though the
+inhabitants of the Street of Smells have grown used to it.  Many actually
+appreciate the privacy from snooping cityguards that this unbearable stench
+grants them - no guard in his right mind would venture down this alley-like
+street without good reason, and he certainly wouldn't go alone!
+~
+E
+bridge broad river~
+The bridge would be a feat of modern architectural design, 'twere it not for
+the powerful magicks required to keep it's arching structure suspended without
+obvious supports (barring the connections to the banks of the river!) over the
+river.  You would judge it to be nearly sixty feet across to the south bank of
+the Broad river, which is nearly ten feet higher than this bank, which is why
+the bridge was constructed in such a strange manner.
+~
+S
+#3038
+The Street of Smells~
+   This filthy, overgrown alley hardly seems to be a 'street' by your
+definition of the word.  Garbage and assorted rotting items litter the ground,
+and the air reeks!  From the south a pungent odor escapes from the local
+tannery, while the smell of smoke and ashes drifts into the street from the
+blacksmithy to the north.  The street intersects with Wall Street to the west,
+and to the east it continues past various rundown warehouses, buildings and the
+city dump.
+~
+30 0 1
+D0
+~
+~
+0 -1 3324
+D1
+~
+~
+0 -1 3039
+D2
+~
+~
+0 -1 3332
+D3
+~
+~
+0 -1 3037
+E
+garbage trash filth rotting rot~
+Excrement, spoiled food, and occasionally the fly-covered carcass of a dog
+are all readily apparent on the ground here.  It seems that the cleaners which
+are so prevalent in the richer district of Midgaard don't come here... though
+you hardly blame them!
+~
+E
+tannery tanner blacksmithy smithy blacksmith~
+Though you realize that both the Tannery and Blacksmith are important, you
+wish that they would fulfill their purposes in a less olfactory manner!  When
+the wind sets from the east the smell here is virtually unbearable, though the
+inhabitants of the Street of Smells have grown used to it.  Many actually
+appreciate the privacy from snooping cityguards that this unbearable stench
+grants them - no guard in his right mind would venture down this alley-like
+street without good reason, and he certainly wouldn't go alone!
+~
+E
+warehouse warehouses rundown~
+All of the warehouses seem to be in a rather poor state of repair; woodrot is
+clearly evident in several places, and the corner and side of one warehouse
+looks as if someone attempted to burn it down!  Despite their rundown
+appearance, the doors are held shut with shiny, sturdy-looking locks, which
+seem rather out of place in this neighborhood.
+~
+S
+#3039
+The Street of Smells~
+   This filthy, overgrown alley hardly seems to be a 'street' by your
+definition of the word.  Garbage and assorted rotting items litter the ground,
+and the air reeks!  To the south the ground drops away towards the river into
+the overflowing city dump.  Large, rundown warehouses line the northern
+side of the street, and a smithy and a tannery are off of the street to the
+west.
+~
+30 0 1
+D0
+Though dilapidated, the warehouse stil is equiped with a rather sturdy looking
+lock.
+~
+door~
+2 -1 3325
+D1
+~
+~
+0 -1 3040
+D2
+~
+~
+0 -1 3048
+D3
+~
+~
+0 -1 3038
+E
+garbage trash filth rotting rot~
+Excrement, spoiled food, and occasionally the fly-covered carcass of a dog
+are all readily apparent on the ground here.  It seems that the cleaners which
+are so prevalent in the richer district of Midgaard don't come here... though
+you hardly blame them!
+~
+E
+tannery tanner blacksmithy smithy blacksmith~
+Though you realize that both the Tannery and Blacksmith are important, you
+wish that they would fulfill their purposes in a less olfactory manner!  The
+smell here is virtually unbearable, though the inhabitants of the Street of
+Smells have grown used to it.  Many actually appreciate the privacy from
+snooping cityguards that this unbearable stench grants them - no guard in his
+right mind would venture down this alley-like street without good reason, and
+he certainly wouldn't go alone!
+~
+E
+warehouse warehouses rundown~
+All of the warehouses seem to be in a rather poor state of repair; woodrot is
+clearly evident in several places, and the corner and side of one warehouse
+looks as if someone attempted to burn it down!  Despite their rundown
+appearance, the doors are held shut with shiny, sturdy-looking locks, which
+seem rather out of place in this neighborhood.
+~
+S
+#3040
+The Street of Smells~
+   This filthy, overgrown alley hardly seems to be a 'street' by your
+definition of the word.  Garbage and assorted rotting items litter the ground,
+and the air reeks!  Rundown warehouses, the contents of which you'd rather not
+even guess at, line the street on both sides here, and from the northeast you
+can hear drunken sailors singing badly from within a shady looking bar.  When
+the wind blows from the southeast you get a good whiff of the stench of the
+city dump and think it may be time to move on.
+~
+30 0 1
+D0
+~
+door~
+2 -1 3327
+D1
+~
+~
+0 -1 3041
+D2
+~
+door~
+2 -1 3334
+D3
+~
+~
+0 -1 3039
+E
+warehouse warehouses rundown~
+All of the warehouses seem to be in a rather poor state of repair; woodrot is
+clearly evident in several places, and the corner and side of one warehouse
+looks as if someone attempted to burn it down!  Despite their rundown
+appearance, the doors are held shut with shiny, sturdy-looking locks, which
+seem rather out of place in this neighborhood.
+~
+S
+#3041
+The Street of Smells~
+   This filthy, overgrown alley hardly seems to be a 'street' by your
+definition of the word.  The street seems somewhat cleaner here, in comparison
+to that to the west, and the small amount of garbage here is mostly broken
+glass and discarded beer bottles.  The sounds of inebriation - slurred
+singing and glass breaking now and then - come from the open door to the
+Bloodletter Tavern to the north, and a sign displaying a pair of dice hangs
+over the door of a large, well-kept building on the other side of the street.
+   The street continues eastward toward the entrance to the Broad River Wharf
+and Slaver's Corner, and westward past through much filth past the city dump.
+~
+30 0 1
+D0
+~
+~
+0 -1 3329
+D1
+Sailors and slavers mingle along the street to the east, heading to and from
+the Slaver's Guild Auction Platform and the Broad River Wharf and Shipyard.
+~
+~
+0 -1 3042
+D2
+The wooden sign above the door bears a picture of two pyramid shaped dice
+being rolled from a large cup, below which is carved in flowing, elegant
+lettering:
+                   "The Den of Thieves:"
+                 "A Gambling Establishment"
+                      (members only!)
+~
+~
+0 -1 3059
+D3
+The street becomes much filthier to the west as it passes the city dump.
+~
+~
+0 -1 3040
+E
+garbage trash filth rotting rot~
+Excrement, spoiled food, and occasionally the fly-covered carcass of a dog
+are all readily apparent on the ground here.  It seems that the cleaners which
+are so prevalent in the richer district of Midgaard don't come here... though
+you hardly blame them!
+~
+E
+dice sign wooden~
+The wooden sign above the door bears a picture of two pyramid shaped dice
+being rolled from a large cup, below which is carved in flowing, elegant
+lettering:
+                   "The Den of Thieves:"
+                 "A Gambling Establishment"
+                      (members only!)
+~
+S
+#3042
+The Street of Smells near the Wharf~
+   This filthy, overgrown alley hardly seems to be a 'street' by your
+definition of the word.  The street is somewhat cleaner here, presumably to
+attract a higher class of customer to Slaver's Corner which is just west of
+you.  A narrow wooden staircase leads upward onto the slave auction platform
+to the north, and a boardwalk extends south to the Broad River Wharf.  The
+sounds of drunken debauchery reach you from a bar to the west.
+~
+30 0 1
+D0
+Up a short flight of wooden stairs to the north can be seen the slave auction
+platform, upon which you can see slaves of all sorts, slavers, and an ample
+number of mercenary guards hired to protect the slavers and their
+"merchandise".
+~
+~
+0 -1 3330
+D1
+~
+~
+0 -1 3043
+D2
+Several barges are currently tied up at the wharf, and a sloping platform
+provides access to the calm waters of the Board river to smaller vessals as
+well.  The Midgaard Shipyard is to the east of the wharf.
+~
+~
+0 -1 3046
+D3
+~
+~
+0 -1 3041
+D4
+~
+~
+0 -1 3330
+E
+slavers slaver guards mercs mercenaries~
+Many slavers and their bodyguards - generally mercenaries hired locally -
+can be seen standing around the slaves on the platform.  Though the slavers
+are varied in appearance, all of them have two things in common: they are
+dressed extremely well and richly, and they all seem to radiate a cool
+maliciousness that makes you feel that while today you may be looking at
+slaves, tomorrow you may be among them!
+~
+E
+slaves slave humanoid~
+The slaves are chained to tall posts, and the locks look quite sturdy.
+Several different races are evident among the slaves - some are of the Goblin-
+kind, while others are human "barbarians", sold into slavery by their own
+peoples.  To the best of your knowledge, most of the slave trade in Midgaard
+is derived from conquest of other lands and piracy on the great blue sea,
+though occasionally someone convicted of a crime will be sold into slavery to
+help repay their victims (this is instead of the usual summary execution).
+~
+E
+shipyard fence fencing wharf wooden boardwalk~
+A tall wooden fence has been erected to keep vagrants and beggars from sleeping
+in the boats stored in the Midgaard shipyard south of Slaver's Corner.
+The actual entrance to the shipyard is on the west side of its walled
+structure, off of the wharf.
+~
+S
+#3043
+Slaver's Corner~
+   You are surprised to note that the cobbled street here is relatively free
+of garbage and debris - apparently the slavers wish to attract more high-class
+buyers!  A wide wooden staircase leads upwards to the northwest onto the slave
+auction platform itself, upon which you can see slaves of various races chained
+to tall wooden posts.  Among those that can be seen on the auction platform
+are slavers dressed in finery as well as scar-covered mercenary guards.
+   To the south a tall wooden fence blocks entrance to the Broad river
+shipyard, and Wall Street continues northward towards a better part of the
+city.  West of you is the dirty, dangerous, and disreputable Street of Smells.
+~
+30 0 1
+D0
+You see the commercial district of Midgaard - well, the _legal_ commerical
+district, in any case.  It seems much safer and cleaner than where you are
+now, that is certain... Farther to the northeast you can see the east City
+Gate, at the end of Main Street.
+~
+~
+0 -1 3044
+D2
+A tall wooden fence has been erected to keep vagrants and beggars from sleeping
+in the boats stored in the Midgaard shipyard south of Slaver's Corner.
+The actual entrance to the shipyard is on the west side of its walled
+structure, off of the wharf.
+~
+~
+0 -1 -1
+D3
+To the west past the wharf you see a bar and some sort of gambling hall, and
+beyond that warehouses in various states of collapse line the garbage-strewn
+street.
+~
+~
+0 -1 3042
+D4
+Up the wide wooden staircase to the northwest of you is the raised Slave
+Auction platform.
+~
+~
+0 -1 3330
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+slaves slave humanoid~
+The slaves are chained to tall posts, and the locks look quite sturdy.
+Several different races are evident among the slaves - some are of the Goblin-
+kind, while others are "barbarians", sold into slavery by their own peoples.
+To the best of your knowledge, most of the slave trade in Midgaard is derived
+from conquest of other lands and piracy on the great blue sea.
+~
+E
+shipyard fence fencing wharf wooden~
+A tall wooden fence has been erected to keep vagrants and beggars from sleeping
+in the boats stored in the Midgaard shipyard south of Slaver's Corner.
+The actual entrance to the shipyard is on the west side of its walled
+structure, off of the wharf.
+~
+E
+stairs stair staircase platform auction~
+This is the main staircase that allows access to the Slave Auction platform to
+the northwest.
+~
+S
+#3044
+East Wall Street near Slaver's Corner~
+   As you near the Street of Smells and Broad River Shipyard and wharf,
+the cobbled street becomes more cluttered with trash, and you get the
+impression that the city's guardforce doesn't much care what transpires here.
+West of you a platform extends from a large warehouse-like building, upon
+which slaves of various races are chained to tall wooden posts.  Slavers
+dressed in finery, and scar-covered mercenary guards can also be seen among
+those at the slave auction.
+   South of you Wall Street turns westward to become the Street of Smells, at
+a place known as Slaver's Corner.  Beyond that the sturdy wooden fence of Broad
+River Shipyard can the seen.
+~
+30 0 1
+D0
+You see the commercial district of Midgaard - well, the _legal_ commerical
+district, in any case.  It seems much safer and cleaner than where you are
+now, that is certain... To the northeast you can see the east City Gate at the
+end of Main Street.
+~
+~
+0 -1 3036
+D2
+You see Slaver's Corner to the south, to which a wide staircase leads down
+from the slave auction platform.  The street turns westward into the Street of
+Smells there, bounded to the south by a tall wooden fence erected to keep the
+vagrants and beggars out of the shipyard.
+~
+~
+0 -1 3043
+D3
+Up a short flight of wooden stairs to the west can be seen the slave auction
+platform, upon which you can see slaves of all sorts, slavers, and an ample
+number of mercenary guards hired to protect the slavers and their
+"merchandise".
+~
+~
+0 -1 3330
+D4
+Up a short flight of wooden stairs to the west can be seen the slave auction
+platform, upon which you can see slaves of all sorts, slavers, and an ample
+number of mercenary guards hired to protect the slavers and their
+"merchandise".
+~
+~
+0 -1 3330
+E
+slaves slave humanoid~
+The slaves are chained to tall posts, and the locks look quite sturdy.
+Several different races are evident among the slaves - some are of the Goblin-
+kind, while others are human "barbarians", sold into slavery by their own
+peoples.  To the best of your knowledge, most of the slave trade in Midgaard
+is derived from conquest of other lands and piracy on the great blue sea,
+though occasionally someone convicted of a crime will be sold into slavery to
+help repay their victims (this is instead of the usual summary execution).
+~
+E
+slavers slaver guards mercs mercenaries~
+Many slavers and their bodyguards - generally mercenaries hired locally -
+can be seen standing around the slaves on the platform.  Though the slavers
+are varied in appearance, all of them have two things in common: they are
+dressed extremely well and richly, and they all seem to radiate a cool
+maliciousness that makes you feel that while today you may be looking at
+slaves, tomorrow you may be among them!
+~
+E
+shipyard fence fencing wharf wooden~
+A tall wooden fence has been erected to keep vagrants and beggars from sleeping
+in the boats stored in the Midgaard shipyard south of Slaver's Corner.
+The actual entrance to the shipyard is on the west side of its walled
+structure, off of the wharf.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+S
+#3045
+West Wall Street~
+   You are on a wide, cobbled street running north-south through Midgaard
+along the inside of it's western wall.  A large bridge can be seen immediately
+to the south, crossing the Broad river to the higher south bank.  Odors which
+you'd rather not sample further are carried to you by the wind from the town
+dump and the Tannery, which are east of you along the river's north bank.
+~
+30 0 1
+D0
+~
+~
+0 -1 3037
+D2
+~
+~
+0 -1 3047
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably arrest
+you just for trying such a thing.
+~
+E
+bridge broad river~
+The bridge would be a feat of modern architectural design, 'twere it not for
+the powerful magicks required to keep it's arching structure suspended without
+obvious supports (barring the connections to the banks of the river!) over the
+river.  You would judge it to be nearly sixty feet across to the south bank of
+the Broad river, which is nearly ten feet higher than this bank, which is why
+the bridge was constructed in such a strange manner.
+~
+S
+#3046
+The Broad River Wharf~
+  You are standing on a large wooden wharf which runs alongs the river.
+Barges of varying sizes have been tied to the wharf so that their cargo may be
+unloaded.  To the east is a large area surrounded by a tall wooden fence.  A
+sign over the gate in the fence proclaims it to be the Broad River Shipyard.
+   A ramp leads down between the barges to the south, allowing persons with
+smaller boats to enter the gently flowing current of the river.
+~
+30 0 1
+D0
+Across the Street of Smells can be seen the large, raised Slave Auction
+platform. outside of the Slaver's Guild.
+~
+~
+0 -1 3042
+D1
+A tall sturdy looking fence surrounds the Broad River Shipyard to the east.  A
+small sign near the gate reads 'Vagrants NOT Welcome!'.  Through the gate you
+can see the parts from many large water craft, as well as a number of small
+one-man rafts and canoes laying around.  Even these small vessals would
+suffice for travel on the calm waters of the Broad River.
+~
+~
+0 -1 3335
+D2
+Past the barges tied to the wharf, you see the Broad River flowing west.
+~
+~
+0 -1 3203
+S
+#3047
+On the Bridge over the Broad River~
+   You are standing on a large, arching stone bridge that spans the Broad
+River.  The bridge is built out from the western city wall and the river flows
+west through an opening in the wall below the bridge.  When the wind blows
+from the north and east you are overwhelmed by the stench coming from the
+Street of Smells.  To the south is a more residential section of town, though
+a few shops can be found scattered here and there.
+~
+30 0 1
+D0
+You see the road.
+~
+~
+0 -1 3045
+D2
+You see the Concourse.
+~
+~
+0 -1 3100
+E
+bridge broad river~
+The bridge would be a feat of modern architectural design, 'twere it not for
+the powerful magicks required to keep it's arching structure suspended without
+obvious supports (barring the connections to the banks of the river!) over the
+river.  You would judge it to be nearly sixty feet across to the south bank of
+the Broad river, which is nearly ten feet higher than this bank, which is why
+the bridge was constructed in such a strange manner.
+~
+E
+opening~
+You cannot really see it from here as it is somewhere beneath your feet.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
+~
+S
+#3048
+The City Dump~
+   Filth of all sorts has been thrown here by those living in the city.  Items
+ranging from used drinking containers and half-eaten food to broken weapons
+and rotting corpses cover this sharp incline down into the river.  A grate
+covers the end of a pipe that you see jutting out of the heaps of garbage
+further down the slope.  Out of the corner of your eye you catch occasional
+glimpses of something moving among the trash, but you can't tell what it is.
+   The relatively clean looking Street of Smells is north of you.
+~
+30 4 2
+D0
+You see the Street of Smells.
+~
+~
+0 -1 3039
+D5
+Under the rubbish you can make out a grate of some sort.  Through the grate
+you can see a large junction of pipes, which you believe is the entrance to
+the sewer system.
+~
+~
+0 -1 7030
+S
+#3050
+Cleric's Inner Sanctum~
+   This is the inner sanctum.  A picture of the mighty Thor is hanging on
+the wall just above the altar which is set against the western wall.  A well
+in the middle of the floor leads down into darkness.  Vile smells waft from
+the depths.
+~
+30 8 0
+D1
+You see your favorite place, the bar of divination.
+~
+~
+0 -1 3051
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7026
+S
+#3051
+Cleric's Bar~
+   The bar is one of the finest in the land - luckily fpr you it is members
+only.  Fine furniture is set all around the room.
+A small sign is hanging on the wall.
+~
+30 8 0
+D2
+You see the entrance.
+~
+~
+0 -1 3052
+D3
+You see the inner sanctum.
+~
+~
+0 -1 3050
+E
+sign~
+The sign reads:
+Free instructions provided by the waiter:
+
+   Buy  - Buy something (drinkable) from the waiter.
+   List - The waiter will show you all the different drinks and
+          specialties, and tell the price of each.
+~
+S
+#3052
+Entrance to Cleric's Guild~
+   The entrance hall is a small modest room, reflecting the true nature of
+the Clerics.  The exit leads east to the temple square.  A small entrance to
+the bar is in the northern wall.
+~
+30 8 0
+D0
+You see the bar, richly decorated with really stylish furniture.
+~
+~
+0 -1 3051
+D1
+You see the Temple Square, and beyond that, the Temple itself.
+~
+~
+0 -1 3016
+S
+#3053
+Entrance to Mage's Guild~
+   The entrance hall is a small, poor lighted room.
+~
+30 8 0
+D0
+You see the main street.
+~
+~
+0 -1 3026
+D2
+You see your favorite place, the Mage's Bar.
+~
+~
+0 -1 3054
+S
+#3054
+Mage's Bar~
+   The bar is one of the weirdest in the land.  Mystical images float around
+the air.  Illusions of fine furniture appear all around the room.
+~
+30 8 0
+D0
+You see the lobby.
+~
+~
+0 -1 3053
+D1
+You see the laboratory.
+~
+~
+0 -1 3055
+S
+#3055
+Mage's Laboratory~
+   This is the Magical Experiments Laboratory.  Dark smoke-stained stones
+arch over numerous huge oaken tables, most of these cluttered with strange-
+looking pipes and flasks.  The floor is covered with half-erased pentagrams
+and even weirder symbols, and a blackboard in a dark corner has only been
+partially cleaned, some painful-looking letters faintly visible.  A well in
+the middle of the floor leads down into darkness.  Vile smells waft from the
+depths.
+~
+30 8 0
+D3
+You see the bar.
+~
+~
+0 -1 3054
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7017
+S
+#3056
+Entrance Hall to the Guild of Swordsmen~
+   The entrance hall to the Guild of Swordsmen.  A place where one has to be
+careful not to say something wrong (or right).  To the west is the
+mercenary's bar and to the north is the main street.
+~
+30 8 0
+D0
+You see the main street.
+~
+~
+0 -1 3032
+D3
+~
+~
+0 -1 3057
+S
+#3057
+The Bar of Swordsmen~
+   The bar of swordsmen, once upon a time beautifully furnished.  But now the
+furniture is all around you in small pieces.  To the south is the yard, and
+to the west is the entrance hall.
+~
+30 8 0
+D1
+~
+~
+0 -1 3056
+D2
+You see the practice yard.
+~
+~
+0 -1 3058
+S
+#3058
+The Tournament and Practice Yard~
+   The practice yard of the fighters.  To the north is the bar.  A well leads
+down into darkness.
+~
+30 8 0
+D0
+You see the bar.
+~
+~
+0 -1 3057
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7048
+S
+#3059
+The Thieves' Den Gambling Hall~
+   This seems to be the entrance to some sort of members-only club; in fact,
+you get the distinct feeling that if you aren't a member that the only
+gambling you'll be doing will be with your life!  Several unsavory looking
+fellows are keeping an eye on you, though the dark man standing by the door
+in the east wall doesn't seem to paying any attention to you.
+~
+30 8 0
+D0
+Through the entrance to the north you see the Street of Smells, and beyond
+that is the Bloodletter Tavern.  Zeke's Tavern seems positively inviting
+compared to the cold reception non-members receive here!
+~
+~
+0 -1 3041
+D1
+Past the dark man standing by the door you can see what seems to be a
+lavish bar and gambling hall.  Unfortunately, if you aren't a member you
+have no chance of getting beyond the bouncer at the door.
+~
+~
+0 -1 3060
+S
+#3060
+The Thieves Bar~
+   Several shady characters look up from their games of dice or cards as you
+enter this spacious room, but the majority just ignore you.  Tables are neatly
+arrayed about the floor, and several of them have large groups of people
+clustered about them, gambling as they drink.  A well stocked bar is located
+along the east wall and a door leads south into a training area.
+~
+30 8 0
+D2
+You see the secret yard.
+~
+~
+0 -1 3061
+D3
+You see the entrance hall to the thieves guild.
+~
+~
+0 -1 3059
+E
+tables table cluster group gamblers gambling~
+Though few of those standing and sitting around the table are dressed in silks
+or other finery, quite alot of money seems to change hands during their game.
+You know that even those that may *seem* a bit foppish, and perhaps easy
+marks, are your guildbrothers - therefore, if you are going to jump them,
+you'd best do it outside...
+~
+S
+#3061
+The Training Yard~
+   Lifelike practice dummies, some with striking charts stenciled upon them,
+line one wall of this large padded room.  Climbing tools and examples of
+different types of walls are interspersed about the room, and knotted ropes
+hang from the room's high ceiling.  A foul smell seeps upward from the
+sewers from an escape chute in the corner.  This would seem to be the ideal
+training area for those wishing to master the arts of brotherhood of the night.
+~
+30 8 0
+D0
+You see the bar.
+~
+~
+0 -1 3060
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7043
+E
+walls wall climbing~
+Wooden and stone sections of wall of varying height can be seen around the
+room, ready to help thieves of all skill levels improve their climbing
+abilities.  Ropes, grapples, and climbing harnesses are also available, though
+everyone knows that the best burglars need only a pair of gloves to scale even
+the smoothest and tallest of walls.
+~
+E
+rope ropes~
+Climbing these ropes helps build upper body strength, which is vital to much
+that a thief much do.  Learning to break ones' fall from the ropes at various
+heights can also increase a thief's chances of living to steal again.
+~
+E
+dummy dummies stencil charts striking~
+Many of these man-shaped bags have been painted to show the most lethal spots
+to plant a dagger into your victim as well as bare-hand striking points that
+may cause disorientation and numbness.
+~
+E
+chute escape sewers~
+This is a one way trip into the darkness and relative 'safety' of the sewers
+in case of an attack on the guild.  It's not recommended that slide down the
+chute without a lantern, and certainly not a good idea if you aren't familiar
+with the sewers... the chute IS a one way trip!
+~
+S
+#3062
+The Abbey's Donation Room~
+   You are in a small, undecorated part of the Midgaard Abbey.  There are a
+number of wooden benches here where people occasionally sit while they wait
+for donated items to appear in the glowing circular area on the floor.  To
+the east you see the temple square and fountain, and past that is The
+Grunting Boar Tavern.
+~
+30 8 0
+D1
+~
+~
+0 -1 3020
+E
+circle glowing glow area~
+The complete area within a circle on the floor glows pure white.  It seems to
+be powerfully blessed, as that is the spot on which items donated by generous
+people from miles around will appear.
+~
+S
+#3063
+Outside the West Gate of Midgaard~
+   You are standing under a footbridge that connects two small towers built
+into the city wall.  A heavy wooden gate is immediately to the east of you,
+also under the footbridge.  Open plains spread out in all directions for some
+distance, but a large forest can be seen beyond the plains.  To the south you
+see boats and river barges traveling down the Broad River.
+~
+30 8 1
+D1
+The city gate is to the east.
+~
+gate~
+1 3133 3024
+D3
+The forest edge is to the west.
+~
+~
+0 -1 6092
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably attack
+you just for trying such a thing.
+~
+E
+river boats barges barge broad~
+The Broad River is calm and flat as it leaves Midgaard, and is easily
+travelled by watercraft of all sizes, ranging from large river barges carrying
+timber and stone to other cities to the much smaller one-man canoes and rafts.
+~
+E
+plains~
+The plains are primarily grasslands, interrupted here and there by thicket of
+small trees.  Ringing the plains and the city is a large forest, known as the
+Haon'dor.
+~
+S
+#3064
+Outside the North Gate of Midgaard~
+   You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  To the north you
+can see the edge of a large, thick forest.
+~
+30 0 1
+D2
+~
+gate~
+1 3133 3006
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
+~
+S
+#3065
+Outside the East Gate of Midgaard~
+   You are standing under a footbridge that connects two small towers built
+into the city wall.  A heavy wooden gate is immediately to the west of you,
+also under the footbridge.  Open plains spread out in all directions for a
+short distance, but a large forest can be seen beyond the plains.  To the
+south you see boats and river barges traveling down the Broad River.
+~
+30 8 1
+D3
+~
+gate~
+1 3133 3034
+E
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
+~
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+E
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other
+with some kind of mortar.  It is far too high and smooth to climb, and
+the guard on the walkway along the top of the wall would probably attack
+you just for trying such a thing.
+~
+E
+river boats barges barge broad~
+The Broad River is calm and flat as it leaves Midgaard, and is easily
+travelled by watercraft of all sizes, ranging from large river barges carrying
+timber and stone to other cities to the much smaller one-man canoes and rafts.
+~
+E
+plains~
+The plains are primarily grasslands, interrupted here and there by thickets of
+small trees.  Ringing the plains and the city is a large forest, known as the
+Haon'dor.
+~
+S
+#99999
+$~

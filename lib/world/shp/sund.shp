@@ -1,0 +1,356 @@
+#5001~
+5078
+5077
+5076
+5075
+-1
+1.2
+0.2
+-1
+%s Don't got none, don't want none!~
+%s You don't seem to have one of those.~
+%s I don't want anything of yours.~
+%s Too rich for my blood!~
+%s You're too stinking poor to afford it.~
+%s That'll be %d coins and your firstborn child please!~
+%s I don't buy.~
+2
+2
+5048
+0
+5042
+-1
+0
+28
+0
+0
+#5021~
+5023
+5021
+5020
+5019
+5018
+5017
+5016
+5015
+-1
+1.2
+0.2
+-1
+%s I never palmed that thing, try list.~
+%s That seems to be absent from your belongings.~
+%s I don't buy, I accept charity. Fork it over!~
+%s How about if I just steal it instead?~
+%s You beggar! You can't afford that.~
+%s Here ye go, pal. That'll be %d coins.~
+%s I don't buy.~
+2
+1
+5021
+1
+5021
+-1
+0
+28
+0
+0
+#5134~
+5093
+5092
+5091
+5080
+-1
+1.2
+0.2
+12
+-1
+%s I don't carry that.~
+%s Even if you had one of those, I doubt I would want it.~
+%s I don't need to buy those - I'm a witch! Muaha!~
+%s I'd buy it, but I just fed my dragon and am broke!~
+%s You'll need more gold than that!~
+%s Good choice, my pretty! %d coins please.~
+%s Ahh! Just the thing I needed. Have %d coins.~
+2
+2
+5027
+0
+5134
+-1
+0
+28
+0
+0
+#5048~
+5029
+5028
+5027
+5026
+5024
+5025
+5022
+-1
+1.2
+0.4
+-1
+%s You'll have to make that yourself, never heard of it.~
+%s You don't seem to have one.~
+%s Be on your way loafer, I don't buy.~
+%s Not for those prices.~
+%s You can't afford my hearty drink and meals!~
+%s A solid %d coins down on the bar, friend.~
+%s I don't buy.~
+2
+1
+5020
+0
+5048
+-1
+0
+28
+0
+0
+#5050~
+5033
+5117
+-1
+1.2
+0.5
+-1
+%s None of those here! Try list.~
+%s I don't buy!~
+%s I'd rather eat half-cooked chihuahua for a month than buy that.~
+%s I don't buy.~
+%s You cannot afford this.~
+%s The bill is %d coins.~
+%s I don't buy.~
+2
+2
+5031
+0
+5050
+-1
+0
+28
+0
+0
+#5053~
+5032
+5031
+5030
+-1
+1.2
+0.2
+-1
+%s Yo! Um, we don't sell that.~
+%s We don't buy, and you have none. I see a problem there.~
+%s I don't want for anything. Be on your way, peddler.~
+%s Not buying none, nope.~
+%s You haven't enough gold for it.~
+%s That'll be %d coins.~
+%s I'm not interested.~
+2
+2
+5028
+0
+5053
+-1
+0
+28
+0
+0
+#5046~
+5042
+5041
+5040
+5039
+-1
+1.2
+0.2
+5
+-1
+%s I do not forge that weapon, try list.~ 
+%s You seem fresh out of those.~
+%s My art is purely offensive. Try somewhere else.~
+%s Ah! I haven't seen the like of that in years! I cannot afford it.~
+%s You haven't the means to pay for this.~
+%s A fine selection for %d coins.~
+%s Here you are, %d coins. Now be off.~
+2
+2
+5033
+0
+5046
+-1
+0
+28
+0
+0
+#5047~
+5067
+5066
+5065
+5064
+5063
+-1
+1.2
+0.2
+9
+-1
+%s I don't carry that.~
+%s Hm. Smoke another one and check your inventory.~
+%s I'm not interested in such things.~
+%s The price for that is outrageous! Away with you.~
+%s That seems to be out of your price range.~
+%s That comes to %d coins. Enjoy.~
+%s I'll give you %d coins for that.~
+2
+2
+5032
+0
+5047
+-1
+0
+28
+0
+0
+#5159~
+5062
+5061
+5060
+5059
+5058
+5057
+5056
+-1
+1.0
+1.0
+8
+-1
+%s None of those available.~
+%s You seem to lack one of those yourself.~
+%s I deal in gems only.~
+%s I cannot afford this precious thing you carry.~
+%s You have not the gold to buy this.~
+%s That will be %d coins.~
+%s You'll have %d coins for it.~
+2
+2
+5026
+0
+5159
+-1
+0
+28
+0
+0
+#5011~
+5108
+-1
+1.2
+0.2
+-1
+%s I don't sell any of those!~
+%s Nothing is refundable, have a nice day.~
+%s Nothing is refundable, have a nice day.~
+%s Nothing is refundable, have a nice day.~
+%s Go buy something you can afford.~
+%s That comes to %d coins. Now get lost! Heheh.~
+%s I don't buy.~
+2
+2
+5023
+0
+5181
+-1
+0
+28
+0
+0
+#5011~
+5108
+5122
+5123
+-1
+1.2
+0.1
+10
+-1
+%s Do I carry that? Try list.~
+%s You don't seem to have that.~
+%s My specialty is elixirs. Try another shop.~
+%s I cannot afford to purchase such a treasure.~
+%s This potion is too expensive for you.~
+%s That'll be %d coins.~
+%s I'll give you %d coins for that!~
+2
+2
+5029
+0
+5011
+-1
+0
+28
+0
+0
+#5012~
+5109
+5124
+-1
+1.2
+0.1
+2
+3
+4
+-1
+%s I offer no such thing! Try list.~
+%s You lack the item in question.~
+%s I buy the tools of magicians only.~
+%s The price of this is beyond my means.~
+%s You can't afford to purchase this!~
+%s %d coins, thank you.~
+%s You'll have %d coins for that.~
+2
+2
+5030
+0
+5012
+-1
+0
+28
+0
+0
+#5182~
+5068
+5038
+5037
+5036
+5035
+5034
+-1
+1.2
+0.2
+15
+16
+17
+21
+-1
+%s I don't carry those in stock. Try list.~
+%s My eyesight is poor, but I can't see as you have one.~
+%s I don't buy those. Try another shop!~
+%s My store is too humble to afford this.~
+%s I don't accept down payments. Come back with more gold!~
+%s That comes to %d coins.~
+%s I'll give you %d coins for that.~
+2
+2
+5034
+0
+5182
+-1
+0
+28
+0
+0
+$~
+

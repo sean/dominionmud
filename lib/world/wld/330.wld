@@ -1,0 +1,986 @@
+#33000
+This is the beginning of the soon to be Black Labyrnth~
+   The Black Labyrnth is an idea of mine, Malachi. It is to be a very
+intriguing maze that was built some time ago by a long since forgotten race,
+called the Sliths (go figure). This race of half dragon, half man is the
+sister race of the Sessanathis. Here is what I plan for this maze:
+It will be divided primarily into 4 areas. Each of the four areas are to
+be connected by a 'carousel' room. This central room will have 4 exits,
+and each exit will be random as to which part of the maze you end up in.
+In other words, the exits will never lead you to the same room two times
+in a row. The key to finishing the maze is to find 3 jewels which will
+unlock a treasure room at the end of the maze. This treasure room will
+contain an Ivory horn which will bless the finder in certain ways, that
+are yet to be determined. The other big key to this maze, is that, coding
+permitting, it will randomly move it's entrance thorughtout the world,
+with each rising of the sun. Thus, it will be very difficult to find.
+~
+330 0 0
+D0
+~
+~
+0 0 33001
+S
+#33001
+Black Labyrnth~
+   The jewels, or keys, to finishing this maze will also be special in nature.
+They will be non-rent items and will also detiorate with age, or something
+like that, I've yet to figure out how we will implement this. 
+   I would appreciate hearing any comments about my concept of this maze
+that you all may have. Ohh, one other thing about this maze, is that it
+will have very few mobs, and almost no food or water to be found in it.
+Therefore the adventurers will have to be well equiped to journey into
+the maze. My main goal of this area is to create a quest type area,
+and one that will promote team work to finish. I also plan to edit
+or coding permitting, make this maze change shapes from time to time.
+Thus, it will always be an adventure for the travelers, and never the
+same place twice, making it even more so difficult to complete.
+~
+330 0 0
+D0
+~
+~
+0 0 8
+D2
+~
+~
+0 0 33000
+D5
+~
+~
+0 0 33002
+S
+#33002
+The Carousel Room~
+   You are standing in the middle of a large, round room. Its ceiling is out
+of the reach of your eyes. The wall of the room is painted entirely black.
+The only light in the room is coming from that which you provide. There are
+four exits, and each one looks the same. As you move about the room, the
+floor beneath you seems to shift.
+~
+330 fgh 0
+D0
+~
+~
+0 0 33010
+D1
+~
+~
+0 0 33035
+D2
+~
+~
+0 0 33000
+D3
+~
+~
+0 0 33000
+D4
+~
+~
+0 0 33001
+S
+#33010
+Foyer of the Red Labyrinth~
+   You are standing in a magnificently built room. The walls and floor are
+covered with red marble which is polished to a beautifull finish, one that
+you can see your reflection in quite well. Two exits lead into the maze,
+one to the north, the other to the east. To the south is the carousel room.
+A small plaque is tacked to the western wall.
+~
+330 dg 3
+D0
+~
+~
+0 0 33012
+D1
+~
+~
+0 0 33011
+D2
+~
+~
+0 0 33002
+E
+plaque~
+WARNING!!!!!
+Be warned that to complete this trial will require great preparation.
+~
+E
+marble wall floor~
+As you stare into the marble you see a strikingly familiar face.
+~
+S
+#33011
+The Red Labyrinth~
+   Yet another room clad in red marble. The ceiling is red, so is the floor,
+and the walls as well. There is a small amount of red dust on the floor,
+but not enough to cover the marble completely. Passages leave the room
+to the east and west.
+~
+330 dg 3
+D1
+~
+~
+0 0 33014
+D3
+~
+~
+0 0 33010
+S
+#33012
+The Red Labyrinth~
+   Look, the floor is red, the walls are red, hell, even the ciling is red.
+Now, get your belongings and get the fuck out of my red room!!!
+    The Management
+~
+330 dg 3
+D0
+~
+~
+0 0 33013
+D2
+~
+~
+0 0 33010
+S
+#33013
+The Red Labyrinth~
+   Red marble covers the ceiling and walls and a light coating of red sand
+covers the red marble floor. Tracks lead in all directions in the sand. Noises
+come from all the passageways, giving you a rather uncomfortable feeling.
+~
+330 dg 3
+D1
+~
+~
+0 0 33016
+D2
+~
+~
+0 0 33012
+D3
+~
+~
+0 0 33015
+S
+#33014
+The Red Labyrinth~
+   This room is trully very much like all the other rooms in this place.
+It has the usual red floor and all. The only unique feature of the room
+is a small hole in the southern wall. You may continue to the east or to
+the west.
+~
+330 dg 3
+D1
+~
+~
+0 0 33011
+D3
+~
+~
+0 0 33011
+D4
+~
+~
+0 0 33015
+E
+hole~
+ As you press your eye socket up to the hole to get to see what is behind
+it, you are violently shot in the eye with water. What, did you think
+there was actually something in here???
+~
+S
+#33015
+The Red Labyrinth~
+   This particular room is litered with debris. There are many tracks that
+go every which way in the red sand beneath your feet. The walls and ceiling
+are again a very shiny red marble. Three passages exit the room, the most
+notable one is to your east.
+~
+330 egrs 3
+S
+#33016
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D1
+~
+~
+0 0 33017
+D3
+~
+~
+0 0 33015
+D5
+~
+~
+0 0 33012
+S
+#33017
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D0
+~
+~
+0 0 33018
+D3
+~
+~
+0 0 33016
+D5
+~
+~
+0 0 33014
+S
+#33018
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D0
+~
+~
+0 0 33019
+D1
+~
+~
+0 0 33018
+D2
+~
+~
+0 0 33017
+D3
+~
+~
+0 0 33013
+S
+#33019
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D0
+~
+~
+0 0 33020
+D1
+~
+~
+0 0 33014
+D2
+~
+~
+0 0 33018
+S
+#33020
+The Red Labyrinth~
+ahh, fuck off
+~
+330 dg 3
+D0
+~
+~
+0 0 33021
+D2
+~
+~
+0 0 33015
+D3
+~
+~
+0 0 33025
+S
+#33021
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D2
+~
+~
+0 0 33020
+D3
+~
+~
+0 0 33022
+S
+#33022
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D0
+~
+~
+0 0 33026
+D1
+~
+~
+0 0 33021
+D2
+~
+~
+0 0 33024
+D3
+~
+~
+0 0 33023
+D5
+~
+~
+0 0 33017
+S
+#33023
+The Red Labyrinth~
+i   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D0
+~
+~
+0 0 33026
+D1
+~
+~
+0 0 33022
+D2
+~
+~
+0 0 33025
+D3
+~
+~
+0 0 33024
+S
+#33024
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D0
+~
+~
+0 0 33022
+D1
+~
+~
+0 0 33025
+D3
+~
+~
+0 0 33023
+S
+#33025
+The Red Labyrinth~
+   This room is very much like every other room in this hell-looking cavern.
+The floor, ceiling and walls are covered with red marble, and as usual,
+small traces of red dust cover the floor. Your sense of direction is highly
+confused at this point as every room looks the same to you. Exits leave
+in several directions.
+~
+330 dg 3
+D0
+~
+~
+0 0 33023
+D1
+~
+~
+0 0 33020
+D3
+~
+~
+0 0 33024
+S
+#33026
+The Red Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33022
+D1
+~
+~
+0 0 33023
+D2
+~
+~
+0 0 33028
+D3
+~
+~
+0 0 33027
+S
+#33027
+The Red Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D1
+~
+~
+0 0 33026
+D2
+~
+~
+0 0 33028
+D3
+~
+~
+0 0 33015
+S
+#33028
+The Red Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33027
+D1
+~
+~
+0 0 33026
+D2
+~
+~
+0 0 33029
+D3
+~
+~
+0 0 33029
+S
+#33029
+The Red Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33028
+D1
+~
+~
+0 0 33033
+D2
+~
+~
+0 0 33030
+D3
+~
+~
+0 0 33028
+S
+#33030
+33030~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33029
+D1
+~
+~
+0 0 33031
+D2
+~
+~
+0 0 33015
+S
+#33031
+The Red Labyrinth~
+   This room is a little different than others you've been in lately. Its
+walls are not quite as bright as the other rooms, though they are still
+red. And the dust that you have seen all over the place doesnt seem
+to be strown around this room. Exits lead to the south, west & east.
+~
+330 dg 3
+D1
+~
+~
+0 0 33033
+D2
+~
+~
+0 0 33032
+D3
+~
+~
+0 0 33030
+S
+#33032
+The Chamber of Color~
+  You now find yourself inside a room that glows with many colors, but as
+to where they come from, you are not quite sure. Each color seems to come
+and go, with the next one taking dominance over the first one. The most
+striking feature to this room however is the floor. It is slated with red
+marble, just like in the beginning of this maze. And no matter which color
+seems to be dominating the room, the floor seems to stay a consistent
+blood red. A small plaque hangs on the wall above a small vase.
+~
+330 dg 3
+D0
+~
+~
+0 0 33031
+E
+plaque~
+You have made your way here,
+   but yet you are still not near,
+      the final goal still awaits,
+         the one who does not hesitate.
+~
+S
+#33033
+The Red Labyrinth~
+  It is quite apparent that the walls and floor around you has changed since
+you first entered this crazy place. Here you find that you are walking on
+red slate. And the walls are a blood red canvas. It gives you quite an erie
+feeling to be here. Exits lead to the north, south and east.
+~
+330 dg 3
+D0
+~
+~
+0 0 33029
+D1
+~
+~
+0 0 33034
+D2
+~
+~
+0 0 33034
+D3
+~
+~
+0 0 33031
+S
+#33034
+The Red Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D2
+~
+~
+0 0 33033
+D3
+~
+~
+0 0 33033
+D4
+~
+~
+0 0 33020
+S
+#33035
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33038
+D2
+~
+~
+0 0 33002
+S
+#33036
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33040
+D1
+~
+~
+0 0 33041
+D2
+~
+~
+0 0 33037
+D3
+~
+~
+0 0 33050
+D5
+~
+~
+0 0 33048
+S
+#33037
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33036
+S
+#33038
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33044
+D1
+~
+~
+0 0 33047
+D2
+~
+~
+0 0 33035
+D3
+~
+~
+0 0 33043
+S
+#33039
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33041
+D1
+~
+~
+0 0 33041
+D2
+~
+~
+0 0 33047
+D3
+~
+~
+0 0 33046
+S
+#33040
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33042
+D1
+~
+~
+0 0 33044
+D2
+~
+~
+0 0 33044
+D5
+~
+~
+0 0 33043
+S
+#33041
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33048
+D1
+~
+~
+0 0 33039
+D2
+~
+~
+0 0 33039
+D3
+~
+~
+0 0 33045
+D4
+~
+~
+0 0 33047
+S
+#33042
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D1
+~
+~
+0 0 33050
+D2
+~
+~
+0 0 33054
+D3
+~
+~
+0 0 33040
+D4
+~
+~
+0 0 33043
+S
+#33043
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33054
+D1
+~
+~
+0 0 33038
+D2
+~
+~
+0 0 33047
+D4
+~
+~
+0 0 33040
+S
+#33044
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33040
+D1
+~
+~
+0 0 33055
+D2
+~
+~
+0 0 33043
+D3
+~
+~
+0 0 33040
+S
+#33045
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33048
+D1
+~
+~
+0 0 33041
+D2
+~
+~
+0 0 33046
+D3
+~
+~
+0 0 33051
+S
+#33046
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33045
+D1
+~
+~
+0 0 33041
+D2
+~
+~
+0 0 33039
+D3
+~
+~
+0 0 33053
+D5
+~
+~
+0 0 33038
+S
+#33047
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33053
+D1
+~
+~
+0 0 33039
+D2
+~
+~
+0 0 33043
+D3
+~
+~
+0 0 33038
+S
+#33048
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+S
+#33049
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+S
+#33050
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+S
+#33051
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+S
+#33052
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+S
+#33053
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33052
+D1
+~
+~
+0 0 33047
+D2
+~
+~
+0 0 33054
+D3
+~
+~
+0 0 33054
+D4
+~
+~
+0 0 33055
+S
+#33054
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+D0
+~
+~
+0 0 33055
+D1
+~
+~
+0 0 33053
+D2
+~
+~
+0 0 33053
+D3
+~
+~
+0 0 33043
+D4
+~
+~
+0 0 33052
+S
+#33055
+The Green Labyrinth~
+You are in an unfinished room.
+~
+330 dg 3
+S
+$~

@@ -1,0 +1,266 @@
+#212
+Troglodyte Caves~
+Romulus~
+LOW~
+3039 1
+21268 30 1
+* Builder  Romulus
+O 0 21138 1 21202    ; the small cart
+P 1 21139 1 21138    ; broken sword
+D 0 21208 1 1        ; Close it from the other side
+M 0 21109 3 21207    ; The large troglodyte
+E 1 3040 100 5       ; a breast plate
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 3076 100 6       ; a leather cap
+E 1 3086 100 10      ; a pair of leather sleeves
+E 1 5403 100 16      ; a morningstar
+M 0 21109 3 21207    ; The large troglodyte
+E 1 3041 100 5       ; a chain mail shirt
+E 1 3075 100 6       ; a bronze helmet
+E 1 5433 100 11      ; a leather shieldxe
+E 1 3022 100 16      ; a long sword
+M 0 21109 3 21207    ; The large troglodyte
+E 1 3044 100 5       ; a studded leather jacket
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 3042 100 11      ; a shield
+E 1 5408 100 16      ; a fauchard
+M 0 21110 2 21207    ; The troglodyte lieutenant
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 5412 100 16      ; a two-handed bastard sword
+M 0 21119 4 21211    ; The troglodyte clansman
+E 1 3045 100 5       ; a scale mail jacket
+E 1 5431 100 7       ; a pair of studded leather pants
+E 1 5430 100 10      ; a pair of studded leather sleeves
+E 1 3042 100 11      ; a shield
+M 0 21119 4 21213    ; The troglodyte clansman
+E 1 3041 100 5       ; a chain mail shirt
+E 1 3075 100 6       ; a bronze helmet
+E 1 3086 100 10      ; a pair of leather sleeves
+E 1 3042 100 11      ; a shield
+M 0 21120 3 21218    ; The tunnel rat
+M 0 21120 3 21220    ; The tunnel rat
+M 0 21111 2 21220    ; the cave spider
+M 0 21111 2 21220    ; the cave spider
+O 0 21100 1 21220    ; The sticky spider web
+P 1 21102 1 21100    ; The corpse of an elven adventurer
+P 1 5100 35 21102    ; A commoner's longsword
+P 1 7915 1 21102     ; some leg plates
+P 1 21101 1 21100    ; The drained troglodyte corpse
+P 1 5405 2 21101     ; a bardiche
+P 1 3086 7 21101     ; a pair of leather sleeves
+P 1 3080 13 21101    ; a pair of bronze leggings
+P 1 3040 35 21101    ; a breast plate
+P 1 6111 35 21101    ; a large round shield
+M 0 21113 1 21221    ; The evil troglodyte
+M 0 21114 12 21222   ; the troglodyte guard
+E 1 5417 100 5       ; a suit of field plate
+E 1 3076 100 6       ; a leather cap
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 5406 100 16      ; a bec de corbine
+M 0 21114 12 21222   ; the troglodyte guard
+E 1 5416 100 5       ; a suit of brigandine
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 3042 100 11      ; a shield
+M 0 21114 12 21222   ; the troglodyte guard
+E 1 3040 100 5       ; a breast plate
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 3022 100 16      ; a long sword
+M 0 21119 4 21223    ; The troglodyte clansman
+E 1 5415 100 5       ; a suit of banded mail
+E 1 3080 100 7       ; a pair of bronze leggings
+E 1 3042 100 11      ; a shield
+E 1 3022 100 16      ; a long sword
+M 0 21114 12 21223   ; the troglodyte guard
+E 1 5415 100 5       ; a suit of banded mail
+E 1 3080 100 7       ; a pair of bronze leggings
+E 1 3042 100 11      ; a shield
+E 1 3022 100 16      ; a long sword
+M 0 21114 12 21223   ; the troglodyte guard
+E 1 3041 100 5       ; a chain mail shirt
+E 1 3086 100 10      ; a pair of leather sleeves
+E 1 5421 100 11      ; a splinted shield
+E 1 5404 100 16      ; an awl-pike
+M 0 21114 12 21223   ; the troglodyte guard
+E 1 3041 100 5       ; a chain mail shirt
+E 1 3075 100 6       ; a bronze helmet
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3042 100 11      ; a shield
+E 1 3022 100 16      ; a long sword
+M 0 21115 2 21224    ; The adolescent troglodyte
+M 0 21115 2 21224    ; The adolescent troglodyte
+M 0 21117 1 21225    ; The troglodyte battlemaster
+E 1 15807 100 6      ; spiked helm
+E 1 3046 100 5	     ; bronze plate
+E 1 6111 100 11      ; shield
+M 0 21116 3 21225    ; The adolescent troglodyte
+M 0 21116 3 21225    ; The adolescent troglodyte
+M 0 21116 3 21225    ; The adolescent troglodyte
+E 1 3043 100 5       ; a leather jacket
+E 1 3076 100 6       ; a leather cap
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3022 100 16      ; a long sword
+M 0 21121 1 21226    ; The troglodyte cook
+E 1 21110 100 5      ; the cook's apron
+O 0 21111 1 21226    ; a huge black iron pot
+P 1 21112 1 21111    ; some murky brown liquid
+M 0 21114 12 21227   ; the troglodyte guard
+E 1 3044 100 5       ; a studded leather jacket
+E 1 5422 100 11      ; a buckler
+E 1 3025 100 16      ; A battle axe
+M 0 21114 12 21227   ; the troglodyte guard
+E 1 5419 100 5       ; a suit of splintmail
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3042 100 11      ; a shield
+E 1 21109 5 16       ; a strong mahogany bow
+M 0 21114 12 21227   ; the troglodyte guard
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 3040 100 5       ; a breast plate
+E 1 3080 100 7       ; a pair of bronze leggings
+M 0 21120 3 21230    ; The tunnel rat
+M 0 21119 4 21240    ; The troglodyte clansman
+E 1 3044 100 5       ; a studded leather jacket
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 3042 100 11      ; a shield
+M 0 21118 18 21240   ; The troglodyte clansman
+E 1 3041 100 5       ; a chain mail shirt
+E 1 3086 100 10      ; a pair of leather sleeves
+E 1 5421 100 11      ; a splinted shield
+M 0 21118 18 21241   ; The troglodyte clansman
+E 1 5417 100 5       ; a suit of field plate
+E 1 3075 100 6       ; a bronze helmet
+E 1 6111 100 11	     ; a large round shield
+M 0 21118 18 21241   ; The troglodyte clansman
+E 1 5416 100 5       ; a suit of brigandine
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 3042 100 11      ; a shield
+E 1 2557 100 16      ; a silvery dagger
+M 0 21118 18 21241   ; The troglodyte clansman
+E 1 3043 100 5       ; a leather jacket
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3021 100 16      ; a small sword
+M 0 21118 18 21241   ; The troglodyte clansman
+E 1 3043 100 5       ; a leather jacket
+E 1 3042 100 11      ; a shield
+E 1 5410 100 16      ; a guisarme
+M 0 21118 18 21241   ; The troglodyte clansman
+E 1 3040 100 5       ; a breast plate
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 3025 100 16      ; A battle axe
+M 0 21118 18 21241   ; The troglodyte clansman
+E 1 3043 100 5       ; a leather jacket
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 3076 100 6       ; a leather cap
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3080 100 10      ; a pair of bronze leggings
+E 1 5409 100 16      ; a glaive
+M 0 21118 18 21241   ; The troglodyte clansman
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 3043 100 5       ; a leather jacket
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3022 100 16      ; a long sword
+M 0 21125 6 21242    ; the troglodyte clanswoman
+M 0 21128 5 21242    ; the young troglodyte
+M 0 21128 5 21242    ; the young troglodyte
+M 0 21125 6 21242    ; the troglodyte clanswoman
+M 0 21125 6 21242    ; the troglodyte clanswoman
+M 0 21125 6 21242    ; the troglodyte clanswoman
+M 0 21125 6 21242    ; the troglodyte clanswoman
+M 0 21125 6 21242    ; the troglodyte clanswoman
+M 0 21118 18 21242   ; The troglodyte clansman
+E 1 3043 100 5       ; a leather jacket
+E 1 3076 100 6       ; a leather cap
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3080 100 10      ; a pair of bronze leggings
+E 1 3042 100 11      ; a shield
+E 1 3022 100 16      ; a long sword
+M 0 21126 2 21243    ; the troglodyte matron
+M 0 21126 2 21243    ; the troglodyte matron
+M 0 21129 2 21243    ; the infant troglodyte
+M 0 21129 2 21243    ; the infant troglodyte
+M 0 21128 5 21243    ; the young troglodyte
+M 0 21128 5 21243    ; the young troglodyte
+M 0 21128 5 21243    ; the young troglodyte
+M 0 21114 12 21244   ; the troglodyte guard
+E 1 3040 100 5       ; a breast plate
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 3080 100 7       ; a pair of bronze leggings
+M 0 21114 12 21244   ; the troglodyte guard
+E 1 3041 100 5       ; a chain mail shirt
+E 1 3086 100 10      ; a pair of leather sleeves
+E 1 5421 100 11      ; a splinted shield
+E 1 5414 100 16      ; a rapier
+M 0 21114 12 21244   ; the troglodyte guard
+E 1 5415 100 5       ; a suit of banded mail
+E 1 3080 100 7       ; a pair of bronze leggings
+E 1 3042 100 11      ; a shield
+E 1 3022 100 16      ; a long sword
+M 0 21127 4 21245    ; the troglodyte clanswoman
+M 0 21127 4 21245    ; the troglodyte clanswoman
+M 0 21127 4 21245    ; the troglodyte clanswoman
+M 0 21127 4 21245    ; the troglodyte clanswoman
+M 0 21145 3 21246    ; The troglodyte clansman
+E 1 5415 100 5       ; a suit of banded mail
+E 1 3080 100 7       ; a pair of bronze leggings
+E 1 3042 100 11      ; a shield
+*E 1 6204 100 16      ; a Short sword of Speed
+M 0 21145 3 21246    ; The troglodyte clansman
+E 1 5415 100 5       ; a suit of banded mail
+E 1 3080 100 7       ; a pair of bronze leggings
+E 1 3042 100 11      ; a shield
+M 0 21145 18 21246   ; The troglodyte clansman
+E 1 3043 100 5       ; a leather jacket
+E 1 3076 100 6       ; a leather cap
+E 1 3081 100 7       ; a pair of leather pants
+E 1 3080 100 10      ; a pair of bronze leggings
+E 1 3042 100 11      ; a shield
+M 0 21118 3 21247    ; The troglodyte clansman
+E 1 3046 100 5       ; a bronze breast plate
+E 1 3075 100 6       ; a bronze helmet
+E 1 6111 100 11      ; large rouhnd shield
+M 0 21118 18 21247   ; The troglodyte clansman
+E 1 3043 100 5       ; a leather jacket
+E 1 3076 100 6       ; a leather cap
+E 1 3081 100 7       ; a pair of leather pants
+M 0 21118 18 21247   ; The troglodyte clansman
+E 1 3043 100 5       ; a leather jacket
+E 1 3076 100 6       ; a leather cap
+E 1 3081 100 7       ; a pair of leather pants
+M 0 21118 18 21248   ; The troglodyte clansman
+E 1 3046 100 5       ; a bronze breast plate
+E 1 3075 100 6       ; a bronze helmet
+M 0 21118 18 21248   ; The troglodyte clansman
+E 1 3085 100 10      ; a pair of bronze sleeves
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 5412 100 16      ; a two-handed bastard sword
+M 0 21118 18 21248   ; The troglodyte clansman
+E 1 3041 100 5       ; a chain mail shirt
+E 1 3086 100 10      ; a pair of leather sleeves
+E 1 5421 100 11      ; a splinted shield
+M 0 21110 2 21248    ; The troglodyte lieutenant
+E 1 5416 100 5       ; a suit of brigandine
+E 1 5101 100 16      ; A noble's longsword
+M 0 21144 3 21249    ; The troglodyte lieutenant
+E 1 3040 100 5       ; breast plate
+E 1 5100 100 16      ; A commoner's longsword
+M 0 21144 3 21249    ; The troglodyte lieutenant
+E 1 5417 100 5       ; a suit of field plate
+E 1 6504 100 16      ; dwarvish hammer
+M 0 21144 3 21249    ; The troglodyte lieutenant
+E 1 5416 100 5       ; a suit of brigandine
+M 0 21123 1 21249    ; The troglodyte chief
+E 1 2584 100 14      ; silver bracelet
+E 1 18256 100 11     ; blue tinted iron shield
+E 1 21143 100 17     ; finger bone
+E 1 5106 111 16      ; five headed whip
+M 0 21122 1 21250    ; The troglodyte shaman
+E 1 7201 100 16      ; large mace
+O 0 21142 1 21250    ; camo trophy case
+P 1 21113 3 21142    ; the shield
+P 1 21115 3 21142    ; fisher skull
+P 1 21116 3 21142    ; crystal sphere
+P 1 21141 3 21142    ; helmet
+M 0 21137 3 21257    ; yeti
+S
+#99999
+$~

@@ -1,0 +1,2776 @@
+#32800
+The pool~
+   You are standing in a small mirror like pool.  Stone walls surround
+you and the shallow water beneath you shimmers slightly with your steps.
+A ghostly light shines through a perfect circular hole in the ceiling of 
+the passageway.
+~
+328 a 5
+D1
+~
+~
+0 -1 32801
+E
+pool~
+   Within the pool you see your reflection.  At the bottom of the pool
+you see a strange glint of light suddenly shine through the darkness.
+Examining further it looks to be some sort of amulet.
+~
+S
+#32801
+The dark passage~
+   Your footsteps echo loudly down the stone passage creating the only 
+sound probably that has dwelled within this passage for centuries.  To
+the east and west the passage continues through the darkness.
+~
+328 0 5
+D1
+~
+~
+0 -1 32802
+D3
+~
+~
+0 -1 32800
+S
+#32802
+The dark passage~
+   Your footsteps echo loudly down the stone passage creating the only 
+sound probably that has dwelled within this passage for centuries.  To
+the east and west the passage continues through the darkness.
+~
+328 0 5
+D1
+~
+~
+0 -1 32803
+D3
+~
+~
+0 -1 32801
+S
+#32803
+The dark passage~
+   Your footsteps echo loudly down the stone passage creating the only 
+sound probably that has dwelled within this passage for centuries.  To
+the east and west the passage continues through the darkness.
+~
+328 0 5
+D1
+~
+~
+0 -1 32804
+D3
+~
+~
+0 -1 32802
+S
+#32804
+The dark passage~
+   The walls and ceiling of the passage are made entirely of stone.  There
+is no light to guide you through the darkness.  You hear the clomping
+of your footfalls echo loudly, disturbing the strange peace of the passage.
+You may continue travelling east or west.
+~
+328 0 5
+D1
+~
+~
+0 -1 32805
+D3
+~
+~
+0 -1 32803
+S
+#32805
+The dark passage~
+   The walls and ceiling of the passage are made entirely of stone.  There
+is no light to guide you through the darkness.  You hear the clomping
+of your footfalls echo loudly, disturbing the strange peace of the passage.
+You may continue travelling east or west.
+~
+328 0 5
+D1
+~
+~
+0 -1 32806
+D3
+~
+~
+0 -1 32804
+S
+#32806
+The stairs~
+   A set of stone stairs directly cut into the stone floor lead down
+from here in to darkness, however, you do sense fresh air coming from
+the stairway.  To the east, shadows stretch across the passageway creating
+darkness like you've never seen before.
+~
+328 0 5
+D3
+~
+~
+0 -1 32805
+D5
+~
+~
+0 -1 32813
+S
+#32807
+Turn in the path~
+   The path turns here leading east and south.  To the south, you see the
+path continue between the stronghold and the chasm.  To the east, there is
+a great 20 foot breach in the wall of the stronghold which stretches from
+ground to brim.  
+~
+328 0 2
+D1
+~
+~
+0 -1 32808
+D2
+~
+~
+0 -1 32814
+S
+#32808
+Entrance to the Stronghold~
+   The great stronghold looms high above, mist swirls about its walls like
+the gentle fingers of angels.  You see to the west the path turns avoiding
+plunging into the deadly chasm.  To the east and south hallways lead through
+darkness.
+~
+328 0 1
+D1
+~
+~
+0 -1 32809
+D2
+~
+~
+0 -1 32815
+D3
+~
+~
+0 -1 32807
+S
+#32809
+Hallway within the Stronghold~
+   You stand within the stronghold, between two towering walls that seem   
+to stretch limitlessly towards some ceiling on the edge of infinity.  The
+floor is made up of gray slabs fit together like a puzzle.
+~
+328 0 1
+D1
+~
+~
+0 -1 32810
+D3
+~
+~
+0 -1 32808
+S
+#32810
+The Hallway within the Stronghold~
+   The hallway branches off here leading towards a great set of stairs
+some ways down the hall.  The main hallway leads west and east from here.
+High above, the ceiling is barely visible.  Flickering torches line the
+walls of the stonghold.
+~
+328 0 1
+D1
+~
+~
+0 -1 32811
+D2
+~
+~
+0 -1 32817
+D3
+~
+~
+0 -1 32809
+S
+#32811
+Hallway within the Stronghold~
+   The hallway allows you to continue east and west.  To the west you
+notice the hallway branches off.  The floor of the hallway is made of
+gray slabs of stone fixed together like a puzzle.
+~
+328 0 1
+D1
+~
+~
+0 -1 32812
+D3
+~
+~
+0 -1 32810
+S
+#32812
+Corner of the Hallway~
+   The great hallway comes to a corner here, letting you continue to 
+the south as well as to the west.  The floor is made of cold gray slabs
+of stones.  The ceiling of the hallway is nearly invisible due to the
+extreme height.
+~
+328 0 1
+D2
+~
+~
+0 -1 32819
+D3
+~
+~
+0 -1 32811
+S
+#32813
+The stone stairs~
+   You are climbing a set of great stone stairs, cut directly it seems into
+a mountain.  It is quite dark inside the passage.
+~
+328 a 5
+D4
+~
+~
+0 -1 32806
+D5
+~
+~
+0 -1 32820
+S
+#32814
+Path around the Stronghold~
+   Just to the west of you is a great chasm with mist swirling about the
+darkness.  You wonder if the chasm is bottomless but know it would not
+be wise to attempt to find out for sure.  To the east stands a great 
+stronghold, its walls almost touching the sun in the sky.  The trail 
+continues to the north and south.
+~
+328 0 2
+D0
+~
+~
+0 -1 32807
+D2
+~
+~
+0 -1 32821
+S
+#32815
+The Great Hallway in the Stronghold~
+   The hallway stretches up seemingly forever to some unknown ceiling out
+of sight.  There is a wooden door standing to the east of you, dwarfed
+by the size of the walls about it.  To the north and south the hallway
+continues.
+~
+328 0 1
+D0
+~
+~
+0 -1 32808
+D1
+~
+~
+0 -1 32816
+D2
+~
+~
+0 -1 32822
+S
+#32816
+The library~
+   You are in a small library with books abounding the shelves along the
+walls.  The books have bindings of every color and most look to be centuries
+old.  To the west there is a doorway leading out of the library.
+~
+328 0 1
+D3
+~
+~
+0 -1 32815
+S
+#32817
+The hallway~
+   To the north is a much larger hallway within the stronghold.  To the
+south you see a set of stairs laid into where the southern wall of the
+hall should have been.  Torches line the grey walls, flickering lightly.
+~
+328 0 1
+D0
+~
+~
+0 -1 32810
+D4
+~
+~
+0 0 32824
+S
+#32818
+A map room~
+   A huge map of the entire Dominion surrounds you with markers showing the
+cities and their names.  The map is painted on every wall of the room.  To 
+the east is a doorway leading out of the map room.
+~
+328 0 1
+D1
+~
+~
+0 -1 32819
+E
+map wall walls~
+   There is something strange about the map.  It shows another land in the
+far northeast corner of the Dominion.  Examining closer reveals a picture 
+of an elderly looking figure conjuring what looks to be mirror atop a great
+pedestal of stones north of a mountain.  Below the figure is an inscription
+reading: "To summon the Gilarhon you must speak the words of the Amulet."
+You cannot get anymore information from the map.
+~
+S
+#32819
+The Hallway within the Stronghold~
+   You are standing between the great walls of the stronghold and a small
+wooden doorway to the west.  To the north and south the hallway continues.
+~
+328 0 1
+D0
+~
+~
+0 -1 32812
+D2
+~
+~
+0 -1 32826
+D3
+~
+~
+0 -1 32818
+S
+#32820
+The stone stairway~
+   Stones cut directly into the face of the passageway lead up and down
+through the darkness.
+~
+328 0 5
+D4
+~
+~
+0 -1 32813
+D5
+~
+~
+0 -1 32828
+S
+#32821
+Path around the Stronghold~
+   To the west of you lies a great chasm descending hundreds of meters into
+darkness and infinity.  Towering above you are the walls of a stronghold.
+You may continue north and south along the path.
+~
+328 0 2
+D0
+~
+~
+0 -1 32814
+D2
+~
+~
+0 -1 32829
+S
+#32822
+Hallway within the Stronghold~
+   The dimensions of the hallway are incredible.  High above you can barely
+see the ceiling of the stronghold.  The floor of the hallway is made up of
+grey slabs of stone fitted together like a puzzle.
+~
+328 0 1
+D0
+~
+~
+0 -1 32815
+D2
+~
+~
+0 -1 32830
+S
+#32823
+Room #32823~
+This description is yet unfinished...
+~
+328 0 1
+D3
+~
+~
+0 -1 32822
+S
+#32824
+The throne~
+   You stand before a great throne made of gold.  Flaming spheres fixed
+to the tops of two low pedestals illuminate the room.  A stairwell leads
+down from here in the southern part of the room.
+~
+328 0 1
+D5
+~
+~
+0 0 32817
+S
+#32825
+Room #32825~
+This description is yet unfinished...
+~
+328 0 1
+D1
+~
+~
+0 -1 32826
+S
+#32826
+Hallway within the Stronghold~
+   The dimensions of the hallway are incredible.  High above you can barely
+see the ceiling of the stronghold.  The floor of the hallway is made up of
+grey slabs of stone fitted together like a puzzle.
+~
+328 0 1
+D0
+~
+~
+0 -1 32819
+D2
+~
+~
+0 -1 32834
+S
+#32827
+Atop the Circle of Stones~
+   You are on top of the circle of stones.  There is an inscription etched
+into a white monolith in the center of the stones.
+~
+328 0 5
+D5
+~
+~
+0 -1 32849
+E
+inscription~
+   The inscription reads:
+
+   "As the Moriquendi passed on and the transformation of the Overseer 
+occured, a great land was created, torn between good and evil.  One half of 
+the land dwells in darkness, as that of the heart of the Overseer, one half 
+of the land dwells in light, as that of the Moriquendi.  It is said that 
+the hearts of the two Immortals are buried there.  
+    
+    A great warrior is destined to retrieve the hearts and combine them
+to form a ring which will unite evil and goodness in neutrality.  That
+warrior must bring the hearts here to unite them and bring peace.  Lo!
+There is a great force dwelling within the Dominion which will attempt to
+keep the two forces apart.  Only he that possesses true courage and a
+soul without turmoil may complete this quest."
+
+~
+S
+#32828
+The stone stairwell~
+   The stairs lead up and down from here.  Down you see rubble and another
+east-west leading path through mountainous territory.  Looking up, you see
+nothing but darkness and cold, hard stone.
+~
+328 0 5
+D4
+~
+~
+0 -1 32820
+D5
+~
+slab~
+1 -1 32841
+S
+#32829
+Path around the Stronghold~
+   Towering high above you are the walls of the stronghold.  There are
+no windows, archery slits, or any other markings upon the walls - only sheer
+granite.  Beside you to the west, lies a great chasm; a beast with its
+maw spread open wide waiting to dine on your bones.  To the north and south
+the path continues.
+~
+328 0 2
+D0
+~
+~
+0 -1 32821
+D2
+~
+~
+0 -1 32845
+S
+#32830
+Corner of the Hallway~
+   The southern and western hallways meet at the corner here.  High above
+is a ceiling, invisible to the eyes of even an elf.  Your footsteps echo
+loudly down the vast corridor.
+~
+328 0 1
+D0
+~
+~
+0 -1 32822
+D1
+~
+~
+0 -1 32831
+S
+#32831
+Hallway in the Stronghold~
+   The great hallway continues leading east and west.  To the west you 
+observe that the hallway comes to a corner with another.  
+~
+328 0 1
+D1
+~
+~
+0 -1 32832
+D3
+~
+~
+0 -1 32830
+S
+#32832
+Before the Silver Stairs~
+   Huge stairs made of silver lead up here from the southern wall.  The
+hallway however, continues east and west.  You hear your footsteps echo
+throughout the entire stronghold.
+~
+328 0 1
+D1
+~
+~
+0 -1 32833
+D3
+~
+~
+0 -1 32831
+D4
+~
+~
+1 -1 32847
+S
+#32833
+Hallway in the Stronghold~
+   The ceiling is nearly invisible because of the extreme height of the
+walls of the stronghold.  Torches flicker all about, well illuminating
+the corridor.  You may continue traveling east and west.
+~
+328 0 1
+D1
+~
+~
+0 -1 32834
+D3
+~
+~
+0 -1 32832
+S
+#32834
+Corner of the Hallway~
+   The southern and eastern hallways meet at the corner here.  High above
+is a ceiling, invisible to the eyes of even an elf.  Your footsteps echo
+loudly down the vast corridor.
+~
+328 0 1
+D0
+~
+~
+0 -1 32826
+D3
+~
+~
+0 -1 32833
+S
+#32835
+The Circle of Stones~
+   You stand at the northeast corner of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the circle 
+is a stone platform with stairs leading up the side.  
+~
+328 0 5
+D1
+~
+~
+0 -1 32836
+D2
+~
+~
+0 -1 32848
+S
+#32836
+The Circle of Stones~
+   You stand at the northern edge of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the 
+circle is a stone platform with stairs leading up the side.  
+~
+328 0 5
+D1
+~
+~
+0 -1 32837
+D2
+~
+~
+0 -1 32849
+D3
+~
+~
+0 -1 32835
+D4
+~
+~
+0 -1 32827
+S
+#32837
+The Circle of Stones~
+   You stand at the northwest corner of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the circle 
+is a stone platform with stairs leading up the side.  
+~
+328 0 5
+D2
+~
+~
+0 -1 32850
+D3
+~
+~
+0 -1 32836
+S
+#32838
+The mountain trail~
+   The trail leads sharply down from here to connect with another trail.
+To the east, you see the trail lead off between large slabs of jutted rock.
+Unidentifiable footprints can be seen in the pebbles of the trail.  No trees
+are observed upon, or anywhere near the mountain range.
+~
+328 0 5
+D1
+~
+~
+0 -1 32839
+D2
+~
+~
+0 -1 32851
+S
+#32839
+The mountain trail~
+   The trail continues between great slabs of rock that have jutted up 
+from the ground all about to the east and to the west.  A slight breeze
+blows at you from an unknown direction.
+~
+328 0 5
+D1
+~
+~
+0 -1 32840
+D3
+~
+~
+0 -1 32838
+D5
+~
+~
+0 -1 32852
+S
+#32840
+The mountain trail~
+   The trail leads between huge slabs of rock that have jutted up from the   
+ground all about at strange angles.  You can make your way with much effort
+east and west.
+~
+328 0 5
+D1
+~
+~
+0 -1 32841
+D3
+~
+~
+0 -1 32839
+S
+#32841
+The mountain trail~
+   Large slabs of rock have jutted up from the ground all about here.  They
+lean at strange angles, not obeying the laws of physics at all.  Another
+particularly large slab of stone stands just north of you.  The trail 
+continues east and west along the mountain ridge.
+~
+328 0 5
+D1
+~
+~
+0 -1 32842
+D3
+~
+~
+0 -1 32840
+D4
+~
+slab stone~
+1 -1 32828
+E
+slab stone~
+   After further examination of the huge slab of stone that has jutted up
+from the ground to the north, you spy a strange hole cut into the surface.
+~
+S
+#32842
+The mountain ridge~
+   The mountain trail continues east and west along the edge of a
+huge chasm just to the north.  Huge slabs of rock have jettisoned 
+themselves up from the bowels of the Dominion millenia ago and sit in
+strange positions on the surface.
+~
+328 0 5
+D1
+~
+~
+0 -1 32843
+D3
+~
+~
+0 -1 32841
+S
+#32843
+The mountain ridge~
+   The trail leads and west along the edge of a huge, deep chasm with
+swirling mists and winds belching forth from within.  Large slabs of stone
+have jutted up from beneath the surface and lie in impossible positions
+all about.
+~
+328 0 5
+D1
+~
+~
+0 -1 32844
+D3
+~
+~
+0 -1 32842
+S
+#32844
+Turn in the mountain trail~
+   The trail turns here avoiding the chasm to the north and east.  Mist
+swirls in the depths of the chasm making it impossible to see if there is
+a bottom to the chasm somewhere.  Off in the distance to the northeast
+sits a huge stronghold of some sort.
+~
+328 0 5
+D2
+~
+~
+0 -1 32854
+D3
+~
+~
+0 -1 32843
+S
+#32845
+The mountain trail~
+   Just north of you is the southwestern corner of the stronghold.  A trail
+leads between the edge of the chasm and the stronghold.  To the east the
+trail leads back away from the stronghold.
+~
+328 0 5
+D0
+~
+~
+0 -1 32829
+D1
+~
+~
+0 -1 32846
+S
+#32846
+Turn in the mountain trail~
+   Just north of you is the towering southern wall of the stronghold.  
+Even clouds do not reach higher than the walls of the stronghold and swirl
+mystically about it.  To the south the trail leads away from the stronghold
+and to the east the trail continues.
+~
+328 0 5
+D2
+~
+~
+0 -1 32856
+D3
+~
+~
+0 -1 32845
+S
+#32847
+The Tower~
+   The tower is very small and is circular shaped.  Light sneaks in through
+holes torn into the wooden roof by rain and extreme wind.  There is a window
+fitted into the southern wall of the tower.
+~
+328 0 1
+D5
+~
+~
+0 -1 32832
+E
+window~
+   You gaze out the window and see the vast mountain range below which
+stretches to all horizons that you can see.  You see a faint glimmer of
+silver light in the southernmost range right on the horizon.
+~
+S
+#32848
+The Circle of Stones~
+   You stand at the westernmost part of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the circle 
+is a stone platform with stairs leading up the side.  
+~
+328 0 5
+D0
+~
+~
+0 -1 32835
+D1
+~
+~
+0 -1 32849
+D2
+~
+~
+0 -1 32857
+S
+#32849
+Center of the Circle~
+   You stand upon a small stone platform in the center of the ring of 
+stones.  You feel mystical auras all about you as though this may have
+been a portal to the gods.  Their are steps built into the platform leading
+up to another level.  You may leave in any direction save down.
+~
+328 0 5
+D0
+~
+~
+0 -1 32836
+D1
+~
+~
+0 -1 32850
+D2
+~
+~
+0 -1 32858
+D3
+~
+~
+0 -1 32848
+D4
+~
+~
+0 -1 32827
+S
+#32850
+The Circle of Stones~
+   You stand at the eastern section of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the circle 
+is a stone platform with stairs leading up the side.  
+~
+328 0 5
+D0
+~
+~
+0 -1 32837
+D2
+~
+~
+0 -1 32859
+D3
+~
+~
+0 -1 32849
+S
+#32851
+The mountain trail~
+   The path leads north and down between two walls of huge slabs of stone.
+The slabs of stone are huge and look to be quite strong.  The trail leads
+sharply down from here in a southernly direction but you will have to do
+a bit of climbing in the process.
+~
+328 0 5
+D0
+~
+~
+0 -1 32838
+D5
+~
+~
+0 -1 32862
+S
+#32852
+Turn in the path~
+   You journey continues between great slabs of rock which have broken the
+surface of the earth by some great thrusting force.  You may pick your
+way between the great boulders both up a small ridge and to the east.
+~
+328 0 5
+D1
+~
+~
+0 -1 32853
+D4
+~
+~
+0 -1 32839
+S
+#32853
+Turn in the mountain path~
+   You take a moment to view your surroundings.  The trail continues
+in only two directions: up and down.  The mountain range is devoid of
+trees but great slabs of gray rock have been thrust up from the ground
+and make a stone jungle upon the mountain face.  You may continues down
+towards a lake to the south and west between two large boulders.
+~
+328 0 5
+D2
+~
+~
+0 -1 32863
+D3
+~
+~
+0 -1 32852
+S
+#32854
+Turn in the trail~
+   The trail turns here leading north towards the edge of the chasm
+up a huge pile of stony rubble.  Far off to the south you see a lake
+shimmering in the light. 
+~
+328 0 5
+D0
+~
+~
+0 -1 32844
+D4
+~
+~
+0 -1 32855
+S
+#32855
+The mountain ridge~
+   You are making your way slowly up the mountain.  You notice suddenly,
+upon a large outcropping of stone that a stronghold has been erected in
+a very strategic location.  A deep bottomless chasm to the west and south
+of it and nothing but the stone wasteland behind it in the north and east.
+The trail continues back down a large pile of rocks and also to the east.
+~
+328 0 5
+D1
+~
+~
+0 -1 32856
+D5
+~
+~
+0 -1 32854
+S
+#32856
+Intersection of trails~
+   Two trails meet here beside the deep chasm which now lies to the east.
+One trail leads off to the west and another leads north and south, towards
+and away from the stronghold, respectively.
+~
+328 0 5
+D0
+~
+~
+0 -1 32846
+D2
+~
+~
+0 -1 32868
+D3
+~
+~
+0 -1 32855
+S
+#32857
+The Circle of Stones~
+   You stand at the southwest corner of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the circle 
+is a stone platform with stairs leading up the side.  Stone steps lead down
+from here beside the southern-most stone.
+~
+328 0 5
+D0
+~
+~
+0 -1 32848
+D1
+~
+~
+0 -1 32858
+D5
+~
+~
+0 -1 32872
+S
+#32858
+The Circle of Stones~
+   You stand at the southern section of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the circle 
+is a stone platform with stairs leading up the side.  
+~
+328 0 5
+D0
+~
+~
+0 -1 32849
+D1
+~
+~
+0 -1 32859
+D3
+~
+~
+0 -1 32857
+S
+#32859
+Circle of Stones~
+   You stand at the southeast corner of a circle made of stones that tower 
+at a height of atleast 20 feet all around you.  In the center of the circle 
+is a stone platform with stairs leading up the side.  Stone steps lead down
+~
+328 0 5
+D0
+~
+~
+0 -1 32850
+D3
+~
+~
+0 -1 32858
+S
+#32860
+The mountain ridge~
+   The mountain is mainly decorated with pebbles, the result of many 
+landslides, and small foliage and moss growing upon the boulders.  There
+is a rock tower off to the west in the distance, unreachable from this
+vantage point.  You may continue across the ridge to the east and south.
+~
+328 0 5
+D1
+~
+~
+0 -1 32861
+D2
+~
+~
+0 -1 32875
+S
+#32861
+The mountain ridge~
+   The mountain is mainly decorated with pebbles, the result of many 
+landslides, and small foliage and moss growing upon the boulders.  You
+see in the distance to the southeast a glittering lake with a grassy
+beach surrounding it.  You may continue across the ridge to the east and 
+south.
+~
+328 0 5
+D1
+~
+~
+0 -1 32862
+D3
+~
+~
+0 -1 32860
+S
+#32862
+The mountain ridge~
+   The mountain is mainly decorated with pebbles, the result of many 
+landslides, and small foliage and moss growing upon the boulders.  There
+is a rock tower off to the west in the distance, unreachable from this
+vantage point.  You may continue across the ridge to the east and can
+also scale up a short ledge which stands to the north.
+~
+328 0 5
+D3
+~
+~
+0 -1 32861
+D4
+~
+~
+0 -1 32851
+S
+#32863
+Edge of the lake~
+   The waters of a small mirror-like lake wash gently up near you.  Stalks
+tall grass grow along the edge but the grass is shorter nearer to the wall
+of stone to the north.  There is a small path leading north into the mountain
+range and you may continue along the edge of the lake to the east and to the
+south.
+~
+328 0 1
+D0
+~
+~
+0 -1 32853
+D1
+~
+~
+0 -1 32864
+D2
+~
+~
+0 -1 32878
+S
+#32864
+Edge of the Lake~
+   The waters of the lake wash gently up towards you but do not quite
+make it so far and reluctantly recedes back.  A huge, towering wall of
+gray stone stands to the north.  A trail of green grass leads east and
+west between the lake and the mountain wall.
+~
+328 0 1
+D1
+~
+~
+0 -1 32865
+D2
+~
+~
+0 -1 32879
+D3
+~
+~
+0 -1 32863
+S
+#32865
+Edge of the Lake~
+   You stand at the edge of a crystaline lake, its waters gently rippling
+towards you then retreating contantly.  To the east and west you may
+continue through the green grass between the lake and a towering gray wall
+of stone.
+~
+328 0 1
+D1
+~
+~
+0 -1 32866
+D2
+~
+~
+0 -1 32880
+D3
+~
+~
+0 -1 32864
+S
+#32866
+Edge of the lake~
+   The waters of the crystal blue lake wash gently towards you then
+reluctantly recede.  A towering wall of sheer stone, impossible to scale
+with even the best gnomish equipment, stands to the north.  You may
+continue your journies to the east and west.
+~
+328 0 1
+D1
+~
+~
+0 -1 32867
+D2
+~
+~
+0 -1 32881
+D3
+~
+~
+0 -1 32865
+S
+#32867
+Edge of the Lake~
+   You stand at the northeastern corner of the blue lake.  The shadow of
+the mountain ridge passes over you and across the lake.  The grassy path
+around the lake continues south and west.
+~
+328 0 1
+D2
+~
+~
+0 -1 32882
+D3
+~
+~
+0 -1 32866
+S
+#32868
+The mountain ridge~
+   The trail leads off here to the south and north.  Slabs of giant pieces
+of rock have been thrust forth from beneath the earth.  Moss grows in great
+quantity on the undersides of the rocks.  A vast chasm is cut into the ground
+just to the north.  Beyond that, a great stronghold sits upon an outcropping
+of stone.
+~
+328 0 5
+D0
+~
+~
+0 -1 32856
+D1
+You see a small niche between two large rocks.  
+~
+niche secret~
+1 -1 32869
+D2
+~
+~
+0 -1 32883
+S
+#32869
+The mountain ridge~
+   Just north of you lies a deep chasm.  Mist sworls about its depths like
+the silver hair of angels.  The trail continues east along the edge
+of the chasm.  A wall of stone stands to the west.
+~
+328 0 5
+D1
+~
+~
+0 -1 32870
+D3
+~
+niche~
+1 -1 32868
+S
+#32870
+The moutain ridge~
+   The trail continues east and west, twisting inbetween great slabs of 
+that have jutted up from beneath the surface of the soil.  The north a great
+chasm lies in wait for careless adventurers.
+~
+328 0 5
+D0
+~
+~
+0 -1 32847
+D1
+~
+~
+0 -1 32871
+D3
+~
+~
+0 -1 32869
+S
+#32871
+The mountain ridge~
+   To the east stands a huge wall of rock, impossible to climb with even the
+greatest of gnomish tools.  To the north lies a deep chasm with mist swirling
+about its depths.  The trail leads to the south, where you view a corridor
+made of the upheaved stones lead, and also you may continue west along the
+edge of the chasm.
+~
+328 0 5
+D0
+~
+~
+0 -1 32833
+D2
+~
+~
+0 -1 32884
+D3
+~
+~
+0 -1 32870
+S
+#32872
+The steps~
+   You are standing precariously upon a set of stairs which span a huge
+chasm.  The stairs are not very wide, and the winds are strong so it
+would be wise to take your time.  You get a revulting feeling of vertigo
+as you suddenly look down and see how close you are to death.  The steps
+continue up and down.
+~
+328 0 5
+D4
+~
+~
+0 -1 32857
+D5
+~
+~
+0 -1 32885
+S
+#32873
+The mountain trail~
+   The trail continues to the east, steepening sharply.  Cold wind blows
+though the peaks and ridges of the range sending shivers though you.  To 
+the south the trail continues, winding its way down the mountains.
+~
+328 0 5
+D1
+~
+~
+0 -1 32874
+D2
+~
+~
+0 -1 32886
+S
+#32874
+The mountain trail~
+   To the east and west, the trail continues.  Gigantic stones have jutted
+up from beneath the soil and have rested themselves in strange positions 
+all about.  
+~
+328 0 5
+D1
+~
+~
+0 -1 32875
+D3
+~
+~
+0 -1 32873
+S
+#32875
+Turn in the trail~
+   A large pile of boulders stand to the east blocking any passage in that
+direction.  To the south you could walk off into mid-air but that
+would not be wise.  The trail continues north and west from here.
+~
+328 0 5
+D0
+~
+~
+0 -1 32860
+D3
+~
+~
+0 -1 32874
+S
+#32876
+Turn in the path~
+   The path of green grass turn here leading south and east around the lake.  
+A wall of stone stands to the north preventing you from continuing your
+travels in that direction.  
+~
+328 0 1
+D1
+~
+~
+0 -1 32877
+D2
+~
+~
+0 -1 32889
+S
+#32877
+Edge of the lake~
+   The crystal-blue lake lies like a mirror to the south and a wall of stone
+can be seen in the reflection standing behind you.  The grassy path around
+the lake continues both east and west.
+~
+328 0 1
+D1
+~
+~
+0 -1 32878
+D2
+~
+~
+0 -1 32890
+D3
+~
+~
+0 -1 32876
+S
+#32878
+Edge of the lake~
+   The grassy path leads east and north from here around the lake.  Crystal
+blue water stretches out to the east and south from here, easily accesible
+to one that carries a boat.
+~
+328 0 1
+D0
+~
+~
+0 -1 32863
+D1
+~
+~
+0 -1 32879
+D2
+~
+~
+0 -1 32891
+D3
+~
+~
+0 -1 32877
+S
+#32879
+On the blue lake~
+   The lake stretches off to the east and to the south.  A light breeze
+brushes the surface of the lake causing small ripples to form.  To the
+north, a forboding range of mountains filled with craggy peaks and crevices
+sits in wait.  Across the lake to the south a dock can be seen.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32864
+D1
+~
+~
+0 -1 32880
+D2
+~
+~
+0 -1 32892
+D3
+~
+~
+0 -1 32878
+S
+#32880
+On the blue lake~
+   The lake stretches off to the east, west  and to the south.  A light 
+breeze brushes the surface of the lake causing small ripples to form.  To 
+the north, a forboding range of mountains filled with craggy peaks and 
+crevices sits in wait.  Across the lake, to the south, a dock can be seen.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32865
+D1
+~
+~
+0 -1 32881
+D2
+~
+~
+0 -1 32893
+D3
+~
+~
+0 -1 32879
+S
+#32881
+On the blue lake~
+   The lake stretches off to the west and to the south.  A light breeze
+brushes the surface of the lake causing small ripples to form.  To the
+north, a forboding range of mountains filled with craggy peaks and crevices
+sits in wait.  Across the lake to the south a dock can be seen.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32866
+D1
+~
+~
+0 -1 32882
+D2
+~
+~
+0 -1 32894
+D3
+~
+~
+0 -1 32880
+S
+#32882
+Edge of the lake~
+   You stand in muddy, wet grass which surrounds the lake to the west.  To
+the east lies a huge wall of stone preventing passage in that direction.
+The path around the lake continues north and south.
+~
+328 0 1
+D0
+~
+~
+0 -1 32867
+D2
+~
+~
+0 -1 32895
+D3
+~
+~
+0 -1 32881
+S
+#32883
+The mountain trail~
+   The trail continues north and south, cutting its way between large 
+stones, upheaved from the bowels of the Dominion.  
+~
+328 0 5
+D0
+~
+~
+0 -1 32868
+D2
+~
+~
+0 -1 32897
+S
+#32884
+Between the Walls of Stone~
+   Two large walls of stone sit on either side of you.  Your footsteps
+echo loudly down the corridor.  You may continue north and south from here.
+~
+328 0 5
+D0
+~
+~
+0 -1 32871
+D2
+~
+~
+0 -1 32900
+S
+#32885
+The steps~
+   You are standing precariously upon a set of stairs which span a huge
+chasm.  The stairs are not very wide, and the winds are strong so it
+would be wise to take your time.  You get a revulting feeling of vertigo
+as you suddenly look down and see how close you are to death.  The steps
+continue up and down.
+~
+328 0 5
+D4
+~
+~
+0 -1 32872
+D5
+~
+~
+0 -1 32901
+S
+#32886
+The mountain trail~
+   The trail continues up and down the mountain range, picking its way
+between huge boulders and shrubs.  You may continue your journey north
+and south.  
+~
+328 0 5
+D0
+~
+~
+0 -1 32873
+D2
+~
+~
+0 -1 32902
+S
+#32887
+The dark cave~
+   You are in a small cave with only the light coming from the entrance
+illuminating your way.  The walls are scarred as if a fire blazed out of
+control near them.  There is a firepit in the center of the cave and it
+looks as if it has been used recently.  The exit of the cave is to the 
+south.
+~
+328 0 1
+D2
+~
+~
+0 -1 32903
+S
+#32888
+Path around the Lake~
+   The green grass leads around the lake which lies a short ways to the
+east.  To the north and west is a great wall made of stone, part of the
+beginning of the mountain range.  It looks to be impossble to climb.
+~
+328 0 1
+D1
+~
+~
+0 -1 32889
+D2
+~
+~
+0 -1 32905
+S
+#32889
+Path around the Lake~
+   The path continues to the north and to the west.  You can also sail upon
+the lake which lies just to the south.  The grass is high around the edge
+of the lake and waves gently in the breeze.
+~
+328 0 1
+D0
+~
+~
+0 -1 32876
+D1
+~
+~
+0 -1 32890
+D2
+~
+~
+0 -1 32906
+D3
+~
+~
+0 -1 32888
+S
+#32890
+On the lake~
+   You are sailing upon the northwestern most section of the lake, not
+to far away from the shore.  You see a great range of mountains, off to the 
+north.  On the opposite side of the lake you see a large wooden dock.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32877
+D1
+~
+~
+0 -1 32891
+D2
+~
+~
+0 -1 32907
+D3
+~
+~
+0 -1 32889
+S
+#32891
+On the lake~
+   You are sailing upon the northern section of the lake, not to far 
+away from the shore.  You see a great range of mountains, off to the 
+north.  On the opposite side of the lake you see a large wooden dock.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32878
+D1
+~
+~
+0 -1 32892
+D2
+~
+~
+0 -1 32908
+D3
+~
+~
+0 -1 32890
+S
+#32892
+On the lake~
+   You are sailing in the middle of the lake, some ways from the shore.
+You see a great range of mountains, off to the north.  On the southern
+shore of the lake you see a large wooden dock.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32879
+D1
+~
+~
+0 -1 32893
+D2
+~
+~
+0 -1 32909
+D3
+~
+~
+0 -1 32891
+S
+#32893
+On the lake~
+   You are sailing in the middle of the lake, some ways from the shore.
+You see a great range of mountains, in all directions except south.  On 
+the southern shore of the lake you see a large wooden dock.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32880
+D1
+~
+~
+0 -1 32894
+D2
+~
+~
+0 -1 32910
+D3
+~
+~
+0 -1 32892
+S
+#32894
+On the lake~
+   You are sailing upon the eastern section of the lake, not to far 
+away from the shore.  You see a great range of mountains, off to the 
+north and east and west.  On the opposite side of the lake you see a 
+large wooden dock.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32881
+D1
+~
+~
+0 -1 32895
+D2
+~
+~
+0 -1 32911
+D3
+~
+~
+0 -1 32893
+S
+#32895
+Edge of the lake~
+   You are just a few feet away from the edge of the lake which is lined
+with tall, wet, green grass.  To the east, a large stone ridge stands
+preventing you from travelling in that direction.  The path around the
+lake leads north and south from here and you can sail into the lake to
+the west.
+~
+328 0 1
+D0
+~
+~
+0 -1 32882
+D2
+~
+~
+0 -1 32912
+D3
+~
+~
+0 -1 32894
+S
+#32896
+The mountain ridge~
+   You are climbing the trail which steadily slopes upwards.  The trail 
+underfoot is mainly made up of pebbles and bits of grass are seen here and
+there.  The trail continues sharply up from here, leadig eastward, as well
+as south past a few large boulders.
+~
+328 0 5
+D2
+~
+~
+0 -1 32913
+D4
+~
+~
+0 -1 32897
+S
+#32897
+Turn in the trail~
+   The trail turns here, leading north between large boulders and also
+sharply down in a westernly direction.  Far below you and to the west you
+see a crystal blue lake sitting in the middle of mountains.
+~
+328 0 5
+D0
+~
+~
+0 -1 32883
+D5
+~
+~
+0 -1 32896
+S
+#32898
+Temple of Malakith~
+   The walls of the meeting room are made the stone which surrounds the 
+guild.  There is a dark passageway leading east from the room and a board
+for communication between members is on the western wall.
+~
+328 0 5
+D1
+~
+~
+0 -1 32899
+S
+#32899
+Entrance Foyer of the Dark Temple~
+   The temple is set directly into the face of the mountain, hidden from
+view of any suspecting rivals.  To the west, through a small passageway
+made of wood, lies another room.  To the east will take you back to the
+trail through the mountain range.
+~
+328 0 5
+D1
+~
+door~
+1 -1 32900
+D3
+~
+~
+0 -1 32898
+S
+#32900
+Before the Temple~
+   To the west sits a temple built from the same black stone found 
+everywhere in the Darklands set into the face of the mountain.
+To the north, the trail leads back through the mountain range.  
+~
+328 0 5
+D0
+~
+~
+0 -1 32884
+D3
+~
+door~
+1 -1 32899
+S
+#32901
+Turn in the stairs~
+   The stairs turn here leading suddenly north.  There are no railing here   
+and the fact that the stairs have been suspended across the chasm boggles
+your mind.  There must have been some sort of rocky connection across the 
+chasm and someone or something built it into a stairway.  Looking down you
+see mist swirling around the depths of the chasm.
+~
+328 0 5
+D4
+~
+~
+0 -1 32885
+D5
+~
+~
+0 -1 32902
+S
+#32902
+The mountain trail~
+   A set of stairs leads up here to the east across a huge chasm.  The stone
+stairway defies logic as it connects this part of the mountain with another
+strange platform on the other side of the chasm.  The mountain trail leads
+off to the north as well as south.
+~
+328 0 5
+D0
+~
+~
+0 -1 32886
+D2
+~
+~
+0 -1 32914
+D4
+~
+~
+0 -1 32901
+S
+#32903
+The rocky path~
+   Just to the north you see a hole set into the face of the stone wall.
+It looks to be a cave dwelling for some creature or another.  To the
+east you see the rocky path lead off between two large boulders, sitting
+on either side of the path.
+~
+328 0 1
+D0
+~
+~
+0 -1 32887
+D1
+~
+~
+0 -1 32904
+S
+#32904
+Between the boulders~
+   Two huge boulders of great proportions sit on either side of the path.
+You think you see some footprints leading west in the pebbles and rocks
+underfoot.  The path continues east and west.
+~
+328 0 1
+D1
+~
+foliage~
+1 -1 32905
+D3
+~
+~
+0 -1 32903
+S
+#32905
+Edge of the Lake~
+   The lake stretches off to the east, its crystal blue waters rippling
+gently in the breeze.  Thick, green foliage crowds toegther here between two
+huge boulders.  The path around the lake continues to the north and south.
+~
+328 0 1
+D0
+~
+~
+0 -1 32888
+D1
+~
+~
+0 -1 32906
+D2
+~
+~
+0 -1 32916
+D3
+~
+foliage~
+1 -1 32904
+E
+foliage~
+   Beyond the foliage you think that you spy a path leading off in a 
+westerly direction.
+~
+S
+#32906
+On the lake~
+   Beneath you, you see directly to the bottom of the lake.  Many rocks
+and pebbles can be seen on the floor.  The lake stretches off to the east
+where a wooden dock can be seen piering off from the southern shore of the
+lake.  in all other directions you can get off the lake and set your feet
+on shore.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32889
+D1
+~
+~
+0 -1 32907
+D2
+~
+~
+0 -1 32917
+D3
+~
+~
+0 -1 32905
+S
+#32907
+On the lake~
+   The blue waters of the lake stretch off in all directions towards the
+shore.  To the north, east, and west you see a foreboding mountain range
+and to the south fields of red flowers wave gently in the northern winds.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32890
+D1
+~
+~
+0 -1 32908
+D2
+~
+~
+0 -1 32918
+D3
+~
+~
+0 -1 32906
+S
+#32908
+On the lake~
+   The blue waters of the lake stretch off in all directions towards the
+shore.  To the north, east, and west you see a foreboding mountain range
+and to the south fields of red flowers wave gently in the northern winds.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32891
+D1
+~
+~
+0 -1 32909
+D2
+~
+~
+0 -1 32919
+D3
+~
+~
+0 -1 32907
+S
+#32909
+On the lake~
+   The blue waters of the lake stretch off in all directions towards the
+shore.  To the north, east, and west you see a foreboding mountain range
+and to the south fields of red flowers wave gently in the northern winds.
+Just to the south is a wooden dock, low enough to the water that you can
+depart the lake onto it.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32892
+D1
+~
+~
+0 -1 32910
+D2
+~
+~
+0 -1 32920
+D3
+~
+~
+0 -1 32908
+S
+#32910
+On the lake~
+   The blue waters of the lake stretch off in all directions towards the
+shore.  To the north, east, and west you see a foreboding mountain range
+and to the south fields of red flowers wave gently in the northern winds.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32893
+D1
+~
+~
+0 -1 32911
+D2
+~
+~
+0 -1 32921
+D3
+~
+~
+0 -1 32909
+S
+#32911
+On the lake~
+   You are just west of the grassy eastern shore of the lake.  In all other 
+directions the blue waters of the lake stretch out towards their shores.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32894
+D1
+~
+~
+0 -1 32912
+D2
+~
+~
+0 -1 32922
+D3
+~
+~
+0 -1 32910
+S
+#32912
+Path around the lake~
+   The path leads north and south from here through lush, green grass.  To
+the east you see a large wall of stone preventing you from continuing
+in that direction.  To the west a large lake filled with crystal blue water
+stretches out.
+~
+328 0 1
+D0
+~
+~
+0 -1 32895
+D2
+~
+~
+0 -1 32923
+D3
+~
+~
+0 -1 32911
+S
+#32913
+The mountain trail~
+   The mountain trail leads steadily up the mountain ridge.  Shrubs grow
+between the large boulders that sit in precarious potions on the rocky soil.
+The trail continues north and south.
+~
+328 0 5
+D0
+~
+~
+0 -1 32896
+D2
+~
+~
+0 -1 32924
+S
+#32914
+The mountain trail~
+   The mountain trail leads steadily up the mountain ridge.  Shrubs grow
+between the large boulders that sit in precarious potions on the rocky soil.
+The trail continues north and east.
+~
+328 0 5
+D0
+~
+~
+0 -1 32902
+D1
+~
+~
+0 -1 32915
+S
+#32915
+The mountain trail~
+   The mountain trail leads steeply down from here to a grassy path below.
+To the north, the trail leads steadily up the the mountain ridge.  Large,
+gray boulders and craggy peaks dot the landscape around you.
+~
+328 0 5
+D3
+~
+~
+0 -1 32914
+D5
+~
+~
+0 -1 32925
+S
+#32916
+Path around the lake~
+   You stand just west of the rippling waters of the blue lake.  A grassy
+path leads off to the north as well as south.  To south sits a huge gray
+boulders blocking you from proceeding in that direction.  To the north,
+the grassy path around the lake continues.
+~
+328 0 1
+D0
+~
+~
+0 -1 32905
+D1
+~
+~
+0 -1 32917
+S
+#32917
+Shallow waters~
+   The water is quite shallow here but the chilly water makes you jump 
+on your boat.  To the west and south are grassy shores and to the east 
+and north the water leads off towards their shores.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32906
+D1
+~
+~
+0 -1 32918
+D2
+~
+~
+0 -1 32928
+D3
+~
+~
+0 -1 32916
+S
+#32918
+Shallow Water of the Lake~
+   The blue waters of the lake stretch off in all directions towards the
+shore.  To the north, east, and west you see a foreboding mountain range
+and to the south fields of red flowers wave gently in the northern winds.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32907
+D1
+~
+~
+0 -1 32919
+D2
+~
+~
+0 -1 32929
+D3
+~
+~
+0 -1 32917
+S
+#32919
+On the lake~
+   The blue waters of the lake stretch off in all directions towards the
+shore.  To the north, east, and west you see a foreboding mountain range
+and to the south fields of red flowers wave gently in the northern winds.
+Just to the east is a dock, sitting low enough to the surface of the lake
+that you can climb on and out of the water.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32908
+D1
+~
+~
+0 -1 32920
+D2
+~
+~
+0 -1 32930
+D3
+~
+~
+0 -1 32918
+S
+#32920
+End of the wooden dock~
+   Several rafts tied to metal poles stuck into the dock sit around waiting
+to be bought.  To the south, the dock leads off towards dry land and in
+all other directions the waters of the blue lake await.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32909
+D1
+~
+~
+0 -1 32921
+D2
+~
+~
+0 -1 32931
+D3
+~
+~
+0 -1 32919
+S
+#32921
+On the Lake~
+   The blue waters of the lake stretch off in all directions towards the
+shore.  To the north, east, and west you see a foreboding mountain range
+and to the south fields of red flowers wave gently in the northern winds.
+just to the west sits a wooden dock, low enough to the surface that you
+may get onto it.
+~
+328 0 1
+D0
+~
+~
+0 -1 32910
+D1
+~
+~
+0 -1 32922
+D2
+~
+~
+0 -1 32932
+D3
+~
+~
+0 -1 32920
+S
+#32922
+On the lake~
+   You are just west of the grassy eastern shore of the lake.  In all other 
+directions the blue waters of the lake stretch out towards their shores.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32911
+D1
+~
+~
+0 -1 32923
+D2
+~
+~
+0 -1 32933
+D3
+~
+~
+0 -1 32921
+S
+#32923
+Path around the lake~
+   To the east a small trail leads off into the rocky crags of the mountain
+range.  To the south, a pasture of red flowers stretches out majestically.
+To the west, a large lake filled with blue water ripples in the light breeze.
+~
+328 0 1
+D0
+~
+~
+0 -1 32912
+D1
+~
+~
+0 -1 32924
+D3
+~
+~
+0 -1 32922
+S
+#32924
+Beginning of the mountain trail~
+   The mountain trail leads off to the north and a small grassy path
+waits to the west.  Boulders of all shapes and sizes dot the landscape
+to the north.  
+~
+328 0 1
+D0
+~
+~
+0 -1 32913
+D3
+~
+~
+0 -1 32923
+S
+#32925
+The mountain trail~
+   Just to the west is a short wall of stone, about 7 feet high - easily
+climbable.  To the west the trail leads down the mountain ridge.
+~
+328 0 5
+D1
+~
+~
+0 -1 32926
+D4
+~
+~
+0 -1 32915
+S
+#32926
+Dirt path below the ridge~
+   A short ways to the west you see the beginnings of the mountain range.
+To the east a dirt path leads away from the dangerous mountains.
+~
+328 0 1
+D1
+~
+~
+0 -1 32927
+D3
+~
+~
+0 -1 32925
+S
+#32927
+The grassy path~
+   Grass covers the path between two large walls of the mountain stone.  To
+the east you see will take you towards the edge of the lake.  
+~
+328 0 1
+D1
+~
+~
+0 -1 32928
+D3
+~
+~
+0 -1 32926
+S
+#32928
+Edge of the lake~
+   Just to the east you see the crystal blue lake rippling in the northern
+wind.  To the west, a grassy path leads off between two walls of stone from
+the mountain range.  To the south the path around the edge of the lake
+continues.
+~
+328 0 1
+D0
+~
+~
+0 -1 32917
+D1
+~
+~
+0 -1 32929
+D2
+~
+~
+0 -1 32934
+D3
+~
+~
+0 -1 32927
+S
+#32929
+On the lake~
+   The lake stretches out to the north and east towardsthe opposite shores.
+A ways to the east you see a wooden dock sitting low on the water.  To
+the south and west is a grassy path around the edge of the lake.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32918
+D1
+~
+~
+0 -1 32930
+D2
+~
+~
+0 -1 32935
+D3
+~
+~
+0 -1 32928
+S
+#32930
+On the lake~
+   Just to the east you see a rickety wooden dock, connected to the 
+southern shore, sitting just low enough in the water that you can depart
+the cold waters of the lake.  To the south a grassy path leads along
+the southern shore.
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32919
+D1
+~
+~
+0 -1 32931
+D2
+~
+~
+0 -1 32936
+D3
+~
+~
+0 -1 32929
+S
+#32931
+The wooden dock~
+   Just to the south the dock connects itself to the southern shore of the
+lake.  To the north you see a fisherman sitting on the edge of the dock
+with a rod and line and several rafts you imagine are for sale.  To the
+east and west you can sail on the lake.
+~
+328 0 1
+D0
+~
+~
+0 -1 32920
+D1
+~
+~
+0 -1 32932
+D2
+~
+~
+0 -1 32937
+D3
+~
+~
+0 -1 32930
+S
+#32932
+On the lake~
+   Just to the west you see a rickety wooden dock, connected to the 
+southern shore, sitting just low enough in the water that you can depart
+the cold waters of the lake.  To the east and south  grassy paths lead 
+along the shore.  
+~
+328 0 7 -268437728 0
+D0
+~
+~
+0 -1 32921
+D1
+~
+~
+0 -1 32933
+D2
+~
+~
+0 -1 32938
+D3
+~
+~
+0 -1 32931
+S
+#32933
+Path around the lake~
+   The lake sits just to the west and a field of red flowers is to the
+east.  To the south you see the path around the lake continue through green
+grass.
+~
+328 0 1
+D0
+~
+~
+0 -1 32922
+D2
+~
+~
+0 -1 32939
+D3
+~
+~
+0 -1 32932
+S
+#32934
+Path around the lake~
+   Just to the north of here you see the path continue around the crystal
+blue lake rippling in the breeze to the northeast.  To the east the path
+continues along the southern shore.
+~
+328 0 1
+D0
+~
+~
+0 -1 32928
+D1
+~
+~
+0 -1 32935
+S
+#32935
+Southern Shore of the Lake~
+   To the north the crystal lake stretches out majestically like a mirror.
+The path around the lake leads off to the east and west through thick, green
+grass.
+~
+328 0 1
+D0
+~
+~
+0 -1 32929
+D1
+~
+~
+0 -1 32936
+D3
+~
+~
+0 -1 32934
+S
+#32936
+Southern Shore of the Lake~
+   To the north the crystal lake stretches out majestically like a mirror.
+The path around the lake leads off to the east and west through thick, green
+grass.
+~
+328 0 1
+D0
+~
+~
+0 -1 32930
+D1
+~
+~
+0 -1 32937
+D3
+~
+~
+0 -1 32935
+S
+#32937
+Before the dock~
+   A long wooden docks leads off to the north a quarter of the way across
+the lake.  To the east and west, a path of lush, green grass leads off
+alongside the southern shore of the lake.
+~
+328 0 1
+D0
+~
+~
+0 -1 32931
+D1
+~
+~
+0 -1 32938
+D2
+~
+~
+0 0 32940
+D3
+~
+~
+0 -1 32936
+S
+#32938
+Southern Shore of the Lake~
+   To the north the crystal lake stretches out majestically like a mirror.
+The path around the lake leads off to the east and west through thick, green
+grass.
+~
+328 0 1
+D0
+~
+~
+0 -1 32932
+D1
+~
+~
+0 -1 32939
+D3
+~
+~
+0 -1 32937
+S
+#32939
+Southern Shore of the Lake~
+   To the north the crystal lake stretches out majestically like a mirror.
+The path around the lake leads off to the east and west through thick, green
+grass.
+~
+328 0 1
+D0
+~
+~
+0 -1 32933
+D3
+~
+~
+0 -1 32938
+S
+#32940
+End of North Mytheran Road~
+   Just to the north you see a dock stretching out across a blue lake.
+To the east and west are fields of red colored flowers.  The smell is
+almost overbearing as it fills your senses.
+~
+328 0 1
+D0
+~
+~
+0 -1 32937
+D2
+~
+~
+0 -1 32941
+S
+#32941
+North Mytheran Road~
+   the road leads off north and south between great fields of sweet smelling
+red flowers.  In the distance to the north, a dark mountain range fills the
+horizon with craggy spires and peaks.  To the south you see the road lead
+towards a huge city surrounded by a thick protective wall.
+~
+328 0 1
+D0
+~
+~
+0 -1 32940
+D2
+~
+~
+0 -1 32942
+S
+#32942
+North Mytheran Road~
+   the road leads off north and south between great fields of sweet smelling
+red flowers.  In the distance to the north, a dark mountain range fills the
+horizon with craggy spires and peaks.  To the south you see the road lead
+towards a huge city surrounded by a thick protective wall.
+~
+328 0 1
+D0
+~
+~
+0 -1 32941
+D2
+~
+~
+0 -1 32943
+S
+#32943
+North Mytheran Road~
+   the road leads off north and south between great fields of sweet smelling
+red flowers.  In the distance to the north, a dark mountain range fills the
+horizon with craggy spires and peaks.  To the south you see the road lead
+towards a huge city surrounded by a thick protective wall.
+~
+328 0 1
+D0
+~
+~
+0 -1 32942
+D2
+~
+~
+0 -1 32944
+S
+#32944
+North Mytheran Road~
+   the road leads off north and south between great fields of sweet smelling
+red flowers.  In the distance to the north, a dark mountain range fills the
+horizon with craggy spires and peaks.  To the south you see the road lead
+towards a huge city surrounded by a thick protective wall.
+~
+328 0 1
+D0
+~
+~
+0 -1 32943
+D2
+~
+~
+0 -1 32945
+S
+#32945
+North Mytheran Road~
+   the road leads off north and south between great fields of sweet smelling
+red flowers.  In the distance to the north, a dark mountain range fills the
+horizon with craggy spires and peaks.  To the south you see the road lead
+towards a huge city surrounded by a thick protective wall.
+~
+328 0 1
+D0
+~
+~
+0 -1 32944
+D2
+~
+~
+0 -1 1100
+S
+$~

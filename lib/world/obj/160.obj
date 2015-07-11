@@ -1,0 +1,963 @@
+#16001
+scale eye~
+scale of the enforcer~
+A brown scale glitters somewhat in the lighting~
+~
+9 as ad
+6 0 0 0 0 0 0 0 14
+5 0 0
+A
+1 1
+#16003
+eye slime~
+slime of the enforcing eye~
+Brown putrid slime~
+~
+10 gs a
+23 69 78 94 0 0 0 0 14
+1 0 0
+#16005
+eye stalk beholder~
+beholder's eyestalk~
+An eyestalk of a beholder~
+~
+4 ags ao
+20 2 2 25 0 0 0 0 14
+3 0 0
+#16006
+gnome mace~
+a glinting gnome mace~
+A dull greyish mace of gnomish design~
+~
+5 giq a
+0 2 9 10 0 0 0 0 14
+4 250 0
+A
+18 1
+A
+19 2
+#16007
+drow sword darkness~
+the Sword of Darkness~
+A drow blade seems to cast a shadow of darkness around it~
+~
+5 bcgjqD am
+0 4 5 3 0 0 0 18 14
+10 0 0
+A
+1 1
+A
+18 2
+#16008
+duergar helm~
+a duergar helm~
+A helm of duergar make lies abandoned off to the side of the street~
+~
+9 g ae
+6 0 0 0 0 0 0 0 14
+3 523 0
+A
+1 1
+A
+19 1
+#16009
+sleeves knowledge~
+sleeves of Knowledge~
+Sleeves that bear many arcane signs rest here~
+~
+9 fgs ai
+5 0 0 0 0 0 0 0 14
+3 0 0
+A
+3 1
+A
+12 15
+#16010
+blood stone~
+a piece of polished blood stone~
+A small polished stone that has flecks of red in a dark green base~
+~
+8 0 a
+0 0 0 0 0 0 0 0 14
+1 512 0
+#16011
+breast plate obsidian glowing~
+glowing obsidian breast plate~
+A breast plate emits an aura of power~
+~
+9 agq ad
+6 0 0 0 0 0 0 0 14
+4 1403 0
+A
+13 20
+A
+18 1
+#16012
+holy symbol xevior~
+a shining holy symbol of Xevior~
+A holy symbol of Xevior floats above the ground~
+~
+9 ikls ao
+3 0 0 0 0 0 0 0 14
+3 0 0
+A
+4 2
+#16013
+ripped leather pants~
+ripped leather pants~
+A pair of dirty ripped leather pants lies abandoned on the floor~
+~
+9 s af
+2 0 0 0 0 0 0 0 14
+3 0 0
+#16014
+purple worm scale bracelet~
+a purple worm scale bracelet~
+A small string of scales from a purple worm lies in a pile here~
+~
+9 i am
+0 0 0 0 0 0 0 0 14
+3 329 0
+A
+13 5
+A
+18 1
+#16015
+purple worm scale shield~
+a purple worm scale shield~
+A huge purple worm scale lies discarded off to the side~
+~
+9 0 aj
+6 0 0 0 0 0 0 0 14
+4 832 0
+A
+12 20
+A
+19 1
+#16016
+gauntlet eye~
+Gauntlet of the Eye~
+A pair of gauntlets with the design of an eye on them rest here~
+~
+9 a ah
+5 0 0 0 0 0 0 20 14
+3 962 0
+A
+13 10
+A
+18 5
+#16017
+helm eye~
+Helm of the Eye~
+A helm lies here with a huge eye centred on it~
+~
+9 a ae
+5 0 0 0 0 0 0 0 14
+4 962 0
+A
+5 1
+A
+17 -5
+A
+24 -2
+#16018
+pin~
+a very sharp pin~
+A small pin glints in the light~
+~
+5 qs a
+0 5 1 6 0 0 0 0 14
+1 0 0
+A
+1 -3
+A
+13 -15
+A
+18 2
+A
+19 1
+#16019
+muck branch~
+a muddy branch~
+A branch covered in muck lies discarded off to the side~
+~
+5 qs a
+0 2 6 7 0 0 0 0 14
+15 0 0
+A
+2 -2
+A
+18 -5
+A
+19 2
+#16020
+dart~
+a small deadly dart~
+A little dart lies on the ground~
+~
+5 fs a
+0 8 1 9 0 0 0 0 14
+1 0 0
+A
+1 -2
+A
+3 1
+A
+18 2
+#16021
+wand black inlaid gold~
+a black wand inlaid with gold symbols~
+A small black wand waits to be tested~
+~
+3 bg ao
+30 10 10 73 0 0 0 0 14
+2 456 0
+#16022
+girth protection~
+girth of protection~
+A girth lies here glowing softly with power~
+~
+9 as ak
+0 0 0 0 0 0 0 0 14
+2 0 0
+A
+13 15
+A
+17 -10
+#16024
+iron sword~
+a large iron sword~
+A very large sword made out of iron lies ready~
+~
+5 bqs a
+0 3 8 3 0 0 0 0 14
+30 0 0
+A
+1 2
+A
+18 2
+A
+19 4
+#16025
+stone mace~
+a huge stone mace~
+A large mace made completely of stone waits to be used~
+~
+5 q a
+0 3 6 1 0 0 0 0 14
+25 532 0
+A
+18 2
+A
+19 3
+#16026
+shield black protection~
+the Black Shield of Protection~
+A black shield waits to protect it's owner~
+~
+9 as aj
+0 0 0 0 0 0 0 0 14
+4 0 0
+A
+17 -15
+#16027
+black stone~
+a small black stone~
+A very small black stone almost escapes your notice~
+~
+9 hmns ao
+0 0 0 0 0 0 0 0 14
+1 0 0
+A
+1 -3
+A
+5 -3
+A
+14 -100
+A
+18 -5
+A
+19 -5
+#16028
+demon horn~
+a demon horn~
+A glowing demon horn waits to be wielded~
+~
+5 ajqs a
+0 4 5 11 0 0 0 0 14
+4 0 0
+A
+17 -10
+A
+18 1
+A
+19 3
+#16029
+translucent robe~
+a translucent robe~
+A semi-transparent robe lies on the floor~
+~
+9 is ak
+0 0 0 0 0 0 0 0 14
+2 0 0
+A
+5 1
+A
+13 10
+#16030
+belt pleasure~
+a belt of pleasure~
+A thin belt lies on the ground offering you much joy~
+~
+9 is al
+0 0 0 0 0 0 0 0 14
+1 0 0
+A
+2 1
+#16031
+ring nobility~
+a ring of nobility~
+A small beautiful ring is ready to worn~
+~
+9 s ab
+0 0 0 0 0 0 0 0 14
+1 0 0
+A
+3 -1
+A
+13 5
+A
+19 1
+#16032
+gold teeth~
+a set of gold teeth~
+A couple golden teeth wait to be used~
+~
+9 0 as
+3 0 0 0 0 0 0 0 14
+1 830 0
+A
+19 1
+#16033
+broken bottle~
+a broken bottle~
+A broken bottle lies on the ground~
+~
+5 s a
+0 3 3 7 0 0 0 0 14
+2 0 0
+A
+2 -1
+A
+19 2
+#16034
+dusty boots cursed~
+a pair of dusty boots~
+A pair of dusty boots lie forgotten on the ground~
+~
+9 chns ag
+-5 0 0 0 0 0 0 0 14
+2 0 0
+A
+2 -3
+A
+14 -50
+A
+19 -3
+#16035
+gnome hat~
+a gnome hat~
+A gnome hat rests here just waiting to be taken~
+~
+9 0 ae
+4 0 0 0 0 0 0 0 14
+2 350 0
+#16036
+boots of flying~
+boots of flying~
+A pair of boots hover just above the ground~
+~
+9 fgqs ag
+0 0 0 0 0 0 0 0 14
+2 0 0
+A
+14 100
+#16037
+bracers strength~
+bracers of strength~
+A very powerful looking pair of bracers hums on the ground~
+~
+9 ags ai
+0 0 0 0 0 0 0 0 14
+3 0 0
+A
+1 3
+#16038
+slaver whip~
+the Slaver's whip~
+A long dangerous looking whip waits to used against a slave~
+~
+5 bchnqs a
+0 4 8 5 0 0 0 0 14
+4 0 0
+A
+5 -1
+A
+18 -4
+A
+19 5
+#16039
+manacles~
+a pair of manacles~
+A pair of manacles waits to be worn~
+~
+9 hns ah
+-10 0 0 0 0 0 0 0 14
+4 0 0
+A
+1 -3
+A
+5 -3
+A
+13 -25
+#16040
+long flowing cloak~
+a long flowing cloak~
+A long flowing cloak that glows lies here~
+~
+9 a ak
+4 0 0 0 0 0 0 0 14
+2 450 0
+A
+12 25
+#16041
+jagged long sword~
+a jagged long sword~
+A jagged long sword rests on the ground~
+~
+5 qs a
+0 2 9 3 0 0 0 0 14
+5 0 0
+A
+17 -10
+A
+18 4
+#16042
+ebony dagger~
+an ebony dagger~
+An ebony dagger lies off to your side~
+~
+5 sDE a
+0 3 4 11 0 0 0 0 14
+4 0 0
+A
+17 -10
+A
+18 3
+A
+19 3
+#16043
+glowing sphere~
+a glowing sphere~
+A glowing sphere lights up the room~
+~
+1 s ao
+0 0 -1 0 0 0 0 0 14
+3 0 0
+A
+12 20
+#16044
+midnight blue bracers~
+a pair of midnight blue bracers~
+A dark pair of blue bracers lies on the ground~
+~
+9 cstuvwxzACDE ai
+5 0 0 0 0 0 0 0 14
+3 0 0
+A
+2 1
+#16045
+ebony morning star~
+an ebony morning star~
+An ebony morning star rests on the ground~
+~
+5 cqs a
+0 4 6 10 0 0 0 0 14
+6 0 0
+A
+5 1
+A
+18 2
+A
+19 2
+#16046
+drow chainmail~
+black drow chainmail~
+A black suit of chainmail lies ready to be taken~
+~
+9 cgjls ad
+7 0 0 0 0 0 0 0 14
+5 0 0
+A
+2 1
+A
+13 4
+#16047
+drow long sword~
+a drow long sword~
+A dark long sword lies on the ground~
+~
+5 gjls a
+0 4 4 3 0 0 0 0 14
+5 0 0
+A
+18 1
+A
+19 1
+#16048
+drow dagger~
+a drow dagger~
+A dark dagger lies on the ground~
+~
+5 gjlqs a
+0 3 4 11 0 0 0 0 14
+3 0 0
+A
+18 2
+A
+19 1
+#16049
+drow mace~
+a drow mace~
+A dark mace lies on the ground~
+~
+5 gjlqs a
+0 5 4 1 0 0 0 0 14
+4 0 0
+A
+18 1
+A
+19 2
+#16050
+duergar breast plate~
+a duergar breast plate~
+A breast plate of duergar make lies here~
+~
+9 gls ad
+8 0 0 0 0 0 0 0 14
+4 0 0
+A
+17 -5
+#16051
+duergar helm~
+a duergar helm~
+A helm of duergar make lies here.~
+~
+9 gls ae
+5 0 0 0 0 0 0 0 14
+2 0 0
+A
+17 -3
+#16052
+duergar shield~
+a duergar shield~
+A shield of duergar designs lies here, ready to be used.~
+~
+9 gls ajm
+7 0 0 0 0 0 0 0 14
+3 0 0
+A
+17 -2
+#16053
+duergar leggings~
+a pair of duergar leggings~
+A pair of leggings lies here, ready to use.~
+~
+9 gls af
+4 0 0 0 0 0 0 0 14
+4 0 0
+A
+17 -2
+#16054
+duergar bracers~
+a pair of duergar bracers~
+A pair of bracers of duergar design lies ready~
+~
+9 gls ai
+5 0 0 0 0 0 0 0 14
+3 0 0
+A
+17 -2
+#16055
+brown mushroom~
+a brown mushroom~
+A brown mushroom lies here looking tasty~
+~
+19 is a
+12 0 0 0 0 0 0 0 14
+1 0 0
+#16056
+large mushroom~
+a large mushroom~
+A large mushroom lies on the ground~
+~
+19 is a
+25 0 0 0 0 0 0 0 14
+1 0 0
+#16058
+dirty root~
+a dirty root~
+A dirty root lies on the ground~
+~
+19 is a
+24 0 0 0 0 0 0 0 14
+1 0 0
+#16059
+scroll refresh~
+a scroll of refresh~
+A scroll lies on the ground~
+~
+2 0 a
+15 73 99 99 0 0 0 0 14
+1 45 0
+#16060
+hand shocking grasp~
+a hand of shocking grasp~
+A hand lies on the ground~
+~
+3 0 ao
+55 4 4 37 0 0 0 0 14
+2 156 0
+#16061
+potion detection~
+a potion of detection~
+A potion of detection waits to be used~
+~
+10 g a
+15 94 69 70 0 0 0 0 14
+2 349 0
+#16062
+svirfneblin leggings~
+Svirfneblin leggings~
+A pair of svirfneblin leggings lies on the ground waiting to be taken~
+~
+9 gs af
+4 0 0 0 0 0 0 0 14
+3 0 0
+A
+1 1
+A
+17 -5
+#16063
+necklace nobility~
+a necklace of nobility~
+A beautiful necklace waits to be worn~
+~
+9 gs ac
+0 0 0 0 0 0 0 0 14
+3 0 0
+A
+4 -1
+A
+5 1
+A
+17 -4
+#16064
+broadsword vision~
+a broadsword named 'Vision'~
+A beautifully crafted broadsword lies on the ground~
+~
+5 agqs a
+0 4 8 3 0 0 0 0 14
+4 0 0
+A
+1 1
+A
+13 10
+A
+18 2
+A
+19 2
+#16066
+thieves' gloves~
+a pair of thieves' gloves~
+A pair of thin leather gloves rests on the ground~
+~
+9 qs ah
+0 0 0 0 0 0 0 0 14
+2 0 0
+A
+2 2
+A
+18 2
+#16067
+gold chain~
+a gold chain~
+A gold chain glints in the light~
+~
+9 g ac
+0 0 0 0 0 0 0 0 14
+2 652 0
+A
+18 1
+A
+20 -1
+A
+21 -2
+#16068
+dice~
+a pair of dice~
+A pair of dice glow softly~
+~
+9 ags ao
+0 0 0 0 0 0 0 0 14
+2 0 0
+A
+13 20
+A
+18 1
+#16069
+dark cloak~
+a dark cloak~
+A very dark cloak lies in the shadows~
+~
+9 cgqs ak
+3 0 0 0 0 0 0 0 14
+3 0 0
+A
+17 -4
+A
+18 3
+#16070
+obsidian earring~
+an obsidian earring~
+A small obsidian earring glints softly in the light~
+~
+9 g ar
+0 0 0 0 0 0 0 0 14
+1 492 0
+A
+3 1
+#16071
+jewelled dagger~
+a jewelled dagger~
+A jewelled dagger looks as if it could cut through anything~
+~
+5 bgq am
+0 5 4 11 0 0 0 20 14
+3 918 0
+A
+2 1
+A
+18 5
+A
+19 5
+#16072
+hand~
+a hand grasping an orb~
+A hand grasping an orb lies on the ground~
+~
+1 ags ao
+0 0 -1 0 0 0 0 0 14
+3 0 0
+A
+12 30
+#16073
+flowing robe~
+a long flowing robe~
+A beautiful robe lies pooled on the ground~
+~
+9 0 ak
+0 0 0 0 0 0 0 0 14
+4 432 0
+A
+12 50
+#16074
+blade of poison~
+a blade of poison~
+A dark blade rests here humming quietly~
+~
+5 bcgqs a
+0 2 9 11 0 0 0 0 14
+3 0 0
+A
+18 1
+A
+19 3
+#16075
+assassin's sleeves~
+a pair of assassin's sleeves~
+A pair of black sleeves rests here~
+~
+9 gs ai
+3 0 0 0 0 0 0 0 14
+3 0 0
+A
+18 1
+A
+19 1
+#16076
+skull tattoo~
+a skull tattoo~
+A weird glimmer lies on the ground, shaped like a skull~
+~
+9 ags am
+0 0 0 0 0 0 0 0 14
+1 0 0
+A
+13 5
+A
+19 1
+#16077
+choke wire~
+a choke wire~
+A thin wire lies on the ground humming~
+~
+5 qs ao
+0 4 2 18 0 0 0 0 14
+1 0 0
+A
+18 -5
+A
+19 4
+#16078
+assassin's mask~
+an assassin's mask~
+A mask keeps changing on the ground~
+~
+9 ags as
+2 0 0 0 0 0 0 0 14
+3 0 0
+A
+1 1
+A
+5 -1
+#16079
+flaming dagger tattoo~
+a flaming dagger tattoo~
+A weird glimmer lies on the ground, shaped like a dagger~
+~
+9 gqs am
+4 0 0 0 0 0 0 0 14
+1 0 0
+A
+19 2
+#16080
+wyvern tattoo~
+a wyvern tattoo~
+A weird glimmer lies on the ground, shaped like a wyvern~
+~
+9 gs am
+5 0 0 0 0 0 0 0 14
+1 0 0
+A
+18 1
+#16081
+dragon tattoo~
+a dragon tattoo~
+A weird glimmer lies on the ground, shaped like a dragon~
+~
+9 gqs am
+6 0 0 0 0 0 0 0 14
+1 0 0
+A
+14 15
+#16082
+diamond helm~
+a diamond helm~
+A helm sparkles and glints in the light~
+~
+9 agq ae
+12 0 0 0 0 0 0 19 14
+2 1094 0
+A
+13 25
+A
+19 2
+#16083
+keeper's shield~
+the keeper's shield~
+A large shield that looks as if it were made of stone lies here~
+~
+9 gs aj
+0 0 0 0 0 0 0 0 14
+10 0 0
+A
+13 15
+A
+17 -10
+A
+23 -2
+#16084
+clan signet ring~
+a demon clan signet ring~
+A red and black ring glows and hums softly on the ground~
+~
+9 abgjls ab
+0 0 0 0 0 0 0 0 14
+1 0 0
+A
+12 10
+A
+18 1
+#16085
+demon bracers~
+a pair of demon bracers~
+A black and red pair of bracers lies on the ground~
+~
+9 gjls ai
+6 0 0 0 0 0 0 0 14
+3 0 0
+A
+12 15
+#16086
+red black blade~
+a red and black blade~
+A red and black blade hums on the ground~
+~
+5 bgjlqs a
+0 6 3 3 0 0 0 0 14
+6 0 0
+A
+17 -5
+A
+18 3
+A
+19 3
+#16088
+demon plate~
+a suit of demon plate~
+A black suit of plate mail rests on the ground~
+~
+9 agjls ad
+8 0 0 0 0 0 0 0 14
+9 0 0
+A
+17 -5
+A
+19 1
+#16090
+fire gem wand~
+a fire gem~
+A large red gem seems to be on fire~
+~
+3 ag ao
+35 5 5 26 0 0 0 0 14
+3 742 0
+#16093
+gold pile merchants~
+merchant's gold~
+Merchant's gold sits here in a pile~
+~
+20 0 a
+1743 0 0 0 0 0 0 0 14
+1 0 0
+#16094
+gold pile~
+not so rich merchant's gold~
+A small pile of gold~
+~
+20 0 a
+821 0 0 0 0 0 0 0 14
+1 0 0
+$~

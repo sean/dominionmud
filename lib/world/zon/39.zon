@@ -1,0 +1,48 @@
+#39
+River Island Of Peringuard~
+Mahatma~
+HIGH~
+3001 1
+3999 39 1
+*
+* Last Updated: Wed Aug  7 17:08:35 
+*           By: Kirahn
+*
+M 0 3900 3 3915 	* the sentry at The First Trial Of Peringuard. (Max: 3)
+M 0 3900 3 3915 	* the sentry at The First Trial Of Peringuard. (Max: 3)
+M 0 3900 3 3915 	* the sentry at The First Trial Of Peringuard. (Max: 3)
+G 1 3912 1  			* And give it a golden key. (Max: 1)
+M 0 3901 2 3916 	* the Royal Knight at The Second Trial Of Peringuard. (Max: 2)
+M 0 3901 2 3916 	* the Royal Knight at The Second Trial Of Peringuard. (Max: 2)
+G 1 3913 1  			* And give it a golden key. (Max: 1)
+M 0 3902 1 3917 	* the First Knight to Peringuard at The Third Trial Of Peringuard. (Max: 1)
+G 1 3914 1  			* And give it a golden key. (Max: 1)
+M 0 3903 1 3918 	* the golden dragon at The Fourth Trial Of Peringuard. (Max: 1)
+G 1 3915 1  			* And give it a golden key. (Max: 1)
+M 0 3904 1 3919 	* General of the Peringuard at The Fifth Trial Of Peringuard. (Max: 1)
+E 1 3903 1 9 			* And equip it with a trollish gauntlet. (Max: 1)
+E 1 3902 1 18 			* And equip it with a speckled potion. (Max: 1)
+G 1 3916 1  			* And give it a golden key. (Max: 1)
+M 0 3905 1 3920 	* Kelis the Assassin at The Sixth Trial Of Peringuard. (Max: 1)
+E 1 3905 1 17 			* And equip it with a flail. (Max: 1)
+M 0 3906 1 3920 	* Macabre the Guardian at The Sixth Trial Of Peringuard. (Max: 1)
+E 1 3907 1 17 			* And equip it with a heavy spear. (Max: 1)
+G 1 3917 1  			* And give it a golden key. (Max: 1)
+M 0 3907 1 3921 	* King Peringuard at The Final Trial Of Peringuard. (Max: 1)
+E 1 3901 8 18 			* And equip it with a dark, spiked shield. (Max: 8)
+G 1 3900 1  			* And give it a golden key. (Max: 1)
+E 1 3910 1 17 			* And equip it with a huge, spiked mace. (Max: 1)
+E 1 3911 1 4 			* And equip it with a dark, spiked breastpiece. (Max: 1)
+O 1 3904 10 3922 	* a platinum ring at The Royal Chamber. (Max: 10)
+O 1 3906 1 3922 	* a great pile of treasure at The Royal Chamber. (Max: 1)
+M 0 3909 2 3908 	* the sea hag at Mired In Seaweed. (Max: 2)
+M 0 3909 2 3908 	* the sea hag at Mired In Seaweed. (Max: 2)
+D 0 3921 1 2 		* Lock and Close Southern door at The Final Trial Of Peringuard
+D 0 3915 1 2 		* Lock and Close Southern door at The First Trial Of Peringuard
+D 0 3916 2 2 		* Lock and Close Southern door at The Second Trial Of Peringuard
+D 0 3917 1 2 		* Lock and Close Southern door at The Third Trial Of Peringuard
+D 0 3918 2 2 		* Lock and Close Southern door at The Fourth Trial Of Peringuard
+D 0 3919 1 2 		* Lock and Close Southern door at The Fifth Trial Of Peringuard
+D 0 3920 2 2 		* Lock and Close Southern door at The Sixth Trial Of Peringuard
+S
+$~

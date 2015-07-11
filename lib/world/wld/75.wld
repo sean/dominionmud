@@ -1,0 +1,1186 @@
+#7500
+The dim path~
+   The trees crowd closer together blocking out the sunlight with their
+branches.  You sense a dark presence within the woods.  Everything is
+silent save for a faint whistle of the wind.
+~
+75 a 3
+D0
+~
+~
+0 0 32670
+D2
+~
+~
+0 -1 7505
+S
+#7501
+The swampy path~
+   Muddy water pools in crevices in the path.  The branches of the
+trees glisten with dampness and a thin mist crawls about the air.
+To the east the world grows darker, and to the west a boggy marsh fills
+the air with despair.
+~
+75 a 3
+D1
+~
+~
+0 -1 7502
+D3
+~
+~
+0 0 3102
+S
+#7502
+The swampy trail~
+   The path is dark and mossy growths cover the ground.  A thin mist hangs 
+in the air like death itself.  To the east you see the trail grow darker
+and more forboding.  You sense evil from that direction.
+~
+75 a 3
+D1
+~
+~
+0 -1 7503
+D3
+~
+~
+0 -1 7501
+S
+#7503
+The dark path~
+   The path leads east and west, to the east you notice it bend southwards
+into the bleak forest of dead trees.  To the west leading towards a misty
+swamp.  The air is heavy and devoid of animal life.
+~
+75 a 3
+D1
+~
+~
+0 -1 7504
+D3
+~
+~
+0 -1 7502
+S
+#7504
+Turn in the dark trail~
+   The trail turns here heading west and south.  Both directions leave
+a sickening knot within your stomach as both are bleak wastelands.  To
+the west the trail leads between the dark trees towards a dark swamp
+where the screams of the wildlife grow loud, and the south leads towards
+a dead forest where a black sooty film seems to hang in the air.
+~
+75 a 3
+D2
+~
+~
+0 -1 7508
+D3
+~
+~
+0 -1 7503
+S
+#7505
+The dim path~
+   The trees become more gnarled and the leaves become less prominent
+than in the golden forest to the north.  You sense something dark at
+work here in Blackwood.  The path leads southwards, towards the heart of Black
+wood
+~
+75 a 3
+D0
+~
+~
+0 -1 7500
+D2
+~
+~
+0 -1 7509
+S
+#7506
+The Blackwood~
+   Trees block passage to the west and north but you are free to
+travel otherwise.  The sky remains invisible to the eye behind the
+opaque veil of darkness permeating the Blackwood.
+~
+75 a 3
+D1
+~
+~
+0 -1 7507
+D2
+~
+~
+0 -1 7512
+S
+#7507
+The Blackwood~
+   The macabre landscape remains unchanged but you feel a strange, damp
+heat on your skin.  The sky is hidden behind a veil of darkness and
+you have no idea if it is day or night, it does not matter within this
+place.
+~
+75 a 3
+D2
+~
+~
+0 -1 7513
+D3
+~
+~
+0 -1 7506
+S
+#7508
+The dark trail~
+   You are filing between black twisted trees that ooze a slime-like
+liquid from their knots and tiny holes.  The path is covered with
+fallen branches and the remnents of leaves.
+~
+75 a 3
+D0
+~
+~
+0 -1 7504
+D2
+~
+~
+0 -1 7517
+S
+#7509
+The dim path~
+   You are standing at the end of the path, to the south is deep, dark forest.
+The trees are a tangle of gnarled branches and thorns and stumps to the south
+and you feel the prickling of magic at the back of your neck.
+~
+75 ac 3
+D0
+~
+~
+0 -1 7505
+D2
+~
+~
+0 -1 7520
+S
+#7510
+The Blackwood~
+   The unholy landscape extends around you but two rows of twisted
+trees block you from continuing in any direction but east or south.
+The sky is blotted out by a thick mist and an even darker, frighteningly
+magical veil of darkness.
+~
+75 a 3
+D1
+~
+~
+0 -1 7511
+D2
+~
+~
+0 -1 7522
+S
+#7511
+The Blackwood~
+   Two rows of twisted branches and rotten stumps of trees stand to the
+north and south forcing you to continue eastward or westward.  The sky is
+as dark as the slime oozing from the trees, a sinister scene encompasses
+every inch of your surroundings.
+~
+75 a 3
+D1
+~
+~
+0 -1 7512
+D3
+~
+~
+0 -1 7510
+S
+#7512
+The Blackwood~
+   You are free to continue in any direction as the dark trees are less
+compacted in this part of the Blackwood.  The grey mist hangs like a
+dead weight in the air dampening not only your garments but also any
+sounds you or a predator may make.
+~
+75 a 3
+D0
+~
+~
+0 -1 7506
+D1
+~
+~
+0 -1 7513
+D2
+~
+~
+0 -1 7524
+D3
+~
+~
+0 -1 7511
+S
+#7513
+The Blackwood~
+   The dark wood extends in all directions from here, the damp landscape
+dotted with crumbling trees, twisted with age and weather.  The sky
+is but a black, misty shadow you must convice yourself is truly there.
+~
+75 a 3
+D0
+~
+~
+0 -1 7507
+D1
+~
+~
+0 -1 7514
+D2
+~
+~
+0 -1 7525
+D3
+~
+~
+0 -1 7512
+S
+#7514
+A trail between trees~
+   A small trail has formed here, leading south or west.  Trees surround
+you like walls to either side and the sky is but a black veil.  
+~
+75 a 3
+D2
+~
+~
+0 -1 7526
+D3
+~
+~
+0 -1 7513
+S
+#7515
+Dark Trails~
+   The trail leads east and south from here through the thick mists of
+the Blackwood.  The sky is nearly totally blotted out by a veil of
+darkness which hovers over the area like impending death.
+~
+75 a 3
+D1
+~
+~
+0 -1 7516
+D2
+~
+~
+0 -1 7527
+S
+#7516
+The dark trail~
+   To the east and south you see the trail twist between dark, decaying
+trees.  The sky above is blotted out by a seeming veil of darkness which
+hangs over the Blackwood.
+~
+75 a 3
+D2
+~
+~
+0 -1 7528
+D3
+~
+~
+0 -1 7515
+S
+#7517
+Split in the path~
+   The path splits here leading down a dim trail to the north and
+south and east both leading into the decayed wilderness and damp shadows.
+The sky is nearly blotted out here by a thick, sooty layer of dust.
+~
+75 a 3
+D0
+~
+~
+0 -1 7508
+D1
+~
+~
+0 -1 7518
+D2
+~
+~
+0 -1 7529
+S
+#7518
+Deep in the Blackwood Forest~
+   Dark trees glisten with moisture all about you as the wet mist swirls
+about the vacant branches.  There is no path to make your journeys easier
+in this twisted forest.
+~
+75 a 3
+D1
+~
+~
+0 -1 7519
+D2
+~
+~
+0 -1 7530
+D3
+~
+~
+0 -1 7517
+S
+#7519
+Deep in the Blackwood Forest~
+   The trees snag at your attire with their twisted, gnarled branches.  
+there is no visible trail for you to travel upon.  Silence prevades the
+wood save for your steps padding softly on the ground.
+~
+75 a 3
+D1
+~
+~
+0 -1 7520
+D2
+~
+~
+0 -1 7531
+D3
+~
+~
+0 -1 7518
+S
+#7520
+Deep in the Blackwood~
+   The dark, twisted trees' branches scrape at you with every step you
+take.  All is quite silent within the wood sending a pang of panic down
+your spine.  To the north you see a dim path lead off.  
+~
+75 a 3
+D0
+~
+~
+0 -1 7509
+D2
+~
+~
+0 -1 7532
+D3
+~
+~
+0 -1 7519
+S
+#7521
+The Blackwood~
+   A large tree, impossible to move around or climb stands to you west
+and north, creating a wall, and forcing you to continue only east or south.
+The damp mist hangs in the air and the sky above is blotted out by an
+unearthly, blackness.
+~
+75 a 3
+D1
+~
+~
+0 -1 7522
+D2
+~
+~
+0 -1 7533
+S
+#7522
+The Blackwood~
+   A wall of gnarled trees stands in a row to the south blocking any
+attempt at traveling in that direction.  Mist, darkness, and wickedly
+twisted trees dot the area leaving you with clammy palms.
+~
+75 a 3
+D0
+~
+~
+0 -1 7510
+D1
+~
+~
+0 -1 7523
+D3
+~
+~
+0 -1 7521
+S
+#7523
+The Blackwood~
+   The dark trees surround you to the north and south, forming
+natural, twisted walls of branches and roots and crumbling stumps.
+The air is heavy with a damp mist and the sky is blotted out by
+a strange magical veil of darkness.
+~
+75 a 3
+D1
+~
+~
+0 -1 7524
+D3
+~
+~
+0 -1 7522
+S
+#7524
+The Clearing~
+   For some reason, this part of the Blackwood is devoid of trees,
+in the center of this barren clearing is a black stone with words
+etched into the face of it.  You may continue your journey in any 
+direction.
+~
+75 a 3
+D0
+~
+~
+0 -1 7512
+D1
+~
+~
+0 -1 7525
+D2
+~
+~
+0 -1 7534
+D3
+~
+~
+0 -1 7523
+E
+stone~
+At the Heart of the Blackwood you will find the heart of Kirahn,
+beating still and sucking the life of the world into it like an
+inescapable vortex.  He who possesses the Heart will be twisted
+into his image and gain incredible ....
+
+The rest of the etchings are faded into history....
+~
+S
+#7525
+The Blackwood~
+   The twisted Blackwood trees form walls of branches, forcing you to
+continue only north or west.  A thick mist hangs in the air, almost
+choking you to death.
+~
+75 a 3
+D0
+~
+~
+0 -1 7513
+D3
+~
+~
+0 -1 7524
+S
+#7526
+The Blackwood~
+   Dark trees crowd you on either side forcing you to continue on the
+north south trail.  The mist hangs in the air briefly before blowing
+on by some unfelt wind.
+~
+75 a 3
+D0
+~
+~
+0 -1 7514
+D2
+~
+~
+0 -1 7536
+S
+#7527
+Dark Trails~
+  The trail leads south and north between the dark, twisted trees.
+above, the sky is blotted out by a veil of darkness and a mist hangs
+thick in the air all about you.
+~
+75 a 3
+D0
+~
+~
+0 -1 7515
+D2
+~
+~
+0 -1 7538
+S
+#7528
+Dark Trails~
+   Two dark trails lead off to the north and south from here between
+twisted, decaying trees.  The mist hangs low and heavy in the air clinging
+to everything.  
+~
+75 a 3
+D0
+~
+~
+0 -1 7516
+D1
+~
+~
+0 -1 7529
+D2
+~
+~
+0 -1 7539
+S
+#7529
+The Blackwood~
+   Dark trees surround you, most of them dead, some of them dying.  Decaying
+logs dot the ground and a faint dampness hangs in the air.  The sky
+is blotted out by a smoky presence.  To the north you see the faint out-
+line of a path within the dead forest.
+~
+75 a 3
+D0
+~
+~
+0 -1 7517
+D1
+~
+~
+0 -1 7530
+D2
+~
+~
+0 -1 7540
+D3
+~
+~
+0 -1 7528
+S
+#7530
+The Blackwood~
+   THe Blackwood extends around you with its gnarled, black trees.  A think
+slime oozes from the pores of the trees and hangs down, slowly reaching 
+towards the ground.  A damp mist hangs in the air leaving you with clammy
+hands and uncomfortable clothing.
+~
+75 a 3
+D0
+~
+~
+0 -1 7518
+D1
+~
+~
+0 -1 7531
+D3
+~
+~
+0 -1 7529
+S
+#7531
+The Blackwood~
+   Dark trees surround you with their black, twisted branches reaching out
+like grasping hands.  A wet mist hangs in the air, permeating your skin
+as the darkness of these woods blots out the sky.
+~
+75 a 3
+D0
+~
+~
+0 -1 7519
+D1
+~
+~
+0 -1 7532
+D2
+~
+~
+0 -1 7542
+D3
+~
+~
+0 -1 7530
+S
+#7532
+The Blackwood~
+   The Blackwood extends out around you with black, gnarled trees and
+damp mists.  A viscous fluid seems to be flowing from pores in the trees
+and hangs down reaching towards the ground.  No paths can be detected
+in this surreal darkness.
+~
+75 a 3
+D0
+~
+~
+0 -1 7520
+D1
+~
+~
+0 -1 7533
+D2
+~
+~
+0 -1 7543
+D3
+~
+~
+0 -1 7531
+S
+#7533
+The Blackwood~
+   Two large gnarled trees stand to the east and south of you blacking
+any further progress in those directions.  The mist seems to cling to
+your garments, making every movement extremely uncomfortable.
+~
+75 a 3
+D0
+~
+~
+0 -1 7521
+D3
+~
+~
+0 -1 7532
+S
+#7534
+Dark Paths~
+   To the east you see a small and dark trail leading between the
+frightening, twisted trees of the Blackwood.  The same holds for
+the scene south of you.  Thick ooze seems to seep from pores on the
+branches of the trees and it drips slowly, almost not moving at all,
+towards the ground.
+~
+75 a 3
+D0
+~
+~
+0 -1 7524
+D1
+~
+~
+0 -1 7535
+D2
+~
+~
+0 -1 7545
+S
+#7535
+Dark Trail~
+   You are on a dark path with evil, twisted trees, most of them
+decaying where they stand, most bent of from the damp mist and age.
+The path leads east and west through the dark wood.
+~
+75 a 3
+D1
+~
+~
+0 -1 7536
+D3
+~
+~
+0 -1 7534
+S
+#7536
+The Blackwood~
+   The trail splits off here, leading in all directions.  To the east,
+you see a dark clearing where the trees have encircled a patch of barren
+land.  In all other directions, slim trails, dotted with crumbling branches
+lead off into the darkness.
+~
+75 a 3
+D0
+~
+~
+0 -1 7526
+D1
+~
+~
+0 -1 7537
+D2
+~
+~
+0 -1 7546
+D3
+~
+~
+0 -1 7535
+S
+#7537
+The Clearing~
+   You are within a somewhat tranquil clearing.  In the centre, a single
+white flower grows amidst the dirt and pebbles strewn about.  The trees
+crowd close to this one spot of life within the forest of death but do
+not touch it.  Small sprigs of grass have even sprouted beside the flower.
+Above you, a think dagger of light breaks through the mist and veil of
+darkness slanting across just in front of the flower.  You feel your
+sagging spirit almost sing out in rejoice.
+~
+75 cer 3
+D3
+~
+~
+0 -1 7536
+S
+#7538
+The Blackwood~
+   To the east you see a dense copse of trees, dripping with a strange,
+viscous ooze hanging from the branches.  To the north a dark trail leads
+off between the trees.
+~
+75 a 3
+D0
+~
+~
+0 -1 7527
+D1
+~
+~
+0 -1 7539
+D2
+~
+~
+0 -1 7547
+S
+#7539
+The Blackwood~
+   Dark trees of the Blackwood surround you, dotting the macabre scene
+while a thick mist hangs in the air. The sky is all but blotted out
+by a strange veil of darkness.
+~
+75 a 3
+D0
+~
+~
+0 -1 7528
+D1
+~
+~
+0 -1 7540
+D2
+~
+~
+0 -1 7548
+D3
+~
+~
+0 -1 7538
+S
+#7540
+The Blackwood~
+   The dark, twisted trees of the Blackwood dot the landscape, oozing
+a strange viscous fluid from their limbs.  The mist swirl<s about, pushed
+by an unseen force.  
+~
+75 a 3
+D0
+~
+~
+0 -1 7529
+D2
+~
+~
+0 -1 7549
+D3
+~
+~
+0 -1 7539
+S
+#7541
+The Blackwood~
+   Dark trees decaying where they stand dot the landscape all about
+as a thick mist swirls past, pushed by an unseen force.  The sky is 
+black, blotted out by a veil of darkness.
+black, blotted out by a veil of darkness.
+~
+75 a 3
+D1
+~
+~
+0 -1 7542
+D2
+~
+~
+0 -1 7550
+S
+#7542
+The Blackwood~
+   Dark trees stand all about, oozing a thick slime from their branches.
+A thick mist swirls past, pushed by an unseen force leaving chills crawling
+up your spine.
+~
+75 a 3
+D0
+~
+~
+0 -1 7531
+D1
+~
+~
+0 -1 7543
+D3
+~
+~
+0 -1 7541
+S
+#7543
+The Blackwood~
+   Dark trees stand all about, dotting the macabre landscape.  A viscous
+fluid drips from the limbs of the trees almost touching the ground.
+The sky is all but blotted out by the dark veil hanging over the area.
+~
+75 a 3
+D0
+~
+~
+0 -1 7532
+D3
+~
+~
+0 -1 7542
+S
+#7544
+Room #7544~
+This description is yet unfinished...
+~
+75 a 3
+D3
+~
+~
+0 -1 7543
+S
+#7545
+Dark Trail~
+   The dark trail leads off through the black veil which encompasses
+the area to the north and to the south.  Twisted walls of rotting 
+trees stand to the east and west of you blocking an attempt at continuing
+in those directions with brittle force.  Though the branches are old,
+some strange force holds them fast and almost insurmountable.
+~
+75 a 3
+D0
+~
+~
+0 -1 7534
+D2
+~
+~
+0 -1 7551
+S
+#7546
+Dark Trail~
+   The trail leads south and north between dark, slime covered trees.
+A thick mist hangs in the air, blown by some unfelt wind and the sky
+is blotted out by an unrelenting veil of darkness.
+~
+75 a 3
+D0
+~
+~
+0 -1 7536
+D2
+~
+~
+0 -1 7553
+S
+#7547
+The Blackwood~
+   The dark trees form a natural wall to the west and south allowing you
+to continue only east and north.  The thick mist hangs in the air, pushing
+slowly, almost gently, by some unseen force.
+~
+75 a 3
+D0
+~
+~
+0 -1 7538
+D1
+~
+~
+0 -1 7548
+S
+#7548
+The Blackwood~
+   The magical darkness thickens to the south as a wall of decaying
+trees prevents any passage in that direction.  Your other cardinal
+direction look clear enough to continue.  
+~
+75 a 3
+D0
+~
+~
+0 -1 7539
+D1
+~
+~
+0 -1 7549
+D3
+~
+~
+0 -1 7547
+S
+#7549
+The Blackwood~
+   A thick wall of branches made by the Blackwood trees stands to the
+south.  It looks quite impenetrable despite the state of decay.  In all
+the other directions the scene looks familiar and uninviting.  
+~
+75 a 3
+D0
+~
+~
+0 -1 7540
+D1
+~
+~
+0 -1 7550
+D3
+~
+~
+0 -1 7548
+S
+#7550
+The Blackwood~
+   You are in the southern part of the Blackwood with dark, twisted
+trees standing in a state of decay all around you.  The sky is all but
+blotted out by a magical, dark veil.
+~
+75 a 3
+D0
+~
+~
+0 -1 7541
+D3
+~
+~
+0 -1 7549
+S
+#7551
+Edge of the Heart~
+   A trail branches off here leading east between dark, knotted trees
+on the verge of decaying where they stand.  But the mottled looks of
+the stumps and branhces are a ruse, any attempt at hacking at them
+only admits to blunting your weapon.  To the north and south the bleakness
+continues.
+~
+75 a 3
+D0
+~
+~
+0 -1 7545
+D1
+~
+~
+0 -1 7552
+D2
+~
+~
+0 -1 7554
+D8
+Some unseen barrier prevents you from going in this direction.
+~
+Darkwall~
+1 7500 7555
+S
+#7552
+The Edge of the Heart~
+   You are skirting along the edge of the Heart of Blackwood.  The black
+trees surround a clearing to your south as if they were protecting it.
+It seems impossible to enter the Heart due to some unseen force. To the
+east and west you can continue picking your way along the edge.
+~
+75 a 3
+D1
+~
+~
+0 -1 7553
+D2
+Some unseen force prevents any passage in this direction.
+~
+Darkwall~
+1 7500 7555
+D3
+~
+~
+0 -1 7551
+S
+#7553
+Edge of the Heart~
+   You are walking along the edge of the Heart of Blackwood.  To the
+southwest some invisible barrier prevents any passage.  You feel great
+evil emenating from within the barrier.  To the north and west dark
+trails lead off between the twisted, dying trees.
+~
+75 a 3
+D0
+~
+~
+0 -1 7546
+D2
+~
+~
+0 -1 7556
+D3
+~
+~
+0 -1 7552
+D9
+Some invisible barrier prevents passage in this direction.
+~
+Darkwall~
+1 7500 7555
+S
+#7554
+Edge of the Darkness~
+   To the east all you can see is a swirling cloud of black evil.
+A strong stench emenates from within the cloud.  To the north and
+south dark trails run off between the twisted Blackwood trees.
+~
+75 a 3
+D0
+~
+~
+0 -1 7551
+D1
+A dark, invisible barrier prevents any passage in this direction.
+~
+Darkwall~
+1 7500 7555
+D2
+~
+~
+0 -1 7557
+S
+#7555
+Heart of Blackwood~
+   You are standing at the Heart of Blackwood, at the center of a
+swirling sphere of midnight.  Great evil fills your soul as you
+stand here.  An altar stands at the very center of the sphere with
+a black stone shaped object.  The object seems to be pulsing with
+power, with each beat sending a wave of evil through your bones.
+~
+75 aci 3
+D0
+~
+darkwall~
+1 -1 7552
+D1
+~
+darkwall~
+1 -1 7556
+D2
+~
+darkwall~
+1 -1 7558
+D3
+~
+darkwall~
+1 -1 7554
+E
+altar heart~
+The altar is nearly 3 feet tall off the ground.  Two candles on
+opposite sides burn low and majestically.  Lying on the center
+of the altar is a small object the size of a fist which beats slowly,
+rythmically sending waves of agony and pain through your soul.
+~
+S
+#7556
+Edge of the Heart~
+   To the west you feel great evil pouring from the Heart of Darkness.
+The Blackwood trees are even more in a state of decay yet remain as
+unyielding as ever.  To the north and south dark trails leads off
+between the twisted trees.
+~
+75 a 3
+D0
+~
+~
+0 -1 7553
+D2
+~
+~
+0 -1 7559
+D3
+An invisible barrier prevents passage in this direction.
+~
+Darkwall~
+1 7500 7555
+S
+#7557
+Edge of the Darkness~
+   To the northeast you feel a dark, twisted presence emenating from
+within a cloudy sphere.  Dark trees line the trail leading north and east
+along the fringe.
+~
+75 a 3
+D0
+~
+~
+0 -1 7554
+D1
+~
+~
+0 -1 7558
+D6
+A dark barrier prevents any passage in this direction.
+~
+Darkwall~
+1 7500 7555
+S
+#7558
+Edge of the Darkness~
+   A cloudy sphere of swirling darkness sends your senses reeling
+from the evil power emenating from within.  To the east and west dark
+trails lead off between the twisted Blackwood trees.
+~
+75 a 3
+D0
+A dark, invisible barrier blocks any passage in this direction.
+~
+Darkwall~
+1 7500 7555
+D1
+~
+~
+0 -1 7559
+D3
+~
+~
+0 -1 7557
+S
+#7559
+Edge of the Heart~
+   To the northwest you feel a great evil emenating from within the
+Darkwall.  Your senses reel with the hideous elation.  Dark trees 
+stand on either side of a trail which leads north and west along the
+edge of the Heart of Blackwood.
+~
+75 a 3
+D0
+~
+~
+0 -1 7556
+D1
+~
+~
+0 -1 7560
+D3
+~
+~
+0 -1 7558
+D7
+An invisible barrier prevents any passage in this direction.
+~
+Darkwall~
+1 7500 7555
+S
+#7560
+The Blackwood~
+   Trees surround a group of logs sitting placently within this
+shadowed vale.  The mist hangs in the air like sweat on your skin
+and the sky is blotted out by a veil of darkness.
+~
+75 0 3
+D3
+~
+~
+0 -1 7559
+S
+$~

@@ -1,0 +1,75 @@
+#1410
+sack flour~
+a sack of flour~
+A lumpy sack of flour is here.~
+~
+13 0 1
+0 0 0 0
+50 20 0
+#1411
+ivory scroll~
+an ivory scroll~
+A scroll with a skull and crossbones drawn on it is lying here.~
+~
+2 64 16385
+2 21 56 -1
+2 2500 1100
+#1412
+oily potion~
+an oily potion~
+An oily looking potion has been dropped here.~
+~
+10 64 1
+8 4 66 -1
+1 800 200
+#1413
+cow bell~
+a cow bell~
+A cow bell with a strap attached to it has been left here.~
+~
+9 0 5
+5 5 0 0
+1 10 5
+A
+17 -5
+#1414
+potion flour~
+a potion with flour in it~
+A potion with flour in it has been left here.~
+~
+10 64 1
+6 38 1 -1
+1 450 450
+#1420
+bronze leggings phoenix~
+the leggings of the Phoenix~
+A pair of bronze leggings is lying on the ground.~
+~
+9 1025 33
+6 6 0 0
+1 2050 1000
+A
+5 1
+#1421
+vorpal blade~
+the Vorpal Blade~
+The Vorpal Blade sits here.~
+~
+5 514 8193
+0 1 8 5
+10 5000 2250
+A
+18 1
+A
+19 3
+#1430
+sword phoenix~
+the Sword of the Phoenix~
+The Sword of the Phoenix has been left here.~
+~
+5 67 8193
+0 3 6 3
+40 5000 2500
+A
+18 1
+$~

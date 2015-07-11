@@ -1,0 +1,329 @@
+#2400
+pixie sword~
+a very tiny sword~
+A very petite sword lies here on the ground, you almost didn't see it.~
+~
+5 1024 24577
+0 1 4 11
+1 10 1
+E
+sword pixie~
+This elegant sword appears to have served its previous owner very well, but
+you aren't sure how well a weapon this small would serve you.
+~
+A
+19 -1
+A
+14 10
+#2401
+white dragon claw key~
+a small white key shaped like a claw~
+A small white claw is sitting here, lost.~
+~
+18 4096 16385
+2 0 0 0
+1 0 999999
+E
+key claw white dragon~
+This key appears to have been fashioned from the claw of a dragon.  You are
+glad you weren't the locksmith assigned to getting the materials.
+~
+#2402
+door key~
+a door key~
+There is a door key sitting here.~
+~
+18 4096 16385
+2 0 0 0
+1 0 999999
+E
+key door~
+This is a small nondescript key, with nothing special about it.
+~
+#2403
+gate keeper key~
+the gatekeeper's key~
+A large bronze key sits upon the ground, covered with dust.~
+~
+18 4096 16385
+2 0 0 0
+1 0 999999
+E
+gate keeper key~
+This is the key to the gate.  It belongs to the gatekeeper, and he is probably
+looking for it.
+~
+#2404
+copper dragon claw key~
+a small copper key shaped like a claw~
+A small copper claw lies here, abonded by everyone~
+~
+18 4096 16385
+2 0 0 0
+1 0 999999
+E
+copper dragon claw key~
+This key appears to have been fashioned from a dragon's claw.  It is quite
+large.
+~
+#2405
+pixie king key~
+a very small key~
+The key to the Pixie King's bedroom is here, it is almost impossible find.~
+~
+18 4096 16385
+2 0 0 0
+1 0 999999
+E
+pixie king key~
+This is a very small key, you cannot imagine what door this would go to.
+~
+#2406
+white pendant dragon scale~
+a white dragon scale pendant~
+Upon the ground lies a solid white pendant, it issues forth an aura of cold.~
+~
+9 321 16389
+5 0 0 0
+5 1000 50
+E
+white pendant dragon scale~
+This pendant appears to be very ancient.  It is solid white, with a blue diamond
+set in the center.  You feel chilled whenever it touches open flesh.
+~
+A
+19 1
+A
+24 -2
+#2407
+copper pendant dragon scale~
+a copper dragon scale pendant~
+Upon the ground lies a solid copper pendant, as you reach for it, time seems to slow.~
+~
+9 321 16389
+5 0 0 0
+5 1000 50
+E
+copper pendant dragon scale~
+The pendant you now own appears to be very new, in fact it looks freshly forged.
+It is solid copper, white a streak of gold shaped like an hourglass in the 
+center.  When you look back up, hours have passed.
+~
+A
+18 1
+A
+24 -2
+#2408
+pixie wings~
+a pair of pixie wings~
+A pair of translucent wings lie upon the ground, their is an eerie glow about them.~
+~
+1 0 16385
+0 0 -1 0
+0 2500 150
+E
+pixie wings~
+Just what they are called.  You feel sorry for the pixie who used to own these.
+~
+A
+14 30
+#2409
+pendant eternity~
+the pendant of eternity~
+A small pendant is here on the ground, you almost ignore it, til it calls out your name.~
+~
+9 321 16389
+5 0 0 0
+0 0 0
+E
+pendant eternity~
+As you stare at the pendant, you begin to feel as if you are being sucked in.
+it is all you can do to look away.
+~
+#2410
+white dragon scale breast plate~
+a white dragonscale breast plate~
+A shimmering white breast plate lies here, it is cold to the touch.~
+~
+9 0 9
+4 0 0 0
+12 2000 100
+E
+white dragon scale breast plate~
+This is a very quickly strewn together breast plate.  It looks like it was
+fashioned from the breast of a real dragon, minutes after it was slain.
+~
+A
+24 -5
+A
+9 15
+#2411
+copper dragon scale breast plate~
+a copper dragonscale breast plate~
+An elegant copper breast plate lies here, it looks very new.~
+~
+9 0 9
+5 0 0 0
+12 2000 100
+E
+copper dragon scale breast plate~
+This is a very hastely strewn together breast plate.  It looks like it was
+made from the breast of a real dragon, minutes after it was slain.
+~
+A
+18 -2
+A
+17 -5
+#2412
+corpse~
+a corpse~
+A corpse is lying on the ground, mangled beyond recognition.~
+~
+9 0 9
+200 0 0 0
+999999 0 0
+E
+corpse~
+This corpse appears to be that of an adventurer who wasn't as lucky as you.  
+Looking around, you can't see anything that could have destroyed his body
+this badly, but then again, you probably wouldn't want to.
+~
+#2413
+spray paint can~
+a can of spraypaint~
+A can of spraypaint is sitting here.~
+~
+5 0 0
+0 1 1 3
+5 10 25000
+#2414
+pixie stick~
+a Pixie Stick~
+A Pixie Stick lies here on the ground, it looks tasty.~
+~
+5 1 24577
+0 2 4 6
+2 1 1
+E
+pixie stick~
+This is a Pixie Stick.  While you may be used to eating these "sugar sticks",
+the Pixies use them, quite well, as weapons.~
+A
+18 2
+A
+19 -3
+#2415
+pixie plate breast~
+a Pixie breast plate~
+There is a very small piece of metal lying here.~
+~
+9 1 9
+3 0 0 0
+5 1000 100
+E
+plate pixie breast~
+This is a piece of Pixie armor.  It looks very well crafted, but has an odd
+aura about it.~
+A
+1 -3
+A
+17 -5
+#2416
+pixie greaves~
+a pair of Pixie greaves~
+A pair of very small metallic pants lie here.~
+~
+9 1 33
+3 0 0 0
+3 1000 100
+E
+pixie greaves~
+These are VERY small pants....although they do seem fairly stretchy.....
+~
+A
+5 -2
+A
+3 3
+#2417
+pixie arm plates~
+a pair of Pixie armplates~
+A pair of small metal sleeves lie here, glowing~
+~
+9 1 257
+3 0 0 0
+3 1000 100
+E
+pixie arm plates~
+These arm plates would be a tad bit to small for you.....IF YOU WERE A
+FREAKING SMURF!!!!~
+A
+11 -30
+A
+2 2
+#2418
+wisp dragon fire~
+a wisp of DragonFyre~
+There is a small flame sitting here.~
+~
+1 1 16385
+0 0 -1 0
+2 20000 1000
+E
+flame wisp dragon fyre fire~
+You aren't quite sure how it is, but the DragonFyre is existing without its
+dragon.~
+A
+19 2
+#2419
+helm dragon~
+a white dragon scale helm~
+A white dragon scale helm with a plume of dragon mane lies here.~
+~
+9 1 17
+4 0 0 0
+6 5000 500
+E
+helm dragon~
+This helm appears to have been created from the scales of a freshly dead dragon.
+The plume is made from the mane of said dragon.~
+A
+1 3
+A
+2 -2
+#2420
+helm dragon~
+a copper dragon scale helm~
+A copper helm made from the scales of a dragon is here.~
+~
+9 1 17
+4 0 0 0
+5 5000 500
+E
+helm dragon~
+This helm appears to be made from the scales of a recently dead dragon.
+The plume appears to be made from the plume of said dragon.  It has a
+copper sheen to it.
+~
+A
+5 2
+A
+2 -2
+#2421
+staff magius~
+the Staff of the Magius~
+A gnarled wooden shaft lies here, pulsing slightly.~
+completely destroys~
+5 103 24577
+0 3 4 7
+4 90000 10000
+E
+staff magius~
+This is the Staff of the Magius.  Rumored to bring untold mystical power to the
+one who owns it, it is also rumored to completely destroy the person physically.
+~
+A
+13 -200
+A
+12 200
+$~
+

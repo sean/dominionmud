@@ -1,0 +1,72 @@
+#32600
+pelt fur white~
+a white pelt~
+The white fur of a deer is lying here on the ground.~
+~
+9 gk ak
+6 0 0 0 0 0 0 20 14
+8 2000 2000
+E
+fur pelt white~
+   The fur is a perfect shade of white.  It looks as if it could
+be worn as a cloak.
+~
+A
+1 2
+#32601
+dagger~
+a sharp, curved dagger~
+A small curved dagger lies here.~
+~
+5 E am
+0 1 5 11 0 0 0 15 14
+3 100 200
+#32602
+backpack pack~
+a leather backpack~
+A leather backpack is here.~
+~
+15 0 aj
+120 1 -1 0 0 0 0 8 14
+9 100 500
+#32603
+quarterstaff~
+a quarterstaff~
+A long, brown staff lies here.~
+~
+5 0 am
+0 1 5 7 0 0 0 8 14
+4 50 50
+#32604
+root travellers~
+a traveller's root~
+A small twisted root from some tree lies here.~
+~
+19 0 am
+24 0 0 0 0 0 0 8 14
+1 80 1
+#32605
+waterskin water skin~
+a waterskin~
+A small leather waterskin lies here.~
+~
+17 0 am
+20 20 0 0 0 0 0 8 14
+25 100 50
+#32606
+spring water~
+a small spring~
+A water bubbles up from a small hole in the ground here.~
+~
+23 0 0
+999999 999999 15 0 0 0 0 0 14
+1000004 0 0
+#32607
+shirt chainmail ragged~
+a ragged chainmail shirt~
+A ragged shirt of chainmail lies here.~
+~
+9 0 ad
+4 0 0 0 0 0 0 12 14
+4 100 80
+$~

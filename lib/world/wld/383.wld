@@ -1,0 +1,1271 @@
+#38300
+A Shadowy Lair~
+    This room is almost blanketed with darkness, the only light that
+can be seen is emitted from a glowing orb hovering in the center of the
+room.  The orb's light barely silouettes the dark form of Cloak.  The walls
+are covered with scrolls in ancient writings of darkness and shadows.  You
+realize that you are in his domain and he has full control of this misty
+realm.
+~
+383 drs 0
+D4
+~
+recall ~
+1 0 3039
+D5
+~
+Portal~
+1 0 38301
+S
+#38301
+In Front of the Castle~
+   Here is a huge castle, its silver walls gleaming in
+the sunlight. The top of the castle is lined with archers with
+loaded bows, ready to fire at any intruders. The glinting tips
+of arrows can be seen through slits in the castle walls. Banners
+on the top of the castle wave wildly in the strong winds. A large
+oak drawbridge sits directly in front of you.
+~
+383 0 2
+D0
+~
+Drawbridge~
+1 0 38302
+S
+#38302
+Inside of the Castle~
+   Inside of the mighty castle of Llyndyr, there are racks of 
+weapons on the wall and anchient battle-worn suits in each corner of
+the room. Scrolls and tapestries from another era line the walls, telling
+anchient tells of warriors and mages. The room is lined in torches, which sit
+in golden holsters. There are two statues of Dragons beside the entrance to a
+very long hallway to the north.
+~
+383 d 0
+D0
+~
+~
+0 0 38303
+D2
+~
+Drawbridge~
+1 0 38301
+S
+#38303
+In a Long Hallway~
+   This is one of the largest Hallways ever made, with an
+eleven foot ceiling and it is almost half of a mile long. Scores
+of medals and trophies hang upon the walls. This room is also lined with 
+resting in their golden holsters. With the aid of the many torches, the
+almost magical shroud of darkness is lifted from the room.
+~
+383 d 0
+D0
+~
+~
+0 0 38304
+D2
+~
+~
+0 0 38302
+S
+#38304
+A Two-Way Passage~
+   The Hallway splits here in two directions, east and
+west. Each hallway is lined with the same golden torches as all
+of the other rooms, and comotion can be heard from both directions
+in the passageways. To the north is a large strong door, with a glowing
+lock. Engraved in the door is the image of a Black Crown.
+~
+383 d 0
+D0
+~
+Door~
+1 0 38305
+D1
+~
+~
+0 0 38307
+D2
+~
+~
+0 0 38302
+D3
+~
+~
+0 0 38310
+S
+#38305
+The Domain of the Emperor~
+   This room is decorated in Black silk and covered with diamonds.
+The walls of the room are made of steel and the floor is composed of
+marble. The Ruler stands here in front of his throne, enraged at the 
+entrusion. Behind him sits his Golden throne embedded with various
+gems, and behind the throne lies a door constructed of solid gold. The 
+lock on the door glows with an odd aura.
+~
+383 d 0
+D0
+~
+Gold Door~
+1 0 38306
+D2
+~
+Door~
+1 0 38304
+S
+#38306
+The Treasure room of Llyndyr!~
+   The room is coated in gold and silver pieces, up to an
+average mans knees. Chest full of riches from many lands are scattered
+about the room and gems are mixed in with the gold all over
+the ruby-studded floor. The room itself was created from the gold of 
+defeated lands, which the evil Ruler of Llyndyr has looted.
+~
+383 d 0
+D2
+~
+Gold Door~
+1 0 38305
+S
+#38307
+The Beginning of an Eastern Passage~
+   This castle leads along the southeastern wall of the castle of
+Llyndyr. The hallway has the castles traditional torches in golden
+holsters lining the wall in a seemingly endless path down the hall. To
+the east footsteps and low voices can be heard, and the marble stones on the
+floor look well worn this way.
+~
+383 d 0
+D1
+~
+~
+0 -1 38308
+D3
+~
+~
+0 -1 38304
+S
+#38308
+The Guard Post~
+   Here is what appears to be a guard station. Many guards sit
+here resting on their break. Behind a line of wooden chairs is a weapon
+rack, containing many of the guards swords and daggers. On the other side
+of the rack is a hanger, where dark blue cloaks rest. One of the guards has
+spotted you and is requesting your name and purpose for being here.....
+~
+383 d 0
+D1
+~
+~
+0 -1 38309
+D3
+~
+~
+0 -1 38307
+S
+#38309
+The Southeastern Corner of the Castle~
+   This room is the dirtiest room in the castle. In the corner there
+are huge spiderwebs, with large black spiders in them. The floor is 
+smuged with mud from a tired warrior or knights boots. Oddly enough
+there is only one torch in the room and it is in a steel holster.
+Much of the walls are covered in blood...human blood...
+~
+383 d 0
+D0
+~
+~
+0 0 38317
+D3
+~
+~
+0 -1 38308
+S
+#38310
+The Beginning of a Western passage~
+   This room has a bright and happy feeling to it for some reason.
+It has shields on the wall with two swords crossed over its surface.
+Lances engraved with the name of many famous people rest in glass
+cases on the wall here as well. The torches on the wall glow with a neon red
+and almost magical flame, welcoming guests this way , to the west
+~
+383 d 0
+D1
+~
+~
+0 -1 38304
+D3
+~
+~
+0 0 38311
+S
+#38311
+Near the Equipment Storage Rooms~
+   This room has exits in all four directions, however the doors
+to the north and south are closed. Loud noises and the crashing of metal 
+can be heard very near by to the east, and many more red flaming torches
+lead the way on a bright path to the west.
+~
+383 d 0
+D1
+~
+~
+0 0 38310
+D3
+~
+~
+0 -1 38312
+S
+#38312
+The Southwestern Corner of the Castle~
+   Loud commotion can be heard to the north as well as bright flashes 
+of light, in many different colors. On the wall there is a sign read ing the 
+words INN in bold letters the marble floor has a full color map
+of the region painted on it.
+~
+383 d 0
+D0
+~
+~
+0 0 38313
+D1
+~
+~
+0 0 38311
+S
+#38313
+A Large, Circular Room~
+   The rooms widens into a almost circular shape, the walls spread
+out then close in, leaving a archway for an exit to the north. To the
+west is a sign abouve a door reading INN ENTRANCE in bright red letters.
+This rooms is composed of marble and is spotless.
+~
+383 d 0
+D0
+~
+~
+0 0 38315
+D1
+~
+~
+0 0 38314
+D2
+~
+~
+0 0 38312
+S
+#38314
+AN AMBUSH!~
+This description is yet unfinished...
+~
+383 d 0
+D3
+~
+~
+0 0 38313
+S
+#38315
+A Dim Passage to the North~
+Faint shimmers of torchlight trickle throughout the room from unseen castle
+guardians. Glimmers of light touch shadows of vermin running amongst
+the stone floor,revealing a metal peg on the wall to the east...
+~
+383 d 0
+D0
+~
+~
+0 0 38323
+D1
+~
+peg~
+1 0 38316
+D2
+~
+~
+0 -1 38313
+S
+#38316
+Medical Storage Facility~
+You have discovered Llyndyr`s Army`s medical supply room, which
+is filled with bandages, herbs and many more remidies. Although
+ most of them are locked away in cabinets, some have been
+carelessly tossed onto the floor!
+~
+383 dr 0
+D3
+~
+peg~
+1 0 38315
+S
+#38317
+Room #38317~
+It appears that you have walked into the lair of some unknown creature. 
+Your stomach begins to churns as the putrid smell of rotting flesh
+reaches your nose...
+~
+383 d 0
+D2
+~
+~
+0 0 38309
+D5
+~
+~
+0 0 38318
+S
+#38318
+Tunnel Beginning~
+You have entered a series of underground tunnels and passages. Apparently,
+this was the SaberBeast`s meathod of transportation. The tunnels are
+misty and appear to end up in a clearing of some sort.
+~
+383 d 0
+D1
+~
+~
+0 -1 38319
+D4
+~
+~
+0 0 38317
+S
+#38319
+Further Into the Tunnels~
+As you continue down the tunnel of this underground labyrinth,
+the path splits in two directions. The northern passage is filled
+ with a dampning mist, while the eastern route is up to your
+waist in a murky green water.
+~
+383 d 0
+D0
+~
+~
+0 0 38323
+D1
+~
+~
+0 -1 38320
+D3
+~
+~
+0 -1 38318
+S
+#38320
+A Split In the Tunnel~
+You manage to slowly slosh you way through this murky tunnel,and you
+discover a large opening up ahead that fills the tunnel with extremly
+reflections of light from the sun. The cool water is quickly becoming
+clearer and is begining to pick up speed, causing a very loud and almost
+loud, overwealming sound of rushing water flowing through this
+magnificent cavern.
+~
+383 d 0
+D1
+~
+~
+0 -1 38321
+D3
+~
+~
+0 -1 38319
+S
+#38321
+Coral Reef Shoreline~
+After exiting the vast cavern and freeing yourself of the murky
+green water, you manage to stumble onto the shoreline. It is covered in
+beautiful teal coral, which extends for mile after mile. The colors
+of the waters have turned from a dull green to a crystal clear
+blue.
+~
+383 d 0
+D1
+~
+~
+0 0 38322
+D3
+~
+~
+0 -1 38320
+S
+#38322
+The Flatlands~
+After leaving the beaches, you have arrived here, on a small path leading
+towards the lush, green hills. Over the hills the faint image of a distant 
+city can be seen. You also notice that the well-traveled path that you are
+on now leads through the hills and onward to this great city.
+~
+383 d 0
+D3
+~
+~
+0 -1 38321
+S
+#38323
+Room #38323~
+The rather lengthy corridor ends here abruptly, at a smooth stone wall.
+Oddly, the wall is covered in blood.......
+I wonder why???
+~
+383 d 0
+D2
+~
+~
+0 0 38315
+S
+#38324
+Room #38324~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38315
+D3
+~
+~
+0 -1 38323
+S
+#38325
+Room #38325~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38326
+D2
+~
+~
+0 -1 38338
+S
+#38326
+Room #38326~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38327
+D3
+~
+~
+0 -1 38325
+S
+#38327
+Room #38327~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38328
+D3
+~
+~
+0 -1 38326
+S
+#38328
+Room #38328~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38329
+D3
+~
+~
+0 -1 38327
+S
+#38329
+Room #38329~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38330
+D3
+~
+~
+0 -1 38328
+S
+#38330
+Room #38330~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38331
+D3
+~
+~
+0 -1 38329
+S
+#38331
+Room #38331~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38332
+D3
+~
+~
+0 -1 38330
+S
+#38332
+Room #38332~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38333
+D3
+~
+~
+0 -1 38331
+S
+#38333
+Room #38333~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38334
+D3
+~
+~
+0 -1 38332
+S
+#38334
+Room #38334~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38335
+D3
+~
+~
+0 -1 38333
+S
+#38335
+Room #38335~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38336
+D3
+~
+~
+0 -1 38334
+S
+#38336
+Room #38336~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38337
+D3
+~
+~
+0 -1 38335
+S
+#38337
+Room #38337~
+This description is yet unfinished...
+~
+383 d 0
+D2
+~
+~
+0 -1 38340
+D3
+~
+~
+0 -1 38336
+S
+#38338
+Room #38338~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38325
+D2
+~
+~
+0 -1 38341
+S
+#38339
+Room #38339~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38340
+D2
+~
+~
+0 -1 38343
+S
+#38340
+Room #38340~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38337
+D2
+~
+~
+0 -1 38344
+D3
+~
+~
+0 -1 38339
+S
+#38341
+Room #38341~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38338
+D1
+~
+~
+0 -1 38342
+S
+#38342
+Room #38342~
+This description is yet unfinished...
+~
+383 d 0
+D3
+~
+~
+0 -1 38341
+S
+#38343
+Room #38343~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38339
+S
+#38344
+Room #38344~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38340
+S
+#38345
+Room #38345~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38346
+S
+#38346
+Room #38346~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38347
+D3
+~
+~
+0 -1 38345
+S
+#38347
+Room #38347~
+This description is yet unfinished...
+~
+383 d 0
+D3
+~
+~
+0 -1 38346
+S
+#38348
+Room #38348~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38349
+Room #38349~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38350
+D2
+~
+~
+0 -1 38352
+S
+#38350
+(null)~
+~
+383 d 0
+D3
+~
+~
+0 -1 38349
+S
+#38351
+Room #38351~
+This description is yet unfinished...
+~
+383 d 0
+D2
+~
+~
+0 -1 38357
+S
+#38352
+Room #38352~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38349
+D2
+~
+~
+0 -1 38358
+S
+#38353
+Room #38353~
+This description is yet unfinished...
+~
+383 d 0
+D2
+~
+~
+0 -1 38361
+S
+#38354
+Room #38354~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38355
+S
+#38355
+Room #38355~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38356
+D3
+~
+~
+0 -1 38354
+S
+#38356
+Room #38356~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38357
+D2
+~
+~
+0 -1 38363
+D3
+~
+~
+0 -1 38355
+S
+#38357
+Room #38357~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38351
+D3
+~
+~
+0 -1 38356
+S
+#38358
+Room #38358~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38352
+D1
+~
+~
+0 -1 38359
+D2
+~
+~
+0 -1 38364
+S
+#38359
+Room #38359~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38360
+D3
+~
+~
+0 -1 38358
+S
+#38360
+Room #38360~
+This description is yet unfinished...
+~
+383 d 0
+D3
+~
+~
+0 -1 38359
+S
+#38361
+Room #38361~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38353
+D2
+~
+~
+0 -1 38370
+S
+#38362
+Room #38362~
+This description is yet unfinished...
+~
+383 d 0
+D2
+~
+~
+0 -1 38373
+S
+#38363
+Room #38363~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38356
+D2
+~
+~
+0 -1 38375
+S
+#38364
+Room #38364~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38358
+D1
+~
+~
+0 -1 38365
+S
+#38365
+Room #38365~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38366
+D3
+~
+~
+0 -1 38364
+S
+#38366
+Room #38366~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38367
+D3
+~
+~
+0 -1 38365
+S
+#38367
+Room #38367~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38368
+D3
+~
+~
+0 -1 38366
+S
+#38368
+Room #38368~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38369
+D3
+~
+~
+0 -1 38367
+S
+#38369
+Room #38369~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38370
+D3
+~
+~
+0 -1 38368
+S
+#38370
+Room #38370~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38361
+D1
+~
+~
+0 -1 38371
+D3
+~
+~
+0 -1 38369
+S
+#38371
+Room #38371~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38372
+D3
+~
+~
+0 -1 38370
+S
+#38372
+Room #38372~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38373
+D3
+~
+~
+0 -1 38371
+S
+#38373
+Room #38373~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38362
+D1
+~
+~
+0 -1 38374
+D3
+~
+~
+0 -1 38372
+S
+#38374
+Room #38374~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38375
+D3
+~
+~
+0 -1 38373
+S
+#38375
+Room #38375~
+This description is yet unfinished...
+~
+383 d 0
+D0
+~
+~
+0 -1 38363
+D3
+~
+~
+0 -1 38374
+S
+#38376
+Room #38376~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38377
+Room #38377~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38378
+Room #38378~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38379
+Room #38379~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38380
+S
+#38380
+Room #38380~
+This description is yet unfinished...
+~
+383 d 0
+D1
+~
+~
+0 -1 38381
+D3
+~
+~
+0 -1 38379
+S
+#38381
+Room #38381~
+This description is yet unfinished...
+~
+383 d 0
+D3
+~
+~
+0 -1 38380
+S
+#38382
+Room #38382~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38383
+Room #38383~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38384
+Room #38384~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38385
+Room #38385~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38386
+Room #38386~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38387
+Room #38387~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38388
+Room #38388~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38389
+Room #38389~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38390
+Room #38390~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38391
+Room #38391~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38392
+Room #38392~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38393
+Room #38393~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38394
+Room #38394~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38395
+Room #38395~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38396
+Room #38396~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38397
+Room #38397~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38398
+Room #38398~
+This description is yet unfinished...
+~
+383 d 0
+S
+#38399
+Room #38399~
+This description is yet unfinished...
+~
+383 d 0
+S
+$~

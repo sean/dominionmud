@@ -1,0 +1,49 @@
+#41000
+sword long iron~
+a long, iron sword~
+A long, iron sword is here stuck in the ground.~
+~
+5 0 an
+0 2 6 3
+7 100 100
+#41001
+cloak black hooded~
+a black, hooded cloak~
+A black cloak with a hood lies here.~
+~
+9 0 ak
+7 0 0 0
+4 200 80
+#41002
+scimitar curved~
+a black, curved scimitar~
+A scimitar lies here, its black blade wickedly curved.~
+~
+5 0 an
+0 2 7 3
+4 1875 400
+#41003
+dagger~
+a dagger~
+A small sharp dagger lies here with sand encrusted on the blade.~
+~
+5 0 an
+0 1 6 11
+3 500 100 
+#41004
+cloak leather~
+a leather cloak~
+A leather travellers cloak lies here dusted with sand.
+~
+9 0 ak
+4 0 0 0
+2 100 90
+#41005
+pack back backpack~
+a canvas backpack~
+A canvas backpack is lying here, dusted with red sand.~
+~
+9 0 ak
+4 0 0 0
+2 100 90
+$~ 

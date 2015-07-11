@@ -1,0 +1,46 @@
+#15100
+dwarf duergor~
+a menacing duergor~
+The Noname Monster is waiting here for nothing.~
+You see a dummy Monster.~
+100 525352 -1000 S
+25 12 10 2d100+50 3d10+20
+150000 400000
+8 8 1 2
+#15101
+shaman duergor dwarf~
+the duergor shaman~
+The Noname Monster is waiting here for nothing.~
+You see a dummy Monster.~
+4196 525352 -1000 S
+30 8 0 3d100+20 4d8+10
+150000 800000
+8 8 2 2
+#15102
+king duergor dwarf~
+Dankmine, the Duergor King~
+The Noname Monster is waiting here for nothing.~
+You see a dummy Monster.~
+2 128 -1000 S
+35 5 -50 10d50+50 5d10+20
+1000000 1000000
+8 8 1 2
+#15103
+dwarf slave~
+the dwarven slave~
+The Noname Monster is waiting here for nothing.~
+You see a dummy Monster.~
+4 0 1000 S
+10 15 70 2d20+0 2d4+2
+200 10000
+8 8 1 2
+#15104
+master duergor~
+the slavemaster~
+The Noname Monster is waiting here for nothing.~
+You see a dummy Monster.~
+100 1184 -1000 S
+32 5 -50 4d100+50 4d15+10
+10000 500000
+8 8 1 2
+$~

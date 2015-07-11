@@ -1,0 +1,1816 @@
+#20000
+The Dominion's Great and Mighty Map Room~
+   You stand in the middle of a spherical room.  As you turn you realize
+that the room forms a globe and you are standing inside of it, as if you
+were trapped in the middle of the earth.  The lands are all around you
+and you can see everything....too bad ASCII art sucks so bad, or I'd
+draw it for ya...
+~
+200 0 0
+S
+#20001
+Under Warrior's Way~
+   The Widmans River churns eastward, water flowing quickly under the
+western archway in Phalar's city wall.  Above a bridge called "Warrior's
+Way" seperates the main town from the training yard.  A few warriors
+heckle you as you travel underneath them, but the river is your main
+concern as the water crashes through the arch.  With quite a bit of
+effort you can move upstream to the west.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20002
+D3
+~
+~
+0 0 3900
+S
+#20002
+Southern Dock of Elrhinn~
+   You are at the southernmost section of the docks.  To the north,
+you see the docks continue connecting to the city between the great,
+towering walls.  To the east and west you see the Widman River stretch
+out its blue waters, beckoning you towards new journeys.
+~
+200 c 7 -268437728 0
+D0
+~
+~
+0 0 3087
+D1
+~
+~
+0 0 20003
+D3
+~
+~
+0 0 20001
+S
+#20003
+On the Widmans River~
+   The water rushes quickly by, splashing up into your boat.  The current
+pushes eastward through the city.  To the west you can see the busy docks
+of Phalar.  To the north you get a good view of the Southern Marketplace.
+People wander the stands trying to find a bargain on all those neccesities
+that they'll need to make it through another winter.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20004
+D3
+~
+~
+0 0 20002
+S
+#20004
+On the Widmans River~
+   The river passes underneath the southern bridge leading out of the
+city.  To the south is Darkweir Hallow, with dark trees covering the
+landscape as far as you can see.  Branches from some of the nearest
+trees seem to lurch forward toward you.  You decide that whoever thought
+to build the citywalls was one smart individual.  The water flows
+eastward.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20005
+D3
+~
+~
+0 0 20003
+S
+#20005
+On the Widmans River~
+   To the north lies the poorest sections of Phalar.  The crime and filth
+keep most of Phalar's citizens from entering, including many of the Guard.
+Drunks and beggars meander through the streets, going from alley to
+alley.  The only reason they are still alive is because they do not have
+anything that the thieves want.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20006
+D3
+~
+~
+0 0 20004
+S
+#20006
+Under the Western Archway~
+   Moss grows up from the riverbanks onto the archway through the west
+wall of Phalar.  Sunlight shines on the water to the east as the river
+moves out of the city.  With some effort you can move upstream to the
+west.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20007
+D3
+~
+~
+0 0 20005
+S
+#20007
+On the Widmans River~
+   As the water moves out of the city it shows its might by pushing the
+banks far apart, creating a very wide riverbed.  The southbank is much
+higher than the water level, but you can see that lush green grasslands
+stretch far to the south into hills on the horizon.  To the north
+lie beautiful trees basking in the glory of the sun.  Beyond the
+trees is a cluster of enormous peaks, rising through the clouds.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20008
+D3
+~
+~
+0 0 20006
+S
+#20008
+On the Widmans River~
+   The water becomes much colder as a stream from the south empties into
+the Widmans River.  You assume that the stream must be coming out of
+some sort of cavern.  The riverbank to the south is so high you cannot
+even see the plains now.  However, the cool breeze blowing into the
+riverbed reminds you that they are there.  To the north the mountains
+loom, some of them shaded by giant clouds moving across the sky.  The
+current keeps pushing your boat eastward, but you can move to the
+west without too much difficulty.
+~
+200 c 7 -268437728 0
+D1
+~
+~
+0 0 20009
+D3
+~
+~
+0 0 20007
+S
+#20009
+Bend in the Widmans River~
+   The river makes a sharp turn and you cannot help but admire the force
+of the water as it slams into the bank.  Dirt and rocks slide down the
+bank into the water, quickly getting wisked downstream.  Luckily the
+river is very wide here and you have no problem making the turn.
+   The water starts to move a bit faster northward as the banks narrow.
+Looking westward the city is barely visible far away on the horizon.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20010
+D3
+~
+~
+0 0 20008
+S
+#20010
+On the Widmans River~
+   The river changes directions, turning eastward once again and running
+as far as the eye can see.  Looking south, you get a great view of the
+South Hills that lie behind the plains.  On the northbank the mountains
+tower into the sky.  Trees grow to the base of the range, but you do
+not see many growing up the side of the mountains themselves.  To the
+east the riverbank slopes downward and there is a place you can exit
+from the river.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20011
+D2
+~
+~
+0 0 20009
+S
+#20011
+On the Widmans River~
+   The River Widmans flows quickly eastward, traveling straight to the
+horizon.  The water is a dark blue and you decide that a swim would not
+be in your best interests.  To the north, dry land extends into the water
+allowing easy access to and from the river.
+~
+200 c 7 -268437728 0
+D0
+~
+~
+0 0 11002
+D1
+~
+~
+0 0 20012
+D3
+~
+~
+0 0 20010
+S
+#20012
+On the Widmans River~
+   The dark water swirls under your boat, churning eastward.  To the west
+you see a possible exit from the river.  The banks to the north and south
+of you are high, limiting your sight of the things that may be hiding
+above.  The mountains to the north, towering into the sky, add a feeling
+of insecurity that seems to be sweeping over you.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20013
+D3
+~
+~
+0 0 20011
+S
+#20013
+On the Widmans River~
+   Rocks from the mountains to the north litter the river ahead.  The water
+starts to speed up and twist into strange pools as it crashes into the
+stones.  Only by paddling with all your strength can you move upstream
+to the west.  More rapids lie in the riverbed to the east.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20014
+D3
+~
+~
+0 0 20012
+S
+#20014
+In the Rapids~
+   Water tears at your boat from all sides, tossing you around like you
+weighed nothing at all.  Each rock jets out of a white crest toward you
+attempting to cut you in half.  Traveling upstream to the west might take
+every bit of strength you possess.  Downstream the rapids continue.
+~
+200 c 7 -268437728 0
+D1
+~
+~
+0 0 20015
+D3
+~
+~
+0 0 20013
+S
+#20015
+At the Rock of Pheenix~
+   A rock the size of a small mountain stands in the middle of the river.
+The water crashes against it from all sides and is immediately turned
+away.  The rock, named for the greatest priestess to walk the land in the
+days before the religious wars, ignores the forces of the water and basks
+in the sunlight as if nothing could touch it.  Somehow you manage to
+avoid crashing into the rock yourself; knowing that if the water wouldn't
+move it, then you surely couldn't either.
+   To the east the rapids continue.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20016
+D3
+~
+~
+0 0 20014
+S
+#20016
+In the Rapids~
+   The rocks reak havoc on the bottom and sides of your boat.  It is all you
+can do to not go crashing headfirst into one of the many boulders that
+line the stream like an oncoming army.  To the east the rapids seem to
+slow and the river widens.  Looking west you can see the Rock of Pheenix
+jetting high out of the water.
+~
+200 c 7 -268437728 0
+D1
+~
+~
+0 0 20017
+D3
+~
+~
+0 0 20015
+S
+#20017
+On the Widmans River~
+   The harshness of the water through the rapids is gone and the river
+moves peacefully eastward.  The mountains that lie to the north slowly
+become hills as the land follows the river.  The southbank has slowly
+declined as well.  On the horizon you see the river expanding even
+further.  Looking west you can see the rapids in the distance.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20018
+D3
+~
+~
+0 0 20016
+S
+#20018
+On the Widmans River~
+   The water continues its course eastward and as you look downstream
+you see the end of the river is close.  Without much difficulty you
+could move your vessel upstream to the west.  The riverbanks to the
+north and the south are almost even with the riverbed.  Hills have
+completely replace the mountains to the north, and the grassy plains
+run south as far as you can see.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20019
+D3
+~
+~
+0 0 20017
+S
+#20019
+On the Widmans River~
+   The water moves slowly as the river carves a wide channel through
+the land.  To the east you can see the end of the Widmans River as it
+pours its waters into the Sea of Tears.  A feeling of calm rushes over
+you as you feel the wind blowing eastward along the riverbed.  Nature
+overwhelms you and the light sounds of the water relax your thoughts
+for a moment.  But the moment is fleeting as you see the still water
+of the ocean to the east.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20020
+D3
+~
+~
+0 0 20018
+S
+#20020
+The Widmans River Delta~
+   The riverbanks to your north and south slowly slope downward and
+are quickly engulfed by high waves crashing in from the Sea of Tears
+to the east.  The dark ocean exerts a violent pull on your boat, trying
+to suck you eastward.  To the west the Widmans River flows toward you,
+carrying water from far off places; as far as the Jungles and the
+Western Mountains this water has steadily made its way eastward only
+to be engulfed into the Sea of Tears.
+~
+200 0 7 -268437728 0
+D1
+~
+~
+0 0 20021
+D3
+~
+~
+0 0 20019
+S
+#20021
+Sea of Tears~
+   The Widmans River pours into the sea far off on the western horizon.
+The dark blue waters pull you out into emptiness.  In certain spots
+of the sea the water is black as night, suggesting the ocean floor
+is probably miles and miles below you.  Besides the mountain range
+to the northwest the rolling Sea of Tears is all you can see.
+~
+200 c 7 -268437728 0
+D0
+~
+~
+0 0 20022
+D1
+~
+~
+0 0 20022
+D2
+~
+~
+0 0 20022
+D3
+~
+~
+0 0 20020
+S
+#20022
+Sea of Tears~
+   Though you watch the mountains carefully, the force of the waves push
+you further out to sea and the peaks fade away.  The water is peaceful
+enough, but you know that a small storm would reak havoc without measure.
+The Sea of Tears rolls off in all directions.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20023
+D1
+~
+~
+0 0 20025
+D2
+~
+~
+0 0 20026
+D3
+~
+~
+0 0 20021
+S
+#20023
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that if will be some time before you could
+reach dry land...or even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20023
+D1
+~
+~
+0 0 20024
+D2
+~
+~
+0 0 20023
+D3
+~
+~
+0 0 20023
+S
+#20024
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...or even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20024
+D1
+~
+~
+0 0 20029
+D2
+~
+~
+0 0 20024
+D3
+~
+~
+0 0 20023
+S
+#20025
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20023
+D1
+~
+~
+0 0 20030
+D2
+~
+~
+0 0 20028
+D3
+~
+~
+0 0 20022
+S
+#20026
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to they
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20026
+D1
+~
+~
+0 0 20027
+D2
+~
+~
+0 0 20026
+D3
+~
+~
+0 0 20026
+S
+#20027
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20027
+D1
+~
+~
+0 0 20028
+D2
+~
+~
+0 0 20024
+D3
+~
+~
+0 0 20026
+S
+#20028
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20031
+D1
+~
+~
+0 0 20032
+D2
+~
+~
+0 0 20027
+D3
+~
+~
+0 0 20027
+S
+#20029
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20029
+D1
+~
+~
+0 0 20029
+D2
+~
+~
+0 0 20031
+D3
+~
+~
+0 0 20024
+S
+#20030
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20024
+D1
+~
+~
+0 0 20031
+D2
+~
+~
+0 0 20028
+D3
+~
+~
+0 0 20025
+S
+#20031
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20029
+D1
+~
+~
+0 0 20031
+D2
+~
+~
+0 0 20032
+D3
+~
+~
+0 0 20030
+S
+#20032
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizions.  The sounds of the crests pushing you along start to grate
+your ears,  but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20031
+D1
+~
+~
+0 0 20032
+D2
+~
+~
+0 0 20033
+D3
+~
+~
+0 0 20028
+S
+#20033
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20032
+D1
+~
+~
+0 0 20033
+D2
+~
+~
+0 0 20034
+D3
+~
+~
+0 0 20032
+S
+#20034
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20033
+D1
+~
+~
+0 0 20035
+D2
+~
+~
+0 0 20024
+D3
+~
+~
+0 0 20033
+S
+#20035
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20034
+D1
+~
+~
+0 0 20036
+D2
+~
+~
+0 0 20035
+D3
+~
+~
+0 0 20034
+S
+#20036
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20035
+D1
+~
+~
+0 0 20037
+D2
+~
+~
+0 0 20036
+D3
+~
+~
+0 0 20035
+S
+#20037
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 0 7 -268437728 0
+D0
+~
+~
+0 0 20035
+D1
+~
+~
+0 0 20038
+D2
+~
+~
+0 0 20038
+D3
+~
+~
+0 0 20036
+S
+#20038
+Sea of Tears~
+   Waves pick up your boat, gliding it off in whatever direction they
+choose.  The Sea of Tears surrounds you, extending all the way to the
+horizons.  The sounds of the crests pushing you along start to grate
+your ears, but you know that it will be some time before you could
+reach dry land...even if you could find it again.
+~
+200 c 7 -268437728 0
+D0
+~
+~
+0 0 20038
+D1
+~
+~
+0 0 20039
+D2
+~
+~
+0 0 3910
+D3
+~
+~
+0 0 20037
+S
+#20039
+Sea of Tears~
+   You are sailing the vast Sea of Tears.  All about you the water sparkles
+and gleams in the golden sun.  Suddenly you notice a pier to the east!  
+A golden beach stretches on the eastern horizon filling your heart with
+wanderlust instead of the despair you had been feeling out in the Sea of
+Tears.
+~
+200 c 0
+D0
+~
+~
+0 0 20038
+D1
+~
+~
+0 0 10501
+D2
+~
+~
+0 0 20035
+D3
+~
+~
+0 0 20038
+S
+#20043
+The Entryway~
+   You are inside a long forgotten entryway of the Kobold Catacombs.
+You can see the light glow about the walls, spilling in from the outside.
+There is a dark passage leading off to the south, deeper into the catacombs,
+and just to the north you see the gated entryway.
+~
+200 ad 0
+D0
+~
+gate~
+1 0 35108
+D2
+You see a crack in the wall that you might be able to squeeze through.  
+Only darkness lies behind the fissure.
+~
+~
+0 -1 20044
+S
+#20044
+Tunnel Strewn with Rubble~
+  You've entered a tunnel strewn with rock debris, suggestive of recent 
+mining.  The tunnel is only five feet in diameter, and you feel a very 
+closed-in sensation.  The air is stangnant and smells of putrid sweat, and 
+the sounds of picks ringing against rock resonate throughout the tunnel.  
+The tunnel continues southward. 
+~
+200 ad 0
+D0
+Through the crack that has been hewn through the wall, you see the 
+entryway of the dungeon of Trimedel.
+~
+~
+0 -1 20043
+D2
+You see an intersection of tunnels.
+~
+~
+0 -1 20047
+S
+#20045
+Dead-end~
+You have reached a dead-end in the tunnel.  Buckets of rocks are strewn 
+about waiting to be carried off, as the miners continue to lenghten the tunnel.
+~
+200 ad 0
+D2
+You see an intersection of tunnels.
+~
+~
+0 -1 20050
+E
+bucket buckets rocks~
+The buckets are filled with rock freshly chiseled from the tunnel walls.
+~
+S
+#20046
+Turn in the Tunnel~
+As you work your way through the tight, freshly hewn tunnel, it twists 
+away southward.  The sounds of active mining are right around the corner.
+~
+200 ad 0
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20047
+D2
+You see a dead-end in the tunnel.
+~
+~
+0 -1 20053
+S
+#20047
+Intersection of Tunnels~
+You stand at the intersection of two narrow tunnels, one running 
+north-south, the other east-west.  You suspect you have entered a 
+catacomb of such tunnels.  The sounds of mining resonate from all 
+directions. 
+~
+200 ad 0
+D0
+The tunnel continues north into the darkness.
+~
+~
+0 -1 20044
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20048
+D2
+The tunnel continues south into the darkness.
+~
+~
+0 -1 20054
+D3
+You see a turn in the tunnel.
+~
+~
+0 -1 20046
+S
+#20048
+Narrow Tunnel~
+The narrow tunnel through the bedrock of Trimedel runs east-west.  The 
+sounds of mining are all about.  You see some markings scratched into the wall.
+~
+200 ad 0
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20049
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20047
+E
+markings scratches~
+The markings read, "Kobolds rule and Gnomes drool."
+~
+S
+#20049
+Narrow Tunnel~
+This narrow tunnel continues to run east-west, with the sounds of mining 
+intensifying in the eastward direction.
+~
+200 ad 0
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20050
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20048
+S
+#20050
+Intersection of Tunnels~
+Narrow tunnels running east-west and north-south meet here.  From the 
+north comes the sounds of active mining.
+~
+200 ad 0
+D0
+You see a dead-end in the tunnel.
+~
+~
+0 -1 20045
+D2
+The tunnel continues south into the darkness.
+~
+~
+0 -1 20057
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20049
+S
+#20051
+Turn in the Tunnel~
+The narrow tunnel makes a sharp turn here, continuing both east and 
+south.  By the sounds of pick on metal, miners must just be out sight in 
+the eastward direction.
+~
+200 ad 0
+D1
+You see a dead-end in the tunnel.
+~
+~
+0 -1 20052
+D2
+You see a turn in the tunnel.
+~
+~
+0 -1 20058
+S
+#20052
+Dead-end~
+You have reached a dead-end in the tunneling.  Buckets of rocks are strewn 
+about waiting to be carried off, as the miners countinue to dig away.
+~
+200 ad 0
+D3
+You see a turn in the tunnel.
+~
+~
+0 -1 20051
+E
+bucket buckets rocks~
+The buckets are filled with rock freshly chiseled from the tunnel walls.
+~
+S
+#20053
+Dead-end~
+You have reached a dead-end in the tunnel.  Buckets of rocks lay about 
+waiting to be carried off as miners continue to lengthen the tunnel.
+~
+200 ad 0
+D0
+You see a turn in the tunnel.
+~
+~
+0 -1 20046
+E
+bucket buckets rocks~
+The buckets are filled with rock freshly chiseled from the tunnel walls.
+~
+S
+#20054
+Narrow Tunnel~
+The narrow tunnel contiues it run from north to south.  The mining here, 
+as in the adjacent tunnels, looks recent.
+~
+200 ad 0
+D0
+You see an intersection of tunnels.
+~
+~
+0 -1 20047
+D2
+You see an intersection of tunnels.
+~
+~
+0 -1 20061
+S
+#20055
+Mouth of Partially Caved-In Tunnel~
+The tunnel takes a sharp turn here, with exits to the east and south.  
+The tunnel to the east has partially collapsed, and appears precarious at 
+best.
+~
+200 ad 0
+D1
+The tunnel is partially collapsed, and looks like it could finish falling 
+it at any moment.
+~
+~
+0 -1 20056
+D2
+You see a turn in the tunnel.
+~
+~
+0 -1 20062
+S
+#20056
+End of Partially Caved-In Tunnel~
+Well, you instincts were right.  Three-quarters of the way through the 
+collapsed portion of the tunnel you hit a tripwire, and barely managed to 
+escape being crushed to death as the roof of the tunnel fell in.  
+However, you see no exits from this room....
+~
+200 ad 0
+D0
+~
+~
+0 -1 20055
+S
+#20057
+Narrow Tunnel~
+The narrow tunnel runs north-south, with the distinct sound of mining 
+coming from the north, and little noise from the southward direction.
+~
+200 ad 0
+D0
+You see an intersection of tunnels.
+~
+~
+0 -1 20050
+D2
+You see an intersection of tunnels.
+~
+~
+0 -1 20064
+S
+#20058
+Turn in the Tunnel~
+The narrow tunnel makes a sharp turn here, continuing both north and 
+east.  The sounds of mining are most intense from the north.
+~
+200 ad 0
+D0
+You see a turn in the tunnel.
+~
+~
+0 -1 20051
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20059
+S
+#20059
+Narrow Tunnel~
+The narrow tunnel continues to run east-west, with the sounds of mining 
+most intense from the west.
+~
+200 ad 0
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20060
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20058
+S
+#20060
+Narrow Tunnel~
+The narrow tunnel continues to run east-west, with the sounds of mining 
+ringing loudest from the west.  You see a symbol carved into the north wall.
+~
+200 ad 0
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20061
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20059
+E
+symbol skull engraving north~
+An engraving of a gnome's skull has been chiseled here.
+~
+S
+#20061
+Intersection of Tunnels~
+The north-south tunnel has been intersected by a tunnel running 
+westward.  Sounds of mining are most intense from the west.
+~
+200 ad 0
+D0
+The tunnel continues north into the darkness.
+~
+~
+0 -1 20054
+D2
+The tunnel continues south into the darkness.
+~
+~
+0 -1 20069
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20060
+S
+#20062
+Turn in the Quiet Tunnel~
+The tunnel turns sharply here, continuing to the north and east.  An 
+eerie quiet hangs about this room.
+~
+200 ad 0
+D0
+You see a turn in the tunnel.
+~
+~
+0 -1 20055
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20063
+S
+#20063
+A Quiet Tunnel~
+You have entered a narrow tunnel running east-west, identical to all the 
+the others, except for an uncanny stillness that pervades here.
+~
+200 ad 0
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20064
+D3
+You see a turn in the tunnel.
+~
+~
+0 -1 20062
+S
+#20064
+Intersection of Tunnels~
+The narrow tunnel running north-south intersects a tunnel running 
+westward here.  The westward tunnel has a eerie quietness about it 
+compared to the other tunnels.
+~
+200 ad 0
+D0
+The tunnel continues north into the darkness.
+~
+~
+0 -1 20057
+D2
+The tunnel continues south into the darkness.
+~
+~
+0 -1 20072
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20063
+S
+#20065
+Hole in the Floor~
+You have entered a 10' x 10' room, with a 8' diameter hole in the floor.    
+~
+200 ad 0
+D1
+You see a roughly hewn hallway.
+~
+~
+0 -1 20066
+E
+hole floor~
+Upon closer examination of the hole in the floor you realize that it is a 
+large, circular staircase decending into the depths of the earth.
+~
+S
+#20066
+End of the Hallway~
+You have reached the end of the roughly hewn hallway, the hall ending 
+here except for a oaken door to the west.
+~
+200 ad 0
+D2
+The hallway continues south.
+~
+~
+0 -1 20073
+D3
+You see a small room.
+~
+~
+0 -1 20065
+S
+#20067
+Turn in the Tunnel~
+The tunnel makes another sharp turn, continuing to the east and south.  
+To the east, just out of sight, must be a mining team by all the racket 
+they are making.
+~
+200 ad 0
+D1
+You see a dead-end.
+~
+~
+0 -1 20068
+D2
+You see a turn in the tunnel.
+~
+~
+0 -1 20074
+S
+#20068
+Yet Another Dead-end~
+You have reached another dead-end.  Buckets of rocks are strewn about 
+waiting to be carried off, as the miners continue their tunneling.
+~
+200 ad 0
+D3
+You see a turn in the tunnel.
+~
+~
+0 -1 20067
+E
+bucket buckets rocks~
+The buckets are filled with rock freshly chiseled from the tunnel walls.
+~
+S
+#20069
+Narrow Tunnel~
+This tunnel continues to run north-south, with the sounds of mining 
+distant in both directions.
+~
+200 ad 0
+D0
+You see an intersection of tunnels.
+~
+~
+0 -1 20061
+D2
+The tunnel continues south into the darkness.
+~
+~
+0 -1 20076
+S
+#20070
+Twisting Tunnel~
+The tunnel turns sharply again, continuing to the east and south.
+~
+200 adi 0
+D1
+You see a sharp turn in the twisting tunnel.
+~
+~
+0 -1 20071
+D2
+You see a sharp turn in the twisting tunnel.
+~
+~
+0 -1 20077
+S
+#20071
+Twisting Tunnel~
+The tunnel continues twists sharply again, continuing to the west and south.
+~
+200 adi 0
+D2
+You see a sharp turn in the twisting tunnel.
+~
+~
+0 -1 20078
+D3
+You see a sharp turn in the twisting tunnel.
+~
+~
+0 -1 20070
+S
+#20072
+Narrow Tunnel~
+This narrow tunnel continues its run from north to south.
+~
+200 ad 0
+D0
+You see an intersection of tunnels.
+~
+~
+0 -1 20064
+D2
+You see a turn in the tunnel.
+~
+~
+0 -1 20079
+S
+#20073
+Roughly Hewn Hallway~
+The hallway continues to run north-south.  The lack of dust about suggests 
+that it is getting plenty of traffic.
+~
+200 ad 0
+D0
+You see the end of the hallway.
+~
+~
+0 -1 20066
+D2
+The hallway continues to the south.
+~
+~
+0 -1 20080
+S
+#20074
+Turn in the Tunnel~
+The tunnel makes a sudden turn here, continuing to the north and east.  
+The miners sound as if they are just around the corner.
+~
+200 ad 0
+D0
+You see a turn in the tunnel.
+~
+~
+0 -1 20067
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20075
+S
+#20075
+Narrow Tunnel~
+The narrow tunnel continues to run east-west.  Sounds of mining are 
+heard from the west.
+~
+200 ad 0
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20076
+D3
+You see a turn in the tunnel.
+~
+~
+0 -1 20074
+S
+#20076
+Intersection of Tunnels~
+You stand at the intersection of two tunnels, one running north-south, 
+the other east-west.  The sounds of mining are loudest from the west.  
+~
+200 ad 0
+D0
+The tunnel continues north into the darkness.
+~
+~
+0 -1 20069
+D1
+You see a very narrow, twisting tunnel to the east.
+~
+~
+0 -1 20077
+D2
+The tunnel continues south into the darkness.
+~
+~
+0 -1 20083
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20075
+S
+#20077
+Twisting Tunnel~
+This tunnel is narrower than the rest, maybe 4' in diameter, and quite a 
+tight squeeze.  Compounding the narrowness is the fact that it twists and 
+turns more sharply that the other tunnels.  The tunnel continues to the 
+north and west. 
+~
+200 adi 0
+D0
+You see a sharp turn in the twisting tunnel.
+~
+~
+0 -1 20070
+D3
+You see an intersection of tunnels.
+~
+~
+0 -1 20076
+S
+#20078
+Twisting Tunnel~
+This tunnel is narrower than the rest, maybe 4' in diameter, and quite a 
+tight squeeze.  Compounding the small dimensions is that it twists and 
+turns more sharply that the other tunnels.  The tunnel continues north 
+and east.
+~
+200 adi 0
+D0
+You see a sharp turn in the twisting tunnel.
+~
+~
+0 -1 20071
+D1
+You see a turn in the tunnel.
+~
+~
+0 -1 20079
+S
+#20079
+Turn in the Tunnel.~
+You have arrived at yet another sharp turn in the tunnel, with the tunnel 
+continuing west and north.
+ ~
+200 ad 0
+D0
+The tunnel continues north into the darkness.
+~
+~
+0 -1 20072
+D3
+You see a narrow, twisting tunnel.
+~
+~
+0 -1 20078
+S
+#20080
+Roughly Hewn Hallway~
+The hallway continues to run north-south.  The lack of dust suggests that 
+it is getting plenty of use.
+~
+200 ad 0
+D0
+The hallway continues to the north.
+~
+~
+0 -1 20073
+D2
+You see the hallway intersect a tunnel.
+~
+~
+0 -1 20087
+S
+#20081
+Turn in the Tunnel~
+The tunnel turns sharply here, continuing to the east and south.  The 
+sounds of mining are very close to the east.
+~
+200 ad 0
+D1
+You see a dead-end in the tunnel.
+~
+~
+0 -1 20082
+D2
+You see an intersection of tunnels.
+~
+~
+0 -1 20088
+S
+#20082
+Dead-end~
+You have reached a dead-end in the tunnel.  Buckets of rocks are strewn 
+about waiting to be carried off, as the miners continue their tunneling.
+~
+200 ad 0
+D3
+You see a turn in the tunnel.
+~
+~
+0 -1 20081
+E
+bucket buckets rocks~
+The buckets are filled with rock freshly chiseled from the tunnel walls.
+~
+S
+#20083
+Narrow Tunnel~
+The narrow tunnel continues to run north-south.  The sounds of mining 
+are most intense from the north. 
+~
+200 ad 0
+D0
+You see an intersection of tunnels.
+~
+~
+0 -1 20076
+D2
+You see an intersection of tunnels.
+~
+~
+0 -1 20090
+S
+#20084
+Dead-end~
+You have reached a dead-end in the tunnel.  Buckets of rocks are strewn 
+about waiting to be carried off, as the miners continue to tunnel away.
+~
+200 ad 0
+D1
+You see a turn in the tunnel.
+~
+~
+0 -1 20085
+E
+bucket buckets rocks~
+The buckets are filled with rock freshly chiseled from the tunnel walls.
+~
+S
+#20085
+Turn in the Tunnel~
+The tunnel turns sharply here, with exits to the west and south.  The 
+sounds of mining are just to the west.
+~
+200 ad 0
+D2
+You see an intersection of tunnels.
+~
+~
+0 -1 20092
+D3
+You see a dead-end of the tunnel.
+~
+~
+0 -1 20084
+S
+#20086
+Finally, a Well Finished Wall~
+This dead-end appears as any other, except it ends in a smooth, nearly 
+blemishless wall to the north.
+ ~
+200 ad 0
+D2
+You see a turn in the tunnel.
+~
+~
+0 -1 20093
+S
+#20087
+Roughly Hewn Hallway~
+You have entered a large hallway by the tunnel standards, nearly 10' in 
+height and width.  The walls are roughly hewn and  definitely not the 
+work of dwarves.  The hallway continues to the north.
+~
+200 ad 0
+D0
+You see the hallway continue to the north.
+~
+~
+0 -1 20080
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20088
+S
+#20088
+Intersection of Tunnels~
+The east-west tunnel intersects a tunnel running northward here, along 
+with a hallway to the west.
+~
+200 ad 0
+D0
+You see a turn in the tunnel.
+~
+~
+0 -1 20081
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20089
+D3
+You see a large hallway to the west.
+~
+~
+0 -1 20087
+S
+#20089
+Narrow Tunnel~
+The tunnel continues east and west.  To the west the sounds of mining are 
+most intense.
+ ~
+200 ad 0
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20090
+D3
+You see an intersection of tunnels.
+~
+~
+0 -1 20088
+S
+#20090
+Intersection of Tunnels.~
+The north-south tunnel ends here, intersecting a tunnel running 
+east-west.  Sounds of mining come from both the east and west.
+~
+200 ad 0
+D0
+The tunnel continues north into the darkness.
+~
+~
+0 -1 20083
+D1
+The tunnel continues east into the darkness.
+~
+~
+0 -1 20091
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20089
+S
+#20091
+Narrow Tunnel~
+The tunnels continous in both to both the east and west.  The sounds of 
+mining are most intense from the east. 
+~
+200 ad 0
+D1
+You see an intersection of tunnels.
+~
+~
+0 -1 20092
+D3
+You see an intersection of tunnels.
+~
+~
+0 -1 20090
+S
+#20092
+Intersection of Tunnels~
+The east-west tunnel intersects a tunnel running northward here.  The 
+sounds of mining are intense from the northward tunnel.
+~
+200 ad 0
+D0
+You see a turn in the tunnel.
+~
+~
+0 -1 20085
+D1
+You see a turn in the tunnel.
+~
+~
+0 -1 20093
+D3
+The tunnel continues west into the darkness.
+~
+~
+0 -1 20091
+S
+#20093
+Turn in the Tunnel~
+The tunnel turns sharply here, continuing to the north and west.  The 
+sounds of mining can only be heard to the west.
+~
+200 ad 0
+D0
+You see a dead-end in the tunnel.~
+~
+0 -1 20086
+D3
+You see an intersection of tunnels.
+~
+~
+0 -1 20092
+S
+#20094
+Crevice in Rock~
+Well, there are consequences to teleporting into spaces smaller that the 
+volume your body requires.  If it is a consolation, you think you caught a 
+brief glimpse of the AmberStone prior to your atoms integrating into the 
+solid rock.
+~
+200 b 0
+S
+$~

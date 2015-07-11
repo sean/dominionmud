@@ -1,0 +1,386 @@
+#1100
+axxen shopkeeper woman~
+Axxen, the Bread Maker~
+A rather large woman stands behind the counter preparing another loaf.
+~
+You see nothing special.~
+bdenop r 1000 S
+42 1 0 1d1+10000 1d1+35
+100000 0
+8 8 2
+#1101
+man old alchemist~
+the Alchemist~
+An aged gnome sits here mixing potions behind the counter.
+~
+He looks very tired and bored with his job as if he thinks he would make 
+a good adventurer.
+~
+bdenop r 1000 S
+41 1 0 1d1+10000 1d1+35
+100000 0
+8 8 1
+#1102
+mage old~
+the old mage~
+A mage sits muttering to himself as he frantically writes on a parchment.
+~
+The mage is quite old and has a wild look in his eye.  His teeth are
+not well kept.
+~
+bdenop r 1000 S
+41 1 0 1d1+10000 1d1+35
+100000 0
+8 8 1
+#1103
+man shopkeeper boy worker apprentice~
+the young apprentice~
+A young boy sits in a chair sewing together a leather jerkin.
+~
+The boy is the apprentice and looks to be in charge of the shop
+while the master is not present.
+~
+bdenop r 1000 S
+41 1 0 1d1+10000 1d1+35
+100000 0
+8 8 1
+#1104
+fletcher man~
+the Fletcher~
+A man sits comfortably in a chair stringing a bow.
+~
+He looks wisened beyond his years.
+~
+bdenop r 1000 S
+41 1 50 1d1+10000 1d1+35
+100000 0
+8 8 1
+#1105
+guard sentry sentinel~
+a silver-clad sentinel~
+A sentry stands vigilant nigh the gate watching the horizon.
+~
+A sentinel stands here clad in silver steel.  He cares not of your
+presence, only sweeps his gaze along the horizon.
+~
+bdenop r 1000 S
+23 49 75 1d1+5000 10d7+80
+10 0
+8 8 1
+#1106
+kruk butcher~
+the butcher~
+A large man, arms spattered with blood and grisle stands behind the counter.
+~
+Kruk is quite large and wears a scowl on his face.  His arms are spattered
+with the blood of the meat he chops hours on end.
+~
+bde ar 0 S
+38 10 102 30d100+3000 4d10+20
+25000 30000
+8 8 1
+#1107
+guard dragoon~
+a silver dragoon~
+A dragoon stands here clad in silver armor watching the streets.
+~
+The dragoon is an extremely large soldier, and well paid by the
+looks of his outfit.  He wears a strange black mask which covers
+most of his face.
+~
+dgm mr 800 S
+15 10 92 30d2+120 4d2+8
+1000 10000
+8 8 1
+#1108
+apprentice~
+the young apprentice~
+A young apprentice pounds a heavy sheet of steel into armor at the forge.
+~
+Although he is probably not a day older than 14, his skin looks like
+the steel he pounds so fervently.  His hair is matted with sweat which
+runs like rivers down his face.
+~
+bd r 800 S
+23 20 101 10d50+2500 20d2+20
+50000 100000
+8 8 1
+#1109
+female commoner~
+a commoner~
+A commoner bustles past you in a hurry.
+~
+She has plain, drab features but wears a smile nonetheless.  In her
+eyes you see that she is in a hurry for something.
+~
+dg 0 800 S
+2 7 106 2d6+3 1d3+1
+9 45
+8 8 2
+#1110
+commoner male~
+a commoner~
+A commoner is here strolling through the streets of the city.
+~
+He has a red nose from possibly too many Dragon Flames.  He walks about
+slowly, admiring each and every site as if it were his first viewing.
+~
+dg 0 700 S
+2 1 69 5d2+5 2d1+3
+6 69
+8 8 1
+#1111
+gnome merchant~
+a gnomish merchant~
+A short, little gnome is on his way to sell his wares to the shops.
+~
+The little gnome is of the hyperactive nature, but may seem calm
+compared to his brethren.  He has a pack slung over his shoulder which
+jingles and jangles as the stuff inside rattles about.
+~
+dg 0 300 S
+3 2 25 2d6+6 2d2+2
+60 89
+8 8 1
+#1112
+durin whyteflame weaponsmith smith~
+Durin Whyteflame~
+The weaponsmith stands beside a hot forge wiping his brow.
+~
+Durin pushes a mound of blond hair out of his eyes and looks at you.
+His eyes look to be made of gold like the color of his skin.
+~
+bd r 800 S
+38 50 43 100d10+500 5d7+50
+50000 125000
+8 8 1
+#1113
+lady woman~
+a well-dressed lady~
+A well-dressed lady is on a stroll here.
+~
+She is outfitted in the latest fashionables.  Her hair is pulled back
+tight and she wears a haughty mask of a smile on her face.
+~
+dg 0 360 S
+3 1 39 1d12+6 2d2+1
+100 10
+8 8 0
+#1114
+darkenguard~
+the Darkenguard~
+A darkenguard stands here ready to flay the flesh from your bones.
+~
+The darkenguard is but a black shape against the blackness of the
+Wasteland.  Two dark burning spheres of light peer out from the
+shroud of darkness surrounding it.
+~
+dgjko kr -1000 E
+25 30 82 80d2+680 7d3+65
+7000 180000
+8 8 0
+Race: 34
+E
+#1115
+shadow jade hobbit~
+Jade~
+A shadow faintly resembling a hobbit is here.
+~
+Jade, last of the hobbits, dealer in death, and survivor of the
+great Half-orc inquisition in the year of the Black Fire wears a 
+cloak over his grey, shadowed face.  As he notices you he flips hiso
+weapon into a fighting position and awaits your next move.
+~
+bdeq cr 0 E
+13 18 76 2d80+50 3d7+8
+5000 26000
+8 8 1
+BareHandAttack: 14
+E
+#1116
+tinker gnome~
+the gnomish tinker~
+A wiry, old gnome frets over a strange contraption he is working on.
+~
+With his spectacles resting on the front of his enlongated nose, the tinker
+swears obscenities at the object in his hands which seems to be unagreeable
+in getting itself fixed.
+~
+d 0 1000 E
+35 73 53 70d140+10000 3d20+83
+100000 10000
+8 8 1
+Str: 21
+Dex: 18
+Int: 18
+Wis: 21
+Con: 18
+Cha: 19
+Race: 3
+E
+#1117
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 50 1d1+1 1d1+1
+1 1
+8 8 0
+#1118
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 13 1d1+1 1d1+1
+1 1
+8 8 0
+#1119
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 2 1d1+1 1d1+1
+1 1
+8 8 0
+#1120
+sentinel dwarven dwarf~
+the dwarven sentinel~
+A squat sentinel with an air of strength and will stands here before the gate.
+~
+The dwarf is short and brawny with a grissled beard which hangs down
+to his britches stands here protecting the gates of the castle.
+His armor is silver and covered with strange runes.
+~
+bdqv hr 1000 E
+20 43 44 10d40+700 5d2+56
+0 89000
+8 8 1
+Str: 14
+Dex: 12
+Int: 13
+Wis: 12
+Con: 13
+Race: 11
+Height: 53
+Weight: 143
+E
+#1121
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 17 1d1+1 1d1+1
+1 1
+8 8 0
+#1122
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 2 1d1+1 1d1+1
+1 1
+8 8 0
+#1123
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#1124
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#1125
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#1126
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#1127
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#1128
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#1129
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#1130
+unfinished mob~
+and unfinished mob~
+An unfinished mob is standing here.
+~
+It is unfinished.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+$~

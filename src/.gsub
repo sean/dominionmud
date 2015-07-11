@@ -1,0 +1,9 @@
+# !/bin/csh
+# Do global replacement of string in all source code files.
+# I use this all the time, but I advise you to be careful
+# -Fusion
+for file in *.c *.h 
+do
+sed -e "s/$1/$2/g" $file > ${file}.temp
+mv ${file}.temp $file
+done

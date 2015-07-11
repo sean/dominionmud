@@ -1,0 +1,208 @@
+#25500
+cocoon~
+a shimmering cocoon~
+A shimmering cocoon is attached to the branch here.~
+~
+15 0 a
+800 4 -1 0 0 0 0 0 14
+800 10 1
+E
+cocoon~
+The cocoon shines in the sunlight, through a small crack in the shell
+you think you see something inside it.
+~
+#25501
+acorn~
+an acorn~
+An acorn has been dropped here.~
+~
+19 0 a
+8 0 0 0 0 0 0 0 14
+1 2 1
+E
+nut acorn~
+A small little nut, looks like it might be kind of tasty, though.
+~
+#25502
+owl feather~
+an owl feather~
+A tan feather with brown spots is on the ground.~
+~
+9 0 am
+1 0 0 0 0 0 0 0 14
+2 100 10
+E
+owl feather~
+The feather is in good shape, as if plucked gently out of a bird.
+~
+A
+14 5
+#25503
+brambles crown~
+Crown of Brambles~
+A group of thorny vines lies here intertwined within each other.~
+~
+9 o ae
+5 0 0 0 0 0 0 0 14
+4 1000 100
+E
+crown brambles~
+The thorns seem to be weaved together to form a crown.
+~
+A
+2 -1
+A
+12 5
+#25504
+egg snipe~
+the Snipe Egg~
+A misty black egg is here shunning all other objects away.~
+~
+5 0 ao
+0 1 2 6 0 0 0 0 14
+4 400 100
+E
+egg snipe~
+You can almost see movement in the swirling pattern of the egg.
+~
+#25505
+fur beaver~
+a beaver fur~
+A brown fur has been tossed on the ground.~
+~
+9 0 aj
+5 0 0 0 0 0 0 0 14
+10 300 60
+E
+fur beaver~
+The beaver fur looks like it would protect you well.
+~
+#25506
+potion crytstal~
+a crystal-clear potion~
+A flask containing crystal-clear liquid is here.~
+~
+10 0 a
+24 69 70 84 0 0 0 0 14
+1 700 50
+E
+flask~
+Through the flask you notice that the liquid doesn't distort the image.
+~
+#25507
+banner night tribe~
+Night Tribe Banner~
+A large war banner with the words "Night Tribe' upon it lies here.~
+~
+1 0 ao
+0 0 -1 0 0 0 0 0 14
+0 0 0
+#25508
+key small~
+a small key~
+A small key lies here with a black ribbon about the ring.~
+~
+18 0 amno
+0 0 -1 0 0 0 0 8 1
+1 0 0
+#25576
+cair muhr medallion mark~
+the Mark of Cair Muhr~
+A strange medallon rests here.~
+~
+3 adfhjlq acm
+10 666 100 66 0 0 0 0 14
+2 100000 600
+E
+mark~
+Some how this medallion fixes itself over the heart. A strange mark lies
+in the middle glowing with a purple sheen! This is the adornment for those
+who choose the path of war! The lord Cair Muhr.
+~
+A
+24 -15
+A
+17 -25
+A
+18 3
+#25577
+altar~
+a large stone altar~
+A large, granite altar sits in the middle of the room.~
+~
+15 ae a
+100000 0 -1 0 0 0 0 0 14
+10000 0 0
+#25578
+shield ancient red~
+a round, red shield~
+A round shield lies here adorned with the symbol of Cair.~
+~
+9 adjlq am
+5 1000 1000 25 0 0 0 0 14
+4 1000000 9000
+E
+symbol~
+A mural of the goddess Cair Muhr leading her army to war is engraved upon
+this deep blood purple shield. There has been a fiery green emerald pressed
+into the middle of the mural. This emerald marks your spot on the shield...
+At the right hand of Cair Muhr.
+~
+A
+17 -25
+A
+13 10
+#25579
+warhammer purple mallet~
+a purple war mallet~
+A hammer crafted of some strange purple alloy rests here.~
+~
+5 bdejlqs am
+5 3 8 5 0 0 0 0 14
+4 10000000 9000
+E
+purple alloy~
+Made of some purple alloy this weapon looks very well used. Supprising light,
+this warhammer is cold to the touch. You notice the fiery green emerald 
+which has been inserted into the handle to remind you that this is deffinately
+a gift bestowed upon you by the Goddess, Cair Muhr. Your not sure, but ever
+since you have picked this weapon up thoughts of bludgeoning someone to
+death have entered you mind. The chaotic rage begins to grow within 
+you... 
+~
+A
+19 2
+A
+13 15
+#25580
+religion board cair~
+Cair's Board~
+A large board has been placed here.~
+~
+13 0 0
+0 0 0 0 0 0 0 0 14
+100000 0 0
+E
+board~
+If you can read this the board must not be working!
+~
+#25581
+war~
+a Scimitar made of Obsidian~
+A long black obsidian scimitar with a gold handle protrudes from the floor.~
+~
+5 djlqx am
+5 3 8 10 0 0 0 0 14
+15 6000000 1000
+E
+war~
+A long scimitar made of the black volcanic glass obsidian with a handle 
+made of gold has been crafted by the Great Goddess of War, Cair Muhr.
+This is the most delightful treat she has to offer her most loyal, and
+the Leader of her Cause....her Avatar's weapon!
+~
+A
+19 3
+A
+18 3
+$~

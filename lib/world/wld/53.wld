@@ -1,0 +1,3789 @@
+#5300
+Outside the Western Gates of Mytherandil~
+   You exit the city of Mytherandil and begin walking down a well-trodden
+path leading towards what appears to be an arena of some sort.  There are
+many battles going on, each seperated from the rest.  There are several
+spectators lined up to see the bloodshed all screaming at the top of
+their lungs.
+~
+53 c 0
+D1
+~
+~
+0 0 1173
+D3
+~
+~
+0 0 5301
+S
+#5301
+Road to the Arena~
+   As you come closer to the arena, you see that it is much bigger than you
+first thought.  A wall seperates one side of the battlefield from the other.
+On the further side of the battlefield are a set of stands with many more
+screaming spectators.
+~
+53 c 0
+D1
+~
+~
+0 0 5300
+D3
+~
+~
+0 0 5302
+S
+#5302
+Southeast Corner of Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield and you can see entrances to
+the arena on the south and east sides.  The entrance to the south is a large
+gate through which the fighters are entering.  The entrance to the east seems
+to go up a ramp onto the wall in the center of the battlefield.  Atop the
+wall are several archers.  Probably posted to make sure that there is no
+foul play.  On the western side you can see the stands containing the fans.
+~
+53 0 0
+D0
+~
+~
+0 0 5303
+D1
+~
+~
+0 0 5301
+D2
+~
+~
+0 0 5304
+D3
+~
+~
+0 0 5305
+S
+#5303
+East Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5306
+D2
+~
+~
+0 0 5302
+S
+#5304
+A Dirt Road~
+   You walk down a dirt road that seems to take you away from The Arena.
+Far away you see what appears to be a desert.  And if it is a desert, it
+must be the Desert of Demise.  One of the most feared places in all of The
+Dominion.
+~
+53 c 0
+D0
+~
+~
+0 0 5302
+D2
+~
+~
+0 0 5377
+S
+#5305
+South Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5302
+D3
+~
+~
+0 0 5307
+S
+#5306
+East Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5308
+D2
+~
+~
+0 0 5303
+S
+#5307
+South Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5305
+D3
+~
+~
+0 0 5309
+S
+#5308
+East Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  Here the gates separate
+and a ramp leads up the wall.  Atop the wall are several archers.  Probably
+posted to make sure that there is no foul play.
+~
+53 0 0
+D0
+~
+~
+0 0 5310
+D2
+~
+~
+0 0 5306
+D3
+~
+~
+0 0 5331
+S
+#5309
+Southern Gate to The Arena~
+   You stand on a cobblestone path most commonly known as Arena Road.  You
+are now standing at the Southern Gate of The Arena.  You can sign up here
+to enter The Arena.  Fighters brush by you rudely seemingly in a rush to
+enter The Arena.
+~
+53 c 0
+D0
+~
+~
+0 0 5332
+D1
+~
+~
+0 0 5307
+D3
+~
+~
+0 0 5311
+S
+#5310
+East Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5312
+D2
+~
+~
+0 0 5308
+S
+#5311
+South Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5309
+D3
+~
+~
+0 0 5313
+S
+#5312
+East Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5314
+D2
+~
+~
+0 0 5310
+S
+#5313
+South Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5311
+D3
+~
+~
+0 0 5315
+S
+#5314
+Northeast Corner of Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield and you can see entrances to
+the arena on the north and east sides.  The entrance to the north is a large
+gate through which the fighters are entering.  The entrance to the east seems
+to go up a ramp onto the wall in the center of the battlefield.  Atop the
+wall are several archers.  Probably posted to make sure that there is no
+foul play.  On the western side you can see the stands containing the fans.
+~
+53 0 0
+D2
+~
+~
+0 0 5312
+D3
+~
+~
+0 0 5316
+S
+#5315
+Southwest Corner of Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield and you can see entrances to
+the arena on the south and west sides.  The entrance to the south is a large
+gate through which the fighters are entering.  The entrance to the west seems
+to go up a ramp onto the wall in the center of the battlefield.  Atop the
+wall are several archers.  Probably posted to make sure that there is no
+foul play.  On this side you can see the stands containing the fans.
+~
+53 0 0
+D0
+~
+~
+0 0 5317
+D1
+~
+~
+0 0 5313
+S
+#5316
+North Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5314
+D3
+~
+~
+0 0 5318
+S
+#5317
+West Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5319
+D2
+~
+~
+0 0 5315
+S
+#5318
+North Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5316
+D3
+~
+~
+0 0 5320
+S
+#5319
+West Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5321
+D2
+~
+~
+0 0 5317
+S
+#5320
+Northern Gate of The Arena~
+   You stand on a cobblestone path most commonly known as Arena Road.  You
+are now standing at the Northern Gate of The Arena.  You can sign up here
+to enter The Arena.  Fighters brush by you rudely seemingly in a rush to
+enter The Arena.
+~
+53 c 0
+D1
+~
+~
+0 0 5318
+D2
+~
+~
+0 0 5342
+D3
+~
+~
+0 0 5322
+S
+#5321
+West Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  Here the gates separate
+and a ramp leads up the wall.  Atop the wall are several archers.  Probably
+posted to make sure that there is no foul play.
+~
+53 0 0
+D0
+~
+~
+0 0 5323
+D1
+~
+~
+0 0 5327
+D2
+~
+~
+0 0 5319
+D3
+~
+~
+0 0 5353
+S
+#5322
+North Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5320
+D3
+~
+~
+0 0 5324
+S
+#5323
+West Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5325
+D2
+~
+~
+0 0 5321
+S
+#5324
+North Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D1
+~
+~
+0 0 5322
+D3
+~
+~
+0 0 5326
+S
+#5325
+West Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield.  The battlefield is enclosed
+by giant steel poles welded together in a beautiful criss-cross pattern.
+You can peer into the arena and see the battles clearly, but you cannot
+get in without entering through a gate.
+~
+53 0 0
+D0
+~
+~
+0 0 5326
+D2
+~
+~
+0 0 5323
+S
+#5326
+Northwest Corner of Arena Road~
+   You stand on a cobblestone path most commonly known as Arena Road.  It
+winds completely around the actual battlefield and you can see entrances to
+the arena on the north and west sides.  The entrance to the north is a large
+gate through which the fighters are entering.  The entrance to the west seems
+to go up a ramp onto the wall in the center of the battlefield.  Atop the
+wall are several archers.  Probably posted to make sure that there is no
+foul play.  On the this side you can see the stands containing the fans.
+~
+53 0 0
+D1
+~
+~
+0 0 5324
+D2
+~
+~
+0 0 5325
+S
+#5327
+Atop the Arena Wall~
+   As you make your way up the ramp onto the wall you can now clearly see
+both sides of the battlefield.  From this view you can even see the city
+of Mytherandil off to the east.  Far off to the west and to the south
+expands a very large desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5328
+D3
+~
+~
+0 0 5321
+S
+#5328
+Atop the Arena Wall~
+   The view from here is exquisite.  You can see the city of Mytherandil in
+all of its majesty.  Far off to the west and to the south expands a very
+large desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5329
+D3
+~
+~
+0 0 5327
+S
+#5329
+Center of Arena Wall~
+   You stand at the highest point of the Arena Wall.  You can clearly see
+the entire battlefield as well as much of the land of The Dominion.  The
+city of Mytherandil seems small from this height.  The desert covering the
+land to the south and west stretches as far as you can see.  You can see
+what appears to be the glinting of water to the north.
+~
+53 0 0
+D1
+~
+~
+0 0 5330
+D3
+~
+~
+0 0 5328
+D5
+~
+trapdoor~
+1 0 5352
+S
+#5330
+Atop the Arena Wall~
+   The view from here is exquisite.  You can see the city of Mytherandil in
+all of its majesty.  Far off to the west and to the south expands a very
+large desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5331
+D3
+~
+~
+0 0 5329
+S
+#5331
+Atop the Arena Wall~
+   As you make your way up the ramp onto the wall you can now clearly see
+both sides of the battlefield.  From this view you can even see the city
+of Mytherandil off to the east.  Far off to the west and to the south
+expands a very large desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5308
+D3
+~
+~
+0 0 5330
+S
+#5332
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5333
+D1
+~
+~
+0 0 5338
+D2
+~
+~
+0 0 5309
+D3
+~
+~
+0 0 5334
+S
+#5333
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D1
+~
+~
+0 0 5340
+D2
+~
+~
+0 0 5332
+D3
+~
+~
+0 0 5336
+S
+#5334
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5336
+D1
+~
+~
+0 0 5332
+D3
+~
+~
+0 0 5335
+S
+#5335
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5337
+D1
+~
+~
+0 0 5334
+S
+#5336
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D1
+~
+~
+0 0 5333
+D2
+~
+~
+0 0 5334
+D3
+~
+~
+0 0 5337
+S
+#5337
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D1
+~
+~
+0 0 5336
+D2
+~
+~
+0 0 5335
+S
+#5338
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5340
+D1
+~
+~
+0 0 5339
+D3
+~
+~
+0 0 5332
+S
+#5339
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5341
+D3
+~
+~
+0 0 5338
+S
+#5340
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D1
+~
+~
+0 0 5341
+D2
+~
+~
+0 0 5338
+D3
+~
+~
+0 0 5333
+S
+#5341
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D2
+~
+~
+0 0 5339
+D3
+~
+~
+0 0 5340
+S
+#5342
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5320
+D1
+~
+~
+0 0 5348
+D2
+~
+~
+0 0 5343
+D3
+~
+~
+0 0 5344
+S
+#5343
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5342
+D1
+~
+~
+0 0 5350
+D3
+~
+~
+0 0 5346
+S
+#5344
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D1
+~
+~
+0 0 5342
+D2
+~
+~
+0 0 5346
+D3
+~
+~
+0 0 5345
+S
+#5345
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D1
+~
+~
+0 0 5344
+D2
+~
+~
+0 0 5347
+S
+#5346
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5344
+D1
+~
+~
+0 0 5343
+D3
+~
+~
+0 0 5347
+S
+#5347
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5345
+D1
+~
+~
+0 0 5346
+S
+#5348
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D1
+~
+~
+0 0 5349
+D2
+~
+~
+0 0 5350
+D3
+~
+~
+0 0 5342
+S
+#5349
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D2
+~
+~
+0 0 5351
+D3
+~
+~
+0 0 5348
+S
+#5350
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5348
+D1
+~
+~
+0 0 5351
+D3
+~
+~
+0 0 5343
+S
+#5351
+A Battlefield~
+   You are standing in a large field.  The grass here has been crushed flat
+by the boots of the warriors and creatures which have fought here.  There
+is a dark red stain to the dirt beneath the grass.
+~
+53 0 0
+D0
+~
+~
+0 0 5349
+D3
+~
+~
+0 0 5350
+S
+#5352
+Room Inside Arena Wall~
+   You descend into a narrow room.  Two archers stand here on either side of
+the inside of the wall peeking through small holes.  Maybe they are just here
+in the event of an emergency.
+~
+53 0 0
+D4
+~
+trapdoor~
+1 0 5329
+S
+#5353
+Below the Bleachers~
+   Above you is the first of three rows of seats that hold the fans here
+to watch the battles in The Arena.
+~
+53 c 0
+D1
+~
+~
+0 0 5321
+D4
+~
+~
+0 0 5354
+S
+#5354
+First Row of the Bleachers~
+   You reach the top of the first set of steps.  Off to your left and right
+are a bunch of seats with a thin leather padding on them.  They look quite
+uncomfortable.  Maybe that's why most of the fans are standing.
+~
+53 0 0
+D0
+~
+~
+0 0 5358
+D2
+~
+~
+0 0 5355
+D3
+~
+~
+0 0 5361
+D5
+~
+~
+0 0 5353
+S
+#5355
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5354
+D2
+~
+~
+0 0 5356
+S
+#5356
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5355
+D2
+~
+~
+0 0 5357
+S
+#5357
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5356
+S
+#5358
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5359
+D2
+~
+~
+0 0 5354
+S
+#5359
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5360
+D2
+~
+~
+0 0 5358
+S
+#5360
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D2
+~
+~
+0 0 5359
+S
+#5361
+Below the Second Row of Bleachers~
+   Above you is the second of three rows of seats that hold the fans here
+to see the battles in The Arena.
+~
+53 0 0
+D1
+~
+~
+0 0 5354
+D4
+~
+~
+0 0 5362
+S
+#5362
+Second Row of the Bleachers~
+   You reach the top of the second set of steps.  Off to your left and right
+are a bunch of seats with a thin leather padding on them.  They look quite
+uncomfortable.  Maybe that's why most of the fans are standing.
+~
+53 0 0
+D0
+~
+~
+0 0 5366
+D2
+~
+~
+0 0 5363
+D3
+~
+~
+0 0 5369
+D5
+~
+~
+0 0 5361
+S
+#5363
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5362
+D2
+~
+~
+0 0 5364
+S
+#5364
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5363
+D2
+~
+~
+0 0 5365
+S
+#5365
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5364
+S
+#5366
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5367
+D2
+~
+~
+0 0 5362
+S
+#5367
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5368
+D2
+~
+~
+0 0 5366
+S
+#5368
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D2
+~
+~
+0 0 5367
+S
+#5369
+Below the Third Row of Bleachers~
+   Above you is the last of three rows of seats that hold the fans here
+to see the battles in The Arena.
+~
+53 0 0
+D1
+~
+~
+0 0 5362
+D4
+~
+~
+0 0 5370
+S
+#5370
+Top Row of Bleachers~
+   You reach the top of the last set of steps.  Off to your left and right
+are a bunch of seats with a thin leather padding on them.  They look quite
+uncomfortable.  Maybe that's why most of the fans are standing.
+~
+53 0 0
+D0
+~
+~
+0 0 5374
+D2
+~
+~
+0 0 5371
+D5
+~
+~
+0 0 5369
+S
+#5371
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5370
+D2
+~
+~
+0 0 5372
+S
+#5372
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5371
+D2
+~
+~
+0 0 5373
+S
+#5373
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5372
+S
+#5374
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5375
+D2
+~
+~
+0 0 5370
+S
+#5375
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D0
+~
+~
+0 0 5376
+D2
+~
+~
+0 0 5374
+S
+#5376
+In The Bleachers~
+   From here you have a good view of the battlefield.  Probably why these
+bleachers are here.  The seats are made of steel, just like the fence and
+the supports of the bleachers.  A thin piece of leather has been strapped
+to each seat to improve comfort.  How cheap.
+~
+53 0 0
+D2
+~
+~
+0 0 5375
+S
+#5377
+A Split in the Dirt Road~
+   Here the road splits off into two paths.  One runs north and south,
+and to the northeast you can see a the city walls of Mytherandil.
+To the south the path seems to get very thin.  The road to the west
+most likely leads to the Desert of Demise.
+~
+53 c 0
+D0
+~
+~
+0 0 5304
+D2
+~
+~
+0 0 5378
+D3
+~
+~
+0 0 5380
+S
+#5378
+A Turn in the Dirt Road~
+   At first glance the road seems to end here.  Upon closer inspection,
+you can see that the road simply fades into a small pathwhich goes
+through a gate of tall trees.  Through those trees it appears to get
+very, very dark.
+~
+53 c 0
+D0
+~
+~
+0 0 5377
+D1
+~
+~
+0 0 5379
+S
+#5379
+A Wooden Alcove~
+  The road gets narrow and finally fades away as you enter a small,
+wooden alcove.  The trees seem to bend inward as if to cover this
+place from the sunlight.  The air here seems clear and fresh compared
+to that of the surrounding areas.
+~
+53 der 0
+D3
+~
+~
+0 0 5378
+S
+#5380
+A Dirt Road~
+   As you turn down the road leading towards the desert, you see that
+this area is even busy.  Wandering merchants and travelers pass you by
+on their way to Mytherandil.  Some eye you suspiciously while others
+simply hurry past you.
+~
+53 0 0
+D1
+~
+~
+0 0 5377
+D3
+~
+~
+0 0 5381
+S
+#5381
+A Dirt Road~
+   The dirt road is very wide here and you can plainly see the Desert
+of Demise far off in the distance.  Merchants and travelers pass you
+by on their way between Mytherandil and the desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5380
+D3
+~
+~
+0 0 5382
+S
+#5382
+A Turn in the Dirt Road~
+   Here the road winds off to the north and you can catch a glimpse of
+Mytherandil from here.  As you look around, merchants and travelers pass
+you by on their way between Mytherandil and the desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5383
+D1
+~
+~
+0 0 5381
+S
+#5383
+A Turn in the Dirt Road~
+   Here the road winds off to the south and you can catch a glimpse of
+Mytherandil from here.  As you look around, merchants and travelers pass
+you by on their way between Mytherandil and the desert.
+~
+53 0 0
+D2
+~
+~
+0 0 5382
+D3
+~
+~
+0 0 5384
+S
+#5384
+A Dirt Road~
+   The dirt road is very wide here and you can plainly see the Desert
+of Demise far off in the distance.  Merchants and travelers pass you
+by on their way between Mytherandil and the desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5383
+D3
+~
+~
+0 0 5385
+S
+#5385
+A Turn in the Dirt Road~
+   Here the road winds off to the south and you can catch a glimpse of
+Mytherandil from here.  As you look around, merchants and travelers pass
+you by on their way between Mytherandil and the desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5384
+D2
+~
+~
+0 0 5386
+S
+#5386
+A Dirt Road~
+   Here the road winds off to the north and south.  You realize that
+you can no longers see the city of Mytherandil behind you.  Merchants
+and travelers pass you by on their way between Mytherandil and the
+desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5385
+D2
+~
+~
+0 0 5387
+S
+#5387
+A Turn in the Dirt Road~
+   Here the road winds off the the north and down the road a bit it
+seems to split off to the north and south.  You can no longer see the
+city of Mytherandil behind you.  Merchants and travelers pass you by
+on their way between Mytherandil and the desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5386
+D3
+~
+~
+0 0 5388
+S
+#5388
+A Dirt Road~
+   The dirt road is very wide here and you can plainly see the Desert
+of Demise far off in the distance.  Merchants and travelers pass you
+by on their way between Mytherandil and the desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5387
+D3
+~
+~
+0 0 5389
+S
+#5389
+A Dirt Road~
+   The dirt road is very wide here and you can plainly see the Desert
+of Demise far off in the distance.  Merchants and travelers pass you
+by on their way between Mytherandil and the desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5388
+D3
+~
+~
+0 0 5390
+S
+#5390
+A Split in the Dirt Road~
+   Here the dirt road splits off to both the north and south.  To the
+south you can see that the road turns from dirt to sand.  This likely
+indicates that the path south leads to the dreaded Desert of Demise.
+To the north the path takes a turn but it appears that the dirt turns
+to sand in that direction too.  The air seems a little more dense now.
+~
+53 0 0
+D0
+~
+~
+0 0 5395
+D1
+~
+~
+0 0 5389
+D2
+~
+~
+0 0 5391
+S
+#5391
+A Dirt Road~
+   The dirt road narrows a bit here.  The dirt road slowly begins to
+fade into a road of sand.  Merchants and travelers pass you by on
+eir way between Mytherandil and the desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5390
+D2
+~
+~
+0 0 5392
+S
+#5392
+A Dirt Road~
+   The dirt road narrows a bit here.  The dirt road slowly begins to
+fade into a road of sand.  Merchants and travelers pass you by on
+eir way between Mytherandil and the desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5391
+D2
+~
+~
+0 0 5393
+S
+#5393
+A Dirt Road~
+   The dirt road narrows a bit here.  The dirt road slowly begins to
+fade into a road of sand.  Merchants and travelers pass you by on
+eir way between Mytherandil and the desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5392
+D2
+~
+~
+0 0 5394
+S
+#5394
+Before The Desert of Demise~
+   Before you expands the Desert of Demise.  The road you stand upon
+will take you back to Mytherandil.  Its location may be important
+to your survival.  It almost seems as if the temperature has gone up
+a few degrees just in the last few seconds.  Merchants and travelers
+pass you by on their way between Mytherandil and the desert.
+~
+53 c 0
+D0
+~
+~
+0 0 5393
+D2
+~
+~
+0 0 5413
+S
+#5395
+A Dirt Road~
+   The dirt road narrows a bit here.  The dirt road slowly begins to
+fade into a road of sand.  Merchants and travelers pass you by on
+eir way between Mytherandil and the desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5396
+D2
+~
+~
+0 0 5390
+S
+#5396
+A Dirt Road~
+   The dirt road narrows a bit here.  The dirt road slowly begins to
+fade into a road of sand.  Merchants and travelers pass you by on
+eir way between Mytherandil and the desert.
+~
+53 0 0
+D0
+~
+~
+0 0 5397
+D2
+~
+~
+0 0 5395
+S
+#5397
+A Turn in the Dirt Road~
+   Here the winds around a corner and you see that you are very close
+to the desert.  Merchants and travelers pass you by on their way
+between Mytherandil and the desert.
+~
+53 0 0
+D2
+~
+~
+0 0 5396
+D3
+~
+~
+0 0 5398
+S
+#5398
+A Dirt Road~
+   The dirt road narrows a bit here.  The dirt road slowly begins to
+fade into a road of sand.  Merchants and travelers pass you by on
+eir way between Mytherandil and the desert.
+~
+53 0 0
+D1
+~
+~
+0 0 5397
+D3
+~
+~
+0 0 5399
+S
+#5399
+Before The Desert of Demise~
+   Before you expands the Desert of Demise.  The road you stand upon
+will take you back to Mytherandil.  Its location may be important
+to your survival.  It almost seems as if the temperature has gone up
+a few degrees just in the last few seconds.  Merchants and travelers
+pass you by on their way between Mytherandil and the desert.
+~
+53 c 0
+D1
+~
+~
+0 0 5398
+D3
+~
+~
+0 0 5400
+S
+#5400
+Border of The Desert of Demise~
+   Before you stretches the reknowned Desert of Demise.  Blowing
+sand stings your eyes, but you can make out the road off to the east.
+The road that could take you back to civilization.  Away from this
+place.  If you enter the desert will you ever return?
+~
+53 c 0
+D1
+~
+~
+0 0 5399
+D3
+~
+~
+0 0 5401
+S
+#5401
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5400
+D2
+~
+~
+0 0 5402
+D3
+~
+~
+0 0 5414
+S
+#5402
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5401
+D2
+~
+~
+0 0 5403
+D3
+~
+~
+0 0 5415
+S
+#5403
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5402
+D2
+~
+~
+0 0 5404
+D3
+~
+~
+0 0 5416
+S
+#5404
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5403
+D2
+~
+~
+0 0 5405
+D3
+~
+~
+0 0 5417
+S
+#5405
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5404
+D2
+~
+~
+0 0 5406
+D3
+~
+~
+0 0 5418
+S
+#5406
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5405
+D2
+~
+~
+0 0 5407
+D3
+~
+~
+0 0 5419
+S
+#5407
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5406
+D2
+~
+~
+0 0 5408
+D3
+~
+~
+0 0 5420
+S
+#5408
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5407
+D2
+~
+~
+0 0 5409
+D3
+~
+~
+0 0 5421
+S
+#5409
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5408
+D1
+~
+~
+0 0 5410
+D2
+~
+~
+0 0 5424
+D3
+~
+~
+0 0 5422
+S
+#5410
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5411
+D2
+~
+~
+0 0 5425
+D3
+~
+~
+0 0 5409
+S
+#5411
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5412
+D2
+~
+~
+0 0 5426
+D3
+~
+~
+0 0 5410
+S
+#5412
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5413
+D2
+~
+~
+0 0 5427
+D3
+~
+~
+0 0 5411
+S
+#5413
+Border of The Desert of Demise~
+   Before you stretches the reknowned Desert of Demise.  Blowing
+sand stings your eyes, but you can make out the road off to the east.
+The road that could take you back to civilization.  Away from this
+place.  If you enter the desert will you ever return?
+~
+53 c 0
+D0
+~
+~
+0 0 5394
+D2
+~
+~
+0 0 5428
+D3
+~
+~
+0 0 5412
+S
+#5414
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5401
+D2
+~
+~
+0 0 5415
+D3
+~
+~
+0 0 5429
+S
+#5415
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5414
+D1
+~
+~
+0 0 5402
+D2
+~
+~
+0 0 5416
+D3
+~
+~
+0 0 5430
+S
+#5416
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5415
+D1
+~
+~
+0 0 5403
+D2
+~
+~
+0 0 5417
+D3
+~
+~
+0 0 5431
+S
+#5417
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5416
+D1
+~
+~
+0 0 5404
+D2
+~
+~
+0 0 5418
+D3
+~
+~
+0 0 5432
+S
+#5418
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5417
+D1
+~
+~
+0 0 5405
+D2
+~
+~
+0 0 5419
+D3
+~
+~
+0 0 5433
+S
+#5419
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5418
+D1
+~
+~
+0 0 5406
+D2
+~
+~
+0 0 5420
+D3
+~
+~
+0 0 5434
+S
+#5420
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5419
+D1
+~
+~
+0 0 5407
+D2
+~
+~
+0 0 5421
+D3
+~
+~
+0 0 5435
+S
+#5421
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5420
+D1
+~
+~
+0 0 5408
+D2
+~
+~
+0 0 5422
+D3
+~
+~
+0 0 5436
+S
+#5422
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5421
+D1
+~
+~
+0 0 5409
+D2
+~
+~
+0 0 5423
+D3
+~
+~
+0 0 5437
+S
+#5423
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5422
+D1
+~
+~
+0 0 5424
+D3
+~
+~
+0 0 5438
+S
+#5424
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5409
+D1
+~
+~
+0 0 5425
+D3
+~
+~
+0 0 5423
+S
+#5425
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5410
+D1
+~
+~
+0 0 5426
+D3
+~
+~
+0 0 5424
+S
+#5426
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5411
+D1
+~
+~
+0 0 5427
+D3
+~
+~
+0 0 5425
+S
+#5427
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5412
+D1
+~
+~
+0 0 5428
+D3
+~
+~
+0 0 5426
+S
+#5428
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5413
+D3
+~
+~
+0 0 5427
+S
+#5429
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5414
+D2
+~
+~
+0 0 5430
+D3
+~
+~
+0 0 5439
+S
+#5430
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5429
+D1
+~
+~
+0 0 5415
+D2
+~
+~
+0 0 5431
+D3
+~
+~
+0 0 5440
+S
+#5431
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5430
+D1
+~
+~
+0 0 5416
+D2
+~
+~
+0 0 5432
+D3
+~
+~
+0 0 5441
+S
+#5432
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5431
+D1
+~
+~
+0 0 5417
+D2
+~
+~
+0 0 5433
+D3
+~
+~
+0 0 5442
+S
+#5433
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5432
+D1
+~
+~
+0 0 5418
+D2
+~
+~
+0 0 5434
+D3
+~
+~
+0 0 5443
+S
+#5434
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5433
+D1
+~
+~
+0 0 5419
+D2
+~
+~
+0 0 5435
+D3
+~
+~
+0 0 5444
+S
+#5435
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5434
+D1
+~
+~
+0 0 5420
+D2
+~
+~
+0 0 5436
+D3
+~
+~
+0 0 5445
+S
+#5436
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5435
+D1
+~
+~
+0 0 5421
+D2
+~
+~
+0 0 5437
+D3
+~
+~
+0 0 5446
+S
+#5437
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5436
+D1
+~
+~
+0 0 5422
+D2
+~
+~
+0 0 5438
+D3
+~
+~
+0 0 5447
+S
+#5438
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5437
+D1
+~
+~
+0 0 5423
+D3
+~
+~
+0 0 5448
+S
+#5439
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5429
+D2
+~
+~
+0 0 5440
+D3
+~
+~
+0 0 5449
+S
+#5440
+The Oasis~
+   You made it!  The food and water here is plentiful, and yet it
+seems that there is more to this place than meets the eye.  Several
+small woodlands type creatures refresh themselves as if there were
+not a massive desert surrounding them.  And how the *&%$ did they
+get here?
+~
+53 chrs 0
+D0
+~
+~
+0 0 5439
+D1
+~
+~
+0 0 5430
+D2
+~
+~
+0 0 5441
+D3
+~
+~
+0 0 5450
+D5
+~
+~
+0 0 5469
+S
+#5441
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5440
+D1
+~
+~
+0 0 5431
+D2
+~
+~
+0 0 5442
+D3
+~
+~
+0 0 5451
+S
+#5442
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5441
+D1
+~
+~
+0 0 5432
+D2
+~
+~
+0 0 5443
+D3
+~
+~
+0 0 5452
+S
+#5443
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5442
+D1
+~
+~
+0 0 5433
+D2
+~
+~
+0 0 5444
+D3
+~
+~
+0 0 5453
+S
+#5444
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5443
+D1
+~
+~
+0 0 5434
+D2
+~
+~
+0 0 5445
+D3
+~
+~
+0 0 5454
+S
+#5445
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5444
+D1
+~
+~
+0 0 5435
+D2
+~
+~
+0 0 5446
+D3
+~
+~
+0 0 5455
+S
+#5446
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5445
+D1
+~
+~
+0 0 5436
+D2
+~
+~
+0 0 5447
+D3
+~
+~
+0 0 5456
+S
+#5447
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5446
+D1
+~
+~
+0 0 5437
+D2
+~
+~
+0 0 5448
+D3
+~
+~
+0 0 5457
+S
+#5448
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5447
+D1
+~
+~
+0 0 5438
+D3
+~
+~
+0 0 5458
+S
+#5449
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5439
+D2
+~
+~
+0 0 5450
+D3
+~
+~
+0 0 5459
+S
+#5450
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5449
+D1
+~
+~
+0 0 5440
+D2
+~
+~
+0 0 5451
+D3
+~
+~
+0 0 5460
+S
+#5451
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5450
+D1
+~
+~
+0 0 5441
+D2
+~
+~
+0 0 5452
+D3
+~
+~
+0 0 5461
+S
+#5452
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5451
+D1
+~
+~
+0 0 5442
+D2
+~
+~
+0 0 5453
+D3
+~
+~
+0 0 5462
+S
+#5453
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5452
+D1
+~
+~
+0 0 5443
+D2
+~
+~
+0 0 5454
+D3
+~
+~
+0 0 5463
+S
+#5454
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5453
+D1
+~
+~
+0 0 5444
+D2
+~
+~
+0 0 5455
+D3
+~
+~
+0 0 5464
+S
+#5455
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5454
+D1
+~
+~
+0 0 5445
+D2
+~
+~
+0 0 5456
+D3
+~
+~
+0 0 5465
+S
+#5456
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5455
+D1
+~
+~
+0 0 5446
+D2
+~
+~
+0 0 5457
+D3
+~
+~
+0 0 5466
+S
+#5457
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5456
+D1
+~
+~
+0 0 5447
+D2
+~
+~
+0 0 5458
+D3
+~
+~
+0 0 5467
+S
+#5458
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5457
+D1
+~
+~
+0 0 5448
+D3
+~
+~
+0 0 5468
+S
+#5459
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D1
+~
+~
+0 0 5449
+D2
+~
+~
+0 0 5460
+S
+#5460
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5459
+D1
+~
+~
+0 0 5450
+D2
+~
+~
+0 0 5461
+S
+#5461
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5460
+D1
+~
+~
+0 0 5451
+D2
+~
+~
+0 0 5462
+S
+#5462
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5461
+D1
+~
+~
+0 0 5452
+D2
+~
+~
+0 0 5463
+S
+#5463
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5462
+D1
+~
+~
+0 0 5453
+D2
+~
+~
+0 0 5464
+S
+#5464
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5463
+D1
+~
+~
+0 0 5454
+D2
+~
+~
+0 0 5465
+S
+#5465
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5464
+D1
+~
+~
+0 0 5455
+D2
+~
+~
+0 0 5466
+S
+#5466
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5465
+D1
+~
+~
+0 0 5456
+D2
+~
+~
+0 0 5467
+S
+#5467
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5466
+D1
+~
+~
+0 0 5457
+D2
+~
+~
+0 0 5468
+S
+#5468
+The Desert of Demise~
+   You stand in the great expanse known only as The Desert of Demise.
+A small distance away there appears to be a path of some sort...
+possibly even a road.  But even better!  If your eyes do not deceive
+you, just around that dune over there you can see a small pond!
+With trees!  Water sure would be nice right about now...
+~
+53 0 0
+D0
+~
+~
+0 0 5467
+D1
+~
+~
+0 0 5458
+S
+#5469
+Under the Oasis~
+   After stripping down to your skimmies and swimming to the bottom
+of the pond, you peer around in the clear water.  More strange fruit
+has made its way to the bottom of the pond here.  Something shiny
+catches your eye in the distance.
+~
+53 0 0
+D4
+~
+~
+0 0 5440
+S
+#5470
+Room 5470~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5471
+Room 5471~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5472
+Room 5472~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5473
+Room 5473~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5474
+Room 5474~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5475
+Room 5475~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5476
+Room 5476~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5477
+Room 5477~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5478
+Room 5478~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5479
+Room 5479~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5480
+Room 5480~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5481
+Room 5481~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5482
+Room 5482~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5483
+Room 5483~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5484
+Room 5484~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5485
+Room 5485~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5486
+Room 5486~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5487
+Room 5487~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5488
+Room 5488~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5489
+Room 5489~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5490
+Room 5490~
+  This lovely room has yet to be written
+~
+53 0 0
+S
+#5491
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D1
+~
+~
+0 0 5492
+D2
+~
+~
+0 0 5498
+D8
+~
+~
+0 0 5499
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5492
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D1
+~
+~
+0 0 5493
+D2
+~
+~
+0 0 5499
+D3
+~
+~
+0 0 5491
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5493
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D2
+~
+~
+0 0 5494
+D3
+~
+~
+0 0 5492
+D9
+~
+~
+0 0 5499
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5494
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D0
+~
+~
+0 0 5493
+D2
+~
+~
+0 0 5495
+D3
+~
+~
+0 0 5499
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5495
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D0
+~
+~
+0 0 5494
+D3
+~
+~
+0 0 5496
+D7
+~
+~
+0 0 5499
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5496
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D0
+~
+~
+0 0 5499
+D1
+~
+~
+0 0 5495
+D3
+~
+~
+0 0 5497
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5497
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D0
+~
+~
+0 0 5498
+D1
+~
+~
+0 0 5496
+D6
+~
+~
+0 0 5499
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5498
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Suddenly a group of colors converge to form words in the air.  Maybe
+you can read them...
+~
+53 0 0
+D0
+~
+~
+0 0 5491
+D1
+~
+~
+0 0 5499
+D2
+~
+~
+0 0 5497
+E
+color colors swirl swirls~
+   These colors don't say anything yet!  WHY NOT??
+~
+S
+#5499
+The Edge of Reality~
+   You awaken to find yourself floating amongst bright swirls of every
+imaginable color.  Glancing around you see pretty much nothing else.
+Investigating your immediate surroundings, you can make out a female
+figure formed partially of colored swirls and partially of human flesh.
+She regards you with a kind mother-like smile.
+~
+53 0 0
+D0
+~
+~
+0 0 5492
+D1
+~
+~
+0 0 5494
+D2
+~
+~
+0 0 5496
+D3
+~
+~
+0 0 5498
+D6
+~
+~
+0 0 5493
+D7
+~
+~
+0 0 5491
+D8
+~
+~
+0 0 5495
+D9
+~
+~
+0 0 5497
+S
+$~

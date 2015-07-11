@@ -1,0 +1,364 @@
+#32000
+colossus statue~
+the Colossus of Phalar~
+A huge stone colossus stands here valiantly guarding The Dominion.~
+~
+12 g 0
+0 0 0 0 0 0 0 0 14
+10000 0 0
+#32001
+window safe~
+the window~
+~
+~
+15 0 0
+1000 15 32002 0 0 0 0 0 14
+100 0 0
+#32002
+key small~
+a small key~
+A small key lies here with a red ribbon tied to it.~
+~
+18 0 a
+0 0 0 0 0 0 0 0 14
+2 0 0
+#32003
+spear long~
+a long spear~
+A long, thin spear is stuck point first into the ground here.~
+~
+5 E am
+0 2 4 0 0 0 0 10 14
+7 200 400
+#32004
+whip~
+a long vine whip~
+A long strand of wet vines lies here slick with mud.~
+~
+5 0 am
+0 2 4 2 0 0 0 7 14
+4 200 300
+#32005
+gem emerald~
+a bright green gem~
+A small green gem is lying on the ground gleaming.~
+~
+12 a am
+0 0 80 0 0 0 0 0 14
+3 10 800
+#32006
+wand witch serdim stick~
+a black, twisted stick~
+A small stick with gnarled joints lies here.~
+~
+3 fjp am
+30 20 20 23 0 0 0 7 14
+3 5000 8000
+#32007
+scroll witches witch dark~
+a dark witches scroll~
+A dark scroll with the face of an old hag on it lies here.~
+~
+2 0 am
+30 78 59 100 0 0 0 0 14
+1 1000 15000
+#32008
+potion black~
+a black potion~
+A small black potion is lying here.~
+~
+10 0 a
+17 67 86 100 0 0 0 0 14
+2 4000 6000
+#32009
+sword long wayguard~
+a long sword~
+A long sword lies on the ground here.~
+~
+5 0 am
+0 3 4 3 0 0 0 11 14
+5 400 200
+#32010
+book blue leather~
+a blue, leather book~
+A book is lying on the ground here.~
+~
+15 0 am
+20 9 32011 0 0 0 0 0 14
+13 1 1
+#32011
+key blue~
+a small, blue key~
+A small blue key is lying here.~
+~
+18 0 am
+0 0 0 0 0 0 0 0 14
+2 20 20
+#32012
+skull black obsidian~
+a black skull~
+A hallowed out skull made of obsidian is lying here.~
+~
+9 gj ae
+15 0 0 0 0 0 0 20 14
+6 8000 8000
+A
+5 -3
+A
+3 2
+A
+4 2
+#32013
+robe black~
+the Black Robe~
+A black pile of cloth is here radiating with a strange aura.~
+~
+11 cgl ad
+0 0 0 0 0 0 0 20 14
+8 2000 5000
+A
+17 -20
+A
+12 15
+#32014
+chainmail iron~
+iron chainmail~
+Some chainmail has been discarded here.~
+~
+9 0 ad
+7 0 0 0 0 0 0 12 14
+10 100 200
+#32015
+dark red arm bracers~
+a pair of dark red arm bracers~
+A pair of dark-red arm bracers have been discarded here.~
+~
+9 kmop ai
+6 0 0 0 0 0 0 18 14
+7 1000 1000
+A
+19 1
+#32016
+red leggings~
+dark-red plate leggings~
+Some leggings with a dark-red tint to them are lying here.~
+~
+9 k af
+25 0 0 0 0 0 0 19 14
+9 6500 800
+A
+2 1
+#32017
+red dark visor~
+a dark-red visor~
+A dark-red colored piece of headwear lies here.~
+~
+9 kmop ae
+6 0 0 0 0 0 0 15 14
+5 1000 500
+A
+1 1
+#32018
+dark red shield~
+a dark-red shield~
+A large full body shield with a dark-red sheen to it lies here.~
+~
+9 kmop ajm
+15 0 0 0 0 0 0 15 14
+16 5000 900
+A
+13 5
+#32019
+axe dark red~
+a dark-red bladed axe~
+An axe lies here with a gleaming red blade on one end.~
+~
+5 kp am
+4 3 3 3 0 0 0 15 14
+14 5000 1600
+A
+1 2
+A
+18 5
+#32020
+scales green~
+some green scales~
+A pile of green scales meshed together into a shirt lies here.~
+~
+9 0 ad
+8 0 0 0 0 0 0 13 14
+6 3000 1000
+A
+14 5
+#32021
+potion green~
+a green potion~
+A small green potion is sitting on the ground here.~
+~
+10 0 amo
+15 51 53 100 0 0 0 0 14
+2 100 100
+#32022
+wall water~
+the wall of water~
+A strange cascading wall of water pours over the edge of some unseen wall.~
+~
+23 g 0
+10000000 10000000 15 1 0 0 0 16 14
+10000005 10000 5000
+E
+water wall~
+The water pours over the edge of something, you know not what.
+Although, it looks fresh enough, you would be foolish to drink from
+something as magical and strange as this.
+~
+A
+4 2
+#32023
+pendant black~
+a black pendant~
+A black pendant is lying on the ground.~
+~
+3 bfgj acm
+20 30 30 17 0 0 0 16 14
+4 10000 5000
+A
+17 1
+#32024
+armband arm band sessanathi~
+a sessanathi armband~
+A small armband with the symbol of the sessanathi on it is lying here.~
+~
+11 0 ai
+0 0 0 0 0 0 0 8 14
+3 2000 2000
+A
+5 1
+#32025
+key holy tower~
+the key~
+A small key radiating a holy aura lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+#32026
+scroll immortality~
+the scroll~
+A small, old scroll is lying on top of a small table here.~
+~
+2 0 ao
+30 51 99 99 0 0 0 22 14
+1 1 1
+#32027
+wealth gold kings~
+the king's wealth~
+A king's wealth lies here on the floor.~
+~
+20 0 a
+10000000 0 0 0 0 0 0 0 14
+18 1 1
+#32028
+mushroom singing~
+the singing mushroom~
+A mushroom is here emitting a strange, vocal sound.~
+~
+15 0 0
+100 15 32029 0 0 0 0 0 14
+1000 1 1
+#32029
+key~
+a key~
+A key is lying on the ground right here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+#32030
+mushroom singing~
+the singing mushroom~
+A mushroom is in the middle of the garden emitting a strange song.~
+~
+13 0 0
+0 0 0 0 0 0 0 0 14
+10000 1 1
+#32031
+picture~
+the picture~
+A picture hangs on the northern wall you entered from.~
+~
+13 0 0
+0 0 0 0 0 0 0 0 14
+1 1 1
+E
+picture~
+The picture shows a powerful sorcerer deep in mountain caverns
+surrounded by many armies of orcs.
+~
+#32032
+picture~
+the picture~
+A picture hangs on the northern wall.~
+~
+13 0 0
+0 0 0 0 0 0 0 0 14
+1 1 1
+E
+picture~
+The picture shows a large sleeping dragon with many other dragons
+of different colors around it.
+~
+#32033
+picture~
+the picture~
+A picture hangs on the northern wall.~
+~
+13 0 0
+0 0 0 0 0 0 0 0 14
+1 1 1
+E
+picture~
+It depicts a dragon sleeping high in a mountain castle.
+~
+#32034
+picture~
+the picture~
+A picture hangs on the northern wall.~
+~
+13 0 0
+0 0 0 0 0 0 0 0 14
+1 1 1
+E
+picture~
+It shows a huge dragon wandering a large valley.
+~
+#32035
+corpse witch~
+the corpse of the old woman~
+The corpse of the old woman is lying here.~
+~
+13 cd a
+0 0 0 0 0 0 0 0 0
+15 0 0
+#32036
+andar coin seal~
+Andar's Seal~
+A small ruby coin is lying on the ground in the dust.~
+~
+7 0 a
+0 0 0 0 0 0 0 0 0
+3 0 0
+#32037
+letter thyet~
+the letter~
+A piece of paper is lying here.~
+~
+7 0 a
+0 0 0 0 0 0 0 0 0
+1 0 0
+E
+letter~
+   On the letter is a strange, ancient eleven script which most likely
+the greatest sages of Elrhinn could not decipher.
+~
+$~

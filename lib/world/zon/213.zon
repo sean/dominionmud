@@ -1,0 +1,257 @@
+#213
+Abandoned Rhyodin Outpost~
+SillyMUD~
+MEDIUM~
+3039 1
+21350 30 1
+*
+M 0 21143 130 21269 ; Watcher
+M 0 21143 130 21269 ; Watcher
+M 0 21143 130 21270 ; Watcher
+M 0 21143 130 21270 ; Watcher
+M 0 21143 130 21271 ; Watcher
+M 0 21143 130 21271 ; Watcher
+M 0 21143 130 21272 ; Watcher
+M 0 21143 130 21272 ; Watcher
+D 0 21272 3 1       ; Ancient Road
+M 0 21143 130 21273 ; Watcher
+M 0 21143 130 21273 ; Watcher
+M 0 21143 130 21274 ; Watcher
+M 0 21143 130 21274 ; Watcher
+M 0 21143 130 21275 ; Watcher
+M 0 21143 130 21275 ; Watcher
+D 0 21275 2 1       ; gate to the kingdom
+M 0 21142 1 21275   ; guardian of the gate
+E 1 21103 10 5      ; black metal breast plate
+E 1 21104 10 9      ; black metal gauntlets
+E 1 21105 10 6      ; black metal helmet
+E 1 21106 10 7      ; black metal leg plates
+E 1 21107 10 10     ; black metal arm plates
+E 1 21108 10 8      ; black metal boots
+E 1 21145 10 16      ; awfully big sword
+M 0 21143 130 21276 ; Watcher
+M 0 21143 130 21276 ; Watcher
+O 0 21147 10 21276  ; Locker
+P 1 21130 3 21147   ; a bar of soap
+P 1 6007 2 21147    ; 100 gold
+O 0 21147 10 21276  ; Locker
+P 1 3086 100 21147  ; sleeves
+M 0 21143 130 21277 ; Watcher
+M 0 21143 130 21277 ; Watcher
+O 0 21147 10 21277  ; Locker
+M 0 21141 1 21277   ; Lattimore the orc
+M 0 21143 130 21278 ; Watcher
+M 0 21143 130 21278 ; Watcher
+M 0 21143 130 21279 ; Watcher
+M 0 21143 130 21279 ; Watcher
+D 0 21279 1 1       ; Large Gate
+M 0 21143 130 21280 ; Watcher
+M 0 21143 130 21280 ; Watcher
+M 0 21143 130 21281 ; Watcher
+M 0 21143 130 21281 ; Watcher
+O 0 21159 3 21281   ; Weapons rack
+P 1 3020 100 21159  ; Dagger
+O 0 21159 3 21281   ; Weapons rack
+P 1 5102 100 21159  ; two-headed whip
+O 0 21159 3 21281   ; Weapons rack
+P 1 3022 100 21159  ; Long sword
+P 1 3022 100 21159  ; Long sword
+P 1 3022 100 21159  ; Long sword
+P 1 3022 100 21159  ; Long sword
+M 0 21143 130 21282 ; Watcher
+M 0 21143 130 21282 ; Watcher
+O 0 21147 10 21282  ; Locker
+P 1 25023 5 21159   ; Green cape
+P 1 21161 1 21159   ; Green tights
+O 0 21160 2 21282   ; Stand
+O 0 21160 2 21282   ; Stand
+P 1 3080 100 21160  ; Bronze leggings
+M 0 21143 130 21283 ; Watcher
+M 0 21143 130 21283 ; Watcher
+M 1 21147 2 21283   ; Acid blob
+M 0 21143 130 21284 ; Watcher
+M 0 21143 130 21284 ; Watcher
+M 0 21143 130 21285 ; Watcher
+M 0 21143 130 21285 ; Watcher
+M 0 21143 130 21286 ; Watcher
+M 0 21143 130 21286 ; Watcher
+M 0 21140 1 21286   ; ghostly captain
+E 1 21144 1 16      ; ghostly sword
+M 0 21143 130 21287 ; Watcher
+M 0 21143 130 21287 ; Watcher
+M 0 21143 130 21288 ; Watcher
+M 0 21143 130 21288 ; Watcher
+M 0 21143 130 21289 ; Watcher
+M 0 21143 130 21289 ; Watcher
+M 0 21143 130 21290 ; Watcher
+M 0 21143 130 21290 ; Watcher
+M 0 21143 130 21291 ; Watcher
+M 0 21143 130 21291 ; Watcher
+M 0 21143 130 21292 ; Watcher
+M 0 21143 130 21292 ; Watcher
+M 0 21143 130 21293 ; Watcher
+M 0 21143 130 21293 ; Watcher
+M 0 21143 130 21294 ; Watcher
+M 0 21143 130 21294 ; Watcher
+M 0 21143 130 21295 ; Watcher
+M 0 21143 130 21295 ; Watcher
+M 0 21143 130 21296 ; Watcher
+M 0 21143 130 21296 ; Watcher
+O 0 21147 10 21296  ; Locker
+P 1 21154 1 21147    ; Steel Key
+P 1 5239 5 21147    ; Dull grey stone
+O 0 21147 10 21296  ; Locker
+O 0 21147 10 21296  ; Locker
+M 0 21143 130 21297 ; Watcher
+M 0 21143 130 21297 ; Watcher
+O 0 21158 4 21197   ; Battered desk
+P 1 21132 1 21158   ; Desk key
+O 0 21158 4 21197   ; Battered desk
+M 0 21143 130 21298 ; Watcher
+M 0 21143 130 21298 ; Watcher
+M 0 21143 130 21299 ; Watcher
+M 0 21143 130 21299 ; Watcher
+M 0 21143 130 21300 ; Watcher
+M 0 21143 130 21300 ; Watcher
+M 0 21143 130 21301 ; Watcher
+M 0 21143 130 21301 ; Watcher
+M 0 21143 130 21302 ; Watcher
+M 0 21143 130 21302 ; Watcher
+M 0 21143 130 21303 ; Watcher
+M 0 21143 130 21303 ; Watcher
+M 0 21143 130 21304 ; Watcher
+M 0 21143 130 21304 ; Watcher
+M 0 21143 130 21305 ; Watcher
+M 0 21143 130 21305 ; Watcher
+M 0 21143 130 21306 ; Watcher
+M 0 21143 130 21306 ; Watcher
+O 0 21149 1 21306   ; Bar
+P 1 21125 10 21149  ; Whiskey
+P 1 21125 10 21149  ; Whiskey
+P 1 21125 10 21149  ; Whiskey
+P 1 21125 10 21149  ; Whiskey
+M 0 21143 130 21307 ; Watcher
+M 0 21143 130 21307 ; Watcher
+M 0 21143 130 21308 ; Watcher
+M 0 21143 130 21308 ; Watcher
+M 0 21143 130 21309 ; Watcher
+M 0 21143 130 21309 ; Watcher
+M 0 21143 130 21310 ; Watcher
+M 0 21143 130 21310 ; Watcher
+O 0 21152 2 21310   ; Oven
+P 1 3010 100 21152  ; Bread
+P 1 3010 100 21152  ; Bread
+P 1 3010 100 21152  ; Bread
+O 0 21152 2 21310   ; Oven
+O 0 21153 1 21310   ; Stove
+M 0 21143 130 21311 ; Watcher
+M 0 21143 130 21311 ; Watcher
+M 0 21143 130 21312 ; Watcher
+M 0 21143 130 21312 ; Watcher
+O 0 21129 4 21312   ; a wooden crate
+O 0 21129 4 21312   ; a wooden crate
+P 1 21130 2 21129   ; a bar of soap
+P 1 21130 2 21129   ; a bar of soap
+O 0 21129 4 21312   ; a wooden crate
+P 1 21108 10 21129  ; a pair of black metal boots
+O 0 21129 4 21312   ; a wooden crate
+M 0 21143 130 21313 ; Watcher
+M 0 21143 130 21313 ; Watcher
+M 0 21143 130 21314 ; Watcher
+M 0 21143 130 21314 ; Watcher
+D 0 21314 2 1       ; Stockade
+D 0 21314 3 2       ; Stockade
+O 0 21131 1 21314   ; the desk
+P 1 21134 1 21131   ; cabinet key
+O 0 21133 1 21314   ; a filing cabinet
+P 1 21135 4 21133   ; drawer
+P 1 21135 4 21133   ; drawer
+P 1 21135 4 21133   ; drawer
+P 1 21155 1 21135   ; Jail Key
+P 1 21135 4 21133   ; drawer
+M 0 21143 130 21315 ; Watcher
+M 0 21143 130 21315 ; Watcher
+D 0 21315 0 1       ; Cell
+M 0 21143 130 21316 ; Watcher
+M 0 21143 130 21316 ; Watcher
+M 0 21143 130 21317 ; Watcher
+M 0 21143 130 21317 ; Watcher
+D 0 21318 1 2       ; Hallway
+M 0 21143 130 21318 ; Watcher
+M 0 21143 130 21318 ; Watcher
+M 0 21143 130 21320 ; Watcher
+M 0 21143 130 21320 ; Watcher
+M 0 21143 130 21321 ; Watcher
+M 0 21143 130 21321 ; Watcher
+O 0 21123 8 21321   ; a wooden crate
+O 0 21123 8 21321   ; a wooden crate
+O 0 21123 8 21321   ; a wooden crate
+P 1 21137 30 21123  ; grey potion
+O 0 21136 1 21321   ; troglodyte skeleton
+P 1 3041 100 21136  ; a chain mail shirt
+P 1 3086 100 21136  ; a pair of leather sleeves
+P 1 5421 100 21136  ; a splinted shield
+M 0 21143 130 21322 ; Watcher
+M 0 21143 130 21322 ; Watcher
+M 0 21143 130 21323 ; Watcher
+M 0 21143 130 21323 ; Watcher
+O 1 21157 4 21323   ; Big heavy door
+M 0 21143 130 21324 ; Watcher
+M 0 21143 130 21324 ; Watcher
+O 1 21163 1 21324    ; Desk
+P 1 21151 1 21163    ; Twisted Key
+D 0 21324 3 1       ; Extravagant Chambers
+M 0 21143 130 21325 ; Watcher
+M 0 21143 130 21325 ; Watcher
+O 0 21146 4 21325   ; Bookshelf
+O 0 21146 4 21325   ; Bookshelf
+O 0 21146 4 21325   ; Bookshelf
+O 0 21146 4 21325   ; Bookshelf
+
+M 0 21130 1 21325   ; Valik
+E 1 21122 1 3       ; the necklace of wisdom
+M 0 21143 130 21326 ; Watcher
+M 0 21143 130 21326 ; Watcher
+M 0 21143 130 21327 ; Watcher
+M 0 21143 130 21327 ; Watcher
+M 0 21143 130 21328 ; Watcher
+M 0 21143 130 21328 ; Watcher
+D 0 21328 1 1       ; Hallway
+D 0 21328 2 2       ; Hallway
+M 0 21143 130 21329 ; Watcher
+M 0 21143 130 21329 ; Watcher
+D 0 21329 0 2       ; Captain's Quarters
+M 0 21143 130 21330 ; Watcher
+M 0 21143 130 21330 ; Watcher
+D 0 21330 1 2       ; Kitchen
+M 0 21143 130 21331 ; Watcher
+M 0 21143 130 21331 ; Watcher
+M 0 21143 130 21332 ; Watcher
+M 0 21143 130 21332 ; Watcher
+M 0 21143 130 21333 ; Watcher
+M 0 21143 130 21333 ; Watcher
+M 0 21112 1 21335   ; The gigantic trapper
+O 0 21123 8 21335   ; a wooden crate
+P 1 21124 3 21123   ; some yellow dust
+O 0 21123 8 21335   ; a wooden crate
+P 1 21125 10 21123  ; a bottle of fine aged whiskey
+P 1 21125 10 21123  ; a bottle of fine aged whiskey
+P 1 21125 10 21123  ; a bottle of fine aged whiskey
+P 1 21125 10 21123  ; a bottle of fine aged whiskey
+P 1 21125 10 21123  ; a bottle of fine aged whiskey
+O 0 21123 8 21335   ; a wooden crate
+P 1 21124 3 21123   ; some yellow dust
+O 0 21123 8 21335   ; a wooden crate
+P 1 21126 1 21123   ; some very dry, very old iron rations
+O 0 21123 8 21335   ; a wooden crate
+O 0 21128 1 21335   ; the barrel
+O 0 21127 1 21335   ; the barrel
+S
+#99999
+$~
+
+
+
+
+
+

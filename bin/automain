@@ -1,0 +1,21 @@
+#!/bin/csh
+#
+# CircleMUD 2.0 autorun script
+# Originally by Fred C. Merkel
+# Copyright (c) 1993 The Trustees of The Johns Hopkins University
+# All Rights Reserved
+# See license.doc for more information
+
+# If .fastboot exists, the script will sleep for only 5 seconds between reboot
+# attempts.  If .killscript exists, the script commit suicide (and remove
+# .killscript).  If pause exists, the script will repeatedly sleep for
+# 60 seconds and will not restart the mud until pause is removed.
+
+  set DATE = (`date`);
+  cd lib/etc
+  echo "automaint cleaning pfile: $DATE" >> DELETED
+
+  ../../bin/purgeplay players >> DELETED 
+ 
+  mv players players.old
+  mv players.new players

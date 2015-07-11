@@ -1,0 +1,311 @@
+#36000
+potion~
+the potion of self absorbance.~
+The thingy is here !~
+~
+10 0 am
+49 51 86 152 0 0 0 0 14
+0 0 0
+A
+17 100
+A
+18 100
+A
+19 100
+A
+12 100
+A
+13 100
+A
+14 100
+#36001
+morr~
+the staff of creation~
+A staff of obvious power if floating here.~
+~
+5 fE am
+10000 10000 50 11 0 0 0 20 14
+0 0 0
+A
+18 100
+A
+19 100
+A
+12 100
+A
+13 100
+A
+14 100
+A
+17 100
+#36002
+key~
+the gate-key~
+A gate-key lies here, on a golden chain.~
+~
+18 0 ac
+0 0 0 0 0 0 0 16 14
+0 0 0
+#36003
+suit tux~
+a three-piece suit~
+A nice looking suit has been left here.~
+~
+9 jl ad
+1 0 0 0 0 0 0 4 14
+0 0 0
+#36004
+strange key~
+a strange key~
+A strange key lies here, waiting for you to pick it up.~
+~
+18 0 al
+0 0 0 0 0 0 0 3 14
+0 0 0
+#36005
+closet key~
+a closet key~
+A skeleton key is here, looking back at you.~
+~
+18 0 ae
+0 0 0 0 0 0 0 1 14
+0 0 0
+#36006
+strange helm~
+a strange helm~
+A strange looking helm is here, pulsing with power.~
+~
+9 abcfghjlqC ae
+20 0 0 0 0 0 0 20 14
+25 1000 10000
+A
+1 -4
+#36007
+blackened stone key~
+a tiny, blackened-stone key~
+A tiny key of blackened stone lies here.~
+
+~
+18 0 acm
+0 0 0 0 0 0 0 9 1
+1 1000 0
+#36008
+The crying key~
+the crying key~
+There is a small key here, crying out.~
+~
+18 f a
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36009
+whip~
+the whip of tears~
+A strange tear shaped vine lies here.~
+~
+5 x am
+5 10 7 2 0 0 0 0 14
+0 0 0
+A
+23 10
+#36010
+key~
+a large iron key~
+A large key, made of iron lies here.~
+~
+18 0 a
+1000 95 -1 0 0 0 0 18 30
+10 0 0
+#36011
+hedgestone stone~
+the hedgestone~
+A large hedgestone stands here.~
+~
+12 0 0
+0 0 0 0 0 0 0 9 14
+1000 0 0
+E
+hedgestone gravestone stone~
+
+                     HERE LIES THE GRAVE OF THE 
+                             SORCERESS
+                           SETHRA LAVODE
+~
+#36012
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36013
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36014
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36015
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36016
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36017
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36018
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36019
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36020
+cabinet~
+a bright red cabinet~
+A bright red cabinet is resting here.~
+~
+15 a 0
+1000 13 -1 0 0 0 0 10 28
+100 1 1
+#36021
+staff ice~
+the staff of ice storm~
+A strange icicle is here, melting.~
+~
+3 r am
+33 20 20 102 0 0 0 20 14
+10 10000 100
+#36022
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36023
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36024
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#36025
+token~
+a token~
+A token is here, ready to be played~
+~
+1 0 am
+0 0 -1 0 0 0 0 0 14
+0 0 0
+A
+3 25
+A
+4 25
+A
+5 25
+A
+6 25
+A
+7 25
+A
+1 25
+#36026
+potion~
+a killer potion~
+A potion is here, looking YUMMY!!!~
+~
+10 0 am
+50 86 109 107 0 0 0 0 14
+0 0 0
+#36027
+cloak~
+a white, flaming cloak~
+There is a small white flame burning here.~
+~
+9 x aj
+10 0 0 0 0 0 0 0 14
+0 2000 500
+A
+31 25
+A
+3 3
+A
+1 -3
+#36028
+silver pendant~
+a silver pendant~
+A pendant composed of the purest silver lies here.~
+~
+9 f ac
+30 10 10 148 0 0 0 0 14
+0 10000 10000
+A
+24 15
+A
+23 15
+A
+7 -2
+A
+25 15
+A
+27 15
+A
+26 15
+#36029
+jade bracelet~
+a jade bracelet~
+A small bracelet made of a dark green rock lies here.~
+~
+9 0 al
+20 0 0 0 0 0 0 0 14
+0 100 4000
+A
+18 3
+A
+19 3
+$~

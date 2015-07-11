@@ -1,0 +1,453 @@
+#4500
+knight silver~
+A knight of the Silver Legion~
+A knight in silver armor stands here, covered with a thin layer of dust.
+~
+You can't see any body parts holding up the armor, but there must be
+SOMEthing in there since armor doesn't just stand up by itself.  The
+brestplate bears the crest of the Silver Legion, an ancient group of 
+knights that followed the teachings of Sand. . . .
+~
+bdlo 0 650 E
+20 53 52 10d40+40 5d15+57
+0 93750
+8 8 1
+BareHandAttack: 3
+Str: 14
+Dex: 14
+Int: 13
+Wis: 14
+Con: 12
+Cha: 13
+Height: 78
+E
+#4501
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 7 1d1+1 1d1+1
+0 0
+8 8 0
+#4502
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 1 1d1+1 1d1+1
+0 0
+8 8 0
+#4503
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4504
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4505
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4506
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4507
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4508
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4509
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4510
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4511
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4512
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4513
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4514
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4515
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4516
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4517
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4518
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4519
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4520
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4521
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4522
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4523
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4524
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4525
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4526
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4527
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4528
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4529
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4530
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4531
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4532
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4533
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4534
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4535
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4536
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4537
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4538
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#4539
+unfinished mob~
+an unfinished mob~
+An unfinished mob is standing here.
+~
+Err....It's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+$~

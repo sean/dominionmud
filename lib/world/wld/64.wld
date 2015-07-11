@@ -1,0 +1,942 @@
+#6400
+Monastary Road~
+   The road is old and the brick seems to be wearing thin, it seems to be 
+leading towards a monastary to the north.  To the south, a road leads
+back toward Elrhinn.
+~
+64 p 3
+D0
+~
+~
+0 0 6401
+D2
+~
+~
+0 0 3095
+S
+#6401
+Monestary Road~
+   The road goes deeper into the trees, and you can make out the outline
+of the Monastary further down the road.
+~
+64 p 3
+D0
+~
+~
+0 0 6402
+D2
+~
+~
+0 0 6400
+S
+#6402
+Further Down Monastary Road~
+   You can see to the east a large Monastary.  It is very simple.  Stain-
+glass windows set into the wood.  A large marble symbol sits above the 
+entranceway.  
+~
+64 p 3
+D0
+~
+~
+0 0 6403
+D2
+~
+~
+0 0 6401
+S
+#6403
+Outside the Monastary~
+   This has got to be a religious building from all the chanting and humming
+that you hear coming from within.  To the east you see an archway 
+openning to a large chamber. 
+~
+64 p 3
+D0
+~
+~
+0 0 35249
+D1
+~
+~
+0 0 6404
+D2
+~
+~
+0 0 6402
+S
+#6404
+Entranceway to the Monastary~
+   To the East, a hallway leads into the rest of the monastary and the
+Practice Grounds in the back. From the South you hear some chanting and
+the low hum of monks in prayer.
+~
+64 dp 0
+D1
+~
+~
+0 0 6405
+D2
+Looking south, you see the sanctum of the monastary where the monks come
+to pray and meditate. In fact, there are a few there now creating all of
+that wonderful chanting and humming!
+~
+~
+0 0 6424
+D3
+You can see outside the monastary
+~
+~
+0 -1 6403
+S
+#6405
+Western End of Main Hallway~
+   The hallway continues East towards the training grounds though a smaller
+hallway is to the North. You see a Dining Hall to the South of here.
+~
+64 dp 0
+D0
+~
+~
+0 0 6408
+D1
+~
+~
+0 0 6406
+D2
+~
+~
+0 0 6426
+D3
+~
+~
+0 0 6404
+S
+#6406
+Middle of the Main Hallway~
+   The main hallway continues to the East towards the Training Grounds and
+to the West towards the Monastary's Entrance.
+~
+64 dp 0
+D1
+~
+~
+0 0 6407
+D3
+~
+~
+0 0 6405
+S
+#6407
+Eastern End of Main Hallway~
+   This East-West hallway goes East towards the Training Grounds and West
+towards the Monastary Entrance. You hear the sounds of unarmed combat to
+the East and hear some faint humming coming back from the West.
+~
+64 dp 0
+D1
+~
+~
+0 0 6425
+D3
+~
+~
+0 0 6406
+S
+#6408
+Outside the Library~
+   You are in a small hallway outside of the Library which is to the West.
+To the South is the Main Hallway, to the North is a monk's cell, and the
+small corridor to the East is lined with monk cells on both sides.
+~
+64 dp 0
+D0
+~
+curtain north n~
+1 0 6413
+D1
+~
+~
+0 0 6409
+D2
+~
+~
+0 0 6405
+D3
+~
+~
+0 0 6421
+S
+#6409
+A Small Hallway~
+   This smallish hallway runs East-West and is lined with monk cells on both
+sides. The cells each have a heavy curtain to provide the monks with a little
+bit of privacy when they are in their rooms.
+~
+64 dp 0
+D0
+~
+curtain north n~
+1 0 6414
+D1
+~
+~
+0 0 6410
+D2
+~
+curtain south s~
+1 0 6417
+D3
+~
+~
+0 0 6408
+S
+#6410
+A Small Hallway~
+   This smallish hallway runs East-West and is lined with monk cells on both
+sides. The cells each have a heavy curtain to provide the monks with a little
+bit of privacy when they are in their rooms.
+~
+64 dp 0
+D0
+~
+curtain north n~
+1 0 6415
+D1
+~
+~
+0 0 6411
+D2
+~
+curtain south s~
+1 0 6418
+D3
+~
+~
+0 0 6409
+S
+#6411
+Turn in the Small Hallway~
+   The small hallway turns West down the corridor and South towards the
+Training Grounds. Monk cells are to the North and East; and you faintly hear
+to sounds of unarmed combat towards the South.
+~
+64 d 0
+D0
+~
+curtain north n~
+1 0 6416
+D1
+~
+curtain east e~
+1 0 6419
+D2
+~
+~
+0 0 6412
+D3
+~
+~
+0 0 6410
+S
+#6412
+End of a Small Hallway~
+   A curtain covers the entrance to a monk's cell to the East of here, a small
+corridor goes North to some more monk cells, and to the South is the Entrance
+to the Training Grounds.
+~
+64 d 0
+D0
+~
+~
+0 0 6411
+D1
+~
+curtain east e~
+1 0 6420
+D2
+~
+~
+0 0 6425
+S
+#6413
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably
+guess why. In fact, the only real piece of furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 dp 0
+D2
+~
+curtain south s~
+1 0 6408
+S
+#6414
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably 
+guess why. In fact, the only real piece of furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 dp 0
+D2
+~
+curtain south s~
+1 0 6409
+S
+#6415
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably
+guess why. In fact, the only real piece of furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 d 0
+D2
+~
+curtain south s~
+1 0 6410
+S
+#6416
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably
+guess why. In fact, the only real piece of furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 d 0
+D2
+~
+curtain south s~
+1 0 6411
+S
+#6417
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably
+guess why. In fact, the only real piece or furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 dp 0
+D0
+~
+curtain north n~
+1 0 6409
+S
+#6418
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably
+guess why. In fact, the only real piece of furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 d 0
+D0
+~
+curtain north n~
+1 0 6410
+S
+#6419
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably
+guess why. In fact, the only real piece of furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 d 0
+D3
+~
+curtain west w~
+1 0 6411
+S
+#6420
+A Monk's Cell~
+   A monk's private living quarters is often referred to as a cell and from
+the sparseness of the furnishings and comforts of home; you can probably
+guess why. In fact, the only real piece of furniture in here is a small cot
+upon which the monk sleeps.
+~
+64 d 0
+D3
+~
+curtain west w~
+1 0 6412
+S
+#6421
+Working Section of Library~
+   This Library is either very well stocked or these busy monks have been
+copying a few texts and scrolls very industriously! Bookshelves are to the
+North and South and the only exit is to the East. Several tables and chairs
+are about this section and a desk in on the far wall.
+~
+64 dp 0
+D0
+~
+~
+0 0 6422
+D1
+~
+~
+0 0 6408
+D2
+~
+~
+0 0 6423
+E
+book shelf shelves bookshelves bookshelf~
+   Though you can obviously tell the shelves are quite full, you would have
+to actually go into the section to tell what was on them.
+~
+E
+table tables~
+   The tables are stained with ink and covered with some blank paper. You
+decide that the paper would be far to heavy if you were to take any for
+sale back in town. (Besides, do you really want to make the monks upset?)
+~
+S
+#6422
+Northern Bookshelves~
+   The bookshelves are filled with various scrolls, texts, manuals, tomes,
+books, and other groupings of literature. You would have to examine the
+various shelves individually to see if there was anything of interest.
+~
+64 dp 0
+D2
+~
+~
+0 0 6421
+S
+#6423
+Southern Bookshelves~
+   The bookshelves are filled with various scrolls, texts, manuals, tomes,
+books and other groupings of literature. You would have to examine the
+various shelves individually to see it there was anything of interest.
+~
+64 dp 0
+D0
+~
+~
+0 0 6421
+D5
+~
+trapdoor~
+1 0 19037
+S
+#6424
+Sanctum of the Monastary~
+   The monks gather here to pray to the gods at various times of the day,
+though at any given time there is almost gauranteed to be a few monks here
+chanting, praying, or humming. The Monastary Entrance is to the North and to
+the East seems to be the Dining Hall were the monks eat.
+~
+64 dp 0
+D0
+~
+~
+0 0 6404
+D1
+~
+~
+0 0 6426
+S
+#6425
+Entrance to the Training Grounds~
+   You see and hear unarmed combat between monks going on behind the
+Master though you get the impression that you couldn't get by him unless
+he thought you were worthy of testing yourself. You see several large and
+imformative SIGNS hanging on the wall.
+~
+64 dp 0
+D0
+~
+~
+0 0 6412
+D1
+~
+~
+0 -1 6450
+D3
+~
+~
+0 0 6407
+E
+skills~
+   At the time of this area's creation, monk skills had not yet been decided
+or defined on effects. As soon as it is possible, this will be altered to
+reflect the new information.
+
+Father
+~
+E
+attacks~
+The formula used for the number of attacks that an unarmed monk will get per
+round will be: (level-1)/16 +1   --The fractional portion will provide the
+probability of getting an extra attack each round. (ie. if you were VERY
+lucky, a 2nd level monk could get 2 attacks every round, but probably won't)
+
+[a few samples: Level--#Att]
+ 1--1.00    5--1.25    9--1.50   13--1.75   17--2.00   21--2.25   25--2.50
+29--2.75   33--3.00   37--3.25   41--3.50   45--3.75   49--4.00
+~
+E
+damage~
+Level  Damage     Level  Damage     Level  Damage     Level  Damage
+ 1- 3   1d3       15-19   2d4       30-34   4d4       42-44   6d4
+ 4- 5   1d4       20-21   3d3       35-36   4d5       45-49   6d5
+ 6-11   1d6       22-26   3d4       37-41   5d4        50     8d4
+12-14   2d3       27-29   4d3
+~
+E
+combat~
+You do not see that here.
+~
+E
+sign signs~
+   You see three signs to look at: DAMAGE, ATTACKS, and SKILLS. You feel the
+urge to look at them to find out some of the mysteries of the monk class.
+~
+S
+#6426
+Dining Hall~
+   A long Table fills the room and you get the impression that it probably could
+seat the entire monastary at one time. Not that they would probably all eat
+at the same time since someone always seems to be training or praying.
+~
+64 dp 0
+D0
+~
+~
+0 0 6405
+D1
+~
+~
+0 0 6427
+D3
+~
+~
+0 0 6424
+S
+#6427
+The Kitchen~
+   The cook prepares most of the monastary's food here despite the odd hours
+that certain monks keep. You see various cooking utensils, a firepit, and a
+trapdoor that leads down to the Cellar. You also notice a sign on the
+trapdoor that catches you eye.
+~
+64 p 0
+D3
+~
+~
+0 0 6426
+D5
+~
+trapdoor door trap cellar~
+1 0 6428
+E
+sign~
+               BOLD ADVENTURERS!!
+
+   Recently, it seems that some nasty little monsters made a hole in our wall
+dowstairs in the Cellar. We soundly trashed them and none of them have enough
+courage to enter the Cellar again, however, the Monastary would appreciate it
+if you would help us keep their numbers down and fear in their hearts.
+   Though the Monastary could easily purge the menace, we just don't feel like
+taking the time away from our prayers and training to do this. Any assistance
+you provide would be appreciated and you may keep anything you find down
+there as a reward for your help.
+~
+S
+#6428
+Cellar Under the Monastary~
+   There is a Hole in the South wall that seems to lead to a tunnel. The
+Cellar is lit up with some magical lights but the tunnel seems to be lit by
+some sort of green light. The only other exit is through the trapdoor up
+to the Kitchen.
+~
+64 cdp 0
+D2
+~
+~
+0 0 6429
+D4
+~
+trapdoor door trap kitchen~
+1 0 6427
+S
+#6429
+At the Hole in the Wall~
+   Apparently, someone or something made this hole in the wall into the
+Monastary. Unfortunately, they didn't think things through and they were
+completely stomped by the monks. The tunnel seems to be lit by some sort of
+luminescent fungi with an erie green glow.
+~
+64 d 0
+D0
+~
+~
+0 0 6428
+D2
+~
+~
+0 0 6430
+S
+#6430
+Green Glowing Intersection~
+   This part of the tunnel is brightly lit by some sort of green, glowing
+fungi. The tunnel goes to the North, East, and South.
+~
+64 d 0
+D0
+~
+~
+0 0 6429
+D1
+~
+~
+0 0 6431
+D2
+~
+~
+0 0 6439
+S
+#6431
+Green Glowing Tunnel~
+   This tunnel is also brightly lit by the same green, glowing fungi that
+is fairly prevalent in the chamber to the East.
+~
+64 d 0
+D1
+~
+~
+0 0 6432
+D3
+~
+~
+0 0 6430
+S
+#6432
+The Glowing Green Chamber~
+   You can hardly believe the amount of green fungi growing on the walls
+in this largish chamber. Not only is the fungi abundant, it also gives off a
+decent light source-- probably enough to read by comfortably!
+~
+64 d 0
+D0
+~
+~
+0 0 6433
+D1
+~
+~
+0 0 6435
+D3
+~
+~
+0 0 6431
+S
+#6433
+The Glowing Green Chamber~
+   You can hardly believe the amount of green fungi growing on the walls in
+this largish chamber. Not only is the fungi abundant, it also gives off a
+decent light source-- probably enough to read by comfortably!
+~
+64 d 0
+D1
+~
+~
+0 0 6434
+D2
+~
+~
+0 0 6432
+S
+#6434
+The Glowing Green Chamber~
+   You can hardly believe the amount of green fungi growing on the walls in
+this largish chamber. Not only is the fungi abundant, it also gives off a
+decent light source-- probably enough to read by comfortably!
+~
+64 d 0
+D2
+~
+~
+0 0 6435
+D3
+~
+~
+0 0 6433
+S
+#6435
+The Glowing Green Chamber~
+   You can hardly believe the amount of green fungi growing on the walls in
+this largish chamber. Not only is the fungi abundant, it also gives off a
+decent light source-- probably enough to read by comfortably!
+~
+64 d 0
+D0
+~
+~
+0 0 6434
+D2
+~
+~
+0 0 6436
+D3
+~
+~
+0 0 6432
+S
+#6436
+Glowing Green Passage~
+   This passage is as brightly lit as the Glowing Chamber to the North of
+here. The light seems to be coming from a strange, green fungus that covers
+the walls and ceiling of the passage.
+~
+64 d 0
+D0
+~
+~
+0 0 6435
+D2
+~
+~
+0 0 6437
+S
+#6437
+A Strangely Lit Passage~
+   This passage is illuminated in the most unusual color because there seems
+to be a bright, Green glow coming from the North and a not-quite as bright
+Red glow coming from the West. There seems to be a small passage going to
+the East of here.
+~
+64 d 0
+D0
+~
+~
+0 0 6436
+D1
+~
+~
+0 0 6449
+D3
+~
+~
+0 0 6438
+S
+#6438
+Red Glowing Passage~
+   This passage is fairly well lit by what seems to be some sort of strange
+fungus. This paticular strain of fungi emits a bright Red glow. You can see a
+chamber to the South that seems to be covered in this fungus.
+~
+64 d 0
+D1
+~
+~
+0 0 6437
+D2
+~
+~
+0 0 6447
+S
+#6439
+A Dimly Lit Intersection~
+   You can hardly believe the amount of Red glowing fungus growing on the
+walls of this rather large chamber. In fact, the Fungus is so abundant, you
+could probably read by the light it gives off.
+~
+64 d 0
+D0
+~
+~
+0 0 6430
+D2
+~
+~
+0 0 6444
+D3
+~
+~
+0 0 6440
+S
+#6440
+A Dark Tunnel~
+   A rather boring tunnel really that leads East and West. To the East, you
+notice that there is some strangely colored light while to the West is
+nothing but blackness.
+~
+64 ad 0
+D1
+~
+~
+0 0 6439
+D3
+~
+~
+0 0 6441
+S
+#6441
+Edge of a Deep, Dark Pit~
+   The tunnel ends abruptly at the steep side of a Deep, Dark Pit. You think
+to yourself, "This has GOT to be where all of the monsters are coming from!"
+~
+64 ad 0
+D1
+~
+~
+0 0 6440
+D5
+Looking down, you feel that you should probably go down there and see if
+you can clear out the monster infestation.... then again, maybe someone else
+will do it for the monastary.
+~
+~
+0 0 6442
+S
+#6442
+You change you mind and go back!~
+   As you start down, you hear some strange growls and snorts from below and
+you suddenly think, "What if there is something down there that is MUCH
+tougher than the things that are up here?  What if the things up here are
+actually trying to get away from something down there?"
+   You suddenly remember that you were supposed to be somewhere (well, 
+anywhere besides here would do nicely) and decide to go back.
+~
+64 ad 1
+D4
+~
+~
+0 0 6441
+S
+#6443
+The Glowing Red Chamber~
+   You can hardly believe the amount of Red glowing fungus growing on the
+walls of this rather large chamber. In fact, the Fungus is so abundant, you
+could probably read by the light it gives off.
+~
+64 d 0
+D0
+~
+~
+0 0 6446
+D1
+~
+~
+0 0 6448
+S
+#6444
+A Glowing Red Tunnel~
+   This tunnel would be a rather unremarkable North-East tunnel if it wasn't
+for the very unusual fungus growing all over the ceiling and walls. This
+fungus emits a bright Red glow that enables you to see quite well.
+~
+64 d 0
+D0
+~
+~
+0 0 6439
+D1
+~
+~
+0 0 6445
+S
+#6445
+Bend in the Red Glowing Tunnel~
+   The tunnel bends to the West and South here. As before, the walls and
+ceilings of the tunnel are covered with an unusual fungus that emits a bright
+red light that enables you to see.
+~
+64 d 0
+D2
+~
+~
+0 0 6446
+D3
+~
+~
+0 0 6444
+S
+#6446
+The Glowing Red Chamber~
+   You can hardly believe the amount of Red glowing fungus growing on the
+walls of this rather large chamber. In fact, the Fungus is so abundant, you
+could probably read by the light it gives off.
+~
+64 d 0
+D0
+~
+~
+0 0 6445
+D1
+~
+~
+0 0 6447
+D2
+~
+~
+0 0 6443
+S
+#6447
+The Glowing Red Chamber~
+   You can hardly believe the amount of Red glowing fungus growing on the
+walls of this rather large chamber. In fact, the Fungus is so abundant, you
+could probably read by the light it gives off.
+~
+64 d 0
+D0
+~
+~
+0 0 6438
+D2
+~
+~
+0 0 6448
+D3
+~
+~
+0 0 6446
+S
+#6448
+The Glowing Red Chamber~
+   You can hardly believe the amount of Red glowing fungus growing on the
+walls of this rather large chamber. In fact, the Fungus is so abundant, you
+could probably read by the light it gives off.
+~
+64 d 0
+D0
+~
+~
+0 0 6447
+D3
+~
+~
+0 0 6443
+S
+#6449
+A Small Passage~
+  This seems to be a recently dug passage that seems to have broken through
+the wall to the South. You are not sure, but you think that you can smell
+the wonderful odor of baking Pipeweed Bread coming from the hole to the South.
+~
+64 acd 0
+D3
+~
+~
+0 0 6437
+S
+#6450
+The Monk's Guild~
+   This field serves as the trainging grounds for monks from all over
+the continent.  The greatest monks have been trained here (as well as
+the not-so-great monks).  There are broken logs and shredded dumies
+strewn about the room. 
+~
+64 e 2
+D3
+Entrance to the Monk's guild
+~
+~
+0 -1 6425
+S
+$~

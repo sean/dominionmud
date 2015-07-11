@@ -1,0 +1,120 @@
+#5201
+mindflayer mind flayer~
+the mindflayer spy~
+An ugly muave-colored mindflayer stands here, spying on drow activity.
+~
+A slightly large than human sized humanoid with mauve skin. Tentacles like 
+octopi surround his mouth. You have heard of the evil of the mindflayer, maybe
+it would be best to avoid combat with them.
+~
+onmljeb d -1000 S
+54 2 4 1d250+700 5d8+12
+200 90000
+8 8 1 
+#5210
+dracolich lich~
+the dracolich~
+A pile of bones rises up to form a skeletal dracolich.
+~
+The dracolich is now only bone with pieces of flesh hanging from it.
+Obviously it no longer fears death.
+~
+onlfeb hdb -1000 S
+115 -18 0 1d200+4700 8d8+24
+750 700000
+8 8 0
+#5211
+drider~
+the drider~
+The drider looks at you viciously while it draws its sword.
+~
+This half-spider, half-drow creature is a formidable opponent.
+~
+gf d -1000 S
+30 10 6 1d80+280 4d8+3
+90 13000
+8 8 0
+#5212
+duergar dark dwarf~
+the dark dwarf~
+A duergar wanders through the tunnels, on his way home.
+~
+The duergar could probably crush your head as easily as he does those
+rocks.
+~
+gf d -850 S
+26 12 7 1d80+180 4d8+2
+80 8000
+8 8 1
+#5213
+myconoid~
+the myconoid~
+A myconoid lumbers along peacefully.
+~
+The myconoid looks something like a giant mushroom (and probably has the
+same effect).
+~
+hg d 850 S
+19 14 8 1d80+70 1d8+0
+60 1800
+8 8 1
+#5214
+myconoid shaman~
+the myconoid shaman~
+A rather large myconoid stands here chanting in a strange tongue.
+~
+The shaman shoots spores into the air.
+~
+lifca hd 950 S
+55 2 4 1d250+720 5d8+12
+200 100000
+8 8 1
+#5218
+drow caravan guard~
+the drow caravan guard~
+A drow warrior stands here, guarding the caravan of merchants.
+~
+A tall dark skinned evil elf. He looks ready to die, to protect the noble 
+merchants he is travelling with.
+~
+mlb d -1000 S
+57 1 4 1d250+780 5d8+13
+220 120000
+8 8 1
+#5219
+drow merchant~
+the drow merchant~
+A drow merchant makes his way through the tunnels here.
+~
+He is a tall dark skinned elf. Probably from a noble family. Maybe you 
+better not mess with this guy.
+~
+mlfb d -1000 S
+45 5 5 1d250+500 5d8+7
+160 20000
+8 8 1
+#5220
+duergar dark dwarf~
+the dark dwarf~
+A duergar is here mining precious stones with his pick.
+~
+The duergar could probably crush your head as easily as he does those
+rocks.
+~
+gfb d -850 S
+30 10 6 1d80+280 4d8+3
+90 13000
+8 8 1
+#5221
+duergar dark dwarf leader~
+the dark dwarf mining leader~
+A duergar is here supervising the mining operation.
+~
+The duergar could probably crush your head as easily as he does those
+rocks.
+~
+gfb d -850 S
+38 8 5 1d250+360 5d8+5
+110 17500
+8 8 1
+$~

@@ -1,0 +1,884 @@
+#2100
+Just off the main road~
+The leave the main road just a bit to come over and sit beneath one of the
+few trees that offers and protection from the wide open plains.  Luckily
+for you there is a wide flat rock that you can sit on and relax for a while.
+As you sit down you notice that the area around the rock is well worn
+indicating that many people have stopped to rest here before you.
+~
+21 0 2
+D1
+~
+~
+0 -1 2101
+D2
+~
+~
+0 -1 2111
+E
+rock large flat~
+The rock is a rather large piece of smooth granite that you can sit down on
+and lean back and rest on the tree.
+~
+S
+#2101
+Room #2101~
+The grass here gets a little higher as you travel away from the road.  Out 
+ahead of you, you can see that these plains stretch on for countless miles
+and the only road that can be seen is the one you just stepped off of.
+besides a few trees here and there and an occasional small mound it is not
+really all that interesting of a place.
+~
+21 0 2
+D1
+~
+~
+0 -1 2102
+D2
+~
+~
+0 -1 2112
+D3
+~
+~
+0 -1 2100
+S
+#2102
+In the field~
+Walking through the tall grasses you think that you could probably grow some
+good wheat here if it were not for that large patch of thorny bushes behind
+you.  You decide that you might as well stay with your current profession
+and that you might want to be on you way soon.
+~
+21 0 2
+D1
+~
+~
+0 -1 2103
+D2
+~
+~
+0 -1 2113
+D3
+~
+~
+0 -1 2101
+S
+#2103
+Out in the tall grass~
+The ground here dips down and you stumble through the grass until you trip
+on something and fall to the ground.  Collecting yourself, you stand up and
+brush the dirt off your legs when you notice small tracks in the dirt.  having
+seen no living animals in the plains yet, you look around for what left the
+tracks but are unsuccesful and decide just to get back to your business.
+~
+21 0 2
+D1
+~
+~
+0 -1 2104
+D2
+~
+~
+0 -1 2114
+D3
+~
+~
+0 -1 2102
+S
+#2104
+Room #2104~
+This description is yet unfinished...
+~
+21 0 2
+D2
+~
+~
+0 -1 2115
+D3
+~
+~
+0 -1 2103
+S
+#2105
+Room #2105~
+This description is yet unfinished...
+~
+21 0 2
+D1
+~
+~
+0 -1 2106
+D2
+~
+~
+0 -1 2120
+S
+#2106
+Room #2106~
+This description is yet unfinished...
+~
+21 0 2
+D1
+~
+~
+0 -1 2107
+D2
+~
+~
+0 -1 2121
+D3
+~
+~
+0 -1 2105
+S
+#2107
+Room #2107~
+This description is yet unfinished...
+~
+21 0 2
+D1
+~
+~
+0 -1 2108
+D2
+~
+~
+0 -1 2122
+D3
+~
+~
+0 -1 2106
+S
+#2108
+Room #2108~
+This description is yet unfinished...
+~
+21 0 2
+D1
+~
+~
+0 -1 2109
+D2
+~
+~
+0 -1 2123
+D3
+~
+~
+0 -1 2107
+S
+#2109
+Room #2109~
+This description is yet unfinished...
+~
+21 0 2
+D1
+~
+~
+0 -1 2110
+D2
+~
+~
+0 -1 2124
+D3
+~
+~
+0 -1 2108
+S
+#2110
+Room #2110~
+This description is yet unfinished...
+~
+21 0 2
+D1
+~
+~
+0 -1 2111
+D2
+~
+~
+0 -1 2125
+D3
+~
+~
+0 -1 2109
+S
+#2111
+Next to the thorn bushes~
+Even though you have to travel next to the thorn bushes which have ruined
+your image of a safe picnic spot, you can still enjoy the rest of you trip
+through the plains.  Right here the road makes a turn eastward to follow the
+line of the bushes.
+~
+21 0 1
+D0
+~
+~
+0 -1 2100
+D1
+~
+~
+0 -1 2112
+D2
+~
+~
+0 -1 2126
+D3
+~
+~
+0 -1 2110
+S
+#2112
+Along the bushes~
+Having taken the time to relax and enjoy your surroundings, you can spend
+a little more time looking a little closer than before.  Now you notice that
+there are indeed tracks of some sort of animal on the ground, but you still
+have not seen one.  Well it has not attacked you or made any menacing sounds
+so no need to worry.
+~
+21 0 1
+D0
+~
+~
+0 -1 2101
+D1
+~
+~
+0 -1 2113
+D3
+~
+~
+0 -1 2111
+S
+#2113
+Walking along the road~
+Boy this patch of bushes is huge!  No wonder you have not seen any living
+things around here, who would want to live next to such a huge patch of
+obviously deadly thorn bushes?  Well at least you are near the end of the 
+patch and the road turns up ahead and heads back towards the woods on the
+other side of the plains which are your goal.
+~
+21 0 1
+D0
+~
+~
+0 -1 2102
+D1
+~
+~
+0 -1 2114
+D3
+~
+~
+0 -1 2112
+S
+#2114
+Turn in the path~
+Finally past the pastch of bushes you can now turn south again and follow
+the road into the woods and along your way.  It looks as if you are going to
+have to follow the road a bit as it winds itself around mounds in the middle
+of the plains and a few of the larger trees that you have seen thus far.
+~
+21 0 1
+D0
+~
+~
+0 -1 2103
+D1
+~
+~
+0 -1 2115
+D2
+~
+~
+0 -1 2127
+D3
+~
+~
+0 -1 2113
+S
+#2115
+Room #2115~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2104
+D1
+~
+~
+0 -1 2116
+D2
+~
+~
+0 -1 2128
+D3
+~
+~
+0 -1 2114
+S
+#2116
+Room #2116~
+This description is yet unfinished...
+~
+21 0 2
+D1
+~
+~
+0 -1 2117
+D2
+~
+~
+0 -1 2129
+D3
+~
+~
+0 -1 2115
+S
+#2117
+Room #2117~
+This description is yet unfinished...
+~
+21 0 2
+D2
+~
+~
+0 -1 2130
+D3
+~
+~
+0 -1 2116
+S
+#2118
+Path's Beginning~
+Emerging from the light woods you see a grassy plain stretch before you.
+A thin sandy trail winds it way through the plains and disappears into the
+tall woods a few miles off.
+~
+21 0 1
+D1
+~
+~
+0 -1 2119
+S
+#2119
+The Sandy Trail~
+Here the path that you were following widens out a bit into a hard packed
+sandy road taht winds through the plains.  Tall grass sways in the breeze
+and the sound of crickets can be heard over the shuffling of your feet on 
+the road.
+~
+21 0 1
+D1
+~
+~
+0 -1 2120
+D3
+~
+~
+0 -1 2118
+S
+#2120
+Atop a small rise~
+The road you are on takes you to the top of a smallish hill.  Pausing to look
+around you can not help but notice that you do not see any animals roaming
+around or grazing on the grasses.  The only thing that breaks the monotany of
+the endless grass are a few stubby bushes and scraggly trees.
+~
+21 0 1
+D0
+~
+~
+0 -1 2105
+D1
+~
+~
+0 -1 2121
+D3
+~
+~
+0 -1 2119
+S
+#2121
+Down the small hill~
+Coming down the smallish hill you wonder idly why this road is here.  You
+do not see any other people out on the road for trade and you can not think
+of any town that is nearby.  At least you do not have to walk through the 
+tall grasses, you would surely be covered in ticks if you did.
+~
+21 0 1
+D0
+~
+~
+0 -1 2106
+D1
+~
+~
+0 -1 2122
+D2
+~
+~
+0 -1 2133
+D3
+~
+~
+0 -1 2120
+S
+#2122
+Travelling the road~
+Nearing the middle of the grassy plain you are surprised to realize that you
+feel very comfortable and safe in the middle of nowhere.  No large animals
+threaten you, no copse of trees to hide would be highwaymen, no shrieking
+birds of prey falling out of the sky looking to make you lunch.  You relax
+a little and think that the only thing that could make this place better
+would be a few pints of ale.
+~
+21 0 1
+D0
+~
+~
+0 -1 2107
+D1
+~
+~
+0 -1 2123
+D2
+~
+~
+0 -1 2134
+D3
+~
+~
+0 -1 2121
+S
+#2123
+Strolling along the road~
+Just strolling along the road, nothing to worry about, no one to hassle you.
+Come to think of it, this place looks like a nice spot for that romantic
+little picnic you have been planning to take your fiancee on.  
+~
+21 0 1
+D0
+~
+~
+0 -1 2108
+D1
+~
+~
+0 -1 2124
+D2
+~
+~
+0 -1 2135
+D3
+~
+~
+0 -1 2122
+S
+#2124
+Nearing the center of the plains~
+You have travelled quite some distance into the plains and are now nearing
+the center.  Up ahead is a darker patch of vegitation that only comes up
+to about your knees but the road goes around it instead of through it.
+~
+21 0 1
+D0
+~
+~
+0 -1 2109
+D1
+~
+~
+0 -1 2125
+D2
+~
+~
+0 -1 2136
+D3
+~
+~
+0 -1 2123
+S
+#2125
+Aproaching a turn~
+Now that you are closer to the darker patch of shrubs you can make out that
+they are indeed small knee high pricker bushes.  The reason that the road goes
+around them instead of through them is that the thorns on these bushes
+happen to be over 3 inches long and look quite painful.
+~
+21 0 1
+D0
+~
+~
+0 -1 2110
+D1
+~
+~
+0 -1 2126
+D2
+~
+~
+0 -1 2137
+D3
+~
+~
+0 -1 2124
+S
+#2126
+Turn in the road~
+Right here the road turns to the north to avoid the dense patch of wicked
+little thorn bushes.  Getting clsoer to them you can see the dried up 
+corpses of small rodents still impaled on the thorns.  You also notice that
+there is some sort of liquid oozing down the length of the thorn, probably
+some sort of poison you assume.
+~
+21 0 1
+D0
+~
+~
+0 -1 2111
+D3
+~
+~
+0 -1 2125
+S
+#2127
+Next to a small mound~
+The road here bends south and then east to go around a small mound in the
+middle of the field, there are a lot of those animal tracks here that seem
+to lead towards the mound a little northeast from you.  They do not look to
+big and there is not signs that whatever made them has dragged unwary and
+daydreaming travelers like yourself off the road for a mid-day meal.
+~
+21 0 1
+D0
+~
+~
+0 -1 2114
+D1
+~
+~
+0 -1 2128
+S
+#2128
+Rounding the mound~
+You did not quite expect the mound to be this big, but from this side it is
+quite huge.  It almost reminds you of something a beaver would build out in
+the middle of the grass plains.  From the opposite direction it looked like
+an ordinary grass mound in a field, and from this angle you can see that it
+is actually a small mound collected tall grasses that appears to be hollowed
+out to provide a living space in the center.
+~
+21 0 1
+D0
+~
+~
+0 -1 2115
+D1
+~
+~
+0 -1 2129
+D3
+~
+~
+0 -1 2127
+S
+#2129
+Down the road a bit~
+Well after passing that strange dwelling you notice that there are actually
+about a half dozen of these small mounds that are dotting the landscape that
+could very well be more of the same small grass huts.  You look ahead and
+are relieved that the entrance to the other side of the forest is nearby and
+that you are putting some distance between yourself and the thorn bushes and
+the grass huts.
+~
+21 0 1
+D0
+~
+~
+0 -1 2116
+D1
+~
+~
+0 -1 2130
+D3
+~
+~
+0 -1 2128
+S
+#2130
+Next to another hut~
+You were right, the next grass mound you come upon also happens to be a small
+grass hut with lots of aminal track around it.  Thinking it wise to probably
+let sleeping animals lie, you hurry off in the direction of the woods to the
+southeast.
+~
+21 0 1
+D0
+~
+~
+0 -1 2117
+D1
+~
+~
+0 -1 2131
+D2
+~
+~
+0 -1 2138
+D3
+~
+~
+0 -1 2129
+S
+#2131
+On the road~
+The grass right next to you moves and you freeze, not quite sure what is 
+going to come out of it.  A small lizard head pokes out from between the
+grass and flicks his tongue out.  Not finding you to be very much to his
+liking he melts back into the grass and you can see the grass moving as he
+makes his way towards one of the grass huts.  Felling very much relieved you
+regain your composure and start walking down the road.
+~
+21 0 1
+D1
+~
+~
+0 -1 2132
+D2
+~
+~
+0 -1 2139
+D3
+~
+~
+0 -1 2130
+S
+#2132
+Room #2132~
+This description is yet unfinished...
+~
+21 0 2
+D2
+~
+~
+0 -1 2140
+D3
+~
+~
+0 -1 2131
+S
+#2133
+Room #2133~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2121
+D1
+~
+~
+0 -1 2134
+S
+#2134
+Room #2134~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2122
+D1
+~
+~
+0 -1 2135
+D3
+~
+~
+0 -1 2133
+S
+#2135
+Room #2135~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2123
+D1
+~
+~
+0 -1 2136
+D3
+~
+~
+0 -1 2134
+S
+#2136
+Room #2136~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2124
+D1
+~
+~
+0 -1 2137
+D3
+~
+~
+0 -1 2135
+S
+#2137
+Room #2137~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2125
+D3
+~
+~
+0 -1 2136
+S
+#2138
+Room #2138~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2130
+D1
+~
+~
+0 -1 2139
+D2
+~
+~
+0 -1 2142
+S
+#2139
+Turn in the road~
+Hear the road makes its final turn and goes straight into the woods.  You 
+feel mildly amused that you got a bit frightened over some small lizards, and
+wonder idly if they would make good pets.  Maybe on the way back you can stop
+and try to catch one to take home with you.
+~
+21 0 1
+D0
+~
+~
+0 -1 2131
+D1
+~
+~
+0 -1 2140
+D2
+~
+~
+0 -1 2143
+D3
+~
+~
+0 -1 2138
+S
+#2140
+On the fringe of the woods~
+Up against the very fringe of the woods you feel a little safer because you
+are not out in the open with no place to hide.  The woods themselves do
+not look very forboding and will be a pleasant change of pace for you now
+that you have been walking through the plainsfor the past few hours.
+~
+21 0 1
+D0
+~
+~
+0 -1 2132
+D1
+~
+~
+0 -1 2141
+D2
+~
+~
+0 -1 2144
+D3
+~
+~
+0 -1 2139
+S
+#2141
+Entrance to the woods~
+Here the grasslands give way to tall trees and large leafy bushes that make
+up these woods.  You can hear the chirp of birds and the sounds of scampering 
+rodents from here and it makes you smile after walking through a mostly
+deserted grass field. You take one last look over you shoulder back at the
+plains and hope that there are not thorn bushes like that in the woods.
+~
+21 0 1
+D3
+~
+~
+0 -1 2140
+S
+#2142
+Room #2142~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2138
+D1
+~
+~
+0 -1 2143
+S
+#2143
+Room #2143~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2139
+D1
+~
+~
+0 -1 2144
+D3
+~
+~
+0 -1 2142
+S
+#2144
+Room #2144~
+This description is yet unfinished...
+~
+21 0 2
+D0
+~
+~
+0 -1 2140
+D3
+~
+~
+0 -1 2143
+S
+$~

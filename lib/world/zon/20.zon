@@ -1,0 +1,92 @@
+#20
+The Abandoned Cathedral~
+C.A.W.~
+Unknown~
+3001 2
+2099 28 2
+*
+* Created by Matrix of C.A.W.  Copyright 1995.
+*
+* Room layout loosely based up an unfinished church by CatsEye of
+* VieMud 2.x
+* Apologies to Victor Hugo for Isaac the hunchback.
+*
+* Mobiles
+M 0 2000 1 2018         Isaac The Hunchback
+M 0 2001 2 2008         Ghoul
+M 0 2001 2 2010         Ghoul
+M 0 2002 1 2009         Ghoul
+M 0 2003 1 2009         Esmerelda The Evil High Priestess
+E 1 2002 3 3                    Sapphire Amulet
+G 1 2003 1                      Ivory Key
+O 1 2000 1 2009         Corpse
+P 1 2001 1 2000                 Knife
+O 1 2006 1 2011         Dark Potion
+O 1 2007 1 2011         Ivory Staff
+O 1 2008 1 2011         Coins
+M 0 2004 2 2008         Evil Priest
+M 0 2004 2 2010         Evil Priest
+M 0 2005 1 2049         Wyrenthoth
+E 1 2010 1 17                   Gold Key
+M 0 2006 1 2041         Erich The Vampiric Fellow
+E 1 2009 2 16                   Rune Sword
+E 1 2011 1 17                   Blood Key
+E 1 2013 4 12                   Black Cape
+E 1 2014 6 3                    Onyx Necklace
+O 1 2004 1 2048         Ebony Coffin
+P 1 2005 1 2004                 Evalynn's Corpse
+P 1 2016 1 2005                         Holy Avenger
+M 0 2007 1 2035         Giant Zombie
+E 1 2015 99 16                  Giant Halberd
+M 0 2008 5 2000         Skeleton
+M 0 2008 5 2001         Skeleton
+M 0 2008 5 2002         Skeleton
+M 0 2008 5 2003         Skeleton
+M 0 2008 5 2001         Skeleton
+M 0 2009 3 2023         Zombie
+M 0 2009 3 2019         Zombie
+M 0 2009 3 2021         Zombie
+M 0 2010 5 2023         Shadow
+M 0 2010 5 2025         Shadow
+M 0 2010 5 2026         Shadow
+M 0 2010 5 2027         Shadow
+M 0 2010 5 2029         Shadow
+M 0 2011 9 2032         Wight
+M 0 2011 9 2033         Wight
+M 0 2011 9 2034         Wight
+M 0 2011 9 2035         Wight
+M 0 2011 9 2036         Wight
+M 0 2011 9 2037         Wight
+M 0 2011 9 2038         Wight
+M 0 2011 9 2039         Wight
+M 0 2011 9 2040         Wight
+M 0 2012 4 2042         Wraith
+M 0 2012 4 2043         Wraith
+M 0 2012 4 2045         Wraith
+M 0 2012 4 2047         Wraith
+M 0 2013 1 2031         Banshee Of Mother Superior
+M 0 2014 1 2022         Ghost Of The Abbott
+* Objects
+O 0 2012 1 2035         Crushed Bones
+* Doors
+D 0 2000 2 1            Iron Wrought Gates
+D 0 2055 0 1
+D 0 2005 1 1            Confessional
+D 0 2007 3 1
+D 0 2005 3 1            Confessional
+D 0 2006 1 1
+D 0 2009 0 1            Altar Curtain
+D 0 2010 2 1
+D 0 2010 0 2            Secret Storage Room
+D 0 2011 2 2
+D 0 2020 3 1            Abbot's Room
+D 0 2022 1 1
+D 0 2027 1 1            Mother Superior's Room
+D 0 2031 3 1
+D 0 2041 2 2            Vampire's Inner Crypt
+D 0 2042 0 2
+D 0 2047 3 2            Princess Evalynn's Tomb
+D 0 2048 1 2
+*
+S
+$~

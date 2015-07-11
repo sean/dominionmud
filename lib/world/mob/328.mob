@@ -1,0 +1,90 @@
+#32800
+creature stone kargin~
+a wandering kargin~
+A massive creature made of stone, with four arms lumbers towards you.
+~
+The creature is a cross between a giant and a rock.  Four strong arms
+are bunched in fists.  Its eyes have an unearthly hallow stare and its
+maw hangs open in hunger.
+~
+cdfgs r -400 S
+18 80 79 10d3+130 3d10+65
+45 70000
+8 8 0
+#32801
+fisherman~
+the fisherman~
+A lone fisherman sits upon the edge of the dock staring at the mountains.
+~
+His beard hangs down to his chest and his eyes have a certain lonely
+stare to them.  
+~
+bdop 0 0 S
+42 1 82 1d1+5000 1d10+15
+5000 20000
+8 8 1
+#32802
+kehrn troll king~
+Kehrn the Troll King~
+A huge troll upon a throne of gold stares off with a look of longing.
+~
+Lord Kehrn has a slightly crazed look in his eye.  You feel his eyes pry
+into your soul, to discover where your heart lies.  Upon his forehead
+is branded a symbol depicting a flaming sword.  
+~
+bdi cerz 1000 S
+37 2 88 10d10+2000 1d30+30
+9000 289111
+8 8 1
+#32803
+his'tarin creature rockeater~
+the his'tarin~
+A creature stands here on all fours swallowing large boulders whole.
+~
+The His'tarin, also known as a  'Rockeater'.  It is quite tall with
+a thin body standing on all four arms.  When it swallows a boulder,
+it looks quite strange as the body expands quite wide.  Within its eyes
+you see little intelligence and even less viciousness.
+~
+dgq a 0 S
+15 15 52 5d5+80 5d2+5
+0 30000
+8 8 0
+#32804
+troll hermit~
+the hermit troll~
+A huge, ugly troll glares at you as you enter.
+~
+The troll is covered in small moles and other signs of disease.
+In many places you see the scars of battle on his limbs.
+In his eyes is a lonliness, but over-shadowing that is an unearthly want
+or need for something.
+~
+bcdf anpr -390 S
+19 5 75 10d12+60 4d6+10
+70 190500
+8 8 0
+#32805
+guard bodyguard troll~
+Kehrn's bodyguard~
+A gruesome, towering troll stands here guarding his king.
+~
+The bodyguard is quite devoted to the Troll King and will die protecting
+him.  He wears a strange silver mask which covers only his mouth and nose.
+Black hair falls down behind. over his powerful, broad shoulders.
+~
+bdeim acmr 800 S
+28 10 60 30d6+350 4d7+15
+500 240999
+8 8 1
+#32806
+dark warrior~
+the dark warrior~
+A dark figure stands here blocking the passageway.
+~
+You see nothing special.~
+bdfl ry 0 S
+15 15 73 30d8+90 3d8+20
+0 75000
+8 8 0
+$~

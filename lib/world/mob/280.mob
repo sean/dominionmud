@@ -1,0 +1,115 @@
+#28000
+chief plainsman chieftain~
+the Chieftain~
+The Chief of the Plains Tribe glowers at your intrusion.
+~
+Bronzed-skin, big muscles, and battle-scarred.  He seems older that most of 
+the other plainsmen that you've seen, his eyes flash with intelligence, and at
+the moment, anger.
+~
+bdlm fkr 0 A
+7 3 0 0d0+0 0d0+0
+0 0
+8 8 1
+#28001
+warrior plainsman fighter~
+the Plainsman~
+A Plainsman warrior stands here, looking for a chance to test his skills.
+~
+Strong, fierce-looking, and decorated with several tattoos depicting his tribe
+and rank.  He boldly looks you up and down, sizing you up just in case you
+decide to attack him.
+~
+cdgm f 0 A
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#28002
+headman doctor shaman witch~
+the Tribal Shaman~
+A Shaman in a horrific-looking mask stands here, cackling madly.
+~
+He looks older than dirt, but the eyes behind the mask sparkle with madness
+and intelligence.  You'd be wise to approach this one with caution.
+~
+cdglm dfk -250 A
+4 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#28003
+scout plainman spy~
+the scout~
+A plainsman scout silently watches you from the tall grass.
+~
+Thin, quick, and nimble, the scout blends in so well with the grass you can
+barely see him.
+~
+cdeghm ks 0 A
+3 2 0 0d0+0 0d0+0
+0 0
+8 8 1
+#28004
+buffalo animal~
+a buffalo~
+A large buffalo stands here, grazing contentedly.
+~
+It's big, furry, it's got horns, and four legs.  It's eating.  What more do
+you want??
+~
+dgh f 400 A
+2 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#28005
+gazelle deer~
+the gazelle~
+A slender gazelle pauses from it's meal of grass to give you a curious glance.
+~
+Short fur, long horns, and four legs....it stands here, happily eating the
+grass that grows all around you.
+~
+dgh f 600 A
+2 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#28006
+bodyguard guard~
+the Chieftain's bodyguard~
+A thick-chested bodyguard stand here, obviously on duty.
+~
+This guy is very, very big.  Huge, even.  We're talking arms bigger than your
+head.  He glowers at you as you look him over.~
+bdelm k 0 A
+5 3 0 0d0+0 0d0+0
+0 0
+8 8 1
+#28007
+villager citizen plainsman~
+the villager~
+A villager passing by stops to stare at you.
+~
+The villager looks like a normal member of the tribe, not too tall, not too
+skinny, but the look that is returned is one of definite....hunger?  Hmmm...
+this might be a good idea to think about leaving.
+~
+bdghlm k 0 A
+3 3 0 0d0+0 0d0+0
+0 0
+8 8 1
+#28008
+wolf kithyna great~
+Kithyna~
+Kithyna, Garou's pet wolf, sits here grinning at you wolfishly.
+~
+You see a very intelligent beast before you.  Her yellow eyes gaze back at 
+you, sensing to see if you are a threat.  Her dark gray coat nearly glows and
+she grins at you, finally deciding that you have no hostile intentions.
+~
+bdelor dfhkrs 0 E
+50 2 41 5000d2+15 8d8+2
+0 0
+6 6 2
+BareHandAttack: 8
+Race: 14
+E
+$~

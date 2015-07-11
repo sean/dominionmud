@@ -1,0 +1,3 @@
+#!/bin/csh
+
+bin/sign 8400 lib/sign.txt

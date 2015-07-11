@@ -1,0 +1,481 @@
+#28000
+obj1~
+statuette of garou~
+A statuette of Garou is lieing here.~
+~
+18 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+E
+statuette~
+  It is a small marble replica of garou, inscribed in the base is:
+
+      'Made in Midgaard'
+~
+#28001
+stonekiller axe dryan~
+Stonekiller~
+A massive, double-bladed axe of superior craft lies here.~
+~
+5 gi am
+0 6 5 3 0 0 0 18 14
+15 500000 7500
+E
+axe stonekiller~
+With a gleaming head and a edge that is razor sharp, you know that this
+weapon must have been forged by a man who's skills rivaled the gods.  The
+handle is hewn from an ironwood tree and laced with solid steel, giving
+the whole object an aura of invincibility.
+~
+A
+6 2
+A
+18 2
+A
+19 2
+#28002
+amulet medallion stone~
+a polished, stone amulet~
+A shard of stone attached to a strip of leather has been cast to the ground.~
+~
+12 bdg ac
+0 0 0 0 0 0 0 0 14
+5 150000 4000
+A
+17 -5
+A
+1 1
+A
+5 1
+#28003
+pendant crest wood silverwood~
+the Forestkeeper's Crest~
+A thin piece of silverwood lies here on the ground.~
+~
+1 diq aco
+0 0 -1 0 0 0 0 0 14
+1 1000 5
+E
+crest silverwood~
+  Made of a wood that you've never seen on this world, the headband is 
+flexable and extremely lightwieght.  Carved upon the front are the holy 
+runes of Garou, denoting that only his chosen, and his chosen alone, may 
+own and wear this holy artifact.
+~
+A
+4 1
+A
+3 1
+A
+17 -7
+#28004
+book kinnslayer~
+the Book of the Kinnslayer~
+A leather-bound, ancient looking book rests here on the floor.~
+~
+12 adgimop ao
+0 0 0 0 0 0 0 0 14
+5 10000000 0
+E
+book~
+The book flares up once and opens itself to a marked page.  Your eyes 
+adjust to the glare, and you see the following words shimmer into place:
+
+"The whip that the weaponsmith forged was a legacy to his works.  Made from
+ barbed links, it was used as the symbol of power in the underdark with 
+ the Dargonae races.  When the disciple of Garou known as Gangrel left the
+ homeland, he stole the whip and raced away.  Pursued by his outraged 
+ kin, the drow pitched the whip into a passing carrage, bound for the seas
+ on the outskirts of The Dominion.  Whether or not the drow were able to 
+ recover their trophy, the fact remains that some still say that the weapon
+ is indeed in their hands.  Others maintain it is somewhere across the rivers
+ but as to where, no one seems to know....."
+
+And with a blur of soft light, the words vanish and the book closes.
+~
+A
+18 10
+A
+19 10
+A
+17 -10
+#28005
+staff silver runed~
+a runed staff of silver~
+A silver staff, etched with runes and topped with three feathers, lies here.~
+~
+4 gi am
+40 30 20 109 0 0 0 15 4
+2 450000 100
+A
+19 2
+A
+1 1
+#28006
+mindflayer whip chain dryan~
+Mindflayer~
+A whip made of gleaming links of chain lies here in the dust.~
+~
+5 gi a
+0 7 6 2 0 0 0 0 14
+10 450000 1000
+E
+whip mindflayer~
+This is incredible.  The entire whip seems to have been forged from a 
+single piece of metal.  Whoever made Mindflayer must've been an amazing
+craftsman.
+~
+A
+18 1
+A
+19 1
+#28007
+skullcrusher mace dryan~
+Skullcrusher~
+A massive, destructive-looking mace lies upon the ground.~
+~
+5 gis am
+1 6 8 6 0 0 0 0 14
+13 650000 2000
+E
+the sword named "Guardian"~
+Bristling with power from head to handle, Skullcrusher is a masterpiece
+of a weapon.  Twenty barbs, sharpened to a razor point, lance through the
+head of the mace, giving the club a decidedly deadly look and feel.  You
+feel much better having it to point at people....rather than the other way
+around.
+~
+A
+19 2
+#28008
+heartseeker knife dagger dryan~
+Heartseeker~
+A long knife with a rune-covered blade is embedded point-first into the floor.~
+~
+5 giE am
+3 8 5 11 0 0 0 0 14
+8 365000 4500
+E
+dagger knife heartseeker~
+Heartseeker's blade is indeed covered with runes.  After looking at them for
+a few moments, you assume that they must be magical symbols, placed upon it
+to aid its wielder in combat.  The handle looks to be made out of a mixture
+of metal and wood....though how in Glasgian's name any weaponsmith was able
+to perform THAT feat, you don't know.
+~
+A
+19 1
+#28009
+bloodletter knife dagger dryan~
+Bloodletter~
+A keen-edged dagger with flecks of red on the handle sits here on the floor.~
+~
+5 giE am
+2 5 8 11 0 0 0 0 14
+8 365000 2500
+E
+bloodletter knife dagger~
+The smooth wooden handle does indeed have blood imbedded in it.  Various
+types, too: goblin, human, dwarf, elven, even dragon.  The blade itself is
+a beautiful piece of work, worthy of any weaponsmith to call his master-
+piece.
+~
+A
+19 10
+#28010
+sword guardian dryan~
+Guardian~
+A gleaming steel sword with a bronze crosspiece lies here.~
+~
+5 gi am
+2 6 7 3 0 0 0 0 14
+13 725000 20000
+E
+guardian sword~
+Radiating with power, you see that Guardian was designed to be a defensive
+weapon.  Swinging it once or twice through the blocking postures that you
+know of, the sword almost seems to control your arms for you, gliding into
+the postions you require.
+~
+A
+17 -10
+A
+19 1
+#28011
+soulrender blade sword dryan~
+Soulrender~
+A shimmering blade with a crosspiece of shadow lies here.~
+~
+5 egi am
+3 8 7 3 0 0 0 0 14
+14 1250000 60000
+E
+soulrender blade sword~
+The blade of this great weapon has an aura of power surrounding it, making
+it almost seem to breathe.  Somehow, the forger of Soulrender captured
+living shadow and set it into the hilt and crosspiece.  The sword is amazingly
+quick and it swings easily into place.
+~
+A
+19 1
+A
+6 3
+#28012
+godslayer sword dryan~
+Godslayer~
+An immaculate sword with a crosspiece of hammered platinum lies here.~
+~
+5 aegi am
+2 10 10 3 0 0 0 0 14
+14 1750000 50000
+E
+godslayer sword~
+The blade, flawless.  The detail, amazing.  The workmanship, mind-boggling.
+You hold in your hands one of the most powerful artifacts in The Dominion.  
+Use it wisely.....
+~
+A
+19 3
+A
+13 10
+#28013
+stormblade blade sword dryan~
+Stormblade~
+A dark-sword with a thin streak of crimson running through the blade lies here.~
+~
+5 egi am
+1 10 4 3 0 0 0 0 14
+12 1000000 25000
+E
+stormblade sword blade~
+The dark-gray blade is flawless, except for the thin streak of cherry-red
+steel running directly down the center of it.  The hilt is gold and inlaid
+with 5 rubies of amazing size.  
+~
+A
+17 -10
+A
+1 2
+#28014
+dragonbane sword dryan~
+Dragonbane~
+A sword made from the fang of a black dragon rests on the ground.~
+~
+5 aegiv am
+3 10 6 3 0 0 0 20 14
+12 1450000 25000
+E
+dragonbane sword~
+Hewn from the fang of a black dragon, the sword has streams of metal running
+through the blade, giving it a decidedly sinister look.  The crosspiece and
+handle are made from the same metal and the overall feel of the weapon is
+one of power.  Truly worth much more than everything else you could possibly
+own in your lifetime.
+~
+A
+23 10
+A
+19 2
+#28020
+key claw wolf~
+a key made from a wolf claw~
+A key made out of a wolf claw lies here.~
+~
+18 0 am
+0 0 0 0 0 0 0 0 14
+0 0 0
+#28050
+katana sword~
+a gleaming katana~
+A sharp, gleaming katana lies here on the ground.~
+~
+5 0 am
+2 4 4 3 0 0 0 0 14
+9 6000 200
+E
+katana sword~
+A smooth finish and a razor-sharp blade make this a good weapon in the right
+hands.  The worksmanship is better than most you've seen.
+~
+#28051
+crossbow~
+a crossbow~
+A slim-looking crossbow lies here, waiting to be fired.~
+~
+6 0 am
+2 0 1 -1 0 0 0 18 14
+4 1000 250
+#28052
+axe waraxe ~
+a double-bladed axe~
+A solid-looking axe is embedded in the ground.~
+~
+5 0 am
+1 5 3 3 0 0 0 0 14
+10 25000 200
+#28053
+kilt skirt~
+a woolen kilt~
+A kilt of some type of cloth is here in a heap on the floor.~
+~
+9 0 af
+8 0 0 0 0 0 0 0 14
+4 2000 50
+#28054
+cloak black cowled~
+a long, cowled, black cloak~
+A black cloak lies in the corner of the room.~
+~
+9 0 acj
+10 0 0 0 0 0 0 20 14
+6 3000 230
+#28055
+shield diamond~
+a small diamond buckler~
+A shield made of diamond stealth is lying here.~
+~
+9 0 am
+10 0 0 0 0 0 0 19 14
+12 4500 300
+A
+4 2
+#28056
+trappings shoulders symbol~
+the trappings of The Pack~
+A pair of ornate trappings lie here on the ground.~
+~
+11 egi am
+0 0 0 0 0 0 0 0 14
+3 14000 10
+A
+13 15
+A
+18 1
+A
+19 3
+#28057
+mask black~
+a black mask~
+A hooded-looking black mask lies here in a heap.~
+~
+9 0 ae
+7 0 0 0 0 0 0 0 14
+2 3400 25
+#28058
+plate breastplate crimson~
+a crimson-steel breastplate~
+A breastplate made of a reddish-metal lies here on the floor.~
+~
+9 0 ad
+80 0 0 0 0 0 0 18 14
+15 10000 500
+E
+plate breastplate~
+Etched into the plate is an drawing of a dragon rising from a river of 
+flame and smoke.
+~
+A
+18 2
+A
+1 1
+#28059
+helm crimson~
+a crimson-steel helm~
+A helm made of a dark-red steel is sitting on the ground.~
+~
+9 0 ae
+95 0 0 0 0 0 0 18 14
+6 10000 550
+A
+5 1
+A
+23 5
+#28060
+trident coral crystal~
+Gaeya's Trident~
+A huge trident made from coral and crystal lies here.~
+~
+5 aijk am
+5 10 20 11 0 0 0 0 14
+18 9000000 10
+E
+trident~
+Made from a piece of shatterless coral and tipped with three gleaming barbs
+of crystal, Gaeya's Trident is a weapons of amazing power.
+~
+A
+18 10
+A
+19 10
+A
+17 -10
+#28061
+Wavetamer Pendant~
+a glimmering lapis pendant~
+A glimmering lapis pendant catches your eye.~
+~
+11 dijk aclm
+0 0 0 0 0 0 0 0 14
+1 1000 10
+E
+pendant glimmering lapis wavetamer~
+The glimmering symbol of acceptance into the Wavetamer faith
+is before you... 
+~
+A
+17 -10
+A
+3 1
+A
+4 1
+#28062
+legplates plates crimson~
+a set of crimson-steel legplates~
+Two legplates of a reddish looking metal lie here.~
+~
+9 0 af
+10 0 0 0 0 0 0 0 14
+12 15000 600
+#28063
+glimmering pendant wavetamer lapis~
+Wavetamer Pendant~
+A glimmering, wave-shaped lapis pendant catches your eye.~
+~
+11 dijkq ac
+0 0 0 0 0 0 0 0 14
+1 1000 100
+A
+17 -10
+A
+3 1
+A
+4 1
+#28064
+orb blue gaeya~
+Orb of Gaeya~
+A glowing blue sphere draws your attention.~
+~
+1 adjkq ao
+0 0 0 0 0 0 0 0 14
+5 100000 10000
+A
+4 2
+A
+13 40
+A
+17 -10
+#28065
+crown coral~
+Crown of the Seas~
+A magnificently crafted crown of coral lies here.~
+~
+11 adijkq ae
+0 0 0 0 0 0 0 0 14
+5 100000 1000
+A
+17 -10
+A
+1 1
+A
+5 1
+$~

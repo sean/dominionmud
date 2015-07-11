@@ -1,0 +1,6 @@
+config.cache
+config.status
+*.log
+*.alias
+*.objs
+*.back

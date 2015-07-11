@@ -1,0 +1,470 @@
+#26000
+grond~
+Grond~
+An enormous iron war-hammer lies half-buried here.~
+~
+5 mpqrt am
+2 6 5 6 0 0 0 20 14
+22 20000 20000
+E
+grond~
+     Leather straps and runes adorn this ancient weapon.  Evil
+seems to emanate from this bane, forged as it was in the
+pits of hell.
+~
+A
+18 5
+A
+19 5
+#26001
+firewhip~
+a firewhip~
+A many-thronged whip of fire burns on the ground.~
+~
+5 0 am
+0 3 6 2 0 0 0 20 14
+11 4000 1000
+A
+19 1
+#26002
+blade flameblade~
+a Flameblade~
+A burning sword charrs the very earth on which it lies.~
+~
+5 0 am
+0 4 5 3 0 0 0 20 14
+14 5000 1250
+A
+19 2
+A
+18 1
+#26003
+orcish helm~
+an orcish helm~
+A green metallic helmet has been dropped here.~
+~
+9 0 ae
+75 0 0 0 0 0 0 18 14
+7 4000 150
+E
+helm~
+The headpiece has cryptic runes carved all over its green metal.
+~
+A
+13 2
+#26004
+orcish bracers~
+orcish bracers~
+A set of green metallic bracers has been dropped here.~
+~
+9 0 ai
+7 0 0 0 0 0 0 11 14
+7 2000 150
+E
+bracers~
+The bracers are carved with intricate designs and runes.
+~
+A
+13 2
+#26005
+orcish gauntlet~
+an orcish gauntlet~
+An orcish gauntlet lies here in the dust.~
+~
+9 0 ah
+65 0 0 0 0 0 0 18 14
+7 2000 150
+A
+13 2
+#26006
+orcish shield~
+an orcish shield~
+A green shield with a black skull has been left here.~
+~
+9 0 ajm
+6 0 0 0 0 0 0 9 14
+7 2000 150
+E
+shield~
+The black skull seems to move about the green field.
+~
+A
+13 2
+#26007
+orcish legplates~
+orcish legplates~
+A pair of green metallic legplates has been left here.~
+~
+9 0 af
+7 0 0 0 0 0 0 11 14
+7 2000 150
+A
+13 2
+#26008
+orcish platemail~
+orcish platemail~
+A metallic green platemail has been discarded here.~
+~
+9 0 ad
+8 0 0 0 0 0 0 0 14
+70 8000 200
+E
+platemail~
+The armor has a metallic glimmer to it.
+~
+A
+13 2
+#26009
+orcish belt~
+an orcish belt~
+A metallic green belt has been dropped here.~
+~
+9 0 ak
+5 0 0 0 0 0 0 0 14
+5 100 10
+A
+13 2
+#26010
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26010 0 0 0 0 0 0 0 14
+2 1 10
+#26011
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26011 0 0 0 0 0 0 0 14
+2 1 10
+#26012
+key sword~
+a small sword~
+A small sword lies here in a puddle of brown mud.~
+~
+18 fg ac
+26010 0 0 0 0 0 0 0 14
+2 1 10
+E
+sword~
+     This must be the legendary Angrist , the iron cleaver.
+Legends say this is the only thing that can be used to free
+the Silmarils from their ghastly casing in Melkor's crown.
+~
+#26013
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26013 0 0 0 0 0 0 0 14
+2 1 10
+#26014
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26014 0 0 0 0 0 0 0 14
+2 1 10
+#26015
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26015 0 0 0 0 0 0 0 14
+2 1 10
+#26016
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26016 0 0 0 0 0 0 0 14
+2 1 10
+#26017
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26017 0 0 0 0 0 0 0 14
+2 1 10
+#26018
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26018 0 0 0 0 0 0 0 14
+2 1 10
+#26019
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26019 0 0 0 0 0 0 0 14
+2 1 10
+#26020
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26020 0 0 0 0 0 0 0 14
+2 1 10
+#26021
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26021 0 0 0 0 0 0 0 14
+2 1 10
+#26022
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26022 0 0 0 0 0 0 0 14
+2 1 10
+#26023
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26023 0 0 0 0 0 0 0 14
+2 1 10
+#26024
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26024 0 0 0 0 0 0 0 14
+2 1 10
+#26025
+key iron~
+an iron key~
+An iron key hangs on a black chain.~
+~
+18 0 ac
+26025 0 0 0 0 0 0 0 14
+2 1 10
+#26026
+scales bragollach~
+the silver scales of a dragon~
+Strips of silver scaling, probably from the dragon, lay here.~
+~
+9 ade ai
+9 0 0 0 0 0 0 19 14
+5 5000 500
+E
+scales bragollach~
+     The silver strips of scaling reflect your light, causing it to
+dance about the room.
+~
+A
+2 2
+A
+30 30
+#26027
+scales carafuin~
+the red scales of a dragon~
+Red scales from the body of the great dragon are here.~
+~
+9 g af
+10 0 0 0 0 0 0 19 14
+6 5000 10000
+E
+scales carafuin~
+The scales are of a deep red hue, very strong and very flexible.
+~
+A
+14 50
+A
+1 3
+A
+32 30
+#26028
+head daesareg~
+the Head of Daesareg~
+The top half of the head of the black dragon lies here.~
+~
+9 g ae
+10 0 0 0 0 0 0 19 14
+5 5000 1000
+E
+head daesareg~
+     The head is cut extensively, yet all the teeth are intact
+and the eyes still stare menacingly at you.
+~
+A
+1 2
+A
+31 30
+#26029
+globe~
+a globe~
+A blackened globe of The Dominion floats ominously in
+     the center of the room.~
+~
+15 g 0
+80 13 26030 0 0 0 0 0 14
+90 10 10
+E
+spot~
+The spot is actually a keyhole.
+~
+E
+globe~
+     All lands of The Dominion are visible; past, present, and
+future.  As you think of your homeland the globe rotates,
+slowly giving you a perfect view with the familiar mountains
+and cities glowing in a revolting red light.  An odd black
+spot appears on the top of the mountains of Thangorodrim.
+~
+#26030
+key circle~
+the Key to The Dominion~
+A glowing circle rapidly changes colors and dances around the 
+room as if alive.~
+~
+18 gq ac
+26030 0 0 0 0 0 0 0 14
+2 10 100000
+#26031
+crown iron~
+an Iron Crown~
+A tremendous iron crown rests uneasily here.~
+~
+15 gqx ae
+60 15 26012 0 0 0 0 19 14
+20 100 20000
+E
+crown iron~
+     You feel that there is a power to this crown, beyond seeing
+and beyond feeling.
+~
+#26032
+girth~
+an iron girth~
+A large iron girth lays heavily on the ground.~
+~
+9 q ak
+20 0 0 0 0 0 0 19 14
+9 2000 500
+E
+girth~
+The girth is very heavy, but feels very powerful.
+~
+A
+13 20
+#26033
+pick~
+an orc mining pick~
+A heavy mining pick has been thrust into the earth.~
+~
+5 0 a
+0 2 5 10 0 0 0 0 14
+13 1000 100
+#26034
+silmaril~
+a silmaril~
+A Silmaril radiates brightly as you look upon it.~
+~
+9 gx ac
+4 0 0 0 0 0 0 0 14
+3 50000 20000
+E
+Silmaril~
+     Of what material this gem is fashioned none will ever know.
+It feels light and warm to the touch, yet no scratch or flaw
+can be seen upon it.  Indeed not even Melkor could mar the
+Silmarils, if he had bent all his power to their destruction.
+The gem, which had been clear as water before, now begins
+to reflect your light happily.  Soon the light of it dominates
+the room, bringing peace to your mind and energy to your
+limbs.
+~
+A
+5 2
+A
+19 2
+#26035
+silmaril~
+a silmaril~
+A Silmaril radiates brightly as you look upon it.~
+~
+9 gx ac
+4 0 0 0 0 0 0 0 14
+3 50000 15000
+E
+Silmaril~
+     Of what material this gem is fashioned none will ever know.
+It feels light and warm to the touch, yet no scratch or flaw
+can be seen upon it.  Indeed not even Melkor could mar the
+Silmarils, if he had bent all his power to their destruction.
+The gem, which had been clear as water before, now begins
+to reflect your light happily.  Soon the light of it dominates
+the room, bringing peace to your mind and energy to your
+limbs.
+~
+A
+3 2
+A
+19 2
+#26036
+silmaril~
+a silmaril~
+A Silmaril radiates brightly as you look upon it.~
+~
+9 gx ac
+4 0 0 0 0 0 0 0 14
+3 50000 15000
+E
+Silmaril~
+     Of what material this gem is fashioned none will ever know.
+It feels light and warm to the touch, yet no scratch or flaw
+can be seen upon it.  Indeed not even Melkor could mar the
+Silmarils, if he had bent all his power to their destruction.
+The gem, which had been clear as water before, now begins
+to reflect your light happily.  Soon the light of it dominates
+the room, bringing peace to your mind and energy to your
+limbs.
+~
+A
+4 2
+A
+19 2
+#26037
+book ancient~
+an ancient book~
+An ancient book, bound in leather, has been placed here.~
+~
+16 g 0
+0 0 0 0 0 0 0 0 14
+20 10 10
+E
+book~
+     As you thumb through the pages, the leaves crack and break.
+Much of the writing within is illegible, but all you read is
+filled with dread.  Within are all of Melkor's cruel activities
+preserved forever.  One passage catches your attention...
+     "....captured thine great enemy, the mortal Hurin.  As per
+     thy orders, he hast been set upon the rock...."
+You read on nervously...
+     "...a man of great might, well learned in the wisdom of
+     the Elves.  Perhaps he can give thee the Eldar's courses
+     for regaining that which thou hast freed and taken unto
+     thyself.  The Silmarils are greatly...."
+As you read the line, the page crumbles into dust.
+~
+$~

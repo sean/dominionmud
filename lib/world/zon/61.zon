@@ -1,0 +1,56 @@
+#61
+Haon-Dor, Dark Forest~
+Quifael~
+LOW-MED~
+3001 1
+6199 30 2
+*
+* Last Updated: Mon Sep 23 21:33:13 
+*           By: Kirahn
+*
+M 0 6114 1 6134 100 	* the Queen spider at The Den Of The Queen Spider. (Max: 1)
+G 1 6108 10  10 			* And give it a big pile of gold coins. (Max: 10)
+G 1 6109 3  100 			* And give it a blue potion. (Max: 3)
+G 1 6113 2  100 			* And give it an iron sceptre. (Max: 2)
+M 0 6100 2 6116 100 	* the vicious warg at A Small Path In The Deep, Dark Forest. (Max: 2)
+M 0 6100 2 6116 100 	* the vicious warg at A Small Path In The Deep, Dark Forest. (Max: 2)
+M 0 6101 2 6127 100 	* the ferocious warg at A Narrow Trail Through The Deep, Dark Forest. (Max: 2)
+M 0 6101 2 6127 100 	* the ferocious warg at A Narrow Trail Through The Deep, Dark Forest. (Max: 2)
+M 0 6102 4 6108 100 	* the large, grey wolf at A Narrow Trail Through The Deep, Dark Forest. (Max: 4)
+M 0 6102 4 6108 100 	* the large, grey wolf at A Narrow Trail Through The Deep, Dark Forest. (Max: 4)
+M 0 6102 4 6104 100 	* the large, grey wolf at A Small Path In The Deep, Dark Forest. (Max: 4)
+M 0 6102 4 6104 100 	* the large, grey wolf at A Small Path In The Deep, Dark Forest. (Max: 4)
+M 0 6103 4 6112 100 	* the large, black wolf at A Narrow Trail Through The Deep, Dark Forest. (Max: 4)
+M 0 6103 4 6112 100 	* the large, black wolf at A Narrow Trail Through The Deep, Dark Forest. (Max: 4)
+M 0 6103 4 6118 100 	* the large, black wolf at A Small Path In The Deep, Dark Forest. (Max: 4)
+M 0 6103 4 6118 100 	* the large, black wolf at A Small Path In The Deep, Dark Forest. (Max: 4)
+M 0 6110 4 6120 100 	* the ancient tree at On The River Bank In The Deep, Dark Forest. (Max: 4)
+M 0 6110 4 6123 100 	* the ancient tree at A Junction On The River Bank In The Deep, Dark Forest. (Max: 4)
+M 0 6111 4 6109 100 	* the ancient tree at A Narrow Trail Through The Deep, Dark Forest. (Max: 4)
+M 0 6111 4 6105 100 	* the ancient tree at A Small Path In The Deep, Dark Forest. (Max: 4)
+M 0 6112 1 6143 100 	* the green dragon at The Cave Of The Green Dragon. (Max: 1)
+G 1 6108 10  10 			* And give it a big pile of gold coins. (Max: 10)
+G 1 6110 10  100 			* And give it a musky yellow potion. (Max: 10)
+G 1 6112 1  100 			* And give it an iron crown. (Max: 1)
+O 1 6111 10 6143 100 	* a large round shield at The Cave Of The Green Dragon. (Max: 10)
+M 0 6113 3 6131 100 	* the huge, poisonous spider at The giant spider web. (Max: 3)
+M 0 6113 3 6131 100 	* the huge, poisonous spider at The giant spider web. (Max: 3)
+M 0 6113 3 6131 100 	* the huge, poisonous spider at The giant spider web. (Max: 3)
+M 0 6115 1 6100 100 	* Shargugh at A Narrow Trail Through The Deep, Dark Forest. (Max: 1)
+E 1 6114 1 1 100 			* And equip it with a small iron ring. (Max: 1)
+M 0 6116 1 6155 100 	* the Elder druid at The Cultist Temple. (Max: 1)
+E 1 6115 1 16 100 			* And equip it with the morning star. (Max: 1)
+G 1 3055 3  17 			* And give it a gnarled staff. (Max: 3)
+O 0 6102 1 6103 100 	* a colossal tree at A Narrow Trail Through The Deep, Dark Forest. (Max: 1)
+O 0 6103 1 6113 100 	* a long, grey branch at A Small Path In The Deep, Dark Forest. (Max: 1)
+O 0 6104 1 6125 100 	* a long, grey branch at A Small Path On The River Bank In The Deep, Dark Forest. (Max: 1)
+O 0 6105 1 6105 100 	* a long, grey branch at A Small Path In The Deep, Dark Forest. (Max: 1)
+O 0 6106 4 6104 100 	* a toadstool at A Small Path In The Deep, Dark Forest. (Max: 4)
+O 0 6106 4 6111 100 	* a toadstool at A Narrow Trail Through The Deep, Dark Forest. (Max: 4)
+O 0 6106 4 6122 100 	* a toadstool at A Small Path In The Deep, Dark Forest. (Max: 4)
+O 0 6107 4 6119 100 	* a toadstool at A Small Path In The Deep, Dark Forest. (Max: 4)
+D 1 6152 1 1 100 		* Close Eastern door at The Circle Of Trees
+D 1 6153 3 1 100 		* Close Eastern door at Inside The Great Tree
+D 1 6155 5 1 100 		* Close Eastern door at The Cultist Temple
+S
+$~

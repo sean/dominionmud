@@ -1,0 +1,3 @@
+#!/bin/csh
+
+bin/showplay lib/etc/players | more

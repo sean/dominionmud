@@ -1,0 +1,32 @@
+CircleMUD v3.0 Shop File~
+#10000~
+10103
+10104
+10105
+10106
+10107
+-1
+2.00
+0.90
+9armor plate arm leggings helm helmet breast shirt greaves
+5sword dagger dirk short long
+11cloak robe
+-1
+%s Sorry, friend, we ain't got that here.~
+%s Heh, you so dumb, you don even know what you tryin to sell.~
+%s Fuck off, waster.  I only sell cloaks and daggers.~
+%s I'm pretty damned embarrassed...looks like I can't buy that.~
+%s Come back when ya got the cash, friend.~
+%s We'll, there ya go...yours for only %d gold pieces.  Thank ye.~
+%s I don't usually do this...but i'll take it off ya for %d gold pieces.~
+0
+1
+10032
+0
+10024
+-1
+0
+28
+0
+0
+$~

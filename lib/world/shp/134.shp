@@ -1,0 +1,436 @@
+#13600~
+-1
+-1
+13667
+13668
+13669
+1.1
+1.0
+0
+0
+0
+0
+0
+%s Never heard of that one.~
+%s I don't buy.~
+%s I don't buy.~
+%s I don't buy.~
+%s The bank is around the corner.~
+%s There ya go... %d coins please.~
+%s bug %d.~
+1
+1
+13605
+0
+13602
+0
+28
+0
+0
+#13601~
+-1
+-1
+-1
+13664
+13665
+1.1
+1.0
+0
+0
+0
+0
+0
+%s I've never heard of that kind of fish.~
+%s I don't buy.~
+%s I don't buy.~
+%s I don't buy.~
+%s I'm sorry, but i have no scraps today.~
+%s I'll wrap that up for you. %d coins please.~
+%s bug %d~
+1
+1
+13618
+0
+13632
+0
+28
+0
+0
+#13500~
+13640
+13641
+13642
+13643
+13645
+1.1
+1.0
+0
+0
+0
+0
+0
+%s Haven't got that on storage - try list!~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s If you have no money, you'll have to go!~
+%s That'll be %d coins.~
+%s Oups - %d a minor bug - please report!~
+0
+0
+13610
+0
+13535
+0
+28
+0
+0
+#13501~
+13634
+13635
+13636
+13638
+13639
+1.3
+.5
+1
+8
+12
+13
+15
+%s It's very noisy in here, what did you say you wanted to buy?~
+%s I don't understand what you mean.~
+%s Hmm, I think I'll pass on that for now~
+%s WOW that's a really good deal, but I don't have the cash.~
+%s Are you drunk or what ?? - NO CREDIT!~
+%s That'll be - say %d coins.~
+%s OK, I'll give you %d coins, not anymore!~
+0
+0
+13611
+0
+13528
+0
+28
+0
+0
+#13502~
+13646
+13647
+13648
+13651
+13697
+1.3
+0.4
+8
+11
+9
+16
+21
+%s I haven't got that kind of a clothing~
+%s You don't carry that item~
+%s I only buy things you wear~
+%s I can't afford such a fine weaving~
+%s sorry, but NO CREDIT~
+%s That just costs %d coins.~
+%s Here you have %d coins for that.~
+0
+0
+13613
+0
+13514
+0
+28
+0
+0
+#13503~
+13656
+13657
+13658
+13659
+13670
+1.5
+0.4
+0
+0
+0
+0
+0
+%s Haven't got that on storage - try list!~
+%s I don't buy~
+%s I don't buy~
+%s I don't buy~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s You'll get %d a bug for it!~
+0
+0
+13614
+0
+13515
+0
+28
+0
+0
+#13504~
+-1
+-1
+13661
+13662
+13663
+1.0
+0.5
+0
+0
+0
+0
+0
+%s Haven't got that on storage - try list!~
+%s I don't buy~
+%s I don't buy~
+%s I don't buy~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s You'll get %d coins for it!~
+0
+0
+13615
+0
+13522
+0
+28
+0
+0
+#13505~
+13615
+13616
+13617
+13618
+13619
+1.3
+0.5
+9
+11
+0
+0
+0
+%s Haven't got that on storage - try list!~
+%s You don't seem to be carrying that~
+%s I don't buy anything but good armor!~
+%s I'm afraid I dont have the capital for such an investment~
+%s If you have no money, you'll have to go!~
+%s That'll be %d coins.~
+%s I'll gladly take that off you hands for %d coins.~
+0
+0
+13616
+0
+13529
+0
+28
+0
+0
+#13506~
+13603
+13604
+13605
+13606
+13613
+1.1
+1.0
+5
+6
+7
+0
+0
+%s Haven't got that on storage - try list!~
+%s I don't buy imagination!~
+%s I don't buy anything but good weapons!~
+%s I don't buy what i can't pay for!~
+%s If you have no money, you'll have to go!~
+%s That'll be %d coins.~
+%s This will make a fine addition. Here's you %d coins.~
+0
+0
+13617
+0
+13536
+0
+28
+0
+0
+#13507~
+13670
+13671
+13672
+13673
+13674
+1.5
+1.0
+10
+0
+0
+0
+0
+%s Haven't got that on storage - try list!~
+%s I'd love to doll, but show me your goods first.~
+%s Apothecary, potions, understand ?~
+%s I'm low on funds at the moment.~
+%s If you have no money, you'll have to go!~
+%s That'll be %d coins.~
+%s Ok, I guess I could use one of there. Here's %d coins.~
+0
+0
+13679
+0
+13523
+0
+28
+0
+0
+#13508~
+13678
+13679
+13680
+13681
+13682
+1.3
+0.5
+2
+3
+4
+0
+0
+%s Haven't got that on storage - try list!~
+%s A little closer, my eyes arent so good~
+%s I only buy things of magical nature~
+%s I don't have any money~
+%s If you have no money, you'll have to go!~
+%s That'll be %d coins.~
+%s Ill let you sell it for %d coins.~
+0
+0
+13680
+0
+13524
+0
+28
+0
+0
+#13509~
+13622
+13628
+13633
+13623
+13629
+1.05
+0.15
+9
+11
+0
+0
+0
+%s Sorry, I haven't got exactly that item.~
+%s You don't seem to have that.~
+%s I don't buy such items.~
+%s That is too expensive for me!~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s You'll get %d coins for it!~
+0
+0
+13684
+0
+13537
+0
+28
+0
+0
+#13510~
+-1
+-1
+-1
+13511
+13510
+1.2
+0.9
+22
+0
+0
+0
+0
+%s Sorry pal, I have not got that kind of ship.~
+%s Ok, but let me see it first.~
+%s I only trade ships.~
+%s I can't afford such a nice ship.~
+%s This ship is too expensive for you.~
+%s Here is your ship, I'll take %d gold coins.~
+%s What a fine deal, you get %d gold coins.~
+0
+0
+13665
+0
+13542
+6
+22
+6
+22
+#13511~
+13675
+13676
+-1
+-1
+-1
+1.1
+0.9
+0
+0
+0
+0
+0
+%s I got no such drink.~
+%s I see no such thing.~
+%s I do not buy, would you like a drink?~
+%s BUG, Please report~
+%s You can't afford such a fine drink~
+%s Fine, that'll be %d gold pieces.~
+%s Bug, please report (%d).~
+0
+0
+13683
+0
+13538
+6
+23
+23
+24
+#13512~
+-1
+-1
+13687
+13689
+13688
+1.0
+1.0
+0
+0
+0
+0
+0
+%s It's very noisy in here, what did you say you wanted to buy?~
+%s I don't buy what I can't see!~
+%s I don't buy such things!~
+%s I don't buy when I can't pay!~
+%s Are you drunk or what ?? - NO CREDIT!~
+%s That'll be - say %d coins.~
+%s If you'd like, I'll give you %d coins.~
+0
+0
+13666
+0
+13544
+0
+28
+0
+0
+$~

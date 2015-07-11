@@ -1,0 +1,138 @@
+#64
+The Monk's Monastary~
+SillyMUD~
+ALL~
+3001 1
+6499 23 2
+*
+* Last Updated: Tue Sep  3 00:16:59 
+*           By: Kirahn
+*
+M 0 6408 2 6423 100 	* the human monk at Southern Bookshelves. (Max: 2)
+O 0 6415 2 6423 100 	* a short oak bookshelf at Southern Bookshelves. (Max: 2)
+P 1 6427 1 6415 100 	* Put a history manual in a short oak bookshelf. (Max: 1)
+P 1 6424 1 6415 100 	* Put a small manual in a short oak bookshelf. (Max: 1)
+P 1 6417 1 6415 100 	* Put a brown history book in a short oak bookshelf. (Max: 1)
+P 1 6418 1 6415 100 	* Put a tan history book in a short oak bookshelf. (Max: 1)
+O 0 6412 2 6423 100 	* a narrow oak bookshelf at Southern Bookshelves. (Max: 2)
+P 1 6419 1 6412 100 	* Put a black history book in a narrow oak bookshelf. (Max: 1)
+P 1 6420 1 6412 100 	* Put a small, black leather book in a narrow oak bookshelf. (Max: 1)
+P 1 6421 1 6412 100 	* Put a thick textbook in a narrow oak bookshelf. (Max: 1)
+P 1 6422 1 6412 100 	* Put a large textbook in a narrow oak bookshelf. (Max: 1)
+O 0 6413 2 6423 100 	* a wide oak bookshelf at Southern Bookshelves. (Max: 2)
+P 1 6423 1 6413 100 	* Put a small, brown leather book in a wide oak bookshelf. (Max: 1)
+P 1 6425 1 6413 100 	* Put a small leather book in a wide oak bookshelf. (Max: 1)
+P 1 6426 1 6413 100 	* Put a forest green book in a wide oak bookshelf. (Max: 1)
+P 1 6430 1 6413 100 	* Put a wood bound book in a wide oak bookshelf. (Max: 1)
+O 0 6414 2 6423 100 	* a tall oak bookshelf at Southern Bookshelves. (Max: 2)
+P 1 6428 1 6414 100 	* Put a map in a tall oak bookshelf. (Max: 1)
+P 1 6429 1 6414 100 	* Put a map in a tall oak bookshelf. (Max: 1)
+P 1 6457 1 6414 100 	* Put an encyclopedia Index in a tall oak bookshelf. (Max: 1)
+P 1 6456 1 6414 100 	* Put an encyclopedia vol. Z in a tall oak bookshelf. (Max: 1)
+P 1 6455 1 6414 100 	* Put an encyclopedia vol. Y in a tall oak bookshelf. (Max: 1)
+O 0 6416 2 6423 100 	* a long oak bookshelf at Southern Bookshelves. (Max: 2)
+P 1 6454 1 6416 100 	* Put an encyclopedia vol. X in a long oak bookshelf. (Max: 1)
+P 1 6453 1 6416 100 	* Put an encyclopedia vol. W in a long oak bookshelf. (Max: 1)
+P 1 6452 1 6416 100 	* Put an encyclopedia vol. V in a long oak bookshelf. (Max: 1)
+P 1 6451 1 6416 100 	* Put an encyclopedia vol. U in a long oak bookshelf. (Max: 1)
+D 0 6423 5 1 100 		* Close Eastern door at Southern Bookshelves
+M 0 6418 1 6402 100 	* the Grand Master of Monks at Further Down Monastary Road. (Max: 1)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+G 1 6462 1  100 			* And give it the monastary's money pouch. (Max: 1)
+M 0 6408 2 6422 100 	* the human monk at Northern Bookshelves. (Max: 2)
+O 0 6416 2 6422 100 	* a long oak bookshelf at Northern Bookshelves. (Max: 2)
+P 1 6447 1 6416 100 	* Put an encyclopedia vol. Q in a long oak bookshelf. (Max: 1)
+O 0 6414 2 6422 100 	* a tall oak bookshelf at Northern Bookshelves. (Max: 2)
+P 1 6438 1 6414 100 	* Put an encyclopedia vol. H in a tall oak bookshelf. (Max: 1)
+O 0 6413 2 6422 100 	* a wide oak bookshelf at Northern Bookshelves. (Max: 2)
+P 1 6442 1 6413 100 	* Put an encyclopedia vol. L in a wide oak bookshelf. (Max: 1)
+O 0 6412 2 6422 100 	* a narrow oak bookshelf at Northern Bookshelves. (Max: 2)
+P 1 6446 1 6412 100 	* Put an encyclopedia vol. P in a narrow oak bookshelf. (Max: 1)
+O 0 6415 2 6422 100 	* a short oak bookshelf at Northern Bookshelves. (Max: 2)
+M 0 6405 4 6405 100 	* the human monk at Western End of Main Hallway. (Max: 4)
+M 0 6405 4 6406 100 	* the human monk at Middle of the Main Hallway. (Max: 4)
+M 0 6411 2 6407 100 	* the dwarven monk at Eastern End of Main Hallway. (Max: 2)
+M 0 6413 1 6408 100 	* the human monk at Outside the Library. (Max: 1)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+D 0 6408 0 0 100 		* Open Northern door at Outside the Library
+M 0 6411 2 6409 100 	* the dwarven monk at A Small Hallway. (Max: 2)
+D 0 6409 0 0 100 		* Open Northern door at A Small Hallway
+D 0 6409 2 0 100 		* Open Eastern door at A Small Hallway
+M 0 6405 4 6410 100 	* the human monk at A Small Hallway. (Max: 4)
+D 0 6410 0 0 100 		* Open Northern door at A Small Hallway
+D 0 6410 2 0 100 		* Open Eastern door at A Small Hallway
+M 0 6409 2 6411 100 	* the human monk at Turn in the Small Hallway. (Max: 2)
+D 0 6411 0 0 100 		* Open Northern door at Turn in the Small Hallway
+D 0 6411 1 0 100 		* Open Eastern door at Turn in the Small Hallway
+M 0 6416 1 6412 100 	* Dorek the monk at End of a Small Hallway. (Max: 1)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+D 0 6412 1 1 100 		* Close Eastern door at End of a Small Hallway
+M 0 6410 1 6413 100 	* the female monk at A Monk's Cell. (Max: 1)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+O 0 6401 8 6413 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6413 2 0 100 		* Open Eastern door at A Monk's Cell
+M 0 6407 4 6414 100 	* the human monk at A Monk's Cell. (Max: 4)
+O 0 6401 8 6414 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6414 2 0 100 		* Open Eastern door at A Monk's Cell
+M 0 6401 1 6415 100 	* the human monk at A Monk's Cell. (Max: 1)
+O 0 6401 8 6415 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6415 2 0 100 		* Open Eastern door at A Monk's Cell
+M 0 6407 4 6416 100 	* the human monk at A Monk's Cell. (Max: 4)
+O 0 6401 8 6416 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6416 2 0 100 		* Open Eastern door at A Monk's Cell
+M 0 6412 1 6417 100 	* the dwarven monk at A Monk's Cell. (Max: 1)
+O 0 6401 8 6417 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6417 0 0 100 		* Open Northern door at A Monk's Cell
+M 0 6403 1 6418 100 	* the dwarven monk at A Monk's Cell. (Max: 1)
+O 0 6401 8 6418 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6418 0 0 100 		* Open Northern door at A Monk's Cell
+M 0 6407 4 6419 100 	* the human monk at A Monk's Cell. (Max: 4)
+O 0 6401 8 6419 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6419 3 0 100 		* Open Eastern door at A Monk's Cell
+M 0 6407 4 6420 100 	* the human monk at A Monk's Cell. (Max: 4)
+O 0 6401 8 6420 100 	* a small cot at A Monk's Cell. (Max: 8)
+D 0 6420 3 1 100 		* Close Eastern door at A Monk's Cell
+M 0 6402 1 6421 100 	* the human monk at Working Section of Library. (Max: 1)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+G 1 6407 3  100 			* And give it a ream of white paper. (Max: 3)
+M 0 6414 1 6421 100 	* the human monk at Working Section of Library. (Max: 1)
+E 1 6406 9 12 100 			* And equip it with a saffron colored robe. (Max: 9)
+G 1 6407 3  100 			* And give it a ream of white paper. (Max: 3)
+G 1 6407 3  100 			* And give it a ream of white paper. (Max: 3)
+M 0 6415 1 6424 100 	* the human monk at Sanctum of the Monastary. (Max: 1)
+E 1 6402 4 3 100 			* And equip it with a string of prayer beads. (Max: 4)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+G 1 6404 4  100 			* And give it a vial of Holy water. (Max: 4)
+G 1 6405 4  100 			* And give it a Holy wafer. (Max: 4)
+M 0 6404 1 6424 100 	* the female monk at Sanctum of the Monastary. (Max: 1)
+E 1 6402 4 3 100 			* And equip it with a string of prayer beads. (Max: 4)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+G 1 6404 4  100 			* And give it a vial of Holy water. (Max: 4)
+G 1 6405 4  100 			* And give it a Holy wafer. (Max: 4)
+M 0 6406 2 6424 100 	* the human monk at Sanctum of the Monastary. (Max: 2)
+E 1 6402 4 3 100 			* And equip it with a string of prayer beads. (Max: 4)
+G 1 6404 4  100 			* And give it a vial of Holy water. (Max: 4)
+G 1 6405 4  100 			* And give it a Holy wafer. (Max: 4)
+M 0 6406 2 6424 100 	* the human monk at Sanctum of the Monastary. (Max: 2)
+E 1 6402 4 3 100 			* And equip it with a string of prayer beads. (Max: 4)
+G 1 6404 4  100 			* And give it a vial of Holy water. (Max: 4)
+G 1 6405 4  100 			* And give it a Holy wafer. (Max: 4)
+M 0 6405 4 6426 100 	* the human monk at Dining Hall. (Max: 4)
+M 0 6409 2 6427 100 	* the human monk at The Kitchen. (Max: 2)
+M 0 6417 1 6427 100 	* Tun-kul the monk at The Kitchen. (Max: 1)
+E 1 6406 9 13 100 			* And equip it with a saffron colored robe. (Max: 9)
+G 1 3000 2  100 			* And give it a barrel. (Max: 2)
+D 0 6427 5 0 100 		* Open Eastern door at The Kitchen
+M 0 6420 1 6425 100 	* the Guard of the Monestary at Entrance to the Training Grounds. (Max: 1)
+M 0 6419 1 6450 100 	* the monk at The Monk's Guild. (Max: 1)
+O 0 6410 2 6428 100 	* a small cask of wine at Cellar Under the Monastary. (Max: 2)
+O 0 6410 2 6428 100 	* a small cask of wine at Cellar Under the Monastary. (Max: 2)
+D 0 6428 4 0 100 		* Open Eastern door at Cellar Under the Monastary
+O 0 6408 10 6434 100 	* a piece of luminous green fungus at The Glowing Green Chamber. (Max: 10)
+O 0 6408 10 6434 100 	* a piece of luminous green fungus at The Glowing Green Chamber. (Max: 10)
+O 0 6409 8 6443 100 	* a piece of luminous red fungus at The Glowing Red Chamber. (Max: 8)
+O 0 6409 8 6443 100 	* a piece of luminous red fungus at The Glowing Red Chamber. (Max: 8)
+O 0 6409 8 6448 100 	* a piece of luminous red fungus at The Glowing Red Chamber. (Max: 8)
+O 0 6409 8 6448 100 	* a piece of luminous red fungus at The Glowing Red Chamber. (Max: 8)
+S
+$~

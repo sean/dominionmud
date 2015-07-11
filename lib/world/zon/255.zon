@@ -1,0 +1,40 @@
+#255
+Druid's Glade~
+Sand~
+NEWBIE~
+3001 1
+25599 20 2
+*
+* Last Updated: Mon Aug 19 17:20:46 
+*           By: Glasgian
+*
+M 0 25501 1 25520 100 	* the Great Druid at The Chamber of the Great Druid. (Max: 1)
+M 0 25511 1 25581 100 	* the guard at Entrance to Gaeya's Temple. (Max: 1)
+M 0 25510 1 25568 100 	* the guard at The Cloud Room. (Max: 1)
+M 0 25512 1 25576 100 	* the guard at Entrance to Cair's temple. (Max: 1)
+O 0 25577 1 25579 100 	* a large stone altar at The Altar of War. (Max: 1)
+M 0 25502 10 25503 100 	* a chipmunk at The Natural Trail. (Max: 10)
+M 0 25502 10 25515 100 	* a chipmunk at The North end of the Druid's Glade. (Max: 10)
+M 0 25502 10 25517 100 	* a chipmunk at Up the Great Tree. (Max: 10)
+M 0 25502 10 25523 100 	* a chipmunk at On a Branch. (Max: 10)
+M 0 25502 10 25532 100 	* a chipmunk at Atop A Cottonwood. (Max: 10)
+M 0 25502 10 25532 100 	* a chipmunk at Atop A Cottonwood. (Max: 10)
+M 0 25502 10 25536 100 	* a chipmunk at A Cottonwood Branch. (Max: 10)
+M 0 25502 10 25538 100 	* a chipmunk at Atop a Maple. (Max: 10)
+M 0 25502 10 25538 100 	* a chipmunk at Atop a Maple. (Max: 10)
+M 0 25502 10 25530 100 	* a chipmunk at End of the Branch. (Max: 10)
+M 0 25503 6 25505 100 	* a big black squirrel at The Natural Trail. (Max: 6)
+M 0 25503 6 25517 100 	* a big black squirrel at Up the Great Tree. (Max: 6)
+M 0 25503 6 25528 100 	* a big black squirrel at On a Branch. (Max: 6)
+M 0 25503 6 25532 100 	* a big black squirrel at Atop A Cottonwood. (Max: 6)
+M 0 25503 6 25535 100 	* a big black squirrel at A Cottonwood Branch. (Max: 6)
+M 0 25503 6 25536 100 	* a big black squirrel at A Cottonwood Branch. (Max: 6)
+M 0 25504 1 25540 100 	* a brown owl at The Owl's Nest. (Max: 1)
+M 0 25505 1 25534 100 	* a giant bluejay at A Bird Nest. (Max: 1)
+M 0 25506 1 25536 100 	* a caterpillar at A Cottonwood Branch. (Max: 1)
+M 0 25507 1 25542 100 	* Ki, the evil furrer at Base of the Maple Tree. (Max: 1)
+M 0 25508 1 25519 100 	* the Druid Guard at The Druid Hall. (Max: 1)
+E 1 3022 100 17 100 			* And equip it with a long, iron sword. (Max: 100)
+D 1 25574 0 2 100 		* Lock and Close Northern door at The Nexus of Stars
+S
+$~

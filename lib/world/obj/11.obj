@@ -1,0 +1,475 @@
+#1100
+beer barrel~
+a barrel~
+A beer barrel has been left here.~
+~
+17 0 a
+50 50 1 0 0 0 0 8 14
+65 300 100
+#1101
+beer bottle~
+a bottle~
+A beer bottle has been left here.~
+~
+17 E am
+8 8 1 0 0 0 0 21 14
+10 20 8
+#1102
+ale bottle dark~
+a bottle~
+A dark bottle of ale has been left here.~
+~
+17 0 a
+8 8 3 0 0 0 0 0 14
+10 10 3
+#1103
+firebreather bottle~
+a firebreather~
+A firebreather has been left here.~
+~
+17 0 a
+8 8 7 0 0 0 0 0 14
+10 50 17
+#1104
+local bottle~
+a bottle~
+A dark bottle has been left here.~
+~
+17 0 am
+8 8 8 0 0 0 0 0 14
+10 20 7
+#1110
+mutton fresh meat~
+a piece of fresh mutton~
+A fresh piece of mutton has been left here.~
+~
+19 0 a
+12 0 0 0 0 0 0 0 14
+1 10 10
+#1111
+waybread bread~
+a waybread~
+A nice looking delicious waybread has been placed here.~
+~
+19 0 a
+24 0 0 0 0 0 0 0 14
+1 5 5
+#1113
+white bench~
+a white bench~
+Several white benches are here along the perimeter of the square.~
+~
+12 0 0
+10 0 0 0 0 0 0 0 14
+1 10 10
+#1114
+nachos nacho~
+some nachos with cheese~
+Some nachos have been left here.~
+They have cheese on them.  Looks like one of Uncle Juan's specials.
+~
+19 0 a
+5 0 0 0 0 0 0 0 14
+1 5 5
+#1115
+meat chunk~
+a piece of meat~
+A rather dubious looking piece of meat is on the ground here.~
+~
+19 0 a
+14 0 0 0 0 0 0 0 14
+5 24 10
+E
+meat~
+  It's not so much that the meat looks poisoned or anything, but that you
+just are not sure of it's origins.  You doubt that a hunter would drop a
+side of venison or rabbit meat... what in the world could this meat have
+come from, you wonder...
+~
+#1120
+steel dagger~
+a steel dagger~
+A dagger with a long steel blade is here.~
+~
+5 E am
+0 1 4 11 0 0 0 18 14
+1 10 10
+#1121
+sword small steel~
+a small steelsword~
+A small steelsword lies here.~
+~
+5 0 am
+0 1 6 11 0 0 0 18 14
+3 60 12
+#1122
+sword long steel~
+a long steelsword~
+A long steelsword has been left here.~
+slash~
+5 0 am
+0 2 7 3 0 0 0 14 14
+8 600 10
+#1123
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
+pound~
+5 0 a
+0 1 3 7 0 0 0 7 14
+3 12 10
+#1124
+warhammer steel hammer~
+a steel warhammer~
+A medium sized warhammer with a steel head is here.~
+pound~
+5 0 a
+0 1 9 7 0 0 0 0 14
+6 50 10
+#1125
+flail steel large~
+a steel flail~
+A large steel flail is here.~
+pound~
+5 0 a
+0 2 5 7 0 0 0 0 14
+6 625 10
+#1130
+torch~
+a torch~
+A large torch.~
+~
+1 0 aq
+0 0 24 0 0 0 0 0 14
+1 10 10
+#1131
+lantern~
+a lantern~
+A brass lantern is here.~
+~
+1 0 aq
+0 0 96 0 0 0 0 0 14
+1 50 10
+#1132
+bag~
+a bag~
+A small bag is here.~
+~
+15 0 ao
+50 0 0 0 0 0 0 0 14
+2 20 10
+#1133
+box~
+a box~
+A small box is here.~
+~
+15 0 ao
+10 0 0 0 0 0 0 0 14
+5 50 10
+#1134
+member money exchange guild~
+a member of the Mithrandil money exchange guild~
+A member of the Mithrandil Money Exchange Guild is here ready to do business.~
+~
+12 p 0
+0 0 0 0 0 0 0 0 14
+500000 100 100
+E
+money exchange member~
+
+The member says,
+
+   "To use, type 'BALANCE', 'WITHDRAW x', or 'DEPOSIT x'. Please report
+    any strange occurrences to my superiors."
+~
+#1135
+fountain water statue~
+the fountain~
+A large fountain with a great statue of The Moriquendi in the middle is here.~
+It is a well crafted fountain, carved from a single piece of marble.  It seems
+to be enchanted in some manner, as the water level seems to never lower.
+~
+23 gp 0
+999999 999999 15 0 0 0 0 0 14
+1000004 0 0
+E
+marble greenish-blue fountain~
+  It is very beautiful white marble, shot through with green and blue streaks
+that look almost like lightning dancing along the sides of the fountain.
+~
+#1140
+breast plate steel~
+a steel breast plate~
+A steel breast plate is lying on the ground.~
+~
+9 0 ad
+65 0 0 0 0 0 0 18 14
+100 18000 150
+#1141
+chain mail shirt~
+a chain mail shirt~
+A steel chain mail shirt is lying on the ground.~
+~
+9 0 ad
+7 0 0 0 0 0 0 0 14
+60 2800 50
+#1142
+shield steel~
+a steel shield~
+A small steel shield is lying on the ground.~
+~
+9 0 aj
+5 0 0 0 0 0 0 0 14
+3 300 10
+#1143
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
+~
+9 0 ad
+2 0 0 0 0 0 0 0 14
+10 200 10
+#1144
+jacket studded~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
+~
+9 0 ad
+3 0 0 0 0 0 0 0 14
+20 500 10
+#1145
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+~
+9 0 ad
+4 0 0 0 0 0 0 0 14
+40 1000 10
+#1146
+battle breast plate~
+a battle breast plate~
+A battle breast plate is lying on the ground.~
+~
+9 0 ad
+65 0 0 0 0 0 0 18 14
+80 10000 100
+#1150
+scroll identify~
+a scroll of identify~
+A scroll has carelessly been left here.~
+~
+2 g ao
+12 1701 99 99 0 0 0 0 14
+1 2001 10
+E
+scroll identify~
+The scroll has a magic formula drawn upon it:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+~
+#1151
+potion yellow seeinvis~
+a yellow potion~
+A small yellow potion has carelessly been left here.~
+~
+10 g ao
+12 69 99 99 0 0 0 0 14
+1 400 10
+E
+potion yellow~
+The potion has a small label 'Detect The Invisible'.
+~
+#1152
+scroll recall~
+a scroll of recall~
+A scroll has carelessly been left here.~
+~
+2 g ao
+30 92 100 100 0 0 0 0 14
+4 2001 10
+E
+scroll~
+The scroll has written a formulae of 'Word of Recall' upon it.
+~
+#1153
+wand invis~
+a wand of invisibility~
+A wand has carelessly been left here.~
+~
+3 g ao
+12 2 2 29 0 0 0 0 14
+2 4000 100
+E
+wand~
+The wand is an old dark stick.  You notice a small symbol etched at the
+base of the wand.  It looks like this:
+
+     \ /
+    - O -
+     / \
+~
+#1154
+staff sleep~
+a staff of sleep~
+A staff has carelessly been left here.~
+~
+4 g ao
+12 1 1 38 0 0 0 0 14
+17 7000 5000
+E
+staff~
+The staff is made of old oak, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+
+  ZZZZZ
+     Z
+    Z
+   Z
+  ZZZZZ  z   z
+~
+#1155
+staff~
+a staff of healing~
+A staff has carelessly been left here.~
+~
+4 g ao
+10 8 8 15 0 0 0 0 14
+7 8500 300
+E
+staff~
+The staff is made of metals unknown to you.
+~
+#1160
+raft~
+a raft~
+A raft has been left here.~
+~
+22 0 a
+0 0 0 0 0 0 0 0 14
+75 400 10
+E
+raft~
+The raft looks very primitive.
+~
+#1161
+canoe~
+a canoe~
+A canoe has been left here.~
+~
+22 0 a
+0 0 0 0 0 0 0 0 14
+32 1000 100
+E
+canoe~
+The canoe is fairly light.
+~
+#1170
+gauntlet battle~
+a battle gauntlet~
+A battle gauntlet lies here on the ground.~
+~
+9 0 ah
+65 0 0 0 0 0 0 15 14
+8 1850 100
+#1171
+glove leather~
+a leather glove~
+A leather glove lies here on the ground.~
+~
+9 0 ah
+17 0 0 0 0 0 0 8 14
+3 75 10
+#1175
+helmet battle~
+a battle helmet~
+A battle helmet is lying on the ground.~
+~
+9 0 ae
+65 0 0 0 0 0 0 18 14
+8 3500 100
+#1176
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
+~
+9 0 ae
+3 0 0 0 0 0 0 0 14
+3 150 10
+#1180
+greave battle~
+a battle greave~
+A strong looking battle greave lie here.~
+~
+9 0 af
+8 0 0 0 0 0 0 15 14
+8 600 100
+#1181
+pants leather~
+a pair of leather pants~
+A pair of leather pants is lying on the ground.~
+~
+9 0 af
+3 0 0 0 0 0 0 0 14
+8 150 10
+#1185
+vambraces vambrace battle~
+some battle vambraces~
+Some vambraces perfect for battle lie here.~
+~
+9 0 ai
+8 0 0 0 0 0 0 15 14
+8 400 100
+#1186
+bracer leather~
+a leather bracer~
+A leather arm bracer lies here.~
+~
+9 0 ai
+2 0 0 0 0 0 0 0 14
+4 75 10
+#1187
+elixer magical bottle green liquid~
+Stirin's magical elixer~
+A small bottle, full of orange liquid, is lying here.~
+~
+10 g ao
+30 83 57 100 0 0 0 0 14
+1 750000 50000
+#1188
+dark green vial~
+a dark green vial~
+A small bottle, full of dark green liquid, is lying here.~
+~
+10 g ao
+16 86 99 99 0 0 0 0 14
+1 500000 50000
+#1189
+red vial~
+a red vial~
+A small bottle, full of deep red liquid, is lying here.~
+~
+10 g ao
+2 78 99 99 0 0 0 0 14
+1 500000 50000
+#1190
+diamond gem~
+a small diamond~
+A small diamond lies here, collecting dust.~
+~
+8 0 ao
+0 -1 -1 -1 0 0 0 0 14
+1 5500 10
+#1191
+poison potion vial black~
+a small black vial~
+A small black vial has been carelessly left here.~
+~
+10 0 ao
+20 83 99 99 0 0 0 0 14
+1 10000 10
+$~

@@ -1,0 +1,71 @@
+#106
+Cliffs of Rhaylinne~
+Kirahn~
+MID/HIGH~
+3001 1
+10710 48 1
+*
+* Last Updated: Wed Nov 27 20:19:10 
+*           By: Kirahn
+*
+M 0 10600 1 10701 100 	* the hermit at Rhaylinne's Peak. (Max: 1)
+G 1 10600 1  100 			* And give it a golden key. (Max: 1)
+D 0 10640 2 1 100 		* Close Eastern door at The Cliff Trail
+D 0 10700 0 1 100 		* Close Northern door at Behind the Ledge
+D 0 10652 2 2 100 		* Lock and Close Southern door at Path to the Tower
+D 0 10653 1 1 100 		* Close Eastern door at The guard room
+D 0 10654 3 1 100 		* Close Eastern door at Hallway in the Tower
+D 0 10655 0 2 100 		* Lock and Close Northern door at The Tower Entryway
+D 0 10657 3 1 100 		* Close Eastern door at The guard room
+D 0 10656 1 1 100 		* Close Eastern door at Hallway in the Tower
+D 0 10659 2 2 100 		* Lock and Close Southern door at The stairway
+D 0 10662 0 2 100 		* Lock and Close Northern door at Before the Stairway
+D 0 10674 2 2 100 		* Lock and Close Southern door at The stairway
+D 0 10677 2 2 100 		* Lock and Close Southern door at The stairway
+D 0 10680 2 2 100 		* Lock and Close Southern door at The stairway
+D 0 10683 0 2 100 		* Lock and Close Northern door at Before the Stairway
+D 0 10686 0 2 100 		* Lock and Close Northern door at Before the Stairway
+D 0 10695 2 2 100 		* Lock and Close Southern door at The stairway
+D 0 10698 0 2 100 		* Lock and Close Northern door at Before the Stairway
+D 0 10689 0 2 100 		* Lock and Close Northern door at Before the Stairway
+M 0 10601 10 10662 100 	* a huge, iron golem at Before the Stairway. (Max: 10)
+E 1 10601 5 2 100 			* And equip it with a steel key. (Max: 5)
+E 1 10606 5 4 100 			* And equip it with a golden breastplate. (Max: 5)
+E 1 10607 5 5 100 			* And equip it with a golden helmet. (Max: 5)
+E 1 10608 10 9 100 			* And equip it with a golden gauntlet. (Max: 10)
+E 1 10608 10 10 100 			* And equip it with a golden gauntlet. (Max: 10)
+M 0 10601 10 10683 100 	* a huge, iron golem at Before the Stairway. (Max: 10)
+E 1 10602 5 2 100 			* And equip it with a steel key. (Max: 5)
+E 1 10606 5 4 100 			* And equip it with a golden breastplate. (Max: 5)
+E 1 10607 5 5 100 			* And equip it with a golden helmet. (Max: 5)
+E 1 10608 10 9 100 			* And equip it with a golden gauntlet. (Max: 10)
+E 1 10608 10 10 100 			* And equip it with a golden gauntlet. (Max: 10)
+M 0 10601 10 10686 100 	* a huge, iron golem at Before the Stairway. (Max: 10)
+E 1 10603 5 2 100 			* And equip it with a steel key. (Max: 5)
+E 1 10606 5 4 100 			* And equip it with a golden breastplate. (Max: 5)
+E 1 10607 5 5 100 			* And equip it with a golden helmet. (Max: 5)
+E 1 10608 10 9 100 			* And equip it with a golden gauntlet. (Max: 10)
+E 1 10608 10 10 100 			* And equip it with a golden gauntlet. (Max: 10)
+M 0 10601 10 10689 100 	* a huge, iron golem at Before the Stairway. (Max: 10)
+E 1 10604 5 2 100 			* And equip it with a steel key. (Max: 5)
+E 1 10606 5 4 100 			* And equip it with a golden breastplate. (Max: 5)
+E 1 10607 5 5 100 			* And equip it with a golden helmet. (Max: 5)
+E 1 10608 10 9 100 			* And equip it with a golden gauntlet. (Max: 10)
+E 1 10608 10 10 100 			* And equip it with a golden gauntlet. (Max: 10)
+M 0 10601 10 10698 100 	* a huge, iron golem at Before the Stairway. (Max: 10)
+E 1 10605 5 2 100 			* And equip it with a steel key. (Max: 5)
+E 1 10606 5 4 100 			* And equip it with a golden breastplate. (Max: 5)
+E 1 10607 5 5 100 			* And equip it with a golden helmet. (Max: 5)
+E 1 10608 10 9 100 			* And equip it with a golden gauntlet. (Max: 10)
+E 1 10608 10 10 100 			* And equip it with a golden gauntlet. (Max: 10)
+M 0 10602 9 10629 100 	* a firbolg at The ledge. (Max: 9)
+E 1 10610 9 4 100 			* And equip it with a ragged, fur shirt. (Max: 9)
+E 1 10611 9 17 100 			* And equip it with a huge spiked club. (Max: 9)
+M 0 10602 9 10633 100 	* a firbolg at High on the cliffs. (Max: 9)
+E 1 10610 9 4 100 			* And equip it with a ragged, fur shirt. (Max: 9)
+E 1 10611 9 17 100 			* And equip it with a huge spiked club. (Max: 9)
+M 0 10602 9 10623 100 	* a firbolg at On the Cliff Road. (Max: 9)
+E 1 10610 9 4 100 			* And equip it with a ragged, fur shirt. (Max: 9)
+E 1 10611 9 17 100 			* And equip it with a huge spiked club. (Max: 9)
+S
+$~

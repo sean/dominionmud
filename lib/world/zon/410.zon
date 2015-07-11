@@ -1,0 +1,37 @@
+#410
+Desert of Desolation~
+Kirahn~
+Low/Mid~
+3001 1
+41200 48 2
+*
+* Last Updated: Mon Aug  5 18:41:55 
+*           By: Kirahn
+*
+D 0 41164 4 1 		* Close Eastern door at Secret Tunnel
+M 0 1115 1 41164 	* Jade at Secret Tunnel. (Max: 1)
+M 0 1114 1 41095 	* the Darkenguard at The red desert. (Max: 1)
+E 1 29 1 14 			* And equip it with Belt of the Banished. (Max: 1)
+M 0 41004 5 41098 	* a traveller at The red desert. (Max: 5)
+E 1 3716 5 17 			* And equip it with a long sword. (Max: 5)
+E 1 5436 5 13 			* And equip it with a backpack. (Max: 5)
+M 0 41001 20 41100 	* a dark, hooded warrior at The red desert. (Max: 20)
+E 1 3718 20 17 			* And equip it with a curved scimitar. (Max: 20)
+M 0 41001 10 41050 	* a dark, hooded warrior at The red desert. (Max: 10)
+E 1 3718 10 17 			* And equip it with a curved scimitar. (Max: 10)
+M 0 41001 20 41050 	* a dark, hooded warrior at The red desert. (Max: 20)
+E 1 3718 20 17 			* And equip it with a curved scimitar. (Max: 20)
+M 1 41001 20 41050 	* a dark, hooded warrior at The red desert. (Max: 20)
+E 1 3718 20 17 			* And equip it with a curved scimitar. (Max: 20)
+D 0 41167 4 1 		* Close Eastern door at Underground Tunnel
+M 0 41001 20 41052 	* a dark, hooded warrior at The red desert. (Max: 20)
+E 1 5413 10 17 			* And equip it with a scimitar. (Max: 10)
+M 0 41002 5 41051 	* a draginne at The red desert. (Max: 5)
+M 0 41001 20 41034 	* a dark, hooded warrior at The red desert. (Max: 20)
+E 1 5413 20 17 			* And equip it with a scimitar. (Max: 20)
+M 0 41001 20 41032 	* a dark, hooded warrior at The red desert. (Max: 20)
+E 1 5413 20 17 			* And equip it with a scimitar. (Max: 20)
+M 0 41000 4 41145 	* the toll guard at Elrhi-Mytheran Gate House. (Max: 4)
+M 0 41000 4 41159 	* the toll guard at The Elrhi-Mytheran Toll House. (Max: 4)
+S
+$~

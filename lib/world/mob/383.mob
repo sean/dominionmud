@@ -1,0 +1,1049 @@
+#38300
+undead guardian guard un~
+Undead Guardian~
+An Undead Guardian is here
+~
+  The Guardian you see before you wears a black uniform and
+would not be able to be seen if not for his glowing blue
+eyes. This guardian has been summoned from the depths of the
+underworld to protect this Lair.
+~
+bdems acdfkm 1000 E
+25 35 47 50d70+200 8d4+35
+708 166250
+8 8 0
+BareHandAttack: 9
+Str: 16
+Dex: 13
+Int: 16
+Wis: 13
+Con: 14
+Cha: 16
+Race: 23
+Height: 79
+E
+#38301
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 27 0d0+0 0d0+0
+0 0
+8 8 0
+#38302
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 5 0d0+0 0d0+0
+0 0
+8 8 0
+#38303
+emp emperor~
+the Emperor~
+The Emperor stands here, prepared for BATTLE!
+~
+   This is a man of great wealth. He wields a golden sword with
+rare gems embedded in the pommel. He wears  a Black silk cape
+and a necklace with a emerald stone at the end. He also has survived 
+many battles, for he would not have the many scars he does if this 
+was not true.
+~
+bdegl acdefhkprs -1000 E
+42 59 65 42d168+84 7d5+50
+1000 3500000
+8 8 1
+BareHandAttack: 3
+Str: 25
+Dex: 23
+Int: 23
+Wis: 24
+Con: 22
+Cha: 23
+Race: 0
+Height: 69
+Weight: 143
+E
+#38304
+knight demon dem~
+a Demon Knight~
+A Demon Knight stands poised here, ready to attack!
+~
+You see nothing special.
+~
+defg acn -1000 E
+37 77 103 18d74+74 3d8+87
+0 1237500
+8 8 1
+Str: 19
+Dex: 20
+Int: 22
+Wis: 21
+Con: 19
+Cha: 19
+Race: 27
+E
+#38305
+gu gua guard~
+A Castle Guardian~
+A Castle Guardian is patroling around here.
+~
+You see nothing special.
+~
+bdm 0 0 E
+20 50 65 10d40+40 3d9+53
+5874 93750
+8 8 1
+BareHandAttack: 11
+Dex: 13
+Int: 13
+Con: 14
+Race: 6
+Height: 79
+Weight: 166
+E
+#38306
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 12 0d0+0 0d0+0
+0 0
+8 8 0
+#38307
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 2 0d0+0 0d0+0
+0 0
+8 8 0
+#38308
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38309
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38310
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38311
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38312
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38313
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38314
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38315
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38316
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38317
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38318
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38319
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38320
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38321
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38322
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38323
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38324
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38325
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38326
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38327
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38328
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38329
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38330
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38331
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38332
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38333
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38334
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38335
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38336
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38337
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38338
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38339
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38340
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38341
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38342
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38343
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38344
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38345
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38346
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38347
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38348
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38349
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38350
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38351
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38352
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38353
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38354
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38355
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38356
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38357
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38358
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38359
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38360
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38361
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38362
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38363
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38364
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38365
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38366
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38367
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38368
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38369
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38370
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38371
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38372
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38373
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38374
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38375
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38376
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38377
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38378
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38379
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38380
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38381
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38382
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38383
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38384
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38385
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38386
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38387
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38388
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38389
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38390
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38391
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38392
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38393
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38394
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38395
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38396
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38397
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38398
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#38399
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+$~

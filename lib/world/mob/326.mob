@@ -1,0 +1,116 @@
+#32600
+man brigand~
+a forest brigand~
+A man stands here in tattered chainmail with an angry look in his eye.
+~
+The brigand seems to be about 6 feet tall and muscular.  He wears a
+shirt of chainmail that needs to be repaired.
+~
+cdghjk ckt -500 S
+4 11 62 3d5+15 1d2+2
+30 300
+8 8 1
+#32601
+hunter elf~
+the elven hunter~
+An elf is here who looks like he has a keen sense within the forest.
+~
+The elf is dressed in brown and green.  His hair is black and tied into
+a tail which hangs long down his back.  About his waiste is a belt with
+a knife sheath on it.
+~
+cde ps 500 S
+6 10 98 1d10+30 1d4+3
+10 1000
+8 8 1
+#32602
+andar dwarf shop keeper shopkeeper~
+Andar of the Waypost~
+A dwarf stands here behind the counter smoking a pipe.
+~
+He is a big, grizzled old dwarf.  He wears a full grey and white beard
+that looks as if it has never been cut or combed.  From his mouth protrudes
+a brown pipe which billows smoke every few seconds.  His name he tells you
+is Andar, he's lived in the forest many years.
+~
+bdlno pr 0 S
+39 1 69 1d1+20000 1d1+50
+50000 10000
+8 8 1
+>in_file_prog andar.prg~
+|
+#32603
+deer~
+a white deer~
+A large, white-furred deer grazes here. 
+~
+The deer is about 5 feet from head to tail.  Upon it's head is a set of
+antlers which spans nearly the same length as the body.  In its eyes is
+a strange look as if it knows who you are yet it does not care.
+~
+dghnoqr fgkprs 1000 S
+25 3 77 1d100+500 4d4+30
+0 80000
+8 5 0
+#32604
+fox grey~
+a small, grey fox~
+A small, grey fox dives into the foliage.
+~
+The fox is quite small, maybe only a foot in length.  His eyes have
+a look of fear in them as you look at him.  
+~
+dghq fp 0 S
+3 9 103 2d5+8 1d4+2
+0 100
+8 5 0
+#32605
+woman brigand~
+a forest brigand~
+A woman stands here dressed in ragged chainmail.
+~
+She doesnt look like the type that wants you for your good looks.
+She wears ragged chainmail and leather pants.  
+~
+cdghjk k -500 S
+3 9 101 2d4+11 1d4+4
+300 400
+8 8 2
+#32606
+forest figure slim druid~
+the forest druid~
+A slim figure stands here, blending in with the trees almost undetectibly.
+~
+The druid wears nothing but a long robe which changes color along with
+the environment it is in.  His eyes are black as night and his skin has
+a pale pallor to it.
+~
+dg s 300 S
+6 3 53 3d9+20 2d4+5
+0 300
+8 8 1
+#32607
+silver falcon~
+a silver falcon~
+A silver falcon peers cunningly down from his perch on a low branch here.
+~
+It is a beautiful bird - majestic and terrifying all in one.  Its wingspan
+looks like it could be about 4 feet wide.  Upon its face, a sharp, curved
+beak opens and closes slowly underneath the keen black eyes.  
+~
+degq p 0 S
+5 8 28 2d15+15 4d2+6
+0 450
+8 8 0
+#32608
+a mob~
+a big mob~
+A big mob stands here.
+~
+It looks lik,e a big mob
+~
+d 0 100 S
+1 1 6 2d2+2 2d2+1
+2 2
+8 8 0
+$~

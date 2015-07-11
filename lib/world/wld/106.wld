@@ -1,0 +1,2007 @@
+#10600
+West Cliff Wall in the Flatlands Basin~
+   Green grass and sand mix here underfoot, making travel somewhat tough.
+Heat seems to rise from the flats, making the sweat pour like waterfalls
+down across your brow.  Breezes are few and far-between, the ones that
+do pass by only blow hot air at you.  To the west, a sheer cliff towers
+high above.  Far off across the flatland to the south you see another
+cliff towering across the horizon.  To the east and south the flatlands 
+continue.
+~
+106 p 2
+D0
+~
+~
+0 0 41141
+D1
+~
+~
+0 -1 10601
+D2
+~
+~
+0 -1 10608
+S
+#10601
+The Flatlands Basin~
+   The flatlands stretch out to the east and south for a long distance. 
+Nearby, to the west stands a huge cliff, it's face unscalable by anything
+without hooks for legs.  To the south and east off in the distance you
+see more cliffs.  To the north, a vast desert with twisting sands opens
+before you.  The long, dry grass underfoot whips your ankles in the hot 
+wind.
+~
+106 p 2
+D0
+~
+~
+0 0 41142
+D1
+~
+~
+0 -1 10602
+D2
+~
+~
+0 -1 10609
+D3
+~
+~
+0 -1 10600
+S
+#10602
+The Flatlands Basin~
+   The Flatlands continue in every direction save north, where a hot red-sand
+desert opens up its searing arms waiting for you to enter.  On every horizon,
+save north again, towering cliffs face you.  Long, dry grass underfoot 
+growing in the red-sand, whips about your feet in the wind.
+~
+106 p 2
+D0
+~
+~
+0 0 41143
+D1
+~
+~
+0 -1 10603
+D2
+~
+~
+0 -1 10610
+D3
+~
+~
+0 -1 10601
+S
+#10603
+The Flatlands Basin~
+   The Flatlands continue in each direction except to the north.  Hot grass
+whips about your ankles in the hot wind.  To the north, a vast red-sand desert
+opens up before you, welcoming you with searing, outstretched arms.  You
+see high cliff walls surrounding the Flatlands.
+~
+106 p 2
+D0
+~
+~
+0 0 41144
+D1
+~
+~
+0 -1 10604
+D2
+~
+~
+0 -1 10611
+D3
+~
+~
+0 -1 10602
+S
+#10604
+The Flatlands Basin~
+   The flatlands continue in every direction here, save north which leads
+to a vast, red-sand desert.  High cliffs stand around the flatland basin,
+except north, holding you fast to the winds whipping grass.    
+
+~
+106 p 2
+D0
+~
+~
+0 0 41144
+D1
+~
+~
+0 -1 10605
+D2
+~
+~
+0 -1 10612
+D3
+~
+~
+0 -1 10603
+S
+#10605
+The Flatlands Basin~
+   The flatlands stretch out to the west and south for a long distance. 
+Nearby, to the east stands a huge cliff, it's face unscalable by anything
+without hooks for legs.  To the south and west, off in the distance, you
+see more cliffs.  To the north, a vast desert with twisting, red sands opens
+before you.  The long, dry grass underfoot whips your ankles in the hot 
+wind.
+~
+106 p 2
+D0
+~
+~
+0 0 41144
+D1
+~
+~
+0 -1 10606
+D2
+~
+~
+0 -1 10613
+D3
+~
+~
+0 -1 10604
+S
+#10606
+The Flatlands Basin~
+   The Flatlands continue in every direction save north, where a hot red-sand
+desert opens up its searing arms waiting for you to enter.  On every horizon,
+save north again, towering cliffs face you.  Long, dry grass underfoot 
+growing in the red-sand, whips about your feet in the wind.  A tall cliff
+stands nearby to the east, towering high above the basin.
+~
+106 p 2
+D0
+~
+~
+0 0 41143
+D1
+~
+~
+0 -1 10607
+D2
+~
+~
+0 -1 10614
+D3
+~
+~
+0 -1 10605
+S
+#10607
+East Cliff Wall in the Flatlands Basin~
+   A towering cliff wall stands directly to the east, unscalable by any
+humanoid.  To the west and south the hot basin continues while to the north
+a vast desert spreads out before you with twisting, red sands.
+~
+106 p 2
+D0
+~
+~
+0 0 41142
+D2
+~
+~
+0 -1 10615
+D3
+~
+~
+0 -1 10606
+S
+#10608
+Corner of the Cliff Wall in the Flatlands Basin~
+   The cliff to the west juts out here into the basin to the south.  Long,
+hot grass whips at your feet underfoot as the wind blows by.  To the east
+and north, the Flatlands continue.
+~
+106 p 2
+D0
+~
+~
+0 -1 10600
+D1
+~
+~
+0 -1 10609
+S
+#10609
+The Flatlands Basin~
+   The basin continues in every direction, the dry grass underneath your feet
+rustles in the hot winds blowing through.  In all directions, a large cliff
+surrounds the basin.
+~
+106 p 2
+D0
+~
+~
+0 -1 10601
+D1
+~
+~
+0 -1 10610
+D2
+~
+~
+0 -1 10616
+D3
+~
+~
+0 -1 10608
+S
+#10610
+The Flatlands Basin~
+   The flat wasteland of grass and blowing sand continues in every direction.
+A ways to the north you see a vast red desert opens its searing arms welcoming
+you to your likely death.  Surrounding the flatlands are towering walls, and
+to the south, the cliff wall has grown taller and more dangerous than the
+ones to the east and west.
+~
+106 p 2
+D0
+~
+~
+0 -1 10602
+D1
+~
+~
+0 -1 10611
+D2
+~
+~
+0 -1 10617
+D3
+~
+~
+0 -1 10609
+S
+#10611
+The Flatlands Basin~
+   The basin continues in every direction.  Hot sand and grass whipping
+in the wind covers the floor of the basin.  A dry wind brings little comfort
+as it blows by.  Surrounding the basin are high cliffs, most unscalable by
+the average being.
+~
+106 p 2
+D0
+~
+~
+0 -1 10603
+D1
+~
+~
+0 -1 10612
+D2
+~
+~
+0 -1 10618
+D3
+~
+~
+0 -1 10610
+S
+#10612
+The Flatlands Basin~
+   The basin continues in every direction, the dry grass underneath your feet
+rustles in the hot winds blowing through.  In all directions, a large cliff
+surrounds the basin.
+~
+106 p 2
+D0
+~
+~
+0 -1 10604
+D1
+~
+~
+0 -1 10613
+D2
+~
+~
+0 -1 10619
+D3
+~
+~
+0 -1 10611
+S
+#10613
+The Flatlands Basin~
+   The Flatlands continue in every direction from here.  To the north a hot 
+red-sand desert opens up its searing arms waiting for you to enter.  On every 
+horizon, save north again, towering cliffs face you.  Long, dry grass under-
+foot growing in the sand, whips about your feet in the wind.
+~
+106 p 2
+D0
+~
+~
+0 -1 10605
+D1
+~
+~
+0 -1 10614
+D2
+~
+~
+0 -1 10620
+D3
+~
+~
+0 -1 10612
+S
+#10614
+The Flatlands Basin~
+   The hot flatlands continue in every direction, with sand blowing up
+from beneath the dry grass, rustling in the wind.  To the southeast, the
+eastern cliff wall juts out about fifty feet into the basin.  To the east,
+you see the flatlands come to a corner in the cliff wall and the jutting
+portion of the cliff.
+~
+106 p 2
+D0
+~
+~
+0 -1 10606
+D1
+~
+~
+0 -1 10615
+D2
+~
+~
+0 -1 10621
+D3
+~
+~
+0 -1 10613
+S
+#10615
+Corner of the Cliff Wall in the Flatlands Basin~
+   The cliff to the east juts out here into the basin to the south.  Long,
+hot grass whips at your feet underfoot as the wind blows by.  To the west
+and north, the Flatlands continue.
+~
+106 p 2
+D0
+~
+~
+0 -1 10607
+D3
+~
+~
+0 -1 10614
+S
+#10616
+Southwestern Corner of the Basin~
+   You stand next to the towering cliff wall standing south and west of
+here.  A slight shadow envelopes you here as the light of the searing sun
+hits the cliff just right above you, sending the shadow upon you.  To the
+east and north the flatlands continue.
+~
+106 p 2
+D0
+~
+~
+0 -1 10609
+D1
+~
+~
+0 -1 10617
+S
+#10617
+Beside the Cliff Wall of the Basin~
+   Long, dry grass gently rustles in the hot wind blowing across the flat-
+lands north of here.  To the east the cliff continues, and to the west the
+cliff comes to a corner with the western wall of the basin.
+~
+106 p 2
+D0
+~
+~
+0 -1 10610
+D1
+~
+~
+0 -1 10618
+D3
+~
+~
+0 -1 10616
+S
+#10618
+Beside the Southern Cliff of the Basin~
+   To the south a small rocky path leads through an openning in the 
+southern cliff wall.  To the north you see the flatlands continue.  Searing
+hot wind blows through the basin like a plague to any living creature within.
+Long, dry grass grows in the sandy turf underfoot, waving in the wind.
+There is a sign stuck in the sand here.
+~
+106 p 2
+D0
+~
+~
+0 -1 10611
+D1
+~
+~
+0 -1 10619
+D2
+~
+~
+0 -1 10622
+D3
+~
+~
+0 -1 10617
+E
+sign~
+The sign reads:               
+
+                              *************
+            ****************************************************
+            *  Behold, to the south, the Cliffs of Rhayllihn!  *
+            *                                                  *
+            *     Beware the Guardians of MountainCastle.      *
+            *                                                  *
+            ****************************************************
+                              *************
+
+~
+S
+#10619
+Southern Cliff Wall of the Basin~
+   You stand beneath a towering wall of rock which climbs high towards the
+sky to the south.  To the north you see the harsh Flatlands and the hot wind
+blowing the dry grass about violently.  East and west of here the south cliff
+continues.
+~
+106 p 2
+D0
+~
+~
+0 -1 10612
+D1
+~
+~
+0 -1 10620
+D3
+~
+~
+0 -1 10618
+S
+#10620
+Southern Cliff Wall of the Basin~
+   The basin stretches out to the north with dry grass growing in the
+hot sand underfoot.  To the east and west you see the towering wall of
+rock continue.
+~
+106 p 2
+D0
+~
+~
+0 -1 10613
+D1
+~
+~
+0 -1 10621
+D2
+~
+~
+0 -1 10629
+D3
+~
+~
+0 -1 10619
+S
+#10621
+Southeastern Corner of the Basin~
+   You stand next to the towering cliff wall standing south and east of
+here.  A slight shadow envelopes you here as the light of the searing sun
+hits the cliff just right above you, sending the shadow upon you.  To the
+west and north the flatlands continue.
+~
+106 p 2
+D0
+~
+~
+0 -1 10614
+D2
+~
+~
+0 -1 10630
+D3
+~
+~
+0 -1 10620
+S
+#10622
+The cliff road~
+   The road empties out here to the north into a wasteland of flats.  It
+looks to be one of the harshest climates in the Dominion.  High winds blow
+through here, such as never seen before in other areas of the Dominion.
+To the south, the cliff road continues upward.
+~
+106 p 2
+D0
+~
+~
+0 -1 10618
+D2
+~
+~
+0 -1 10625
+S
+#10623
+On the Cliff Road~
+   The road only leads off to the east here down towards a large basin to
+the north.  To the south, you can probably climb up to the next level of
+the cliffs.  
+~
+106 p 2
+D1
+~
+~
+0 -1 10624
+D4
+~
+~
+0 -1 10628
+S
+#10624
+Cliff Road~
+   The road leads east and west. Above you, on another level of the cliffs,
+you think there maybe another road.  To the north a large basin of hot grass
+and sand stretches off. 
+~
+106 p 2
+D1
+~
+~
+0 -1 10625
+D3
+~
+~
+0 -1 10623
+S
+#10625
+Turn in the Road~
+   The road turns and leads off to the north and to the west.  To the north,
+through a thin niche in the cliffs you see the road open up to into a basin
+of dry, waving grass and sand.
+~
+106 p 2
+D0
+~
+~
+0 -1 10622
+D3
+~
+~
+0 -1 10624
+S
+#10626
+The steps~
+   You are midway up the cliffs on a small trail.  To the west of you are
+jagged steps set into the cliff wall to allow you to get to the next level
+on the cliffs.  To the east you see a small trail hugging the cliff wall
+lead off.
+~
+106 p 2
+D1
+~
+~
+0 -1 10627
+D4
+~
+~
+0 -1 10632
+S
+#10627
+Trail hugging the Cliff~
+   The trail is quite thin with the rocky cliff to the south and nothing
+but air to the north.  Below you, you see another trail leading in an 
+east-west fashion.
+~
+106 p 2
+D1
+~
+~
+0 -1 10628
+D3
+~
+~
+0 -1 10626
+S
+#10628
+The cliff trail~
+   To the east the cliff trail comes to and end, but the next level below
+is close enough that you can most likely jump down without too much effort.
+The trail also leads west hugging the cliff wall.
+~
+106 p 2
+D3
+~
+~
+0 -1 10627
+D5
+~
+~
+0 -1 10623
+S
+#10629
+The ledge~
+   To the east a trail leads along a ledge of the cliff.  To the
+south the trail turns around the cliff.  To the north you look 
+towards the horizon and see a vast desert of red, twisting sand. 
+~
+106 p 2
+D1
+~
+~
+0 -1 10630
+D2
+~
+~
+0 -1 10638
+S
+#10630
+The cliff ledge~
+   The ledge hugs the cliff face closely, forcing you to watch your step
+or fall to your doom.  To the east and west the ledge continues.
+~
+106 p 2
+D1
+~
+~
+0 -1 10631
+D3
+~
+~
+0 -1 10629
+S
+#10631
+Turn on the ledge~
+   To the south you see a small trail leading across the face of the cliff.
+To the west the ledge continues precariously next to the cliff.
+~
+106 p 2
+D2
+~
+~
+0 -1 10639
+D3
+~
+~
+0 -1 10630
+S
+#10632
+High on the cliffs~
+   The trail leads east from here hugging the face of the cliff.  Small
+stairs set into the face of the cliff lead down to another level on the 
+cliffs.
+~
+106 p 2
+D1
+~
+~
+0 -1 10633
+D5
+~
+~
+0 -1 10626
+S
+#10633
+High on the cliffs~
+   Up here on the cliffs, with the vast desert to the north and the huge
+jutting walls of Rhayllihn you feel almost insignificant as you are dwarfed 
+by natures power.  To the east and west the trail leads off hugging the
+cliff walls.
+~
+106 p 2
+D1
+~
+~
+0 -1 10634
+D3
+~
+~
+0 -1 10632
+S
+#10634
+The cliff trail~
+   To the east and west the small trail leads next to the walls of Rhaylihnn.
+Off in the distance to the north, you see a vast red desert of twisting
+sands open up beyond the cliffs.
+~
+106 p 2
+D1
+~
+~
+0 -1 10635
+D3
+~
+~
+0 -1 10633
+S
+#10635
+The steps~
+   Steps carved directly into the face of the cliff lead up into a 
+cavern here.  To the east and west, however, the trail continues.  You
+see the outline to the archway around the stairs is made of white marble 
+with foreign, ancient runes covering it.
+~
+106 p 2
+D1
+~
+~
+0 -1 10636
+D3
+~
+~
+0 -1 10634
+D4
+~
+~
+0 -1 10642
+S
+#10636
+High on Cliff Trail~
+   The cliff trail leads off here east and west.  To the east, a ways down
+the trail you see that the cliff wall juts out precariously forcing the 
+trail to curve around it.
+~
+106 p 2
+D1
+~
+~
+0 -1 10637
+D3
+~
+~
+0 -1 10635
+S
+#10637
+High on the cliff trail~
+   Far off to the north you see a vast red desert with twisting sands open
+up.  The trail across the cliffs leads east and west.  A short ways down the
+trail to the east you see the cliff jut out forcing the trail to turn.
+~
+106 p 2
+D1
+~
+~
+0 -1 10638
+D3
+~
+~
+0 -1 10636
+S
+#10638
+Turn on the Cliff Trail~
+   The trail turns here north and west.  To the north, you see a dangerous
+leadge jut out from the cliff wall.  To the east, the trail leads off hugging
+the cliff face.
+~
+106 p 2
+D0
+~
+~
+0 -1 10629
+D3
+~
+~
+0 -1 10637
+S
+#10639
+Turn on the Cliff Trail~
+   The trail turns here north and east.  To the north, you see a dangerous
+leadge jut out from the cliff wall.  To the west, the trail leads off hugging
+the cliff face.
+~
+106 p 2
+D0
+~
+~
+0 -1 10631
+D1
+~
+~
+0 -1 10640
+S
+#10640
+The Cliff Trail~
+   The trail leads and west across the face of the cliffs.  You see light
+peeping from a small crack in the face of the cliff.  To the west, you 
+see the cliff juts out, forming a ledge which the trail leads precar-
+iously around.  
+~
+106 p 2
+D1
+~
+~
+0 -1 10641
+D2
+~
+crack rocks~
+1 -1 10700
+D3
+~
+~
+0 -1 10639
+S
+#10641
+The Cliff Trail~
+   The trail leads off to the west and a set of rocky stairs leads up to
+another level of the cliffs.  Far off to the north, you can see a vast 
+desert of red, twisting sands swirling in the distance.
+~
+106 p 2
+D3
+~
+~
+0 -1 10640
+D4
+~
+~
+0 -1 10647
+S
+#10642
+On a Ledge in the Cavern~
+   Down and to the north is a huge archway leading out of the cliff.  White 
+marble outlines the archway and is covered in strange runes.  A ledge also
+leads east from here along the cliff face.
+~
+106 p 2
+D1
+~
+~
+0 -1 10648
+D5
+~
+~
+0 -1 10635
+S
+#10643
+On the Ledge~
+   You are standing on a thin ledge, high above the floor of the enormous
+cavern that opens up to the south.  A set of steps leads down from here
+to the floor of the cavern and also up out of the cavern.  To the south, 
+a golden tower shines dimly through the darkness.
+~
+106 p 2
+D1
+~
+~
+0 -1 10644
+D5
+~
+~
+0 -1 10651
+S
+#10644
+On the ledge~
+   You stand on a ledge with pebbles skittering off the edge down into
+the darkness below.  To the north, however, is a glowing, golden tower,
+providing just enough light to make out the surroundings.
+~
+106 p 2
+D1
+~
+~
+0 -1 10645
+D3
+~
+~
+0 -1 10643
+S
+#10645
+The Cavern Ledge~
+   You stand on a precarious ledge in a large cavern.  A tall golden tower
+stands in the center of the room, leading up into the ceiling of the cavern.
+To the east and west, the ledge continues.
+~
+106 p 2
+D1
+~
+~
+0 -1 10646
+D3
+~
+~
+0 -1 10644
+S
+#10646
+The high ledge~
+   The ledge continues east and west.  off to the north, through the
+darkness, you see a tall, golden tower.  The top of the tower leads
+through the ceiling of the cavern and disappears.  To the east, you
+see some light coming from a small hole in the cavern wall.
+~
+106 p 2
+D1
+~
+~
+0 -1 10647
+D3
+~
+~
+0 -1 10645
+S
+#10647
+The ledge within the cavern~
+   A small hole in the wall of the cavern leads to light, and peering 
+through the hole you see a small set of stairs leading down to a trail
+along the side of the cliff.  To the west you the ledge within the cavern 
+leads off, and to the north you see a tall golden tower in the distance.
+~
+106 p 2
+D3
+~
+~
+0 -1 10646
+D5
+~
+~
+0 -1 10641
+S
+#10648
+On a Ledge in the Cavern~
+   The ledge you are on is high up on the wall of the cavern.  There is
+a staircase leading down from here to the floor of the cavern.  The ledge
+continues to the west.
+~
+106 p 2
+D3
+~
+~
+0 -1 10642
+D5
+~
+~
+0 -1 10649
+S
+#10649
+Floor of the Cavern~
+   To the north, you see a glowing tower, faintly illuminating the cavern.
+A small row of stones defines the path you are on leading east and west.
+~
+106 p 2
+D1
+~
+~
+0 -1 10650
+D4
+~
+~
+0 -1 10648
+S
+#10650
+Split in the path~
+   The path splits here, leading in three directions.  To the south, a   
+set of white, marble stairs lead up towards the entrance to the tower. 
+East and west it is too dark to make out the surroundings well enough 
+to see where it leads.
+~
+106 p 2
+D1
+~
+~
+0 -1 10651
+D3
+~
+~
+0 -1 10649
+D4
+~
+~
+0 -1 10652
+S
+#10651
+Floor of the Cavern~
+   A huge wall of the cavern stands next to you to the east with steps
+leading up the side of it to a ledge high above.  A small path, outlined
+by stones leads to the west.  To the south, you see a huge tower, stretching
+up so high that it exit through the ceiling.
+~
+106 p 2
+D3
+~
+~
+0 -1 10650
+D4
+~
+~
+0 -1 10643
+S
+#10652
+Path to the Tower~
+   Just to the south is a huge golden tower, radiating a soft glow.  You
+are on a thin path at the bottom of the cavern outlined by small stones.
+A white, marble stairway leads down and to the north towards the northern 
+wall of the cavern.
+There is a sign sticking up from the floor here.
+~
+106 p 2
+D2
+~
+gate steel~
+1 10600 10655
+D5
+~
+~
+0 -1 10650
+E
+sign~
+   The sign reads:
+
+                   *************************************
+                   *       This is the Tower of        *
+                   *            Rhaylinne              *
+                   *               -                   *
+                   *       Woe to all that enter!      *
+                   *************************************                                 
+~
+S
+#10653
+The guard room~
+   You are in a small chamber; the rest quarters of the guardians of the
+Tower.  To the east is a doorway leading out of the room. 
+~
+106 0 2
+D1
+~
+door~
+1 -1 10654
+S
+#10654
+Hallway in the Tower~
+   The walls shimmer with a golden light all about you.  To the west is      
+a wooden door, large enough for a giant to fit through.  To the south and
+east a hallway branches off.
+~
+106 0 2
+D1
+~
+~
+0 -1 10655
+D2
+~
+~
+0 -1 10658
+D3
+~
+door wooden~
+1 -1 10653
+S
+#10655
+The Tower Entryway~
+   The walls within this tower are the color of gold and radiate faintly.
+There are no pictures, statues, or other figures, just the lonely beauty  
+of the tower exists here.  To the east and west the hallway continues.  To
+the north is a large steel gate.
+~
+106 0 2
+D0
+~
+steel gate~
+1 10600 10652
+D1
+~
+~
+0 -1 10656
+D3
+~
+~
+0 -1 10654
+S
+#10656
+Hallway in the Tower~
+   The walls shimmer with a golden light all about you.  To the east is      
+a wooden door, large enough for a giant to fit through.  To the south and
+west a hallway branches off.
+~
+106 0 2
+D1
+~
+door wooden~
+1 -1 10657
+D2
+~
+~
+0 -1 10660
+D3
+~
+~
+0 -1 10655
+S
+#10657
+The guard room~
+   You are in a small chamber; the rest quarters of the guardians of the
+Tower.  To the west is a doorway leading out of the room. 
+~
+106 0 2
+D0
+~
+~
+0 -1 10644
+D3
+~
+door~
+1 -1 10656
+S
+#10658
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10654
+D2
+~
+~
+0 -1 10661
+S
+#10659
+The stairway~
+   The stairway leads up here through a circular hole in the ceiling to
+the next level inside the tower.  To the south, you see a hallway leading
+east and west within the tower.
+~
+106 0 2
+D2
+~
+gate~
+1 10601 10662
+D4
+~
+~
+0 -1 10665
+S
+#10660
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10656
+D2
+~
+~
+0 -1 10663
+S
+#10661
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and east from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10658
+D1
+~
+~
+0 -1 10662
+D2
+~
+~
+0 -1 10664
+S
+#10662
+Before the Stairway~
+   Just to the north of here is an alcove blocked by a steel gate, with a 
+stairway leading up to another level inside the tower.  The hallway 
+continues to the east and west.
+~
+106 0 2
+D0
+~
+gate~
+1 10601 10659
+D1
+~
+~
+0 -1 10663
+D2
+~
+~
+0 -1 10665
+D3
+~
+~
+0 -1 10661
+S
+#10663
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and west from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10660
+D2
+~
+~
+0 -1 10666
+D3
+~
+~
+0 -1 10662
+S
+#10664
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+east.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D0
+~
+~
+0 -1 10661
+D1
+~
+~
+0 -1 10665
+D2
+~
+~
+0 -1 10673
+S
+#10665
+Hallway in the Tower~
+   A black, cast-iron stairway leads down here to the lower level of
+the tower.  The walls shine dimly with a golden glow and the hallway
+leads east and west from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10662
+D1
+~
+~
+0 -1 10666
+D3
+~
+~
+0 -1 10664
+D5
+~
+~
+0 -1 10659
+S
+#10666
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+west.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D0
+~
+~
+0 -1 10663
+D3
+~
+~
+0 -1 10665
+S
+#10667
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+east.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D1
+~
+~
+0 -1 10668
+D2
+~
+~
+0 -1 10676
+S
+#10668
+Hallway in the Tower~
+   A black, cast-iron stairway leads down here to the lower level of
+the tower.  The walls shine dimly with a golden glow and the hallway
+leads east and west from here.
+~
+106 0 2
+D1
+~
+~
+0 -1 10669
+D3
+~
+~
+0 -1 10667
+D5
+~
+~
+0 -1 10674
+S
+#10669
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+west.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D2
+~
+~
+0 -1 10678
+D3
+~
+~
+0 -1 10668
+S
+#10670
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+east.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D1
+~
+~
+0 -1 10671
+D2
+~
+~
+0 -1 10679
+S
+#10671
+Hallway in the Tower~
+   A black, cast-iron stairway leads down here to the lower level of
+the tower.  The walls shine dimly with a golden glow and the hallway
+leads east and west from here.
+~
+106 0 2
+D1
+~
+~
+0 -1 10672
+D3
+~
+~
+0 -1 10670
+D5
+~
+~
+0 0 10677
+S
+#10672
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+west.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D2
+~
+~
+0 -1 10681
+D3
+~
+~
+0 -1 10671
+S
+#10673
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10664
+D2
+~
+~
+0 -1 10682
+S
+#10674
+The stairway~
+   The stairway leads up here through a circular hole in the ceiling to
+the next level inside the tower.  To the south, you see a hallway leading
+east and west within the tower.
+~
+106 0 2
+D2
+~
+gate~
+1 10602 10683
+D4
+~
+~
+0 -1 10668
+S
+#10675
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10666
+D2
+~
+~
+0 -1 10684
+S
+#10676
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10667
+D2
+~
+~
+0 -1 10685
+S
+#10677
+The stairway~
+   The stairway leads up here through a circular hole in the ceiling to
+the next level inside the tower.  To the south, you see a hallway leading
+east and west within the tower.
+~
+106 0 2
+D2
+~
+gate~
+1 10603 10686
+D4
+~
+~
+0 0 10671
+S
+#10678
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10669
+D2
+~
+~
+0 -1 10687
+S
+#10679
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10670
+D2
+~
+~
+0 -1 10688
+S
+#10680
+The stairway~
+   The stairway leads up here through a circular hole in the ceiling to
+the next level inside the tower.  To the south, you see a hallway leading
+east and west within the tower.
+~
+106 0 2
+D2
+~
+gate~
+1 10604 10689
+D4
+~
+~
+0 -1 10692
+S
+#10681
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10672
+D2
+~
+~
+0 -1 10690
+S
+#10682
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and east from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10673
+D1
+~
+~
+0 -1 10683
+S
+#10683
+Before the Stairway~
+   Just to the north of here is an alcove with a stairway leading up
+to another level inside the tower.  The hallway continues to the east
+and west.
+~
+106 0 2
+D0
+~
+gate~
+1 10602 10674
+D1
+~
+gate~
+0 -1 10684
+D2
+~
+~
+0 -1 10692
+D3
+~
+~
+0 -1 10682
+S
+#10684
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and west from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10675
+D3
+~
+~
+0 -1 10683
+S
+#10685
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and east from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10676
+D1
+~
+~
+0 -1 10686
+S
+#10686
+Before the Stairway~
+   Just to the north of here is an alcove with a stairway leading up
+to another level inside the tower.  The hallway continues to the east
+and west.
+~
+106 0 2
+D0
+~
+gate~
+1 10603 10677
+D1
+~
+~
+0 -1 10687
+D3
+~
+~
+0 -1 10685
+S
+#10687
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and west from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10678
+D3
+~
+~
+0 -1 10686
+S
+#10688
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and east from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10679
+D1
+~
+~
+0 -1 10689
+S
+#10689
+Before the Stairway~
+   Just to the north of here is an alcove with a stairway leading up
+to another level inside the tower.  The hallway continues to the east
+and west.
+~
+106 0 2
+D0
+~
+gate~
+1 10604 10680
+D1
+~
+~
+0 -1 10690
+D3
+~
+~
+0 -1 10688
+S
+#10690
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and west from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10681
+D3
+~
+~
+0 -1 10689
+S
+#10691
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+east.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D1
+~
+~
+0 -1 10692
+D2
+~
+~
+0 -1 10694
+S
+#10692
+Hallway in the Tower~
+   A black, cast-iron stairway leads down here to the lower level of
+the tower.  The walls shine dimly with a golden glow and the hallway
+leads east and west from here.
+~
+106 0 2
+D0
+~
+~
+0 0 10683
+D1
+~
+~
+0 -1 10693
+D3
+~
+~
+0 -1 10691
+D5
+~
+~
+0 -1 10680
+S
+#10693
+Corner in the Hallway~
+   Two hallways meet here, one coming from the south, the other from the
+east.  The walls shine dimly with a mysterious, golden aura.  
+~
+106 0 2
+D2
+~
+~
+0 -1 10696
+D3
+~
+~
+0 -1 10692
+S
+#10694
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10691
+D2
+~
+~
+0 -1 10697
+S
+#10695
+The stairway~
+   The stairway leads up here through a hole in the ceiling to a
+section of the tower which looks much different from the one you are in 
+now.  To the south, you see a hallway leading east and west within the 
+tower. 
+~
+106 p 2
+D2
+~
+gate~
+1 10605 10698
+S
+#10696
+Hallway in the Tower~
+   You are in a large hallway within the tower.  The walls are the color
+of gold, yet their value must surpass even the worth of gold.  To the north
+and south, the hallway continues.
+~
+106 0 2
+D0
+~
+~
+0 -1 10693
+D2
+~
+~
+0 -1 10699
+S
+#10697
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and west from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10694
+D1
+~
+~
+0 -1 10698
+S
+#10698
+Before the Stairway~
+   Just to the north of here is an alcove with a stairway leading up
+to another level inside the tower.  The hallway continues to the east
+and west.
+~
+106 0 2
+D0
+~
+gate~
+1 10605 10695
+D1
+~
+~
+0 -1 10699
+D3
+~
+~
+0 -1 10697
+S
+#10699
+Corner of the Hallway~
+   The hallway meets another here leading perpendicular to the one you
+are standing in now.  The golden walls radiate dimly, without a speck of
+tarnish on them.  The hallway leads north and west from here.
+~
+106 0 2
+D0
+~
+~
+0 -1 10696
+D3
+~
+~
+0 -1 10698
+S
+#10700
+Behind the Ledge~
+   You stand in the center of a small, circular enclave within the cliff.
+There is a small niche which you can exit through to the north.  Hot sun
+beats down on you from above; steps carved around the circle shaped spire
+lead upwards so high into the skies you cannot see the top. 
+~
+106 gi 1
+D0
+~
+rocks niche~
+1 -1 10640
+D4
+~
+~
+0 -1 10702
+S
+#10701
+Rhaylinne's Peak~
+   You stand atop the entire cliff, on a ledge, overlooking the entire world.
+Below you and to the north you see a vast red desert with a city just a
+pin-point upon the horizon.  To the south, even higher than Hermit's Peak,
+lies a mountain range, dark and forbidding with mist swirling about the
+dark peaks.  A spiralling stairway leads down from here around a rocky spire.
+~
+106 egi 1
+D5
+~
+~
+0 -1 10708
+S
+#10702
+The Spire~
+   You are walking up many, many steps that spiral on the outside of some
+sort of solid tower.  Clouds swirl around on the same level as you, yet
+none are near to see up close.  A small enclave is below you and the
+peak of the spire is yet, many steps away.
+~
+106 gi 1
+D4
+~
+~
+0 -1 10703
+D5
+~
+~
+0 -1 10700
+S
+#10703
+Steps around the Spire~
+   The steps wind around the spire, up and down from here.  You have a
+magnificent view of the entire Dominion from here.  But as soon as you
+look down and see how far away the ground is, you forget about the view
+and concentrate on the steps.
+~
+106 gi 1
+D4
+~
+~
+0 -1 10704
+D5
+~
+~
+0 -1 10702
+S
+#10704
+Stairs around the Spire~
+   The spire leads much higher, you notice.  You realize that you are all 
+alone are a very insignificant being compared to the vast world that
+stretches out in all directions to every horizon.  
+~
+106 gi 1
+D4
+~
+~
+0 -1 10705
+D5
+~
+~
+0 -1 10703
+S
+#10705
+Stairs around the spire~
+   You feel dizzy as you keep circling the spire on the steps.  It seems
+so strange that there are actually steps here.  The view of the Dominion
+is so seemingly infinite from this vantage point.
+~
+106 gi 1
+D4
+~
+~
+0 -1 10706
+D5
+~
+~
+0 -1 10704
+S
+#10706
+The stairs on the Spire~
+   The stairs continue to circle around the spire, upwards towards the 
+heavens and down towards the cliffs which seem so far away.
+~
+106 gi 1
+D4
+~
+~
+0 -1 10707
+D5
+~
+~
+0 -1 10705
+S
+#10707
+The stairs around the Spire~
+   The stairs continue to circle around the spire, upwards towards the
+heavens and downwards where the cliffs of Rhaylinne await.
+~
+106 gi 1
+D4
+~
+~
+0 -1 10708
+D5
+~
+~
+0 -1 10706
+S
+#10708
+Below the Peak~
+   The spire widens suddenly as, just above you is the peak.  Below you,
+a great distance and many stairs away, you see the Cliffs of Rhaylinne.
+~
+106 gi 1
+D4
+~
+~
+0 -1 10701
+D5
+~
+~
+0 -1 10707
+S
+$~

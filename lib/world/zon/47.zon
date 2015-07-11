@@ -1,0 +1,21 @@
+#47
+Battlelands~
+Kirahn~
+High~
+3001 1
+4999 4 2
+*
+* Last Updated: Thu Apr  3 23:19:54 
+*           By: Kirahn
+*
+M 0 4704 10 4731 100 	* an Iryntharian Wizard at The Battlefield. (Max: 10)
+M 0 4704 10 4747 100 	* an Iryntharian Wizard at The Battlefield. (Max: 10)
+M 0 4704 10 4740 100 	* an Iryntharian Wizard at The Battlefield. (Max: 10)
+M 0 4700 50 4714 100 	* an Iryntharian Warrior at The Battlefield. (Max: 50)
+E 1 4700 100 17 100 			* And equip it with a halberd. (Max: 100)
+E 1 4701 100 4 100 			* And equip it with an steel breastplate. (Max: 100)
+M 0 4700 50 4714 100 	* an Iryntharian Warrior at The Battlefield. (Max: 50)
+E 1 4700 100 17 100 			* And equip it with a halberd. (Max: 100)
+E 1 4701 100 4 100 			* And equip it with an steel breastplate. (Max: 100)
+S
+$~

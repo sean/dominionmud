@@ -1,0 +1,136 @@
+#3900
+sentry~
+the sentry~
+A sentry outfitted in golden armor stands here protecting the entrance.
+~
+You see nothing special.~
+bdflm bdgkp -100 S
+34 1 0 2d100+8000 10d8+44
+1000 200000
+8 8 0
+#3901
+royal knight~
+the Royal Knight~
+A royal knight of Peringuard stands here ignoring you.
+~
+This is the ultimate swordsman.
+~
+bdflm dkp -400 S
+37 1 0 3d10+10000 12d5+50
+2500 100000
+8 8 1
+#3902
+First knight~
+the First Knight to Peringuard~
+The First Knight to Peringuard has been waiting for you here. 
+~
+You see nothing special.~
+bdflm dkp -780 S
+41 1 0 6d30+13000 12d6+40
+750 250000
+8 8 0
+#3903
+dragon wyrm golden~
+the golden dragon~
+A golden dragon of enormous proportions is here with smoking breath.
+~
+This scaly creature looks like it is well adapted to its underground
+habitat.  He looks very powerful.
+~
+abdflm dkp 950 E
+16 1 0 10d2+13720 3d14+55
+1000 300000
+8 8 1
+Race: 39
+E
+#3904
+general peringuard~
+General of the Peringuard~
+General of the Peringuard, awaits to maul you to shreds. 
+~
+He looks vaguely like a raven, but sure doesn't act like one.
+~
+bdflm dhkp -1000 S
+25 1 0 10d8+15020 4d5+52
+1000 390000
+8 8 1
+#3905
+Kelis assassin~
+Kelis the Assassin~
+Kelis, Peringuard's personal assassin, is here ready to carve you up.
+~
+Kelis is very lithe and dangerous. 
+~
+bdflm dhkp -300 S
+12 1 0 15d10+12000 2d18+64
+100 114000
+8 8 1
+#3906
+macabre guardian~
+Macabre the Guardian~
+Macabre is here flexing his muscles and swinging his huge sword.
+~
+Macabre is very muscular and looks as if he could lift a large dragon.
+~
+bdflm dhkp -300 S
+12 1 0 5d100+18120 2d10+50
+100 114000
+8 8 1
+#3907
+peringuard king~
+King Peringuard~
+King Peringuard is here to see if you are truly a warrior.
+~
+   He smells of something awful.
+~
+bdlnoq dfhkp -1000 S
+50 1 0 12d8+1590 4d16+70
+1200 1160000
+8 8 1
+#3908
+turtle dragon~
+the dragon turtle~
+A large dragon turtle breaks the surface churning the water into huge waves.
+~
+The turtle's shell is the size of a small house and looks as hard as rock.
+~
+dfgq dkp -200 E
+49 4 46 12d60+13350 2d20+15
+100 80000
+8 8 1
+Race: 29
+E
+#3909
+hag sea~
+the sea hag~
+You notice the face of an ugly hag in the sea weeds.
+~
+The sea hag is terribly fightful and has razor sharp teeth.
+~
+dfg dkp -700 S
+4 11 13 4d4+35 2d5+0
+100 750
+8 8 2
+#3910
+merman~
+the merman~
+There is a merman swimming here brandishing his trident at you!
+~
+The merman has a powerful tail fin instead of legs.
+~
+bdflmnoq dkpst 350 S
+5 13 3 5d5+65 2d4+2
+10 1000
+8 8 1
+#3911
+crab crusty~
+the crusty crab~
+A crusty looking crab is crawling around here searching for food.
+~
+It looks like a carb... what more can be said?
+~
+dfhq dkp 0 S
+2 7 1 5d2+25 1d5+0
+0 150
+8 8 0
+$~

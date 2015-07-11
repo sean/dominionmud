@@ -1,0 +1,398 @@
+#25000
+giant worker stone~
+the Stone Giant Worker~
+A stone giant worker wanders around moving rocks from
+here to there.
+~
+The stone giant worker looks as if he too busy moving rocks
+around to pay any attention to you.
+~
+dg 0 -90 S
+15 20 0 5d4+580 2d8+50
+200 25000
+8 8 1
+#25001
+giant guard stone~
+the Stone Giant Guard~
+A stone giant guard stands, ready for trouble to strike.
+~
+The stone giant guard watches you carefully wondering exactly
+what business you have here.
+~
+dg 0 850 E
+16 25 15 5d4+595 2d8+40
+300 90000
+8 8 1
+Race: 24
+E
+#25002
+giant sentry stone~
+the Elite Giant Sentry~
+A Elite Giant Sentry swings a very large sword in preparation
+for battle.
+~
+The Elite Giant Sentry looks much less than pleased that you have
+entered his domain.
+~
+bdfg fu 850 S
+17 30 55 5d4+1305 3d6+26
+3000 99000
+8 8 1
+#25003
+giant elder stone~
+the Stone Giant Elder~
+The Stone Giant Elder is standing here.
+~
+The Stone Giant Elder looks older than the mountain itself; the
+look in his eyes tells you he has sent more than his share of
+enemies to an early grave.
+~
+dg h 850 E
+25 43 101 5d4+2317 3d6+35
+3000 110000
+8 8 1
+Race: 24
+E
+#25004
+mature brass dragon hatchling~
+the Mature Brass Dragon Hatchling~
+A Mature Brass Dragon Hatchling lets out a small roar.
+~
+The Mature Brass Dragon Hatchling looks like she will be using
+the rainbow trail soon.
+~
+adg 0 400 E
+15 33 94 5d4+2180 2d8+32
+100 210000
+8 8 2
+Race: 36
+E
+#25005
+small brass dragon hatchling~
+the Small Brass Dragon Hatchling~
+A Small Brass Dragon Hatchling is here.
+~
+ The small Brass Dragon Hatchling looks very confused, and very, very
+angry.
+~
+adfg 0 400 E
+13 21 99 3d4+260 3d7+21
+0 60000
+8 8 1
+Race: 36
+E
+#25006
+mountain goat~
+a mountain goat~
+An ill-tempered mountain goat is here.
+~
+The mountain goat stops searching for grass and watches you
+watch him.
+~
+adfgl 0 0 E
+10 10 90 2d5+120 2d6+10
+0 2000
+8 8 0
+Race: 22
+E
+#25007
+stormgiant hero umbra~
+Umbra, The Storm Giant Hero~
+Umbra sits in his throne and awaits your challenge.
+~
+This humanoid dwarfs the other giants.  Confidently he sits
+and watches for your next move.
+~
+bd dhu 450 E
+32 67 109 1d6+8500 2d18+75
+4000 180000
+6 6 1
+BareHandAttack: 6
+E
+#25008
+storm giant soldier~
+a Storm Giant Soldier~
+A Storm Giant Soldier ponders your arrival.
+~
+The giant soldier seems to be in deep thought, but you know
+he won't hesitate to dispatch you back to where you came from.
+~
+dg 0 100 S
+25 1 71 1d6+1000 3d8+20
+25 150000
+8 8 1
+#25009
+storm giant wife~
+a Storm Giant Wife~
+A Storm Giant Wife stand here protecting her children.
+~
+The storm giant wife looks very displeased.
+~
+dfg 0 0 S
+23 49 107 1d6+900 2d8+28
+1000 90000
+8 8 2
+#25010
+storm giant boy~
+a storm giant boy~
+A storm giant boy stands proudly, ready to defend himself.
+~
+The boy has been raised knowing to die in battle is the
+best death possible.  He is ready to defend himself to the end.
+~
+dfg 0 0 S
+21 25 61 1d6+1500 1d8+18
+2000 90000
+8 8 1
+#25011
+stormgiant bodyguard~
+a stormgiant bodguard~
+The Bodyguard stands here, guarding his Lord.
+~
+The Bodyguard looks especially mean and nasty when rubbed
+the wrong way...like right now.
+~
+bdgm r 450 E
+32 67 60 1d6+2500 2d7+22
+3000 100000
+8 8 1
+Race: 24
+E
+#25012
+storm giant guard~
+a storm giant guard~
+The Storm Giant Guard stands, guarding the Entryway.
+~
+The guard believes this is his dominion, and furthermore
+believes you are not the one to tell him otherwise.
+~
+bdf 0 200 S
+25 45 51 1d6+2000 3d8+20
+1000 100000
+8 8 1
+#25013
+ashes bronze dragon~
+Ashes~
+Ashes, The Chosen Bronze Dragon is resting here.
+~
+Ashes, chosen by Umbra himself as a mount and confidant,
+relaxes next to the throne, exhaling smoke with every breath.
+~
+abdglm hpuw 350 E
+32 67 84 1d600+8000 5d2+50
+0 300000
+5 5 1
+BareHandAttack: 8
+Race: 36
+E
+#25014
+storm giant sage~
+the Storm Giant Sage~
+The Storm Giant Sage is busy working at his desk.
+~
+The Storm Giant Sage looks back at you wondering what
+business you have here.
+~
+dg 0 850 E
+24 45 76 1d6+1000 3d8+20
+100 150000
+6 6 1
+Race: 24
+E
+#25015
+manticore~
+a manticore~
+A manticore roars as you approach, sending chills up your spine.
+~
+The manticore growls and licks his lips at the sight of you.
+~
+adfg 0 -100 E
+18 54 26 3d8+990 3d8+24
+0 80000
+8 8 1
+Race: 22
+E
+#25016
+cloud guardian~
+a Guardian of the Clouds~
+a Guardian of the Clouds screams, full of bloodlust.
+~
+The Guardian of the Clouds clenches his giant hand into a fist and
+prepares to knock you back down to the ground.
+~
+dfg defu 0 S
+27 50 78 3d4+700 3d8+20
+2000 100000
+8 8 1
+#25017
+cloud trainee~
+a Cloud Giant Trainee~
+a Cloud Giant Trainee practices his lancework here.
+~
+The Cloud Giant Trainee may not be perfect with his lance yet,
+but he looks like he would be able to manage if pressed.
+~
+dg 0 0 S
+25 1 101 3d4+450 2d8+15
+175 30000
+8 8 1
+#25018
+cloud lieutenant~
+a Cloud Giant Lieutenant~
+a Cloud Giant Lieutenant is here, watching his troops train.
+~
+The Cloud Giant Lieutenant stops to take a look at you, the
+strangers here.
+~
+dg 0 100 S
+28 20 104 3d4+600 2d8+15
+200 110000
+8 8 1
+#25019
+cloud captain~
+the Cloud Giant Captain~
+The Cloud Giant Captain is here drinking from a red flask.
+~
+The Cloud Giant Captain looks as if he has been working
+hard all day and is taking his well-deserved rest.
+~
+bdg 0 200 S
+29 45 99 3d4+950 2d8+20
+400 90000
+8 8 1
+#25020
+tower protector~
+a Tower Protector~
+A Tower Protector is guarding the entrance into the Tower of Kings.
+~
+The Tower Protector blocks you from entering the Tower of Kings,
+he looks as if he would not hesitate laying down his life to protect
+those inside.
+~
+bd 0 900 E
+28 59 105 6d4+2700 2d8+98
+2000 170000
+8 8 1
+BareHandAttack: 6
+Race: 24
+E
+#25021
+dragon brass~
+a brass dragon~
+A Brass Dragon floats through the air, practicing attack maneuvers.
+~
+The Brass Dragon impresses you with the way she can glide her
+enormous self around the sky.
+~
+adg 0 500 E
+28 45 94 5d6+3500 2d8+55
+4000 300000
+8 8 1
+Race: 36
+E
+#25022
+dragon bronze~
+a bronze dragon~
+A Bronze Dragon moves about with the intensity of one possessed.
+~
+The Bronze Dragon looks like he would rather be in battle
+now instead he's training for one that might not happen for years.
+~
+adg u 500 E
+29 56 87 5d6+7000 5d8+40
+5000 250000
+8 8 1
+Race: 36
+E
+#25023
+tower guard~
+a tower guard~
+A Tower Guard, looking quite upset, draws his blade as you approach.
+~
+The Tower Guard will under no circumstances allow you entry
+to the next room without going through him first.
+~
+bdfg 0 200 E
+28 59 59 3d6+1850 2d8+90
+2000 200000
+8 8 1
+BareHandAttack: 6
+E
+#25024
+gmra king~
+Gmra, King of the Giants~
+Gmra, King of the Giants, politely tells you to leave this sacred
+chamber the way you entered, or face the gruesome consequences.
+~
+Gmra laughs a hearty laugh.  Showing you a deep blue staff he
+says, "This was on the last fool mortal to enter this Tower.  SPARE
+YOUR LIFE AND LEAVE NOW!!!".
+~
+bdgi hu 400 E
+33 35 90 1d10+20000 6d8+80
+20000 600000
+8 8 1
+Race: 24
+E
+#25025
+scavenger~
+Cloud Scavenger~
+A Cloud Scavenger systematically hunts the clouds for corpses.
+~
+The Cloud Scavenger blends into the clouds, slowly moving from
+cloud to cloud looking for corpses to feed on.  You have a feeling
+they stay well fed thanks to the Guardions.
+~
+cdgh dep 0 S
+10 18 81 1d2+10 1d2+10
+1 400
+8 8 0
+#25026
+war dog~
+War Dog~
+A ferocious war dog strains at its chain, snapping at you.
+~
+The War Dog looks very small compared to Gmra, but you know
+that his teeth would not feel good around your neck.
+~
+abdg 0 0 E
+14 27 93 1d6+950 3d6+15
+0 65000
+8 8 0
+BareHandAttack: 4
+Race: 22
+E
+#25027
+jirdidan dragon ancient~
+Jirdidan, the Ancient One~
+Jirdidan, the Ancient One, grins like only a dragon can,
+beckoning you to approach him.
+~
+Jirdidan could very well be immortal.  Having power over the
+wind and the sky he has humbled many that have had the same
+thoughts you are having now.
+~
+abdgik hrw 400 E
+41 85 94 100d100+18500 3d8+75
+100000 1000000
+5 5 1
+BareHandAttack: 8
+Race: 39
+E
+#25028
+krikus giant~
+Krikus~
+A large charcoal giant rushes toward you screaming tyrannically.
+~
+In a frenzy you realize this giant must be the infamous Krikus,
+who sold information to the Goblin King in the Great War.  He
+has received banishment from the Giant Kingdom for his deeds,
+and lives here feasting on the luckless adventure.
+~
+bcdfg h -1000 E
+31 40 73 1d10+10500 8d4+80
+40000 1000000
+8 8 1
+Race: 24
+E
+$~

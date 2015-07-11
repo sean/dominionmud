@@ -1,0 +1,38 @@
+#10600
+hermit rhaylinne~
+the hermit~
+An old hermit sits here upon a mound of rocks staring at the horizon.
+~
+He has a very peaceful look to his eye.  He slowly scans the horizon
+then turns his attention to you.
+~
+bdo dp 0 S
+10 13 95 5d2+30 1d10+5
+0 3000
+8 8 1
+>in_file_prog hermit.prg~
+|
+#10601
+golem iron~
+a huge, iron golem~
+A huge golem stands here protecting the gateway.
+~
+The golem is about 12 feet tall and stares with an empty look in
+his eye at nothing.
+~
+bdno hmr 500 S
+25 5 24 1d1+800 1d1+35
+0 120000
+8 8 0
+#10602
+firbolg giant ragged huge man~
+a firbolg~
+A huge, slack-jawed giant stands here garbed in ragged fur.
+~
+The firbolg is dumb and mean.  He looks quite clumsy yet powerful.
+~
+cdg r -500 S
+18 10 55 1d1+200 1d30+15
+124 80000
+8 8 1
+$~

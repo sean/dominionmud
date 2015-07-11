@@ -1,0 +1,231 @@
+#30
+Elrhinn Township~
+Landrin & Glasgian~
+ALL~
+3001 2
+3499 5 2
+*
+* Last Updated: Wed Jun 25 17:13:09 
+*           By: Kirahn
+*
+D 0 3050 2 0 100 		* Open Eastern door at Elrhinn Magic Shop
+M 0 3000 1 3050 100 	* Hyr the Wizard at Elrhinn Magic Shop. (Max: 1)
+G 1 1152 255  25 			* And give it a scroll of recall. (Max: 255)
+G 1 3050 500  100 			* And give it a scroll of identify. (Max: 500)
+G 1 3051 500  100 			* And give it a yellow potion of see invisible. (Max: 500)
+G 1 3053 500  100 			* And give it a grey wand of invisibility. (Max: 500)
+D 0 3060 0 0 100 		* Open Northern door at End of Silverstream Way
+M 0 3062 2 3060 100 	* the common citizen at End of Silverstream Way. (Max: 2)
+D 0 3052 2 0 100 		* Open Eastern door at Shop of Healing
+M 0 3069 1 3052 100 	* Gwen the healer at Shop of Healing. (Max: 1)
+G 1 25506 100  45 			* And give it a crystal-clear potion. (Max: 100)
+D 0 3061 2 0 100 		* Open Eastern door at Silverstream Way
+D 0 3061 0 0 100 		* Open Northern door at Silverstream Way
+M 0 3060 12 3061 100 	* a member of the Red Guard at Silverstream Way. (Max: 12)
+E 1 3022 12 17 100 			* And equip it with a long sword. (Max: 12)
+D 0 3066 0 0 100 		* Open Northern door at Elrhinn Money Exchange Guild
+O 0 3034 3 3066 100 	* a member of the Moneylenders Guild at Elrhinn Money Exchange Guild. (Max: 3)
+D 0 3051 0 0 100 		* Open Northern door at The Repair Smithy
+M 0 3070 1 3051 100 	* Tersk at The Repair Smithy. (Max: 1)
+D 0 3025 2 0 100 		* Open Eastern door at Elrhinn Arms
+M 0 3003 1 3025 100 	* Rastrad the Weaponsmith at Elrhinn Arms. (Max: 1)
+G 1 3020 100  100 			* And give it a dagger. (Max: 100)
+G 1 3021 100  100 			* And give it a small sword. (Max: 100)
+G 1 3022 100  100 			* And give it a long sword. (Max: 100)
+G 1 3023 100  100 			* And give it a wooden club. (Max: 100)
+G 1 3024 100  100 			* And give it a warhammer. (Max: 100)
+G 1 3025 100  100 			* And give it a flail. (Max: 100)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+M 0 3095 2 3037 100 	* the common citizen at Forrin Road. (Max: 2)
+D 0 3037 0 0 100 		* Open Northern door at Forrin Road
+D 0 3037 2 0 100 		* Open Eastern door at Forrin Road
+D 0 3049 0 0 100 		* Open Northern door at Mybius' Mystical Maps
+M 0 3068 1 3049 100 	* Mybius at Mybius' Mystical Maps. (Max: 1)
+D 0 3024 2 0 100 		* Open Eastern door at Elrhinn Smithy
+M 0 3004 1 3024 100 	* Tyrius the Blacksmith at Elrhinn Smithy. (Max: 1)
+G 1 3040 100  100 			* And give it a breast plate. (Max: 100)
+G 1 3042 100  100 			* And give it a shield. (Max: 100)
+G 1 3044 100  100 			* And give it a studded leather jacket. (Max: 100)
+G 1 3076 100  100 			* And give it a leather cap. (Max: 100)
+G 1 3081 100  100 			* And give it a pair of leather pants. (Max: 100)
+G 1 3070 100  100 			* And give it a pair of bronze gauntlets. (Max: 100)
+G 1 3071 100  100 			* And give it a pair of leather gloves. (Max: 100)
+G 1 3075 100  100 			* And give it a bronze helmet. (Max: 100)
+G 1 3080 100  100 			* And give it a pair of bronze leggings. (Max: 100)
+G 1 3085 100  100 			* And give it a pair of bronze sleeves. (Max: 100)
+G 1 3086 100  100 			* And give it a pair of leather sleeves. (Max: 100)
+G 1 3041 100  100 			* And give it a chain mail shirt. (Max: 100)
+G 1 3043 100  100 			* And give it a leather jacket. (Max: 100)
+G 1 3046 100  100 			* And give it a bronze breast plate. (Max: 100)
+D 0 3096 1 0 100 		* Open Eastern door at The cobbled path
+D 0 3096 3 1 100 		* Close Eastern door at The cobbled path
+M 0 8017 3 3036 100 	* a streetsweeper at Forrin Road. (Max: 3)
+D 0 3036 0 0 100 		* Open Northern door at Forrin Road
+D 0 3036 2 0 100 		* Open Eastern door at Forrin Road
+D 0 3018 3 0 100 		* Open Eastern door at Dalkyst Road
+D 0 3101 0 0 100 		* Open Northern door at The Fletcher's Shop
+M 0 5690 1 3101 100 	* the fletcher at The Fletcher's Shop. (Max: 1)
+G 1 28051 10  100 			* And give it a crossbow. (Max: 10)
+G 1 5680 10  100 			* And give it a bone-tipped arrow. (Max: 10)
+D 0 3021 3 0 100 		* Open Eastern door at Shop of Common Goods
+M 0 3002 1 3021 100 	* Sajah at Shop of Common Goods. (Max: 1)
+G 1 3030 100  100 			* And give it a torch. (Max: 100)
+G 1 3031 100  100 			* And give it a lantern. (Max: 100)
+G 1 3032 100  100 			* And give it a bag. (Max: 100)
+G 1 3012 100  100 			* And give it a Mexican taco. (Max: 100)
+G 1 1811 25  100 			* And give it a leather bound-canteen. (Max: 25)
+M 0 3060 12 3020 100 	* a member of the Red Guard at Dalkyst Road. (Max: 12)
+E 1 1122 1 17 100 			* And equip it with a long steelsword. (Max: 1)
+D 0 3020 1 0 100 		* Open Eastern door at Dalkyst Road
+D 0 3020 2 0 100 		* Open Eastern door at Dalkyst Road
+M 0 5700 1 3131 100 	* the statue at Morrolan's House. (Max: 1)
+M 0 35035 1 3120 100 	* (null) at Foyer of Watcher Manor. (Max: 1)
+D 0 3071 3 1 100 		* Close Eastern door at Southern Eastwall Road
+M 0 3092 1 3063 100 	* Styrian at A small alcove. (Max: 1)
+D 0 3063 0 1 100 		* Close Northern door at A small alcove
+D 0 3063 2 1 100 		* Close Eastern door at A small alcove
+D 0 3106 0 1 100 		* Close Northern door at House of Morrolan
+M 0 3062 2 3003 100 	* the common citizen at Western Northwall Road. (Max: 2)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+D 0 3003 2 1 100 		* Close Eastern door at Western Northwall Road
+D 0 3108 4 1 100 		* Close Eastern door at House of Spin
+D 0 3100 3 2 100 		* Lock and Close Southern door at Above the Gathering Room
+O 0 3096 2 3100 100 	* a social bulletin board at Above the Gathering Room. (Max: 2)
+D 0 3045 1 2 100 		* Lock and Close Southern door at City Guard Storeroom
+D 0 3045 3 1 100 		* Close Eastern door at City Guard Storeroom
+R 0 3045 3000  100 		* Remove a barrel from City Guard Storeroom.
+D 0 3079 1 1 100 		* Close Eastern door at Beneath the Grog and Tankard
+D 0 3079 4 1 100 		* Close Eastern door at Beneath the Grog and Tankard
+M 0 10026 1 3079 100 	* the dark figure at Beneath the Grog and Tankard. (Max: 1)
+D 0 3009 1 1 100 		* Close Eastern door at Jynnah's Grocer
+M 0 3001 1 3009 100 	* Jynnah at Jynnah's Grocer. (Max: 1)
+G 1 3011 100  100 			* And give it a danish pastry. (Max: 100)
+O 0 3096 1 3073 95 	* a social bulletin board at The Grog and Tankard. (Max: 1)
+D 0 3073 3 1 100 		* Close Eastern door at The Grog and Tankard
+D 0 3073 5 1 100 		* Close Eastern door at The Grog and Tankard
+M 0 3040 1 3073 100 	* the Bartender at The Grog and Tankard. (Max: 1)
+G 1 3001 100  100 			* And give it a bottle. (Max: 100)
+G 1 3002 100  100 			* And give it a bottle. (Max: 100)
+G 1 3003 100  100 			* And give it a firebreather. (Max: 100)
+G 1 3004 100  100 			* And give it a bottle. (Max: 100)
+M 0 3065 2 3073 100 	* the beggar at The Grog and Tankard. (Max: 2)
+E 1 3020 1 17 100 			* And equip it with a dagger. (Max: 1)
+M 0 3064 3 3073 100 	* the drunk at The Grog and Tankard. (Max: 3)
+E 1 3020 1 17 100 			* And equip it with a dagger. (Max: 1)
+M 0 3062 1 3073 100 	* the common citizen at The Grog and Tankard. (Max: 1)
+E 1 3020 1 17 100 			* And equip it with a dagger. (Max: 1)
+M 0 10012 2 3073 100 	* Durik at The Grog and Tankard. (Max: 2)
+D 0 3073 0 1 100 		* Close Northern door at The Grog and Tankard
+M 0 5890 1 3073 100 	* Curdine at The Grog and Tankard. (Max: 1)
+E 1 1120 10 17 100 			* And equip it with a steel dagger. (Max: 10)
+O 0 3035 1 3039 100 	* the large fountain at The Courtyard of Elrhinn. (Max: 1)
+M 0 3095 4 3039 100 	* the common citizen at The Courtyard of Elrhinn. (Max: 4)
+M 0 3060 12 3039 100 	* a member of the Red Guard at The Courtyard of Elrhinn. (Max: 12)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+M 0 3062 2 3028 100 	* the common citizen at Northeastern Courtyard of Elrhinn. (Max: 2)
+M 0 8017 3 3028 100 	* a streetsweeper at Northeastern Courtyard of Elrhinn. (Max: 3)
+D 0 3089 3 1 100 		* Close Eastern door at Inside the Tower of Magus
+D 0 3072 1 1 100 		* Close Eastern door at The End of Dagger Lane
+M 0 3065 5 3072 100 	* the beggar at The End of Dagger Lane. (Max: 5)
+M 0 8009 1 3072 100 	* Anas the Shadowspawn at The End of Dagger Lane. (Max: 1)
+D 0 3032 3 1 100 		* Close Eastern door at The Captain's Office
+M 0 3023 1 3032 100 	* Sental at The Captain's Office. (Max: 1)
+E 1 3046 1 4 100 			* And equip it with a bronze breast plate. (Max: 1)
+E 1 3075 1 5 100 			* And equip it with a bronze helmet. (Max: 1)
+E 1 3070 1 9 100 			* And equip it with a pair of bronze gauntlets. (Max: 1)
+E 1 3070 1 10 100 			* And equip it with a pair of bronze gauntlets. (Max: 1)
+D 0 3014 1 1 100 		* Close Eastern door at The Sacristy
+M 0 3021 1 3014 100 	* Jaran at The Sacristy. (Max: 1)
+D 0 3056 1 1 100 		* Close Eastern door at Entrance to the Template's Chambers
+M 0 3091 1 3056 100 	* the Commissioner at Entrance to the Template's Chambers. (Max: 1)
+O 0 3099 2 3092 100 	* a bulletin board at The Gathering Room. (Max: 2)
+M 0 3062 4 3092 100 	* the common citizen at The Gathering Room. (Max: 4)
+D 0 3092 1 1 100 		* Close Eastern door at The Gathering Room
+D 0 3098 0 1 100 		* Close Northern door at Before the Chapel
+M 0 3090 1 3099 100 	* a young acolyte at Inside the Chapel. (Max: 1)
+D 0 3099 2 1 100 		* Close Eastern door at Inside the Chapel
+M 0 3062 2 3001 100 	* the common citizen at Inside the Northern Gate of Elrhinn. (Max: 2)
+M 0 3067 2 3001 100 	* the Golden Elite Guard at Inside the Northern Gate of Elrhinn. (Max: 2)
+E 1 1142 1 18 100 			* And equip it with a steel shield. (Max: 1)
+E 1 1146 1 4 100 			* And equip it with a battle breast plate. (Max: 1)
+E 1 1122 1 17 100 			* And equip it with a long steelsword. (Max: 1)
+E 1 10607 1 5 100 			* And equip it with a golden helmet. (Max: 1)
+D 0 3001 0 1 100 		* Close Northern door at Inside the Northern Gate of Elrhinn
+M 0 3062 2 3026 100 	* the common citizen at Northwestern Courtyard of Elrhinn. (Max: 2)
+M 0 3060 12 3026 100 	* a member of the Red Guard at Northwestern Courtyard of Elrhinn. (Max: 12)
+E 1 1122 2 17 100 			* And equip it with a long steelsword. (Max: 2)
+M 0 3095 12 3023 100 	* the common citizen at Northern Eastwall Road. (Max: 12)
+M 0 3060 12 3023 100 	* a member of the Red Guard at Northern Eastwall Road. (Max: 12)
+E 1 3022 2 17 100 			* And equip it with a long sword. (Max: 2)
+M 0 3095 4 3086 100 	* the common citizen at The East End of Southwall Road. (Max: 4)
+M 0 3060 12 3086 100 	* a member of the Red Guard at The East End of Southwall Road. (Max: 12)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+D 0 3086 5 1 100 		* Close Eastern door at The East End of Southwall Road
+M 0 3095 4 3012 100 	* the common citizen at Northern Westwall Road. (Max: 4)
+M 0 3095 6 3008 100 	* the common citizen at The East End of Northwall Road. (Max: 6)
+M 0 3060 12 3008 100 	* a member of the Red Guard at The East End of Northwall Road. (Max: 12)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+M 0 3095 10 3004 100 	* the common citizen at Western Northwall Road. (Max: 10)
+D 0 3081 1 1 100 		* Close Eastern door at House of the Sage
+M 0 3099 1 3081 100 	* the old Sage of Elrhinn at House of the Sage. (Max: 1)
+D 0 3082 3 1 100 		* Close Eastern door at The West End of Southwall Road
+M 0 3060 2 3082 100 	* a member of the Red Guard at The West End of Southwall Road. (Max: 2)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+D 0 3057 3 1 100 		* Close Eastern door at Chambers of the Template of Elrhinn
+M 0 3097 1 3057 100 	* Annin'Nerof at Chambers of the Template of Elrhinn. (Max: 1)
+M 0 3010 2 3091 100 	* the Head Postmaster at The Mail Exchange of Elrhinn. (Max: 2)
+D 0 3091 3 1 100 		* Close Eastern door at The Mail Exchange of Elrhinn
+M 0 3062 2 3027 100 	* the common citizen at Northern Courtyard of Elrhinn. (Max: 2)
+D 0 3010 3 1 100 		* Close Eastern door at The End of Dalkyst Road
+D 0 3010 1 1 100 		* Close Eastern door at The End of Dalkyst Road
+D 0 3011 3 1 100 		* Close Eastern door at The Meeting Room of Dalkyst Inn
+D 0 3015 3 1 100 		* Close Eastern door at The Altar
+D 0 3017 1 1 100 		* Close Eastern door at Entrance to the Elrhinn Church
+D 0 3029 1 1 100 		* Close Eastern door at Inside City Hall
+D 0 3030 3 1 100 		* Close Eastern door at Barracks
+D 0 3031 1 1 100 		* Close Eastern door at Barracks
+D 0 3033 1 1 100 		* Close Eastern door at Outside the Western Gate of Elrhinn
+D 0 3034 3 1 100 		* Close Eastern door at Inside the Western Gate
+D 0 3041 1 1 100 		* Close Eastern door at The Entrance to City Hall
+D 0 3042 3 1 100 		* Close Eastern door at The Main Foyer
+D 0 3044 1 1 100 		* Close Eastern door at Barracks
+D 0 3047 1 1 100 		* Close Eastern door at Inside the Eastern Gate
+D 0 3048 3 1 100 		* Close Eastern door at Outside the Eastern Gate of Elrhinn
+D 0 3064 1 1 100 		* Close Eastern door at Before the Tower
+D 0 3080 3 1 100 		* Close Eastern door at Atharian Hideout
+D 0 3093 2 1 100 		* Close Eastern door at Inside the Southern Gate of Elrhinn
+D 0 3094 0 1 100 		* Close Northern door at Outside the Southern Gate of Elrhinn
+M 0 3040 1 3011 100 	* the Bartender at The Meeting Room of Dalkyst Inn. (Max: 1)
+G 1 3001 100  100 			* And give it a bottle. (Max: 100)
+M 0 3060 12 3002 100 	* a member of the Red Guard at The West End of Northwall Road. (Max: 12)
+E 1 3022 12 17 100 			* And equip it with a long sword. (Max: 12)
+M 0 3060 12 3062 100 	* a member of the Red Guard at Silverstream Way. (Max: 12)
+E 1 3022 12 17 100 			* And equip it with a long sword. (Max: 12)
+M 0 3067 2 3034 100 	* the Golden Elite Guard at Inside the Western Gate. (Max: 2)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+E 1 3041 1 4 100 			* And equip it with a chain mail shirt. (Max: 1)
+M 0 3067 2 3047 100 	* the Golden Elite Guard at Inside the Eastern Gate. (Max: 2)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+E 1 3041 1 4 100 			* And equip it with a chain mail shirt. (Max: 1)
+M 0 3067 2 3093 100 	* the Golden Elite Guard at Inside the Southern Gate of Elrhinn. (Max: 2)
+E 1 3022 1 17 100 			* And equip it with a long sword. (Max: 1)
+E 1 3041 1 4 100 			* And equip it with a chain mail shirt. (Max: 1)
+M 0 3005 1 3088 100 	* Yarl the Innkeeper at Dalkyst Inn. (Max: 1)
+M 0 3006 1 3087 100 	* Jarus the Dockmaster at Southern Docks of Elrhinn. (Max: 1)
+G 1 3060 20  100 			* And give it a raft. (Max: 20)
+G 1 3061 10  100 			* And give it a canoe. (Max: 10)
+M 0 3020 1 3090 100 	* Magus at Magus' Laboratory. (Max: 1)
+M 0 3024 1 3064 100 	* the Sorcerer at Before the Tower. (Max: 1)
+E 1 3055 1 17 100 			* And equip it with a metal staff. (Max: 1)
+M 0 3022 1 3080 100 	* Turrin Deathstalker at Atharian Hideout. (Max: 1)
+E 1 3020 1 17 100 			* And equip it with a dagger. (Max: 1)
+M 0 3062 2 3053 100 	* the common citizen at Southwestern Courtyard of Elrhinn. (Max: 2)
+M 0 3062 2 3055 100 	* the common citizen at Southeastern Courtyard. (Max: 2)
+M 0 3062 4 3058 100 	* the common citizen at Southern Westwall Road. (Max: 4)
+M 0 3062 4 3059 100 	* the common citizen at Southern Eastwall Road. (Max: 4)
+M 0 3064 3 3011 100 	* the drunk at The Meeting Room of Dalkyst Inn. (Max: 3)
+E 1 3020 1 17 100 			* And equip it with a dagger. (Max: 1)
+M 0 3062 1 3007 100 	* the common citizen at Eastern Northwall Road. (Max: 1)
+M 0 3060 12 3031 100 	* a member of the Red Guard at Barracks. (Max: 12)
+S
+$~

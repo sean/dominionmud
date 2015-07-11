@@ -1,0 +1,257 @@
+#1701
+monk human mentor resting~
+the human monk~
+A human monk is quietly resting here.
+~
+   A closer look reveals that this monk is obviously somewhat skilled though
+not quite a master in unarmed combat.
+~
+66 32 200 S
+10 15 6 1d1+130 2d4+1
+100 250 
+5 5 1 0
+#1702
+monk human mentor librarian~
+the human monk~
+A human monk is sitting here, copying some manuscripts.
+~
+   This chap spends almost all of the time that he is not improving his
+skills in unarmed combat by copying fading manuscripts and books.
+~
+66 32 200 S
+10 15 6 1d1+130 2d4+1
+100 250
+6 6 1 0
+#1703
+monk dwarf dwarven mentor~
+the dwarven monk~
+A dwarven monk is quietly resting here.
+~
+   A closer look reveals that this monk is obviously somewhat skilled though
+not quite a master in unarmed combat.
+~
+66 32800 100 S
+10 15 7 1d1+130 2d5+0
+100 250
+5 5 1 2
+#1704
+monk human female superior master~
+the female monk~
+A human female monk is sitting here praying and humming.
+~
+   A quite attractive female, however, from the callouses on her hands and
+feet, it would be advisable for you not to try anything on her that might
+get her upset.
+~
+66 32 300 S
+17 7 2 1d1+222 3d4+2
+100 1000
+6 6 3 0
+#1705
+monk human layman~
+the human monk~
+A human monk is here going about his daily duties.
+~
+   From the way that this monk walks and carries himself you can tell that
+he is fairly new to being a monk as he seems too much like a normal person
+(excpet for the monk robes he is wearing).
+~
+192 0 0 S
+4 18 9 1d1+60 1d6+0
+100 75
+8 8 1 0
+#1706
+monk human layman praying~
+the human monk~
+A human monk is sitting here praying and humming.
+~
+   You think that this young man is probably fairly new to being a monk as
+occasionally he slightly stumbles over a difficult phrase in his prayers.
+~
+192 0 0 S
+4 18 9 1d1+48 1d6+0
+100 75
+6 6 1 0
+#1707
+monk human layman resting~
+the human monk~
+A human monk is resting here.
+~
+   This poor fellow has spent the day training, cleaning, praying, and
+eating few small meals. All he really wants to do is just stay here and
+rest for a week.
+~
+192 0 0 S
+4 18 9 1d1+80 1d6+0
+100 75
+5 5 1 0
+#1708
+monk human layman librarian~
+the human monk~
+A human monk is here maintaining the library.
+~
+   This lucky chap has the easy job for this week as he gets to give his
+tired body a rest while he goes through the books - sorting and dusting as
+he goes around.
+~
+192 0 0 S
+4 18 9 1d1+50 1d6+0
+100 75
+8 8 1 0
+#1709
+monk human layman janitor~
+the human monk~
+A human monk is here cleaning up the monastary.
+~
+   This poor guy gets the unenvied job of cleaning the monastary. Not only
+does he have to clean the floors and walls, but he has to pick all of the
+loose trash and stuff that the occasional adventurer leaves lying around.
+~
+192 0 0 S
+4 18 9 1d1+48 1d6+0
+100 75
+8 8 1 0
+#1710
+monk human female layman~
+the female monk~
+A human female monk is resting here.
+~
+   A few human females just get fed up with the troubles that men cause them
+so they come to the monastary to find out how to defend themselves. This
+one is probably no exception to the majority.
+~
+66 0 0 S
+4 18 9 1d1+50 1d6+0
+100 75
+5 5 2 0
+#1711
+monk dwarf dwarven immaculate~
+the dwarven monk~
+A dwarven monk is here going about his daily duties.
+~
+   From the way that this monk walks and acts, you can tell that he is
+still fairly new as he grumbles as much as most dwarves when looked at.
+~
+64 32768 0 S
+5 17 9 1d1+61 1d6+1
+100 85
+8 8 1 2
+#1712
+monk dwarf dwarven immaculate sleeping~
+the dwarven monk~
+A dwarven monk is here snoring loudly.
+~
+   This tough little guy is all tuckered out from a full day of being a
+monk. Though noone could probably sleep through his snores, it would not
+be a good idea to wake him and tell him about it.
+~
+66 32768 0 S
+5 17 9 1d1+61 1d6+1
+100 85
+4 4 1 2
+#1713
+monk human master~
+the human monk~
+A human monk is here going about his daily duties.
+~
+   From the way that this monk walks and acts, you get the impression that
+this guy is quite confident in his abilities to handle any problems that
+might come his way.
+~
+64 32 100 S
+13 10 5 1d1+161 1d4+1
+100 500
+8 8 1 0
+#1714
+monk human master librarian~
+the human monk~
+A human monk is sitting here going over new aquisitions and making notes.
+~
+   Though very skilled in the arts of unarmed combat, this quiet fellow
+likes to spend a lot of his time taking care of the library and trying to
+increase the contents of the library.
+~
+66 32 100 S
+13 10 5 1d1+161 2d7+1
+100 500
+6 6 1 0
+#1715
+monk human master praying~
+the human monk~
+A human monk is sitting here praying and humming.
+~
+   This monk has some noticeable callouses built up on his hands and feet
+and you get the impression that a lot of time went into getting them that
+way.
+~
+66 32 100 S
+13 10 5 1d1+161 2d7+1
+100 500
+6 6 1 0
+#1716
+monk human dorek~
+Dorek the monk~
+Dorek the human monk is walking around looking big and strong.
+~
+   This monk is quite strong looking and if he wasn't a monk, you would
+probably find this guy working as a bouncer at a bar.
+~
+64 32 0 S
+12 7 6 1d1+156 2d7+1
+100 750
+8 8 1 0
+#1717
+monk human ron~
+Ron the monk~
+Ron the monk is sitting here drinking some beer and telling army stories.
+~
+   This paticular fellow has close cropped hair that came from when he was
+serving in Midgaard's Cityguards. He also seems to be able put down a good
+amount of beer as he is often draining his mug.
+~
+66 0 0 S
+20 7 4 1d1+250 3d6+4
+100 500
+6 6 4 0
+#1718
+monk grand master human~
+the Grand Master of Monks~
+You see a human causually chopping up a few logs with.... HIS HANDS!
+~
+   He calmly looks you over with a very impassive face. You also realize
+that this guy could easily rip you apart with his bare hands from the way
+that he can chop those logs. He also carries around a pouch with the money
+of the monastary (after all, can you think of a safer place?).
+~
+66 524328 0 S
+20 1 -5 1d1+1000 8d4+4
+100 85000
+8 8 4 0
+#1719
+monk gm guildmaster~
+your guildmaster~
+Your guildmaster is here waiting to train you.
+~
+  He is a very tall and very plump monk who looks like he knows his
+spirits well.  From the scar under his left eye you realize that in
+his day, he must have been quite an active monk.
+~
+3 128 1000 S
+40 1 -100 8d8+5000 3d5+2
+10 550000
+8 8 1 0
+#1720
+payne brother monk ellis~
+Brother Payne Ellis~
+Brother Payne Ellis is here making sure monks complete their daily training.
+~
+   He is a huge fellow, who looks as if he could shove his hand through
+your chest, rip out your heart and still make sure the monks get their
+daily training, all at the same time.
+~
+2058 128 1000 S
+34 1 -100 6d8+1000 12d12+56
+100 350000
+8 8 1 0
+$~
+

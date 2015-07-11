@@ -1,0 +1,70 @@
+#211
+Mage Valley Entrance~
+~
+~
+3039 1
+21199 30 1
+
+M 0 21103 1 21126    ; a mountain goat
+D 0 21130 1 1        ; close the stone
+M 0 21135 7 21133    ; cave troll
+M 0 21104 26 21133   ; The dark bat
+M 0 21104 26 21133   ; The dark bat
+M 0 21104 26 21133   ; The dark bat
+M 0 21104 26 21133   ; The dark bat
+M 0 21104 26 21133   ; The dark bat
+M 0 21104 26 21135   ; The dark bat
+M 0 21104 26 21135   ; The dark bat
+M 0 21104 26 21135   ; The dark bat
+M 0 21104 26 21135   ; The dark bat
+M 0 21104 26 21135   ; The dark bat
+M 0 21104 26 21135   ; The dark bat
+M 0 21104 26 21135   ; The dark bat
+M 0 21104 26 21136   ; The dark bat
+M 0 21104 26 21136   ; The dark bat
+M 0 21104 26 21136   ; The dark bat
+M 0 21104 26 21136   ; The dark bat
+M 0 21104 26 21136   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21104 26 21137   ; The dark bat
+M 0 21106 1 21140    ; the yellow mold
+M 0 21107 1 21140    ; the red mold
+O 0 21114 1 21141    ; long iron rod
+O 0 21118 1 21141    ; broken bones
+M 0 21105 3 21141    ; the cave fisher
+M 0 21105 3 21141    ; the cave fisher
+M 0 21105 3 21141    ; the cave fisher
+O 0 21119 1 21141    ; fist
+P 1 21120 2 21119    ; sapphire ring
+M 0 21135 7 21142    ; cave troll
+M 0 21108 1 21145    ; the cave wight
+D 0 21150 3 2        ; close and lock the plate
+M 0 21135 7 21165    ; cave troll
+M 0 21131 12 21175   ; blind fish
+M 0 21131 12 21177   ; blind fish
+M 0 21132 2 21177    ; mud eel
+M 0 21133 3 21178    ; crayfish
+M 0 21131 12 21178   ; blind fish
+M 0 21131 12 21179   ; blind fish
+M 0 21133 3 21180    ; crayfish
+M 0 21131 12 21180   ; blind fish
+M 0 21134 2 21181    ; gar
+M 0 21134 2 21181    ; gar
+O 0 21140 1 21181    ; broken bones
+P 1 21117 1 21140    ; chrome-hoop
+M 0 21135 7 21190    ; cave troll
+M 0 21136 2 21196    ; deadly cobra
+M 0 21146 1 21258    ; frost demon
+E 1 3032 50 17       ; holding bag
+P 1 21121 4 3032     ; Chalice in bag
+P 1 6007 10 3032     ; 100 gold in bag
+S
+#99999
+$~

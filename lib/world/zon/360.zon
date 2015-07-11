@@ -1,0 +1,86 @@
+#360
+Castle Black~
+Morrolan~
+BUILDING~
+3001 1
+36999 24 2
+*
+* Last Updated: Tue Mar 11 13:17:00 
+*           By: Morrolan
+*
+M 0 36020 1 36082 100 	* the ice monster at The inner chamber of..... (Max: 1)
+E 1 36021 1 19 50 			* And equip it with the staff of ice storm. (Max: 1)
+D 0 36080 4 1 100 		* Close Eastern door at Room 36080
+O 0 36011 1 36066 100 	* the hedgestone at The Gravestone. (Max: 1)
+D 1 36066 5 1 100 		* Close Eastern door at The Gravestone
+D 0 36046 0 2 100 		* Lock and Close Northern door at The chamber
+M 1 36008 2 36046 100 	* the gate watcher at The chamber. (Max: 2)
+G 1 36010 2  100 			* And give it a large iron key. (Max: 2)
+D 0 36051 0 2 100 		* Lock and Close Northern door at The chamber
+M 1 36008 2 36051 100 	* the gate watcher at The chamber. (Max: 2)
+G 1 36010 2  100 			* And give it a large iron key. (Max: 2)
+M 0 36009 8 36049 100 	* a womprat at In the caverns. (Max: 8)
+M 1 36009 8 36049 100 	* a womprat at In the caverns. (Max: 8)
+M 1 36009 8 36049 100 	* a womprat at In the caverns. (Max: 8)
+M 1 36009 8 36049 100 	* a womprat at In the caverns. (Max: 8)
+M 0 36009 8 36044 100 	* a womprat at In the caverns. (Max: 8)
+M 1 36009 8 36044 100 	* a womprat at In the caverns. (Max: 8)
+M 1 36009 8 36044 100 	* a womprat at In the caverns. (Max: 8)
+M 1 36009 8 36044 100 	* a womprat at In the caverns. (Max: 8)
+D 0 36053 1 1 100 		* Close Eastern door at The gate-fence
+D 0 36048 3 1 100 		* Close Eastern door at The gate-fence
+D 0 36052 2 2 100 		* Lock and Close Southern door at The hollowed woods
+D 0 36047 2 2 100 		* Lock and Close Southern door at The hollowed woods
+D 0 36039 1 1 100 		* Close Eastern door at The tunnel
+D 0 36040 3 1 100 		* Close Eastern door at The tunnel
+D 0 36038 3 1 100 		* Close Eastern door at The dark hall
+D 1 36038 1 1 100 		* Close Eastern door at The dark hall
+O 0 36020 1 36000 100 	* a bright red cabinet at A Dark, Smokey Chamber. (Max: 1)
+P 1 36001 1 36020 100 	* Put the staff of creation in a bright red cabinet. (Max: 1)
+D 0 36029 0 1 100 		* Close Northern door at Guest room
+D 1 36029 2 1 100 		* Close Eastern door at Guest room
+M 0 36010 4 36079 100 	* the castle guard at The guards room. (Max: 4)
+M 1 36010 4 36079 100 	* the castle guard at The guards room. (Max: 4)
+M 1 36010 4 36079 100 	* the castle guard at The guards room. (Max: 4)
+M 1 36010 4 36079 100 	* the castle guard at The guards room. (Max: 4)
+D 0 36031 0 1 100 		* Close Northern door at The maids room
+M 1 36006 1 36031 100 	* the maid at The maids room. (Max: 1)
+D 0 36030 0 1 100 		* Close Northern door at The Balcony
+M 1 36005 1 36030 100 	* the crying lady at The Balcony. (Max: 1)
+E 1 36009 1 17 100 			* And equip it with the whip of tears. (Max: 1)
+D 0 36028 2 1 100 		* Close Eastern door at The South Hall
+D 1 36028 2 2 100 		* Lock and Close Southern door at The South Hall
+O 1 36008 1 36028 100 	* the crying key at The South Hall. (Max: 1)
+D 0 36027 2 1 100 		* Close Eastern door at The eastern passage
+D 0 36034 2 1 100 		* Close Eastern door at The guards room
+D 1 36034 4 1 100 		* Close Eastern door at The guards room
+D 0 36036 5 1 100 		* Close Eastern door at The rooftop
+D 0 36035 0 1 100 		* Close Northern door at Mirrors...
+D 0 36033 0 1 100 		* Close Northern door at End of the hall
+D 1 36033 2 1 100 		* Close Eastern door at End of the hall
+D 0 36008 1 1 100 		* Close Eastern door at The great foyer
+D 1 36008 1 2 100 		* Lock and Close Southern door at The great foyer
+D 0 36007 2 1 100 		* Close Eastern door at The greeting chamber
+D 1 36007 2 2 100 		* Lock and Close Southern door at The greeting chamber
+M 1 36001 1 36007 100 	* the mad butler at The greeting chamber. (Max: 1)
+E 1 36003 1 4 100 			* And equip it with a three-piece suit. (Max: 1)
+O 0 36006 1 36018 100 	* a strange helm at The great hallway. (Max: 1)
+D 0 36014 2 1 100 		* Close Eastern door at The bedroom
+M 1 36003 2 36014 100 	* a golden statue of a knight at The bedroom. (Max: 2)
+M 1 36003 2 36014 100 	* a golden statue of a knight at The bedroom. (Max: 2)
+E 1 36005 1 5 100 			* And equip it with a closet key. (Max: 1)
+D 0 36015 3 1 100 		* Close Eastern door at The closet
+M 1 36004 1 36015 100 	* the closet monster at The closet. (Max: 1)
+E 1 36004 1 15 100 			* And equip it with a strange key. (Max: 1)
+D 0 36017 3 1 100 		* Close Eastern door at The great hallway
+D 1 36017 3 2 100 		* Lock and Close Southern door at The great hallway
+D 0 36016 4 1 100 		* Close Eastern door at Under the pool of blood
+D 0 36013 5 1 100 		* Close Eastern door at The pool of blood
+D 0 36011 0 1 100 		* Close Northern door at Atop the stairwell
+D 0 36006 0 1 100 		* Close Northern door at The Gates
+D 1 36006 0 2 100 		* Lock and Close Northern door at The Gates
+M 1 36000 1 36006 100 	* the Guardian of Castle Black at The Gates. (Max: 1)
+E 1 36002 1 2 100 			* And equip it with the gate-key. (Max: 1)
+M 1 36000 2 36006 100 	* the Guardian of Castle Black at The Gates. (Max: 2)
+S
+$~

@@ -1,0 +1,36 @@
+#75
+Blackwood Forest~
+Kirahn~
+Med~
+3001 1
+7599 15 2
+*
+* Last Updated: Fri Feb 21 10:40:05 
+*           By: Grendel
+*
+O 0 7503 1 7500 100 	* a wooden sign at The dim path. (Max: 1)
+M 0 7500 1 7560 100 	* the old man at The Blackwood. (Max: 1)
+E 1 1 10 18 100 			* And equip it with a hooded brass lantern. (Max: 10)
+M 0 7502 10 7534 100 	* a raven at Dark Paths. (Max: 10)
+M 0 7503 10 7522 100 	* a darktree at The Blackwood. (Max: 10)
+M 0 7503 10 7518 100 	* a darktree at Deep in the Blackwood Forest. (Max: 10)
+M 0 7502 10 7520 100 	* a raven at Deep in the Blackwood. (Max: 10)
+D 0 7555 0 1 100 		* Close Northern door at Heart of Blackwood
+D 0 7555 1 1 100 		* Close Eastern door at Heart of Blackwood
+D 0 7555 2 1 100 		* Close Eastern door at Heart of Blackwood
+D 0 7555 3 1 100 		* Close Eastern door at Heart of Blackwood
+O 0 7501 1 7555 100 	* Heart of Darkness at Heart of Blackwood. (Max: 1)
+D 0 7556 3 2 100 		* Lock and Close Southern door at Edge of the Heart
+M 0 7501 12 7556 100 	* a twisted, black troll at Edge of the Heart. (Max: 12)
+M 0 7501 12 7512 100 	* a twisted, black troll at The Blackwood. (Max: 12)
+M 0 7501 12 7548 100 	* a twisted, black troll at The Blackwood. (Max: 12)
+M 0 7501 12 7532 100 	* a twisted, black troll at The Blackwood. (Max: 12)
+D 0 7558 0 2 100 		* Lock and Close Northern door at Edge of the Darkness
+D 0 7557 6 2 100 		* Lock and Close Southern door at Edge of the Darkness
+D 0 7554 1 2 100 		* Lock and Close Southern door at Edge of the Darkness
+D 0 7559 7 2 100 		* Lock and Close Southern door at Edge of the Heart
+D 0 7552 2 2 100 		* Lock and Close Southern door at The Edge of the Heart
+D 0 7553 9 2 100 		* Lock and Close Southern door at Edge of the Heart
+D 0 7551 8 2 100 		* Lock and Close Southern door at Edge of the Heart
+S
+$~

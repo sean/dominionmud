@@ -1,0 +1,217 @@
+#205
+King Valkim~
+King Valkim~
+The Villiam King Valkim sits here on his throne glaring at you.
+~
+Before you sits a large rotund man with an ash grey beard and
+a hardened face. He sneers at you as he notices your glance.
+~
+108 33554472 -1000 S
+10 11 2 1d1+130 1d8+0
+4000 9000
+6 6 1 2
+#206
+Queen Rotunda~
+Queen Rotunda~
+The Villian Queen Rotunda sits here besider her evil husband.
+~
+This big lady peers at you as she notices your glance. You cant
+help but chuckle at her largly undersized gown and wonder when
+she is going to go on a diet.
+~
+104 33554468 -1000 S
+9 12 3 1d1+115 1d6+0
+3000 6000
+6 6 2 2
+#207
+Prince Everin~
+Prince Everin~
+The valiant prince Everin stands here grinning evilly at you.
+~
+A strong noble warrior stands here dressed in a regal robe
+and a glittering crown. He sees you and draws his sword.
+~
+72 8 -1000 S
+8 13 3 1d1+100 1d8+0
+1500 3750
+8 8 1 2
+#208
+Agin the Scholar~
+Agin the Scholar~
+Agin the scholar sits here pondering the mysteries of the universe.
+~
+A small frail balding man sits here surrounded by many books and
+quills. He mutters under his breath about equasions he cannot solve
+and mysteries that boggle his mind.
+~
+72 40 -1000 S
+7 14 5 1d1+90 1d8+0
+1000 2250
+6 6 1 2
+#209
+The Villian Paladin~
+The Villian paladin~
+The Villian paladin sits here sharpening his weapons.
+~
+A huge figure stands before you gowned in silver armor. He
+beckons you to come forth to either get blessed or cursed!
+~
+72 40 -1000 S
+7 14 4 1d1+90 1d8+0
+800 2250
+6 6 1 0
+#210
+The Villian Priest~
+The Villian Priest~
+The Villian priest is stitting here praying and chanting.
+~
+A small bony man sits here reciting the ancient mantras of the
+healing priests of the past. A look of peace leaves his face as
+he notices you and he closes his book ready for battle.
+~
+72 8 -1000 S
+7 14 5 1d1+90 1d6+0
+1000 2250
+5 5 1 0
+#211
+The Villian Sorcerer~
+The Villian Sorcerer~
+The Villian Sorcerer sits here memorizing his deadly spells.
+~
+A frail man dressed in black sits here memorizing evil and no good
+spells. He catches you entering his room and lets out with an angry
+howl. Perhaps he is having a bad day....
+~
+72 8 -1000 S
+7 14 5 1d1+90 1d4+0
+1000 2250
+5 5 1 0
+#212
+The Villian Warrior~
+The Villian Warrior~
+The Villian Warrior stands here with his weapon grinning at you.
+~
+A large well muscled brute dressed in black plate stands here
+pointing and lauging at you. He snickers as he compares his
+arms and upper body to you. Sounds like he wants a fight!
+~
+72 16 -1000 S
+7 14 3 1d1+90 1d8+1
+1000 2250
+8 8 1 2
+#213
+The Villian Barbarian~
+The Villian Barbarian~
+The Villian Barbarian stands here bending iron bars in half.
+~
+A tall stocky man dressed in black animal furs stands here with
+a look of arrogance. He is covered by many scars from past battles
+and welcomes your challenge.
+~
+72 8 -1000 S
+7 14 5 1d1+90 1d8+0
+1000 2250
+8 8 1 0
+#214
+The Villian Rogue~
+The Villian Rogue~
+The Villian Rogue hides here in waiting.
+~
+You see a tall think figure of what appears to be of drow origin.
+His dark skin and evil grin tells you all you need to know whether
+he is up to no good or not.
+~
+72 1048584 -1000 S
+7 14 4 1d1+90 1d6+0
+1000 2250
+8 8 1 0
+#215
+The Villian Druid~
+The Villian Druid~
+The Villian Druid stands here making wreaths out of thorns.
+~
+A short stocky little man stands here in a crimson black robe.
+His dark eyes give you warning that you had better leave before
+it is too late!
+~
+76 8 -1000 S
+7 14 5 1d1+90 1d6+0
+1000 2250
+8 8 1 0
+#216
+The Villian Mage~
+The Villian Mage~
+The Villian Mage stands here chanting a nasty spell.
+~
+A frail old man in a grey robe stands here murmuring old
+sayings from the past. He is wearing a black felt hat and
+holding an old instruction wand. He sees you and shouts
+for the guards.
+~
+8 8 -1000 S
+7 14 5 1d1+90 1d4+0
+1000 2250
+8 8 1 0
+#217
+The Grimtooth~
+The ferocious Grimtooth~
+The vicious Grimtooth beast pounces from out of the darkness!
+~
+You can barely make out a huge mountain of muscle that sort of
+resembles a lion. The next thing you notice is claws coming from
+all directions!
+
+~
+32840 33554440 -1000 S
+7 14 6 1d1+90 1d8+0
+1000 2250
+8 8 0 14
+#218
+The Villian Guard~
+A Villian guard~
+A Villian guard is standing here looking alert.
+~
+You see a run of the mill guard dressed in plate armor and
+whistling a merry tune to himself.
+~
+12 0 -1000 S
+6 16 7 3d8+20 1d6+0
+-1 20 250 1
+8 8 1 2
+#219
+A Villian citizen~
+A citizen~
+A Villian citizen stands here gossiping about the weather.
+~
+A plain ole law abiding citizen stands here. Dont mess with em
+they say or ya might get a surprize.
+~
+12 8 -1000 S
+5 16 6 3d8+5 1d6+0
+-1 20 110 1
+8 8 1 2
+#220
+human fighter~
+The human fighter~
+A human fighter stands here.
+~
+He would look like a tough fellow, if he weren't in drag.
+~
+132 0 0 S
+2 18 4 1d1+30 1d8+1
+50 200
+8 8 1 0
+#221
+bugbear~
+a bugbear~
+A bugbear stands here.
+~
+He is furry, and nasty.  He looks like a mean walking carpet.  You probably
+don't want to piss him off.
+~
+164 32768 -300 S
+3 18 5 1d1+40 1d6+4
+50 350
+8 8 1 14
+$~
+

@@ -1,0 +1,182 @@
+#32000
+sessanathi soldier lizardman~
+the sessanathi soldier~
+A lizardman stands here hissing a warning at you.
+~
+The soldier looks very ferocious and won't be an easy fight
+no matter what.  
+~
+cdgijm cgkr 0 S
+12 2 88 1d10+60 1d10+9
+2000 12000
+8 8 1
+>in_file_prog sess.prg~
+|
+#32001
+sessanathi shaman lizardman~
+the sessanathi shaman~
+A lizardman with a painted face is here glaring at you.
+~
+The shaman looks to be some kind of monk in touch with his god.
+A symbol of a 5 headed dragon is printed on his armband.
+~
+dgijmo cdgkt 0 S
+14 3 92 2d10+100 1d8+8
+100 13000
+8 8 1
+>in_file_prog lizshaman.prg~
+|
+#32003
+witch hag old woman~
+the old woman~
+An old woman stirs a pot of stew over a fire.
+~
+The woman has an evil glimmer in her eye.
+~
+bcdelo hkmnr -1000 S
+35 3 87 1d1+400 1d15+5
+1 150000
+8 8 2
+>in_file_prog witch.prg~
+|
+#32004
+wayguard~
+the wayguard~
+A wayguard stands here guarding the waypost.
+~
+He looks pretty mean and wields a mean looking sword.
+He says gruffly, 'Beware the witch!  She'll eat yer
+skin while yer still alive!'.
+~
+bdelmq k 500 S
+15 8 92 1d1+100 1d10+7
+1000 7000
+8 8 1
+>in_file_prog wayguard.prg~
+|
+#32005
+bat leskbat~
+a Leskbat~
+A giant bat is hanging here watching its prey.
+~
+The Leskbat is known for attacking parties that have ventured
+into the Serdim-ir-Lesk.  They come out of nowhere and attack
+without quarter.
+~
+defghq fgkp -500 E
+8 2 80 3d10+20 2d6+5
+0 7000
+8 8 0
+Race: 43
+E
+#32006
+draduml~
+the draduml~
+A shiver goes down your spine as something touches your foot underwater.
+~
+The draduml is covered in slime and is basically a big tentacle that wraps 
+itself around its prey.  The eyes are on the end of the tentacle and on
+the otherside of the tentacle is a large barrel shaped body and no legs.
+The tentacle wraps itself around the prey and stings it then draws it down
+into the body and digests the prey.
+~
+bdf fkpt 0 S
+16 2 88 1d20+100 1d9+9
+0 15000
+8 8 0
+#32007
+black-bird-raven~
+the Raven~
+A black bird is perched on a rafter in the tower looking at you intently.
+~
+It is a black bird...a raven.  He looks at you with intelligent
+eyes but pays you no mind.
+~
+bd gkp -1000 S
+40 1 91 1d1+500 1d20+50
+0 10000
+8 8 0
+#32008
+thestrangemirror~
+the mirror~
+A strange, tall mirror stands here reflecting your image back at you.
+~
+Goddamn!  How'd you figure out the keyword of this???
+~
+bdelnopqr cdeghkmnpr 1000 S
+49 100 42 1d1+30000 5d10+90
+0 1000000
+8 8 0
+>in_file_prog mirror.prg~
+|
+#32009
+flailer bush bushes shambling~
+a strange, flailing bush~
+Something suddenly rustles in the bushes near you.
+~
+It looks like an ordinary bush.  Then you notice the
+tentacles snaking out that whip anything they can get
+their hands on.  The leaves aren't really leaves,
+but strong scales of armor in the same shape, color, feel
+of normal leaves.
+~
+dfgh bgkrst 0 S
+9 4 61 1d30+70 1d8+9
+0 9000
+8 8 0
+>in_file_prog bush.prg~
+|
+#32010
+hunter man~
+a rugged hunter~
+A man who probably knows the ways of the woods by the looks of him is here.
+~
+He has a very rugged look to his face and his eyes look back at
+you keenly.  His beard is getting very long but hasn't grayed yet.
+~
+cdg gk 500 S
+11 5 65 1d50+45 1d10+5
+3000 9000
+8 8 1
+#32011
+thyet weltinelf elf man old~
+Thyet Weltinelf~
+An old elf sits here in front of a small fire reading a book.
+~
+The old elf was once a great warrior whose fame and fortune
+is forgotten today as most people thought him to have been killed.
+But he is now just a mistaken hermit in the Serdim-ir-Lesk.
+~
+bdo mp 1000 S
+20 2 32 1d50+400 1d20+13
+1000 30000
+8 8 1
+>in_file_prog thyet.prg~
+|
+#32012
+giant mushroom shroom~
+a giant mushroom~
+A huge mushroom stands here looking very lonely.
+~
+At a closer look you see along the edge of the cap on top of
+the giant mushroom, tiny, razor sharp needles.  This thing
+does not look like a good trip.
+~
+bdfqx f 0 S
+16 3 49 1d30+90 1d10+11
+0 10000
+8 8 0
+#32013
+old hermit man~
+the old hermit~
+Behind a chair sits an old man smoking a wooden pipe.
+~
+the old Hermit says, 'Have ye seen the Tower, south in the swamps?
+That's where ye go when ye have become a Hero to the people.  Only
+the strongest survive.  
+~
+bd 0 700 S
+14 4 63 1d30+80 1d10+10
+1000 10000
+8 8 1
+$~

@@ -1,0 +1,4789 @@
+#32000
+Serdim-ir-Lesk~
+   A thick, gray mist envelopes you as you make your way through the
+murky waters of The Serdim-ir-Lesk.  This swamp is centuries old, rumored
+to be the product of an ancient sorcery which turned a forest, teeming
+with life into this bleak, wet wasteland.  Old trees with branches slick
+with the slime of the swamp are bent over and barely recognizable through
+the mist.  You hear nothing except the penetrating silence.
+~
+320 a 0
+D0
+~
+~
+0 0 32001
+D1
+~
+~
+0 0 32006
+S
+#32001
+Serdim-ir-Lesk~
+   The swamp continues in all directions.  Mist swirls about you like smoke
+of a burning cheroot.  All is dark and quiet save for a little splash of the
+water, coming from any direction, you cannot tell.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32002
+D1
+~
+~
+0 0 32007
+D2
+~
+~
+0 0 32000
+S
+#32002
+On Dry Land~
+   You are on dry land again.  You notice that your attire is thoroughly
+soaked from the incessant, west mist making movement very uncomfortable.
+A bent over tree with black, soggy branches stands to the north.  The
+Serdim-ir-Lesk continues in all directions save west which is blocked off 
+by several fallen trees, whose gnarled limbs jut out of the black water
+dangerously.
+~
+320 0 3
+D0
+~
+~
+0 -1 32003
+D1
+~
+~
+0 -1 32010
+D2
+~
+~
+0 -1 32001
+S
+#32003
+On Dry Land~
+   You take your time here as you are not sure there is much dry land in
+the swamp and sitting on the raft makes life quite uncomfortable.  A large
+tree stands just to the north with black branches dripping with the slime
+of centuries.  Not a single leaf adorns the twisted branches, nor are any
+scattered on the ground at the base of the tree.  You judge the old tree to be
+about 5 - 7 feet around at the base.  A strange sticky substance covers 
+almost all of the branches.
+~
+320 a 3
+D2
+~
+~
+0 0 32002
+D4
+~
+~
+0 -1 6132
+S
+#32004
+Inside the Tree~
+   You are inside an knobby, old tree.  But you wouldn't know that from
+inside here that the tree was knobby and old.  A small ladder on the northern
+side of the tree leads down into darkness.  The tree is well carved out
+and the walls are smooth to the touch.  You think you hear faint sounds of
+movement coming from below.
+~
+320 agi 0
+D2
+   From within the tree you can tell it was really a door that you opened.
+It has a latch and lock even.  Somebody must want to keep their home or
+hideout a secret.
+~
+door~
+1 32000 32003
+D5
+~
+~
+0 0 32005
+S
+#32005
+Under the Tree~
+   Under the tree is truly an unexpected sight.  A warm fireplace burns
+on the far wall of the moderately large room.  A wolfskin rug lies on the
+hardwood floor of the humble abode.  Several bookshelves littered with old
+scripts and manuals and charts line the walls.  There is a small ladder 
+leading back up to the door of the tree.  A small chair sits before the
+fireplace with its back to you.  The sweet scent of pipe smoke wafts through
+the air coming from the otherside of the chair.
+~
+320 gr 0
+D4
+~
+~
+0 0 32004
+S
+#32006
+Serdim-ir-Lesk~
+   You are floating on the dark, murky water.  Cold mist swirls about you
+hampering your vision greatly.  Branches jut out of the swamp here and there
+like the flailing arms of a victim buried alive reaching for life.  Trees,
+half sunken in the water of the Serdim-ir-Lesk, are standing all about you,
+seemingly watching like the ghosts watch the living - silent and repressed.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32007
+D1
+~
+~
+0 0 32022
+D2
+~
+~
+0 0 32195
+D3
+~
+~
+0 0 32000
+S
+#32007
+Serdim-ir-Lesk~
+   A huge, bent over tree with hallow logs surrounding it blocks all
+passage to the north and east.  Slime, fungus, and other mosses cover
+the dark, cold bark.  Everything is silent in this deep area of the swamp.
+~
+320 a 2
+D2
+~
+~
+0 0 32006
+D3
+~
+~
+0 0 32001
+S
+#32010
+On Dry Land~
+   You are standing on mushy dry land in the Serdim-ir-Lesk Swamp.  Strange
+swamp bushes and small patches of awkwardly long grass are all about you.
+Peering through the grey mist you spot a small trail leading off to the east
+and more dry land to the west.  A large bent over tree prevents any passage
+to the south.
+~
+320 a 3
+D1
+~
+~
+0 0 32011
+D3
+~
+~
+0 0 32002
+S
+#32011
+The turn in the path~
+   The path you are on is beset by bushes and razor sharp blades of grass
+preventing much passage except the path you are on.  You can see small foot-
+prints leading north on the ground.  The mist swirls all about you making
+your escapde through the swamp much more tedious and dangerous.
+~
+320 a 3
+D0
+~
+~
+0 0 32012
+D1
+~
+~
+0 0 32216
+D3
+~
+~
+0 0 32010
+E
+footprints~
+The footprints lead off to the north.  The are spaced very close together
+and have only three toes upon them.  Yet they remain the footprints of a
+humanoid.
+~
+S
+#32012
+A path in the Serdim-ir-Lesk~
+   You spot several footprints mushed into the soft, spongy ground leading
+north into the unknown swamp.  To the south you can barely make out that the
+trail you are travelling upon turns west.  You cannot see anything to the north.
+~
+320 a 3
+D0
+~
+~
+0 0 32013
+D2
+~
+~
+0 0 32011
+E
+footprints~
+   The footprints were made by a humanoid but are very small and close
+together.  They seem to have been made fairly recently.  The strangest thing
+about the footprints is that they only have 3 toe marks.
+~
+S
+#32013
+A turn in the path~
+   The path turns here as a clump of bushes with razor sharp petals stands
+north and west of you.  There are more footprints here than than there were
+south of you.  The mist seems to be getting a little thinner making travel
+a bit easier.
+~
+320 0 3
+D1
+~
+~
+0 0 32014
+D2
+~
+~
+0 0 32012
+S
+#32014
+A small trail through the Serdim-ir-Lesk~
+   The trail seems to have a purpose.  Trees line each side of the trail.
+The trees are different from the ones in the actual swamp as they have leaves.
+The trail continues east and west
+~
+320 0 0
+D1
+~
+~
+0 0 32015
+D3
+~
+~
+0 0 32013
+S
+#32015
+The small trail~
+   The trail continues on between the walls of trees standing high on
+each side of you.  The trail continues on through the dark swamp to the
+east forever.  You cannot see the end from here but you can see many tracks
+of some humanoid race running along the ground.
+~
+320 0 0
+D1
+~
+~
+0 0 32016
+D3
+~
+~
+0 0 32014
+S
+#32016
+Serdim-ir-Lesk Tunnel~
+   The trees crowd close on either side of the small trail.  Their branches
+hang over and intertwine above making it one long tunnel.  Any progress north
+or south would be futile as you would only get caught in the razor grass or
+stuck in a bog of mud.  The sky is gone from view but the mist is gone too
+so travel is still tough.  The tunnel continues off into the darkness to the
+east and west.
+~
+320 a 3
+D1
+~
+~
+0 0 32017
+D3
+~
+~
+0 0 32015
+S
+#32017
+Along the Tunneled Path~
+   The nature-made tunnel of trees continues far off to the west and east.
+You can barely make out a pinhole of light at the the end of the tree tunnel
+to the east.  Beyond that you can see nothing.  
+~
+320 0 0
+D1
+~
+~
+0 0 32018
+D3
+~
+~
+0 0 32016
+S
+#32018
+The Tunnel of Trees~
+   The long tunnel of old, gnarled trees stretches out east and west.  But
+the pinhole of light at the end of the tunnel to the east is growing larger.
+It is nothing but darkness to the west.  You see small footprints in the
+loose soil that belong to small humanoid creatures.  The footprints run in
+both directions.
+~
+320 0 0
+D1
+~
+~
+0 0 32019
+D3
+~
+~
+0 0 32017
+S
+#32019
+The Tunnel~
+   The tunnel of trees stretches on in either direction, east and west.
+The long, overhanging branches have intertwined and grown into the branches
+of the trees opposite them, forming two wooden walls on either side of you
+and a leaf ceiling above.  The end of the tunnel to the east glows with
+sunlight.
+~
+320 0 0
+D1
+~
+~
+0 0 32020
+D3
+~
+~
+0 0 32018
+S
+#32020
+The Tunnel of Trees~
+   The eastern entrance into the tunnel of trees is visible and near.
+You are compelled to run towards it to rid yourself of the darkness of the
+tunnel.  Small footprints of humanoid nature are visible and scattered in
+the loose soil.  They seem to be travelling in every direction at once.
+~
+320 0 0
+D1
+~
+~
+0 0 32021
+D3
+~
+~
+0 0 32019
+S
+#32021
+The Entrance to the Tunnel of Trees~
+   You stand at the entrance to a long, dark, tunnel,  The trees have grown
+so large, but have been weakened by the moist air of the Serdim-ir-Lesk Swamp
+and have been bent over trying to support the great weight of the wood.  
+They intertwined and grew into one another, forming this great natural tunnel
+through the Serdim-ir-Lesk.  
+   To the east you see a strange, fantastic site.  A great dragon, made of
+stone the size of many buildings lies just across a small valley from here.
+~
+320 0 0
+D1
+~
+~
+0 0 10401
+D3
+~
+~
+0 0 32020
+S
+#32022
+In the Murky Swamp~
+  You move along the dark murky swamp with the mist swirling about you
+like phantoms.  Everything is silent save for the repeating creaking noise
+emitted by an insect somewhere nearby.  Black trees, bent over and broken
+stand silently in the dead swamp.  You have a strange feeling that something
+is watching you.
+~
+320 a 7 6 -1
+D1
+~
+~
+0 0 32034
+D3
+~
+~
+0 0 32006
+S
+#32023
+At the Gate of the Fortress~
+   You stand before the gates to a primative fortress built entirely
+of wood.  You hear screams of anger at your intrusion as well as gasps
+of wonder coming from within the wooden walls.  Two large towers stand to
+either side of the gate with ropes which connect to the top of the gate
+allowing the the entrance to be shut quickly or opened easily.  The tops
+of the wooden poles strung together to form the walls of the fortress
+are shaved to a lethally sharp point to prevent intruders from climbing
+over with ease.  Suddenly after a few moments of silence the gates open
+for you slowly.  Within the gates you see a small, quaint village with
+the furry, diminutive humanoids staring in awe at you.  Behind you a long
+tunnel of trees leads back to the mystery of the Serdim-ir-Lesk Swamp.
+~
+320 0 0
+D1
+i'm working on it - be finished soon...just go back the way you came :)
+ - Gray
+~
+~
+0 0 32023
+D3
+~
+~
+0 0 32021
+S
+#32024
+Within the Gate of the Fortress~
+   You walk along a small path that cuts straight through the small fort.
+Thatch huts and lean-to's and tents are scattered amongst the tall trees
+on the wet grass.  The path continues to the east towards the other wall
+of the fortress.
+~
+320 0 0
+D0
+~
+~
+0 0 32026
+D1
+~
+~
+0 0 32025
+D2
+~
+~
+0 0 32027
+D3
+~
+~
+0 0 32023
+S
+#32025
+On the Small Path in The Village~
+   The path you are on stretches straight through the village to the
+wall opposite the entrance.  Stilted huts made of wood and thatch
+stand about 10 feet off the ground.  The grass within the fortress is
+deep green and seems to be well taken care of, none of the trees have
+been cut down save for several branches that have been removed from each
+tree, no doubt to be come the walls and the stilts and houses.  All along
+the main path are smaller, less worn in paths which lead to the rope
+ladders of the stilted huts.
+~
+320 0 1
+D0
+~
+~
+0 0 32030
+D2
+~
+~
+0 0 32032
+D3
+~
+~
+0 0 32024
+S
+#32026
+Under the Guardtower~
+   A thick rope made from hemp dangles from the tower above to allow
+the strange creatures access to the tower.  A small sqaure shaped hole
+cut into the floor of the tower for you to crawl through is directly above
+with the rope dropping down through it.  South leads back to the small
+dirt path and to the entrance of the village.
+~
+320 0 0
+D2
+~
+~
+0 0 32024
+D4
+~
+~
+0 0 32028
+S
+#32027
+Under the Guardtower~
+   You stand under a wooden guardtower with a thick hemp rope dangling
+from a small hole in the floor of the guardtower.  To the north you will
+be at the entrance of the fortress.
+~
+320 0 0
+D0
+~
+~
+0 0 32024
+D4
+~
+~
+0 0 32029
+S
+#32028
+The Guardtower~
+   You crawl through the small hole up into the guard tower.  A roof over-
+head with small holes in it keeps the strong, wet wind from blowing
+you off the tower.  Looking out of the tower you can see the entire
+wasteland of the Serdim-ir-Lesk stretch out to the southern horizon.
+Gnarled black trees dot the scene through the thick fog which covers the
+entire swamp floor like a thick, gray blanket.  A small hole in the floor
+of the tower with thick hemp rope dangling down through it leads back down
+to the ground.
+~
+320 0 0
+D5
+~
+~
+0 0 32026
+S
+#32029
+The Guardtower~
+   You pull yourself up the rope into the tower and heave yourself
+to your feet awkwardly.  As you do so the tower shakes and rattles but
+holds fast.  You take in a deep breath as the shivering of the wooden tower
+finally stops and take in the sights provided by the tower's elevation.
+To the south you look out over the Serdim-ir-Lesk which sits silently
+in a wet gloom.  Thick fog covers the swamp as far as the southern
+horizon. The Western Mountains under Gmra's rule stand to the north and
+far off to the east, across the Great Plains lies The Dominion's Capital
+City, Phalar.  The sky is clear above the city which is home to most of
+The Dominion's 'civilized' inhabitants.
+~
+320 0 0
+D5
+~
+~
+0 0 32027
+S
+#32030
+Under a Stilted Hut~
+   A small wooden ladder leads up to a thatch hut propped up on stilts
+here.  Just to the south of here is a small muddy path that leads through
+the village.  The grass grows almost up to the floor of the hut, you've
+never seen grass grow so high and wild before.
+~
+320 0 1
+D2
+~
+~
+0 0 32025
+D4
+~
+~
+0 0 32031
+E
+ladder~
+The ladder is a bunch of thick sticks lashed together with thin pieces of
+rope.
+~
+S
+#32031
+Up in a Stilted Hut~
+   The hut is very primative and doesn't block out the elemental forces
+save for the wind.  The roof of the hut is made up of straw and leaves
+and thick mud to keep the rain from pouring in unhindered.  You doubt it
+really does a good job keeping rain out but it is better than nothing.
+There is a window cut into the wooden walls of the hut and a ladder pokes
+up from a small hole in the floor.
+~
+320 0 0
+D5
+~
+~
+0 0 32030
+E
+window~
+You stare out the window for a brief moment and take a look.  From this
+vantage point you can see only the hut across the way and the dirt path
+below stretching through the grass like a muddy vein.
+~
+S
+#32032
+Under a Stilted Hut~
+   You stand underneath a small thatch hut.  A ladder, lashed together
+with small ropes stands before you, leading up into the hut.  Just to
+the north you can see the small path from which you came leading through
+the middle of the village.
+~
+320 0 0
+D0
+~
+~
+0 0 32025
+D4
+~
+~
+0 0 32033
+S
+#32033
+Up in a Thatch Hut~
+   You pull yorself up over the last rung of the rickety ladder into
+a small hut with a small primative furnishings, such as crude pottery
+and a few knives made from stone.  There is a small window cut into the
+northern wall of the hut providing you with an interesting view of the
+village.
+~
+320 0 0
+D5
+~
+~
+0 0 32032
+S
+#32034
+In a Muddy Bog~
+  You have stepped upto your waist in a thick, merciless bog.  Movement
+is very tough and you waist nearly all of your energy trying to get out
+of the muddy hole.  You can see some thick, tangled grass to the east and
+the water seems to be running a bit faster to the south.
+~
+320 ah 5
+D1
+~
+~
+0 0 32036
+D2
+~
+~
+0 0 32035
+D3
+~
+~
+0 0 32022
+S
+#32035
+Downhill Stream~
+   You are on a small stream leading down a steep hillside.  You can
+feel the currents of the water push you down the hill towards the unknown.
+You have quite a view of the southern horizon which is lined with the
+trees of a dark jungle.  
+~
+320 c 7 6 -1
+D2
+~
+~
+0 0 32037
+S
+#32036
+In Tall Grass~
+   Tall grass about 5 - 6 feet high is all around you.  There is water
+all about your ankles that soaks your already soaked feet.  The mist
+obscures all visibility and you blunder on.  You can hear the plopping
+of frogs into water to the north and guess there is more swamp there
+as well as to the east.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32076
+D1
+~
+~
+0 0 32075
+D3
+~
+~
+0 0 32034
+S
+#32037
+Downhill Rapids~
+  You are pulled down the waterslide at an extremely fast pace.  Large
+boulders appear and nearly smash your raft into tiny pieces but you
+get lucky and continue on down the hillside in your boat.
+~
+320 0 0
+D5
+~
+~
+0 0 32038
+S
+#32038
+Over the Falls!~
+   You suddenly feel your boat falling underneath you!  In desperation
+you grab the side of the boat and fall with it.  You count a full 3 seconds
+before you finally hit the water again and breathe in a sigh of relief.
+But, alas, the water adventure is not yet finished.  The rapids continue
+on picking up more and more speed as the slope that the river is leading
+you down steepens.
+~
+320 0 7 6 -1
+D5
+~
+~
+0 0 32039
+S
+#32039
+Speeding through the Rapids~
+   You speed on down through hectic rapids and dodge rocks jutting
+up dangerously, as if they were trying to shetter you and your boat into
+splinters.  You hang onto your boat for dear-life as you race onwards
+down the river.
+~
+320 0 7 6 -1
+D2
+~
+~
+0 0 32040
+S
+#32040
+Racing Rapids~
+   You speed on your boat dodging the threatening boulders in the
+middle of the rapids and screaming past at an absurdly fast pace the
+trees abutting the sides of the river.  Suddenly you notice a deep roaring
+sound coming from the south not too far off.  You realize that you are
+will be going over another waterfall!  Up ahead you see the river 
+split into two parts.
+~
+320 h 7 6 -1
+D2
+~
+~
+0 0 32041
+S
+#32041
+Turn in the River~
+   A wall of rock suddenly seems to jut up from the water to the south,
+forcing the current to take you west.  The current seems to speed up here
+immensly.
+~
+320 0 0
+D3
+~
+~
+0 0 32042
+S
+#32042
+Downhill River~
+   You pull your boat just past the huge boulder into the safety of the
+river which is flowing a lot more gently now.  You can actually just sit
+there and watch the trees along the banks glide by peacefully.  Although
+the river is calm now, you cannot turn the raft around to go back.
+~
+320 0 0
+D2
+~
+~
+0 0 32044
+S
+#32043
+Downhill River~
+  You stre in horror as your raft is pulled south and over the falls
+You fall
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+..
+..
+..
+..
+.
+.
+.
+forever...  The water rushes up at you and you finally plunge into the
+ice cold water and feel your neck snap from the landing.  You cannot
+feel anything as a strange numbness envelopes yor body and you feel your
+lungs burst after you sink too far under the water...Your head screams 
+with pain as the pressure becomes unbearable and finally you watch as
+the last few bubbles rise up towards the surface then everything goes black
+And you die....
+~
+320 bfghs 7 6 -1
+S
+#32044
+Gentle Downhill River~
+  You glide down the river and look out to the south in the distance.
+You see a thick jungle with all sorts of life abounding within and overhead.
+It is quite loud with the chatter of the inhabitants even from here,
+hundreds of meters away.  In the background you hear the roar of a great
+waterfall, thundering like the hammers of Glasgian upon the breasts and
+skulls of the evil and tyrannous.
+~
+320 0 7 6 -1
+D2
+~
+~
+0 0 32045
+S
+#32045
+Turn in the River~
+   The river turns here to the east.  A great slab of rock turns the river
+to the east and the river seems to be picking up more and more speed again.
+You realize that all is well though.  Lookinng down river to the east you 
+see that you will be riding between the hillside that the river flowed down
+and the other side of the hill.  As if the river cut a gash horizontily
+through the hillside.  Far down the river you can see a large pool of water
+and land beyond that.
+~
+320 0 7 6 -1
+D1
+~
+~
+0 0 32046
+S
+#32046
+The Chute~
+   You are on a watery chute on the hillside.  You hang onto your boat
+and let the river take you down towards the pool at the end of the chute.
+~
+320 0 7 6 -1
+D1
+~
+~
+0 0 32047
+S
+#32047
+The Chute~
+   You plunge down the chute towards the pool coming up fast to the
+east.  The sides of the raft scrape along the rock walls of the water chute
+and bash you around, but you continue on down the perilous river.  The
+ground under the river suddenly gives away for a second as it becomes even
+steeper.
+~
+320 0 7 6 -1
+D5
+~
+~
+0 0 32048
+S
+#32048
+The Chute~
+   The chute levels out again and you continue on down towards the
+pool which is just up ahead now.  
+~
+320 0 7 6 -1
+D1
+~
+~
+0 0 32049
+S
+#32049
+End of the Chute~
+   You have finally come to the end of the chute and see the pool
+down about 5 feet below you.  The crystal water flows over the edge
+and spills into the pool...which you are about to do as well.
+~
+320 0 0
+D1
+~
+~
+0 0 32050
+S
+#32050
+Out of the Chute, Into the Pool~
+   You are thrown out of the chute into the air and then finally hit the
+water after about a second or two.  You skitter across the water for
+a few more seconds than finally float gently on the surface of the pool.
+To the north a grand waterfall spills into the pool a deafens everything.
+A large rock face rises up with the waterfall several hundred meters
+into the sky.  The waterfall with all its natural power truly makes you
+realize how insignificant you really are.  The pool stretches for about
+30 meters in all directions save east where the chute empties into the pool
+not too far away.
+~
+320 0 0
+D0
+~
+~
+0 0 32051
+D1
+~
+~
+0 0 32061
+D2
+~
+~
+0 0 32066
+D3
+~
+~
+0 0 32063
+S
+#32051
+Near the Waterfall~
+   You move your boat closer to the waterfall and can feel the spray
+as if the tiny droplets of water were spears cutting into you.  The force
+of the falls is a lot greater than anything else you have ever witnessed.
+You cannot go any further north without being crushed by the waterfall
+but you can go in any other direction.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32056
+D1
+~
+~
+0 0 32052
+D2
+~
+~
+0 0 32060
+D3
+~
+~
+0 0 32059
+S
+#32052
+On the Pool near the Waterfall~
+   The great waterfall is just to the north-west and it crashes down in 
+a watery glory into the pool.  You can go in any direction from here.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32053
+D2
+~
+~
+0 0 32061
+D3
+~
+~
+0 0 32051
+S
+#32053
+Near the Cliff Wall~
+   You are near the cliff wall which stretches up above you for hundreds
+of meters.  The thundering waterfall is close to the west but you are
+out of any danger of it crushing you to death.  You notice if you sail
+a bit further north you might be able to sail behind the waterfall.  
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32054
+D2
+~
+~
+0 0 32052
+D3
+~
+~
+0 0 32056
+S
+#32054
+Up Against the Cliff Wall~
+  You are up against the cliff wall and are perilously close to being
+smashed by the frothing waters against the it.  You can see that going 
+behind the waterfall will be difficult but do-able.  To the south and east
+the pool stretches on.
+~
+320 0 7 6 -1
+D2
+~
+~
+0 0 32053
+D3
+~
+~
+0 0 32055
+S
+#32055
+Behind the Waterfall~
+   Of course, there is a small cave just to the north set into the face
+of the cliff behind the falls.  Going south would be fatal and quite stupid
+unless you are so strong you can withstand millions of tons of water
+being dumped onto your noggin.  You can still get out of here by sailing
+west or east.
+~
+320 0 0
+D0
+~
+~
+0 0 32239
+D1
+~
+~
+0 0 32054
+D2
+~
+~
+0 0 32056
+D3
+~
+~
+0 0 32057
+S
+#32056
+Crushed by the Waterfall~
+   Damn!  You are one dumb bastard...not to mention dead too...
+You feel the crushing weight of the waterfall snap your head right off
+your shoulders and kill you instantly.  You try to remind yorself
+to never walk into a waterfall again but remember that you have no head
+to store that knowledge in...
+~
+320 b 0
+D0
+~
+~
+0 0 32055
+D1
+~
+~
+0 0 32053
+D2
+~
+~
+0 0 32051
+D3
+~
+~
+0 0 32058
+S
+#32057
+Up against the Cliff Walls~
+   You are perilously close to the walls and are lucky you havent been smashe
+to bits by the violent waters.  You think you may be able to go behind the
+falls to the east and are sure you can go back south or west towards the
+other side of the pool where you came out of the chute.
+~
+320 0 7 6 -1
+D1
+~
+~
+0 0 32055
+D2
+~
+~
+0 0 32058
+S
+#32058
+Near the Waterfall~
+  the waterfall is just to the east and you have to struggle hard to keep
+your boat from floating too close and getting smashed up.  To the north
+you will be very close to the cliff wall and to the south you will head towards
+the banks of the pool and to dry lnd.  If you go west you will be dangerously
+placed in a corner where the water churns and eddies violently.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32057
+D1
+~
+~
+0 0 32056
+D2
+~
+~
+0 0 32059
+D3
+~
+~
+0 0 32064
+S
+#32059
+On the Pool~
+   The great waterfall is just to the northeast and you feel the sting
+of the spray as it hits you full force in the face.  A white mist of
+water hovers in the air.  To the north you will be getting closer to
+the cliff wall.
+~
+320 0 0
+D0
+~
+~
+0 0 32058
+D1
+~
+~
+0 0 32051
+S
+#32060
+Center of the Pool~
+   You are floating on almost the exact center of the pool.  To the north
+the waterfall plunges into the pool, churning the water about it violently.
+To the south, you spy the banks of the pool and dry land.  To the west and
+east the pool stretches on.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32051
+D1
+~
+~
+0 0 32061
+D2
+~
+~
+0 0 32066
+D3
+~
+~
+0 0 32063
+E
+water~
+The water is crystal clear and you can see the sandy bottom of the pool 
+through it.
+~
+S
+#32061
+On the Pool~
+   The water of the pool is crystal clear and is very cold.  To the south
+are the banks of the pool and with them dry land.  To the northwest is
+a great waterfall pouring millions of tons of water into the large pool
+you are floating on.
+~
+320 0 0
+D0
+~
+~
+0 0 32052
+D1
+~
+~
+0 0 32062
+D2
+~
+~
+0 0 32067
+D3
+~
+~
+0 0 32060
+S
+#32062
+Near the Cliff Walls~
+   To the north as well as to the east are large, towering cliff walls.
+You can only head back west to the center of the pond or south to the banks
+of the pool.
+~
+320 0 0
+D2
+~
+~
+0 0 32068
+D3
+~
+~
+0 0 32061
+S
+#32063
+On the Pool~
+   You float on the pool listening to the deafening roar of the waterfall
+to the northeast.  To the west you can see the cliff walls rise out of
+the pool and high into the sky.  A large gap in the cliff wall pours out
+water from the chute into the pool.  To the south you can float towards the
+banks of the pool and to dry land.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32064
+D1
+~
+~
+0 0 32060
+D2
+~
+~
+0 0 32072
+D3
+~
+~
+0 0 32065
+S
+#32064
+Near the Cliff Walls~
+   You are right in the corner of the western cliff wall and the northern
+wall.  The water splashes around here and threatens to smash you against
+the walls with every toss of your boat.  You can get into safer water to
+the south and east.
+~
+320 0 0
+D1
+~
+~
+0 0 32058
+D2
+~
+~
+0 0 32063
+S
+#32065
+Under the Chute~
+  Cold water pours onto your head from the chute above you.  Thankfully
+the water coming from the chute is nowhere near as forceful as the the
+harsh waterfall or you may not have a head by now.  You can still go back
+east towards the center of the pool but west is blocked by a rocky wall.
+To the south you can almost reach dry land again.
+~
+320 0 7 6 -1
+D1
+~
+~
+0 0 32063
+D2
+~
+~
+0 0 32073
+S
+#32066
+On the Pool~
+   You are floating somewhat near the center of the pool.  To the north
+is a great waterfall spilling its wet weight into the pool.  To the east,
+south and west you will be heading towards the banks of the pool.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32060
+D1
+~
+~
+0 0 32067
+D2
+~
+~
+0 0 32070
+D3
+~
+~
+0 0 32072
+S
+#32067
+On the Pool~
+   You float on the pool with the waterfall to the northwest.  The banks
+of the pool are close to the south and east.  To the west you will be closer to
+the center of the pool.  The water is a crystal clear mirror reflecting the
+sky above.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32061
+D1
+~
+~
+0 0 32068
+D2
+~
+~
+0 0 32069
+D3
+~
+~
+0 0 32066
+S
+#32068
+Near the East Bank on the Pool~
+   Just to the east is the east bank of the pool.  Across the pool to the
+northwest is the great waterfall which deafens all sound about you.
+You can head back west towards the center of the pool.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32062
+D3
+~
+~
+0 0 32067
+S
+#32069
+Near the Bank on the Pool~
+   Just to the south and east is dry land.  To the northwest is the raging
+waterfall, pouring its wet bounty in the pool you float upon.  The water
+sparkles with a blueish glow and if you look at it hard enough you can see
+all the way down to the bottom which is about 20 feet below.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32067
+D3
+~
+~
+0 0 32070
+S
+#32070
+On the Shimmering Pool~
+   The pool shimmers and sparkles with a blueish glow.  A large, roaring
+waterfall is to the north and dry land is to the south.  The pool stretches
+off in all other direction.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32066
+D1
+~
+~
+0 0 32069
+D2
+~
+~
+0 0 32074
+D3
+~
+~
+0 0 32071
+S
+#32071
+On the Pool, Near the Banks~
+   You float near the banks of the pool which are directly to the south.
+To the west is a large rock walls.  To the north, set within the wall
+is a gap with water spewing from it.  To the northeast a large waterfall
+spills into the pool.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32072
+D1
+~
+~
+0 0 32070
+S
+#32072
+On the Shimmering Pool~
+   You are just southwest of the center of the pool.  The thunder of the
+waterfall deafens all sound.  To the south you will float closer to the
+banks of the pool and to the west you will be near the cliff wall from
+which a fountain of water spews forth from a small chute cut into the
+rock.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32063
+D1
+~
+~
+0 0 32066
+D2
+~
+~
+0 0 32071
+D3
+~
+~
+0 0 32073
+S
+#32073
+South of the Chute on the Shimmering Pool~
+   Directly to the north a stream of water shoots out from a gap in the
+rock cliff just to the west of you.  To the east the pool stretches on
+and to the south you will be on dry land again.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32065
+D1
+~
+~
+0 0 32072
+S
+#32074
+Near the Edge of the Pool~
+  Just to the south are the banks of the shimmering pool.  If you go
+directly north you will be getting closer to the great waterfall pouring
+into the pool.  Reeds and slime cover the edges of the dry land making
+it a messy landing on the banks if you choose to land there.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32070
+S
+#32075
+Deep in the Serdim-ir-Lesk Waters~
+   The water creeps up to your neck and you violently rip leeches off
+your neck and arms as they try to get at your frsh blood.  Your feet sink
+down into the muddy bottm of the swamp...  There is a patch of grass that
+has grown to an outrageous height to the west.  From the north you sense
+a strange presence nearby.  All passage to the south is blocked by an
+uprooted tree with sharp, twisted branches poking through the mist.
+~
+320 a 5
+D0
+~
+~
+0 0 32077
+D2
+~
+~
+0 0 3102
+D3
+~
+~
+0 0 32036
+S
+#32076
+Waist Deep in Mud~
+   The mud slops around you and tugs at you from beneath your feet.
+Mist swirls about you and you get the feeling that maybe the swamp is
+alive and struggling to keep you from something...you dare not guess
+at what it may be.
+~
+320 a 5
+D1
+~
+~
+0 0 32077
+D2
+~
+~
+0 0 32036
+S
+#32077
+Deep Water in the Swamp~
+   The muddy water is up to your neck and you try to stand on your toes
+to keep breathing air and not mud.  Suddenly you feel something brush 
+past your leg but cannot for the life of you find out what it was.  There
+is a strange smell coming from the east and the swamp water is still deep
+to the south.
+~
+320 a 5
+D0
+~
+~
+0 0 32096
+D1
+~
+~
+0 0 32078
+D2
+~
+~
+0 0 32075
+D3
+~
+~
+0 0 32076
+S
+#32078
+On dry land~
+   You are on dry land once again and take the chance to let yourself
+dry out.  But it is a bit hard since the mist is almost as wet as the
+swamp water and drenches you further.  There is an extremely large tree
+to the south.  The trunk looks to be about 15 - 20 feet in diameter
+and long, gnarled branches dripping with slime sag down with the weight
+of the water within the bark.  Large roots carve the soft ground and
+force you to go around them, making travel tough.  You will have to go
+out of your way to get to the other side of the tree.  
+~
+320 0 0
+D1
+~
+~
+0 0 32079
+D3
+~
+~
+0 0 32077
+E
+tree large trunk~
+   You take a closer look at the tree and see that something that looks
+a lot like smoke seeping from a small knothole as if a fire was burning 
+inside the massive tree.  Then you notice it...the smell of food cooking!
+Your stomach growls instinctively and you follow the smell to the knothole
+and figure something must be cooking inside the tree!  How strange and
+wonderful.
+~
+S
+#32079
+Northeast of the Big Tree on Dry Land~
+   You seem to be on a small island in the Serdim-ir-Lesk Swamp with dry
+land all about you.  A few trees poke through the fog and one very large
+tree stands to the southwest.  Suddenly you trip over a huge root that
+has grown up throught the soft soil and sits abouy 3 feet above ground.
+This swamp is truly a stange place.
+~
+320 a 3
+D2
+~
+~
+0 0 32080
+D3
+~
+~
+0 0 32078
+S
+#32080
+East of the Tree on Dry Land~
+   Large mushrooms grow along the perimeter of the massive trunk of
+the tree standing to the west.  Astonished, you realize that between
+two large mushrooms lies a small red door set into the face of the tree.
+You wonder what could possibly live in such a decadent place as this swamp,
+not mention inside a tree...
+~
+320 a 3
+D0
+~
+~
+0 0 32079
+D1
+~
+~
+0 0 32084
+D3
+~
+door red~
+1 -1 32081
+E
+door red~
+There are some words carved into the wooden door:
+
+          HOME OF THYET WELTINELF
+          ***********************
+
+And under that:
+
+    All are welcome that bear with them Peace and Tranquility
+~
+S
+#32081
+Inside the Tree~
+   You are standing inside the doorway of a huge tree.  The walls of the
+tree are smooth and waxed down.  There is a small spiral stairway leading
+up and down from here curving around with the shape of the tree.  A small
+door painted red is set into the east wall.
+~
+320 df 0
+D1
+~
+door red~
+1 -1 32080
+D4
+~
+~
+0 0 32082
+D5
+~
+~
+0 0 32083
+S
+#32082
+The Bedroom~
+   You have enetered a bedroom with a rather short bed under a small
+glass paned window with white curtains hanging along the sides.  A stair-
+case with a black, cast-iron railing leading down abutts the southern
+wall of the tree.  The stairway curves down with the shape of the tree
+to the entrance of this very humble abode.  
+~
+320 d 0
+D5
+~
+~
+0 0 32081
+E
+window~
+Funny, you dont remember seeing a window from the outside of the tree
+at all...Then you notice that it isnt a window at all!  Merely a very
+well drawn picture...how strange...You move the picture to one side
+and see what appears to be a safe.  There are no keyholes on it however.
+Your curiosity has been sparked.
+~
+S
+#32083
+The Small Study within the Tree~
+   You are in a small round shaped room with a black, cast-iron staircase
+spiraling along the walls of the tree on the northern side of the room.
+Book shelves adorn each of the other walls with a small ladder attached
+to the edge of the book shelf for easier access to the books higher up.
+A fireplace crackles between two shelves of books along the southern wall
+and a large velvet chair sits in front of it making the room very comfy.
+You see pipe smoke rising from the other side of the chair facing the fireplace.
+~
+320 r 0
+D4
+~
+~
+0 0 32081
+E
+books~
+There must be over a thousand books on the many shelves.  Most are old
+and well-read but seem to be in impecable condition even so.
+~
+S
+#32084
+On a small path~
+   You are on a small path with a tiny white fence on either side of the
+path.  Further along the path to the east you see a rather large archway
+over a gate which leads you think into some kind of garden.  To the west
+is an extremely big tree.  You think you can smell smoke coming from that
+direction as well.
+~
+320 0 0
+D1
+~
+~
+0 0 32085
+D3
+~
+~
+0 0 32080
+S
+#32085
+Along the Fenced Path~
+   A small white fence adorns both sides of the path leading you either
+east, towards what seems to be a garden of some kind or west towards a
+great tree with a small red door fixed into the side of the trunk.
+The path is well travelled and small footprints are visible in the wet dirt.
+~
+320 0 0
+D1
+~
+~
+0 0 32086
+D3
+~
+~
+0 0 32084
+S
+#32086
+Before the Gate~
+   You stand underneath a large stone archway with an iron gate hinged to the
+stones.  It has been carelessly left open so you will have no problem 
+exploring whatever lies beyond the archway.  A small path leads west towards
+a large tree.
+~
+320 0 1
+D1
+~
+gate~
+1 -1 32087
+D3
+~
+~
+0 0 32085
+E
+gate~
+There is a small sign on the gate which reads:
+
+               THE MUSHROOM GARDEN OF THYET WELTINELF
+                          **************
+                          * KEEP OUT!! *
+                          **************
+~
+S
+#32087
+In the Mushroom Garden~
+   You are standing next to the entrance in a small garden of mushrooms.
+All sorts of mushrooms grow all about you.  To the north you see an extremely
+large mushroom.  To the east is all different colored mushrooms and to the
+south you can hear a whispering sound.
+~
+320 0 2
+D0
+~
+~
+0 0 32088
+D1
+~
+~
+0 0 32095
+D2
+~
+~
+0 0 32094
+D3
+~
+gate~
+1 -1 32086
+S
+#32088
+In the Mushroom Garden~
+   You are near some giant mushrooms.  They give off a really pungent
+odor that makes you a little dizzy.  To the south you can see the entrance
+to the garden and to the east is more giant mushrooms.
+~
+320 0 2
+D1
+~
+~
+0 0 32089
+D2
+~
+~
+0 0 32087
+S
+#32089
+The Mushroom Garden~
+   Giant mushrooms are all about you.  Their great 'hats' droop down low
+and give off a horrible smell.  You think you might pass out.  To the south
+you can see mushrooms of every color of the rainbow.  to the east and west
+are giant mushrooms.
+~
+320 0 2
+D1
+~
+~
+0 0 32090
+D2
+~
+~
+0 0 32095
+D3
+~
+~
+0 0 32088
+S
+#32090
+The Mushroom Garden~
+   A large stone wall blocks all passage to the north leaving you locked
+within the mushroom garden where you are not quite sure you are safe.  Giant
+mushrooms stand all about you with their fungus hats drooping low.  To the
+south are tiny, multicolored mushrooms with round hats on top of the small stak.
+~
+320 0 0
+D2
+~
+~
+0 0 32091
+D3
+~
+~
+0 0 32089
+S
+#32091
+The Mushroom Garden~
+   A high stone wall stands to the east.  You are surrounded by hundreds
+of tiny, multicolored mushrooms.  To the north you see some very large mush-
+rooms and to the south you here a faint singing.
+~
+320 0 0
+D0
+~
+~
+0 0 32090
+D2
+~
+~
+0 0 32092
+D3
+~
+~
+0 0 32095
+S
+#32092
+The Mushroom Garden~
+   You are amazed to see only one medium sized mushroom with a small
+steel-wire fence around it.  It has a small openning in the center of the
+mushroom cap where a strange sound seems to be singing a soft, doleful melody.
+You see the same thing to the west and to the north you see many tiny multi-
+colored mushrooms on the ground.  A thich stone wall stands to the east
+blocking any intruders or exit.
+~
+320 0 2
+D0
+~
+~
+0 0 32091
+D3
+~
+~
+0 0 32093
+S
+#32093
+The Mushroom Garden~
+   You are in the southern section of the mushroom garden with a large
+stone wall standing to the south.  There is a single mushroom here fenced
+in with a steel-wire circling it.  From a small hole in the cap of the
+mushroom you can hear a strange melody being sung.  You feel very disturbed
+by the voice which sings no actual words, except you think you hear your name
+within the melody.
+~
+320 0 0
+D0
+~
+~
+0 0 32095
+D1
+~
+~
+0 0 32092
+D3
+~
+~
+0 0 32094
+S
+#32094
+The Mushroom Garden~
+   You stand with a small mushroom encircled by a small wire fence.  From
+the cap of the mushroom you can faintly hear a voice singing.  With wonder,
+you move closer to hear the strange song.  It seems to be singing a song
+with no words but in your heart you feel it touch you strongly.  The feeling
+you have is unexplainable but you know it makes you sad.  To the north you
+can see the archway to the garden.  To the east you see the another lone
+mushroom and think yo ucan hear more music from it as well.
+~
+320 0 0
+D0
+~
+~
+0 0 32087
+D1
+~
+~
+0 0 32093
+S
+#32095
+The Center of the Mushroom Garden~
+   You stand at the center of the mushroom garden with a large archway
+providing entrance to the garden to the west.  To the north you can see
+large silent mushrooms standing in the mist and to the south you can see
+or rather hear a doleful voice singing.  There is a large white, marble
+statue here.
+~
+320 0 0
+D0
+~
+~
+0 0 32089
+D1
+~
+~
+0 0 32091
+D2
+~
+~
+0 0 32093
+D3
+~
+~
+0 0 32087
+E
+statue~
+   The statue is a depiction of a tall valiant elf with a broken short
+sword raised high in his right hand and a torn scroll in his left hand.
+His eyes stare off into the distance as if he is looking or waiting for
+something.
+~
+S
+#32096
+A small island~
+   You stand upon a small island covered in slick fungus.  A few twigs
+dot the ground, the last remnants of a tree.  To the north is back to the water
+and south the same.  To the east you can smell death.  All passage is blocked
+by a large boulder about 10 feet high above water.
+~
+320 0 2
+D0
+~
+~
+0 0 32098
+D1
+~
+~
+0 0 32097
+D2
+~
+~
+0 0 32077
+S
+#32097
+A small island~
+   You stand upon the eastern edge of a small island in the Serdim-ir-Lesk.
+There is a large pile of bones that has been made into some sort of monolith
+protruding from the soft ground here.  The island is covered in a slimey
+moss causing you to slip and almost fall down several times.
+~
+320 0 0
+D0
+~
+~
+0 0 32099
+D3
+~
+~
+0 0 32096
+E
+bones monolith~
+   The bones have been arranged into a cylindrical shape with two long
+bones in the shape of a 'T' at the top of it.  You have no idea what
+the monoloth could mean except that it is horrifying.
+~
+S
+#32098
+A muddy pool~
+   You are on the southern edge of a pool of mud.  To the south is
+a small moss covered island.  Trees encircle the pool a few meters off
+to the north and west and a small path leads off between the trees
+near the eastern edge of the pool.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32103
+D1
+~
+~
+0 0 32099
+D2
+~
+~
+0 0 32096
+D3
+~
+~
+0 0 32106
+S
+#32099
+On the pool~
+   You are on a good size pool surrounded by trees in the Serdim-ir-Lesk.
+You think you feel something brush past the boat underwater.  The surface
+of the pool is disturbed only by you.  Over to the east you think you can
+see a small path leading off between thick foliage.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32102
+D1
+~
+~
+0 0 32100
+D2
+~
+~
+0 0 32097
+D3
+~
+~
+0 0 32098
+S
+#32100
+On the Pool~
+   You are floating on a large pool in the Serdim-ir-Lesk Swamp.  The water
+is completely stagnant save for a few ripples created by your boat.  There
+is a large clumb of bushes blocking all passage to the west but to the
+north there is a small openning in the foliage where something has made
+a path.  The pool stretches off in all other directions except south which
+is blocked off by the same bushes as the ones blocking east.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32101
+D3
+~
+~
+0 0 32099
+S
+#32101
+On the Stagnant Pool~
+   You are floating on a pungent pool which seems to be more mud than
+water.  Trees and dense foliage surround the pool save for a small island
+in the southwestern section of the pool and a small openning in the brush
+to the east of here.  The pool stretches on to the west and north from here.
+~
+320 ag 7 6 -1
+D0
+~
+~
+0 0 32120
+D1
+~
+~
+0 0 32121
+D2
+~
+~
+0 0 32100
+D3
+~
+~
+0 0 32102
+S
+#32102
+On the Pool~
+   You are on a pool surrounded by trees and dense, wet foliage.  The fog
+seems to rise off the water like steam from a boiling pot.  A sudden
+croaking of a toad breaks the silence almost startling you off the boat.
+The pool stretches on in all directions.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32110
+D1
+~
+~
+0 0 32101
+D2
+~
+~
+0 0 32099
+D3
+~
+~
+0 0 32103
+S
+#32103
+The Stagnant Pool~
+   The pool is dark, muddy and obscenely silent.  You can hear nothing.
+Branches poke up and break the surface here from some sunken tree underwater.
+The pool is surrounded by dense foliage which will make passage impossible
+further north and west on the pool.  You can barely make out a small island
+just a little ways to the south.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32109
+D1
+~
+~
+0 0 32102
+D2
+~
+~
+0 0 32098
+D3
+~
+~
+0 0 32104
+S
+#32104
+On the Pool~
+   The pool is pale, the color of yellow mud.  You think you see a light
+bobbing in and out between trees somewhere far off to the east.  There
+is thick foliage and trees surrounding the pool in all directions save south
+where a small island has grown from the wet bowels of the Serdim-ir-Lesk.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32108
+D1
+~
+~
+0 0 32103
+D2
+~
+~
+0 0 32106
+D3
+~
+~
+0 0 32105
+S
+#32105
+On the Western Edge of the Pool~
+   Dark, forboding trees with long branches sagging into the pool
+from the weight of the water held inside block passage to the west.
+The pool stretches off to the east and north.  A large pile of boulders
+makes travel to the south impossible.
+~
+320 0 7 6 -1
+D0
+~
+~
+0 0 32107
+D1
+~
+~
+0 0 32104
+S
+#32106
+On the Pool~
+   You are on the southern edge of the pool with dark, sagging trees
+to the south and west.  The pool stretches off to the north and east 
+through the wet, white mist.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32104
+D1
+~
+~
+0 0 32098
+S
+#32107
+On the dark pool~
+   You are floating on a dark pool surrounded by trees to the north
+and west and the pungent pool on the other sides.  The water is murky
+and viscous causing your boat to slide over the surface with labor but 
+almost not a single ripple is stirred.
+
+~
+320 a 7 6 -1
+D1
+~
+~
+0 0 32108
+D2
+~
+~
+0 0 32105
+S
+#32108
+On the Pool~
+   Dark trees with sagging branches reach out at you through the thick
+mist to the north.  The muddy pool you are on stretches off in all other
+directions.  Steam rises off the warm pool and mixes with the cold mists
+in the swamp air.
+~
+320 a 7 6 -1
+D1
+~
+~
+0 0 32109
+D2
+~
+~
+0 0 32104
+D3
+~
+~
+0 0 32107
+S
+#32109
+On the Pool~
+   You stare down at the unmoving water and think you see a dark, undefined
+shape pass under the boat.  But nothing happens except for a faint rustling
+of the wet grass in the thick foliage to the north.  You think you can see
+a small island off a ways to the south, but you cannot be sure if the mist
+and strange shadows are playing tricks on your eyes.
+~
+320 a 7 6 -1
+D1
+~
+~
+0 0 32110
+D2
+~
+~
+0 0 32103
+D3
+~
+~
+0 0 32108
+S
+#32110
+On the Dark Pool~
+   You think somewhere off to the east a lantern flicks on then quickly
+is extinguished.  But you can never be sure what is real and what is not
+when you are in the Serdim-ir-Lesk.  A bubble suddenly breaks the surface
+of the pool and releases a strange, pungent odor.  You suddenly remember
+a story of how a group adventurers were killed by the strange gasses emitted
+by a swamp.  Maybe this place isn't so safe.
+~
+320 a 7 6 -1
+D1
+~
+~
+0 0 32120
+D2
+~
+~
+0 0 32102
+D3
+~
+~
+0 0 32109
+S
+#32111
+The Arena~
+   You stand in a large arena.  Every sound echoes hallowly.  This is a
+place where great battles are held one on one.  You think you can even
+hear the echoes of past fights from long ago ring in your ears.
+~
+320 cf 0
+D0
+~
+~
+0 0 32112
+D1
+~
+~
+0 0 32113
+D2
+~
+~
+0 0 32114
+D3
+~
+~
+0 0 32115
+S
+#32112
+The Arena~
+   You are in the arena where many a battle has taken place between two
+champions.  There is a tall wall directly to the north blocking all passage.
+The arena stretches off in all other directions.
+~
+320 f 0
+D1
+~
+~
+0 0 32119
+D2
+~
+~
+0 0 32111
+D3
+~
+~
+0 0 32116
+S
+#32113
+The Arena~
+   You stand in a vast arena.  There is a tall marble wall standing to the
+west.  All other directions are open to passage.
+~
+320 f 0
+D0
+~
+~
+0 0 32119
+D2
+~
+~
+0 0 32118
+D3
+~
+~
+0 0 32111
+S
+#32114
+The Arena~
+   you stand in vast arena with the echoes of past battles ringing in
+your ears.  In the hall, many a champion has been decided.  There is
+a large marble wall to the south but you can go in any of the other 
+directions.
+~
+320 f 1
+D0
+~
+~
+0 0 32111
+D1
+~
+~
+0 0 32118
+D3
+~
+~
+0 0 32117
+S
+#32115
+The Arena~
+   You stand in a large arena.  There are blood stains on the wall to
+the west that are dried and crusting.  Far off to the east you can see
+the other wall and to the north and south are corners in the arena.
+~
+320 f 0
+D0
+~
+~
+0 0 32116
+D1
+~
+~
+0 0 32111
+D2
+~
+~
+0 0 32117
+S
+#32116
+Northwest Corner of the Arena~
+   The northwestern corner of the arena is here.  You footsteps echo
+off the wall and head off southeast.  Hanging in the corner of the ceiling
+and walls you see a large banner in tatters.
+~
+320 0 0
+D1
+~
+~
+0 0 32112
+D2
+~
+~
+0 0 32115
+S
+#32117
+Southwest Corner in the Arena~
+   You are in the southwest corner of the arena.  A large white banner
+hangs from the ceiling.  You can go east or north.
+~
+320 f 1
+D0
+~
+~
+0 0 32115
+D1
+~
+~
+0 0 32114
+S
+#32118
+Southeast Corner in the Arena~
+   You stand in the southeastern corner of the arena.  You accidently
+step in a half dried pool of blue blood which lies on the floor next to
+a heavy red banner hanging from the ceiling.
+~
+320 f 1
+D0
+~
+~
+0 0 32113
+D3
+~
+~
+0 0 32114
+S
+#32119
+Northeast Corner of the Arena~
+   You stand in the northeast corner of the arena with a long, heavy
+banner hanging from the ceiling nearby.  There are exits to the west
+and south.
+~
+320 0 0
+D2
+~
+~
+0 0 32113
+D3
+~
+~
+0 0 32112
+S
+#32120
+On the Swampy Pool~
+   The pool's murky waters stretch off south and west.  There is a sudden
+'PLOP' as one of the Serdim-ir-Lesk's inhabitants jumps into the water
+nearby.  You can hear the faint creaking of crickets and on rare occasions
+a bird chirp.  Other than that it is silent.
+~
+320 ag 7 6 -1
+D2
+~
+~
+0 0 32101
+D3
+~
+~
+0 0 32110
+S
+#32121
+A small path~
+   The path is small and very thin allowing only one person to go at
+a time.  You hear a bird call in the distance, but you are unsure due to
+the mysterious Serdim-ir-Lesk's acoustics which direction the bird call
+originated from.  The path leads through the dense foliage to the east
+and there is a pool to the west with steam rising from the surface.
+~
+320 aci 3
+D1
+~
+~
+0 0 32122
+D3
+~
+~
+0 0 32101
+S
+#32122
+The small path~
+   You are on a small path leading through brambles, trees, and strange,
+leafless plants.  Nothing seems to have leaves here.  It is just a trail
+through dead, barkless wood.  To the east you think the path may take
+a short turn to the north and west leads towards a pool.
+~
+320 aci 3
+D1
+~
+~
+0 0 32123
+D3
+~
+~
+0 0 32121
+S
+#32123
+Turn in the small path~
+   The trees and foliage grow thicker to the east forcing the path to turn
+north.  To the west you can see the path lead back through darkness.
+The long wet fingers of the tree seem to be reaching for you as they snag 
+your hair and clothes.  A low whistle sounds, breaking the silence - it
+sounds neither human nor birdlike.
+~
+320 acgi 3
+D0
+~
+~
+0 0 32124
+D3
+~
+~
+0 0 32122
+S
+#32124
+Small, Dark Path~
+   The small dark path winds through the black, wet trees through the
+Serdim-ir-Lesk.  Everything is silent but you think that something may
+be watching you.  The path leads north towards the unknown and south to
+a turn in the path.
+~
+320 acgi 3
+D0
+~
+~
+0 0 32125
+D2
+~
+~
+0 0 32123
+S
+#32125
+The small, dark path~
+   The path slips gracefully between the barkless trees with branches 
+dripping from the wet fog all around you.  Everything is invisible
+but you think you can smell something different here, something alive.
+~
+320 acgi 3
+D0
+~
+~
+0 0 32126
+D2
+~
+~
+0 0 32124
+S
+#32126
+The small dark path~
+   The path turns sharply to the east you realize after almost spearing
+your eye twice by running into the foliage hidden by the thick mist.
+You believe someone may be cooking or something may be burning nearby.
+~
+320 acgi 3
+D1
+~
+~
+0 0 32127
+D2
+~
+~
+0 0 32125
+S
+#32127
+The small path~
+   The trees reach out and pull at you and the roots lying across the
+narrow path seem to jut out of the ground as you walk over them, trying
+to trip you up.  A sudden chill runs down your spine and the mist seems to
+get thicker suddenly.
+~
+320 acgi 3
+D1
+~
+~
+0 0 32128
+D3
+~
+~
+0 0 32126
+S
+#32128
+Path through Serdim-ir-Lesk~
+   The path leads between trees whose branches scrape and scratch you
+as you travel along.  The path leads east and west.  The conditions
+of thick fog, cold, sword-like branches, and the dampness of the air
+makes continuing very hard.
+~
+320 acgi 5
+D1
+~
+~
+0 0 32129
+D3
+~
+~
+0 0 32127
+S
+#32129
+The dark path~
+   The path continues to the east and west through the unyeilding darkness.
+Tree branches scrape you as you wander on blinded by the thick, grey mist.
+~
+320 0 0
+D1
+~
+~
+0 0 32130
+D3
+~
+~
+0 0 32128
+S
+#32130
+The thin, dark path~
+   The path becomes even thinner here.  To the west you can see the path
+widen a little.  To the east there is nothing but the shadows of the trees
+and their piercing branches jutting across the trail.  A thick wall of
+fog surrounds you making it impossible to see anything but the trees
+and trail that are in your immediate area.
+~
+320 acgi 5
+D1
+~
+~
+0 0 32131
+D3
+~
+~
+0 0 32129
+S
+#32131
+Turn in the small, dark path~
+   The path suddenly turns south here.  A large boulder prevents safe
+passage to the east.  You begin to think that this path leads nowhere.
+to the west the path leads on through darkness.
+~
+320 acgi 5
+D2
+~
+~
+0 0 32132
+D3
+~
+~
+0 0 32130
+S
+#32132
+Turn in the path~
+   The path turns north and east here.  Both directions are dark and
+nothing can be heard nor does any smell bring any more information.
+But you think you may have heard a muffled voice coming from the east.
+~
+320 acgi 5
+D0
+~
+~
+0 0 32131
+D1
+~
+~
+0 0 32133
+S
+#32133
+The small, dark path~
+   The path seems to be coming to an end as the trees become less crowded
+and a little more light lets you gather your surroundings.  The path
+leads east and west and to the north is a large pile of boulders blocking
+any passage in that direction.
+~
+320 acgi 5
+D1
+~
+~
+0 0 32135
+D3
+~
+~
+0 0 32132
+S
+#32134
+The Western Waypost~
+   You have stumbled blindly into what seems to be some kind of Waypost.
+A small wooden fortress stands directly in the middle of the trail.  There
+is an arching passage way between the ramparted waypost.  Several guards
+look up at you in suprise and rush over to question you.
+~
+320 g 0
+D1
+~
+~
+0 0 32135
+D3
+~
+~
+0 0 32133
+E
+waypost guard~
+The waypost is made up of two 10 foot towers built from wood.  There is a 
+ramparted walkway connecting the two towers that spans across the trail
+you are standing on.  You don't see any way of getting up into the tower
+and the guards don't look like they'll be too keen on letting you up there.
+~
+S
+#32135
+The Thin, Rope Bridge~
+   A valley of trees and mists opens up under you as you look out from
+the rope bridge.  The bridge shakes violently suddenly as a gust of
+wind threatens to send you and the bridge careening into the valley.
+The bridge spans across the valley to the steep ridge on the eastern
+edge and is connected nearby to two large trees just to the east.
+~
+320 p 1
+D0
+~
+~
+0 0 32150
+D1
+~
+~
+0 0 32136
+D2
+~
+~
+0 0 32151
+D3
+~
+~
+0 0 32133
+S
+#32136
+The Rope Bridge~
+   The rope bridge spans the misty swamp valley below you.  You can barely
+see through the fog that about 50 meters to the east, the rope bridge is
+fastened to two large stumps and the same to the west not too far away.
+~
+320 p 1
+D1
+~
+~
+0 0 32137
+D3
+~
+~
+0 0 32135
+S
+#32137
+The Rope Bridge~
+   The rope bridge is fastened at each end to two very large trees.  The
+bridge, aside from the shakiness of it, seems to be very sturdy, capable
+of withstanding great weight.  Below you can see a large valley stretch
+off in an oval shape to the north and south.  
+~
+320 p 1
+D1
+~
+~
+0 0 32138
+D3
+~
+~
+0 0 32136
+S
+#32138
+The Rope Bridge~
+   You are at the eastern end of the rope bridge.  A mist covered valley
+is a few hundred feet below you.  It seems to be breathing but you realize
+that the seeming motion of the valley is the sweeping sway of the rope
+bridge in the wind.  To the east you will be on land again and if you go
+west you will be near the middle of the rope bridge.
+~
+320 p 1
+D1
+~
+~
+0 0 32139
+D3
+~
+~
+0 0 32137
+S
+#32139
+The Eastern Side of the Rope Bridge~
+   You are standing near the eastern edge of a large valley stretching
+out north and south below you.  Mists cover the valley like a thick,
+grey blanket.  A long rope bridge, fastened to two large stumps to either
+side of you spans across the valley to the west.
+~
+320 cp 2
+D0
+~
+~
+0 0 32140
+D1
+~
+~
+0 0 32194
+D2
+~
+~
+0 0 32154
+D3
+~
+~
+0 0 32138
+S
+#32140
+The Eastern Rim of the Valley~
+   You are standing atop a steep bluff leading down into a mist covered
+valley.  To the south you can see a rope bridge which spans west across
+the valley.  Large trees stand to your east, they are tall and seem to
+have grown so close together that they form a wooden wall.  Everything
+seems to be pretty dark within the trees from what you can see.  To the
+north the small path around the valley continues precariously close to
+the steep bluff of the valley.
+~
+320 cp 2
+D0
+~
+~
+0 0 32141
+D2
+~
+~
+0 0 32139
+S
+#32141
+Eastern rim Overlooking the Valley~
+   The valley is below down a steep, rocky bluff.  A small trail leads
+around the rim of the valley to the north and south.
+~
+320 cp 0
+D0
+~
+~
+0 0 32142
+D2
+~
+~
+0 0 32140
+S
+#32142
+The Eastern Rim of the Valley~
+   You are hugging the large trees enclosing the valley like a large
+wooden wall along the rim.  Steep bluffs lead down into the mist covered
+valley below.  To the north is the northeastern section of the rim around
+the valley and to the south the small trail leads on abutting the bluffs.
+~
+320 cp 2
+D0
+~
+~
+0 0 32143
+D2
+~
+~
+0 0 32141
+S
+#32143
+North-Eastern Edge of the Rim~
+   To the south and west the valley stretches on with a thick layer of
+fog hovering over it like impending doom.  A small trail leads down
+into the valley here.  It is a little less steep then the surrounding
+bluff and can take you into the mysterious valley below.
+~
+320 cp 2
+D2
+~
+~
+0 0 32142
+D3
+~
+~
+0 0 32144
+D5
+~
+~
+0 0 32166
+S
+#32144
+Northern Rim Overlooking the Valley~
+   The small trail leads around the valley blanketed by mist and darkness
+below.  A dense forest is to the north; the trees have so close together
+the smallest halfling would probably not be able to squeeze in.  To the
+east you think you can see a small trail leading down into the valley and
+to the west the trail leads along the northern rim of the valley.  
+~
+320 cp 2
+D1
+~
+~
+0 0 32143
+D3
+~
+~
+0 0 32145
+S
+#32145
+The Northern rim of the Valley~
+   The fog covered valley is below you stretching off south. A small,
+rope bridge sways slowly far off in the distance, high above the valley
+spanning across it.  Dense foliage prevents passage to the north allowing
+you to only go east or west.
+~
+320 cp 2
+D1
+~
+~
+0 0 32144
+D3
+~
+~
+0 0 32146
+S
+#32146
+The Northern rim Overlooking the Valley~
+   Large trees stand to the north like a wall allowing you to only go east
+or west along the rim overlooking the valley.  A steep bluff leads down into
+the valley but it is so steep you'd probably break your neck on the way down.
+You are forced to stay on the trail around the valley.  Thick fog covers
+everything below you preventing you from seeing what lies waiting down there.
+~
+320 cp 2
+D1
+~
+~
+0 0 32145
+D3
+~
+~
+0 0 32147
+S
+#32147
+Northwestern Edge of the Rim~
+   Tall, dense forest stands like wall to the north and west.  To the east
+runs a small trail along the steep bluffs leading down into the valley.
+The look like they would be very impossible to climb down even for a skilled
+mountaineer.  But suddenly you notice that there are faded footsteps leading
+down here into the valley.  Under further investigation you realize that it
+would not be too hard to get into the valley from here as the bluffs are not
+very steep here.  To the south the trail leads along the western rim of the
+valley.
+~
+320 cp 2
+D1
+~
+~
+0 0 32146
+D2
+~
+~
+0 0 32148
+D5
+~
+~
+0 0 32193
+S
+#32148
+The Western rim around the Valley~
+   The valley lies below you down a steep bluff which looks very unsafe.
+You can see that the trail along the rim of the valley leads north
+and south between the bluffs and a thick wall of trees which have grown
+extremely close together like a wooden wall to the west.
+~
+320 cp 2
+D0
+~
+~
+0 0 32147
+D2
+~
+~
+0 0 32149
+S
+#32149
+The Western rim above the Valley~
+   The valley lies below you covered in grey blankets of fog.  You can
+see the rim stretch off to the north and south and to the west a wooden
+wall of trees prevents any passage in that direction.
+~
+320 cp 2
+D0
+~
+~
+0 0 32148
+D2
+~
+~
+0 0 32150
+S
+#32150
+The Western Rim Overlooking the Valley~
+   The rim leads north towards the northwestern corner of the rim
+around the valley below and south where a rope bridge spanning east and 
+west across the valley is tied to two trees.  Below, the valley lies silent
+under a grey blanket of mist.
+~
+320 cp 2
+D0
+~
+~
+0 0 32149
+D2
+~
+~
+0 0 32135
+S
+#32151
+The Western Rim above the Valley~
+   The valley stretches out below to the east and north.  But getting to it
+will be very complicated as you would have to scale steep bluffs and would
+most likely break your neck in the process.  Better to look for another,
+safer way down.  To the south, you notice that the trail is getting thinner
+and less unsafe.
+~
+320 cp 2
+D0
+~
+~
+0 0 32135
+D2
+~
+~
+0 0 32152
+S
+#32152
+The Crumbling Path~
+   The trail seems to be eroding here as you are practically having to
+climb the trees to the west of you just to keep from tumbling down the
+bluff.  To the north it looks a bit safer.
+~
+320 cp 2
+D0
+~
+~
+0 0 32151
+D2
+The trail is very unsafe...in fact there is almost no trail there...most
+of it has been eroded away by the wind or some other unseen force.
+~
+~
+0 0 32153
+S
+#32153
+The Dangerous Bluff~
+   You have stepped onto the bluff and don't realize your mistake at first.
+But after being thrashed about and smacking your head into a bloody pulp
+on the way down into the valley you begin to realize your blunder.
+~
+320 bp 2
+D0
+~
+~
+0 0 32152
+S
+#32154
+Eastern Rim Overlooking the Valley~
+   You stand just south of a the eastern side of the bridge spanning
+east and west across the mysterious, fog covered valley.  Off to the
+south the rim continues around the valley.  You think towards the center
+of the valley that the fog looks a little different - as if there may be sm
+rising from something under that thick, grey blanket of mist.
+~
+320 cp 2
+D0
+~
+~
+0 0 32139
+D2
+~
+~
+0 0 32155
+S
+#32155
+The Eastern rim Overlooking the Valley~
+   The valley lies below you stretching off to the north and west.  Here
+and there the tips of tall trees poke up through the mist which blankets
+the entire valley.  Next to you, on the eastern side, are tall trees
+which have grown into a natural wall preventing you from travelling
+in any direction but north and south.  Trying to scale down into the valley
+by way of the bluffs would most likely be fatal.
+~
+320 cp 2
+D0
+~
+~
+0 0 32154
+D2
+~
+~
+0 0 32156
+S
+#32156
+The Southeastern Rim around the Valley~
+   A wall of trees which have grown very close together stands to the
+east and steep, dangerous bluffs allow you to only continue north or
+south.  A grey layer of fog covers the valley below you but in the
+center you think that maybe smoke rises from some unknown homestead
+or dragon's layer - god only knows.  
+~
+320 cp 2
+D0
+~
+~
+0 0 32155
+D2
+~
+~
+0 0 32157
+S
+#32157
+Southern Edge of the Rim overlooking the Valley~
+   You stand on a thin ledge overlooking a great, mysterious valley
+below.  A small trail leads down the steep bluffs through a thick layer
+of mist into the unknown.  To the west the path has crumbled from the
+erosion caused by many factors and forces, to the point that it would
+be fatal to attempt to go in that direction.  Your safest bet would
+to go north along the eastern rim of the valley or down into the valley.
+~
+320 cp 2
+D0
+~
+~
+0 0 32156
+D5
+~
+~
+0 0 32159
+S
+#32158
+The Dangerous Bluff~
+   The bluff crumbles under you and you realize suddenly as you feel your
+skull crunch and pain shoot through every limb in your body you are
+tumbling down in a landslide to the depths of the valley.  You try to
+scream out for help but a rock smashes all of your teeth to little bits
+you begin to choke on them as well as little bits of dust and rock which
+try to work their way into the depths of your body - filling up your lungs
+with hard, cold death.
+~
+320 b 0
+S
+#32159
+Southeastern Corner of the Valley~
+   You are standing next to a trail leading up to the rim of the valley.
+To the to the east and south are dangerous, steep bluffs but the other
+directions all you can see are trees and fog.
+~
+320 p 3
+D0
+~
+~
+0 0 32160
+D3
+~
+~
+0 0 32175
+D4
+~
+~
+0 0 32157
+S
+#32160
+Eastern Side of the Valley~
+   You stand next to a steep bluff and watch small pebbles of rock tumble
+down the slopes.  To the west is nothing but trees and mist twisting in
+between the branches of the trees. 
+~
+320 p 3
+D0
+~
+~
+0 0 32161
+D2
+~
+~
+0 0 32159
+D3
+~
+~
+0 0 32174
+S
+#32161
+The Eastern Side of the Valley~
+   You are on the eastern edge of the valley with trees to the west, north
+and south, and a dangerously steep bluff standing to the east.  A silent,
+dull grey fog sits over the valley blocking out the sky leaving you feeling
+cold and damp.
+~
+320 p 3
+D0
+~
+~
+0 0 32162
+D2
+~
+~
+0 0 32160
+D3
+~
+~
+0 0 32173
+S
+#32162
+Eastern Edge of the Valley~
+   A small landslide of pebbles and dust suddenly slides down the bluffs
+standing to the east.  Had it been a larger landslide you would probably
+have been crushed and battered.  But you merely sidestep the miniscule
+slide and look at your surroundings nonchalantly.  The valley is very damp
+from the cold mist blanketing it.  Trees stand everywhere you look providing
+about the only life from what you can tell.
+~
+320 p 3
+D0
+~
+~
+0 0 32163
+D2
+~
+~
+0 0 32161
+D3
+~
+~
+0 0 32172
+S
+#32163
+Eastern Edge of the Valley~
+   Steep, dangerous bluffs reach high up through the fog to the east and
+everywhere else is trees and more fog.  You are thoroughly soaked by the
+wetness of the air in the valley.  Above you, you can see a rope bridge 
+swaying slightly in the wind.  
+~
+320 p 3
+D0
+~
+~
+0 0 32164
+D2
+~
+~
+0 0 32162
+D3
+~
+~
+0 0 32170
+S
+#32164
+The Eastern Edge of the Valley~
+   The valley stretches off in all directions save east which is blocked
+by tall, steep cliffs.  Trees have grown in numerous quantity and seem to
+be of all variety.  Some are as tall as the bluffs and some are shorter than
+halflings even at full height.  The colors are dazzling - even the trunks
+of the trees have different colors sometimes.  Some are red, some brown,
+even a few have a dark-blue color like those of the Darkweir Hallow.
+Above, a rope bridge stretches east and west across the fog covered valley.
+~
+320 p 3
+D0
+~
+~
+0 0 32165
+D2
+~
+~
+0 0 32163
+D3
+~
+~
+0 0 32169
+S
+#32165
+Eastern Edge of the Valley~
+   The valley you are in is quite vast with steep bluffs surrounding it
+on all sides.  Fog hangs over the valley blocking out most of the sky
+and a variety of trees prevents you from scoping out the valley well.
+~
+320 p 3
+D0
+~
+~
+0 0 32166
+D2
+~
+~
+0 0 32164
+D3
+~
+~
+0 0 32168
+S
+#32166
+Northeastern Corner of the Valley~
+   You stand in the corner of the valley with a small trail leading up the
+bluffs to the rim around the valley.  An area of about 10 feet to the south
+is clear of trees next to the bluff which stands to the east and another
+to the east.
+~
+320 p 3
+D2
+~
+~
+0 0 32165
+D3
+~
+~
+0 0 32167
+D4
+~
+~
+0 0 32143
+S
+#32167
+Northern Edge of the Valley~
+   You stand next to a tall bluff standing to the north which leads high up
+through the fog.  To the south, the valley is ridden with colored trees
+of all shapes and sizes.  The fog muffles any sound which may clue you
+in as to what kind of life resides in this mysterious valley.
+~
+320 p 0
+D1
+~
+~
+0 0 32166
+D2
+~
+~
+0 0 32168
+D3
+~
+~
+0 0 32193
+S
+#32168
+In the Valley~
+   The trees cast strange shadows upon the fog which swirls all about.
+You can go in any direction from here but you can't see what you will
+be walking to because of the fog.  The trees have strange colors marking
+their gnarled trunks.
+~
+320 p 3
+D0
+~
+~
+0 0 32167
+D1
+~
+~
+0 0 32165
+D2
+~
+~
+0 0 32169
+D3
+~
+~
+0 0 32192
+S
+#32169
+The Valley~
+   You stand in a vast valley swarming with strangely colored trees of all
+shapes and sizes.  Thick, grey mist swirls about, inbetween the branches
+and blocking out the sky.  The valley seems to be surrounded by steep
+bluffs reaching high through the fog.
+~
+320 p 3
+D0
+~
+~
+0 0 32168
+D1
+~
+~
+0 0 32164
+D2
+~
+~
+0 0 32170
+D3
+~
+~
+0 0 32191
+S
+#32170
+The Small Hut in the Valley~
+   You are standing outside a small, thatch hut.  A light from a fire
+shines out a small window to the left of the door which is facing you.
+You can see smoke rising from a small, makeshift, stone chimney and a
+wonderful smell of something cooking is in the air.  The valley stretches
+off towards the bluffs in all directions from here.
+~
+320 p 3
+D0
+~
+~
+0 0 32169
+D1
+~
+~
+0 0 32163
+D2
+~
+~
+0 0 32172
+D3
+~
+hut door~
+1 -1 32171
+S
+#32171
+Inside the Small Hut~
+   A bright fire crackles in a fireplace along the west wall and several
+dusty bookshelves are porpped up next to the walls all around the circular
+hut.  A wooden table sits in the middle of the room with all sorts of jars
+and books and viles scattered about on top of it haphazardly.  A small skull
+with a small candle almost burnt down to the wick is sitting in the middle
+of the table.  Several cupboards have been pushed into the corner of the
+room and have been covered in cobwebs.  You get to thinking that this
+place may not be as cozy as it may have looked at first glance.  On top
+of the shelves are small figurines of all shapes, sizes, colors, and each
+has a different design etched into the finely carved stone of the figurine.
+A low door leads back out to the valley on the east wall of the hut.
+~
+320 p 0
+D1
+~
+door hut~
+1 -1 32170
+E
+skull candle~
+   The Skull begins to speak with a hallow voice, which sounds like
+it is in a far off land...
+
+   "to quench the white fire you must find Hurin...
+    he will tell you the name of the great smith that
+    created the white fire...his name is the only thing
+    that can quench the flame..."
+
+with that the skull glows dim and silent.
+~
+S
+#32172
+The Valley~
+   Small paths in between the colorful trees lead off in all directions
+through the thick fog.  You can barely see anything further than 5 feet in
+front of you.  The air has a hint of spice in it...you guess someone may
+be cooking something nearby.
+~
+320 p 0
+D0
+~
+~
+0 0 32170
+D1
+~
+~
+0 0 32162
+D2
+~
+~
+0 0 32173
+D3
+~
+~
+0 0 32189
+S
+#32173
+The Valley~
+   Above you, you can make out a bridge swaying slightly in the breeze.
+It looks dark and black through the wall of fog covering the valley.  Trees
+surround you and seem to be swarming the entire valley with their strangely
+colored trunks and leaves.  
+~
+320 p 3
+D0
+~
+~
+0 0 32172
+D1
+~
+~
+0 0 32161
+D2
+~
+~
+0 0 32174
+D3
+~
+~
+0 0 32188
+S
+#32174
+The Valley~
+   You stand in a vast mist covered valley.  Steep bluffs surround it,
+making it very tough to escape the valley.  Trees are all around you,
+with strange colored trunks and leaves.  Some of the trees stretch up high
+through the fog and some trees are as short as halflings.  This is a very
+mysterious place indeed.
+~
+320 p 3
+D0
+~
+~
+0 0 32173
+D1
+~
+~
+0 0 32160
+D2
+~
+~
+0 0 32175
+D3
+~
+~
+0 0 32177
+S
+#32175
+Southern Edge of the Valley~
+   Steep bluffs lead up here through the fog.  You can see small bits of
+torn and battered armor and swords and the corpses of unlucky people who
+have been unfortunate scattered all over the side of the bluff.  You
+decide from this sight that it would be a very bad idea to try and scale the
+bluff.  Trees scatter the valley to the north and you think there might be
+smoke coming from some unknown point in the center of the valley.  But
+it may just be the fog...who knows.
+~
+320 p 3
+D0
+~
+~
+0 0 32174
+D1
+~
+~
+0 0 32159
+D3
+~
+~
+0 0 32176
+S
+#32176
+Southern Edge of the Valley~
+   You stand in the corner of the valley with bluffs standing high to
+the south and west.  Bits of rock continuously fall down to the valley
+from up beyond the blanket of fog.  To the north and east the valley continues
+filled with trees of all colors and sizes.
+~
+320 np 3
+D0
+~
+~
+0 0 32177
+D1
+~
+~
+0 0 32175
+D3
+~
+door~
+1 0 3105
+S
+#32177
+Western Edge of the Valley~
+   You stand next to high bluffs just to the west.  The valley stretches off
+in all other directions covered in a dark, grey mist.  The trees, standing
+everywhere but next to the bluffs, are of all shapes and sizes and have
+a mysterious color to the trunks; each tree seems to have a different color.
+~
+320 p 3
+D0
+~
+~
+0 0 32188
+D1
+~
+~
+0 0 32174
+D2
+~
+~
+0 0 32176
+S
+#32178
+Plaza Road~
+   You are on a small road just south of a large plaza.  There is a large,
+valiant statue standing in the middle of it.  To the south the road leads
+back to Phalar and past the Great Chessboard.
+~
+320 0 0
+D0
+~
+~
+0 0 32179
+D2
+~
+~
+0 0 3064
+S
+#32179
+Phalar Plaza~
+   The plaza is a large square with a large colossus standing to the north.
+You have to crane your neck all the way back just to see anything above the
+waist of the statue.  To the south, a small road leads back to Phalar.
+To the east, west, and north the plaza continues.
+
+~
+320 e 1
+D0
+~
+~
+0 0 32187
+D1
+~
+~
+0 0 32180
+D2
+~
+~
+0 0 32178
+D3
+~
+~
+0 0 32186
+S
+#32180
+Southeast Corner of the Plaza~
+   You are standing in the southeastern corner of the plaza.  Sculptured
+bushes are to the south and east.  To the east and north the plaza continues.
+~
+320 e 1
+D0
+~
+~
+0 0 32181
+D3
+~
+~
+0 0 32179
+E
+sculptured bushes bush~
+The bushes come to a corner here and directly in the middle of where the
+bushes come together is a statue of a proud looking valkarie.  There is
+a golden plaque at the foot of the statue which read, 'Pheenix - Immortal
+Champion of the Flame.  In the early days of The Dominion, Pheenix was
+a proud warrior of Glasgian.  She becam his champion when she slew the
+dragon, Dusk, the pet of Gray, and ended many years of bloodshed.
+~
+S
+#32181
+Phalar Plaza~
+   There is a wall of sculpted bushes here which looks well kept.  The
+floor is made of gold and a huge 50 foot tall statue stands directly to
+the west.  To the north and south the plaza continues.
+~
+320 e 1
+D0
+~
+~
+0 0 32182
+D2
+~
+~
+0 0 32180
+D3
+~
+~
+0 0 32187
+S
+#32182
+Phalar Plaza~
+   You stand in the northeastern corner of Phalar Plaza.  The floors
+are made of gold and have ancient runes of protection etched into the
+finish.  To the southeast a giant statue stands, a symbol of protection
+over the city of Phalar.  Sculptured bushes are to the north and east and
+the plaza continues west and south.
+~
+320 e 1
+D2
+~
+~
+0 0 32181
+D3
+~
+~
+0 0 32183
+E
+bushes bush sculptured sculpture~
+The bushes come to a corner here and directly in the middle of the corner
+is a lifesize statue of a man wearing a pointed cap and long, flowing robes.
+Even though he is made of marble you can see in his eye a certain malevolence.
+At the foot of the statue there bears a message:  Gestalt - High Mage of 
+The Dominion.  It was in the beginning, Gestalt brought the power of Magic
+to The Dominion.  May his memory stay with us forever.
+~
+S
+#32183
+Phalar Plaza~
+   The plaza is paved in gold with a giant statue standing directly
+in the center of it.  You have to crane your neck all the way back
+just to see anything above the waist of the colossus.  Sculptured bushes
+line edge of the plaza to the north.  
+~
+320 e 1
+D1
+~
+~
+0 0 32182
+D2
+~
+~
+0 0 32187
+D3
+~
+~
+0 0 32184
+S
+#32184
+Northwestern Plaza~
+   You stand at the northwestern corner of the golden plaza.  To the
+southeast a colossus stands looking valiantly over The Dominion.  Large,
+sculpted bushes comes to a corner here on the northern and western edges
+of the plaza.  To the south and east the plaza continues.
+~
+320 e 1
+D1
+~
+~
+0 0 32183
+D2
+~
+~
+0 0 32185
+E
+bushes sculpted bush sculpture~
+The bushes come to a corner here where a small statue of a great man stands,
+preserved forever in the form of a marble statue.  This statue is dark grey
+and the man wears nothing but a long, flowing robe and a symbol with a
+black star etched onto the symbol.  At the foot of the statue a plaque reads:
+'October - High Monk to The Overseer.  As the Dominion grew, October bore
+the word of Gray and served his master well.  He shall not be forgotten.'
+~
+S
+#32185
+Phalar Plaza~
+   Tall, sculpted bushes stand to the west.  You can pick out within the
+many designs scenes of battle and victory and glory.  To the east stands
+a huge colossus, a symbol the Phalar will never fall into the hands of evil.
+To the north and south the plaza continues.
+~
+320 e 1
+D0
+~
+~
+0 0 32184
+D1
+~
+~
+0 0 32187
+D2
+~
+~
+0 0 32186
+S
+#32186
+Southwestern Corner of Phalar Plaza~
+   You stand at the southwestern corner of the golden plaza with a huge
+statue standing directly in the center of the plaza to the northeast.
+Sculptured bushes are to the south and west with a small statue standing
+directly in the middle of them.  The plaza continues to the north and east.
+~
+320 e 1
+D0
+~
+~
+0 0 32185
+D1
+~
+~
+0 0 32179
+E
+sculptured sculpture bushes bush~
+the bushes come to a point here to the southwest.  In the center of the
+point a statue of a strong looking woman stands proudly.  At the foot of
+the statue a small plaque reads, 'Tiera - High Architect and Goddess of
+The Dominion.  She helped shape what the Dominion is now with Gray and 
+Glasgian.  Remember where ever you walk.'
+~
+S
+#32187
+Before the Colossus~
+   You stand directly in the center of the Golden Plaza of Phalar.  A huge
+statue stands before you.  It is a depiction of a valiant guardian.  A guardian
+who has sworn to protect The Dominion and especially Phalar forever.  Even
+though he is but a symbol of protection you can feel a certain power emanating
+from the colossus.  The plaza leads off in all directions from here.
+~
+320 e 1
+D0
+~
+~
+0 0 32183
+D1
+~
+~
+0 0 32181
+D2
+~
+~
+0 0 32179
+D3
+~
+~
+0 0 32185
+E
+colossus statue giant protector~
+   The colossus stands about 50 feet in height you judge.  Much higher
+than the walls of Phalar.  He is dressed in full armor save for his
+helm which he cradles between his body and his forearm in his right arm.
+A giant golden sword surrounded by an eternal flame is raised high with
+his other arm.  His eyes seem to be scanning the south, watching for
+intruders to the City of Phalar.
+~
+S
+#32188
+Western Valley alongside the Bluffs~
+   High bluffs stand to the west and rise up through the thick fog
+covering the valley.  To the east and north the valley is filled
+with trees and to the south the valley runs into the southern bluff.
+~
+320 p 0
+D0
+~
+~
+0 0 32189
+D1
+~
+~
+0 0 32173
+D2
+~
+~
+0 0 32177
+S
+#32189
+Western Edge of the Valley~
+   You think somewhere off to the north the faint scent of a cooking fire
+is in the air.  The thick fog creates an ambient gray wall which seems
+to be closing in on you to snuff out your life.  Steep bluffs rise from 
+the floor of the valley and into the blanket of fog hovering over the
+valley like impending doom just to the west.
+~
+320 p 0
+D0
+~
+~
+0 0 32190
+D1
+~
+~
+0 0 32172
+D2
+~
+~
+0 0 32188
+S
+#32190
+The Western Edge of the Valley~
+   You are at the western edge of the valley with steep bluffs rising
+from the ground to the west and fog swirling all about you.  You can
+see that to the east is the backside of a small hut with a dark plume
+of smoke with a hickory scent to it rising from a small chimney in
+the roof of the hut.  
+~
+320 p 0
+D0
+~
+~
+0 0 32191
+D1
+~
+~
+0 0 32170
+D2
+~
+~
+0 0 32189
+S
+#32191
+Western Edge of the Valley~
+   The valley stretches off in all directions save west which is blocked
+by a huge, steep bluff which rises up from the ground into the dark, 
+swirling mist hovering over the valley.  The trees crowd close together
+with their strangely colored trunks bearing no leaves.  
+~
+320 p 0
+D0
+~
+~
+0 0 32192
+D1
+~
+~
+0 0 32169
+D2
+~
+~
+0 0 32190
+S
+#32192
+Western Side of the Valley~
+   Steep bluffs rise just to the west up through a thick layer of
+mist swirling above the valley hiding the sun.  Trees of all shapes
+and sizes and every cover the valley creating a strange picture
+with a colorful floral foreground and a dark, bleak background of mist.
+~
+320 p 0
+D0
+~
+~
+0 0 32193
+D1
+~
+~
+0 0 32168
+D2
+~
+~
+0 0 32191
+S
+#32193
+Northeastern Valley~
+   The mysterious valley stretches off to the east and south and is
+painted by exoticly colored trees and the thick gray mist swirling
+everywhere.  Steep bluffs stand to the north and west but where they
+meet you think there may be a small trail leading up to the rim
+around the valley.
+~
+320 p 3
+D1
+~
+~
+0 0 32167
+D2
+~
+~
+0 0 32192
+D4
+~
+~
+0 0 32147
+S
+#32194
+The Serdim-ir-Lesk Waypost~
+   You are at a way post which spans between two walls of trees to the
+north and south.  To the west you can see nothing but mist swirling about
+lackadasically and to the east the small path leads into a dense golden 
+forest.  
+~
+320 p 0
+D1
+The Golden Forest
+~
+~
+0 0 32672
+D3
+~
+~
+0 0 32139
+E
+waypost~
+   The waypost is basically a small place where guards can keep track of Fw
+whob
+o enters and who exits c2the fo yhyryAest.
+Unfortunatly they also toll those who exit and enter.  Two wooden towers
+to the north and south about 10 - 15 feet high and a small ramparte6X^rzB%d
+bridge spans across between the two towers
+letting the waypost guards see everything clearly.
+~
+S
+#32195
+Serdim-ir-Lesk~
+   Branches snag at you from trees half sunken in the swamp and mist
+swirls about you slowly creating strange shadows everywhere.  The water
+is moderately deep here and you can feel your feet sink into the mud
+floor underwater making it very hard to progress.  A large tree stands to
+the west blocking any passage in that direction.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32006
+D2
+~
+~
+0 0 32196
+S
+#32196
+Deep Water in the Serdim-ir-Lesk~
+   Suddenly you feel the mud underwater give out and feel yourself
+sink down up to your neck!  Luckily you stop sinking there and can
+manage to go on.  Straining to keep your head above water you peer 
+around you to check out your surroundings.  Not too much is visible 
+through the thick fog swirling everywhere but you think you can
+probably go just about anywhere you like.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32195
+D1
+~
+~
+0 0 32201
+D2
+~
+~
+0 0 32199
+D3
+~
+~
+0 0 32197
+S
+#32197
+Serdim-ir-Lesk~
+   Trees jut out of the murky waters here to the west and their
+roots have entertwined and formed a wooden wall.  A huge tree is to
+the north blocking all passage in that direction too.  The swampy waters
+will safely carry you east and south.
+~
+320 a 7 6 -1
+D1
+~
+~
+0 0 32196
+D2
+~
+~
+0 0 32198
+S
+#32198
+Edge of a murky pool~
+   You are on the western edge of a murky pool with trees forming
+a natural wall to the west and south forcing you to go either north or
+east.  Mist swirls all about dampening all sounds you make as well
+as any sound a predator may be making.  
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32197
+D1
+~
+~
+0 0 32199
+S
+#32199
+Pool in Serdim-ir-Lesk~
+   The pool lies silently in all directions but to the south trees
+jutting up from the murky waters have formed a natural wall and prevent
+any passage in that direction.  Fog slowly swirls about playing
+with the shadows of the trees with a very lifelike cunningness.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32196
+D1
+~
+~
+0 0 32200
+D3
+~
+~
+0 0 32198
+S
+#32200
+Serdim-ir-Lesk Pool~
+   The pool stretches north and a watery path leads east between two
+walls of trees.  The fog is very thick making it impossible to see
+anything unless it is right next to you.  To the west the pool continues
+through the fog.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32201
+D1
+~
+~
+0 0 32202
+D3
+~
+~
+0 0 32199
+S
+#32201
+Pool in Serdim-ir-Lesk~
+   You float on a small murky pool surrounded by dark trees, twisted
+from ages of perpetual wetness in the air.  Fog swirls all about
+making it near impossible to see anything in any direction.  To the
+north and east a natural wall of trees prevents any travel in that
+direction.
+~
+320 a 7 6 -1
+D2
+~
+~
+0 0 32200
+D3
+~
+~
+0 0 32196
+S
+#32202
+The watery passageway~
+  The small path cut between trees by a stream of water seems to be
+not natural for reason.  Suddenly you realize that behind you another
+wall of trees has appeared out of nowhere and trapped you in the watery
+passageway with the only companion you can count on - the unyielding
+fog.  The passageway leads east through the tunnel of trees.
+~
+320 acg 7 6 -1
+D1
+~
+~
+0 0 32203
+D3
+~
+~
+0 0 32200
+S
+#32203
+The watery passageway~
+  The passageway is very dark like a tunnel cutting between closely
+cropped trees to the north and south.  Behind you, you realize that the
+wall has mysteriously grown closer forcing you to continue only east.
+~
+320 a 7 6 -1
+D1
+~
+~
+0 0 32204
+D3
+~
+~
+0 0 32202
+S
+#32204
+Turn in the Watery Passageway~
+  A wall of trees turns the small stream you are on south into a wall
+of wet, grey mist.  You are forced by the mysterious trees to follow
+the direction that they allow you to take.
+~
+320 a 7 6 -1
+D2
+~
+~
+0 0 32205
+D3
+~
+~
+0 0 32203
+S
+#32205
+The Watery Passageway~
+  You are floating on the watery passageway wondering where you
+are being led.  You hear nothing but utter silence all about you
+and have a very sickening feeling of impending doom inside your gut
+but are forced to press on in the direction you are seemingly being
+led.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32204
+D2
+~
+~
+0 0 32206
+S
+#32206
+The Watery PAssageway~
+   The passageway looks as if to the south it turns west.  But there
+is no way to tell what the mysterious trees that are leading you
+are going to do.  Grey mist swirls all about you leaving you feeling
+very damp and domewhat concerned as to what your fated demise may be.
+You can only go south.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32205
+D2
+~
+~
+0 0 32207
+S
+#32207
+Mysterious Passageway in Serdim-ir-Lesk~
+   The passageway lets you only go west here as another wall follows you
+from the north.  Even if you turn around and try to watch and see
+what happens when the wall of trees grows behind you, you have to blink
+and in the split second that you close and open your eyes the wall is
+there.  The mist and the black, gnarled trees block out any light that
+may have been able to assist you in your situation.
+~
+320 a 7 6 -1
+D0
+~
+~
+0 0 32206
+D3
+~
+~
+0 0 32208
+S
+#32208
+Mysterious Passage in Serdim-ir-Lesk~
+   The watery passageway leads west between the walls of trees and
+as usual there is a wall of trees suddenly blocking you from the 
+direction you just came.  The silence is very disturbing and you
+are going mad wishing something would make some sort of noise.
+You try to cry out but the fog dampens all your sound letting it
+go nowhere.
+~
+320 af 7 6 -1
+D1
+~
+~
+0 0 32207
+D2
+~
+~
+0 0 32209
+S
+#32209
+Mysterious passage in Serdim-ir-Lesk~
+   The watery passageway continues to only allow you to move in
+the direction it _wants_ you to go and the fog dampens all sound
+you try to make to get help from anyone.  You feel as if you are
+being attacked mentally and feel like screaming out but no one
+will help you anyway.
+~
+320 af 7 6 -1
+D0
+~
+~
+0 0 32208
+D2
+~
+~
+0 0 32210
+S
+#32210
+Watery Passage Through Serdim-ir-Lesk~
+   All is silent and foreboding as the strange walls of trees press
+you onward towards the unknown.  Dark, wet mist swirls about partially
+blinding you as you are led on.
+~
+320 af 7 6 -1
+D0
+~
+~
+0 0 32209
+D2
+~
+~
+0 0 32211
+S
+#32211
+End of the Mysterious Passageway~
+   At last you come to the end of the passage of water.  A strange 
+cascading wall of water descends over the edge of some unseen wall
+to the south.  To the north you see the passageway lead off.
+~
+320 0 0
+D0
+~
+~
+0 0 32210
+D9
+~
+~
+0 0 8100
+S
+#32212
+Inside the Tower~
+   The tower is very non descript from the inside.  You can tell that
+it is very old as it is crumbling in several places and vines have grown
+up the walls and small daggers of light penetrate small cracks in the
+walls.  A staircase leads up in a spiraling direction around the walls
+of the circular shaped tower.  To the north a door leads outside the
+tower.
+~
+320 cgh 0
+D4
+~
+~
+0 0 32213
+S
+#32213
+The staircase~
+   The stairs hug the curved walls of the ruined tower.  You sense a 
+presence somewhere within the tower.  If you go down the stairs you will
+be at the bottom of the tower and up yo can see only more stairs winding
+up the tower.
+~
+320 h 0
+D4
+~
+~
+0 0 32214
+D5
+~
+~
+0 0 32212
+S
+#32214
+The Stairs Inside the Tower~
+   The stairs look to be crumbling beneath your feet so you had
+better go somewhere fast.  The stairs lead upwards into darkness
+and down will take yo back to the bottom and the entrance to the
+tower.
+~
+320 h 0
+D4
+~
+~
+0 0 32215
+D5
+~
+~
+0 0 32213
+S
+#32215
+The Chamber at the Top of the Tower~
+   You have finally reached the top of the tower.  The walls are
+made of a brilliant white stone and doesn't look as if it has
+been affected by the ruin afflicting the rest of the tower.  A small
+bright light seems to be emanating from the center of the room 
+and pulsing with a strange beat like that of a heart.
+   There are doors in every direction of the room except and down
+where the stairway has crumbled away.  Etched into each door is a picture.
+~
+320 efr 0
+D0
+The door has a picture of a humble servant etched upon it.
+~
+white door~
+1 32025 32231
+D1
+The door has a picture of a wealthy king etched upon it.
+~
+black door~
+1 32025 32232
+D2
+The door has a picture of a dragon breathing a hot fire etched upon it.
+~
+red door~
+1 32025 32233
+D3
+The door has a picture of a great landscape of The Dominion etched upon it.
+~
+green door~
+1 32025 32234
+E
+light small center~
+   You cannot tell very much because it is surrounded by a brilliant
+white light which seems to pulsate like that of a heart.  You get the
+feeling that the light is there to protect something inside it.
+You try to reach into the light but are suddenly aware of a burning
+within your hand which grows hotter and hotter until you can stand it
+no longer and have to pull your hand away to keep it from melting off
+your wrist.
+It would seem it is impossible to get whatever the light is protecting.
+~
+S
+#32216
+The sharp grass~
+   You stand on dry land in the middle of a small patch of razor
+sharp grass.  It cuts at your ankles as you carefully step through
+it.  To the east and north the swamp continues.  To the west you
+can see a small path.
+~
+320 g 5
+D0
+~
+~
+0 0 32217
+D1
+~
+~
+0 0 32225
+D2
+~
+~
+0 0 32226
+D3
+~
+~
+0 0 32011
+S
+#32217
+Deep water in the Serdim-ir-Lesk~
+   You are caught off guard and realize suddenly that you are sinking
+fast into deep murky water.  But your feet touch down underwater on
+mud and it holds you up barely.  You can go south where sharp looking
+grass is growing on dry land.  A wall of trees blocks any further travel t
+to the north but you can wade east through the muddy water.
+~
+320 ag 4
+D1
+~
+~
+0 0 32218
+D2
+~
+~
+0 0 32216
+S
+#32218
+Deep water in the Serdim-ir-Lesk~
+   The water comes up to your chest here and a wall of trees makes
+north an impossible direction to travel in but south and west you can
+make your way to.  Branches of fallen trees beneath the water poke up
+and break the surface of the water and seem as if they are striving to
+get up from their mortal wound inflicted by time and weather's disease.
+~
+320 a 4
+D1
+~
+~
+0 0 32219
+D2
+~
+~
+0 0 32225
+D3
+~
+~
+0 0 32217
+S
+#32219
+Shallow water in the Serdim-ir-Lesk~
+   The water is pretty shallow here and you can stand up without the
+annoyance of water spilling into your mouth as you bob around in the
+deeper waters.  To the grass as sharp as daggers grows and will cut you
+to shreds if you try to walk on it.  To the south, east and west the 
+muddy pool comtinues.
+~
+320 a 4
+D1
+~
+~
+0 0 32220
+D2
+~
+~
+0 0 32224
+D3
+~
+~
+0 0 32218
+S
+#32220
+Moderately-deep water~
+   The water comes up to your waist here and steam rises off the
+semi-warm water and mixes with the fog.  To the north trees prevent you
+from going there but yo can go in any other direction without too much
+trouble.
+~
+320 a 3
+D1
+~
+~
+0 0 32221
+D2
+~
+~
+0 0 32223
+D3
+~
+~
+0 0 32219
+S
+#32221
+Corner of the Swampy Pool~
+   The pool is blocked here where two dense collections of foliage
+come to a corner to the east and north.  To the south and west you can
+wade through the shallow pool.
+~
+320 a 4
+D2
+~
+~
+0 0 32222
+D3
+~
+~
+0 0 32220
+S
+#32222
+Edge of the Shallow Pool~
+   To the east a wall of dense foliage made up of strange bushes and
+vines and trees blocks any passage in that direction.  To the west the
+pool stretches off into darkness.
+~
+320 a 0
+D0
+~
+~
+0 0 32221
+D2
+~
+~
+0 0 32230
+D3
+~
+~
+0 0 32223
+S
+#32223
+The shallow pool~
+   The muddy waters of the pool come up to about your knees making life
+somewhat more enjoyable.  Your feet will sink into the mud underwater
+if you stand in one place long enough.  The pool stretches off in all
+directions from here but it looks a bit deeper to the west.
+~
+320 a 4
+D0
+~
+~
+0 0 32220
+D1
+~
+~
+0 0 32222
+D2
+~
+~
+0 0 32229
+D3
+~
+~
+0 0 32224
+S
+#32224
+Deep spot in the Pool~
+   You sink down deep into the pool and your feet finially hit mud
+where you stop sinking gradually.  The mist lingers in the air
+like it may be waiting for you to turn your back on it where it will
+silently choke you to death.  The pool leads off in all directions.
+~
+320 a 4
+D0
+~
+~
+0 0 32219
+D1
+~
+~
+0 0 32223
+D2
+~
+~
+0 0 32228
+D3
+~
+~
+0 0 32225
+S
+#32225
+Deep Water in the Serdim-ir-Lesk~
+   You are standing in water that is coming up to your chest and mud
+is clogging your boots.  Grey mist moves silently all about you and
+you can wade in any direction.
+~
+320 a 4
+D0
+~
+~
+0 0 32218
+D1
+~
+~
+0 0 32224
+D2
+~
+~
+0 0 32227
+D3
+~
+~
+0 0 32216
+S
+#32226
+Serdim-ir-Lesk Pool~
+   The water in the pool comes up waist high on you as you wade through
+the pool.  No sounds can be heard due to the strange dampening effect
+created by the thick fog.  To the north you can see sharp looking grass
+growing on dry land and to the east the shallow pool continues.
+~
+320 a 3
+D0
+~
+~
+0 0 32216
+D1
+~
+~
+0 0 32227
+S
+#32227
+Swampy Pool in Serdim-ir-Lesk~
+   The water comes up nearly to your thigh here.  To the south you
+cannot get past the thick foliage growing out of the murky waters there.
+But you may go in any other direction.
+~
+320 a 2
+D0
+~
+~
+0 0 32225
+D1
+~
+~
+0 0 32228
+D3
+~
+~
+0 0 32226
+S
+#32228
+Edge of the swampy pool~
+   Sharp grass will cut you to pieces if you try to go south but all 
+other directions seem to be ok to wade to.  Grey mist hovers over the
+pool and mixes with the steam rising off the surface.  
+~
+320 a 4
+D0
+~
+~
+0 0 32224
+D1
+~
+~
+0 0 32229
+D3
+~
+~
+0 0 32227
+S
+#32229
+The Shallow Water in the Pool~
+   The water is very shallow here and only comes up high enough
+to splash about your ankles.  To the south thick, razor sharp grass
+has grown very high and will slice you to shreds if you try to go in
+that direction.  But to the north, west, and east you can make your way
+through the pool.
+~
+320 a 1
+D0
+~
+~
+0 0 32223
+D1
+~
+~
+0 0 32230
+D3
+~
+~
+0 0 32228
+S
+#32230
+Corner in the Swampy Pool~
+   Razor sharp grass prevents passage to the south and dense foliage
+rising from the depths of the muddy pool forms a wall and blocks
+any chance of going in that direction.  The water is deep here
+and the mist hangs all around you like creeping doom.
+~
+320 a 5
+D0
+~
+~
+0 0 32222
+D3
+~
+~
+0 0 32229
+S
+#32231
+A small chamber~
+   It is a very non descript room with only a small window at about
+waist level.  The floor has been polished well enough that you can see
+a vague picture of yourself in it.  A small table pushed into the corner
+of the room looks to have something on it.
+~
+320 fghis 1
+D4
+~
+~
+0 0 3001
+S
+#32232
+The golden room~
+   You have stepped into a room filled with gold.  The light is
+very powerful and you think you might go blind.  There is nothing but
+gold in this room except for a stairway leading up into a strange
+glowing portal.
+~
+320 fghis 1
+D4
+~
+~
+0 0 3001
+S
+#32233
+A large room~
+   The room is very large and but one thing in it.  The walls are
+made of dragon scale.
+~
+320 efghis 0
+D4
+~
+~
+0 0 3001
+S
+#32234
+The Dominion Room~
+You are standing in a room with a large golden framed picture 
+of different landscapes on every wall.  The northern wall has a 
+picture of a great mountain range.  The western is a dark forest
+with lush green trees everywhere.  On the eastern wall is a framed
+picture of hills stretching off towards a golden sunset.  On the
+southern wall is a magnificent plain with a large city on the
+horizon.
+~
+320 0 0
+D4
+~
+~
+0 -1 3001
+S
+#32235
+Hallway within the Tower~
+   You are in a small non-descript room with a small door on the
+south wall.  Behind you, where you entered the room there is nothing
+but an old, doorless wall.  It looks as if it has been there for ages
+though you are quite sure you entered from that direction.
+~
+320 0 0
+D2
+~
+door~
+1 26031 32236
+D4
+~
+~
+0 0 3001
+S
+#32236
+Hallway to the Tower~
+   You are in a small, empty room with a door on the south wall.  Behind
+you, where you entered the room, there is nothing but an old, doorless
+wall.  It looks as if it has been there for ages.
+~
+320 0 0
+D2
+~
+door~
+1 6609 32237
+D4
+~
+~
+0 0 3001
+S
+#32237
+Hallway to the Ancient Tower~
+   You are in a small, empty room with a door on the southern wall. 
+Behind you, a wall has taken the place of the doorway you stepped through
+to get to this room.  The new wall looks as if it has been here for ages.
+~
+320 0 0
+D2
+~
+door~
+1 25026 32238
+D4
+~
+~
+0 0 3001
+S
+#32238
+Hallway to the Tower~
+   You are in another room just like the few before it.  A door adorns
+the southern wall which will probably lead to another room just like it.
+Behind you, an impermeable wall has taken the place of the doorway you
+entered from.
+~
+320 0 0
+D2
+~
+door~
+1 29038 32212
+D4
+~
+~
+0 0 3001
+S
+#32239
+Before the cave~
+   You are standing on a small, sandy beach.  It was most likely created
+as the waterfall south of here pulverized boulders into the sand upon
+which you now stand.  To the north stands a craggy cliff face.  To the
+south you see the churning waters of a pool with a thundering waterfall
+nearby.
+~
+320 cg 0
+D0
+The craggy cliff looms before you.
+~
+boulder secret~
+1 0 8091
+D2
+~
+~
+0 0 32055
+E
+cliff~
+There is something strange about the cliff.  After close inspection
+you see that one of the boulders is quite loose...in fact it seems
+to be hinged.
+~
+S
+#32240
+The dark cave~
+   The cave is very dark, but to the south you can see a pinhole of
+daylight trying to sneak past the stalagmites and stalagtites.  Up
+ahead to the north you can see nothing but darkness and no sounds
+except those of the waterfall outside can be heard.  The walls are
+made of hard black rock which looks like obsidian.
+~
+320 a 5
+D2
+~
+~
+0 0 32239
+S
+$~

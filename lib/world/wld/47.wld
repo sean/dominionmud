@@ -1,0 +1,2998 @@
+#4700
+The Battlefield~
+   You are dwarfed to the north and west by large, rocky hills that
+prevent any passage in those directions.  You hear the sounds of battle
+all around you.  The grass is red with the stain of blood.
+~
+47 0 1
+D1
+~
+~
+0 -1 4701
+D2
+~
+~
+0 -1 4713
+S
+#4701
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4702
+D2
+~
+~
+0 -1 4714
+D3
+~
+~
+0 -1 4700
+S
+#4702
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+
+~
+47 0 1
+D1
+~
+~
+0 -1 4703
+D2
+~
+~
+0 -1 4715
+D3
+~
+~
+0 -1 4701
+S
+#4703
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4704
+D2
+~
+~
+0 -1 4716
+D3
+~
+~
+0 -1 4702
+S
+#4704
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4705
+D2
+~
+~
+0 -1 4717
+D3
+~
+~
+0 -1 4703
+S
+#4705
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4706
+D2
+~
+~
+0 -1 4718
+D3
+~
+~
+0 -1 4704
+S
+#4706
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4707
+D2
+~
+~
+0 -1 4719
+D3
+~
+~
+0 -1 4705
+S
+#4707
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4708
+D2
+~
+~
+0 -1 4720
+D3
+~
+~
+0 -1 4706
+S
+#4708
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4709
+D2
+~
+~
+0 -1 4721
+D3
+~
+~
+0 -1 4707
+S
+#4709
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4710
+D2
+~
+~
+0 -1 4722
+D3
+~
+~
+0 -1 4708
+S
+#4710
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4711
+D2
+~
+~
+0 -1 4723
+D3
+~
+~
+0 -1 4709
+S
+#4711
+The Battlefield~
+   To the north a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D1
+~
+~
+0 -1 4712
+D2
+~
+~
+0 -1 4724
+D3
+~
+~
+0 -1 4710
+S
+#4712
+The Battlefield~
+   You are dwarfed to the north and east by large, rocky hills that
+prevent any passage in those directions.  You hear the sounds of battle
+all around you.  The grass is red with the stain of blood.
+~
+47 0 1
+D2
+~
+~
+0 -1 4725
+D3
+~
+~
+0 -1 4711
+S
+#4713
+The Battlefield~
+   To the west a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4700
+D1
+~
+~
+0 -1 4714
+D2
+~
+~
+0 -1 4726
+S
+#4714
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4701
+D1
+~
+~
+0 -1 4715
+D2
+~
+~
+0 -1 4727
+D3
+~
+~
+0 -1 4713
+S
+#4715
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4702
+D1
+~
+~
+0 -1 4716
+D3
+~
+~
+0 -1 4714
+S
+#4716
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4703
+D1
+~
+~
+0 -1 4717
+D2
+~
+~
+0 -1 4728
+D3
+~
+~
+0 -1 4715
+S
+#4717
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4704
+D1
+~
+~
+0 -1 4718
+D2
+~
+~
+0 -1 4729
+D3
+~
+~
+0 -1 4716
+S
+#4718
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4705
+D1
+~
+~
+0 -1 4719
+D2
+~
+~
+0 -1 4730
+D3
+~
+~
+0 -1 4717
+S
+#4719
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4706
+D1
+~
+~
+0 -1 4720
+D2
+~
+~
+0 -1 4731
+D3
+~
+~
+0 -1 4718
+S
+#4720
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4707
+D1
+~
+~
+0 -1 4721
+D2
+~
+~
+0 -1 4732
+D3
+~
+~
+0 -1 4719
+S
+#4721
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4708
+D1
+~
+~
+0 -1 4722
+D2
+~
+~
+0 -1 4733
+D3
+~
+~
+0 -1 4720
+S
+#4722
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4709
+D1
+~
+~
+0 -1 4723
+D2
+~
+~
+0 -1 4734
+D3
+~
+~
+0 -1 4721
+S
+#4723
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4710
+D1
+~
+~
+0 -1 4724
+D2
+~
+~
+0 -1 4735
+D3
+~
+~
+0 -1 4722
+S
+#4724
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4711
+D1
+~
+~
+0 -1 4725
+D2
+~
+~
+0 -1 4736
+D3
+~
+~
+0 -1 4723
+S
+#4725
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4712
+D2
+~
+~
+0 -1 4737
+D3
+~
+~
+0 -1 4724
+S
+#4726
+The Battlefield~
+   To the west a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4713
+D1
+~
+~
+0 -1 4727
+D2
+~
+~
+0 -1 4738
+S
+#4727
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4714
+D2
+~
+~
+0 -1 4739
+D3
+~
+~
+0 -1 4726
+S
+#4728
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4716
+D1
+~
+~
+0 -1 4729
+D2
+~
+~
+0 -1 4741
+S
+#4729
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4717
+D1
+~
+~
+0 -1 4730
+D2
+~
+~
+0 -1 4742
+D3
+~
+~
+0 -1 4728
+S
+#4730
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4718
+D1
+~
+~
+0 -1 4731
+D2
+~
+~
+0 -1 4743
+D3
+~
+~
+0 -1 4729
+S
+#4731
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4719
+D1
+~
+~
+0 -1 4732
+D2
+~
+~
+0 -1 4744
+D3
+~
+~
+0 -1 4730
+S
+#4732
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4720
+D1
+~
+~
+0 -1 4733
+D2
+~
+~
+0 -1 4745
+D3
+~
+~
+0 -1 4731
+S
+#4733
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4721
+D1
+~
+~
+0 -1 4734
+D2
+~
+~
+0 -1 4746
+D3
+~
+~
+0 -1 4732
+S
+#4734
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4722
+D1
+~
+~
+0 -1 4735
+D2
+~
+~
+0 -1 4747
+D3
+~
+~
+0 -1 4733
+S
+#4735
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4723
+D1
+~
+~
+0 -1 4736
+D2
+~
+~
+0 -1 4748
+D3
+~
+~
+0 -1 4734
+S
+#4736
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4724
+D1
+~
+~
+0 -1 4737
+D2
+~
+~
+0 -1 4749
+D3
+~
+~
+0 -1 4735
+S
+#4737
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4725
+D2
+~
+~
+0 -1 4750
+D3
+~
+~
+0 -1 4736
+S
+#4738
+The Battlefield~
+   To the west, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4726
+D1
+~
+~
+0 -1 4739
+D2
+~
+~
+0 -1 4751
+S
+#4739
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4727
+D1
+~
+~
+0 -1 4740
+D2
+~
+~
+0 -1 4752
+D3
+~
+~
+0 -1 4738
+S
+#4740
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D1
+~
+~
+0 -1 4741
+D2
+~
+~
+0 -1 4753
+D3
+~
+~
+0 -1 4739
+S
+#4741
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4728
+D1
+~
+~
+0 -1 4742
+D2
+~
+~
+0 -1 4754
+D3
+~
+~
+0 -1 4740
+S
+#4742
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4729
+D1
+~
+~
+0 -1 4743
+D2
+~
+~
+0 -1 4755
+D3
+~
+~
+0 -1 4741
+S
+#4743
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4730
+D1
+~
+~
+0 -1 4744
+D2
+~
+~
+0 -1 4756
+D3
+~
+~
+0 -1 4742
+S
+#4744
+The Battlefield~
+   All around the foray ensues, bloody deaths and armored men trying to
+stay alive in the midst of battle.  A shadow hangs over this field as Death
+watches above like a vulture.  The grass is stained red with countless
+bloody deaths.
+~
+47 0 1
+D0
+~
+~
+0 -1 4731
+D1
+~
+~
+0 -1 4745
+D2
+~
+~
+0 -1 4757
+D3
+~
+~
+0 -1 4743
+S
+#4745
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4732
+D1
+~
+~
+0 -1 4746
+D3
+~
+~
+0 -1 4744
+S
+#4746
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+
+~
+47 0 1
+D0
+~
+~
+0 -1 4733
+D1
+~
+~
+0 -1 4747
+D2
+~
+~
+0 -1 4758
+D3
+~
+~
+0 -1 4745
+S
+#4747
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4734
+D1
+~
+~
+0 -1 4748
+D2
+~
+~
+0 -1 4759
+D3
+~
+~
+0 -1 4746
+S
+#4748
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4735
+D1
+~
+~
+0 -1 4749
+D2
+~
+~
+0 -1 4760
+D3
+~
+~
+0 -1 4747
+S
+#4749
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4736
+D1
+~
+~
+0 -1 4750
+D2
+~
+~
+0 -1 4761
+D3
+~
+~
+0 -1 4748
+S
+#4750
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4737
+D2
+~
+~
+0 -1 4762
+D3
+~
+~
+0 -1 4749
+S
+#4751
+The Battlefield~
+   To the west, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4738
+D1
+~
+~
+0 -1 4752
+D2
+~
+~
+0 -1 4763
+S
+#4752
+The Battlefield~
+   All around the foray ensues, armored men trying to stay alive in the
+midst of battle.  A shadow hangs over this field as Death watches from
+above like a vulture.  The grass is stained red with blood all about you.
+~
+47 0 1
+D0
+~
+~
+0 -1 4739
+D1
+~
+~
+0 -1 4753
+D2
+~
+~
+0 -1 4764
+D3
+~
+~
+0 -1 4751
+S
+#4753
+The Battlefield~
+   All around the foray ensues, armored men trying to stay alive in the
+midst of battle.  A shadow hangs over this field as Death watches from
+above like a vulture.  The grass is stained red with blood all about you.
+~
+47 0 1
+D0
+~
+~
+0 -1 4740
+D1
+~
+~
+0 -1 4754
+D2
+~
+~
+0 -1 4765
+D3
+~
+~
+0 -1 4752
+S
+#4754
+The Battlefield~
+   All around the foray ensues, armored men trying to stay alive in the
+midst of battle.  A shadow hangs over this field as Death watches from
+above like a vulture.  The grass is stained red with blood all about you.
+~
+47 0 1
+D0
+~
+~
+0 -1 4741
+D1
+~
+~
+0 -1 4755
+D2
+~
+~
+0 -1 4766
+D3
+~
+~
+0 -1 4753
+S
+#4755
+The Battlefield~
+   All around the foray ensues, armored men trying to stay alive in the
+midst of battle.  A shadow hangs over this field as Death watches from
+above like a vulture.  The grass is stained red with blood all about you.
+~
+47 0 1
+D0
+~
+~
+0 -1 4742
+D1
+~
+~
+0 -1 4756
+D2
+~
+~
+0 -1 4767
+D3
+~
+~
+0 -1 4754
+S
+#4756
+The Battlefield~
+   All around the foray ensues, armored men trying to stay alive in the
+midst of battle.  A shadow hangs over this field as Death watches from
+above like a vulture.  The grass is stained red with blood all about you.
+~
+47 0 1
+D0
+~
+~
+0 -1 4743
+D1
+~
+~
+0 -1 4757
+D2
+~
+~
+0 -1 4768
+D3
+~
+~
+0 -1 4755
+S
+#4757
+The Battlefield~
+   All around the foray ensues, armored men trying to stay alive in the
+midst of battle.  A shadow hangs over this field as Death watches from
+above like a vulture.  The grass is stained red with blood all about you.
+~
+47 0 1
+D0
+~
+~
+0 -1 4744
+D2
+~
+~
+0 -1 4769
+D3
+~
+~
+0 -1 4756
+S
+#4758
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4746
+D1
+~
+~
+0 -1 4759
+D2
+~
+~
+0 -1 4771
+S
+#4759
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4747
+D1
+~
+~
+0 -1 4760
+D2
+~
+~
+0 -1 4772
+D3
+~
+~
+0 -1 4758
+S
+#4760
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4748
+D1
+~
+~
+0 -1 4761
+D2
+~
+~
+0 -1 4773
+D3
+~
+~
+0 -1 4759
+S
+#4761
+The Battlefield~
+   The battle continues en masse and without quarter about you.  Weapons
+ring out as they clash against other weapons and armor.  The death cries
+fill the air but are quickly drowned out by the roar of the battle.  Blood
+seems to have taken the place of air as the spray of mens guts flies about.
+~
+47 0 1
+D0
+~
+~
+0 -1 4749
+D1
+~
+~
+0 -1 4762
+D2
+~
+~
+0 -1 4774
+D3
+~
+~
+0 -1 4760
+S
+#4762
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4750
+D2
+~
+~
+0 -1 4775
+D3
+~
+~
+0 -1 4761
+S
+#4763
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4751
+D1
+~
+~
+0 -1 4764
+D2
+~
+~
+0 -1 4776
+S
+#4764
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4752
+D1
+~
+~
+0 -1 4765
+D2
+~
+~
+0 -1 4777
+D3
+~
+~
+0 -1 4763
+S
+#4765
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4753
+D1
+~
+~
+0 -1 4766
+D2
+~
+~
+0 -1 4778
+D3
+~
+~
+0 -1 4764
+S
+#4766
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4754
+D1
+~
+~
+0 -1 4767
+D2
+~
+~
+0 -1 4779
+D3
+~
+~
+0 -1 4765
+S
+#4767
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4755
+D1
+~
+~
+0 -1 4768
+D2
+~
+~
+0 -1 4780
+D3
+~
+~
+0 -1 4766
+S
+#4768
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4756
+D1
+~
+~
+0 -1 4769
+D2
+~
+~
+0 -1 4781
+D3
+~
+~
+0 -1 4767
+S
+#4769
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4757
+D1
+~
+~
+0 -1 4770
+D2
+~
+~
+0 -1 4782
+D3
+~
+~
+0 -1 4768
+S
+#4770
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D1
+~
+~
+0 -1 4771
+D2
+~
+~
+0 -1 4783
+D3
+~
+~
+0 -1 4769
+S
+#4771
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4758
+D1
+~
+~
+0 -1 4772
+D2
+~
+~
+0 -1 4784
+D3
+~
+~
+0 -1 4770
+S
+#4772
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4759
+D1
+~
+~
+0 -1 4773
+D2
+~
+~
+0 -1 4785
+D3
+~
+~
+0 -1 4771
+S
+#4773
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4760
+D1
+~
+~
+0 -1 4774
+D2
+~
+~
+0 -1 4786
+D3
+~
+~
+0 -1 4772
+S
+#4774
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4761
+D1
+~
+~
+0 -1 4775
+D2
+~
+~
+0 -1 4787
+D3
+~
+~
+0 -1 4773
+S
+#4775
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4762
+D2
+~
+~
+0 -1 4788
+D3
+~
+~
+0 -1 4774
+S
+#4776
+The Battlefield~
+   To the west, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4763
+D1
+~
+~
+0 -1 4777
+D2
+~
+~
+0 -1 4789
+S
+#4777
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4764
+D1
+~
+~
+0 -1 4778
+D2
+~
+~
+0 -1 4790
+D3
+~
+~
+0 -1 4776
+S
+#4778
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4765
+D1
+~
+~
+0 -1 4779
+D2
+~
+~
+0 -1 4791
+D3
+~
+~
+0 -1 4777
+S
+#4779
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4766
+D1
+~
+~
+0 -1 4780
+D3
+~
+~
+0 -1 4778
+S
+#4780
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4767
+D1
+~
+~
+0 -1 4781
+D2
+~
+~
+0 -1 4792
+D3
+~
+~
+0 -1 4779
+S
+#4781
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4768
+D1
+~
+~
+0 -1 4782
+D2
+~
+~
+0 -1 4793
+D3
+~
+~
+0 -1 4780
+S
+#4782
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4769
+D1
+~
+~
+0 -1 4783
+D2
+~
+~
+0 -1 4794
+D3
+~
+~
+0 -1 4781
+S
+#4783
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4770
+D1
+~
+~
+0 -1 4784
+D2
+~
+~
+0 -1 4795
+D3
+~
+~
+0 -1 4782
+S
+#4784
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4771
+D1
+~
+~
+0 -1 4785
+D2
+~
+~
+0 -1 4796
+D3
+~
+~
+0 -1 4783
+S
+#4785
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4772
+D1
+~
+~
+0 -1 4786
+D2
+~
+~
+0 -1 4797
+D3
+~
+~
+0 -1 4784
+S
+#4786
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4773
+D1
+~
+~
+0 -1 4787
+D2
+~
+~
+0 -1 4798
+D3
+~
+~
+0 -1 4785
+S
+#4787
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4774
+D1
+~
+~
+0 -1 4788
+D2
+~
+~
+0 -1 4799
+D3
+~
+~
+0 -1 4786
+S
+#4788
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4775
+D2
+~
+~
+0 -1 4800
+D3
+~
+~
+0 -1 4787
+S
+#4789
+The Battlefield~
+   To the west, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4776
+D1
+~
+~
+0 -1 4790
+D2
+~
+~
+0 -1 4801
+S
+#4790
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4777
+D1
+~
+~
+0 -1 4791
+D2
+~
+~
+0 -1 4802
+D3
+~
+~
+0 -1 4789
+S
+#4791
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4778
+D2
+~
+~
+0 -1 4803
+D3
+~
+~
+0 -1 4790
+S
+#4792
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4780
+D1
+~
+~
+0 -1 4793
+D2
+~
+~
+0 -1 4805
+S
+#4793
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4781
+D1
+~
+~
+0 -1 4794
+D2
+~
+~
+0 -1 4806
+D3
+~
+~
+0 -1 4792
+S
+#4794
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4782
+D1
+~
+~
+0 -1 4795
+D2
+~
+~
+0 -1 4807
+D3
+~
+~
+0 -1 4793
+S
+#4795
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4783
+D1
+~
+~
+0 -1 4796
+D2
+~
+~
+0 -1 4808
+D3
+~
+~
+0 -1 4794
+S
+#4796
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4784
+D1
+~
+~
+0 -1 4797
+D2
+~
+~
+0 -1 4809
+D3
+~
+~
+0 -1 4795
+S
+#4797
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4785
+D1
+~
+~
+0 -1 4798
+D2
+~
+~
+0 -1 4810
+D3
+~
+~
+0 -1 4796
+S
+#4798
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4786
+D1
+~
+~
+0 -1 4799
+D2
+~
+~
+0 -1 4811
+D3
+~
+~
+0 -1 4797
+S
+#4799
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4787
+D1
+~
+~
+0 -1 4800
+D2
+~
+~
+0 -1 4812
+D3
+~
+~
+0 -1 4798
+S
+#4800
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4788
+D2
+~
+~
+0 -1 4813
+D3
+~
+~
+0 -1 4799
+S
+#4801
+The Battlefield~
+   To the west, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4789
+D1
+~
+~
+0 -1 4802
+D2
+~
+~
+0 -1 4814
+S
+#4802
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4790
+D1
+~
+~
+0 -1 4803
+D2
+~
+~
+0 -1 4815
+D3
+~
+~
+0 -1 4801
+S
+#4803
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4791
+D1
+~
+~
+0 -1 4804
+D2
+~
+~
+0 -1 4816
+D3
+~
+~
+0 -1 4802
+S
+#4804
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D1
+~
+~
+0 -1 4805
+D2
+~
+~
+0 -1 4817
+D3
+~
+~
+0 -1 4803
+S
+#4805
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4792
+D1
+~
+~
+0 -1 4806
+D2
+~
+~
+0 -1 4818
+D3
+~
+~
+0 -1 4804
+S
+#4806
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4793
+D1
+~
+~
+0 -1 4807
+D2
+~
+~
+0 -1 4819
+D3
+~
+~
+0 -1 4805
+S
+#4807
+The Battlefield~
+   Everything is a blur around you as you try to stay alive in the middle
+of the battle.  For some reason you realize what a beautiful day it would
+be outside of this valley they call the Battlelands.  The death cries
+ring as loud as the weapons that create them and the blood sprays the air
+like rain.
+~
+47 0 1
+D0
+~
+~
+0 -1 4794
+D1
+~
+~
+0 -1 4808
+D2
+~
+~
+0 -1 4820
+D3
+~
+~
+0 -1 4806
+S
+#4808
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4795
+D1
+~
+~
+0 -1 4809
+D2
+~
+~
+0 -1 4821
+D3
+~
+~
+0 -1 4807
+S
+#4809
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4796
+D1
+~
+~
+0 -1 4810
+D2
+~
+~
+0 -1 4822
+D3
+~
+~
+0 -1 4808
+S
+#4810
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4797
+D1
+~
+~
+0 -1 4811
+D2
+~
+~
+0 -1 4823
+D3
+~
+~
+0 -1 4809
+S
+#4811
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4798
+D1
+~
+~
+0 -1 4812
+D2
+~
+~
+0 -1 4824
+D3
+~
+~
+0 -1 4810
+S
+#4812
+The Battlefield~
+   The Battlelands live up to their name.  Nowhere on this great field,
+surrounded by towering hills, can you see a blank area where battle does
+not exist.  Men batter at each other with great weapons and the cries of
+anguish and fury fill the air.
+~
+47 0 1
+D0
+~
+~
+0 -1 4799
+D1
+~
+~
+0 -1 4813
+D2
+~
+~
+0 -1 4825
+D3
+~
+~
+0 -1 4811
+S
+#4813
+The Battlefield~
+   To the east, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the south, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4800
+D2
+~
+~
+0 -1 4826
+D3
+~
+~
+0 -1 4812
+S
+#4814
+The Battlefield~
+   You are dwarfed to the south and west by large, rocky hills that
+prevent any passage in those direction.  You hear the sounds of battle
+all around you.  The grass is red with the stain of blood.
+~
+47 0 1
+D0
+~
+~
+0 -1 4801
+D1
+~
+~
+0 -1 4815
+S
+#4815
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4802
+D1
+~
+~
+0 -1 4816
+D3
+~
+~
+0 -1 4814
+S
+#4816
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4803
+D1
+~
+~
+0 -1 4817
+D3
+~
+~
+0 -1 4815
+S
+#4817
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4804
+D1
+~
+~
+0 -1 4818
+D3
+~
+~
+0 -1 4816
+S
+#4818
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4805
+D1
+~
+~
+0 -1 4819
+D3
+~
+~
+0 -1 4817
+S
+#4819
+The Battlefield~
+   To the north, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4806
+D1
+~
+~
+0 -1 4820
+D3
+~
+~
+0 -1 4818
+S
+#4820
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4807
+D1
+~
+~
+0 -1 4821
+D3
+~
+~
+0 -1 4819
+S
+#4821
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4808
+D1
+~
+~
+0 -1 4822
+D3
+~
+~
+0 -1 4820
+S
+#4822
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4809
+D1
+~
+~
+0 -1 4823
+D3
+~
+~
+0 -1 4821
+S
+#4823
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4810
+D1
+~
+~
+0 -1 4824
+D3
+~
+~
+0 -1 4822
+S
+#4824
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4811
+D1
+~
+~
+0 -1 4825
+D3
+~
+~
+0 -1 4823
+S
+#4825
+The Battlefield~
+   To the south, a towering hill of rocks and battered armor and weapons
+stands, preventing any travel in that direction.  To the north, a large
+battlefield opens up revealing thousands of inhabitants trying to kill
+one another.  It would be unwise to involve yourself in the matters taking
+place here.
+~
+47 0 1
+D0
+~
+~
+0 -1 4812
+D1
+~
+~
+0 -1 4826
+D3
+~
+~
+0 -1 4824
+S
+#4826
+The Battlefield~
+   You are dwarfed to the south and east by large, rocky hills that
+prevent any passage in those directions.  The face of the hills are littered
+with junk from the many wars long past.  You hear the sounds of battle
+all around you.  What is left of the grass is red with the stain of blood.
+~
+47 0 1
+D0
+~
+~
+0 -1 4813
+D3
+~
+~
+0 -1 4825
+S
+$~

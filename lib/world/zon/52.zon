@@ -1,0 +1,27 @@
+#52
+Caverns of the Underdark~
+Aleksandr~
+HIGH~
+3039 1
+5299 30 2
+*
+M 0 5210 1 5211         Dracolich 
+E 1 5201 1 5                    Banded Mail
+E 1 5202 1 16                   Halberd
+M 0 5211 3 5209         Drider
+E 1 3022 50 16                  Long Sword
+M 0 5212 3 5214         Wandering Duergar
+E 1 5200 15 16                  Mining Pick
+M 0 5213 4 5221         Myconoid
+M 0 5214 1 5221         Myconoid Shaman
+E 1 5203 1 3                    Mushroom Amulet
+M 0 5220 4 5227		Duergar miner
+E 1 5200 15 16			pick
+M 0 5220 4 5227		Duergar miner
+E 1 5200 15 16			pick
+M 0 5221 1 5227		Duergar Leader
+M 0 5201 3 5212		mindflayer
+M 0 5201 3 5212		mindflayer
+M 0 5201 3 5212		mindflayer
+S
+$~

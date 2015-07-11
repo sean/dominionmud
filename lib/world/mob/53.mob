@@ -1,0 +1,1179 @@
+#5300
+fan wandering wanderer wander~
+a wandering fan~
+A wandering fan is standing here screaming.
+~
+The fan pays you no attention.  He has his full attention tuned to The Arena.
+~
+d 0 0 E
+8 19 0 4d16+16 2d6+30
+300 5000
+8 8 1
+Race: 0
+Height: 60
+Weight: 125
+E
+#5301
+archer sniper~
+the sniper~
+A sniper is standing here prepared to shoot.
+~
+The sniper glances at you briefly as if to wonder what your business is here.
+~
+bd 0 100 E
+20 43 38 100d40+40 4d4+50
+500 100000
+8 8 1
+BareHandAttack: 11
+Str: 12
+Dex: 13
+Int: 12
+Wis: 14
+Con: 14
+Cha: 13
+Race: 9
+Height: 62
+Weight: 150
+E
+#5302
+female marksman sniper archer~
+the marksman~
+A female marksman sits here peering through a hole in the wall.
+~
+The female marksman is sitting and paying you no attention.  She obviously
+has more important things to worry about than you.
+~
+bdlnopr 0 0 E
+22 47 54 80d100+50 2d12+50
+10000 180000
+8 8 2
+Str: 15
+Dex: 12
+Int: 15
+Wis: 12
+Con: 15
+Cha: 13
+Race: 9
+Height: 62
+Weight: 100
+E
+#5303
+fan fanatic fanatical~
+a fanatical fan~
+A fanatical fan is standing here screaming.
+~
+The fan pays you no attention.  He has his full attention tuned to The Arena.
+~
+bd 0 0 E
+8 19 84 6d20+25 3d4+29
+250 4000
+8 8 1
+Race: 0
+Height: 60
+Weight: 125
+E
+#5304
+unicorn horse~
+the unicorn~
+A beautiful white furred unicorn grazes here in peace.
+~
+Before you stands a proud unicorn, possibly the last one in all of
+The Dominion.  You stare at it and it stares back seemingly unafraid
+of your presence.
+~
+abdlnopr fhmt 1000 E
+36 75 68 80d100+50 8d2+65
+0 200000
+8 8 2
+BareHandAttack: 6
+Str: 22
+Dex: 22
+Int: 21
+Wis: 19
+Con: 21
+Cha: 19
+Race: 22
+Height: 66
+Weight: 250
+E
+#5305
+traveler traveller young hooded woman~
+the hooded traveler~
+A young, hooded traveler is passing by here.
+~
+You look at her and she looks away pretending not to notice you.  She looks
+very weary and in desperate need of food and water.
+~
+cdh 0 50 E
+8 19 62 8d14+16 1d6+25
+50 2500
+8 8 2
+Race: 0
+Height: 62
+Weight: 100
+E
+#5306
+wandering merchant~
+the wandering merchant~
+A wandering merchant wanders to and fro.
+~
+The merchant looks weather beaten, hardened by his years in the sun.  He
+peers at you with a look of concern that you might be after his wealth.
+~
+cd 0 0 E
+8 19 72 12d12+16 2d4+30
+100 2500
+8 8 1
+BareHandAttack: 7
+Race: 0
+Height: 69
+Weight: 160
+E
+#5307
+colossal man arena fighter~
+the gladiator~
+A colossal man stand before you ready to pound you flat.
+~
+This man is massive.  His eyes glow red from all the blood on the
+battlefield.  He is ready to make you part of that battlefield.
+~
+cdnopr 0 0 E
+36 75 91 100d100+100 10d4+80
+10000 200000
+8 8 1
+BareHandAttack: 15
+Str: 21
+Dex: 19
+Int: 21
+Wis: 22
+Con: 20
+Cha: 20
+Race: 15
+Height: 84
+Weight: 255
+E
+#5308
+arena fighter man~
+the arena fighter~
+A fighter squares himself before you and prepares to battle.
+~
+You see a weary man who appears to have spent the greater part
+of the day here.  He has many scars on him, and a few wounds
+that will be scars in the future.  He glares at you as you
+approach.
+~
+di 0 1000 E
+16 35 97 100d10+100 4d4+50
+0 30000
+8 8 1
+BareHandAttack: 7
+Str: 9
+Dex: 12
+Int: 9
+Wis: 9
+Con: 10
+Cha: 12
+Race: 0
+Height: 71
+Weight: 192
+E
+#5309
+ugly ogre arena fighter~
+the arena ogre~
+An ugly ogre growls at you and prepares for battle.
+~
+This ogre is really ugly.  The sneer on his face and the blood
+caked to him makes him even uglier.  He seems very weary from his
+long hours spent in the arena.
+~
+dj 0 -1000 E
+16 35 98 100d10+100 4d4+50
+0 30000
+8 8 1
+BareHandAttack: 7
+Str: 12
+Int: 10
+Wis: 10
+Cha: 10
+Race: 17
+Height: 71
+Weight: 192
+E
+#5310
+proud lion~
+a lion~
+A proud lion snarls at you and approaces slowly.
+~
+This creature is surely one of the greatest animals in all
+of The Dominion.  It stands proudly and walks toward you.
+Will you be its next meal?
+~
+ad r 0 E
+30 63 76 100d100+100 8d8+75
+0 200000
+8 8 0
+BareHandAttack: 9
+Str: 18
+Dex: 16
+Int: 17
+Wis: 17
+Con: 16
+Cha: 19
+Race: 22
+Height: 62
+Weight: 255
+E
+#5311
+massive bear~
+a bear~
+A massive bear growls at you and charges for its next meal.
+~
+This bear looks very hungry.  And he appears to be ready to
+take it out on you.
+~
+adfijkt 0 0 E
+20 43 58 50d100+100 4d4+50
+0 60000
+8 8 0
+BareHandAttack: 8
+Con: 13
+Race: 22
+Height: 90
+Weight: 255
+E
+#5312
+panther cat~
+a panther~
+A large black cat is here stalking you.
+~
+The panther moves ever so gracefully in the shadows.  It has
+no intention of giving away its presence until you are within
+leaping distance.
+~
+adft 0 0 E
+20 43 54 50d100+40 4d4+50
+0 60000
+8 8 0
+BareHandAttack: 9
+Str: 13
+Dex: 12
+Int: 13
+Wis: 13
+Con: 12
+Race: 22
+Height: 40
+E
+#5313
+terrified man fighter peasant~
+the terrified peasant~
+A terrified peasant is here preparing himself to die.
+~
+He looks really really worried about something...
+~
+cd 0 1000 E
+8 19 54 8d16+16 4d4+50
+0 5000
+8 8 1
+BareHandAttack: 13
+Race: 0
+Height: 66
+Weight: 145
+E
+#5314
+massive timberwolf wolf~
+a timberwolf~
+A massive timberwolf prepares to devour you where you stand.
+~
+This huge canine is very very hungry and you could be its next meal.
+~
+adft 0 0 E
+20 43 52 50d100+40 4d4+50
+0 60000
+8 8 0
+Race: 22
+Height: 60
+E
+#5315
+traveler dehydrated man~
+the dehydrated traveler~
+A dehydrated traveler stumbles toward you.
+~
+This man looks very weak, and appears to be on the verge of death.
+He attempts to peek into your inventory for any possible sign of
+water.
+~
+cdt 0 0 E
+10 23 37 5d20+20 4d2+20
+200 6500
+8 8 1
+BareHandAttack: 13
+Race: 0
+Height: 68
+Weight: 112
+E
+#5316
+giant scorpion~
+the giant scorpion~
+A giant scorpion guards her meal of human remains here.
+~
+The scorpion is set upon guarding its feast.  Its too big for you
+to step on, and it appears to have no fear of fighting you for its
+meal.  It is about three feet in length.
+~
+adnopqrt 0 0 E
+15 33 55 5d30+30 4d4+50
+0 15000
+8 8 2
+BareHandAttack: 1
+Str: 8
+Dex: 10
+Int: 10
+Wis: 10
+Con: 10
+Race: 22
+Height: 14
+Weight: 42
+E
+#5317
+Aryn female mother figure color swirl~
+Aryn the newbie helper~
+Swirling colors converge here to surround a female figure.
+~
+Aryn sparkles before you prepared to help you in any way she can.
+~
+bdlnopqr ahk 1000 E
+42 80 87 80d80+20 20d20+80
+100 100000
+8 8 2
+BareHandAttack: 16
+Str: 25
+Dex: 22
+Int: 25
+Wis: 24
+Con: 25
+Cha: 22
+Race: 30
+Height: 65
+Weight: 125
+E
+#5318
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 12 0d0+0 0d0+0
+0 0
+8 8 0
+#5319
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 1 0d0+0 0d0+0
+0 0
+8 8 0
+#5320
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5321
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5322
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5323
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5324
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5325
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5326
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5327
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5328
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5329
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5330
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5331
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5332
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5333
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5334
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5335
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5336
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5337
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5338
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5339
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5340
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5341
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5342
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5343
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5344
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5345
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5346
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5347
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5348
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5349
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5350
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5351
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5352
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5353
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5354
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5355
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5356
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5357
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5358
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5359
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5360
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5361
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5362
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5363
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5364
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5365
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5366
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5367
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5368
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5369
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5370
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5371
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5372
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5373
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5374
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5375
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5376
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5377
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5378
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5379
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5380
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5381
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5382
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5383
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5384
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5385
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5386
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5387
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5388
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5389
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5390
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5391
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5392
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5393
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5394
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5395
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5396
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5397
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5398
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#5399
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+$~

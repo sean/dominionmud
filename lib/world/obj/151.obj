@@ -1,0 +1,137 @@
+#15100
+adamite axe goblinslayer~
+an adamite axe~
+An axe stained with Miden'nir lies here.~
+~
+5 21504 8193
+0 3 7 3
+10 300000 3000
+A
+19 3
+A
+18 -2
+#15101
+plate mail adamite~
+a suit of adamite plate mail~
+A suit of durable armor lies on the ground.~
+~
+9 4084736 9
+60 0 0 0
+10 200000 2500
+A
+2 -3
+A
+24 -10
+#15102
+gauntlets adamite~
+a pair of adamite gauntlets~
+A pair of very durable gauntlets lie in the dirt.~
+~
+9 939008 129
+8 0 0 0
+4 3000 1000
+A
+19 2
+A
+18 -2
+#15103
+boots adamite~
+adamite boots~
+A pair of durable boots lie here in the dirt.~
+~
+9 937984 65
+8 0 0 0
+5 5000 1000
+A
+2 -1
+A
+14 20
+#15104
+helmet adamite~
+an adamite helmet~
+A durable helmet lies here in the dirt.~
+~
+9 946176 17
+10 0 0 0
+7 6000 1500
+A
+5 2
+A
+23 10
+#15105
+bar adamite~
+a bar of adamite~
+A durable looking mineral lies in the dust.~
+~
+8 0 1
+0 0 0 0
+18 100000000 1000000
+#15106
+bar fake adamite~
+a bar of adamite~
+A shiny bar of durable mineral lies in the dirt.~
+~
+8 0 1
+0 0 0 0
+3 15 6
+#15107
+shovel mining~
+a mining shovel~
+A shovel is standing against the wall.~
+~
+5 0 8193
+0 1 4 7
+2 1 1
+#15108
+pick mining~
+a mining pick~
+A ming pick is against the wall.~
+~
+5 0 8193
+0 1 3 11
+1 1 1
+#15109
+chest mining~
+a big, old chest~
+A large well used chest is in the corner.~
+~
+15 0 1
+500 1 -1 0
+14 3000 200
+#15110
+girdle dwarvenkind dwarven dwarf~
+girdle of dwarvenkind~
+A girdle with an emblem of a hammer on the buckle is here.~
+~
+9 1986816 18433
+10 0 0 0
+5 15000 1000
+A
+5 1
+A
+2 -1
+#15111
+hammer dwarventhrower dwarf dwarven~
+a dwarven hammer~
+A dwarven hammer lies here in the dust.~
+~
+5 13389824 8193
+0 2 10 6
+9 30000 2500
+A
+18 3
+A
+19 3
+#15112
+whip~
+a slavemaster's whip~
+A long, coiled whip lies on the ground here.~
+~
+5 331912 8193
+0 2 6 2
+4 500 20
+A
+18 1
+A
+19 -20
+$~

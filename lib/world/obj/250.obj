@@ -1,0 +1,485 @@
+#25000
+brass key~
+a brass key~
+Someone has dropped a brass key here.~
+~
+18 0 a
+25000 0 0 0 0 0 0 0 14
+1 0 10
+E
+brass key~
+The brass key is very shinny and you immediately take a
+liking to it.
+~
+#25001
+violet key~
+a violet key~
+Someone has dropped a violet key here.~
+~
+18 0 a
+25001 0 0 0 0 0 0 0 14
+1 0 10
+E
+violet key~
+Someone took their time when crafting this violet key, making
+you believe it must be of some importance.
+~
+#25002
+bronze key~
+a bronze key~
+Someone has dropped a bronze key here.~
+~
+18 0 a
+25002 0 0 0 0 0 0 0 14
+1 0 10
+E
+bronze key~
+The key is shaped rather strangely, somewhat like a bolt of
+lightning.
+~
+#25003
+silver key~
+a silver key~
+Someone has dropped a silver key here.~
+~
+18 0 a
+25003 0 0 0 0 0 0 0 14
+1 0 10
+E
+silver key~
+The silver key is rather tarnished from repeated use.
+~
+#25004
+helm elder~
+a large stone helm~
+There is a large stone helm lying here.~
+~
+9 g ae
+45 0 0 0 0 0 0 9 28
+7 4500 500
+E
+stone helmet elder~
+The large stone helmet looks very old, yet very well built.
+~
+A
+3 2
+A
+4 2
+#25005
+rainbow sphere~
+a colored sphere~
+A small multi-colored sphere is lying on the ground.~
+~
+1 fg am
+0 0 -1 0 0 0 0 0 14
+3 3000 100
+E
+rainbow sphere~
+The rainbow sphere glimmers giving off a strange light.
+~
+A
+13 5
+#25006
+giant sword~
+a giant sword~
+A giant sword has been left here.~
+~
+5 op am
+1 3 9 3 0 0 0 18 14
+16 4000 2000
+E
+giant sword~
+The sword looks as if it might be too big for you to wield.
+~
+A
+18 1
+A
+19 1
+#25007
+skirt krikus grey charcoal~
+a grey skirt~
+A charcoal grey skirt is lying here.~
+~
+9 giopr af
+10 0 0 0 0 0 0 20 14
+4 8000 600
+E
+grey skirt~
+This piece of armor is covered with the claw marks of the dying.
+~
+A
+13 10
+A
+18 2
+#25008
+pelt manticore~
+a manticore's pelt~
+A yellow-brown pelt is here.~
+~
+9 0 aj
+10 0 0 0 0 0 0 14 14
+7 2000 200
+E
+pelt manticore~
+The hide looks like it came off of some cat, but it would have to be
+a gigantic cat.
+~
+A
+5 1
+A
+23 5
+#25009
+spiked shield~
+a spiked shield~
+A large black shield with nasty spikes has been left here.~
+~
+9 aop am
+15 0 0 0 0 0 0 19 14
+30 20000 9000
+E
+spiked~
+Through all the spikes you see a golden lightning bolt.
+~
+A
+19 1
+A
+18 -1
+#25010
+chain silver thick~
+a thick, silver chain~
+Someone has dropped a thick chain made of silver here.~
+~
+9 0 ak
+15 0 0 0 0 0 0 15 14
+3 2000 200
+E
+chain~
+The chain is well made out of black steel.
+~
+A
+19 1
+A
+2 -2
+#25011
+flask~
+a red flask~
+A flask attached to a thick rope is lying on the ground.~
+~
+17 g acm
+8 7 0 0 0 0 0 20 14
+10 750 100
+E
+flask~
+The flask is made leather and dyed blood-red.  A thick rope is
+attached to it, allowing someone to wear it around their neck.
+~
+A
+19 1
+A
+13 10
+#25012
+blue wizard staff~
+a deep-blue staff~
+A deep blue staff has been misplaced here.~
+~
+1 bgio am
+0 0 -1 0 0 0 0 20 14
+7 10000 2000
+E
+staff~
+This staff has been created out of the highest magic, textured
+with the personal touches of many of the finest mages in the land.
+~
+A
+12 75
+A
+23 2
+A
+29 5
+#25013
+breast plate lightningbolt~
+a breast plate~
+A breast plate with a large lightningbolt burnt in the center is here.~
+~
+9 mno ad
+90 0 0 0 0 0 0 20 14
+80 7000 8000
+E
+plate breast~
+This breast plate looks very protective and the burnt symbol of
+a lightning bolt strikes fear into the most experienced warrior.
+~
+A
+13 10
+A
+2 -2
+#25014
+bracers iron~
+a pair of iron bracers~
+A pair of large iron bracers have been dropped here.~
+~
+9 0 ai
+7 0 0 0 0 0 0 19 14
+30 7000 3000
+A
+1 2
+#25015
+parchment notes~
+a piece of parchment~
+A piece of parchment has been left here.~
+~
+16 0 a
+0 0 0 0 0 0 0 0 14
+1 0 1
+E
+parchment notes~
+Someone has scrawled upon the parchment:
+"YERSINIA IS SO COOL!!!!!!"
+You ponder momentarily at its meaning...
+~
+#25016
+pen quill~
+quill~
+A quill has been dropped here.~
+~
+21 0 ao
+0 0 0 0 0 0 0 0 14
+1 10 2
+E
+quill~
+Your average, everyday feather.  Strange, doesn't look like any bird
+that you've had the pleasure of meeting.
+~
+#25017
+cloak red dragonscale~
+blood red dragonscale cloak~
+A blood red dragonscale cloak has been discarded here.~
+~
+9 g aj
+10 0 0 0 0 0 0 16 14
+8 3000 1500
+E
+dragonscale cloak~
+Made from the scales of a butchered red dragon, this cloak looks
+like it would be very good protection.
+~
+A
+4 3
+A
+24 5
+#25018
+cabinet blue~
+a sky blue cabinet~
+A sky blue cabinet rests on the wall of this room.~
+~
+15 0 0
+8000 15 25020 0 0 0 0 20 14
+800 10 1
+E
+cabinet blue~
+This cabinet has been carved from sky blue marble, the white
+swirls looking like clouds within the cabinet itself.
+~
+#25019
+cabinet black~
+jet black cabinet~
+A jet black cabinet rest on the wall of this room.~
+~
+15 0 0
+800 13 25021 0 0 0 0 0 14
+800 10 1
+E
+cabinet black~
+This cabinet looks like it was made in the depths of hell.  The
+walls of the cabinet seem to breath as you watch them.
+~
+#25020
+key sapphire~
+sapphire key~
+A sapphire key has been left here.~
+~
+18 0 a
+25018 0 0 0 0 0 0 0 14
+1 2000 20
+E
+key~
+The key made out of a blue metal, contains a sapphire on its top.
+~
+#25021
+key obsidian~
+obsidian key~
+An obsidian key has been left here.~
+~
+18 0 a
+25019 0 0 0 0 0 0 0 14
+1 2000 20
+E
+Key~
+The key has been carved out of rich obsidian.
+~
+#25022
+dagger ages~
+a curved dagger~
+A solitary dagger has been stuck in the wall.~
+~
+5 giE am
+0 4 8 11 0 0 0 20 14
+3 50000 9000
+E
+dagger ages~
+The blade of this weapon curves up into a very sharp point.  The
+handle is made out of a black material you have never seen
+before, capped with a crimson stone.
+~
+A
+18 2
+A
+19 4
+#25023
+silver lance~
+a silver lance~
+A silver lance is on the ground.~
+~
+5 mnorstu am
+0 2 12 11 0 0 0 0 14
+20 1000 100
+#25024
+kings sword~
+a jewel-hilted sword~
+A large jeweled sword has been dropped here.~
+~
+5 s am
+3 3 8 3 0 0 0 20 14
+18 10000 50000
+E
+sword~
+This blade is very heavy, forged for a giant's hand.  Two emeralds
+have been delicately placed in the hilt of the sword, reminding
+you of a pair of eyes.
+~
+A
+18 4
+A
+19 4
+#25025
+hammer stone~
+a stone hammer~
+A big stone hammer has been discarded.~
+~
+5 mort am
+7 4 4 6 0 0 0 9 14
+16 600 55
+E
+hammer stone~
+The hammer is very crude, basically a big stick with a big rock
+tied to the end of it.
+~
+A
+18 -1
+A
+19 1
+#25026
+wing~
+a pair of bronze dragon wings~
+A pair of large bronze wing is on the ground.~
+~
+9 gi ak
+5 0 0 0 0 0 0 20 14
+5 100000 20000
+E
+wing~
+The wing is leathery to the touch, but extremely shiny.  The wing
+looks like it could support a very large creature in flight.
+~
+A
+4 3
+A
+13 20
+#25027
+boot scale~
+a brass-scale boot~
+A brass-scale boot has been carelessly discarded here.~
+~
+9 g ag
+38 0 0 0 0 0 0 11 14
+7 3000 2000
+E
+boots~
+Some poor brass dragon must've been hacked apart in order to
+make these scaled boots.  Poor chap.
+~
+A
+2 1
+#25028
+leggings scale~
+Brass-scaled leggings~
+Some scale leggings have been left here.~
+~
+9 gmort af
+60 0 0 0 0 0 0 11 14
+7 3000 1000
+E
+leggings~
+This piece of armor seems quite sturdy.  Pieced together from
+the scales of a brass dragon.
+~
+A
+3 1
+A
+23 -10
+#25029
+sleeve scale~
+a brass-scaled sleeve~
+A brass-scaled sleeve has been left here.~
+~
+9 gmort ai
+38 0 0 0 0 0 0 11 14
+7 3000 2000
+E
+sleeves~
+The scales of these sleeves shine brightly, almost annoying.
+~
+A
+24 -10
+A
+19 1
+#25030
+crown gorgeous~
+a gorgeous crown~
+A gorgeous crown is here.~
+~
+8 goprt ae
+0 0 0 0 0 0 0 16 14
+3 100000 100
+E
+crown~
+The jewels of this crown are very precious, coming from
+all corners of the land.
+~
+A
+3 1
+A
+4 1
+A
+5 -1
+#25031
+bottle souls~
+a green and black bottle~
+A green-black bottle is standing on end.~
+~
+5 bgj am
+0 1 3 9 0 0 0 20 14
+4 5000 11000
+E
+bottle souls~
+There seems to be something alive, or at least kind of alive,
+inside of the bottle.  Your not sure if you want to find out what.
+Looking on the side you notice some marking similiar to those
+seen in Moria.  This bottle must have been an ancient goblin
+artifact, taken in the Great War.
+~
+A
+19 2
+A
+13 20
+$~

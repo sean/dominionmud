@@ -1,0 +1,1796 @@
+#25003
+Mouth of the Uller River~
+   The banks are far apart as the Uller River spills its waters into
+the Widmans River.  Far off through the darkness you feel The Forestkeeper
+watching you as you move through his domain.  With some effor you can
+move upstream on the Uller to the north.
+~
+250 a 0
+D0
+~
+~
+0 0 25004
+D2
+~
+~
+0 0 3902
+S
+#25004
+On the Uller River~
+   The current continues to push your vessel to the south.  The banks are
+steep and the water much calmer.  The dark forest seems to pulse all around
+you as the trees tower overhead.
+~
+250 a 0
+D0
+~
+~
+0 0 25005
+D2
+~
+~
+0 0 25003
+S
+#25005
+Through the Rapids~
+   The water becomes very choppy and it is hard for you to hang onto your
+belongings, much less guide the boat.  By the grace of the Forestkeeper
+himself you somehow manage to move through the worst of the rocks into
+safer waters.
+~
+250 a 0
+D0
+~
+~
+0 0 25006
+D2
+~
+~
+0 0 25004
+S
+#25006
+On the Uller River~
+   The river makes a wide turn with the current running to the south.  Water
+crashes against a large tree that has fallen into the water creating quite
+a force.  Moving around the obstacle you notice the all-to-familiar sound
+of rapids to the south.  With a little effort you can move upstream to the
+east.
+~
+250 a 0
+D1
+~
+~
+0 0 25007
+D2
+~
+~
+0 0 25005
+S
+#25007
+On the Uller River~
+   The darkness created by these trees is all that you can see, save the
+occasional shadow moving along the banks.  The mighty river takes a turn
+to the west and the current seems so slow quite a bit.  You notice that
+the banks are widening as you go on.
+~
+250 a 0
+D0
+Nothing but darkness can be seen.
+~
+~
+0 0 25008
+D3
+~
+~
+0 0 25006
+S
+#25008
+On the Uller River~
+   The current has taken you deep into the forest.  Giant trees loom heavily
+above, blocking out all light.  Movement on the banks remind you how alive
+the forest really is.  The cold water still bites at your back, but you
+feel that the middle of the river is probably the safest place you can see.
+~
+250 a 0
+D0
+Faint sunlight can be seen as the river twists through the trees.
+~
+~
+0 0 25009
+D2
+~
+~
+0 0 25007
+S
+#25009
+On the Uller River~
+   The cold water crashes on all sides of your boat swiftly pushing you
+away from the mountains.  The white crests chill your bones as the river
+takes southward toward the forest.
+~
+250 0 0
+D0
+~
+~
+0 0 25010
+D2
+~
+~
+0 0 25008
+S
+#25010
+At the Bank of the Uller River~
+   The Uller River crashes down from a huge waterfall to the north.  Named
+after a great warrior of days long past the river moves much like he did:
+swiftly and without remorse.  This little eddie that you are standing in
+is the only spot in sight that you can get on or off the river.  A trail
+for the less timid lies to the east.
+~
+250 c 0
+D1
+The base of the mountain lies to the west with a trail turning up the peak.
+~
+~
+0 0 25011
+D2
+The river runs swiftly to the south.
+~
+~
+0 0 25009
+S
+#25011
+Base of the Mountain~
+   Standing at the base of the Western Mountains you see that
+they reach all the way into the clouds, very ominous indeed.
+A river flows off of the mountain here, turns, and flows to
+the north.  To the south is a trailhead.  The path back into
+the forest is to the east.
+~
+250 0 0
+D1
+You can see the path leading eastward into the forest.
+~
+~
+0 -1 11043
+D2
+Before you is the beginning of the trail into the mountains.
+~
+~
+0 -1 25012
+D3
+~
+~
+0 0 25010
+S
+#25012
+Trailhead~
+   This is the beginning of the long trail, switchbacking left
+and right up the face of the mountain.  The trail continues
+further than your eye can see.
+~
+250 0 0
+D0
+The trail winds back down to the base of the mountain.
+~
+~
+0 -1 25011
+D3
+The trail begins to switchback westward up the mountainside.
+~
+~
+0 -1 25013
+S
+#25013
+Mountain Trail~
+   The mountain trail, running east and west, is cut between
+shrubs and trees.  You notice you have a long way to go before
+you reach the top.
+~
+250 0 0
+D1
+The trail descends eastward.
+~
+~
+0 -1 25012
+D3
+The trail leads upward to the west.
+~
+~
+0 -1 25014
+S
+#25014
+Mountain Trail~
+   The mountain trail runs toward the peak to the north, and
+toward the base of the mountain to the east.  Looking down
+you see that the ground is already far below.
+~
+250 0 0
+D0
+The trail continues toward the top of the mountain.
+~
+~
+0 -1 25015
+D1
+The trail descends eastward.
+~
+~
+0 -1 25013
+S
+#25015
+Mountain Swithback~
+   The trail turns back to the east and south here.  There
+are bolders everywhere and upon careful observation
+you see a cave leagues above you.
+~
+250 0 0
+D1
+The trail switchbacks into an eastward ascent toward the top.
+~
+~
+0 -1 25016
+D2
+The trail descends to the south.
+~
+~
+0 -1 25014
+S
+#25016
+Mountain Trail~
+   The trees have started thinning out now, only the bushes
+and rocks surround you now.  The trail continues up to the
+east and down to the west.
+~
+250 0 0
+D1
+The trail continues upward, becoming steeper and steeper.
+~
+~
+0 -1 25017
+D3
+The trail descends to the south.
+~
+~
+0 -1 25015
+S
+#25017
+Mountain Trail~
+   You get a good view of the land from this segment of the
+trail.  Off to the east you see all-to familiar movement in
+the forest of Han-oar.  Straining your eyes you can see the
+City of Midgaard and all of its glory.  The trail continues
+climbing to the east and descending to the west.
+~
+250 0 0
+D1
+The trail continues climbing.
+~
+~
+0 -1 25018
+D3
+The trail descends toward the base of the mountain.
+~
+~
+0 -1 25016
+S
+#25018
+Mountain Trail~
+   You see that the trail turns again here.  To the north the
+trail goes through a very wicked looking fissure within
+the rocks themselves.  You get the feeling that travel
+might not be so easy to the north as it would be if you
+just decided to go back down the way you came.
+~
+250 0 0
+D0
+~
+~
+0 -1 25019
+D3
+The trail descends toward the base of the mountain.
+~
+~
+0 -1 25017
+S
+#25019
+Eye of the Needle~
+   You have entered the Eye of the Needle.  Perfectly made
+by Mother Nature as a place to launch a surprise attack
+against unwanted travelers.  The trail continues climbing
+to the north.
+~
+250 0 0
+D0
+The trail continues through the fissure.
+~
+~
+0 -1 25020
+D2
+~
+~
+0 0 25018
+S
+#25020
+Split In the Path~
+   Climbing up beyond the fissure you notice that the trail
+splits.  One branch goes off around the mountain to the
+east the other to seems to continue climbing up to the
+west.  The path also goes back down into the fissure to
+the south.
+~
+250 0 0
+D1
+The east branch of the trail winds around the mountain.
+~
+~
+0 -1 25021
+D2
+The path goes back down through the fissure.
+~
+~
+0 -1 25019
+D3
+The trail climbs toward the peak.
+~
+~
+0 -1 25039
+S
+#25021
+Around the Mountain~
+   The path here is very high and very narrow.  Again you
+have an amazing view of the land to the east, probably
+one that few adventurers share with you.  The trail runs
+east and west.
+~
+250 0 0
+D1
+The trail continues to curve around the mountain.
+~
+~
+0 -1 25022
+D3
+The trail travels westward toward the split.
+~
+~
+0 -1 25020
+S
+#25022
+Around the Mountain~
+   The path starts to curve here showing the other mountains
+that have previously been blocked from your sight by the
+mountain you are on.  Far below the river curves to the
+north.  The path continues to the north and west.
+~
+250 0 0
+D0
+The trail curves around the side of the mountain.
+~
+~
+0 -1 25023
+D3
+The trail curves around the mountain.
+~
+~
+0 -1 25021
+S
+#25023
+Around the Moutain~
+   RURURURURURURURURURURURURUR!!!!!!!!!!!!!!!!!!!
+Rocks fall from above you, nearly knocking you off the
+mountain.  Somehow you are still standing and you
+immediatly thank your god for saving you.  Suddenly
+you notice an opening into the mountain at the end of
+the trail to the north.  The trail runs north and south.
+~
+250 0 0
+D0
+The trail approaches the entrance to a large cave.
+~
+~
+0 -1 25024
+D2
+The trail curves around the side of the mountain.
+~
+~
+0 -1 25022
+S
+#25024
+The Cave Entrance~
+   As you approach the entrance you notice very large
+creatures moving around within the cave to the north.
+The path runs away from the cave entrance to the south.
+~
+250 0 0
+D0
+You see a large room lit by brass torches.
+~
+~
+0 -1 25025
+D2
+The trail goes south, away from the cave entrance.
+~
+~
+0 -1 25023
+S
+#25025
+The Giant Cave~
+   The cave is a enormous, lit up by brass torches circling
+the entire room.  Two tunnels lead off of the north wall,
+both lit up by the same torches that you see here.  This
+looks like it is the home to a clan of stone giants.
+~
+250 0 0
+D1
+A tunnel leads eastward.
+~
+~
+0 -1 25032
+D2
+You see the cave entrance to the south.
+~
+~
+0 -1 25024
+D3
+A tunnel leads westward.
+~
+~
+0 -1 25026
+S
+#25026
+The Western Tunnel~
+   The tunnel walls are very smooth, you almost feel as
+though this place was built for a very special reason.
+You begin to notice a rumbling noise in the distance,
+but you can't seem to figure out exactly where it is
+coming from with the echo from the cave.  The tunnel
+runs between a light far off to the west and the giant
+cave to the east.
+~
+250 0 0
+D1
+You see a large room lit by brass torches.
+~
+~
+0 -1 25025
+D3
+The tunnel continues on westward.
+~
+~
+0 -1 25027
+S
+#25027
+The Western Tunnel~
+   The torch light that you were in has slowly been replaced
+by daylight.  The tunnel continues to the west and to the east.
+The rumbling is stronger now and you believe it is coming
+from the same place the light is coming from at the end of
+the tunnel far down to the west.
+~
+250 0 0
+D1
+The tunnel continues to the east.
+~
+~
+0 -1 25026
+D3
+The tunnel continues to the west.
+~
+~
+0 -1 25028
+S
+#25028
+The Western Tunnel~
+   The rumbling is very loud now, drowning out most of
+your own thoughts.  You are now postive that it is coming
+from the end of the tunnel to the west.  There is a polished
+stone door to the north.  The tunnel continues both east and
+west.
+~
+250 0 0
+D0
+There is a large door to the north.
+~
+door large~
+1 -1 25029
+D1
+The tunnel continues to the east.
+~
+~
+0 -1 25027
+D3
+The tunnel continues to the west.
+~
+~
+1 -1 25030
+S
+#25029
+The Elders Room~
+   The room is decorated with murals depicting stone giants,
+cloud giants, storm giants, and bronze and brass dragons
+fighting great battles against trolls, orc, and red dragons.
+The pictures are vivid and you lose yourself in them for a
+moment.  However, you cannot decide who won the war.
+The only exit is to the south.
+~
+250 0 0
+D2
+You see a large doorway leading back out into the tunnel.
+~
+door large~
+1 -1 25028
+S
+#25030
+The Western Tunnel~
+   The rumbling is more like a roar and you see the source
+of it.  Water speeds past the hole on the western side of
+this mountain.  Looking down you decide that walking
+would be much saver than riding these currents.  The
+tunnel goes on to the east.
+~
+250 0 0
+D1
+The tunnel continues to the east.
+~
+~
+0 -1 25028
+S
+#25031
+Waterfall!~
+   Suddenly you are carried off down the side of the
+mountain by a wave of water falling from the mountain
+side above you.  As you hit the rocks at the bottom of
+the falls you feel your neck snap and a shower of blood
+shoots up from your bowels and out your nose and mouth.
+~
+250 0 0
+S
+#25032
+The Eastern Tunnel~
+   The walls are especially smooth, as if they were carved
+out by some unnatural means.  The tunnel runs to the east,
+and is lit up by the same torches that were in the cave to the west.
+~
+250 0 0
+D1
+The tunnel seems to turn northward up ahead.
+~
+~
+0 -1 25033
+D3
+You see a large room lit by torch light.
+~
+~
+0 -1 25025
+S
+#25033
+Bend In the Tunnel~
+   The tunnel curves north and as you look down it, you see a
+large bronze door at the end of the corridor.
+~
+250 0 0
+D0
+The tunnel continues toward a large brass door to the north.
+~
+~
+0 -1 25034
+D3
+The tunnel continues to the west.
+~
+~
+0 -1 25032
+S
+#25034
+The Rainbow Tunnel~
+   The tunnel is still lit, but not by the brass torches used
+previously.  Some kind of magical, rainbow light is allowing
+sight to be possible here.  There is a small room to the west.
+The tunnel runs north and south.
+~
+250 0 0
+D0
+The tunnel continues through the lighting, toward the brass door.
+~
+~
+0 -1 25036
+D2
+The tunnel turns eastward, toward the large room.
+~
+~
+0 -1 25033
+D3
+There is a small room with benches.
+~
+~
+0 -1 25035
+S
+#25035
+Guard Room~
+   This is a small room that the giants sit in when waiting for
+strangers to come.  It seems obvious that they intend on
+safeguarding whatever is behind the brass door at the end
+of the hall.  The only exit is to the east.
+~
+250 0 0
+D1
+You see the rainbow tunnel.
+~
+~
+0 -1 25034
+S
+#25036
+The Rainbow Tunnel~
+   The tunnel stops here, still lit up by the rainbow light.
+There is a smooth bronze door to the north, very out of
+place with the granite walls.  The tunnel continues to the south.
+~
+250 0 0
+D0
+~
+door bronze~
+1 25002 25037
+D2
+You see the rainbow tunnel.
+~
+~
+0 -1 25034
+S
+#25037
+Bronze Dragon Egg Room~
+   This room is filled with dragon eggs.  They are tinted
+slightly with a bronze color that shimmers in the rainbow
+light.  There are colorful pictures drawn on the stone
+depicting bronze and gold dragons in the service of Bahamut
+in his throne room.  Other pictures show bronze dragons in
+flight, breathing their powerful lightning.  There is a corridor
+to the east and the rainbow tunnel is to the south.
+~
+250 0 0
+D1
+A corridor leads to another room to the east.
+~
+~
+0 -1 25038
+D2
+~
+door bronze~
+1 0 25036
+S
+#25038
+Hatchling Room~
+   The first thing you notice is the rainbow light coming from
+an opening on the east wall.  Looking out you realize that the
+dragons will exit here when they are mature enough to fly.
+The rainbow seems to go over and into the clouds high above.
+It looks as if the rainbow is a trail for the hatchlings to take
+into the sky.  The only exit you can take, however, is to the west.
+~
+250 0 0
+D3
+A corridor leads to another room to the west.
+~
+~
+0 -1 25037
+S
+#25039
+The Mountain Trail~
+   The trail winds upward along the western side of the mountain.
+Up ahead the trail narrows and turns into more of a ledge than
+a path.
+~
+250 0 0
+D1
+To the east you can see the split in the path.
+~
+~
+0 -1 25020
+D3
+The trail shrinks into a narrow walkway.
+~
+~
+0 -1 25040
+S
+#25040
+A Narrow Ledge~
+   The trail that you have been climbing the mountain on has
+became a small walkway on a ledge.  You feel a little hesitant
+about continuing the climb knowing that one false step will
+lead to a very long fall.  The ledge continues climbing to the
+north and widens into the trail to the east.
+~
+250 0 0
+D0
+The ledge continues going up the side of the mountain.
+~
+~
+0 -1 25041
+D1
+The ledge widens into a much more pleasant trail.
+~
+~
+0 -1 25039
+S
+#25041
+A Narrow Ledge~
+   The ledge continues to wind up the western side of the
+mountain.  The trees below are a non-descript blanket of
+green covering the countryside.  To the north the ledge
+seems to pass right under a large stream of water that is
+falling from the mountainside above you.
+~
+250 0 0
+D0
+The ledge continues, going directly behind a waterfall.
+~
+~
+0 -1 25042
+D2
+The ledge winds downward toward the mountain trail.
+~
+~
+0 -1 25040
+S
+#25042
+A Narrow Ledge~
+   The noise from the waterfall drowns out any other sound
+that you might have heard here.  The water heads directly
+down the side and forms the river that you saw at the base
+of the mountain.  The ledge continues both north and south.
+~
+250 0 0
+D0
+The ledge continues climbing the mountain.
+~
+~
+0 -1 25043
+D2
+The ledge continues downward toward the mountain trail.
+~
+~
+0 -1 25041
+S
+#25043
+A Narrow Ledge~
+   This part of the trail seems a little greener than what you have
+passed through recently.  You are relieved to take a few steps
+without climbing over and around rocks and boulders.  To the
+north you notice the trail bends sharply around the mountain.
+~
+250 0 0
+D0
+~
+~
+0 0 25044
+D2
+The ledge continues downward toward the mountain trail.
+~
+~
+0 -1 25042
+S
+#25044
+A Bend in the Trail~
+   As you turn the corner you get a full view of the lush western
+side of these grand mountain.  As far as you can see there is
+green trees and brush.  The view is so breathtaking it takes
+you a second to notice the gateway to the east.
+~
+250 0 0
+D1
+There is a large gateway.
+~
+~
+0 -1 25045
+D2
+The ledge continues downward.
+~
+~
+0 -1 25043
+S
+#25045
+The Gateway~
+   You have stepped within a gigantic gateway made of stone.
+It has obviously been built as a marker to let those who
+approach know that they should not just wander in.  There
+are steps leading up the back side of the mountain.  To the
+west the trail leads back toward the bend.
+~
+250 0 0
+D3
+There is a bend in the trail.
+~
+~
+0 -1 25044
+D4
+Steps lead up the mountainside.
+~
+~
+0 -1 25046
+S
+#25046
+The Great Steps~
+   The steps climb quickly up the mountain and, judging from
+the size of them, probably were not made for anyone other
+than giants to climb.  The steps continue up and down.
+~
+250 0 0
+D4
+The steps lead up the mountainside.
+~
+~
+0 -1 25047
+D5
+The steps lead down to the Gateway.
+~
+~
+0 -1 25045
+S
+#25047
+The Great Steps~
+   The steps continue to travel straight up the mountainside.
+~
+250 0 0
+D4
+The steps lead up the mountainside.
+~
+~
+0 -1 25048
+D5
+The steps lead down the mountainside.
+~
+~
+0 -1 25046
+S
+#25048
+The Great Steps~
+   The steps continue to travel straight up the mountainside.  Up
+ahead you see a rainbow flow down from a cloud over the other
+side of the mountain.  Only a little more to go to the peak.
+~
+250 0 0
+D4
+The steps lead up the mountainside.
+~
+~
+0 -1 25049
+D5
+The steps lead down the mountainside.
+~
+~
+0 -1 25047
+S
+#25049
+The Great Steps~
+   Happily you realize that the peak is just ahead.  The steps lead
+up and down.
+~
+250 0 0
+D1
+~
+secret rock~
+1 -1 25065
+D4
+The steps lead up to the peak of the mountain.
+~
+~
+0 -1 25050
+D5
+The steps lead down the mountain.
+~
+~
+0 -1 25048
+S
+#25050
+The Peak of the Western Mountains~
+   From the summit of the peak the wind is unnerving.  However,
+the view is amazing.  From here you survey the entire world.
+Hanoar Forest is just a blanket of green, Midgaard just a spec
+on the horizon.  You also notice a very odd looking castle to
+the west.  The steps go down the mountainside.
+~
+250 0 0
+D3
+A odd looking castle stands to the west.
+~
+~
+0 -1 25051
+D5
+The steps lead down the mountainside.
+~
+~
+0 -1 25049
+S
+#25051
+Entrance to the Mountain Castle~
+   The walls of the castle extend from here right into the mountain.
+Dark marble stones set together make up the entire structure.  In
+one of the back corners a tower extends right into the clouds.  The
+wind violently blows three blood red flags extending from the
+remaining three corners of the castle.  A enormous walkway leads
+north into the castle.
+~
+250 c 0
+D0
+The walkway leads into the castle.
+~
+~
+0 -1 25052
+D1
+The mountain peak is to the east.
+~
+~
+0 -1 25050
+S
+#25052
+The Grand Hall of Mountaincastle~
+   You enter a very expansive room and immediately notice the
+paintings on the walls.  Wonderful murals of storm giants
+wielding giant lightingbolts battling thousands of evil creatures
+swarming the mountainside.  A majestic walkway leads off
+to the north, while smaller hallways lead to the east and west.
+~
+250 d 0
+D0
+~
+~
+0 0 25064
+D1
+A hallway leads to the east.
+~
+~
+0 -1 25057
+D2
+The entrance to Mountcastle is to the south.
+~
+~
+0 -1 25051
+D3
+A hallway leads to the west.
+~
+~
+0 -1 25053
+S
+#25053
+A hallway~
+   The hall leads off of the Grand Hall and continues to the west.
+There is a black door to the north.
+~
+250 d 0
+D0
+There is a black door here.
+~
+door black~
+1 -1 25054
+D1
+The Grand Hall of Mountcastle is to the east.
+~
+~
+0 -1 25052
+D3
+The hallway continues west.
+~
+~
+0 -1 25055
+S
+#25054
+Giantsoldier's Quarters~
+   You enter a small room with only a bed.  Your only exit is south.
+A black door separates the hallway from this bedroom.
+~
+250 d 0
+D2
+To the south is a doorway.
+~
+door black~
+1 -1 25053
+S
+#25055
+A hallway~
+   The hallway ends here with a black door to the west.  The
+hallway leads back to the east.
+~
+250 d 0
+D1
+The hallway leads east.
+~
+~
+0 -1 25053
+D3
+A black door is here.
+~
+door black~
+1 -1 25056
+S
+#25056
+Giantsoldier's Quarters~
+   You enter a small room with only a bed.  Your only exit is east.
+A black door separates the hallway from this bedroom.
+~
+250 d 0
+D1
+~
+door black~
+1 0 25055
+S
+#25057
+A hallway~
+   A hallway leads off the Grand Hall of Mountaincastle to the
+east.  There is a marble door to the north.
+~
+250 d 0
+D0
+To the north is a marble door.
+~
+door marble~
+1 -1 25058
+D1
+The hallway continues to the east.
+~
+~
+0 -1 25059
+D3
+To the west is the Grand Hall.
+~
+~
+0 -1 25052
+S
+#25058
+Sage's Quarters~
+   This is a small room with a desk and a bed.  Scattered on the
+desk are papers, possibly maps or scrolls.  The only exit is south.
+~
+250 d 0
+D2
+There is a marble door to the south.
+~
+door marble~
+1 -1 25057
+S
+#25059
+A hallway~
+   A hallway leads east and west from here.
+~
+250 d 0
+D1
+A hallway leads east from here.
+~
+~
+0 -1 25060
+D3
+A hallway leads west from here.
+~
+~
+0 -1 25057
+S
+#25060
+A hallway~
+   The hallway bends, leading north and west.
+~
+250 0 0
+D0
+A hallway leads north from here.
+~
+~
+0 -1 25061
+D3
+A hallway leads west from here.
+~
+~
+0 -1 25059
+S
+#25061
+A hallway~
+   A hallway leads north and south.  There is a green door to the
+west.
+~
+250 dp 0
+D0
+A hallway leads north from here.
+~
+~
+0 -1 25063
+D2
+A hallway leads south from here.
+~
+~
+0 -1 25060
+D3
+There is a green door to the west.
+~
+door green~
+1 -1 25062
+S
+#25062
+Giantcaptain's Quarters~
+   This room contains only a bed and a small mural of battles.  The
+only exit is to the east.
+~
+250 d 0
+D1
+There is a green door here.
+~
+door green~
+1 -1 25061
+S
+#25063
+A hallway~
+   The hallway ends here at a violet door.  The hallway goes south.
+~
+250 p 0
+D0
+A violet door is to the north.
+~
+door violet~
+1 25001 25069
+D2
+A hallway runs south from here.
+~
+~
+0 -1 25061
+S
+#25064
+Chamber of the Storm Giant~
+   The walls of this huge room have been carved out of marble,
+with the exception of the back wall which is part of the
+mountainside itself.  Before you is a giant throne made of the
+same marble and covered with carvings of lightning bolts.
+~
+250 d 0
+D2
+The Grand Hall of Mountaincastle is to the south.
+~
+~
+0 -1 25052
+S
+#25065
+A secret trail~
+   A small trail runs within the rocks to the east.  A rock
+door is on the west wall.
+~
+250 ad 0
+D1
+A small trail continues to the east.
+~
+~
+0 -1 25066
+D3
+~
+rock door~
+1 -1 25049
+S
+#25066
+A small trail~
+   A small trail ends here with a cave entrance to south.
+~
+250 ad 0
+D2
+~
+~
+0 0 25067
+D3
+~
+~
+0 -1 25065
+S
+#25067
+A Cave~
+   This is a large cave with scattered items around the room.  The
+cave continues to the south.
+~
+250 ad 0
+D0
+A small trail is to the north.
+~
+~
+0 -1 25066
+D2
+The cave continues back to the south.
+~
+~
+0 -1 25068
+S
+#25068
+The Cave-Dwelling of Krikus~
+   The cave opens up into a much larger room.  Something giving off
+a very rank odor catches your senses off guard and you quickly
+notice a large pile of corpses in the corner of the cave.  Krikus,
+obviously, is not a pleasant individual.  Your only exit is to the
+north.
+~
+250 ad 0
+D0
+~
+~
+0 0 25067
+S
+#25069
+Base of the Tower~
+   Coming through the doorway you enter the base of the northeast
+tower of Umbra's Mountaincastle.  Looking up you notice the tower
+is open at the top.  There is a sturdy iron ladder here.  The only
+options for leaving are up or to the south.
+~
+250 dp 0
+D2
+A violet door is to the south.
+~
+door violet~
+1 25001 25063
+D4
+An iron ladder continues upward.
+~
+~
+0 -1 25070
+E
+iron ladder~
+The iron ladder has been built to hold giants, so you shouldn't worry.
+~
+S
+#25070
+Up the Ladder~
+   You didn't notice this tower being quite this tall from the bottom;
+but the ladder continues up and down.
+~
+250 dp 0
+D4
+An iron ladder continues up.
+~
+~
+0 -1 25071
+D5
+An iron ladder follows the tower wall downwards.
+~
+~
+0 -1 25069
+S
+#25071
+Up the Ladder~
+   As you near the top of the ladder you notice the sky above you is
+quite different than the sky you saw before entering the castle.
+Blackness engulfs everything above you making you even more
+curious about what lies ahead.
+~
+250 dp 0
+D4
+It is too dark to tell...
+~
+~
+0 -1 25072
+D5
+The ladder goes down (seeming like a safer option by the minute.)
+~
+~
+0 -1 25070
+S
+#25072
+Within the Clouds~
+   As the ladder ends at the top of the tower you are surrounded
+by blackness.  You can barely see two feet in front of your face.
+The wind whipping around you is the only indication that this
+"smoke" is really a blanket of clouds.  There are exits every
+direction.
+~
+250 adp 0
+D0
+To dark to tell.
+~
+~
+0 -1 25073
+D1
+To dark to tell.
+~
+~
+0 -1 25074
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25076
+D5
+The ladder descends back into the tower.
+~
+~
+0 -1 25071
+S
+#25073
+Within the Clouds~
+   A thick blanket of clouds surrounds you.  There are exits every
+direction.  Of course each exit looks the same.
+~
+250 ap 5
+D0
+To dark to tell.
+~
+~
+0 -1 25076
+D1
+To dark to tell.
+~
+~
+0 -1 25076
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25076
+S
+#25074
+Within the Clouds~
+    A thick blanket of clouds surrounds you.  There are exits every
+direction.  Of course each exit looks the same.
+~
+250 ap 5
+D0
+To dark to tell.
+~
+~
+0 -1 25077
+D1
+To dark to tell.
+~
+~
+0 -1 25073
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25073
+S
+#25075
+Within the Clouds~
+   A thick blanket of clouds surrounds you.  There are exits every
+direction.  Of course each exit looks the same.
+~
+250 ap 5
+D0
+To dark to tell.
+~
+~
+0 -1 25073
+D1
+To dark to tell.
+~
+~
+0 -1 25073
+D2
+To dark to tell.
+~
+~
+0 -1 25072
+D3
+To dark to tell.
+~
+~
+0 -1 25073
+S
+#25076
+Within the Clouds~
+   A thick blanket of clouds surrounds you.  There are exits every
+direction.  Of course each exit looks the same.
+~
+250 ap 5
+D0
+To dark to tell.
+~
+~
+0 -1 25073
+D1
+To dark to tell.
+~
+~
+0 -1 25073
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25073
+S
+#25077
+Within the Clouds~
+   A thick blanket of clouds surrounds you.  There are exits every
+direction.  Of course each exit looks the same.
+~
+250 ap 5
+D0
+To dark to tell.
+~
+~
+0 -1 25075
+D1
+To dark to tell.
+~
+~
+0 -1 25073
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25078
+S
+#25078
+Within the Clouds~
+   A thick blanket of clouds surrounds you.  There are exits every
+direction.  Of course each exit looks the same.
+~
+250 ap 5
+D0
+To dark to tell.
+~
+~
+0 -1 25079
+D1
+To dark to tell.
+~
+~
+0 -1 25073
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25073
+S
+#25079
+Within the Clouds~
+   A thick blanket of clouds surrounds you.  There are exits every
+direction.  Of course each exit looks the same.
+~
+250 ap 5
+D0
+To dark to tell.
+~
+~
+0 -1 25076
+D1
+To dark to tell.
+~
+~
+0 -1 25073
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25080
+S
+#25080
+The Opening in the Clouds~
+   The darkness separates slightly and you see an exit above you
+through the clouds.
+~
+250 p 1
+D0
+To dark to tell.
+~
+~
+0 -1 25073
+D1
+To dark to tell.
+~
+~
+0 -1 25073
+D2
+To dark to tell.
+~
+~
+0 -1 25075
+D3
+To dark to tell.
+~
+~
+0 -1 25073
+D4
+You can see quite a bit of movement above you.
+~
+~
+0 -1 25081
+S
+#25081
+Above the Clouds~
+   You have emerged from the darkness and are momentarily
+blinded by the bright light around you.  As your eyes adjust you
+are awe-struck with the number of creatures around you.  A
+silver trail leads north from here.
+~
+250 p 1
+D0
+A silver trail continues to the north.
+~
+~
+0 -1 25082
+D5
+Looking down you see familiar blackness.
+~
+~
+0 -1 25080
+S
+#25082
+The Silver Trail~
+   The trail leading north is very wide filled with giants training
+for combat with brass dragons and bronze dragons.  In the
+distance you can see a solitary tower with an audience forming
+below.
+~
+250 p 1
+D0
+The silver trail continues north.
+~
+~
+0 -1 25083
+D2
+The silver trail goes south.
+~
+~
+0 -1 25081
+S
+#25083
+The Silver Trail~
+   The trail continues north toward the tower.  The number of
+giants and dragons here makes you feel somewhat uneasy.
+~
+250 p 1
+D0
+The trail continues north.
+~
+~
+0 -1 25084
+D2
+The trail continues south.
+~
+~
+0 -1 25082
+S
+#25084
+The Silver Trail~
+   To the north the trail ends at a large crowd of giants and
+dragons.  To the south the trail continues.
+~
+250 p 1
+D0
+A large procession of creatures is forming to the north.
+~
+~
+0 -1 25085
+D2
+The trail continues south.
+~
+~
+0 -1 25083
+S
+#25085
+The Audience Yard~
+   It seems like your just in time.  Gmra, the leader of all the
+giants is addressing dragons and giants from a balcony in the
+tower to the north.  There is a walkway lined with various
+precious metals leading north to the tower.
+~
+250 p 1
+D0
+A walkway leads north.
+~
+~
+0 -1 25086
+D2
+You see the silver trail to the south.
+~
+~
+0 -1 25084
+S
+#25086
+The Sacred Walkway~
+   A beautifully rich walkway leads up the clouds to the base of
+the Tower of Kings.  To the south is the audience yard.
+~
+250 0 1
+D0
+To the north is the entrance to the Tower of Kings.
+~
+~
+0 -1 25087
+D2
+The audience yard is south of here.
+~
+~
+0 -1 25085
+S
+#25087
+Entryway to the Tower of Kings~
+   A large silver door separates the outside world above the
+clouds from the glory inside.
+~
+250 0 1
+D0
+There is a silver door to the north.
+~
+door silver~
+1 25003 25088
+D2
+The Sacred Walkway is south of here.
+~
+~
+0 -1 25086
+D5
+~
+~
+0 -1 10695
+S
+#25088
+Within the Base of the Tower~
+   The entire place has been carved out of grey swirled marble,
+the walls, the stairs everything.  You sense that this place has
+been here longer than the world below.  The stairs lead up
+in a spiral.  A silver door is on the south wall.
+~
+250 d 0
+D2
+~
+silver door~
+1 25003 25087
+D4
+A rich marble staircase leads upward.
+~
+~
+0 -1 25089
+E
+stairs stairway~
+the stairway, wide enough for a dragon to use, leads up.
+~
+S
+#25089
+The Spiral Stairs~
+   Upon the walls are paintings of previous Giant Kings.  The
+stairway continues up and down.
+~
+250 d 0
+D4
+The stairs lead up in a spiral.
+~
+~
+0 -1 25090
+D5
+The stairs lead down in a spiral.
+~
+~
+0 -1 25088
+S
+#25090
+Top of the Spiral Stairs~
+   The stairs end here with a doorway to the east.  Paintings
+of past Kings riding into battle on their dragon mounts grace
+the walls around you.  There is a grey door to the east.
+~
+250 d 0
+D1
+There is a grey door to the east.
+~
+door grey~
+1 -1 25091
+D5
+The stairs lead down.
+~
+~
+0 -1 25089
+S
+#25091
+The East Room of the Tower of Kings~
+   This room is enormous, filled with ancient weapons decorating
+all the walls.  There are two large marble cabinets, one sky blue,
+the other black as night, standing on the floor.  There is a red
+door to the north and a grey door to the west.
+~
+250 d 0
+D0
+There is a red door to the north.
+~
+door red~
+1 -1 25092
+D3
+There is a grey door to the west.
+~
+door grey~
+1 -1 25090
+S
+#25092
+The Northeast Room of the Tower of Kings~
+   The northeast room, like the east room is immense.  This room
+is filled with more weapons, most of them ancient blades crafted
+out of the finest steel.  There is a black door to the west and a
+red door to the south.
+~
+250 d 0
+D2
+There is a red door to the south.
+~
+door red~
+1 -1 25091
+D3
+There is a black door to the west.
+~
+door black~
+1 -1 25093
+S
+#25093
+The Northwest Room of the Tower of Kings~
+   This room in completely barren except for a solitary marble
+podium in the center.  There is a silver door in the center of the
+south wall and a black door on the east wall.
+~
+250 d 0
+D1
+There is a black door to the east.
+~
+door black~
+1 -1 25092
+D2
+There is a silver door to the south.
+~
+door silver~
+1 25003 25094
+S
+#25094
+The Chamber of the King~
+   You have entered the sacred chamber of Gmra, King of the
+Giants.  Hides of evil dragons that have been destroyed by his own
+hand decorate the room like tropheys.  An arched stairway, wide
+enough for ten men, basks in sunlight from above.  A silver door
+is centered on the north wall.
+~
+250 d 0
+D0
+There is a silver door to the north.
+~
+door silver~
+1 25003 25093
+D4
+Stairs lead up to the top of the tower.
+~
+~
+0 -1 25095
+S
+#25095
+Jirdidan's Throne~
+   The stairs end and again you are outside, now quite high above
+even the clouds.  The wind is wicked, but the tower beneath your
+feet is quite sturdy.  Jirdidan, the Ancient One, oversees the
+training on the cloud surface below.  Behind the dragon you see
+the rainbow trail that starts on the mountain below you comes up
+and ends here on top of the tower.
+~
+250 d 0
+D5
+Stairs lead down to the Chamber of the King.
+~
+~
+0 -1 25094
+S
+$~

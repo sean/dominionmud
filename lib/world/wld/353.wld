@@ -1,0 +1,882 @@
+#35300
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D1
+~
+~
+0 0 35322
+D2
+~
+~
+0 -1 35309
+S
+#35301
+Limla Cliffs~
+     The creek bed slopes down from the east and makes a sharp turn southward.
+The water that rushes through here during a strong storm has cut into the
+side of a gigantic rock wall.  The rock seems to be holding its own forcing
+the creek to the south.  A shallow body of water about 15 feet across
+seperates you from the rock itself.  The water is stagnant and the air is
+not as pleasant as you would like it to be.
+~
+353 0 3
+D1
+~
+~
+0 -1 35302
+D2
+~
+~
+0 -1 35311
+S
+#35302
+In the Creekbed~
+     The dry creek winds through the forest.  Rocks roll about under your feet
+making looking around a bit more difficult.  To the north the dense trees
+travel up to the sky.  Westward you can see a break in the trees as the creek
+bed widens and turns south.  Light flows in and glimmers off a small pool
+of water, illuminating a tall cliff with sparkling waves of light.  The
+creekbed rises to the east, obviously the direction water would come from
+ -- if there was any water here.
+~
+353 0 3
+D1
+~
+~
+0 -1 35303
+D3
+~
+~
+0 -1 35301
+S
+#35303
+In the Creekbed~
+     Tall trees shimmer in the light on the north and south banks of this
+creek.  Some of the roots stretch out, reaching past the dirt bank and into
+the air.  Peering around you can see scurrying movement in many of the roots
+as animals busily dig there way for food and shelter.  The creekbed runs
+east and west from this spot.
+~
+353 0 3
+D1
+~
+~
+0 -1 35304
+D3
+~
+~
+0 -1 35302
+S
+#35304
+In the Creekbed~
+     The creekbed moves on downward to the west and slightly upward to the
+east around a large amount of unanchored brush and tree limbs.  The banks
+to the north and south are covered with thick brush, making travel there
+impossible.  High above you squirrels bound from limb to limb, daring
+gravity to pull them down.
+~
+353 0 3
+D1
+~
+~
+0 -1 35305
+D3
+~
+~
+0 -1 35303
+S
+#35305
+In the Creekbed~
+     Torn tree branches and unplanted brush has collected at this spot in
+the creek.  Small puddles of water are scattered in the rocks and you see
+a family of water spiders skating across the surface.  One of the larger
+branches juts out from the fray of limbs and leaves forming a perfect
+resting place for the tired traveler.  By climbing up onto the pile you
+can reach the top of the south bank.  The empty creek lies both east and
+west from here.
+~
+353 0 3
+D1
+~
+~
+0 -1 35306
+D2
+~
+~
+0 -1 35315
+D3
+~
+~
+0 -1 35304
+S
+#35306
+In the Creekbed~
+     To the west the slopes of the banks begin to increase rapidly and deny
+any movement to the north and south.  A large pile of tree limbs and broken
+branches clog up the creekbed directly to the west.  The creekbed continues
+to the east.
+~
+353 0 3
+D1
+~
+~
+0 -1 35307
+D3
+~
+~
+0 -1 35305
+S
+#35307
+In the Creekbed~
+     The creekbed slowly slopes further beneath the level of the banks as you
+peer westward.  To the east you can see the beginning of the waterless creek.
+The trees stretch up toward the sky far above your head.  The soft wind
+sways the treetops and rustles the low brush.  The sound of scurrying
+animals bounding between the trees are momentarily lost; engulfed by the
+noise caused by the wind.
+~
+353 0 3
+D1
+~
+~
+0 -1 35308
+D3
+~
+~
+0 -1 35306
+S
+#35308
+In the Creekbed~
+     Water drips off numerous large stones into even more numerous puddles.  At
+this high point in the forest the rain water has cut a small creek into
+the ground.  Tall trees line the bank to the north and group of gigantic
+rocks seem to have been thrown about north of you.  The brush to the south
+is thick, but you can see a small trail through it.   It looks like this
+creek collects any rain that doesn't get sucked up by the thousands of trees
+and animals in the forest.  It is, however, empty now and only the puddles
+of water and high banks give any indication of anything exciting ever
+happening here.
+~
+353 0 3
+D2
+~
+~
+0 -1 35317
+D3
+~
+~
+0 -1 35307
+S
+#35309
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35300
+D1
+~
+~
+0 -1 35310
+D2
+~
+~
+0 -1 35320
+S
+#35310
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 0 35322
+D1
+~
+~
+0 0 35323
+D2
+~
+~
+0 -1 35321
+D3
+~
+~
+0 -1 35309
+S
+#35311
+Limla Cliffs~
+     The dry creekbed runs north and south between a sloping hill to the east
+and the cliffwalls to the west.  Large chunks of rock rest precariously on
+small ledges all along the face of the cliff.  A small animal trail runs
+up the hill between the large trees.
+~
+353 0 3
+D0
+~
+~
+0 -1 35301
+D1
+~
+~
+0 -1 35312
+D2
+~
+~
+0 -1 35323
+S
+#35312
+A Forest Trail~
+     You are standing halfway up a sloping forest hill surrounded by giant
+trees.  The sunshine streams in from the break in the trees to the west
+and you can suddenly see over the Limla Cliffs, over the treetops, and to
+the lake water on the horizon.  To the east the path runs peacefully
+between a group of younger trees basking in the rays of light.
+~
+353 0 3
+D1
+~
+~
+0 -1 35313
+D3
+~
+~
+0 -1 35311
+S
+#35313
+A Forest Trail~
+     The trail slopes down to the east, west, and south from the crest of
+the hill that you are standing on.  Looking westward you can see
+cliffwalls rising to the treetops and the trail falls steeply toward
+a narrow creekbed.  Eastward the slope is more gradual and the path slowly
+slips between the trees.  The path widens to the south and heads away
+into the heart of the forest.
+~
+353 0 3
+D1
+~
+~
+0 -1 35314
+D2
+~
+~
+0 -1 35324
+D3
+~
+~
+0 -1 35312
+S
+#35314
+A Forest Trail~
+     The trail twists around a fallen tree trunk, inclining to the west and
+slowly declining to the east.  The sound of a deer bounding through brush
+to the south startles you, causing a rush of adrenaline to course through
+your body.  The leaves gently sway in the breeze and you can't help
+feeling small as you walk between trees as wide as castle towers.
+~
+353 0 3
+D1
+~
+~
+0 -1 35315
+D3
+~
+~
+0 -1 35313
+S
+#35315
+A Forest Trail~
+     The trail bends around a cluster of trees and heads westward and
+southward.  The thick brush that litters the north side of the trail
+clears a bit opening up to a creekbed.  The moss on the side of the
+trail shimmers in the sunlight.
+~
+353 0 3
+D0
+~
+~
+0 -1 35305
+D2
+~
+~
+0 -1 35326
+D3
+~
+~
+0 -1 35314
+S
+#35316
+A Turn in the Game Path~
+     The path breaks sharply as dense brush surround a fallen log, blocking
+movement to the north and west.  Off to the east you see the forest
+begin to thin.  The trail darts away southward and into a cluster of large
+trees.
+~
+353 0 3
+D1
+~
+~
+0 -1 35317
+D2
+~
+~
+0 -1 35328
+S
+#35317
+On the Game Path~
+     The path wiggles between tree limbs leading off further into the
+forest to the west and out of the forest to the east.  Southward giant
+trees block your movement off the path.  The faint sound of trickling
+water catches your ear, pulling your attention to the row of brush
+to the north.  It looks as if the brush could be pulled apart enough
+to get through it here.
+~
+353 0 3
+D0
+~
+~
+0 -1 35308
+D1
+~
+~
+0 -1 35318
+D3
+~
+~
+0 -1 35316
+S
+#35318
+A Game Path in the Forest~
+   You are on a small trail made by animals in the forest.  It appears to
+have been further trampled by people on their way through the forest.
+The trail continues westward, and to the east you can see a small town.
+~
+353 0 3
+D1
+~
+~
+0 -1 35319
+D3
+~
+~
+0 -1 35317
+S
+#35319
+At the Edge of Spiddel Forest~
+     You stand at the edge of a beautiful forest in a small clearing between
+the trees and the city.  Westward the dense hearth rests like a sleeping
+giant, with the west slightly moving the leaves like soft breath.  The
+eyes of small animals meet your and remain perfectly still until you make
+another movement.  Turning to the east you see the walls of the City of
+Gnishmire rise proudly from the ground.
+~
+353 0 3
+D1
+~
+~
+0 0 35126
+D3
+~
+~
+0 -1 35318
+S
+#35320
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35309
+D1
+~
+~
+0 0 35321
+S
+#35321
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35310
+D3
+~
+~
+0 0 35320
+S
+#35322
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D2
+~
+~
+0 0 35310
+D3
+~
+~
+0 -1 35300
+S
+#35323
+In the Creekbed~
+     The creek turns sharply as it passes the southern edge of Limla Cliffs.
+To the west a large lake pushes water back into the mouth of the creek.  The
+rocks to the north rise high above you into the sky.  The trees still stand
+tall to the east and south leading off high into the sky.
+~
+353 0 3
+D0
+~
+~
+0 -1 35311
+S
+#35324
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35313
+D1
+~
+~
+0 -1 35325
+S
+#35325
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D2
+~
+~
+0 -1 35329
+D3
+~
+~
+0 -1 35324
+S
+#35326
+A Bend in the Forest Trail~
+     The matted trail narrows and turns eastward and northward.  You turn
+sideways and duck to avoid the low tree branches that remind you that this
+trail was not designed for men to travel.  The ground below your feet is
+soft and a pleasant change from the hard dirt roads you are use to traveling.
+~
+353 0 3
+D0
+~
+~
+0 -1 35315
+D1
+~
+~
+0 -1 35327
+S
+#35327
+A Fork in the Path~
+     The forest path forks at this spot jetting off to the east, west, and
+south.  The trail to the west looks the widest, but none of these paths
+are traveled often by anything other than deer and rabbits.  A large cluster
+of rocks stand boldly to the north, shielding that part of the forest from
+any would-be travelers.
+~
+353 0 3
+D1
+~
+~
+0 -1 35328
+D2
+~
+~
+0 -1 35330
+D3
+~
+~
+0 -1 35326
+S
+#35328
+A Bend in the Game Path~
+     The path turns sharply, dancing between three enormous trees and then
+heading to the north and west.  The fragrance of flowers rises through
+the air and seems to surround you.  High above you rays of light illuminate
+the treetops cast heavy shadows on the forest floor.
+~
+353 0 3
+D0
+~
+~
+0 -1 35316
+D3
+~
+~
+0 -1 35327
+S
+#35329
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35325
+D2
+~
+~
+0 -1 35332
+S
+#35330
+A Small Game Path~
+   You are on a small game path created by the animals of this forest.  North
+of here you can see the trail branch off, and to the south the trail.
+continues.  The ways east and west are blocked by large trees.
+~
+353 0 3
+D0
+~
+~
+0 -1 35327
+D2
+~
+~
+0 -1 35333
+S
+#35331
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D1
+~
+~
+0 -1 35332
+D2
+~
+~
+0 -1 35337
+S
+#35332
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35329
+D2
+~
+~
+0 -1 35338
+D3
+~
+~
+0 -1 35331
+S
+#35333
+A Turn In the Path~
+   You have com upon a turn in the path to avoid a rather huge tree.  The 
+trail north of here continues on, and the trail east of here apears to break
+south.  As you move on down the trail, you can see small animals dart out of
+your way.
+~
+353 0 3
+D0
+~
+~
+0 -1 35330
+D1
+~
+~
+0 -1 35334
+S
+#35334
+Around the Tree~
+   You are on a small game trail that has taken a detour around a large tree.
+Rabbits play about your feet, but you can see evidence of larger animals.  
+The trail contines west and south around the tree.
+~
+353 0 3
+D2
+~
+~
+0 -1 35341
+D3
+~
+~
+0 -1 35333
+S
+#35335
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D1
+~
+~
+0 -1 35336
+D2
+~
+~
+0 -1 35343
+S
+#35336
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D1
+~
+~
+0 -1 35337
+D3
+~
+~
+0 -1 35335
+S
+#35337
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35331
+D3
+~
+~
+0 -1 35336
+S
+#35338
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35332
+D1
+~
+~
+0 -1 35339
+S
+#35339
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D1
+~
+~
+0 -1 35340
+D2
+~
+~
+0 -1 35344
+D3
+~
+~
+0 -1 35338
+S
+#35340
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D1
+~
+~
+0 -1 35341
+D3
+~
+~
+0 -1 35339
+S
+#35341
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35334
+D3
+~
+~
+0 -1 35340
+S
+#35342
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D1
+~
+~
+0 -1 35343
+D2
+~
+~
+0 -1 35345
+S
+#35343
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35335
+D3
+~
+~
+0 -1 35342
+S
+#35344
+The Edge of the Forest~
+   You are standing on the edge of a lightly dense forest.  All sorts of 
+animals can bee seen roaming the area, and you guess this forest isn't 
+travelled much.  South of here you see what appears to be hills.
+~
+353 0 3
+D0
+~
+~
+0 -1 35339
+D2
+~
+~
+0 -1 35346
+S
+#35345
+north junction of plains and forest~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+353 0 3
+D0
+~
+~
+0 -1 35342
+D2
+~
+~
+0 0 35209
+S
+#35346
+A Grown Over Trail~
+   You are standing on a trail that you can hardly call a trail.  North of 
+here you can see a forest, and south of here you can see plains.  Off in
+the distance to the northeast you see smoke rising in the air.
+~
+353 0 3
+D0
+~
+~
+0 -1 35344
+D2
+~
+~
+0 0 5501
+S
+$~

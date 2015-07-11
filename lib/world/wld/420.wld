@@ -1,0 +1,720 @@
+#42000
+Room 42000~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42001
+Room 42001~
+     As you enter this seemingly un-holy grove of trees a thick mist begins
+to swirl around you.  The denseness of the trees blocks out almost all the 
+light of the outside world, your lantern seems barely able to push back
+the enclosig darkness, creating only more shadows which play tricks with 
+your mind.  As you strain to see what's little more than an arm's length
+in front of you, you believe you can make out a dark form moving away
+from you in the dark distance.
+~
+420 0 3
+D0
+~
+~
+0 0 42002
+S
+#42002
+Room 42002~
+     The darkness seems to close in even further upon you, your lantern
+casting all the more bizzare and spectral shadows.  As you peer at the 
+trees surrounding you they look more like trapped souls, frozen in twisted
+horror and eternal suffering.  Yet you still trust your sanity, and casting
+your fears aside take refuge in the belief you are still surrounded only by
+The forest is completely silent, no chirping birds, no animals 
+rustling the foliage around you.  Yet still in the distance, you make out 
+the dark figure, still moving ahead of you with a swiftness and silence
+which seems to mock your years of practice at stealth in such thick
+undergrowth.
+~
+420 0 3
+D0
+~
+~
+0 0 42003
+D2
+~
+~
+0 0 42001
+S
+#42003
+Room 42003~
+     The darkness for now seems to be satisfied with the shadow it has cast
+upon you thus far, and although you still cannot see well your lantern seems
+to cast an easier glow here.  Something strange begins to take place now,
+for although the forest is still silent as a tomb, an eerie wind begins to
+blow about you.  Coming from seemingly nowhere it is a gentle yet unnerving
+wind, yet it stirs no leaves about your feet as it whistles through the
+trees.  Then suddenly you hear a wailing, a cry sounding as though it is
+straining to reach your ears from very far away place.  Still clinging to 
+what's left of your sanity you dismiss this as only the wind playing tricks
+with your ears.  And still looming just ahead of you is that fleeting dark
+figure.  Will you ever catch up to him?  If you do, do you really wish to
+know the secret of his stealth and agility?
+~
+420 0 3
+D0
+~
+~
+0 0 42004
+D2
+~
+~
+0 0 42002
+S
+#42004
+Room 42004~
+     You venture further into the seemingly dead forest and suddenly realize
+the depressing, maddening darkness is now being shunned by an eerie, illusive
+almost ghostly light.  Looking about you trying to gain your wits, you 
+realize that in fact the trees seem to be more than trees.  Their bark
+gathering in strange formations to seemingly make the trees have faces,
+horribly sad faces.  The limbs now more like outstretched arms, reaching
+out for some form of help, although there is none.  The wind is still
+swirling about you, still sounding like echoed cries for help and release,
+] making the scene all the more disheartening.  But now, with the help of the
+new light to aid you, you can see that the figure ahead of you appears to
+be nothing more than a cloaked human, now either resting, or perhaps
+awaiting your arrival.  His seemingly carefree attitude toward your approach
+and his surroundings makes you wary as you venture forth.
+~
+420 0 3
+D0
+~
+~
+0 0 42005
+D2
+~
+~
+0 0 42003
+S
+#42005
+Room 42005~
+     The light here, although not more than twice as bright as the eerie 
+glow cast on you earlier, is almost blinding after your being accustomed to
+these woods which are darker than night itself.  You can still see the 
+twisted horror upon the "faces" of the surrounding trees, all the more
+detailed in this brighter light.  The wind has stopped just as suddenly as
+it started.  What was once only superstitious fear is now becoming an
+overwhelming feeling of dread, in this strange un-explained forest.  And
+ finally before you is the object that has continued to push you thus far,
+the fleeting, noisless dark figure.  He casts aside his cloak and you now
+see why he moved with such stealth, luring you to this spot.
+~
+420 c 3
+D1
+~
+~
+0 0 42007
+D2
+~
+~
+0 0 42004
+D3
+A gate is here with a glowing skull atop it.
+~
+Gate~
+1 42003 42006
+S
+#42006
+Room 42006~
+     After struggling for a short time with the gate's lock, you stumble into
+a horrifying scene.  You are what in appears to be a removed section of the
+grave-yard you just viewed, yet there is but one single crypt here.  The sight
+of a solitary grave isn't enough to unnerve you, but the demonic portrayals and
+strange, ancient glyphs carved into the crypt seem to push you to the end of
+your wits.
+     Finally, your brain settling down, you see before you the source of the
+strange light which has dully illumed your path thus far.  However, now at its
+source it is no longer a dull ligh, but a vibrant radiance.  It seems to take
+shape before you.
+~
+420 0 3
+D1
+A gate is here with a glowing skull atop it.
+~
+gate~
+1 42003 42005
+D5
+~
+Crypt~
+1 0 42008
+S
+#42007
+Room 42007~
+     You seem to have stumbled upon an immense, and expansive grave yard. 
+But here?  In the middle of a seemingly endless black forest?  The graves
+are crumbling from years of neglect, the headstones overgrown with weeds.
+Perhaps now would be a good time to reflect upon the life you once knew,
+and ponder the pain you may be forced to endure if you should decide to
+continue with your adventure through this accursed forest.
+~
+420 0 3
+D3
+~
+~
+0 0 42005
+S
+#42008
+Room 42008~
+  This lovely room has yet to be written.
+~
+420 0 0
+D5
+~
+Door~
+1 0 42009
+S
+#42009
+Room 42009~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42010
+Room 42010~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42011
+Room 42011~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42012
+Room 42012~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42013
+Room 42013~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42014
+Room 42014~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42015
+Room 42015~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42016
+Room 42016~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42017
+Room 42017~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42018
+Room 42018~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42019
+Room 42019~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42020
+Room 42020~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42021
+Room 42021~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42022
+Room 42022~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42023
+Room 42023~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42024
+Room 42024~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42025
+Room 42025~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42026
+Room 42026~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42027
+Room 42027~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42028
+Room 42028~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42029
+Room 42029~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42030
+Room 42030~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42031
+Room 42031~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42032
+Room 42032~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42033
+Room 42033~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42034
+Room 42034~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42035
+Room 42035~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42036
+Room 42036~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42037
+Room 42037~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42038
+Room 42038~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42039
+Room 42039~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42040
+Room 42040~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42041
+Room 42041~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42042
+Room 42042~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42043
+Room 42043~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42044
+Room 42044~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42045
+Room 42045~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42046
+Room 42046~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42047
+Room 42047~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42048
+Room 42048~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42049
+Room 42049~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42050
+Room 42050~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42051
+Room 42051~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42052
+Room 42052~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42053
+Room 42053~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42054
+Room 42054~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42055
+Room 42055~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42056
+Room 42056~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42057
+Room 42057~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42058
+Room 42058~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42059
+Room 42059~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42060
+Room 42060~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42061
+Room 42061~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42062
+Room 42062~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42063
+Room 42063~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42064
+Room 42064~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42065
+Room 42065~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42066
+Room 42066~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42067
+Room 42067~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42068
+Room 42068~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42069
+Room 42069~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42070
+Room 42070~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42071
+Room 42071~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42072
+Room 42072~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42073
+Room 42073~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42074
+Room 42074~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42075
+Room 42075~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42076
+Room 42076~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42077
+Room 42077~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42078
+Room 42078~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42079
+Room 42079~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42080
+Room 42080~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42081
+Room 42081~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42082
+Room 42082~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42083
+Room 42083~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42084
+Room 42084~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42085
+Room 42085~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42086
+Room 42086~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42087
+Room 42087~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42088
+Room 42088~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42089
+Room 42089~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42090
+Room 42090~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42091
+Room 42091~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42092
+Room 42092~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42093
+Room 42093~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42094
+Room 42094~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42095
+Room 42095~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42096
+Room 42096~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42097
+Room 42097~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42098
+Room 42098~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+#42099
+Room 42099~
+  This lovely room has yet to be written.
+~
+420 0 0
+S
+$~

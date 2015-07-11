@@ -1,0 +1,3589 @@
+#41000
+Southern Road~
+   To the north are the gates of a great city.  You can hear the
+commotion from here escaping from within the city.  To the south,
+the road continues through the plains south of the city.
+~
+410 0 1
+D0
+~
+~
+0 -1 1251
+D2
+~
+~
+0 -1 41001
+S
+#41001
+Southern Road~
+   The road continues north and south, leading towards a rather large 
+city, and through the plains, respectively.  Green strands of grass
+covers the plains to the east and west, a green wasteland of flowers
+and nothing but nature.
+~
+410 0 1
+D0
+~
+~
+0 -1 41000
+D2
+~
+~
+0 -1 41002
+S
+#41002
+Southern Road~
+   The road continues south through a green wasteland of grass.   The air
+is cool and a slight breeze constantly passes by.  The buzz of insects 
+creates a soft background for your travel.  To the north, far in the 
+distance, the road is leading towards a large city.
+~
+410 0 1
+D0
+~
+~
+0 -1 41001
+D2
+~
+~
+0 -1 41003
+S
+#41003
+Southern Road~
+   You are travelling along a grass ridden road, leading north and south.  
+Green plains stretch off to either side of the road, and the blue skies are
+beyond.  To the north the road leads off towards a city, sitting upon the
+horizon like a king, and to the south, the road turns east.
+~
+410 0 1
+D0
+~
+~
+0 -1 41002
+D2
+~
+~
+0 -1 41004
+S
+#41004
+Turn in Southern Road~
+   The road turns here, leading north and east.  To the south, an extremely
+large boulder sits, forcing the road to turn east around it.  Upon the 
+boulder is nailed a wooden sign.
+~
+410 0 1
+D0
+~
+~
+0 -1 41003
+D1
+~
+~
+0 -1 41005
+E
+sign wooden~
+   The sign reads:
+
+         *************************************************
+         *                                               *
+         *    City of Mytherandil  - continue north      *
+         *                                               *
+         *                    ***                        *
+         *                   *****                       *
+         *                    ***                        *
+         *                                               *
+         *    Desert of the RedWind - continue southeast *
+         *                                               *
+         *************************************************
+
+~
+S
+#41005
+Turn in Southern Road~
+   The road turns here leading westward and also to the south.  Spawning
+all directions from the road are plains of grass stretching off towards
+the horizons.  
+~
+410 0 1
+D2
+~
+~
+0 -1 41006
+D3
+~
+~
+0 -1 41004
+S
+#41006
+Southern Road~
+   To the north, you notice that the road turns to the west.  Directly
+to the west, sits a large boulder, the bottom half embedded in the ground.
+To the south the road intersects with another.
+~
+410 0 1
+D0
+~
+~
+0 -1 41005
+D2
+~
+~
+0 -1 41007
+S
+#41007
+The Intersection~
+   Another road from the east joins with Southern Road here.  The winds 
+begin to blow a bit harder here, and bits of sand are getting caught in
+your hair and face.  To the north the road leads off through grassy plains
+and to the south, the surroundings seem to be getting rougher.  
+
+~
+410 0 1
+D0
+~
+~
+0 -1 41006
+D1
+~
+~
+0 -1 41008
+D2
+~
+~
+0 -1 41014
+S
+#41008
+RedWind Road~
+   You are on a small road, lightly dusted with red sand.  To the north,
+grassy plains stretch off and to the east and west the road continues.
+~
+410 0 1
+D1
+~
+~
+0 -1 41009
+D3
+~
+~
+0 -1 41007
+S
+#41009
+RedWind Road~
+   The road is lightly dusted with red sand, blown from the desert by
+the high winds.  To the north grassy plains stretch off towards the horizon.
+To the east and west the road continues.
+~
+410 0 1
+D1
+~
+~
+0 -1 41010
+D3
+~
+~
+0 -1 41008
+S
+#41010
+Turn in RedWind Road~
+   The road turns here, leading west and south.  To the east is a large
+dead tree, its branches rotting.  To the north you see plains of green
+grass.  To the south, the road leads towards a vast desert.
+~
+410 0 1
+D2
+~
+~
+0 -1 41015
+D3
+~
+~
+0 -1 41009
+S
+#41011
+Ekerin Road~
+   Red sand has been blown from the desert to the south, and has dusted
+the road.  To the east and south, the road continues.
+~
+410 0 1
+D1
+~
+~
+0 -1 41012
+D2
+~
+~
+0 -1 41016
+S
+#41012
+Ekerin Road~
+   The road leads east and west from here.  West the road turns south, 
+leading into the desert.  To the north, grassy plains lead off towards the
+horizon.  
+~
+410 0 1
+D1
+~
+~
+0 -1 41013
+D3
+~
+~
+0 -1 41011
+S
+#41013
+Ekerin Road~
+   To the east and west, the dust covered Ekerin Road leads off between
+grassy plains to the north and a vast desert of twisting red sands to the
+south.
+~
+410 0 1
+D1
+~
+~
+0 -1 41014
+D3
+~
+~
+0 -1 41012
+S
+#41014
+Turn in Ekerin Road~
+    The road turns here, leading north and west.  A slight dusting of sand
+covers the road, blown up from the red desert to the south.  To the north,
+a road leads off through plains of green grass.
+~
+410 0 1
+D0
+~
+~
+0 -1 41007
+D3
+~
+~
+0 -1 41013
+S
+#41015
+RedWind Road~
+   The road leads south, into the vast wasteland of red sands, being blown   
+around by high winds.  To the north, the road continues towards towards
+grassy plains.
+~
+410 0 1
+D0
+~
+~
+0 -1 41010
+D2
+~
+~
+0 -1 41018
+S
+#41016
+Ekerin Road~
+   To the south a vast desert of red, twisting sands spreads its fearful
+arms wide, waiting to bring you to your doom.  To the north, the road leads
+towards green plains filled with flowers and grass.
+~
+410 0 1
+D0
+~
+~
+0 -1 41011
+D2
+~
+~
+0 -1 41027
+S
+#41017
+In the desert~
+   Red sands twist all about you as the wind blows wildly by.  From
+what you can tell, the desert continues in every direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41132
+D1
+~
+~
+0 -1 41030
+D2
+~
+~
+0 -1 41031
+D3
+~
+~
+0 -1 41022
+S
+#41018
+RedWind Road~
+   A large skeletal rib cage lies to the south of here, forcing the
+road to turn east and it also leads north from here.  The red sand blows
+from the south and hits you hard in the face.
+~
+410 0 1
+D0
+~
+~
+0 -1 41015
+D1
+~
+~
+0 -1 41019
+E
+bones bone ribs ribcage~
+   The bones are colored red, from being blasted for centuries by the red
+wind.  The rib cage has sunk into the desert but it still stands nearly
+15 feet in height and is about 30 feet long.  You are glad it is not alive
+anymore.
+~
+S
+#41019
+RedWind Road, Before the Desert~
+   Just to the south, the desert opens its maw wide to swallow you into
+the chaotic winds and sand.  Also, a road leads off to the west.
+~
+410 0 1
+D2
+~
+~
+0 -1 41033
+D3
+~
+~
+0 -1 41018
+S
+#41020
+The red desert~
+   Winds blow hard, kicking up sand and dust into your face.  No plants
+or animals live here, the desert seems uninhabited.  In all directions,
+you may walk off into your doom.
+~
+410 0 2
+D0
+~
+~
+0 -1 41102
+D1
+~
+~
+0 -1 41048
+D2
+~
+~
+0 -1 41034
+D3
+~
+~
+0 -1 41070
+S
+#41021
+The red desert~
+   The desert continues in all directions, but the chaotic wind and sands 
+make it impossible to get your bearings here.  
+~
+410 0 2
+D0
+~
+~
+0 -1 41136
+D1
+~
+~
+0 -1 41054
+D2
+~
+~
+0 -1 41035
+D3
+~
+~
+0 -1 41064
+S
+#41022
+The red desert~
+   The sand at your feet seems to twist as the wind contorts it within
+its grasp.  In every direction you see the desert continue.
+~
+410 0 2
+D0
+~
+~
+0 -1 41137
+D1
+~
+~
+0 -1 41030
+D2
+~
+~
+0 -1 41036
+D3
+~
+~
+0 -1 41105
+S
+#41023
+The red desert~
+   The sand at your feet seems to twist as the wind contorts it within
+its grasp.  In every direction you see the desert continue.
+~
+410 0 2
+D0
+~
+~
+0 -1 41138
+D1
+~
+~
+0 -1 41062
+D2
+~
+~
+0 -1 41039
+D3
+~
+~
+0 -1 41055
+S
+#41024
+The red desert~
+   Winds blow hard, kicking up sand and dust into your face.  No plants
+or animals live here, the desert seems uninhabited.  In all directions,
+you may walk off into your doom.
+~
+410 0 2
+D0
+~
+~
+0 -1 41139
+D1
+~
+~
+0 -1 41063
+D2
+~
+~
+0 -1 41040
+D3
+~
+~
+0 -1 41039
+S
+#41025
+The red desert~
+   The vast desert continues in all directions.  Wind blows the sand
+up at you, pricking your body with thousands of tiny daggers.  
+~
+410 0 2
+D0
+~
+~
+0 -1 41140
+D1
+~
+~
+0 -1 0
+D2
+~
+~
+0 -1 41041
+D3
+~
+~
+0 -1 41039
+S
+#41026
+In the desert~
+   Red sands twist all about you as the wind blows wildly by.  From
+what you can tell, the desert continues in every direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41141
+D1
+~
+~
+0 -1 41027
+D2
+~
+~
+0 -1 41042
+D3
+~
+~
+0 -1 41024
+S
+#41027
+The red desert~
+   The sand blows all about you, making it near impossible to get your
+bearings.  To the north however, you believe you can make out the outlines
+of a road.
+~
+410 0 2
+D0
+~
+~
+0 -1 41016
+D1
+~
+~
+0 -1 41050
+D2
+~
+~
+0 -1 41044
+D3
+~
+~
+0 -1 41062
+S
+#41029
+The red desert~
+   The desert continues in all directions.  The harsh winds kick up the red
+sand, making it near impossible to get any sort of bearings of location.
+~
+410 0 2
+D0
+~
+~
+0 -1 41144
+D1
+~
+~
+0 -1 41090
+D2
+~
+~
+0 -1 41045
+D3
+~
+~
+0 -1 41079
+S
+#41030
+The red desert~
+   The desert continues in all directions.  The harsh winds kick up the red
+sand, making it near impossible to get any sort of bearings of location.
+~
+410 0 2
+D0
+~
+~
+0 -1 41017
+D1
+~
+~
+0 -1 41031
+D2
+~
+~
+0 -1 41020
+D3
+~
+~
+0 -1 41037
+S
+#41031
+The red desert~
+   The desert continues in all direction, sand blowing at you by the 
+harsh, wild winds.  No life can be seen at all, a sinking feeling of
+despair begins to rise in your soul.
+~
+410 0 2
+D0
+~
+~
+0 -1 41017
+D1
+~
+~
+0 -1 41032
+D2
+~
+~
+0 -1 41048
+D3
+~
+~
+0 -1 41030
+S
+#41032
+The red desert~
+   The desert continues in all direction, sand blowing at you by the 
+harsh, wild winds.  No life can be seen at all, a sinking feeling of
+despair begins to rise in your soul.
+~
+410 0 2
+D0
+~
+~
+0 0 41066
+D1
+~
+~
+0 -1 41033
+D2
+~
+~
+0 -1 41049
+D3
+~
+~
+0 -1 41031
+S
+#41033
+The red desert~
+   The desert continues in all direction, sand blowing at you by the 
+harsh, wild winds.  No life can be seen at all, a sinking feeling of
+despair begins to rise in your soul.
+~
+410 0 2
+D0
+~
+~
+0 -1 41019
+D1
+~
+~
+0 -1 41034
+D2
+~
+~
+0 -1 41050
+D3
+~
+~
+0 -1 41032
+S
+#41034
+The red desert~
+   From all directions at once, the sand seems to brutally rip into you
+blown by the chaotic winds.  The desert continues in all directions.
+~
+410 0 2
+D0
+~
+~
+0 -1 41020
+D1
+~
+~
+0 -1 41035
+D2
+~
+~
+0 -1 41051
+D3
+~
+~
+0 -1 41033
+S
+#41035
+The red desert~
+   From all directions at once, the sand seems to brutally rip into you
+blown by the chaotic winds.  The desert continues in all directions.
+~
+410 0 2
+D0
+~
+~
+0 -1 41021
+D1
+~
+~
+0 -1 41036
+D2
+~
+~
+0 -1 41052
+D3
+~
+~
+0 -1 41034
+S
+#41036
+The red desert~
+   From all directions at once, the sand seems to brutally rip into you
+blown by the chaotic winds.  The desert continues in all directions.
+~
+410 0 2
+D0
+~
+~
+0 -1 41022
+D1
+~
+~
+0 -1 41037
+D2
+~
+~
+0 -1 41053
+D3
+~
+~
+0 -1 41035
+S
+#41037
+The red desert~
+   The desert continues in all directions.  The red sand is blown by the
+wind, it seems as if you were being attacked by flying daggers.
+~
+410 0 2
+D0
+~
+~
+0 -1 41084
+D1
+~
+~
+0 -1 41047
+D2
+~
+~
+0 -1 41054
+D3
+~
+~
+0 -1 41036
+S
+#41038
+The red desert~
+   The sand seems to twist around you, as the wind pushes it in all 
+directions at once.  You can continue your travels in any direction.
+~
+410 0 2
+D1
+~
+~
+0 -1 41039
+S
+#41039
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41023
+D1
+~
+~
+0 -1 41040
+D2
+~
+~
+0 -1 41056
+D3
+~
+~
+0 -1 41038
+S
+#41040
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41024
+D1
+~
+~
+0 -1 41041
+D2
+~
+~
+0 -1 41057
+D3
+~
+~
+0 -1 41039
+S
+#41041
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41025
+D1
+~
+~
+0 -1 41042
+D2
+~
+~
+0 -1 41058
+D3
+~
+~
+0 -1 41040
+S
+#41042
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41026
+D1
+~
+~
+0 -1 41043
+D2
+~
+~
+0 -1 41059
+D3
+~
+~
+0 -1 41041
+S
+#41043
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41027
+D1
+~
+~
+0 -1 41044
+D2
+~
+~
+0 -1 41060
+D3
+~
+~
+0 -1 41042
+S
+#41044
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41027
+D1
+~
+~
+0 -1 41045
+D2
+~
+~
+0 -1 41061
+D3
+~
+~
+0 -1 41043
+S
+#41045
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41029
+D1
+~
+~
+0 -1 41046
+D2
+~
+~
+0 -1 41062
+D3
+~
+~
+0 -1 41044
+S
+#41046
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41131
+D1
+~
+~
+0 -1 41038
+D2
+~
+~
+0 -1 41076
+D3
+~
+~
+0 -1 41045
+S
+#41047
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41068
+D1
+~
+~
+0 -1 41048
+D2
+~
+~
+0 -1 41067
+D3
+~
+~
+0 -1 41054
+S
+#41048
+The red desert~
+   The desert continues in all direction, sand blowing at you by the 
+harsh, wild winds.  No life can be seen at all, a sinking feeling of
+despair begins to rise in your soul.
+~
+410 0 2
+D0
+~
+~
+0 -1 41031
+D1
+~
+~
+0 -1 41049
+D2
+~
+~
+0 -1 41065
+D3
+~
+~
+0 -1 41047
+S
+#41049
+The red desert~
+   The desert continues in all direction, sand blowing at you by the 
+harsh, wild winds.  No life can be seen at all, a sinking feeling of
+despair begins to rise in your soul.
+~
+410 0 2
+D0
+~
+~
+0 -1 41032
+D1
+~
+~
+0 -1 41050
+D2
+~
+~
+0 -1 41066
+D3
+~
+~
+0 -1 41048
+S
+#41050
+The red desert~
+   The desert continues in all direction, sand blowing at you by the 
+harsh, wild winds.  No life can be seen at all, a sinking feeling of
+despair begins to rise in your soul.
+~
+410 0 2
+D0
+~
+~
+0 -1 41033
+D1
+~
+~
+0 -1 41051
+D2
+~
+~
+0 -1 41067
+D3
+~
+~
+0 -1 41049
+S
+#41051
+The red desert~
+   From all directions at once, the sand seems to brutally rip into you
+blown by the chaotic winds.  The desert continues in all directions.
+~
+410 0 2
+D0
+~
+~
+0 -1 41034
+D1
+~
+~
+0 -1 41052
+D2
+~
+~
+0 -1 41068
+D3
+~
+~
+0 -1 41050
+S
+#41052
+The red desert~
+   From all directions at once, the sand seems to brutally rip into you
+blown by the chaotic winds.  The desert continues in all directions.
+~
+410 0 2
+D0
+~
+~
+0 -1 41035
+D1
+~
+~
+0 -1 41053
+D2
+~
+~
+0 -1 41069
+D3
+~
+~
+0 -1 41051
+S
+#41053
+The red desert~
+   From all directions at once, the sand seems to brutally rip into you
+blown by the chaotic winds.  The desert continues in all directions.
+~
+410 0 2
+D0
+~
+~
+0 -1 41036
+D1
+~
+~
+0 -1 41054
+D2
+~
+~
+0 -1 41070
+D3
+~
+~
+0 -1 41052
+S
+#41054
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41037
+D1
+~
+~
+0 -1 41047
+D2
+~
+~
+0 -1 41071
+D3
+~
+~
+0 -1 41053
+S
+#41055
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D1
+~
+~
+0 -1 41056
+S
+#41056
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41039
+D1
+~
+~
+0 -1 41057
+D2
+~
+~
+0 -1 41073
+D3
+~
+~
+0 -1 41055
+S
+#41057
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41040
+D1
+~
+~
+0 -1 41058
+D2
+~
+~
+0 -1 41074
+D3
+~
+~
+0 -1 41056
+S
+#41058
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41041
+D1
+~
+~
+0 -1 41059
+D2
+~
+~
+0 -1 41075
+D3
+~
+~
+0 -1 41057
+S
+#41059
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41042
+D1
+~
+~
+0 -1 41060
+D2
+~
+~
+0 -1 41076
+D3
+~
+~
+0 -1 41058
+S
+#41060
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41043
+D1
+~
+~
+0 -1 41061
+D2
+~
+~
+0 -1 41077
+D3
+~
+~
+0 -1 41059
+S
+#41061
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41044
+D1
+~
+~
+0 -1 41062
+D2
+~
+~
+0 -1 41078
+D3
+~
+~
+0 -1 41060
+S
+#41062
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41045
+D1
+~
+~
+0 -1 41063
+D2
+~
+~
+0 -1 41079
+D3
+~
+~
+0 -1 41061
+S
+#41063
+The red desert~
+   The red sand twists underfoot as the wind blows it.  The desert 
+continues in all directions.  The sun is blocked out mostly by the
+raging wind filled with sand.  
+~
+410 0 2
+D0
+~
+~
+0 -1 41046
+D1
+~
+~
+0 -1 41055
+D2
+~
+~
+0 -1 41093
+D3
+~
+~
+0 -1 41062
+S
+#41064
+The red desert~
+   The red sand twists underfoot as the wind blows it.  The desert 
+continues in all directions.  The sun is blocked out mostly by the
+raging wind filled with sand.  
+~
+410 0 2
+D0
+~
+~
+0 -1 41084
+D1
+~
+~
+0 -1 41065
+D2
+~
+~
+0 -1 41085
+D3
+~
+~
+0 -1 41071
+S
+#41065
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41048
+D1
+~
+~
+0 -1 41066
+D2
+~
+~
+0 -1 41082
+D3
+~
+~
+0 -1 41064
+S
+#41066
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41049
+D1
+~
+~
+0 -1 41067
+D2
+~
+~
+0 -1 41083
+D3
+~
+~
+0 -1 41065
+S
+#41067
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41050
+D1
+~
+~
+0 -1 41068
+D2
+~
+~
+0 -1 41084
+D3
+~
+~
+0 -1 41066
+S
+#41068
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41051
+D1
+~
+~
+0 -1 41069
+D2
+~
+~
+0 -1 41085
+D3
+~
+~
+0 -1 41067
+S
+#41069
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41052
+D1
+~
+~
+0 -1 41070
+D2
+~
+~
+0 -1 41086
+D3
+~
+~
+0 -1 41068
+S
+#41070
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41053
+D1
+~
+~
+0 -1 41071
+D2
+~
+~
+0 -1 41087
+D3
+~
+~
+0 -1 41069
+S
+#41071
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41054
+D2
+~
+~
+0 -1 41088
+D3
+~
+~
+0 -1 41070
+S
+#41072
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41094
+D1
+~
+~
+0 -1 41073
+D2
+~
+~
+0 -1 41093
+D3
+~
+~
+0 -1 41077
+S
+#41073
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41056
+D1
+~
+~
+0 -1 41074
+D2
+~
+~
+0 -1 41090
+D3
+~
+~
+0 -1 41072
+S
+#41074
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41057
+D1
+~
+~
+0 -1 41075
+D2
+~
+~
+0 -1 41091
+D3
+~
+~
+0 -1 41073
+S
+#41075
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41058
+D1
+~
+~
+0 -1 41076
+D2
+~
+~
+0 -1 41092
+D3
+~
+~
+0 -1 41074
+S
+#41076
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41059
+D1
+~
+~
+0 -1 41077
+D2
+~
+~
+0 -1 41093
+D3
+~
+~
+0 -1 41075
+S
+#41077
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41060
+D1
+~
+~
+0 -1 41078
+D2
+~
+~
+0 -1 41094
+D3
+~
+~
+0 -1 41076
+S
+#41078
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41061
+D1
+~
+~
+0 -1 41079
+D2
+~
+~
+0 -1 41095
+D3
+~
+~
+0 -1 41077
+S
+#41079
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41062
+D1
+~
+~
+0 -1 41080
+D2
+~
+~
+0 -1 41096
+D3
+~
+~
+0 -1 41078
+S
+#41080
+The red desert~
+   You are wandering through the windy desert RedWind, sand is picked up
+by the wind and tossed around like children in a sandbox.  You can continue
+in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41063
+D1
+~
+~
+0 -1 41081
+D2
+~
+~
+0 -1 41097
+D3
+~
+~
+0 -1 41079
+S
+#41081
+The red desert~
+   You are wandering through the windy desert RedWind, sand is picked up
+by the wind and tossed around like children in a sandbox.  You can continue
+in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41064
+D1
+~
+~
+0 -1 41082
+D2
+~
+~
+0 -1 41098
+D3
+~
+~
+0 -1 41080
+S
+#41082
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41065
+D1
+~
+~
+0 -1 41083
+D2
+~
+~
+0 -1 41099
+D3
+~
+~
+0 -1 41081
+S
+#41083
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41066
+D1
+~
+~
+0 -1 41084
+D2
+~
+~
+0 -1 41100
+D3
+~
+~
+0 -1 41082
+S
+#41084
+The red desert~
+   The vast red desert stretches out in all directions.  Small rocky dunes
+formed by the winds sit atop the red sands.
+~
+410 0 2
+D0
+~
+~
+0 -1 41067
+D1
+~
+~
+0 -1 41085
+D2
+~
+~
+0 -1 41101
+D3
+~
+~
+0 -1 41083
+S
+#41085
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41068
+D1
+~
+~
+0 -1 41086
+D2
+~
+~
+0 -1 41102
+D3
+~
+~
+0 -1 41084
+S
+#41086
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41069
+D1
+~
+~
+0 -1 41087
+D2
+~
+~
+0 -1 41103
+D3
+~
+~
+0 -1 41085
+S
+#41087
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41070
+D1
+~
+~
+0 -1 41088
+D2
+~
+~
+0 -1 41104
+D3
+~
+~
+0 -1 41086
+S
+#41088
+The red desert~
+   The desert stretches out all about you, the red sand twisting in 
+the wind.  You may continue your trek across the desert in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41071
+D2
+~
+~
+0 -1 41105
+D3
+~
+~
+0 -1 41087
+S
+#41089
+The red desert~
+   The desert stretches out all about you, the red sand twisting in 
+the wind.  You may continue your trek across the desert in any direction.
+~
+410 0 2
+D1
+~
+~
+0 -1 41090
+S
+#41090
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41073
+D1
+~
+~
+0 -1 41091
+D2
+~
+~
+0 -1 41107
+D3
+~
+~
+0 -1 41089
+S
+#41091
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41074
+D1
+~
+~
+0 -1 41092
+D2
+~
+~
+0 -1 41108
+D3
+~
+~
+0 -1 41090
+S
+#41092
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41075
+D1
+~
+~
+0 -1 41093
+D2
+~
+~
+0 -1 41109
+D3
+~
+~
+0 -1 41091
+S
+#41093
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41076
+D1
+~
+~
+0 -1 41094
+D2
+~
+~
+0 -1 41110
+D3
+~
+~
+0 -1 41092
+S
+#41094
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41077
+D1
+~
+~
+0 -1 41095
+D2
+~
+~
+0 -1 41111
+D3
+~
+~
+0 -1 41093
+S
+#41095
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41078
+D1
+~
+~
+0 -1 41096
+D2
+~
+~
+0 -1 41112
+D3
+~
+~
+0 -1 41094
+S
+#41096
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41079
+D1
+~
+~
+0 -1 41097
+D2
+~
+~
+0 -1 41113
+D3
+~
+~
+0 -1 41095
+S
+#41097
+The red desert~
+   It is almost useless to try and get your bearings in this chaotic place.
+The winds blow with such hectic intensity, making the sand shift constantly.
+It would be better to continue on and pray that the gods have mercy on
+your soul and bring you to safety.
+~
+410 0 2
+D0
+~
+~
+0 -1 41046
+D1
+~
+~
+0 -1 41089
+D2
+~
+~
+0 -1 41092
+D3
+~
+~
+0 -1 41096
+S
+#41098
+The red desert~
+   It is almost useless to try and get your bearings in this chaotic place.
+The winds blow with such hectic intensity, making the sand shift constantly.
+It would be better to continue on and pray that the gods have mercy on
+your soul and bring you to safety.
+~
+410 0 2
+D0
+~
+~
+0 -1 41081
+D1
+~
+~
+0 -1 41099
+D2
+~
+~
+0 -1 41115
+D3
+~
+~
+0 -1 41105
+S
+#41099
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  Getting your bearings here will be near impossible.
+~
+410 0 2
+D0
+~
+~
+0 -1 41082
+D1
+~
+~
+0 -1 41100
+D2
+~
+~
+0 -1 41116
+D3
+~
+~
+0 -1 41098
+S
+#41100
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  Getting your bearings here will be near impossible.
+~
+410 0 2
+D0
+~
+~
+0 -1 41083
+D1
+~
+~
+0 -1 41101
+D2
+~
+~
+0 -1 41117
+D3
+~
+~
+0 -1 41099
+S
+#41101
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  Getting your bearings here will be near impossible.
+~
+410 0 2
+D0
+~
+~
+0 -1 41084
+D1
+~
+~
+0 -1 41102
+D2
+~
+~
+0 -1 41118
+D3
+~
+~
+0 -1 41100
+S
+#41102
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41085
+D1
+~
+~
+0 -1 41103
+D2
+~
+~
+0 -1 41119
+D3
+~
+~
+0 -1 41101
+S
+#41103
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41086
+D1
+~
+~
+0 -1 41104
+D2
+~
+~
+0 -1 41120
+D3
+~
+~
+0 -1 41102
+S
+#41104
+The red desert~
+   The soft red sand twists underfoot as the winds blow it in all directions   
+at once.  You may continue travelling in any direction.
+~
+410 0 2
+D0
+~
+~
+0 -1 41087
+D1
+~
+~
+0 -1 41105
+D2
+~
+~
+0 -1 41121
+D3
+~
+~
+0 -1 41103
+S
+#41105
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  Getting your bearings here will be near impossible.
+~
+410 0 2
+D0
+~
+~
+0 -1 41088
+D1
+~
+~
+0 -1 41098
+D2
+~
+~
+0 -1 41122
+D3
+~
+~
+0 -1 41104
+S
+#41106
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  Getting your bearings here will be near impossible.
+~
+410 0 2
+D1
+~
+~
+0 -1 41107
+S
+#41107
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41090
+D1
+~
+~
+0 -1 41108
+D2
+~
+~
+0 -1 41124
+D3
+~
+~
+0 -1 41106
+S
+#41108
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41091
+D1
+~
+~
+0 -1 41109
+D2
+~
+~
+0 -1 41125
+D3
+~
+~
+0 -1 41107
+S
+#41109
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41092
+D1
+~
+~
+0 -1 41110
+D2
+~
+~
+0 -1 41126
+D3
+~
+~
+0 -1 41108
+S
+#41110
+The red desert~
+   The desert continues in all directions from here.  The sand is blown
+wildy by the wind.  Strange ripples made by the wind can be seen in the
+sand underfoot.  All of the ripples are untouched by life.
+~
+410 0 2
+D0
+~
+~
+0 -1 41093
+D1
+~
+~
+0 -1 41111
+D2
+~
+~
+0 -1 41127
+D3
+~
+~
+0 -1 41109
+S
+#41111
+The red desert~
+   The desert continues in all directions, spanning towards every horizon.
+The sand has a strange dusty texture to it and is colored red, possibly
+the dust of clay.
+~
+410 0 2
+D0
+~
+~
+0 -1 41094
+D1
+~
+~
+0 -1 41112
+D2
+~
+~
+0 -1 41128
+D3
+~
+~
+0 -1 41110
+S
+#41112
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41095
+D1
+~
+~
+0 -1 41113
+D2
+~
+~
+0 -1 41129
+D3
+~
+~
+0 -1 41111
+S
+#41113
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41096
+D1
+~
+~
+0 -1 41114
+D2
+~
+~
+0 -1 41130
+D3
+~
+~
+0 -1 41112
+S
+#41114
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41063
+D1
+~
+~
+0 -1 41106
+D2
+~
+~
+0 -1 41077
+D3
+~
+~
+0 -1 41113
+S
+#41115
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D1
+~
+~
+0 -1 41116
+S
+#41116
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass.
+~
+410 0 2
+D0
+~
+~
+0 -1 41099
+D1
+~
+~
+0 -1 41117
+D2
+~
+~
+0 -1 41132
+D3
+~
+~
+0 -1 41115
+S
+#41117
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass.
+~
+410 0 2
+D0
+~
+~
+0 -1 41100
+D1
+~
+~
+0 -1 41118
+D2
+~
+~
+0 -1 41133
+D3
+~
+~
+0 -1 41116
+S
+#41118
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass.
+~
+410 0 2
+D0
+~
+~
+0 -1 41101
+D1
+~
+~
+0 -1 41119
+D2
+~
+~
+0 -1 41134
+D3
+~
+~
+0 -1 41117
+S
+#41119
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41102
+D1
+~
+~
+0 -1 41120
+D2
+~
+~
+0 -1 41135
+D3
+~
+~
+0 -1 41118
+S
+#41120
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41103
+D1
+~
+~
+0 -1 41121
+D2
+~
+~
+0 -1 41136
+D3
+~
+~
+0 -1 41119
+S
+#41121
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41104
+D1
+~
+~
+0 -1 41122
+D2
+~
+~
+0 -1 41137
+D3
+~
+~
+0 -1 41120
+S
+#41122
+The red desert~
+   Winds blow hard, kicking up sand and dust into your face.  No plants
+or animals live here, the desert seems uninhabited.  In all directions,
+you may walk off into your doom.
+~
+410 0 2
+D0
+~
+~
+0 -1 41105
+D1
+~
+~
+0 -1 41115
+D2
+~
+~
+0 -1 41137
+D3
+~
+~
+0 -1 41121
+S
+#41123
+The red desert~
+   Winds blow hard, kicking up sand and dust into your face.  No plants
+or animals live here, the desert seems uninhabited.  In all directions,
+you may walk off into your doom.
+~
+410 0 2
+D0
+~
+~
+0 -1 41093
+D1
+~
+~
+0 -1 41124
+D2
+~
+~
+0 -1 41138
+D3
+~
+~
+0 -1 41131
+S
+#41124
+The red desert~
+   The desert continues in all directions, spanning towards every horizon.
+The sand has a strange dusty texture to it and is colored red, possibly
+the dust of clay.
+~
+410 0 2
+D0
+~
+~
+0 -1 41107
+D1
+~
+~
+0 -1 41125
+D2
+~
+~
+0 -1 41138
+D3
+~
+~
+0 -1 41123
+S
+#41125
+The red desert~
+   The desert continues in all directions, spanning towards every horizon.
+The sand has a strange dusty texture to it and is colored red, possibly
+the dust of clay.
+~
+410 0 2
+D0
+~
+~
+0 -1 41108
+D1
+~
+~
+0 -1 41126
+D2
+~
+~
+0 -1 41139
+D3
+~
+~
+0 -1 41124
+S
+#41126
+The red desert~
+   The desert continues in all directions, spanning towards every horizon.
+The sand has a strange dusty texture to it and is colored red, possibly
+the dust of clay.
+~
+410 0 2
+D0
+~
+~
+0 -1 41109
+D1
+~
+~
+0 -1 41127
+D2
+~
+~
+0 -1 41140
+D3
+~
+~
+0 -1 41125
+S
+#41127
+The red desert~
+   The desert continues in all directions, spanning towards every horizon.
+The sand has a strange dusty texture to it and is colored red, possibly
+the dust of clay.
+~
+410 0 2
+D0
+~
+~
+0 -1 41110
+D1
+~
+~
+0 -1 41128
+D2
+~
+~
+0 -1 41141
+D3
+~
+~
+0 -1 41126
+S
+#41128
+The red desert~
+   The desert continues in all directions, spanning towards every horizon.
+The sand has a strange dusty texture to it and is colored red, possibly
+the dust of clay.
+~
+410 0 2
+D0
+~
+~
+0 -1 41111
+D1
+~
+~
+0 -1 41129
+D2
+~
+~
+0 -1 41142
+D3
+~
+~
+0 -1 41127
+S
+#41129
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41112
+D1
+~
+~
+0 -1 41130
+D2
+~
+~
+0 -1 41143
+D3
+~
+~
+0 -1 41128
+S
+#41130
+The red desert~
+   The winds pick up the sand and blow it at you, seemingly from all
+directions at once.  You scan your surroundings, noticing it is hard
+to get your bearings with the raging winds, and infer that the desert
+spans away from you in all directions, continueing towards the horizons.
+~
+410 0 2
+D0
+~
+~
+0 -1 41113
+D1
+~
+~
+0 -1 41131
+D2
+~
+~
+0 -1 41144
+D3
+~
+~
+0 -1 41129
+S
+#41131
+The red desert~
+   The desert continues in all directions from here, the sand blowing
+in the wind like miniscule daggers.  The sun can barely be seen through
+the raging red wind, and it lets in little light.
+~
+410 0 2
+D0
+~
+~
+0 -1 41092
+D1
+~
+~
+0 -1 41123
+D2
+~
+~
+0 -1 41050
+D3
+~
+~
+0 -1 41130
+S
+#41132
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass.
+~
+410 0 2
+D0
+~
+~
+0 -1 41116
+D1
+~
+~
+0 -1 41133
+D2
+~
+~
+0 -1 10604
+D3
+~
+~
+0 -1 41116
+S
+#41133
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass.
+~
+410 0 2
+D0
+~
+~
+0 -1 41117
+D1
+~
+~
+0 -1 41134
+D2
+~
+~
+0 -1 10605
+D3
+~
+~
+0 -1 41132
+S
+#41134
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass.
+~
+410 0 2
+D0
+~
+~
+0 -1 41118
+D1
+~
+~
+0 -1 41135
+D2
+~
+~
+0 -1 10606
+D3
+~
+~
+0 -1 41133
+S
+#41135
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass.
+~
+410 0 2
+D0
+~
+~
+0 -1 41119
+D1
+~
+~
+0 -1 41136
+D2
+~
+~
+0 -1 10607
+S
+#41136
+Next to the Cliff Wall~
+   To the south, stands a huge rocky cliff stretching up towards the
+skies.  The cliff calms down the raging winds inhabiting the desert 
+that stretches out before you to the north.  To the east the cliff wall
+continues.
+~
+410 0 2
+D0
+~
+~
+0 -1 41120
+D1
+~
+~
+0 -1 41137
+D3
+~
+~
+0 -1 41135
+S
+#41137
+Next to the Cliff Wall~
+   To the south, stands a huge rocky cliff stretching up towards the
+skies.  The cliff calms down the raging winds inhabiting the desert 
+that stretches out before you to the north.  To the east the desert
+continues.
+~
+410 0 2
+D0
+~
+~
+0 -1 41121
+D1
+~
+~
+0 -1 41122
+D3
+~
+~
+0 -1 41136
+S
+#41138
+Next to the Cliff Wall~
+   To the south, stands a huge rocky cliff stretching up towards the
+skies.  The cliff calms down the raging winds inhabiting the desert 
+that stretches out before you to the north.  To the east the cliff wall
+continues.
+~
+410 0 2
+D0
+~
+~
+0 -1 41124
+D1
+~
+~
+0 -1 41139
+D3
+~
+~
+0 -1 41123
+S
+#41139
+Next to the Cliff Wall~
+   To the south, stands a huge rocky cliff stretching up towards the
+skies.  The cliff calms down the raging winds inhabiting the desert 
+that stretches out before you to the north.  To the east the cliff wall
+continues.
+~
+410 0 2
+D0
+~
+~
+0 -1 41125
+D1
+~
+~
+0 -1 41140
+D3
+~
+~
+0 -1 41138
+S
+#41140
+Next to the Cliff Wall~
+   To the south, stands a huge rocky cliff stretching up towards the
+skies.  The cliff calms down the raging winds inhabiting the desert 
+that stretches out before you to the north.  To the east the cliff wall
+continues.
+~
+410 0 2
+D0
+~
+~
+0 -1 41126
+D1
+~
+~
+0 -1 41141
+D3
+~
+~
+0 -1 41139
+S
+#41141
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass within.
+~
+410 0 2
+D0
+~
+~
+0 -1 41127
+D1
+~
+~
+0 -1 41142
+D2
+~
+~
+0 -1 10600
+D3
+~
+~
+0 -1 41140
+S
+#41142
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass within.
+~
+410 0 2
+D0
+~
+~
+0 -1 41128
+D1
+~
+~
+0 -1 41143
+D2
+~
+~
+0 -1 10601
+D3
+~
+~
+0 -1 41141
+S
+#41143
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass within.
+~
+410 0 2
+D0
+~
+~
+0 -1 41129
+D1
+~
+~
+0 -1 41144
+D2
+~
+~
+0 -1 10602
+D3
+~
+~
+0 -1 41142
+S
+#41144
+The red desert~
+   The desert continues in all directions from here, the sand shifting
+in the wind.  To the south however you see a crescent shaped canyon,
+the walls are convex shaped making a small basin of grass within.
+~
+410 0 2
+D0
+~
+~
+0 -1 41130
+D1
+~
+~
+0 -1 41131
+D2
+~
+~
+0 -1 10603
+D3
+~
+~
+0 -1 41143
+S
+#41145
+Elrhi-Mytheran Gate House~
+   You stand within an enclosed guard house, made of wooden boards
+forming a rather large archway over the road, and between the trees.
+To the north the road leads off between two rows of trees standing on
+either side of the road.
+~
+410 0 1
+D0
+~
+~
+0 -1 41146
+D2
+~
+~
+0 -1 11043
+S
+#41146
+Elrhi-Mytheran Road~
+   The road stretches off to the north a long distance.  On either side
+of the road are walls of trees preventing you from straying off the road.
+~
+410 0 1
+D0
+~
+~
+0 -1 41147
+D2
+~
+~
+0 -1 41145
+S
+#41147
+Elrhi-Mytheran Road~
+   The road is long and shaded by the trees growing on either side of the 
+road like walls.  A dark shadow covers even these trees from the west
+where lie the mountains.
+~
+410 0 1
+D0
+~
+~
+0 -1 41148
+D2
+~
+~
+0 -1 41146
+S
+#41148
+Elrhi-Mytheran Road~
+   The road continues north and south between walls of dark green trees.
+There are no sounds here as you travel along.
+~
+410 0 1
+D0
+~
+~
+0 -1 41149
+D2
+~
+~
+0 -1 41147
+S
+#41149
+Elrhi-Mytheran Road~
+   The road leads off north and south.  Shade comes from the trees which
+have grown alongside the brick paved road like natural walls. 
+~
+410 0 1
+D0
+~
+~
+0 -1 41150
+D2
+~
+~
+0 -1 41148
+S
+#41150
+Elrhi-Mytheran Road~
+   The road continues north and south through the shade of the green trees
+which have sprouted alongside the road.  You wonder if the trees protect
+you from exiting the road or prevent something from entering.
+~
+410 0 1
+D0
+~
+~
+0 -1 41151
+D2
+~
+~
+0 -1 41149
+S
+#41151
+Turn in the Toll Road~
+   The trees force the road to turn here to the west and south.  You
+see nothing but darkness created by the shade of the trees and only
+slight glimpses of the sky through the breaks in the branches.
+~
+410 0 1
+D2
+~
+~
+0 -1 41150
+D3
+~
+~
+0 -1 41152
+S
+#41152
+Turn in the Toll Road~
+   The road turns here as the trees cut the road short to the south and
+to the west.  You may continue on along the shaded road east and north.
+~
+410 0 1
+D0
+~
+~
+0 -1 41153
+D1
+~
+~
+0 -1 41151
+S
+#41153
+Elrhi-Mytheran Road~
+   The toll road leads on through the shade of the dark green trees.
+The trees are so densely spaced together that it is impossible to fit
+yourself between and escape from the road.  To the south you think
+that the road may turn east.
+~
+410 0 1
+D0
+~
+~
+0 -1 41154
+D2
+~
+~
+0 -1 41152
+S
+#41154
+Elrhi-Mytheran Road~
+   Scanning the road to the north you notice that it turns west.  To the
+south the road leads off between wall of thick, green trees, trapping
+you on the road.  
+~
+410 0 1
+D0
+~
+~
+0 -1 41155
+D2
+~
+~
+0 -1 41153
+S
+#41155
+Turn in the Toll Road~
+   The road turns here leading both south and west.  In these directions,
+you hear nothing, see nothing but darkness and limited light.  
+~
+410 0 1
+D2
+~
+~
+0 -1 41154
+D3
+~
+~
+0 -1 41156
+S
+#41156
+Elrhi-Mytheran Road~
+   You are travelling the toll road leading east and west from here.
+You sense no life here but you do have a strange feeling as if you were
+being watched carefully, your very actions being scrutinized by a great
+power.  
+~
+410 0 1
+D1
+~
+~
+0 -1 41155
+D3
+~
+~
+0 -1 41157
+S
+#41157
+Elrhi-Mytheran Road~
+   The road leads east and west from here through darkness created by dark,
+green trees.  Sunlight barely pokes through the thick branches above
+creating just enough light to see your way.
+~
+410 0 1
+D1
+~
+~
+0 -1 41156
+D3
+~
+~
+0 -1 41158
+S
+#41158
+Turn in the Toll Road~
+   The road turns here, leading both north and east.  Walls of trees have
+grown like walls on either side of the road preventing you from leaving
+the road.  To the north you see some sort of waypost spanning across the 
+road. 
+~
+410 0 1
+D0
+~
+~
+0 -1 41159
+D1
+~
+~
+0 -1 41157
+S
+#41159
+The Elrhi-Mytheran Toll House~
+   The toll house is actually two 10 foot high square building with
+an archway spanning the distance between the two houses.  To the north,
+outside the darkness of the trees you see a city.  To the south the road
+leads off through darkness.
+~
+410 0 1
+D0
+~
+~
+0 0 41160
+D2
+~
+~
+0 -1 41158
+S
+#41160
+East Mytheran Road~
+   Off to the east down the road, you see a great city with silver stone
+walls surrounding it.  To the east, plains stretch out as far as the eye can 
+see.  To the south you see a large toll house between two long lines of
+trees.
+~
+410 0 0
+D2
+~
+~
+0 0 41159
+D3
+~
+~
+0 0 41161
+S
+#41161
+East Mytheran Road~
+   The road leads off to the east and west from here through the
+Northern Plains.  Some ways down the road to the west you see a city
+of gold and silver looming stoicly on the horizon.
+~
+410 0 0
+D1
+~
+~
+0 0 41160
+D3
+~
+~
+0 0 1187
+S
+#41162
+East Mytheran Road~
+   Mytheran Road leads west towards the city of Mytherandil and
+east across the Northern Plains.  The air is quite cool and a breeze
+blows past strongly.
+~
+410 0 0
+D1
+~
+~
+0 0 41161
+D3
+~
+~
+0 0 41163
+S
+#41163
+Outside the City~
+   Just to the west are the Eastern Gate of Mytherandil.  From the
+gates begins East Mytheran Road which leads off to the east across the
+Northern Plains.  On the cool wind is the smell of the city, a strange
+mix of sweat and roses.
+~
+410 0 0
+D1
+~
+~
+0 0 41162
+D3
+~
+~
+0 0 1187
+S
+#41164
+Secret Tunnel~
+   It is quite dark here but you realize the to the east a long tunnel
+leads off.  A wooden ladder stand here propped up against the southern
+wall of the tunnel leading up to a latch set into the ceiling.  
+There is a sign fixed onto the ladder you notice.
+~
+410 acg 0
+D1
+~
+~
+0 0 41165
+D4
+~
+cornerstone secret~
+1 0 3086
+E
+sign ladder~
+   
+Do your duty and remember to close the cornerstone!
+Tell no one of this!
+
+    --OO-- ATHAR --OO--
+~
+S
+#41165
+Secret Tunnel~
+   The tunnel continues off into the darkness east and west.  To the west
+you see a tiny dagger of light shining through the ceiling.  The walls
+are covered with dirt and grime and the floor is plain soil beneath your
+feet.
+~
+410 a 0
+D1
+~
+~
+0 0 41166
+D3
+~
+~
+0 0 41164
+S
+#41166
+Underground tunnel~
+  The tunnel continues on east and west through the darkness.  Cobwebs
+cover the area where the wall meets the ceiling.
+~
+410 a 0
+D1
+~
+~
+0 0 41167
+D3
+~
+~
+0 0 41165
+S
+#41167
+Underground Tunnel~
+   The tunnel continues through the darkness eastwards and westwards.
+The cross beams holding the ceiling of the tunnel together suddenly
+creak loudly and the sound reverberates off the walls down the tunnel.
+~
+410 a 0
+D3
+~
+~
+0 0 41166
+D4
+~
+secret trapdoor~
+1 0 11062
+S
+$~

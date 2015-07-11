@@ -1,0 +1,66 @@
+#32800
+creature stone kargin~
+a wandering kargin~
+A massive creature made of stone, with four arms lumbers towards you.
+~
+The creature is a cross between a giant and a rock.  Four strong arms
+are bunched in fists.  Its eyes have an unearthly hallow stare and its
+maw hangs open in hunger.
+~
+cgf r -400 S
+18 8 30 10d3+130 1d10+10
+45 80000
+8 8 0
+#32801
+fisherman~
+the fisherman~
+A lone fisherman sits upon the edge of the dock staring at the mountains.
+~
+His beard hangs down to his chest and his eyes have a certain lonely
+stare to them.  
+~
+bop 0 0 S
+42 1 1 1d1+5000 1d10+15
+5000 20000
+8 8 1
+#32801
+guard kehrn~
+the Kehrn Guard~
+A guard of the stronghold looks at you and searches your soul.
+~
+The guard is a fanatical guardian of the Stronghold.  Upon his 
+forehead he bears the sign of Kehrn.  
+~
+gi czr 1000 S
+25 3 -10 10d5+150 10d2+15
+5000 150000
+8 8 1
+#32802
+kehrn lord~
+Lord Kehrn~
+Lord Kehrn stares at you from his seat upon the throne.
+~
+Lord Kehrn has a slightly crazed look in his eye.  You feel his eyes pry
+into your soul, to discover where your heart lies.  Upon his forehead
+is branded a symbol depicting a flaming sword.  
+~
+bi cezr 1000 S
+37 2 -20 10d10+2000 1d30+30
+9000 289111
+8 8 1
+#32803
+his'tarin creature rockeater~
+the his'tarin~
+A creature stands here on all fours swallowing large boulders whole.
+~
+The His'tarin, also known as a  'Rockeater'.  It is quite tall with
+a thin body standing on all four arms.  When it swallows a boulder,
+it looks quite strange as the body expands quite wide.  Within its eyes
+you see little intelligence and even less viciousness.
+~
+gq a 0 S
+15 15 70 5d5+80 5d2+5
+0 30000
+8 8 0
+$
+

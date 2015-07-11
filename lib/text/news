@@ -1,0 +1,128 @@
+NEWS -- NEWS -- NEWS -- NEWS -- NEWS -- NEWS -- NEWS -- NEWS -- NEWS -- NEWS
+       _____ _            ____                  _       _
+      |_   _| |__   ___  |  _ \  ___  _ __ ___ (_)_ __ (_) ___  _ __
+	| | | '_ \ / _ \ | | | |/ _ \| '_ ` _ \| | '_ \| |/ _ \| '_ \
+	| | | | | |  __/ | |_| | (_) | | | | | | | | | | | (_) | | | |
+	|_| |_| |_|\___| |____/ \___/|_| |_| |_|_|_| |_|_|\___/|_| |_|
+
+----------------------------------------------------------------------------
+9/14/96:
+- The cure spells now should work properly (i.e. cure disease, cure poison)
+- Quotes added for people logging out.
+
+9/8/96:
+- Reject and Accept have now been fixed.
+- The amount of gold you're carrying now is included in the total weight you
+  are carrying, so start using banks folks, or else you won't be able to 
+  pick up anything else.
+- Reject and Accept were crashing the game and corrupting the playerfile.
+  so they have been temporarily disabled.  Also, due to the corruption,
+  an older playerfile (from about a week ago) has been restored.  Sorry
+  for any inconvience.
+
+9/7/96:
+- New gods added for religions.  Helpfiles on them will be added shortly.
+  Each god is called by a different name for each race, so don't be 
+  confused if someone says they worship someone else,  but still shows up
+  in the religion list.
+- 'religion' command added, used with no  arguments shows other members
+  of your religion, used with arguments it is the  same as 'rtell'.
+- Enhanced mail system, now you can abbreviate the recipient's name, and
+  you will be notified during each tick if you have mail waiting for you.
+
+9/1/96:
+- Cudgel tweaked.
+- Traps added, still being worked on.
+
+8/24/96:
+- Throw added, still being worked on. 'throw <obj> <victim>'
+- Shoot fixed, as well as missile, which can be lodged in characters and
+  other objects.
+  - 'remove <obj lodged in body part>' fixed.
+- Load fixed, wasn't recognizing loaded weapons as loaded.
+
+8/18/96:
+- Shoot added, still being worked on. 'shoot <obj> <victim>'
+- Load added, still being worked on. 'load <ranged weapon> <missile>'
+- Zen Thinking changed to Karate to reflect its actual usage.
+
+8/17/96:
+- Turn undead skill added. 'turn <victim>'
+- mlist, rlist, and olist added for Immortals.  'xlist <zone number>'
+
+8/12/96:
+- Cudgel added, still being worked on. 'cudgel <victim>'
+
+8/9/96:
+- Stab added. 'stab <victim>'
+
+8/1/96:
+- Poison weapon added. 'poison <weapon obj>'
+
+7/21/96:
+- Infobar, Scorebar, and Meter added. 'infobar', 'scorebar', and 'meter'
+  used to toggle them on and off.
+
+7/19/96:
+- Recall added for newbies. 'recall' or '/'
+
+7/15/96:
+- Guilds added:
+  - 'guild' shows members of guild, 'guild <text>' sends the text to all
+    other guild members on-line.
+  - 'promote <guild member>' advances members levels within the guild.
+  - 'demote <guild member>' demotes members within the guild.
+  - 'dismiss <guild member>' dismisses a member from a guild.
+  - 'reject <applicant>' rejects the person applying to the guild.
+  - 'accept <applicant>' accepts the person applying into the guild.
+  - 'petition <guild name>' petitions guild for admittance.
+
+*Vacation.
+
+4/3/96:
+- Combat messages tweaked by Kirahn.
+
+4/19/96:
+- vsyslog, vbugs, vtypos, videas, vtodo added for Immortals.
+  'vsyslog <number>' prints the last number of lines of the syslog file.
+  'vbugs <number>'   prints the last number of lines of the bug file.
+  'vtypos <number>'  prints the last number of lines of the typo file.
+  'videas <number>'  prints the last number of lines of the idea file.
+  'vtodo <number>'   prints the last number of lines of the todo file.
+- todo added for gods.  'todo <text>' convenient reminder of things to do.
+
+4/11/96:
+- Religions added.
+  - 'religion' shows other members of your religion. 'religion <text>'
+    prints message to all members of the religion.
+  - 'affirm <god name>' chooses your religion.
+  - 'renounce' renounces your god, leaving you with no religion.
+- Scan added.
+
+3/14/96:
+- The Dominion changed from a class based system to a classless skill based
+  system.  See the help entry on 'spheres'.
+
+*Very busy at school.
+
+9/30/95:
+- Meditate added. 'meditate' allows you to meditate thus regenerating at an
+  increased rate, typing anything will stop you from meditating.
+- Areas added. 'areas' will show you all of the areas currently in the game,
+  and some information about them.
+- Tick command added for gods to make one hour of game time pass more quickly.
+- Assinate removed and garrotte added in its place.
+
+9/1/95:
+- Combat messages changed to more vivid ones.
+
+---------------------------------------------------------------------------
+This is not a fully complete list of what all has been added to The Dominion
+in the last couple months by any means. Not included are over 20 zones which
+have been added, and many many other features which we have forgotten to
+list, but will be added to the list in further compilations. And remember,
+ideas are always welcome!  Use the boards, or the idea command and your
+ideas will be heard, and if they are good ideas, most likely implemented.
+Thanks!
+
+--The Dominion Development Team (mountcas@pluto.ee.cua.edu)

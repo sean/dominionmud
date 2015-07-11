@@ -1,0 +1,836 @@
+#5500
+Path before the city~
+   A large, loud city lies just north of here.  A towering wall 
+surrounds the perimeter of the city providing protection.  To the
+south, the path leads into rolling, green hills.
+~
+55 0 4
+D0
+~
+~
+0 0 35000
+D2
+~
+~
+0 -1 5503
+S
+#5501
+The overgrown path~
+The trail leads off from here westwards into the great northern plains.
+A windswept expanse of grassy wasteland holding little to live by
+and even less to explore.  To the east the path leads into the hills.
+~
+55 0 4
+D1
+~
+~
+0 -1 5502
+S
+#5502
+The over grown path~
+To the east, a great valley filled with grass stretches out.  Descending
+to the valley will be a problem - even for a skilled mountaineer.  To the
+south you see the landscape is filled with rolling hills.  To the west the
+path leads towards a large expanse of flatlands.
+~
+55 0 4
+D2
+~
+~
+0 -1 5504
+D3
+~
+~
+0 -1 5501
+S
+#5503
+Path through the hills~
+   You are on a small dirt path leading north and south through the hills.
+To the north, the path ends at a fairly large city surrounded by a towering
+wall for protection.  To the south the landscape becomes a green mass
+of rolling hills.
+~
+55 0 4
+D0
+~
+~
+0 -1 5500
+D2
+~
+~
+0 -1 5509
+S
+#5504
+The overgrown path~
+You are on a path overgrown with weeds and shrubs which tear at your
+ankles. To the north the path continues and to the south you see a great
+landscape filled with rolling, green hills.  To the east you will skirt
+the rim of a green valley stretching out below you to the northeast.
+~
+55 0 4
+D0
+~
+~
+0 -1 5502
+D1
+~
+~
+0 -1 5505
+D2
+~
+~
+0 -1 5510
+S
+#5505
+Edge of the Valley~
+You stand next to the southern rim of a great valley which spans out 
+below you to the north.  The slope leading down into the long expanse
+of grass is extremely dangerous, suitable only to skilled mountaineers.
+To the east and west and south you may continue your travels.
+~
+55 0 4
+D1
+~
+~
+0 -1 5506
+D2
+~
+~
+0 -1 5511
+D3
+~
+~
+0 -1 5504
+S
+#5506
+Edge of the Valley~
+   A large valley extends northwards at the foot of the steep hillside
+much too dangerous to scale.  In all other directions the rolling, green
+hills fill the landscape.
+~
+55 0 4
+D1
+~
+~
+0 -1 5507
+D2
+~
+~
+0 -1 5512
+D3
+~
+~
+0 -1 5505
+S
+#5507
+Edge of the valley~
+   To the north, down a steep, rocky slope, you see a valley span out.
+The slope is much to angled for anyone but the most skillful mountaineer
+to scale.  In all other directions the rolling hills fill the landscape.
+~
+55 0 4
+D1
+~
+~
+0 -1 5508
+D2
+~
+~
+0 -1 5513
+D3
+~
+~
+0 -1 5506
+S
+#5508
+The rolling hills~
+   There is a steep slope descending into a green valley below you but
+the slope is much too dangerous to scale without proper equipment.  In
+all other directions save north, the green hills fill the landscape.
+~
+55 0 4
+D1
+~
+~
+0 -1 5509
+D2
+~
+~
+0 -1 5514
+D3
+~
+~
+0 -1 5507
+S
+#5509
+Turn in the path~
+   The dirt path turns here leading north and west.  A steep hillside
+stands to the south and east which forces the path to turn.  You see
+a small city sitting upon a small rise a long ways off in the distance
+to the north.
+~
+55 0 4
+D0
+~
+~
+0 -1 5503
+D3
+~
+~
+0 -1 5508
+S
+#5510
+Edge of the Hills~
+   THe hills span out in all directions, save west where you see an
+endless waste of plains stretch forth below you.  The green hill tops
+are all you can see, poking up like waves.
+~
+55 0 4
+D0
+~
+~
+0 -1 5504
+D1
+~
+~
+0 -1 5511
+D2
+~
+~
+0 -1 5515
+S
+#5511
+The rolling hills~
+   Green, rolling hills fill the entire landscape up to where the
+earth meets the sky.  The grass rustles lightly as a cool breeze sweeps
+the entire range of hills.  
+~
+55 0 4
+D0
+~
+~
+0 -1 5505
+D1
+~
+~
+0 -1 5512
+D2
+~
+~
+0 -1 5516
+D3
+~
+~
+0 -1 5510
+S
+#5512
+The rolling hills~
+   The hills stretch out in all directions towards each horizon.  Creeping
+up above the horizon, to the north, you see several plumes of smoke,
+possibly a fire or a town.  Along the eastern horizon you see a jagged 
+range of mountains.
+~
+55 0 4
+D0
+~
+~
+0 -1 5506
+D1
+~
+~
+0 -1 5513
+D2
+~
+~
+0 -1 5517
+D3
+~
+~
+0 -1 5511
+S
+#5513
+The rolling hills~
+   Green rolling hills fill the landscape in all directions.  Beyond
+the horizon of the hills to the east, you see a dark range of jagged
+mountains.  Far to the north you see smoke rising, indicating the 
+possiblity of a town or city.
+~
+55 0 4
+D0
+~
+~
+0 -1 5507
+D1
+~
+~
+0 -1 5514
+D2
+~
+~
+0 -1 5518
+D3
+~
+~
+0 -1 5512
+S
+#5514
+In the rolling hills~
+   You are standing at the crest of one of the many rolling hills
+dotting the area.  You see a jagged, dark range of mountains to the east
+across a giant fjord.  In all other directions you may continue your
+journeys.
+~
+55 0 4
+D0
+~
+~
+0 -1 5508
+D2
+~
+~
+0 -1 5519
+D3
+~
+~
+0 -1 5513
+S
+#5515
+Edge of the hills~
+   To the west and south you see the hillside drop off into the 
+plains.  The descent would surely be fatal to you or anything without
+the proper training.  To the north and east you see the green hills
+continue.
+~
+55 0 4
+D0
+~
+~
+0 -1 5510
+D1
+~
+~
+0 -1 5516
+S
+#5516
+Amidst the rolling hills~
+   Just to the south you see a steep descent leading down between two
+large hills.  In all other directions you see the green hilltops
+rising and falling like waves of grass.
+~
+55 0 4
+D0
+~
+~
+0 -1 5511
+D1
+~
+~
+0 -1 5517
+D2
+~
+~
+0 -1 5521
+D3
+~
+~
+0 -1 5515
+S
+#5517
+Amidst the rolling hills~
+   You are traversing the rolling hills.  Far to the north, you spy
+several trails of smoke slowly etching across the sky signalling
+either a large fire of some sort of town below the horizon.  
+~
+55 0 4
+D0
+~
+~
+0 -1 5512
+D1
+~
+~
+0 -1 5518
+D2
+~
+~
+0 -1 5522
+D3
+~
+~
+0 -1 5516
+S
+#5518
+The rolling hills~
+   The hills stretch out to the horizon in all directions.  You see
+a mountain range far off to the east, like a jagged teeth jutting up
+from the earth.  
+~
+55 0 4
+D0
+~
+~
+0 -1 5513
+D1
+~
+~
+0 -1 5519
+D2
+~
+~
+0 -1 5523
+D3
+~
+~
+0 -1 5517
+S
+#5519
+The rolling hills~
+   All about you, the rolling hills stretch out like green waves to
+the horizon in every direction.  A cool, light breeze passes by rustling
+the grass.  You see small spires of smoke etching slowly across the sky
+to the north.
+~
+55 0 4
+D0
+~
+~
+0 -1 5514
+D1
+~
+~
+0 -1 5520
+D2
+~
+~
+0 -1 5524
+D3
+~
+~
+0 -1 5518
+S
+#5520
+Eastern Edge of the Hills~
+You are at the eastern most edge of the hills.  A deep fjord with
+dangerous sides slides down into darkness.  Across the fjord you
+see a dark, jagged range of mountains.  In all other directions you
+see the rolling green hills continue off into the distance.
+~
+55 0 4
+D2
+~
+~
+0 -1 5525
+D3
+~
+~
+0 -1 5519
+S
+#5521
+Edge of the hills~
+   The hill falls away to the south and west in a steep, rocky slope.  It
+looks fairly dangerous.  To the north and east you see the range of hills
+continue towards the horizons.
+~
+55 0 4
+D0
+~
+~
+0 -1 5516
+D1
+~
+~
+0 -1 5522
+S
+#5522
+The rolling hills~
+   You stand at the edge of a large mound of one of the hills, staring
+south with the breeze blowing a cool stream at you.  Flatlands open
+up below you spanning out their green fields of grass for the whole
+world to praise.  To the north the land becomes rockier, windier, cooler,
+and harsher.  The hills span out in all cardinal directions like a sea of
+green.
+~
+55 0 4
+D0
+~
+~
+0 -1 5517
+D1
+~
+~
+0 -1 5523
+D3
+~
+~
+0 -1 5521
+D5
+~
+~
+0 0 5526
+S
+#5523
+The rolling hills~
+   The hillside slopes dangerously down from here to the south.  Not even
+a skillful mountaineer would be able to easily scale the face.  In all
+other directions you see the green hills stretch out towards the horizon.
+~
+55 0 4
+D0
+~
+~
+0 -1 5518
+D1
+~
+~
+0 -1 5524
+D3
+~
+~
+0 -1 5522
+S
+#5524
+The rolling hills~
+   The hills span out in all directions from this point.  To the south,
+a over trodden trail leads down the edge of the steep hillside towards
+flatter land.  Far off to the east you see a jagged chain of mountains
+like a jagged set of teeth with dark clouds hovering over the spires.
+~
+55 0 4
+D0
+~
+~
+0 -1 5519
+D1
+~
+~
+0 -1 5525
+D3
+~
+~
+0 -1 5523
+D5
+~
+~
+0 0 5527
+S
+#5525
+The Southeastern Edge of the Hills~
+   This is the southeastern most part of the small series of hill in the area.
+Driectly to the east and south is a large drop off to the fjord next to you, 
+and on the other side of the fjord is a jagged mountain range.  You see a
+small trail leading down to the west.
+~
+55 0 4
+D0
+~
+~
+0 -1 5520
+D3
+~
+~
+0 -1 5524
+S
+#5526
+The Steep Trail~
+   The trail is lined with boulders preventing travel east or west.  Above
+you, you can feel stronger, rushing winds bring cool air to your face as
+it passes over the top of the hill.  Below you, you see a large fjord
+open up like a wound in the land with a rope bridge spanning the watery
+chasm.
+~
+55 0 4
+D4
+~
+~
+0 -1 5522
+D5
+~
+~
+0 -1 5529
+S
+#5527
+The Steep Trail~
+   You are climbing up the southern slope of a steep, rocky hill.  A blast
+of wind tousels your hair from above - it feels cool and strong.  Below you,
+you see a large fjord with a rope bridge connecting the jagged sides sitting
+at the bottom of the slope.
+~
+55 0 4
+D4
+~
+~
+0 -1 5524
+D5
+~
+~
+0 -1 5531
+S
+#5528
+End of the Fjord~
+   You have come to the abrupt end of the bank and what appears to be the end
+of the fjord.  A small cliff juts up here to the west, and the water south of
+you seems to go undreground.  You can go back to the east, where you see a 
+rope bridge that crosses the water.
+~
+55 0 4
+D1
+~
+~
+0 -1 5529
+D2
+~
+~
+0 -1 5533
+S
+#5529
+Along the Waterway~
+   You stand upon a short bank with your back to a steep wall of rock
+abutting the southern slope of a large hill.  To the south you see the
+cool, blue waters of the fjord flowing in an easterly direction.  A rope
+bridge spans north-south across the fjord.
+~
+55 0 4
+D1
+~
+~
+0 -1 5530
+D2
+~
+~
+0 -1 5534
+D3
+~
+~
+0 -1 5528
+D4
+~
+~
+0 0 5526
+S
+#5530
+Before the Rope Bridge~
+   Standing right before the rickety old rope bridge that is south of you, you 
+contemplate on if whatever is on the other side is worth it.  East and west
+of here is bank of the waterway.  You can see small trails leading up to
+the top of the fjord immediately east and west of here.
+~
+55 0 4
+D1
+~
+~
+0 -1 5531
+D2
+~
+~
+0 -1 5535
+D3
+~
+~
+0 -1 5529
+S
+#5531
+Along the Waterway~
+   You are standing on the small bank of the fjord's waterway.  Space here is 
+limited, for most of the waterway is sided by cliff walls.  South of you is 
+the actual waterway itself, to the east is a cliff face.  Off to the west you
+see a small rope bridge, and you see a trail of what looks like handholds
+leading to the top of the fjord.
+~
+55 0 4
+D1
+~
+~
+0 -1 5532
+D2
+~
+~
+0 -1 5536
+D3
+~
+~
+0 -1 5530
+D4
+~
+~
+0 0 5527
+S
+#5532
+Along the Waterway~
+   The bank of the waterway comes to an abrupt halt here as you come face to 
+with a wall of rock.  You can go back along the bank to the west, or travel
+the water way to the south.
+~
+55 0 4
+D2
+~
+~
+0 -1 5537
+D3
+~
+~
+0 -1 5531
+S
+#5533
+The Fjord's Waterway~
+   Your craft comes to a stop here as the waterways seems to go underground.
+You can only go back the way you came, to the east.
+
+~
+55 0 7 -1 -1
+D0
+~
+~
+0 -1 5528
+D1
+~
+~
+0 -1 5534
+S
+#5534
+The Fjord's Waterway~
+   You are on the fjord's waterway, with virtually nowhere to go.  To the west
+you can see the water look like go underground, and the east is blocked by
+the low clearance of the rope bridge.
+~
+55 0 7 -1 -1
+D0
+~
+~
+0 -1 5529
+D2
+~
+~
+0 -1 5538
+D3
+~
+~
+0 -1 5533
+S
+#5535
+The Rope Bridge~
+   You are standing on a rickety old rope bridge that badly needs repair.  You
+look down and see the water slowly rise up and down with each passing wave.  
+To the north you see a couple of small trails going up the sheer face of the 
+fjord, and to the south you see a small trail.
+~
+55 0 4
+D0
+~
+~
+0 -1 5530
+D2
+~
+~
+0 -1 5539
+S
+#5536
+The Fjord's Waterway~
+   You are floating on the fjord's waterway.  Off to the east you can see 
+some rather large rapids.  To the west you are blocked by a low rope bridge.
+North and south of here is the small banks of the waterway.
+~
+55 0 7 -1 -1
+D0
+~
+~
+0 -1 5531
+D1
+~
+~
+0 -1 5537
+D2
+~
+~
+0 -1 5540
+S
+#5537
+The Fjord's Waterway~
+   You are on the waterway of the fjord.  Off to the east you are blocked by
+some rather large and treacherous looking rapids.  North of here is t small
+bank of the warterway, and to the east is a little more water.
+~
+55 0 7 -1 -1
+D0
+~
+~
+0 -1 5532
+D3
+~
+~
+0 -1 5536
+S
+#5538
+Along the Waterway~
+   You are standing on the ever increasingly small bank of the fjord's 
+waterway.  Your way to the west has been blocked by some rather annoying 
+rock.  To th east you can see a rope brige that crosses the water, and north
+is the water itself.
+~
+55 0 4
+D0
+~
+~
+0 -1 5534
+D1
+~
+~
+0 -1 5539
+S
+#5539
+Before the Rope Bridge~
+   You are standing before a rickety old rope bridge.  It sits very low to the
+water and is in bad shape.  To the east and west is a small bank of the 
+fjord's waterway.  South of here is a small trail that leads out of the 
+fjord.
+~
+55 0 4
+D0
+~
+~
+0 -1 5535
+D1
+~
+~
+0 -1 5540
+D2
+~
+~
+0 -1 5541
+D3
+~
+~
+0 -1 5538
+S
+#5540
+Along the Waterway~
+   You are standing on the small bank of the fjord's waterway.  A cliff blocks
+you way to the east, but you can see it slope down to the west.  
+~
+55 0 4
+D0
+~
+~
+0 -1 5536
+D3
+~
+~
+0 -1 5539
+S
+#5541
+The grassy trail~
+   You are on a small grassy trail with short plains flanking you on
+either side.  To the north you see a large fjord open up into the ground
+filled with crisp, blue waters.  A rope bridge extends across the fjord
+where it connects to another mass of hilly land.
+~
+55 0 4
+D0
+~
+~
+0 -1 5539
+D2
+~
+~
+0 0 19036
+S
+$~

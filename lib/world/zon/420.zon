@@ -1,0 +1,17 @@
+#420
+Gemini's Zone~
+Gemini~
+BUILDING~
+3001 1
+42099 24 2
+*
+* Last Updated: Wed Feb 26 18:53:55 
+*           By: Gemini
+*
+D 0 42006 5 1 100 		* Close Eastern door at Room 42006
+M 0 42001 1 42005 100 	* the Fiend at Room 42005. (Max: 1)
+G 1 42003 1  100 			* And give it a Pick-lock. (Max: 1)
+D 0 42005 3 1 100 		* Close Eastern door at Room 42005
+D 1 42005 3 2 100 		* Lock and Close Southern door at Room 42005
+S
+$~

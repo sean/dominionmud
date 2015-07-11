@@ -1,0 +1,67 @@
+#8000
+guard dwarf dwarven~
+a dwarven guard~
+A grissled dwarf stands here protecting the city.
+~
+The dwarf is quite short but nevertheless, very muscular.  In his
+eyes you see a certain amount of wariness.  His beard is long, scraggly 
+and braided in several spots.
+~
+glm r 150 S
+17 10 30 1d1+500 2d8+15
+90 15000
+8 8 1
+#8001
+villager dwarven dwarf~
+a dwarven villager~
+A dwarven villager is here watching you warily.
+~
+The villager seems like he wants nothing more than to be left alone.
+He has a long beard which he seems to be quite proud of and his eyes
+are a deep shade of blue.
+~
+cg 0 0 S
+5 4 10 1d20+20 1d6+4
+45 500
+8 8 1
+#8002
+villager dwarf dwarven~
+a dwarven villager~
+A dwarven villager is here watching you warily.
+~
+The villager seems like she wants nothing more than to be left alone.
+She has a tiny beard which she seems to be quite proud of and her eyes
+are a deep shade of blue.
+~
+cg 0 0 S
+5 4 10 1d20+20 1d6+4
+45 500
+8 8 2
+#8003
+king dwarf Bryn mawr~
+the King of the Dwarves~
+The King of Bryn Mawr sits here upon a throne of mithril and gold.
+~
+He looks like an extremely proud man.  His beard reaches nearly down to
+his knees and his face has a rough look to it.  He is much taller than
+the average dwarf and looks like a powerful adversary.
+~
+belmo hrp 500 S
+28 20 60 1d100+1800 1d20+20
+200 117899
+8 8 1
+#8004
+guardian dwarf~
+a guardian of the castle~
+A guardian of the castle stands here with a menacing look on his face.
+~
+The dwarf is well outfitted with thick steel armor which will protect
+him well in battle.  A long white beard flows out from beneath his helm
+down along his chest.
+~
+egiq rc 400 S
+25 20 60 1d100+200 1d20+10
+50 80000
+8 8 2
+#8005
+

@@ -1,0 +1,235 @@
+#6301
+spider young~
+the young spider~
+The young spider is ballooning by you.
+~
+He looks freshly hatched and sprightly.  His young fangs are just
+growing in as of late.
+~
+acdg dk 0 E
+3 9 0 1d12+40 1d7+0
+80 350
+8 8 1
+Race: 43
+E
+#6302
+yevaud dragon usurper~
+Yevaud~
+Yevaud, the Ancient, Evil Gold Dragon is here, waiting to eat you!
+~
+Old, scaly, but still with a lot of bite in him left.
+~
+abcdfjkl dk -1000 E
+25 53 58 50d100+200 5d4+64
+0 166250
+8 8 1
+BareHandAttack: 8
+Str: 15
+Dex: 16
+Int: 13
+Wis: 15
+Con: 15
+Cha: 13
+Race: 41
+E
+#6303
+spider wolf~
+the wolf spider~
+The wolf spider is here, licking its bloody fangs.
+~
+The wolf spider is hairy, very hairy.
+~
+abdf 0 -300 E
+6 15 40 3d8+70 2d5+3
+1250 6000
+8 8 2
+Race: 43
+E
+#6304
+orc~
+the orc~
+The orc is stuck in the web and he can't get out.
+~
+You notice an evil look in his eyes, but he seems quite drained of life,
+and all he can do is glare at you while he's stuck in this web.
+~
+bd 0 -400 S
+2 7 13 2d10+10 2d3+0
+10 300
+6 6 1
+#6305
+wasp queen~
+the queen wasp~
+The queen wasp is here, thinking how tasty you look.
+~
+You notice a glazed look in her eyes.
+~
+abdf 0 -800 E
+15 33 42 3d90+120 5d2+33
+0 35156
+8 8 2
+Race: 43
+E
+#6306
+spider drone~
+the drone spider~
+A drone spider walks around doing its master's bidding.
+~
+An ordinary drone spider.
+~
+acdg 0 -200 E
+6 15 9 3d8+70 2d4+1
+200 1600
+8 8 0
+Race: 43
+E
+#6307
+spider ethereal~
+the ethereal spider~
+An ethereal spider strides here, traveling to different worlds.
+~
+She winks in and out of reality.  It looks like it'd be difficult to hit her
+without a magical weapon.
+~
+acdg bcfgs 300 E
+13 9 22 1d12+163 2d4+4
+1250 16000
+8 8 2
+Race: 43
+E
+#6308
+slave human~
+the slave~
+A human slave of Arachnos works here relentlessly.
+~
+The slave does not mind you, but will fight like a warrior if attacked.
+He serves the spider Empress, Arachnos, though whether it is by choice
+or because he was beguiled, you are not fully certain.
+~
+cdgl 0 -50 E
+11 8 10 1d12+130 2d7+1
+1000 13500
+8 8 1
+Race: 0
+E
+#6309
+quasit~
+the quasit~
+A quasit blinks in and out, grinning at you.
+~
+Demoniac in nature, but more mischievous.  He twiddles his thumbs
+and creates a magical treasure!
+~
+cdgh bdfs -300 S
+10 1 60 1d12+47 1d8+0
+1500 11000
+8 8 1
+#6310
+spider bird~
+the bird spider~
+The bird spider snaps its powerful jaws.
+~
+The Bird Spider has very powerful jaws.
+~
+abdf dk -800 E
+14 7 45 1d8+100 2d9+2
+1750 18000
+8 8 2
+Race: 43
+E
+#6311
+hermit~
+the hermit~
+The hermit sits here and warns, 'Go back before it is too late!'
+~
+A dishevelled veteran warrior in disguise is what he is, but he
+means well.
+~
+bcdl dk 750 S
+7 13 12 3d10+90 2d5+2
+750 2500
+8 8 1
+#6312
+donjonkeeper keeper~
+the Donjonkeeper~
+The Donjonkeeper eyes you and wonders how pure your soul is.
+~
+He delves deeper into you as you stare at him.  Only those free of taint
+will be allowed to remain here safely.
+~
+abcdfil dk 1000 S
+25 0 63 1d12+600 2d8+8
+16000 125000
+8 8 1
+#6313
+guardian~
+the guardian~
+The guardian is obviously not doing his job.
+~
+He looks like a lazy bum who sleeps half the time.
+~
+dfg dks 250 S
+17 4 43 1d12+200 2d8+8
+1000 24000
+4 4 1
+#6314
+arachnos spider empress~
+Arachnos~
+Arachnos the Empress of Spiders welcomes you with an evil smile.
+~
+She is a very attractive spider with an ornate gown.  She tempts you
+into being one of her many slaves.  She does not possess the venomous
+fangs of normal spiders, but then, as you realize, she does not need
+them.
+~
+abcdfjlnoq dfhkp -1000 E
+26 55 65 6d10+8650 5d18+70
+30000 355000
+8 8 2
+Race: 43
+E
+#6315
+ki-rin~
+the Ki-Rin~
+The Ki-Rin smiles good-naturedly to you.
+~
+She is the last bastion of good in this realm.  Her mission is to
+someday free the slaves of the Empress.  She has been trapped here for
+time eternal, and now the evil power of Arachnos feeds upon her intense
+magical energies.  She will never give up here fight against evil,
+though, and will continue her work in whatever manner presents itself.
+~
+abcdfilno dk 1000 S
+26 50 73 10d8+2500 5d4+22
+15000 170000
+8 8 2
+#6316
+dragon wormkin young~
+the young wormkin~
+A wormkin with no teeth plays here.
+~
+It is a rather small dragon, and you almost feel sad about killing it.
+~
+abd dk 50 E
+9 12 36 5d4+110 2d5+2
+1000 6500
+8 8 1
+Race: 33
+Height: 122
+Weight: 219
+E
+#6317
+dragon wormkin elder~
+the elder wormkin~
+A wormkin that has grown a bit stares at you inquisitively.
+~
+A medium-sized dragon -- seems it hasn't killed anything yet by itself, 
+though there is a first time for everything...
+~
+abd dk -300 E
+16 5 7 5d4+210 2d6+4
+5000 24000
+8 8 1
+Race: 32
+E
+$~

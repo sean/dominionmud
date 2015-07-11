@@ -1,0 +1,409 @@
+#8000
+guard dwarf dwarven~
+a dwarven guard~
+A grissled dwarf stands here protecting the city.
+~
+The dwarf is quite short but nevertheless, very muscular.  In his
+eyes you see a certain amount of wariness.  His beard is long, scraggly 
+and braided in several spots.
+~
+dglm r 150 S
+17 10 0 1d1+500 2d8+15
+90 15000
+8 8 1
+#8001
+villager dwarven dwarf~
+a dwarven villager~
+A dwarven villager is here watching you warily.
+~
+The villager seems like he wants nothing more than to be left alone.
+He has a long beard which he seems to be quite proud of and his eyes
+are a deep shade of blue.
+~
+cdg 0 0 S
+5 4 0 1d20+20 1d6+4
+45 500
+8 8 1
+#8002
+villager dwarf dwarven~
+a dwarven villager~
+A dwarven villager is here watching you warily.
+~
+The villager seems like she wants nothing more than to be left alone.
+She has a tiny beard which she seems to be quite proud of and her eyes
+are a deep shade of blue.
+~
+cdg 0 0 S
+5 4 0 1d20+20 1d6+4
+45 500
+8 8 2
+#8003
+king dwarf Bryn mawr~
+the King of the Dwarves~
+The King of Bryn Mawr sits here upon a throne of mithril and gold.
+~
+He looks like an extremely proud man.  His beard reaches nearly down to
+his knees and his face has a rough look to it.  He is much taller than
+the average dwarf and looks like a powerful adversary.
+~
+bdelmo hp 500 S
+14 20 16 1d100+900 1d20+10
+200 70000
+8 8 1
+#8004
+guardian dwarf~
+a guardian of the castle~
+A guardian of the castle stands here with a menacing look on his face.
+~
+The dwarf is well outfitted with thick steel armor which will protect
+him well in battle.  A long white beard flows out from beneath his helm
+down along his chest.
+~
+degq cr 400 S
+25 20 37 1d100+200 1d20+10
+50 80000
+8 8 2
+#8005
+grem trimbleshield smith~
+Grem Trimbleshield~
+The smith stands over the forge banging on a sheet of hot steel.
+~
+Grem Trimbleshield is about 3 feet tall but must weigh nearly
+200 lbs just from pure muscle.  He has a long beard which has been
+braided and slung over his shoulder so as to not get in his way.
+~
+bd 0 200 S
+30 10 63 30d50+500 5d5+10
+10000 50000
+8 8 1
+#8006
+Garin Meridan shopkeeper keeper shop~
+Garin Meridan~
+The shopkeeper stands behind a low counter waiting to help you.
+~
+Garin Meridan is a young, slim dwarf who spends his days preparing
+food for the town.  He has a good reputation for being honest
+as well as holding down a keg or two of beer.
+~
+bde ar 200 S
+30 20 75 30d2+1000 5d10+20
+10000 100000
+8 8 1
+#8007
+isyndir storekeeper keeper~
+Isyndir Blackmane~
+The storekeeper is resting in a wicker chair behind the counter.
+~
+Isyndir is an old adventurer.  He tells many tales around the town
+of his excursions and wanderings.  Most people take him with a 500 lb.
+bag of salt however.
+~
+bd ar 200 S
+30 20 51 20d2+1000 11d1+11
+10000 100000
+8 8 1
+#8008
+spider black~
+a small, black spider~
+A small, black spider is crawling down the wall here.
+~
+It is black, small and has tiny hairs covering the oversized lobe
+on its aft end.  
+~
+adg 0 0 E
+1 1 87 3d1+2 2d1+1
+0 50
+8 8 0
+BareHandAttack: 4
+Race: 43
+E
+#8009
+thief shadow form figure anas~
+Anas the Shadowspawn~
+A dark form is here standing within the shadows.
+~
+Anas has made his living cutting innocent throats and looting
+them of valuables.  Maybe he can show you a thing or two about
+his profession.
+~
+d ks -200 E
+16 20 100 50d2+25 3d4+7
+4000 45000
+8 8 1
+BareHandAttack: 14
+E
+#8010
+mercenary wandering~
+Elok Yern~
+A freelance mercenary is here tapping his sword against his palm.
+~
+He looks to be about 7 ft. tall and his face has a cocky scowl
+on it as he looks down at you.  His breath smells of cheap ale
+and yet his eyes show nothing but true cunning.
+~
+cdg r -200 S
+15 15 73 20d9+100 4d5+8
+3000 75988
+8 8 1
+#8011
+dragon wyrm black~
+the black wyrm~
+A terrifying black wyrm lifts its massive head and looks at you.
+~
+The wyrm is unlike any other creature you have ever seen.  It has
+black scales covering its entire body and fangs which drip a steaming
+fluid.  It's eyes turn to slits as it notices you looking at it.
+~
+abdjo h -1000 E
+10 10 40 5d30+40 3d5+10
+2000 15000
+8 8 1
+BareHandAttack: 8
+Race: 34
+E
+#8012
+small short furry furred dwarf creature~
+the furred dwarf~
+A furry little dwarf is here looking fearfully at you.
+~
+The word Ewok comes to mind - but this isnt an ewok.  It's your
+average dwarf only this particular species of dwarf is quite tardy
+on the evolution clock.
+~
+d 0 100 E
+5 4 70 1d12+3 2d1+4
+35 200
+8 8 1
+BareHandAttack: 4
+E
+#8013
+shaman dwarf man~
+the furred dwarf shaman~
+A dark furred dwarf wearing a bone necklace sits before the fire.
+~
+He looks to be the shaman of the tribe of furred dwarves.  He utters
+strange gutteral words which have no meaning to you but much to him.
+~
+bdq k -200 E
+3 5 39 2d5+5 3d2+5
+75 300
+8 8 1
+BareHandAttack: 4
+E
+#8014
+skeletal rat grey~
+a skeletal rat~
+A grey, skeletal rat scurries to and fro here.
+~
+The rat is very undernourished and its bulbous eyes stare up
+at you in fear.
+~
+dg 0 0 E
+2 2 13 2d6+4 2d2+2
+0 150
+8 8 0
+BareHandAttack: 8
+E
+#8015
+dwarf dwarven commoner~
+a dwarven commoner~
+A dwarven commoner mills about the town here.
+~
+He looks like he doesn't have very much to do with himself.  He wanders
+about staring at the town.
+~
+dg 0 400 S
+3 5 3 2d3+7 2d2+3
+30 239
+8 8 1
+#8016
+dwarf child young~
+a young dwarf~
+A young dwarf stands here playing with her hair.
+~
+She is a thin dwarf, her age in undeterminable.  Her hair is long
+and tousled.  
+~
+dg 0 500 E
+3 4 0 1d13+5 1d3+2
+5 100
+8 8 2
+Race: 19
+E
+#8017
+sweeper street streetsweeper~
+a streetsweeper~
+A man is here, sweeping up the litter on the streets.
+~
+The streetsweeper looks quite bland and tired.  His hair is matted
+against his brow and a subtle odor hangs about him.
+~
+cdg 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8018
+gate guardian~
+the gateguard~
+The guardian of the castle gates stands here vigilantly.
+~
+The dwarf is wearing a full set of silver platemail which is covered
+in strange runes.  His long, braided beard hangs down to his chest, a
+symbol of his maturity.
+~
+d 0 800 E
+30 63 65 15d60+8000 7d4+71
+120 204687
+8 8 1
+Str: 18
+Dex: 19
+Int: 18
+Wis: 18
+Con: 16
+Cha: 16
+Race: 11
+E
+#8019
+dragon lich black~
+the black dragon-lich~
+A black dragon lich rears before you with red-glowing eyes.
+~
+Within the sockets of the lich you see a blood-red glow emenating
+out. Maggots crawl about the loose flesh hanging from the bones.
+The black, twisted bones are in the form of a dragon.
+~
+bdf pr -1000 E
+25 53 80 12d50+2000 6d2+62
+0 10000
+8 8 0
+BareHandAttack: 8
+Str: 16
+Dex: 16
+Int: 13
+Wis: 16
+Con: 13
+Cha: 15
+Race: 28
+E
+#8020
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 18 1d1+1 1d1+1
+1 1
+8 8 1
+#8021
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 2 1d1+1 1d1+1
+1 1
+8 8 1
+#8022
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8023
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8024
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8025
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8026
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8027
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8028
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8029
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#8030
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here
+~
+It is unfinished
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+$~

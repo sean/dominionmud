@@ -1,0 +1,603 @@
+#5201
+A Long Tunnel~
+   The river flows through a tunnel here. The walls of the tunnel are 
+rough hewn, obviously made by the force of the river over the centuries. 
+The upper roof of the tunnel is about 30 feet above. The walls of 
+the tunnel glow faintly from various light producing lichens. Stalactites 
+hang down from the ceiling, made from hundreds of years of water 
+dripping from the cavern's roof. The only sounds are the gentle rush of 
+the river, and the occasional dripping of water.
+~
+52 ad 7 -268437408 0
+D1
+~
+~
+0 -1 5202
+D3
+There appear to be some bars here, making passage to the west difficult.
+~
+~
+0 -1 0
+S
+#5202
+A Long Tunnel~
+   The river continues to flow through the tunnel here. Small ledges can 
+be made out on either side of the river, allowing passage by foot. 
+Various small openings can be made out on either side of the tunnel. The 
+walls here also glow with the faint light of the flourescent plants. A 
+large opening in the northern wall of the tunnel catches your eye.
+~
+52 ad 7 -268437408 0
+D0
+~
+~
+0 -1 5208
+D1
+~
+~
+0 -1 5203
+D3
+~
+~
+0 -1 5201
+S
+#5203
+A Long Tunnel~
+      The river continues to flow through the tunnel here. Small ledges can 
+be made out on either side of the river, allowing passage by foot. 
+Various small openings can be made out on either side of the tunnel. The 
+walls here also glow with the faint light of the flourescent plants. A 
+large opening in the southern wall of the tunnel catches your eye. Huge shapes
+flit overhead, sending dark shadows over you.
+~
+52 ad 7 -268437408 0
+D1
+~
+~
+0 -1 5204
+D2
+~
+~
+0 -1 5217
+D3
+~
+~
+0 -1 5202
+S
+#5204
+A Long Tunnel~
+   The river continues to cut through the tunnel here.  The river flows into 
+another river flowing through a small passage to the north. The ledge continues
+along the southern wall of the tunnel. A large passageway can be seen to the 
+south. Stalactites drip water and lime into the quiet river, sending ripples 
+through the barely flowing water. Other sounds can be made out here, including
+the flitting of wings, probably small bats who make this tunnel their home. 
+~
+52 ad 7 -268437408 0
+D1
+~
+~
+0 -1 5205
+D2
+~
+~
+0 -1 5218
+D3
+~
+~
+0 -1 5203
+S
+#5205
+An Underground Lake~
+   You are floating on a jet-black underground lake fed by the river to the 
+west. Small fish dart through the lake, guided by senses other than their eyes,
+which long ago ceased to function. Water drips steadily from the the 
+stalactites hanging above. A small, dry, tunnel allows further passage to 
+the east. A roughly hewn hallway leads upwards to the northwest. It appears 
+to be crafted by humanoid hands, rather than by the slow process of the 
+dripping water.  You notice another small passageway leading southwards 
+into the inky blackness
+~
+52 ad 7 -268437408 0
+D0
+~
+~
+0 -1 5216
+D1
+~
+~
+0 -1 5206
+D2
+~
+~
+0 -1 5224
+D3
+~
+~
+0 -1 5204
+S
+#5206
+A Long Narrow Tunnel~
+   This is a small tunnel leading steadily upwards to the east. It is very
+narrow, allowing only single-file passage. The dark river can be made out
+to the west and the sound of dripping water echoes throughout the passageway.
+~
+52 adi 5
+D1
+~
+~
+0 -1 5207
+D3
+~
+~
+0 -1 5205
+S
+#5207
+A Wide Tunnel~
+   The tunnel widens considerably here. To the east all that can be seen is
+a blindingly bright light. Upon closer examination, the tunnel comes to an 
+abrupt end. The burning sands of the desert can be made out. To the west,
+the narrow tunnel can be seen leading back to the underground lake.
+~
+52 ad 5
+D1
+~
+~
+0 -1 0
+D3
+~
+~
+0 -1 5206
+S
+#5208
+Small Passage~
+   This is a small passage leading northwards. A small ledge above the river
+can be seen to the south. The passage is barely wide enough for two to stand
+abreast. It appears as if some humanoid creature widened an already existing
+route. The passage slopes downwards at a steep gradient.
+~
+52 ad 5
+D2
+~
+~
+0 -1 5202
+D5
+~
+~
+0 -1 5209
+S
+#5209
+Downwards Sloping Passage~
+   This is a north-south passegeway that is sloping downwards at a steep 
+gradient. The passage widens a bit here. Stalactites drip water and lime
+onto you. You must weave your way through large stalagmites which rise up
+from the passage floor. You notice a second passage branching off towards
+the east, it would make a good site for a guard post to watch traffic down
+this passage. You can also continue down this passage to the north.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5210
+D1
+~
+~
+0 -1 5212
+D4
+~
+~
+0 -1 5208
+S
+#5210
+The Cavern Entrance~
+   You stand at the entrance to a large and beautiful cave.  Various types of
+crystals grow on the walls in unusual patterns. Flourescent lichens grow on 
+the walls, bathing the cavern in an errie light. Large stalagmites rise up
+from the cavern floor, meeting the stalactites which have grown from the
+ceiling. Various types of mushrooms and other fungi grow in the cavern in
+a breathtaking display of sizes, shapes, and colors. A small path leads
+deeper into the darkness, winding through the fungi patches and stalagmites.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5211
+D2
+~
+~
+0 -1 5209
+S
+#5211
+The Giant Cavern~
+   This size of this cavern overwhelms you. The walls rise upwards towards the
+roof of the cavern hundreds of feet above you. The vault's roof is so high 
+that it is covered in mist, making it hard to tell the exact height of the 
+cavern. The walls and floor are covered with strange crystal growths of every
+size, shape, and color imaginable. The absolute beauty of this place is breath-
+taking, marred only by the numerous bones strewn about the cavern floor. They
+appear to be the bones of previous brave adventurers who tried to explore the
+underworld.
+~
+52 ad 5
+D0
+~
+~
+0 -1 0
+D2
+~
+~
+0 -1 5210
+S
+#5212
+A Side Passage~
+   This is a small tunnel which branches off of the main downward sloping
+passage. Water and limestone drips slowly off of the ceiling and walls. It 
+appears as if this portion of the passage would make a good spot for a 
+checkpoint to monitor traffic in the main passageway. The passage opens up
+into a rather large cave to the south. The normal sounds that have been heard 
+up until now are strangely absent. The only sound is the dripping of the 
+water, punctuated by a piercing scream, ending in dead silence. The people 
+of the underworld are not very forgiving, perhaps it would be wiser to leave 
+them be. 
+~
+52 ad 5
+D2
+~
+~
+0 -1 5213
+D3
+~
+~
+0 -1 5209
+S
+#5213
+A Large Cave~
+   You are standing in a large cave.  The walls are covered with large growths
+of flourescent lichens, bathing the cave in a greenish light. A few large
+stalagmites rise up from the floor to meet their hanging counterparts from
+the ceiling. This cave has definitely been lived in recently. Furs are spread
+out on the floor and some small crates are stacked in one corner. The only 
+exits from the cave are to the north and to the east. 
+~
+52 ad 5
+D0
+~
+~
+0 -1 5212
+D1
+~
+~
+0 -1 5214
+S
+#5214
+A Damp Passageway~
+   You are standing in a damp passageway which sharply slopes upwards to
+the east, in an arching manner. The floors and ceiling constantly drip
+moisture, probably a combination of water and lime. The ceiling is also
+covered by a layer of water a few inches deep. You can hear the faint 
+sound of running water in the distance. The passage runs to the east and
+west.
+~
+52 ad 5
+D1
+~
+~
+0 -1 5215
+D3
+~
+~
+0 -1 5213
+S
+#5215
+An Underground Pool~
+   The hallway exits into a small natural cavern. The floor is covered
+by a knee-deep pool of lime-water. Large stalactites drip more of the 
+lime-water mix into the stagnant pool. The only sound you can hear is
+the steady dripping of the water from above. The normal sounds you have
+come to associate with the underdark are strangely absent here. The only
+exits from this cavern are to the west and the south. 
+~
+52 ad 6
+D2
+~
+~
+0 -1 5216
+D3
+~
+~
+0 -1 5214
+S
+#5216
+A Damp Hallway~
+   You are standing in a tunnel which is slightly sloping upwards to the north.
+The entire hallway is damp with a water-lime mix, which drips from the celing
+and walls. It was this constant dripping of water which carved these tunnels
+out of the solid rock over the eons. The normal sounds you have come to 
+associate with the underdark are absent here, drowned out by the constant sound
+of running water. The hallway continues into a small cavern to the north, and
+back out to the ledge above the river to the south.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5215
+D2
+~
+~
+0 -1 5205
+S
+#5217
+A Narrow Crawlway~
+   This tunnel is very small...it is large enough for a elf or human to
+crawl through on all fours, and a halfing to walk through. The tunnel
+is very smooth, perhaps constructed by humanoids. You have heard rumours
+about small relatives of the gnomes who live underground constantly seeking
+gems and minerals. The crawlway intersects with another passageway to the
+east, and opens up into a large cave to the south. The ledge overlooking the
+river is to the north.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5203
+D1
+~
+~
+0 -1 5218
+D2
+You smell the fragrant odor of fungus.
+~
+~
+0 -1 5219
+S
+#5218
+A Large Cavern~
+   You have entered a large cavern. The walls rise up to a vaulted ceiling
+hundreds of feet above you. You can barely see the opposite wall of the
+cavern due to the size of the cave. Veins of minerals can be seen running
+through the walls. Large formations of crystals also grow on the walls and
+floor of the cavern. A huge stalactite and stalagmite have grown together
+in the middle of the cavern, forming a huge pillar which gives the impression
+of holding up the vaulted ceiling. You can make out an exit in the northern
+wall of the cavern, and a small crawlway in the western wall.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5204
+D3
+~
+~
+0 -1 5217
+S
+#5219
+A Fungus Filled Cave~
+   You have entered another large cave. The walls are hundreds of feet
+apart and the ceiling as many feet high. What makes this cave different
+from the rest are the large number of fungi that grow on the floor of 
+the cave. Various types of fungus in every size, shape, and color possible
+grow in the cave. From your vantage point you can make out shapes moving
+among the patches of fungus. Perhaps the rumours of a peaceful race of 
+fungus-like humanoids were true. To the south is a small path winding 
+through the fungus patch.   
+~
+52 ad 5
+D0
+~
+~
+0 -1 5217
+D1
+The fragrant smell of fungus spores continues to the east.
+~
+~
+0 -1 5220
+S
+#5220
+The Path Through the Fungus Patch~
+   As you walk through the path you are amazed by the various types of
+fungi that grow in this cavern. Most of them tower over your head, but 
+there are smaller species as well. Your senses are assualted by reds, 
+greens, blues, and a large number of other colors. As you walk by some
+of the fungi you are shot at by spores, making breathing a bit difficult.
+The fungi appear well tended, as if someone lives here and takes care of 
+them. Winding your way through the patch, you are greeted by a most unusual
+site. A large mushroom. larger than any you have ever seen, rises up at
+the end of the path. You can make out an entryway into the mushroom.    
+~
+52 ad 5
+D2
+A giant mushroom temple stands to the south.
+~
+~
+0 -1 5221
+D3
+The fragrant smell of spores continues to the west.
+~
+~
+0 -1 5219
+S
+#5221
+The Mushroom Temple~
+   You are standing inside of an enormous living mushroom! The insides
+are carved into the shape of a temple. A large altar to some fungus god
+rests against one wall. Many of the fungus people you have seen mill
+about the temple, placing offerings on the altar. Most of them ignore you
+and pass you by on their daily business. You notice one large fungus-man.
+It appears as if he is angered over your intrusion. You can exit the
+temple through the main doors in the north wall, or through a smaller door
+in the east wall.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5220
+D1
+~
+~
+0 -1 5222
+S
+#5222
+A Path Outside of the Fungus Temple~
+   This is a small path leading from the giant mushroom temple. You
+are in the southeastern end of the large fungus cavern. This portion
+of the cavern is free from all growth, except for the flourescent 
+lichen which baths the cavern in an eerie glow. You notice a small
+passageway in the southern wall of the cavern.
+~
+52 ad 5
+D2
+~
+~
+0 -1 5223
+D3
+~
+~
+0 -1 5221
+S
+#5223
+A Small Passage~
+   This is a small passageway leading southwards from the large fungus
+cavern. You are once again greeted by the familiar sounds of the under-
+dark. The flit of small wings, the scurrying of small cave rats, and
+rarely the scream of a humanoid in the distance. The passage comes to
+an abrupt end, making you wonder if it will ever be finished.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5222
+S
+#5224
+A Small Dark Tunnel~
+   This is a small tunnel branching off from the main tunnel which the 
+river passes through to the north. You are surrounded by inky blackness. 
+You feel your way along the rough walls, shivering at the touch of 
+strange growths on the walls. Occasionally a cave bat flutters by your 
+head, startling you. The people of the Underdark live in this world of 
+utter darkness...but you dont now how they manage. You long to see the 
+sun and they sky again.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5205
+D2
+~
+~
+0 -1 5225
+S
+#5225
+A Small Dark Tunnel~
+   You are continuing your way along the dark tunnel. A small hint of 
+light can be seen up ahead. It is probably another cavern lit by the 
+strange flourescent plants that grow on the walls. The normal sounds that 
+you have come to asscoiate with this place are gone, sinking you into 
+utter silence and blackness. You think you can hear the faint sound of 
+conversation up ahead, probably from where the light is coming from.
+~
+52 ad 5
+D0
+~
+~
+0 -1 5224
+D2
+~
+~
+0 -1 5226
+S
+#5226
+Entrance to the Large Cavern~
+   You have come to the source of light you have been seeing through the 
+tunnel. It is a large cavern, lit by various odd lichens that grow on the 
+walls. The size of the cavern is immense, the walls vaulting hundreds of 
+feet to form a ceiling overhead, lost in darkness. Huge stalagmites grow 
+from the cave floor, some meeting-like sized stalactites growing down 
+from the ceiling to form huge pillars. You have found the source of the 
+conversation you have heard--a small party of Duergar mining the precious 
+minerals from the cavern walls.
+~
+52 d 5
+D0
+~
+~
+0 -1 5225
+D2
+~
+~
+0 -1 5227
+S
+#5227
+The Large Cavern~
+   You stand in the large cavern, behind a large stalagmite. Duergar are 
+hard at work, mining precious minerals and stone from the cavern walls.
+The size of this cavern is immense, the ceilng lost in darkness hundreds 
+of feet above you. The stalagmites form a maze of pillars and columns in 
+the cavern, some of them rising up to meet the stalactites growing from 
+the ceiling.  The only other exit you can see is a small passageway 
+leading out of the cavern to the west. You can also go back the way you 
+came, through the inky darkness.
+~
+52 d 5
+D0
+~
+~
+0 -1 5226
+D3
+~
+~
+0 -1 5228
+S
+#5228
+A Small Passageway~
+   You are travelling down a small passageway branching off from the 
+large cavern where the Duergar were mining. After travelling down the 
+corridor for a few feet you are once again plunged into darkness, as the 
+glow from the lichen back in the cave does not light up this section of 
+the tunnel. As the sounds of the Duergar fades behind you, the nomal 
+sounds you have come to associate with this place resume. Small 
+movements, water trickling, soft footfalls, and still occaisionaly the 
+scream of some creature piercing the darkness. The passage continues to 
+the west, where it begins to slope downward. The large cave is to the east.
+~
+52 d 5
+D1
+~
+~
+0 -1 5227
+D3
+~
+~
+0 -1 5229
+S
+#5229
+The Widening Passage~
+   The passage begins to widen at this point, where approximately three men 
+could walk abreast. The passage begins to slope steeply downward, into 
+the inky blackness. Feeling the walls with your hands, you notice that 
+the walls here are smoother than the other walls in this place. Smooth 
+not from hewn stone, but from countless others feeling their way along 
+the passage over the years. The normal sounds of the UnderDark are 
+fading, replaced by more sounds of footsteps, small conversations, and an 
+occasional crack of a whip. It would be best to advance cautiously at 
+best.
+~
+52 d 5
+D1
+~
+~
+0 -1 5228
+D5
+The path slopes steeply downward here.
+~
+~
+0 -1 0
+S
+$~

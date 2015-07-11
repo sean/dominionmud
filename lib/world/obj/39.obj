@@ -1,0 +1,194 @@
+#3900
+key golden heavy~
+a golden key~
+A heavy golden key lies here.~
+~
+18 c ao
+3900 0 0 0 0 0 0 0 14
+1 0 0
+#3901
+shield dark spiked~
+a dark, spiked shield~
+A dark, spiked shield has been left here.~
+~
+9 dgh am
+12 0 0 0 0 0 0 18 14
+12 5000 10350
+E
+shield~
+A strong, sturdy shield.  It brings to mind legends of a shield that
+provided protection from poisonous gases.
+~
+A
+23 -4
+A
+13 10
+#3902
+potion speckled~
+a speckled potion~
+A speckled potion speckles here.~
+~
+10 g a
+15 65 65 65 0 0 0 0 14
+2 1300 500
+#3903
+gauntlets troll~
+a trollish gauntlet~
+A gauntlet made from troll skin lies on the ground here.~
+~
+9 g ah
+5 0 0 0 0 0 0 15 14
+8 2000 1350
+A
+1 2
+A
+12 -20
+#3904
+ring platinum~
+a platinum ring~
+A shining ring of platinum lies here.  It has a tiny inscription.~
+~
+1 agh abo
+0 0 -1 0 0 0 0 17 14
+1 2000 10500
+E
+ring platinum inscription~
+The inscription on the ring reads:
+
+Cursed be the gods that supply coins to mortals!
+And cursed be the mortal that accepts valuable gifts from the gods!
+~
+A
+5 2
+A
+18 2
+#3905
+flail~
+a flail~
+A flail has been carelessly left here.~
+~
+5 fgh a
+0 3 4 7 0 0 0 15 14
+8 5000 8500
+A
+19 1
+#3906
+coins gold treasure~
+a great pile of treasure~
+A great, gleaming pile of treasure lies at your feet.~
+~
+20 0 a
+143500 0 0 0 0 0 0 0 14
+20 143500 0
+#3907
+spear heavy~
+a heavy spear~
+A heavy spear has been tossed on the ground here.~
+~
+5 E am
+0 1 7 11 0 0 0 16 14
+8 450 80
+A
+19 1
+#3908
+trident~
+a trident~
+There is a warrior's trident here.~
+~
+5 0 a
+0 2 4 11 0 0 0 16 14
+8 350 200
+E
+trident~
+This is a common trident, often used by gladiators or mermen.  It has
+three sharp prongs jutting from the business end and a smooth wooden
+handle with two comfortable grip points.
+~
+#3909
+boot water-walking boat~
+a soggy boot~
+A boot lies here in a puddle of salt-water.~
+~
+22 deq ag
+0 0 0 0 0 0 0 20 14
+1 5000 1850
+E
+boots boat~
+The boots are made of a strange lightweight hide and float in a puddle
+of water.
+~
+A
+14 -20
+#3910
+mace great heavy~
+a huge, spiked mace~
+A great, heavy mace is lying on the ground here.~
+~
+5 dhlmnqst a
+0 3 6 6 0 0 0 18 14
+18 50000 20000
+A
+18 -1
+A
+19 3
+#3911
+plate mail platemail minotaur dark~
+a dark, spiked breastpiece~
+A suit of dark spiked breastpiece with animal hide on the front sits here.~
+~
+9 jmnorst ad
+55 0 0 0 0 0 0 18 14
+18 15000 20000
+A
+13 20
+A
+5 -1
+#3912
+key golden~
+a golden key~
+A golden key lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+#3913
+key golden~
+a golden key~
+A golden key lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+#3914
+key golden~
+a golden key~
+A golden key lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+#3915
+golden key~
+a golden key~
+A golden key lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+#3916
+golden key~
+a golden key~
+A golden key lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+#3917
+golden key~
+a golden key~
+A golden key lies here.~
+~
+18 0 ao
+0 0 0 0 0 0 0 0 14
+1 1 1
+$~

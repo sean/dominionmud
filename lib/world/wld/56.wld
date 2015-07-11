@@ -1,0 +1,2004 @@
+#5600
+Inside Naz'ol~
+   The thick reddish smoke makes your vision blurry as it burns your 
+eyes and makes them water. You can see nothing through the thick smoke
+except for what lies at your feet...corpses...the more you look around,
+ the more you see. The corpses are mangled worse than the left-overs
+from a pack of wolves. Something VERY cruel and guiltless has torn this 
+place apart, leaving nothing but wretch in its path. As you peer around
+to find some sign of life you notice movement through the smoke...
+glowing amber claws reach for your throat before you even have time to
+run...
+~
+56 agt 1
+D0
+~
+~
+0 0 5621
+D2
+~
+gate~
+1 0 5601
+D5
+You peer at the panel underneath you, and you notice movement
+beneath some kind of trap in the ground.
+~
+trap~
+1 0 5602
+S
+#5601
+Grand entrance to Naz'ol~
+   You are standing in front of a massive marble gate carved from the 
+face of a massive slab of reddish marble. You can smell a foul stench
+coming from the other side of the gate, the familiar smell of dEcAy,
+and charred flesh. As the smoke from inside the gate reaches your nose,
+it almost makes you vomit due to the images forming in your mind of what
+could possibly make that strong of a smell...
+~
+56 r 1
+D0
+~
+gate~
+1 0 5600
+D2
+~
+~
+0 0 5603
+S
+#5602
+Inside the Trap~
+   You climb down into the trap door, and find yourself standing in
+some sort of abandoned mine shaft. It appears that noone has been here
+in a long while due to the thick layer of dust on the ground. The mine
+shaft looks like it branches further ahead to the north.
+~
+56 adgr 0
+D0
+~
+~
+0 0 5618
+D4
+~
+trap~
+1 0 5600
+S
+#5603
+Edge of the Forest~
+  You are standing at what appears to be the end of the forest you
+have been treading through. You peer to the north and notice a gate
+of some sort carved from the side of a slab of marble the size of a
+small mountain. To the south the forest continues.
+~
+56 r 3
+D0
+~
+~
+0 0 5601
+D2
+~
+~
+0 0 5604
+S
+#5604
+Deep in the Forest~
+   Small animals scurry away at the sound of your approach as you cut your 
+way through the dense forest. The intense humidity, mixed with the sting
+of insects on your exposed flesh almost makes you wish that you were home
+in bed with your mate. All you can see is more forest any way you look.
+~
+56 0 3
+D0
+~
+~
+0 0 5603
+D2
+~
+~
+0 0 5605
+S
+#5605
+Deep in the forest~
+   You press deeper into the forest unknowing what will be found as a
+result. All you can hope for is to find some form of life other than
+small game, and insects that seem to love the taste of your flesh...
+~
+56 0 3
+D0
+~
+~
+0 0 5604
+D1
+~
+~
+0 0 5613
+D3
+~
+~
+0 0 5606
+S
+#5606
+Small creek ~
+   You have come to a small creek running north to south. You notice a 
+foul smell coming from the strange looking water. The water has a vague
+reddish tint. Woods completely sorround you on all sides.
+~
+56 0 3
+D0
+~
+~
+0 0 5607
+D1
+~
+~
+0 0 5605
+D2
+~
+~
+0 0 5612
+E
+creek stream water~
+  The foul smelling waters running through the woods here seems to have
+a reddish tint, vaguely resembling the color of blood...The stream heads
+south where it vanishes underneath a mass of giant roots.
+~
+S
+#5607
+Blood Pond~
+   Upon entering a clearing in the forest, a large pool of blood 
+catches your attention in the middle of the clearing. There is no 
+small game or insects in this clearing, unlike the rest of the forest
+where you have been all but stampeded by the pests.
+~
+56 0 3
+D0
+~
+~
+0 0 5610
+D2
+~
+~
+0 0 5606
+D5
+ The pool beckons for you to enter...
+~
+blood~
+1 0 5608
+E
+pool blood~
+   Upon closer examination of the pool of blood, you notice that it
+isn't as shallow as it appeared, it must be at least 9 or 10 feet
+deep because you can't even see the bottom.
+~
+S
+#5608
+In the Blood~
+   You are in way over your head in the thick blood that is all around 
+you. The blood being very salty prevents you from seeing much under the 
+surface...OUCH!!!!!!!!...
+Something has a hold of your leg...!
+~
+56 ahr 8 -1 -1
+D0
+~
+~
+0 0 5608
+D1
+~
+~
+0 0 5608
+D2
+~
+~
+0 0 5608
+D3
+~
+~
+0 0 5608
+D4
+~
+blood portal wave~
+1 0 5607
+D5
+~
+clot secret ~
+1 5608 5609
+D6
+~
+~
+0 0 5608
+D7
+~
+~
+0 0 5608
+D8
+~
+~
+0 0 5608
+D9
+~
+~
+0 0 5608
+E
+clot~
+You notice a small blood clot floating in the air here, with a 
+hole in the center of it, maybe for a key?
+~
+S
+#5609
+Deep in the Blood~
+   You have sunken in blood, yuck!
+
+   The blood seems to be making your body tingle...
+~
+56 acefgr 8 -1 -1
+D4
+~
+clot~
+1 5608 5608
+E
+blood pool thick salty~
+   You can see jack shit as you peer into the blood.
+~
+S
+#5610
+North end of the Pool~
+   You are standing at the north side of the pool. To the north you can 
+make out a giant red wall that seems to shine in the dim forest light.
+It is apparent now that the blood that makes up this pool is freely 
+flowing from a large crack in the wall to the north.
+~
+56 0 3
+D0
+~
+~
+0 0 5611
+D2
+~
+~
+0 0 5607
+S
+#5611
+At the marble wall~
+   In front of you stands a wall made from red marble. Through a crack 
+near the bottom, blood flows southward forming a small river. The
+crack in the wall just might be big enough to take a peek through.
+~
+56 0 3
+D2
+~
+~
+0 0 5610
+S
+#5612
+Deep in the forest~
+   Upon walking through the forest you notice a small creek of 
+reddish water running into a mass of roots at your feet. The sound
+of the trickling water is a little duller than an average stream...
+hmmm. You might want to take a closer look at the strange water.
+~
+56 0 3
+D0
+~
+~
+0 0 5606
+E
+creek stream blood~
+   You take a closer look at the stream running from the north to 
+the south and you notice a small silver earring with a piece of an 
+ear attached...Yuck! You also notice that the water has a tint the
+color of blood'n'shit.
+~
+S
+#5613
+Deep in the forest~
+   You trudge deeper into the thick forest hoping to find something of
+interest. *Ouch* You are bit on the neck by a mosquito the size of small
+bird!
+~
+56 0 3
+D1
+~
+~
+0 0 5614
+D3
+~
+~
+0 0 5605
+S
+#5614
+Deeper in the forest~
+   As you push further on into the jungle-like forest you make a small
+discovery...the faint smell of a burning campfire catches your senses.
+You peer all around and your eyes catch a glimpse of firelight to the
+northeast. You think "Maybe i should check this out..."
+~
+56 0 1
+D3
+~
+~
+0 0 5613
+D6
+  A thick mass of small bushes and vines blocks your way to 
+the other side.
+~
+bushes foliage~
+1 0 5615
+S
+#5615
+Outside the cave~
+   You look up at the waterfall in front of you and clearly see now 
+that there is definitely firelight flickering in there. Also the smell
+of cooked fish lets you know that there is no doubt someone or something
+in there cooking food.
+~
+56 c 6
+D4
+~
+~
+0 0 5616
+D9
+  A thick mass of small bushes and vines blocks you way to the other side.
+~
+bushes foliage ~
+1 0 5614
+E
+waterfall water cave~
+  You look up at the waterfall and notice a small cave behind the 
+moving waters. You think that you can climb up the wet rocks easy 
+enough to get to the cave...you'll just get wet'ed.
+~
+S
+#5616
+Inside the cave...~
+   You peer around and notice a small campfire vaguely hidden behind
+a wall of stalagmites. Over the small fire hangs a fish that has a 
+stick impaled up its tail-fin. But whatever is cooking the fish is
+nowhere to be seen.
+~
+56 dgr 0
+D0
+~
+~
+0 0 5617
+D5
+~
+~
+0 0 5615
+S
+#5617
+The Survivor's lair~
+   Curled up in the corner is a shivering mass of a man who is so
+terrified upon seeing you that his hair is standing on end. He appears
+to be covered from head to toe in fresh blood...his?
+~
+56 dglrs 0
+D2
+~
+~
+0 0 5616
+S
+#5618
+Dank, Dark Cavern~
+   The mine shaft appears to be completely deserted and lifeless.
+
+~
+56 0 0
+D1
+~
+~
+0 0 5619
+D2
+~
+~
+0 0 5602
+D3
+~
+~
+0 0 5620
+S
+#5619
+Abandoned mine shaft~
+   The mine shaft appears to be completely deserted, and without life.
+~
+56 ad 0
+D3
+~
+~
+0 0 5618
+S
+#5620
+Abandoned mine shaft~
+   The mine shaft appears to be completely deserted.
+~
+56 adr 0
+D1
+~
+~
+0 0 5618
+S
+#5621
+Elijah Square~
+   Looking around you notice small street signs of some sort along
+the sides of the streets. The signs mark this intersection as Elijah
+Square, with Elijah Avenue heading north, and Elijah Street heading
+east to west. Still no signs of human survivors can be found as far
+as your sight lets you see in the smoke.
+~
+56 a 1
+D0
+~
+~
+0 0 5622
+D1
+~
+~
+0 0 5623
+D2
+~
+~
+0 0 5600
+D3
+~
+~
+0 0 5624
+S
+#5622
+Elijah Avenue~
+  You are standing on the once beautiful street named after the Hero Elijah.
+But now these streets are flooded with dried blood, and corpses of dead 
+villagers who were slain in cold blood by the Chree'zen.
+~
+56 a 1
+D0
+~
+~
+0 0 5658
+D2
+~
+~
+0 0 5621
+S
+#5623
+Elijah Street~
+  You gaze down Elijah Street and see nothing but ruins...
+
+~
+56 ar 1
+D0
+~
+crates~
+1 0 5664
+D1
+~
+~
+0 0 5631
+D3
+~
+~
+0 0 5621
+S
+#5624
+Elijah Street~
+This description is yet unfinished...
+~
+56 0 1
+D1
+~
+~
+0 0 5621
+D3
+~
+~
+0 0 5625
+S
+#5625
+Elijah Street~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5624
+D3
+~
+~
+0 0 5626
+S
+#5626
+Elijah Street~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5625
+D3
+~
+~
+0 0 5627
+S
+#5627
+Elijah Street~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5626
+D3
+~
+~
+0 0 5628
+S
+#5628
+Elijah Street-southwest corner~
+This description is yet unfinished...
+~
+56 a 1
+D0
+~
+~
+0 0 5629
+D1
+~
+~
+0 0 5627
+S
+#5629
+Dark alley~
+This description is yet unfinished...
+~
+56 agr 1
+D0
+~
+~
+0 0 5630
+D2
+~
+~
+0 0 5628
+S
+#5630
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D0
+~
+~
+0 0 5650
+D1
+~
+~
+0 0 5648
+D2
+~
+~
+0 0 5629
+S
+#5631
+Elijah Street~
+  The further you walk down Elijah st., the more you realize that this town
+is now devoid of all HUMAN life...
+~
+56 ar 1
+D1
+~
+~
+0 0 5632
+D3
+~
+~
+0 0 5623
+S
+#5632
+Elijah Street~
+  As you continue down the street you still cannot find any forms of human 
+life.  To your north there is a faint light coming from beneath a pile of
+toppled over collumns.  
+~
+56 a 1
+D0
+~
+collumns collumn pillar secret~
+1 0 5665
+D1
+~
+~
+0 0 5633
+D3
+~
+~
+0 0 5631
+E
+north secret collumns collumn~
+  There is a small beam of light coming from under a pile of toppled 
+collumns.  Maybe your first sign of human life...?
+~
+S
+#5633
+Elijah Street~
+  Still no signs of life, this town is starting to appear completely deserted.
+Maybe if you searched through the rubble, you could find a survivor.
+~
+56 ar 1
+D1
+~
+~
+0 0 5634
+D3
+~
+~
+0 0 5632
+S
+#5634
+Elijah Street-southeast corner~
+  You have come to a corner in the road.  To the north you think you hear sounds of laughter doming from an unknown source.  Use extreme caution in searching
+through this town of newly spawned evil.
+~
+56 a 1
+D0
+~
+~
+0 0 5635
+D3
+~
+~
+0 0 5633
+S
+#5635
+Shadowy, dank alley~
+  You peer all around and see nothing but ruins...
+But wait, is that human laughter you hear coming from the north?
+~
+56 a 1
+D0
+~
+~
+0 0 5636
+D2
+~
+~
+0 0 5634
+S
+#5636
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D0
+~
+~
+0 0 5637
+D2
+~
+~
+0 0 5635
+D3
+~
+~
+0 0 5662
+S
+#5637
+Small, incognito alley~
+This description is yet unfinished...
+~
+56 a 1
+D0
+~
+~
+0 0 5638
+D2
+~
+~
+0 0 5636
+S
+#5638
+Templeton Road-northeast corner~
+This description is yet unfinished...
+~
+56 a 1
+D2
+~
+~
+0 0 5637
+D3
+~
+~
+0 0 5639
+S
+#5639
+Templeton Road~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5638
+D3
+~
+~
+0 0 5640
+S
+#5640
+Templeton Road~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5639
+D3
+~
+~
+0 0 5641
+S
+#5641
+Templeton Road~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5640
+D3
+~
+~
+0 0 5642
+S
+#5642
+Templeton Road~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5641
+D3
+~
+~
+0 0 5643
+S
+#5643
+Templeton Square~
+ You have entered Templeton Square.  Leading east and west is Templeton road, 
+while up there leads a spiral staircase to an average size temple.
+~
+56 a 1
+D1
+~
+~
+0 0 5642
+D2
+~
+~
+0 0 5657
+D3
+~
+~
+0 0 5644
+S
+#5644
+Templeton Road~
+ While walking further down Templteton road, nothing seems to have changed.
+Carnage is everywhere, bodies lay tattered and thrown all over the place like
+decorations.
+~
+56 a 1
+D1
+~
+~
+0 0 5643
+D3
+~
+~
+0 0 5645
+S
+#5645
+Templeton Road~
+This description is yet unfinished...
+~
+56 ar 1
+D1
+~
+~
+0 0 5644
+D3
+~
+~
+0 0 5646
+S
+#5646
+Templeton Road~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5645
+D3
+~
+~
+0 0 5647
+S
+#5647
+Templeton Road~
+This description is yet unfinished...
+~
+56 ar 1
+D1
+~
+~
+0 0 5646
+D3
+~
+~
+0 0 5649
+S
+#5648
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5651
+D3
+~
+~
+0 0 5630
+S
+#5649
+Templeton Road-northwest corner~
+This description is yet unfinished...
+~
+56 ar 1
+D1
+~
+~
+0 0 5647
+D2
+~
+~
+0 0 5650
+S
+#5650
+Dimly lit, peaceful alley~
+This description is yet unfinished...
+~
+56 cr 1
+D0
+~
+~
+0 0 5649
+D2
+~
+~
+0 0 5630
+S
+#5651
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5652
+D3
+~
+~
+0 0 5648
+S
+#5652
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5653
+D3
+~
+~
+0 0 5651
+S
+#5653
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 ar 1
+D1
+~
+~
+0 0 5658
+D3
+~
+~
+0 0 5652
+S
+#5654
+Central Square ~
+This description is yet unfinished...
+~
+56 ar 1
+D1
+~
+~
+0 0 5655
+D3
+~
+~
+0 0 5653
+S
+#5655
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5656
+D3
+~
+~
+0 0 5654
+S
+#5656
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5657
+D3
+~
+~
+0 0 5655
+S
+#5657
+Elijah Avenue~
+  You make your way down the street that now appears to be some kind of 
+battlefield. Bodies lie all around, torn limb from limb.
+~
+56 a 1
+D0
+~
+~
+0 0 5643
+D2
+~
+~
+0 0 5658
+E
+crack~
+You think that you see movement in between a crack, at the base
+of the pillar...
+~
+S
+#5658
+Central Square~
+   You are standing in the once great square that people from all over would
+come to brouse the shops, and drink in the bars...
+~
+56 ar 1
+D0
+~
+~
+0 0 5657
+D1
+~
+~
+0 0 5659
+D2
+~
+~
+0 0 5622
+D3
+~
+~
+0 0 5653
+S
+#5659
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5660
+D3
+~
+~
+0 0 5658
+S
+#5660
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5661
+D3
+~
+~
+0 0 5659
+S
+#5661
+Euc'lid Avenue~
+  All you can see as you slowly walk down Euc'lid ave. are fragments of
+bone littering the street, and dried blood strewn all over everything you see.
+You think you might see a beam of light coming from a pile of toppled pillars
+to your south.  Maybe human life...maybe Chree'zen...
+~
+56 a 1
+D1
+~
+~
+0 0 5662
+D2
+~
+collumns collumn pillar secret~
+1 0 5665
+D3
+~
+~
+0 0 5660
+S
+#5662
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 a 1
+D1
+~
+~
+0 0 5636
+D3
+~
+~
+0 0 5661
+S
+#5663
+Euc'lid Avenue~
+This description is yet unfinished...
+~
+56 ar 1
+S
+#5664
+Naz'ol's hidden Armory~
+  Hiding behind a stack of crates, an old, severly beaten and gashed man
+offers you his goods to buy.  One catch...you have to rid his town of the
+evil Chree'zen so his people can return from the shadows and reclaim their 
+town.
+~
+56 adgr 0
+D2
+~
+crates~
+1 0 5623
+E
+crates crate secret~
+  You peer behind a giant stack of half-burnt crates and notice a man 
+standing in front of a massive chest.  The chest is presently open, and you
+can see many types of armor inside...
+~
+S
+#5665
+Naz'ol's hidden general store~
+  As you crawl under the fallen collumns that are the door to this shop, you
+notice a petite young woman hiding behind a pillar.  As you walk closer to her, she realizes that you aren't Chree'zen and she shows you her goods...
+~
+56 cd 1
+D0
+~
+collumns collumn pillar secret~
+1 0 5661
+D2
+~
+collumns secret pillar~
+1 0 5623
+S
+#5666
+Room #5666~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5667
+Room #5667~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5668
+Room #5668~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5669
+Room #5669~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5670
+Room #5670~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5671
+Room #5671~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5672
+Room #5672~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5673
+Room #5673~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5674
+The backroom~
+You are standing in a room that is black as night. You can't see much
+except for darkness. You are alone. You are cold. You are Dead!
+~
+56 abfjkl 1
+D0
+a small hole
+~
+hole~
+1 0 5675
+S
+#5675
+Realm of Morrolan~
+You are standing in a huge room, sparcely decorated with furniture made of
+the blackest of agate material. There is a large table in the center of the
+room. On it lies a globe of the world of The Dominion. It has all sides of
+the world in vivid detail. Showing castles, towns, and forests perfectly.  
+The western wall seems different than the others in that it is opaque in
+color, and gives off an almost unatural light. There is an inscription
+on the wall.
+~
+56 adjlr 0
+D2
+You see a small hole.
+~
+hole~
+1 0 5674
+D5
+the Grate looks heavy.
+~
+Grate~
+1 0 5676
+E
+inscription~
+The inscription notes:
+ 
+     You are in the Realm of Morrolan. How you got here, I do not know.
+If caught here, it is punishable by instant death. Do not proceed anywhere
+from here. Contact a higher power and ask for imediate removal, or face
+the possibility of death, without compensation.
+
+       'Have a nice day' ;)
+ 
+                              Morrolan
+~
+S
+#5676
+The store room of Morrolan~
+Clutered around the floor are artifacts and items from all reaches of the
+Dominion. You think you can grab them, but fail miserably.
+~
+56 abfjlm 1
+D0
+A light is seen to the north.
+~
+light~
+1 6602 3001
+S
+#5677
+Room #5677~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5678
+Room #5678~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5679
+Room #5679~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5680
+Room #5680~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5681
+Room #5681~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5682
+Room #5682~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5683
+Room #5683~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5684
+Room #5684~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5685
+Room #5685~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5686
+Room #5686~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5687
+Room #5687~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5688
+Room #5688~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5689
+Room #5689~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5690
+Room #5690~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5691
+Room #5691~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5692
+Room #5692~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5693
+Room #5693~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5694
+Room #5694~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5695
+Room #5695~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5696
+Room #5696~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5697
+Room #5697~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5698
+Room #5698~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5699
+Eastern Courtyard of Elrhinn~
+   The center of the courtyard lies in stretches of brick and cobblestones
+to the west, and to the east you see a low building stand with the words,
+'City Hall of Elrhinn' in silver engraving.  Far off to the west, you see
+the busy marketplace.
+~
+56 0 1
+D0
+~
+~
+0 0 3028
+D1
+~
+~
+0 0 3041
+D2
+~
+~
+0 0 3055
+D3
+~
+~
+0 0 3039
+S
+#5700
+unfinished~
+this room is currently unfinished
+~
+56 0 1
+E
+0~
+
+~
+S
+#5701
+The onyx path~
+You are standing on what seems to by an onyx pathway. The ground all around
+you is made up of pure onyx material. It is cold and hard to the touch, and
+seems to reflect light into emptiness.
+~
+56 h 5
+D0
+~
+~
+0 0 5702
+S
+#5702
+The onyx path~
+You are standing on what seems to by an onyx pathway. The ground all around
+you is made up of pure onyx material. It is cold and hard to the touch, and
+seems to reflect light into emptiness.
+~
+56 h 5
+D0
+~
+~
+0 0 5703
+D2
+~
+~
+0 0 5701
+S
+#5703
+The onyx path~
+You are standing on what seems to by an onyx pathway. The ground all around
+you is made up of pure onyx material. It is cold and hard to the touch, and
+seems to reflect light into emptiness.
+~
+56 h 5
+D0
+~
+~
+0 0 5704
+D2
+~
+~
+0 0 5702
+S
+#5704
+Before Castle Black~
+You are standing before a great castle of pure onyx. Its walls extend high 
+into the sky, beyond your sight. The door is composed as the same material
+as the walls, and has a giant skull on it. 
+~
+56 h 1
+D0
+Before you stands a door made purely of onyx. In the center of this great
+door, is platinum skull. It's eyes are eminating with a light that is unseen.
+~
+great door~
+1 5704 5705
+D2
+~
+~
+0 0 5703
+S
+#5705
+Inside the great door~
+You have entered a large corridor that is lit on all sides by large candles
+that give off an unearthly glow. The entrance way is unfurnished save for
+a long black hardwood bench on the west wall. There are exits to the east,
+west, north, and the way you came in.
+~
+56 h 1
+D0
+~
+~
+0 0 5706
+D1
+~
+~
+0 0 5707
+D2
+This door is made out of pure onyx. It looks inpenitrable.
+~
+great door~
+1 5704 5704
+D3
+~
+~
+0 0 5708
+S
+#5706
+The castles entranceway~
+You have entered into the beginning of the castle. It seems that this huge
+castle may have many trials and tribulations for you to overcome. You may
+wane to turn back while you still can.
+~
+56 0 1
+D2
+~
+~
+0 0 5705
+S
+#5707
+The tower entrance~
+As you enter this rather large room. You notice a window on the south wall.
+You also see an iron set of stairs leading both upward, and downward. The
+stairs appear to be magically suspended in the center of the room. 
+~
+56 h 1
+D3
+~
+~
+0 0 5705
+D4
+~
+~
+0 0 5712
+D5
+~
+~
+0 0 5717
+S
+#5708
+The western tower entrance~
+As you enter this ordinary room. You notice a very large set of stairs 
+leading upward. There is a plaque affixed to the third stair.
+~
+56 h 1
+D1
+~
+~
+0 0 5705
+D4
+~
+~
+0 0 5709
+E
+plaque~
+The plaque reads:
+                    "Thou hast entered the Domain of Castle Black.
+Leave now, or face the owner of this magnificent castle."
+~
+S
+#5709
+The stairway~
+You are accending stairs that are very large and VERY black. These stairs
+seem to made for something very, very big. The walls are sparcly lit by
+candles that affixed to the walls.
+~
+56 hi 1
+D4
+~
+~
+0 0 5710
+D5
+~
+~
+0 0 5708
+S
+#5710
+The stairway~
+You are accending stairs that are very large and VERY black. These stairs
+seem to made for something very, very big. The walls are sparcly lit by
+candles that affixed to the walls.
+~
+56 hi 1
+D4
+~
+~
+0 0 5711
+D5
+~
+~
+0 0 5709
+S
+#5711
+The tower~
+You are standing atop a the western tower of this magnificent castle.
+As you look out from the tower, you can see the surrounding mountains.
+There is a light fog hovering above the ground, and the breeze is chilling
+to your bones.
+~
+56 h 1
+D5
+~
+~
+0 0 5710
+S
+#5712
+Room #5712~
+All you see are huge black stairs.
+~
+56 hi 1
+D4
+~
+~
+0 0 5713
+D5
+~
+~
+0 0 5707
+S
+#5713
+Room #5713~
+All you see are huge black stairs.
+~
+56 hi 1
+D4
+~
+~
+0 0 5714
+D5
+~
+~
+0 0 5712
+S
+#5714
+Room #5714~
+All you see are huge black stairs.
+~
+56 hi 1
+D4
+~
+~
+0 0 5715
+D5
+~
+~
+0 0 5713
+S
+#5715
+Room #5715~
+All you see are huge black stairs.
+~
+56 hi 1
+D4
+~
+~
+0 0 5716
+D5
+~
+~
+0 0 5714
+S
+#5716
+Room #5716~
+You are atop a great black tower. You look over the edge and see nothing 
+buy infinite darkness. You realize you above the realm of light, and you
+notice that is is much harder to breath up here. You think it may be a 
+good idea to leave.
+~
+56 aef 1
+D5
+~
+~
+0 0 5715
+S
+#5717
+The tar pit~
+You have entered a room that is covered with tar. You try to make your way
+out of it, but it seems to pull you down. You have died.
+~
+56 b 1
+D4
+~
+~
+0 0 5707
+S
+#5718
+Room #5718~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5719
+Room #5719~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5720
+Room #5720~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5721
+Room #5721~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5722
+Room #5722~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5723
+Room #5723~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5724
+Room #5724~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5725
+Room #5725~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5726
+Room #5726~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5727
+Room #5727~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5728
+Room #5728~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5729
+Room #5729~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5730
+Room #5730~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5731
+Room #5731~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5732
+Room #5732~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5733
+Room #5733~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5734
+Room #5734~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5735
+Room #5735~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5736
+Room #5736~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5737
+Room #5737~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5738
+Room #5738~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5739
+Room #5739~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5740
+Room #5740~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5741
+Room #5741~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5742
+Room #5742~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5743
+Room #5743~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5744
+Room #5744~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5745
+Room #5745~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5746
+Room #5746~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5747
+Room #5747~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5748
+Room #5748~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5749
+Room #5749~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5750
+Room #5750~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5751
+Room #5751~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5752
+Room #5752~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5753
+Room #5753~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5754
+Room #5754~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5755
+Room #5755~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5756
+Room #5756~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5757
+Room #5757~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5758
+Room #5758~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5759
+Room #5759~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5760
+Room #5760~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5761
+Room #5761~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5762
+Room #5762~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5763
+Room #5763~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5764
+Room #5764~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5765
+Room #5765~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5766
+Room #5766~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5767
+Room #5767~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5768
+Room #5768~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5769
+Room #5769~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5770
+Room #5770~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5771
+Room #5771~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5772
+Room #5772~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5773
+Room #5773~
+This description is yet unfinished...
+~
+56 0 1
+S
+#5774
+Lancius' basement~
+This description is yet unfinished...
+~
+56 jl 1
+D4
+~
+door~
+1 0 5077
+S
+$~

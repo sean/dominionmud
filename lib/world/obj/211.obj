@@ -1,0 +1,838 @@
+#21100
+sticky spider web~
+the sticky spider web~
+There are sticky spider webs all over the roof,  with drained corpses inside.~
+~
+15 0 0
+500 5 -1 0 0 0 0 0 14
+50 0 0
+E
+web sticky spider~
+The corpses look like those of troglodtyes, tunnel rats, and adventurers like
+yourselves. You might be able to pull a couple of them out.
+~
+#21101
+troglodyte corpse~
+the drained troglodyte corpse~
+There is a corpse of a troglodyte here.~
+~
+15 0 a
+150 0 -1 0 0 0 0 0 14
+80 0 0
+E
+troglodyte corpse~
+It has been completely drain of blood, and still has its equipment.
+~
+#21102
+elf corpse~
+the corpse of an elven adventurer~
+An elven adventurer's corpse, covered with bite marks, is here.~
+~
+15 0 a
+200 0 -1 0 0 0 0 0 14
+100 0 0
+E
+elf corpse~
+It has been slightly drained of blood. Apparently the cave spiders didn't like
+the taste of elven blood very much. It is fully equipped.
+~
+#21103
+black metal plate breast~
+a black metal breast plate~
+A black metal breast plate is lying on the ground.~
+~
+9 iko ad
+7 0 0 0 0 0 0 0 14
+25 750 0
+E
+black plate metal breast~
+This breast plate is made of a hard black metal of unknown origins. It has an
+insignia emblazoned on the front you do not recognize - it is a white unicorn
+rearing over an eclipsed sun.
+~
+A
+19 1
+#21104
+black gauntlets metal~
+a pair of black metal gauntlets~
+A pair of black metal gauntlets is lying in a small heap here.~
+~
+9 iko ah
+5 0 0 0 0 0 0 0 14
+3 600 0
+E
+black gauntlets metal~
+There is have a small relief of a white unicorn over an eclipsed sun on the
+back of each glove. They are light and extremely strong.
+~
+A
+18 1
+#21105
+black helm metal~
+a black metal helm~
+A black metal helm has been discarded here.~
+~
+9 iko ae
+5 0 0 0 0 0 0 0 14
+7 600 0
+E
+black helm metal~
+Across the crest of the helmet there is a relief of a white unicorn rearing
+over an eclipsed sun. The helmet is made of an unknown metal, possibly some
+kind of adamantite compound, and is both light and extremely strong.
+~
+#21106
+black leg plates metal~
+a pair of black metal leg plates~
+A pair of black metal leg plates wait here for a new owner.~
+~
+9 iko af
+7 0 0 0 0 0 0 0 14
+6 600 0
+E
+black leg plates metal~
+Each of them has an engraving in the center. It is of a white unicorn rearing
+over a solar eclipse. The plates are made of a strong, unknown black metal.
+~
+A
+1 1
+#21107
+black metal arm plates~
+a pair of black metal arm plates~
+A pair of black metal arm plates is lying here.~
+~
+9 iko ai
+7 0 0 0 0 0 0 0 14
+7 600 0
+E
+black metal arm plates~
+Each of them has an engraving in the center. It is of a white unicorn rearing
+over a solar eclipse. The plates are made of a strong, unknown black metal.
+~
+#21108
+black metal boots~
+a pair of black metal boots~
+A pair of black metal boots lie on the ground here.~
+~
+9 iko ag
+5 0 0 0 0 0 0 0 14
+8 600 0
+E
+black metal boots~
+The boots are made from a strange black metal. They have a white unicorn
+rearing over an eclisped sun emblazoned on the side, and look very sturdy.
+~
+A
+14 50
+#21109
+mahogany bow~
+a strong mahogany bow~
+A solid bow made of mahogany lies here.~
+~
+6 0 an
+0 1 6 2 0 0 0 18 14
+11 60 0
+A
+18 1
+#21110
+apron~
+the cook's apron~
+A checkered cook's apron is here~
+~
+11 0 adk
+2 0 0 0 0 0 0 0 14
+3 35 0
+E
+apron~
+It is an apron. It has grease stains on it, and smells bad.
+~
+A
+1 1
+#21111
+pot black iron~
+a huge black iron pot~
+A pot big enough to feed an army is here.~
+~
+15 0 0
+4000 0 -1 0 0 0 0 0 14
+700 0 0
+E
+black iron pot~
+It is hot, and covered with scratches. It must be two inches thick!
+~
+#21112
+brown liquid~
+some murky brown liquid~
+Some murky brown liquid~
+~
+12 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#21113
+paladin shield antique~
+an Antique Golden Shield~
+An antique golden shield shield rests here, bearing the insignia of the guild 
+of paladins.~
+~
+9 aikl aj
+12 0 0 0 0 0 0 0 14
+5 900 0
+E
+antique paladin shield~
+It looks much like the modern paladin's shield - it is fashioned from solid
+gold and bears the insignia of the paladins, but unlike the modern day shield
+which anyone can use, it may only be used by those with a pure spirit - the
+way all paladins once were.
+~
+A
+25 1
+#21114
+rod long iron key rhyodin~
+a long iron rod~
+There is a long iron rod resting on the ground here.~
+~
+18 mns a
+0 0 0 0 0 0 0 0 14
+10 10 0
+E
+rod long iron~
+It looks like it could be used to force things, as it tapers at both ends,
+each of which is slightly curved.
+~
+#21115
+skull cave fisher~
+a beaten up cave fisher skull~
+The beaten up skull of a cave fisher hangs from a peg on the wall here.~
+~
+12 js ao
+0 0 0 0 0 0 0 0 14
+15 0 0
+E
+skull cave fisher~
+It looks pretty beat up, and has a hole over one eye. It is quite large and
+since it is made of bone, is therefore somewhat heavy.
+~
+A
+5 1
+A
+19 1
+#21116
+ball sphere crystal~
+a small crystal sphere~
+There is a small crystal sphere here, glowing brightly.~
+~
+1 agls ao
+0 0 -1 0 0 0 0 0 14
+2 0 0
+E
+ball sphere crystal~
+You can see yourself reflected in it. Your reflected image is crystal clear.
+~
+A
+17 -5
+A
+3 1
+#21117
+circlet plated chrome hoop metal~
+a chrome plated circlet~
+A chrome plated hoop of metal glints from a spot on the floor.~
+~
+9 fgi ae
+4 0 0 0 0 0 0 0 14
+2 365 0
+E
+circlet plated chrome~
+It has a clasp made of steel, and some strange runes engraved on the inside.
+~
+E
+runes~
+It says "Given to C*znark the Wise, on Year 4, from your friend Azarath."
+Apparently it was given as a gift, over forty years ago.
+~
+A
+20 -5
+A
+13 2
+#21118
+bones broken pile~
+a pile of broken bones~
+A collection of broken bones from past meals lies here.~
+~
+12 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+E
+equipment~
+Upon closer examination, the clenched fist of what remains of an elven
+adventurer still has a ring on it, barely visible.
+~
+E
+bones broken pile~
+Wow, there are human bones, elven bones, dwarven bones, and bones from other
+races you don't readily recognize. Some of them have scraps of equipment on
+them still, but nothing looks worth taking.
+~
+#21119
+fist hand~
+a clenched skeletal fist~
+A clenched skeletal fist.~
+~
+15 0 0
+3 5 -1 0 0 0 0 0 14
+0 0 0
+E
+fist hand~
+It is clenched very tightly about the ring. The skeletal digits have been
+rigidly fixed by the passage of time.
+~
+#21120
+ring sapphire gold~
+a ring with a sapphire set in gold~
+A dazzling sapphire shines from the golden ring in which it is set.~
+~
+9 gi ab
+5 0 0 0 0 0 0 0 14
+1 980 0
+E
+ring sapphire gold~
+It is finely crafted, and obviously very valuable. It looks like it is
+probably very old.
+~
+A
+25 2
+#21121
+chalice silver~
+a silver chalice~
+A fine chalice of silver sits here in the ground.~
+~
+17 gi a
+21 21 2 0 0 0 0 0 14
+26 300 0
+E
+engraving~
+To Evistar, may you drink always in safety and good health. -HC
+~
+E
+chalice silver~
+It is of fine craftsmanship. There is a small engraving in the base.
+~
+#21122
+necklace wisdom key rhyodin~
+the Necklace of Wisdom~
+The Necklace of Wisdom lies on the ground, radiating goodness.~
+~
+18 aghiklqs ac
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+necklace wisdom~
+It is made of an unknown substance, and is smooth to the touch and glassy
+in appearance, and yet at the same time is as hard as steel. It is translucent,
+allowing you to peer into its depths, without comprehending the mysteries that
+are hidden there. It writhes in your hand like a live thing, sending shivers
+down your spine.
+~
+A
+4 3
+A
+12 50
+#21123
+crate wooden~
+a wooden crate~
+A wooden crate is stacked against the wall.~
+~
+15 0 a
+200 5 -1 0 0 0 0 0 14
+20 0 0
+E
+crate wooden~
+It is a sturdy-looking wooden crate.
+~
+#21124
+dust mold~
+some yellow dust~
+There is some yellow dust here; probably the remains of what was once food.~
+~
+12 0 a
+0 0 0 0 0 0 0 0 14
+40 0 0
+E
+dust mold~
+It looks like it once was probably some kind of foodstuff, but it really
+doesn't look very appetizing anymore.
+~
+#21125
+whiskey~
+a bottle of fine aged whiskey~
+There is a bottle of fine aged whiskey just waiting to be imbibed here.~
+~
+17 0 a
+10 10 5 0 0 0 0 0 14
+15 15 0
+E
+whiskey~
+Wow! You really lucked out this time. This is an expensive draught, but well
+worth the asking price. You smack your lips in anticipation.
+~
+#21126
+iron rations~
+some very dry, very old iron rations~
+There are some desiccated iron rations sitting here.~
+~
+19 0 a
+10 0 0 1 0 0 0 0 14
+2 10 0
+E
+iron rations~
+They don't really look that appetizing. At least they don't stink.
+~
+#21127
+barrel~
+the barrel~
+A barrel has been left here.~
+~
+17 0 a
+50 50 0 0 0 0 0 0 14
+65 20 0
+E
+barrel~
+A strong wooden barrel bound with iron hoops. It looks old, but seems to be
+sturdy nonetheless.
+~
+#21128
+barrel~
+the barrel~
+A barrel has been left here.~
+~
+17 0 a
+50 50 2 0 0 0 0 0 14
+65 20 0
+E
+barrel~
+A strong wooden barrel bound with iron hoops. It looks old, but seems to be
+sturdy nonetheless.
+~
+#21129
+crate wooden~
+a wooden crate~
+A wooden crate is overturned on the floor here.~
+~
+15 0 a
+200 0 -1 0 0 0 0 0 14
+20 0 0
+E
+crate wooden~
+It is a sturdy-looking wooden crate, now ripped open.
+~
+#21130
+soap bar~
+a bar of soap~
+A small bar of soap sits here.~
+~
+12 s ao
+3 0 0 0 0 0 0 0 14
+1 0 0
+E
+bar soap~
+It has a has a fresh scent. You look like you could use a bath, so go ahead
+and have a scrub!
+~
+#21131
+desk~
+the desk~
+~
+~
+15 0 0
+50 13 21132 0 0 0 0 0 14
+0 0 0
+E
+desk~
+It is rather small and austere. It looks like it was made for efficiency,
+more than anything else. It has a single drawer, which has a big heavy lock
+on it. It is firmly bolted to the floor.
+~
+#21132
+key grey metal rhyodin~
+the grey metal key~
+You notice a key made of a dull grey metal on the ground.~
+~
+18 mns a
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+key grey metal~
+It is unremarkable.
+~
+#21133
+cabinet filing~
+a filing cabinet~
+~
+~
+15 0 0
+261 13 21134 0 0 0 0 0 14
+0 0 0
+E
+cabinet filing~
+It is made of steel, and looks pretty heavy. The lock on it looks quite
+servicable, despite its apparent age. It is firmly bolted to the floor.
+~
+#21134
+key large steel rhyodin~
+a large steel key~
+A large steel key rests here.~
+~
+18 mns a
+0 0 0 0 0 0 0 0 14
+1 0 0
+#21135
+drawer~
+drawer~
+The drawer from a filing cabinet has been left here.~
+~
+15 0 a
+65 0 0 0 0 0 0 0 14
+40 0 0
+E
+drawer~
+It is made of steel, and is kind of heavy and bulky. It looks like it was
+taken out of a filing cabinet or something.
+~
+#21136
+skeleton troglodyte~
+the troglodyte skeleton~
+A troglodyte skeleton.~
+~
+15 0 0
+60 0 0 0 0 0 0 0 14
+10 0 0
+E
+skeleton troglodyte~
+The bones are brittle with age. There is some beat up looking armor clinging
+to it, no longer useful in its protective function.
+~
+#21137
+potion grey~
+a grey potion~
+A potion with a dull grey color sits here.~
+~
+10 g ao
+15 51 49 49 0 0 0 0 14
+1 50 0
+#21138
+cart small~
+the small wooden cart~
+A small wooden cart lies overturned here.~
+~
+15 0 0
+1000 0 0 0 0 0 0 0 14
+0 0 0
+E
+cart small~
+The cart has only one wheel remaining on it's single axle. Apparently it was
+horse drawn, but there are no signs of the steeds that pulled it.
+~
+#21139
+sword broken greatsword~
+a broken greatsword~
+One half of a broken greatsword lies here on the floor.~
+~
+5 s an
+0 1 3 3 0 0 0 0 14
+3 0 0
+#21140
+bones broken pile~
+a pile of broken bones~
+A collection of broken bones from past meals lies here.~
+~
+15 0 0
+50 0 0 0 0 0 0 0 14
+0 0 0
+E
+bones broken pile~
+This pile of bones must be several inches deep. They look like fish, mostly,
+but you recognize some trogloyte bones in there as well, and something else
+humanoid, maybe.
+~
+#21141
+helmet dull grey~
+a dull grey helmet~
+A dull grey helmet rests here, surveying the room.~
+~
+9 gh ae
+-10 0 0 0 0 0 0 0 14
+8 450 0
+E
+dull grey metal~
+It is a T-cross model, with a drooping grey plume. It looks very old, but
+still quite servicable. There are some semi-precious stones set in the crest,
+making it worth something as treasure, at the least.
+~
+E
+stones~
+A couple garnets, and a few amythests.
+~
+#21142
+case trophy~
+the trophy case~
+A large trophy case sits against a wall.~
+~
+15 0 0
+250 13 21143 0 0 0 0 0 14
+0 0 0
+E
+case trophy~
+It has a very hard clear material through which you can see the contents.
+Efforts to break through it are unfruitful. You wonder where the troglodytes
+could have discovered such an item. There is a small hole on the left edge of
+the case; ostensibly it is the locking mechanism.
+~
+#21143
+key bone rhyodin~
+a small bone~
+A very small bone rests here, almost unnoticably.~
+~
+18 fmns ao
+1 0 0 0 0 0 0 0 14
+1 0 0
+E
+finger bone~
+It looks like a finger bone of an unknown creature of some sort.
+~
+#21144
+sword ghost~
+the Ghost Sword~
+A ghostly glowing sword floats just above the floor here.~
+~
+5 ags an
+0 3 7 3 0 0 0 0 14
+3 0 0
+E
+sword ghost~
+It is cool to the touch, and very light. You feel odd holding it, though.
+Clearly it was not crafted for mortal hands to wield.
+~
+A
+1 3
+A
+13 10
+#21145
+greatsword sword~
+the Greatsword~
+There is a Greatsword leaning agaist the wall here. It is as tall as an 
+average human.~
+~
+5 gs an
+0 3 8 3 0 0 0 0 14
+29 0 0
+E
+runes~
+  -=\     __/
+     \_/\/  \
+       \/\__/
+       || \/
+~
+E
+greatsword sword~
+This is the largest sword you've ever seen. It dwarfs all other two-handed
+swords. There are some silver runes on the black adamantite blade.
+~
+A
+17 20
+A
+14 -10
+#21146
+bookcase bookshelf~
+a wall-sized bookcase~
+A bookcase covers the entire wall.~
+~
+15 0 0
+6000 1 -1 0 0 0 0 0 14
+0 0 0
+E
+bookcase bookshelf~
+It covers the entire wall.
+~
+#21147
+locker~
+a metal locker~
+A metal locker stands here, dented from repeated attempts to break in.~
+~
+15 0 0
+400 13 21114 0 0 0 0 0 14
+50 0 0
+E
+locker~
+It looks pretty beat up, but remains intact and unopened.
+~
+#21148
+cabinet floor~
+a floor cabinet~
+There is a cabinet resting against the wall, locked up tight.~
+~
+15 0 0
+400 13 21114 0 0 0 0 0 14
+0 0 0
+#21149
+bar~
+a massive wooden bar~
+A huge wooden bar stands at the western end of the room. Behind it are dusty
+glasses and empty bottles that haven't been touched in centuries.~
+~
+15 0 0
+4000 0 0 0 0 0 0 0 14
+0 0 0
+E
+shelves~
+They are also made of wood, and firmly attached to the wall.
+~
+E
+bottles~
+They are empty.
+~
+E
+bar~
+A massive piece of furniture. It's made out of wood, and takes up the entire
+western edge of the room, where it comes three feet of the ground and stands
+bolted to the floor a few feet from the west wall. There are a few shelves on
+a counter inset into the wall as well, with glasses and empty bottles on them.
+~
+#21151
+key twisted rhyodin~
+a twisted key~
+A key lies on the ground here, twisted and scorched almost beyond recognition.~
+~
+18 mns a
+0 0 0 0 0 0 0 0 14
+2 0 0
+E
+key twisted~
+It positively pulses with evil. It looks like it was thrown in a blast
+furnace, and is partially melted on one side. It is completely black, but
+you can't tell if that's from the process that burned it, or whether it was
+originally that color.
+~
+#21152
+oven~
+a gigantic oven~
+A oven of truly impressive size abutts the south wall.~
+~
+15 0 0
+400 5 -1 0 0 0 0 0 14
+0 0 0
+E
+oven~
+It is warm, as if it was used recently. It is crusty and rusty and made of
+iron and very large and bulky. You venture it probably was up to the task of
+feeding the residents of this outpost.
+~
+#21153
+stove~
+the stove~
+A gritty black stove takes up the center of the kitchen.~
+~
+15 0 0
+400 5 -1 0 0 0 0 0 14
+0 0 0
+E
+stove~
+It looks like it was used recently, unlike anything else in this outpost.
+~
+#21154
+key steel heavy rhyodin~
+the heavy steel key~
+A steel key weighs heavily on the ground.~
+~
+18 mns a
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+key steel heavy~
+This thing could practically be used as a cudgel!
+~
+#21155
+key metal grey rhyodin~
+a grey metal key~
+There is a grey metal key lying on the ground.~
+~
+18 mns a
+0 0 0 0 0 0 0 0 14
+2 0 0
+E
+key metal grey~
+You see something REALLY special. Not.
+~
+#21157
+door shield~
+a reinforced oaken door~
+A reinforced oaken door lies on the ground here, torn from its hinges.~
+~
+9 s aj
+10 0 0 0 0 0 0 0 14
+100 0 0
+E
+door shield~
+It has a couple of strong leather straps on the back. If you could carry it,
+it would be an incredible shield.
+~
+#21158
+desk~
+a battered desk~
+A battered desk is turned over on the ground here.~
+~
+15 0 0
+400 5 -1 0 0 0 0 0 14
+0 0 0
+E
+desk~
+It looks like it has been attacked with an axe.
+~
+#21159
+rack~
+a weapons rack~
+A rack is on the wall here, with hooks for weapons to hang on.~
+~
+15 0 0
+500 0 0 0 0 0 0 0 14
+0 0 0
+E
+rack~
+It is securely fastened to the wall. There are about twenty hooks for weapons,
+but only a few of them are still occupied.
+~
+#21160
+stand~
+a metal stand~
+A metal stand for armor is in the center of the room.~
+~
+15 0 0
+400 0 0 0 0 0 0 0 14
+0 0 0
+#21161
+tights green~
+a pair of green tights~
+There is a pair of green tights sitting in a little heap here.~
+~
+9 0 af
+1 0 0 0 0 0 0 0 14
+1 10 0
+E
+tights green~
+They have some initials embroidered on the inseam that read RH.
+~
+#21162
+cabinet glass~
+the glass cabinet~
+A glass cabinet stands open on the south end of the room.~
+~
+15 0 0
+400 5 -1 0 0 0 0 0 14
+0 0 0
+#21163
+desk~
+the desk~
+~
+~
+15 0 0
+100 5 -1 0 0 0 0 0 14
+0 0 0
+$~

@@ -1,0 +1,410 @@
+#36000
+Guardian ~
+the Guardian of Castle Black~
+The Guardian stands here
+~
+Before you stands a guardian of amazing power. His skin is made up of the
+same materials as the castle walls. His only purpose is to protect this 
+castle, and protect he will.
+~
+abdfglmqs dfkr 0 E
+30 30 34 50d100+60 5d5+45
+15000 404687
+8 8 1
+Str: 17
+Dex: 16
+Int: 16
+Wis: 16
+Con: 19
+Cha: 17
+Race: 23
+Height: 77
+Weight: 208
+E
+#36001
+butler~
+the mad butler~
+A butler is here, tending to the souls of all who have come before.
+~
+     This butler is garbed a nice three piece suit. He is very tall, and
+lanky, and does not look to be a fighter. He asks you how you wish to die.
+~
+abdgh 0 -1000 E
+15 1 73 7d30+30 3d5+1
+0 35156
+8 8 1
+Str: 8
+Dex: 8
+Int: 10
+Wis: 10
+Con: 9
+Cha: 8
+Race: 0
+E
+#36002
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 99 1d1+1 1d1+1
+0 0
+8 8 0
+#36003
+golden knight statue~
+a golden statue of a knight~
+A golden statue of a knight is here, watching you closely.
+~
+     Before you is a statue made of pure gold. It takes the shape of a
+knight, and looks like it may very well be alive...
+~
+bdlq df 0 S
+35 73 109 60d500+70 3d7+66
+20000 934375
+8 8 1
+#36004
+closet monster~
+the closet monster~
+The closet monster is here, awaiting you!
+~
+     What do you expect the closet monster to look like?
+~
+bdefgmq bdfh -1000 S
+20 30 55 50d800+40 5d6+50
+20000 93750
+8 8 0
+#36005
+crying lady~
+the crying lady~
+The crying lady is here, sobbing softly to herself.
+~
+     You see before you a lady of extreme beauty. She is bent over, sobbing
+softly to herself. As she looks up at you, it seems she does not like that
+you are here. Perhaps it would be best for you to leave her be..?
+~
+bdgijq at 333 E
+28 50 96 100d56+56 3d6+50
+10 281250
+8 8 2
+BareHandAttack: 2
+Str: 18
+Dex: 18
+Int: 15
+Wis: 18
+Con: 17
+Cha: 18
+Race: 0
+Height: 70
+Weight: 150
+E
+#36006
+maid~
+the maid~
+The maid is sleeping here, snoring softly.
+~
+     Before you lies a maid that seems to be off in a land far from here.
+It is covered in a drab cloth, and looks to be tired from a long days work.
+~
+bdl mn 0 E
+10 23 99 10d20+20 2d8+80
+1000 2812
+4 4 0
+Race: 26
+Height: 60
+Weight: 130
+E
+#36007
+humanoid snake keeper~
+the bright-eyed humanoid~
+A old, hunched humanoid stands here, eyes shining brightly.
+~
+It looks, err, unfinished.
+~
+d av -1000 S
+30 40 59 1d1+0 1d1+30
+0 0
+8 8 1
+#36008
+watcher~
+the gate watcher~
+The watcher of the gate is here.
+~
+ He is a VERY large individual. He stands much higher than most, and
+looks to contain a power above most as well. He is the watcher of these
+strange gates, and is indeed powerful enough to do what he is told.  
+~
+abdegs dfkr 0 E
+40 83 70 100d80+80 10d10+88
+25000 1968750
+8 8 1
+BareHandAttack: 15
+Str: 24
+Dex: 21
+Int: 24
+Wis: 24
+Con: 24
+Cha: 24
+Race: 15
+E
+#36009
+womprat~
+a womprat~
+A womprat is here, scavenging for food.
+~
+     This rat is much larger than any rodentia you have seen before.
+He is covered with a thick shell, and is dark brown in color.
+~
+acdh r 0 E
+15 33 64 15d15+30 3d3+45
+1 35156
+8 8 0
+Str: 10
+Int: 9
+Wis: 8
+Cha: 9
+Race: 22
+Height: 20
+Weight: 25
+E
+#36010
+guard~
+the castle guard~
+The castle guard is here, awaiting you.
+~
+   The guard is staring back at you with eyes of pure fire. He is garbed
+in an onyx armor that looks to be quite tough.
+~
+bdfl df 0 E
+30 30 42 100d20+60 3d6+50
+250 404687
+8 8 0
+Str: 18
+Dex: 17
+Int: 16
+Wis: 18
+Con: 19
+Cha: 17
+Height: 80
+Weight: 220
+E
+#36011
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 15 1d1+1 1d1+1
+0 0
+8 8 0
+#36012
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 3 1d1+1 1d1+1
+0 0
+8 8 0
+#36013
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36014
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36015
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36016
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36017
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36018
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36019
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36020
+ice monster~
+the ice monster~
+A large ice creature is here, devouring a corpse.
+~
+     Before you is a huge creature, made purily of the coldest substances.
+He is VERY large, and could easily rip you apart.
+~
+abdfg 0 0 E
+33 69 12 100d66+66 8d10+25
+20 675000
+8 8 0
+Str: 20
+Dex: 19
+Int: 17
+Wis: 18
+Con: 20
+Cha: 17
+Race: 29
+E
+#36021
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 2 1d1+1 1d1+1
+0 0
+8 8 0
+#36022
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36023
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36024
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36025
+ruler~
+the ruler~
+The ruler is here, teaching.
+~
+it's unfinished.
+~
+d 0 0 S
+40 0 0 100d1000+80 10d35+0
+0 1968750
+8 8 0
+#36026
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36027
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36028
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+#36029
+unfinished mob~
+an unfinished mob~
+An unfinished mob is here.
+~
+it's unfinished.
+~
+d 0 0 S
+0 3 0 1d1+1 1d1+1
+0 0
+8 8 0
+$~

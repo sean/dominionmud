@@ -1,0 +1,245 @@
+#1800
+ogre giant~
+a huge ogre~
+An big, ugly ogre stands in hiding waiting to ambush you.
+~
+The ogre has greenish-black skin with ugly purple bumbs and warts all
+over.  It wears animal skins as clothing and carries a huge club with big
+spikes on it.  He looks as if he wants to kill you.  Probably will too.
+~
+bdef kt -1000 S
+5 3 77 2d6+8 1d4+3
+50 750
+8 8 1
+#1801
+hunter man~
+the Hunter~
+A wise looking hunter sizes you up.
+~
+The Hunter has the eyes of a hawk and the heart of a lion.  He knows these
+woods almost as well as The ForestKeeper.
+~
+cdeg ks 1000 S
+2 7 89 2d2+20 1d3+2
+30 400
+8 8 1
+#1802
+drerim druid~
+a Druid of Drerim~
+An evil looking druid stands here sacrificing a defensless animal.
+~
+The Drerim Druid looks up at you briefly with an evil grin then goes back
+to ripping the heart and eyes from a poor defensless fox.  The fox squeals
+in pain then is silent and the Darkoth begins to laugh hysterically.
+~
+dghj dn -1000 S
+5 13 74 2d5+29 1d5+7
+10 175
+8 8 1
+#1803
+hippogriff horse bird~
+a Hippogriff~
+A halfbird/halfhorse creature stands here proudly.
+~
+This powerful looking cross breed of a horse and eagle has a very proud
+look in its eye.  It has an ivory beak and orange-brown feathers.
+~
+acdg hk 1000 S
+24 51 92 3d20+60 4d3+5
+0 15000
+8 8 1
+>in_file_prog hippogriff.prg~
+|
+#1804
+quasit imp~
+the Evil Quasit~
+An evil quasit blinks in and out between the trees.
+~
+The quasit is a diminutive little imp that is about 2 feet tall with
+leathery, bat-like wings, a barbed tail, and sharp pointy horn that sit
+upon its ugly yellow head.
+~
+dg bk -500 S
+1 5 90 1d5+15 1d3+1
+10 650
+8 8 1
+#1805
+stirge~
+a tiny Stirge~
+A huge mosquito is here trying to suck your blood.
+~
+The stirge is like a glorified version of a mosquito with bats wings.  
+He wants your blood and is gonna be very annoying as he tries to get it.
+~
+adgj st 0 E
+1 5 66 2d2+2 1d1+2
+0 375
+8 8 1
+Race: 43
+E
+#1806
+shargugh~
+the Shargugh~
+The Shargugh is here searching for her true love.
+~
+The Shargugh looks just like the one in the Haon-Dor forest.  Except this
+one is a girl.  Maybe they're related?
+~
+cdhi bs 1000 S
+4 11 96 2d5+20 1d4+2
+20 750
+8 8 2
+#1807
+fox~
+a fox~
+A small, brown fox is here hunting for food.
+~
+The fox has a dark, brown pelt of fur covering its body.  It looks at you
+warily then moves off into the underbrush.
+~
+adeh s 0 E
+2 7 15 1d4+5 1d3+2
+0 250
+8 8 1
+Race: 22
+E
+>in_file_prog fox.prg~
+|
+#1808
+brigand thief bandit~
+a Forest Brigand~
+A Forest Brigand grins and moves towards you slowly, dagger drawn.
+~
+The Brigand looks like he'll stop at nothing to get at your loot.  He wears
+ratty, old chainmail and his teeth look as if they are about to fall out of
+his head because they are so unkempt.
+~
+cdgj s -950 E
+2 7 5 2d6+2 1d4+6
+15 475
+8 8 1
+Race: 0
+E
+>in_file_prog bandit.prg~
+|
+#1809
+korred satyr~
+the dancing korred~
+A group of korreds dance about a small patch of flowers.
+~
+The Korred lack the horns that make the satyrs famous but still have the
+carefree attitude of their cousins.  Even though they look playful enough,
+they look as if they could be formidable enemies with their powerful looking
+bicepts.
+~
+bdl k 450 S
+12 27 43 12d24+96 1d8+35
+1 9182
+8 8 1
+#1810
+adventurer man leader~
+the Adventurer Leader~
+A tough looking man stares you down.
+~
+This man is surely the leader of the group of adventurers.  He cooly raises
+his hand to stop his party from bashing your head in for startling them
+all like you did.  He says, 'Now, jest git on back down that thar trail an'
+everything should be allright.'
+~
+abdm cdfk 500 E
+18 39 61 12d12+0 2d12+44
+71 22000
+8 8 1
+Race: 0
+E
+>in_file_prog leader.prg~
+|
+#1811
+slave weary tired~
+a weary slave~
+A weary slave stands behind the leader of the party looking at the ground.
+~
+The slave looks to have been recently bearing a large load for the leader.
+~
+bdem 0 400 E
+4 11 69 2d3+7 1d1+3
+40 300
+8 8 1
+Race: 19
+E
+#1812
+treant tree gianttree giant~
+the Treant~
+A huge tree looks at you with dark-green eyes and chuckles hallowly.
+~
+This tree looks like it is related to both humans and the tree world.  It
+has a kind looking face yet still looks as if it could do a lot of damage.
+It has a leaf of silverwood dangling by its highest branch.  The sign of
+The ForestMaster!
+~
+dgl bdegikpstu 0 S
+40 80 80 1d1+8000 4d9+80
+0 200000
+8 8 1
+#1813
+drerimin druid lord hierophant~
+High Druid, Drerimin~
+A tall, ageless hierophant stand before you with a flaming aura about him.
+~
+   Drerimin stands before you garbed in a long black robe.  His eyes are
+pale white with no pupils.  Long black hair streams down his back nearing
+the floor.  You sense that he is the evil power that has tainted this area.
+~
+abd 0 -1000 S
+15 14 22 1d1+190 2d3+9
+600 40000
+8 8 1
+#1814
+drerim druid guard~
+the Drerim guard~
+A druid clad only in a black robe stands here with a burning stare.
+~
+He looks to be some kind of guard to the temple.
+~
+bdf k -1000 S
+13 29 38 1d1+80 1d10+8
+0 10000
+8 8 1
+#1815
+fanatic druid drerim~
+the fanatical druid~
+A druid clad in black robes is screaming viciously here.
+~
+The druid has blank eyes and seeming no mind.  You can pick out
+the words, 'kill' and 'drerimin' in his wild shouting.
+~
+cdfgm k -1000 S
+5 13 75 1d1+31 1d4+4
+500 5000
+8 8 1
+#1816
+corpse elf~
+the corpse of an elf~
+A rotten, mutilated corpse of an elf lies here.
+~
+The corpse has club wounds covering its entire body and in several
+places the years have rotted it down to bare bones.  
+~
+bd 0 0 S
+1 1 35 1d1+1 1d1+1
+1 1
+8 8 0
+>in_file_prog corpse.prg~
+|
+#1817
+elfwarrior~
+the Elf Warrior~
+A young elven warrior stands here surrounded by a brilliant light.
+~
+He is surrounded by a brilliant white light.
+~
+d 0 0 S
+1 1 6 1d1+1 1d1+1
+1 1
+8 8 1
+$~

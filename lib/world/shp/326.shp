@@ -1,0 +1,28 @@
+CircleMUD v3.0 Shop File~
+#32600~
+32602
+32604
+32605
+1817
+-1
+2.00
+0.90
+-1
+%s Sorry, friend, we ain't got that here.~
+%s Come back when you have what you want to sell.~
+%s I don't buy anything...only sell.~
+%s I'm pretty damned embarrassed...looks like I can't buy that.~
+%s Come back when ya got the cash, friend.~
+%s We'll, there ya go...yours for only %d gold pieces.  Thank ye.~
+%s I don't usually do this...but i'll take it off ya for %d gold pieces.~
+0
+1
+32602
+0
+32671
+-1
+0
+28
+0
+0
+$~

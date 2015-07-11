@@ -1,0 +1,85 @@
+#350
+Gnishmire Town~
+Grendel~
+All~
+3001 1
+35199 10 2
+*
+* Last Updated: Mon Dec  2 22:01:59 
+*           By: Kirahn
+*
+M 0 35033 1 35120 100 	* Tedis the inventor at The Forum. (Max: 1)
+M 0 35032 1 35122 100 	* Ardanin the Magnificant at The Forum. (Max: 1)
+D 0 35199 5 1 100 		* Close Eastern door at Airc's Throne Room
+D 0 35199 4 1 100 		* Close Eastern door at Airc's Throne Room
+M 0 35030 1 35118 100 	* Ranish at The Forum. (Max: 1)
+M 0 35031 3 35118 100 	* the gnomish student at The Forum. (Max: 3)
+M 0 35031 3 35118 100 	* the gnomish student at The Forum. (Max: 3)
+M 0 35031 3 35118 100 	* the gnomish student at The Forum. (Max: 3)
+M 0 35001 10 35004 100 	* the mechanical guard at The Gnishmire City Hall. (Max: 10)
+O 0 5402 1 35004 100 	* the large central fountain at The Gnishmire City Hall. (Max: 1)
+M 0 35018 1 35030 100 	* Drial N'haj at The Sheathed Sword. (Max: 1)
+G 1 3020 100  100 			* And give it a small, stone dagger. (Max: 100)
+G 1 3021 100  100 			* And give it a short, iron sword. (Max: 100)
+G 1 3022 100  100 			* And give it a long, iron sword. (Max: 100)
+G 1 3023 100  100 			* And give it a wooden club. (Max: 100)
+G 1 3024 100  100 			* And give it an iron warhammer. (Max: 100)
+G 1 3025 100  100 			* And give it an iron flail. (Max: 100)
+M 0 35017 1 35056 100 	* Rys Krendreg at Western Perimeter Road. (Max: 1)
+M 0 35003 10 35001 100 	* the gnomish commoner at Before the Southern Gate of Gnishmire. (Max: 10)
+D 0 35059 0 1 100 		* Close Northern door at Tyrlin's Shop of Fine Ale
+D 0 35060 5 2 100 		* Lock and Close Southern door at The Backroom of Tyrlin's
+D 0 35060 2 1 100 		* Close Eastern door at The Backroom of Tyrlin's
+M 0 35016 1 35029 100 	* Gramish the shopkeeper at The House of Knick-Knacks. (Max: 1)
+G 1 1811 5  100 			* And give it a leather bound-canteen. (Max: 5)
+G 1 3012 5  100 			* And give it some camping gear. (Max: 5)
+G 1 1132 5  100 			* And give it a bag. (Max: 5)
+G 1 1131 5  100 			* And give it a lantern. (Max: 5)
+G 1 1130 5  100 			* And give it a torch. (Max: 5)
+M 0 35015 1 35064 100 	* the gnomish postmaster at The Gnishmire Post Office. (Max: 1)
+M 0 35002 1 35022 100 	* Trosh at Trosh's House of Science. (Max: 1)
+G 1 35003 10  100 			* And give it the prism of light scatterazation. (Max: 10)
+G 1 35004 10  100 			* And give it the prism of light coehesion. (Max: 10)
+G 1 35005 10  100 			* And give it the forcefield generator. (Max: 10)
+M 0 35014 1 35025 100 	* Giland the tinkerer at The Broken Blade. (Max: 1)
+M 0 35012 1 35009 100 	* Asa Swiftblade at West Main. (Max: 1)
+M 0 35006 5 35000 100 	* the automated gate guard at The Southern Gate of Gnishmire. (Max: 5)
+M 0 35006 5 35000 100 	* the automated gate guard at The Southern Gate of Gnishmire. (Max: 5)
+M 0 35006 5 35035 100 	* the automated gate guard at The Eastern Gate of Gnishmire. (Max: 5)
+M 0 35006 5 35035 100 	* the automated gate guard at The Eastern Gate of Gnishmire. (Max: 5)
+M 0 35006 5 35035 100 	* the automated gate guard at The Eastern Gate of Gnishmire. (Max: 5)
+M 0 35005 1 35058 100 	* Violet at The Receptionist's Room. (Max: 1)
+O 0 3034 4 35021 100 	* a member of the money exchange guild at The Money Exchanger's Guild. (Max: 4)
+M 0 35001 10 35008 100 	* the mechanical guard at Junction of Temple and Main. (Max: 10)
+M 0 35001 10 35037 100 	* the mechanical guard at Corner of Southern and Western Perimeter Road. (Max: 10)
+M 0 35001 10 35042 100 	* the mechanical guard at Corner of Southern and Eastern Perimeter Road. (Max: 10)
+M 0 35001 10 35010 100 	* the mechanical guard at The Center Square of Gnishmire (west). (Max: 10)
+M 0 35001 10 35015 100 	* the mechanical guard at The Center Square of Gnishmire (northeast). (Max: 10)
+M 0 35001 10 35044 100 	* the mechanical guard at Eastern Perimeter Road. (Max: 10)
+M 0 35001 10 35045 100 	* the mechanical guard at Eastern Perimeter Road. (Max: 10)
+M 0 35001 10 35047 100 	* the mechanical guard at Corner of Northern and Eastern Perimeter Road. (Max: 10)
+M 0 35003 10 35052 100 	* the gnomish commoner at Corner of Northern and Western Perimeter Road. (Max: 10)
+M 0 35001 10 35052 100 	* the mechanical guard at Corner of Northern and Western Perimeter Road. (Max: 10)
+M 0 35003 10 35043 100 	* the gnomish commoner at Eastern Perimeter Road. (Max: 10)
+M 0 35003 10 35007 100 	* the gnomish commoner at Entrance to the Gnishmire Pier. (Max: 10)
+M 0 35003 10 35011 100 	* the gnomish commoner at The Center Square of Gnishmire (east). (Max: 10)
+D 0 35108 2 1 100 		* Close Eastern door at A Deserted Trail
+M 0 35011 1 35020 100 	* Amiria the armorer at Amiria's Smithy. (Max: 1)
+G 1 1808 25  100 			* And give it a leather boot. (Max: 25)
+G 1 3086 10  100 			* And give it a leather arm bracer. (Max: 10)
+G 1 3081 10  100 			* And give it a pair of leather pants. (Max: 10)
+G 1 3076 25  100 			* And give it a leather cap. (Max: 25)
+G 1 3071 25  100 			* And give it a leather glove. (Max: 25)
+G 1 3043 25  100 			* And give it a leather jacket. (Max: 25)
+G 1 3040 25  100 			* And give it an iron breastplate. (Max: 25)
+G 1 1142 25  95 			* And give it a steel shield. (Max: 25)
+G 1 3046 25  95 			* And give it a steel breastplate. (Max: 25)
+G 1 3070 25  95 			* And give it a steel gauntlet. (Max: 25)
+G 1 3075 25  95 			* And give it a steel helmet. (Max: 25)
+G 1 3080 25  95 			* And give it a pair of steel leggings. (Max: 25)
+G 1 3085 25  95 			* And give it a chained steel bracer. (Max: 25)
+M 0 35010 1 35031 100 	* Herrik the baker at Herrik's Bakery. (Max: 1)
+G 1 35001 25  100 			* And give it a sweetroll. (Max: 25)
+G 1 35002 25  100 			* And give it a loaf of bread. (Max: 25)
+S
+$~

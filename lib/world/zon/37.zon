@@ -1,0 +1,341 @@
+#37
+The High Tower Of Magic~
+Skylar~
+HIGH~
+3001 1
+3899 20 2
+*
+* Last Updated: Tue Aug  6 17:26:22 
+*           By: Kirahn
+*
+D 0 3731 0 1 		* Close Northern door at A Bend In The Hallway
+D 0 3731 1 1 		* Close Eastern door at A Bend In The Hallway
+D 0 3731 2 1 		* Close Eastern door at A Bend In The Hallway
+M 0 3700 6 3704 	* the shadow guardian at The Shadow Grove. (Max: 6)
+M 0 3042 1 3704 	* Kerille at The Shadow Grove. (Max: 1)
+O 0 3708 1 3779 	* a cabinet at A Store Room. (Max: 1)
+P 1 3020 999 3708 	* Put a small, stone dagger in a cabinet. (Max: 999)
+P 1 3021 999 3708 	* Put a short, iron sword in a cabinet. (Max: 999)
+P 1 3022 999 3708 	* Put a long, iron sword in a cabinet. (Max: 999)
+O 0 3709 1 3779 	* a bar of silver at A Store Room. (Max: 1)
+O 0 3710 1 3779 	* a bar of gold at A Store Room. (Max: 1)
+O 0 3711 5 3779 	* a bar of mithril at A Store Room. (Max: 5)
+O 0 3712 2 3779 	* a bar of adamantite at A Store Room. (Max: 2)
+D 0 3779 1 1 		* Close Eastern door at A Store Room
+M 0 3700 6 3702 	* the shadow guardian at The Shadow Grove. (Max: 6)
+M 0 3700 6 3706 	* the shadow guardian at The Shadow Grove. (Max: 6)
+M 0 3700 6 3708 	* the shadow guardian at The Shadow Grove. (Max: 6)
+M 0 3700 6 3711 	* the shadow guardian at A Small Clearing. (Max: 6)
+M 0 3701 1 3711 	* the lost adventurer at A Small Clearing. (Max: 1)
+M 0 3702 1 3707 	* Edgar at The Shadow Grove. (Max: 1)
+M 0 3703 1 3712 	* the diamond golem at The Entrance To The High Tower. (Max: 1)
+E 1 3700 1 18 			* And equip it with a diamond key. (Max: 1)
+M 0 3704 7 3713 	* the mage at Inside The High Tower Of Sorcery. (Max: 7)
+M 0 3704 7 3714 	* the mage at Common Room. (Max: 7)
+M 0 3704 7 3714 	* the mage at Common Room. (Max: 7)
+M 0 3704 7 3715 	* the mage at The Hallway. (Max: 7)
+M 0 3704 7 3716 	* the mage at The Dining Room. (Max: 7)
+M 0 3704 7 3718 	* the mage at The Mages' Tavern. (Max: 7)
+M 0 3704 7 3719 	* the mage at The Magic Shop. (Max: 7)
+M 0 3705 1 3718 	* Strick the bartender at The Mages' Tavern. (Max: 1)
+G 1 3704 100  			* And give it a slice of traveller's bread. (Max: 100)
+G 1 3745 100  			* And give it a herbal brew. (Max: 100)
+G 1 3746 100  			* And give it a waybread. (Max: 100)
+G 1 3010 100  			* And give it a potato. (Max: 100)
+M 0 3706 1 3719 	* Tatorious at The Magic Shop. (Max: 1)
+G 1 3050 100  			* And give it a white scroll. (Max: 100)
+G 1 3051 100  			* And give it a yellow potion. (Max: 100)
+G 1 3053 100  			* And give it a yellow wand. (Max: 100)
+M 0 3707 1 3720 	* Ezmerelda at The Kitchen. (Max: 1)
+E 1 3747 2 17 			* And equip it with a meat cleaver. (Max: 2)
+M 0 3708 1 3720 	* the cook's assistant at The Kitchen. (Max: 1)
+M 0 3709 1 3727 	* the prisoner at A Dark Cell. (Max: 1)
+E 1 3748 1 15 			* And equip it with some chain shackles. (Max: 1)
+M 0 3710 1 3728 	* the Jailor at The Jailor's office. (Max: 1)
+E 1 3722 1 18 			* And equip it with an old key. (Max: 1)
+M 0 3711 2 3733 	* the broom at A Broom Closet. (Max: 2)
+M 0 3711 2 3733 	* the broom at A Broom Closet. (Max: 2)
+M 0 3712 10 3735 	* the pair of disembodied hands at The Guardians' chamber. (Max: 10)
+M 0 3712 10 3740 	* the pair of disembodied hands at A Hallway. (Max: 10)
+M 0 3712 10 3830 	* the pair of disembodied hands at A Corridor. (Max: 10)
+M 0 3712 10 3735 	* the pair of disembodied hands at The Guardians' chamber. (Max: 10)
+M 0 3712 10 3735 	* the pair of disembodied hands at The Guardians' chamber. (Max: 10)
+M 0 3712 10 3735 	* the pair of disembodied hands at The Guardians' chamber. (Max: 10)
+M 0 3713 5 3735 	* the pair of disembodied eyes at The Guardians' chamber. (Max: 5)
+M 0 3713 5 3775 	* the pair of disembodied eyes at A Store Room. (Max: 5)
+M 0 3713 5 3800 	* the pair of disembodied eyes at A Hallway. (Max: 5)
+M 0 3713 5 3833 	* the pair of disembodied eyes at An Intersection. (Max: 5)
+M 0 3713 5 3849 	* the pair of disembodied eyes at The Landing. (Max: 5)
+M 0 3714 1 3737 	* the mage at A Guest Bedroom. (Max: 1)
+M 0 3715 3 3742 	* the young apprentice magic user at The Apprentices' Barracks. (Max: 3)
+M 0 3715 3 3744 	* the young apprentice magic user at The Apprentices' Barracks. (Max: 3)
+M 0 3716 3 3744 	* the young apprentice at The Apprentices' Barracks. (Max: 3)
+M 0 3716 3 3742 	* the young apprentice at The Apprentices' Barracks. (Max: 3)
+M 0 3717 3 3742 	* the young apprentice at The Apprentices' Barracks. (Max: 3)
+M 0 3717 3 3744 	* the young apprentice at The Apprentices' Barracks. (Max: 3)
+M 0 3718 3 3745 	* the young apprentice at A Hallway. (Max: 3)
+M 0 3718 3 3745 	* the young apprentice at A Hallway. (Max: 3)
+M 0 3718 3 3745 	* the young apprentice at A Hallway. (Max: 3)
+M 0 3719 1 3745 	* the small kitten at A Hallway. (Max: 1)
+M 0 3720 4 3749 	* the student at A Classroom. (Max: 4)
+M 0 3720 4 3749 	* the student at A Classroom. (Max: 4)
+M 0 3720 4 3749 	* the student at A Classroom. (Max: 4)
+M 0 3720 4 3749 	* the student at A Classroom. (Max: 4)
+M 0 3721 1 3749 	* the instructor of magic at A Classroom. (Max: 1)
+M 0 3722 4 3754 	* the student of spells at An Empty Classroom. (Max: 4)
+M 0 3722 4 3754 	* the student of spells at An Empty Classroom. (Max: 4)
+M 0 3722 4 3754 	* the student of spells at An Empty Classroom. (Max: 4)
+M 0 3722 4 3754 	* the student of spells at An Empty Classroom. (Max: 4)
+M 0 3723 1 3754 	* the spell teacher at An Empty Classroom. (Max: 1)
+M 0 3724 3 3757 	* the student of spells at The Amphitheater. (Max: 3)
+M 0 3724 3 3757 	* the student of spells at The Amphitheater. (Max: 3)
+M 0 3724 3 3757 	* the student of spells at The Amphitheater. (Max: 3)
+M 0 3725 1 3757 	* the wizard at The Amphitheater. (Max: 1)
+M 0 3726 3 3759 	* the young mage at The Training Room. (Max: 3)
+E 1 3749 6 17 			* And equip it with a silvery dagger. (Max: 6)
+M 0 3726 3 3759 	* the young mage at The Training Room. (Max: 3)
+E 1 3749 6 17 			* And equip it with a silvery dagger. (Max: 6)
+M 0 3726 3 3759 	* the young mage at The Training Room. (Max: 3)
+E 1 3749 6 17 			* And equip it with a silvery dagger. (Max: 6)
+M 0 3727 1 3759 	* the battle mistress at The Training Room. (Max: 1)
+E 1 3749 6 17 			* And equip it with a silvery dagger. (Max: 6)
+M 0 3728 2 3764 	* the spell teacher at The Spellmasters' Lounge. (Max: 2)
+M 0 3729 1 3765 	* the aged wizard at A Bedroom. (Max: 1)
+M 0 3730 1 3767 	* the scribe at The Study. (Max: 1)
+M 0 3712 10 3768 	* the pair of disembodied hands at Below The Stairs. (Max: 10)
+M 0 3731 2 3771 	* the scribe at A Small Office. (Max: 2)
+M 0 3731 2 3771 	* the scribe at A Small Office. (Max: 2)
+M 0 3732 1 3773 	* the Master Scribe at The Master Scribe's Workshop. (Max: 1)
+G 1 3752 1  			* And give it a long cylindrical tube. (Max: 1)
+P 1 3750 2 3752 	* Put a scroll in a long cylindrical tube. (Max: 2)
+P 1 3751 2 3752 	* Put a bound scroll in a long cylindrical tube. (Max: 2)
+M 0 3733 1 3773 	* the scribe's assistant at The Master Scribe's Workshop. (Max: 1)
+G 1 3753 3  			* And give it an old scroll. (Max: 3)
+M 0 3734 1 3782 	* the Enchanter at The Master Enchanter's Chamber. (Max: 1)
+E 1 3715 1 18 			* And equip it with a small key. (Max: 1)
+G 1 3754 1  			* And give it a scroll written on blue paper. (Max: 1)
+M 0 3735 1 3782 	* the dancing sword at The Master Enchanter's Chamber. (Max: 1)
+M 0 3736 1 3788 	* the Mad Alchemist at The Mad Alchemist's Workroom. (Max: 1)
+E 1 3755 5 17 			* And equip it with a leather pouch. (Max: 5)
+P 1 3756 2 3755 	* Put a silver stirring spoon in a leather pouch. (Max: 2)
+P 1 3758 2 3755 	* Put a bright red potion in a leather pouch. (Max: 2)
+P 1 3759 2 3755 	* Put a green potion in a leather pouch. (Max: 2)
+P 1 3760 2 3755 	* Put an effervescent potion in a leather pouch. (Max: 2)
+P 1 3761 2 3755 	* Put a milky white potion in a leather pouch. (Max: 2)
+M 0 3737 1 3790 	* the Master Summoner at The Pentagram Chamber. (Max: 1)
+E 1 3762 2 18 			* And equip it with a black staff. (Max: 2)
+M 0 3738 1 3795 	* the Master Charmer at The Charm Master's Chamber. (Max: 1)
+E 1 3763 1 18 			* And equip it with a golden flute. (Max: 1)
+G 1 3764 1  			* And give it a small figurine. (Max: 1)
+M 0 3739 5 3768 	* the wooden golem at Below The Stairs. (Max: 5)
+M 0 3739 5 3798 	* the wooden golem at The End Of The Hallway. (Max: 5)
+M 0 3739 5 3798 	* the wooden golem at The End Of The Hallway. (Max: 5)
+M 0 3739 5 3828 	* the wooden golem at The End Of The Hallway. (Max: 5)
+M 0 3739 5 3828 	* the wooden golem at The End Of The Hallway. (Max: 5)
+M 0 3740 1 3802 	* the Master Spellbinder at The Master Spellbinder's Chamber. (Max: 1)
+E 1 3724 1 18 			* And equip it with a silvery key. (Max: 1)
+G 1 3723 1  			* And give it a silvery key. (Max: 1)
+E 1 3765 2 14 			* And equip it with a holstered belt. (Max: 2)
+P 1 3766 2 3765 	* Put a blackened wand in a holstered belt. (Max: 2)
+M 0 3741 1 3809 	* the Golem Maker at The Golem Master's Workshop. (Max: 1)
+E 1 3767 2 18 			* And equip it with a runed chisel. (Max: 2)
+M 0 3742 1 3809 	* the granite golem at The Golem Master's Workshop. (Max: 1)
+M 0 3743 1 3811 	* the bronze golem at The Golem Chamber. (Max: 1)
+M 0 3744 1 3811 	* the flesh golem at The Golem Chamber. (Max: 1)
+M 0 3745 1 3809 	* the cloth golem at The Golem Master's Workshop. (Max: 1)
+M 0 3746 1 3811 	* the adamantite golem at The Golem Chamber. (Max: 1)
+M 0 3747 1 3811 	* the clay golem at The Golem Chamber. (Max: 1)
+M 0 3748 1 3817 	* the Master of Illusions at The Illusion Master's Chamber. (Max: 1)
+E 1 3768 3 14 			* And equip it with a beltpouch. (Max: 3)
+P 1 3769 3 3768 	* Put some sparkling dust in a beltpouch. (Max: 3)
+M 0 3749 1 3825 	* the Necromancer at The Necromancer's Lair. (Max: 1)
+E 1 3770 2 3 			* And equip it with a dark cowl. (Max: 2)
+E 1 3771 2 18 			* And equip it with an ashen wand. (Max: 2)
+M 0 3750 4 3825 	* the animated skeleton at The Necromancer's Lair. (Max: 4)
+M 0 3750 4 3825 	* the animated skeleton at The Necromancer's Lair. (Max: 4)
+M 0 3751 1 3825 	* the undead giant at The Necromancer's Lair. (Max: 1)
+E 1 3772 1 16 			* And equip it with a huge spiked club. (Max: 1)
+M 0 3752 3 3835 	* the ugly witch at The Scrying Chamber. (Max: 3)
+M 0 3752 3 3835 	* the ugly witch at The Scrying Chamber. (Max: 3)
+M 0 3752 3 3835 	* the ugly witch at The Scrying Chamber. (Max: 3)
+M 0 3753 1 3837 	* the Librarian at The Entrance To The Library. (Max: 1)
+M 0 3754 1 3853 	* the Master's apprentice at The Antechamber. (Max: 1)
+E 1 3773 1 13 			* And equip it with a grey robe. (Max: 1)
+E 1 3774 1 15 			* And equip it with a glinting silver bracelet. (Max: 1)
+M 0 3755 1 3854 	* the grey cat at The Main Chamber. (Max: 1)
+M 0 3756 1 3854 	* the Master of Neutrality at The Main Chamber. (Max: 1)
+G 1 3793 1  			* And give it a grey key. (Max: 1)
+E 1 3775 1 13 			* And equip it with a long grey cloak. (Max: 1)
+E 1 3776 1 17 			* And equip it with an iron shod staff. (Max: 1)
+E 1 3777 3 18 			* And equip it with a ward minor. (Max: 3)
+M 0 3757 1 3861 	* the black robed apprentice at The Chamber Of Darkness. (Max: 1)
+E 1 3778 1 13 			* And equip it with a black robe. (Max: 1)
+E 1 3779 1 16 			* And equip it with an onyx bracelet. (Max: 1)
+M 0 3758 1 3864 	* the black cat at The Inner Chamber. (Max: 1)
+M 0 3759 1 3864 	* the Master of the Black Robes at The Inner Chamber. (Max: 1)
+G 1 3794 1  			* And give it a black key. (Max: 1)
+E 1 3780 1 13 			* And equip it with a dark black cloak. (Max: 1)
+E 1 3781 1 17 			* And equip it with a sharp shard of obsidian. (Max: 1)
+E 1 3777 3 18 			* And equip it with a ward minor. (Max: 3)
+M 0 3760 1 3867 	* the white robed apprentice at An Antechamber. (Max: 1)
+E 1 3782 1 13 			* And equip it with a white robe. (Max: 1)
+E 1 3783 1 16 			* And equip it with a white gold bracelet. (Max: 1)
+M 0 3761 1 3869 	* the white cat at The Chamber Of The White Light. (Max: 1)
+M 0 3762 1 3869 	* the Master of Goodness at The Chamber Of The White Light. (Max: 1)
+G 1 3795 1  			* And give it a white key. (Max: 1)
+E 1 3784 1 13 			* And equip it with a white cloak. (Max: 1)
+E 1 3785 1 17 			* And equip it with an ivory hilted dagger. (Max: 1)
+E 1 3777 3 18 			* And equip it with a ward minor. (Max: 3)
+M 0 3763 1 3877 	* the calico cat at The Audience Chamber. (Max: 1)
+E 1 3786 1 3 			* And equip it with a spiked collar. (Max: 1)
+M 0 3764 1 3877 	* the Grand Mistress at The Audience Chamber. (Max: 1)
+G 1 3738 1  			* And give it an intricately carved key. (Max: 1)
+E 1 3787 1 3 			* And equip it with a shimmering cloak of many colors. (Max: 1)
+E 1 3792 2 4 			* And equip it with a tight fitting green dragon scale shirt. (Max: 2)
+E 1 3788 1 1 			* And equip it with a small emerald ring. (Max: 1)
+E 1 3789 1 15 			* And equip it with an emerald bracelet. (Max: 1)
+E 1 3790 1 18 			* And equip it with a ward major. (Max: 1)
+E 1 3791 1 17 			* And equip it with the ebony kris. (Max: 1)
+O 0 3701 1 3720 	* an oven at The Kitchen. (Max: 1)
+P 1 3704 200 3701 	* Put a slice of traveller's bread in an oven. (Max: 200)
+O 0 3702 1 3720 	* a meat locker at The Kitchen. (Max: 1)
+P 1 3705 1 3702 	* Put a large chunk of meat in a meat locker. (Max: 1)
+P 1 3706 1 3702 	* Put a finger sandwich in a meat locker. (Max: 1)
+O 0 3703 3 3720 	* a spice rack at The Kitchen. (Max: 3)
+O 0 3707 2 3733 	* a straw broom at A Broom Closet. (Max: 2)
+O 0 3707 2 3733 	* a straw broom at A Broom Closet. (Max: 2)
+O 0 3713 1 3781 	* a mithril hammer at A Very Hot Room. (Max: 1)
+O 0 3714 1 3782 	* a chest at The Master Enchanter's Chamber. (Max: 1)
+P 1 3716 1 3714 	* Put a long sword in a chest. (Max: 1)
+P 1 3717 1 3714 	* Put a silver dagger in a chest. (Max: 1)
+P 1 3718 1 3714 	* Put a curved scimitar in a chest. (Max: 1)
+O 0 3719 1 3801 	* a wooden staff at A Store Room. (Max: 1)
+O 0 3720 1 3803 	* a silver chased cabinet at The Spellbinder's Cache. (Max: 1)
+P 1 3725 1 3720 	* Put a red and white staff in a silver chased cabinet. (Max: 1)
+P 1 3726 1 3720 	* Put a burnt staff in a silver chased cabinet. (Max: 1)
+O 0 3721 1 3803 	* a silver chased cabinet at The Spellbinder's Cache. (Max: 1)
+P 1 3727 1 3721 	* Put a black rod in a silver chased cabinet. (Max: 1)
+P 1 3728 1 3721 	* Put a wooden stick in a silver chased cabinet. (Max: 1)
+P 1 3729 1 3721 	* Put a metal wand in a silver chased cabinet. (Max: 1)
+O 0 3730 1 3835 	* a black cauldron at The Scrying Chamber. (Max: 1)
+P 1 3731 1 3730 	* Put a small pair of bat wings in a black cauldron. (Max: 1)
+P 1 3732 1 3730 	* Put an eyeball in a black cauldron. (Max: 1)
+O 0 3733 1 3845 	* the book of magic at The Reading Room. (Max: 1)
+P 1 3734 1 3733 	* Put a pair of spectacles in the book of magic. (Max: 1)
+O 0 3735 1 3880 	* a golden altar at The Altar. (Max: 1)
+P 1 3736 1 3735 	* Put a heart shaped medallion in a golden altar. (Max: 1)
+O 0 3737 1 3881 	* a large chest at The Treasury. (Max: 1)
+P 1 3739 1 3737 	* Put a pile of coins is here in a large chest. (Max: 1)
+O 0 3740 1 3882 	* a brown cloak at A Passage. (Max: 1)
+O 0 3741 1 3882 	* a chameleon poncho at A Passage. (Max: 1)
+O 0 3742 1 3882 	* a pair of old boots at A Passage. (Max: 1)
+O 0 3744 1 3882 	* a leather backpack at A Passage. (Max: 1)
+P 1 3743 1 3744 	* Put a seashell ring in a leather backpack. (Max: 1)
+D 0 3712 0 2 		* Lock and Close Northern door at The Entrance To The High Tower
+D 0 3713 2 2 		* Lock and Close Southern door at Inside The High Tower Of Sorcery
+D 0 3716 3 1 		* Close Eastern door at The Dining Room
+D 0 3720 1 1 		* Close Eastern door at The Kitchen
+D 0 3717 5 1 		* Close Eastern door at A Dark Hallway
+D 0 3721 4 1 		* Close Eastern door at Below The Trapdoor
+D 0 3723 0 2 		* Lock and Close Northern door at A Dark Passage
+D 0 3727 2 2 		* Lock and Close Southern door at A Dark Cell
+D 0 3724 1 1 		* Close Eastern door at A Dark Passage
+D 0 3728 3 1 		* Close Eastern door at The Jailor's office
+D 0 3730 0 1 		* Close Northern door at The Hallway
+D 0 3732 2 1 		* Close Eastern door at A Store Room
+D 0 3730 2 1 		* Close Eastern door at The Hallway
+D 0 3733 0 1 		* Close Northern door at A Broom Closet
+D 0 3734 2 1 		* Close Eastern door at A Hallway
+D 0 3736 3 1 		* Close Eastern door at A Guest Bedroom
+D 0 3735 0 1 		* Close Northern door at The Guardians' chamber
+D 0 3734 1 1 		* Close Eastern door at A Hallway
+D 0 3737 3 1 		* Close Eastern door at A Guest Bedroom
+D 0 3738 1 1 		* Close Eastern door at A hallway
+D 0 3739 3 1 		* Close Eastern door at The Burnt Room
+D 0 3740 0 1 		* Close Northern door at A Hallway
+D 0 3742 2 1 		* Close Eastern door at The Apprentices' Barracks
+D 0 3743 0 1 		* Close Northern door at A Hallway
+D 0 3744 2 1 		* Close Eastern door at The Apprentices' Barracks
+D 0 3745 0 1 		* Close Northern door at A Hallway
+D 0 3746 2 1 		* Close Eastern door at The Apprentices' Workshop
+D 0 3748 3 1 		* Close Eastern door at The Hallway
+D 0 3749 1 1 		* Close Eastern door at A Classroom
+D 0 3750 3 1 		* Close Eastern door at A Hallway
+D 0 3752 1 1 		* Close Eastern door at An Empty Classroom
+D 0 3751 3 1 		* Close Eastern door at A Hallway
+D 0 3754 1 1 		* Close Eastern door at An Empty Classroom
+D 0 3755 2 1 		* Close Eastern door at A Hallway
+D 0 3757 0 1 		* Close Northern door at The Amphitheater
+D 0 3756 2 1 		* Close Eastern door at A Hallway
+D 0 3759 0 1 		* Close Northern door at The Training Room
+D 0 3758 2 1 		* Close Eastern door at A Hallway
+D 0 3761 0 1 		* Close Northern door at A Dueling Room
+D 0 3762 1 1 		* Close Eastern door at A Hallway
+D 0 3764 3 1 		* Close Eastern door at The Spellmasters' Lounge
+D 0 3763 1 1 		* Close Eastern door at A Hallway
+D 0 3765 3 1 		* Close Eastern door at A Bedroom
+D 0 3766 1 1 		* Close Eastern door at A Hallway
+D 0 3767 3 1 		* Close Eastern door at The Study
+D 0 3770 0 1 		* Close Northern door at A Hallway
+D 0 3771 2 1 		* Close Eastern door at A Small Office
+D 0 3771 3 1 		* Close Eastern door at A Small Office
+D 0 3773 1 1 		* Close Eastern door at The Master Scribe's Workshop
+D 0 3774 0 1 		* Close Northern door at A Hallway
+D 0 3775 2 1 		* Close Eastern door at A Store Room
+D 0 3777 3 1 		* Close Eastern door at A Hallway
+D 0 3778 3 1 		* Close Eastern door at A Hallway
+D 0 3781 1 1 		* Close Eastern door at A Very Hot Room
+D 0 3781 2 1 		* Close Eastern door at A Very Hot Room
+D 0 3782 0 1 		* Close Northern door at The Master Enchanter's Chamber
+D 0 3781 4 1 		* Close Eastern door at A Very Hot Room
+D 0 3812 5 1 		* Close Eastern door at The Vent
+D 0 3784 2 1 		* Close Eastern door at A Hallway
+D 0 3786 0 1 		* Close Northern door at A Laboratory
+D 0 3787 2 1 		* Close Eastern door at A Hallway
+D 0 3790 0 1 		* Close Northern door at The Pentagram Chamber
+D 0 3791 1 1 		* Close Eastern door at A Hallway
+D 0 3794 3 1 		* Close Eastern door at An Empty Room
+D 0 3793 1 1 		* Close Eastern door at A Hallway
+D 0 3795 3 1 		* Close Eastern door at The Charm Master's Chamber
+D 0 3795 0 1 		* Close Northern door at The Charm Master's Chamber
+D 0 3797 2 1 		* Close Eastern door at The Animal Pens
+D 0 3800 0 1 		* Close Northern door at A Hallway
+D 0 3801 2 1 		* Close Eastern door at A Store Room
+D 0 3801 3 1 		* Close Eastern door at A Store Room
+D 0 3802 1 1 		* Close Eastern door at The Master Spellbinder's Chamber
+D 0 3802 3 1 		* Close Eastern door at The Master Spellbinder's Chamber
+D 0 3803 1 1 		* Close Eastern door at The Spellbinder's Cache
+D 0 3805 0 1 		* Close Northern door at A Hallway
+D 0 3803 2 1 		* Close Eastern door at The Spellbinder's Cache
+D 0 3808 3 1 		* Close Eastern door at A Hallway
+D 0 3809 1 1 		* Close Eastern door at The Golem Master's Workshop
+D 0 3809 5 1 		* Close Eastern door at The Golem Master's Workshop
+D 0 3812 4 1 		* Close Eastern door at The Vent
+D 0 3816 2 1 		* Close Eastern door at A Hallway
+D 0 3817 0 1 		* Close Northern door at The Illusion Master's Chamber
+D 0 3819 2 1 		* Close Eastern door at A Hallway
+D 0 3820 0 1 		* Close Northern door at The Meditation Chamber
+D 0 3822 1 1 		* Close Eastern door at A Hallway
+D 0 3823 3 1 		* Close Eastern door at A Dark Room
+D 0 3834 1 1 		* Close Eastern door at A Corridor
+D 0 3835 3 1 		* Close Eastern door at The Scrying Chamber
+D 0 3736 3 1 		* Close Eastern door at A Guest Bedroom
+D 0 3837 1 1 		* Close Eastern door at The Entrance To The Library
+D 0 3852 2 1 		* Close Eastern door at A Grey Tiled Hallway
+D 0 3853 0 1 		* Close Northern door at The Antechamber
+D 0 3860 1 1 		* Close Eastern door at The End Of The Hallway
+D 0 3861 3 1 		* Close Eastern door at The Chamber Of Darkness
+D 0 3866 3 1 		* Close Eastern door at A Bright Hallway
+D 0 3867 1 1 		* Close Eastern door at An Antechamber
+D 0 3873 0 2 		* Lock and Close Northern door at A Wide Hallway
+D 0 3874 2 2 		* Lock and Close Southern door at A Wide Hallway
+D 0 3874 0 2 		* Lock and Close Northern door at A Wide Hallway
+D 0 3875 2 2 		* Lock and Close Southern door at A Wide Hallway
+D 0 3875 0 2 		* Lock and Close Northern door at A Wide Hallway
+D 0 3876 2 2 		* Lock and Close Southern door at The Entranceway
+D 0 3880 1 1 		* Close Eastern door at The Altar
+D 0 3881 3 1 		* Close Eastern door at The Treasury
+D 0 3880 3 1 		* Close Eastern door at The Altar
+D 0 3882 1 1 		* Close Eastern door at A Passage
+S
+$~

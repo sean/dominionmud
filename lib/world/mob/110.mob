@@ -1,0 +1,318 @@
+#11000
+mountaineer man mountain~
+the mountaineer~
+A mountaineer walks around, looking for some extra supplies.
+~
+This mountaineer is a passerby in Stanneg by the Western Mountains
+like everyone else.
+~
+cdgh 0 500 E
+7 17 0 3d5+83 2d4+1
+1000 259
+8 8 1
+Race: 0
+E
+#11001
+storekeeper~
+the Storekeeper~
+A bored storekeeper waits for you to do something.
+~
+The bored storekeeper keeps a lazy eye on you as he
+waits for you to buy something.  Whee.
+~
+bd 0 750 E
+20 1 26 3d5+245 3d6+6
+10000 1000
+8 8 1
+Race: 11
+E
+#11002
+farm girl farmgirl~
+the farm girl~
+A young farmgirl stand here ready to defend her horses...
+~
+This woman seems ready for anything you might do...
+she is truly a woman to be reckoned with...
+~
+bd dtu 750 E
+20 1 59 3d5+245 3d6+4
+8000 4000
+8 8 2
+Race: 0
+E
+#11003
+horse~
+the horse~
+A horse does horsely things here.
+~
+This horse looks like a nice horse.  It looks at you
+with soft brown eyes and you want to give it a carrot.
+~
+abd 0 250 E
+5 13 30 1d10+60 2d4+0
+0 1
+8 8 1
+Race: 22
+E
+#11004
+farmer's wife~
+the Farmer's Wife~
+A farmer's wife offers you some vegetables.
+~
+This woman has many different types of fruits and
+vegetables for you to buy.  She looks bored, though.
+~
+bd 0 500 E
+20 1 61 3d5+245 3d6+6
+10000 1000
+8 8 2
+Race: 0
+E
+#11005
+Aglandiir dragon~
+Aglandiir~
+The Dragon Prince, Aglandiir, sits here looking at you curiously.
+~
+Aglandiir is a prince of his kind, and he didn't get where
+he is today by letting people steal from his horde!
+~
+abdf dh 750 E
+35 73 76 100d3+8000 3d5+75
+15000 500000
+8 8 1
+Race: 39
+E
+#11006
+Cyclops~
+the Cyclops~
+A Cyclops is here, trying to judge range with no depth perception.
+~
+This Cyclops throws rocks real good.  With one eye though,
+hitting the target is another matter.  He looks at you and
+growls as he misses again!
+~
+bcdf 0 -500 E
+16 35 35 3d5+295 2d8+50
+10000 24000
+8 8 1
+Race: 24
+E
+#11007
+Salle woman~
+Salle~
+A woman ignores you completely, so intent is she upon her sword.
+~
+   She is a stunning woman, all hair and eyes, it seems.
+Her clothing is of the same tawny brown of her skin and
+hair.  Her blue eyes look at you appraisingly, seemingly
+to show great intelligence.  Her mouth twitches into a
+sneer...
+~
+bd 0 -600 E
+15 6 52 3d5+200 2d6+6
+6500 2400
+8 8 2
+Race: 0
+E
+#11008
+Duwick man~
+Duwick~
+A truly immense man laughs at you, and draws his knife!
+~
+   This has to be one of the biggest men you've ever seen.
+He is a full seven feet toe to head, and weighs a good three
+hundred pounds -- mostly on his biceps and pectorals it appears.
+An ornate scabbard slaps by his side, with the pommel of a
+silvered dagger sticking out...a tiny weapon for such a large man!
+~
+bd 0 -900 E
+22 40 82 3d5+9400 3d6+40
+15000 70000
+8 8 1
+Race: 15
+E
+#11009
+Receptionist~
+the Receptionist~
+A receptionist offers you a room.
+~
+   He looks like a retired farmer now making an honest living
+in an inn.  More power to him!
+~
+abd 0 400 E
+12 9 67 3d5+140 2d7+1
+8000 800
+8 8 1
+Race: 0
+E
+#11010
+innkeeper~
+the innkeeper~
+An aged innkeeper greets you as you enter.
+~
+   He's old and greying, but seems to have been able to
+keep his mental faculties through the years.  A large
+woolen sweater is wrapped about him for warmth.  His
+blue eyes dance with amusement as he notices your weapons,
+but he doesn't seem too terribly startled.
+~
+bd 0 750 E
+10 11 42 3d5+120 2d6+1
+2000 900
+8 8 1
+Race: 2
+E
+#11011
+hunter~
+the hunter~
+A hunter walks through the town streets on his own time.
+~
+   He looks mean, as if the very personality of the mountains
+had infected him with hardness.  His stride is purposeful,
+his face weathered, his eyes cold and dark.  Others are
+standing out of his way as he walks on by.
+~
+cdg 0 500 E
+11 10 61 3d5+133 2d6+2
+1200 11000
+8 8 1
+Race: 9
+E
+#11012
+waiter~
+a waiter~
+A waiter rushes by, intent on his business.
+~
+   He looks harried from the way he hastily takes orders and
+rushes in the back to get food, and to the bar for drinks.
+He doesn't even spare you a glance as he passes by.
+~
+bd 0 0 E
+5 13 96 3d5+60 2d4+0
+500 250
+8 8 1
+Race: 8
+E
+#11013
+waitress~
+a waitress~
+A waitress rushes by, intent on her business.
+~
+   She looks harried from the way she hastily takes orders and rushes
+in the back to get food, and to the bar for drinks.  She doesn't even
+spare you a glance as she passes by.
+~
+bd 0 0 E
+5 13 71 3d5+60 2d4+0
+500 250
+8 8 2
+Race: 0
+E
+#11014
+bartender~
+a bartender~
+A bartender washes a glass idly here.
+~
+   He nods, smiles, and asks you what you would like to drink.
+As you decide, he slowly polishes a glass with an old bar
+rag.  The glass is completely clean, but he polishes it anyway.
+Go figure.
+~
+d 0 200 E
+15 6 55 3d5+180 2d8+2
+10000 1000
+8 8 1
+Race: 3
+E
+#11015
+bandit~
+the bandit~
+A bandit springs into action upon seeing you.
+~
+   Whew!  Has this guy ever seen a bath?  His face, hands, arms...
+nearly every bit of him is covered with grime, dust, dirt and
+decay.  His sword is polished and cleaned though...
+~
+cdfh 0 -500 E
+16 5 41 3d5+195 2d8+3
+1000 2400
+8 8 1
+Race: 16
+E
+#11016
+bandit guard~
+the bandit guard~
+A bandit guard stands at attention here.
+~
+   He may be a bandit, but he's no slacker.  You wonder
+who would be able to keep these bandits in line enough
+to pull a good guard duty...
+
+(boy is this guy DIRTY!!!)
+~
+bdf 0 -500 E
+18 3 61 3d5+220 3d6+2
+2400 900
+8 8 1
+Race: 0
+E
+#11017
+miner worker slave~
+the slave~
+A slave here is mining out a new passageway.
+~
+   The slave looks up at you with pleading eyes.  He
+wants his freedom.  The chains around his ankles are
+tight, and you wonder if you should set him free, and
+if you even can.
+~
+bd 0 1000 E
+6 15 79 3d5+70 1d8+1
+0 500
+8 8 1
+Race: 13
+E
+#11018
+farmer~
+the Farmer~
+A farmer walks around, looking for something to do.
+~
+This farmer is a resident of Stanneg by the Mountains,
+and as such, is one of the most boring people on earth.
+~
+bcdgh 0 500 E
+7 17 39 3d5+83 2d4+1
+1000 500
+8 8 1
+Race: 3
+E
+#11019
+hunter~
+the hunter~
+A hunter walks through the town streets on his own time.
+~
+   He looks mean, as if the very personality of the mountains
+had infected him with hardness.  His stride is purposeful,
+his face weathered, his eyes cold and dark.  Others are
+standing out of his way as he walks on by.
+~
+bcdg 0 500 E
+11 10 64 3d5+133 2d6+2
+1200 700
+8 8 1
+Race: 0
+E
+#11020
+arumb animal~
+the arumb~
+A creature with the hooves of a stag and the body of a bison grazes here.
+~
+The creature is called an Arumb.  It lives wild in the mountains and
+also is a great staple to mountain towns.  They are very large and very 
+dumb and lives off of grass.
+~
+d 0 0 S
+1 5 76 1d1+20 1d4+2
+0 80
+8 8 0
+$~

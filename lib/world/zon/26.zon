@@ -1,0 +1,14 @@
+#26
+The Guilds~
+Garou~
+ALL~
+3001 1
+2699 24 2
+*
+* Last Updated: Fri Nov 29 14:05:00 
+*           By: Grendel
+*
+D 0 2603 1 1 100 		* Close Eastern door at The Storeroom of the Cabal
+D 0 2615 1 1 100 		* Close Eastern door at The Watchers Storeroom
+S
+$~

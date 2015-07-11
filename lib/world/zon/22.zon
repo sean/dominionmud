@@ -1,0 +1,281 @@
+#22
+The Keep of Mahn-Tor~
+Skurge~
+MED-HIGH~
+3001 1
+2299 60 2
+*
+M 100 2200 1 2207      Ethereal Knight
+E 100 2246 5 5         Ethereal Plate
+E 100 2247 5 6         Ethereal Helm
+E 100 2248 10 16       Ethereal Blade
+*
+M 100 2201 1 2214      Evil Treant
+*
+M 100 2202 1 2216      Cave Dweller
+*
+M 100 2203 4 2211      Rock Toad
+M 100 2203 4 2212
+M 100 2203 4 2213
+M 100 2203 4 2219
+*
+M 100 2204 1 2230      Weeping Willow
+G 100 2249 15          Willow Branch
+*
+M 100 2205 3 2232      Mistling
+M 100 2205 3 2237
+M 100 2205 3 2233
+*
+M 100 2206 1 2236      Swamp Wraith
+G 100 2284 20          Misty Potion
+*
+M 100 2207 5 2246      Ogre Villager
+E 100 2285 25 13       Belt Pouch
+M 100 2207 5 2243
+E 100 2285 25 13
+M 100 2207 5 2245
+M 100 2207 5 2248
+M 100 2207 5 2244
+*
+M 100 2208 4 2247      Ogre Warrior
+E 100 2286 25 16       Ogre Spear
+M 100 2208 4 2242 
+E 100 2286 25 16
+M 100 2208 4 2248
+E 100 2286 25 16
+M 100 2208 4 2246
+E 100 2286 25 16
+*
+M 100 2209 4 2248      Ogre Guard
+E 100 2287 25 16       Ogre Club
+M 100 2209 4 2242 
+E 100 2287 25 16
+M 100 2209 4 2241
+E 100 2287 25 16
+M 100 2209 4 2241
+*
+M 100 2210 1 2249      Ogre Shaman
+E 100 2288 20 12       Bearskin Cloak
+E 100 2289 10 6        Feathered Earings
+*
+M 100 2211 1 2250      Ogre Chieftain
+E 100 2290 5 9         Gauntlets of Ogre Power
+E 100 2291 10 16       Massive Club
+*
+M 100 2212 3 2251      Plains Barbarian
+E 100 2292 20 4        Thick Fur Cape
+E 100 2293 20 5        Fur Lined Tunic
+E 100 2260 20 8        Fur Lined Boots 
+M 100 2212 3 2254
+E 100 2292 20 4        
+E 100 2293 20 5        
+E 100 2260 20 8         
+M 100 2212 3 2259 
+E 100 2292 20 4        
+E 100 2293 20 5        
+E 100 2260 20 8         
+*
+M 100 2213 3 2257        White Yeti
+E 100 2261 20 12         Pelt of the Yeti
+M 100 2213 3 2259
+E 100 2261 20 12
+M 100 2213 3 2255
+E 100 2261 20 12
+*
+M 100 2214 3 2252         White Ice Worm
+M 100 2214 3 2254
+M 100 2214 3 2256
+*
+M 100 2215 5 2263         Minotaur Citizen
+E 100 2262 35 16             Kopesh Sword
+M 100 2215 5 2267 
+E 100 2262 35 16
+M 100 2215 5 2265
+E 100 2262 35 16
+M 100 2215 5 2264
+E 100 2262 35 16
+M 100 2215 5 2270
+E 100 2262 35 16
+*
+M 100 2216 3 2268           Minotaur Guard
+E 100 2263 15 10               Steel Vambraces
+E 100 2264 15 7                Steel Greaves
+E 100 2265 10 16               Battle Axe
+M 100 2216 3 2266
+E 100 2263 15 10
+E 100 2264 15 7
+E 100 2265 10 16
+M 100 2216 3 2262
+E 100 2263 15 10
+E 100 2264 15 7
+E 100 2265 10 16
+*
+M 100 2217 3 2267            Minotaur Warrior
+E 100 2266 15 5                 Steel Plate
+E 100 2267 15 6                 Steel Helm
+E 100 2268 10 16                Huge Halberd
+M 100 2217 3 2276
+E 100 2266 15 5
+E 100 2267 15 6
+E 100 2268 10 16
+M 100 2217 3 2278
+E 100 2266 15 5
+E 100 2267 15 6
+E 100 2268 10 16
+*
+M 100 2218 1 2277              Minotaur GateKeeper
+G 100 2250 1                   Keep Key
+*
+M 100 2219 2 2280              Minotaur High Guard
+E 100 2269 15 6                 Blue Steel Visor
+E 100 2270 15 7                 Blue Steel Greaves
+E 100 2271 15 10                Blue Steel Vambraces
+E 100 2266 15 5                Steel Plate
+E 100 2272 10 16               Two-Handed Sword
+M 100 2219 2 2279
+E 100 2269 15 6                 
+E 100 2270 15 7
+E 100 2271 15 10
+E 100 2266 15 5
+E 100 2272 10 16
+*
+M 100 2220 2 2283               Minotaur Royal Guard
+E 100 2273 10 6                 Red Steel Visor
+E 100 2274 10 7                 Red Steel Greaves
+E 100 2275 10 10                Red Steel Vambraces
+E 100 2266 15 5                 Steel Plate
+E 100 2276 10 16                Glaive
+M 100 2220 2 2282
+E 100 2273 10 6
+E 100 2274 10 7
+E 100 2275 10 10
+E 100 2266 15 5
+E 100 2276 10 16     
+*
+M 100 2221 2 2285               Minotaur Elite Guard         
+E 100 2277 5 6                  Crimson Steel Visor
+E 100 2278 5 7                  Crimson Steel Greaves
+E 100 2279 5 10                 Crimson Steel Vambraces
+E 100 2266 15 5                 Steel Plate
+E 100 2280 5 16                 Morning Star
+M 100 2221 2 2285
+E 100 2277 5 6
+E 100 2278 5 7
+E 100 2279 5 10
+E 100 2266 15 5
+E 100 2280 5 16
+G 100 2259 1                     Royal Key
+*
+M 100 2222 5 2293                Harem Girl
+M 100 2222 5 2293
+M 100 2222 5 2293
+M 100 2222 5 2293
+M 100 2222 5 2293
+*
+M 100 2223 1 2295                Minotaur Butler
+*
+M 100 2224 1 2287                Minotaur Key Holder
+E 100 2281 20 17                 Huge Spiked Seste
+E 100 2282 1 13                  Multi-Colored Key Ring (contains color keys)
+P 100 2251 1 2282                     Red Key
+P 100 2252 1 2282                    Black Key
+P 100 2253 1 2282                    White Key
+P 100 2254 1 2282                    Brown Key
+P 100 2255 1 2282                    Yellow Key
+P 100 2256 1 2282                    Maroon Key
+P 100 2257 1 2282                    Green Key
+P 100 2258 1 2282                    Grey Key
+E 100 2283 5 16                  Huge Maul
+*
+M 100 2225 1 2272                Gorak (Minotaur Warrior)
+E 100 2200 10 9                  Minotaur Combat Gloves
+E 100 2201 5 5                   Spiked Garde Armor
+E 100 2202 5 7                   Black Minotaur Greaves
+E 100 2203 5 10                  Black Minotaur Vambraces
+E 100 2204 3 16                  Rod of Weaponry
+*
+M 100 2226 1 2273                Darkoth (Minotaur Anti-Paladin)
+E 100 2205 20 12                 Pitch Black Cloak
+E 100 2206 15 4                  Black Plate Neckguard
+E 100 2207 5 9                   Spiked Gauntlets
+E 100 2208 10 11                 Shadow Shield
+E 100 2209 3 16                  NightBringer
+*
+M 100 2227 1 2274                Tyrgoth (Minotaur Paladin)
+E 100 2210 10 6                  Gold Helm and Visor
+E 100 2211 5 5                   Gilded Gold Breast Plate
+E 100 2212 15 4                  Billowing White Cape
+E 100 2213 20 11                 Huge Tower Shield
+E 100 2214 3 16                  DawnBringer
+*
+M 100 2228 1 2291                Amyrok (Minotaur Mage)
+E 100 2215 10 1                  Gold Rimmed Specs
+E 100 2216 5 2                   Banded Ring
+E 100 2217 5 12                  Minor Globe of Invulnerability
+E 100 2218 3 16                  Gnarled Magius Staff
+E 100 2219 10 13                 Girdle of Many Pouches
+*
+M 100 2229 1 2290                Sumaron (Minotaur Cleric)
+E 100 2220 15 12                 Heavy Woolen Robe
+E 100 2221 5 3                   Broach of Life
+E 100 2222 20 17                 Manual of Healing Arts
+E 100 2223 3 16                  Mithril Mace
+E 100 2224 15 3                  Holy Symbol
+*
+M 100 2230 1 2294                Nasturn (Minotaur Druid)
+E 100 2225 10 1                  Marble Ring
+E 100 2226 10 15                 Marble Bracelet
+E 100 2227 10 8                  Boots of Striding
+E 100 2228 10 12                 Icy White Cloak
+E 100 2229 3 16                  Ice Staff
+*
+M 100 2231 1 2299                Belrak (Minotaur Ranger)
+E 100 2230 10 2                  Carved Wooden Ring
+E 100 2231 20 17                 Horn of Life
+E 100 2232 10 13                 Belt of Life
+E 100 2233 5 17                  Blood Red Stone
+E 100 2234 3 16                  Huge CrossBow
+*
+M 100 2232 1 2298                Dorgar (Minotaur Thief)
+E 100 2235 15 12                 Small Leather Pack
+E 100 2236 10 6                  Black Leather Hood
+E 100 2237 20 10                 Black Leather Sleeves
+E 100 2238 10 7                  Black Leather Pants
+E 100 2239 10 16                 Wicked Short Sword
+*
+M 100 2233 1 2296                Mahn-Tor (Minotaur King)
+E 100 2240 5 12                  Major Globe of Invulnerability
+E 100 2241 5 5                   Black Minotaur Chainmail
+E 100 2242 15 14                 Spiked Buckler
+E 100 2243 10 2                  Studded Ring
+E 100 2244 10 6                  Horned Minotaur Helm
+E 100 2245 1 16                  Mahn-Tor's Great Axe
+*
+D 100 2277 1 2                   Set Door States at Reset
+D 100 2279 3 2
+*
+D 100 2283 1 1
+*
+D 100 2285 1 2
+D 100 2286 3 2
+*
+D 100 2288 1 2
+D 100 2288 3 2
+*
+D 100 2289 1 2
+D 100 2289 3 2
+*
+D 100 2292 1 2
+D 100 2292 3 2
+*
+D 100 2297 1 2
+D 100 2298 3 2
+*
+D 100 2262 2 1
+*
+* Chris Boggs aka Skurge Ragnarok, High Lord of CHAOS
+* Summer, 1992
+*
+S
+
+

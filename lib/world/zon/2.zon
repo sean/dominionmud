@@ -1,0 +1,89 @@
+#2
+Doom Island~
+SillyMUD~
+MED~
+13430 1
+249 25 2
+*
+M 0 219 19 219   ; A citizen
+M 0 219 19 219   ; A citizen
+M 0 219 19 219   ; A citizen
+M 0 219 19 220   ; A citizen
+M 0 219 19 220   ; A citizen
+D 0 222 0 1   ; Fortress Entrance
+M 0 218 10 223   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+D 0 223 2 1   ; Inside the Fortress
+M 0 219 19 226   ; A citizen
+M 0 215 1 228   ; The Villian Druid
+E 1 3043 20 5   ; a leather jacket
+E 1 3071 46 9   ; a pair of leather gloves
+E 1 3086 46 10   ; a pair of leather sleeves
+E 1 3022 47 16   ; a long sword
+M 0 219 19 229   ; A citizen
+M 0 209 1 229   ; The Villian paladin
+E 1 3040 37 5   ; a breast plate
+E 1 3042 4 11   ; a shield
+E 1 3022 47 16   ; a long sword
+M 0 213 1 230   ; The Villian Barbarian
+E 1 3040 37 5   ; a breast plate
+M 0 218 10 231   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 216 1 231   ; The Villian Mage
+M 0 211 1 232   ; The Villian Sorcerer
+E 1 3020 17 16   ; a dagger
+M 0 210 1 233   ; The Villian Priest
+E 1 3081 47 7   ; a pair of leather pants
+E 1 3024 5 16   ; a warhammer
+M 0 219 19 234   ; A citizen
+M 0 219 19 235   ; A citizen
+M 0 218 10 235   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 219 19 237   ; A citizen
+M 0 219 19 237   ; A citizen
+D 0 237 3 1   ; Narrow Hallway
+M 0 212 1 238   ; The Villian Warrior 
+E 1 3040 37 5   ; a breast plate
+M 0 218 10 239   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 218 10 239   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 217 1 240   ; The ferocious Grimtooth
+D 0 240 1 1   ; Villian Creature's Lair
+M 0 219 19 241   ; A citizen
+M 0 219 19 241   ; A citizen
+M 0 219 19 241   ; A citizen
+M 0 219 19 242   ; A citizen
+M 0 218 10 242   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 218 10 242   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 214 1 243   ; The Villian Rogue 
+E 1 3081 47 7   ; a pair of leather pants
+E 1 3071 46 9   ; a pair of leather gloves
+E 1 3086 46 10   ; a pair of leather sleeves
+E 1 3021 11 16   ; a small sword
+D 0 244 0 0   ; Braided Hallway
+D 0 244 2 0   ; Braided Hallway
+M 0 219 19 245   ; A citizen
+M 0 218 10 245   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 205 1 245   ; King Valkim 
+E 1 3040 37 5   ; a breast plate
+M 0 206 1 245   ; Queen Rotunda
+*  E 1 201 47 17   ; The Staff of Darkness (doesn't work yet)
+D 0 245 2 0   ; Villian King's Throne Room
+M 0 218 10 246   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 219 19 246   ; A citizen
+M 0 219 19 246   ; A citizen
+M 0 218 10 246   ; A Villian guard 
+E 1 3022 47 16   ; a long sword
+M 0 208 1 246   ; Agin the Scholar
+M 0 207 1 247   ; Prince Everin
+E 1 3040 37 5   ; a breast plate
+E 1 3022 47 16   ; a long sword
+M 0 219 19 247   ; A citizen
+S
+#99999
+$~

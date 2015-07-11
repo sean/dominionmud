@@ -1,0 +1,65 @@
+#41000
+toll guard~
+the toll guard~
+A fat, burly man stands leaning up against the toll house.
+~
+The guard looks extremely bored with his job as toll collector.
+Looks as if he spends his time off at the bar too.
+~
+bdor fr 0 S
+28 20 0 1d1+20000 5d5+25
+1000 10000
+8 8 1
+#41001
+figure dark~
+a dark, hooded warrior~
+A dark figure stares at you with a hood drawn over his head, oblivious to 
+the wind.
+~
+The figure is dressed in all black, his face hidden behind a steel mask
+which covers both nose and mouth.  He peers at you with dark green eyes.
+His hood is drawn forth over his head.  He asks you if your soul is 
+prepared for the Return.
+~
+cdgi cr 1000 S
+11 8 91 4d5+50 4d2+7
+100 13500
+8 8 1
+#41002
+dragon elf draginne~
+a draginne~
+A strange mixture of dragon and elf stands here.
+~
+This maybe one of the more strange inhabitants of The Dominion.
+The elf's face is slightly dragon shaped and has many small, but
+very strong looking scales instead of skin.  His eyes look wise
+and knowing, there is a sadness deep within.
+~
+dgl bm 800 S
+14 7 85 4d3+80 2d2+6
+90 11000
+8 8 0
+#41003
+lizard giant~
+a giant lizard~
+A giant lizard with a red body and a black head bathes in the sand.
+~
+The lizard looks like any other lizard...cept this one is much larger.
+His scales look very tough.
+~
+dgh r 0 S
+7 12 78 2d10+80 1d8+5
+0 9099
+8 8 0
+#41004
+traveller man~
+a traveller~
+A man is here in the midst of wandering the red sands.
+~
+He looks to be a traveller from the clothes and the provisions he carries.
+~
+d 0 0 S
+12 9 71 10d3+28 1d7+6
+500 8000
+8 8 1
+$~

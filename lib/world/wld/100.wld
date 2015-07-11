@@ -1,0 +1,2363 @@
+#10001
+Stairs to the Temple of Darkshade.~
+   You are before the foreboding Temple of the Cross.  It used
+to be a holy place before Spine took control of the city and
+made it an effigous symbol of impurity.
+~
+100 ps 0
+D2
+~
+~
+0 -1 10012
+D4
+~
+~
+0 0 10103
+S
+#10002
+Grom's House~
+   You have enetered Grom's House.  It is devoid of anything.  Basically,
+it is one big fat void where nothing lives.  If you try to steal anything
+you WILL find his blade in your throat before you can say, 'I'm sorry, Grom.'
+~
+100 jlmpr 0
+D2
+~
+~
+0 -1 10009
+S
+#10003
+Raithan's House~
+   The room contains nothing more than discarded furniture and other
+assorted garbage.
+~
+100 cdegjls 0
+D2
+~
+~
+0 -1 10010
+S
+#10004
+Tasha's House~
+   As you enter through the large mirrored doors, and air of serenity and 
+peace evelopes you.  Directly in front of you is a gently flowing 
+fountain, fashioned in the shape of Gray's Unholy Crest.  There is a pile 
+carpet of deep green on the floor, into which your feet sink with each 
+step.  The walls are all white marble adorned with exquisite portraits 
+and mirrored panels.  In the background you hear soft music and feel a 
+cool refrshing breeze flow over you.
+   It would be easy for you to fall into a relaxing sleep here, but be 
+cautious... Tasha does not appreciate trespassers.
+~
+100 cdegjls 0
+D2
+~
+~
+0 -1 10011
+S
+#10005
+Morgoth's House~
+This one room building serves as someone's hoome.  Yet, from what you can
+see lying around you, it looks more like a dump than a home.
+
+~
+100 cdegjls 0
+D2
+~
+~
+0 -1 10013
+S
+#10006
+Tenchi's House~
+   This one room building serves as someone's home.  Yet, from what you can
+see lying about you, it looks more like the dump than a home.
+~
+100 cdjlps 0
+D2
+~
+~
+0 -1 10014
+S
+#10007
+Drakken's House~
+   You have stepped into a small pad filled with nothing.  The walls are bare
+as well as the floor.  It needs some decoration and color.  
+~
+100 djlprs 0
+D2
+~
+~
+0 -1 10015
+S
+#10008
+The Northwest Watchtower~
+   You are in the northwest watchtower.  The view from here
+is spectacular.  You can see the a tall tower on the horizon.
+~
+100 dps 0
+D5
+~
+~
+0 -1 10009
+S
+#10009
+End of Dagger Lane~
+   This is the end of Dagger Lane.  To the north is a house
+and there is a set of stairs that lead up into the northwest 
+watchtower.
+~
+100 nps 0
+D0
+~
+~
+0 -1 10002
+D1
+~
+~
+0 -1 10010
+D4
+~
+~
+0 -1 10008
+S
+#10010
+West Dagger Lane~
+   You are walking down Dagger Lane.  You wonder how the
+street got it's name.  Suddenly, a dagger flies out from the
+shadows!  You quickly duck and the dagger fortunatly comes
+to a quivering halt in a wooden door a few feet away.
+~
+100 nps 0
+D0
+~
+~
+0 -1 10003
+D1
+~
+~
+0 -1 10011
+D2
+~
+~
+0 -1 10018
+D3
+~
+~
+0 -1 10009
+S
+#10011
+West Dagger Lane~
+   You are walking down Dagger Lane.  To the east there is
+an open square.  The lane is devoid of townspeople but you
+feel like you are being watched.
+~
+100 nps 0
+D0
+~
+~
+0 -1 10004
+D1
+~
+~
+0 -1 10012
+D3
+~
+~
+0 -1 10010
+S
+#10012
+Temple Square~
+   This is the once beautiful Temple Square of Charing Cross.
+It used to be a place where great leaders would give campaign
+speeches and rallies would be held.  Now the square is filled 
+with shady characters that eye you suspiciously.
+
+~
+100 ps 0
+D0
+~
+~
+0 -1 10001
+D1
+~
+~
+0 -1 10013
+D2
+~
+~
+0 -1 10025
+D3
+~
+~
+0 -1 10011
+S
+#10013
+East Dagger Lane~
+   You are walking down Dagger Lane.  To the west is the Temple
+Square.  You can continue walking down the lane towards a tall
+watchtower and to the north you see a large house.
+~
+100 nps 0
+D0
+~
+~
+0 -1 10005
+D1
+~
+~
+0 -1 10014
+D3
+~
+~
+0 -1 10012
+S
+#10014
+East Dagger Lane~
+   As you walk down the lane you notice shadows darting back
+and forth along the walls of the houses and buildings.  This
+makes you feel very uncomfortable for some reason.  To the 
+east you will be under the Northeastern Watchtower and to 
+the west you can walk back to the Temple Square.  Also to the 
+north is a large house.
+~
+100 nps 0
+D0
+~
+~
+0 -1 10006
+D1
+~
+~
+0 -1 10015
+D2
+~
+~
+0 -1 10019
+D3
+~
+~
+0 -1 10013
+S
+#10015
+End of East Dagger Lane~
+   You are standing at the end of the lane.  Above you you can
+enter the Northeastern Watchtower.  The exits are to the north
+which is a large house and to the west you can walk back to
+the Temple Square.
+~
+100 nps 0
+D0
+~
+~
+0 -1 10007
+D3
+~
+~
+0 -1 10014
+D4
+~
+~
+0 -1 10016
+S
+#10016
+Northeastern Watchtower~
+   You are standing in the Northeastern Watchtower.  The view 
+from here is unbelievable.  Off in the distance you can see
+the spires and towers of great castles.  
+~
+100 ps 0
+D5
+~
+~
+0 -1 10015
+S
+#10017
+Dead End~
+   You have come to a dead end in the street.  Quickly you
+realize that your blunder put you in a bad postion if someone
+wanted to trap you.  The soft snicker from the shadows behind
+you confirms your suspicions.  You turn around and see that
+the shadows were not really shadows as they slowly move
+toward you with sly grins on their faces.
+~
+100 ps 0
+D2
+~
+~
+0 -1 10022
+S
+#10018
+Palermo~
+   When you enter this house a sense of quiet and tranquility fills your
+insides.  All the visible furniture is made of black marble.  Bookshelves
+as far as the eye can see all containing books bound in black leather and
+lined with silver.  One book is open and as you peer through the contents
+you realize it describes an assassination technique.  Suddenly you don't
+feel that comfortable anymore and a shiver crawls up your spine.  Now that
+the calm feeling has left your body you notice there are weapons all over
+the wall.  Every kind of weapon is here, some still are covered with the
+blood of their victims.  Just then it hits you, this is a place wear death
+is dealed for a price.  The shadows around you are not just that anymore,
+three assassins emerge from the shadows and stare at you without the best
+of intentions.  Welcome to the house of Santini Master Assassin.
+~
+100 cdegjlm 0
+D0
+~
+~
+0 -1 10010
+S
+#10019
+Drakken's House~
+What dump!!!
+~
+100 cdegs 0
+D0
+~
+~
+0 -1 10014
+S
+#10020
+Dead End~
+   You have come to a dead end in the street.  Quickly you
+realize that your blunder put you in a bad postion if someone
+wanted to trap you.  The soft snicker from the shadows behind
+you confirms your suspicions.  You turn around and see that
+the shadows were not really shadows as they slowly move
+toward you with sly grins on their faces.
+~
+100 ps 0
+D2
+~
+~
+0 -1 10029
+S
+#10021
+Jarr's Room~
+   You walk into a dimly lit room.  A fat, burly man and another
+lithe more deadly looking character are talking to each other
+in little signs made with quick eye and hand movements.  They
+stop and look at you and slowly grins creep across their faces.
+~
+100 gs 0
+D1
+~
+~
+0 -1 10022
+D5
+~
+~
+0 -1 10037
+S
+#10022
+Street Corner~
+   You have come to a corner in the street.  To the north it
+is almost totally dark and you can barely see faint movements
+that seem like people but you can't be sure.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10017
+D1
+~
+~
+0 -1 10023
+D2
+~
+~
+0 -1 10030
+S
+#10023
+Corner in the Road~
+   You have come to a corner in the road.  The shadows are
+a bit darker and more forbidding than they were on the main 
+part of the street.
+~
+100 ps 0
+D2
+~
+~
+0 -1 10031
+D3
+~
+~
+0 -1 10022
+S
+#10024
+The Cloak & Dagger Shop~
+   You are in a shop that seems to only sell cloaks and wicked
+looking daggers and some other items exclusive to thievery and
+assassinations...smoke bombs, grappling hooks, and other weapons
+that are beyond your comprehension.
+~
+100 dps 0
+D2
+~
+~
+0 -1 10032
+S
+#10025
+Spine's Way~
+   Looking straight ahead you see a large open square.  You
+try to walk faster towards it because all of the sudden you
+are beginning to feel claustrophobic.  The shadows seem to
+be getting larger and closer.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10012
+D2
+~
+~
+0 -1 10033
+S
+#10026
+Shadowy Inn~
+   You have entered the only haven in the entire town which
+is not saying much at all.  You are having a tough time getting
+your motivation up to rent here.  Maybe it's because the rec-
+eptionist is eyeing your items a little too much or it's the
+man running down the hall with a bag full of clanking armor -
+you are not sure which.
+~
+100 dps 0
+D2
+~
+~
+0 -1 10034
+S
+#10027
+Turn in the road~
+   You have come to a turn in the road.  The shadows to the east
+seem to get darker and more forbidding.  But you aren't afraid!   
+You are a brave adventurer and nothing daunts your quest.
+~
+100 ps 0
+D1
+~
+~
+0 -1 10028
+D2
+~
+~
+0 -1 10035
+S
+#10028
+Fork in the Road~
+   You are at a fork in the shadowy road.  Exits lead south,
+west and east.  To the east the shadows get REALLY dark and
+for some reason you don't want want to see why it is so dark
+anymore.
+~
+100 ps 0
+D1
+~
+door~
+1 -1 10029
+D2
+~
+~
+0 -1 10036
+D3
+~
+~
+0 -1 10027
+S
+#10029
+Dark Street Corner~
+   You are at the corner in the alley.  You can't see what is
+to the north since it is shrouded in darkness.  Your curiosity
+is sparked and your fear is gone...replaced by an urge to be
+a bad-ass.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10020
+D1
+~
+~
+0 0 10120
+D2
+~
+~
+0 -1 10046
+D3
+~
+~
+0 -1 10028
+S
+#10030
+Dark Alley~
+   You are in a dark alley with low snickers coming from any
+direction...you can't really tell with the echoes but it seems
+maybe they are coming from the north...hmmm...no south...you
+give up.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10022
+D2
+~
+~
+0 -1 10039
+S
+#10031
+Alley Corner~
+   You are standing at a corner in the dark alley.  Shadows
+dart here and there but since you are a brave adventurer you
+pay them no heed.  Typical adventurer type.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10023
+D1
+~
+~
+0 -1 10032
+S
+#10032
+Cut-throat Lane~
+   You are walking down a long, dark lane.  For some reason,
+when you really think about it, this is not such a smart idea.
+Awwww...forget it.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10024
+D1
+~
+~
+0 -1 10033
+D3
+~
+~
+0 -1 10031
+S
+#10033
+Market Square~
+   This square used to be a wonderful place filled with foods
+of all sorts and peddlers selling their items to anyone who passed
+by.  But now the only things that are taken place here are an
+occasional deal or backstabbing.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10025
+D1
+~
+~
+0 -1 10034
+D2
+~
+~
+0 -1 10042
+D3
+~
+~
+0 -1 10032
+S
+#10034
+Cut-throat Lane~
+   The name for this street pretty much speaks for itself.
+You have come to this conclusion due to the fact that up against
+the wall on your right, you watch a man get pulled suddenly
+into a niche in the wall.  A few seconds later a young boy
+runs down the street with a wallet in his hands.  What a town.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10026
+D1
+~
+~
+0 -1 10035
+D3
+~
+~
+0 -1 10033
+S
+#10035
+Corner in Cut-throat Lane~
+   The corner in the lane is shadowy as with all the other
+streets in the town.  Suddenly you hear a muffled scream from
+the north, it is quickly....ahhh...cut short.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10027
+D3
+~
+~
+0 -1 10034
+S
+#10036
+Dark Alley~
+   You are in a dark alley with low snickers coming from any
+direction...you can't really tell with the echoes but it seems
+maybe they are coming from the north...hmmm...no south...you
+give up.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10028
+D2
+~
+~
+0 -1 10045
+S
+#10037
+Basement in the Abandoned Building~
+   The basement is just a basement.  You think this until you
+feel the pierce of a dagger at the back of your throat and
+a raspy voice saying, "Go back up and you'll live."
+~
+100 dps 0
+D4
+~
+~
+0 -1 10021
+S
+#10038
+Abandoned Building~
+   You are inside an abandoned building.  You see boxes and
+crates that have been left there.  They have all been opened
+and discarded.  In the corner you see a stairway leading down
+into darkness.
+~
+100 ps 0
+D1
+~
+~
+0 -1 10039
+D5
+~
+~
+0 -1 10037
+S
+#10039
+Dark Alley~
+   You are in a dark alley jumping at all the shadows.  To 
+the west their is an old abandoned building.  It seems to be
+totally boarded up except you see a small hole where one of
+the boards has been ripped out making a small entrance into
+the building.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10030
+D2
+~
+~
+0 -1 10049
+D3
+~
+~
+0 -1 10038
+S
+#10040
+House #10040~
+   This house is still for sale just 5 MILLION COINS!  What
+a deal...just ask your IMP, Realestate broker, and all around
+nice god Glasgian about making a purchase.
+~
+100 cdegjlms 0
+D2
+~
+~
+0 -1 10050
+S
+#10041
+The Vivisectionist's~
+   The room is filled with dark, twisted instruments used for the
+painful destruction of living, humanoid bodies.  A long, rectangular
+table made of steel stands in the center of the room.  A cluttered
+desk is pushed in the corner.  To the south, the exit lies in wait.
+~
+100 dps 0
+D2
+~
+door~
+1 -1 10050
+S
+#10042
+Spine's Way~
+   This street leads north towards the Temple of Spine or
+south towards the entrance to the city.  
+~
+100 ps 0
+D0
+~
+~
+0 -1 10033
+D2
+~
+~
+0 -1 10052
+S
+#10043
+House #10043~
+   This house is still for sale just 5 MILLION COINS!  What
+a deal...just ask your IMP, Realestate broker, and all around
+nice god Glasgian about making a purchase.
+~
+100 cdeglms 0
+D2
+~
+~
+0 -1 10053
+S
+#10044
+Unsold Player House~
+Buy Me for only 2 million...contact Gray or Sand
+~
+100 cdeglms 0
+D2
+~
+~
+0 -1 10054
+S
+#10045
+Dark Alley~
+   You are standing in a dark alley.  To the east there
+is a loud commotion.  You here laughing, crashing, and occasionaly
+a scream comes out.  The alley continues north and south.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10036
+D1
+~
+~
+0 -1 10046
+D2
+~
+~
+0 -1 10055
+S
+#10046
+Entrance to the Bar~
+   You are at the entrance to a very loud bar.  You peek inside
+for a second and see where all the life of the city is.  Drunken
+bar fights are being held and whores run around from man to man
+trying to turn one of them on.  Sounds like your kind of place!
+~
+100 ps 1
+D1
+It looks REALLY bad in that bar - lotta bad news...
+In other words - if you're a wuss, don't go in...
+~
+door~
+1 -1 10047
+D3
+~
+~
+0 -1 10045
+S
+#10047
+Inside the Bar~
+   You can barely see through the strange smelling smoke
+pervading the air.  Some of the worlds most wanted are here
+pounding firebreathers or getting some action with the
+not-quite-so-sexy whores running around.  From out of nowhere
+a big glob of spit lands right on your left cheek and loud
+laughing comes from within the crowd.  Count to 10 slowly...
+don't get mad...  The main bar is farther in to your east.
+~
+100 dps 0
+D1
+~
+~
+0 0 10048
+D3
+~
+door~
+1 -1 10046
+S
+#10048
+Main Bar~
+   You are at the main bar.  Spilled beer and liqour is 
+flooding the floor and is about up to your ankles.  An
+old haggard whore comes up to you and says, "Looking for
+some action?  Don't worry I do both sexes."  But before you
+can answer she is dragged away into the crowd by a mean,
+burly fellow.  Good riddance.
+~
+100 dp 0
+D3
+~
+~
+0 0 10047
+S
+#10049
+Usurp Street Corner~
+   In the corner of the street you see a man making a deal.
+It suddenly turns bad and a quick flash of silver and the
+man hits the street in a pool of blood.  "Oh well, better him
+than you", you think to yourself.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10039
+D1
+~
+~
+0 -1 10050
+S
+#10050
+Usurp Street~
+   You are walking down Usurp street.  To the west you see a
+shady corner in the street and to the east you can continue
+down the street.  To the north is a large player house.
+~
+100 ps 0
+D0
+~
+door~
+1 -1 10041
+D1
+~
+~
+0 -1 10051
+D3
+~
+~
+0 -1 10049
+S
+#10051
+Usurp Street~
+   You are walking down Usurp street.  To the west you see a
+shady corner in the street and to the east you can continue
+down the street.  To the north is a large player house.
+~
+100 ps 0
+D1
+~
+~
+0 -1 10052
+D3
+~
+~
+0 -1 10050
+S
+#10052
+Spine's Plaza~
+   This plaza was named in the memory of Spine, Usurper of
+Charing Cross.  Tall statues and obelisks stand in dedication
+to the new ruler.  The sculpters seem to be stripped of what ever
+type of metal was on them, making them blackened shadows that 
+stand watch over the plaza.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10042
+D1
+~
+~
+0 -1 10053
+D2
+~
+~
+0 -1 10066
+D3
+~
+~
+0 -1 10051
+S
+#10053
+Usurp Street~
+   You are walking down Usurp street.  To the west you see a
+a large plaza and to the east you can continue down the street.  
+To the north is a large player house.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10043
+D1
+~
+~
+0 -1 10054
+D3
+~
+~
+0 -1 10052
+S
+#10054
+Usurp Street~
+   You are walking down Usurp street.  To the west you can 
+continue down  the street and to the east you can continue
+down the street.  To the north is a large player house.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10044
+D1
+~
+~
+0 -1 10055
+D3
+~
+~
+0 -1 10053
+S
+#10055
+Street Corner~
+   You are at a corner in Usurp street.  To the north the street
+continues and to the west it leads back to the plaza.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10045
+D3
+~
+~
+0 -1 10054
+S
+#10056
+An Unsold House~
+   You may buy this house for 5 - 10 million (depending on what add ons you
+would like) Contact a god for more info.
+~
+100 cdegjlmrs 0
+D2
+~
+~
+0 -1 10063
+S
+#10057
+Lyre's Humble Abode~
+   This place looks more like a museum than someone's house.  Perhaps
+Lyre just visits, instead of lives here.  There is not an ounce of
+dust anywhere in the entire room!  It appears as though everything in
+the room has been meticulously placed in its current position.  You 
+realize thatb you must be VERY careful not to touch anything, or else
+Lyre might want to have a talk with you in the arena.....
+~
+100 cdegjlmrs 0
+D2
+A dirty street lies ot the south.
+~
+~
+0 -1 10064
+S
+#10058
+Khan's House~
+   If you are interested in purchasing this house, please contact a god.
+~
+100 cdgjlm 0
+D2
+~
+~
+0 -1 10065
+S
+#10059
+Kustos' House~
+mail me a room description.
+~
+100 cdgjlms 0
+D2
+~
+~
+0 -1 10067
+S
+#10060
+Kaeliss's Love Hut~
+   Looking around this cozy grotto, you see what seems to be a strange 
+array of items and furniture.  The first thing you notice is the large,
+circular, velvet-blanketed bed.  A large mirror is attached to the 
+ceiling directly above it.  On the table next to the love seat in the 
+corner is something unlike anything you've seen before.  A cone-shaped 
+lantern filled with a gooey liquid that is in constant motion!  It throws 
+off an eerie mauve light.  Come to think of it almost everything is 
+mauve.  Even the weapon and armor cases are trimmed with mauve.  It 
+almost makes you want to vomit, yet, it is somehow eye-pleasing at the 
+same time.  There is also more velvet than you have seen in one place.  
+There is a sign on the wall in neon mauve.
+~
+100 cdegjlms 0
+D2
+~
+~
+0 -1 10068
+S
+#10061
+Jyhad's Keep~
+This is the main room of Jyhad's keep. It is adorned with the statue of the
+supreme ruler Glasgian.
+~
+100 cdegjl 0
+D2
+~
+~
+0 -1 10069
+S
+#10062
+Southwest Watchtower~
+   You are standing in the Southwest Watchtower.  You can see
+The Domion in its entirety from this point.  Mountains and 
+occasionally tall castles can be seen on the horizon.
+~
+100 ps 0
+D5
+~
+~
+0 -1 10063
+S
+#10063
+End of Bloodletters Ave.~
+   You are standing under the Southwestern watchtower.  To 
+the south is the Guild of Thieves and to the north is a 
+players house.  You can continue on down the avenue as well.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10056
+D1
+~
+~
+0 -1 10064
+D2
+~
+~
+0 -1 10071
+D4
+~
+~
+0 -1 10062
+S
+#10064
+Bloodletters Ave.~
+   Walking down the avenue you watch the shadows of shady
+thieves and assassins trying to make a quick kill or coin.
+You realize that this is a dog eat dog city.  Which also
+means that you are the bone!
+~
+100 nps 0
+D1
+~
+~
+0 -1 10065
+D2
+~
+~
+0 -1 10072
+D3
+~
+~
+0 -1 10063
+S
+#10065
+Bloodletters Ave.~
+   Walking down the avenue you watch the shadows of shady
+thieves and assassins trying to make a quick kill or coin.
+You realize that this is a dog eat dog city.  Which also
+means that you are the bone!
+~
+100 nps 0
+D0
+~
+~
+0 -1 10058
+D1
+~
+~
+0 -1 10066
+D3
+~
+~
+0 -1 10064
+S
+#10066
+Charing Cross Square~
+   You are standing in the center of Charing Cross Square.
+This was once a place where you could sit and watch a parade.
+Now all you see is people shuffling quickly away and shady
+characters watching their backs.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10052
+D1
+~
+~
+0 -1 10067
+D2
+~
+~
+0 -1 10077
+D3
+~
+~
+0 -1 10065
+D5
+~
+temple secret~
+1 0 10111
+S
+#10067
+Bloodletters Ave.~
+   Walking down the avenue you watch the shadows of shady
+thieves and assassins trying to make a quick kill or coin.
+You realize that this is a dog eat dog city.  Which also
+means that you are the bone!
+~
+100 nps 0
+D0
+~
+~
+0 -1 10059
+D1
+~
+~
+0 -1 10068
+D3
+~
+~
+0 -1 10066
+S
+#10068
+Bloodletters Ave.~
+   Walking down the avenue you watch the shadows of shady
+thieves and assassins trying to make a quick kill or coin.
+You realize that this is a dog eat dog city.  Which also
+means that you are the bone!
+~
+100 nps 0
+D1
+~
+~
+0 -1 10069
+D2
+~
+~
+0 -1 10075
+D3
+~
+~
+0 -1 10067
+S
+#10069
+Bloodletters Ave.~
+   Walking down the avenue you watch the shadows of shady
+thieves and assassins trying to make a quick kill or coin.
+To the South lies the Assassin's guild, they are one group
+of people you surely dont want to mess with.
+~
+100 nps 0
+D0
+~
+~
+0 -1 10061
+D2
+~
+~
+0 -1 10076
+D3
+~
+~
+0 -1 10068
+D4
+~
+~
+0 -1 10070
+S
+#10070
+Southeastern Watchtower~
+   As you look out the window of the watchtower you see the 
+entirety of the Dominion.  A great misty forest stretches out
+across the land in the east.
+~
+100 ps 0
+D5
+~
+~
+0 -1 10069
+S
+#10071
+Entrance to the Thieves' Guild~
+   You are standing before a small building.  From inside you
+hear the sounds of young thieves training their skills.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10063
+D2
+~
+~
+0 -1 10109
+S
+#10072
+Ralathan's House~
+   This is Ralathan's Humble Abode.  Don't touch anything or he'll kill
+you faster than you can say, 'I didn't do it!!!'
+~
+100 cdjlprs 0
+D0
+~
+~
+0 -1 10064
+S
+#10073
+Alowishus's Laboratory~
+   You have entered the infamous laboratory of that crafty mage, Alowishus!
+This is where he contrives various potions and scrolls for his personal
+use.  A board hangs on the far wall, filled with the mage's scribblings,
+they must some formulae.
+~
+100 cdgjlmrs 0
+D0
+~
+~
+0 -1 10065
+S
+#10074
+Krystal's House~
+   You have entered Krystal's House.  As you look around you realize 
+that you are unable to see much of anything, because Krystal has neglected
+to email me her house description.
+~
+100 cdglm 0
+D0
+~
+~
+0 -1 10067
+S
+#10075
+House #10075~
+   This house is still for sale.  For only 5 million coins!
+Contact your realestate broker for purchase information ie
+Glasgian.
+~
+100 cdgjl 0
+D0
+~
+~
+0 -1 10068
+S
+#10076
+Entrance to the Assassins' Guild~
+   You are standing before a small building.  From inside you
+hear the sounds of young assassins training their skills.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10069
+D2
+~
+~
+0 -1 10108
+S
+#10077
+Boarded Southern Gate of Charring Cross~
+   You are at a large gate to the City of Charing Cross. 
+The hinges by which the gate is closed and opened have been 
+rusted shut over time.  There are skulls impaled upon spikes
+on the gate.  A sign on the gate indicates that these WERE
+the guards to the city.
+~
+100 ps 0
+D0
+~
+~
+0 -1 10066
+S
+#10078
+Treasure Room~
+   You are in a wonderful room filled with spectacular
+treasures.  The floor is littered with ancient treasures
+and gold coins.  You are suddenly overcome with an urge to take every 
+last bit. 
+~
+100 cfps 0
+D2
+~
+door secret~
+1 10101 10079
+S
+#10079
+Spine's Chamber~
+   You have entered a huge chamber with a black throne made from the
+skull of a dragon.  There are twisted mosaics and paintings dotting
+the walls of the room.  A stairway in the southern end of the room,
+opposite the throne, leads down into the temple.
+~
+100 dps 1
+D0
+You see a niche in the northern wall.
+~
+niche~
+1 10101 10078
+D5
+~
+~
+0 -1 10081
+S
+#10080
+Corner in the Hallway~
+   You have come to a corner in the dark hallway.
+You are wary of every slight sound you hear in
+the darkness.  You can continue walking down the
+hallway to the east or south.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10081
+D2
+~
+~
+0 -1 10084
+S
+#10081
+Stairs in the Hallway~
+   You have come to a large stairway made of a sooty
+metal.  You sense great evil from upstairs which fills
+you with such a great fear that you want to run straight
+back home.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10082
+D3
+~
+~
+0 -1 10080
+D4
+~
+~
+0 -1 10079
+S
+#10082
+Corner in the Hallway~
+   You have to a corner in the dark hallway.  You
+are wary of every slight sound you hear coming 
+through the darkness.  You can continue down the
+hallway to the west or south.
+~
+100 dps 0
+D2
+~
+~
+0 -1 10085
+D3
+~
+~
+0 -1 10081
+S
+#10083
+Top of the Stairs~
+   You are at the top of a stairway.  There are no
+more torches to light your way.  You sense an even
+greater evil here than before.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10084
+D5
+~
+~
+0 -1 10087
+S
+#10084
+Turn in the Hallway~
+   You are at a small turn in the hallway.  The exits lead
+to the north and to the west.   On the wall you see a large
+picture of a hideous face.  Spine you presume.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10080
+D3
+~
+~
+0 -1 10083
+S
+#10085
+Turn in the Hallway~
+   You are at a small turn in the hallway.  The exits lead
+to the north and to the east.  On the wall is a hideous 
+picture of Spine.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10082
+D1
+~
+~
+0 -1 10086
+S
+#10086
+Top of the Stairs~
+   From the top of the stairs you cannot see anything, but the 
+floor below you.  Good thing you remembered to bring along a 
+light or you'd be fido chow for the creatures of the temple.
+~
+100 dps 0
+D3
+~
+~
+0 -1 10085
+D5
+~
+~
+0 -1 10091
+S
+#10087
+Base of the Stairs~
+   There is a large marble staircase here leading upward into
+the darkness.  The staircase looks very old, it has large, deep
+cracks in several steps and the banister is missing many supports.
+It does appear safe enough to climb.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10088
+D4
+~
+~
+0 -1 10083
+S
+#10088
+Western Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10089
+D3
+~
+~
+0 -1 10087
+S
+#10089
+Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10090
+D3
+~
+~
+0 -1 10088
+D5
+~
+~
+0 -1 10095
+S
+#10090
+Eastern Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10091
+D2
+~
+~
+0 -1 10096
+D3
+~
+~
+0 -1 10089
+S
+#10091
+Base of the Stairs~
+   There is a large marble staircase here leading upward into
+the darkness.  The staircase looks very old, it has large, deep
+cracks in several steps and the banister is missing many supports.
+It does appear safe enough to climb.
+~
+100 dps 0
+D3
+~
+~
+0 -1 10090
+D4
+~
+~
+0 -1 10086
+S
+#10092
+Torture Chamber~
+   Various devices of all sorts are placed throughout the room.
+This looks as though it was once the chamber of a priest or
+priestess, but now it has been perverted into a chamber of 
+horrors.  You notice the dried blood on the granite floor and
+you realize that many people have lost their lives here, will 
+you be next?
+~
+100 dps 0
+D2
+~
+~
+0 -1 10099
+S
+#10093
+Western End of the Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+There is a stairway going down here.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10094
+D5
+~
+~
+0 -1 10101
+S
+#10094
+Western Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10095
+D3
+~
+~
+0 -1 10093
+S
+#10095
+Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10096
+D3
+~
+~
+0 -1 10094
+D4
+~
+~
+0 -1 10089
+S
+#10096
+Eastern Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10090
+D1
+~
+~
+0 -1 10097
+D3
+~
+~
+0 -1 10095
+S
+#10097
+Eastern End of the Lower Hallway~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+There are stairs going down here.
+~
+100 dps 0
+D3
+~
+~
+0 -1 10096
+D5
+~
+~
+0 -1 10105
+S
+#10098
+Storage Room~
+   Crosses and chalices are strewn about the room, along with 
+robes and other priestly vestments.  I looks athough all the 
+good stuff was removed from this room long ago.  In the far
+corner of the room is a make-shift bed, constructed out of
+white robes and other various pieces of cloth.
+~
+100 dps 0
+D2
+~
+~
+0 -1 10107
+S
+#10099
+Western End of the Entrance Hall~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+There is a stairway going down here.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10092
+D1
+~
+~
+0 -1 10100
+S
+#10100
+Western Lower Entrance Hall~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10101
+D3
+~
+~
+0 -1 10099
+S
+#10101
+Corridor in the Temple~
+   You are standing in a corridor of the Temple of Spine.  
+Torches line the walls casting eerie shadows down the hall.  
+There is another passage branching off to the north and the 
+corridor continues east and west, and there is a stairway
+leading up.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10102
+D3
+~
+~
+0 -1 10100
+D4
+~
+~
+0 -1 10093
+S
+#10102
+Corridor in the Temple~
+   You are walking down a corridor in the Temple of 
+Spine.  Torches line the walls casting eerie shadows 
+down the hall.  The hall continues east and west.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10103
+D3
+~
+~
+0 -1 10101
+S
+#10103
+Entrance to the Temple of Darkshade~
+   You are standing in the entrance to the Temple of 
+Spine.  Torches line the walls of the corridor.  Exits 
+lead east, west, and another set of stairs lead down to 
+Charing Cross.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10104
+D3
+~
+~
+0 -1 10102
+D5
+~
+~
+0 0 10001
+S
+#10104
+Corridor in the Temple~
+   You are walking down a corridor in the Temple of 
+Spine.  Torches line the walls casting eerie shadows 
+down the hall.  The hall continues east and west.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10105
+D3
+~
+~
+0 -1 10103
+S
+#10105
+Eastern Lower Entrance Hall~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+There is a stairway here leading.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10106
+D3
+~
+~
+0 -1 10104
+D4
+~
+~
+0 -1 10097
+S
+#10106
+Eastern Lower Entrance Hall~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+~
+100 dps 0
+D1
+~
+~
+0 -1 10107
+D3
+~
+~
+0 -1 10105
+S
+#10107
+Eastern End of the Entrance Hall~
+   You are standing in a large hallway.  The floor seems to
+have been made of fine marble, but now it is covered with cracks
+and fractures.  The walls are bare, save for the cobwebs.  It looks
+as though there were tapestries hanging on the walls once, long ago.
+There is a passage leading north.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10098
+D3
+~
+~
+0 -1 10106
+S
+#10108
+The Assassins Guild~
+   You are in your guild.  The walls are covered with weapons
+and cloaks and other items that assassins need.  You feel very
+confident as you begin to train.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10076
+S
+#10109
+The Thieves Guild~
+   You are in your guild.  You can train your skills of trickery
+here.  The walls see to be bare even though there are racks where
+weapons might have been but have been stolen.
+~
+100 dps 0
+D0
+~
+~
+0 -1 10071
+S
+#10110
+The Temple of Kirahn~
+  You stand in a large, dark hall.  Flickering candles have been placed
+about the room giving it and evil glow.  Shadows dance in the candlelight
+like demons before the sacrafice.  The walls are bare save for a large
+Black Star, the crest of Kirahn, jutting from the west wall.  There is also
+a large, golden-framed picture capturing a battle scene where evil triumphs
+over good.  There is a large book upon an altar made of skulls with two red
+candles on either side of it.  A black, spiral staircase leads back up to
+the foyer.
+~
+100 dejrs 1
+D4
+You see the foyer to Kirahn Temple.
+~
+~
+0 -1 10111
+E
+tome rules list~
+
+   During a time when the Dominion was finally in the hands of Balance,
+The Overseer went on a spiritual journey into the heart of the Dominion.
+He travelled in the form of a beggar into the wastes of the land.  As he
+walked, his shadow trailed behind him like the wake of a powerful boat,
+disrupting everything he passed.  Finally he found himself staring into
+another dimension, he entered it, then found himself staring at a vision,
+brought to him by a force almost as powerful as The Overseer himself.
+
+   "A dark horseman rode upon a blackened steed, crushing the weak before
+him with a mighty mace.  He wrought disease with every swinging arc of
+the mace.  The looks of fear in the eyes of the doomed brought a thick
+thrill of ecstacy upon him which made him kill more...for he knew he was
+destined to rule."
+
+   At this point, The Overseer underwent a gruesome and yet beautiful
+transformation as another soul merged with his own.  Wings grew from
+his shoulderblades and a long barbed tail twisted at his feet behind him.
+His skin turned to black scale and his eyes dark orbs filled with anger
+and power.  The scales of were the color of the darkest midnight, so dark
+indeed that within them you can see a full spectrum of color glinting
+in the darkness.  
+
+   The Overseer in his new form, took to the skies and pulled the moon
+before the Sun, causing a great eclipse which lasted for many days.  A
+shadow so dark and frightening was cast over the land.  Crop turned to
+dust, herds of cattle died, and the folk of the Dominion were afflicted
+by a horrible plague that killed many.  The Overseer and the new entity
+named the moon Pestilence.
+   The Overseer of Darkness and the new entity within him moved Pestilence
+from before the sun and breathed his own breath into the sun, making the
+sun strong and let it revive the broken and dying Dominion.  Everything
+grew again, stronger than ever before.  They payed their hommage to the
+Overseer for granting them life and strength.  The Overseer named the sun,
+Strength.  
+
+   The land rejoiced under the rule of the Overseer and his new entity
+and named him, Kirahn.  But not everyone was happy.  A young warrior called
+Malachi began to form a small army, hidden from the many eyes of Kirahn,
+deep in the forests of Darkweir.  The army began small but grew, slowly,
+it took one hundred years to accomplish the size of the army that finally
+attacked Kirahn.  They say it was Malachi's hatred of evil and of Kirahn
+that kept him alive long enough to his forces destroy those held by Kirahn.
+A great war spread across the land, killing millions, until finally only
+two figures stood upon the battlefield.
+   Malachi was struck by Kirahn with a mortal wound and in his dying breath
+uttered a prayer to Glasgian who watched from above.  Glasgian breathed the
+breath of life into Malachi as his mortal form died, capturing his soul
+in his breath, giving him eternal life in the heavens.  
+   
+   Kirahn remained in the mortal realm, yet silent, letting those that 
+truly believed in him and his word; those that believed in Life through 
+Strength and Death.  
+		
+		        	--><--
+	
+The tome is mysteriously broken here...cutting off the rest of the words
+of the Tome of Kirahn.
+
+~
+S
+#10111
+Foyer of Kirahn's Temple~
+   You are standing in a small cramped passage way, it leads down
+deeper into the bowels of the earth to Kirahn's inner sanctum.  
+This place is not for the feint of heart.
+~
+100 cdes 1
+D0
+You see the training room.
+~
+~
+0 -1 10112
+D4
+You see the square of Charing Cross.
+~
+secret door square~
+1 -1 10066
+D5
+You see the Temple of Kirahn.
+~
+~
+0 -1 10110
+S
+#10112
+Training Room~
+   A large coat of arms hangs majestically on the northern wall.
+It is the symbol Kirahn, the Black Star.  Just as the midnight black
+points of the star point out into infinity, so do the members of
+Kirahn's Religion spread their deceitful ways across the Dominion.
+Below the coat of arms, in the center of the room are several training
+dummies, used by Kirahn's Elite Cadre of religious fanatics to hone 
+their deadly fighting skills.
+~
+100 ds 1
+D2
+You see the foyer of Kirahn's Temple.
+~
+~
+0 -1 10111
+S
+#10113
+Outside the Sacred Temple of Jamn~
+Grass grows like silk here.  Small shrubs and bushes are planted here and
+there.  A young sapling is trying to sprout from the ground.  Everything
+looks normal.  Well, everything but a series of blue-marble blocks floating
+in the air to form a spiral staircase leading up through a shimmering
+pool of water suspended far above your head. 
+~
+100 e 1
+D2
+To the south is a road.
+~
+~
+0 0 0
+D4
+An eerily floating spiral set of stairs lead up through a shimmering pool
+of water high off the ground.
+~
+~
+0 0 10114
+S
+#10114
+Rose Garden~
+You stand in an enormous rose garden.  In the middle of the garden is a 
+tranquil pool of water.  Beneath the water, a stairway descends to the
+land below.  Beneath large stone arches, you make out exits to other parts
+of the sacred temple.  The northern arch seems to lead to an altar, while
+the southern arch goes to a secluded library.
+~
+100 er 0
+D0
+Through a stone arch lies the Sacred Altar to Jamn
+~
+~
+0 0 10116
+D1
+A large stone arch leads into the wide blue.
+~
+~
+0 0 10117
+D2
+Through a stone arch lies a library.
+~
+~
+0 0 10115
+D5
+A stairway leads down through the tranquil pool.
+~
+~
+0 0 10113
+S
+#10115
+The Jammite Library~
+In the middle of this ornate library stands a pedastal.
+Upon this pedastal lies a giant tome.
+An arch lies to the north.
+Through this arch lies a rose garden.
+~
+100 de 0
+D0
+A large stone arch leads you to a beautiful rose garden.
+~
+~
+0 0 10114
+E
+tome book~
+This tome is the Holy Wisdom Book of Jamn.  In the opening pages are the
+principle tenants of the Sacred One.
+  1. Good and Evil are but transient forces that will dissolve into one.
+     Therefore, take no heed of one nor the other but maintain a balance
+     within your soul.
+  2. Sentient life is of essential value.  Harm no one through your deeds,
+     whether it be by sword or by theft.  Many animals and soulless 
+     humanoids wander throughout the Dominion.  These may be used as you
+     see fit, for they have no hope of being awakenened.  All those who
+     have souls and sentience stand sacred in the eyes of Jamn and may
+      not be harmed.
+  3. Love.
+
+~
+S
+#10116
+The Sacred Altar of Jamn~
+Of all that is here, you can see only the white rose that burns with the
+intense fire of love.  
+This place is the Holy of Holies.
+~
+100 de 0
+D2
+To the south, a large stone arch leads to a rose garden.
+~
+~
+0 0 10114
+S
+#10117
+Training Area~
+The room is startlingly bright blue.  The walls are completely bare, and as
+your gaze follows them upward, the merge with the clear sky above.  The 
+only ornament of the room is a large stone arch leading to a rose garden.
+~
+100 de 0
+D3
+A large stone arch leads to a magnificent rose garden.
+~
+~
+0 0 10114
+S
+#10118
+The Presence of Jamn~
+You are floating, surrounding entirely by the essence of Jamn, Lord of Power
+and Light, Protector of the Faithful, and Keeper of the Peace.  You feel
+utterly at peace with yourself and the universe as every atom of your being
+sings in the Great Melody.
+~
+100 er 8 -268437728 0
+D5
+There lies the Rose Garden of the Sacred Temple of Jamn.
+~
+~
+0 0 10114
+S
+#10119
+A Focus of Darkness~
+   You are in some sort of discarded temple.  A large statue of Kirahn
+protrudes from the northern wall.  You feel yourself being touched by
+an evil power.  It grows within you healing the wounds givin by the righteous
+and filling you with hate and bloodlust for the souls of the good.
+You feel strong.
+~
+100 cdgrs 0
+D4
+~
+~
+0 0 0
+S
+#10120
+East Gate of Charring Cross~
+   You are standing at the East Gate of Charring Cross.  It stands open
+with a small trail leading off to the east.  To the west you see alleyways
+and the twisting streets of Charring Cross.
+~
+100 p 0
+D1
+~
+~
+0 0 10121
+D3
+~
+~
+0 0 10029
+S
+#10121
+Glass Road outside Charring Cross~
+   You are on a black glass road which leads off to the west then north into
+Melkor's Domain, Thangorodrim.  To the west stands the Western Gate of
+Charring Cross, a city overrun by thieves, assassins, and the Evil Overlords
+of Spine.
+~
+100 acg 1
+D1
+~
+~
+0 0 10122
+D3
+~
+~
+0 0 10120
+S
+#10122
+The Black Glass Road~
+   You are traveling a road made of obsidian or black glass.  There are
+no live trees in site and anything that may have been a tree in the past
+is now a twisted black, petrified remnant of a tortured land.  A little
+ways to the west you can see a large city and to the east the black glass
+road continues on into mountains smothered in darkness.
+~
+100 ac 1
+D1
+~
+~
+0 0 10123
+D3
+~
+~
+0 0 10121
+S
+#10123
+The Black Glass Road~
+   The glass road continues east through the wasteland of hills around you.
+Instead of grass stretching off to the north and south you see nothing but
+ashes.  There are no trees; only poles jutting from the ground with
+smoldering corpses impaled upon them.  The Thangorodrim is visible to the
+northeast, blacker then the wasteland.  To the west is brighter and the
+faint gray outline of a city traces the horizon.
+~
+100 a 1
+D1
+~
+~
+0 0 10124
+D3
+~
+~
+0 0 10122
+S
+#10124
+Turn in the Road~
+   The black glass road turns north here avoiding a raging pit of fire
+billowing up from the bowels of the wasteland directly to the east.  The
+stench of death is carried on the smoke.  To the west you can see nothing
+but the thick cloak of darkness.
+~
+100 a 1
+D0
+~
+~
+0 0 10125
+D3
+~
+~
+0 0 10123
+S
+#10125
+The Black Glass Road~
+   The black glass road turns here to the south.  There is raging firepit
+to the southeast carrying in its bollowing smoke the violent stench of
+death.  You see dark forboding mountains rising to the northeast out of the wasteland.
+~
+100 a 1
+D0
+~
+~
+0 0 8117
+D1
+~
+~
+0 0 10126
+D2
+~
+~
+0 0 10124
+S
+#10126
+On the Black Glass Road~
+   You can barely see anymore as the darkness becomes even more strong.
+Just to the south of you can feel the heat of a hot fire but it is very
+faint.  The only thing you are sure you can see well is the Thangorodrim
+rising ever too quickly to the northeast.
+~
+100 a 1
+D1
+~
+~
+0 0 10127
+D3
+~
+~
+0 0 10125
+S
+#10127
+The Black Glass Road~
+   To the east you see the black glass road disappear into the ashen plains
+that encroach from the north and south.  Thangorodrim is very close....
+You feel it begin to pull you to the east - towards the dark ruler of this
+realm, Melkor.
+~
+100 a 1
+D1
+~
+~
+0 0 10128
+D3
+~
+~
+0 0 10126
+S
+#10128
+End of the Black glass Road~
+   The black glass road ends here.  You can feel a strange presence -
+something invisible and holy holding you back from going east, further
+into Thangorodrim.  You see the ashen plains to the east and know you cannot
+go further into them.  
+~
+100 a 1
+D1
+The Ashen plains are west of here....if only you could lift the invisible
+barrier blocking the way.
+~
+barrier invisible invis~
+1 30 26001
+D3
+~
+~
+0 0 10127
+E
+invisiblebarrier barrier invisible~
+   A voice speaks to you from out of Nowhere:
+
+I am Aglandiir, Smiter of Evil andinjustice - Keeper of the Ring of
+Murana.  I shall tell you a story.....
+
+   Many millenia ago - before the human race came to the Dominion and
+when Kirahn was silent and trapped - locked away by The Lord Moriquendi
+in Rigorous Nine...there was a beutiful forest in place of the wasteland
+surrounding you now.  It was called Murana and it possessed the most
+powerful thing ever: Love and Peace.  The druids walked freely and
+the everything was balanced for it was where the Kinnslayer was born.
+   But everything was not quite as peaceful and malevolent as it seemed
+in Murana, for a great druid of the Kinnslayer became enraged when he was
+not picked to be the bearer of the Kinnslayer Amulet and Andara, Garou's
+love was.  He left Murana and went into the mountains east of the forest.
+They are known as Thangorodrim.  No one had ever ventured into the orc
+filled mountains ever and returned.  Melkor Bagollith was never seen again
+until....
+   Strange things began to happen in Murana.  Black flaming beasts began
+coming from Thangorodrim - beasts whose power and evil nature had never
+been seen since Kirahn ruled The Dominion.  They killed and pillaged the
+inhabitants of the forest brutally and without mercy.  They wielded
+whips of fire which burned the sacred trees.  And Melkor returned himself
+and cast a black spell which began to poison Murana.  The trees died
+and the forest druids fled to Darkweir.  Only one man stepped forth to
+stop Melkor.  His name was Darkshade.  
+
+  Darkshade collected the kings of the Lands of the Dominion and led
+them upon flying dragons into Thangorodrim.  A great war ensued, Melkor
+and his army of Balrogs and the Dreaded Orcs fought the valiant and tiny
+army of Dragonriders led by Darkshade.  The war lasted for thousands of
+years, and The Dominion began to die.  
+   I was young, very young, but brave.  I carrid upon my shoulders Darkshade
+himself and Jirdidan carried Andara.  We were the only ones alive and in
+the heart of Thangorodrim.  We fought and killed the balrogs and orcs
+until it was only us and Melkor.  We were still barely enough to win...
+   Finally Andara was struck down by a deadly blow to the heart by Melkor's
+Grond and the Kinnslayer Amulet.  Garou, enraged by this, took Andara
+away and left her with his druids in Darkweir Hallows.  He gave his golden
+bow to Darkshade and with it Darkshade killed Melkor.  
+   Murana was dead - all that remained was a wasteland filled with the
+dead of the war.  Even Garou could not restore the great forest to its
+once fabled glory.  But Darkshade built a wonderful, golden city just
+west of the wasteland and ruled its gold paved avenues with a wise and kind
+heart.  
+   Then one day, to the shock of the city dwellers, a black temple arose
+from the ground with a Black Star sealing the entrance.  The doors were
+flung open suddenly and the black Shadow of Kirahn creeped out and 
+tarnished the glorious city.  The golden streets turned red with blood 
+and no one lived...one of the people slain in the shadow of Kirahn was 
+Darkshade.
+   Melkor stepped through the entrance and regained his rule over the land.
+With him came a truly evil man - Spine.  Spine turned the poisoned city
+into a place of thievery and death and named it Charring Cross.
+   I, many years older and wiser and much, much stronger, came to avenge
+my master, and friend, Darkshade.  I could not do it and was terminally
+poisoned...kept alive now by the power of Murana, a small ring carrying
+the spirit of the forest within it.  With the ring I made this barrier
+which will not allow anyone into Thangorodrim until I am fit to destroy
+Melkor and all his evil subjects...
+
+Go now traveller...I must rest and become powerful again so I can return
+If you remain good in heart and strong, I will find you and we will go
+together into Thangorodrim to bring justice to the world....
+Go now and have bring peace to the unfortunate and may the Light
+of The Moriquendi and the wisdom of the Kinnslayer ever be with you.
+~
+S
+#10129
+End of the Road~
+   the black glass road ends here and leads off into the foothills
+of Thangorodrim.  You can hear screams and black birds circle overhead.
+To the west the black glass road leads towards a dark city.
+~
+100 0 1
+D1
+~
+~
+0 0 26000
+D3
+~
+~
+0 0 10127
+S
+$~

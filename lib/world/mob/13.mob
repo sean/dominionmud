@@ -1,0 +1,82 @@
+#1301
+rook~
+The Rook~
+A Rook is standing here.
+~
+A tall knight of Canticle.  The Rook, a veteran of many holy wars is 
+dressed in golden armor.
+~
+70 0 0 S
+8 13 3 0d1+98 2d5+1
+330 3480
+8 8 0 0
+#1302
+frump~
+The Old Frump~
+An Old Frump sweeps past you.
+~
+An old Frump stands here cleaning up.  The ugly hag appears to be at least
+100 years old.  She looks at you with a scowl.
+~
+100 0 -750 S
+10 11 2 0d1+125 2d6+1
+275 4350
+8 8 2 0
+#1303
+gargon~
+The Gargon~
+The Gargon stands here mixing the brew.
+~
+The kitchen witch is a horrible sight.  She is filthy and covered with
+warts.  The witch looks ready to cast a spell.
+~
+66 0 -800 S
+13 8 2 0d1+161 2d7+1
+1100 7000
+8 8 2 0
+#1304
+blue rook~
+The Blue Rook~
+The Blue Rook is sitting here at this desk.
+~
+A grand knight.  He looks extremely strong, and glows with a blue haze.
+~
+66 0 0 S
+19 2 0 0d1+240 3d6+3
+2750 16500
+6 6 1 0
+#1305
+sentinel~
+The Sentinel~
+The Sentinel stands at his post.
+~
+A stolid, stoic soldier.  He glares icily at the surrounding area.
+~
+66 0 0 S
+9 12 3 0d1+115 2d5+1
+660 4000
+8 8 1 0
+#1306
+demiwolf~
+The Demiwolf~
+A Demiwolf skulks here, guarding the entrance.
+~
+A viscious wolf grinds its teeth and growls at you.
+~
+98 0 -400 S
+12 9 2 0d1+400 2d7+1
+0 46200
+8 8 0 14
+#1307
+overlord~
+The Overlord~
+The Overlord stands here.
+~
+A great Demi-God, the Overlord.  His eyes flicker gold and his face is pure
+bronze.  He tells you it would be wise to leave now.
+~
+102 136 0 S
+27 0 -7 1d1+1245 7d6+4
+5500 110000
+8 8 1 20
+$~

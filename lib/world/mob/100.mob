@@ -1,0 +1,433 @@
+#10001
+beggar~
+a beggar~
+A beggar sits here begging for anything.
+~
+He is dressed in tattered, filthy clothes and is quite gaunt.
+~
+dg 0 0 S
+3 9 0 2d10+10 2d4+4
+5 80
+8 8 1
+>in_file_prog beggar.prg~
+|
+#10002
+beggar beggaress woman~
+a beggaress~
+A beggar woman is here looking at you pitifully.
+~
+She is dressed in tattered rags, you try to steal a quick peek at
+what's behind those tattered clothes.
+~
+dg 0 0 S
+5 13 0 2d10+5 2d4+2
+15 50
+6 5 2
+#10003
+drunk~
+a violent drunk~
+A drunk swayes in front of you looking for a fight.
+~
+The drunk is big and angry.
+~
+dfg 0 -300 S
+5 13 0 4d20+5 2d5+2
+40 100
+8 8 1
+>in_file_prog drunk.prg~
+|
+#10004
+henchman guard~
+one of Spine's Henchman~
+One of Spine's henchman is standing here.
+~
+You see nothing special.~
+cdgjklm f -500 E
+14 31 42 2d30+70 2d9+9
+30 8000
+8 8 2
+Race: 0
+E
+#10005
+henchman guard~
+Spine's henchman~
+One of Spine's henchman is standing here.
+~
+You see nothing special.
+~
+cdgjklm t -500 E
+14 31 54 2d30+50 2d5+10
+20 13000
+8 8 1
+Race: 0
+E
+#10006
+whore concubine bitch ho~
+an old, haggard whore~
+A whore is standing here looking for trick to turn.
+~
+What an ugly bitch.
+~
+cdgh 0 0 S
+5 13 7 2d15+3 1d5+2
+500 200
+8 8 2
+>in_file_prog whore.prg~
+|
+#10007
+citizen man~
+a frightened citizen~
+A frightened citizen is cowering here.
+~
+You see nothing special.~
+cdgh 0 0 S
+3 9 1 2d2+13 1d5+0
+3 150
+8 8 1
+>in_file_prog citizen2.prg~
+|
+#10008
+jarr king thief~
+Jarr the Thief King~
+Jarr the Thief King is here leering at you.
+~
+He is shrouded in darkness and unfamiliar.
+~
+abdl hkpu 0 E
+28 59 72 3d400+800 5d5+25
+10000 100000
+8 8 1
+Race: 10
+E
+#10009
+mecen assassin~
+Mecen~
+Mecen is standing here looking at you.
+~
+He is shrouded in shadow.
+~
+bdl hkpu 0 E
+26 55 88 2d400+900 6d4+35
+9500 90000
+8 8 1
+Race: 16
+E
+#10010
+spine usurper~
+Spine~
+Spine the Usurper of Charing Cross is here.
+~
+Spine stands here grinning with an evil look in his eye.
+~
+bdfl dfhkr -1000 E
+40 83 62 20d20+8000 14d12+50
+1000 725000
+8 8 1
+Race: 0
+E
+#10011
+menace mask henchman~
+the Masked Menace~
+The Masked Menace is here with an oversized mask covering his face.
+~
+This evil character is wearing a blood red mask.
+~
+bdeflm hkt -1000 E
+30 63 84 6d80+1250 4d5+80
+7500 295000
+8 8 1
+Race: 0
+E
+#10012
+Durik shadow man~
+Durik~
+A shadow is here sitting at a table in the corner.
+~
+You see nothing special.
+~
+abdem kpu 1000 E
+34 50 71 10d20+1500 2d8+90
+10 9000
+8 8 1
+Race: 0
+E
+#10013
+henchman grinning overlord~
+a grinning Overlord~
+An Overlord stands here with a wicked grin on his face.
+~
+You see nothing special.~
+cdgjk cfs -1000 E
+20 43 70 5d20+350 3d5+20
+300 80000
+8 8 1
+Race: 0
+E
+#10014
+selnok henchman~
+Selnok~
+Selnok is here leering wickedly at you.
+~
+Selnok must be the biggest human you have ever seen.
+He appears to be about eight feet tall, and he looks
+VERY mean.  This is not one person you want to piss off!
+~
+bcdflm dfpu -1000 E
+35 73 81 2d4+780 3d6+85
+1500 150000
+8 8 1
+Race: 15
+E
+#10015
+guard blood member elite bloodguard henchman~
+a member of the Bloodguard~
+A member of the elite Charring Cross Bloodguard is standing here.
+~
+The eyes of this death spawn peer out from its skinless face.  The
+blood clings to his bones and muscles like dew on leaves.  He opens
+his maw wide to bare black teeth sharp and evil.
+~
+dgjlm fhu -1000 E
+25 53 93 10d20+250 5d6+75
+23000 175000
+8 8 1
+Race: 23
+E
+#10016
+child victim tortured~
+a tortured child~
+There is a young child here, strapped to the operating table.
+~
+He is covered in blood and is missing his right ear.
+~
+bd 0 1000 E
+1 5 39 1d1+1 1d1+1
+0 15
+8 4 1
+Race: 1
+E
+#10017
+assassin~
+the assassin~
+A man dressed in black is standing here eyeing you suspiciously.
+~
+You see nothing special.~
+dgj 0 0 E
+8 19 32 2d40+15 2d8+34
+50 3500
+8 8 1
+Race: 0
+E
+#10018
+guard strand thief guildguard slick~
+Strand the Guildguard~
+Strand is here, tossing his dagger in the air.
+~
+Strand is a rather sly fellow.  While examining him,
+you notice a tatoo on his left arm, it reads:
+
+	  Faded Glory!!!
+
+You wonder what it could mean.
+~
+bd cdfkp -950 E
+28 3 58 12d20+1000 6d8+25
+1 0
+8 8 1
+Race: 0
+E
+#10019
+guildmaster gm master assassin~
+the Master Assassin~
+The Master Assassin is here waiting to train young assassins.
+~
+You see nothing special.~
+abd hp -975 E
+34 2 84 2d4+8500 8d12+20
+0 0
+8 8 1
+Race: 0
+E
+#10020
+thief man~
+a thief~
+A gaunt man, dressed in a dark cloak is standing here.
+~
+You see nothing special.
+~
+cdegjlm 0 0 S
+12 27 47 5d20+25 2d4+8
+175 3250
+8 8 1
+>in_file_prog thief.prg~
+|
+#10021
+bandit~
+a bandit~
+A bandit is here looking to cut your throat.
+~
+The bandit is burly and has many wicked scars.
+~
+bdjkl ptu -500 E
+20 30 15 3d12+90 6d4+20
+300 13200
+8 8 1
+Race: 0
+E
+#10022
+guard thief guildguard slack~
+Slack the Guildguard~
+Slack is here, tossing his dagger in the air.
+~
+Slack is a rather sly fellow.  While examining him,
+you notice a tatoo on his left arm, it reads:
+
+	     Eat at Grubby's
+~
+bd p -950 E
+28 3 38 12d20+1000 6d8+25
+0 0
+8 8 1
+Race: 0
+E
+#10023
+guardofgraystemple~
+Amnemoth~
+Amnemoth, the buffest Dargonae Elf you have ever seen, is standing here.
+~
+Amnemoth, is an extremely large fellow, garbed in bloodstained leather
+armor.  Amnemoth is one of the very few Spellsneaks in the world, and
+as such he is treated with great respect, and usually feared.
+~
+abd hpu -650 E
+34 2 58 10d5+22500 2d4+80
+10 0
+8 8 1
+Race: 4
+E
+#10024
+acolyte yong gray temple~
+a young acolyte~
+A young acolyte is here praying to his god.
+~
+Garbed in long flowing white robes, there is not too much you can tell 
+about the acolyte.
+~
+acde knsu -550 E
+8 4 25 10d50+125 2d2+4
+0 2550
+8 8 1
+Race: 0
+E
+#10025
+acolyte temple~
+an Acolyte of Gray~
+One of Gray's Acolytes is here busying herself.
+~
+Garbed in long flowing black robes, there is not much you tell about
+the acolyte.
+~
+cde knsu -550 E
+28 4 81 10d50+12500 1d2+2
+0 5000
+8 8 2
+Race: 8
+E
+#10026
+figure cloaked dark~
+the dark figure~
+Within the shadows you see the outline of a figure cloaked in darkness.
+~
+Garbed in a long flowing black cloak, there is not much you can tell 
+about the figure except that he is watching you intently.
+~
+bdl pu 0 E
+28 4 102 10d50+1550 1d2+20
+0 85000
+8 8 1
+Race: 24
+E
+>in_file_prog infohock1.prg~
+|
+#10027
+drunk orc~
+a drunken orc~
+A fat, loud drunken orc snarls at you.
+~
+You see nothing special.~
+bdf 0 0 S
+12 19 47 1d1+80 3d4+10
+300 4000
+8 8 1
+#10028
+drunk sessanathi lizard man~
+a drunken sessanathi~
+A strange half-man, half-lizard staggers around swearing in his language.
+~
+You see nothing special.~
+bdf 0 0 S
+12 19 10 1d1+80 3d4+10
+300 4000
+8 8 1
+#10029
+drunk hobgoblin~
+a drunken hobgoblin~
+A fat hobgoblin stands up and drools at a whore.
+~
+You see nothing special.~
+bdf 0 0 S
+12 19 5 1d1+80 3d4+10
+300 4000
+8 8 1
+#10030
+whore minotaur~
+a huge minotaur whore~
+A huge whore with the legs of a human and the head of a bull walks around.
+~
+She could be beautiful to some...
+There is a tattoo on her butt:
+
+Kaeliss was here...a lot!
+~
+bd 0 0 S
+12 16 0 1d1+70 1d10+5
+5000 3000
+8 8 2
+#10031
+bartender orcmane merl~
+Merl Orcmane, The Bartender~
+Merl Orcmane is behind the bar wiping down dirt encrusted tankards.
+~
+He is a big man with a big frown.  Two large pointed teeth poke up
+from his lower lip.  You don't want to fuck with him.
+~
+bdq hr 0 S
+45 0 45 1d1+28000 1d1+80
+800000 200000
+8 8 1
+#10032
+halfelf elf half shopkeeper arelen~
+Arelen the Shopkeeper~
+A sullen man stands behind a counter displaying his wares.
+~
+Arelen has been the proprietor of the Cloak & Dagger Shop for ages.
+No one messes with him for they know he has strong ties to Jarr.
+~
+bde dhr -1000 S
+45 1 66 1d1+25000 3d10+60
+200 200000
+8 8 1
+#10033
+bartender minotaur bareg~
+Bareg the Bartender~
+A very large minotaur stands behind the bar smoking cheroots.
+~
+Bareg seems to not care about too much.  His deep red eyes glare at
+everything that happens in the room.  A large ring is pierced into his
+nose making his bull-like physique even more so.
+~
+bdel r 0 S
+45 1 88 1d1+25000 1d1+90
+50000 80000
+8 8 1
+$~

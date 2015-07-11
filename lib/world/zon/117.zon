@@ -1,0 +1,14 @@
+#117
+Rhaylinne Tower~
+Kirahn~
+High~
+3001 1
+11799 24 2
+*
+* Last Updated: Fri Oct 18 08:56:13 
+*           By: Kirahn
+*
+D 0 11731 1 1 100 		* Close Eastern door at A storeroom
+D 0 11732 3 1 100 		* Close Eastern door at Western Hallway in the Tower
+S
+$~

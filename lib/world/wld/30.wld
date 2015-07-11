@@ -1,0 +1,4571 @@
+#3000
+Outside the Northern Gate of Elrhinn~
+   To the south lies the Elrhinn Township, one of the larger towns on
+this continent.  It is reknowned for its merchants who bring valuables
+from all over the Dominion to sell and trade.  You see some figures
+standing around the city gate to the south, and a large iron portcullis
+hangs from the gate.
+~
+30 0 2
+D0
+~
+~
+0 -1 3095
+D2
+~
+portcullis port~
+1 -1 3001
+S
+#3001
+Inside the Northern Gate of Elrhinn~
+   Rising up before you is a huge iron portcullis, decorated with the
+seal of the township of Elrhinn.  To either side of the gate are the
+sturdy town walls, formed centuries ago to protect the town from unwanted
+invasion.
+~
+30 d 0
+D0
+~
+port portcullis~
+1 -1 3000
+D2
+~
+~
+0 -1 3005
+E
+gate seal~
+The seal of Elrhinn is emblazoned upon the gate.  It is a large golden shield
+with rays of light shining from to every angle.
+~
+S
+#3002
+The West End of Northwall Road~
+   This is the Northwestern corner of the city.  Northwall Road continues
+to the east while Westwall Road leads south.  The tall city walls obscure
+you view to the north and west.
+~
+30 0 1
+D1
+~
+~
+0 -1 3003
+D2
+~
+~
+0 -1 3012
+S
+#3003
+Western Northwall Road~
+   Northwall Road runs east and west along the inside of the city wall.
+You see a turn in the road to the west and far off to the east you
+can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 n 1
+D1
+~
+~
+0 -1 3004
+D2
+~
+door~
+1 0 3106
+D3
+~
+~
+0 -1 3002
+S
+#3004
+Western Northwall Road~
+   Northwall Road runs east and west along the inside of the city wall.
+You see a turn in the road far off to the west and to the east you
+can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 n 1
+D1
+~
+~
+0 -1 3005
+D2
+~
+~
+0 0 3107
+D3
+~
+~
+0 -1 3003
+S
+#3005
+Northwall Road~
+   You are on a road that runs east and west.  To your north you view
+the town gate, to your south the courtyard.  Merchants flood the streets
+each day, using this well travelled path.
+~
+30 0 1
+D0
+~
+~
+0 -1 3001
+D1
+~
+~
+0 -1 3006
+D2
+~
+~
+0 -1 3018
+D3
+~
+~
+0 -1 3004
+S
+#3006
+Eastern Northwall Road~
+   Northwall Road runs east and west along the inside of the city wall.
+You see a turn in the road far off to the east and close by to the west
+you can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 n 1
+D1
+~
+~
+0 -1 3007
+D2
+~
+~
+0 0 3112
+D3
+~
+~
+0 -1 3005
+S
+#3007
+Eastern Northwall Road~
+   Northwall Road runs east and west along the inside of the city wall.
+You see a turn in the road close by to the east and off to the west you
+can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 n 1
+D1
+~
+~
+0 -1 3008
+D2
+~
+~
+0 0 3113
+D3
+~
+~
+0 -1 3006
+S
+#3008
+The East End of Northwall Road~
+   This is the Northeastern corner of the city.  Northwall Road continues
+to the west while Eastwall Road leads south.  The tall city walls obscure
+you view to the north and east.
+~
+30 0 1
+D2
+~
+~
+0 -1 3013
+D3
+~
+~
+0 -1 3007
+S
+#3009
+Jynnah's Grocer~
+     As you enter this shop, you are overcome with the smell of fresh
+baked goods.  Jynnah smiles at you from behind the stove, and continues
+to prepare her food.
+~
+30 det 0
+D1
+~
+door east~
+1 -1 3010
+S
+#3010
+The End of Dalkyst Road~
+   The road ends here at the enterance to two buildings.  To the west you
+see a small shop bearing a sign that reads, "Jynnah's Grocery". To the
+east lies the Dalkyst Inn.
+~
+30 0 1
+D1
+~
+door east~
+1 -1 3011
+D2
+~
+door~
+0 -1 3020
+D3
+~
+door west~
+1 -1 3009
+S
+#3011
+The Meeting Room of Dalkyst Inn~
+   This room is furnished with seveal round tables, thick fur rugs and
+many chairs have been set out in no discernable order.  The fire in the
+hearth looks warm and inviting.  An old wooden staircase leads up to the
+guest rooms.
+~
+30 det 1
+D3
+~
+door~
+1 -1 3010
+D4
+~
+~
+0 -1 3088
+S
+#3012
+Northern Westwall Road~
+   Westwall Road runs north and south along the inside of the city wall.
+You see a turn in the road close by to the north and far off to the south
+you can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 n 1
+D0
+~
+~
+0 -1 3002
+D1
+~
+door~
+1 -1 3130
+D2
+~
+~
+0 -1 3022
+S
+#3013
+Northern Eastwall Road~
+   Eastwall Road runs north and south along the inside of the city wall.
+You see a turn in the road close by to the north and far off to the south
+you can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 0 1
+D0
+~
+~
+0 -1 3008
+D2
+~
+~
+0 -1 3023
+S
+#3014
+The Sacristy~
+   The room is quite plain and simple.  A chair and a desk with papers
+and books strewn atop it is pushed into the northern corner of the room.
+A single white robe is hanging upon a hook beside the desk.  There is
+a doorway cut into the eastern wall leading out of the sacristy.
+~
+30 det 0
+D1
+~
+door~
+1 -1 3015
+S
+#3015
+The Altar~
+   A large, plain marble altar sits on a small step.  A few chairs are
+to either side and behind the altar.  Off to the east are several aisles
+of pews and to the west is a large wall.  To the west behind the altar is
+a small door that leads to the sacristy.
+~
+30 der 0
+D1
+~
+~
+0 -1 3016
+D3
+~
+door~
+1 -1 3014
+S
+#3016
+The Aisle of Pews~
+   On either side of you are wooden pews with small mats before them
+for kneeling upon.  Red colored stained glass windows dot the walls of
+the church.  To the east is the entrance foyer and to the west is a small
+aisle leading towards the altar.
+~
+30 der 0
+D1
+~
+~
+0 -1 3017
+D3
+~
+~
+0 -1 3015
+S
+#3017
+Entrance to the Elrhinn Church~
+   You stand within the foyer of the old church of Elrhinn.  Pews lead
+off to the west all the way towards a marble altar at the front of the
+church.
+~
+30 det 0
+D1
+~
+door~
+1 -1 3096
+D3
+~
+~
+0 -1 3016
+S
+#3018
+Dalkyst Road~
+   As you walk down the road, you can hear the chatter of many people.
+Obviously this is a well populated part of the town.  The road continues
+east for several blocks.  The tall spires of the church of Elrhinn rise
+above you to the west.
+~
+30 0 1
+D0
+~
+~
+0 -1 3005
+D1
+~
+~
+0 -1 3019
+D2
+~
+~
+0 -1 3027
+D3
+~
+gate church~
+1 0 3096
+S
+#3019
+Dalkyst Road~
+   As you walk down the road, you can hear the chatter of many people.
+Obviously this is a well populated part of the town.  The road continues
+east for another block and ends in a small building.  You see the church
+off to the west.
+~
+30 0 1
+D1
+~
+~
+0 -1 3020
+D3
+~
+~
+0 -1 3018
+S
+#3020
+Dalkyst Road~
+   You walk down a well travelled road, leading to a group of buildings in
+the east.  The smell of fresh food drifts past you, delighting your senses.
+As you continue down the road you come to a small building.  A sign above the
+door reads, "Sajah's Common Goods".  Dalkyst Road makes a turn to the north
+here, leading to more businesses.
+~
+30 0 1
+D0
+~
+~
+0 0 3010
+D1
+~
+door shop~
+1 0 3021
+D2
+~
+door shop~
+1 0 3101
+D3
+~
+~
+0 -1 3019
+S
+#3021
+Shop of Common Goods~
+     You have entered a quaint shop, and are greeted by a friendly shopkeeper.
+The shelves are lined with everyday items, from such things as leather bags,
+to canteens and lanterns.
+~
+30 det 0
+D3
+~
+door~
+1 0 3020
+S
+#3022
+Northern Westwall Road~
+   Westwall Road runs north and south along the inside of the city wall.
+You see a turn in the road off to the north and close by to the south
+you can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 0 1
+D0
+~
+~
+0 -1 3012
+D2
+~
+~
+0 -1 3035
+S
+#3023
+Northern Eastwall Road~
+   Eastwall Road runs north and south along the inside of the city wall.
+You see a turn in the road off to the north and close by to the south
+you can see the city gates.  The tall city wall obscures your view to the
+north.
+~
+30 0 1
+D0
+~
+~
+0 -1 3013
+D2
+~
+~
+0 -1 3046
+S
+#3024
+Elrhinn Smithy~
+    Armors formed from various materials adorn the walls of this building,
+ranging from very fine hand crafted steel to common leather.  Smoke fills the
+room as the blacksmith's stove heats up, preparing itself to be used again.
+~
+30 det 0
+D2
+~
+door~
+1 -1 3036
+S
+#3025
+Elrhinn Arms~
+    As you enter the store you are blinded by the glinting metal that hangs
+from the buildings walls.  Weapons of all shapes and sizes are here, either
+being worked on or sold.  The store owner walks about busily, trying to get
+his weapons prepared for retail.
+~
+30 det 0
+D2
+~
+door~
+1 -1 3037
+S
+#3026
+Northwestern Courtyard of Elrhinn~
+   The courtyard lies sprawled out to the southeast, this corner is
+general occupied by travelling merchants selling their wares in wooden
+carts.  The main stores of Elrhinn are south then west of here.
+~
+30 g 1
+D1
+~
+~
+0 -1 3027
+D2
+~
+~
+0 -1 3038
+D8
+~
+~
+0 -1 3039
+S
+#3027
+Northern Courtyard of Elrhinn~
+   The courtyard continues primarily to the south, east and west.  Far
+off to the north you can see the city gates of Elrhinn, and to the south
+lies the main square of Elrhinn.
+~
+30 0 1
+D0
+~
+~
+0 -1 3018
+D1
+~
+~
+0 -1 3028
+D2
+~
+~
+0 -1 3039
+D3
+~
+~
+0 -1 3026
+S
+#3028
+Northeastern Courtyard of Elrhinn~
+   The courtyard lies sprawled out to the southwest, this corner is
+general occupied by travelling merchants selling their wares right off
+their pack animals.  To the southeast you can see the large city hall
+and the barracks of the city guardsmen.
+~
+30 0 1
+D2
+~
+~
+0 0 5699
+D3
+~
+~
+0 -1 3027
+D9
+~
+~
+0 -1 3039
+S
+#3029
+Inside City Hall~
+   This is the northern corridor of the Elrhinn City Hall, to the east
+is the barracks of the city guardsmen, and the office of the captain of
+the city guard.  To the south is the main foyer, and far off to the
+south you see the entrance to the mayor's office.
+~
+30 de 0
+D1
+~
+door east~
+1 -1 3030
+D2
+~
+~
+0 -1 3042
+S
+#3030
+Barracks~
+   These are the living quarters of the city guardsmen of Elrhinn.  This
+room is very spartanly furnished, with single beds placed along the
+northern wall in perfect rows.  Through the doorway to the west is the
+northern hallway, while the barracks continue to the south and east.
+~
+30 de 0
+D1
+~
+~
+0 -1 3031
+D2
+~
+~
+0 -1 3043
+D3
+~
+door west~
+1 -1 3029
+S
+#3031
+Barracks~
+   These are the living quarters of the city guardsmen of Elrhinn.  This
+room is very spartanly furnished, with single beds placed along the
+northern wall in perfect rows.  Through the doorway to the east is the
+office of the captain of the city guard while the barracks continue to
+the south and west.
+~
+30 de 0
+D1
+~
+door east~
+1 -1 3032
+D2
+~
+~
+0 -1 3044
+D3
+~
+~
+0 -1 3030
+S
+#3032
+The Captain's Office~
+   This is the office of the captain of the city guardsmen.  A huge desk
+made of polished mahogony has been placed facing the doorway.  Various
+implements of war are hung on the eastern wall behind the desk.  A trophy
+case is located along the southern wall, and contained with in are numerous
+trophies for the captain's unmatched skill in combat.
+~
+30 det 0
+D3
+~
+door~
+1 -1 3031
+S
+#3033
+Outside the Western Gate of Elrhinn~
+   To the east lies the Elrhinn Township, one of the larger towns on
+this continent.  It is renowned for its merchants who bring valuables
+from all over the Dominion to sell and trade.  You see some figures
+standing around the city gate to the east, and a large iron portcullis
+hangs from the gate.
+~
+30 0 2
+D1
+~
+portcullis port~
+1 -1 3034
+D3
+To the west you see a small road leading to a dark forest.
+~
+~
+0 -1 32634
+S
+#3034
+Inside the Western Gate~
+   Rising up before you is a huge iron portcullis, decorated with the
+seal of the township of Elrhinn.  To either side of the gate are the
+sturdy town walls, formed centuries ago to protect the town from unwanted
+invasion.
+~
+30 dt 0
+D1
+~
+~
+0 -1 3035
+D3
+~
+portcullis port~
+1 -1 3033
+S
+#3035
+Westwall Road~
+   You are on a road that runs north and south.  To your west lies the
+town gate, far off to the east the courtyard.  Merchants flood the streets
+each day, using this well travelled path.
+~
+30 0 1
+D0
+~
+~
+0 -1 3022
+D1
+~
+~
+0 -1 3036
+D2
+~
+~
+0 -1 3058
+D3
+~
+~
+0 -1 3034
+S
+#3036
+Forrin Road~
+   You stand between two shops on either side of the road.  To the east,
+Forrin Road continues towards the great square of Elrhinn.  Forrin Road
+also leads west towards the Western Gates.  Behind wooden doors on either
+side of the road are low buildings.
+~
+30 0 1
+D0
+~
+~
+0 0 3024
+D1
+~
+~
+0 -1 3037
+D2
+~
+~
+0 0 3049
+D3
+~
+~
+0 -1 3035
+E
+suckthispinko~
+FUCK YOU
+~
+S
+#3037
+Forrin Road~
+   Just to the east you see the large Square of Elrhinn open up, bustling
+with activity.  To the north and south sit two small shops behind wooden 
+doors, both ringing with noise.  To the west you see the road lead off 
+between shops towards the western gates.
+~
+30 0 1
+D0
+~
+~
+0 0 3025
+D1
+~
+~
+0 -1 3038
+D2
+~
+~
+0 0 3051
+D3
+~
+~
+0 -1 3036
+E
+kevin~
+god he;s so sexy
+~
+S
+#3038
+Western Courtyard of Elrhinn~
+   The courtyard lies sprawled out to the east, the road to the west
+is lined with large shops.  The main square lies to the east and
+beyond that you can see Elrhinn City Hall.
+~
+30 0 1
+D0
+~
+~
+0 -1 3026
+D1
+~
+~
+0 -1 3039
+D2
+~
+~
+0 -1 3053
+D3
+~
+~
+0 -1 3037
+S
+#3039
+The Courtyard of Elrhinn~
+   You stand in the center of a marvelous courtyard, containing a statue
+formed by the hands of Elrhinn's greatest artisians.  Citizens of Elrhinn
+pass through this common place day in and day out.  The courtyard extends
+in every direction, and off to the west a you see a busy marketplace.
+North of here is a gate leading out of the town, to the east you see a
+large building marked City Hall.
+~
+30 ces 1
+D0
+~
+~
+0 -1 3027
+D1
+~
+~
+0 -1 5699
+D2
+~
+~
+0 -1 3054
+D3
+~
+~
+0 -1 3038
+D4
+~
+~
+0 0 3199
+D6
+~
+~
+0 -1 3028
+D7
+~
+~
+0 -1 3026
+D8
+~
+~
+0 -1 3053
+D9
+~
+~
+0 -1 3055
+E
+statue statues~
+   The statue is a depiction of the High God of the Arcane - for when
+Landrin came to The Dominion, he brought with him this gift, The
+Township Of Elrhinn.
+~
+S
+#3040
+Eastern Courtyard of Elrhinn~
+   The courtyard lies sprawled out to the west, engraved into the
+building to the east are the words 'Elrhinn City Hall'.  Far off to
+the west you see the busy marketplace.
+~
+30 c 1
+S
+#3041
+The Entrance to City Hall~
+   This is the entrace to city hall, the door to the east leads inside
+while the courtyard lies to the west.  Above the door the words,
+'Elrhinn City Hall' are engraved into the granite, and to the left of
+the entrance is a plaque with the mayor's name upon it.
+~
+30 e 1
+D0
+~
+~
+0 0 5801
+D1
+~
+door east~
+1 -1 3042
+D3
+~
+~
+0 -1 5699
+E
+plaque~
+
+   The plaque reads, in honor of our great mayor, ?, the citizens of
+   Elrhinn have donated our time and effort to constructing this hall.
+
+~
+S
+#3042
+The Main Foyer~
+   The floor here is made of a bluish marble that is quite slippery.
+The mayor's office is toward the south and the hallway to the north
+leads to the city guardsmen's head-quarters.
+~
+30 de 0
+D0
+~
+~
+0 -1 3029
+D1
+~
+~
+0 -1 3092
+D2
+~
+~
+0 -1 3056
+D3
+~
+door west~
+1 -1 3041
+S
+#3043
+Barracks~
+   These are the living quarters of the city guardsmen of Elrhinn.  This
+room is very spartanly furnished, with single beds placed along the
+northern wall in perfect rows.  To the north is the entrance to the barracks,
+while the barracks continue to the west.
+~
+30 de 0
+D0
+~
+~
+0 -1 3030
+D1
+~
+~
+0 -1 3044
+S
+#3044
+Barracks~
+   These are the living quarters of the city guardsmen of Elrhinn.  This
+room is very spartanly furnished, with single beds placed along the
+northern wall in perfect rows.  Through the doorway to the east is a
+storeroom, while the barracks continue to the east and north.
+~
+30 de 0
+D0
+~
+~
+0 -1 3031
+D1
+~
+door east~
+1 -1 3045
+D2
+~
+~
+1 0 19034
+D3
+~
+~
+0 -1 3043
+S
+#3045
+City Guard Storeroom~
+   This guardsmen use this room to store any excess items they own, the
+citizens of Elrhinn also donate items to this storeroom and as such the
+guardsmen allow needy citizens to take from this room as needed.
+~
+30 dejlmt 0
+D1
+~
+~
+1 -1 3100
+D3
+~
+door west~
+1 -1 3044
+S
+#3046
+Eastwall Road~
+   To your east lies the town gate, Eastwall Road continues to the north
+and south.  The back of City Hall is to the west, but there seems to be
+no entrance from this side.
+~
+30 0 1
+D0
+~
+~
+0 -1 3023
+D1
+~
+~
+0 -1 3047
+D2
+~
+~
+0 -1 3059
+S
+#3047
+Inside the Eastern Gate~
+   Rising up before you is a huge iron portcullis, decorated with the
+seal of the township of Elrhinn.  To either side of the gate are the
+sturdy town walls, formed centuries ago to protect the town from unwanted
+invasion.
+~
+30 det 0
+D1
+~
+port portcullis~
+1 -1 3048
+D3
+~
+~
+0 -1 3046
+S
+#3048
+Outside the Eastern Gate of Elrhinn~
+   To the west lies the Elrhinn Township, one of the larger towns on
+this continent.  It is reknowned for its merchants who bring valuables
+from all over the Dominion to sell and trade.  You see some figures
+standing around the city gate to the west, and a large iron portcullis
+hangs from the gate.
+~
+30 0 2
+D1
+To the east you see the outskirts of the town.
+~
+~
+0 -1 19035
+D3
+You see the large city gates to the west.
+~
+portcullis port~
+1 -1 3047
+S
+#3049
+Mybius' Mystical Maps~
+    You have entered a small shop, with a huge political map of what looks
+to be the south east portion of the Dominion is nailed to a wall.  Smaller
+versions of the map are stacked on a counter top in the center of the
+room.  The shopkeeper looks at you, rather intently, as a scientist would
+study their subject.
+~
+30 det 0
+D0
+~
+door north~
+1 -1 3036
+S
+#3050
+Elrhinn Magic Shop~
+    Magical artifacts of all kinds can be found here, amoung various other
+common magical items.  Owned by the wizards of Elrhinn, this shop is a way
+in which they make money to conduct experiments in the ever expanding field
+of their arcane art.
+~
+30 det 0
+D2
+~
+door south~
+1 -1 3060
+S
+#3051
+The Repair Smithy~
+   The low, heat filled building has armor, swords, knives, and even
+cooking pots and other household utinsels scattered haphazardly all over
+the shop.  The wall opposite the doorway in the north wall is made of red
+brick and radiates the heat of the forge everywhere within the shop.
+~
+30 det 0
+D0
+~
+door north~
+1 -1 3037
+S
+#3052
+Shop of Healing~
+   As you enter this small shop the sweet smell of spices assaults your
+senses.  Run by the cleric's of Elrhinn this shop produces healing potions
+and various elixirs and salves.
+~
+30 det 0
+D2
+~
+door south~
+1 -1 3061
+S
+#3053
+Southwestern Courtyard of Elrhinn~
+   The courtyard lies sprawled out to the northeast, this corner is
+general occupied by travelling merchants selling their wares in wooden
+carts.  The main stores of Elrhinn are north then west of here.
+~
+30 0 1
+D0
+~
+~
+0 -1 3038
+D1
+~
+~
+0 -1 3054
+D6
+~
+~
+0 -1 3039
+S
+#3054
+Southern Courtyard of Elrhinn~
+   The courtyard continues primarily to the north, and the east and west.
+Far off to the north you can see the city gates of Elrhinn, and to the
+south a road leads toward the sacred grove.
+~
+30 0 1
+D0
+~
+~
+0 -1 3039
+D1
+~
+~
+0 -1 3055
+D2
+~
+~
+0 -1 3062
+D3
+~
+~
+0 -1 3053
+S
+#3055
+Southeastern Courtyard~
+   The courtyard lies sprawled out to the northwest, this corner is
+general occupied by travelling merchants selling their wares in wooden
+carts.  To the northwest lies a large building marked city hall.
+~
+30 0 1
+D0
+~
+~
+0 0 5699
+D3
+~
+~
+0 -1 3054
+D7
+~
+~
+0 -1 3039
+S
+#3056
+Entrance to the Template's Chambers~
+   To the east is a door set into the wall with a plaque over it
+reading "Office of the Template".  A desk is pushed against the southern
+wall of this small office, cluttered with bureaucratic paraphinalia.
+To the north, you see the main foyer of the Town Hall.
+~
+30 de 0
+D0
+~
+~
+0 -1 3042
+D1
+~
+door east~
+1 -1 3057
+S
+#3057
+Chambers of the Template of Elrhinn~
+   This room is lavishly furnished with plush chairs and a sofa for the
+Template's visitors, a large mahogony desk and matching mahogony chair
+have been placed across from them for the Template.  Several book cases
+line the walls filled with tomes containing the statutes of Elrhinn and
+many others on the affairs of man, particularly politics and religion.
+~
+30 der 0
+D3
+~
+door west~
+1 -1 3056
+S
+#3058
+Southern Westwall Road~
+   Westwall Road runs north and south along the inside of the city wall.
+You see a the docks of Elrhinn far off to the south and close by to the
+north you can see the city gates.  The tall city wall obscures your view
+to the west.
+~
+30 n 1
+D0
+~
+~
+0 -1 3035
+D1
+~
+~
+0 0 3111
+D2
+~
+~
+0 -1 3065
+S
+#3059
+Southern Eastwall Road~
+   Eastwall Road runs north and south along the inside of the city wall.
+You see a turn in the road far off to the south and close by to the
+north lie the city gates.  The tall city wall obscures your view
+to the east.
+~
+30 0 1
+D0
+~
+~
+0 -1 3046
+D2
+~
+~
+0 -1 3071
+S
+#3060
+End of Silverstream Way~
+    You are standing at the western end of Silverstream Way.  To the
+east, you see the road cut betweem two rows of shops on either side of
+the road.  To the north, there's a shop with a sign hung above the 
+doorway and to the south looks to be a guildhouse of some sorts.
+~
+30 0 1
+D0
+You see the Magic Shop to the north.
+~
+door north~
+1 -1 3050
+D1
+~
+~
+0 -1 3061
+D2
+~
+~
+0 0 19041
+E
+sign~
+The sign reads:
+
+    The Silver Wand Magic Shop
+~
+S
+#3061
+Silverstream Way~
+   Silverstream Way continues to the east and west between quaint shops
+on either side of the road.  To the west however, you see the road stop
+short before a large, red brick wall.  To the north and south you see
+shops.
+~
+30 0 1
+D0
+You see the Shop of Healing to the north.
+~
+door north~
+1 -1 3052
+D1
+~
+~
+0 -1 3062
+D2
+~
+door south~
+1 -1 3066
+D3
+~
+~
+0 -1 3060
+E
+road~
+the road looks quite nice actually
+~
+S
+#3062
+Silverstream Way~
+   Just to the north lies the Southern section of the square of Elrhinn.
+To the south you see a thick green forest, the Sacred Forest.  To the
+east is a small alcove with a single tree in the middle with benches 
+surrounding it.  To the west, the road leads off between small, quaint 
+shops.
+~
+30 0 1
+D0
+~
+~
+0 -1 3054
+D1
+~
+~
+0 -1 3063
+D2
+~
+~
+0 -1 3067
+D3
+~
+~
+0 -1 3061
+S
+#3063
+A small alcove~
+   In the middle of the quiet alcove grows a large green tree.  A wooden
+fence surrounds it with dark green grass surrounding that.  Surrounding
+the alcove is a red brick wall.  To the west, through a small archway in
+the brick wall, Silverstream Way leads off.
+~
+30 n 1
+D0
+~
+door~
+1 0 3120
+D2
+~
+door~
+1 0 3121
+D3
+~
+~
+0 -1 3062
+S
+#3064
+Before the Tower~
+   A large tower rises up from the ground here high into the sky.
+~
+30 0 2
+D1
+~
+door east~
+1 -1 3089
+D3
+~
+~
+0 -1 3070
+S
+#3065
+Southern Westwall Road~
+   Westwall Road runs north and south along the inside of the city wall.
+You see a the docks of Elrhinn far off to the south and off to the north
+you can see the city gates.  The tall city wall obscures your view to
+the west.
+~
+30 0 1
+D0
+~
+~
+0 -1 3058
+D2
+~
+~
+0 -1 3082
+S
+#3066
+Elrhinn Money Exchange Guild~
+   The bank is very drab and is not very exciting.  On the eastern wall
+is a picture depicting a the bust of a gnome with an intelligent smirk
+on his face.  Upon the counter is a sign.
+~
+30 det 0
+D0
+~
+door north~
+1 -1 3061
+E
+sign counter~
+To use my services just consicely as you can, tell me what you need.
+You may check your balance, makes deposits and of course, make deposits.
+Thanks You!
+~
+S
+#3067
+Entrance to the Sacred Grove~
+   As you enter this vale you feel a great presence surrounds you as if
+you were being watched from somewhere in the distance.  Magical light
+dances from behind the trees, making the forest seemingly come to life.
+The path continues to the east and south, to the north lies the town
+courtyard.
+~
+30 0 2
+D0
+~
+~
+0 -1 3062
+D1
+~
+~
+0 -1 3068
+D2
+~
+~
+0 -1 3074
+S
+#3068
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+south and east the forest path continues.
+~
+30 0 2
+D1
+~
+~
+0 -1 3069
+D2
+~
+~
+0 -1 3075
+D3
+~
+~
+0 -1 3067
+S
+#3069
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+south and east the forest path continues.
+~
+30 0 2
+D1
+~
+~
+0 -1 3070
+D2
+~
+~
+0 -1 3076
+D3
+~
+~
+0 -1 3068
+S
+#3070
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+south and east the forest path continues.
+~
+30 0 2
+D1
+~
+~
+0 -1 3064
+D2
+~
+~
+0 -1 3077
+D3
+~
+~
+0 -1 3069
+S
+#3071
+Southern Eastwall Road~
+   Eastwall Road runs north and south along the inside of the city wall.
+You see a bend in the road far off to the south and off to the north
+you can see the city gates.  The tall city wall obscures your view to
+the west.
+~
+30 n 1
+D0
+~
+~
+0 -1 3059
+D2
+~
+~
+0 -1 3086
+D3
+~
+door~
+1 0 3126
+S
+#3072
+The End of Dagger Lane~
+   This dark road appears to have come to an abrupt end.  Dagger Lane
+winds it way back out of this corner to the south, and the door to the
+Grog and Tankard hangs limply from its hinges to the east.
+~
+30 0 1
+D1
+~
+door east~
+1 -1 3073
+D2
+~
+~
+0 -1 3083
+S
+#3073
+The Grog and Tankard~
+   The lighting in here is very poor, though you can make out several
+people hanging about the bar talking in whispers.  Along the western
+wall of the tavern several booths contain others who look up from their
+meals at you with angry sneers.
+~
+30 d 0
+D0
+~
+door~
+1 0 1878
+D3
+~
+door west~
+1 -1 3072
+D5
+You see a bump beneath the worn rug.
+~
+trapdoor down~
+1 -1 3079
+S
+#3074
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+north and east the forest path continues.
+~
+30 0 2
+D0
+~
+~
+0 -1 3067
+D1
+~
+~
+0 -1 3075
+S
+#3075
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+north and east the forest path continues.
+~
+30 0 2
+D0
+~
+~
+0 -1 3068
+D1
+~
+~
+0 -1 3076
+D3
+~
+~
+0 -1 3074
+S
+#3076
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+north and east the forest path continues.
+~
+30 0 2
+D0
+~
+~
+0 -1 3069
+D1
+~
+~
+0 -1 3077
+D3
+~
+~
+0 -1 3075
+S
+#3077
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+north and east the forest path continues.
+~
+30 0 2
+D0
+~
+~
+0 -1 3070
+D1
+~
+~
+0 -1 3078
+D3
+~
+~
+0 -1 3076
+S
+#3078
+The Sacred Grove~
+   Following the dusty path, you see that the trees seem to part for you,
+sensing that you pose no immediate threat. The forest becomes lighter here
+and to your east you see a tower of some sort.  Men and women dressed in
+long robes walk about, intent on their own private conversations.  To the
+north and west the forest path continues.
+~
+30 n 2
+D2
+~
+door~
+1 0 3131
+D3
+~
+~
+0 -1 3077
+S
+#3079
+Beneath the Grog and Tankard~
+   This room is filled with hueg barrels of ale and wine.  You glimpse some
+light peering out from behind one of the barrels.
+~
+30 d 0
+D0
+~
+~
+0 0 1878
+D1
+~
+door east~
+1 -1 3080
+D4
+~
+trapdoor up~
+1 -1 3073
+S
+#3080
+Atharian Hideout~
+   There are barrels closed and tightly tied together along every wall.
+Upon one of the barrels in the eastern corner of the room is a book,
+opened to a specific page.  To the west you see a door leading out of
+the hideout.
+~
+30 det 0
+D3
+~
+door west~
+1 -1 3079
+E
+book~
+   At the top of the page is a strange symbol depicting a black snake.
+Below that is a page filled with writings, supposedly written by the
+founders of the Guild.
+
+   We, The Athar, are a secret establishment founded on the belief that
+'Anything you need can be bought with the right amount of prodding.'
+The Brotherhood can never be extinghuished if it protects its own;
+over its god, family, even money.  The world is a dangerous place
+where one must either:
+1.  watch his or her back every moment.
+~
+S
+#3081
+House of the Sage~
+   The room is fairly non descript save for two shelves of books facing
+opposite from each other on the northern and southern walls of the room.
+A straw mat lying in the center of the room covers the hard wood floor.
+To the east is a doorway leading back out to the streets of Elrhinn.
+~
+30 det 0
+D1
+~
+door east~
+1 -1 3082
+E
+book books bookshelves~
+   Almost all of the books on the shelves are so old and faded that the
+titles are illegible or are in some unknown, forgotten runes.
+~
+S
+#3082
+The West End of Southwall Road~
+   This is the Southwestern corner of the city.  Southwall Road continues
+to the east while Westwall Road leads north.  The tall city walls obscure
+you view to the west and the docks lies to the south.
+~
+30 0 1
+D0
+~
+~
+0 -1 3065
+D1
+~
+~
+0 -1 3083
+D2
+~
+~
+0 -1 3087
+D3
+~
+door west~
+1 -1 3081
+S
+#3083
+Western Southwall Road~
+   Southwall Road runs east and west along the inside of the city wall.
+You see a turn in the road far off to the west and close by to the east
+you can see the city gates.  The tall city wall obscures your view to the
+south.
+~
+30 0 1
+D0
+~
+~
+0 -1 3072
+D1
+~
+~
+0 -1 3084
+D3
+~
+~
+0 -1 3082
+S
+#3084
+Southwall Road~
+   You are on a road that runs east and west.  To your south lies the
+town's southern gates, and beyond that the Hallows of Darkweir.  Merchants
+flood the streets each day, using this well trodden walkway.
+~
+30 s 1
+D1
+~
+~
+0 -1 3085
+D2
+~
+portcullis~
+1 -1 3093
+D3
+~
+~
+0 -1 3083
+S
+#3085
+Eastern Southwall Road~
+   Southwall Road runs east and west along the inside of the city wall.
+You see a turn in the road to the far off to the east and close by to
+the west you can see the city gates.  The tall city wall obscures your
+view to the south.
+~
+30 n 1
+D0
+To the north you see a house.  A strange unseen barrier prevents anyone
+except the owner and his or her guests from entering.
+~
+~
+0 0 3104
+D1
+~
+~
+0 -1 3086
+D3
+~
+~
+0 -1 3084
+S
+#3086
+The East End of Southwall Road~
+   This is the Southeastern corner of the city.  Southwall Road continues
+to the east while Eastwall Road leads south.  The tall city walls obscure
+you view to the south and east.
+~
+30 0 1
+D0
+~
+~
+0 -1 3071
+D3
+~
+~
+0 -1 3085
+D5
+~
+cornerstone~
+1 0 41164
+S
+#3087
+Southern Docks of Elrhinn~
+   You have come upon a large river running along side a group of wooden
+docks.  Boats arrive and depart the Town of Elrhinn carrying both goods
+and passengers daily.  A large man selling boats stands upon the main
+dock, yelling obscenites at his dockworkers for what he calls, "Being
+slower than a mules ass."
+~
+30 e 1
+D0
+~
+~
+0 -1 3082
+D2
+~
+~
+0 0 20002
+S
+#3088
+Dalkyst Inn~
+   The hallway here leads to many rooms, from which you can hear the
+sounds of people talking, sleeping, and engaging in various other
+activities.  There seem to be a few rooms left for tired adventurers
+further down the hall.
+~
+30 der 0
+D5
+~
+~
+0 -1 3011
+S
+#3089
+Inside the Tower of Magus~
+   You stand within a circular shaped tower with a stairway winding up
+along the walls to another level.  The ceiling is adorned with wooden 
+rafters.  Along the walls you see torches flickering brightly, illuminating
+the tower well.
+~
+30 det 1
+D3
+~
+door west~
+1 -1 3064
+D4
+~
+~
+0 -1 3090
+E
+torches~
+The are pretty darn bright.
+~
+S
+#3090
+Magus' Laboratory~
+   The laboratory consists of a desk, three large wall to wall shelves,
+and a globe.  The desk is strewn with parchments and scrolls and pens.
+There is nothing really fascinating or magical about the room at first
+look.  Then you notice that the globe constantly spins without any gears
+turning it.  In the corner of the room you see a staircase wind down
+alongside the curved walls of the tower.
+~
+30 der 1
+D5
+~
+~
+0 -1 3089
+E
+globe~
+The globe slowly spins, showing all sides of the Dominion.
+~
+S
+#3091
+The Mail Exchange of Elrhinn~
+   The Mail Exchange is a very boring place.  Folk stand idly about
+waiting to send their mail with the Postmaster.  Upon the wall is
+a Wanted poster.  Down the hall to the west you see the Meeting Room.
+~
+30 det 0
+D3
+~
+door west~
+1 -1 3092
+S
+#3092
+The Gathering Room~
+   There is a large table in the center of the room with stone benches
+fixed to the floor surrounding it.  To the west, a short hallway will
+take you to the main foyer of the Town Hall.  To the east, down the
+hallway a short ways you see the Mail Exchange.
+~
+30 dest 0
+D1
+You see the entrance to the Post Office to the east.
+~
+door east~
+1 -1 3091
+D3
+~
+~
+0 -1 3042
+D4
+~
+~
+0 0 3100
+S
+#3093
+Inside the Southern Gate of Elrhinn~
+   Rising up before you is a huge iron portcullis, decorated with the
+seal of the township of Elrhinn.  To either side of the gate are the
+sturdy town walls, formed centuries ago to protect the town from unwanted
+invasion.
+~
+30 d 0
+D0
+~
+~
+0 -1 3084
+D2
+~
+portcullis port~
+1 -1 3094
+E
+gate seal~
+The seal of Elrhinn is emblazoned upon the gate.  It is a large golden shield
+with rays of light shining from to every angle.
+~
+S
+#3094
+Outside the Southern Gate of Elrhinn~
+   To the north lies the Elrhinn Township, one of the larger towns on
+this continent.  It is reknowned for its merchants who bring valuables
+from all over the Dominion to sell and trade.  You see some figures
+standing around the city gate to the north, and a large iron portcullis
+hangs from the gate.
+~
+30 0 2
+D0
+~
+portcullis port~
+1 -1 3093
+D2
+~
+~
+0 -1 1800
+S
+#3095
+The Northern Road~
+You stand on a small road north of Elrhinn.  To the north you can see a small
+trail lead between lush, green trees to some sort of building.
+~
+30 0 1
+D0
+~
+~
+0 0 6400
+D2
+~
+~
+0 -1 3000
+S
+#3096
+The cobbled path~
+   Row after row of flowers and plants abut the cobbled path.  To the
+west you see the entrance to the Church of Elrhinn.  If you follow the
+path to the north it will lead you towards the chapel.  To the east,
+you will leave the sanctity and peace of the Holy Grounds and be back
+on the streets of Elrhinn.
+~
+30 cn 0
+D0
+~
+door~
+1 0 3097
+D1
+~
+gate~
+1 0 3018
+D3
+~
+church door~
+1 0 3017
+S
+#3097
+The cobbled path~
+   To the north, down the path a short ways sits a small, white chapel.
+Gardens surround it as well as the cobbled path you are on.  To the
+south you see the entrance to the church of Elrhinn.
+~
+30 0 0
+D0
+~
+~
+0 -1 3098
+D2
+~
+~
+0 -1 3096
+S
+#3098
+Before the Chapel~
+   Just to the north is the entrance to the chapel.  Colorful gardens 
+surround it, sending into the air a subtle, sweet aroma.  To the south,
+a cobbled path leads off towards the entrance to the church.
+~
+30 0 0
+D0
+~
+chapel door~
+1 -1 3099
+D2
+~
+~
+0 -1 3097
+S
+#3099
+Inside the Chapel~
+   The chapel is well lit by a skylight in the ceiling, and a circle of 
+marble benches surrounds a small podium.  There is a niche in the northern
+wall of the chapel where a mosaic has been etched.  Under the mosaic is
+a table with several lit candles flickering their gentle light.  A doorway
+in the south wall leads back out to the cobble path and the gardens.
+~
+30 es 0
+D2
+~
+door chapel~
+1 -1 3098
+S
+#3100
+Above the Gathering Room~
+  This room is filled with plush sofas and comfortable chairs, for the
+use of visiting dignitaries to Elrhinn.  It is also a popular place for
+locals to post notes regarding items they are selling, trading, or looking
+to purchase.
+~
+30 n 0
+D3
+~
+~
+1 0 3045
+D5
+~
+~
+0 0 3092
+S
+#3101
+The Fletcher's Shop~
+   Arrows and bows are hung and displayed all about the shop.  Behind the
+counter, the fletcher strings a bow with all his might.  To the north you
+see a door leading out of the shop and back to Dalkyst Road.
+~
+30 0 0
+D0
+~
+door~
+1 0 3020
+S
+#3102
+Turn in the trail~
+   The trail turns north and east here.  To the north you see a great,
+forboding swamp open up before you.  To the east a trail leads off
+into darkness.
+~
+30 acgt 0
+D0
+~
+~
+0 0 32075
+D1
+~
+~
+0 0 7501
+S
+#3103
+Room 3103~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3104
+House of the Shadowhunter~
+   A single, circle-shaped skylight in the center of the ceiling casts
+an unearthly glow about the shadow-shrouded chamber.  The walls are grey
+stone and the floor white marble.  Chests and tables and other semi-lavish
+items of furniture are set about the room.  A silk covered bed is pushed
+against the northern wall.  To the south a doorway leads back to the
+streets of Elrhinn.
+~
+30 cejlmr 0
+D2
+~
+~
+0 0 3085
+S
+#3105
+The hidden tower~
+   You are standing in the center of a circular shaped tower within
+the valley.  Odd trinkets dot the floors and desks and all along the
+walls are bookshelves containing tattered documents and books and
+manuscripts of all sorts and colors.  The faint scent of sulfur
+permeates the air and a shifting haze which you cannot see directly
+seems to float about before your eyes.  A door stands in the northeast
+part of the circular tower leading back to the misty, damp valley.
+~
+30 cegjlmrs 0
+D1
+~
+door~
+1 0 32176
+S
+#3106
+House of Morrolan~
+   The room is sparsely furnished save for a bed and a large black
+chair and a desk.  Some ornaments hang upon the walls and a rug made
+from the furs of a strange beast spreads itself out upon the wooden
+floor.  To the north a door leads out of the home to the street.
+~
+30 cegjlnrs 0
+D0
+~
+door~
+1 0 3003
+D4
+~
+~
+0 0 3109
+S
+#3107
+House of Thulin~
+   The walls of the house are dark and covered with silk tapestries.
+There is a window on the west and east walls looking out to the city
+of Elrhinn.  Trinkets and odds and ends are located about the room
+on shelves, desks, and chairs.  To the north is a doorway leading out
+of the house.
+~
+30 cejlmnrs 0
+D0
+~
+~
+0 0 3004
+D4
+~
+~
+0 0 3110
+S
+#3108
+House of Spin~
+The house is conically shaped and a black, cast-iron stairway
+stands in the center of the room leading up, back to the forest of
+Pelarinne. Odds and ends are scattered about the room on chairs,
+chests, and other various tables.  
+~
+30 jlr 0
+D4
+~
+door~
+1 0 32649
+S
+#3109
+Second floor~
+   The attic of the house is filled to the brim with junk and
+other paraphinalia.  There is a stairway leading down to the ground
+floor of the house.
+~
+30 degjlm 0
+D5
+~
+~
+0 0 3106
+S
+#3110
+Thulin's Attic~
+   The attic is threadbare and cobwebs string themselves out in the
+corners.  Windows set into the eastern and southern walls of the attic
+give access to a view of the township of Elrhinn.  A spiral stairway
+descend back down to the ground floor of the house in the corner of
+the room.
+~
+30 cjlm 0
+D5
+~
+~
+0 0 3107
+S
+#3111
+House of Kern~
+   The house is all made from hard mahogany wood.  The walls bear weapons
+and armor and treasures.  A large rug made from the skin of some obscure
+beast lies sprawled out upon the floor.  There is a strange lamp in the
+corner of the room which has some red balls of ink floating up and down
+through a thick fluid.  It casts strange shadows upon the walls.  A doorway
+leads out of the house through the western wall.  Above the door is the
+crest of House Kern.
+~
+30 cejlr 0
+D3
+~
+~
+0 0 3058
+E
+crest~
+The crest is disc shaped and bears a dagger with two black dragons
+entwined about it.  The dagger seems to be giving off a blood-red 
+glow.
+~
+S
+#3112
+House Morrolan~
+   The house is well furnished with antiques and finely carved wood.
+Strange trinkets of all shapes and sizes are littered about on desks, 
+tables as well as the floor.  To the north you see a doorway leading
+back to the streets of Elrhinn.
+~
+30 cegjlmr 0
+D0
+~
+~
+0 0 3006
+S
+#3113
+Kern's House~
+   The house is sparsely furnished, the walls however are covered with
+tapistries depicting battles and ferocious creatures.  In the corner
+of the room, beside a velvet couch, upon a table of cherrywood rests
+a strange lamp with a red, inky substance which floats up and down casting
+shadows upon the wall.  To the north is a doorway leading back to the
+streets of the town.
+~
+30 cegjlmr 0
+D0
+~
+~
+0 0 3007
+S
+#3114
+Room 3114~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3115
+Room 3115~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3116
+Room 3116~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3117
+Room 3117~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3118
+Room 3118~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3119
+Room 3119~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3120
+Foyer of Watcher Manor~
+   You step into a huge manor house, made entirely of marble.  On the floor 
+before you is the setting sun, the symbol of the watchers, made of gold and
+enlaid into the marble floor.  A large fireplace sits next to a brass door
+to the north.  A winding staircase leads up to another brass door, and there
+are duplicate doors to the east and west.  South of here is the exit to the
+streets of Elrihnn.
+~
+30 ejlmn 0
+D0
+~
+door~
+1 0 3122
+D1
+~
+door~
+1 0 3124
+D2
+~
+door~
+1 0 3063
+D3
+~
+door~
+1 0 3123
+D4
+~
+door~
+1 0 3125
+S
+#3121
+The Domain of the Khan~
+******************************************************************************
+                          HOME SWEET HOME
+******************************************************************************
+~
+30 jlm 0
+D0
+~
+door~
+1 0 3063
+S
+#3122
+Tyrstan's Room~
+   You have entered the house of Tyrstan Strykrr.  The floor is marble inlaid
+with gold, with a giant sun in the center of the floor, the symbol of the
+Order of the Watchers.  A massive black marble fireplace roars in the back
+of the room.  Chairs of highly polished wood sit in front of the fireplace,
+looking very inviting.  Books line the walls, telling of the stories and
+fables of The Dominion.  Large chests sit in the corners of the room, holding
+equipment he has picked up along his journies.
+~
+30 ejlmr 0
+D2
+~
+door~
+1 0 3120
+S
+#3123
+Harowens House~
+  This lovely room has yet to be written
+~
+30 jl 0
+D1
+~
+door~
+1 0 3120
+S
+#3124
+Kalas' Room~
+  This lovely room has yet to be written
+~
+30 jl 0
+D3
+~
+door~
+1 0 3120
+S
+#3125
+Kas's Room~
+  This lovely room has yet to be written
+~
+30 jl 0
+D5
+~
+door~
+1 0 3120
+S
+#3126
+Googy's Clubhouse a'Go Go~
+  This lovely room has yet to be written
+~
+30 jlmr 0
+D1
+~
+door~
+1 0 3071
+S
+#3127
+Gunthor's House~
+  This lovely room has yet to be written
+~
+30 ejlm 0
+D0
+~
+door~
+1 0 3096
+S
+#3128
+Room 3128~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3129
+Room 3129~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3130
+Xerix's House~
+  This lovely room has yet to be written
+~
+30 ejlm 0
+D3
+~
+door~
+1 0 3012
+S
+#3131
+Morrolan's House~
+  This lovely room has yet to be written
+~
+30 jlm 0
+D0
+~
+door~
+1 0 3078
+S
+#3132
+Room 3132~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3133
+Room 3133~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3134
+Room 3134~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3135
+Room 3135~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3136
+Room 3136~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3137
+Room 3137~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3138
+Room 3138~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3139
+Room 3139~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3140
+Room 3140~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3141
+Room 3141~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3142
+Room 3142~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3143
+Room 3143~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3144
+Room 3144~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3145
+Room 3145~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3146
+Room 3146~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3147
+Room 3147~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3148
+Room 3148~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3149
+Room 3149~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3150
+Room 3150~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3151
+Room 3151~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3152
+Room 3152~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3153
+Room 3153~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3154
+Room 3154~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3155
+Room 3155~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3156
+Room 3156~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3157
+Room 3157~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3158
+Room 3158~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3159
+Room 3159~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3160
+Room 3160~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3161
+Room 3161~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3162
+Room 3162~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3163
+Room 3163~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3164
+Room 3164~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3165
+Room 3165~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3166
+Room 3166~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3167
+Room 3167~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3168
+Room 3168~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3169
+Room 3169~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3170
+Room 3170~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3171
+Room 3171~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3172
+Room 3172~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3173
+Room 3173~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3174
+Room 3174~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3175
+Room 3175~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3176
+Room 3176~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3177
+Room 3177~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3178
+Room 3178~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3179
+Room 3179~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3180
+Room 3180~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3181
+Room 3181~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3182
+Room 3182~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3183
+Room 3183~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3184
+Room 3184~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3185
+Room 3185~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3186
+Room 3186~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3187
+Room 3187~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3188
+Room 3188~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3189
+Room 3189~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3190
+Room 3190~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3191
+Room 3191~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3192
+Room 3192~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3193
+Room 3193~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3194
+Room 3194~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3195
+Room 3195~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3196
+Room 3196~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3197
+Room 3197~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3198
+Room 3198~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3199
+Up in the air~
+   You are up in the air above the center of the main square of elrhinn.
+~
+30 0 9
+D5
+~
+~
+0 0 3039
+S
+#3200
+Room 3200~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3201
+Room 3201~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3202
+Room 3202~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3203
+Room 3203~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3204
+Room 3204~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3205
+Room 3205~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3206
+Room 3206~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3207
+Room 3207~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3208
+Room 3208~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3209
+Room 3209~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3210
+Room 3210~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3211
+Room 3211~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3212
+Room 3212~
+   You have entered the house of Tyrstan Strykrr.  The floor is marble inlaid
+with gold, with a giant sun in the center of the floor, the symbol of the
+Order of the Watchers.  A massive black marble fireplace roars in the back
+of the room.  Chairs of highly polished wood sit in front of the fireplace,
+looking very inviting.  Books line the walls, telling of the stories and
+fables of The Dominion.  Large chests sit in the corners of the room, holding
+equipment he has picked up along his journies.
+~
+30 0 0
+D2
+~
+door~
+1 0 3120
+S
+#3213
+Room 3213~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3214
+Room 3214~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3215
+Room 3215~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3216
+Room 3216~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3217
+Room 3217~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3218
+Room 3218~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3219
+Room 3219~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3220
+Room 3220~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3221
+Room 3221~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3222
+Room 3222~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3223
+Room 3223~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3224
+Room 3224~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3225
+Room 3225~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3226
+Room 3226~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3227
+Room 3227~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3228
+Room 3228~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3229
+Room 3229~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3230
+Room 3230~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3231
+Room 3231~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3232
+Room 3232~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3233
+Room 3233~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3234
+Room 3234~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3235
+Room 3235~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3236
+Room 3236~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3237
+Room 3237~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3238
+Room 3238~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3239
+Room 3239~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3240
+Room 3240~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3241
+Room 3241~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3242
+Room 3242~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3243
+Room 3243~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3244
+Room 3244~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3245
+Room 3245~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3246
+Room 3246~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3247
+Room 3247~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3248
+Room 3248~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3249
+Room 3249~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3250
+Room 3250~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3251
+Room 3251~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3252
+Room 3252~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3253
+Room 3253~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3254
+Room 3254~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3255
+Room 3255~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3256
+Room 3256~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3257
+Room 3257~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3258
+Room 3258~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3259
+Room 3259~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3260
+Room 3260~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3261
+Room 3261~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3262
+Room 3262~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3263
+Room 3263~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3264
+Room 3264~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3265
+Room 3265~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3266
+Room 3266~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3267
+Room 3267~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3268
+Room 3268~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3269
+Room 3269~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3270
+Room 3270~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3271
+Room 3271~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3272
+Room 3272~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3273
+Room 3273~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3274
+Room 3274~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3275
+Room 3275~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3276
+Room 3276~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3277
+Room 3277~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3278
+Room 3278~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3279
+Room 3279~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3280
+Room 3280~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3281
+Room 3281~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3282
+Room 3282~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3283
+Room 3283~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3284
+Room 3284~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3285
+Room 3285~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3286
+Room 3286~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3287
+Room 3287~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3288
+Room 3288~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3289
+Room 3289~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3290
+Room 3290~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3291
+Room 3291~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3292
+Room 3292~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3293
+Room 3293~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3294
+Room 3294~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3295
+Room 3295~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3296
+Room 3296~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3297
+Room 3297~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3298
+Room 3298~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3299
+Room 3299~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3300
+Room 3300~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3301
+Room 3301~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3302
+Room 3302~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3303
+Room 3303~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3304
+Room 3304~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3305
+Room 3305~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3306
+Room 3306~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3307
+Room 3307~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3308
+Room 3308~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3309
+Room 3309~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3310
+Room 3310~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3311
+Room 3311~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3312
+Room 3312~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3313
+Room 3313~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3314
+Room 3314~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3315
+Room 3315~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3316
+Room 3316~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3317
+Room 3317~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3318
+Room 3318~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3319
+Room 3319~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3320
+Room 3320~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3321
+Room 3321~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3322
+Room 3322~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3323
+Room 3323~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3324
+Room 3324~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3325
+Room 3325~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3326
+Room 3326~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3327
+Room 3327~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3328
+Room 3328~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3329
+Room 3329~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3330
+Room 3330~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3331
+Room 3331~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3332
+Room 3332~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3333
+Room 3333~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3334
+Room 3334~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3335
+Room 3335~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3336
+Room 3336~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3337
+Room 3337~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3338
+Room 3338~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3339
+Room 3339~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3340
+Room 3340~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3341
+Room 3341~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3342
+Room 3342~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3343
+Room 3343~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3344
+Room 3344~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3345
+Room 3345~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3346
+Room 3346~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3347
+Room 3347~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3348
+Room 3348~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3349
+Room 3349~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3350
+Room 3350~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3351
+Room 3351~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3352
+Room 3352~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3353
+Room 3353~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3354
+Room 3354~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3355
+Room 3355~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3356
+Room 3356~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3357
+Room 3357~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3358
+Room 3358~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3359
+Room 3359~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3360
+Room 3360~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3361
+Room 3361~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3362
+Room 3362~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3363
+Room 3363~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3364
+Room 3364~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3365
+Room 3365~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3366
+Room 3366~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3367
+Room 3367~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3368
+Room 3368~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3369
+Room 3369~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3370
+Room 3370~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3371
+Room 3371~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3372
+Room 3372~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3373
+Room 3373~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3374
+Room 3374~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3375
+Room 3375~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3376
+Room 3376~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3377
+Room 3377~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3378
+Room 3378~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3379
+Room 3379~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3380
+Room 3380~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3381
+Room 3381~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3382
+Room 3382~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3383
+Room 3383~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3384
+Room 3384~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3385
+Room 3385~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3386
+Room 3386~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3387
+Room 3387~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3388
+Room 3388~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3389
+Room 3389~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3390
+Room 3390~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3391
+Room 3391~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3392
+Room 3392~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3393
+Room 3393~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3394
+Room 3394~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3395
+Room 3395~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3396
+Room 3396~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3397
+Room 3397~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3398
+Room 3398~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3399
+Room 3399~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3400
+Room 3400~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3401
+Room 3401~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3402
+Room 3402~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3403
+Room 3403~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3404
+Room 3404~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3405
+Room 3405~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3406
+Room 3406~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3407
+Room 3407~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3408
+Room 3408~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3409
+Room 3409~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3410
+Room 3410~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3411
+Room 3411~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3412
+Room 3412~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3413
+Room 3413~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3414
+Room 3414~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3415
+Room 3415~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3416
+Room 3416~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3417
+Room 3417~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3418
+Room 3418~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3419
+Room 3419~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3420
+Room 3420~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3421
+Room 3421~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3422
+Room 3422~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3423
+Room 3423~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3424
+Room 3424~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3425
+Room 3425~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3426
+Room 3426~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3427
+Room 3427~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3428
+Room 3428~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3429
+Room 3429~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3430
+Room 3430~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3431
+Room 3431~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3432
+Room 3432~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3433
+Room 3433~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3434
+Room 3434~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3435
+Room 3435~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3436
+Room 3436~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3437
+Room 3437~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3438
+Room 3438~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3439
+Room 3439~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3440
+Room 3440~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3441
+Room 3441~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3442
+Room 3442~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3443
+Room 3443~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3444
+Room 3444~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3445
+Room 3445~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3446
+Room 3446~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3447
+Room 3447~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3448
+Room 3448~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3449
+Room 3449~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3450
+Room 3450~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3451
+Room 3451~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3452
+Room 3452~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3453
+Room 3453~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3454
+Room 3454~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3455
+Room 3455~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3456
+Room 3456~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3457
+Room 3457~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3458
+Room 3458~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3459
+Room 3459~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3460
+Room 3460~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3461
+Room 3461~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3462
+Room 3462~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3463
+Room 3463~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3464
+Room 3464~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3465
+Room 3465~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3466
+Room 3466~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3467
+Room 3467~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3468
+Room 3468~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3469
+Room 3469~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3470
+Room 3470~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3471
+Room 3471~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3472
+Room 3472~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3473
+Room 3473~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3474
+Room 3474~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3475
+Room 3475~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3476
+Room 3476~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3477
+Room 3477~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3478
+Room 3478~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3479
+Room 3479~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3480
+Room 3480~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3481
+Room 3481~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3482
+Room 3482~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3483
+Room 3483~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3484
+Room 3484~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3485
+Room 3485~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3486
+Room 3486~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3487
+Room 3487~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3488
+Room 3488~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3489
+Room 3489~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3490
+Room 3490~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3491
+Room 3491~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3492
+Room 3492~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3493
+Room 3493~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3494
+Room 3494~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3495
+Room 3495~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3496
+Room 3496~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3497
+Room 3497~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3498
+Room 3498~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+#3499
+Room 3499~
+  This lovely room has yet to be written
+~
+30 0 0
+S
+$~

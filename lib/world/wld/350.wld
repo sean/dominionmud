@@ -1,0 +1,2288 @@
+#35000
+The Southern Gate of Gnishmire~
+   You stand at the southern gate of the gnomish city of Gnishmire.  Standing
+beside the gate you see mechanical monstrosities, you guess gate guards built
+by the resourcegul gnomes.  Of in the distance in the north you see the 
+clock tower, and many chimneys spout smoke into the air.
+~
+350 hp 0
+D0
+Before the Southern Gate
+~
+~
+0 0 35001
+D2
+~
+~
+0 0 5500
+S
+#35001
+Before the Southern Gate of Gnishmire~
+  You are standing before the southern gate of Gnishmire.  Gnomes file
+past you on their way in and out of town.  To the north you can make out the
+clock tower of the City Hall. To the east and west runs the perimeter road.
+And to the south you can see a vast plain stretching before you.
+~
+350 hp 1
+D0
+South Main Street
+~
+~
+0 0 35002
+D1
+South Perimeter Road
+~
+<NONE>~
+0 0 35040
+D2
+The Southern Gate of Gnishmire
+~
+~
+0 0 35000
+D3
+Southern Perimeter Road
+~
+~
+0 0 35039
+S
+#35002
+South Main Road of Gnishmire~
+  You stand on the highly travelled Main Road of Gnishmire.  Off to the
+north you see the clock tower that is the top of City Hall.  To 
+the east and west are private houses.  To the south is the southern gate 
+to the city.
+~
+350 hnp 1
+D0
+South Main Road
+~
+~
+0 0 35003
+D1
+Private Property
+~
+~
+0 0 35019
+D2
+Before the Southern Gate
+~
+~
+0 0 35001
+D3
+Private Property
+~
+~
+0 0 35018
+S
+#35003
+The Center Square of Gnishmire~
+  This is the center square of Gnishmire.  It is busy with people everywhere
+in sight, merchants selling their wares, gnomes talking about inventions that
+will change the world.  To the north you see the Gnishmire city hall.  To the
+south you see the southern gate of the city in the distance.
+~
+350 hp 1
+D0
+Gnishmire City Hall
+~
+~
+0 0 35004
+D1
+Southeast Center Square
+~
+~
+0 0 35017
+D2
+South Main Road
+~
+~
+0 0 35002
+D3
+Southeast Center Square
+~
+~
+0 0 35016
+S
+#35004
+The Gnishmire City Hall~
+  You walk through the low entryway to the city hall, and step
+into the most busy building in the city.  Gnomes are running around
+everywhere, making sure that the city is in order.  There is a bulletin
+board here for notes about the city and the surrounding area.  To the 
+north you see the busy post office, and up some stairs is the Mayor's office
+~
+350 p 0
+D0
+The Gnishmire Postoffice
+~
+~
+0 0 35064
+D2
+South Center Square
+~
+~
+0 0 35003
+S
+#35005
+The Center Square of Gnishmire (north)~
+  This is the northside of the busy Gnishmire center square.  Gnomes
+can be seen walking all around, playing with different gadgets
+that the gnomes are famous for inventing.  To the north you see the docks
+of Gnishmire, and to the south is the clock tower that is City Hall.
+~
+350 hp 1
+D0
+North Main
+~
+~
+0 0 35006
+D1
+Northeast Center Square
+~
+~
+0 0 35015
+D3
+Northwest Center Square
+~
+~
+0 0 35014
+S
+#35006
+North Main Street~
+   You are standing on the busy North Main Street.  Gnomes pass you on their
+way to the central square and on their way to the pier.  You can see the
+square to the south, and the pier to the north.
+~
+350 hp 1
+D0
+Before the Gnishmire Pier
+~
+~
+0 0 35007
+D2
+Center Square of Gnishmire (north)
+~
+~
+0 0 35005
+S
+#35007
+Entrance to the Gnishmire Pier~
+   You stand before the bustling Gnishmire Pier.  Off to the north you
+see many ships coming in and out of port, transporting the wares of the
+city.  South of you, you see the spectacular city square.  The Perimeter
+Road runs to the east and west of here.
+~
+350 h 1
+D0
+Gnishmire Pier
+~
+~
+0 0 35036
+D1
+Northern Perimeter Road
+~
+~
+0 0 35049
+D2
+North Main
+~
+~
+0 0 35006
+D3
+Northern Perimeter Road
+~
+~
+0 0 35050
+S
+#35008
+Junction of Temple and Main~
+   You are standing at the junction of Temple Way and Main.  To the east you
+can see main, and further down main you see the Center Square.  To the west
+you see temples lining the street.  To the north and south runs West 
+Perimeter road.
+~
+350 hp 1
+D0
+Western Perimeter Road
+~
+~
+0 0 35054
+D1
+West Main
+~
+<NONE>~
+0 0 35009
+D2
+Western Perimeter Road
+~
+~
+0 0 35055
+D3
+Temple Way
+~
+~
+0 0 35065
+S
+#35009
+West Main~
+   This is West Main.  Gnomes scour about, basiclly ignoring you.  To the north
+is a guildhouse of some sort.  To the east you can see the center square.  Off
+in the distance to the west you see some temples.
+~
+350 hp 1
+D0
+The Order of the Watchers guildhouse
+~
+~
+0 0 2612
+D1
+West Center Square
+~
+~
+0 0 35010
+D3
+Junction of Temple and Main
+~
+~
+0 0 35008
+S
+#35010
+The Center Square of Gnishmire (west)~
+  This is the western side of the center square of Gnishmire.  Many gnomes
+file past you on their way to the many shops that line the square.  To
+the east is the clock tower of City Hall.  Off in the distance to the west
+you see the religious area of town.
+~
+350 hp 1
+D0
+Northwest Center Square
+~
+~
+0 0 35014
+D2
+Southwest Center Square
+~
+~
+0 0 35016
+D3
+West Main
+~
+~
+0 0 35009
+S
+#35011
+The Center Square of Gnishmire (east)~
+  This is the eastern side of the square of Gnishmire.  To the west you see 
+the clock tower that makes up City Hall.  All around the square are shops for 
+you to paruse.  In the distance to the east you see the Eastern Gate.
+~
+350 hp 1
+D0
+Northeast Center Square
+~
+~
+0 0 35015
+D1
+East Main
+~
+<NONE>~
+0 0 35012
+D2
+Southeast Center Square
+~
+~
+0 0 35017
+S
+#35012
+East Main~
+   This is the busy East Main road.  Many gnomes push past you on their way to
+the center square.  To the south you can see the sign for the Broken Sword.
+~
+350 hp 1
+D1
+Before the Eastern Gate of Gnishmire
+~
+~
+0 0 35013
+D2
+A Private House
+~
+~
+0 0 35025
+D3
+East Center Square
+~
+~
+0 0 35011
+S
+#35013
+Before the Eastern Gate of Gnishmire~
+   You stand before the eastern gate of the great city of Gnishmire.  Off to
+the west you see the city hall in the beautiful Center Square.  To the north
+and south runs the Eastern Perimeter Road.  Off to the east is a stretch of
+plains with a giant mountain off in the distance.
+~
+350 hp 1
+D0
+Eastern Perimeter Road
+~
+~
+0 0 35045
+D1
+The Eastern Gate of Gnishmire
+~
+~
+0 0 35035
+D2
+Eastern Perimeter Road
+~
+~
+0 0 35044
+D3
+East Main
+~
+~
+0 0 35012
+S
+#35014
+The Center Square of Gnishmire (northwest)~
+  This is the northwest corner of the center square of Gnishmire.  To the 
+north is The Sheathed Sword, a fine weapon shop, and to the west is the
+Herb and Elixer shop.
+~
+350 hp 1
+D0
+The Sheathed Sword
+~
+~
+0 0 35030
+D1
+North Center Square
+~
+<NONE>~
+0 0 35005
+D2
+East Center Square
+~
+~
+0 0 35010
+D3
+The Herb and Elixer Shop
+~
+~
+0 0 35028
+S
+#35015
+The Center Square of Gnishmire (northeast)~
+  This is the northeast part of the center square of Gnishmire.  You
+can smell pleasant aromas coming from the bakery to the north, and
+to the east is the Hous of Knick-Knacks.
+~
+350 hp 1
+D0
+Herrik's Bakery
+~
+~
+0 0 35031
+D1
+The House of Knick-Knacks
+~
+~
+0 0 35029
+D2
+East Center Square
+~
+~
+0 0 35011
+D3
+North Center Square
+~
+~
+0 0 35005
+S
+#35016
+The Center Square of Gnishmire (southwest)~
+  You stand in the southwest corner of the busy Gnishmire canter
+square.  To the south is Amiria's Smithy, and to the west is
+Trosh's Science Stuff.
+~
+350 hp 1
+D0
+West Center Square
+~
+~
+0 0 35010
+D1
+South Center Square
+~
+~
+0 0 35003
+D2
+Amiria's Smithy
+~
+~
+0 0 35020
+D3
+Trosh's Science Stuff
+~
+~
+0 0 35022
+S
+#35017
+The Center Square of Gnishmire (southeast)~
+  You are standing in the southwest corner of the busy Gnishmire square.
+To the south is the money exchanger's guild, and to the east is
+the Wave's Crest Inn.
+~
+350 hp 1
+D0
+Eastern Center Square
+~
+~
+0 0 35011
+D1
+The Wave's Crest Inn
+~
+~
+0 0 35023
+D2
+The Money Exchanger's Guild
+~
+~
+0 0 35021
+D3
+South Center Square
+~
+~
+0 0 35003
+S
+#35018
+The House of Caimor~
+This house will never be built goddamnit!
+~
+350 egjl 0
+D1
+South Main Road
+~
+~
+0 0 35002
+S
+#35019
+Private Property~
+This house is for sell, contact a greater god for details
+~
+350 cdeghjl 0
+D3
+South Main Road
+~
+~
+0 0 35002
+S
+#35020
+Amiria's Smithy~
+  You enter the smithy, and are wowed by all the fine armor you see.  Amiria 
+comes from a long line of Dwarven armorers, and she is one of the best.
+she displays her armor along with ones she has aquired through her days of
+travelling.  Amiria stands behind the counter pounding out some armor.
+~
+350 p 0
+D0
+Southwest Center Square
+~
+~
+0 0 35016
+S
+#35021
+The Money Exchanger's Guild~
+  This is the Money Exchanger's Guild.  All around you gnomes are withdrawing
+and depositing gold coins.  A gnome comes forward and asks if he can
+help you with your funds.
+~
+350 hp 0
+D0
+Southwestern Center Square
+~
+~
+0 0 35017
+S
+#35022
+Trosh's House of Science~
+  The shop you are in is like nothing you have ever seen.  Wierd
+devices line the walls and shelves.  Gagets are buzzing and beeping
+everywhere you turn.  Trosh works behind his counter on his latest
+invention.
+~
+350 p 0
+D1
+Southwest Center Square
+~
+~
+0 0 35016
+S
+#35023
+The Wave's Crest Inn~
+  This is the downstairs lobby of The Wave's Crest Inn.  There are
+chairs and benches all around for the guests to rest on.  There are
+a set of stairs that lead to the receptionist's area.
+~
+350 hp 0
+D3
+Southwest Center Square
+~
+~
+0 0 35017
+D4
+The Receptionist's Room
+~
+~
+0 0 35058
+S
+#35024
+Private House~
+This house is for sell, contact a greater god for details.
+~
+350 cdghjls 0
+D0
+West Main
+~
+~
+0 0 35009
+S
+#35025
+The Broken Blade~
+   This small forge is home to the tinkerer of Gnishmire.  Hard at work at 
+repairing some armor, he hefty gnome doesn't see you wander in.  Broken 
+and worn weapons and armor lay around the forge, appearantly waiting to be
+fixed.
+~
+350 dhp 0
+D0
+East Main
+~
+~
+0 0 35012
+S
+#35026
+Private House~
+This house is for sell, contact a greater god for details
+~
+350 cdghjls 0
+D2
+West Main
+~
+~
+0 0 35009
+S
+#35027
+Private House~
+This house is for sell, contact a greater god for details
+~
+350 cdghjls 0
+D2
+East Main
+~
+~
+0 0 35012
+S
+#35028
+Herb and Elixer Shop~
+  You enter this shop and are overwhelmed by the fragrances of herbs and 
+different concoctions that fill the room.  On a shelf behind the counter
+are many different colors of potions.  The clerk asks how can she help 
+you
+~
+350 hp 0
+D1
+Northwest Center Square
+~
+<NONE>~
+0 0 35014
+S
+#35029
+The House of Knick-Knacks~
+  This place is filled with all kind of junk, most of it worthless, but
+some looks useful.  All kinds of gadgets are lying around, obviously 
+made by the gnomes, and like most gnomish stuff, it doesn't work.  An
+old gnome is here waiting to help you.
+~
+350 hp 1
+D3
+Northeast Center Square
+~
+<NONE>~
+0 0 35015
+S
+#35030
+The Sheathed Sword~
+  This is the arms dealer of the town of Gnishmire.  The weaponsmith
+pounds away on a few pieces of metal, obvioulsy making some sort of complex
+weapon.  The owner stands behind the counter smiling at you.
+~
+350 hp 1
+D2
+Northwest Center Square
+~
+<NONE>~
+0 0 35014
+S
+#35031
+Herrik's Bakery~
+  You stand in a quaint little bakery, the air here smells wonderful.
+In the back you see some gnomes hard at work making bread and rolls, making
+sure to taste each batch to achieve perfection.  A small round gnome is ready
+to take you order.
+~
+350 hp 1
+D2
+Northeast Center Square
+~
+~
+0 0 35015
+S
+#35035
+The Eastern Gate of Gnishmire~
+   You stand in the great Eastern Gate of Gnishmire.  This gate seems to have
+taken quite a beating for some reason.  Gnomes are present, especally the
+gate guards, but regular citizens seem to be fewer on this side of town.
+To the west you see the spectacular Center Square, and to the east is a
+hardly traveled road that leads to a mountain you can see in the distance.
+~
+350 hp 1
+D1
+Outside the city gate.
+~
+~
+0 0 35101
+D3
+Before the Eastern Gate
+~
+~
+0 0 35013
+S
+#35036
+Gnishmire Pier~
+   You are standing on the Gnishmire Pier.  Sailors and gnomes alike crowd on
+this part of the pier, working out deals for goods.  To the north you can
+see the rest of the pier, and to the south, you can see the center square
+of the city.
+~
+350 h 1
+D0
+Gnishmire Pier
+~
+~
+0 0 35075
+D2
+Before the Gnishmire Pier
+~
+~
+0 0 35007
+S
+#35037
+Corner of Southern and Western Perimeter Road~
+   You are standing in the southwest corner of the town.  Off to the north
+you can see Temple Way, and to the east, you can see the southern gate.
+~
+350 hp 1
+D0
+Western Perimeter Road
+~
+~
+0 0 35056
+D1
+Southern Perimeter Road
+~
+~
+0 0 35038
+S
+#35038
+Southern Perimeter Road~
+   You are standing on the southern most part of the road that runs around
+the city of Gnishmire.  Off to the east you cna see the busy southern gate.
+~
+350 hp 1
+D1
+Southern Perimeter Road
+~
+~
+0 0 35039
+D3
+Corner of Southern and Western Perimeter Road
+~
+~
+0 0 35037
+S
+#35039
+Southern Perimeter Road~
+   You are standing on the Southern Perimeter Road.  To the immediate east
+you can see the bustling Southern Gate of Gnishmire, and to the west is
+Western Perimeter Road.
+~
+350 hp 1
+D1
+Before the Southern Gate of Gnishmire
+~
+~
+0 0 35001
+D3
+Southern Perimeter Road
+~
+~
+0 0 35038
+S
+#35040
+Southern Perimeter Road~
+   The road leads on east and west around the city.  Directly to the
+west you see the southern square before the entrance to the city.
+~
+350 p 1
+D1
+Southern Perimeter Road
+~
+~
+0 0 35041
+D3
+Before the Southern Gate
+~
+~
+0 0 35001
+S
+#35041
+Southern Perimeter Road~
+   You are standing on the road that goes around the city.  To the north
+you see Tyrlin's shop of Ale, and this road runs east and west as it goes
+around the city.
+~
+350 hp 1
+D0
+Tyrlin's shop of Ale
+~
+~
+0 0 35059
+D1
+Corner of Eastern and Southern Perimeter Roads
+~
+~
+0 0 35042
+D3
+Southern Perimeter Road
+~
+~
+0 0 35040
+S
+#35042
+Corner of Southern and Eastern Perimeter Road~
+   You are standing in the southeastern corner of the city.  Off to the
+north you can see the Eastern gate, and to the west, you can see the very busy 
+Southern gate.  Gnomish patrols pass you on their way north.
+~
+350 hp 1
+D0
+Eastern Perimeter Road
+~
+~
+0 0 35043
+D3
+Southern Perimeter Road
+~
+~
+0 0 35041
+S
+#35043
+Eastern Perimeter Road~
+   You stand on the eastern most part of the city.  This road runs north
+and south along the eastern border of the town.  To the north you can
+see the Eastern gate.
+~
+350 hp 1
+D0
+Eastern Perimeter Road
+~
+~
+0 0 35044
+D2
+Corner of Southern and Eastern Perimeter Road
+~
+~
+0 0 35042
+S
+#35044
+Eastern Perimeter Road~
+   This is the Eastern Perimeter Road. Running north and south, it is on
+the eastern most part of the city.  This area seem to be more active in
+the number of guards that are present.  To the north is the Eastern gate.
+~
+350 hp 1
+D0
+Before the Eastern Gate Of Gnishmire
+~
+<NONE>~
+0 0 35013
+D2
+Eastern Perimeter Road
+~
+~
+0 0 35043
+S
+#35045
+Eastern Perimeter Road~
+   This road runs north and south, and goes around the city.  To the north
+is Northern Perimeter Road, and to the south is the Eastern Gate.
+~
+350 hp 1
+D0
+Eastern Perimeter Road
+~
+~
+0 0 35046
+D2
+Befreo the Eastern Gate of Gnishmire
+~
+~
+0 0 35013
+S
+#35046
+Eastern Perimeter Road~
+   This road runs north and south, and goes around the city.  To the north is
+Northern Perimeter Road, and to the south is the Eastern Gate.
+~
+350 h 1
+D0
+Corner of Northern and Eastern Perimeter Road
+~
+~
+0 0 35047
+D2
+Eastern Perimeter Road
+~
+~
+0 0 35045
+S
+#35047
+Corner of Northern and Eastern Perimeter Road~
+   You are in the northeast corner of the city.  To the west you see the
+Gnishmire Pier, and off to the south you see the Eastern Gate.
+~
+350 h 1
+D2
+Eastern Perimeter Road
+~
+~
+0 0 35046
+D3
+Northern Perimeter Road
+~
+~
+0 0 35048
+S
+#35048
+Northern Perimeter Road~
+   This road leads all the way aound the city.  You stand on the northern
+part of the road, which runs east and west.  To the west you see the
+Gnishmire Pier.
+~
+350 h 1
+D1
+Corner of Northern and Eastern Perimeter Road
+~
+~
+0 0 35047
+D3
+Northern Perimeter Road
+~
+~
+0 0 35049
+S
+#35049
+Northern Perimeter Road~
+   This road runs all the way around the city.  You stand on the norther
+part of the road, which runs east and west.  To the immediate west you can
+see the busy Gnishmire Pier.
+~
+350 h 1
+D1
+Northern Perimeter Road
+~
+~
+0 0 35048
+D3
+Before the Gnishmire Pier
+~
+~
+0 0 35007
+S
+#35050
+Northern Perimeter Road~
+   You stand on Norhtern Perimeter Road.  This road runs east and west, and
+is part of the road system that goeas around the city.  To the east is the
+Gnishmire Pier.
+~
+350 h 1
+D1
+Before the Gnishmire Pier
+~
+~
+0 0 35007
+D3
+Northern Perimeter Road
+~
+~
+0 0 35051
+S
+#35051
+Northern Perimeter Road~
+   As you walk over this northern road, you can hear the waves of the sea
+form the other side of the city wall.  If you go east, you will run into
+Western Perimeter Road, and west is the Pier.
+~
+350 h 1
+D1
+Northern Perimeter Road
+~
+~
+0 0 35050
+D3
+Corner of Northern and Western Perimeter Road
+~
+~
+0 0 35052
+S
+#35052
+Corner of Northern and Western Perimeter Road~
+   You are standing in the northwest corner of town.  Off to the south you
+can see Temple Way, and to the east is the Gnishmire Pier.
+~
+350 h 1
+D1
+Northern Perimeter Road
+~
+~
+0 0 35051
+D2
+Western Perimeter Road
+~
+~
+0 0 35053
+S
+#35053
+Western Perimeter Road~
+   You stand on the Western Perimeter Road.  this road runs all the way 
+around the city.  To the south you can see Temple Way.
+~
+350 h 1
+D0
+Corner of Northern and Western Perimeter Road
+~
+~
+0 0 35052
+D2
+Western Perimeter Road
+~
+~
+0 0 35054
+S
+#35054
+Western Perimeter Road~
+   This is the western most part of the city's Perimeter Road system.  To the
+south you can see Temple Way, and to the north is the junction with Northern
+Perimeter Road.
+~
+350 hp 1
+D0
+Western Perimeter Road
+~
+~
+0 0 35053
+D2
+Junction of Temple and Main
+~
+~
+0 0 35008
+D3
+~
+~
+0 0 35115
+S
+#35055
+Western Perimeter Road~
+   This is the western most part of the city's Perimeter Road system.  To the
+north is Temple way, and to the south is Southern Perimeter Road.
+~
+350 hp 1
+D0
+Junction of Temple and Mail
+~
+~
+0 0 35008
+D2
+Western Perimeter Road
+~
+~
+0 0 35056
+S
+#35056
+Western Perimeter Road~
+   As you walk on this Western Perimeter Road, you glance to the north and
+see the fabulous Temple way. Then looking to the south, you see the Southern 
+Perimeter Road.
+~
+350 hp 1
+D0
+Western Perimeter Road
+~
+~
+0 0 35055
+D1
+Entrance to the guild house of the Bleak Cabal.
+
+~
+~
+0 0 2600
+D2
+Corner of Southern and Western Perimeter Road
+~
+~
+0 0 35037
+S
+#35058
+The Receptionist's Room~
+  Behind a desk filing her nails is a female gnome receptionist.
+You look around and see many, many keys behind the desk. Down a long 
+corridor you see tons of rooms, more than plenty to accomodate all
+the guests.  The receptionist looks up and asks "May I help you?".
+~
+350 hp 0
+D5
+The Wave's Crest Inn
+~
+~
+0 0 35023
+S
+#35059
+Tyrlin's Shop of Fine Ale~
+   This bar, which appeared to be halfway descent on the outside, is not
+at all what it seemed on the inside.  The air is thick with smoke, smells
+of stale ale, and the light is quite dim.  The customers seem quite seasoned
+in their skills, and you don't think it would be a good idea to make them 
+mad.  To the rear of the room you see a small wooden door with the sign "Do
+Not Enter"abouve it.
+~
+350 dp 0
+D0
+Backroom of Tyrlin's
+~
+door~
+1 0 35060
+D2
+Southern Perimeter Road
+~
+~
+0 0 35041
+S
+#35060
+The Backroom of Tyrlin's~
+  The backroom of Tyrlins is in disarray.  There are wine barrels and 
+kegs of ale stacked all over the room.  Except for the middle of the 
+room.  It looks like there is a trap door in the center of the floor.
+~
+350 dp 0
+D2
+Tyrlin's shop of Ale
+~
+door~
+0 0 35059
+D5
+Under the Backroom
+~
+trap~
+0 0 35061
+S
+#35061
+Under the Backroom~
+You are in an unfinished room.
+~
+350 cdp 0
+D0
+Tyrlin's Place of Study
+~
+~
+0 0 35062
+D4
+Backroom of Tyrlin's
+~
+trap~
+1 0 35060
+S
+#35062
+Tyrlin's Study Room~
+You are in an unfinished room.
+~
+350 cdgs 0
+D2
+Under the Backroom
+~
+~
+0 0 35061
+S
+#35064
+The Gnishmire Post Office~
+  The Gnishmire postoffice is bustling with little gnomes trying
+to make sure all the mail goes to the right place.  To the south you
+see City Hall.
+~
+350 p 0
+D2
+Gnishmire City Hall
+~
+~
+0 0 35004
+S
+#35065
+Temple Way~
+   This is the begining of the once majestic Temple Way.  The road has lost 
+much of its old splendor since the gods have been heard from less and less
+in this day and age.  Back to the east is Main Street, and further west
+are the remaining temples.
+~
+350 hp 1
+D1
+Junction of Temple and Main
+~
+~
+0 0 35008
+D3
+Temple Way
+~
+~
+0 0 35066
+S
+#35066
+Temple Way~
+   You are standing at the end of Temple Way.  Most of the temples here are 
+old and run down, but the monks of a few of them are restoring what they can.
+To the north you see a temple that seems to have weathered better than most.
+It appears to be made from the natural surroundings.
+~
+350 h 1
+D1
+Temple Way
+~
+~
+0 0 35065
+S
+#35071
+The Foyer of Cair's Temple~
+You are in an unfinished room.
+~
+350 0 0
+D0
+The Room of Chaos
+~
+~
+0 0 35072
+D4
+God's Way
+~
+granite~
+0 0 35066
+S
+#35072
+Whatever Cair Wants~
+You are in an unfinished room.
+~
+350 0 0
+D2
+The Foyer of Cair's Temple
+~
+~
+0 0 35071
+S
+#35075
+Gnishmire Pier~
+   You are standing on the crowded Pier.  To the north you can see the end
+of the pier.  To the south, you can see the city of Gnishmire itself, and
+there is a ladder down leading to the beach.
+~
+350 h 1
+D0
+The End of the Pier
+~
+~
+0 0 35076
+D2
+Gnishmire Pier
+~
+~
+0 0 35036
+E
+down~
+The ladder appears to be broken.
+~
+S
+#35076
+The end of the Pier~
+   You are standing at the crowded end of the pier.  Many ships are docked
+to the pier, crates and barrles are stacked everywhere, and minotaur, human,
+and dwarven sailors are busy readying ships.
+~
+350 h 1
+D2
+Gnishmire Pier
+~
+~
+0 0 35075
+S
+#35077
+The Coral Shrine~
+this is where gaeya's temple will be
+~
+350 h 2
+D1
+The Beach of Gnishmire
+~
+~
+0 0 35078
+D5
+Main Foyer
+~
+~
+0 0 35082
+S
+#35078
+The Beach of Gnishmire~
+You are in an unfinished room.
+~
+350 h 2
+D1
+Under the Pier
+~
+~
+0 0 35079
+D3
+The Coral Shrine
+~
+~
+0 0 35077
+S
+#35079
+Under the Pier~
+You are in an unfinished room.
+~
+350 h 2
+D1
+The Beach of Gnishmire
+~
+~
+0 0 35080
+D3
+The Beach of Gnishmire
+~
+~
+0 0 35078
+D4
+Gnishmire Pier
+~
+<NONE>~
+0 0 35075
+S
+#35080
+The Beach of Gnishmire~
+You are in an unfinished room.
+~
+350 h 2
+D1
+The Beach of GNishmire
+~
+~
+0 0 35081
+D3
+Under the Pier
+~
+~
+0 0 35079
+S
+#35081
+The Beach of Gnishmire~
+You are in an unfinished room.
+~
+350 h 2
+D3
+The Beach of Gnishmire
+~
+~
+0 0 35080
+S
+#35082
+The Main Foyer of te Wavetamer's Temple~
+You are in an unfinished room.
+~
+350 0 0
+D0
+Underwater Temple
+~
+~
+0 0 35083
+D4
+The Coral Shrine
+~
+~
+0 0 35077
+S
+#35083
+Undersea Temple~
+You are in an unfinished room.
+~
+350 0 0
+D2
+Main Foyer
+~
+~
+0 0 35082
+S
+#35084
+Outer Chamber of Garou's Temple~
+       You step off of the streets of Gnishmire and into the Temple of
+the Kinnslayer, Forestkeeper and Chronicler of History on this world.  The
+entire room looks to be made out of wood and earth, cleverly interwoven with
+thick strands of bark.  Large carvings depicting nature, hunting, and 
+balance sit on each wall and above you is a huge etching of the symbol for
+Garou's religion in a large piece of silverwood which emits a soft glow that
+illuminates the room.  The fresh scent of cedar, loam, and pine washes over
+you and you feel a sense of peace in this place.
+~
+350 ders 0
+D2
+Temple Way
+~
+~
+0 0 35066
+D5
+Down the stairs into the inner chamber of the temple.
+~
+~
+0 0 35085
+S
+#35085
+The Inner Chamber of Garou's Temple~
+       Down the short flight of stairs into the inner circle of this temple
+you go, and a large altar made of obsidian and thick oak greets your eyes.
+A thin breeze circles slowly around the room and creates ripples on a pool
+of water on top of the altar.  The Kinnslayer has honored the decree of this
+town and does not bestow magical gifts upon his followers in this temple.
+However, he has enchanted this place with healing properties and those in here
+may feel its effects before too long.  A large statue of a wolf sits upon
+the far wall, watching over you with guarded eyes.
+~
+350 ders 0
+D4
+Back into the outer chamber.
+~
+~
+0 0 35084
+E
+wolf statue~
+It appears to be a statue of Garou's wolf, Kithyna.  It is said that through
+her eyes, the Forestkeeper can see all that transpires around The Dominion,
+enabling him to record history.  It could be a trick of the light, but you
+swear that the eyes glow blue briefly as you look upon the statue.  But
+when you blink and look again....the glow has vanished......
+~
+S
+#35100
+Grendel's Lair~
+   You are standing in what appears to be nothing.  You know you are standing
+on something solid, yet you look down and see blackness.  The only thing
+visible in this horrid place is a large throne, made of silver skulls, off
+in the distance.  A large fire with an eternal sorce roars in behind the
+throne, reflecting off of each skull.  You move towards the throne, but you
+don't get any closer to it.  You move away, but the throne stays at the same
+distance.  You don't want to be here anymore, the longer you stay, the more
+you want to leave, or die.
+~
+350 djk 0
+D0
+~
+~
+0 0 35100
+D1
+~
+~
+0 0 35100
+D2
+~
+~
+0 0 35100
+D3
+~
+~
+0 0 35100
+D4
+~
+~
+0 0 35100
+D5
+~
+~
+0 0 35100
+D6
+~
+~
+0 0 35100
+D7
+~
+~
+0 0 35100
+D8
+~
+~
+0 0 35100
+D9
+~
+~
+0 0 35100
+S
+#35101
+Outside the Eastern Gate of Gnishmire~
+   Just to the west you see a large city jutting up from the hills.  A
+gate stands wide open between the perimeter walls.  To the east a vast
+area of hills stretches out cut by a road leading between the valleys.
+~
+350 0 2
+D1
+An Over Grown Road
+~
+<NONE>~
+0 0 35102
+D3
+The Eastern Gate
+~
+~
+0 0 35035
+S
+#35102
+A Grown Over Road~
+You are on a road with grass poking up through the cobblestones.
+You see hills surrounding you from the north and the south.  To the
+east a lone mountain pokes up from the surroundings.  To the west
+you see the grown over road leading towards a city.
+~
+350 0 2
+D1
+A Grown Over Road
+~
+~
+0 0 35103
+D3
+Outside the Eastern Gate
+~
+~
+0 0 35101
+S
+#35103
+A Grown Over Road~
+   A ways to the east, you spy a lone mountain standing in the midst
+of the hills and plains.  and the west, a city sits with spires of
+smoke creeping up into the sky.
+~
+350 0 2
+D1
+A Grown Over Road
+~
+~
+0 0 35104
+D3
+A Grown Over Road
+~
+~
+0 0 35102
+S
+#35104
+A Grown Over Road~
+The road curves here to the north and west.  A short  ways to the
+north, the road turns once more to the east, where it leads closer to
+the lone mountain.  To the west, the grass covered roads leads towards
+a small, walled-in city.
+~
+350 0 2
+D0
+The Guard Post
+~
+~
+0 0 35105
+D3
+A Grown Over Road
+~
+~
+0 0 35103
+S
+#35105
+Turn inthe Overgrown Road~
+The road turns here to avoid a large boulder to the west.  You see
+the grassy road lead east towards a lone, dark mountain and south you
+see it turn once more towards the west.
+~
+350 0 2
+D1
+A Deserted Trail
+~
+~
+0 0 35106
+D2
+A Grown Over Road
+~
+~
+0 0 35104
+S
+#35106
+A Deserted Trail~
+Grass pokes up through the cracks of whats left of the road.  You see
+the trail leading towards a dark, lone mountain a ways to the east.  To
+west you see the road turn south.
+~
+350 0 4
+D1
+A Deserted Trail
+~
+~
+0 0 35107
+D3
+The Guard Post
+~
+~
+0 0 35105
+S
+#35107
+A Deserted Trail~
+   The cracks in the road become mere chips and gravel as the condition
+becomes worse.  You are within the shadow of the great mountain to the
+east.  To the west you see the over grown road meander off.
+~
+350 0 4
+D1
+A Deserted Trail
+~
+~
+0 0 35108
+D3
+A Deserted Trail
+~
+~
+0 0 35106
+S
+#35108
+A Deserted Trail~
+   You are standing just north of the gated entrance to a large mountain.
+You hear no sound escape the bowels only a light wind carrying the stench
+of must.  To the west a deserted trail leads off through the hills to
+a small city.
+~
+350 0 4
+D2
+~
+gate~
+1 0 20043
+D3
+A Deserted Trail
+~
+~
+0 0 35107
+S
+#35109
+Room 35109~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35110
+Room 35110~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35111
+Room 35111~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35112
+Room 35112~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35113
+Room 35113~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35114
+Room 35114~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35115
+Forum Road~
+   This road runs from Gnishmire Greater to the small forum built to lighten
+the load of people in the city square.  The road goes to the forum in the 
+west, and back to Perimeter Road in the east.
+~
+350 0 0
+D1
+~
+~
+0 0 35054
+D3
+~
+~
+0 0 35116
+S
+#35116
+Forum Road~
+   You are standing on Forum Road in the western part of Gnishmire.  Gnomes
+are abundant here, for this is where much of the cities discussion goes on.
+The forum itself is to the west, and the rest of gnishmire is to the east.
+~
+350 0 0
+D1
+~
+~
+0 0 35115
+D3
+~
+~
+0 0 35117
+S
+#35117
+Entrance to the Forum~
+   You are at the entrance to the Forum.  You suspect that a majority of the
+city's population is here, for you have never seen more gnoms in you life.
+East of here is the main city, and west and south is the Forum.
+~
+350 0 0
+D1
+~
+~
+0 0 35116
+D2
+~
+~
+0 0 35118
+D3
+~
+~
+0 0 35119
+S
+#35118
+The Forum~
+   You are in the Forum of Gnishmire.  Gnomes crowd around you everywhere
+talking about everything.  You can't really make out what's being said
+because of the speed of their words and all the shouting around you.
+~
+350 0 0
+D0
+~
+~
+0 0 35117
+D2
+~
+~
+0 0 35122
+D3
+~
+~
+0 0 35120
+S
+#35119
+The Forum~
+   You are in the Forum of Gnishmire.  Gnomes crowd around you everywhere
+talking about everything.  You can't really make out what's being said
+because of the speed of their words and all the shouting around you.
+~
+350 0 0
+D1
+~
+~
+0 0 35117
+D2
+~
+~
+0 0 35120
+S
+#35120
+The Forum~
+   You are in the Forum of Gnishmire.  Gnomes crowd around you everywhere
+talking about everything.  You can't really make out what's being said
+because of the speed of their words and all the shouting around you.
+~
+350 0 0
+D0
+~
+~
+0 0 35119
+D1
+~
+~
+0 0 35118
+D2
+~
+~
+0 0 35121
+S
+#35121
+The Entrance to the Forum~
+   You are at the entrance to the Forum.  You suspect that a majority of the
+city's population is here, for you have never seen more gnomes in your life.
+West of here is the Western Gate, and east and south is the Forum.
+~
+350 0 0
+D0
+~
+~
+0 0 35120
+D1
+~
+~
+0 0 35122
+D3
+~
+~
+0 0 35123
+S
+#35122
+The Forum~
+   You are in the Forum of Gnishmire.  Gnomes crowd around you everywhere
+talking about everything.  You can't really make out what's being said
+because of the speed of their words and all the shouting around you.
+~
+350 0 0
+D0
+~
+~
+0 0 35118
+D3
+~
+~
+0 0 35121
+S
+#35123
+Forum Road~
+   This is the western part of Forum road.  To the east you can see the Forum
+clearly, and it appears to be completely occupied.  West of here is the 
+Western Gate of the city.
+~
+350 0 0
+D1
+~
+~
+0 0 35121
+D3
+~
+~
+0 0 35124
+S
+#35124
+Forum Road~
+   You are standing on the lightly treaded western end of Forum Road.  Off to
+the east you can hear a lot of commotion from the forum area, and to the west
+is the Western Gate.
+~
+350 0 0
+D1
+~
+~
+0 0 35123
+D3
+~
+~
+0 0 35125
+S
+#35125
+Before the Western Gate~
+   You are standing before the nearly deserted Western Gate to the city.  This
+gate looks like it sees little traffic, for you see no one around, and guards
+seem to be scarce.  East of here is the Forum, and to the west is the gate
+~
+350 0 0
+D1
+~
+~
+0 0 35124
+D3
+~
+~
+0 0 35126
+S
+#35126
+Western Gate of Gnishmire~
+   You are standing at the Western Gate of Gnishmire.  This gate is the leas
+used of the city.  Only one gate guard stands at attention here, and he looks
+as bored as a mechination can look.  West of here is a light forest, and to
+the east is the city itself.
+~
+350 0 0
+D1
+~
+~
+0 0 35125
+S
+#35127
+Room 35127~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35128
+Room 35128~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35129
+Room 35129~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35130
+Room 35130~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35131
+Room 35131~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35132
+Room 35132~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35133
+Room 35133~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35134
+Room 35134~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35135
+Room 35135~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35136
+Room 35136~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35137
+Room 35137~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35138
+Room 35138~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35139
+Room 35139~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35140
+Room 35140~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35141
+Room 35141~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35142
+Room 35142~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35143
+Room 35143~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35144
+Room 35144~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35145
+Room 35145~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35146
+Room 35146~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35147
+Room 35147~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35148
+Room 35148~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35149
+Room 35149~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35150
+Room 35150~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35151
+Room 35151~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35152
+Room 35152~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35153
+Room 35153~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35154
+Room 35154~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35155
+Room 35155~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35156
+Room 35156~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35157
+Room 35157~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35158
+Room 35158~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35159
+Room 35159~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35160
+Room 35160~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35161
+Room 35161~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35162
+Room 35162~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35163
+Room 35163~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35164
+Room 35164~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35165
+Room 35165~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35166
+Room 35166~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35167
+Room 35167~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35168
+Room 35168~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35169
+Room 35169~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35170
+Room 35170~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35171
+Room 35171~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35172
+Room 35172~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35173
+Room 35173~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35174
+Room 35174~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35175
+Room 35175~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35176
+Room 35176~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35177
+Room 35177~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35178
+Room 35178~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35179
+Room 35179~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35180
+Room 35180~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35181
+Room 35181~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35182
+Room 35182~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35183
+Room 35183~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35184
+Room 35184~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35185
+Room 35185~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35186
+Room 35186~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35187
+Room 35187~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35188
+Room 35188~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35189
+Room 35189~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35190
+Room 35190~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35191
+Room 35191~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35192
+Room 35192~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35193
+Room 35193~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35194
+Room 35194~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35195
+Room 35195~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35196
+Room 35196~
+  This lovely room has yet to be written
+~
+350 0 0
+S
+#35197
+Room 35197~
+  This lovely room has yet to be written
+~
+350 np 0
+D3
+~
+~
+1 0 2603
+S
+#35198
+Room 35198~
+  This lovely room has yet to be written
+~
+350 n 0
+D3
+~
+~
+1 0 2615
+S
+#35199
+Airc's Throne Room~
+   You are standing amidst the greatest collection of riches and treasures
+you have ever seen.  Some of the objects here seem like they must have come
+from the furthest reaches of The Dominion.  You want to stay and admire the
+collection forever.  Maybe if you touch something you can.
+~
+350 ekr 0
+D4
+~
+heaven~
+1 0 35100
+D5
+~
+trap~
+1 0 3039
+S
+$~

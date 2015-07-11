@@ -1,0 +1,28 @@
+#383
+The Castle of Llyndyr~
+Cloak~
+BUILDING~
+3001 1
+38399 24 2
+*
+* Last Updated: Tue Feb 25 00:34:27 
+*           By: Cloak
+*
+M 0 38305 2 38308 100 	* A Castle Guardian at The Guard Post. (Max: 2)
+M 0 38304 1 38323 100 	* a Demon Knight at Room #38323. (Max: 1)
+E 0 38312 1 18 100 			* And equip it with the DemonsBane. (Max: 1)
+D 0 38304 0 2 100 		* Lock and Close Northern door at A Two-Way Passage
+D 0 38315 1 1 100 		* Close Eastern door at A Dim Passage to the North
+O 0 38308 2 38316 80 	* a Scroll of Healing at Medical Storage Facility. (Max: 2)
+M 0 38300 2 38301 100 	* Undead Guardian at In Front of the Castle. (Max: 2)
+E 0 38309 2 18 100 			* And equip it with a Spectrum Amulet. (Max: 2)
+O 0 38303 3 38306 100 	* a big pile of Coins at The Treasure room of Llyndyr!. (Max: 3)
+O 0 38304 2 38306 100 	* a Chest at The Treasure room of Llyndyr!. (Max: 2)
+P 0 38305 2 38304 100 	* Put Mound of Coins in a Chest. (Max: 2)
+M 0 38303 1 38305 100 	* the Emperor at The Domain of the Emperor. (Max: 1)
+D 1 38305 2 2 100 		* Lock and Close Southern door at The Domain of the Emperor
+D 0 38305 0 2 100 		* Lock and Close Northern door at The Domain of the Emperor
+D 0 38300 4 2 100 		* Lock and Close Southern door at A Shadowy Lair
+O 0 38302 1 38300 100 	* a Fountain at A Shadowy Lair. (Max: 1)
+S
+$~

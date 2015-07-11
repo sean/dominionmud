@@ -1,0 +1,576 @@
+#0
+The Void~
+   You don't think that you are not floating in nothing.  You can see
+a strange portal located above you.
+~
+0 des 1
+D4
+The Temple of Midgaard floats above you.
+~
+~
+0 -1 3001
+S
+#1
+Limbo~
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 des 1
+D5
+~
+~
+0 0 32601
+S
+#3
+A Totally Empty Room~
+   The walls are completely bare...no nothing at all in the room.
+How... weird.
+~
+0 dj 0
+D4
+You do not see that here.
+~
+~
+0 -1 3048
+S
+#4
+The Meeting Room Of The Gods~
+   The meeting room is plain and very simple.  A circular table sits
+in the middle of the room, lit by some unseen light source.  There
+are many chairs around the table, all empty.  The Immortal Board Room
+is to the north.
+~
+0 djns 0
+D0
+The Immortal Board Room can be seen to the north.
+~
+~
+0 -1 8
+S
+#5
+The Inn Of The Gods~
+   The Inn of the Gods is a small room, holding only a shelf with many
+small precious stones on it.  When God comes to rent his belongings,
+his essence is stored in the stones.  The Immortal Board Room is to
+the south.
+~
+0 djs 0
+D2
+The Immortal Board Room can be seen to the south.
+~
+~
+0 -1 8
+S
+#6
+Rigerous Nine~
+   You are in a cage that seems to be suspended over some kind of abyss
+of darkness.  Above you is a  large chain that stretches up into the
+infinite darkness.  A blueish eish colored light emenates from the ceiling
+of the cage.  You try to call out, but the sound just fades into nothing.
+A sick, black feeling of despair sets over you as you realize you are 
+stuck here by a god's command until they have pity on your soul or you
+rot away as Time's fingers shred you to pieces...
+~
+0 defghs 0
+S
+#7
+The Gods' Mortal Board Room~
+   Here the Gods have magically created an exact copy of the mortal board
+room.  Any God can easily post and read messages from the mortal board room
+without being seen by any mortals.  The Immortal Board Room is to the west.
+~
+0 d 0
+D3
+The Immortal Board Room can be seen to the west.
+~
+~
+0 -1 8
+S
+#8
+The Immortal Board Room~
+   The main hang out of the Gods, the Immortal Board Room is the place to
+be.  Gods exchange messages here most every day.  The mortal board room is
+to the east and the meeting room for the gods is to the south.  To the north
+is the Gods' Inn and to the west is a post office for Gods.  There is a large
+staircase leading down to the main temple in the city of Midgaard.  In the
+northeast corner you spot a small staircase leading upwards.
+~
+0 cdr 0
+D0
+The Gods' Inn can be seen just to the north.
+~
+~
+0 -1 5
+D1
+The Mortal Board Room can be seen just to the east.
+~
+~
+0 -1 7
+D2
+The Gods' Meeting Room is located to the south.
+~
+~
+0 -1 4
+D3
+The Gods' Post Office is just to the west.
+~
+~
+0 -1 9
+D4
+There is a small stair in the corner leading up to the social room of
+the Gods.
+~
+~
+0 -1 10
+D5
+You see the hustle and bustle of the Temple of Midgaard at the bottom of
+the stairs.
+~
+~
+0 -1 3039
+S
+#9
+The Post Office Of The Gods~
+   The Post Office Of The Gods is the same as most Post Offices except that
+it is not as slow.  Even the Postal service knows not to anger the Gods.
+Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
+The Immortal Board Room is to the east.
+~
+0 dj 0
+D1
+The Immortal Board Room is just to the east.
+~
+~
+0 -1 8
+S
+#10
+The Social Gathering Room~
+   This elegantly decorated room has one simple purpose.  To socialize with
+everyone else around in one central location.
+~
+0 d 0
+D5
+The Immortal Board Room is just down through the floor.  Funny how you
+didn't notice that exit before isn't it?
+~
+~
+0 -1 8
+S
+#11
+Kirahn's Realm~
+   You are floating in a black void.  The screams and bellows of a thousand
+tortured souls burns silently in your mind.  A cloaked figure appears far
+off within the void and slowly comes closer.  He sits upon a black throne
+of skulls with two dark angels floating on both sides of the throne.  
+Throwing back the hood to his cloak, The Bloodlord reveals himself.  You 
+open your mouth to speak but choke on your own words as Kirahn lifts one 
+hand and quiets you.  You are mentally warned not to speak until spoken to.
+~
+0 jklms 1
+D2
+A great golden door is here.
+~
+~
+0 -1 8
+E
+skulls~
+The humanoid skulls twist as if alive.  You hear a terrible noise tearing
+through your ears...but its your own voice howling in fear at the demented
+smiles forming on the skulls to haunt your dreams for years to come.
+~
+S
+#12
+Jamn's Antechambre~
+   The walls around you are made of white marble.  The rooms opens up
+to always reveal a clear blue sky.  A tree grows from a grassy area in
+the center of the room.  Garlic and sapphires lie in the dirt.  The
+constellations revolve overhead, invisible in the blue sky.  
+~
+0 deghks 0
+D2
+~
+~
+0 -1 8
+S
+#13
+Sand's Stormcloud~
+   You are within a black storm cloud, hovering somewhere above the
+Great Desert.  Magic winds somehow allow stability here, and the cloud
+almost feels like the firm ground you are use to.  Only the movement of
+what appears to be the floor reminds you that you are not on stable dirt.
+At the west end of the chamber is a hole allowing you to see the stillness
+of the desert below.  There is a picture and a mural on two of the other
+walls.  An hourglass sits on a jet black pedestal in the center of the
+room.
+~
+0 deghks 0
+D2
+~
+~
+0 -1 8
+E
+hourglass~
+   The hourglass rests here, independent of all, except time.  Curious,
+the sand seems to be flowing upwards into the top chamber.
+~
+E
+hourglass~
+   The hourglass rests here, independent of all, except time.  Curious,
+the sand seems to be flowing upwards into the top chamber.
+~
+E
+hourglass~
+   The hourglass rests here, independent of all, except time.  Curious,
+the sand seems to be flowing upwards into the top chamber.
+~
+E
+hourglass~
+   The hourglass rests here, independent of all, except time.  Curious,
+the sand seems to be flowing upwards into the top chamber.
+~
+E
+hourglass~
+   The hourglass rests here, independent of all, except time.  Curious,
+the sand seems to be flowing upwards into the top chamber.
+~
+E
+hourglass~
+   The hourglass rests here, independent of all, except time.  Curious,
+the sand seems to be flowing upwards into the top chamber.
+~
+S
+#14
+Sb's Star Room~
+   This place seems to have no dimentions.  Stars move of into infinity in
+all directions yet whatever is beneath your feet is solid.  Pictures hang
+in free space along four sides.  Looking closely you see that some appear 
+to me no more than framed constellations, although none that you recognise.
+A large hound sprawls apon a sedan composed of stars, waiting for his master.
+~
+0 ejlr 0
+D0
+~
+~
+0 -1 8
+D5
+~
+~
+0 0 3001
+S
+#15
+Garou's Clearing~
+      Slipping through the fabric of reality, you find yourself floating in
+a swirl of fog, shadow, and mist.  Red eyes stare out at you from all sides
+and the sounds of the creatures of the night echo softly off of walls you 
+cannot see.  The footing below you seems to indicate that you're on the 
+floor of a forest clearing of somekind, but as to where, or even when, you
+are, it's impossible to say.  Below you are several soft wolf-skin mats, w 
+which you may stop and rest on for awhile.  But you are wary, for somewhere
+in these shadows you get the disticnt impression that something more than
+human is watching.  You find yourself beginning to wonder just what kind of
+pets a God like the Kinnslayer keeps for company......
+~
+0 egjklrs 0
+D0
+Something can be seen through the mist.  A door maybe.
+~
+door north n~
+0 28020 25
+D5
+~
+~
+0 0 8
+S
+#16
+An Unused God Room~
+   Anyone want this fine piece of real estate?
+~
+0 defghks 0
+D0
+~
+~
+1 -1 8
+S
+#17
+Kerus' Chambers~
+     You stand now in the inner chambers of the Arbritrator of Dominion.
+You can look out on all the realms within the vast land.  From the Castles
+to the east, to the giant mountains of the west.  Nothing is out of this
+rooms sight.  The room is dimly lit by a large stone fire pit in the middle
+of the room.  Pictures depicting Dominions dark ages are arranged on the
+walls.  The wars of the Garouite and Grayites, the Crusades against the 
+  religion of Gray, and the final fall into darkness under the rule of
+the Grayites.  Before you is the great throne of the Arbritrator, you
+can see the Arbritrator will not let the realms go unruled again.
+~
+0 degjlms 0
+D0
+~
+~
+1 -1 8
+D5
+~
+~
+0 0 3001
+S
+#18
+Gaeya's Underwater Hideaway~
+Clear walls surround you and as you peer out of them, you notice
+the creatures of the sea peering back at you. There are several
+sheer linen curtains hanging from the ceiling, giving you the 
+feeling of clouds. Big, comfortable cushions are tossed about the floor
+for you to sit on. You hear the soothing sounds of waves and feel
+completely at peace here.
+~
+0 dejl 0
+D2
+~
+~
+0 0 21
+D4
+You see the clear, cylindrical teleporter. The sign on it
+reads: Up, to the Social Gathering Room.
+~
+~
+0 0 10
+S
+#19
+Cair Muhr's Immortal Chamber~
+A strange haze of purple and blue swirl before your eyes in a hypnotic fashion
+as you realize that you are suspended in beam of light emmitted from a bright
+star in the glaxay beneath you. As you take a closer look into the haze you
+notice that as it swirls there is a never ending rythem to it. You also notice
+that this rythem is the same as the one beating in your chest. A voice appears
+in you head and tells you 'You have entered the layer of Cair'.
+~
+0 jlmrs 0
+D0
+~
+~
+0 0 4
+D2
+~
+~
+0 0 5
+D3
+~
+~
+0 0 7
+S
+#20
+Glasgian's Domain~
+   You are standing in the middle of Glasgian's Domain.  Here everything
+appears to be in perfect order and harmony.  The sky is the perfect blend
+of just the right colors, so that it constantly looks like dusk.  The trees
+have been arranged to form complex patterns all around, not one branch seems
+out of place.  All of the creatures that you see create a perfect balance in
+the ecosystem.  You feel one with land here.
+~
+0 gjlmnrs 3
+D0
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 20
+D1
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 21
+D2
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 20
+D3
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 21
+D5
+You see a small tunnel leading down.
+~
+patch tunnel~
+0 -1 8
+D9
+~
+~
+0 0 21
+S
+#21
+Glasgian's Domain~
+   You are standing in the middle of Glasgian's Domain.  Here everything
+appears to be in perfect order and harmony.  The sky is the perfect blend
+of just the right colors, so that it constantly looks like dusk.  The trees
+have been arranged to form complex patterns all around, not one branch seems
+out of place.  All of the creatures that you see create a perfect balance in
+the ecosystem.  You feel one with land here.
+~
+0 gjklmnrs 1
+D0
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 18
+D1
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 20
+D2
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 21
+D3
+Glasgian's Domain stretches out before you.
+~
+~
+0 -1 20
+D5
+~
+~
+1 0 3039
+D6
+~
+~
+0 0 20
+S
+#22
+Realm of Dread~
+   As you step into this plane you feel a heavy weight decend upon your 
+soul, seeming to crush the life from your mortal body.  In the distance
+banshies wail out in a song of pain, worshiping their master.  Looking to
+your right you see a giant throne formed from bones of various races, 
+some with flesh still clinging to them in a web of blood.  A putrid smell
+assaults your nostrils, the smell of decaying flesh.
+~
+0 deghks 0
+D2
+A blackened portal opens up to the south.
+~
+~
+0 -1 8
+S
+#25
+The Sacred Grounds~
+     The clearing continues into the mist where you see nothing around you 
+except shadows and fog.  Wispy tendrils writhe in and around your feet as
+you stand, trying to get your bearings.  The fresh smell of loam and earth
+slides gently into your nose when you breathe in and you feel a sense of peace
+wash over you as you exhale.  Suddenly the area is lit by a dim light that
+springs into life from nowhere, fifteen feet above the forest floor.  You see
+that you are walking in a small graveyard, where several chiseled tombstones
+mark those cherished faithful of Garou's who gave their lives for his cause.
+The workmanship on the headstones is matserful, and the solemn atmosphere of 
+this second clearing makes you humbly think of your own mortality, or 
+immortality, as the case may be.
+~
+0 cdejnr 3
+D2
+~
+door s south~
+0 28020 15
+E
+stones tombstones graves gravestones~
+     As you look at the stones, the dim light allows you to see some of the
+names etched into the graves: Corr......Syndia......Cyboth....Eliyanax...and,
+hello.....what's this?  One of the graves has been opened, seemingly clawed
+out from the inside.  As if the owner of the grave woke up and hauled his or
+herself out of the pit with their bare hands.  The headstone itself has been
+shattered, but you can see that when put together, the fragments would read
+"Gangrel".  Odd....the name sounds familiar for some reason....
+~
+S
+#26
+High Chamber of Malachi~
+   This place is filled with the banners of the evil armies Malachi
+has destroyed in his inquisition.  A strange haze hovers in the air
+making it sort of hard to see.
+~
+0 cdefglmr 1
+D4
+~
+~
+0 0 8
+D5
+~
+~
+0 0 25569
+S
+#27
+An unfinished room~
+You are in an unfinished room.
+~
+0 n 0
+D5
+~
+~
+0 0 26
+S
+#30
+The Sacrifical Chamber~
+   An unfinished room.
+~
+0 djs 0
+D0
+~
+~
+0 0 31
+S
+#31
+atrium~
+~
+0 egjknst 0
+D3
+~
+~
+1 0 2615
+S
+#99
+The Realm Of The Dead~
+   You are standing on an immense, grey stone floor that stretches as far
+as you can see in all directions.  Rough winds plunging from the dark,
+starless sky tear savagely at your fragile body.
+~
+0 djrs 0
+D0
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+D1
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+D2
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+D3
+The hard floor seems to go on forever.
+~
+~
+0 -1 99
+D5
+~
+trapdoor life~
+0 -1 3001
+E
+floor~
+The stone floor is the same shade of grey as the sky and is completely plain
+and unscratched.  It is probably too hard for anything to leave as much as a
+scratch on it.
+~
+E
+floor~
+The stone floor is the same shade of grey as the sky and is completely plain
+and unscratched.  It is probably too hard for anything to leave as much as a
+scratch on it.
+~
+S
+$~

@@ -1,0 +1,907 @@
+#1
+lantern default standard newbie brass~
+a hooded brass lantern~
+A hooded brass lantern has been left here.~
+~
+1 0 am
+0 0 100 0 0 0 0 10 14
+2 60 10
+E
+lantern brass hooded~
+   It is a large and robust but somewhat battered oil lantern made from 
+brass, and it is equipped with a handle to make it handy and a hood to 
+protect its flame.  Some letters have been scratched on its bottom.
+~
+E
+letters~
+The letters say:
+Use 'hold lantern' to activate.
+~
+#2
+dagger newbie wooden small~
+a small, wooden dagger~
+A small dagger lies on the ground here.~
+~
+0 E am
+0 1 4 11 0 0 0 10 14
+1 0 0
+E
+dagger~
+
+  The dagger seems to have an inscription on it.
+~
+#3
+vest default standard newbie~
+a leather vest~
+A leather vest is lying here in a heap on the ground.~
+~
+9 0 ad
+4 0 0 0 0 0 0 7 14
+2 0 0
+#4
+belt default standard newbie~
+a brown leather belt~
+A brown leather belt is lying here looking for a waist to hug.~
+~
+27 0 ak
+1 0 0 0 0 0 0 7 14
+1 0 0
+#5
+leggings default standard newbie~
+a pair of thin leggings~
+A pair of thin leggings are here.~
+~
+9 0 af
+12 0 0 0 0 0 0 6 14
+2 0 0
+E
+leggings~
+The leggings are made from cloth and do not look like they could
+withstand too much damage nor absord much either.
+~
+#6
+backpack default standard newbie pack~
+a green cloth backpack~
+A backpack, made out of green cloth has been set on the ground here.~
+~
+15 0 aj
+10 1 0 0 0 0 0 3 14
+1 0 0
+E
+backpack pack~
+It is an ordinary container usually worn about the shoulders.  But if you
+have a better way of carrying it...feel free.
+~
+#7
+bread default standard unleavened~
+an unleavened bread~
+Some unleavened bread has been left here.~
+~
+19 0 a
+12 0 0 0 0 0 0 0 14
+1 8 0
+E
+unleavened bread~
+   The unleavened bread is the traditional food of the desert nomads.
+It is flat because they do not use yeast when making the bread.  It
+is both a source of nourishment.
+~
+#8
+canteen default standard newbie water~
+a canteen~
+A canteen has been set on the ground here.~
+~
+17 0 a
+24 24 15 0 0 0 0 8 14
+29 0 0
+E
+canteen~
+   It is a fairly big canteen.  Looks like it can hold a lot of liquid.
+~
+#9
+lute default standard instrument~
+a lute~
+A small lute is here just waiting to be played.~
+~
+26 0 am
+0 0 0 0 0 0 0 0 14
+1 0 0
+#10
+wings~
+a pair of wings~
+A pair of wings is sitting here.~
+~
+9 0 aj
+6 0 0 0 0 0 0 20 30
+0 0 200
+#11
+glove kirahn black~
+a black glove~
+~
+~
+9 adijlq ah
+12 1 -1 0 0 0 0 8 14
+1 0 1200
+A
+18 2
+A
+19 2
+#12
+cape kirahn black~
+a long, black cape~
+A large pile of thick, black cloth lies here.~
+~
+11 djlq aj
+20 0 0 0 0 0 0 0 14
+2 0 1200
+A
+1 3
+#13
+shirt black plate breast~
+a black breastplate~
+Black armor lies here with a black star sewn into the middle of it.~
+~
+9 djq ad
+25 0 0 0 0 0 0 0 14
+1 0 1200
+A
+13 10
+A
+24 15
+A
+23 15
+#14
+crystal ball~
+a ball made of glowing crystal~
+A ball made of crystal hovers in midair here.~
+~
+15 cdjlq am
+250 1 -1 0 0 0 0 0 14
+2 0 1200
+E
+crystal ball~
+   You see within the depths of the mysterious crystal ball
+a golem in a watchtower in a far off desert.
+~
+A
+13 30
+#15
+dragon sword butthole dragonsword~
+the Dragonsword~
+A sword with an emblem of a dragon is lying here.~
+~
+5 t am
+30 5 7 3 0 0 0 15 8
+20 0 10500
+A
+18 5
+A
+19 5
+#16
+dragon dragonshield shield~
+the Dragonshield~
+A shield with an emblem of a dragon is here.~
+~
+9 morst am
+30 0 0 0 0 0 0 15 14
+20 0 4200
+A
+23 20
+A
+24 25
+#17
+bracer dragon~
+a Bracer of the Dragon~
+A Bracer of the Dragon is lying here.~
+~
+9 ptw ai
+15 0 0 0 0 0 0 15 14
+8 0 1000
+A
+13 50
+A
+19 3
+#18
+plate dragon dragonplate~
+Dragon Platemail~
+A suit of platemail with an emblem of a dragon is here.~
+~
+9 a ad
+95 0 0 0 0 0 0 20 14
+25 0 2000
+A
+13 50
+A
+2 -2
+#19
+dominion ring~
+Ring of the Dominion~
+A black and gold ring is here.~
+~
+11 x ab
+0 0 0 0 0 0 0 15 14
+3 10000 2000
+A
+18 10
+A
+19 10
+#20
+mace lightbringer purifier~
+the Mace of Glasgian~
+A mace with the ankh of Glasgian inscribed in the hilt has been left here.~
+~
+5 a am
+25 155 50 6 0 0 0 20 14
+10 0 50000000
+A
+29 1
+A
+12 25
+A
+23 -25
+#21
+symbol kirahn pendant~
+a Black Star Pendant~
+A small pendant with a black star upon it hovers in the air here.~
+~
+3 jl acm
+25 1000 1000 39 0 0 0 15 14
+2 0 0
+A
+1 1
+#22
+disk board~
+a floating disk~
+A large disk hovers in the air here.~
+~
+11 b aj
+0 0 0 0 0 0 0 0 14
+0 10000000 5000
+A
+14 100
+A
+2 3
+#23
+sponge holding~
+a sponge~
+A soggy sponge lies here in a pool of water.~
+~
+17 0 a
+10000 10000 0 0 0 0 0 0 14
+10005 5000 5500
+#24
+black dagger kirahn dark stabber~
+a black dagger~
+A strange, black dagger with a black star on the hilt lies here.~
+~
+5 gjlqE am
+0 3 10 11 0 0 0 20 14
+1 1 1
+A
+18 3
+A
+19 3
+A
+2 3
+A
+29 12
+#25
+visor dragon~
+the Dragon Visor~
+A visor with the crest of The Dragon on it lies here.~
+~
+9 morst ae
+15 0 0 0 0 0 0 0 14
+4 10000000 10000
+A
+4 3
+A
+23 20
+#26
+druid staff~
+the Staff of Druids~
+A druidic staff lies here collecting dust.~
+~
+4 moprtuvw am
+28 -1 16960 23 0 0 0 0 14
+2 30000 1500
+A
+18 4
+A
+19 4
+#27
+scroll warrior~
+a black scroll~
+A black scroll is on the ground here.~
+~
+2 go am
+15 68 100 100 0 0 0 1 2
+1 15739 2000
+#28
+necklace power~
+Necklace of Power~
+A bead necklace lies here on the ground.~
+~
+9 ghq ac
+10 0 0 0 0 0 0 0 14
+2 100000000 4000
+A
+13 30
+A
+12 100
+#29
+belt evil~
+Belt of the Banished~
+A black belt lies on the ground eminating pure evil.~
+~
+9 jlq ak
+20 0 0 0 0 0 0 0 14
+2 10000000 4000
+A
+1 3
+A
+13 30
+#30
+ring murana~
+the Ring of Murana~
+A small ring lies in the dirt.~
+~
+3 adgq ab
+40 10000 10000 29 0 0 0 14 14
+1 10000000 1
+A
+5 1
+A
+12 10
+#31
+choker necklace~
+a bead necklace~
+A bead necklace lies here.~
+~
+9 j ac
+-10 0 0 0 0 0 0 0 14
+1 10000 1000
+A
+13 -24
+A
+1 -100
+#33
+spectacles true sight~
+Spectacles of True Sight~
+A pair of old wire-rimmed glasses has been carelessly left here.~
+~
+11 0 ae
+0 0 0 0 0 0 0 0 14
+1 25000 5000
+A
+29 3
+#34
+mask detect invis~
+the Mask of the Ancients~
+A copper mask has been carelessly left here.~
+~
+11 0 ae
+0 0 0 0 0 0 0 0 14
+2 2 5000
+A
+29 2
+#35
+ring sense life~
+ring of awareness~
+A small sliver ring has been carelessly left here.~
+~
+11 0 ae
+0 0 0 0 0 0 0 0 14
+1 20 5000
+A
+29 6
+#36
+frog boot~
+Boot of the Frog~
+A green boot with webbed toeing is here.~
+~
+9 0 ag
+0 0 0 0 0 0 0 0 14
+2 20000 5000
+A
+29 7
+#37
+necklace gill gills water breathing~
+the Necklace of Gills~
+A necklace, that appears to be made of seaweed is here.~
+~
+9 0 ac
+0 0 0 0 0 0 0 0 14
+1 20000 5000
+A
+29 8
+#38
+ring of haste speed~
+a ring of speed~
+A ring made of supercooled quicksilver lies here.~
+~
+9 0 ab
+0 0 0 0 0 0 0 0 14
+1 200000 5000
+A
+29 9
+#39
+cloak invis invisibility~
+the Cloak of Invisibility~
+A pile of green robes with golden trim lies here.~
+~
+9 0 acj
+0 0 0 0 0 0 0 0 14
+2 25000 5000
+A
+29 10
+#40
+winged boot~
+Boot of Air Walking~
+An old blue colored boot is here.~
+~
+9 0 ag
+0 0 0 0 0 0 0 0 14
+1 25000 5000
+A
+29 11
+#41
+hammer champions warhammer~
+a silverblack hammer~
+A huge silver and black warhammer lies on the ground.~
+~
+5 gimorst am
+0 2 10 7 0 0 0 0 14
+18 100000 5000
+A
+18 10
+A
+13 25
+#42
+plate obsidian black~
+an obsidian plate~
+A chest plate made of obsidian is here.~
+~
+9 gnoprst ad
+85 0 0 0 0 0 0 19 14
+80 9000 300
+A
+17 -8
+#43
+armguard obsidian black~
+an obsidian armguard~
+A piece of black metal armor lies here.~
+~
+9 gmnorst ai
+0 0 0 0 0 0 0 0 14
+15 2000 200
+A
+17 -7
+#44
+legplates obsidian black~
+obsidian legplates~
+Two black-metal legplates are here.~
+~
+9 gmnorst af
+0 0 0 0 0 0 0 0 14
+8 3500 200
+A
+17 -7
+#45
+sword longsword weapon~
+an onyx-hilted sword~
+A sword with a black hilt has been carelessly discarded here.~
+~
+5 fE am
+4 4 6 3 0 0 0 0 14
+14 6000 500
+A
+18 8
+A
+19 8
+#46
+dagger pale tormented~
+the Dagger of Tormented Souls~
+A sharp dagger lies on the ground, wailing and moaning.~
+~
+5 jnrsvw am
+0 2 6 14 0 0 0 0 14
+10 10000 1000
+A
+19 5
+A
+6 -2
+#47
+robe fire cloth~
+Robes of Infernos~
+A pile of cloth is in the corner, emitting heat.~
+~
+9 opr ad
+0 0 0 0 0 0 0 0 14
+5 30000 1000
+A
+4 3
+A
+12 10
+#48
+glove blood oj~
+blood-soaked glove~
+A bloody glove lies here on the ground.~
+~
+9 jl ah
+25 0 0 0 0 0 0 8 14
+3 5000 100
+A
+3 -3
+A
+9 15
+#49
+boot leather tall~
+knee-high leather boot~
+A tall leather boot sits here on the floor.~
+~
+9 0 ag
+15 0 0 0 0 0 0 8 14
+8 2000 200
+A
+17 -5
+#50
+blade hellfire sword~
+a blade of hellfire~
+A sword with a blade of flame lies here, glowing brightly.~
+~
+5 mnrst am
+0 4 3 3 0 0 0 0 14
+13 10000 1000
+#51
+amulet medallion necklace~
+an arrowshaped amulet~
+An arrowhead-shaped amulet on a leather string lies here on the floor.~
+~
+12 adgq ac
+0 0 0 0 0 0 0 0 14
+1 10000 10
+A
+2 1
+A
+19 1
+A
+18 1
+#52
+bow long longbow~
+a longbow~
+A beautifully crafted longbow of polished oak is here.~
+~
+6 g am
+10 5 5 11 0 0 0 20 14
+13 10 10
+A
+18 2
+A
+19 2
+#53
+cloak shadow~
+the Cloak of Shadows~
+A shadowy, dark piece of cloth lies here on the floor.~
+~
+9 g acj
+0 0 0 0 0 0 0 0 14
+2 40000 3000
+A
+17 -10
+A
+23 5
+A
+2 1
+#54
+leggings dark leather black~
+some black, leather leggings~
+A pair a leggings suited for the woods lie here.~
+~
+9 g af
+20 0 0 0 0 0 0 8 14
+2 20000 500
+#55
+boot black leather~
+a soft leather boot~
+A soft, black leather boot lies here.~
+~
+9 0 ag
+0 0 0 0 0 0 0 0 14
+5 15000 400
+A
+18 2
+A
+17 -8
+#57
+orb white ball~
+the Orb of Glasgian~
+An orb of pure white lies here glowing softly.~
+~
+12 adq am
+0 0 0 0 0 0 0 0 14
+5 100000 5000
+A
+17 -40
+A
+13 50
+#60
+orb green ball~
+the Orb of Garou~
+A dark green orb lies here, glowing softly in the dim light.~
+~
+12 adq am
+0 0 0 0 0 0 0 21 4
+5 100000 5000
+A
+12 50
+A
+13 50
+A
+14 50
+#62
+orb black ball~
+the Orb of Kirahn~
+An orb of midnight black lies here humming.~
+~
+12 adq am
+0 0 0 0 0 0 0 0 14
+5 100000 5000
+A
+19 12
+A
+17 -20
+#65
+ambrosia fruit~
+the ambrosia~
+A piece of delicious looking fruit is here on the ground.~
+~
+19 0 a
+22 0 0 0 0 0 0 0 14
+0 145 5
+#66
+lyre instrument~
+a lyre~
+A small lyre is here just waiting to be played.~
+~
+27 g am
+0 0 0 0 0 0 0 0 14
+1 1050 22
+A
+6 2
+A
+14 25
+#68
+skeletal throne mosk bones~
+Skeletal Throne~
+A large throne formed of bones sets before you.~
+~
+23 cdeg 0
+0 0 0 0 0 0 0 0 14
+9999 0 0
+E
+throne mosk skeletal bones~
+
+     As you look upon this throne you can feel the lives that have been
+wasted to form this vile creation, and it seems you can hear the faint
+screams of pain from the former owners of what is now Kirahn's Throne.
+~
+#69
+boot running~
+a boot of running~
+A soft leather boot has been discarded here.~
+~
+11 0 ag
+0 0 0 0 0 0 0 8 0
+1 1400 175
+A
+14 20
+#79
+staff green black istolan~
+the Staff of Istolan~
+A tall staff of dark-green and gray metal lies here on the floor.~
+~
+4 agio am
+30 30 30 27 0 0 0 0 14
+10 90000 1000
+#80
+shard fire ~
+the Shard of Fire~
+A single shard streaked with flames lies here burning.~
+~
+8 aeg am
+0 0 0 0 0 0 0 0 14
+5 1000000 10000
+E
+shard~
+The shard, upon closer inspection, has a rune etched in the back.  Your guess
+is that it symbolizes the number 1.  This artifact is evidenty worth a ton
+of gold.  You smile as the flames continue to lick at your hands.
+~
+A
+17 -10
+#81
+shard water~
+the Shard of Water~
+A crystal shard streaked with blue waters gathers dust on the floor.~
+~
+8 aeg am
+0 0 0 0 0 0 0 0 14
+5 1000000 10000
+E
+shard~
+Superbly-cut, the water almost flows in the groves cut inside of the shard.
+On the face, a rune which you take to denote the symbol "2" is etched.  This
+piece must be worth a fortune with the right buyer.
+~
+A
+5 1
+A
+17 -12
+#82
+shard~
+the Shard of Sunlight~
+A crystal shard burns here so brightly that it hurts to look at it.~
+~
+1 aeg am
+0 0 -1 0 0 0 0 0 14
+5 1000000 10000
+E
+shard~
+Shielding your eyes with your free hand, you squint to look at this crystal
+of light.  With your fingers, you can make out a rune depicting the number
+3 on the front.  A great find, probably worth a ton of gold!
+~
+A
+4 1
+A
+17 -12
+#83
+shard moonlight~
+the Shard of Moonlight~
+A dark shard of crystal, refracted with white light lies here.~
+~
+1 aeg am
+0 0 -1 0 0 0 0 0 14
+5 1000000 10000
+E
+shard~
+Inspecting the softly glowing, cold shard more closely, you see that the
+rune meaning "4" is etched into the face.  This shard is a master piece
+of work.
+~
+A
+2 1
+A
+17 -12
+#84
+mageblade blade mage red~
+a Large Red MageBlade~
+A large blade lies here, glowing red.~
+~
+5 a am
+0 1 20 3 0 0 0 0 14
+0 0 0
+A
+3 1
+A
+17 -10
+#85
+shard stone~
+the Shard of Stone~
+A smooth stone cut into shard-like form lies here on the ground.~
+~
+8 aeg am
+0 0 0 0 0 0 0 0 14
+5 1000000 10000
+E
+shard~
+This artifact is a real piece of work, evidently worth millions if a buyer
+could be found.  On the front face, your fingertips detect a rune etched
+into it, depicting the number 5.  You wonder what this could mean.
+~
+A
+1 1
+A
+17 -12
+#86
+shard wind~
+the Shard of Wind~
+A light-blue crystal shard sits here on the floor.~
+~
+8 aeg am
+0 0 0 0 0 0 0 0 14
+5 1000000 10000
+E
+shard~
+Cool to the touch, yet lit by an inner glow, this shard must easily be worth
+excessive amounts of gold.  You notice that a rune depicting the number 6 is
+etched into the face of the shard.  Curious...could this be one of many?
+~
+A
+18 2
+A
+17 -10
+#87
+shard time~
+the Shard of Time~
+A pale, purplish shard of glass glows softly from it's place on the floor.~
+~
+8 aeg am
+0 0 0 0 0 0 0 0 14
+5 1000000 10000
+E
+shard~
+A fine piece of treasure you've aquirred.  Worth a ton of gold if you could
+find a buyer.  On the front face of the shard, there is a rune etched in it
+which you decipher to mean the number 7.  But why is it there?
+~
+A
+13 20
+A
+17 -10
+A
+9 5
+#88
+infinite shard~
+the Shard of the Infinite~
+Burning with white and black fire, a shard lies here on the ground.~
+~
+8 aeg ao
+0 0 0 0 0 0 0 0 14
+5 3000000 20000
+E
+shard~
+Spoken only of in legend, this wonderous artifact is now yours through your
+strength and determination.  Power ripples through your body as you touch
+the shard and the rune of infinity that is etched in the center.
+~
+A
+13 40
+A
+12 75
+A
+17 -25
+A
+18 3
+A
+19 3
+#90
+mace newbie standard default~
+a small spiked mace~
+A spiked iron ball rests atop a shaft of pine here.~
+~
+5 0 am
+0 2 4 5 0 0 0 0 14
+4 150 1
+#97
+mail piece _DO_NOT_FUCK_WITH_THIS_ITEM_~
+a piece of mail~
+A piece of mail has been carelessly left here.~
+~
+0 0 am
+0 0 0 0 0 0 0 0 0
+1 1 0
+#98
+blood pool~
+a pool of blood~
+A pool of blood is coagulating here.~
+~
+0 0 0
+0 0 0 0 0 0 0 0 14
+0 0 0
+#99
+light symbol amulet glasgian~
+the Holy Symbol of Glasgian~
+A small amulet of pure light is lying here.~
+~
+1 aikl acm
+0 10 -1 5 0 0 0 0 14
+1 0 1
+E
+symbol glasgian light amulet~
+It is the Holy symbol of Glasgian.
+~
+A
+17 -15
+$~

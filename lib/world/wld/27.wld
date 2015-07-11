@@ -1,0 +1,1091 @@
+#2700
+The Dark, Murky Pool~
+You stand knee deep in the water of the dark, murky pool.  The water is 
+quite brisk, though hypothermia should not set in immediately.  You see the
+water continues behind the cave wall to the north and west, but the opening
+is too small to squeeze through.
+
+~
+27 acd 0
+D1
+The cavern continues to the east.
+~
+~
+0 -1 2701
+D2
+The pool continues to the south.
+~
+~
+0 -1 2710
+D8
+The cavern continues to the southeast.
+~
+~
+0 0 2711
+S
+#2701
+Along the Northern Wall of the Great Cavern~
+You are standing at the base of the northern wall of the great cavern.  The 
+wall vaults upward some 30 feet to the stalactite covered ceiling.  Only
+the bases and broken pieces of the reciprical stalagmites are seen scattered
+about on the floor.  The cavern floor turns to a pool of dark, murky water to
+the west, the pool continuing to the northwest corner of the cave.
+~
+27 ad 0
+D1
+The cavern continues to the east.
+~
+~
+0 -1 2702
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2711
+D3
+The cavern continues to the west.
+~
+~
+0 -1 2700
+D8
+The cavern continues to the southeast.
+~
+~
+0 0 2712
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2710
+S
+#2702
+Along the Northern Wall of the Great Cavern~
+The northern wall here appears as elsewhere, a solid stone face vaulting
+upwards to the ceiling.  You do notice some scratchings on the northern wall,
+however.
+~
+27 ad 0
+D1
+The cavern continues to the east.
+~
+~
+0 -1 2703
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2712
+D3
+The cavern continues to the west.
+~
+~
+0 -1 2701
+D8
+The cavern continues to the southeast.
+~
+~
+0 0 2713
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2711
+E
+northern wall scratchings~
+The writings are in kobold, roughly translating to "Lord, I am sooo tired,
+how long must this go on?"
+~
+S
+#2703
+Along the Northern Wall of the Great Cavern~
+You stand at the base of the northern wall of the great cavern.  To the east
+you see the wall gently curve southward, though your eyes are mainly caught
+by the throne that has been constructed in the northeast corner, and the
+presumable king who sits upon it.
+~
+27 ad 0
+D1
+The cavern continues to the east, where you see a "not so great" throne.
+~
+~
+0 -1 2704
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2713
+D3
+The cavern continues to the west.
+~
+~
+0 -1 2702
+D8
+The cavern continues to the southeast.
+~
+~
+0 0 2714
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2712
+S
+#2704
+Before the Throne of the Kobold King~
+Here the northern and southern walls of the great cavern curve to meet.  A
+much more recent addtion to this magnificent cavern has been a throne of
+metal, wood, and rock, that by all indications has been hurriedly thrown 
+together so that its inhabitant can oversee the ongoing operation.  On the
+wall next to the throne looks to be some sort of tactical plan.
+~
+27 ad 0
+D2
+~
+~
+0 -1 2714
+D3
+~
+~
+0 -1 2703
+D9
+The great cavern continues to the southwest.
+~
+~
+0 0 2713
+E
+map invasion plan~
+                       /
+    soon              /
+    dead             /
+    gnomes          / dead
+   x               /  dwarf 
+-------   --------/  x place (ha!)
+   ^  |   |
+   |  |   |  |<--<--<--
+   |  |   |  |    |   ^
+   |<-|-<-|<--  troll |
+      |   |     army  |
+      |   |  invasion x big evil
+      -----    path     dude's
+                        place
+~
+S
+#2705
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D8
+The tunnel winds to the southeast.
+~
+~
+0 0 2719
+D9
+The tunnel winds to the southwest.
+~
+~
+0 0 2718
+S
+#2706
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D1
+The tunnel continues to the east.
+~
+~
+0 -1 2707
+D9
+The tunnel winds to the southwest.
+~
+~
+0 0 2719
+S
+#2707
+Mouth of Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D1
+The tunnel opens up onto open air, and the fall to the chasm floor below
+looks painful.  Better go back.
+~
+~
+0 -1 2708
+D3
+The tunnel continues to the west, into the wall of the chasm.
+~
+~
+0 -1 2706
+S
+#2708
+Walking on Air Across the Chasm.~
+You've taken a step into mid-air, and are now getting a rapid introduction
+to two priciples of physics...gravity and terminal velocity.  The key word
+is TERMINAL.
+~
+27 bc 0
+S
+#2709
+The Dark, Murky Pool~
+Wading through the dark murky water, you find that it reaches roughly your
+knee level at its deepest, against the north and western cave walls.  The
+water is quite chilly, so you arn't too depressed to find that the opening
+in the cave wall through which the water issues is much to small to crawl
+through.
+
+~
+27 acd 0
+D1
+The pool continues to the east.
+~
+~
+0 -1 2710
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2722
+D8
+The cavern continues to the southeast.
+~
+~
+0 0 2723
+S
+#2710
+The Dark, Murky Pool~
+You stand knee deep in a pool of dark, murky water.  The pool appears to 
+continue to the northwest, beneath the cave wall, however the opening is
+too small to continue in that direction.
+~
+27 acd 0
+D0
+~
+~
+0 -1 2700
+D1
+~
+~
+0 -1 2711
+D2
+~
+~
+0 -1 2723
+D3
+~
+~
+0 -1 2709
+D6
+The cavern continues to the northeast.
+~
+~
+0 0 2701
+D8
+The cavern extends to the southeast, with the rickety staircase you entered
+upon rising upward toward the vaulting cavern ceiling.
+~
+~
+0 0 2724
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2722
+S
+#2711
+The Great Cavern~
+You are standing in the center of the great cavern.  To the west and northwest
+you see a pool, the cave floor coming to an abrupt end.  Directly to the south
+you see a kobold-made staircase of recent construction that allows passage
+to the upper mines.
+~
+27 ad 0
+D0
+The cavern continues to the north.
+~
+~
+0 -1 2701
+D1
+The cavern continues to the east.
+~
+~
+0 -1 2712
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2724
+D3
+The cavern continues to the west.
+~
+~
+0 -1 2710
+D6
+The cavern continues to the northeast.
+~
+~
+0 0 2700
+D7
+The cavern continues to the northwest.
+~
+~
+0 0 2702
+D8
+The passage continues to the southeast.
+~
+~
+0 0 2725
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2723
+S
+#2712
+River Channel through the Great Cavern~
+You stand amid the great cavern, with the floor here recessed, where the 
+underground river must have flown that carved out the natural tunnels to 
+the east and west.
+~
+27 ad 0
+D0
+The cavern continues to the north.
+~
+~
+0 -1 2702
+D1
+The cavern continues to the east.
+~
+~
+0 -1 2713
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2725
+D3
+The cavern continues to the west.
+~
+~
+0 -1 2711
+D6
+The cavern continues to the northeast.
+~
+~
+0 0 2703
+D7
+The cavern continues to the northwest.
+~
+~
+0 0 2701
+D8
+The cavern continues to the southeast.
+~
+~
+0 0 2726
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2724
+S
+#2713
+River Channel through the Great Cavern~
+You stand amid the great cavern, within a channel cut here by a river long
+since forgotten.  To the northeast you see the meeting of the northern and
+eastern walls, with a throne having been constructed in the corner of the
+cavern.
+~
+27 ad 0
+D0
+The cavern continues to the north.
+~
+~
+0 -1 2703
+D1
+The cavern continues to the east.
+~
+~
+0 -1 2714
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2726
+D3
+The cavern continues to the west.
+~
+~
+0 -1 2712
+D6
+The great cavern continues to the northeast, where you see a "not so great"
+throne.
+~
+~
+0 0 2704
+D7
+The cavern continues to the northwest.
+~
+~
+0 0 2702
+D8
+The cavern continues to the southeast.
+~
+~
+0 0 2727
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2725
+S
+#2714
+River Channel through the Great Cavern~
+The dry riverbed continues its run from west to east, cutting its way into
+the eastern wall of the great cavern here.  Immediately to the north, the
+eastern wall turns westward, while to the south, it likewise turns toward
+the west.  Just north of here, you see a throne rise up from the stone floor.
+~
+27 ad 0
+D0
+The cavern continues to the north, where you see a "not so great" throne.
+~
+~
+0 -1 2704
+D1
+You see a tunnel running east into the southern wall.
+~
+~
+0 -1 2715
+D2
+The cavern continues to the south.
+~
+~
+0 -1 2727
+D3
+The cavern continues to the west.
+~
+~
+0 -1 2713
+D7
+The cavern continues to the northwest.
+~
+~
+0 0 2703
+D8
+You see a tunnel running eastward into the eastern wall.
+~
+~
+0 0 2728
+D9
+The cavern continues to the southwest.
+~
+~
+0 0 2726
+S
+#2715
+Mouth of a Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D1
+~
+~
+0 -1 2716
+D2
+~
+~
+0 -1 2728
+D3
+~
+~
+0 -1 2714
+S
+#2716
+The Winding Tunnel      ~
+This description is yet unfinished...
+~
+27 ad 0
+D2
+~
+~
+0 -1 2729
+D3
+~
+~
+0 -1 2715
+S
+#2717
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D1
+The tunnel continues eastward.
+~
+~
+0 -1 2718
+D9
+The tunnel winds to the southwest.
+~
+~
+0 0 2732
+S
+#2718
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D3
+The tunnel continues westward.
+~
+~
+0 -1 2717
+D6
+The tunnel winds to the northeast.
+~
+~
+0 0 2705
+S
+#2719
+The Winding Tunnel.~
+This description is yet unfinished...
+~
+27 ad 0
+D6
+The tunnel winds to the northeast.
+~
+~
+0 0 2706
+D7
+The tunnel winds to the northwest.
+~
+~
+0 0 2705
+S
+#2720
+Wall of Rocks~
+The river channel westward disappears under a sea of stone fragments here, 
+preventing passage as the tunnel has been filled in by the kobold's 
+excavation efforts.
+~
+27 ad 0
+D1
+You see the mouth of the tunnel to the east.
+~
+~
+0 -1 2721
+D2
+The tunnel is still passable to the south.
+~
+~
+0 -1 2734
+D8
+You see the mouth of the tunnel to the southeast.
+~
+~
+0 0 2735
+S
+#2721
+Mouth of a Tunnel~
+You are standing at the western end of a great cavern, at the mouth of a 
+tunnel that burrows its way into the western wall.  The mouth of the tunnel
+is quite wide, continuing some 20 feet southward from here, and is a full
+9 feet in height, making passage comfortable.
+~
+27 ad 0
+D1
+~
+~
+0 -1 2722
+D2
+~
+~
+0 -1 2735
+D3
+~
+~
+0 -1 2720
+D9
+The tunnel continues to the southwest.
+~
+~
+0 0 2734
+S
+#2722
+The Great Cavern~
+You stand at the western end of the great cavern.  Passage further west is 
+possible, entering a dark tunnel into the cavern wall, while to the north
+you see a small pool.  The great cavern opens up to the south and east.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2709
+D1
+~
+~
+0 -1 2723
+D2
+~
+~
+0 -1 2736
+D3
+~
+~
+0 -1 2721
+S
+#2723
+The Great Cavern~
+You stand amid a vast cavern, the ceiling vaulting overhaed coated in 
+stalactites.  The stalagmites that once must have covered the floor have all
+been shattered, with only the fragments remaining, scattered about and mixed
+in with fragments of stone from the excavation efforts going on closer to
+the surface.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2710
+D1
+~
+~
+0 -1 2724
+D2
+~
+~
+0 -1 2737
+D3
+~
+~
+0 -1 2722
+S
+#2724
+Rickety Staircase~
+Here, amidst a great natural cavern, a huge wooden staircase has been 
+constructed.  The stairway reaches upwards to the top of the vaulting ceiling
+and beyond, disappearing into a hole that has been burrowed into the
+stalactite covered canopy.  The base of the staircase sits within a dry
+riverbed which continues to the northeast and southwest.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2711
+D1
+~
+~
+0 -1 2725
+D2
+~
+~
+0 -1 2738
+D3
+~
+~
+0 -1 2723
+S
+#2725
+The Great Cavern~
+You are standing admist huge cavern, which must have been quite grand before
+the humaniods turned it into a staging ground for war.  Immediately to the
+west, you see the staircase leading to the tunnel that works its way toward
+the surface. 
+~
+27 ad 0
+D0
+~
+~
+0 -1 2712
+D1
+~
+~
+0 -1 2726
+D2
+~
+~
+0 -1 2739
+D3
+~
+~
+0 -1 2724
+S
+#2726
+Along the Southern Wall of the Great Cavern~
+You stand at an edge of the great cavern, a wall vaulting upward preventing 
+travel southward.  As you look east, you see the southern wall turn northward,
+with a large tunnel cutting into the wall face.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2713
+D1
+~
+~
+0 -1 2727
+D3
+~
+~
+0 -1 2725
+S
+#2727
+Southeast Corner of the Great Cavern~
+You stand at the southeast corner of the great cavern, the wall turning 
+sharply north here, though a broad tunnel mouth cuts its way into the eastern
+wall.  
+~
+27 ad 0
+D0
+~
+~
+0 -1 2714
+D1
+~
+~
+0 -1 2728
+D3
+~
+~
+0 -1 2726
+S
+#2728
+Mouth of a Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D0
+~
+~
+0 -1 2715
+D1
+~
+~
+0 -1 2729
+D3
+~
+~
+0 -1 2727
+S
+#2729
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D0
+~
+~
+0 -1 2716
+D1
+~
+~
+0 -1 2730
+D3
+~
+~
+0 -1 2728
+S
+#2730
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D1
+~
+~
+0 -1 2731
+D3
+~
+~
+0 -1 2729
+S
+#2731
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D3
+~
+~
+0 -1 2730
+D8
+The tunnel winds to the southeast.
+~
+~
+0 0 2740
+S
+#2732
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D6
+The tunnel winds to the northeast.
+~
+~
+0 0 2717
+D9
+The tunnel winds to the southwest.
+~
+~
+0 0 2740
+S
+#2733
+Climbing Amongst the Rocks~
+Rocks, rocks, and more rocks.  The kobolds must be dumping here all the stone
+they are excavating closer to the surface.  To the west, the rock fragments
+form an impenetratable wall.
+~
+27 ad 0
+D1
+The tunnel continues to the east.
+~
+~
+0 -1 2734
+S
+#2734
+A Tunnel.~
+You stand in a tunnel carved by an ancient underground river, though not even
+a trickle of water is evident now.  This subterranean passage runs roughly
+east-west.  You see lots of pieces of freshly chisled rock scattered about
+the floor, probably dumped here by all those little kobolds carrying around
+buckets of rock.
+~
+27 ad 0
+D0
+The tunnel continues to the north.
+~
+~
+0 -1 2720
+D1
+You see the mouth of the tunnel.
+~
+~
+0 -1 2735
+D3
+The tunnel continues to the west.
+~
+~
+0 -1 2733
+D6
+You see the mouth of the tunnel.
+~
+~
+0 0 2721
+S
+#2735
+Mouth of a Tunnel~
+You are standing at the mouth of a tunnel which continues westward, away from
+the great cavern.  Here the evidence of the ancient river that once carved
+this subterranean realm is most obvious, the floor a smooth bed of rock 
+worn away over time by the now absent stream.  
+~
+27 ad 0
+D0
+~
+~
+0 -1 2721
+D1
+~
+~
+0 -1 2736
+D3
+~
+~
+0 -1 2734
+D7
+The tunnel continues to the northwest.
+~
+~
+0 0 2720
+S
+#2736
+River Channel through Great Cavern~
+A river channel, now dry, cuts its way across the carvern floor here, running
+from east to west.  To the south the southern wall of the carvern rises 
+upwards, west the river path cuts into the carvern wall, and north and east
+the cavern continues.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2722
+D1
+~
+~
+0 -1 2737
+D3
+~
+~
+0 -1 2735
+S
+#2737
+River Channel through Great Cavern~
+The dry river channel, as it follows the southern wall of the great cavern
+here, bends from its northeast to southwest path, to a due west tracking.
+Additionally, along the southern wall here you notice a tight crevice that
+might be passable.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2723
+D1
+~
+~
+0 -1 2738
+D2
+~
+~
+0 -1 2741
+D3
+~
+~
+0 -1 2736
+S
+#2738
+Along the Southern Wall of the Great Cavern~
+You are standing at the base of the southern wall of the great cavern.  You
+see a large fissure in the wall here, cutting southeast into the wall.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2724
+D1
+~
+~
+0 -1 2739
+D3
+~
+~
+0 -1 2737
+D8
+You see a fissure in the wall of the great cavern.
+~
+~
+0 0 2742
+S
+#2739
+Standing in the Southeast Corner of the Great Cavern~
+The southern wall of the cavern here curves northward.  In the south wall, 
+you see a large fissure cutting its way southward into the depths of the
+earth.
+~
+27 ad 0
+D0
+~
+~
+0 -1 2725
+D2
+~
+~
+0 -1 2742
+D3
+~
+~
+0 -1 2738
+S
+#2740
+The Winding Tunnel~
+This description is yet unfinished...
+~
+27 ad 0
+D6
+The tunnel winds to the northeast.
+~
+~
+0 0 2732
+D7
+The tunnel continues to the northwest.
+~
+~
+0 0 2731
+S
+#2741
+Crevice in Cavern Wall~
+You stand south of the great cavern, inside of a tight crevice in the southern
+wall.  Passage further south is still possible, though the walls of the
+crevice get ever closer together.  
+~
+27 adi 0
+D0
+~
+~
+0 -1 2737
+D2
+~
+~
+0 -1 2744
+S
+#2742
+Mouth of Fissure~
+You stand in the mouth of a fissure in the southern wall of the great 
+cavern.  It continues deeper into the earth toward the west, but appears
+to narrow rapidy.
+~
+27 ad 0
+D0
+You see the great cavern.
+~
+~
+0 -1 2739
+D1
+The fissure continues to the east.
+~
+~
+0 -1 2743
+D7
+You see the great cavern.
+~
+~
+0 0 2738
+S
+#2743
+Fissure in Cavern Wall~
+The fissure narrows a little here, though you can still continue to the
+south, or return to the great cavern to the northwest.
+~
+27 ad 0
+D2
+The fissure continues to the south, though it appears to get quite snug.
+~
+~
+0 -1 2745
+D3
+You see the mouth of the fissure.
+~
+~
+0 -1 2742
+S
+#2744
+Narrowing of Crevice~
+The crevice narrows here, with any travel further south impossible.
+~
+27 adi 0
+D0
+The crevice widens to the north.
+~
+~
+0 -1 2741
+S
+#2745
+Narrowing of Fissure~
+The fissure narrows here, to the point of impassibility.
+~
+27 adi 0
+D0
+The fissure wides to the north.
+~
+~
+0 -1 2743
+S
+$~

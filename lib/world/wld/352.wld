@@ -1,0 +1,1274 @@
+#35200
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 2
+D1
+~
+~
+0 -1 35201
+S
+#35201
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 2
+D1
+~
+~
+0 -1 35202
+D3
+~
+~
+0 -1 35200
+S
+#35202
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 2
+D1
+~
+~
+0 -1 35203
+D2
+~
+~
+0 -1 35204
+D3
+~
+~
+0 -1 35201
+S
+#35203
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 2
+D3
+~
+~
+0 -1 35202
+S
+#35204
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 2
+D0
+~
+~
+0 -1 35202
+D2
+~
+~
+0 -1 35205
+S
+#35205
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 2
+D0
+~
+~
+0 -1 35204
+D1
+~
+~
+0 -1 35206
+S
+#35206
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 2
+D1
+~
+~
+0 -1 35207
+D3
+~
+~
+0 -1 35205
+S
+#35207
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 3
+D1
+~
+~
+0 -1 35208
+D3
+~
+~
+0 -1 35206
+S
+#35208
+Middle of the Lake~
+   The crystal, blue waters splash in choppy waves all about you.  The
+breeze is cool as it blows over the lake.  The hypnotic lapping of the
+waves, provides an aura of tranquility unlike any other in the realm.
+The shores can be seen in the distance, just below the horizon - some
+lined with trees, some lined with craggy hills, some lined with laketowns.
+~
+352 0 3
+D1
+~
+~
+0 -1 35209
+D3
+~
+~
+0 -1 35207
+S
+#35209
+An Intersection in the Path~
+  You are standing on a trail that sees little use.  To the west you see a
+path that seems has seen less traffic than this one.  South of here you 
+see a vast plain, and north of here is a rather nice looking forest.
+~
+352 0 3
+D0
+~
+~
+0 0 35345
+D2
+~
+~
+0 -1 35210
+S
+#35210
+A Grown Over Trail~
+  You are standing on a fading trail.  North of here you can see a small
+forest.  South of here you see a vast plain.
+~
+352 0 3
+D0
+~
+~
+0 -1 35209
+D2
+~
+~
+0 -1 35211
+S
+#35211
+A Grown Over Trail~
+   You are on a small trail that is slowly disappearing due to lack of use.
+South of here you can see a vast plain, and north you see a small forest.
+~
+352 0 2
+D0
+~
+~
+0 -1 35210
+D2
+~
+~
+0 -1 35213
+S
+#35212
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D1
+~
+~
+0 -1 35213
+D2
+~
+~
+0 -1 35215
+S
+#35213
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35211
+D1
+~
+~
+0 -1 35214
+D2
+~
+~
+0 -1 35216
+D3
+~
+~
+0 -1 35212
+S
+#35214
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D2
+~
+~
+0 -1 35217
+D3
+~
+~
+0 -1 35213
+S
+#35215
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35212
+D1
+~
+~
+0 -1 35216
+D2
+~
+~
+0 -1 35220
+S
+#35216
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35213
+D1
+~
+~
+0 -1 35217
+D2
+~
+~
+0 -1 35221
+D3
+~
+~
+0 -1 35215
+S
+#35217
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35214
+D2
+~
+~
+0 -1 35222
+D3
+~
+~
+0 -1 35216
+S
+#35218
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D1
+~
+~
+0 -1 35219
+D2
+~
+~
+0 -1 35223
+S
+#35219
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D1
+~
+~
+0 -1 35220
+D2
+~
+~
+0 -1 35224
+D3
+~
+~
+0 -1 35218
+S
+#35220
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35215
+D1
+~
+~
+0 -1 35221
+D2
+~
+~
+0 -1 35225
+D3
+~
+~
+0 -1 35219
+S
+#35221
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35216
+D1
+~
+~
+0 -1 35222
+D2
+~
+~
+0 -1 35226
+D3
+~
+~
+0 -1 35220
+S
+#35222
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35217
+D3
+~
+~
+0 -1 35221
+S
+#35223
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35218
+D1
+~
+~
+0 -1 35224
+D2
+~
+~
+0 -1 35228
+S
+#35224
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35219
+D1
+~
+~
+0 -1 35225
+D2
+~
+~
+0 -1 35229
+D3
+~
+~
+0 -1 35223
+S
+#35225
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35220
+D1
+~
+~
+0 -1 35226
+D2
+~
+~
+0 -1 35230
+D3
+~
+~
+0 -1 35224
+S
+#35226
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35221
+D2
+~
+~
+0 -1 35231
+D3
+~
+~
+0 -1 35225
+S
+#35227
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D1
+~
+~
+0 -1 35228
+D2
+~
+~
+0 -1 35232
+S
+#35228
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35223
+D1
+~
+~
+0 -1 35229
+D2
+~
+~
+0 -1 35233
+D3
+~
+~
+0 -1 35227
+S
+#35229
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35224
+D1
+~
+~
+0 -1 35230
+D2
+~
+~
+0 -1 35234
+D3
+~
+~
+0 -1 35228
+S
+#35230
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35225
+D1
+~
+~
+0 -1 35231
+D2
+~
+~
+0 -1 35235
+D3
+~
+~
+0 -1 35229
+S
+#35231
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35226
+D2
+~
+~
+0 -1 35236
+D3
+~
+~
+0 -1 35230
+S
+#35232
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35227
+D1
+~
+~
+0 -1 35233
+D2
+~
+~
+0 -1 35237
+S
+#35233
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35228
+D1
+~
+~
+0 -1 35234
+D2
+~
+~
+0 -1 35238
+D3
+~
+~
+0 -1 35232
+S
+#35234
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35229
+D1
+~
+~
+0 -1 35235
+D2
+~
+~
+0 -1 35239
+D3
+~
+~
+0 -1 35233
+S
+#35235
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35230
+D1
+~
+~
+0 -1 35236
+D2
+~
+~
+0 -1 35240
+D3
+~
+~
+0 -1 35234
+S
+#35236
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35231
+D3
+~
+~
+0 -1 35235
+S
+#35237
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35232
+D1
+~
+~
+0 -1 35238
+D2
+~
+~
+0 -1 35241
+S
+#35238
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35233
+D1
+~
+~
+0 -1 35239
+D2
+~
+~
+0 -1 35242
+D3
+~
+~
+0 -1 35237
+S
+#35239
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35234
+D1
+~
+~
+0 -1 35240
+D2
+~
+~
+0 -1 35243
+D3
+~
+~
+0 -1 35238
+S
+#35240
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35235
+D3
+~
+~
+0 -1 35239
+S
+#35241
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35237
+D1
+~
+~
+0 -1 35242
+D2
+~
+~
+0 -1 35244
+S
+#35242
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35238
+D1
+~
+~
+0 -1 35243
+D2
+~
+~
+0 -1 35245
+D3
+~
+~
+0 -1 35241
+S
+#35243
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35239
+D3
+~
+~
+0 -1 35242
+S
+#35244
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage
+~
+352 0 2
+D0
+~
+~
+0 -1 35241
+D1
+~
+~
+0 -1 35245
+D2
+~
+~
+0 -1 35246
+S
+#35245
+Thallin Plains~
+   You are in a great expanse of plains.  Waving tall grass is all that can be
+seen.  The plains seem to extend forever.  Way off in the north you think you
+see a lake, but it could be a mirage of the waving folliage.
+
+~
+352 0 2
+D0
+~
+~
+0 -1 35242
+D3
+~
+~
+0 -1 35244
+S
+#35246
+Before the Plains~
+   You are walking on a covered over path.  North of here, a vast plain 
+stretches before you.  The path leads into this plain, but t disappears in
+the tall grass.  South of here the path is more defined.
+~
+352 0 2
+D0
+~
+~
+0 -1 35244
+D2
+~
+~
+0 -1 35248
+S
+#35247
+Turn in the Path~
+   You are on a small path in the middle of a field.  The path turns and goes
+east from here, further into the plains, and south you can see a monestary.
+~
+352 0 3
+D1
+~
+~
+0 -1 35248
+D2
+~
+~
+0 -1 35249
+S
+#35248
+A Fading Path~
+   The path you are on seems to be not very travelled on this end.  South of
+here the path looks to be more defined and travelled, and you think you can 
+make out what looks to be a building of some sort.  North of here you see
+a rather large plain
+~
+352 0 3
+D0
+~
+~
+0 -1 35246
+D3
+~
+~
+0 -1 35247
+S
+#35249
+Path to the Monestary~
+   You stand on a small path that runs from the monestary to the plains.  
+Many monks come out here to meditate and be at peace.  South of here you
+see the monestary and what appears to be a town south of that.
+~
+352 0 3
+D0
+~
+~
+0 -1 35247
+D2
+~
+~
+0 0 6403
+S
+#35250
+Room 35250~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35251
+Room 35251~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35252
+Room 35252~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35253
+Room 35253~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35254
+Room 35254~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35255
+Room 35255~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35256
+Room 35256~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35257
+Room 35257~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35258
+Room 35258~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35259
+Room 35259~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35260
+Room 35260~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35261
+Room 35261~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35262
+Room 35262~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35263
+Room 35263~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35264
+Room 35264~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35265
+Room 35265~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35266
+Room 35266~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35267
+Room 35267~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35268
+Room 35268~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35269
+Room 35269~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35270
+Room 35270~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35271
+Room 35271~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35272
+Room 35272~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35273
+Room 35273~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35274
+Room 35274~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35275
+Room 35275~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35276
+Room 35276~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35277
+Room 35277~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35278
+Room 35278~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35279
+Room 35279~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35280
+Room 35280~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35281
+Room 35281~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35282
+Room 35282~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35283
+Room 35283~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35284
+Room 35284~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35285
+Room 35285~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35286
+Room 35286~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35287
+Room 35287~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35288
+Room 35288~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35289
+Room 35289~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35290
+Room 35290~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35291
+Room 35291~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35292
+Room 35292~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35293
+Room 35293~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35294
+Room 35294~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35295
+Room 35295~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35296
+Room 35296~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35297
+Room 35297~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35298
+Room 35298~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+#35299
+Room 35299~
+  This lovely room has yet to be written
+~
+352 0 0
+S
+$~

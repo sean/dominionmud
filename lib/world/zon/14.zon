@@ -1,0 +1,107 @@
+#14
+The Chessboard~
+SillyMUD~
+LOW~
+3001 1
+*
+1499 20 2
+*
+D 0 1499 3 1            close gate from entrance
+D 0 1498 1 1                from other side
+*
+M 0 1400 1 1400         black rook
+M 0 1401 1 1401         knight
+M 0 1402 1 1402         bishop
+M 0 1403 1 1403         queen
+M 0 1404 1 1404         king
+M 0 1405 1 1405         bishop
+M 0 1406 1 1406         knight
+M 0 1407 1 1407         rook
+M 0 1408 9 1408         pawn
+M 0 1408 9 1409         "
+M 0 1408 9 1410
+M 0 1408 9 1411
+M 0 1408 9 1412
+M 0 1408 9 1413
+M 0 1408 9 1414
+M 0 1408 9 1415         last black pawn
+M 0 1417 4 1446         mini mindflayer
+M 0 1417 4 1417         mini mindflayer
+M 0 1418 2 1418         Curser
+M 0 1418 2 1443         Curser
+M 0 1419 3 1419         cow
+M 0 1419 3 1419         cow
+M 0 1419 6 1419         cow
+E 1 1413 4 3              cow bell
+M 0 1420 3 1420         Net lag
+M 0 1420 3 1422         Net lag
+M 0 1421 3 1421         sapling
+M 0 1421 3 1440         sapling
+E 1 1411 10 17            scroll of detect poison/light
+M 0 1421 3 1441         sapling
+M 0 1428 3 1428         Jugglernaut
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3010 1000             a bread
+M 0 1428 3 1444         Jugglernaut
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3102 1000             a cup
+G 1 3060 1000             a raft
+M 0 1433 5 1433         Mutterfly
+M 0 1433 5 1433         Mutterfly
+M 0 1433 5 1430         Mutterfly
+M 0 1433 5 1430         Mutterfly
+M 0 1437 2 1437         peel
+M 0 1437 2 1425         peel
+M 0 1448 9 1448         white pawn
+M 0 1448 9 1449         pawn
+M 0 1448 9 1450         pawn
+M 0 1448 9 1451         pawn
+M 0 1448 9 1452         pawn
+M 0 1448 9 1453         pawn
+M 0 1448 9 1454         pawn
+M 0 1448 9 1455         last white pawn
+M 0 1456 1 1456         rook
+M 0 1457 1 1457         knight
+M 0 1458 1 1458         bishop
+M 0 1459 1 1459         queen
+M 0 1460 1 1460         king
+M 0 1461 1 1461         bishop
+M 0 1462 1 1462         knight
+M 0 1463 1 1463         rook
+M 0 1470 1 1470         Jabberwocky
+G 1 1421 1                Vorpal blade
+M 0 1471 1 1432         pair of medics
+M 0 1472 1 1472         Flame
+G 1 1420 1                leggings
+M 0 1494 4 1406         beast
+M 0 1494 4 1407         beast
+M 0 1494 4 1414         beast
+M 0 1494 4 1415         beast
+M 0 1493 1 1414         delivery beast
+M 0 1496 4 1448         elf
+O 0 1410 1 1448         sack of flour
+M 0 1496 4 1449         elf
+E 1 1414 10 17            sleep/armor potion
+M 0 1496 4 1456         elf
+M 0 1496 4 1457         elf
+M 0 1495 1 1414         delivery elf
+M 0 1497 1 1423         Cheshire cat
+G 1 3051 50               see invis potion
+M 0 1498 8 1426         pigeon
+M 0 1498 8 1445         pigeon
+M 0 1498 8 1442         pigeon
+M 0 1498 8 1429         pigeon
+M 0 1499 1 1499         Sisyphus
+E 1 1430 1 16             sword of the Phoenix (not for mortals)
+S
+#99999
+$~

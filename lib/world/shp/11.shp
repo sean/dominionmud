@@ -1,0 +1,209 @@
+CircleMUD v3.0 Shop File~
+#1100~
+10405
+6109
+10535
+5474
+1151
+-1
+1.00
+1.00
+19bread
+-1
+%s only potions....only potions!~
+%s I cannot buy what you do not have.~
+%s Only potions....!~
+%s It seems that my financial situation is not what it used to be.  Sorry.~
+%s Get some more money then you may purchase that.~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+1101
+2
+1164
+-1
+0
+28
+0
+0
+#1101~
+3011
+7
+-1
+1.00
+1.00
+19bread
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1100
+0
+1190
+-1
+0
+24
+0
+0
+#1103~
+3050
+3052
+3751
+27
+-1
+0.80
+1.40
+-1
+(null)~
+%s Maybe you should that item again...~
+%s Sorry, I'm not in that business.~
+%s Sorry, young friend, I cannot pay for that.~
+%s Come back when you can pay, thank you.~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+1102
+0
+1163
+-1
+0
+28
+0
+0
+#1104~
+1143
+1171
+1176
+1181
+1186
+1805
+1808
+5430
+5431
+5432
+5433
+-1
+0.75
+1.25
+-1
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1103
+0
+1170
+-1
+0
+28
+0
+0
+#1105~
+1146
+1170
+1175
+1180
+1185
+3080
+1142
+3075
+8017
+-1
+0.80
+1.15
+9shield armor plate steel battle helm
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+1108
+2
+1145
+-1
+0
+28
+0
+0
+#1106~
+5071
+5412
+1121
+1122
+10401
+3718
+1120
+1123
+1125
+5007
+-1
+0.80
+1.15
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+1112
+2
+1147
+-1
+0
+28
+0
+0
+#1107~
+3095
+3094
+28051
+3100
+-1
+1.20
+0.80
+7bolt
+7arrow
+6bow
+6crossbow
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+3
+1104
+2
+1196
+-1
+0
+28
+0
+0
+$~

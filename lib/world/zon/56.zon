@@ -1,0 +1,56 @@
+#56
+Chree'zen~
+Shade~
+BUILDING~
+5601 1
+5799 100 1
+*
+* Last Updated: Thu Apr  3 12:49:56 
+*           By: Shade
+*
+D 0 5600 2 1 100 		* Close Eastern door at Inside Naz'ol
+M 0 5600 1 5600 99 	* a Chree'zen gateguard at Inside Naz'ol. (Max: 1)
+E 1 5601 10 5 100 			* And equip it with a pair of glowing amber eyes. (Max: 10)
+E 1 5667 10 10 100 			* And equip it with a Chree'zen gauntlet. (Max: 10)
+D 0 5600 5 1 100 		* Close Eastern door at Inside Naz'ol
+M 0 5602 2 5600 100 	* the frightened little girl at Inside Naz'ol. (Max: 2)
+O 0 5606 3 5606 100 	* stream at Small creek . (Max: 3)
+O 0 5606 10 5612 100 	* stream at Deep in the forest. (Max: 10)
+M 0 5603 2 5612 100 	* the albino ferret at Deep in the forest. (Max: 2)
+O 0 5607 3 5607 100 	* a barrell of blood at Blood Pond. (Max: 3)
+D 0 5607 5 1 99 		* Close Eastern door at Blood Pond
+O 0 5607 3 5610 100 	* a barrell of blood at North end of the Pool. (Max: 3)
+D 0 5623 0 1 100 		* Close Northern door at Elijah Street
+D 0 5632 0 1 100 		* Close Northern door at Elijah Street
+M 0 5602 4 5629 100 	* the frightened little girl at Dark alley. (Max: 4)
+O 0 5658 1 5658 100 	* a grand fountain at Central Square. (Max: 1)
+M 0 5601 5 5658 100 	* the horrified man at Central Square. (Max: 5)
+M 0 5636 3 5643 100 	* the Chree'zen scout at Templeton Square. (Max: 3)
+M 0 5636 5 5643 100 	* the Chree'zen scout at Templeton Square. (Max: 5)
+M 0 5667 1 5665 100 	* the little shop attendant at Naz'ol's hidden general store. (Max: 1)
+G 1 5668 10  100 			* And give it a meditation candle. (Max: 10)
+G 1 5669 10  100 			* And give it a Chree'zen bladder. (Max: 10)
+D 0 5665 2 1 100 		* Close Eastern door at Naz'ol's hidden general store
+D 0 5665 0 1 100 		* Close Northern door at Naz'ol's hidden general store
+D 0 5661 2 1 100 		* Close Eastern door at Euc'lid Avenue
+M 0 5664 1 5664 100 	* an old salesman at Naz'ol's hidden Armory. (Max: 1)
+D 0 5664 2 1 100 		* Close Eastern door at Naz'ol's hidden Armory
+D 0 5664 1 1 100 		* Close Eastern door at Naz'ol's hidden Armory
+G 1 5665 10  100 			* And give it a glowing pouch. (Max: 10)
+G 1 5666 10  100 			* And give it a Chree'zen battle headress. (Max: 10)
+G 1 5667 10  100 			* And give it a Chree'zen gauntlet. (Max: 10)
+D 0 5602 4 1 100 		* Close Eastern door at Inside the Trap
+M 0 5617 1 5617 100 	* the terrified survivor at The Survivor's lair. (Max: 1)
+E 1 5617 1 7 100 			* And equip it with taTteRed bOots. (Max: 1)
+D 0 5615 9 1 100 		* Close Eastern door at Outside the cave
+D 0 5614 6 1 100 		* Close Eastern door at Deeper in the forest
+D 0 5608 4 1 100 		* Close Eastern door at In the Blood
+D 0 5608 5 2 99 		* Lock and Close Southern door at In the Blood
+M 0 5608 1 5608 99 	* the Bloody beasty at In the Blood. (Max: 1)
+G 1 5608 1  99 			* And give it the bloody key. (Max: 1)
+M 0 5603 3 5603 100 	* the albino ferret at Edge of the Forest. (Max: 3)
+O 0 5611 1 5611 100 	* a bloody stream at At the marble wall. (Max: 1)
+D 0 5601 0 1 100 		* Close Northern door at Grand entrance to Naz'ol
+D 0 5609 4 2 99 		* Lock and Close Southern door at Deep in the Blood
+S
+$~

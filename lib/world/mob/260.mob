@@ -1,0 +1,369 @@
+#26000
+whelp~
+a whelp~
+A whelp gnaws on the putrid corpses of fallen warriors.
+~
+Even this young wolf has a fell look about him.
+~
+abdfg k -1000 E
+15 25 44 5d4+250 2d9+10
+0 20000
+8 8 1
+BareHandAttack: 4
+Race: 22
+E
+#26001
+wolf~
+evil wolf~
+An evil wolf snarls menacingly as you approach.
+~
+This monstrous creature gazes back at you with evil,
+piercing eyes.
+~
+abdfgjk k -1000 E
+20 43 71 5d4+330 2d10+14
+0 25000
+8 8 1
+BareHandAttack: 8
+Race: 22
+E
+#26002
+orc~
+an orc~
+An orc scurries to and fro.
+~
+The orc curses you in his black tongue.
+~
+cdfg 0 -1000 E
+25 35 38 3d4+210 2d8+8
+0 500
+8 8 1
+BareHandAttack: 13
+E
+#26003
+orc chieftain~
+an orc chieftain~
+An orc chieftain barks orders to his minions.
+~
+The orc chieftain becomes insane with rage at your entrance.
+~
+cdfg dk -1000 E
+30 63 7 1d10+330 3d3+13
+1000 40000
+8 8 1
+BareHandAttack: 13
+E
+#26004
+bat demon~
+a demon~
+A demonic creature flies in on bat-like wings.
+~
+The demon comes toward you with frightening speed.
+~
+dfg dko -1000 E
+35 50 1 5d4+390 2d6+20
+1000 70000
+8 8 0
+BareHandAttack: 16
+Race: 27
+E
+#26005
+greater demon~
+a greater demon~
+A huge fiery shape hovers menacingly toward you.
+~
+This demon looks as if it was created by Melkor in
+   mockery of human suffering and pain.
+~
+dfg dhko -1000 E
+40 50 13 5d4+590 3d5+30
+0 80000
+8 8 0
+BareHandAttack: 16
+Race: 27
+E
+#26006
+troll~
+a troll~
+A loathsome troll lumbers around.
+~
+The troll looks at you murkily, not understanding what
+   you are but knowing what he wants to do to you.
+~
+dfg ar -1000 E
+36 70 75 5d4+290 4d6+20
+0 70000
+8 8 1
+BareHandAttack: 6
+E
+#26007
+silver dragon~
+a silver dragon~
+A silver dragon creeps at the edge of the wall partly hidden
+in shadow.
+~
+The worm crawls in your direction slowly.
+~
+abdfg dhkr -1000 E
+38 1 98 1d10+12000 2d26+44
+10000 150000
+8 8 2
+BareHandAttack: 8
+Race: 38
+E
+#26008
+red dragon~
+a glowing red dragon~
+A huge red dragon leisurely rips out a wall in sell-amusement.
+~
+The dragon spies you and hurls himself in your direction.
+~
+abdfg dhknpr -1000 E
+40 70 107 1d10+12300 2d18+75
+50000 180000
+6 6 2
+BareHandAttack: 8
+Race: 31
+E
+#26009
+black dragon~
+a black dragon~
+A black dragon, emersed in smoke, stretches across the platform.
+~
+  The black dragon's eyes grow cold and sharp as he gazes
+upon you.
+~
+abcdfg dhkpr -1000 E
+40 75 88 1d10+14000 2d8+50
+10000 100
+5 5 1
+BareHandAttack: 8
+Race: 34
+E
+#26010
+guard orc~
+an orc guard~
+An orc guard stands rigidly protecting the entranceway.
+~
+The sentry hastily blows a bone horn, alerting those inside
+   of your presence.
+~
+bcdfg ku -1000 E
+30 30 85 1d10+240 4d6+15
+0 50000
+8 8 1
+BareHandAttack: 13
+E
+#26011
+balrog~
+a balrog~
+A shadow surrounded by tongues of fire writhes in front of you.
+~
+The shadow seems to be of man shape -but is far greater- and is
+   emersed in flames.
+~
+dfg dhknr -1000 E
+41 75 81 10d10+16000 5d10+80
+40000 730000
+8 8 0
+BareHandAttack: 16
+Race: 28
+E
+#26012
+gothmog captain~
+Gothmog, Captain of Angband~
+A gigantic flame rimmed shadow quickly encircles you.
+~
+The terrifying creature of Balrog-shape raises his sword
+   and grins with evil delight at the thought of crushing you.
+~
+bdfg dhknr -1000 E
+41 85 102 5d10+15800 5d10+90
+300000 1000000
+8 8 0
+BareHandAttack: 16
+Race: 28
+E
+#26013
+elf prisoner~
+an elf prisoner~
+A haggard elf, near death, crouches in fear.
+~
+The elf shivers saying, "Leave while you can!  You will only
+   find death here!"
+~
+bdg 0 1000 E
+4 11 78 2d4+15 1d4+1
+0 100
+8 8 1
+BareHandAttack: 13
+Race: 7
+E
+#26014
+elf prisoner~
+an elf prisoner~
+A haggard elf, seeming lost, crouches near the floor.
+~
+The elf cowers saying, "You will only find death here!"
+~
+bdfg 0 -1000 E
+4 11 36 2d4+15 2d8+5
+0 100
+8 8 1
+BareHandAttack: 13
+Race: 8
+E
+#26015
+carcharoth~
+Carcharoth~
+The great wolf Carcharoth lies at the base of the throne.
+~
+The wolf's eyes, resembling the bottomless pits of Hell,
+   open slowly to meet yours.
+~
+abdfg dkn -1000 E
+35 73 78 4d4+9000 3d6+40
+0 400000
+5 5 1
+BareHandAttack: 9
+Race: 22
+E
+#26016
+melkor~
+Melkor Baughlith~
+Melkor Baughlith, self-proclaimed Lord of the World, broods darkly on his 
+mighty throne.  
+~
+Melkor is fitted in grim amour of black iron, with a mighty
+war hammer set across his lap.  A haughty crown with the
+three silmarils set within rests heavily upon his dark brow.
+
+"Ye have come here through thine own folly.  Wouldst
+thou have all that is mine?  Nay, Melkor was here before
+mountains were raised and waters seeped.  For thy ignorance
+and pride thou shalt live only as I allow thee, with honour
+forgotten, love debased, and life lessened."
+~
+abcdgnopr dhknr -1000 E
+42 87 53 1d10+5000 10d4+95
+65 2687500
+8 8 1
+Str: 25
+Dex: 25
+Int: 24
+Wis: 25
+Con: 22
+Cha: 25
+Race: 0
+E
+#26017
+orc~
+an orc~
+An orc scurries to and fro.
+~
+The orc curses you in his black tongue.
+~
+bcdfg k -1000 E
+25 25 88 3d4+210 2d8+2
+0 40000
+8 8 1
+BareHandAttack: 6
+E
+#26018
+orc chieftain~
+an orc chieftain~
+An orc chieftain barks orders to his minions.
+~
+The orc chieftain becomes insane with rage at your entrance.
+~
+bcdfg adk -1000 E
+30 45 42 1d10+280 3d3+45
+1000 70000
+8 8 1
+E
+#26019
+bat demon~
+a demon~
+A demonic creature flies in on bat-like wings.
+~
+The demon comes toward you with frightening speed.
+~
+bdfg adhk -1000 E
+35 30 64 5d4+390 2d6+20
+1000 90000
+8 8 0
+BareHandAttack: 9
+Race: 27
+E
+#26020
+greater demon~
+a greater demon~
+A huge fiery shape hovers menacingly toward you.
+~
+This demon looks as if it was created by Melkor in
+   mockery of human suffering and pain.
+~
+bdfg dhk -1000 E
+40 50 102 5d4+12590 5d5+50
+0 750000
+8 8 0
+BareHandAttack: 16
+Race: 27
+E
+#26021
+troll~
+a troll~
+A loathsome troll lumbers around.
+~
+The troll looks at you murkily, not understanding what
+   you are but knowing what he wants to do to you.
+~
+bdfg ak -1000 E
+35 30 74 5d4+550 4d6+30
+0 100000
+8 8 1
+E
+#26022
+orc miner~
+an orc miner~
+An exhausted orc miner chips feverishly at the rock.
+~
+The orc miner barks in surprise.  He looks much happier
+     to be able to use his pick on you, rather than the wall.
+~
+bdfg k -1000 E
+24 20 85 3d4+200 2d8+30
+0 40000
+8 8 1
+BareHandAttack: 9
+E
+#26023
+orc drummer~
+an orc drummer~
+An orc drummer, drooling in anticipation of battle, beats his 
+drum in a psychotic frenzy.
+~
+The orc drummer cries with bizarre pleasure.  You assume
+   he is very happy that the battle came to him.
+~
+bdfg k -1000 E
+24 3 43 3d4+200 2d8+2
+0 40000
+8 8 1
+E
+#26024
+balrog~
+a balrog~
+A shadow surrounded by tongues of fire writhes in front of you.
+~
+The shadow seems to be of man shape -but is far greater- and is
+   emersed in flames.
+~
+bdfg dhk -1000 E
+39 60 81 10d10+11525 5d10+60
+4000 500000
+8 8 0
+BareHandAttack: 16
+Race: 28
+E
+$~

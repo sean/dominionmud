@@ -1,0 +1,45 @@
+#328
+Kehrn Mountains~
+Kirahn~
+Mid-High~
+3001 1
+32950 48 2
+*
+* Last Updated: Thu Sep 12 23:45:53 
+*           By: Kirahn
+*
+M 0 5675 14 32843 100 	* the wandering ogre bandit at The mountain ridge. (Max: 14)
+E 1 5677 14 4 100 			* And equip it with a ragged, fur shirt. (Max: 14)
+M 0 5675 14 32846 100 	* the wandering ogre bandit at Turn in the mountain trail. (Max: 14)
+E 1 5677 14 4 100 			* And equip it with a ragged, fur shirt. (Max: 14)
+M 0 5675 14 32883 100 	* the wandering ogre bandit at The mountain trail. (Max: 14)
+E 1 5675 14 17 100 			* And equip it with a great, stone hammer. (Max: 14)
+E 1 5676 14 18 100 			* And equip it with a battered shield. (Max: 14)
+E 1 5677 14 4 100 			* And equip it with a ragged, fur shirt. (Max: 14)
+M 0 5675 14 32853 100 	* the wandering ogre bandit at Turn in the mountain path. (Max: 14)
+E 1 5675 14 17 100 			* And equip it with a great, stone hammer. (Max: 14)
+E 1 5676 14 18 100 			* And equip it with a battered shield. (Max: 14)
+E 1 5677 14 4 100 			* And equip it with a ragged, fur shirt. (Max: 14)
+M 0 5675 14 32842 100 	* the wandering ogre bandit at The mountain ridge. (Max: 14)
+E 1 5675 14 17 100 			* And equip it with a great, stone hammer. (Max: 14)
+E 1 5676 14 18 100 			* And equip it with a battered shield. (Max: 14)
+E 1 5677 14 4 100 			* And equip it with a ragged, fur shirt. (Max: 14)
+M 0 32802 1 32824 100 	* Kehrn the Troll King at The throne. (Max: 1)
+M 0 32805 1 32824 100 	* Kehrn's bodyguard at The throne. (Max: 1)
+M 0 32803 10 32856 100 	* the his'tarin at Intersection of trails. (Max: 10)
+D 0 32869 3 1 100 		* Close Eastern door at The mountain ridge
+M 0 32800 20 32854 100 	* a wandering kargin at Turn in the trail. (Max: 20)
+M 0 32800 20 32862 100 	* a wandering kargin at The mountain ridge. (Max: 20)
+M 0 32800 20 32902 100 	* a wandering kargin at The mountain trail. (Max: 20)
+M 0 32800 20 32860 100 	* a wandering kargin at The mountain ridge. (Max: 20)
+M 0 32800 20 32838 100 	* a wandering kargin at The mountain trail. (Max: 20)
+M 0 32800 20 32844 100 	* a wandering kargin at Turn in the mountain trail. (Max: 20)
+M 0 32804 1 32887 100 	* the hermit troll at The dark cave. (Max: 1)
+D 0 32904 1 1 100 		* Close Eastern door at Between the boulders
+D 0 32905 3 1 100 		* Close Eastern door at Edge of the Lake
+D 0 32828 5 1 100 		* Close Eastern door at The stone stairwell
+D 0 32841 4 1 100 		* Close Eastern door at The mountain trail
+O 0 32800 1 32800 100 	* a golden amulet at The pool. (Max: 1)
+M 0 32801 1 32920 100 	* the fisherman at End of the wooden dock. (Max: 1)
+S
+$~

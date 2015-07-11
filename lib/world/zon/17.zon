@@ -1,0 +1,159 @@
+#17
+The monk monastary~
+SillyMUD~
+LOW-MED~
+3001 1
+1799 23 2
+*
+M 0 1718 1 1702   ; the Grand Master of Monks
+E 1 1706 9 13   ; a saffron colored robe
+G 1 1762 1 0   ; the monastary's money pouch
+M 0 1705 4 1705   ; the human monk
+M 0 1705 4 1706   ; the human monk
+M 0 1711 2 1707   ; the dwarven monk
+M 0 1713 1 1708   ; the human monk
+E 1 1706 9 13   ; a saffron colored robe
+D 0 1708 0 0   ; Outside the Library
+M 0 1711 2 1709   ; the dwarven monk
+D 0 1709 0 0   ; A Small Hallway
+D 0 1709 2 0   ; A Small Hallway
+M 0 1705 4 1710   ; the human monk
+D 0 1710 0 0   ; A Small Hallway
+D 0 1710 2 0   ; A Small Hallway
+M 0 1709 2 1711   ; the human monk
+D 0 1711 0 0   ; Turn in the Small Hallway
+D 0 1711 1 0   ; Turn in the Small Hallway
+M 0 1716 1 1712   ; Derek the monk
+E 1 1706 9 13   ; a saffron colored robe
+D 0 1712 1 1   ; End of a Small Hallway
+M 0 1710 1 1713   ; the female monk
+E 1 1706 9 13   ; a saffron colored robe
+O 0 1701 8 1713   ; a small cot
+D 0 1713 2 0   ; A Monk's Cell
+M 0 1707 4 1714   ; the human monk
+O 0 1701 8 1714   ; a small cot
+D 0 1714 2 0   ; A Monk's Cell
+M 0 1701 1 1715   ; the human monk
+*E 1 1759 3 8   ; a pair of pink bunny slippers
+O 0 1701 8 1715   ; a small cot
+D 0 1715 2 0   ; A Monk's Cell
+M 0 1707 4 1716   ; the human monk
+O 0 1701 8 1716   ; a small cot
+D 0 1716 2 0   ; A Monk's Cell
+M 0 1712 1 1717   ; the dwarven monk
+O 0 1701 8 1717   ; a small cot
+D 0 1717 0 0   ; A Monk's Cell
+M 0 1703 1 1718   ; the dwarven monk
+*E 1 1759 3 8   ; a pair of pink bunny slippers
+O 0 1701 8 1718   ; a small cot
+D 0 1718 0 0   ; A Monk's Cell
+M 0 1707 4 1719   ; the human monk
+O 0 1701 8 1719   ; a small cot
+D 0 1719 3 0   ; A Monk's Cell
+M 0 1707 4 1720   ; the human monk
+G 1 1760 1 0   ; a xylophone
+O 0 1701 8 1720   ; a small cot
+D 0 1720 3 1   ; A Monk's Cell
+M 0 1702 1 1721   ; the human monk
+E 1 1706 9 13   ; a saffron colored robe
+G 1 1707 3 0   ; a ream of white paper
+M 0 1714 1 1721   ; the human monk
+E 1 1706 9 13   ; a saffron colored robe
+G 1 1707 3 0   ; a ream of white paper
+G 1 1707 3 0   ; a ream of white paper
+M 0 1708 2 1722   ; the human monk
+O 0 1716 2 1722   ; a long oak bookshelf
+P 1 1747 1 1716   ; an encyclopedia vol. Q
+P 1 1748 1 1716   ; an encyclopedia vol. R
+P 1 1749 1 1716   ; an encyclopedia vol. S
+P 1 1750 1 1716   ; an encyclopedia vol. T
+O 0 1714 2 1722   ; a tall oak bookshelf
+P 1 1738 1 1714   ; an encyclopedia vol. H
+P 1 1737 1 1714   ; an encyclopedia vol. G
+P 1 1736 1 1714   ; an encyclopedia vol. F
+P 1 1735 1 1714   ; an encyclopedia vol. E
+O 0 1713 2 1722   ; a wide oak bookshelf
+P 1 1742 1 1713   ; an encyclopedia vol. L
+P 1 1741 1 1713   ; an encyclopedia vol. K
+P 1 1740 1 1713   ; an encyclopedia vol. J
+P 1 1739 1 1713   ; an encyclopedia vol. I
+O 0 1712 2 1722   ; a narrow oak bookshelf
+P 1 1746 1 1712   ; an encyclopedia vol. P
+P 1 1745 1 1712   ; an encyclopedia vol. O
+P 1 1744 1 1712   ; an encyclopedia vol. N
+P 1 1743 1 1712   ; an encyclopedia vol. M
+O 0 1715 2 1722   ; a short oak bookshelf
+P 1 1734 1 1715   ; an encyclopedia vol. D
+P 1 1733 1 1715   ; an encyclopedia vol. C
+P 1 1732 1 1715   ; an encyclopedia vol. B
+P 1 1731 1 1715   ; an encyclopedia vol. A
+M 0 1708 2 1723   ; the human monk
+O 0 1715 2 1723   ; a short oak bookshelf
+P 1 1727 1 1715   ; a history manual
+P 1 1724 1 1715   ; a small manual
+P 1 1717 1 1715   ; a brown history book
+P 1 1718 1 1715   ; a tan history book
+O 0 1712 2 1723   ; a narrow oak bookshelf
+P 1 1719 1 1712   ; a black history book
+P 1 1720 1 1712   ; a small, black leather book
+P 1 1721 1 1712   ; a thick textbook
+P 1 1722 1 1712   ; a large textbook
+O 0 1713 2 1723   ; a wide oak bookshelf
+P 1 1723 1 1713   ; a small, brown leather book
+P 1 1725 1 1713   ; a small leather book
+P 1 1726 1 1713   ; a forest green book
+P 1 1730 1 1713   ; a wood bound book
+O 0 1714 2 1723   ; a tall oak bookshelf
+P 1 1728 1 1714   ; a map
+P 1 1729 1 1714   ; a map
+P 1 1757 1 1714   ; an encyclopedia Index
+P 1 1756 1 1714   ; an encyclopedia vol. Z
+P 1 1755 1 1714   ; an encyclopedia vol. Y
+O 0 1716 2 1723   ; a long oak bookshelf
+P 1 1754 1 1716   ; an encyclopedia vol. X
+P 1 1753 1 1716   ; an encyclopedia vol. W
+P 1 1752 1 1716   ; an encyclopedia vol. V
+P 1 1751 1 1716   ; an encyclopedia vol. U
+M 0 1715 1 1724   ; the human monk
+E 1 1702 4 3   ; a string of prayer beads
+E 1 1706 9 13   ; a saffron colored robe
+G 1 1704 4 0   ; a vial of Holy water
+G 1 1705 4 0   ; a Holy wafer
+M 0 1704 1 1724   ; the female monk
+E 1 1702 4 3   ; a string of prayer beads
+E 1 1706 9 13   ; a saffron colored robe
+G 1 1704 4 0   ; a vial of Holy water
+G 1 1705 4 0   ; a Holy wafer
+M 0 1706 2 1724   ; the human monk
+E 1 1702 4 3   ; a string of prayer beads
+G 1 1704 4 0   ; a vial of Holy water
+G 1 1705 4 0   ; a Holy wafer
+M 0 1706 2 1724   ; the human monk
+E 1 1702 4 3   ; a string of prayer beads
+G 1 1704 4 0   ; a vial of Holy water
+G 1 1705 4 0   ; a Holy wafer
+M 0 1705 4 1726   ; the human monk
+M 0 1709 2 1727   ; the human monk
+M 0 1717 1 1727   ; Ron the monk
+*E 1 1759 3 8   ; a pair of pink bunny slippers
+E 1 1706 9 13   ; a saffron colored robe
+G 1 3000 2 0   ; a barrel
+D 0 1727 5 0   ; The Kitchen
+M 0 1720 1 1725 ; GG
+M 0 1719 1 1750 ; GM
+
+*
+* cellar
+*
+O 0 1710 2 1728   ; a small cask of wine
+O 0 1710 2 1728   ; a small cask of wine
+D 0 1728 4 0   ; Cellar Under the Monastary
+O 0 1708 10 1734   ; a piece of luminous green fungus
+O 0 1708 10 1734   ; a piece of luminous green fungus
+O 0 1709 8 1743   ; a piece of luminous red fungus
+O 0 1709 8 1743   ; a piece of luminous red fungus
+O 0 1709 8 1748   ; a piece of luminous red fungus
+O 0 1709 8 1748   ; a piece of luminous red fungus
+S
+#9999
+$~

@@ -1,0 +1,23 @@
+#352
+Thallin Plains~
+Grendel~
+LOW~
+3001 1
+35299 15 2
+*
+* Last Updated: Sat Sep 21 22:49:42 
+*           By: Grendel
+*
+M 0 5672 10 35212 100 	* the rabbit at Thallin Plains. (Max: 10)
+M 0 5671 10 35213 100 	* the buck at Thallin Plains. (Max: 10)
+M 0 5670 10 35222 100 	* the doe at Thallin Plains. (Max: 10)
+M 0 5672 10 35217 100 	* the rabbit at Thallin Plains. (Max: 10)
+M 0 5672 10 35216 100 	* the rabbit at Thallin Plains. (Max: 10)
+M 0 5671 10 35231 100 	* the buck at Thallin Plains. (Max: 10)
+M 0 5670 10 35236 100 	* the doe at Thallin Plains. (Max: 10)
+M 0 5672 10 35234 100 	* the rabbit at Thallin Plains. (Max: 10)
+M 0 5671 10 35243 100 	* the buck at Thallin Plains. (Max: 10)
+M 0 5670 10 35241 100 	* the doe at Thallin Plains. (Max: 10)
+M 0 5672 10 35246 100 	* the rabbit at Before the Plains. (Max: 10)
+S
+$~

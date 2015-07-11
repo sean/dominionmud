@@ -1,0 +1,57 @@
+#80
+Bryn Mawr~
+Kirahn~
+Low/Mid~
+3001 0
+8099 12 2
+*
+* Last Updated: Sat Dec 21 10:25:58 
+*           By: Kirahn
+*
+D 0 8042 0 2 100 		* Lock and Close Northern door at Before the Castle
+M 0 8004 10 8042 100 	* a guardian of the castle at Before the Castle. (Max: 10)
+G 1 8009 1  100 			* And give it a silver key. (Max: 1)
+E 1 8012 1 18 100 			* And equip it with a runed shield. (Max: 1)
+E 1 8013 1 17 100 			* And equip it with a runed warhammer. (Max: 1)
+E 1 8014 1 4 100 			* And equip it with a golden-runed breastplate. (Max: 1)
+E 1 8017 2 0 100 			* And equip it with a golden-runed ring. (Max: 2)
+M 0 8016 4 8049 100 	* a young dwarf at Rite of Gandor. (Max: 4)
+M 0 8016 4 8083 100 	* a young dwarf at Dunn Loring Road. (Max: 4)
+M 0 8016 4 8046 100 	* a young dwarf at Isengier Road. (Max: 4)
+M 0 8016 4 8065 100 	* a young dwarf at Stone Bridge. (Max: 4)
+M 0 8015 4 8066 100 	* a dwarven commoner at Intersection at Hurin's Road. (Max: 4)
+M 0 8015 4 8047 100 	* a dwarven commoner at Corner of Isengier Road and Kenas' Way. (Max: 4)
+M 0 8015 4 8064 100 	* a dwarven commoner at Kenas' Way Intersection. (Max: 4)
+M 0 8000 8 8081 100 	* a dwarven guard at Corner of Dunn Loring Road and Kenas' Way. (Max: 8)
+M 0 8000 8 8081 100 	* a dwarven guard at Corner of Dunn Loring Road and Kenas' Way. (Max: 8)
+M 0 8015 4 8081 100 	* a dwarven commoner at Corner of Dunn Loring Road and Kenas' Way. (Max: 4)
+M 0 8014 3 8004 100 	* a skeletal rat at End of the Passageway. (Max: 3)
+M 0 8014 3 8009 100 	* a skeletal rat at Abandoned Tunnel. (Max: 3)
+M 0 8003 1 8006 100 	* the King of the Dwarves at Throne of the King. (Max: 1)
+E 1 8005 1 18 100 			* And equip it with a green, crystal staff. (Max: 1)
+E 1 8006 1 4 100 			* And equip it with a deep-green breastplate. (Max: 1)
+D 0 8012 4 1 100 		* Close Eastern door at Dead-end Tunnel
+M 0 8008 10 8011 100 	* a small, black spider at Turn in the Abandoned Tunnels. (Max: 10)
+M 0 8011 1 8000 100 	* the black wyrm at A huge cave. (Max: 1)
+G 1 8004 1  100 			* And give it black wyrm scales. (Max: 1)
+M 0 8008 10 8043 100 	* a small, black spider at Turn in the tunnel. (Max: 10)
+D 0 8021 3 1 100 		* Close Eastern door at Tunnel in the Bryn Mawr Mines
+O 0 8000 1 8020 100 	* a mining pick at A mining shed. (Max: 1)
+O 0 8001 1 8020 100 	* a shovel at A mining shed. (Max: 1)
+D 0 8020 1 1 100 		* Close Eastern door at A mining shed
+M 0 8005 1 8056 100 	* Grem Trimbleshield at Grem Trimbleshield's Smithy. (Max: 1)
+O 0 3034 3 8093 100 	* a member of the money exchange guild at Bryn Mawr Money Exchange Guild. (Max: 3)
+M 0 8006 1 8054 100 	* Garin Meridan at Garin Meridan's Fine Foods. (Max: 1)
+G 1 1110 30  100 			* And give it a piece of fresh mutton. (Max: 30)
+G 1 19019 30  100 			* And give it a roasted rabbit. (Max: 30)
+G 1 3705 30  100 			* And give it a large chunk of meat. (Max: 30)
+G 1 11009 30  100 			* And give it a loaf of bread. (Max: 30)
+M 0 8000 8 8050 100 	* a dwarven guard at Corner of Rite of Gandor and Smerg Mawr Way. (Max: 8)
+M 0 8000 8 8050 100 	* a dwarven guard at Corner of Rite of Gandor and Smerg Mawr Way. (Max: 8)
+M 0 8000 8 8082 100 	* a dwarven guard at Corner of Dunn Loring Road and Hurin's Road. (Max: 8)
+M 0 8000 8 8082 100 	* a dwarven guard at Corner of Dunn Loring Road and Hurin's Road. (Max: 8)
+M 0 8000 8 8045 100 	* a dwarven guard at Corner of Isengier and Kaledreme Roads. (Max: 8)
+M 0 8000 8 8045 100 	* a dwarven guard at Corner of Isengier and Kaledreme Roads. (Max: 8)
+D 0 8036 2 1 100 		* Close Eastern door at Inside the Castle of Bryn Mawr
+S
+$~

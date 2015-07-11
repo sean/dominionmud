@@ -1,0 +1,487 @@
+#35001
+guard mechanical~
+the mechanical guard~
+The gnome driven mechanical guard stands at attention here.
+~
+   This mechanical monstrosity is the brain child of the gnomish inventors, 
+made to protect their hometown from attack and wrong doers.  A gnome sits on
+its shoulders, operating the guard through a series of levers and buttons.
+As it moves about, its gears and motors creak and whine.
+~
+deglmnpr cdfkmr 1000 E
+38 50 44 30d40+100 10d5+25
+4 500
+8 8 0
+BareHandAttack: 15
+Race: 3
+E
+#35002
+trosh gnome~
+Trosh~
+A short, squat little gnome is standing here behind the counter.
+~
+He is a gnome, duh.
+~
+bd 0 0 S
+1 1 85 1d1+1 1d1+1
+1 1
+8 8 0
+#35003
+gnomish commoner~
+the gnomish commoner~
+A gnomish commoner is here strolling about the town.
+~
+The gnome is short with a bowl haircut.  His eyes move about from
+spot to spot fervently.  
+~
+dg 0 500 S
+2 7 73 1d6+1 4d1+3
+9 60
+8 8 1
+#35004
+machine sweeper gnomish~
+the automated streetsweeper~
+A strange, automated streetsweeper is here vibrating loudly.
+~
+The automaton looks like it was fashioned after a street broom and
+a wooden crate.  There is a switch on the side with the words, "On
+and "Off" printed next to it.  On the top of the body, or crate, of the
+machine are the words, 'Association of Tinker's and Freemen of Gnishmire".
+~
+d 0 0 S
+1 1 30 1d1+1 1d1+1
+1 1
+8 8 0
+#35005
+Violet gnome innkeeper keeper~
+Violet~
+The innkeeper sits here filing her nails.
+~
+   You see before you a small gnomish woman who has smeared way too many
+crushed berries on her face sitting here just filing away on her nails.
+As you stare at her for a few moments trying to figure out who she thinks
+she can make herself look better, she looks up and asks if you need help.
+~
+abde 0 900 E
+33 10 18 30d200+1 1d1+40
+1 1
+8 8 2
+Race: 3
+E
+#35006
+guard gate automated harry~
+the automated gate guard~
+The automated gate guard stands here protecting the town from attacks.
+~
+You are looking at a featureless, unfinished mob.
+~
+bdeglnpr cdfmr 1000 E
+38 50 98 1d1+1199 10d10+75
+1 2000
+8 8 0
+BareHandAttack: 6
+E
+#35007
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 92 1d1+1 1d1+1
+1 1
+8 8 0
+#35008
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 92 1d1+1 1d1+1
+1 1
+8 8 0
+#35009
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 51 1d1+1 1d1+1
+1 1
+8 8 0
+#35010
+herrik baker gnome~
+Herrik the baker~
+Herrik the baker stands here, in all of his plumpness.
+~
+You are looking at a featureless, unfinished mob.
+~
+bdnopqr 0 0 E
+39 1 13 30d100+1 1d1+1
+1 1
+8 8 1
+Race: 3
+E
+#35011
+Amiria dwarf armorer~
+Amiria the armorer~
+Amiria stands here over some binded leather, working hard.
+~
+You are looking at a featureless, unfinished mob.
+~
+bdnopqr 0 0 E
+1 1 2 30d100+1 1d1+1
+100000 1
+8 8 2
+Race: 12
+E
+#35012
+asa knight guardian~
+Asa Swiftblade~
+A large knight stands here guarding the entrance to the guild.
+~
+You see nothing special.
+~
+abdegnopr adfhr 0 E
+38 50 44 1d1+20000 10d10+80
+1 1
+8 8 1
+BareHandAttack: 9
+Race: 0
+E
+#35013
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 A
+1 1 0 0d0+0 0d0+0
+1 0
+8 8 0
+#35014
+Giland tinkerer gnome~
+Giland the tinkerer~
+A rather large gnome is hard at work repairing armor.
+~
+A rather large gnome is hard at work repairing armor.
+~
+bdenopqr 0 750 E
+38 1 88 1d1+3599 1d1+1
+1 1
+8 8 1
+Race: 3
+E
+#35015
+postmaster gnome~
+the gnomish postmaster~
+The gnomish postmaster is here busy at work.
+~
+You are looking at a featureless, unfinished mob.
+~
+abdegnopqr 0 500 E
+38 1 77 1d1+3599 1d1+1
+1 1
+8 8 1
+Race: 3
+E
+#35016
+Gramish shopkeeper gnome~
+Gramish the shopkeeper~
+A small old gnome stands here dusting the store.
+~
+You are looking at a featureless, unfinished mob.
+~
+abdgnopqr 0 0 E
+38 79 106 1d1+3599 2d20+99
+1 1
+8 8 1
+Race: 3
+E
+#35017
+rys knight guard ~
+Rys Krendreg~
+A grim knight with silver hair stands here waiting for something.
+~
+
+~
+abdenopqrs adhr 0 E
+38 50 61 1d1+19999 10d10+80
+1 1
+8 8 1
+BareHandAttack: 16
+Race: 3
+E
+#35018
+weaponsmith drial nigga shopkeeper~
+Drial N'haj~
+A dark elf sits here polishing a sword.
+~
+You see nothing special.~
+abdenopqr 0 0 E
+38 79 103 1d1+19999 10d20+99
+1 1
+8 8 1
+BareHandAttack: 6
+Race: 4
+E
+#35019
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 60 1d1+1 1d1+1
+1 1
+8 8 0
+#35020
+Elf leader guard~
+the elven leader~
+A rather large elf who looks important glares at you.
+~
+You see nothing special.~
+bdgq 0 0 E
+18 39 28 1d1+25000 5d12+90
+1000 5000
+8 8 1
+BareHandAttack: 15
+Race: 9
+E
+#35021
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 4 1d1+1 1d1+1
+1 1
+8 8 0
+#35022
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35023
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35024
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35025
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35026
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35027
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35028
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35029
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35030
+ranish professor gnome~
+Ranish~
+A gnomish professor is here, teaching a small class.
+~
+
+~
+bdeg 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+#35031
+student gnome~
+the gnomish student~
+A gnomish student stands here taking notes.
+~
+The gnomish student looks like most other gnomes, just the thing is, he is 
+actually listing to the ideas of another gnome.
+~
+bdeg 0 0 E
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 1
+Race: 3
+E
+#35032
+Ardanin gnome mage wizard outkast~
+Ardanin~
+A small gnome dressed in elaborate mage's robes is here, trying to get a crowd.
+~
+Ardanin is an outcast in the gnomish society, he has actually gone to magic.
+He stands here trying to convince he gnomish brethern that magic isn't all 
+bad.
+~
+bdeg 0 0 S
+8 19 19 4d16+16 2d11+27
+50 700
+8 8 1
+>in_file_prog ardanin.prg~
+|
+#35033
+inventor gnome Tedis~
+Tedis the inventor~
+A round gnome is here explaining his newest invention.
+~
+The inventor stands before you with many of his newest invetions.  He has 
+small trinkets and doohickies straped to him, supposedly doing marvelous 
+things.
+~
+bdeg 0 0 E
+2 7 17 2d4+4 1d8+16
+34 50
+8 8 1
+Race: 3
+E
+#35034
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 3 1d1+1 1d1+1
+1 1
+8 8 0
+#35035
+Syrus~
+~
+
+~
+You are looking at a featureless, unfinished mob.
+~
+abdnopqr abdfhkprt 0 E
+30 67 71 15d60+60 7d29+65
+0 0
+8 8 1
+Str: 18
+Dex: 19
+Int: 17
+Wis: 17
+Con: 18
+Cha: 19
+Race: 8
+Height: 80
+E
+#35036
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 10 1d1+1 1d1+1
+1 1
+8 8 0
+#35037
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 1 1d1+1 1d1+1
+1 1
+8 8 0
+#35038
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+#35039
+mob~
+unfinished mob~
+An unfinished mob stands here.
+~
+You are looking at a featureless, unfinished mob.
+~
+d 0 0 S
+1 1 0 1d1+1 1d1+1
+1 1
+8 8 0
+$~

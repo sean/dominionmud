@@ -1,0 +1,227 @@
+#10401
+falchion sword~
+a falchion~
+A falchion lies discarded here.~
+It is a short sword of the hacking variety, it seems a bit worn.
+~
+5 0 am
+0 2 6 3 0 0 0 0 14
+5 900 800
+#10402
+chalice cup~
+a chalice~
+A blood-stained chalice has been set down here.~
+~
+17 e am
+6 6 13 5 0 0 0 0 14
+11 300 100
+#10403
+coffer~
+the copper coffer~
+An ornate copper coffer is set against the far wall.~
+~
+15 0 0
+200 13 0 0 0 0 0 0 14
+500 500 500
+#10404
+tonic potion comfrey~
+a tonic of comfrey root~
+A tonic of comfrey root has been discarded here.~
+~
+10 g a
+15 89 89 83 0 0 0 0 14
+1 600 200
+E
+tonic potion comfrey~
+What doesn't kill you makes you stronger, right?
+~
+#10405
+elixir potion~
+an elixir of Adder's Tongue~
+An elixir of Adder's Tongue lies here.~
+~
+10 g a
+25 83 71 100 0 0 0 0 14
+1 600 200
+#10406
+key skeleton~
+a skeleton key~
+An old skeleton key lies on the floor.~
+~
+18 e am
+15 0 0 0 0 0 0 0 14
+2 500 20
+E
+key skeleton~
+It is made of bone.  What did you expect, in this place of death?
+~
+#10407
+blowgun~
+a blowgun~
+A long, bamboo blowgun rest on the ground.~
+~
+5 0 a
+0 9 2 5 0 0 0 0 14
+5 16000 3000
+A
+18 1
+#10408
+pool~
+the pool~
+You stand in a pool of blood~
+~
+17 0 0
+15 15 13 5 0 0 0 0 14
+500 500 50
+#10409
+bloodstone stone~
+the Bloodstone~
+A large, dull red stone awaits, invitingly, to be picked up.~
+~
+4 begj am
+13 7 7 25 0 0 0 0 14
+8 30000 15000
+E
+bloodstone stone~
+It glows malignantly with its own ruddy light.  You peer within the
+stone only to see the vague impression of some misshaped soul
+trapped within.
+~
+A
+4 -2
+A
+5 3
+#10410
+heartseeker stiletto~
+the heartseeker~
+A nasty looking stiletto with a shiny black blade lies amid the dust.~
+~
+5 begj am
+0 3 3 11 0 0 0 0 14
+3 10000 3500
+A
+18 3
+A
+13 -5
+#10411
+shield scarab~
+a scarab shield~
+A shield with a large, dead scarab mounted in the center lies here.~
+~
+9 eg ai
+6 0 0 0 0 0 0 0 14
+17 9000 3000
+A
+13 5
+#10412
+mace skull~
+the Mace of the Skull~
+A skull-headed mace has been left here.~
+~
+5 bgj am
+0 3 6 7 0 0 0 0 14
+14 12000 4000
+A
+19 2
+A
+14 -15
+#10413
+buckler arsenal~
+an arsenal buckler~
+A spiked buckler with a circle of knives set in it, has been left here.~
+~
+15 0 ai
+3 0 -1 0 0 0 0 0 14
+7 2400 800
+E
+buckler arsenal~
+The buckler has a circle of throwing knives set around its center spike.
+~
+A
+17 -5
+#10414
+knife~
+a throwing knife~
+A well balanced throwing knife lies on the ground.~
+~
+7 0 am
+0 1 4 0 0 0 0 0 14
+1 10 1
+#10415
+pile debris~
+the pile~
+A pile of debris has been stacked on a small plateau, away from the acid.~
+~
+15 0 0
+1000 0 -1 0 0 0 0 0 14
+1000 1000 100
+E
+pile debris~
+It contains all manner of rusty items and beaten equipment garnered by
+the fastidious denizens of this place.
+~
+#10416
+guisarme polearm~
+a guisarme~
+A long, sharp polearm has been left here.~
+~
+5 0 am
+3 2 8 3 0 0 0 18 14
+16 1500 500
+A
+18 -2
+A
+19 2
+#10417
+glove minstrels minstrel~
+a minstrels glove~
+A single, white minstrel's glove has been discarded here.~
+~
+9 ag ah
+35 0 0 0 0 0 0 19 14
+8 4500 1000
+A
+18 2
+#10418
+mail shabby~
+a suit of shabby mail~
+A worn and shabby suit of ring mail has been cast away here.~
+~
+9 g ac
+9 0 0 0 0 0 0 0 14
+20 70000 1000
+E
+mail shabby~
+It seems about ready to fall apart!
+~
+#10419
+granite key~
+a granite key~
+A key fashioned of stone has been left here.~
+~
+18 0 am
+13 0 0 0 0 0 0 0 14
+2 1500 90
+#10420
+flesh~
+the enbalmed flesh~
+A large pile of presumably human flesh has been enbalmed and stored here.~
+~
+12 0 a
+0 0 0 0 0 0 0 0 14
+100 600 200
+#10499
+flail beater grave~
+a flail~
+A rusty grave beater flail has been dropped here.~
+~
+5 0 am
+0 2 7 7 0 0 0 0 14
+12 1500 2150
+E
+flail beater grave~
+This flail seems only to have been used to keep the dead in their place.
+~
+A
+19 1
+$~

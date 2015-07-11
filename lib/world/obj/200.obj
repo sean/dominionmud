@@ -1,0 +1,144 @@
+#20000
+bucket rocks~
+a bucket of rocks~
+A wooden bucket filled with rocks is lying here.~
+~
+5 d a
+0 1 3 6 0 0 0 0 14
+10 0 0
+#20001
+pick~
+a pick~
+A poorly fashioned iron pick is lying here.~
+~
+5 d a
+0 1 4 11 0 0 0 0 14
+5 10 0
+#20002
+wooden spear~
+a wooden spear~
+A wooden spear is lying here.~
+~
+5 dE a
+0 1 4 14 0 0 0 0 14
+5 2 0
+#20003
+taskmaster whip~
+a whip~
+A taskmaster's whip is lying here.~
+~
+5 d am
+0 1 6 2 0 0 0 0 14
+3 5 0
+#20004
+stone battleaxe axe~
+a stone battleaxe~
+A stone battleaxe is lying here.~
+~
+5 d am
+0 1 6 3 0 0 0 0 14
+10 10 0
+#20005
+bloody whip~
+a bloody whip~
+A bloody, black leather whip is lying here.~
+~
+5 b am
+0 2 4 2 0 0 0 0 14
+5 500 100
+A
+18 2
+#20006
+rotten tunic hides~
+a tunic of rotten hides~
+A pile of rotten hides lays here.~
+~
+9 d ad
+3 0 0 0 0 0 0 0 14
+7 1 0
+#20007
+holy symbol gnomish head skull~
+a skull-shaped holy symbol~
+A holy symbol in the shape of a gnome's skull lays here.~
+~
+1 aij am
+0 0 -1 0 0 0 0 0 14
+1 100 10
+#20008
+orange hooded robe cloth~
+a orange, hooded robe~
+A pile of orange cloth lies here.~
+~
+9 g ak
+1 0 0 0 0 0 0 0 14
+4 200 10
+A
+4 1
+#20009
+necklace fingers gnomish bone~
+a fingerbone necklace~
+A pile of rotten fingers tied together with a string lies here.~
+~
+9 g ac
+1 0 0 0 0 0 0 0 14
+1 200 20
+E
+bone rotten fingers~
+Upon closer examination of the rotten fingers you guess they belong to 
+an unfortunate gnome.
+~
+A
+5 1
+#20010
+black chain shirt~
+a loose-fitting black chain shirt~
+You see a pile of black chain lying here.~
+~
+9 d ad
+6 0 0 0 0 0 0 0 14
+10 200 0
+A
+2 -2
+#20011
+note~
+a note~
+A crumpled note written in blood on what appears to be tanned skin lies here.~
+~
+16 c am
+0 0 0 0 0 0 0 0 14
+1 1 1
+E
+note~
+	Karak,
+	     I am quite displeased with the
+	progress of the mining operation.
+	I must have the AmberStone 
+	immediately!  Also, our allies have
+	redoubled their pressure for a
+	route of invasion of the surface
+	world.  
+     I expect you will correct
+	the situation....
+~
+#20012
+kobold hand~
+a kobold hand~
+The partially digested hand of a kobold is lying here.~
+~
+19 d a
+7 0 0 0 0 0 0 0 14
+1 0 0
+#20013
+amber stone amberstone~
+an AmberStone~
+The much coveted AmberStone is lying here.~
+~
+8 abdgi ao
+0 0 0 0 0 0 0 0 14
+1000 1000000000 0
+E
+amber stone amberstone~
+As you gaze into the glowing Amberstone, you curse your mortal bones that 
+cannot lift it from its resting place, let alone harness its raw power.
+~
+$~

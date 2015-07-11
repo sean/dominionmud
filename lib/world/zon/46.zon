@@ -1,0 +1,69 @@
+#46
+The Land of Oz~
+Zelda~
+MED~
+13430 1
+4699 35 34
+*                 ; This area written by Zelda
+M 0 4601 21 4613   ; Regular Munchkins all over town
+M 0 4601 21 4614   
+M 0 4601 21 4615
+M 0 4601 21 4616
+M 0 4601 21 4617
+M 0 4601 21 4618
+M 0 4601 21 4619
+M 0 4601 21 4620
+M 0 4601 21 4621
+M 0 4601 21 4622
+M 0 4601 21 4623
+M 0 4601 21 4624
+M 0 4601 21 4625
+M 0 4601 21 4626
+M 0 4601 21 4627
+M 0 4601 21 4628
+M 0 4601 21 4629
+M 0 4601 21 4630
+M 0 4601 21 4631
+M 0 4601 21 4632
+*
+M 0 4602 3 4640   ; Lollipop Kids
+E 1 4602 1 17     ; Sucker
+M 0 4602 3 4640
+M 0 4602 3 4640
+*
+M 0 4603 3 4641   ; Lullibye Munchkins (Lullibye League)
+E 1 4603 1 3      ; Necklace
+M 0 4603 3 4641
+M 0 4603 3 4641
+*
+M 0 4604 1 4633   ; Munchkin Baker
+G 1 4606 200      ; Cinammon Swirls
+*
+M 0 4605 1 4635   ; Munchkin Grocer
+G 1 4605 200      ; Cup
+*
+M 0 4606 1 4647   ; Munchkin Magician
+G 1 4607 20       ; Potion of Power
+*
+M 0 4607 1 4644   ; Munchkin Fortune Teller
+G 1 4608 10       ; Card
+*
+M 0 4608 1 4630   ; Munchkin Mayor
+E 1 4604 1 17     ; Pocket Watch
+G 1 4612 10
+*
+M 0 4609 1 4630   ; Glenda the Good Witch
+E 1 4609 1 17     ; Flame Wand
+E 1 4611 1 15     ; Terillium Bracelet
+*
+M 0 4610 1 4606   ; Auntie Em
+E 1 4601 1 17     ; Broom
+*
+M 0 4611 1 4603   ; Uncle Henry  
+*
+D 1 4630 0 2      ; Yellow gate closed and locked
+S
+
+#99999
+$~
+

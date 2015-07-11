@@ -1,0 +1,2343 @@
+#36000
+A Dark, Smokey Chamber~
+You are standing in a smokey, almost dark room. A few candles flicker about,
+giveing a small amount of light, which makes the shadows dance. A couple of
+tables are scattered about, surrounded by a plethra of chairs and 
+comfortable places to sit. Fine tapastries cover the planked, wooden
+walls that surround the entire room. A pair of encircled stairs rise up,
+leading to a trapdoor.
+~
+360 dlmr 0
+D4
+~
+~
+0 0 8
+D5
+~
+~
+0 0 3039
+S
+#36001
+A large onyx pathway~
+     You have come across what looks to be some sort of a passage. The
+ground is composed purely of onyx, and looks to be smooth as a lake that
+has not been disturbed by the slightest touch. There is a sign here.
+~
+360 ai 1
+D0
+~
+~
+0 0 36002
+E
+sign~
+     Beware:
+         You have stumbled across the entranceway to the home of the 
+Sorceress Sethra Lavode. She does not take kindly to unwanted strangers.
+Be you forewarned.
+~
+S
+#36002
+The large onyx pathway~
+    The path you are walking along is dark as night, and smooth as glass.
+The walls of trees on either side of the path block it from view of anyone
+who does not know of it's location. The path is composed of pure onyx, and
+seems to have been constructed from an inhuman source. You suspect that
+magic was used in it's creation. 
+~
+360 ai 1
+D0
+~
+~
+0 0 36003
+D2
+~
+~
+0 0 36001
+S
+#36003
+The large onyx pathway~
+     As you walk further down this path, you notice more and more about it.
+You begin to see intricate carvings and stories carved into the stone.
+Ther is one carving that strikes your attention. It is that of a 
+sorceress of some sort. 
+~
+360 ai 1
+D0
+~
+~
+0 0 36004
+D2
+~
+~
+0 0 36002
+E
+carving mark~
+     the carving is that of a sorceress garbed in a long cloak, and 
+holding a staff. It is very likely that she resides near this large path.
+The staff itself has an aura to it, even in the carving. Could it be the
+sought after staff of creation?
+~
+S
+#36004
+The large onyx pathway~
+     The path in which you are traveling, seem to be getting closer and 
+closer to this magnificent castle. The path grows narrower and is getting
+even more intricate than before. You can see stories in an ancient language,
+and pictures of battles long ago. You decide to keep traveling on to see
+what awaits you as a brave wanderer.
+~
+360 aci 1
+D0
+~
+~
+0 0 36005
+D2
+~
+~
+0 0 36003
+S
+#36005
+Before the Gates~
+     You are standing before the gates of the castle. There stands a 
+Guardian, likely to give his own life to defend his master. The gates 
+rise high up, and are closed with a power beyond your imagination. You
+think maybe the Guardian has the answer on how to open them?
+~
+360 aci 1
+D0
+~
+~
+0 0 36006
+D2
+~
+~
+0 0 36004
+S
+#36006
+The Gates~
+     You are standing directly before the Great Gates of Castle Black. They
+are clearly seen now, and are obviously much larger than you had previously
+thought. The are made of the same black onyx that composes the rest of this
+land, and have a golden skull affixed in the center of them. The skull seems
+to be centered on these massive gates, perhaps as some sort of opening 
+device.
+~
+360 af 1
+D0
+A set of huge onyx doors rise up.
+~
+gate gates door doors~
+1 36002 36007
+D2
+~
+~
+0 0 36005
+E
+gates gate door doors~
+     Before you are doors that seem to be inpenitrable even by the power
+of the gods themselves. They are composed of a material that appears to
+be onyx, but has a magical feel to it.
+~
+E
+doorknob skull~
+     You see a large golden skull mounted upon this great door. The
+skulls mouth seems to open up, say to let a key inside.
+~
+S
+#36007
+The greeting chamber~
+     You have entered what seems to be the greeting chambers of this most
+unholy of places. The surroundings are lit by sparcly spaced out candels 
+that lie on tables on hardwood. The walls are decorated with paintings of
+past battles fought, and wars that plagued the lands long ago. There is a
+fine rug lying on the floor, weaved with strings of platinum, and gold.
+~
+360 dfh 0
+D0
+~
+~
+0 0 36008
+D2
+The back of these great doors, is much like the front.
+~
+great door doors gate gates~
+1 36002 36006
+S
+#36008
+The great foyer~
+     You are standing in what looks to be the main foyer of this strange
+castle. It is light by one main source, a large golden chandolier that
+hangs high in the room by a chain of pure gold. It is shaped like a seven
+sided star, and has one separate torch on each of the seven points. In the
+center on this chandolier is another, larger torch. Along the walls, are
+several tapastries woven of different materials. The floor is bare, save 
+for a large carving of a dragon inlayed with gold.
+~
+360 cdh 0
+D0
+~
+~
+0 0 36017
+D1
+The closet door.
+~
+door~
+1 0 36015
+D2
+~
+~
+0 0 36007
+D3
+~
+~
+0 0 36009
+S
+#36009
+A short hallway~
+     You are in a hallway that smells of death. The very walls around you
+seem to be alive with the souls of all whom have ventured in, but never
+ventured out. Are you going to be added to it's stench?
+~
+360 ai 0
+D1
+~
+~
+0 0 36008
+D3
+~
+~
+0 0 36010
+S
+#36010
+Western stairwell~
+     You are standing in a room whos walls are covered with large tapestries
+and weapons from great worksman all across the land. On the north wall, are
+swords that were forged by steels never before seen. There is a large set of
+stairs leading both upward and downward in the middle of the room. They
+are made from a very stronge substance from what you can tell. Able to 
+support much weight.
+~
+360 ai 0
+D1
+~
+~
+0 0 36009
+D4
+~
+~
+0 0 36011
+D5
+~
+~
+0 0 36012
+S
+#36011
+Atop the stairwell~
+     You are accending a massive set of stairs that seems to have been
+built for something very large. The further up this magnificent stairwell
+you go, the more you wonder what is awaiting you at the top. The stairs
+themselves seem to have an aura to them. An evil aura.
+~
+360 ct 0
+D0
+A huge door.
+~
+door ~
+1 0 36014
+D5
+~
+~
+0 0 36010
+S
+#36012
+Going down~
+     You are walking along stairs that are large enough to support the
+weight of a small army. These stairs lead down into the darkness. You try
+to focus on what is down there, but have no such luck.
+~
+360 i 0
+D4
+~
+~
+0 0 36010
+D5
+~
+~
+0 0 36013
+S
+#36013
+The pool of blood~
+     As you stumble around for a while in this pitch black room. You 
+finally notice that you are standing in what you think is a pool of
+water. After closer examination, you realize that it is infact a pool
+of blood that you are standing in. You wonder what it is from...
+~
+360 af 7 -1 -1
+D4
+~
+~
+0 0 36012
+D5
+The blood is thick here.
+~
+blood~
+1 0 36016
+S
+#36014
+The bedroom~
+     You have entered what looks to be a bedroom of something very large.
+You look around the room to see a bed made of pure stone, that is lying
+next to the north wall. Along the eastern and western sides of the room 
+stands two large golden statues of knights. These statues seem to be
+watching you very closely.
+~
+360 0 0
+D2
+A huge door.
+~
+door~
+1 0 36011
+S
+#36015
+The closet~
+     You have entered a very small room. It appears to be a closet of
+some sort. As you look through all the junk, you hear a strange sound.
+~
+360 0 0
+D3
+The closet door.
+~
+door~
+1 0 36008
+S
+#36016
+Under the pool of blood~
+     You are underneath the pool of blood. This room is thick with a 
+blood red color. You can barely see in front of your face.
+~
+360 abf 6
+D4
+The blood is thick here.
+~
+blood~
+1 0 36013
+S
+#36017
+The great hallway~
+     You are walking along a strange hallway that is dimly lit by candles
+and glowing stones along the walls. There are pictures all along this
+hallway. Pictures of battles, wars, and conquerers long ago. As you look
+closer, you notice one picture out of the ordinary.
+~
+360 cdgh 0
+D0
+~
+~
+0 0 36018
+D2
+~
+~
+0 0 36008
+D3
+A strange looking picture is here.
+~
+strange picture~
+1 36004 1839
+E
+picture~
+     This particular picture seems to be larger than all the others. It
+is a picture of a gateway between two worlds. This one, and one never
+thought to be linked to here. You see a vague shadow of what seems
+to be an adventurer. Few other faint figures are noticed as well.
+~
+S
+#36018
+The great hallway~
+     You are walking down a large hallway that is affixed with weapons, 
+and armour that looks to be treasure. There are swords and other weapons
+all along the walls. There is armour for all parts, but one stands out.
+A strange helm is affixed to the eastern wall. You feel a pulsing power
+coming from somewhere, could it be the helm?
+~
+360 cdgh 0
+D0
+~
+~
+0 0 36019
+D2
+~
+~
+0 0 36017
+S
+#36019
+Before the stairway~
+     You are standing before a stairway of magnificent architecture. The
+stairs themselves look to have been carved by hand, and put together one
+at a time. The railing that surrounds the stairwell is composed of some
+metalic compound, and is laced with gold. In the ceiling directly above
+the stairway, is a stained glass window that casts shadows of light all
+about the room.
+~
+360 fgh 1
+D2
+~
+~
+0 0 36018
+D4
+~
+~
+0 0 36020
+S
+#36020
+The Stairway~
+     The stairs that you are walking on contain more gold and jewelles than
+the richest Ruler could possibly acquire if he were to sell all of his
+possesions. There are intricate carvings, and well layed gems all through
+the stairway. The surrounding walls are covered in find linen tapastries
+and the room is lit by candlelight.
+~
+360 t 1
+D4
+~
+~
+0 0 36021
+D5
+~
+~
+0 0 36019
+S
+#36021
+The Stairway~
+     The stairs that you are walking on contain more gold and jewelles than
+the richest Ruler could possibly acquire if he were to sell all of his
+possesions. There are intricate carvings, and well layed gems all through
+the stairway. The surrounding walls are covered in find linen tapastries
+and the room is lit by candlelight.
+~
+360 t 0
+D4
+~
+~
+0 0 36022
+D5
+~
+~
+0 0 36020
+S
+#36022
+The Stairway~
+     The stairs that you are walking on contain more gold and jewelles than
+the richest Ruler could possibly acquire if he were to sell all of his
+possesions. There are intricate carvings, and well layed gems all through
+the stairway. The surrounding walls are covered in find linen tapastries
+and the room is lit by candlelight.
+~
+360 t 1
+D4
+~
+~
+0 0 36023
+D5
+~
+~
+0 0 36021
+S
+#36023
+Atop The Stairway~
+     You have reached the top of this magnificent stairway. The room you
+have entered contains no furniture, and is dimly lit by one lone candle
+that is suspended slightly above the stairs by an unseen force. There is
+a large silk rug on the floor, and exits lead off in every direction.
+~
+360 de 1
+D0
+~
+~
+0 0 36024
+D1
+~
+~
+0 0 36027
+D2
+~
+~
+0 0 36025
+D3
+~
+~
+0 0 36026
+D5
+~
+~
+0 0 36022
+S
+#36024
+The dark hall~
+     You are walking along a hallway that is lit only by reflections from
+the further rooms. Shadows seem to dance about the room, and voices are
+heard from those shadows. The ground is hard, and the air is cold. You feel
+a breeze coming from somewhere, but cannot pin-point the source.
+~
+360 d 0
+D0
+~
+~
+0 0 36038
+D2
+~
+~
+0 0 36023
+S
+#36025
+The South Hall~
+     You are walking along a small hallway. The walls are bare, save for
+the cobwebs that have been built in the years of neglect. The floor is
+covered in dirt and filth, and has no visible proof that anyone has walked
+this hallway for some time. You hear a faint cry for help off in the 
+distance. The hallway comtinues to the south.
+~
+360 cg 1
+D0
+~
+~
+0 0 36023
+D2
+~
+~
+0 0 36028
+S
+#36026
+The strange hall~
+     As you walk down this hall, you notice that the ceiling keeps getting
+lower and lower. The walls are bare, and the floor is plain. Perhaps this
+part of the castle is meant to be left alone?
+~
+360 i 0
+D1
+~
+~
+0 0 36023
+D3
+~
+~
+0 0 36037
+S
+#36027
+The eastern passage~
+     The passage you are traveling upon seems to be well kept as if some
+maid does her rounds here. The walls sparkle with shine and you can see
+your reflection on the glassy floor. There are tables aggainst the 
+surrounding walls, covered with candles and the occasional water jug.
+The hall extends further to the east, and there is a door to the south.
+~
+360 d 0
+D1
+~
+~
+0 0 36032
+D2
+~
+door~
+1 0 36031
+D3
+~
+~
+0 0 36023
+S
+#36028
+The South Hall~
+     As you walk further and further down this hallway, you notice a door
+far off to the south. As you approach the door, that faint cry is again
+heard. This time louder than before. You approach the door, only to notice 
+that it is locked. 
+~
+360 cdg 0
+D0
+~
+~
+0 0 36025
+D2
+A large door stands between you and your desired destination.
+~
+door~
+1 36008 36029
+S
+#36029
+Guest room~
+     This room is fully furnished, and looks to be quite comfortable.
+There is a large bed on the western wall, and a cabinet of some sort on
+the eastern wall. Along the southern wall, there is a large sliding glass
+door that leads outside. A faint cry is heard coming from that direction.
+~
+360 dr 0
+D0
+~
+door~
+1 0 36028
+D2
+~
+slider glass~
+1 0 36030
+S
+#36030
+The Balcony~
+     You are standing on a large balcony that overlooks the pathway to
+this castle. You can see the tree tops of the surrounding forests, but
+the view gives little notice of the forest floor. As you get closer to the
+edge, you hear something cry out from behind.
+~
+360 r 1
+D0
+~
+slider glass~
+1 0 36029
+S
+#36031
+The maids room~
+     You have entered a room that has to be most immaculate room you have
+seen as of yet. The floors gleam with shine, and there is not a hint of
+dirt in here. The countertops are covered in cleaning agents, and a few
+articles of clothing lie in the corner. The bed seems to be currently 
+occupied, perhaps you should leave before you wake up it's occupant.
+~
+360 0 0
+D0
+~
+door~
+1 0 36027
+S
+#36032
+The eastern passage~
+     The passage you are in seems to be more upkept than the other parts
+of this castle you have seen. You walls are bare, yet well cleaned. There
+is a small table here, with a book upon it.
+~
+360 d 0
+D1
+~
+~
+0 0 36033
+D3
+~
+~
+0 0 36027
+E
+book~
+     The Book Reads:
+ "There is a powerful time kept high up in the castle somewhere. It is
+said to have been used long ago in the creation of this great castle.
+In order to get this powerful item, you must defeat the current possesor
+of the staff, then it and it's power will be yours to wield."
+~
+S
+#36033
+End of the hall~
+     You have reached the end of the eastern hall. There is an exit to the
+north, and one to the south. There is a small window on the eastern wall.
+~
+360 cd 0
+D0
+~
+door~
+1 0 36034
+D2
+~
+door~
+1 0 36035
+D3
+~
+~
+0 0 36032
+E
+window~
+As you look outside this oval-shaped window, you can see nothing but
+infinite blackness. Is it the black of outside? Or the black of the glass
+in the window?
+~
+S
+#36034
+The guards room~
+     You have entered what seems to be the meeting place for the guards
+of this great castle. There are tables and chairs spread all across the 
+room. Maps of surrounding areas are found, and plans for strategic strikes
+are left for all to see. There is a thin layer of dust over everything in
+the room, as if there has been no need for guards for quite sometime.
+~
+360 de 0
+D2
+~
+door~
+1 0 36033
+D4
+~
+rooftop~
+1 0 36036
+S
+#36035
+Mirrors...~
+     This room is covered from top to bottom in mirrors. The walls are
+all covered in them, as are the floor and ceiling. They reflect back your
+image in perfect detail. Wait. The more you look, the more you notice they
+are not reflecting your image, but that of you in the past, present, and in
+the future. Each mirror gives the reflection of a different time of the
+person standing in front of it.
+~
+360 efht 0
+D0
+~
+door~
+1 0 36033
+S
+#36036
+The rooftop~
+     You have stumbled across the main rooftop of this dark castle. Found
+here are ranged weapons of all sorts, and large cauldrons of some sort
+or thick, black substance. You see no sign of life around, perhaps all the
+guards are preparing for some battle?
+~
+360 c 0
+D5
+~
+rooftop~
+1 0 36079
+S
+#36037
+The dead end~
+     You have come to an abrupt hault as the hall suddenly stops. The 
+ceiling seems to have just suddenly met with the floor in an almost
+purposeful arch. There are no obvious exits here.
+~
+360 fi 0
+D1
+~
+~
+0 0 36026
+D4
+~
+dead~
+1 0 36023
+S
+#36038
+The dark hall~
+ As you walk further along this hallway, you see more and more shadows
+running in and out of walls, and falling through the floor. Silent screams
+seem to penetrate your ears, and into your soul. Your eyes squint, trying
+to scan the area... You have no luck.
+~
+360 d 0
+D0
+~
+~
+0 0 36041
+D1
+~
+door~
+1 0 36040
+D2
+~
+~
+0 0 36024
+D3
+~
+door~
+1 0 36039
+S
+#36039
+The tunnel~
+     The room you have entered is very small and has no furnishings
+whatsoever. The ground is made of dirt, and there is a tunnel leading
+down into the darkness. Faint cries for help are heard off into the
+darkness of the tunnel. The smell of death waves in the breeze.
+~
+360 aci 5
+D1
+~
+door~
+1 0 36038
+D5
+~
+grate~
+1 0 36042
+S
+#36040
+The tunnel~
+     The room you have entered is very small and has no furnishings
+whatsoever. The ground is made of dirt, and there is a tunnel leading
+down into the darkness. Faint cries for help are heard off into the
+darkness of the tunnel. The smell of death waves in the breeze.
+~
+360 aci 5
+D3
+~
+door~
+1 0 36038
+D5
+~
+grate~
+1 0 36043
+S
+#36041
+End of the hallway~
+     You have come across what seems to you to be the end of this hallway.
+The ways are suddenly bare, and floor is cold as ice. You look up only
+to see the darkness that falls upon you after the only light dies out.
+You look around to see if you can find your way out, and notice an exit
+that was not there before. There is a small hole in the ground.
+~
+360 ad 0
+D2
+~
+~
+0 0 36038
+D5
+There is a small hole here.
+~
+hole~
+1 0 36081
+S
+#36042
+In the caverns~
+     You have traveled down into what seems to be old caverns.
+The floor is damp and cold, and the air is still as if not disturbed
+for many years. The walls are made of dirt, and the cries seem to be 
+getting closer. A flicker of light is seen off to the west.
+~
+360 af 0
+D3
+~
+~
+0 0 36049
+D4
+~
+grate~
+1 0 36039
+S
+#36043
+In the caverns~
+  You have traveled down into what seems to be old caverns.
+The floor is damp and cold, and the air is still as if not disturbed
+for many years. The walls are made of dirt, and the cries seem to be
+getting closer. A flicker of light is seen off to the east.
+~
+360 af 0
+D1
+~
+~
+0 0 36044
+D4
+~
+grate~
+1 0 36040
+S
+#36044
+In the caverns~
+     These caverns seem to getting smaller and smaller, as if they are
+coming to a close. The ceiling is getting lower, and the walls seem to
+be closing in. The ground is still wet, and the air still filled with
+stench. The darkness closes in, and you begin to get affraid.
+~
+360 afi 0
+D1
+~
+~
+0 0 36045
+D3
+~
+~
+0 0 36043
+S
+#36045
+In the caverns~
+     As you crawl further down these tunnels, you begin to sink into the
+moist dirt. The moisture drips off the ceiling, onto your head, and back.
+Still heard are the faint cries for help, and the stench is still in the
+air. To the north, the cavern seems to open up, allowing you to stand.
+~
+360 afi 0
+D0
+~
+~
+0 0 36046
+D3
+~
+~
+0 0 36044
+S
+#36046
+The chamber~
+      As you are standing, getting the blood flowing in your legs again.
+You eyes still adjusting to the new found light. You notice a large iron
+door blocking any further travel. The door extends high, into the ceiling
+itself, and down under the ground. There is a large place for a key in
+the center of this enormous gateway. 
+~
+360 f 0
+D0
+It is HUGE!
+~
+iron door~
+1 36010 36047
+D2
+~
+~
+0 0 36045
+S
+#36047
+The hollowed woods~
+     Climbing through the gates, you step out onto a path. Along either 
+side of this path, are trees that stand like like a crack in a glass window.
+Their branches extend outward and upward, small black-berries sparsely
+located on the lower branches. These trees wave back and forth in the
+cool unearthly breeze. 
+~
+360 nr 3
+D2
+It is HUGE!
+~
+iron door~
+1 36010 36046
+D3
+~
+~
+0 0 36048
+S
+#36048
+The gate-fence~
+ As the path narrows, and the trees become more still, you find
+yourself standing before a large iron fencing. There is a large gate
+located at the end of the path. The gate is also iron, and has a large
+stone wyvern standing on eihter side of the gate. 
+~
+360 n 3
+D1
+~
+~
+0 0 36047
+D3
+The gate is large, and is made of iron.
+~
+gate~
+1 0 36058
+S
+#36049
+In the caverns~
+     These caverns seem to getting smaller and smaller, as if they are
+coming to a close. The ceiling is getting lower, and the walls seem to
+be closing in. The ground is still wet, and the air still filled with
+stench. The darkness closes in, and you begin to get affraid.
+~
+360 afi 0
+D1
+~
+~
+0 0 36042
+D3
+~
+~
+0 0 36050
+S
+#36050
+In the cavern~
+     As you crawl further down these tunnels, you begin to sink into the
+moist dirt. The moisture drips off the ceiling, onto your head, and back.
+Still heard are the faint cries for help, and the stench is still in the
+air. To the north, the cavern seems to open up, allowing you to stand.
+~
+360 afi 0
+D0
+~
+~
+0 0 36051
+D1
+~
+~
+0 0 36049
+S
+#36051
+The chamber~
+     As you are standing, getting the blood flowing in your legs again.
+You eyes still adjusting to the new found light. You notice a large iron
+door blocking any further travel. The door extends high, into the ceiling
+itself, and down under the ground. There is a large place for a key in
+the center of this enormous gateway.
+~
+360 f 0
+D0
+It is HUGE!
+~
+iron door~
+1 36010 36052
+D2
+~
+~
+0 0 36050
+S
+#36052
+The hollowed woods~
+ Climbing through the gates, you step out onto a path. Along either
+side of this path, are trees that stand like like a crack in a glass window.
+Their branches extend outward and upward, small black-berries sparsely
+located on the lower branches. These trees wave back and forth in the
+cool unearthly breeze. 
+~
+360 nr 3
+D1
+~
+~
+0 0 36053
+D2
+It is HUGE!
+~
+iron door~
+1 36010 36051
+S
+#36053
+The gate-fence~
+     As the path narrows, and the trees become more still, you find 
+yourself standing before a large iron fencing. There is a large gate
+located at the end of the path. The gate is also iron, and has a large
+stone wyvern standing on eihter side of the gate.
+~
+360 n 3
+D1
+The gate is large, and is made of iron.
+~
+gate~
+1 0 36054
+D3
+~
+~
+0 0 36052
+S
+#36054
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36059
+D1
+~
+~
+0 0 36055
+S
+#36055
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36060
+D1
+~
+~
+0 0 36056
+D3
+~
+~
+0 0 36054
+S
+#36056
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36061
+D1
+~
+~
+0 0 36057
+D3
+~
+~
+0 0 36055
+S
+#36057
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36062
+D1
+~
+~
+0 0 36058
+D3
+~
+~
+0 0 36056
+S
+#36058
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.
+~
+360 e 2
+D0
+~
+~
+0 0 36063
+D3
+~
+~
+0 0 36057
+S
+#36059
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36068
+D1
+~
+~
+0 0 36060
+D2
+~
+~
+0 0 36054
+S
+#36060
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36067
+D1
+~
+~
+0 0 36061
+D2
+~
+~
+0 0 36055
+D3
+~
+~
+0 0 36059
+S
+#36061
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36066
+D1
+~
+~
+0 0 36062
+D2
+~
+~
+0 0 36056
+D3
+~
+~
+0 0 36060
+S
+#36062
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36065
+D1
+~
+~
+0 0 36063
+D2
+~
+~
+0 0 36057
+D3
+~
+~
+0 0 36061
+S
+#36063
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36064
+D2
+~
+~
+0 0 36058
+D3
+~
+~
+0 0 36062
+S
+#36064
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36073
+D2
+~
+~
+0 0 36063
+D3
+~
+~
+0 0 36065
+S
+#36065
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36072
+D1
+~
+~
+0 0 36064
+D2
+~
+~
+0 0 36062
+D3
+~
+~
+0 0 36066
+S
+#36066
+The Gravestone~
+     Upon venturing across this graveyard, you have stumbled across
+a large gravestone. You try to use your sleeve to wipe the slate clean.
+You manage to wipe off most of the dirt. There is an inscription on it.
+~
+360 fjn 3
+D0
+~
+~
+0 0 36071
+D1
+~
+~
+0 0 36065
+D2
+~
+~
+0 0 36061
+D3
+~
+~
+0 0 36067
+D5
+A large gravestone lies here.
+~
+grave~
+1 0 36080
+S
+#36067
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36070
+D1
+~
+~
+0 0 36066
+D2
+~
+~
+0 0 36060
+D3
+~
+~
+0 0 36068
+S
+#36068
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36069
+D1
+~
+~
+0 0 36067
+D2
+~
+~
+0 0 36059
+S
+#36069
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36078
+D1
+~
+~
+0 0 36070
+D2
+~
+~
+0 0 36068
+S
+#36070
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36077
+D1
+~
+~
+0 0 36071
+D2
+~
+~
+0 0 36067
+D3
+~
+~
+0 0 36069
+S
+#36071
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36076
+D1
+~
+~
+0 0 36072
+D2
+~
+~
+0 0 36066
+D3
+~
+~
+0 0 36070
+S
+#36072
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36075
+D1
+~
+~
+0 0 36073
+D2
+~
+~
+0 0 36065
+D3
+~
+~
+0 0 36071
+S
+#36073
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D0
+~
+~
+0 0 36074
+D2
+~
+~
+0 0 36064
+D3
+~
+~
+0 0 36072
+S
+#36074
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D2
+~
+~
+0 0 36073
+D3
+~
+~
+0 0 36075
+S
+#36075
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D1
+~
+~
+0 0 36074
+D2
+~
+~
+0 0 36072
+D3
+~
+~
+0 0 36076
+S
+#36076
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D1
+~
+~
+0 0 36075
+D2
+~
+~
+0 0 36071
+D3
+~
+~
+0 0 36077
+S
+#36077
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D1
+~
+~
+0 0 36076
+D2
+~
+~
+0 0 36070
+D3
+~
+~
+0 0 36078
+S
+#36078
+The graveyard~
+     You have stumbled upon what seems to be a graveyard of some sorts.
+All around you are aged and broken hedgestones that bear words not fully
+understandable, or visible. You further scan the area to see nothing but
+a few branches that have fallen off nearby trees and have not been removed.
+You hear a faint sound of what sounds like laughing in the distance.  
+~
+360 e 2
+D1
+~
+~
+0 0 36077
+D2
+~
+~
+0 0 36069
+S
+#36079
+The guards room~
+     You have entered what seems to be the meeting place for the guards
+of this great castle. There are tables and chairs spread all across the
+room. Maps of surrounding areas are found, and plans for strategic strikes
+are left for all to see. There is a thin layer of dust over everything in
+the room, as if there has been no need for guards for quite sometime.
+~
+360 0 0
+D2
+~
+~
+0 0 36033
+S
+#36080
+Room 36080~
+  This lovely room has yet to be written.
+~
+360 p 0
+D4
+The bottom of a grave is seen here.
+~
+grave~
+1 0 36066
+S
+#36081
+In a small hole~
+     You find yourself in a small passageway. The walls are narrow, and
+the ceiling is low. As you crawl along, your breath becomes still and
+your skin cold. You smell something up ahead.
+~
+360 d 0
+D4
+~
+~
+1 0 36041
+D5
+~
+~
+0 0 36082
+S
+#36082
+The inner chamber of....~
+     You have entered what seems to be some sort of chamber for someone
+of power. The walls are inlaid with stones, and the floor is made of
+granite. The temperature has dropped drastically, and you are beginning 
+to feel like you are going to freeze.
+ 
+     Suddenly, something comes from behind you...
+~
+360 0 0
+D4
+~
+~
+0 0 36081
+S
+#36083
+Room 36083~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36084
+Room 36084~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36085
+Room 36085~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36086
+Room 36086~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36087
+Room 36087~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36088
+Room 36088~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36089
+Room 36089~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36090
+Room 36090~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36091
+Room 36091~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36092
+Room 36092~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36093
+Room 36093~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36094
+Room 36094~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36095
+Room 36095~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36096
+Room 36096~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36097
+Room 36097~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36098
+Room 36098~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36099
+Room 36099~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36100
+Room 36100~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36101
+Room 36101~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36102
+Room 36102~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36103
+Room 36103~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36104
+Room 36104~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36105
+Room 36105~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36106
+Room 36106~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36107
+Room 36107~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36108
+Room 36108~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36109
+Room 36109~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36110
+Room 36110~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36111
+Room 36111~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36112
+Room 36112~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36113
+Room 36113~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36114
+Room 36114~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36115
+Room 36115~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36116
+Room 36116~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36117
+Room 36117~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36118
+Room 36118~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36119
+Room 36119~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36120
+Room 36120~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36121
+Room 36121~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36122
+Room 36122~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36123
+Room 36123~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36124
+Room 36124~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36125
+Room 36125~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36126
+Room 36126~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36127
+Room 36127~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36128
+Room 36128~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36129
+Room 36129~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36130
+Room 36130~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36131
+Room 36131~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36132
+Room 36132~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36133
+Room 36133~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36134
+Room 36134~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36135
+Room 36135~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36136
+Room 36136~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36137
+Room 36137~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36138
+Room 36138~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36139
+Room 36139~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36140
+Room 36140~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36141
+Room 36141~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36142
+Room 36142~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36143
+Room 36143~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36144
+Room 36144~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36145
+Room 36145~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36146
+Room 36146~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36147
+Room 36147~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36148
+Room 36148~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36149
+Room 36149~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36150
+Room 36150~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36151
+Room 36151~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36152
+Room 36152~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36153
+Room 36153~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36154
+Room 36154~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36155
+Room 36155~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36156
+Room 36156~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36157
+Room 36157~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36158
+Room 36158~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36159
+Room 36159~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36160
+Room 36160~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36161
+Room 36161~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36162
+Room 36162~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36163
+Room 36163~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36164
+Room 36164~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36165
+Room 36165~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36166
+Room 36166~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36167
+Room 36167~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36168
+Room 36168~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36169
+Room 36169~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36170
+Room 36170~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36171
+Room 36171~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36172
+Room 36172~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36173
+Room 36173~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36174
+Room 36174~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36175
+Room 36175~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36176
+Room 36176~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36177
+Room 36177~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36178
+Room 36178~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36179
+Room 36179~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36180
+Room 36180~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36181
+Room 36181~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36182
+Room 36182~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36183
+Room 36183~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36184
+Room 36184~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36185
+Room 36185~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36186
+Room 36186~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36187
+Room 36187~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36188
+Room 36188~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36189
+Room 36189~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36190
+Room 36190~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36191
+Room 36191~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36192
+Room 36192~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36193
+Room 36193~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36194
+Room 36194~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36195
+Room 36195~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36196
+Room 36196~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36197
+Room 36197~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36198
+Room 36198~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+#36199
+Room 36199~
+  This lovely room has yet to be written.
+~
+360 0 0
+S
+$~

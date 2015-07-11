@@ -1,0 +1,540 @@
+#8100
+Entrance to the Wastelands~
+   Before you stretches out a wasteland with a bleak grey mist hovering
+decadently in the air.  Dotting the landscape are posts with bodies
+impaled on the shafts.  The sky has grown unnaturally dark suddenly as
+some unseen, powerful force eclipses the sun above.
+~
+81 a 5
+D6
+~
+~
+0 0 32211
+D9
+The mountain path continues upward in this direction, disappearing into 
+the torrents of rain. 
+~
+~
+0 -1 8101
+S
+#8101
+The Wastelands~
+   The black plains stretch out as far as the eye can see in all
+directions.  The dark sky melts with the wasteland at the horizon
+undetectably.  Far off to the southeast you see a range of mountains
+blacker, and more forboding than even the wastelands.
+~
+81 a 5
+D0
+~
+~
+0 0 8101
+D1
+~
+~
+0 0 8101
+D2
+~
+~
+0 0 8104
+D3
+~
+~
+0 0 8102
+D6
+The mountain path continues downwards in this direction, disappearing into 
+the torrents of rain. 
+~
+~
+0 -1 8100
+S
+#8102
+The Wasteland~
+   Darkness crowds you as it pours in from all directions.  Far off
+to the southeast you a range of mountains darker than the sky with
+jagged peaks.  
+~
+81 a 5
+D0
+~
+~
+0 0 8102
+D1
+~
+~
+0 0 8101
+D2
+The mountain path continues upward in this direction, banking towards the 
+south. 
+~
+~
+0 -1 8103
+D3
+~
+~
+0 0 8102
+S
+#8103
+The Wastelands~
+   The black wasteland continues in all directions from here.  The sky
+has lost its sun which lit the world you once knew.  Far off to the
+southeast you see a range of black mountains with jagged peaks and crags
+inthe middle of the Bleak Plains.
+~
+81 a 5
+D0
+~
+~
+0 0 8102
+D1
+~
+~
+0 0 8104
+D2
+~
+~
+0 0 8103
+D3
+~
+~
+0 0 8103
+S
+#8104
+The Wastelands~
+   The wastelands stretch out as far as the eye can see.  You feels
+tendrils of grey mist licking at your face.  Dotting the black landscape
+are pikes with bloody corpses mounted on them.  An evil mountain rises
+out of the wasteland to the southeast, it's jagged peak jutting towards
+the eclipsed sun above.
+~
+81 a 2
+D0
+~
+~
+0 0 8101
+D1
+~
+~
+0 0 8105
+D2
+~
+~
+0 0 8104
+D3
+~
+~
+0 0 8103
+S
+#8105
+The wasteland~
+   You feel the desolation of the Bleak Plains weighing down on your
+heart as you travel deeper into the Dark.  A strange sound splits the
+silence - it is neither human nor animal that you have ever heard.
+To the southeast you see a dark, sole mountain rise high into the black
+sky.
+~
+81 ap 5
+D0
+~
+~
+0 0 8105
+D1
+~
+~
+0 0 8105
+D2
+~
+~
+0 0 8105
+D3
+~
+~
+0 0 8104
+D8
+~
+~
+0 0 8106
+S
+#8106
+The wasteland~
+   You feel a strange magical electricity in the air but it quickly
+passes as fast as it came.  Tendrils of mist lick at you from out
+of nowhere.  You see a dark mountain rise from the belly of the black
+plains far to the southeast.
+~
+81 ap 5
+D0
+~
+~
+0 0 8106
+D1
+~
+~
+0 0 8106
+D2
+~
+~
+0 0 8107
+D3
+~
+~
+0 0 8108
+D7
+The mountain path continues to the northwest, down the dark mountain.
+~
+~
+0 -1 8105
+E
+skeleton corpse~
+You see an ancient skeleton here, by all looks an adventurer who faired 
+less well than you have so far in the lightning storm.  The armor and 
+sword are rusted and crumbling, the bones of the corpse barely 
+discernable due to decomposition in the harse environment. 
+~
+S
+#8107
+The Wasteland~
+   The wasteland stretches out as far as the mortal eye can see.  Pikes
+dot the landscape with bloody bodies mounted on the shafts.  To the
+southeast you see a lone black mountain rise from the plains high into
+the sky.
+~
+81 ap 5
+D0
+~
+~
+0 0 8106
+D1
+~
+~
+0 0 8107
+D2
+~
+~
+0 0 8107
+D3
+~
+~
+0 0 8109
+S
+#8108
+The wasteland~
+   The wasteland stretches out its maw in all directions from here.  You
+see a black peak far off to the southeast rising like a fang into the
+dark sky.
+~
+81 ap 5
+D0
+~
+~
+0 0 8108
+D1
+~
+~
+0 0 8106
+D2
+~
+~
+0 0 8109
+D3
+~
+~
+0 0 8108
+S
+#8109
+The wasteland~
+   The Bleak Plains stretch off in all directions from here, continuing
+their mad swallowing of the world.  PIkes with bloody bodies mounted
+upon the shafts dot the landscape.  To the southeast, a single black
+mountain rises from the plains into the sky.
+~
+81 ap 5
+D0
+~
+~
+0 0 8108
+D1
+~
+~
+0 0 8107
+D2
+~
+~
+0 0 8110
+D3
+~
+~
+0 0 8109
+S
+#8110
+The wastelands~
+   The Bleak Plains stretch out in all directions towards an emptiness
+unknown to the rest of the Dominion.  You see pits of fire burning in 
+the ground to the southwest.  To the east a lone mountain rises out
+of the darkness, creating a darker one around it.
+~
+81 a 5
+D0
+~
+~
+0 0 8109
+D1
+~
+~
+0 0 8110
+D2
+~
+~
+0 0 8111
+D3
+~
+~
+0 0 8110
+S
+#8111
+The wasteland~
+   The wasteland begins to grow much darker here as you travel
+deeper into the Bleak Plains.  A dark mountain rises from the
+ground high into the dark sky far off to the east.  Also, in the
+midst of firepits and pikes, you see a city with a strange reddish
+glow emanating from within to the southwest.
+~
+81 a 5
+D0
+~
+~
+0 0 8110
+D1
+~
+~
+0 0 8111
+D2
+~
+~
+0 0 8112
+D3
+~
+~
+0 0 8111
+S
+#8112
+The wasteland~
+   A wave of terror pours over you seemingly from nowhere at all.  
+The jagged, evil peak grows darker with every step and the city seems
+to glow redder.  The pits of fire are beomcing more common.
+~
+81 a 5
+D0
+~
+~
+0 0 8111
+D1
+~
+~
+0 0 8112
+D2
+~
+~
+0 0 8112
+D3
+The mountain path continues upwards in this direction, disappearing into 
+the torrents of rain. 
+~
+~
+0 -1 8113
+S
+#8113
+The wasteland~
+   The wasteland continues in all directions generating a worm of
+despair which is eating at your very soul.  A red city stands to the
+southwest and far off to the east a black mountain rises from the
+plains high into the sky.
+~
+81 a 5
+D0
+~
+~
+0 0 8113
+D1
+The mountain path continues downward in this direction, disappearing into 
+the torrents of rain. 
+~
+~
+0 -1 8112
+D2
+~
+~
+0 0 8114
+D3
+~
+~
+0 0 8115
+E
+up~
+Peering though the intense rain, which stings as you look into it, you 
+think (or imagine) you see the glow of a pair of red eyes far above you.
+~
+S
+#8114
+The wasteland~
+   The Bleak Plains stretch off in all directions, a black void with
+no tenacity save the ground you walk upon.  The air is becoming heavy
+from the smoke from the pits of fire.  To the southeast you see
+a city glowing with a strange red aura and far off to the east a
+lone mountain with black, twisted crags rises from the heart of the
+wasteland.
+~
+81 a 5
+D0
+~
+~
+0 0 8113
+D1
+~
+~
+0 0 8114
+D2
+~
+~
+0 0 8114
+D3
+~
+~
+0 0 8116
+S
+#8115
+The wasteland~
+   The Wasteland continues in all directions, spanning out like the
+arms of some black demon.  The air is heavy from the smoke billowing
+forth from the fire pits.  The city grows as you near its western wall
+and the red aura seems to grow brighter.
+~
+81 a 5
+D0
+~
+~
+0 0 8115
+D1
+~
+~
+0 0 8114
+D2
+~
+~
+0 0 8116
+D3
+~
+~
+0 0 8115
+S
+#8116
+The wasteland~
+   Darkness crowds closer as you travel deeper into the heart of the
+wasteland.  A ways to the southwest you see the city with the strange
+glow peering from within its dark walls.  Far off to the southeast,
+the lone mountain rises high into the black sky.
+~
+81 a 5
+D0
+~
+~
+0 0 8115
+D1
+~
+~
+0 0 8114
+D2
+~
+~
+0 0 8117
+D3
+~
+~
+0 0 8116
+S
+#8117
+The wasteland~
+Just to the south you see a road made of obsidian or black glass
+leading in an east and westerly direction between the lone mountain
+and the city of flame.  To the north you see the wasteland stretch 
+out like the open arms of a great, black demon.
+~
+81 a 5
+D0
+~
+~
+0 0 8116
+D1
+~
+~
+0 0 8117
+D2
+~
+~
+0 0 10125
+D3
+~
+~
+0 0 8117
+S
+#8118
+Steep Mountain Path~
+   The path continues to wind around the east face of the mountain, the 
+thunder now defening, the lightning relentless.  Each step upwards, 
+against the driving torrents of rains, becomes that much harder to take.
+~
+81 a 5
+D6
+The mountain path continues upward in this direction, turning 
+northward as it disappears into the torrents of rain. 
+~
+~
+0 -1 8119
+D9
+The mountain path continues downward in this direction, as it turns to 
+the west. 
+~
+~
+0 -1 8117
+S
+#8119
+Steep Mountain Path~
+   You stand near the top of the mountain path, the path climbing to a flat 
+ledge to the northwest.  You have little doubt the shadow-beast lies just 
+around the corner, awaiting your arrival, the evil of the creature 
+reaching out and grasping at your soul. 
+~
+81 a 5
+D7
+The mountain path curves upwards to the northwest, to a flat ledge.  
+Straining to see through the torrents of rain, you think you see a 
+large, dark creature resting on the ledge. 
+~
+~
+0 -1 8120
+D9
+The mountain path continues downward in this direction, disappearing into 
+the torrents of rain as it curves southwest.  This path is most 
+attractive now, considering what lies in front of you. 
+~
+~
+0 -1 8118
+S
+#8120
+End of the Mountain Path~
+   Your muscles are screaming, but you've taken your last steps upward in 
+climbing the mountain path, having reached a landing before an immense 
+castle ruin.  You might notice the crashes of lightning, that the rain is 
+even falling harder here on this mountain ledge, that the castle walls 
+are slowly losing the battle with the storm, if you weren't preoccupied 
+with the large, shadowy figure resting here. 
+~
+81 a 5
+D8
+The mountain path continues downward in this direction, disappearing into 
+the torrents of rain as it winds to the southeast. 
+~
+~
+0 -1 8119
+S
+$~

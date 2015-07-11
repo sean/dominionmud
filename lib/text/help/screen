@@ -1,0 +1,21 @@
+**************************************************************************
+|General Commands:       	 |		Communication:		 |
+|------------------------------------------------------------------------|
+|North East South West Up Down   |	Say Tell OOC Wish Whisper	 |
+|NE NW SW SE Look Exits	Read	 |	Report Ask Gtell 		 |
+|Scan Sleep Wake Sit Write Look	 |---------------------------------------|
+|Stand Rest Eat Drink Get Time   |	        Misc. Info               |
+|Get Fill Eq Inventory Guild	 |  Toggle Commands Infobar Scorebar     |
+|Race Score Follow Open/Close    |  Meter Mobprogs                       |
+**************************************************************************
+|Spheres:			 |	   Skills/Combat/Spells:	 |
+|------------------------------------------------------------------------|
+|Sphere Combat Thaumaturgy     	 |	Kill/Hit Cast Pray Practice	 |
+|Thievery Theomachy     	 |	Flee Wield Hold Quaff Recite	 |
+|General Knowledge		 |      Wear Trainer Gain Assist Group	 |
+**************************************************************************
+|				Utilities				 |
+|------------------------------------------------------------------------|
+|! Bug Idea Typo Quit Save Newbie Wizlist Title Alias Autoexit Autoloot  |
+|Brief Rent Compact Prompt Circle Social Credits Policy Autoassist 	 |
+*------------------------------------------------------------------------*

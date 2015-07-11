@@ -1,0 +1,1242 @@
+#11700
+Road to the Tower~
+   You see a large tower standing a ways southwards from your position.
+At its top most point it almost reaches the ceiling of the cavern.  To the
+north you see a small path in the cavern lead towards steps which climb
+up to ledges set into the face of the northern cavern wall.
+~
+117 d 0
+D2
+~
+~
+0 -1 11701
+S
+#11701
+Road to the Tower~
+   The white marble road leads directly towards a large archway set into
+the outer wall of the spiralling tower.  To the north, the road continues
+towards the northern wall of the huge cavern.
+~
+117 d 0
+D0
+~
+~
+0 -1 11700
+D2
+~
+~
+0 -1 11702
+S
+#11702
+Outside the Tower of Rhaylinne~
+   Before you a large archway gives shadowy access to the monolithical
+tower which grows from the floor of the cavern almost to the ceiling
+fathoms above you.  A white marble road leads off from here towards the
+northern wall of the cavern.
+~
+117 d 0
+D0
+~
+~
+0 -1 11701
+D2
+~
+~
+0 -1 11707
+S
+#11703
+Corner in the Tower~
+   The hallway comes to a corner here with one branch leading off to the
+east and another leading off south.  You see bright torches set in golden
+holders lining the walls.
+~
+117 d 0
+D1
+~
+~
+0 -1 11704
+D2
+~
+~
+0 -1 11716
+S
+#11704
+Grand Hallway within the Tower~
+   You stand between two towering walls which reach up an indeterminable
+height and meet the ceiling.  flickering torches line the hallway which
+leads east and west.
+~
+117 d 0
+D1
+~
+~
+0 -1 11705
+D3
+~
+~
+0 -1 11703
+S
+#11705
+Grand Hallway within the Tower~
+   The hallway leads off in an east-west fashion lined with flickering
+torches.  The marble interior reflects the light efficiently.  You notice
+the lack of sound as your footsteps are dampened by some unseen force.
+~
+117 d 0
+D1
+~
+~
+0 -1 11706
+D3
+~
+~
+0 -1 11704
+S
+#11706
+Grand Hallway within the Tower~
+   The hallway leads east and west into depthless shadow.  Flickering
+torches set in golden holders line the walls providing minimal light.
+The walls, floor and ceiling are made from a gleaming marble, bouncing
+the light from the torches down the hall.
+~
+117 d 0
+D1
+~
+~
+0 -1 11707
+D3
+~
+~
+0 -1 11705
+S
+#11707
+Entrance to the Tower~
+   To the north, an open archway lined with runes and etchings provides
+an exit from the tower.  To great hallways lead off east and west from 
+this point, extending into shadow.
+~
+117 d 0
+D0
+~
+~
+0 -1 11702
+D1
+~
+~
+0 -1 11708
+D3
+~
+~
+0 -1 11706
+S
+#11708
+Room #11708~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11709
+D3
+~
+~
+0 -1 11707
+S
+#11709
+Room #11709~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11710
+D3
+~
+~
+0 -1 11708
+S
+#11710
+Room #11710~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11711
+D3
+~
+~
+0 -1 11709
+S
+#11711
+Room #11711~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11724
+D3
+~
+~
+0 -1 11710
+S
+#11712
+Room #11712~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11727
+S
+#11713
+Room #11713~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11728
+S
+#11714
+Room #11714~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11729
+S
+#11715
+Room #11715~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11730
+S
+#11716
+Western Hallway in the Tower~
+   You see the hallway lead off to the north and south, the north ending
+shortly as the hallway turns east.  To the south, you see flickering torches
+line the walls every ten feet, sending shadows bouncing off the marble
+floor.
+~
+117 d 0
+D0
+~
+~
+0 -1 11703
+D2
+~
+~
+0 -1 11732
+S
+#11717
+Room #11717~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11718
+D2
+~
+~
+0 -1 11733
+S
+#11718
+Room #11718~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11719
+D3
+~
+~
+0 -1 11717
+S
+#11719
+Room #11719~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11720
+D3
+~
+~
+0 -1 11718
+S
+#11720
+Room #11720~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11721
+D3
+~
+~
+0 -1 11719
+S
+#11721
+Room #11721~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11722
+D3
+~
+~
+0 -1 11720
+S
+#11722
+Room #11722~
+This description is yet unfinished...
+~
+117 d 0
+D3
+~
+~
+0 -1 11721
+D4
+~
+~
+0 -1 11723
+S
+#11723
+Room #11723~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11739
+D5
+~
+~
+0 -1 11722
+S
+#11724
+Room #11724~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11711
+D1
+~
+~
+0 -1 11725
+D2
+~
+~
+0 -1 11740
+S
+#11725
+Room #11725~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11726
+D3
+~
+~
+0 -1 11724
+S
+#11726
+Room #11726~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11741
+D3
+~
+~
+0 -1 11725
+S
+#11727
+Room #11727~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11712
+D2
+~
+~
+0 -1 11742
+D4
+~
+~
+0 -1 11728
+S
+#11728
+Room #11728~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11713
+D2
+~
+~
+0 -1 11743
+D5
+~
+~
+0 -1 11727
+S
+#11729
+Room #11729~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11714
+D2
+~
+~
+0 -1 11744
+D4
+~
+~
+0 -1 11730
+S
+#11730
+Room #11730~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11715
+D5
+~
+~
+0 -1 11729
+S
+#11731
+A storeroom~
+   Dust covers the floor and the shelves leaning next to the wall. 
+Trinkets and tools are strewn about in a haphazard manner.  But it
+is relatively clean none the less.  To the east, beyond the doorway
+lies one of the main hallways within the Rhaylinne Tower.
+~
+117 d 0
+D1
+~
+door~
+1 -1 11732
+S
+#11732
+Western Hallway in the Tower~
+   The hallway leads off north and south from here.  A wooden door is
+set into the west wall with a blackened etching upon its face.  Torches
+line the soundless hallway shedding minimal light and many shadows.
+~
+117 d 0
+D0
+~
+~
+0 -1 11716
+D2
+~
+~
+0 -1 11746
+D3
+~
+door wooden~
+1 -1 11731
+S
+#11733
+Room #11733~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11717
+D2
+~
+~
+0 -1 11747
+S
+#11734
+Room #11734~
+This description is yet unfinished...
+~
+117 d 0
+D4
+~
+~
+0 -1 11735
+S
+#11735
+Room #11735~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11736
+D5
+~
+~
+0 -1 11734
+S
+#11736
+Room #11736~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11737
+D3
+~
+~
+0 -1 11735
+S
+#11737
+Room #11737~
+This description is yet unfinished...
+~
+117 d 0
+D3
+~
+~
+0 -1 11736
+D4
+~
+~
+0 -1 11738
+S
+#11738
+Room #11738~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11752
+D5
+~
+~
+0 -1 11737
+S
+#11739
+Room #11739~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11723
+D2
+~
+~
+0 -1 11753
+S
+#11740
+Room #11740~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11724
+D2
+~
+~
+0 -1 11754
+S
+#11741
+Room #11741~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11726
+D2
+~
+~
+0 -1 11755
+S
+#11742
+Room #11742~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11727
+D2
+~
+~
+0 -1 11756
+S
+#11743
+Room #11743~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11728
+D2
+~
+~
+0 -1 11757
+S
+#11744
+Room #11744~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11729
+D2
+~
+~
+0 -1 11758
+S
+#11745
+Room #11745~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11746
+S
+#11746
+Room #11746~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11732
+D2
+~
+~
+0 -1 11759
+D3
+~
+~
+0 -1 11745
+S
+#11747
+Room #11747~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11733
+D4
+~
+~
+0 -1 11748
+S
+#11748
+Room #11748~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11749
+D5
+~
+~
+0 -1 11747
+S
+#11749
+Room #11749~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11750
+D3
+~
+~
+0 -1 11748
+S
+#11750
+Room #11750~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11751
+D3
+~
+~
+0 -1 11749
+S
+#11751
+Room #11751~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11752
+D3
+~
+~
+0 -1 11750
+S
+#11752
+Room #11752~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11738
+D3
+~
+~
+0 -1 11751
+S
+#11753
+Room #11753~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11739
+D2
+~
+~
+0 -1 11766
+S
+#11754
+Room #11754~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11740
+D2
+~
+~
+0 -1 11767
+S
+#11755
+Room #11755~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11741
+D1
+~
+~
+0 -1 11756
+S
+#11756
+Room #11756~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11742
+D3
+~
+~
+0 -1 11755
+S
+#11757
+Room #11757~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11743
+D2
+~
+~
+0 -1 11769
+D4
+~
+~
+0 -1 11758
+S
+#11758
+Room #11758~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11744
+D2
+~
+~
+0 -1 11770
+D5
+~
+~
+0 -1 11757
+S
+#11759
+Room #11759~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11746
+D2
+~
+~
+0 -1 11771
+S
+#11760
+Room #11760~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11761
+D2
+~
+~
+0 -1 11772
+S
+#11761
+Room #11761~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11762
+D2
+~
+~
+0 -1 11773
+D3
+~
+~
+0 -1 11760
+S
+#11762
+Room #11762~
+This description is yet unfinished...
+~
+117 d 0
+D2
+~
+~
+0 -1 11774
+D3
+~
+~
+0 -1 11761
+S
+#11763
+Room #11763~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11764
+D5
+~
+~
+0 -1 11775
+S
+#11764
+Room #11764~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11765
+D3
+~
+~
+0 -1 11763
+S
+#11765
+Room #11765~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11766
+D3
+~
+~
+0 -1 11764
+S
+#11766
+Room #11766~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11753
+D3
+~
+~
+0 -1 11765
+S
+#11767
+Room #11767~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11754
+D1
+~
+~
+0 -1 11768
+D2
+~
+~
+0 -1 11779
+S
+#11768
+Room #11768~
+This description is yet unfinished...
+~
+117 d 0
+D3
+~
+~
+0 -1 11767
+S
+#11769
+Room #11769~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11757
+S
+#11770
+Room #11770~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11758
+S
+#11771
+Room #11771~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11759
+D1
+~
+~
+0 -1 11772
+S
+#11772
+Room #11772~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11760
+D1
+~
+~
+0 -1 11773
+D2
+~
+~
+0 -1 11780
+D3
+~
+~
+0 -1 11771
+S
+#11773
+Room #11773~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11761
+D1
+~
+~
+0 -1 11774
+D2
+~
+~
+0 -1 11781
+D3
+~
+~
+0 -1 11772
+S
+#11774
+Room #11774~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11762
+D2
+~
+~
+0 -1 11782
+D3
+~
+~
+0 -1 11773
+S
+#11775
+Room #11775~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11776
+D4
+~
+~
+0 -1 11763
+S
+#11776
+Room #11776~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11777
+D2
+~
+~
+0 -1 11783
+D3
+~
+~
+0 -1 11775
+S
+#11777
+Room #11777~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11778
+D3
+~
+~
+0 -1 11776
+S
+#11778
+Room #11778~
+This description is yet unfinished...
+~
+117 d 0
+D1
+~
+~
+0 -1 11779
+D2
+~
+~
+0 -1 11784
+D3
+~
+~
+0 -1 11777
+S
+#11779
+Room #11779~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11767
+D3
+~
+~
+0 -1 11778
+S
+#11780
+Room #11780~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11772
+D1
+~
+~
+0 -1 11781
+S
+#11781
+Room #11781~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11773
+D1
+~
+~
+0 -1 11782
+D3
+~
+~
+0 -1 11780
+S
+#11782
+Room #11782~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11774
+D3
+~
+~
+0 -1 11781
+S
+#11783
+Room #11783~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11776
+S
+#11784
+Room #11784~
+This description is yet unfinished...
+~
+117 d 0
+D0
+~
+~
+0 -1 11778
+S
+$~

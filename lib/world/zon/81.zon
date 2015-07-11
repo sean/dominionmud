@@ -1,0 +1,20 @@
+#81
+The Wastelands~
+Kirahn~
+Mid-High~
+3001 1
+8150 15 2
+*
+* Last Updated: Tue Dec 10 09:10:39 
+*           By: Kirahn
+*
+M 0 5850 10 8111 100 	* the black goblin at The wasteland. (Max: 10)
+M 0 5850 10 8107 100 	* the black goblin at The Wasteland. (Max: 10)
+M 0 5850 10 8102 100 	* the black goblin at The Wasteland. (Max: 10)
+M 0 5850 10 8104 100 	* the black goblin at The Wastelands. (Max: 10)
+M 0 19018 1 8100 100 	* the keeper of the Torch at Entrance to the Wastelands. (Max: 1)
+M 0 1114 6 8115 100 	* the Darkenguard at The wasteland. (Max: 6)
+M 0 1114 6 8109 100 	* the Darkenguard at The wasteland. (Max: 6)
+M 0 1114 6 8105 100 	* the Darkenguard at The Wasteland. (Max: 6)
+S
+$~

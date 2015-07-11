@@ -1,0 +1,115 @@
+#20000
+gray rat~
+The gray rat~
+The gray rat scurries about, searching for food.
+~
+The rat is a sickly gray in coloration, with beady red eyes.
+~
+fgh k 0 S
+1 20 10 1d3+0 1d2+2
+0 50
+8 8 0
+#20001
+kobold miner~
+The kobold miner~
+The kobold miner walks along, carrying a bucket of rocks.
+~
+You see a kobold female, doubled over dragging a bucket of rocks.  
+Weak with exhaustion, there is trepidation in her eyes as she notices 
+your interest in her.
+~
+cfghm k -366 S
+1 20 10 2d3+0 1d2+2
+11 50
+8 8 2
+#20002
+kobold miner~
+The kobold miner~
+The kobold miner is here, chisling away at the rock.
+~
+You see a kobold male here, drenched in sweat.  He seems intent on 
+lengthening the tunnel while avoiding the sting of the taskmaster's 
+whip. Upon realizing your presence, the kobold stops and takes a 
+defensive stance.
+~
+bcfghm k -366 S
+1 20 10 2d3+0 1d2+2
+11 50
+8 8 1
+#20003
+kobold shaman~
+The kobold shaman~
+The kobold shaman is here, blessing the tunnel.
+~
+You see a female kobold.  From her dress and endless chanting, you 
+suspect she is a shaman.  She is oblivious to your presence.
+~
+gh k -496 S
+1 20 10 2d3+0 1d2+2
+37 75
+8 8 2
+#20004
+kobold soldier~
+The kobold soldier~
+A kobold soldier is patroling here.
+~
+You see a stout kobold warrior on patrol.  He seems quite displeased 
+at your intrusion.
+~
+cfglm k -366 S
+1 20 10 2d4+0 1d2+1
+13 100
+8 8 1
+#20005
+kobold warrior guard~
+the kobold guard~
+A kobold warrior stands at attention here.
+~
+You see a stout kobold standing here quite bored until your intrusion.  
+He screams in a primative language and attacks.
+~
+bcfglm k -366 S
+1 20 10 2d4+0 1d2+1
+19 125
+8 8 1
+#20006
+kobold taskmaster~
+the kobold taskmaster~
+You see a kobold taskmaster gleefully whipping his slaves.
+~
+You see a large kobold using a whip to instruct the miners on the 
+finer points of swinging a pick.  He breaks off his session of 
+negative reinforcement to deal with you.
+~
+bcfglm k -446 S
+2 18 10 4d4+0 1d2+1
+113 200
+8 8 1
+#20007
+kobold Karak~
+Karak the overseer~
+You see a very large kobold here studying the progress.
+~
+Before you stands a mountain of a kobold.  He must be a full 4' 
+in height.  Karak looks like he is having a bad day, and your arrival 
+has done nothing to improve his demeanor.
+~
+cfglm kr -502 S
+4 14 10 1d4+18 1d2+1
+364 750
+8 8 1
+#20008
+wall north gelatinous cube~
+The gelatinous cube~
+You see a smooth wall here.
+~
+You see a glistening, smooth wall here.  The only break in the shiny 
+surface is the hand of a kobold pertruding from it.
+~
+bcfgh dfkt 0 S
+7 10 10 5d10+0 2d4+3
+1294 3000
+8 8 0
+$
+
+

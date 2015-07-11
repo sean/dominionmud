@@ -1,0 +1,50 @@
+CircleMUD v3.0 Shop File~
+#5664~
+5665
+5666
+-1
+1.10
+0.90
+-1
+%s Are you blind? Do you see that item?!~
+%s You fucking moron, sell me something in your inventory...!~
+%s I don't want that useless trash.~
+%s Sorry, my ass is broke.~
+%s Me thinks you should go make some money first.~
+%s Give me %d coins, thanks.~
+%s I'll give ya %d coins for that.~
+0
+3
+5664
+0
+5664
+-1
+0
+28
+0
+0
+#5665~
+5668
+5669
+-1
+1.20
+0.70
+-1
+ÿÿÿÿ~
+%s You don't seem to have that, silly.~
+%s I have no use for such an item.~
+~
+%s I'm sorry, i just can't sell it for that little.~
+%s Thank you for supporting our cause, that'll be %d coins.~
+%s Deal! You can have %d coins for this.~
+0
+3
+5667
+0
+5665
+-1
+0
+28
+0
+0
+$~

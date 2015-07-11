@@ -1,0 +1,76 @@
+#326
+Pelarinne Forest~
+Kirahn~
+ALL~
+3001 1
+32680 24 2
+*
+* Last Updated: Fri Nov 22 23:40:41 
+*           By: Kirahn
+*
+M 0 32604 12 32672 100 	* a small, grey fox at Deep in the Golden Forest. (Max: 12)
+M 0 3101 1 32672 100 	* the craw wyrm at Deep in the Golden Forest. (Max: 1)
+G 1 3104 1  100 			* And give it a green scale. (Max: 1)
+M 0 32604 20 32649 100 	* a small, grey fox at Pelarinne Road. (Max: 20)
+D 0 32649 5 1 100 		* Close Eastern door at Pelarinne Road
+M 0 32607 6 32635 100 	* a silver falcon at Turn in the trail. (Max: 6)
+M 0 32607 6 32605 100 	* a silver falcon at Turn in the Trail. (Max: 6)
+M 0 32607 6 32676 100 	* a silver falcon at Up in the tall tree. (Max: 6)
+M 0 32607 6 32674 100 	* a silver falcon at Deep in the Golden forest. (Max: 6)
+D 0 32654 0 1 100 		* Close Northern door at Clearing behind the brush
+M 0 32600 12 32655 100 	* a forest brigand at Clearing behind the brush. (Max: 12)
+E 1 32601 12 17 100 			* And equip it with a sharp, curved dagger. (Max: 12)
+E 1 32607 12 4 100 			* And equip it with a ragged chainmail shirt. (Max: 12)
+D 0 32655 0 1 100 		* Close Northern door at Clearing behind the brush
+D 0 32644 2 1 100 		* Close Eastern door at Pelarinne Road
+D 0 32643 2 1 100 		* Close Eastern door at Pelarinne Road
+M 0 32606 4 32673 100 	* the forest druid at Deep in the Golden Forest. (Max: 4)
+E 1 32603 12 17 100 			* And equip it with a quarterstaff. (Max: 12)
+M 0 32604 12 32618 100 	* a small, grey fox at Intersection of trails. (Max: 12)
+M 0 32606 4 32618 100 	* the forest druid at Intersection of trails. (Max: 4)
+E 1 32603 12 17 100 			* And equip it with a quarterstaff. (Max: 12)
+M 0 32606 4 32626 100 	* the forest druid at Turn in the trail. (Max: 4)
+E 1 32603 12 17 100 			* And equip it with a quarterstaff. (Max: 12)
+M 0 32602 1 32671 100 	* Andar of the Waypost at The Traveller's Tradepost. (Max: 1)
+G 1 32604 100  100 			* And give it a traveller's root. (Max: 100)
+G 1 32605 100  100 			* And give it a waterskin. (Max: 100)
+G 1 32602 100  100 			* And give it a leather backpack. (Max: 100)
+G 1 1817 30  100 			* And give it a wooden knife. (Max: 30)
+M 0 32604 20 32665 100 	* a small, grey fox at Deep in the Golden Forest. (Max: 20)
+M 0 32604 20 32663 100 	* a small, grey fox at Road in the forest. (Max: 20)
+D 0 32604 3 1 100 		* Close Eastern door at The Forest Trail
+D 0 32613 0 1 100 		* Close Northern door at Intersection in the Forest
+D 0 32603 1 1 100 		* Close Eastern door at The small clearing
+D 0 32603 2 1 100 		* Close Eastern door at The small clearing
+M 0 32604 12 32639 100 	* a small, grey fox at Small clearing. (Max: 12)
+M 0 32604 12 32667 100 	* a small, grey fox at The forest clearing. (Max: 12)
+M 0 32600 12 32660 100 	* a forest brigand at Clearing behind the foliage. (Max: 12)
+E 1 32601 12 17 100 			* And equip it with a sharp, curved dagger. (Max: 12)
+E 1 32607 12 4 100 			* And equip it with a ragged chainmail shirt. (Max: 12)
+M 0 32600 12 32647 100 	* a forest brigand at Pelarinne Road. (Max: 12)
+E 1 32601 12 17 100 			* And equip it with a sharp, curved dagger. (Max: 12)
+E 1 32607 12 4 100 			* And equip it with a ragged chainmail shirt. (Max: 12)
+M 0 32600 12 32629 100 	* a forest brigand at The dark forest. (Max: 12)
+E 1 32601 12 17 100 			* And equip it with a sharp, curved dagger. (Max: 12)
+E 1 32607 12 4 100 			* And equip it with a ragged chainmail shirt. (Max: 12)
+M 0 32600 12 32664 100 	* a forest brigand at Deep in the Golden Forest. (Max: 12)
+E 1 32601 12 17 100 			* And equip it with a sharp, curved dagger. (Max: 12)
+E 1 32607 12 4 100 			* And equip it with a ragged chainmail shirt. (Max: 12)
+M 0 32600 12 32638 100 	* a forest brigand at The dark forest. (Max: 12)
+E 1 32601 12 17 100 			* And equip it with a sharp, curved dagger. (Max: 12)
+E 1 32607 12 4 100 			* And equip it with a ragged chainmail shirt. (Max: 12)
+M 0 32601 3 32666 100 	* the elven hunter at Deep in the Golden Forest. (Max: 3)
+E 1 32603 3 17 100 			* And equip it with a quarterstaff. (Max: 3)
+G 1 32604 3  100 			* And give it a traveller's root. (Max: 3)
+M 0 32601 3 32662 100 	* the elven hunter at Path between the Golden Trees. (Max: 3)
+E 1 32603 3 17 100 			* And equip it with a quarterstaff. (Max: 3)
+G 1 32604 3  100 			* And give it a traveller's root. (Max: 3)
+M 0 32601 3 32630 100 	* the elven hunter at The dark forest. (Max: 3)
+E 1 32603 3 17 100 			* And equip it with a quarterstaff. (Max: 3)
+G 1 32604 3  100 			* And give it a traveller's root. (Max: 3)
+O 0 32606 2 32615 100 	* a small spring at Turn in the trail. (Max: 2)
+O 0 32606 2 32667 100 	* a small spring at The forest clearing. (Max: 2)
+M 0 32603 1 32659 100 	* a white deer at Deep in the Golden forest. (Max: 1)
+G 1 32600 1  100 			* And give it a white pelt. (Max: 1)
+S
+$~

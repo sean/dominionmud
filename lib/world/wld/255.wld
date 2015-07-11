@@ -1,0 +1,1902 @@
+#25500
+Trailhead of the Nature Trail~
+   The beginning of a natural trail is before you.  The trees seem to
+grow away from the trail, allowing a group of people to walk along
+the plush grass the flows south from here.  While the rest of the
+forest is entrenched in darkness, the trees give sunlight unusual
+access giving the trail a holy feeling.
+~
+255 c 3
+D0
+To the north is a trail running toward Phalar.
+~
+~
+0 -1 1872
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25515
+S
+#25501
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues south, and to the
+north is the trailhead.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25500
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25502
+S
+#25502
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25501
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25503
+S
+#25503
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25502
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25504
+S
+#25504
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25503
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25505
+S
+#25505
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25504
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25506
+S
+#25506
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25505
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25507
+S
+#25507
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25506
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25508
+S
+#25508
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25507
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25509
+S
+#25509
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25508
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25510
+S
+#25510
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25509
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25511
+S
+#25511
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25510
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25512
+S
+#25512
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25511
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25513
+S
+#25513
+The Natural Trail~
+   The forest is dark to the east and the west, still you feel very safe
+walking down this sunlit path.  The trail continues north and south.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25512
+D2
+The trail grows south, basked in sunlight.
+~
+~
+0 -1 25514
+S
+#25514
+The Natural Trail~
+   The trail seems even more alive here, the trees around you look
+welcoming and to the south you see a opening in the forest with
+a enourmous tree in the center.  To the north the trail continues.
+~
+255 0 3
+D0
+The trail continues north.
+~
+~
+0 -1 25513
+D2
+To the south you see a open glade in the forest.
+~
+~
+0 -1 25515
+S
+#25515
+The North end of the Druid's Glade~
+   As you enter the glade you feel your worries disappear.  You are
+overcome with an awe of nature as the soft sunlight shines onto
+your face.  The trees seem to have grown around this glade in a
+perfect circle.  Beautiful green grass covers the ground from the outer
+edges of the circle right up to the large oak tree to the south.  The
+trail leads away from the glade to the north.
+~
+255 0 3
+D0
+You see the head of the nature trail.
+~
+~
+0 -1 25500
+D2
+To the south is a large oak tree.
+~
+~
+0 -1 25516
+S
+#25516
+The Heart of the Forest~
+   You have reached the heart of the forest.  All the sounds of the
+creatures of the woods flow into your ears and around inside of
+you.  The openness of the glade allows you to look straight up the
+side of the gigantic oak tree in front of you.  You sense that this
+must be the meeting place for all the druids in the land.  The
+placement of the tree branches seem to give all creatures of the
+land the ability to climb this great tree.
+~
+255 0 3
+D0
+You see the north end of the glade.
+~
+~
+0 -1 25515
+D4
+The branches form out of the tree allowing you to climb up.
+~
+~
+0 -1 25517
+S
+#25517
+Up the Great Tree~
+   You climb the tree with little effort.  Huge branches, large enough
+to walk on grow away from the trunk to the east and the west.  There
+seems to be some movement further up the tree as well.
+~
+255 ns 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25550
+D1
+A branch extends to the east.
+~
+~
+0 -1 25526
+D3
+A branch extends to the west.
+~
+~
+0 -1 25521
+D4
+The tree continues upward toward the sky.
+~
+~
+0 -1 25518
+D5
+You can climb down to the base of the tree from here.
+~
+~
+0 -1 25516
+S
+#25518
+Up the Great Tree~
+   The world expands around you as you reach the middle of the
+great tree.  All the other trees in the forest seem suddenly short
+from your current point of view.  You look out above the forest
+and see the the great desert beyond the river to the south.  To the
+north you can see a large range of mountains expanding into the
+clouds.  Westward must be the tower of high sorcery, but there is
+too much mist from Haor-Dark to see it.  You may climb up or down
+the tree from here.
+~
+255 cns 3
+D3
+~
+~
+0 0 25566
+D4
+~
+~
+0 0 25519
+D5
+The branches below you would allow you to climb down from here.
+~
+~
+0 -1 25517
+S
+#25519
+The Druid Hall~
+   A platform has been placed around the tree here, allowing a
+person to stand here and watch adventurers come down the
+natural trail that you yourself walked down just a few minutes
+ago.  The sunlight seems to shine directly into the top of the
+tree just above you.  You are able to climb up into the top of
+the tree or down the tree from here.
+~
+255 0 3
+D4
+Bright sunlight is concentrated in the top of the tree above you.
+~
+~
+0 -1 25520
+D5
+The branches below you would allow you to climb down from here.
+~
+~
+0 -1 25518
+S
+#25520
+The Chamber of the Great Druid~
+   As you enter the top of the great tree you are engulfed in
+extremely bright sunlight.  Your eyes finally adjust, and you see
+a great room before you, made out of the tree itself.  From here
+you can see the entire forest and beyond.  This is the home of
+the Great Druid, from whom druids learn their skills and spells.
+~
+255 0 3
+D5
+The branches below you would allow you to climb down from here.
+~
+~
+0 -1 25519
+S
+#25521
+On a Branch~
+   You are standing on a branch there are small rooms to the north
+and the south.  The branch continues to the east and west.
+~
+255 ns 3
+D0
+~
+~
+0 -1 25552
+D1
+To the east you see the trunk of the great tree.
+~
+~
+0 -1 25517
+D3
+To the west the branch continues.
+~
+~
+0 -1 25522
+S
+#25522
+On a Branch~
+   You are standing on a branch there are small rooms to the north
+and the south.  The branch continues to the east and west.
+~
+255 ns 3
+D1
+To the east the branch continues.
+~
+~
+0 -1 25521
+D3
+To the west the branch continues.
+~
+~
+0 -1 25523
+S
+#25523
+On a Branch~
+   You are standing on a branch there are small rooms to the north
+and the south.  The branch continues to the east and west.
+~
+255 ns 3
+D1
+To the east the branch continues.
+~
+~
+0 -1 25522
+D3
+To the west the branch continues.
+~
+~
+0 -1 25524
+S
+#25524
+On a Branch~
+   You are standing on a branch there are small rooms to the north
+and the south.  The branch continues to the east and west.
+~
+255 0 3
+D1
+To the east the branch continues.
+~
+~
+0 -1 25523
+D3
+To the west the branch continues.
+~
+~
+0 -1 25525
+S
+#25525
+End of the Branch~
+   You stand at the end of the branch.  The view from here is of the
+tops of the trees of Haor Forest.  The only exit is east.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25556
+D1
+To the east the branch continues.
+~
+~
+0 -1 25524
+S
+#25526
+On a Branch~
+   You are standing on a branch there are small rooms to the north
+and the south.  The branch continues to the east and west.
+~
+255 n 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25557
+D1
+To the east the branch continues.
+~
+~
+0 -1 25527
+D3
+To the west you see the trunk of the great tree.
+~
+~
+0 -1 25517
+S
+#25527
+On a Branch~
+  You are standing on a branch.  There are doors to the north and south, 
+while the branch continues to the east and west.  You see a sign on the
+small door to the north.
+~
+255 n 3
+D0
+You see a quaint tree house.
+~
+door~
+1 -1 25558
+D1
+To the east the branch continues.
+~
+~
+0 -1 25528
+D3
+To the west the branch continues.
+~
+~
+0 -1 25526
+E
+sign~
+HyDeLL's PlAcE
+KeEP OuT, My STufF!
+~
+S
+#25528
+On a Branch~
+   You are standing on a branch there are small rooms to the north
+and the south.  The branch continues to the east and west.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25559
+D1
+To the east the branch continues.
+~
+~
+0 -1 25529
+D3
+To the west the branch continues.
+~
+~
+0 -1 25527
+S
+#25529
+On a Branch~
+   You are standing on a branch there are small rooms to the north
+and the south.  The branch continues to the east and west.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25560
+D1
+To the east the branch continues.
+~
+~
+0 -1 25530
+D3
+To the west the branch continues.
+~
+~
+0 -1 25528
+S
+#25530
+End of the Branch~
+   You stand at the end of the branch.  To the west the branch heads
+back to the trunk to the Great Tree.  There is a high branch from another
+tree that you think you can jump over to to the east.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25561
+D1
+A branch reaches out from another tree.
+~
+~
+0 -1 25531
+D3
+To the west the branch continues.
+~
+~
+0 -1 25529
+S
+#25531
+A High Branch~
+   You stand atop one of the many trees in Haon-Dor forest.  Around you
+the forest expands.  Little animals of the forest crawl around the trees,
+looking quite harmless.  A maple tree is with reach to the south, a
+cottonwood tree waves gently in the wind to the north.  The great tree
+is within jumping distance to the west.
+~
+255 0 3
+D0
+A cottonwood tree stands proudly to the north.
+~
+~
+0 -1 25532
+D1
+A large branch of the great tree is reachable to the west.
+~
+~
+0 -1 25530
+D2
+The leaves of the maple tree rustle, seeming to welcome you.
+~
+~
+0 -1 25538
+S
+#25532
+Atop A Cottonwood~
+   You feel a warm breeze blowing from the west as you stand
+on one of the high branches of a cottonwood tree.  To the south
+you can jump back to the High Branch.  Cottonwood branches
+extend like limbs to the north and west.
+~
+255 0 3
+D0
+A cottonwood branch extends to the north.
+~
+~
+0 -1 25533
+D2
+The High Branch lies above the forest to the south.
+~
+~
+0 -1 25531
+D3
+A cottonwood branch extends to the west.
+~
+~
+0 -1 25535
+S
+#25533
+A Cottonwood Branch~
+   The branch is sturdy here, leading off to the north.  Peering around
+you you notice movement to the north.  The branch continues north,
+the top of the cottonwood is to the south.
+~
+255 c 3
+D0
+To the north there seems to be a bird nest.
+~
+~
+0 -1 25534
+D2
+The tiptop of the cottonwood trunk is south.
+~
+~
+0 -1 25532
+S
+#25534
+A Bird Nest~
+   You carefully step into a large thatch nest.  Looking around you see
+remains of large snipe eggs.  It looks as if something has broken the
+eggs up and eaten them.  The only exits are south and north.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25562
+D2
+A cottonwood branch leads back toward the trunk.
+~
+~
+0 -1 25533
+S
+#25535
+A Cottonwood Branch~
+   The cottonwood branch leads away from the top of the base of
+the tree.  The wind has stopped blowing and you hear the noises
+of the forest.  The branch continues west.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25563
+D1
+The top of the cottonwood tree is to the east.
+~
+~
+0 -1 25532
+D3
+The branch continues to the west.
+~
+~
+0 -1 25536
+S
+#25536
+A Cottonwood Branch~
+   The branch starts to become a little narrower as you move away
+from the trunk of the tree.  To the west something glistens in the
+sunlight and catches your eye.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25564
+D1
+The branch continues to the east.
+~
+~
+0 -1 25535
+D3
+To the west you see a shimmering object on the branch.
+~
+~
+0 -1 25537
+S
+#25537
+End of the Branch~
+   The branch ends here, looking westward the mist seems to have
+started engulfing the forest again, blocking your vision from what
+you think would have been a gorgeous view.
+~
+255 0 3
+D0
+You see a quaint tree house.
+~
+~
+0 -1 25565
+D1
+The branch continues to the east.
+~
+~
+0 -1 25536
+S
+#25538
+Atop a Maple~
+   The branches of this tree are not very wide and you decide that it
+would be a wise idea not to try to walk on them.  To the north you
+can jump back to the High Branch.  You also notice a small hole in
+the tree, climbing down the trunk a bit should allow you access.
+~
+255 0 3
+D0
+The High Branch is within reach to the north.
+~
+~
+0 -1 25531
+D5
+The trunk seems to allow you to climb down a bit.
+~
+~
+0 -1 25539
+S
+#25539
+Trunk of a Maple Tree~
+   Climbing down the trunk you notice all the sap on the bark.  It is
+quite annoying, sticking your hands all up.  You can climb up or
+down the trunk.  There is a hole in the trunk of the tree to the east.
+~
+255 c 3
+D1
+Looking in the hole you see a pair of eyes looking back.
+~
+~
+0 -1 25540
+D4
+The top of the tree is above you.
+~
+~
+0 -1 25538
+D5
+The trunk leads down toward the ground.
+~
+~
+0 -1 25541
+S
+#25540
+The Owl's Nest~
+   The hole is dark, and small.  Sap seeps down the inside of the tree
+at a leisurely pace.  The light from outside casts your shadow on the
+wall, almost frightening you.  West is the only exit.
+~
+255 a 3
+D3
+You can climb out of the hole back onto the trunk.
+~
+~
+0 -1 25539
+S
+#25541
+Trunk of the Maple Tree~
+   Small branches allow you to climb up or down the trunk of the
+tree from here.  The sap oozing from the tree is starting to really
+bother you.  The forest floor is below you.
+~
+255 c 3
+D4
+Small branches lead up the tree.
+~
+~
+0 -1 25539
+D5
+Small branches lead down to the forest floor.
+~
+~
+0 -1 25542
+S
+#25542
+Base of the Maple Tree~
+   You stand at the bottom of a large maple tree rising up into the
+sky.  Small branches could serve as steps in order to climb the tree.
+A small path leads to the north.
+~
+255 0 3
+D0
+A small trail runs to the north, through the forest.
+~
+~
+0 -1 0
+D4
+Small branches lead up the tree.
+~
+~
+0 -1 25541
+S
+#25550
+Shade's House~
+Sparsely decorated.....the moving people must not have gotten here yet....
+~
+255 cdegjls 3
+D2
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25517
+S
+#25551
+Gangrel's Cavern~
+     You've arrived (invited, of course) at the home of Gangrel D'thstryk,
+the legendary strider.  In the limited light, you see that the entire place
+is made from basalt and obsidian rock, the natural formations creating 
+shelf space and places to rest.  Costly skins decorate the room as do millions
+of gold pieces in fine gemstones and artifacts that he's managed to aquire.
+     The rear wall, however, consists of a small pallet, a jar of incense, and
+a shrine with the symbol of Garou upon it.  Lit candles surround this area,
+obviously the strider's place of meditation and worship.  Several other items
+are also here, including a small chair, a tiny fountain, several chests of
+food, and a larger pallet with fur blankets where the drow must sleep.
+~
+255 cdegjls 0
+D2
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25518
+E
+shrine pallet worship candles~
+Lit by six candles, arranged in a hexagon around the pallet, the meditation
+site is a site that even guests should avoid.  Holy ground to the dark elf,
+Gangrel would probably not be appriciative of you disturbing this spot.
+~
+S
+#25552
+TKP Bar and Grill~
+       Stepping inside a large sign greets you with the words "Friends of
+Garou Welcome!"  Glancing around, you notice several things that are of 
+interest.  First and foremost is the fully functioning wet-bar and ale-tap
+that sits comfortably in the center of the house.  Tasteful artwork of both
+elven and human make rest on the walls, offering images of the various places
+in The Dominion that these three have travelled to and from.  Above the door
+you just entered are the biggest pair of shark's jaws that you have ever
+seen in you life.  Three well guarded doors lead from the area and your odds
+of getting in there alive without invitation are slim.  All in all, this
+seems to be a great place to relax and socialize with the others who happen
+to swing by.
+~
+255 cdgns 0
+D0
+A thin curtain separates you from what seems to be the room of Koufax.
+The dog in front of that curtain looks like he could easily take a chunk
+out of your ass if Koufax hasn't said you could come in.
+~
+~
+0 0 25554
+D1
+The door, as hard as this seems to believe, is made from pure platinum.
+The cost alone must have been unheard of.  Engraved in the door are the 
+holy symbols belonging to Garou and a large letter "T".
+~
+~
+0 0 25553
+D2
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25521
+D3
+The door is painted heavily with orange, white, and green in three large
+stripes.  Carved into this door is the picture of a wolf in honor of Garou
+and a large letter "P".
+~
+~
+0 0 25555
+E
+bar wet-bar wet~
+Surrounded on all sides by a heated pool, the bar is the focal point for
+this area.  Famous for it's high-quality, imported, Franklin Malt Liquor,
+the three owners love when people show up and drink for a bit to take
+thier minds off of the craziness of the outside world.
+~
+S
+#25553
+The Holy Fuck Shack of Tiber~
+        Chains, whips, leather, and other bondage devices line the walls.
+This Tiber must be a strange puppy.  And speaking of which, he has about
+six of those in a cage next to his round bed for what purpose, Garou only
+knows.  Above the bed, besides the revolving mirror is a well-used, often
+dunked on, basketball hoop.  You note that the strings hanging from it are
+also made out of black leather.
+~
+255 cdegjls 0
+D3
+This leads back out through the door to the Bar.
+~
+~
+0 0 25552
+S
+#25554
+Koufax's Chambers~
+This room is barren for the most part.  Smooth walls, bare floor, and
+a simple pallet of wool and cedar shavings lie in the corner.  The only
+objects in the room are several well-used weapons with which Koufax
+practices daily and a simple altar to his god, Garou.
+~
+255 cdjl 3
+D2
+This way leads back through the curtain and to the bar.
+~
+~
+0 -1 25552
+S
+#25555
+Padraig's Room~
+       The druid's room is covered with signs of warding and bottles of
+"Franklin Malt Liquor".  Several pictures of animals and elemental forces
+are on the walls and the floor is heaped high with artifacts and gory 
+trophies that the wild elf has taken over the course of his life.  A thick
+mat of fabric lies on one side of the room and on the opposite side is a
+shrine to Garou.  The smells of spices, blood, and fresh air circulate
+through your nostrils as you stand here.
+~
+255 cdegjls 0
+D1
+This way leads back to the bar.
+~
+~
+0 0 25552
+S
+#25556
+Tree House (25556)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D2
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25525
+S
+#25557
+The Night Tribe Clan Hall~
+   This is the meeting room and equipment salvage for the
+Night Tribe Clan.  On the wall is a large list of rules which
+members must abide by.  Above the doorway is the crest of the Night
+Tribe with the names of the long past away founders of the clan,
+Apocalypse and Alowishus upon it.
+~
+255 cdjl 3
+D2
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25526
+E
+rules list~
+  These are the rules which every member of the Night Tribe must
+abide or be punished and shunned:
+
+1.  You must not be a coward in the face of thine enemy.  Fleeing from
+    battle is an action only for the weak.  
+
+2.  We are to be the protectors of the innocent that live in The Dominion.
+    People new to the realm are never to be hurt in anyway.  Allies
+    and friends of the clan are never to be harmed.  
+
+3.  Evil doers are to be hunted and brought to justice by force only if
+    necessary.
+
+4.  If a friend or ally of the Night Tribe, or another member of the clan
+    is in danger, you must stop everything and make his or her plight
+    a priority.
+
+5.  We are a peaceful brotherhood above all and are here to do our duty
+    to our fellow kin within Glasgians, Landrin's, Gaeya, and Jamn's religion.
+    killing anyone of these religions is out of the question and you will
+    be punished by death and will be stripped of everything you own.
+
+My brothers and sisters of the Night Tribe,  i wish only the best for all
+of you in this harsh world.  I hope we can bring peace and justice and
+trust to the lands.  Let the masses respect our honor and courage so that
+we may grow strong.
+~
+S
+#25558
+Hydell's House~
+You have entered a treehouse.  Everything here seems to be to one-half scale,
+the chairs, the table, the roof!  The other thing you notice immediately is
+all the stuff.  There must not be more than 5 or 6 square feet of floor 
+showing through the mounds of items stacked about.  The centerpiece of the 
+room is a monsterous fountain statue of Moriquendi...the head of the statue
+poking through the roof.  By all looks this has to be the home of a Kender.
+~
+255 cdjl 3
+D2
+~
+door~
+1 0 25527
+E
+cross-stitch note~
+You see a note cross-stitched here, hanging to the door. 
+It reads as follows:
+
+"May you always return through this
+Door with more than you leave with.
+
+---Mom"
+~
+E
+door~
+You see a circular, wooded door, painted bright yellow, in the southern wall.
+There is a note that has been cross-stitched hanging on the door.
+~
+E
+stuff item items~
+You see stacks and stacks of objects that seem to follow no theme, maps here,
+mugs there, feathers, daggers, carved wooded statues, and the list goes on.
+In you randomly grabbed 1000 objects from all over the Dominion, you would
+have the collection in this room.
+~
+E
+throne~
+You see a tiny throne here, made of mahagany and trimmed with royal red 
+felt.
+~
+E
+table~
+You see a dimutive table here, though quite well made.  It is made of solid
+oak, and the legs of the table have been shaped into images of Elven 
+Princesses.
+~
+E
+chair chairs~
+You see five chairs around the table, all obviously made by different 
+carpenters.  At the head of the table you see a small throne.
+~
+S
+#25559
+Tree House (25559)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D2
+~
+~
+0 0 25528
+S
+#25560
+Tree House (25560)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D2
+~
+~
+0 0 25529
+S
+#25561
+Tree House (25561)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D2
+~
+~
+0 0 25530
+S
+#25562
+Tree House (25562)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D0
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25526
+S
+#25563
+Tree House (25563)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D0
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25527
+S
+#25564
+Tree House (25564)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D0
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25528
+S
+#25565
+Tree House (25565)~
+   This one room house for sale.  Nice view of forest.  Cost of
+10,000,000 gold.  Contact a Greater God in order to purchase.
+~
+255 cd 3
+D0
+A branch of the Great Tree lies outside your door.
+~
+~
+0 -1 25529
+S
+#25566
+The Shadowy Foyer~
+     You step past the guard and into the trunk of the Great Tree.  Your
+eyes must be deceiving you....there's no way that a room of this size could
+fit inside here, no matter how big the tree looks from the outside.  
+Strands of mist and shadow swirl around your legs as you look upon the 
+carvings on the walls.  Steps carved from silverwood and hinged with moss
+lead upward into the shadows above.  Around you, from somewhere, you hear
+low, rythmical chanting; it's tempo and beat filling your soul with piece
+and making you feel safe.
+~
+255 cdef 1
+D1
+You see the entrance to the Druid's Guild.
+~
+~
+0 -1 25518
+D4
+The steps lead up into the shadows and mist.
+~
+~
+0 -1 25575
+E
+carvings carving wall walls~
+Etched into the soft insides of the trunk, this carving depicts The 
+Dominion as a whole, the symbols and markings indicated harmony, peace, and
+a balance, that the order strives to maintain.
+~
+S
+#25567
+The Temple of Garou~
+      You now stand in the Temple of Garou Kinnslayer, built into the hollow
+of the Great Tree.  Looking around in respect, you see intricate carvings of
+wood and metal that walls which stretch up to a ceiling so high, you cannot
+see it.  A thin shaft of light streams down from above, illuminating an altar
+near the back of the temple.  Made of obsidian, this holy artifact is devoid
+of all objects, save one:  The Book of the Kinnslayer.  In it, you will find
+the Lord of Neutrality's teachings and laws to his followers and potential
+worshippers.
+      The other object you see in this massive chamber, is a large fountain
+in the center of the floor.  Standing at least eight feet tall and roughly
+thirty feet in diameter, the fountain is apexed by a statue of a wolf with
+it's head bowed toward the pool at the base.  Streams of crystaline, clear
+water flow from the eyes and mouth of the statue, cascading down into the 
+pool, allowing easy access to drink from, should it be desired.
+~
+255 cder 0
+D5
+You see the Chamber of Balance.
+~
+~
+0 -1 25575
+E
+light circle~
+As you examine the circle of light, you notice that it is coming
+through a small opening near the very top of the ceiling.  The
+hole was carved in such a fashion that the circle of light would
+always illuminate one spot in the center of the room, even by
+moonlight!
+~
+E
+tome book garou kinnslayer~
+
+                        The Book of the Kinnslayer
+                transcibed by Andara B'lainheart: Wolven Cleric
+
+
+        After Glasgian created the lower gods of light, he concentrated his
+focus upon the gods of darkness.  Summoning his then enormous powers, the
+mighty god sent his far reaching gaze out across the millions of realities in
+the universe to find a protector for the darker side of neutrality.  On a
+shadowy plane of existence made up of nothing but forests, Glasgian found what
+he was looking for.  He took up the very soul of that plane and merged it with 
+a part of his own remaining lifeforce.  Transferring the new entity, along with
+a portion of his own world, to The Dominion, Glasgian brought our God and Lord
+Garou Kinnslayer to watch over us.  A being forged of energies not of this
+world who walks alone from the rest of the gods, yet remains intrinsic to the
+balance of power in The Dominion.
+        Our faith in him is of his own mentality, one of solitude tempered with
+companionship of one's friends.  We, as a group, tend not to involve ourselves
+in the petty squabbles that dominate the other religions.  We are all brothers
+and sisters and treat each other as such.  Unless asked, the Church of Garou
+tends not to make alliences or take sides unless we will benefit more than our
+"allies" in the long run.  But be forewarned, our God is a vindictive and
+wrathful one to those who would attempt to destroy him and we follow in his
+footsteps on that train of thought.  By vindictive, we mean near-genocide.  
+Unless appropriate pacification measures are taken, we all join together to 
+hunt our common enemies and those who dare side with them.
+        The Kinnslayer demands total loyalty and respect from us, his beloved
+followers, and once that loyalty is obtained, you are welcomed with open arms. 
+Garou is benevolent to those in his faith and asks only that certain laws are
+followed when serving in his sect.  With our God's power behind us, we stand
+stronger and tighter than any other religion in The Dominion.  Follow in the
+Kinnslayer's path, walk with us, his children, and insight, strength, and
+prosperity with be with you always.....as will we.
+
+Garou's Laws
+============
+        
+    I.  Stand together in times of strife or need.  Strength increases
+        exponentially in groups which aids in defense of our brothers 
+        and sisters.
+
+   II.  Sacred water pours from the temple's fountain.  Those who wish to
+        receive the power of our faith need only drink the liquid as it 
+        flows.  This is limited to once per moonrise.  It also serves as 
+        the baptism rites for new members of my religion.  Simply drink 
+        from the waters and you shall be accepted into this faith with 
+        open arms.
+
+  III.  Keep your heart to the darker end of the spectrum of purity.  We
+        defend neutrality and the darkness, not the light.  However, do 
+        not fall towards the utmost black or you will fall out of my 
+        favor as surely as if your soul was of the purest light.  The 
+        off-side of neutrality is the place where your mind, heart, and 
+        soul should belong.
+
+   IV.  Conflicts among you are settled and judged by me and no other. 
+        Striking down one of your fellow worshippers is considered to 
+        be an act of disloyalty and you will be punished accordingly.  
+        Those who attempt to defy this rule will NOT be warned.  
+        Consider this to be your only notification.
+
+    V.  Defend the forests with your life for they are sacred grounds to
+        us.  Know also that refuge from your enemies may be possible in 
+        the woodlands if help is needed and I am here.  
+
+   VI.  The Bearer of the Orb is considered to be my right hand.  Heed his
+        or her word as you would mine.  However, misuse of the power 
+        bestowed upon the chosen one will not be tolerated and you will 
+        be stripped of more than just the title.
+
+  VII.  Once you belong to the pack, you are in for the remainder of your
+        life.  Renouncing me is not a healthy idea as it is a direct slap 
+        in the face to not only me, but your brothers and sisters as well. 
+
+ VIII.  Restoration of the mind and body is also within my power, but only
+        to those in dire need of the help.
+~
+S
+#25568
+The Cloud Room~
+     Entering the clouds from the tower below you momentarily
+blinded by a flash of white light.  As your sight slowly returns
+you notice that there is no exit back into the tower.  White clouds
+swirl vigorously, eventually parting creating a doorway to the
+north.
+~
+255 ejs 1
+D0
+~
+~
+0 0 25569
+D5
+~
+~
+0 0 3038
+S
+#25569
+Temple Foyer of Sand Moriquendi~
+     The entrance way to the temple of Sand Moriquendi -- Lord
+of Justice is lit with fiery globes of white light.  Etched in the ivory
+walls are pictures of great battles with small bands of men
+slaughtering armies of evil.  Above each drawing is a carving of the
+Crown of the Moriquendi.  The short hallway widens quickly into a
+large, circular room to the north.
+~
+255 ejs 0
+D0
+~
+~
+0 0 25570
+D2
+~
+~
+0 0 25568
+S
+#25570
+Temple of Sand Moriquendi -- Lord of Justice~
+     The walls of this circular room seem to have been perfectly
+carved out of a very large piece of ivory.  Swirling white clouds
+make up the floor and ceiling giving you a nervous feeling about
+entering.  As you step into the room a white fire rises up
+from the middle of the floor.  The clouds quickly shift and
+carry you toward the flames, stopping just as you enter.
+Suddenly the flames subside and an ivory pedestal stands before
+you.  Atop the pedestal sits a worn leather book with a golden
+crown on the cover.  Suddenly a voice echoes, "This is the Tome
+of the One True Order."
+~
+255 cdegjrs 0
+D2
+~
+~
+0 0 25569
+D5
+The Temple of Midgaard
+~
+~
+0 -1 3001
+E
+tome~
+
+     In the early days after the Creation, many different groups
+of creatures took control of the different parts of the land.  The
+castle below was proudly built as a symbol of justice and
+integrity.  From this place the legions of good pushed back evil
+to the furthest reaches of the Haor forest and the caves of Moria.
+In these golden years the most powerful warriors continued
+their destruction of evil.
+     Gilded days followed, however and the forces of evil, allied
+with unnatural magic, have slowly made a resurgence.  Once
+again our land has become a very dangerous place.  Many of its
+inhabitants have become corrupt and doing anything to spread
+evil across our land.  Innocent men and women are too often
+victims, slain by numerous instruments of evil.  The time has
+come once again for brave men and women to rise and regain
+control.  Those who take this high road are often scorned and
+attacked.  However, our path is the one true and those who
+can must fight for what is rightfully ours.
+     Sand Moriquendi has stood since the Creation as the Lord
+of Justice.  Often directing the armies of the Moriquendi into
+battle in the early days.  It is his laws that we must follow to
+regain control of the land once again.  It is his surname that
+we take as the name of ourselves as a greater whole.
+
+These are the laws of the Moriquendi -- Guardians of Justice.
+
+      I.  Destroying evil is the main objective.  Everything
+           else in life should be secondary, including monetary
+           gains and exploring the land.  Unnatural creatures
+           such as giants and golems are fair game as well, since
+           they often have been created by strange, evil magic.
+           These creatures will glow with an evil light after you
+           worship.
+
+    II.  The inhabitants of the castle below, cityguards and
+           other such keepers of the justice are not to be attacked,
+           directly or indirectly, by any member of The Moriquendi.
+           This also means that no one should assist those in
+           their attempt on a cityguard's life by casting spells
+           that will indirectly harm the guard.  The only
+           exception to this is a guard that is under the influence
+           of an evil player or monster.  (i.e..  Charmed or guarding
+           an evil mob)
+
+   III.  No newbie of any religion may be killed, unless you are
+           defending yourself.  Those who enter this land are
+           often easily converted to our Faith.  Converting them
+           to our side is often more beneficial than mindlessly
+           wiping them out.  All members of The Moriquendi
+           should recruit and convert others to the true Faith.
+
+    IV.  Liberate items and moneys from evil players and
+           monsters.  These may be kept and used for the
+           betterment of The Moriquendi and our cause.
+
+     V.  Any Moriquendi may destroy evil wherever they
+           find it.  However, some places in the world are better
+           than others.  If you receive a killer flag for attacking
+           an evil character in a non-playerkilling area it will not
+           be removed, so be smart in your attack.  Also, any items,
+           experience, or moneys lost in an attempt to purge an
+           agent of evil will not be reimbursed.
+
+    VI.  All Moriquendi are expected to remain true to The Faith.
+           (i.e.. keep their alignment within the bounds 250 - 1000)
+           Sand Moriquendi and his avatar will often wander the
+           land in many forms watching the actions of his followers.
+           He will reward those who perform great acts in his
+           service.  He will punish those who are impure.
+
+  VII.  If ever another Moriquendi is in jeopardy you must come
+           to their aid if you are within reach and/or can offer
+           assistance.  We are much stronger if we protect each
+           other.  Also, any Moriquendi Neophyte should be
+           offered assistance.  Although you are not required to
+           help new members this will often strengthens our cause,
+           and in effect, helps you.
+
+ VIII.  Our religion is starkly opposed to that of Sb and Gray.  You
+            should not group with those of evil faith, if for no
+            other reason they will be hunting the good, just as we
+            hunt them.  You may, of course, group with members of
+            neutral faiths.
+
+    IX.  Although this is the one true religion, all other Gods
+           should be treated with respect.  Without all of the
+           creators, both good and evil, nothing else would exist.
+
+     X.  A Moriquendi must NEVER attack another Moriquendi.
+           This action is considered an attack on the Moriquendi
+           as a whole and will be dealt with severely.
+
+    XI.  If ever a Moriquendi knowingly violates one of our
+           laws, he should be dealt with by Sand or his avatar only.
+           Report the actions in question as soon as possible.  If
+           a situation arises that you are forced to deal with act
+           with extreme caution, as you may be help accountable
+           as well.
+
+   XII.  You may be cursed, blinded, and/or excommunicated by
+           Sand Moriquendi if you violate any of the laws of The
+           Moriquendi.
+
+Members of other religions may attempt to corrupt you.
+However, you must remain faithful.  In exchange for your
+devotion, prayers, and adherence to the laws of The Moriquendi,
+you may occasionally receive assistance from our lord himself.
+~
+S
+#25571
+The Temple of Chaos~
+   You are standing in a large temple. The room is filled with mist. 
+You are surrounded in noise that engulfes your thoughts making it hard 
+to think.  However you feel that you are growing to see through the chaos 
+and master in its ways. There is a large altar that stands in the middle 
+of the room.
+~
+255 cdefgjrs 0
+D5
+~
+~
+0 -1 11071
+E
+Altar~
+This altar is made of granite. It seems to speak to you as it stares hazily
+at your soul. Apon the altar is a cloth that seems to have an inscription on
+it. Devlan's tome of chaos sits apon this cloth.
+~
+E
+Cloth~
+You notice that the cloth is finely woven of the best materals and gold 
+threading. The writing glows.
+~
+E
+Writing~
+"This is the end of the world as we know it"
+~
+E
+Tome~
+
+1.      You shall honor all gods no matter how there religions differ from
+        ours. Abreveating their names, insulting them is an insult to our
+        religion. We are CHAOS not insults. Do not break this one!
+
+2.      Do not help maintain order Lie steal and kill do whatever to offset
+        any order that is present. The more CHAOS the better off we are.
+
+3.      Trust no one unless they are of this religion. To maintain chaos
+        we must stick together. Unless of course you can gain from it.
+        
+4.      Helping players Newbie is allowed only if they either are a member
+        of our religion or if it promotes CHAOS.
+
+Things that will get you kicked out fast!
+ 
+1.      Breaking Rule #1 will get you kicked out real fast with added penalties
+ 
+2.      Excessive cursing on public channels, or herasement
+ 
+3.      Whinning NO WHINNING
+ 
+4.      Promoting order
+ 
+5.      Harming the mud in anyway.
+ 
+6.      Wearing another gods eq.
+ 
+Things that will get you more recognition from me
+ 
+        Recruiting, killing, stealing, causing people to whine, making a 
+        profit, promoting CHAOS, doing what is asked of you, helping the 
+        religion.
+ 
+You will be rewarded if you make me happy... This means my holy symbol, and
+equipment.
+~
+S
+#25572
+Temple of Sb~
+You have entered the Temple of Sb where only the game, the challenge and
+the money count.  This hall, with its lofty ceiling inlaid with gold and 
+its many surfaces are of marble, onyx, or sheathed in mother of pearl
+reeks of wealth and opulence although the decorations are very tastefully
+done. In one corner there is a board containing the current contracts and
+the price connected with each.     
+The few rules and regulations of Sb are contained in a slim tome on one
+of the desks.
+~
+255 der 0
+D0
+To the inner chamber
+~
+~
+0 0 25573
+D1
+The Underworld
+~
+~
+0 0 3061
+E
+tome~
+As a member of this religion you are expected, first and foremost, to
+make a profit.  Whether this is buy stealing gold or by stealing life 
+is irrelevent.
+
+Aid your brothers when they have need and do not, ever, steal from or
+kill others of this religion.
+
+Items of power will be given to you on reaching levels, the first being
+25. These items will also be swapped for items from other religions.
+
+Try and avoid getting involved with the petty squabbles of good and evil since
+they are generally bad for business.
+
+If you must take revenge upon another religion then do so as a group.  Your
+skills are very powerful when use correctly.
+
+Do this and rise to power alongside the Eternal Rogue.
+~
+S
+#25573
+The Inner Chamber~
+This room is basically a tavern.  There is a bar at one and and tables 
+cover the floor.  A huge fire burns in a pit in the middle of the room
+and 'obtainers of antiquities' and 'removers of the burden of life' sit
+around relaxing before returning to work.
+~
+255 emnr 0
+D2
+Sb's Temple
+~
+~
+0 0 25572
+D4
+~
+~
+0 0 25574
+S
+#25574
+The Nexus of Stars~
+   You stand in a vast, dark room.  A large statue of Starburst, Immortal
+King of the Rogues, stands in the center of the room.  Lavish satin and silk
+chairs abound the chamber for you to rest easy upon while waiting for your
+assailant or unhappy victim to give up on finding you.  There is a golden
+coin spinning within a small globe which has brought many a follower of Sb
+luck in their line of work.  All you need to do is 'touch' it to receive
+the blessing.
+~
+255 egjlnrs 0
+D0
+~
+Starburst~
+1 0 25580
+D5
+~
+~
+0 0 25573
+E
+(null)~
+(null)~
+S
+#25575
+The Chamber of Balance~
+      Reaching the top of the stairs, your mind and body suddenly feel
+completely unified with one another.  This chamber has been blessed and
+spellbound by the Forestkeeper, allowing all who arrive here a chance to
+meditate, relax, and heal themselves in mind, spirit, and body. Soft, white
+light from an unseen source illuminates the room allowing you to see that
+a ramp leads up from this chamber to a large room.  The strands of mist
+and shadow seem to halt at the top of the ramp, slowly writhing back upon
+themselves and sliding across the floor and back down the steps in a
+never-ending cycle.
+~
+255 degrs 0
+D4
+Through the mist, you see the Temple of Garou.
+~
+~
+0 -1 25567
+D5
+You see the entrance to the temple.
+~
+~
+0 0 25566
+S
+#25576
+Entrance to Cair's temple~
+You have entered a tunnel in the mountainside. As you enter this passage you
+notice a smoldering torch pinned to the mountainside with a very large battle
+axe.  The torch has been placed above a golden scroll mounted to the hard 
+granite surface of the mountainside. You hear a faint chanting sound comming
+from inside this passage. As you look down the passage you can barely make
+out a bluish light off in the distance. You feel compelled to follow the light
+and in your mind you feel yourself begining to chant....
+~
+255 cdeh 0
+D4
+A large slab of granite.               
+~
+granite~
+0 0 11008
+D5
+Cair Muhr's temple
+~
+~
+0 0 25577
+E
+scroll gold~
+As you lean closer to examine the scroll you noticed that the torch begins 
+to burn and glows with a fierce light. The scroll unwinds itself and 
+reads:
+
+The essance of a great evil has begun to fill the relm. It has been
+prophesized that the land will become barren and will fill with death and
+great misery. There is a evil abroad which turns Kings to destroy other Kings,
+Gods against Gods, as well as brother against brother.  The basis of death;
+murder, pillage, and plunder...the organization of War!  The Immortal being
+has escaped the chains of her capturs and has now come with wrath and fury to
+overthrough the dominion and take what is deemed to be hers. This being is
+Cair Muhr.........
+
+Those who wish to follow the path of War must:
+
+* Be hummble and have great honor! The evil way of Cair Muhr is through
+  power! Unlike those who do not think out their action, the temple of Cair 
+  will endulge itself in respect.
+
+* Be loyal to Cair Muhr. Loyalty will bring you great rewards, and will
+  keep your soul dark and chaotic.
+
+* Sacrifice offerings of equipment and corpses of those who fall in battle 
+  to Cair's followers. Those who die buy the sword do no longer need thier 
+  belongings, for it will only let them plan an attack on you quicker.
+
+* Believe and have faith. Cair is a very honest being and has a heart 
+  committed to evil, and expects you to do the same.
+
+Those who follow the path of war may not:
+
+* Ask favors of other gods. Cair is a very jealous god and will not allow
+  such actions. If you are giong to confide in a lord...confide in Cair.
+
+* Wear any equipment of another riligion. They must be turned over to Cair 
+  herself, or sacrificed to her.
+
+* Group with any members of Glasgian or Sand's religion members for they 
+  are the prime enemies of Cair Muhr.
+
+
+The essence of war is a purely evil act. It take the evil heart to shed the
+blood of others unconditionally. It has been forseen that Cair will lead her
+army of mortal followers against The Dominion, and when she become victorious
+over all will be the sole Diety of the relm while her followers will become
+immortal and share control over this world...
+~
+S
+#25577
+Unused Room~
+ An unfinished room.
+~
+255 eghs 0
+D0
+~
+~
+0 0 25578
+D4
+Entrance to the temple.
+~
+~
+0 0 25576
+S
+#25578
+Cair's Grand Lobby~
+This room resembles nothing of a cave, but more like a grand palace! You 
+notice that the walls are covered in golden murals of warfare. Where in 
+every scene there is a picture of Cair Muhr leading her army to victory. In
+the middle of the room there lies a huge cushion on the floor for Cair's 
+weary folowers to lay apon when they need to recover quickly from their 
+battles. You hear nothing in this room, but your head booms with a war cry
+from Cair, "The streets will be filled with the bones of those who do not
+believe!"
+~
+255 efhrs 0
+D2
+~
+~
+0 0 25577
+D3
+~
+~
+0 0 25579
+E
+mural picture wall~
+The inscription states that these are the loyal accolytes to Cair Muhr:
+
+Hyghlo        Sferra
+Kyndig        Malkil
+Madyn         Drake
+Riconnal X
+
+These are the brethren and sisters of War!
+
+* You may correspond with your god by e-mailing cair@dominion.ulaverne.edu
+  Also when you worship the temple now sets your alignment to evil, castes
+  haste, and bless.~
+S
+#25579
+The Altar of War~
+This room, like the one before it, is emaculantly large. There lies in the
+middle of this room a very large altar made from the mountainside, pure 
+granite!  It is from this altar that the purple light flows from. You notice
+that the light seems to come from an eternal source... Never stopping its
+endless rotation and rythem. When you look up towards the ceiling you can 
+barely make out a door.
+~
+255 degnrs 0
+D1
+~
+~
+0 0 25578
+D4
+A door has been etched into the granite wall. It appears to be solid rock
+but, its purple tones make you believe that it may be magical!
+~
+wall door~
+0 0 3021
+S
+#25580
+The Power Cache~
+This room is overflowing with items of power.  Scrolls, staffs and wand lie
+on shelves and in racks across the wall.  Here, the might of the rogues
+becomes apparant.  Only those with skill could amass such a wealth of magic.
+There is a gilded scroll on the wall which you feel you should read.
+~
+255 fghjlrs 0
+D2
+~
+Starburst~
+1 0 25574
+E
+scroll~
+This room is not to be abused.  
+
+No more than 3 items to be removed at once.
+For each item taken another should be placed, at a later date if need be
+Items taken only to be used to kill or steal from another player
+
+Abuse of these rules will lead to being locked out of the room.
+
+Sb
+~
+S
+#25581
+Entrance to Gaeya's Temple~
+      You have dropped down below the docks of Phalar and into the outer
+gateway of Gaeya's temple.  The Goddess of Water's outer chambers are made
+of intricate coral formations with slender strands of seaweed and pearls 
+weaving holy symbols of protection and healing upon the walls.  Soothing
+sounds of flowing water echo softly throughout the room and you feel a sense
+of peace wash over you as you stand here.
+~
+255 cdegs 0
+D2
+The way ahead of you looks like a tunnel that goes UNDER the river.
+~
+~
+0 0 25582
+D4
+The staircase leads back up to the docks of Phalar.
+~
+~
+0 0 20002
+S
+#25582
+The Hall of Water~
+      Streams of healing water cascade down around your body as you enter
+this part of Gaeya's temple.  Sighing from the relaxing sensation, you look
+to the chamber you're standing in and see that the room is made entirely of
+water!  How you seem to be standing on it, or even how the gallons of liquid
+above you is staying in place is completely incomprehensible.  But the water
+that drops from the ceiling quietly splashes into the water at your feet,
+creating a cycle that you feel is the heart of the Wavetamer's faith.  On
+the far wall, you see a thin curtain made of seashells that covers a slender
+doorway.
+~
+255 cdegrs 0
+D0
+You see the outer chambers.
+~
+~
+0 0 25581
+D2
+Through the seashell curtain, you see the Temple of the Goddess.
+~
+~
+0 0 25583
+S
+#25583
+The Temple of Gaeya, Goddess of Water~
+      Passing through the seashell curtain, you arrive in the central chamber
+and worshipping site of Gaeya Wavetamer.  On the coral and sandstone walls,
+the histories and laws of the Goddess are inscribed.  The ceiling of the 
+temple is made of glass and you smile as you realize that somehow you've
+been transported to the ocean.  Every species of aquatic life you've ever 
+heard of and several that you haven't swim happily in the waters above your
+head.  In the center of the floor is a altar with a thin, blue cloth over the
+top of it.  Resting on the cloth is a goblet filled with a clear liquid.  It
+seems that prayers to the Goddess can be made from this spot.
+~
+255 cdefgrs 0
+D0
+Through the curtain you see the Hall of Water.
+~
+~
+0 0 25582
+S
+#25590
+ObsidMagi Hall~
+A large meeting hall, lit by a circle of candles incompassing the Magi
+book of pure wisdom, the book of evil. In the center of the floor a moon
+has been encrested into the floor, made of silver there is a star etched
+just south of the moon, this is the symbol of the Dark Magic...The symbol
+of ObidMagi. The walls are adorned in dark purple tapistries...a remant of
+the eternal darkness of the clan.
+~
+255 degrs 0
+E
+book~
+Bound in the flesh of humans it contains the sacred rituals of the dark
+magic. This book is the lifeblood of the clan.
+~
+S
+$~

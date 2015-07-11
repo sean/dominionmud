@@ -1,0 +1,485 @@
+#2
+receptionist~
+the receptionist~
+A wizened gray-haired fellow is standing here waiting to show you a room.
+~
+You see nothing special.
+~
+abd 0 0 S
+49 0 0 1d1+3500 1d2+43
+0 0
+8 8 1
+#3
+Cliff postmaster post~
+the Postmaster~
+A postmaster is here waiting to serve you.
+~
+He looks familiar in some way...
+He's from a place where everybody knows your name...
+~
+abd 0 0 S
+49 0 0 1d1+3500 1d2+43
+0 0
+8 8 1
+#4
+robot cleaning~
+the cleaning robot~
+An R2 cleaning robot is here, picking up trash.
+~
+You see nothing special.
+~
+ad 0 0 E
+40 0 0 1d1+3500 1d2+43
+0 0
+8 8 0
+Race: 28
+E
+#20
+dog mutant rottwieler mon_sum_one~
+the mutated Rottwieler~
+A mutated Rottwieler stands guard at his master's side.
+~
+You see nothing special.
+~
+ad adfk 0 E
+5 13 10 4d20+30 1d14+19
+0 156
+8 8 0
+BareHandAttack: 4
+Race: 22
+Height: 44
+Weight: 136
+E
+#21
+beast mob mon_sum_two~
+the Gethtzy beast~
+A hideous beast awaits the commands of his master here.
+~
+  The Gethtzy beast stands nearly 7 feet in height.  The sabre-like teeth
+of the beast can easily be seen poking from beneath his scarred lips, almost
+daring you to screw with it.
+~
+dp ad 0 E
+8 30 20 6d30+30 2d10+10
+0 1500
+8 8 0
+BareHandAttack: 4
+Race: 25
+Height: 88
+E
+#22
+daemon mob mon_sum_three~
+the Kaeyt'tan daemon~
+A daemon from the land of Kaeyt'tan waits on his master here.
+~
+  You look at the Kaeyt'tan daemon and see a massively built humanoid
+with small newly forming dragon wings on its back. The Kaeyt'tan race is 
+known for its ability to metamorph into bigger and better things.
+~
+dpr adfk 0 E
+17 40 42 10d40+50 4d8+38
+0 70000
+8 8 0
+BareHandAttack: 7
+Str: 9
+Dex: 12
+Int: 12
+Wis: 9
+Con: 12
+Cha: 12
+Height: 99
+E
+#23
+dragon mon_sum_four~
+a Kaeyt'tan dragon ~
+A Kaeyt'tan dragon stands ready to serve his master.
+~
+ You look at the massive, but strangely agile form of the Kaeyt'tan dragon
+hovering above you.  You try to decide if you would rather stay and stare
+at the pretty beast, or to flee in horror...
+~
+dqr adfkqr 0 E
+20 49 58 10d50+100 5d10+59
+0 111000
+8 8 2
+BareHandAttack: 10
+Str: 13
+Dex: 13
+Int: 14
+Wis: 13
+Con: 14
+Cha: 14
+Race: 28
+Weight: 41
+E
+#24
+bat demon vampire gate_one~
+the vampire bat~
+A bigger-than-average vampire bat rapidly flaps his wings to stay aloft.
+~
+  The giant vampire bat must have at least a 6-7 foot wingspan. Its teeth 
+are stained the color of blood from its many victims.
+~
+dpqr dfgk -50 E
+5 25 18 2d20+5 2d8+15
+0 200
+8 8 0
+BareHandAttack: 4
+Race: 20
+Height: 33
+Weight: 49
+E
+#25
+demon beast gate_two~
+the Treeton demon~
+A Treeton demon stands here ready to serve his master.
+~
+  The Treeton demon stands about 5-6 feet tall with massive clawed hands, and 
+a long spiked tail. The demons eyes glow a green color.
+~
+dp afk -500 E
+15 30 52 10d30+50 4d10+30
+0 40000
+8 8 0
+BareHandAttack: 8
+Str: 9
+Wis: 8
+Con: 10
+Cha: 9
+Race: 27
+Height: 66
+Weight: 99
+E
+#26
+daemon demon treeton gate_three~
+the Treeton noble~
+A Treeton noble stands here awaiting orders from his master.
+~
+  The Treeton daemon is an enhanced and evolutionized form of the lesser 
+Treeton.  Taller, stronger, meaner, bigger teeth, the whole nine.
+~
+dqr adfkn -600 E
+20 40 47 9d50+100 9d4+50
+0 120000
+8 8 0
+BareHandAttack: 8
+Dex: 13
+Wis: 14
+Cha: 12
+Race: 27
+Height: 99
+E
+#27
+rutterkin gate_four evil~
+the Rutterkin~
+A Rutterkin is here, growling at you with intent to dismantle.
+~
+  The Rutterkin is a massive, ugly beast that stands about 7 feet tall.
+Known for their evil, and cruel tendencies, you might not want to test the
+power of the daemon from the underworld.
+~
+d aknr -1000 E
+24 50 46 10d51+50 8d7+55
+0 120000
+8 8 1
+BareHandAttack: 10
+Str: 14
+Dex: 16
+Int: 14
+Wis: 14
+Con: 14
+Cha: 15
+Race: 28
+Height: 82
+Weight: 123
+E
+#28
+seraph gate_four good~
+the seraph~
+An angelic looking female is here, gently flapping her wings.
+~
+You see nothing special.
+~
+d m 1000 E
+22 47 82 11d44+44 5d26+56
+0 1
+8 8 2
+Str: 15
+Dex: 15
+Int: 15
+Wis: 13
+Con: 13
+Cha: 15
+Race: 28
+Height: 62
+Weight: 110
+E
+#29
+mob illus_pres_one~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 39 0d0+0 0d0+0
+0 0
+8 8 0
+#30
+mob illus_pres_two~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 8 0d0+0 0d0+0
+0 0
+8 8 0
+#31
+illus_three ettin giant illusion~
+an ettin ~
+An ettin is here, hunting for some food.
+~
+    At first glance this appears to be a hill giant with two
+heads, though as you look closer you realize this is no hill
+giant.  The ettin's skin is encrusted with dirt and grime; its
+hair long, stringy and unkempt; its teeth large, yellowing and
+rotting; it has a turned-up piggish snout, large mouth, and
+watery eyes on each face.
+~
+dopqr prB 0 E
+15 8 1 10d12+50 2d6+4
+0 0
+8 8 1
+BareHandAttack: 6
+Race: 30
+E
+#32
+illus_four stone golem illusion~
+a stone golem ~
+A stone golem is here, with a blank look on its face.
+~
+    This golem's body has been chiseled from a single block of
+granite.  It looks as if it must weigh atleast 2 tons.  It appears
+totally oblivious to its surrounds though, since it stands about 10
+feet tall you cannot quite get to eye level with it.
+~
+bdeopqr r 0 E
+15 8 0 12d20+40 5d6+5
+0 0
+8 8 0
+BareHandAttack: 6
+Race: 30
+E
+#33
+zombie animate_dead~
+a zombie~
+A putrid zombie is here, staring at you blankly.
+~
+    It is a prime example of the undead:  sickly green
+skin, sunken eyes with a yellowish tinge, and sharp,
+dirt-encrusted claws.
+~
+bcdp 0 0 E
+13 12 70 4d6+4 2d4+1
+0 0
+8 8 0
+BareHandAttack: 15
+Race: 23
+Height: 62
+E
+#34
+aerial cloud blue smoke servant~
+an aerial servant~
+A cloud of sparkling blue smoke is here hovering about the room.
+~
+     It appears to be alive!
+~
+deopqr bdefghkprsyzB 0 E
+42 1 89 10d16+100 8d4+24
+0 2
+8 8 0
+Race: 28
+E
+#35
+fire elemental element~
+a fire elemental~
+A column of flames with two arms is here.
+~
+    This column of flames is what you would guess to be a
+fire elemental.  It has to flaming appendages coming out of
+its sides, which you assume are its arms, it also has two
+glowing patches of brilliant blue fire, which seem to function
+as eyes for the elemental.
+~
+deopqr defkr 0 E
+30 20 69 30d20+100 10d6+30
+0 0
+8 8 0
+BareHandAttack: 16
+Race: 28
+E
+#36
+water elemental element~
+a water elemental~
+A high crested wave, with two smaller waves protruding from its sides is here.
+~
+    This high crested wave is what you would guess to be a
+water elemental.  It has to smaller waves coming out of
+its sides, which you assume are its arms, two orbs of deep
+green peer out from the front of the wave, which seem to function
+as eyes for the elemental.
+~
+deopqr defkr 0 E
+20 2 63 20d10+50 5d4+20
+0 0
+8 8 0
+BareHandAttack: 6
+Race: 28
+E
+#37
+earth elemental element~
+an earth elemental~
+A large humanoid constructed out of dirt and stone is here.
+~
+    This elemental has been constructed out of dirt, stone, and
+precious metals, it has a cold expressionless face, yet its eyes
+sparkle like brilliant gems.
+~
+deopqr defkr 0 E
+25 2 58 20d10+50 8d4+30
+0 0
+8 8 0
+BareHandAttack: 7
+Race: 28
+E
+#38
+air elemental element~
+an air elemental~
+An amorphous, shifting cloud is here, hovering about.
+~
+    This shifting cloud is what you would guess to be an
+air elemental.  Two dark gray orbs, lit by periodic flashes
+of lightning appear to serve as the elemental's eyes.  Sporadic
+gusts of wind blast you, chilling you to the bone.
+~
+deopqr defkrB 0 E
+20 2 76 10d10+50 4d8+20
+0 1
+8 8 0
+BareHandAttack: 12
+Race: 28
+E
+#39
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 35 0d0+0 0d0+0
+0 0
+8 8 0
+#40
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 6 0d0+0 0d0+0
+0 0
+8 8 0
+#41
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#42
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#43
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#44
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#45
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#46
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#47
+unfinished mob~
+the unfinished mob~
+An unfinished mob is standing here.~
+You see nothing special.
+~
+d 0 0 S
+0 3 0 0d0+0 0d0+0
+0 0
+8 8 0
+#89
+doppleganger~
+Glasgian~
+Glasgian is standing here.
+~
+He is an Immortal.
+He appears to be an old and wizened fellow.
+~
+d adhkr 1000 S
+49 50 50 30d1000+20000 30d127+50
+1 10
+8 8 1
+#99
+death reaper~
+Death~
+Death the Grim Reaper is observing you silently from empty eye sockets.
+~
+The dark-robed skeletal figure radiates an unendurable coldness.
+~
+bdelnopqr dfhkp 0 S
+30 0 48 1d1+665 10d15+20
+0 500
+8 8 0
+$~

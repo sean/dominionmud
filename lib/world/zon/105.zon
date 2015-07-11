@@ -1,0 +1,130 @@
+#105
+Vice Island~
+Questor~
+MED-HIGH~
+5405 1
+10599 30 1
+*
+* Last Updated: Wed Nov 27 20:21:08 
+*           By: Kirahn
+*
+M 0 10516 1 10597 100 	* the Grand Dragon of Terror at Entrance to the Temple of Terror. (Max: 1)
+G 1 10524 1  100 			* And give it an irridescent scale armor. (Max: 1)
+G 1 8020 1  100 			* And give it an onyx sword *Nightfang*. (Max: 1)
+D 0 10597 0 2 100 		* Lock and Close Northern door at Entrance to the Temple of Terror
+M 0 10501 5 10504 100 	* the woman in pink at Harem. (Max: 5)
+E 1 10500 5 4 100 			* And equip it with a pretty pink taffeta dress. (Max: 5)
+M 0 10502 5 10504 100 	* the woman in blue at Harem. (Max: 5)
+E 1 10501 5 4 100 			* And equip it with a pretty blue silk dress. (Max: 5)
+M 0 10502 5 10504 100 	* the woman in blue at Harem. (Max: 5)
+E 1 10501 5 4 100 			* And equip it with a pretty blue silk dress. (Max: 5)
+M 0 10503 5 10504 100 	* the woman in pristine white at Harem. (Max: 5)
+E 1 10502 5 4 100 			* And equip it with a pretty pristine white cotton dress. (Max: 5)
+M 0 10504 5 10504 100 	* the woman in a drab beige dress at Harem. (Max: 5)
+E 1 10503 5 4 100 			* And equip it with an ugly beige burlap dress. (Max: 5)
+M 0 10504 5 10504 100 	* the woman in a drab beige dress at Harem. (Max: 5)
+E 1 10503 5 4 100 			* And equip it with an ugly beige burlap dress. (Max: 5)
+M 0 10507 5 10501 100 	* a small, red crab at Port Harem. (Max: 5)
+M 0 10507 5 10501 100 	* a small, red crab at Port Harem. (Max: 5)
+M 0 10507 5 10501 100 	* a small, red crab at Port Harem. (Max: 5)
+M 0 10507 5 10501 100 	* a small, red crab at Port Harem. (Max: 5)
+M 0 10505 1 10504 100 	* the special slave of the master at Harem. (Max: 1)
+E 1 10504 2 4 100 			* And equip it with a beautiful swirling multi-colored dress. (Max: 2)
+M 0 10506 1 10504 100 	* a fat harem master at Harem. (Max: 1)
+G 1 10505 2  100 			* And give it a demon-faced talisman. (Max: 2)
+E 1 10506 1 4 100 			* And equip it with a robe of leisure. (Max: 1)
+E 1 10530 10 17 100 			* And equip it with a stone key. (Max: 10)
+M 0 10508 1 10525 100 	* a cuddly little tar baby at Tarry Road. (Max: 1)
+E 1 10507 15 17 100 			* And equip it with a tar rattle. (Max: 15)
+M 0 10509 2 10541 100 	* a seagull at Cliff Road. (Max: 2)
+M 0 10509 2 10540 100 	* a seagull at Cliff Road. (Max: 2)
+M 0 10510 1 10558 100 	* the Priest of Fear at Office of the High Priest of Fear. (Max: 1)
+G 1 10508 1  100 			* And give it a screaming scroll. (Max: 1)
+E 1 10509 1 5 100 			* And equip it with a Crown of Spikes. (Max: 1)
+E 1 10510 1 13 100 			* And equip it with a black, bloodstained robe. (Max: 1)
+E 1 10513 10 17 100 			* And equip it with a cellkey. (Max: 10)
+M 0 10511 1 10551 100 	* a wailing ghost at On the staircase. (Max: 1)
+G 1 10531 10  100 			* And give it a redwood key. (Max: 10)
+M 0 10512 1 10552 100 	* the prisoner at Cell. (Max: 1)
+E 1 10511 1 6 100 			* And equip it with a ball and chain. (Max: 1)
+E 1 10512 1 8 100 			* And equip it with some manacles. (Max: 1)
+M 0 10513 1 10549 100 	* the butcher at Dressing Room. (Max: 1)
+E 1 10514 1 17 100 			* And equip it with a huge butcher knife. (Max: 1)
+E 1 10529 1 18 100 			* And equip it with a transparent glass key. (Max: 1)
+M 0 10514 1 10595 100 	* the High Priest of Terror at Office of the High Priest of Terror. (Max: 1)
+E 1 10515 1 11 100 			* And equip it with pitch black bracers. (Max: 1)
+E 1 10516 1 6 100 			* And equip it with a pair of pitch black leggings. (Max: 1)
+E 1 10517 1 7 100 			* And equip it with a pitch black boot. (Max: 1)
+E 1 10518 1 8 100 			* And equip it with a pitch black glove. (Max: 1)
+E 1 10519 1 17 100 			* And equip it with the terror-blade. (Max: 1)
+E 1 10520 1 4 100 			* And equip it with a pitch-black plate armor. (Max: 1)
+E 1 10521 1 5 100 			* And equip it with the Headdress of Terror. (Max: 1)
+E 1 10522 1 1 100 			* And equip it with a ring of pitch-black metal. (Max: 1)
+E 1 10523 1 3 100 			* And equip it with a cloak of the purest black. (Max: 1)
+G 1 10528 1  100 			* And give it a pitch-black key. (Max: 1)
+M 0 10515 1 10599 100 	* the Keeper of the Shrine of Vice at Shrine to Vice. (Max: 1)
+E 1 10525 10 17 100 			* And equip it with a cat o' nine tails. (Max: 10)
+M 0 10517 1 10565 100 	* a torturer at Torture Chambre. (Max: 1)
+E 1 10525 10 17 100 			* And equip it with a cat o' nine tails. (Max: 10)
+G 1 10536 3  100 			* And give it a shining blue potion. (Max: 3)
+G 1 10535 10  100 			* And give it a glowing red potion. (Max: 10)
+M 0 10518 20 10566 100 	* an interrogator at Screening Room. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10570 100 	* an interrogator at Interrogation Centre. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10570 100 	* an interrogator at Interrogation Centre. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10572 100 	* an interrogator at Waiting Room. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10572 100 	* an interrogator at Waiting Room. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10576 100 	* an interrogator at Sitting Room. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10576 100 	* an interrogator at Sitting Room. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+G 1 10537 10  100 			* And give it a green potion. (Max: 10)
+M 0 10518 20 10578 100 	* an interrogator at Square. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10578 100 	* an interrogator at Square. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10578 100 	* an interrogator at Square. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10518 20 10578 100 	* an interrogator at Square. (Max: 20)
+E 1 10526 500 5 100 			* And equip it with a pair of wire-rimmed spectacles. (Max: 500)
+M 0 10519 1 10571 100 	* the Grand Inquisitor at Office of the Priest of Despair. (Max: 1)
+E 1 10538 1 17 100 			* And equip it with a purple potion of full restoration. (Max: 1)
+E 1 10539 1 2 100 			* And equip it with a cloak. (Max: 1)
+M 0 10520 1 10583 100 	* the Priest of Hopelessness at Dark Room. (Max: 1)
+E 1 10540 20 3 100 			* And equip it with a cloak. (Max: 20)
+G 1 10535 10  100 			* And give it a glowing red potion. (Max: 10)
+O 0 10533 1 10567 100 	* a tiny key at Outlay. (Max: 1)
+D 0 10538 2 2 100 		* Lock and Close Southern door at Trail of Terror
+D 0 10548 0 2 100 		* Lock and Close Northern door at Trophy Room
+D 0 10547 2 2 100 		* Lock and Close Southern door at Gargoyle Room
+D 0 10548 2 4 100 		* Close Upper door at Trophy Room
+D 0 10549 0 4 100 		* Close Northern door at Dressing Room
+D 0 10552 0 2 100 		* Lock and Close Northern door at Cell
+D 0 10553 0 1 100 		* Close Northern door at Strangely shaped hallway.
+D 0 10553 1 2 100 		* Lock and Close Southern door at Strangely shaped hallway.
+D 0 10553 2 2 100 		* Lock and Close Southern door at Strangely shaped hallway.
+D 0 10554 2 1 100 		* Close Eastern door at Open Hearth
+D 0 10555 3 2 100 		* Lock and Close Southern door at Supply Room
+D 0 10556 0 1 100 		* Close Northern door at Deserted Bedroom
+D 0 10557 2 1 100 		* Close Eastern door at Creepy Hallway
+D 0 10557 1 2 100 		* Lock and Close Southern door at Creepy Hallway
+D 0 10558 3 2 100 		* Lock and Close Southern door at Office of the High Priest of Fear
+D 0 10559 0 1 100 		* Close Northern door at Creepy Hallway
+D 0 10560 2 1 100 		* Close Eastern door at Closet
+D 0 10567 0 4 100 		* Close Northern door at Outlay
+D 0 10568 2 4 100 		* Close Upper door at Outlay
+D 0 10573 0 4 100 		* Close Northern door at Outlay
+D 0 10577 2 4 100 		* Close Upper door at Outlay
+D 0 10580 1 3 100 		* Close Western door at Deserted Corridor
+D 0 10581 1 3 100 		* Close Western door at Deserted Corridor
+D 0 10582 1 3 100 		* Close Western door at Deserted Corridor
+D 0 10583 3 3 100 		* Close Western door at Dark Room
+D 0 10592 0 2 100 		* Lock and Close Northern door at Entrance to the Office of the High Priest of Terror
+D 0 10594 2 2 100 		* Lock and Close Southern door at Hall of Death
+M 0 10516 1 10498 100 	* the Grand Dragon of Terror at Grand Temple of Terror. (Max: 1)
+S
+$~
