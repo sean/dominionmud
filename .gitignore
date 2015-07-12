@@ -16,3 +16,6 @@ bin/shopconv
 bin/showplay
 bin/sign
 bin/split
+lib/etc/mudtime
+lib/etc/players
+lib/etc/plrmail
