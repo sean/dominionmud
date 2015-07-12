@@ -77,6 +77,8 @@ void another_hour(int mode)
       }
     }
   }
+
+  store_mud_time( &time_info );
 }
 
 
@@ -88,10 +90,9 @@ void weather_change(void)
 
   for (i = 0; i <= top_of_zone_table; i++) {
     /* Why waste cycles with an empty zone? */
-#if 0
     if (is_empty(i))
       continue;
-#endif
+
     if (zone_table[i].weather_info.humidity >= 50)
       diff = -1;
     else
@@ -108,7 +109,6 @@ void weather_change(void)
 
     zone_table[i].weather_info.humidity =
 	 MIN(zone_table[i].weather_info.humidity, 100);
-#if 0
     /* winter -- colder temperatures */
     if ((time_info.month >= 15) && (time_info.month <= 2))
       zone_table[i].weather_info.temperature -= (dice(2, 5) - dice(1, 5));
@@ -120,7 +120,7 @@ void weather_change(void)
       zone_table[i].weather_info.temperature += (dice(2, 5) - dice(1, 5));
     else /* fall 12 to 14 -- colder temperatures perhaps */
       zone_table[i].weather_info.temperature -= (dice(2, 5) - dice(2, 5));
-#endif
+
     /* winter season */
     if ((time_info.month >= 0) && (time_info.month <= 4)) {
       switch (zone_table[i].weather_info.sky) {

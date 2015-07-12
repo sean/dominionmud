@@ -44,9 +44,7 @@
 #define CLEAR_TO_CURSOR        "\033[1J" /* Clear screen to cursor */
 #define CLEAR_SCREEN           "\033[2J" /* Clear entire screen */
 #define CLEAR_RESET            "\033[2J\033[0;0H"  /* Clear screen/Reset Cursor */
-#if 0
-#define CLEAR_SCREEN	       "\033[H\033[J"
-#endif
+// #define CLEAR_SCREEN	       "\033[H\033[J"
 
 #define CURSOR_POS_SAVE	       "\e7"
 #define CURSOR_POS_RESTORE     "\e8" 

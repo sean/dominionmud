@@ -1,0 +1,291 @@
+# NOTES Add new races below, DO NOT reuse any selector letters, and
+# there is currently a limit of 62 races.  Also no characters may
+# appear immediately after a pound sign (#) unless it is the start of
+# a new race declaration.
+
+#Human
+Hum~     # Abbrev
+h T 2    # Selector isHumanoid (True/False) Size
+0 3021 F # Regen Start NPC-Only (True/False)
+6 18     # Min/Max Str
+6 18     # Min/Max Int
+6 18     # Min/Max Wis
+6 18     # Min/Max Dex
+6 18     # Min/Max Con
+6 18     # Min/Max Cha
+6 18     # Min/Max Will
+1 5      # Min/Max Hitroll
+1 5      # Min/Max Damroll
+12 18    # Min/Max HPs
+80 110   # Min/Max Mana
+80 110   # Min/Max Move
+1 4      # Min/Max Level Advance HPs
+3 8      # Min/Max Level Advance Mana
+1 5      # Min/Max Level Advance Move
+16 20    # Min/Max Starting Age
+75 T     # Old Age Can Speak (True/False)
+60 2 10  # Height (Male) Base Modifier (Num, Size)
+140 6 10 # Weight (Male) Base Modifier (Num, Size)
+58 2 10  # Height (Female) Base Modifier (Num, Size)
+90 4 10  # Weight (Female) Base Modifier (Num, Size)
+
+#Elf
+Elf~     # Abbrev
+e T 2    # Selector
+0 3021 F # Regen Start NPC-Only (True/False)
+6 18     # Min/Max Str
+6 18     # Min/Max Int
+6 18     # Min/Max Wis
+8 20     # Min/Max Dex
+4 16     # Min/Max Con
+6 18     # Min/Max Cha
+6 18     # Min/Max Will
+1 4      # Min/Max Hitroll
+1 4      # Min/Max Damroll
+10 16    # Min/Max HPs
+90 120   # Min/Max Mana
+90 120   # Min/Max Move
+1 3      # Min/Max Level Advance HPs
+6 12     # Min/Max Level Advance Mana
+1 5      # Min/Max Level Advance Move
+90 120   # Min/Max Starting Age
+600 T    # Old Age Can Speak
+64 2 10  # Height (Male) Base Modifier (Num, Size)
+110 6 10 # Weight (Male) Base Modifier (Num, Size)
+60 2 10  # Height (Female) Base Modifier (Num, Size)
+70 4 10  # Weight (Female) Base Modifier (Num, Size)
+
+#Dwarf
+Dwa~     # Abbrev
+d T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+6 18     # Min/Max Str
+6 18     # Min/Max Int
+6 18     # Min/Max Wis
+6 18     # Min/Max Dex
+8 20     # Min/Max Con
+4 16     # Min/Max Cha
+6 18     # Min/Max Will
+1 3      # Min/Max Hitroll
+1 5      # Min/Max Damroll
+14 20    # Min/Max HPs
+80 100   # Min/Max Mana
+80 100   # Min/Max Move
+1 4      # Min/Max Level Advance HPs
+2 6      # Min/Max Level Advance Mana
+1 4      # Min/Max Level Advance Move
+40 60    # Min/Max Starting Age
+400 T    # Old Age Can Speak
+40 2 10  # Height (Male) Base Modifier (Num, Size)
+110 6 10 # Weight (Male) Base Modifier (Num, Size)
+36 2 10  # Height (Female) Base Modifier (Num, Size)
+70 4 10  # Weight (Female) Base Modifier (Num, Size)
+
+#Gnome
+Gno~     # Abbrev
+g T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+4 16     # Min/Max Str
+6 18     # Min/Max Int
+6 18     # Min/Max Wis
+6 18     # Min/Max Dex
+8 20     # Min/Max Con
+6 18     # Min/Max Cha
+6 18     # Min/Max Will
+1 3      # Min/Max Hitroll
+1 5      # Min/Max Damroll
+8 14     # Min/Max HPs
+90 120   # Min/Max Mana
+80 100   # Min/Max Move
+1 3      # Min/Max Level Advance HPs
+6 12     # Min/Max Level Advance Mana
+1 4      # Min/Max Level Advance Move
+40 60    # Min/Max Starting Age
+350 T    # Old Age
+30 2 10  # Height (Male) Base Modifier (Num, Size)
+30 3 10  # Weight (Male) Base Modifier (Num, Size)
+30 2 10  # Height (Female) Base Modifier (Num, Size)
+25 2 10  # Weight (Female) Base Modifier (Num, Size)
+
+#Half-elf
+HaE~     # Abbrev
+a T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+6 18     # Min/Max Str
+6 18     # Min/Max Int
+6 18     # Min/Max Wis
+6 18     # Min/Max Dex
+6 18     # Min/Max Con
+6 18     # Min/Max Cha
+6 18     # Min/Max Will
+1 4      # Min/Max Hitroll
+1 4      # Min/Max Damroll
+12 18    # Min/Max HPs
+80 110   # Min/Max Mana
+80 110   # Min/Max Move
+1 4      # Min/Max Level Advance HPs
+4 8      # Min/Max Level Advance Mana
+1 4      # Min/Max Level Advance Move
+18 22    # Min/Max Starting Age
+85 T     # Old Age
+60 2 10  # Height (Male) Base Modifier (Num, Size)
+120 6 10 # Weight (Male) Base Modifier (Num, Size)
+58 2 10  # Height (Female) Base Modifier (Num, Size)
+80 4 10  # Weight (Female) Base Modifier (Num, Size)
+
+#Halfling
+Hal~     # Abbrev
+l T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+4 16     # Min/Max Str
+6 18     # Min/Max Int
+6 18     # Min/Max Wis
+8 20     # Min/Max Dex
+6 18     # Min/Max Con
+6 18     # Min/Max Cha
+6 18     # Min/Max Will
+1 5      # Min/Max Hitroll
+1 3      # Min/Max Damroll
+8 12     # Min/Max HPs
+80 100   # Min/Max Mana
+80 100   # Min/Max Move
+1 3      # Min/Max Level Advance HPs
+2 6      # Min/Max Level Advance Mana
+4 8      # Min/Max Level Advance Move
+18 20    # Min/Max Starting Age
+200 T    # Old Age
+30 2 10  # Height (Male) Base Modifier (Num, Size)
+30 3 10  # Weight (Male) Base Modifier (Num, Size)
+30 2 10  # Height (Female) Base Modifier (Num, Size)
+25 2 10  # Weight (Female) Base Modifier (Num, Size)
+
+#Half-Orc
+HaO~     # Abbrev
+o T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+12 20    # Min/Max Str
+4 16     # Min/Max Int
+6 18     # Min/Max Wis
+6 18     # Min/Max Dex
+6 18     # Min/Max Con
+4 16     # Min/Max Cha
+6 18     # Min/Max Will
+2 6      # Min/Max Hitroll
+2 6      # Min/Max Damroll
+16 28    # Min/Max HPs
+40 80    # Min/Max Mana
+80 120   # Min/Max Move
+2 8      # Min/Max Level Advance HPs
+1 4      # Min/Max Level Advance Mana
+1 4      # Min/Max Level Advance Move
+16 18    # Min/Max Starting Age
+75 T     # Old Age
+64 2 10  # Height (Male) Base Modifier (Num, Size)
+160 6 10 # Weight (Male) Base Modifier (Num, Size)
+60 2 10  # Height (Female) Base Modifier (Num, Size)
+120 4 10 # Weight (Female) Base Modifier (Num, Size)
+
+#Half-ogre
+HOg~     # Abbrev
+r T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+12 22    # Min/Max Str
+4 16     # Min/Max Int
+4 16     # Min/Max Wis
+4 16     # Min/Max Dex
+8 20     # Min/Max Con
+4 16     # Min/Max Cha
+6 18     # Min/Max Will
+2 6      # Min/Max Hitroll
+2 8      # Min/Max Damroll
+16 28    # Min/Max HPs
+30 60    # Min/Max Mana
+80 120   # Min/Max Move
+2 8      # Min/Max Level Advance HPs
+1 2      # Min/Max Level Advance Mana
+1 4      # Min/Max Level Advance Move
+16 18    # Min/Max Starting Age
+75 T     # Old Age
+68 2 10  # Height (Male) Base Modifier (Num, Size)
+170 6 10 # Weight (Male) Base Modifier (Num, Size)
+62 2 10  # Height (Female) Base Modifier (Num, Size)
+130 4 10 # Weight (Female) Base Modifier (Num, Size)
+
+#Half-giant
+HaG~     # Abbrev
+i T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+12 24    # Min/Max Str
+4 16     # Min/Max Int
+4 16     # Min/Max Wis
+4 18     # Min/Max Dex
+8 22     # Min/Max Con
+4 18     # Min/Max Cha
+6 18     # Min/Max Will
+2 6      # Min/Max Hitroll
+2 8      # Min/Max Damroll
+16 30    # Min/Max HPs
+40 80    # Min/Max Mana
+80 120   # Min/Max Move
+4 10     # Min/Max Level Advance HPs
+1 2      # Min/Max Level Advance Mana
+1 5      # Min/Max Level Advance Move
+18 20    # Min/Max Starting Age
+85 T     # Old Age
+72 2 10  # Height (Male) Base Modifier (Num, Size)
+200 6 10 # Weight (Male) Base Modifier (Num, Size)
+68 2 10  # Height (Female) Base Modifier (Num, Size)
+180 4 10 # Weight (Female) Base Modifier (Num, Size)
+
+#Minotaur
+Min~     # Abbrev
+m T 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+8 20     # Min/Max Str
+6 18     # Min/Max Int
+6 18     # Min/Max Wis
+6 18     # Min/Max Dex
+8 18     # Min/Max Con
+4 16     # Min/Max Cha
+6 18     # Min/Max Will
+1 4      # Min/Max Hitroll
+1 6      # Min/Max Damroll
+12 20    # Min/Max HPs
+60 90    # Min/Max Mana
+80 110   # Min/Max Move
+1 6      # Min/Max Level Advance HPs
+1 4      # Min/Max Level Advance Mana
+1 4      # Min/Max Level Advance Move
+18 22    # Min/Max Starting Age
+75 T     # Old Age
+62 2 10  # Height (Male) Base Modifier (Num, Size)
+160 6 10 # Weight (Male) Base Modifier (Num, Size)
+60 2 10  # Height (Female) Base Modifier (Num, Size)
+140 4 10 # Weight (Female) Base Modifier (Num, Size)
+
+#Centaur
+Cen~     # Abbrev
+c F 2    # Selector
+0 3021 F # Regen Start NPC-Only (1=true, 0=false)
+6 18     # Min/Max Str
+6 18     # Min/Max Int
+8 20     # Min/Max Wis
+6 18     # Min/Max Dex
+6 18     # Min/Max Con
+4 16     # Min/Max Cha
+6 18     # Min/Max Will
+1 4      # Min/Max Hitroll
+1 5      # Min/Max Damroll
+12 20    # Min/Max HPs
+80 120   # Min/Max Mana
+100 160  # Min/Max Move
+1 4      # Min/Max Level Advance HPs
+2 8      # Min/Max Level Advance Mana
+6 12      # Min/Max Level Advance Move
+16 18    # Min/Max Starting Age
+75 T     # Old Age
+62 2 10  # Height (Male) Base Modifier (Num, Size)
+180 8 10 # Weight (Male) Base Modifier (Num, Size)
+60 2 10  # Height (Female) Base Modifier (Num, Size)
+160 6 10 # Weight (Female) Base Modifier (Num, Size)
+$~

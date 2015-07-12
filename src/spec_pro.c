@@ -23,7 +23,10 @@ extern struct descriptor_data *descriptor_list;
 extern struct index_data *mob_index;
 extern struct index_data *obj_index;
 extern struct time_info_data time_info;
-extern char *pc_race_types[];
+extern struct command_info cmd_info[];
+
+extern struct race_data * races;
+extern struct religion_data * religions;
 
 /* extern functions */
 void add_follower(struct char_data * ch, struct char_data * leader);
@@ -296,38 +299,6 @@ SPECIAL(guild)
   return FALSE;
 }
 
-
-/* return a number from 1 to 4 based on how well the PC can learn the skill */
-int learn_amount(int skill, struct char_data *ch)
-{
-   int i;
-   extern struct spell_info_type spell_info[];
-
-   if (IS_PRAYER(skill))
-     i = ((GET_WIS(ch) + GET_WILL(ch)) >> 1);
-   else if (IS_ARCANE(skill))
-     i = ((GET_INT(ch) + GET_WIS(ch)) >> 1);
-   else if (IS_THIEVERY(skill))
-     i = ((GET_DEX(ch) + GET_INT(ch)) >> 1);
-   else if (IS_COMBAT(skill))
-     i = ((GET_STR(ch) + GET_DEX(ch)) >> 1);
-   else
-     i = ((GET_WIS(ch) + GET_DEX(ch)) >> 1);
-
-   if (i >= 18)
-     return 6;
-   else if (i >= 16)
-     return 5;
-   else if (i >= 14)
-     return 4;
-   else if (i >= 12)
-     return 3;
-   else if (i >= 10)
-     return 2;
-   else
-     return 1;
-}
-
 struct training_info {
      mob_num  my_num;
      int      sphere;
@@ -358,7 +329,7 @@ struct training_info {
   };
 
 /* Prints the trainer's vnum and what he/she trains in */
-void show_guilds(struct char_data *ch)
+void show_guild_trainers(struct char_data *ch)
 {
    int i = 0;
    rnum r_num;
@@ -462,7 +433,6 @@ SPECIAL(temple)
 {
   int i = 0;
   struct affected_type af;
-  extern char *pc_religion_types[];
 
   if (!CMD_IS("worship") || !*argument)
      return FALSE;
@@ -480,20 +450,22 @@ SPECIAL(temple)
      LowerString(argument);
      if (strstr(argument, temple_array[i].godname)) {
        sprintf(buf, "You kneel down and begin your prayer to %s.\r\n",
-	       pc_religion_types[temple_array[i].religion]);
+	       religions[ temple_array[i].religion].name );
        send_to_char(buf, ch);
        if (GET_REL(ch) != temple_array[i].religion) {
 	  sprintf(buf, "$n kneels down and utters a prayer to %s.",
-		 pc_religion_types[temple_array[i].religion]);
+                  religions[ temple_array[i].religion ].name );
 	  act(buf, TRUE, ch, 0, 0, TO_ROOM);
 	  return TRUE;
        }
+       assert( GET_REL( ch ) == temple_array[ i ].religion );
        sprintf(buf, "$n kneels down and utters a prayer to $s god, %s.",
-	       pc_religion_types[temple_array[i].religion]);
+	       religions[ GET_REL(ch) ].name );
        act(buf, TRUE, ch, 0, 0, TO_ROOM);
-       if (IS_AFFECTED(ch, AFF_RELIGED) && (GET_REL(ch) == temple_array[i].religion)) {
-	 sprintf(buf, "%s has already shone %s thanks upon you already this day.",
-		 pc_religion_types[temple_array[i].religion], god_sexes[temple_array[i].religion]);
+       if ( IS_AFFECTED(ch, AFF_RELIGED) ) {
+	 sprintf( buf, "%s has already shone %s thanks upon you already this day.",
+                  religions[ GET_REL(ch) ].name,
+                  HISHER( religions[ GET_REL(ch) ].sex ) );
 	 send_to_char(buf, ch);
        } else {
 	 if (temple_array[i].spell1 != -1)
@@ -509,7 +481,7 @@ SPECIAL(temple)
 	 af.bitvector = AFF_RELIGED;
 	 affect_join(ch, &af, TRUE, FALSE, FALSE, FALSE, TRUE);
 	 sprintf(buf, "%s has smiled upon you this day.",
-		 pc_religion_types[temple_array[i].religion]);
+		 religions[ GET_REL( ch ) ].name );
 	 send_to_char(buf, ch);
        }
        return TRUE;
@@ -1336,14 +1308,15 @@ SPECIAL(magic_user)
 
 SPECIAL(temple_guard)
 {
+  /*
   int i;
-  extern int religion_info[][3];
   char *buf = "The guard humiliates you, and blocks your way into the temple.\r\n";
   char *buf2 = "The guard humiliates $n, and blocks $s way into the temple.";
+  */
 
   if (!IS_MOVE(cmd) || GET_LEVEL(ch) >= LVL_IMMORT)
     return FALSE;
-
+  /* THIS NEEDS TO BE FIXED!!
   for (i = 0; religion_info[i][0] != -1; i++) {
     if ((IS_NPC(ch) || (GET_REL(ch) != religion_info[i][0])) &&
      world[ch->in_room].number == religion_info[i][1] &&
@@ -1353,6 +1326,7 @@ SPECIAL(temple_guard)
       return TRUE;
     }
   }
+  */
   return FALSE;
 }
 
@@ -1516,7 +1490,8 @@ SPECIAL(mybius) /* FUNKYTALK */
      if (strstr(arg1, "guard")) {
        do_action(ch, "guard", find_command("peer"), 0);
        sprintf(tmpbuf, "Stop staring at me you stupid %s!",
-	       pc_race_types[(int)GET_RACE(ch)]);
+	       GET_RACE(ch) != UNDEFINED_RACE ?
+               races[ GET_RACE(ch) ].name : "idiot" );
        do_say(guard, tmpbuf, 0, 0);
        return TRUE;
      }

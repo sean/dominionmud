@@ -19,7 +19,6 @@
 
 #include "protos.h"
 
-
 /*   external vars  */
 extern FILE *player_fl;
 extern struct room_data *world;
@@ -37,9 +36,11 @@ extern long top_of_world;
 extern long top_of_mobt;
 extern long top_of_objt;
 extern int  top_of_p_table;
+extern socket_t mother_desc;
+extern sh_int port;
 extern struct player_index_element *player_table;
 extern struct guild_type *guild_info;
-extern int gnum;
+extern int num_of_guilds;
 
 /* for objects */
 extern char *item_types[];
@@ -69,11 +70,13 @@ extern char *preference_bits[];
 extern char *position_types[];
 extern char *connected_types[];
 /* New for TD 3/19/95 - SPM */
-extern char *pc_race_types[];
-extern char *pc_religion_types[];
+extern int NUM_RACES;
+extern struct race_data * races;
+extern int NUM_RELIGIONS;
 extern struct material_type const material_list[];
 int exp_needed(int level);
 int parse_race(char arg);
+void Crash_rentsave(struct char_data * ch, int cost);
 void newbie_basket(struct char_data * ch);
 void perform_remove(struct char_data * ch, int pos);
 char* show_obj_condition(struct obj_data *obj);
@@ -82,8 +85,8 @@ void roll_real_abils(struct char_data * ch);
 char *three_arguments(char *argument, char *first_arg, char *second_arg, char *third_arg);
 void weather_and_time(int mode);
 void affect_update(void);       /* In spells.c */
+void show_guild_trainers(struct char_data * ch);
 ACMD(do_tell);
-
 
 ACMD(do_echo)
 {
@@ -146,7 +149,7 @@ sh_int find_target_room(struct char_data * ch, char *rawroomstr)
     send_to_char("You must supply a room number or name.\r\n", ch);
     return NOWHERE;
   }
-  if (isdigit(*roomstr) && !strchr(roomstr, '.')) {
+  if (isdigit((int)*roomstr) && !strchr(roomstr, '.')) {
     tmp = atoi(roomstr);
     if ((location = real_room(tmp)) < 0) {
       send_to_char("No room exists with that number.\r\n", ch);
@@ -714,19 +717,15 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
     sprintf(buf, "LD: %s", k->player.long_descr);
   send_to_char(buf, ch);
 
-#if 0
   sprintf(buf, "Keywords: %s\r\n", GET_KWDS(k) ? GET_KWDS(k) : "<None>");
   sprintf(buf, "%sL-Des: %s %s\r\n", buf, 
 	  (GET_RDESC(k) ? GET_RDESC(k) : "<None>"),
 	  (GET_RDESC(k) ? "is standing here." : ""));
   send_to_char(buf, ch);
-#endif
 
-  strcpy(buf, "Race: ");
-  sprinttype(k->player.race, pc_race_types, buf2);
-  strcat(buf, buf2);
-
-  sprintf(buf,  "%s  Religion: %s", buf, relg_name(k));
+  sprintf( buf, "Race: %s Religion: %s",
+           races[ k->player.race ].name,
+           relg_name( k ) );
 
   while (gptr && gptr->number != GET_GUILD(k))
     gptr = gptr->next;
@@ -829,7 +828,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
     send_to_char(buf, ch);
   }
-  sprintf(buf, "Carried: weight: %ld/%d, items: %d/%d; ",
+  sprintf(buf, "Carried: weight: %ld/%d, items: %d/%ld; ",
 	  IS_CARRYING_W(k), CAN_CARRY_W(k), IS_CARRYING_N(k), CAN_CARRY_N(k));
 
   for (i = 0, j = k->carrying; j; j = j->next_content, i++);
@@ -870,7 +869,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
   sprintf(buf, "AFF: %s%s%s\r\n", CCYEL(ch, C_NRM), buf2, CCNRM(ch, C_NRM));
   send_to_char(buf, ch);
   /* Showing the bitvector */
-  sprintbit(AFF_FLAGS2(k), affected2_bits, buf2);
+  sprintbit(AFF2_FLAGS(k), affected2_bits, buf2);
   sprintf(buf, "AFF2: %s%s%s\r\n", CCYEL(ch, C_NRM), buf2, CCNRM(ch, C_NRM));
   send_to_char(buf, ch);
 
@@ -1123,12 +1122,12 @@ ACMD(do_switch)
   }
 }
 
-
-/* Added for TD by SPM 6/3/95 */
-/* This needs to be recoded, NOW! */
+/**
+ * Added for TD by SPM 6/3/95 to allow immorts to remort.
+ */
 ACMD(do_remort)
 {
-   int  i;
+   int  i, new_race = UNDEFINED_RACE;
    char name[20], race[20];
    struct obj_data *tobj;
    struct char_data *victim;
@@ -1149,116 +1148,91 @@ ACMD(do_remort)
    two_arguments(argument, name, race);
 
    if (!*name) {
-      send_to_char("Whom do you wish to remort?\r\n", ch);
-      return;
+     send_to_char("Whom do you wish to remort?\r\n", ch);
+     return;
    } else
-      (victim = get_char_vis(ch, name));
+     (victim = get_char_vis(ch, name));
 
    if (GET_LEVEL(victim) > GET_LEVEL(ch)) {
-      send_to_char("You cannot remort an immortal higher than yourself.\r\n", ch);
-      return;
+     send_to_char("You cannot remort an immortal higher than yourself.\r\n", ch);
+     return;
    }
-
    if (GET_LEVEL(victim) < MAX_MORT_LEVEL) {
-      send_to_char("Sorry, but that person cannot remort yet.\r\n", ch);
-      return;
-   } else {
-      if (!str_cmp(race, "human"))
-	 (GET_RACE(victim) = RACE_HUMAN);
-      else if ((!str_cmp(race, "athasianae")) || (!str_cmp(race, "halfelf")))
-	 (GET_RACE(victim) = RACE_ATHASIANAE);
-      else if ((!str_cmp(race, "thurgar")) || (!str_cmp(race, "dwarf")))
-	 (GET_RACE(victim) = RACE_THURGAR);
-      else if (!str_cmp(race, "gnome"))
-	 (GET_RACE(victim) = RACE_GNOME);
-      else if ((!str_cmp(race, "dargonae")) || (!str_cmp(race, "drow")))
-	 (GET_RACE(victim) = RACE_DARGONAE);
-      else if ((!str_cmp(race, "kinthalas")) || (!str_cmp(race, "minotaur")))
-	 (GET_RACE(victim) = RACE_KINTHALAS);
-      else if (!str_cmp(race, "centaur"))
-	 (GET_RACE(victim) = RACE_CENTAUR);
-      else if ((!str_cmp(race, "armachnae")) || (!str_cmp(race, "elf")))
-	 (GET_RACE(victim) = RACE_ARMACHNAE);
-      else if (!str_cmp(race, "tarmirnae"))
-	 (GET_RACE(victim) = RACE_TARMIRNAE);
-      else if (!str_cmp(race, "radinae"))
-	 (GET_RACE(victim) = RACE_RADINAE);
-      else if (!str_cmp(race, "kender"))
-	 (GET_RACE(victim) = RACE_KENDER);
-      else if (!str_cmp(race, "daerwar"))
-	 (GET_RACE(victim) = RACE_DAERWAR);
-      else if (!str_cmp(race, "kaergar"))
-	 (GET_RACE(victim) = RACE_KAERGAR);
-      else if (!str_cmp(race, "zakhar"))
-	 (GET_RACE(victim) = RACE_ZAKHAR);
-      else if (!str_cmp(race, "halfling"))
-	 (GET_RACE(victim) = RACE_HALFLING);
-      else if (!str_cmp(race, "halfgiant"))
-	 (GET_RACE(victim) = RACE_HALFGIANT);
-      else if (!str_cmp(race, "sessanathi"))
-	 (GET_RACE(victim) = RACE_SESSANATHI);
-      else if (!str_cmp(race, "halfogre"))
-	 (GET_RACE(victim) = RACE_HALFOGRE);
-      else if (!str_cmp(race, "byterian"))
-	 (GET_RACE(victim) = RACE_BYTERIAN);
-      else if (!str_cmp(race, "vampire"))
-	 (GET_RACE(victim) = RACE_VAMPIRE);
-      }
-      sprintf(buf, "%s will be remorted as %s %s.\r\n",
-	      GET_NAME(victim), AN(pc_race_types[(int) GET_RACE(victim)]), (pc_race_types[(int) GET_RACE(victim)]));
-
-      GET_LEVEL(victim)             = 1;
-      GET_GOLD(victim)              = 250;
-      GET_BANK_GOLD(victim)         = 250;
-      GET_HITROLL(victim)           = 1;
-      GET_DAMROLL(victim)           = 1;
-      roll_real_abils(victim);      /* reroll and stuff */
-
-      switch (number(0, 6)) {
-	    case 0: GET_CHA(victim)   += 1; break;
-	    case 1: GET_STR(victim)   += 1; break;
-	    case 2: GET_WIS(victim)   += 1; break;
-	    case 3: GET_INT(victim)   += 1; break;
-	    case 4: GET_DEX(victim)   += 1; break;
-	    case 5: GET_CON(victim)   += 1; break;
-	    case 6: GET_GOLD(victim) += number(150, 300); break;
-	    default: break;
-      }
-      /* Char's lose ALL of their eq */
-      for (i = 0; i < NUM_WEARS; i++)
-	  perform_remove(victim, i);
-
-      for (tobj = victim->carrying; tobj; tobj = tobj->next) {
-	  obj_from_char(tobj);
-	  extract_obj(tobj);
-      }
-      /* Give them the same shit newbies get */
-      newbie_basket(victim);
-      send_to_char("The remorting process is done, but if you made a mistake you will have to use the set command.\r\n",ch);
-      send_to_char(REMORTMESS, victim);
+     send_to_char("Sorry, but that person cannot remort yet.\r\n", ch);
+     return;
+   }
+   
+   for ( i = 0; i < NUM_RACES; i++ ) {
+     if ( !str_cmp( race, races[ i ].name ) ) {
+       new_race = i;
+       break;
+     }
+   }
+   if ( new_race == UNDEFINED_RACE ) {
+     send_to_char( "Sorry, but I don't know what race that is.\r\n",
+                   ch );
+     return;
+   }
+   GET_RACE( victim ) = new_race;
+   
+   sprintf(buf, "%s will be remorted as %s %s.\r\n",
+           GET_NAME(victim),
+           AN( races[ GET_RACE(victim) ].name ),
+           races[ GET_RACE(victim) ].name );
+   
+   GET_LEVEL(victim)             = 1;
+   GET_GOLD(victim)              = 250;
+   GET_BANK_GOLD(victim)         = 250;
+   GET_HITROLL(victim)           = 1;
+   GET_DAMROLL(victim)           = 1;
+   roll_real_abils(victim);      /* reroll and stuff */
+   
+   switch (number(0, 6)) {
+     case 0: GET_CHA(victim)   += 1; break;
+     case 1: GET_STR(victim)   += 1; break;
+     case 2: GET_WIS(victim)   += 1; break;
+     case 3: GET_INT(victim)   += 1; break;
+     case 4: GET_DEX(victim)   += 1; break;
+     case 5: GET_CON(victim)   += 1; break;
+     case 6: GET_GOLD(victim) += number(150, 300); break;
+     default: break;
+   }
+   /* Char's lose ALL of their eq */
+   for (i = 0; i < NUM_WEARS; i++)
+     perform_remove(victim, i);
+   
+   for (tobj = victim->carrying; tobj; tobj = tobj->next) {
+     obj_from_char(tobj);
+     extract_obj(tobj);
+   }
+   /* Give them the same shit newbies get */
+   newbie_basket(victim);
+   send_to_char("The remorting process is done, but if you made a mistake you will have to use the set command.\r\n",ch);
+   send_to_char(REMORTMESS, victim);
 }
 
-
+/**
+ */
 ACMD(do_return)
 {
   if (ch->desc && ch->desc->original) {
     send_to_char("You return to your original body.\r\n", ch);
-
+    
     /* JE 2/22/95 */
     /* if someone switched into your original body, disconnect them */
     if (ch->desc->original->desc)
       close_socket(ch->desc->original->desc);
-
+    
     ch->desc->character = ch->desc->original;
     ch->desc->original = NULL;
-
+    
     ch->desc->character->desc = ch->desc;
     ch->desc = NULL;
   }
 }
 
-
-
+/**
+ */
 ACMD(do_create)
 {
   struct char_data *mob;
@@ -1267,7 +1241,7 @@ ACMD(do_create)
 
   two_arguments(argument, buf, buf2);
 
-  if (!*buf || !*buf2 || !isdigit(*buf2)) {
+  if (!*buf || !*buf2 || !isdigit((int)*buf2)) {
     send_to_char("Usage: create { obj | mob } <number>\r\n", ch);
     return;
   }
@@ -1301,8 +1275,8 @@ ACMD(do_create)
     send_to_char("That'll have to be either 'obj' or 'mob'.\r\n", ch);
 }
 
-
-
+/**
+ */
 ACMD(do_vstat)
 {
   struct char_data *mob;
@@ -1311,7 +1285,7 @@ ACMD(do_vstat)
 
   two_arguments(argument, buf, buf2);
 
-  if (!*buf || !*buf2 || !isdigit(*buf2)) {
+  if (!*buf || !*buf2 || !isdigit((int)*buf2)) {
     send_to_char("Usage: vstat { obj | mob } <number>\r\n", ch);
     return;
   }
@@ -1340,33 +1314,32 @@ ACMD(do_vstat)
     send_to_char("That'll have to be either 'obj' or 'mob'.\r\n", ch);
 }
 
-
-/* stop fighting - TD 4/6/95 - SPM */
+/**
+ * stop fighting - TD 4/6/95 - SPM
+ */
 ACMD(do_peace)
 {
-   struct char_data *vict, *next_v;
+  struct char_data *vict, *next_v;
+  
+  act("With a gesture of $s hand, $n gives you a warm and fuzzy feeling.",
+      FALSE, ch, 0, 0, TO_ROOM);
+  send_to_room("Everything is quite peaceful now.\r\n", ch->in_room);
+  send_to_char("You force everyone to solve their differences and stop fighting.\r\n",ch);
+  
+  for (vict = world[ch->in_room].people; vict; vict = next_v) {
+    next_v = vict->next_in_room;
 
-   act("With a gesture of $s hand, $n gives you a warm and fuzzy feeling.",
-	FALSE, ch, 0, 0, TO_ROOM);
-   send_to_room("Everything is quite peaceful now.\r\n", ch->in_room);
-   send_to_char("You force everyone to solve their differences and stop fighting.\r\n",ch);
-
-   for (vict = world[ch->in_room].people; vict; vict = next_v)
-   {
-       next_v = vict->next_in_room;
-
-       if ((FIGHTING(vict)) && GET_LEVEL(vict) <= GET_LEVEL(ch))
-       {
-	  if (FIGHTING(FIGHTING(vict)) == vict)
-	     stop_fighting(FIGHTING(vict));
-	  stop_fighting(vict);
-       }
-   }
+    if ((FIGHTING(vict)) && GET_LEVEL(vict) <= GET_LEVEL(ch)) {
+      if (FIGHTING(FIGHTING(vict)) == vict)
+        stop_fighting(FIGHTING(vict));
+      stop_fighting(vict);
+    }
+  }
 }
 
-
-
-/* clean a room of all mobiles and objects */
+/**
+ * clean a room of all mobiles and objects
+ */
 ACMD(do_purge)
 {
   struct char_data *vict, *next_v;
@@ -1432,7 +1405,8 @@ ACMD(do_purge)
   }
 }
 
-
+/**
+ */
 ACMD(do_advance)
 {
   struct char_data *victim;
@@ -1507,8 +1481,9 @@ ACMD(do_advance)
   save_char(victim, NOWHERE);
 }
 
-
-
+/**
+ * restore one character to perfect condition.
+ */
 ACMD(do_restore)
 {
   struct char_data *vict;
@@ -1547,7 +1522,9 @@ ACMD(do_restore)
   }
 }
 
-
+/**
+ * helper function allow a wizinvis immort to become visible
+ */
 void perform_immort_vis(struct char_data *ch)
 {
   void appear(struct char_data *ch);
@@ -1562,7 +1539,9 @@ void perform_immort_vis(struct char_data *ch)
   send_to_char("You are now fully visible.\r\n", ch);
 }
 
-
+/**
+ * helper function to allow an immort to become invisible
+ */
 void perform_immort_invis(struct char_data *ch, int level)
 {
   struct char_data *tch;
@@ -1586,7 +1565,10 @@ void perform_immort_invis(struct char_data *ch, int level)
   send_to_char(buf, ch);
 }
   
-
+/**
+ * allow an immort to become invisble to all those of a particular
+ * level or visible.
+ */
 ACMD(do_invis)
 {
   int level;
@@ -1757,7 +1739,6 @@ ACMD(do_date)
 ACMD(do_last)
 {
   struct char_file_u chdata;
-  extern const char *race_abbrev[];
 
   one_argument(argument, arg);
   if (!*arg) {
@@ -1774,7 +1755,7 @@ ACMD(do_last)
   }
   sprintf(buf, "[%5ld] [%2d %s] %-12s : %-18s : %-20s\r\n",
 	  chdata.char_specials_saved.idnum, chdata.level,
-	  race_abbrev[(int) chdata.race], chdata.name, chdata.host,
+          races[ chdata.race ].abbrev, chdata.name, chdata.host,
 	  ctime(&chdata.last_logon));
   send_to_char(buf, ch);
 }
@@ -1994,6 +1975,8 @@ ACMD(do_gen_vfile)
    char *filename = NULL;
    int  i = 20;
 
+   int pclose(FILE *pfp);
+
    one_argument(argument, arg);
    if ((i = atoi(arg)) >= 1 && i <= 120)
      ;
@@ -2168,8 +2151,6 @@ ACMD(do_wizutil)
   }
 }
 
-
-
 /* Single Organization printing to show rels, clans, etc */
 void show_orgs(struct char_data *ch, char *value, int type)
 {
@@ -2185,11 +2166,13 @@ void show_orgs(struct char_data *ch, char *value, int type)
 	  total++;
 
 	  if (type == 1) {  /* Get guild */
-#if 0
+#if 0 // sorry the code to parse_guild has been lost!            
 	     if ((j = parse_guild(*value)) == GUILD_UNDEFINED) {
+#endif               
 		send_to_char("That is not a guild, valid guilds are:\r\n", ch);
-		send_to_char(GUILD_PARSE_LIST, ch);
+                show_guild_trainers( ch );
 		return;
+#if 0                
 	     }
 	     else if (player.assocs[1] == j) {
 		sprintf(org_list, "%s%s %s\r\n", org_list, player.name, player.title);
@@ -2197,7 +2180,7 @@ void show_orgs(struct char_data *ch, char *value, int type)
 	     }
 #endif
 	  } else {
-	     if ((j >= NUM_RELS) || j < 0) {
+	     if ((j >= NUM_RELIGIONS) || j < 0) {
 		send_to_char("That is not a religion, valid religions are:\r\n", ch);
 		return;
 	     }
@@ -2224,18 +2207,28 @@ void show_orgs(struct char_data *ch, char *value, int type)
 void show_print_guilds(struct char_data *ch)
 {
    int i;
+   bool first = TRUE;
    struct guild_type *gptr = guild_info;
 
    strcpy(buf, "Guilds:\r\n");
    while (gptr != NULL) {
-     sprintf(buf, "%s\r\n%-40.40s\t\t-- %d (%ld) %s\r\n  ",
-	     buf, gptr->name, gptr->number,
+     sprintf(buf, "%s[%2d] %-40.40s\t\t-- (%ld) %s\r\n",
+	     buf, gptr->number, gptr->name, 
 	     gptr->guild_entr_room, gptr->leadersname);
-     for (i = 0; i < 20; i++) {
-       if (gptr->petitioners[i] != NULL)
-	 sprintf(buf, "%s%s   ", buf, gptr->petitioners[i]);
+     for (i = 0; i < MAX_PETITIONERS; i++) {
+       if (gptr->petitioners[i] != NULL) {
+         if (first) {
+           first = FALSE;
+           strcat(buf, "     Petitioners: ");
+         }
+	 sprintf(buf, "%s%s ", buf, gptr->petitioners[i]);
+       }
      }
+     if (!first)
+       sprintf(buf, "%s\r\n", buf);
+     
      gptr = gptr->next;
+     first = TRUE;
    }
    strcat(buf, "\r\n");
    send_to_char(buf, ch);
@@ -2262,11 +2255,9 @@ ACMD(do_show)
   struct obj_data *obj;
   char field[MAX_INPUT_LENGTH], value[MAX_INPUT_LENGTH], birth[80];
   extern char *genders[];
-  extern const char *race_abbrev[];
   extern int buf_switches, buf_largecount, buf_overflows;
   void show_shops(struct char_data * ch, char *value);
   void hcontrol_list_houses(struct char_data *ch);
-  void show_guilds(struct char_data * ch);
 
   struct show_struct {
     char *cmd;
@@ -2342,7 +2333,8 @@ ACMD(do_show)
       return;
     }
     sprintf(buf, "Player: %-12s (%s) [%2d %s]\r\n", vbuf.name,
-	      genders[(int) vbuf.sex], vbuf.level, race_abbrev[(int) vbuf.race]);
+            genders[(int) vbuf.sex], vbuf.level,
+            races[ vbuf.race].abbrev );
     sprintf(buf,
 	 "%sAu: %-ld  Bal: %-ld  Exp: %-ld  Align: %-5d  Lessons: %-3d\r\n",
 	    buf, vbuf.points.gold, vbuf.points.bank_gold, vbuf.points.exp,
@@ -2435,7 +2427,7 @@ ACMD(do_show)
     show_print_guilds(ch);
     break;
   case 12:
-    show_guilds(ch);
+    show_guild_trainers(ch);
     break;
 
   default:
@@ -2557,7 +2549,7 @@ ACMD(do_set)
     send_to_char("Usage: set <victim> <field> <value>\r\n", ch);
     strcpy(buf, "Fielding being one of:\r\n");
     while (fields[i].cmd[0] != '\n')
-      sprintf(buf, "%s%s", fields[i].cmd, ++i % 3 ? "\t" : "\r\n");
+      sprintf(buf, "%s%s", fields[i].cmd, ((++i) % 3) ? "\t" : "\r\n");
     return;
   }
   if (!is_file) {
@@ -2669,9 +2661,13 @@ ACMD(do_set)
     else if (!str_cmp(val_arg, "evil"))
       GET_PERMALIGN(vict) = ALIGN_EVIL;
     else if (!str_cmp(val_arg, "neutral"))
-      GET_PERMALIGN(vict) = ALIGN_NEUT;
+      GET_PERMALIGN(vict) = ALIGN_NEUTRAL;
+    else if (!str_cmp(val_arg, "lawful"))
+      GET_PERMALIGN(vict) = ALIGN_LAWFUL;
+    else if (!str_cmp(val_arg, "chaotic"))
+      GET_PERMALIGN(vict) = ALIGN_CHAOTIC;
     else {
-      send_to_char("Must be 'good', 'evil', or 'neutral'.\r\n", ch);
+      send_to_char("Must be 'good', 'evil', 'neutral', 'lawful' or 'chaotic'.\r\n", ch);
       return;
     }
     break;
@@ -2873,26 +2869,26 @@ ACMD(do_set)
     SET_OR_REMOVE(PLR_FLAGS(vict), PLR_NODELETE);
     break;
   case 49:
-    if ((i = parse_race(*val_arg)) == RACE_UNDEFINED) {
+    if ((i = parse_race(*val_arg)) == UNDEFINED_RACE) {
       send_to_char("That is not a race.\r\n", ch);
       return;
     }
     GET_RACE(vict) = i;
     break;
   case 50:
-    GET_REL(vict) = RANGE(0, NUM_RELS-1);
+    GET_REL(vict) = RANGE(0, NUM_RELIGIONS-1);
     break;
   case 51:
-    if (value < 0 || value >= gnum) {
+    if (value < 0 || value >= num_of_guilds) {
       send_to_char("That is not a valid guild number.\r\n", ch);
       strcpy(buf, "Valid guilds are:\r\n");
-      for (i = 0, gptr = guild_info; gptr && i < gnum; gptr = gptr->next, i++) {
+      for (i = 0, gptr = guild_info; gptr && i < num_of_guilds; gptr = gptr->next, i++) {
 	sprintf(buf, "%s%d) %s%s", buf, i, gptr->name, (i+1) % 2 ? "\r\n" : "\t");
       }
       send_to_char(buf, ch);
       return;
     }
-    GET_GUILD(vict) = RANGE(0, gnum-1);
+    GET_GUILD(vict) = RANGE(0, num_of_guilds-1);
     break;
   case 52:
     GET_GUILD_LEV(vict) = RANGE(0, 5);
@@ -3066,3 +3062,68 @@ ACMD (do_mlist)
    }
 }
 
+/* HOT REBOOT */
+ACMD(do_copyover)
+{
+  FILE *fp;
+  struct descriptor_data *d, *d_next;
+  char buf [100], buf2[100];
+  extern int mini_mud;
+	
+  if ( !(fp = fopen(COPYOVER_FILE, "w")) ) {
+    send_to_char ("Hot reboot file not writeable, aborted.\n\r",ch);
+    return;
+  }
+  
+  /* 
+   * Uncomment if you use OasisOLC2.0, this saves all OLC modules:
+   save_all();
+   *
+   */
+  sprintf(buf, "\n\r *** HOT REBOOT by %s - please remain seated! ***\n\r", GET_NAME(ch));
+  
+  /* For each playing descriptor, save its state */
+  for (d = descriptor_list; d != NULL; d = d_next) {
+    struct char_data * och = (d->original ? d->original : d->character);
+    /* We delete from the list , so need to save this */
+    d_next = d->next;
+    
+    /* drop those logging on */
+    if (!d->character || d->connected > CON_PLAYING) {
+      write_to_descriptor(d->descriptor, 
+                          "\n\rSorry, we are rebooting. " 
+                          "Come back in a few minutes.\n\r");
+      close_socket(d); /* throw'em out */
+    } else {
+      fprintf (fp, "%d %s %s\n", d->descriptor, GET_NAME(och),
+               d->host);
+      write_to_descriptor( d->descriptor, buf );
+      /* save och */
+      Crash_rentsave(och,0);
+      save_char(och, och->in_room);
+    }
+  }
+
+  fprintf(fp, "-1\n");
+  fclose(fp);
+
+  /* Close reserve and other always-open files and release other resources */
+  fclose(player_fl);
+  
+  /* exec - descriptors are inherited */
+  sprintf(buf, "%d", port);
+  sprintf(buf2, "-C%d", mother_desc);
+  if ( mini_mud )
+    sprintf( buf2, "%s -m", buf2 );
+  
+  /* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
+  chdir("..");
+  
+  execl(EXE_FILE, "dominion", buf2, buf, (char *)NULL);
+  
+  /* Failed - sucessful exec will not return */
+  perror("do_copyover: execl");
+  send_to_char("Hot Reboot FAILED!\n\r",ch);
+  
+  exit(1); /* too much trouble to try to recover! */
+}

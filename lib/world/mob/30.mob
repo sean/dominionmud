@@ -15,6 +15,8 @@ Race: 0
 Height: 56
 Weight: 110
 E
+>in_file_prog hyr.prg~
+|
 #3001
 Jynnah baker~
 Jynnah~
@@ -30,6 +32,8 @@ abdl d 900 E
 Height: 62
 Weight: 108
 E
+>in_file_prog jynnah.prg~
+|
 #3002
 Sajah shopkeeper keeper~
 Sajah~
@@ -42,6 +46,8 @@ abdl d 900 S
 33 69 55 1d1+30000 2d8+78
 30000 160000
 8 8 2
+>in_file_prog sajah.prg~
+|
 #3003
 Rastrad weaponsmith~
 Rastrad the Weaponsmith~
@@ -54,6 +60,8 @@ abdl d 900 S
 33 69 64 1d1+30000 2d8+78
 30000 16000
 8 8 1
+>in_file_prog rastrad.prg~
+|
 #3004
 Tyrius blacksmith armorer smith~
 Tyrius the Blacksmith~
@@ -66,6 +74,8 @@ abdl d 900 S
 33 69 52 1d1+30000 2d8+78
 28500 160000
 8 8 1
+>in_file_prog tyrius.prg~
+|
 #3005
 Yarl keeper innkeeper receptionist~
 Yarl the Innkeeper~
@@ -78,6 +88,8 @@ abdl f 900 S
 33 69 94 1d1+30000 2d8+72
 0 0
 8 8 1
+>in_file_prog innkeep.prg~
+|
 #3006
 Jarus dockmaster dock master~
 Jarus the Dockmaster~
@@ -89,6 +101,8 @@ abdl d 900 S
 33 69 103 1d1+30000 2d8+92
 2000 160000
 8 8 1
+>in_file_prog jarus.prg~
+|
 #3007
 Popeye sailor~
 the Sailor~
@@ -156,6 +170,8 @@ abdl dh 1000 E
 BareHandAttack: 14
 Race: 14
 E
+>in_file_prog turrin.prg~
+|
 #3023
 Sental guard captain cityguardsman cityguard~
 Sental~
@@ -169,6 +185,8 @@ abdl 0 1000 S
 34 71 71 6d10+740 1d8+94
 18794 100000
 8 8 1
+>in_file_prog sental.prg~
+|
 #3024
 sorcerer guard~
 the Sorcerer~
@@ -329,6 +347,8 @@ Race: 0
 Height: 72
 Weight: 220
 E
+>in_file_prog guard.prg~
+|
 #3061
 Karl janitor~
 the Janitor~
@@ -339,6 +359,8 @@ adl 0 800 S
 1 5 84 2d6+10 1d5+0
 34 100
 8 8 1
+>in_file_prog sweeper.prg~
+|
 #3062
 citizen common~
 the common citizen~
@@ -350,6 +372,8 @@ dh 0 1000 S
 0 3 36 1d1+2 1d4+0
 1 65
 8 8 2
+>in_file_prog citizen.prg~
+|
 #3063
 Tang mercenary merc~
 the mercenary~
@@ -372,6 +396,8 @@ bd 0 400 S
 2 7 41 1d6+10 1d6+0
 53 350
 8 8 1
+>in_file_prog drunk.prg~
+|
 #3065
 Tenh beggar beggaress~
 the beggar~
@@ -383,6 +409,8 @@ bd 0 400 S
 1 5 17 1d8+0 1d5+0
 0 85
 8 8 2
+>in_file_prog beggar.prg~
+|
 #3067
 Timitrios guard golden elite member~
 the Golden Elite Guard~
@@ -398,6 +426,8 @@ bdgl 0 1000 E
 Height: 78
 Weight: 19
 E
+>in_file_prog gateguard.prg~
+|
 #3068
 Mybius wizard~
 Mybius~
@@ -410,6 +440,8 @@ abdg df 900 S
 33 69 78 1d8+30000 2d8+88
 30000 160000
 8 8 1
+>in_file_prog mybius.prg~
+|
 #3069
 Gwen healer shopkeeper cleric~
 Gwen the healer~
@@ -472,6 +504,8 @@ abdo 0 1000 S
 7 5 56 2d6+11 1d4+40
 0 100
 6 6 1
+>in_file_prog priest.prg~
+|
 #3091
 commissioner~
 the Commissioner~
@@ -486,6 +520,8 @@ bd 0 100 S
 48 75 79 1d6+11111 9d4+100
 5000000 100
 8 8 1
+>in_file_prog commission.prg~
+|
 #3092
 Styrian woman dark robes seer seeress~
 Styrian~
@@ -534,6 +570,8 @@ dh 0 351 S
 0 3 37 1d1+2 1d4+0
 1 50
 8 8 1
+>in_file_prog citizen2.prg~
+|
 #3096
 Nenshen guard mage wizard old~
 Ancient Wizard~
@@ -555,6 +593,8 @@ abdelmnopqr dfhkpr 1000 S
 49 100 73 1d10+8000 2d100+50
 1 750000
 8 8 1
+>in_file_prog template.prg~
+|
 #3099
 sage old man~
 the old Sage of Elrhinn~

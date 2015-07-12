@@ -155,7 +155,7 @@ ACMD(do_mpcast)
   if (!IS_NPC(ch))
     return;
 
-  if (isdigit(*argument)) {
+  if (isdigit((int)*argument)) {
     /* MOBProg uses spellnum instead of name */
     one_argument(tmpbuf, argument);
     spellnum = atoi(tmpbuf);
@@ -382,7 +382,7 @@ ACMD(do_mpechoaround)
     }
 
     p=one_argument(argument, arg);
-    while(isspace(*p)) p++; /* skip over leading space */
+    while(isspace((int)*p)) p++; /* skip over leading space */
 
     if (arg[0] == '\0')
     {
@@ -416,7 +416,7 @@ ACMD(do_mpechoat)
     }
 
     p = one_argument(argument, arg);
-    while(isspace(*p)) p++; /* skip over leading space */
+    while(isspace((int)*p)) p++; /* skip over leading space */
 
     if (arg[0] == '\0')
     {
@@ -455,7 +455,7 @@ ACMD(do_mpecho)
 	return;
     }
     p = argument;
-    while(isspace(*p)) p++;
+    while (isspace((int)*p)) p++;
 
     act(p,FALSE,  ch, NULL, NULL, TO_ROOM);
     return;

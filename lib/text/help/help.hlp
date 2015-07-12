@@ -1,4 +1,4 @@
-
+  
 #
 ! ^
 
@@ -3225,6 +3225,21 @@ Used for finding the first step on the shortest route to a monster.
 
 See Also: HUNT
 #
+TRAIN TRAINER
+
+Throughout the game there a special characters who can train you in
+the various skills and spells available.  You must seek these trainers
+out and spend your practices to learn new skills/spells or improve
+existing ones.
+
+To assist you in your quest for trainers here are the names of a few:
+Magus, Jaran, Turrin, Sental and the Sage of Elrhinn.  All of these
+folks can be found within the city of Elrhinn.  There are many more
+trainers located throughout the world and if you wish to learn the
+truly great skills and spells you must seek them out.
+
+See Also: SPHERE SKILL SPELL PRACTICE
+#
 UNGROUP
 
 UNGROUP can be used by group leaders to disband the entire group, or
@@ -3418,12 +3433,12 @@ CIRCLEMUD
 
 	      C  I  R  C  L  E  M  U  D     3  .  0
 
-The Dominion was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
 Johns Hopkins University's Department of Computer Science.  All code unique
-to The Dominion is protected under a copyright by the Trustees of the Johns
+to CircleMUD is protected under a copyright by the Trustees of the Johns
 Hopkins University.
 
-Many, many people contributed to The Dominion in one way or another throughout
+Many, many people contributed to CircleMUD in one way or another throughout
 the course of its development.  Although it's impossible for me to remember
 them all, I'd like to extend special thanks to certain people:
 
@@ -3445,10 +3460,35 @@ Thanks everyone!
 
   Anoymous FTP:  ftp.cs.jhu.edu:pub/CircleMUD
 Author's Email:  jelson@cs.jhu.edu
-	URL:  http://www.cs.jhu.edu/other/jelson/circle.html
+	   URL:  http://www.circlemud.org
   Mailing List:  circle@marble.bu.edu
+#
+DOMINION
+
+                    T  H  E    D  O  M  I  N  I  O  N
+
+
+The Dominion was developed from CircleMUD (3.0) by Sean "Glasgian"
+Mountcastle, Kevin "Kirahn" Huff and John "Grendel" Olvey.  All code
+unique to the Dominion is protected under copyright.
+
+Many, many people contributed to the Dominion in one way or another
+throughout the course of its development.  Although it's impossible
+for us to remember them all, We would like to extend special thanks to
+certain people:
+
+  -- The Creators of SillyMUD, especially John Brothers.
+  -- Kahn, Hatchet, and Fury of Merc - for getting me started on building MUDs.
+  -- Brutius of SneezyMUD for ideas, help, and inspiration.
+  -- Aladdin of Eternity DikuMUD 2.0 for help with object affects.
+  -- Aramina and Exile of HOLOmud for ideas, and a great MUD to play.
+  -- Kith of EnvyMUD, IP, HexOnyx, etc., for all the new socials.
+  -- Kahar of SniperMUD for his help fixing mob scripts.
+  -- Romulus of Phoenix MUD for some code and text menus.
+  -- Jeremy Elson of CircleMUD for releasing his code in the first place.
+
+  URL:  http://www.sourceforge.net/projects/dominionmud/
+
+See Also: CIRCLEMUD
 #~
 $
-
-
-

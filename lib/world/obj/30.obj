@@ -490,6 +490,70 @@ A pair of leather sleeves is lying on the ground.~
 9 0 257
 2 0 0 0
 4 75 10
+#3092
+board glasgian bulletin~
+Glasgian's bulletin board~
+A large, glowing bulletin board is floating in mid-air!~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+social bulletin~
+Use 'look board' to read the board.
+~
+#3093
+board kirahn bulletin~
+Kirahn's bulletin board~
+A large, oozing, black bulletin board is mounted on a wall here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+social bulletin~
+Use 'look board' to read the board.
+~
+#3094
+board sand bulletin~
+Sand's bulletin board~
+A large, dusty bulletin board is mounted on a wall here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+social bulletin~
+Use 'look board' to read the board.
+~
+#3095
+board garou bulletin~
+Garou's bulletin board~
+A large, bulletin board is mounted on a wall here.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+board~
+If you can read this, the board is not working.
+~
+E
+social bulletin~
+Use 'look board' to read the board.
+~
 #3096
 board social bulletin~
 a social bulletin board~

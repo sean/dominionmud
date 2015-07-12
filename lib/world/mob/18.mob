@@ -71,7 +71,7 @@ A huge mosquito is here trying to suck your blood.
 The stirge is like a glorified version of a mosquito with bats wings.  
 He wants your blood and is gonna be very annoying as he tries to get it.
 ~
-adgj st 0 E
+dgj st 0 E
 1 5 66 2d2+2 1d1+2
 0 375
 8 8 1
@@ -97,7 +97,7 @@ A small, brown fox is here hunting for food.
 The fox has a dark, brown pelt of fur covering its body.  It looks at you
 warily then moves off into the underbrush.
 ~
-adeh s 0 E
+deh s 0 E
 2 7 15 1d4+5 1d3+2
 0 250
 8 8 1

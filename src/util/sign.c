@@ -19,11 +19,14 @@
 #include "../conf.h"
 #include "../sysdep.h"
 
+#include <sys/types.h>
+#include <sys/wait.h>
 #include <sys/socket.h>
 #include <sys/resource.h>
-#include <netinet/in.h>
-#include <signal.h>
 
+#include <netinet/in.h>
+
+#include <signal.h>
 
 /*
  * init_socket sets up the mother descriptor - creates the socket, sets

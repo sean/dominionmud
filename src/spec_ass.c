@@ -389,10 +389,10 @@ void assign_rooms(void)
   extern int dts_are_dumps;
   int i;
 
-#if 0
   ASSIGNROOM(3031,  pet_shops);
   ASSIGNROOM(3066,  tardis);
   ASSIGNROOM(20,    temple);         /* Glas    */
+#if 0
   ASSIGNROOM(XX,    temple);         /* Landrin */
 #endif
   ASSIGNROOM(10110, temple);         /* Kirahn  */

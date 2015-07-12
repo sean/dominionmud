@@ -1,0 +1,10 @@
+This directory contains text files for enhancing various facets of the
+MUD.  You can add new races to the 'races' file by following the
+provided format.  The same goes for new religions, with the
+'religions' file.  Also, if you don't like the amounts of experience
+necessary to advance in levels, just modify the file called
+'exp_table'.
+
+TODO:
+Allow guilds/factions to be defined in a text file.
+Allow spells/skills to be defined in a text file.

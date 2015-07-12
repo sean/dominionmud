@@ -70,23 +70,17 @@ ASPELL(spell_create_water)
 
   if (GET_OBJ_TYPE(obj) == ITEM_DRINKCON) {
     if ((GET_OBJ_VAL(obj, 2) != LIQ_WATER) && (GET_OBJ_VAL(obj, 1) != 0)) {
-      #if 0
-      name_from_drinkcon(obj);
-      #endif
+      // name_from_drinkcon(obj);
       GET_OBJ_VAL(obj, 2) = LIQ_SLIME;
-      #if 0
-      name_to_drinkcon(obj, LIQ_SLIME);
-      #endif
+      // name_to_drinkcon(obj, LIQ_SLIME);
     } else {
       water = MAX((int)(GET_OBJ_VAL(obj, 0) - GET_OBJ_VAL(obj, 1)), (int)0);
       if (water > 0) {
 	GET_OBJ_VAL(obj, 2)  = LIQ_WATER;
 	GET_OBJ_VAL(obj, 1) += water;
 	weight_change_object(obj, water);
-	#if 0
-        name_from_drinkcon(obj);
-	name_to_drinkcon(obj, LIQ_WATER);
-	#endif
+        // name_from_drinkcon(obj);
+	// name_to_drinkcon(obj, LIQ_WATER);
         act("$p is filled.", FALSE, ch, obj, 0, TO_CHAR);
       }
     }
@@ -166,9 +160,10 @@ ASPELL(spell_purify)
     if (GET_ALIGNMENT(victim) < -250)
       GET_PERMALIGN(victim) = ALIGN_EVIL;
     else if (GET_ALIGNMENT(victim) < 250)
-      GET_PERMALIGN(victim) = ALIGN_NEUT;
-    else
+      GET_PERMALIGN(victim) = ALIGN_NEUTRAL;
+    else if (GET_ALIGNMENT(victim) > 250)
       GET_PERMALIGN(victim) = ALIGN_GOOD;
+    /* WHAT ABOUT ALIGN_LAWFUL & ALIGN_CHAOTIC? */
   } else {
     if (ch != victim) {
       act("You cleanse $N's soul.", FALSE, ch, 0, victim, TO_CHAR);
@@ -180,22 +175,22 @@ ASPELL(spell_purify)
     }
     GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + (GET_LEVEL(ch)*dice(2, 4)));
     GET_ALIGNMENT(victim) = MIN(1000, GET_ALIGNMENT(victim) + dice(5, 20));
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_I))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_I);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_II))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_II);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_III))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_III);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_DISEASE))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_DISEASE);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_PARALYSIS))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_PARALYSIS);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_PETRIFIED))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_PETRIFIED);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_CURSE))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_CURSE);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_BLIND))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_BLIND);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_I))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_I);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_II))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_II);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_III))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_III);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_DISEASE))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_DISEASE);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_PARALYSIS))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_PARALYSIS);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_PETRIFIED))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_PETRIFIED);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_CURSE))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_CURSE);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_BLIND))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_BLIND);
   }
 }
 
@@ -220,9 +215,10 @@ ASPELL(spell_corrupt)
     if (GET_ALIGNMENT(victim) < -250)
       GET_PERMALIGN(victim) = ALIGN_EVIL;
     else if (GET_ALIGNMENT(victim) < 250)
-      GET_PERMALIGN(victim) = ALIGN_NEUT;
-    else
+      GET_PERMALIGN(victim) = ALIGN_NEUTRAL;
+    else if (GET_ALIGNMENT(victim) > 250)
       GET_PERMALIGN(victim) = ALIGN_GOOD;
+    /* WHAT ABOUT ALIGN_LAWFUL & ALIGN_CHAOTIC? */
   } else {
     if (ch != victim) {
       act("You corrupt $N's soul.", FALSE, ch, 0, victim, TO_CHAR);
@@ -234,22 +230,22 @@ ASPELL(spell_corrupt)
     }
     GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + (GET_LEVEL(ch)*dice(2, 4)));
     GET_ALIGNMENT(victim) = MAX(-1000, GET_ALIGNMENT(victim) - dice(5, 20));
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_I))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_I);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_II))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_II);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_III))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_III);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_DISEASE))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_DISEASE);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_PARALYSIS))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_PARALYSIS);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_PETRIFIED))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_PETRIFIED);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_CURSE))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_CURSE);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_BLIND))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_BLIND);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_I))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_I);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_II))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_II);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_III))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_III);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_DISEASE))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_DISEASE);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_PARALYSIS))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_PARALYSIS);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_PETRIFIED))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_PETRIFIED);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_CURSE))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_CURSE);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_BLIND))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_BLIND);
   }
 }
 
@@ -277,9 +273,10 @@ ASPELL(spell_balance)
     if (GET_ALIGNMENT(victim) < -250)
       GET_PERMALIGN(victim) = ALIGN_EVIL;
     else if (GET_ALIGNMENT(victim) < 250)
-      GET_PERMALIGN(victim) = ALIGN_NEUT;
-    else
+      GET_PERMALIGN(victim) = ALIGN_NEUTRAL;
+    else if (GET_ALIGNMENT(victim) > 250)
       GET_PERMALIGN(victim) = ALIGN_GOOD;
+    /* WHAT ABOUT ALIGN_LAWFUL & ALIGN_CHAOTIC */
   } else {
     if (ch != victim) {
       act("You balance $N's soul.", FALSE, ch, 0, victim, TO_CHAR);
@@ -294,22 +291,22 @@ ASPELL(spell_balance)
       GET_ALIGNMENT(victim) = MIN(1000, GET_ALIGNMENT(victim) + dice(5, 20));
     else
       GET_ALIGNMENT(victim) = MAX(-1000, GET_ALIGNMENT(victim) - dice(5, 20));
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_I))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_I);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_II))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_II);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_POISON_III))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_POISON_III);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_DISEASE))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_DISEASE);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_PARALYSIS))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_PARALYSIS);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_PETRIFIED))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_PETRIFIED);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_CURSE))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_CURSE);
-    if (IS_SET(AFF_FLAGS2(victim), AFF_BLIND))
-      REMOVE_BIT(AFF_FLAGS2(victim), AFF_BLIND);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_I))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_I);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_II))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_II);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_III))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_III);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_DISEASE))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_DISEASE);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_PARALYSIS))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_PARALYSIS);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_PETRIFIED))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_PETRIFIED);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_CURSE))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_CURSE);
+    if (IS_SET(AFF2_FLAGS(victim), AFF_BLIND))
+      REMOVE_BIT(AFF2_FLAGS(victim), AFF_BLIND);
   }
 }
 
@@ -672,14 +669,14 @@ ASPELL(spell_dispel_illusion)
     if ((victim == NULL || ch == NULL) || (victim == ch))
       return;
 
-    if (GET_RACE(victim) != RACE_ILLUSIONARY) {
+    if ( !IS_ILLUSION( victim ) ) {
       act("You try to dispel $N, but fail!\r\n",
 	   FALSE, ch, 0, victim, TO_CHAR);
       act("$n tries to dispel you, but fails.\r\n",
 	   FALSE, ch, 0, victim, TO_VICT);
       act("$n tries to dispel $N, but nothing happens.\r\n",
 	   FALSE, ch, 0, victim, TO_ROOM);
-    } else if (GET_RACE(victim) == RACE_ILLUSIONARY) {
+    } else {
       /* Auto kill for illusions, so pcs get exp */
       GET_HIT(victim) = -10;
       update_pos(victim);
@@ -734,8 +731,7 @@ ASPELL(spell_enchant_weapon)
 
     if (IS_GOOD(ch)) {
       SET_BIT(GET_OBJ_EXTRA(obj), ITEM_ANTI_EVIL);
-      act("$p glows blue.", FALSE, ch, 
-obj, 0, TO_CHAR);
+      act("$p glows blue.", FALSE, ch, obj, 0, TO_CHAR);
     } else if (IS_EVIL(ch)) {
       SET_BIT(GET_OBJ_EXTRA(obj), ITEM_ANTI_GOOD);
       act("$p glows red.", FALSE, ch, obj, 0, TO_CHAR);

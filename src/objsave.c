@@ -22,6 +22,14 @@
 #define RENT_FACTOR     1
 #define CRYO_FACTOR     4
 
+#define LOC_INVENTORY   0
+
+/*
+ * should be enough - who would carry a bag in a bag in a bag in a
+ *  bag in a bag in a bag ?!?
+ */
+#define MAX_BAG_ROWS 5
+
 extern struct str_app_type str_app[];
 extern struct room_data *world;
 extern struct index_data *mob_index;
@@ -30,8 +38,7 @@ extern struct descriptor_data *descriptor_list;
 extern struct player_index_element *player_table;
 extern int    top_of_p_table;
 extern int    min_rent_cost;
-
-struct obj_data * Obj_from_store_to(struct obj_file_elem object, int *loc);
+extern int    max_obj_save;      /* change in config.c */
 
 /* Extern functions */
 ACMD(do_tell);
@@ -39,42 +46,7 @@ SPECIAL(receptionist);
 SPECIAL(cryogenicist);
 ACMD(do_action);
 
-struct obj_data *Obj_from_store(struct obj_file_elem object)
-{
-  int locate;
-
-  return (Obj_from_store_to(object, &locate));
-#if 0
-  struct obj_data *obj;
-  int j;
-
-  if (real_object(object.item_number) > -1) {
-    obj = read_object(object.item_number, VNUMBER);
-    GET_OBJ_VAL(obj, 0) = object.value[0];
-    GET_OBJ_VAL(obj, 1) = object.value[1];
-    GET_OBJ_VAL(obj, 2) = object.value[2];
-    GET_OBJ_VAL(obj, 3) = object.value[3];
-    GET_OBJ_VAL(obj, 4) = object.value[4];
-    GET_OBJ_VAL(obj, 5) = object.value[5];
-    GET_OBJ_VAL(obj, 6) = object.value[6];
-    GET_OBJ_VAL(obj, 7) = object.value[7];
-    GET_OBJ_VAL(obj, 8) = object.value[8];
-    GET_OBJ_VAL(obj, 9) = object.value[9];
-    GET_OBJ_EXTRA(obj) = object.extra_flags;
-    GET_OBJ_WEIGHT(obj) = object.weight;
-    GET_OBJ_TIMER(obj) = object.timer;
-    obj->obj_flags.bitvector = object.bitvector;
-
-    for (j = 0; j < MAX_OBJ_AFFECT; j++)
-      obj->affected[j] = object.affected[j];
-
-    return obj;
-  } else
-    return NULL;
-#endif
-}
-
-struct obj_data *Obj_from_store_to(struct obj_file_elem object, int *locate)
+struct obj_data * Obj_from_store(struct obj_file_elem object, int *locate)
 {
   struct obj_data *obj;
   int j;
@@ -140,126 +112,94 @@ int Obj_to_store_from(struct obj_data * obj, FILE * fl, int locate)
 int Obj_to_store(struct obj_data * obj, FILE * fl)
 {
   return (Obj_to_store_from(obj, fl, 0));
-#if 0
-  int j;
-  struct obj_file_elem object;
-
-  object.item_number = GET_OBJ_VNUM(obj);
-  object.value[0] = GET_OBJ_VAL(obj, 0);
-  object.value[1] = GET_OBJ_VAL(obj, 1);
-  object.value[2] = GET_OBJ_VAL(obj, 2);
-  object.value[3] = GET_OBJ_VAL(obj, 3);
-  object.value[4] = GET_OBJ_VAL(obj, 4);
-  object.value[5] = GET_OBJ_VAL(obj, 5);
-  object.value[6] = GET_OBJ_VAL(obj, 6);
-  object.value[7] = GET_OBJ_VAL(obj, 7);
-  object.value[8] = GET_OBJ_VAL(obj, 8);
-  object.value[9] = GET_OBJ_VAL(obj, 9);
-  object.extra_flags = GET_OBJ_EXTRA(obj);
-  object.weight = GET_OBJ_WEIGHT(obj);
-  object.timer = GET_OBJ_TIMER(obj);
-  object.bitvector = obj->obj_flags.bitvector;
-  for (j = 0; j < MAX_OBJ_AFFECT; j++)
-    object.affected[j] = obj->affected[j];
-
-  if (fwrite(&object, sizeof(struct obj_file_elem), 1, fl) < 1) {
-    perror("Error writing object in Obj_to_store");
-    return 0;
-  }
-  return 1;
-#endif
 }
 
-
-/* so this is gonna be the auto equip (hopefully) */
-void auto_equip(struct char_data *ch, struct obj_data *obj, int locate)
+void auto_equip(struct char_data *ch, struct obj_data *obj, int location)
 {
   int j;
 
-  if (locate > 0) { /* was worn */
-    switch (j = locate-1) {
+  if (location > 0) { /* was worn */
+    switch (j = (location - 1)) {
       case WEAR_FINGER_R:
       case WEAR_FINGER_L:
 	if (!CAN_WEAR(obj,ITEM_WEAR_FINGER))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_NECK_1:
       case WEAR_NECK_2:
 	if (!CAN_WEAR(obj,ITEM_WEAR_NECK))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_BODY:
 	if (!CAN_WEAR(obj,ITEM_WEAR_BODY))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_HEAD:
 	if (!CAN_WEAR(obj,ITEM_WEAR_HEAD))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_LEGS:
 	if (!CAN_WEAR(obj,ITEM_WEAR_LEGS))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_FOOT_R:
       case WEAR_FOOT_L:
 	if (!CAN_WEAR(obj,ITEM_WEAR_FEET))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_HAND_R:
       case WEAR_HAND_L:
 	if (!CAN_WEAR(obj,ITEM_WEAR_HANDS))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_ARM_R:
       case WEAR_ARM_L:
 	if (!CAN_WEAR(obj,ITEM_WEAR_ARMS))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_BACK:
 	if (!CAN_WEAR(obj,ITEM_WEAR_BACK))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_WAIST:
 	if (!CAN_WEAR(obj,ITEM_WEAR_WAIST))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_WRIST_R:
       case WEAR_WRIST_L:
 	if (!CAN_WEAR(obj,ITEM_WEAR_WRIST))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       case WEAR_WIELD:
       case WEAR_HOLD:
 	if (!CAN_WEAR(obj, ITEM_WEAR_HOLD) &&
             !CAN_WEAR(obj, ITEM_WEAR_TAKE))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	break;
       default:
-	locate = 0;
+	location = LOC_INVENTORY;
     }
-    if (locate > 0)
+    if (location > 0) {
       if (!GET_EQ(ch,j)) {
-/* check ch's alignment to prevent $M from being zapped through auto-equip */
+        /* check ch's alignment to prevent $M from being zapped through auto-equip */
 	if ((IS_OBJ_STAT(obj, ITEM_ANTI_EVIL) && IS_EVIL(ch)) ||
 	    (IS_OBJ_STAT(obj, ITEM_ANTI_GOOD) && IS_GOOD(ch)) ||
 	    (IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch)))
-	  locate = 0;
+	  location = LOC_INVENTORY;
 	else
 	  equip_char(ch, obj, j);
-	} else  /* oops - saved player with double equipment[j]? */
-	  locate = 0;
-   }
-   if (locate <= 0)
-     obj_to_char(obj, ch);
+      } else  { /* oops - saved player with double equipment[j]? */
+        char aeq[128];
+        sprintf(aeq, "SYSERR: autoeq: '%s' already equipped in position %d.", GET_NAME(ch), location);
+        mudlog(aeq, BRF, LVL_IMMORT, TRUE);
+        location = LOC_INVENTORY;
+      }
+    }
+  }
+
+  if ( location <= 0 )
+    obj_to_char(obj, ch);
 }
-
-
-#define MAX_BAG_ROW 5
-/*
- * should be enough - who would carry a bag in a bag in a bag in a
- *  bag in a bag in a bag ?!?
- */
-
 
 int Crash_delete_file(char *name)
 {
@@ -341,10 +281,10 @@ int Crash_clean_file(char *name)
 
 #if LIMITED_ITEMS
   for (j = 0; j < rent.nitems; j++)
-      if (IS_OBJ_STAT(obj_elem.extra_flags, ITEM_LIMITED)) {
-	 limited_objs[i] = obj_elem.item_number;
-	 i++;
-      }
+    if (IS_OBJ_STAT(obj_elem.extra_flags, ITEM_LIMITED)) {
+      limited_objs[i] = obj_elem.item_number;
+      i++;
+    }
 #endif
 
   if ((rent.rentcode == RENT_CRASH) ||
@@ -381,14 +321,13 @@ int Crash_clean_file(char *name)
 }
 
 
-
 void update_obj_file(void)
 {
   int i;
 
   for (i = 0; i <= top_of_p_table; i++)
-    Crash_clean_file((player_table + i)->name);
-  return;
+    if (*player_table[i].name)
+      Crash_clean_file( player_table[i].name );
 }
 
 
@@ -460,28 +399,30 @@ int Crash_write_rentcode(struct char_data * ch, FILE * fl, struct rent_info * re
 }
 
 
-
+/*
+ * return values:
+ * 0 - successful load, keep char in rent room.
+ * 1 - load failure or load of crash items -- put char in temple.
+ * 2 - rented equipment lost (no $)
+ */
 int Crash_load(struct char_data * ch)
-/* return values:
-	0 - successful load, keep char in rent room.
-	1 - load failure or load of crash items -- put char in temple.
-	2 - rented equipment lost (no $)
-*/
 {
-  void Crash_crashsave(struct char_data * ch);
-
   FILE *fl;
   char fname[MAX_STRING_LENGTH];
   struct obj_file_elem object;
   struct rent_info rent;
-  int    cost, orig_rent_code;
+  int    cost, orig_rent_code, num_objs = 0, j;
   float  num_of_days;
-  struct obj_data *obj, *obj1;
-  int    locate, j;
-  struct obj_data *cont_row[MAX_BAG_ROW];
+  struct obj_data *obj, *obj2, *cont_row[MAX_BAG_ROWS];
+  int    location;
+
+  /* Empty all of the container lists (you never know ...) */
+  for (j = 0; j < MAX_BAG_ROWS; j++)
+    cont_row[j] = NULL;
 
   if (!get_filename(GET_NAME(ch), fname, CRASH_FILE))
     return 1;
+
   if (!(fl = fopen(fname, "r+b"))) {
     if (errno != ENOENT) {      /* if it fails, NOT because of no file */
       sprintf(buf1, "SYSERR: READING OBJECT FILE %s (5)", fname);
@@ -490,12 +431,16 @@ int Crash_load(struct char_data * ch)
 		   "There was a problem loading your objects from disk.\r\n"
 		   "Contact a God for assistance.\r\n", ch);
     }
-    sprintf(buf, "%s entering game with no equipment.", GET_NAME(ch));
+    sprintf(buf, "%s entering game with NO equipment.", GET_NAME(ch));
     mudlog(buf, NRM, MAX((int)LVL_IMMORT, (int)GET_INVIS_LEV(ch)), TRUE);
     return 1;
   }
   if (!feof(fl))
     fread(&rent, sizeof(struct rent_info), 1, fl);
+  else {
+    plog("SYSERR: Crash_load: %s's rent file was empty!", GET_NAME(ch));
+    return 1;
+  }
 
   if (rent.rentcode == RENT_RENTED || rent.rentcode == RENT_TIMEDOUT) {
     num_of_days = (float) (time(0) - rent.time) / SECS_PER_REAL_DAY;
@@ -537,9 +482,6 @@ int Crash_load(struct char_data * ch)
     break;
   }
 
-  for (j = 0;j < MAX_BAG_ROW;j++)
-    cont_row[j] = NULL; /* empty all cont lists (you never know ...) */
-
   while (!feof(fl)) {
     fread(&object, sizeof(struct obj_file_elem), 1, fl);
     if (ferror(fl)) {
@@ -547,85 +489,117 @@ int Crash_load(struct char_data * ch)
       fclose(fl);
       return 1;
     }
-    if (!feof(fl))
-      if ((obj = Obj_from_store_to(object, &locate))) {
-	auto_equip(ch, obj, locate);
-	if (locate > 0) { /* item equipped */
-	  for (j = MAX_BAG_ROW-1;  j > 0 ; --j) {
-	    if (cont_row[j]) { /* no container -> back to ch's inventory */
-	      for ( ; cont_row[j]; cont_row[j] = obj1) {
-		obj1 = cont_row[j]->next_content;
-		obj_to_char(cont_row[j], ch);
-	      }
-	      cont_row[j] = NULL;
-	    }
-	  }
-	  if (cont_row[0]) { /* content list existing */
-	    if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
-	      /* rem item ; fill ; equip again */
-	      obj = unequip_char(ch, locate-1);
-	      obj->contains = NULL; /* should be empty - but who knows */
-	      for ( ; cont_row[0]; cont_row[0] = obj1) {
-		obj1 = cont_row[0]->next_content;
-		obj_to_obj(cont_row[0], obj);
-	      }
-	      equip_char(ch, obj, locate-1);
-	    } else { /* object isn't container -> empty content list */
-	      for ( ; cont_row[0]; cont_row[0] = obj1) {
-		obj1 = cont_row[0]->next_content;
-		obj_to_char(cont_row[0], ch);
-	      }
-	      cont_row[0] = NULL;
-	    }
-	  }
-	} else { /* locate <= 0 */
-	  for (j = MAX_BAG_ROW-1; j > -locate; j--) {
-	    if (cont_row[j]) { /* no container -> back to ch's inventory */
-	      for ( ; cont_row[j]; cont_row[j] = obj1) {
-		obj1 = cont_row[j]->next_content;
-		obj_to_char(cont_row[j], ch);
-	      }
-	      cont_row[j] = NULL;
-	    }
-	  }
-	  if (j == -locate && cont_row[j]) { /* content list existing */
-	    if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
-	      /* take item ; fill ; give to char again */
-	      obj_from_char(obj);
-	      obj->contains = NULL;
-	      for (; cont_row[j]; cont_row[j] = obj1) {
-		obj1 = cont_row[j]->next_content;
-		obj_to_obj(cont_row[j], obj);
-	      }
-	      obj_to_char(obj, ch); /* add to inv first ... */
-	    } else { /* object isn't container -> empty content list */
-	      for ( ; cont_row[j]; cont_row[j] = obj1) {
-		obj1 = cont_row[j]->next_content;
-		obj_to_char(cont_row[j], ch);
-	      }
-	      cont_row[j] = NULL;
-	    }
-	  }
-	  if (locate < 0 && locate >= -MAX_BAG_ROW) {
-	    /*
-	     * let obj be part of content list but put it at the list's
-	     * end thus having the items in the same order as before
-	     * renting.
-	     */
-	    obj_from_char(obj);
-	    if ((obj1 = cont_row[-locate-1])) {
-	      while (obj1->next_content)
-		obj1 = obj1->next_content;
-	      obj1->next_content = obj;
-	    } else
-	      cont_row[-locate-1] = obj;
-	  }
-	}
+
+    if (feof(fl))
+      break;
+
+    ++num_objs;
+    if ( (obj = Obj_from_store(object, &location)) == NULL )
+      continue;
+
+    auto_equip( ch, obj, location );
+
+    /*
+     * What to do with a new loaded item:
+     *
+     * If there's a list with location less than 1 below this, then its
+     * container has disappeared from the file so we put the list back into
+     * the character's inventory. (Equipped items are 0 here.)
+     *
+     * If there's a list of contents with location of 1 below this, then we
+     * check if it is a container:
+     *   - Yes: Get it from the character, fill it, and give it back so we
+     *          have the correct weight.
+     *   -  No: The container is missing so we put everything back into the
+     *          character's inventory.
+     *
+     * For items with negative location, we check if there is already a list
+     * of contents with the same location.  If so, we put it there and if not,
+     * we start a new list.
+     *
+     * Since location for contents is < 0, the list indices are switched to
+     * non-negative.
+     *
+     * This looks ugly, but it works.
+     */
+    if (location > 0) {		/* Equipped */
+      for (j = MAX_BAG_ROWS - 1; j > 0; j--) {
+        if (cont_row[j]) {	/* No container, back to inventory. */
+          for (; cont_row[j]; cont_row[j] = obj2) {
+            obj2 = cont_row[j]->next_content;
+            obj_to_char(cont_row[j], ch);
+          }
+          cont_row[j] = NULL;
+        }
+      }
+      if (cont_row[0]) {	/* Content list existing. */
+        if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
+	/* Remove object, fill it, equip again. */
+          obj = unequip_char(ch, location - 1);
+          obj->contains = NULL;	/* Should be NULL anyway, but just in case. */
+          for (; cont_row[0]; cont_row[0] = obj2) {
+            obj2 = cont_row[0]->next_content;
+            obj_to_obj(cont_row[0], obj);
+          }
+          equip_char(ch, obj, location - 1);
+        } else {			/* Object isn't container, empty the list. */
+          for (; cont_row[0]; cont_row[0] = obj2) {
+            obj2 = cont_row[0]->next_content;
+            obj_to_char(cont_row[0], ch);
+          }
+          cont_row[0] = NULL;
+        }
+      }
+    } else {	/* location <= 0 */
+      for (j = MAX_BAG_ROWS - 1; j > -location; j--) {
+        if (cont_row[j]) {	/* No container, back to inventory. */
+          for (; cont_row[j]; cont_row[j] = obj2) {
+            obj2 = cont_row[j]->next_content;
+            obj_to_char(cont_row[j], ch);
+          }
+          cont_row[j] = NULL;
+        }
+      }
+      if (j == -location && cont_row[j]) {	/* Content list exists. */
+        if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
+		/* Take the item, fill it, and give it back. */
+          obj_from_char(obj);
+          obj->contains = NULL;
+          for (; cont_row[j]; cont_row[j] = obj2) {
+            obj2 = cont_row[j]->next_content;
+            obj_to_obj(cont_row[j], obj);
+          }
+          obj_to_char(obj, ch);	/* Add to inventory first. */
+        } else {	/* Object isn't container, empty content list. */
+          for (; cont_row[j]; cont_row[j] = obj2) {
+            obj2 = cont_row[j]->next_content;
+            obj_to_char(cont_row[j], ch);
+          }
+          cont_row[j] = NULL;
+        }
+      }
+      if (location < 0 && location >= -MAX_BAG_ROWS) {
+        /*
+         * Let the object be part of the content list but put it at the
+         * list's end.  Thus having the items in the same order as before
+         * the character rented.
+         */
+        obj_from_char(obj);
+        if ((obj2 = cont_row[-location - 1]) != NULL) {
+          while (obj2->next_content)
+            obj2 = obj2->next_content;
+          obj2->next_content = obj;
+        } else
+          cont_row[-location - 1] = obj;
+      }
     }
-#if 0
-      obj_to_char(Obj_from_store(object), ch);
-#endif
   }
+
+  /* Little hoarding check. -gg 3/1/98 */
+  sprintf(fname, "%s (level %d) has %d object%s (max %d).",
+          GET_NAME(ch), GET_LEVEL(ch), num_objs,
+          num_objs != 1 ? "s" : "", max_obj_save);
+  mudlog(fname, NRM, MAX(GET_INVIS_LEV(ch), LVL_GOD), TRUE);
 
   /* turn this into a crash file by re-writing the control block */
   rent.rentcode = RENT_CRASH;
@@ -636,9 +610,9 @@ int Crash_load(struct char_data * ch)
   fclose(fl);
 
   if ((orig_rent_code == RENT_RENTED) || (orig_rent_code == RENT_CRYO))
-    return 0;
+    return (0);
   else
-    return 1;
+    return (1);
 }
 
 
@@ -775,7 +749,7 @@ void Crash_crashsave(struct char_data * ch)
   }
   Crash_restore_weight(ch->carrying);
 
-  for (j = 0; j < NUM_WEARS; j++)
+  for (j = 0; j < NUM_WEARS; j++) {
     if (GET_EQ(ch, j)) {
       if (!Crash_save(GET_EQ(ch, j), fp, j+1)) {
 	fclose(fp);
@@ -783,6 +757,7 @@ void Crash_crashsave(struct char_data * ch)
       }
       Crash_restore_weight(GET_EQ(ch, j));
     }
+  }
   fclose(fp);
   REMOVE_BIT(PLR_FLAGS(ch), PLR_CRASH);
 }
@@ -803,11 +778,9 @@ void Crash_idlesave(struct char_data * ch)
     return;
   if (!(fp = fopen(buf, "wb")))
     return;
-#if 0
   for (j = 0; j < NUM_WEARS; j++)
     if (GET_EQ(ch, j))
       obj_to_char(unequip_char(ch, j), ch);
-#endif
   Crash_extract_norents_from_equipped(ch);
   Crash_extract_norents(ch->carrying);
 
@@ -885,11 +858,10 @@ void Crash_rentsave(struct char_data * ch, int cost)
     return;
   if (!(fp = fopen(buf, "wb")))
     return;
-#if 0
-  for (j = 0; j < NUM_WEARS; j++)
+  for (j = 0; j < NUM_WEARS; j++) {
     if (GET_EQ(ch, j))
       obj_to_char(unequip_char(ch, j), ch);
-#endif
+  }
   Crash_extract_norents_from_equipped(ch);
   Crash_extract_norents(ch->carrying);
 
@@ -902,6 +874,7 @@ void Crash_rentsave(struct char_data * ch, int cost)
     fclose(fp);
     return;
   }
+  /* NOTHING SHOULD BE EQUIPPED SINCE IT WAS ALL REMOVED A FEW BLOCKS ABOVE
   for (j = 0; j < NUM_WEARS; j++)
     if (GET_EQ(ch,j)) {
       if (!Crash_save(GET_EQ(ch,j), fp, j+1)) {
@@ -911,6 +884,7 @@ void Crash_rentsave(struct char_data * ch, int cost)
       Crash_restore_weight(GET_EQ(ch,j));
       Crash_extract_objs(GET_EQ(ch,j));
     }
+  */
   if (!Crash_save(ch->carrying, fp, 0)) {
     fclose(fp);
     return;
@@ -935,11 +909,9 @@ void Crash_cryosave(struct char_data * ch, int cost)
     return;
   if (!(fp = fopen(buf, "wb")))
     return;
-#if 0
   for (j = 0; j < NUM_WEARS; j++)
     if (GET_EQ(ch, j))
       obj_to_char(unequip_char(ch, j), ch);
-#endif
   Crash_extract_norents_from_equipped(ch);
   Crash_extract_norents(ch->carrying);
 
@@ -1039,7 +1011,6 @@ void Crash_report_rent(struct char_data * ch, struct char_data * recep,
 int Crash_offer_rent(struct char_data * ch, struct char_data * receptionist,
 			 int display, int factor)
 {
-  extern int max_obj_save;      /* change in config.c */
   char buf[MAX_INPUT_LENGTH];
   int i;
   long totalcost = 0, numitems = 0, norent = 0;

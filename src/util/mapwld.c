@@ -1,8 +1,12 @@
 
-/* $Id: mapwld.c,v 1.1 1995/06/01 22:07:12 neil Exp $ */
+/* $Id: mapwld.c,v 1.1.1.1 2001/06/12 21:11:14 naes Exp $ */
 
 /*
  * $Log: mapwld.c,v $
+ * Revision 1.1.1.1  2001/06/12 21:11:14  naes
+ * This is the DominionMUD project.
+ * Enjoy!
+ *
  * Revision 1.1  1995/06/01  22:07:12  neil
  * Initial revision
  *

@@ -21,9 +21,10 @@
 #include "handler.h"
 #include "spells.h"
 #include "house.h"
-#include "olc.h"
+#include "creation.h"
 #include "screen.h"
 #include "boards.h"
+#include "save.h"
 
 #ifdef __MAIL_C__
 #include "mail.h"

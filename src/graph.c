@@ -15,23 +15,25 @@
 
 #define TRACK_THROUGH_DOORS
 
-/* You can define or not define TRACK_THOUGH_DOORS, above, depending on
-   whether or not you want track to find paths which lead through closed
-   or hidden doors.
-*/
+/*
+ * You can define or not define TRACK_THOUGH_DOORS, above, depending on
+ * whether or not you want track to find paths which lead through closed
+ * or hidden doors.
+ */
 
 #include "conf.h"
 #include "sysdep.h"
 
 #include "protos.h"
 
-
 /* Externals */
 ACMD(do_say);
 ACMD(do_gen_comm);
+extern int NUM_RACES;
 extern long top_of_world;
 extern const char *dirs[];
 extern struct room_data *world;
+extern struct race_data *races;
 
 struct bfs_queue_struct {
   sh_int room;

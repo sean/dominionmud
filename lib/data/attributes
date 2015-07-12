@@ -1,0 +1,177 @@
+# NOTE
+
+# Strength
+Str~                 # Abbrev
+0  -6, -5,    0,  0  # value tohit, todam, carry_w, wield_w
+1  -5, -4,    3,  1  # value tohit, todam, carry_w, wield_w
+2  -3, -2,    3,  2  # value tohit, todam, carry_w, wield_w
+3  -3, -1,   10,  3  # value tohit, todam, carry_w, wield_w
+4  -2, -1,   25,  4  # value tohit, todam, carry_w, wield_w
+5  -2, -1,   55,  5  # value tohit, todam, carry_w, wield_w
+6  -1,  0,   80,  6  # value tohit, todam, carry_w, wield_w
+7  -1,  0,   90,  7  # value tohit, todam, carry_w, wield_w
+8   0,  0,  100,  8  # value tohit, todam, carry_w, wield_w
+9   0,  0,  100,  9  # value tohit, todam, carry_w, wield_w
+10  0,  0,  115, 10  # value tohit, todam, carry_w, wield_w
+11  0,  0,  115, 11  # value tohit, todam, carry_w, wield_w
+12  0,  0,  140, 12  # value tohit, todam, carry_w, wield_w
+13  1,  0,  140, 13  # value tohit, todam, carry_w, wield_w
+14  1,  1,  170, 14  # value tohit, todam, carry_w, wield_w
+15  2,  1,  170, 15  # value tohit, todam, carry_w, wield_w
+16  2,  2,  195, 16  # value tohit, todam, carry_w, wield_w
+17  3,  3,  220, 18  # value tohit, todam, carry_w, wield_w
+18  3,  5,  255, 20  # value tohit, todam, carry_w, wield_w
+19  4,  7,  640, 40  # value tohit, todam, carry_w, wield_w
+20  4,  8,  700, 40  # value tohit, todam, carry_w, wield_w
+21  5,  9,  810, 40  # value tohit, todam, carry_w, wield_w
+22  5, 10,  970, 40  # value tohit, todam, carry_w, wield_w
+23  6, 11, 1250, 50  # value tohit, todam, carry_w, wield_w
+24  7, 12, 1750, 70  # value tohit, todam, carry_w, wield_w
+25  8, 14, 2000, 90  # value tohit, todam, carry_w, wield_w
+
+# Dexterity
+Dex~
+0  -99, -99, -90, -99, -60, -7, -7,  0  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def
+1  -90, -90, -60, -90, -50, -6, -6,  2  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def
+2  -80, -80, -40, -80, -45, -4, -4,  4  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+3  -70, -70, -30, -70, -40, -3, -3,  6  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+4  -60, -60, -30, -60, -35, -2, -2,  8  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+5  -50, -50, -20, -50, -30, -1, -1, 10  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+6  -40, -40, -20, -40, -25,  0,  0, 15  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+7  -30, -30, -15, -30, -20,  0,  0, 20  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+8  -20, -20, -15, -20, -15,  0,  0, 25  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+9  -15, -10, -10, -20, -10,  0,  0, 30  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+10 -10,  -5, -10, -15,  -5,  0,  0, 35  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+11  -5,   0,  -5, -10,   0,  0,  0, 40  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def  
+12   0,   0,   0,  -5,   0,  0,  0, 45  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+13   0,   0,   0,   0,   0,  0,  0, 50  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+14   0,   0,   0,   0,   0,  0,  0, 55  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+15   0,   0,   0,   0,   0,  0,  0, 60  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+16   0,   5,   0,   0,   0,  1,  1, 65  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+17   5,  10,   0,   5,   5,  2,  2, 70  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+18  10,  15,   5,  10,  10,  2,  2, 75  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+19  15,  20,  10,  15,  15,  3,  3, 80  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+20  15,  20,  10,  15,  15,  3,  3, 85  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+21  20,  25,  10,  15,  20,  4,  4, 90  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+22  20,  25,  15,  20,  20,  4,  4, 95  # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+23  25,  25,  15,  20,  20,  5,  5, 100 # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+24  25,  30,  15,  25,  25,  5,  5, 105 # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+25  25,  30,  15,  25,  25,  6,  6, 110 # value p_pocket, p_locks, traps, sneak, hide, react, miss_att, def 
+
+# Constitution
+Con~
+0  -4,  20   # value hitp, shock
+1  -3,  25   # value hitp, shock
+2  -2,  30   # value hitp, shock
+3  -2,  35   # value hitp, shock
+4  -1,  40   # value hitp, shock
+5  -1,  45   # value hitp, shock
+6  -1,  50   # value hitp, shock
+7   0,  55   # value hitp, shock
+8   0,  65   # value hitp, shock
+9   0,  65   # value hitp, shock
+10  0,  70   # value hitp, shock
+11  0,  75   # value hitp, shock
+12  0,  80   # value hitp, shock
+13  0,  85   # value hitp, shock
+14  0,  88   # value hitp, shock
+15  1,  90   # value hitp, shock
+16  2,  95   # value hitp, shock
+17  2,  97   # value hitp, shock
+18  3,  99   # value hitp, shock
+19  3,  99   # value hitp, shock
+20  4,  99   # value hitp, shock
+21  5,  99   # value hitp, shock
+22  5,  99   # value hitp, shock
+23  5,  99   # value hitp, shock
+24  6,  99   # value hitp, shock
+25  6, 100   # value hitp, shock
+
+# Intelligence
+Int~
+0   3  # value % learned per practice
+1   5  # value % learned per practice
+2   7  # value % learned per practice
+3   8  # value % learned per practice
+4   9  # value % learned per practice
+5  10  # value % learned per practice
+6  11  # value % learned per practice
+7  12  # value % learned per practice
+8  13  # value % learned per practice
+9  15  # value % learned per practice
+10 17  # value % learned per practice
+11 19  # value % learned per practice
+12 22  # value % learned per practice
+13 25  # value % learned per practice
+14 30  # value % learned per practice
+15 35  # value % learned per practice
+16 40  # value % learned per practice
+17 45  # value % learned per practice
+18 50  # value % learned per practice
+19 53  # value % learned per practice
+20 55  # value % learned per practice
+21 56  # value % learned per practice
+22 57  # value % learned per practice
+23 58  # value % learned per practice
+24 59  # value % learned per practice
+25 60  # value % learned per practice
+
+# Wisdom
+Wis~
+0   0  # value bonus practices per level
+1   0  # value bonus practices per level
+2   0  # value bonus practices per level
+3   0  # value bonus practices per level
+4   0  # value bonus practices per level
+5   0  # value bonus practices per level
+6   0  # value bonus practices per level
+7   0  # value bonus practices per level
+8   0  # value bonus practices per level
+9   0  # value bonus practices per level
+10  1  # value bonus practices per level
+11  1  # value bonus practices per level
+12  2  # value bonus practices per level
+13  2  # value bonus practices per level
+14  3  # value bonus practices per level
+15  3  # value bonus practices per level
+16  4  # value bonus practices per level
+17  4  # value bonus practices per level
+18  5  # value bonus practices per level
+19  5  # value bonus practices per level
+20  6  # value bonus practices per level
+21  6  # value bonus practices per level
+22  7  # value bonus practices per level
+23  7  # value bonus practices per level
+24  8  # value bonus practices per level
+25  8  # value bonus practices per level
+
+# Charisma
+Cha~
+0   0  # value max number of followers
+1   0  # value max number of followers
+2   0  # value max number of followers
+3   0  # value max number of followers
+4   0  # value max number of followers
+5   1  # value max number of followers
+6   1  # value max number of followers
+7   1  # value max number of followers
+8   2  # value max number of followers
+9   2  # value max number of followers
+10  3  # value max number of followers
+11  3  # value max number of followers
+12  4  # value max number of followers
+13  4  # value max number of followers
+14  5  # value max number of followers
+15  5  # value max number of followers
+16  6  # value max number of followers
+17  6  # value max number of followers
+18  7  # value max number of followers
+19  7  # value max number of followers
+20  8  # value max number of followers
+21  9  # value max number of followers
+22 10  # value max number of followers
+23 12  # value max number of followers
+24 14  # value max number of followers
+25 16  # value max number of followers
+
+$~

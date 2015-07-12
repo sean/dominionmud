@@ -20,7 +20,6 @@
 #include <sys/stat.h>
 #include "protos.h"
 
-
 /* extern variables */
 extern struct str_app_type str_app[];
 extern struct room_data *world;
@@ -31,10 +30,10 @@ extern struct spell_info_type spell_info[];
 extern struct index_data *mob_index;
 extern char   *class_abbrevs[];
 /* For TD 3/19/95 */
-extern char *race_abbrev[];
-extern char *pc_religion_types[];
+extern struct race_data *races;
 extern struct zone_data *zone_table;
 extern int top_of_zone_table;
+extern int NUM_RACES;
 
 /* extern procedures */
 SPECIAL(shop_keeper);
@@ -56,6 +55,7 @@ ACMD(do_quit)
 {
   void die(struct char_data * ch);
   void Crash_rentsave(struct char_data * ch, int cost);
+  int mobs_nearby(struct char_data *ch);
   extern int free_rent;
   int save_room;
   struct descriptor_data *d, *next_d;
@@ -69,10 +69,8 @@ ACMD(do_quit)
     send_to_char(buf, ch);
   } else if (GET_POS(ch) == POS_FIGHTING)
     send_to_char("No way!  You're fighting for your life!\r\n", ch);
-#if 0
   else if (mobs_nearby(ch))
     send_to_char("No way!  It's too dangerous to quit around here!\r\n", ch);
-#endif
   else if ((GET_POS(ch) < POS_STUNNED) && GET_HIT(ch) <= 0) {
     send_to_char("You die before your time...\r\n", ch);
     die(ch);
@@ -119,6 +117,8 @@ ACMD(do_save)
   }
   write_aliases(ch);      /* Save the players aliases - TD */
   save_char(ch, ch->in_room);
+  // THIS ALLOWS FOR ASCII saving
+  save_char_obj( ch );
   Crash_crashsave(ch);
   if (ROOM_FLAGGED(ch->in_room, ROOM_HOUSE_CRASH))
     House_crashsave(world[ch->in_room].number);
@@ -308,13 +308,11 @@ ACMD(do_steal)
      if (!pt_allowed || (zone_table[(world[ch->in_room].zone)].pkill != 1)) {
 	if (IS_HUMANOID(vict) && !PLR_FLAGGED(vict, PLR_THIEF) &&
 	    !PLR_FLAGGED(vict, PLR_KILLER) && !PLR_FLAGGED(ch, PLR_THIEF)) {
-	   if (GET_RACE(ch) != RACE_KENDER) {
-	      SET_BIT(PLR_FLAGS(ch), PLR_THIEF);
-	      send_to_char("You should be more careful who you take from, and where.\r\n", ch);
-	      send_to_char("You are now a THIEF!\r\n", ch);
-	      sprintf(buf, "PC Thief bit set on %s", GET_NAME(ch));
-	      log(buf);
-	   }
+          SET_BIT(PLR_FLAGS(ch), PLR_THIEF);
+          send_to_char("You should be more careful who you take from, and where.\r\n", ch);
+          send_to_char("You are now a THIEF!\r\n", ch);
+          sprintf(buf, "PC Thief bit set on %s", GET_NAME(ch));
+          log(buf);
 	}
      }
      if (IS_NPC(vict) && AWAKE(vict))
@@ -436,7 +434,7 @@ int perform_group(struct char_data *ch, struct char_data *vict)
   if (SHADOWING(vict) == ch)
     return 0;
 
-  SET_BIT(AFF_FLAGS2(vict), AFF_GROUP);
+  SET_BIT(AFF2_FLAGS(vict), AFF_GROUP);
   if (ch != vict)
     act("$N is now a member of your group.", FALSE, ch, 0, vict, TO_CHAR);
   act("You are now a member of $n's group.", FALSE, ch, 0, vict, TO_VICT);
@@ -529,7 +527,7 @@ ACMD(do_group)
 	act("$N is no longer a member of your group.", FALSE, ch, 0, vict, TO_CHAR);
       act("You have been kicked out of $n's group!", FALSE, ch, 0, vict, TO_VICT);
       act("$N has been kicked out of $n's group!", FALSE, ch, 0, vict, TO_NOTVICT);
-      REMOVE_BIT(AFF_FLAGS2(vict), AFF_GROUP);
+      REMOVE_BIT(AFF2_FLAGS(vict), AFF_GROUP);
     }
   }
 }
@@ -553,14 +551,14 @@ ACMD(do_ungroup)
     for (f = ch->followers; f; f = next_fol) {
       next_fol = f->next;
       if (IS_AFFECTED2(f->follower, AFF_GROUP)) {
-	REMOVE_BIT(AFF_FLAGS2(f->follower), AFF_GROUP);
+	REMOVE_BIT(AFF2_FLAGS(f->follower), AFF_GROUP);
 	send_to_char(buf2, f->follower);
 	if (!IS_AFFECTED(f->follower, AFF_CHARM))
 	  stop_follower(f->follower);
       }
     }
 
-    REMOVE_BIT(AFF_FLAGS2(ch), AFF_GROUP);
+    REMOVE_BIT(AFF2_FLAGS(ch), AFF_GROUP);
     send_to_char("You disband the group.\r\n", ch);
     return;
   }
@@ -578,7 +576,7 @@ ACMD(do_ungroup)
     return;
   }
 
-  REMOVE_BIT(AFF_FLAGS2(tch), AFF_GROUP);
+  REMOVE_BIT(AFF2_FLAGS(tch), AFF_GROUP);
 
   act("$N is no longer a member of your group.", FALSE, ch, 0, tch, TO_CHAR);
   act("You have been kicked out of $n's group!", FALSE, ch, 0, tch, TO_VICT);
@@ -800,7 +798,7 @@ ACMD(do_wimpy)
       return;
     }
   }
-  if (isdigit(*arg)) {
+  if (isdigit((int)*arg)) {
     if ((wimp_lev = atoi(arg))) {
       if ((wimp_lev < 0) || (wimp_lev > 50))
 	send_to_char("Your wimpiness can only be from 0 to 50% of your hit points.\r\n", ch);
@@ -1309,7 +1307,8 @@ void Dismount(struct char_data *ch, struct char_data *h, int pos)
   }
 }
 
-
+/**
+ */
 int MountEgoCheck(struct char_data *ch, struct char_data *horse)
 {
   int prob, percent, check;
@@ -1317,7 +1316,7 @@ int MountEgoCheck(struct char_data *ch, struct char_data *horse)
   prob = GET_SKILL(ch, SKILL_RIDE);
   percent = number(1, 101);
 
-  if (IS_DRAGON(horse) || (GET_RACE(horse) == RACE_MAGIC))
+  if ( IS_DRAGON(horse) )
      check = number(5, 10);
 
   if (MOB_FLAGGED(horse, MOB_AGGRESSIVE) || \
@@ -1443,13 +1442,40 @@ ACMD(do_lm)
    void charmode_on(struct descriptor_data *d);
    void charmode_off(struct descriptor_data *d);
 
-   if (subcmd)
+   if (subcmd) {
      charmode_on(ch->desc);
-   else
+     send_to_char( "You are now in character mode ...\r\n", ch );
+   } else {
      charmode_off(ch->desc);
+     send_to_char( "You are now in line mode ...\r\n", ch );
+   }
 }
 
-void practice(struct char_data *ch, struct char_data *gm, char *argument, int teaches)
+/* return a number from 1 to 4 based on how well the PC can learn the skill */
+int learn_amount(int skill, struct char_data * ch)
+{
+  // base percent is based on your intelligence
+  int percent = 0;
+  extern struct int_app_type int_app[ ];
+
+  assert( ch != NULL );
+  percent = int_app[ GET_INT(ch) ].learn;
+  
+  if (IS_PRAYER(skill))
+    percent += ((GET_WIS(ch) + GET_WILL(ch)) >> 1);
+  else if (IS_ARCANE(skill))
+    percent += ((GET_INT(ch) + GET_WIS(ch)) >> 1);
+  else if (IS_THIEVERY(skill))
+    percent += ((GET_DEX(ch) + GET_INT(ch)) >> 1);
+  else if (IS_COMBAT(skill))
+    percent += ((GET_STR(ch) + GET_DEX(ch)) >> 1);
+
+  return percent;
+}
+
+void practice(struct char_data *ch,
+              struct char_data *gm,
+              char *argument, int teaches)
 {
    int skill_num, sphere, numtimes = 1, i, j = 51, percent = 0, oldskill;
    char arg1[MAX_INPUT_LENGTH];
@@ -1459,6 +1485,10 @@ void practice(struct char_data *ch, struct char_data *gm, char *argument, int te
    int  max_learn(int skill, struct char_data *ch);
    extern char *spells[];
 
+   assert( ch != NULL );
+   assert( gm != NULL );
+   assert( argument != NULL );
+   
    skip_spaces(&argument);
 
    if (!*argument) {
@@ -1475,7 +1505,7 @@ void practice(struct char_data *ch, struct char_data *gm, char *argument, int te
    }
    argument = any_two_args(argument, arg1, arg2);
 
-   while (*arg2 && !isdigit(*arg2)) {
+   while (*arg2 && !isdigit((int)*arg2)) {
      strcat(arg1, " ");
      strcat(arg1, arg2);
      if (*argument)
@@ -1493,20 +1523,17 @@ void practice(struct char_data *ch, struct char_data *gm, char *argument, int te
    if ((skill_num == teaches) ||
        (spell_info[skill_num].sphere == teaches)) {
      /* this guy can teach 'em, so let's start lernin'! */
-     if ((skill_num <= MAIN_SPHERES && GET_SKILL(ch, skill_num) < max_learn(skill_num, ch)) ||
+     if ((skill_num <= MAIN_SPHERES &&
+          GET_SKILL(ch, skill_num) < max_learn(skill_num, ch)) ||
 	 ((GET_SKILL(ch, sphere) >= spell_info[skill_num].percent) &&
 	  (GET_SKILL(ch, skill_num) < max_learn(skill_num, ch)))) {
        for (i = 0; i < numtimes && GET_PRACTICES(ch); ++i) {
 	 /* the player can learn this skill */
-	 if (skill_num <= MAIN_SPHERES)
-	   percent = (learn_amount(skill_num, ch) * 4);
-	 else if (skill_num <= MAX_SPHERES)
-	   percent = (learn_amount(skill_num, ch) * 2);
-	 else
-	   percent = learn_amount(skill_num, ch);
+         percent = learn_amount( skill_num, ch );
 	 /* now increase the skill */
 	 oldskill = GET_SKILL(ch, skill_num);
-	 GET_SKILL(ch, skill_num) = MIN(max_learn(skill_num, ch), GET_SKILL(ch, skill_num) + percent);
+	 GET_SKILL(ch, skill_num) =
+           MIN(max_learn(skill_num, ch), GET_SKILL(ch, skill_num) + percent);
 	 increase_sub_skills(ch, skill_num);
 	 send_to_char("You practice for awhile . . .", ch);
 	 GET_PRACTICES(ch)--;
@@ -1525,16 +1552,19 @@ void practice(struct char_data *ch, struct char_data *gm, char *argument, int te
        }
      } else if ((GET_SKILL(ch, sphere) >= spell_info[skill_num].percent) &&
 		(GET_SKILL(ch, skill_num) >= max_learn(skill_num, ch))) {
-       sprintf(buf2, "%s I am unable to teach you anymore about %s.", GET_NAME(ch), spells[skill_num]);
+       sprintf(buf2, "%s I am unable to teach you anymore about %s.",
+               GET_NAME(ch), spells[skill_num]);
        do_tell(gm, buf2, 0, 0);
        return;
      } else if (GET_SKILL(ch, skill_num) >= max_learn(skill_num, ch) ||
 		GET_SKILL(ch, skill_num) == 100) {
-       sprintf(buf2, "%s I have taught you all that I know of %s.", GET_NAME(ch), spells[skill_num]);
+       sprintf(buf2, "%s I have taught you all that I know of %s.",
+               GET_NAME(ch), spells[skill_num]);
        do_tell(gm, buf2, 0, 0);
        return;
      } else {
-       sprintf(buf2, "%s You would not understand %s without prior training.", GET_NAME(ch), spells[skill_num]);
+       sprintf(buf2, "%s You would not understand %s without prior training.",
+               GET_NAME(ch), spells[skill_num]);
        do_tell(gm, buf2, 0, 0);
        return;
      }

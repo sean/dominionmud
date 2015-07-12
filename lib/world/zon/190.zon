@@ -19,7 +19,7 @@ E 1 19004 10 17 100 			* And equip it with a Two-handed Mithril Sword. (Max: 10)
 M 0 19001 2 19001 100 	* the Elven guardian at Entrance to the Elven forest.. (Max: 2)
 E 1 19003 10 4 100 			* And equip it with mithril chainmail. (Max: 10)
 E 1 19004 10 17 100 			* And equip it with a Two-handed Mithril Sword. (Max: 10)
-D 0 19034 3 2 100 		* Lock and Close Southern door at The holding cell
+* D 0 19034 3 2 100 		* Lock and Close Southern door at The holding cell
 D 0 19003 5 1 100 		* Close Eastern door at Guard room.
 D 0 19005 4 1 100 		* Close Eastern door at Cellar.
 M 0 19005 1 19010 100 	* the Elven armoursmith at The Elven Armoury.. (Max: 1)
@@ -64,8 +64,8 @@ M 0 19010 1 19004 100 	* the Chief of the elven guard at Guard chiefs bed room..
 E 1 19001 10 17 100 			* And equip it with a longsword. (Max: 10)
 E 1 19002 10 4 100 			* And equip it with some sturdy chainmail. (Max: 10)
 M 0 19011 8 19018 100 	* the Elven guard at Guard room.. (Max: 8)
-E 1 19001 100 17 100 			* And equip it with a longsword. (Max: 100)
-E 1 19002 100 4 100 			* And equip it with some sturdy chainmail. (Max: 100)
+E 1 19001 8 17 100 			* And equip it with a longsword. (Max: 8)
+E 1 19002 8 4 100 			* And equip it with some sturdy chainmail. (Max: 8)
 M 0 19011 8 19018 100 	* the Elven guard at Guard room.. (Max: 8)
 E 1 19001 100 17 100 			* And equip it with a longsword. (Max: 100)
 E 1 19002 100 4 100 			* And equip it with some sturdy chainmail. (Max: 100)

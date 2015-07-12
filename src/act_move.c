@@ -438,17 +438,18 @@ int find_door(struct char_data *ch, char *type, char *dir, char *cmdname) {
       send_to_char("That's not a direction.\r\n", ch);
       return -1;
     }
-    if (EXIT(ch, door))
-      if (EXIT(ch, door)->keyword)
+    if (EXIT(ch, door)) {
+      if (EXIT(ch, door)->keyword) {
 	if (isname(type, EXIT(ch, door)->keyword))
 	  return door;
 	else {
 	  sprintf(buf2, "I see no %s there.\r\n", type);
 	  send_to_char(buf2, ch);
 	  return -1;
+        }
       } else
-	return door;
-    else {
+        return door;
+    } else {
       send_to_char("I really don't see how you can close anything there.\r\n", ch);
       return -1;
     }

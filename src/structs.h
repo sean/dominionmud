@@ -136,78 +136,10 @@
 #define ABIL_IMMUNE_SHOCK       (1 << 7)   /* Char is immune to electrici */
 #define ABIL_LIGHTNING_REFLEXES (1 << 8)   /* Char has very quick reflexes*/
 
-
-#define CLASS_WIZARD       0
-#define CLASS_PRIEST       1
-#define CLASS_ROGUE        2
-#define CLASS_WARRIOR      3
-#define NUM_BASIC_CLASSES  4
-
-/* PC and NPC races */
-#define RACE_UNDEFINED   -1
-#define RACE_HUMAN        0
-#define RACE_ATHASIANAE   1      /* Half-Elf   */
-#define RACE_THURGAR      2      /* High Dwarf */
-#define RACE_GNOME        3
-#define RACE_DARGONAE     4      /* Drow        */
-#define RACE_KINTHALAS    5      /* Minotaur    */
-#define RACE_CENTAUR      6
-#define RACE_ARMACHNAE    7      /* High Elves  */
-#define RACE_TARMIRNAE    8      /* Grey Elves  */
-#define RACE_RADINAE      9      /* Wild Elves  */
-#define RACE_KENDER       10     /* Kender      */
-#define RACE_DAERWAR      11     /* Smart Dwarf */
-#define RACE_KAERGAR      12     /* Holy Dwarf  */
-#define RACE_ZAKHAR       13     /* Dark Dwarf  */
-#define RACE_HALFLING     14     /* Halfling    */
-#define RACE_HALFGIANT    15     /* Half-Giant  */
-#define RACE_SESSANATHI   16     /* Lizard Men  */
-#define RACE_HALFOGRE     17     /* Half-Ogre   */
-#define RACE_BYTERIAN     18     /* Byterian Min*/
-#define RACE_GULLYDWARF   19
-#define RACE_VAMPIRE      20
-#define RACE_WEREWOLF     21
-
-#define NUM_PLR_RACES     20
-
-#define RACE_ANIMAL       22
-#define RACE_UNDEAD       23
-#define RACE_GIANT        24
-#define RACE_HUMANOID     25
-#define RACE_VEGGIE       26
-#define RACE_DEMON        27
-#define RACE_MAGIC        28
-#define RACE_WATER        29
-#define RACE_ILLUSIONARY  30
-/* Evil Dragons */
-#define RACE_RED_DRAGON   31
-#define RACE_BLUE_DRAGON  32
-#define RACE_GREEN_DRAGON 33
-#define RACE_BLACK_DRAGON 34
-#define RACE_WHITE_DRAGON 35
-/* Good Dragons */
-#define RACE_BRONZE_DRAGON   36
-#define RACE_COPPER_DRAGON   37
-#define RACE_SILVER_DRAGON   38
-#define RACE_GOLD_DRAGON     39
-#define RACE_PLATINUM_DRAGON 40
-/* more races added below */
-#define RACE_PIXIE           41
-#define RACE_CHROMATIC       42
-#define RACE_ARACHNID        43  /* Both of these are poisonous */
-#define RACE_SERPENT         44
-#define TOT_RACES            45  /* This must be the number of races!! */
+#define UNDEFINED_RACE   -1
 
 /* PC & NPC religions - NPCs have them incase I want to have a jyhad! */
 #define REL_UNDEFINED    -1
-#define REL_NONE          0
-#define REL_GOOD          1
-#define REL_NEUT          2
-#define REL_EVIL          3
-#define REL_LAWFL         4
-#define REL_CHAOS         5
-
-#define NUM_RELS          6  /* This must be the number of religions */
 
 #define MAX_GUILDS	    20
 #define GUILD_UNDEFINED    -1
@@ -266,11 +198,6 @@
 #define DIAL_SILVER     (1 << 10) /* Silver Dragons     */
 #define DIAL_GOLD       (1 << 11) /* Gold Dragons       */
 #define DIAL_PLATINUM   (1 << 12) /* Platinum Dragons   */
-
-/* Markers for Align permanency */
-#define ALIGN_NEUT     0
-#define ALIGN_EVIL     1
-#define ALIGN_GOOD     2
 
 /* Positions */
 #define POS_DEAD       0        /* dead                 */
@@ -466,6 +393,9 @@
 #define AFF_BOUND             (1 << 13)    /* Char is tied up and immoble n */
 #define AFF_BLACKMANTLE       (1 << 14)    /* Char is mantled ;-)         o */
 #define AFF_FIREWALL          (1 << 15)    /* Char is firewalled          p */
+#define AFF_VAMPIRE           (1 << 16)    /* Char is vampire             q */
+#define AFF_LYCANTHROPE       (1 << 17)    /* Char is lycanthrope         r */
+#define AFF_UNDEAD            (1 << 18)    /* Char is undead              s */
 
 /* Modes of connectedness: used by descriptor_data.state */
 #define CON_PLAYING      0              /* Playing - Nominal state      */
@@ -498,13 +428,29 @@
 #define CON_CHPWD_VRFY   25             /* Verify new password          */
 #define CON_DELCNF1      26             /* Delete confirmation 1        */
 #define CON_DELCNF2      27             /* Delete confirmation 2        */
-#define CON_OEDIT        28             /*. OLC mode - object edit     .*/
-#define CON_REDIT        29             /*. OLC mode - room edit       .*/
-#define CON_ZEDIT        30             /*. OLC mode - zone info edit  .*/
-#define CON_MEDIT        31             /*. OLC mode - mobile edit     .*/
-#define CON_SEDIT        32             /*. OLC mode - shop edit       .*/
-#define CON_GEDIT        33             /*. OLC mode - guild edit      .*/
-#define CON_PICO         34             /*. Using the Editor .*/
+#define CON_EDITTING     28             /* OLC Major Mode               */
+
+// deprecated
+//  #define CON_OEDIT        29             /*. OLC mode - object edit     .*/ 
+//  #define CON_REDIT        30             /*. OLC mode - room edit       .*/ 
+//  #define CON_ZEDIT        31             /*. OLC mode - zone info edit  .*/ 
+//  #define CON_MEDIT        32             /*. OLC mode - mobile edit     .*/ 
+//  #define CON_SEDIT        33             /*. OLC mode - shop edit       .*/ 
+//  #define CON_GEDIT        34             /*. OLC mode - guild edit      .*/ 
+//  #define CON_PICO         35             /*. Using the Editor .*/
+
+#define OLC_DEFAULT       0
+#define OLC_ZONE_EDIT     1
+#define OLC_ROOM_EDIT     2
+#define OLC_OBJ_EDIT      3
+#define OLC_MOB_EDIT      4
+#define OLC_SHOP_EDIT     5
+#define OLC_GUILD_EDIT    6
+#define OLC_REL_EDIT      7
+#define OLC_RACE_EDIT     8
+#define OLC_SKILL_EDIT    9
+#define OLC_HELP_EDIT    10
+#define OLC_ATTRIB_EDIT  11
 
 /* Locations for armor values */
 #define ARMOR_HEAD      0
@@ -758,7 +704,7 @@
 #define FULL         1
 #define THIRST       2
 #define TIRED        3
-
+#define MAX_COND     4
 
 /* Sun state for weather_data */
 #define SUN_DARK        0
@@ -822,15 +768,16 @@
  * Other changes throughout the code are required.  See coding.doc for
  * details.
  */
-#define LVL_CREATOR     50
-#define LVL_IMPL        49
-#define LVL_SUP         48
-#define LVL_GRGOD       47
-#define LVL_GOD         46
-#define LVL_DEITY       45
-#define LVL_BUILDER     44
-#define LVL_IMMORT      43
-#define MAX_MORT_LEVEL  42
+#define MAX_LEVEL       50
+#define LVL_CREATOR     MAX_LEVEL
+#define LVL_IMPL        MAX_LEVEL-1
+#define LVL_SUP         MAX_LEVEL-2
+#define LVL_GRGOD       MAX_LEVEL-3
+#define LVL_GOD         MAX_LEVEL-4
+#define LVL_DEITY       MAX_LEVEL-5
+#define LVL_BUILDER     MAX_LEVEL-6
+#define LVL_IMMORT      MAX_LEVEL-7
+#define MAX_MORT_LEVEL  LVL_IMMORT-1
 
 #define IS_IMMORT(ch)   (GET_LEVEL(ch) > MAX_MORT_LEVEL)
 #define LVL_FREEZE      LVL_GRGOD
@@ -867,7 +814,8 @@
 #define MAX_SKILLS              1700/* Used in char_file_u *DO*NOT*CHANGE* */
 #define MAX_AFFECT              32  /* Used in char_file_u *DO*NOT*CHANGE* */
 #define MAX_OBJ_AFFECT          6 /* Used in obj_file_elem *DO*NOT*CHANGE* */
-#define MAX_COLOR_LIST         19
+#define MAX_COLOR_LIST          19
+#define MAX_COIN                5
 
 #define MAX_MATERIAL_LIST      23
 #define MAX_MATERIALS          23
@@ -908,11 +856,14 @@ struct event_data {
    struct event_data *next;         /* next command event in list */
 };
 
+#define MAX_PETITIONERS 20
+
 struct guild_type {
    int  number;            /* Guild's UNIQUE ID Number      */
    long restrictions;      /* Bitvector of restrictions     */
    char *name;             /* Name of Guild (string)        */
-   char *petitioners[20];  /* Pointer to strings            */
+   char *desc;             /* Desc of Guild (string)        */
+   char *petitioners[MAX_PETITIONERS];  /* Pointer to strings            */
    char *leadersname;      /* Leader's (Player's) Name      */
    char *xlvlname;         /* Name of Leader    - Prefect   */
    char *hlvlname;         /* Name of High Lvls - Champions */
@@ -923,6 +874,88 @@ struct guild_type {
    long guardian_mob_vn;   /* VNUM of Guardian MOB          */
    int  direction;         /* The direction to block of ^   */
    struct guild_type *next;
+};
+
+struct race_abils {
+  int min_str, max_str;
+  int min_int, max_int;
+  int min_wis, max_wis;
+  int min_dex, max_dex;
+  int min_con, max_con;
+  int min_cha, max_cha;
+  int min_wil, max_wil;
+};
+
+struct race_points {
+  int min_hi, max_hi;    /* Hitroll */
+  int min_da, max_da;    /* Damroll */
+  int min_hp, max_hp;    /* Hit Pts */
+  int min_ma, max_ma;    /* Piety   */
+  int min_mo, max_mo;    /* Movemnt */
+  int min_lhp, max_lhp;  /* Level Advance HPs */
+  int min_lma, max_lma;  /* Level Advance Man */
+  int min_lmo, max_lmo;  /* Level Advance Mov */
+  int bage, max_bage;    /* Base age */
+  int old_age;           /* old age */
+};
+
+struct race_size_info {
+  int base_height;
+  int mod_num_height;
+  int mod_size_height;
+
+  int base_weight;
+  int mod_num_weight;
+  int mod_size_weight;
+};
+
+enum sizes {
+  TINY = 0,
+  SMALL,
+  MEDIUM,
+  LARGE,
+  HUGE
+};
+
+struct race_point_data {
+  long bitvec;
+  int  regen;
+  long start;
+  struct race_abils abils;
+  struct race_points points;
+  struct race_size_info size[2]; /* Male/Female */
+  enum sizes  rsize; /* see enum sizes in constants.c */
+};
+
+struct race_data {
+  char * name;
+  char * abbrev;
+  char   selector;
+  bool   isNPC;
+  bool   isHumanoid;
+  bool   canSpeak;
+  struct race_point_data points;
+};
+
+enum aligns {
+  ALIGN_UNDEFINED = -1,
+  ALIGN_GOOD,
+  ALIGN_NEUTRAL,
+  ALIGN_EVIL,
+  ALIGN_LAWFUL,
+  ALIGN_CHAOTIC
+};
+
+struct religion_data {
+  char * name;
+  char * abbrev;
+  char * brief;
+  char * long_desc;
+  char * hint;
+
+  int    sex;
+  enum aligns align;
+  long temple;
 };
 
 /* Extra description: used in objects, mobiles, and rooms */
@@ -985,6 +1018,16 @@ struct material_type {
    int  bonus_mod;
 };
 
+/* unfortunately someone mucked with the code and after 6 yrs I don't
+   remember what these two values were, ugh! */
+struct coin_type {
+  int something;
+  int multiplier;
+  int something2;
+  char * name;
+  char * abbrev;
+};
+
 /* ================== Memory Structure for Objects ================== */
 struct obj_data {
    obj_num  item_number;        /* Where in data-base                   */
@@ -1008,7 +1051,7 @@ struct obj_data {
 
    struct obj_data *next_content; /* For 'contains' lists             */
    struct obj_data *next;         /* For the object list              */
-    char *corpsename;
+   char *corpsename;
 };
 /* ======================================================================= */
 
@@ -1247,15 +1290,15 @@ struct char_player_data {
    char *xtra_descr;   /* Xtra-description for later use       */
    char *room_descr;   /* Room description                     */
    char *keywords;     /* Keyword for character                */
-   byte sex;           /* PC / NPC's sex                       */
-   byte unused1[3];    /* PC / NPC's Invitations               */
-   byte race;          /* PC / NPC's race                      */
-   byte assocs[5];     /* PC / NPC Rel, Guild, GuildLev, Unused*/
-   byte regens[5];     /* PC / NPC Regen Rate (HP/MANA/MV)     */
-   byte level;         /* PC / NPC's level                     */
-   byte trust;         /* PC's Trust Level                     */
+   int  sex;           /* PC / NPC's sex                       */
+   int  unused1[3];    /* PC / NPC's Invitations               */
+   int  race;          /* PC / NPC's race                      */
+   int  assocs[5];     /* PC / NPC Rel, Guild, GuildLev, Unused*/
+   int  regens[5];     /* PC / NPC Regen Rate (HP/MANA/MV)     */
+   int  level;         /* PC / NPC's level                     */
+   int  trust;         /* PC's Trust Level                     */
    int  hometown;      /* PC s Hometown (zone) - index into array */
-   sh_int race_mod;    /* race mod for age                     */
+   int  race_mod;    /* race mod for age                     */
    struct time_data time;  /* PC's AGE in days                 */
    ubyte weight;       /* PC / NPC's weight                    */
    ubyte height;       /* PC / NPC's height                    */
@@ -1286,7 +1329,7 @@ struct char_point_data {
    int move;
    int max_move;     /* Max move for PC/NPC                     */
 
-   sh_int armor[8];     /* Internal -100..100, external -10..10 AC */
+   sh_int armor[ARMOR_LIMIT];     /* Internal -100..100, external -10..10 AC */
    ln_int gold;         /* Money carried                           */
    ln_int bank_gold;    /* Gold the char has in a bank account     */
    ln_int coins[5];     /* Plat, Gold, Elec, Silv, and Copper Coins*/
@@ -1296,6 +1339,7 @@ struct char_point_data {
    sbyte damroll;       /* Any bonus or penalty to the damage roll */
 };
 
+#define NUM_SAVES 9
 
 /*
  * char_special_data_saved: specials which both a PC and an NPC have in
@@ -1318,9 +1362,8 @@ struct char_special_data_saved {
    suprlong affected_by2;       /* Bitvector for spells/skills affected by2 */
    long disabilities;           /* PC's disabilities                    */
    long abilities;              /* PC's abilities                       */
-   sh_int apply_saving_throw[9]; /* Saving throw (Bonuses)              */
+   sh_int apply_saving_throw[NUM_SAVES]; /* Saving throw (Bonuses)              */
 };
-
 
 /* Special playing constants shared by PCs and NPCs which aren't in pfile */
 struct char_special_data {
@@ -1366,10 +1409,10 @@ struct player_special_data_saved {
    suprlong pref;                  /* preference flags for PC's.            */
    suprlong pref2;                 /* preference flags for PC's.            */
    ubyte    bad_pws;               /* number of bad password attemps        */
-   sbyte    conditions[5];         /* Drunk, full, thirsty, tired           */
+   sbyte    conditions[MAX_COND];  /* Drunk, full, thirsty, tired           */
    ubyte    fate_pts;              /* # of times the PC died this level.    */
    ubyte    wounds;                /* PC's current wound level.             */
-   ubyte    addictions[5];         /* PC's addicted level to diff drugs     */
+   ubyte    addictions[MAX_COND];  /* PC's addicted level to diff drugs     */
    long     body_parts[12];        /* Condition of PC's Body Parts.         */
 
    /* spares below for future expansion.  You can change the names from
@@ -1539,18 +1582,18 @@ struct char_file_u {
    char keywords[70];
    char room_descr[MAX_TITLE_LENGTH+1];
    /* the normal stuff */
-   byte sex;
-   byte race;
-   byte invitations[3];     /* Invitations to 3 Factions    */
-   byte assocs[5];          /* Rel, Guild, GuildLev, unused */
-   byte assocs2[5];         /* Unused at this time          */
-   byte level;
-   sh_int race_mod;     /* race modifier for age */
-   sh_int hometown;
+   int sex;
+   int race;
+   int invitations[3];     /* Invitations to 3 Factions    */
+   int assocs[5];          /* Rel, Guild, GuildLev, unused */
+   int assocs2[5];         /* Unused at this time          */
+   int level;
+   int race_mod;     /* race modifier for age */
+   int hometown;
    time_t birth;        /* Time of birth of character     */
    long   played;       /* Number of secs played in total */
-   ubyte  weight;
-   ubyte  height;
+   int weight;
+   int height;
 
    struct language speaks[MAX_LANGUAGES];   /* Languages the char knows */
    char   pwd[MAX_PWD_LENGTH+1];            /* character's password */
@@ -1592,6 +1635,7 @@ struct descriptor_data {
    byte bad_pws;                /* number of bad pw attemps this login  */
    byte idle_tics;              /* tics idle at password prompt         */
    int  connected;              /* mode of 'connectedness'              */
+   int  sub_state;              /* submode of 'connectedness'           */
    int  wait;                   /* wait for how many loops              */
    int  desc_num;               /* unique num assigned to desc          */
    time_t login_time;           /* when the person connected            */
@@ -1618,7 +1662,7 @@ struct descriptor_data {
    struct descriptor_data *next; /* link to next descriptor             */
    bool   ansi;                  /* whether or not plr has ANSI term    */
    /* OLC stuff below */
-   struct olc_data *olc;         /* OLC info - defined in olc.h         */
+   struct olc_data *olc;         /* OLC info - defined in creation.h    */
 };
 
 
@@ -1693,10 +1737,11 @@ struct con_app_type {
 
 
 struct weather_data {
-   int  humidity;       /* How humid is it? In percentage.       */
-   int  change;         /* How fast and what way does it change. */
-   int  sky;            /* How is the sky.                       */
-   int  sunlight;       /* And how much sun.                     */
+  int humidity;       /* How humid is it? In percentage.       */
+  int change;         /* How fast and what way does it change. */
+  int sky;            /* How is the sky.                       */
+  int sunlight;       /* And how much sun.                     */
+  int temperature;    /* And how cold/hot it is.               */
 };
 
 

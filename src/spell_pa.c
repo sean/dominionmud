@@ -22,7 +22,6 @@ struct spell_info_type spell_info[TOP_SPELL_DEFINE + 1];
 #define SINFO spell_info[spellnum]
 
 extern struct room_data *world;
-extern char *pc_religion_types[];
 
 /*
  * This arrangement is pretty stupid, but the number of skills is limited by
@@ -715,6 +714,15 @@ void say_spell(struct char_data * ch, int spellnum, struct char_data * tch,
   }
 }
 
+int skill_lookup( const char * name )
+{
+  int i;
+  for ( i = 0; *spells[i] != '\n'; i++ )
+    if ( !strcmp( name, spells[i] ) )
+      return i;
+  // should return index for UNDEFINED
+  return -1;
+}
 
 char *skill_name(int num)
 {
@@ -1068,6 +1076,8 @@ ACMD(do_cast)
   char *s, *t;
   int mana, spellnum, i, target = 0, sphere;
 
+  bool religion_out_of_sync( struct char_data * ch );
+  
   if (IS_NPC(ch))
     return;
 
@@ -1104,14 +1114,12 @@ ACMD(do_cast)
       return;
     }
 
-    if (GET_REL(ch) == REL_NONE) {
+    if (GET_REL(ch) == REL_UNDEFINED) {
       send_to_char("But you have no god to call upon for aid!\r\n", ch);
       return;
     }
 
-    if (((GET_REL(ch) == REL_GOOD) && !IS_GOOD(ch)) ||
-	((GET_REL(ch) == REL_NEUT) && !IS_NEUT(ch)) ||
-	((GET_REL(ch) == REL_EVIL) && !IS_EVIL(ch))) {
+    if ( religion_out_of_sync( ch ) ) {
       sprintf(buf, "You have strayed from the path of %s's religion.\r\n",
 	      relg_name(ch));
       send_to_char(buf, ch);
@@ -1207,8 +1215,10 @@ ACMD(do_cast)
     return;
   }
   mana = mag_manacost(ch, spellnum);
+  /* DEBUGGING
   fprintf(stderr, "Spell: %s mana cost %d, ch: %s.\r\n", spells[spellnum],
 		mana, GET_NAME(ch));
+  */
   if ((mana > 0) && (GET_MANA(ch) < mana) && (GET_LEVEL(ch) < LVL_IMMORT)) {
     send_to_char("You haven't the energy to cast that spell!\r\n", ch);
     return;

@@ -56,8 +56,8 @@ struct command_info {
 };
 
 /* necessary for CMD_IS macro */
-#ifndef __INTERPRE_C__
-extern const struct command_info cmd_info[];
+#ifndef __INTERPRETER_C__
+extern struct command_info cmd_info[];
 #endif
 
 struct alias {
@@ -236,13 +236,14 @@ struct alias {
 #define SCMD_PICK       4
 
 /*. do_olc .*/
-#define SCMD_OLC_REDIT          0
-#define SCMD_OLC_OEDIT          1
-#define SCMD_OLC_ZEDIT          2
-#define SCMD_OLC_MEDIT          3
-#define SCMD_OLC_SEDIT          4
-#define SCMD_OLC_SAVEINFO       5
+#define SCMD_OLC_SAVEINFO       0
+#define SCMD_OLC_REDIT          1
+#define SCMD_OLC_OEDIT          2
+#define SCMD_OLC_ZEDIT          3
+#define SCMD_OLC_MEDIT          4
+#define SCMD_OLC_SEDIT          5
 #define SCMD_OLC_GEDIT          6
+#define SCMD_OLC_HEDIT          7
 
 /* do_tog_rel */
 #define SCMD_AFFIRM             1

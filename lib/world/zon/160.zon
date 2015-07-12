@@ -8,725 +8,727 @@ HIGH~
 * Last Updated: Tue Sep  3 10:48:00 
 *           By: Glasgian
 *
-M 0 16001 30 16001 100 	* the enforcer eye at Corner of Wyrm Street and Sunset. (Max: 30)
-M 0 16081 16 16001 100 	* the footpad at Corner of Wyrm Street and Sunset. (Max: 16)
-E 1 5005 8 17 100 			* And equip it with a small black dagger. (Max: 8)
-M 0 16001 35 16008 100 	* the enforcer eye at Wyrm Street. (Max: 35)
-M 0 16001 35 16010 100 	* the enforcer eye at Wyrm Street. (Max: 35)
-M 0 16001 35 16018 100 	* the enforcer eye at Wyrm Street. (Max: 35)
-M 0 16001 35 16032 100 	* the enforcer eye at Moonlight Avenue. (Max: 35)
-M 0 16001 35 16035 100 	* the enforcer eye at Sunrise. (Max: 35)
-M 0 16001 35 16037 100 	* the enforcer eye at Sunset. (Max: 35)
-M 0 16001 35 16048 100 	* the enforcer eye at Diamond Street. (Max: 35)
-E 1 16001 15 5 100 			* And equip it with scale of the enforcer. (Max: 15)
-M 0 16001 35 16063 100 	* the enforcer eye at Sunset. (Max: 35)
-M 0 16001 35 16069 100 	* the enforcer eye at Emerald Street. (Max: 35)
-M 0 16001 35 16080 100 	* the enforcer eye at Slaver's Route. (Max: 35)
-M 0 16001 35 16087 100 	* the enforcer eye at Slaver's Route at Emerald. (Max: 35)
-M 0 16001 35 16092 100 	* the enforcer eye at Slaver's Route. (Max: 35)
-M 0 16002 24 16003 100 	* the floating eye at Wyrm Street. (Max: 24)
-M 0 16002 24 16052 100 	* the floating eye at Diamond Street. (Max: 24)
-M 0 16002 24 16087 100 	* the floating eye at Slaver's Route at Emerald. (Max: 24)
-M 0 16002 24 16088 100 	* the floating eye at Slaver's Route before the Inn. (Max: 24)
-M 0 16002 24 16075 100 	* the floating eye at Slaver's Route. (Max: 24)
-M 0 16002 24 16071 100 	* the floating eye at Sunrise. (Max: 24)
-M 0 16002 24 16020 100 	* the floating eye at North east corner on Wrym and Sunrise. (Max: 24)
-M 0 16002 24 16040 100 	* the floating eye at Sunset. (Max: 24)
-M 0 16002 24 16095 100 	* the floating eye at The Gathering Place. (Max: 24)
-M 0 16002 24 16096 100 	* the floating eye at The Gathering Place. (Max: 24)
-M 0 16002 24 16047 100 	* the floating eye at Diamond Street. (Max: 24)
-M 0 16002 24 16047 100 	* the floating eye at Diamond Street. (Max: 24)
-M 0 16002 24 16073 100 	* the floating eye at Sunrise. (Max: 24)
-M 0 16002 24 16073 100 	* the floating eye at Sunrise. (Max: 24)
-M 0 16002 24 16083 100 	* the floating eye at Slaver's Route. (Max: 24)
-M 0 16002 24 16083 100 	* the floating eye at Slaver's Route. (Max: 24)
-M 0 16007 16 16089 100 	* the svirfneblin at Slaver's Route Before the Prisons. (Max: 16)
-E 1 16006 5 16 100 			* And equip it with a glinting gnome mace. (Max: 5)
-M 0 16007 16 16056 100 	* the svirfneblin at Diamond Street. (Max: 16)
-M 0 16007 16 16046 100 	* the svirfneblin at Diamond Street. (Max: 16)
-M 0 16007 16 16065 100 	* the svirfneblin at Moonlight Avenue. (Max: 16)
-M 0 16007 16 16063 100 	* the svirfneblin at Sunset. (Max: 16)
-M 0 16007 16 16036 100 	* the svirfneblin at Sunset. (Max: 16)
-M 0 16007 16 16034 100 	* the svirfneblin at Sunrise. (Max: 16)
-M 0 16007 16 16086 100 	* the svirfneblin at Slaver's Route. (Max: 16)
-M 0 16008 12 16041 100 	* the drow trader at Ruby Street. (Max: 12)
-M 0 16008 12 16080 100 	* the drow trader at Slaver's Route. (Max: 12)
-M 0 16009 18 16018 100 	* the duergar at Wyrm Street. (Max: 18)
-M 0 16009 18 16030 100 	* the duergar at Sapphire Street Before the Tavern. (Max: 18)
-M 0 16009 18 16022 100 	* the duergar at North end of Sunset. (Max: 18)
-M 0 16009 18 16097 100 	* the duergar at The Gathering Place. (Max: 18)
-M 0 16009 18 16097 100 	* the duergar at The Gathering Place. (Max: 18)
-M 0 16014 10 16034 100 	* the lizard man at Sunrise. (Max: 10)
-M 0 16014 10 16091 100 	* the lizard man at Slaver's Route. (Max: 10)
-M 0 16014 10 16084 100 	* the lizard man at Slaver's Route in Midtown. (Max: 10)
-M 0 16014 10 16067 100 	* the lizard man at Moonlight Avenue. (Max: 10)
-M 0 16041 3 16085 100 	* the worker of the night at Slaver's Route, before the Whore House. (Max: 3)
-M 0 16056 15 16088 100 	* the slave trader at Slaver's Route before the Inn. (Max: 15)
-M 0 16056 15 16089 100 	* the slave trader at Slaver's Route Before the Prisons. (Max: 15)
-E 1 16038 5 16 100 			* And equip it with the Slaver's whip. (Max: 5)
-M 0 16056 15 16092 100 	* the slave trader at Slaver's Route. (Max: 15)
-M 0 16056 15 16077 100 	* the slave trader at Slaver's Route. (Max: 15)
-M 0 16056 15 16068 100 	* the slave trader at Emerald Street. (Max: 15)
-M 0 16056 15 16080 100 	* the slave trader at Slaver's Route. (Max: 15)
-M 0 16056 15 16084 100 	* the slave trader at Slaver's Route in Midtown. (Max: 15)
-M 0 16056 15 16089 100 	* the slave trader at Slaver's Route Before the Prisons. (Max: 15)
-M 0 16056 15 16092 100 	* the slave trader at Slaver's Route. (Max: 15)
-M 0 16056 15 16099 100 	* the slave trader at The Slave's Square. (Max: 15)
-M 0 16057 12 16090 100 	* a slave buyer at Slaver's Route. (Max: 12)
-G 1 16039 5  100 			* And give it a pair of manacles. (Max: 5)
-M 0 16057 12 16098 100 	* a slave buyer at The Slave's Square. (Max: 12)
-M 0 16057 12 16045 100 	* a slave buyer at Moonlight Avenue. (Max: 12)
-M 0 16057 12 16094 100 	* a slave buyer at The Gathering Place. (Max: 12)
-M 0 16057 12 16090 100 	* a slave buyer at Slaver's Route. (Max: 12)
-M 0 16057 12 16093 100 	* a slave buyer at Before the east entrance. (Max: 12)
-M 0 16081 16 16015 100 	* the footpad at Wyrm Street. (Max: 16)
-M 0 16081 16 16021 100 	* the footpad at Moonlight Avenue. (Max: 16)
-M 0 16081 16 16039 100 	* the footpad at Sunset. (Max: 16)
-M 0 16081 16 16048 100 	* the footpad at Diamond Street. (Max: 16)
-M 0 16081 16 16035 100 	* the footpad at Sunrise. (Max: 16)
-M 0 16081 16 16024 100 	* the footpad at Sunset. (Max: 16)
-M 0 16081 16 16011 100 	* the footpad at Wyrm Street. (Max: 16)
-M 0 16081 16 16061 100 	* the footpad at Sunset. (Max: 16)
-M 0 16081 16 16071 100 	* the footpad at Sunrise. (Max: 16)
-M 0 16081 16 16088 100 	* the footpad at Slaver's Route before the Inn. (Max: 16)
-M 0 16081 16 16099 100 	* the footpad at The Slave's Square. (Max: 16)
-M 0 16083 5 16020 100 	* the filcher at North east corner on Wrym and Sunrise. (Max: 5)
-E 1 16066 5 9 100 			* And equip it with a pair of thieves' gloves. (Max: 5)
-M 0 16083 5 16063 100 	* the filcher at Sunset. (Max: 5)
-M 0 16083 5 16066 100 	* the filcher at Moonlight Avenue. (Max: 5)
-M 0 16084 5 16048 100 	* the rogue at Diamond Street. (Max: 5)
-D 0 16021 1 1 100 		* Close Eastern door at Moonlight Avenue
-D 0 16025 0 1 100 		* Close Northern door at Before a huge dwelling
-D 0 16030 0 1 100 		* Close Northern door at Sapphire Street Before the Tavern
-D 0 16036 2 1 100 		* Close Eastern door at Sunset
-D 0 16037 2 1 100 		* Close Eastern door at Sunset
-D 0 16038 2 1 100 		* Close Eastern door at Sunset
-D 0 16039 2 1 100 		* Close Eastern door at Sunset
-D 0 16074 0 1 100 		* Close Northern door at Slaver's Route
-D 0 16074 2 1 100 		* Close Eastern door at Slaver's Route
-D 0 16075 0 1 100 		* Close Northern door at Slaver's Route
-D 0 16075 2 1 100 		* Close Eastern door at Slaver's Route
-D 0 16076 0 1 100 		* Close Northern door at Slaver's Route
-D 0 16076 2 1 100 		* Close Eastern door at Slaver's Route
-D 0 16077 0 1 100 		* Close Northern door at Slaver's Route
-D 0 16079 0 1 100 		* Close Northern door at Slaver's Route
-D 0 16085 0 1 100 		* Close Northern door at Slaver's Route, before the Whore House
-D 0 16088 0 1 100 		* Close Northern door at Slaver's Route before the Inn
-D 0 16089 2 1 100 		* Close Eastern door at Slaver's Route Before the Prisons
-D 0 16093 1 1 100 		* Close Eastern door at Before the east entrance
-M 0 16001 35 16100 100 	* the enforcer eye at The slave's square. (Max: 35)
-M 0 16001 35 16105 100 	* the enforcer eye at Sunrise. (Max: 35)
-M 0 16001 35 16109 100 	* the enforcer eye at Street of the Gods. (Max: 35)
-M 0 16001 35 16120 100 	* the enforcer eye at Street of the Gods. (Max: 35)
-M 0 16001 35 16129 100 	* the enforcer eye at Road of Shadows. (Max: 35)
-M 0 16001 35 16136 100 	* the enforcer eye at Road of Shadows. (Max: 35)
-M 0 16001 35 16142 100 	* the enforcer eye at Road of Shadows. (Max: 35)
-M 0 16001 35 16148 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
-M 0 16001 35 16155 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
-M 0 16001 35 16162 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
-M 0 16001 35 16172 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
-M 0 16001 35 16181 100 	* the enforcer eye at Azurite Street. (Max: 35)
-E 1 16001 15 5 100 			* And equip it with scale of the enforcer. (Max: 15)
-M 0 16001 35 16186 100 	* the enforcer eye at Death's Lane. (Max: 35)
-M 0 16001 35 16193 100 	* the enforcer eye at Death's Lane. (Max: 35)
-M 0 16002 24 16108 100 	* the floating eye at Street of the Gods. (Max: 24)
-M 0 16002 24 16113 100 	* the floating eye at Street of the Gods. (Max: 24)
-M 0 16002 24 16120 100 	* the floating eye at Street of the Gods. (Max: 24)
-M 0 16002 24 16139 100 	* the floating eye at Road of Shadows. (Max: 24)
-M 0 16002 24 16177 100 	* the floating eye at Sunrise. (Max: 24)
-M 0 16002 24 16152 100 	* the floating eye at Forgotten Alley. (Max: 24)
-M 0 16002 24 16198 100 	* the floating eye at Beginning of Sunset. (Max: 24)
-M 0 16002 24 16198 100 	* the floating eye at Beginning of Sunset. (Max: 24)
-M 0 16007 16 16101 100 	* the svirfneblin at The slave's square. (Max: 16)
-M 0 16007 16 16144 100 	* the svirfneblin at Sunrise. (Max: 16)
-M 0 16007 16 16147 100 	* the svirfneblin at Forgotten Alley. (Max: 16)
-M 0 16007 16 16128 100 	* the svirfneblin at Road of Shadows at Sunset. (Max: 16)
-M 0 16007 16 16133 100 	* the svirfneblin at Road of Shadows. (Max: 16)
-M 0 16007 16 16110 100 	* the svirfneblin at Street of the Gods. (Max: 16)
-M 0 16008 12 16197 100 	* the drow trader at Beginning of Death's Lane. (Max: 12)
-E 1 16007 5 16 100 			* And equip it with the Sword of Darkness. (Max: 5)
-M 0 16008 12 16177 100 	* the drow trader at Sunrise. (Max: 12)
-M 0 16008 12 16142 100 	* the drow trader at Road of Shadows. (Max: 12)
-M 0 16008 12 16115 100 	* the drow trader at Street of the Gods. (Max: 12)
-M 0 16008 12 16112 100 	* the drow trader at Street of the Gods. (Max: 12)
-M 0 16008 12 16119 100 	* the drow trader at Street of the Gods. (Max: 12)
-M 0 16008 12 16133 100 	* the drow trader at Road of Shadows. (Max: 12)
-M 0 16008 12 16175 100 	* the drow trader at Sunrise. (Max: 12)
-M 0 16008 12 16100 100 	* the drow trader at The slave's square. (Max: 12)
-M 0 16009 18 16157 100 	* the duergar at Forgotten Alley. (Max: 18)
-E 1 16008 5 6 100 			* And equip it with a duergar helm. (Max: 5)
-M 0 16009 18 16140 100 	* the duergar at Road of Shadows. (Max: 18)
-M 0 16009 18 16132 100 	* the duergar at Road of Shadows. (Max: 18)
-M 0 16009 18 16167 100 	* the duergar at The Forgotten Alley. (Max: 18)
-M 0 16009 18 16134 100 	* the duergar at Road of Shadows at Azurite. (Max: 18)
-M 0 16009 18 16134 100 	* the duergar at Road of Shadows at Azurite. (Max: 18)
-M 0 16009 18 16115 100 	* the duergar at Street of the Gods. (Max: 18)
-M 0 16009 18 16111 100 	* the duergar at Street of the Gods. (Max: 18)
-M 0 16009 18 16113 100 	* the duergar at Street of the Gods. (Max: 18)
-M 0 16009 18 16109 100 	* the duergar at Street of the Gods. (Max: 18)
-M 0 16009 18 16103 100 	* the duergar at Sunrise before the cages. (Max: 18)
-M 0 16010 1 16135 100 	* the necromancer at Road of Shadows. (Max: 1)
-E 1 16009 5 10 100 			* And equip it with sleeves of Knowledge. (Max: 5)
-M 0 16011 1 16135 100 	* the behir at Road of Shadows. (Max: 1)
-G 1 16010 5  100 			* And give it a piece of polished blood stone. (Max: 5)
-M 0 16012 1 16135 100 	* the fighter at Road of Shadows. (Max: 1)
-E 1 16011 5 5 100 			* And equip it with glowing obsidian breast plate. (Max: 5)
-M 0 16013 1 16135 100 	* a high priest of Xevior at Road of Shadows. (Max: 1)
-E 1 16012 5 17 100 			* And equip it with a shining holy symbol of Xevior. (Max: 5)
-M 0 16014 10 16148 100 	* the lizard man at Forgotten Alley. (Max: 10)
-E 1 16013 10 7 100 			* And equip it with ripped leather pants. (Max: 10)
-M 0 16014 10 16153 100 	* the lizard man at Forgotten Alley. (Max: 10)
-M 0 16014 10 16117 100 	* the lizard man at Street of the Gods. (Max: 10)
-M 0 16014 10 16121 100 	* the lizard man at Street of the Gods. (Max: 10)
-M 0 16014 10 16131 100 	* the lizard man at Road of Shadows. (Max: 10)
-M 0 16056 15 16101 100 	* the slave trader at The slave's square. (Max: 15)
-M 0 16056 15 16140 100 	* the slave trader at Road of Shadows. (Max: 15)
-E 1 16038 5 16 100 			* And equip it with the Slaver's whip. (Max: 5)
-M 0 16056 15 16123 100 	* the slave trader at Street of the Gods. (Max: 15)
-M 0 16056 15 16198 100 	* the slave trader at Beginning of Sunset. (Max: 15)
-M 0 16057 12 16100 100 	* a slave buyer at The slave's square. (Max: 12)
-G 1 16039 5  100 			* And give it a pair of manacles. (Max: 5)
-M 0 16057 12 16101 100 	* a slave buyer at The slave's square. (Max: 12)
-M 0 16057 12 16137 100 	* a slave buyer at Road Of Shadows. (Max: 12)
-M 0 16081 16 16130 100 	* the footpad at Road of Shadows. (Max: 16)
-M 0 16081 16 16140 100 	* the footpad at Road of Shadows. (Max: 16)
-M 0 16081 16 16179 100 	* the footpad at Azurite Street. (Max: 16)
-M 0 16081 16 16190 100 	* the footpad at Death's Lane. (Max: 16)
-M 0 16082 5 16110 100 	* the cutpurse at Street of the Gods. (Max: 5)
-M 0 16082 5 16129 100 	* the cutpurse at Road of Shadows. (Max: 5)
-M 0 16082 5 16137 100 	* the cutpurse at Road Of Shadows. (Max: 5)
-M 0 16082 5 16145 100 	* the cutpurse at Forgotten Alley. (Max: 5)
-M 0 16083 5 16131 100 	* the filcher at Road of Shadows. (Max: 5)
-M 0 16084 5 16103 100 	* the rogue at Sunrise before the cages. (Max: 5)
-E 1 16067 5 3 100 			* And equip it with a gold chain. (Max: 5)
-M 0 16084 5 16125 100 	* the rogue at Sunset. (Max: 5)
-M 0 16084 5 16185 100 	* the rogue at Death's Lane. (Max: 5)
-M 0 16084 5 16193 100 	* the rogue at Death's Lane. (Max: 5)
-M 0 16091 6 16179 100 	* the bravo at Azurite Street. (Max: 6)
-E 1 16074 5 16 100 			* And equip it with a blade of poison. (Max: 5)
-M 0 16091 6 16127 100 	* the bravo at Azurite Street. (Max: 6)
-M 0 16091 6 16144 100 	* the bravo at Sunrise. (Max: 6)
-M 0 16091 6 16172 100 	* the bravo at Forgotten Alley. (Max: 6)
-M 0 16091 6 16193 100 	* the bravo at Death's Lane. (Max: 6)
-M 0 16092 6 16139 100 	* the murderer at Road of Shadows. (Max: 6)
-M 0 16092 6 16170 100 	* the murderer at Forgotten Alley. (Max: 6)
-M 0 16092 6 16106 100 	* the murderer at Sunrise. (Max: 6)
-M 0 16092 6 16154 100 	* the murderer at Forgotten Alley. (Max: 6)
-M 0 16092 6 16177 100 	* the murderer at Sunrise. (Max: 6)
-M 0 16092 6 16182 100 	* the murderer at Azurite Street. (Max: 6)
-M 0 16093 6 16189 100 	* the thug at Death's Lane. (Max: 6)
-M 0 16093 6 16175 100 	* the thug at Sunrise. (Max: 6)
-M 0 16093 6 16163 100 	* the thug at Forgotten Alley. (Max: 6)
-M 0 16093 6 16160 100 	* the thug at Forgotten Alley. (Max: 6)
-E 1 16075 5 10 100 			* And equip it with a pair of assassin's sleeves. (Max: 5)
-M 0 16093 6 16184 100 	* the thug at Death's Lane. (Max: 6)
-M 0 16093 6 16188 100 	* the thug at Death's Lane. (Max: 6)
-M 0 16094 3 16167 100 	* the killer at The Forgotten Alley. (Max: 3)
-E 1 16076 5 14 100 			* And equip it with a skull tattoo. (Max: 5)
-M 0 16094 3 16190 100 	* the killer at Death's Lane. (Max: 3)
-M 0 16094 3 16197 100 	* the killer at Beginning of Death's Lane. (Max: 3)
-G 1 16090 5  100 			* And give it a fire gem. (Max: 5)
-D 0 16103 2 1 100 		* Close Eastern door at Sunrise before the cages
-D 0 16107 3 1 100 		* Close Eastern door at Sunrise before the Prisons
-D 0 16108 0 1 100 		* Close Northern door at Street of the Gods
-D 0 16109 0 1 100 		* Close Northern door at Street of the Gods
-D 0 16110 0 1 100 		* Close Northern door at Street of the Gods
-D 0 16122 1 1 100 		* Close Eastern door at Street of the Gods
-D 0 16137 2 1 100 		* Close Eastern door at Road Of Shadows
-D 0 16159 3 1 100 		* Close Eastern door at Dark Entrance Way
-D 0 16167 3 1 100 		* Close Eastern door at The Forgotten Alley
-D 0 16181 1 1 100 		* Close Eastern door at Azurite Street
-D 0 16195 0 1 100 		* Close Northern door at Death's Lane
-D 0 16199 3 1 100 		* Close Eastern door at Traveller's Crescent
-M 0 16001 35 16201 100 	* the enforcer eye at Traveller's Crescent. (Max: 35)
-M 0 16001 35 16212 100 	* the enforcer eye at Traveller's Crescent. (Max: 35)
-M 0 16001 35 16217 100 	* the enforcer eye at Traveller's Crescent. (Max: 35)
-M 0 16006 1 16239 100 	* the beholder at Vast Hall. (Max: 1)
-G 1 16005 4  100 			* And give it beholder's eyestalk. (Max: 4)
-M 0 16007 16 16201 100 	* the svirfneblin at Traveller's Crescent. (Max: 16)
-M 0 16007 16 16209 100 	* the svirfneblin at Traveller's Crescent. (Max: 16)
-M 0 16008 12 16208 100 	* the drow trader at Traveller's Crescent. (Max: 12)
-M 0 16009 18 16210 100 	* the duergar at Traveller's Crescent. (Max: 18)
-M 0 16009 18 16218 100 	* the duergar at Traveller's Crescent. (Max: 18)
-M 0 16014 10 16211 100 	* the lizard man at Traveller's Crescent. (Max: 10)
-E 1 16013 10 7 100 			* And equip it with ripped leather pants. (Max: 10)
-M 0 16015 1 16221 100 	* the purple worm at Quiet Desolation. (Max: 1)
-G 1 16014 5  100 			* And give it a purple worm scale bracelet. (Max: 5)
-M 0 16016 1 16220 100 	* the huge purple worm at Destroyed Section of the Tunnel. (Max: 1)
-G 1 16015 5  100 			* And give it a purple worm scale shield. (Max: 5)
-M 0 16017 3 16228 100 	* the beholder's underling at Entry Hall. (Max: 3)
-E 1 16016 5 9 100 			* And equip it with Gauntlets of the Eye. (Max: 5)
-M 0 16017 3 16229 100 	* the beholder's underling at Jaded Hall. (Max: 3)
-M 0 16017 3 16242 100 	* the beholder's underling at Guest Chamber. (Max: 3)
-M 0 16018 3 16237 100 	* the beholder legionnaire at Entrance to the Vast Hall. (Max: 3)
-E 1 16017 5 6 100 			* And equip it with Helm of the Eye. (Max: 5)
-M 0 16018 3 16237 100 	* the beholder legionnaire at Entrance to the Vast Hall. (Max: 3)
-M 0 16018 3 16237 100 	* the beholder legionnaire at Entrance to the Vast Hall. (Max: 3)
-M 0 16019 1 16243 100 	* the supreme attendant at The Supreme Attendant's Chamber. (Max: 1)
-E 1 16016 5 9 100 			* And equip it with Gauntlets of the Eye. (Max: 5)
-E 1 16017 5 6 100 			* And equip it with Helm of the Eye. (Max: 5)
-M 0 16020 1 16238 100 	* the grell at Vast Hall. (Max: 1)
-M 0 16021 1 16247 100 	* the Barkeep at The Gemstone. (Max: 1)
-G 1 3002 100  100 			* And give it a bottle. (Max: 100)
-G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
-M 0 16022 4 16247 100 	* the duergar patron at The Gemstone. (Max: 4)
-M 0 16022 4 16244 100 	* the duergar patron at The Gemstone. (Max: 4)
-M 0 16022 4 16245 100 	* the duergar patron at The Gemstone. (Max: 4)
-M 0 16023 3 16246 100 	* the drow patron at The Gemstone. (Max: 3)
-M 0 16023 3 16247 100 	* the drow patron at The Gemstone. (Max: 3)
-M 0 16024 2 16244 100 	* the human patron at The Gemstone. (Max: 2)
-M 0 16024 2 16246 100 	* the human patron at The Gemstone. (Max: 2)
-M 0 16025 1 16245 100 	* Caris at The Gemstone. (Max: 1)
-M 0 16026 1 16245 100 	* Antryg at The Gemstone. (Max: 1)
-M 0 16027 7 16251 100 	* the gremlin at Twisting Passage. (Max: 7)
-M 0 16027 7 16253 100 	* the gremlin at Chaotic Cluttered Room. (Max: 7)
-M 0 16027 7 16254 100 	* the gremlin at Dark Chaotic Corridor. (Max: 7)
-M 0 16027 7 16257 100 	* the gremlin at Twisting Dark Corridor. (Max: 7)
-M 0 16027 7 16260 100 	* the gremlin at Dark Corridor. (Max: 7)
-M 0 16027 7 16263 100 	* the gremlin at A Gloomy Room. (Max: 7)
-M 0 16027 7 16273 100 	* the gremlin at Abandoned Rest Room. (Max: 7)
-M 0 16028 3 16258 100 	* the slime creature at Damp Cluttered Room. (Max: 3)
-E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
-M 0 16028 3 16258 100 	* the slime creature at Damp Cluttered Room. (Max: 3)
-M 0 16028 3 16273 100 	* the slime creature at Abandoned Rest Room. (Max: 3)
-M 0 16029 5 16248 100 	* the huge rat at Deserted Warehouse. (Max: 5)
-M 0 16029 5 16257 100 	* the huge rat at Twisting Dark Corridor. (Max: 5)
-M 0 16029 5 16264 100 	* the huge rat at The Corridor in the Abandoned Warehouse. (Max: 5)
-M 0 16029 5 16268 100 	* the huge rat at The Corridor. (Max: 5)
-M 0 16029 5 16271 100 	* the huge rat at End of the Corridor. (Max: 5)
-M 0 16030 5 16250 100 	* the jinxkin at Cluttered Room. (Max: 5)
-E 1 16018 10 16 100 			* And equip it with a very sharp pin. (Max: 10)
-M 0 16030 5 16252 100 	* the jinxkin at Small Dusty Enclave. (Max: 5)
-M 0 16030 5 16253 100 	* the jinxkin at Chaotic Cluttered Room. (Max: 5)
-M 0 16030 5 16255 100 	* the jinxkin at Dark Small Room. (Max: 5)
-M 0 16030 5 16269 100 	* the jinxkin at The Old Office. (Max: 5)
-M 0 16031 7 16252 100 	* the jermlaine at Small Dusty Enclave. (Max: 7)
-E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
-M 0 16031 7 16263 100 	* the jermlaine at A Gloomy Room. (Max: 7)
-M 0 16031 7 16264 100 	* the jermlaine at The Corridor in the Abandoned Warehouse. (Max: 7)
-E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
-M 0 16031 7 16267 100 	* the jermlaine at Cramped Dim Room. (Max: 7)
-M 0 16031 7 16267 100 	* the jermlaine at Cramped Dim Room. (Max: 7)
-M 0 16031 7 16269 100 	* the jermlaine at The Old Office. (Max: 7)
-M 0 16031 7 16269 100 	* the jermlaine at The Old Office. (Max: 7)
-E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
-M 0 16032 1 16298 100 	* the bodak at Audience Chamber. (Max: 1)
-E 1 16021 5 17 100 			* And equip it with a black wand inlaid with gold symbols. (Max: 5)
-E 1 16022 5 13 100 			* And equip it with girth of protection. (Max: 5)
-M 0 16033 1 16285 100 	* the mage at Small Well Furnished Chamber. (Max: 1)
-M 0 16034 3 16290 100 	* the iron golem at Main Hall. (Max: 3)
-E 1 16024 5 16 100 			* And equip it with a large iron sword. (Max: 5)
-M 0 16034 3 16294 100 	* the iron golem at Main Hall. (Max: 3)
-M 0 16034 3 16296 100 	* the iron golem at Audience Chamber. (Max: 3)
-M 0 16035 4 16283 100 	* the stone golem at A Hallway in the Mansion. (Max: 4)
-M 0 16035 4 16286 100 	* the stone golem at End of Hall in the Mansion. (Max: 4)
-M 0 16035 4 16293 100 	* the stone golem at Main Hall. (Max: 4)
-M 0 16035 4 16297 100 	* the stone golem at Audience Chamber. (Max: 4)
-E 1 16025 5 16 100 			* And equip it with a huge stone mace. (Max: 5)
-M 0 16036 1 16282 100 	* Itreres at Guest Chamber. (Max: 1)
-E 1 16026 5 11 100 			* And equip it with the Black Shield of Protection. (Max: 5)
-M 0 16037 1 16294 100 	* the imp at Main Hall. (Max: 1)
-E 1 16027 5 17 100 			* And equip it with a small black stone. (Max: 5)
-M 0 16038 2 16289 100 	* the babau at Secret Chamber. (Max: 2)
-M 0 16038 2 16295 100 	* the babau at Audience Chamber. (Max: 2)
-M 0 16039 2 16280 100 	* the servant at Guest Room. (Max: 2)
-M 0 16039 2 16287 100 	* the servant at Dining Hall. (Max: 2)
-M 0 16040 1 16288 100 	* the gibbering mouther at Dining Hall. (Max: 1)
-M 0 16057 12 16202 100 	* a slave buyer at Traveller's Crescent. (Max: 12)
-M 0 16082 5 16201 100 	* the cutpurse at Traveller's Crescent. (Max: 5)
-M 0 16083 5 16215 100 	* the filcher at Traveller's Crescent. (Max: 5)
-M 0 16091 6 16209 100 	* the bravo at Traveller's Crescent. (Max: 6)
-D 0 16274 3 1 100 		* Close Eastern door at Entrance To An Abandoned Warehouse
-D 0 16228 2 1 100 		* Close Eastern door at Entry Hall
-D 0 16246 2 1 100 		* Close Eastern door at The Gemstone
-D 0 16275 2 1 100 		* Close Eastern door at Entrance Hall
-D 0 16299 2 1 100 		* Close Eastern door at Entrance to the Whore House
-D 0 16227 3 1 100 		* Close Eastern door at Before the Entrance
-D 0 16222 1 1 100 		* Close Eastern door at The Hidden Way
-D 0 16208 3 1 100 		* Close Eastern door at Traveller's Crescent
-D 0 16219 0 1 100 		* Close Northern door at Dark Tunnel
-D 0 16225 0 1 100 		* Close Northern door at Wide Passage
-D 0 16299 0 1 100 		* Close Northern door at Entrance to the Whore House
-D 0 16299 1 1 100 		* Close Eastern door at Entrance to the Whore House
-D 0 16230 2 1 100 		* Close Eastern door at Jaded Hall Before a Beautiful Door
-D 0 16237 0 1 100 		* Close Northern door at Entrance to the Vast Hall
-D 0 16234 1 1 100 		* Close Eastern door at Jaded Corridor
-D 0 16240 3 1 100 		* Close Eastern door at Guest Chamber
-D 0 16234 3 1 100 		* Close Eastern door at Jaded Corridor
-D 0 16241 1 1 100 		* Close Eastern door at Guest Chamber
-D 0 16235 1 1 100 		* Close Eastern door at Jaded Corridor
-D 0 16242 3 1 100 		* Close Eastern door at Guest Chamber
-D 0 16235 3 1 100 		* Close Eastern door at Jaded Corridor
-D 0 16243 1 1 100 		* Close Eastern door at The Supreme Attendant's Chamber
-D 0 16249 3 1 100 		* Close Eastern door at Confusing Passage
-D 0 16250 1 1 100 		* Close Eastern door at Cluttered Room
-D 0 16251 3 1 100 		* Close Eastern door at Twisting Passage
-D 0 16252 1 1 100 		* Close Eastern door at Small Dusty Enclave
-D 0 16251 2 1 100 		* Close Eastern door at Twisting Passage
-D 0 16253 0 1 100 		* Close Northern door at Chaotic Cluttered Room
-D 0 16254 0 1 100 		* Close Northern door at Dark Chaotic Corridor
-D 0 16256 2 1 100 		* Close Eastern door at Cramped Room
-D 0 16254 2 1 100 		* Close Eastern door at Dark Chaotic Corridor
-D 0 16255 0 1 100 		* Close Northern door at Dark Small Room
-D 0 16257 0 1 100 		* Close Northern door at Twisting Dark Corridor
-D 0 16258 2 1 100 		* Close Eastern door at Damp Cluttered Room
-D 0 16260 1 1 100 		* Close Eastern door at Dark Corridor
-D 0 16261 3 1 100 		* Close Eastern door at A Dim Room
-D 0 16262 1 1 100 		* Close Eastern door at Shadowy Jumbled Corridor
-D 0 16263 3 1 100 		* Close Eastern door at A Gloomy Room
-D 0 16266 1 1 100 		* Close Eastern door at Corridor in the Warehouse
-D 0 16267 3 1 100 		* Close Eastern door at Cramped Dim Room
-D 0 16268 2 1 100 		* Close Eastern door at The Corridor
-D 0 16269 0 1 100 		* Close Northern door at The Old Office
-D 0 16271 2 1 100 		* Close Eastern door at End of the Corridor
-D 0 16272 0 1 100 		* Close Northern door at Old Recreation Area
-D 0 16272 3 1 100 		* Close Eastern door at Old Recreation Area
-D 0 16273 1 1 100 		* Close Eastern door at Abandoned Rest Room
-D 0 16279 3 1 100 		* Close Eastern door at Hallway in the mansion
-D 0 16280 1 1 100 		* Close Eastern door at Guest Room
-D 0 16281 3 1 100 		* Close Eastern door at Hallway in the Mansion
-D 0 16282 1 1 100 		* Close Eastern door at Guest Chamber
-D 0 16283 2 1 100 		* Close Eastern door at A Hallway in the Mansion
-D 0 16287 0 1 100 		* Close Northern door at Dining Hall
-D 0 16284 1 1 100 		* Close Eastern door at Washroom
-D 0 16286 3 1 100 		* Close Eastern door at End of Hall in the Mansion
-D 0 16285 3 1 100 		* Close Eastern door at Small Well Furnished Chamber
-D 0 16286 1 1 100 		* Close Eastern door at End of Hall in the Mansion
-D 0 16288 0 1 100 		* Close Northern door at Dining Hall
-D 0 16289 2 1 100 		* Close Eastern door at Secret Chamber
-D 0 16289 0 1 100 		* Close Northern door at Secret Chamber
-D 0 16296 2 1 100 		* Close Eastern door at Audience Chamber
-D 0 16294 0 1 100 		* Close Northern door at Main Hall
-D 0 16295 2 1 100 		* Close Eastern door at Audience Chamber
-M 0 16001 35 16337 100 	* the enforcer eye at The eastern entrance. (Max: 35)
-M 0 16001 35 16336 100 	* the enforcer eye at Prison Hall. (Max: 35)
-M 0 16001 35 16338 100 	* the enforcer eye at Western Entrance. (Max: 35)
-M 0 16001 35 16346 100 	* the enforcer eye at The end of the prison hallway. (Max: 35)
-M 0 16003 3 16331 100 	* the prisoner at Prison Cell. (Max: 3)
-M 0 16003 3 16334 100 	* the prisoner at Prison Cell. (Max: 3)
-M 0 16003 3 16343 100 	* the prisoner at Prison Cell. (Max: 3)
-M 0 16004 2 16345 100 	* the great enforcing eye at Prison Cell. (Max: 2)
-G 1 16003 4  100 			* And give it slime of the enforcing eye. (Max: 4)
-M 0 16004 2 16347 100 	* the great enforcing eye at Chamber of the Beholder. (Max: 2)
-G 1 16003 4  100 			* And give it slime of the enforcing eye. (Max: 4)
-M 0 16005 1 16339 100 	* the huge beholder at Prison Cell. (Max: 1)
-M 0 16041 3 16301 100 	* the worker of the night at Whoring Area. (Max: 3)
-M 0 16041 3 16303 100 	* the worker of the night at Whoring Area. (Max: 3)
-M 0 16042 2 16302 100 	* a maid of passion at Whoring Area. (Max: 2)
-E 1 16029 5 12 100 			* And equip it with a translucent robe. (Max: 5)
-M 0 16042 2 16303 100 	* a maid of passion at Whoring Area. (Max: 2)
-E 1 16029 5 12 100 			* And equip it with a translucent robe. (Max: 5)
-M 0 16043 1 16304 100 	* a granter of pleasure at Whoring Area. (Max: 1)
-E 1 16030 5 13 100 			* And equip it with a belt of pleasure. (Max: 5)
-M 0 16044 2 16301 100 	* a preferred customer at Whoring Area. (Max: 2)
-E 1 16031 5 1 100 			* And equip it with a ring of nobility. (Max: 5)
-M 0 16044 2 16302 100 	* a preferred customer at Whoring Area. (Max: 2)
-M 0 16045 1 16300 100 	* the pimp at Paying Room. (Max: 1)
-G 1 16032 5  100 			* And give it a set of gold teeth. (Max: 5)
-M 0 16046 3 16310 100 	* the halfling patron at Common Room. (Max: 3)
-M 0 16046 3 16314 100 	* the halfling patron at Common Room. (Max: 3)
-M 0 16047 3 16310 100 	* the half-orc at Common Room. (Max: 3)
-E 1 16033 5 16 100 			* And equip it with a broken bottle. (Max: 5)
-M 0 16047 3 16311 100 	* the half-orc at Common Room. (Max: 3)
-E 1 16033 5 16 100 			* And equip it with a broken bottle. (Max: 5)
-M 0 16048 3 16308 100 	* the svirfneblin patron at Common Room. (Max: 3)
-M 0 16049 1 16314 100 	* the innkeeper at Common Room. (Max: 1)
-G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
-M 0 16050 1 16310 100 	* Limbeck at Common Room. (Max: 1)
-E 1 16034 5 8 100 			* And equip it with a pair of dusty boots. (Max: 5)
-M 0 16051 1 16318 100 	* Geg at Inn Room. (Max: 1)
-E 1 16035 5 6 100 			* And equip it with a gnome hat. (Max: 5)
-M 0 16052 1 16312 100 	* Drevlin at Inn Room. (Max: 1)
-E 1 16036 5 8 100 			* And equip it with boots of flying. (Max: 5)
-M 0 16053 1 16308 100 	* Jarre at Common Room. (Max: 1)
-E 1 16037 5 14 100 			* And equip it with bracers of strength. (Max: 5)
-M 0 16054 3 16308 100 	* the serving wench at Common Room. (Max: 3)
-M 0 16054 3 16314 100 	* the serving wench at Common Room. (Max: 3)
-M 0 16055 1 16319 100 	* the Slave Dealer at Entrance to the Slaver's Market. (Max: 1)
-G 1 16094 5  100 			* And give it not so rich merchant's gold. (Max: 5)
-M 0 16056 15 16325 100 	* the slave trader at Slave Hall. (Max: 15)
-M 0 16057 12 16321 100 	* a slave buyer at Slave Hall. (Max: 12)
-M 0 16057 12 16323 100 	* a slave buyer at Slave Hall. (Max: 12)
-M 0 16058 1 16320 100 	* the orc slave at Slave Cage. (Max: 1)
-M 0 16059 1 16320 100 	* the goblin slave at Slave Cage. (Max: 1)
-M 0 16060 1 16320 100 	* a male human slave at Slave Cage. (Max: 1)
-M 0 16061 1 16320 100 	* the female human slave at Slave Cage. (Max: 1)
-M 0 16062 1 16320 100 	* the kobold at Slave Cage. (Max: 1)
-M 0 16063 1 16320 100 	* the elven slave at Slave Cage. (Max: 1)
-M 0 16064 1 16320 100 	* the dwarven slave at Slave Cage. (Max: 1)
-M 0 16022 4 16352 100 	* the duergar patron at The Dining Area. (Max: 4)
-M 0 16023 3 16354 100 	* the drow patron at Dining Area. (Max: 3)
-M 0 16046 3 16342 100 	* the halfling patron at Prison Hall. (Max: 3)
-M 0 16048 3 16354 100 	* the svirfneblin patron at Dining Area. (Max: 3)
-M 0 16065 1 16352 100 	* the Bartender at The Dining Area. (Max: 1)
-G 1 16094 5  100 			* And give it not so rich merchant's gold. (Max: 5)
-M 0 16066 1 16353 100 	* Prax at Dining Area. (Max: 1)
-E 1 16040 5 3 100 			* And equip it with a long flowing cloak. (Max: 5)
-M 0 16067 1 16353 100 	* Thespan at Dining Area. (Max: 1)
-E 1 16041 5 16 100 			* And equip it with a jagged long sword. (Max: 5)
-M 0 16068 1 16353 100 	* Endolar at Dining Area. (Max: 1)
-E 1 16042 5 16 100 			* And equip it with an ebony dagger. (Max: 5)
-M 0 16069 1 16351 100 	* Snaromba at Dining Area. (Max: 1)
-E 1 16043 5 0 100 			* And equip it with a glowing sphere. (Max: 5)
-M 0 16070 1 16351 100 	* Anmictes at Dining Area. (Max: 1)
-E 1 16044 5 14 100 			* And equip it with a pair of midnight blue bracers. (Max: 5)
-M 0 16071 1 16351 100 	* Emba at Dining Area. (Max: 1)
-E 1 16045 5 16 100 			* And equip it with an ebony morning star. (Max: 5)
-M 0 16072 1 16351 100 	* Shillikif at Dining Area. (Max: 1)
-E 1 16046 5 5 100 			* And equip it with black drow chainmail. (Max: 5)
-M 0 16073 1 16356 100 	* Yie'Stei at The Glowing Hand. (Max: 1)
-G 1 16059 5  100 			* And give it a scroll of refresh. (Max: 5)
-G 1 16060 5  100 			* And give it a hand of shocking grasp. (Max: 5)
-G 1 16061 5  100 			* And give it a potion of detection. (Max: 5)
-G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
-M 0 16074 1 16357 100 	* Zae'tres at The Cracked Sword. (Max: 1)
-G 1 16047 5  100 			* And give it a drow long sword. (Max: 5)
-G 1 16048 5  100 			* And give it a drow dagger. (Max: 5)
-G 1 16049 5  100 			* And give it a drow mace. (Max: 5)
-G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
-M 0 16075 1 16358 100 	* Raesarnt at The Dented Shield. (Max: 1)
-G 1 16050 5  100 			* And give it a duergar breast plate. (Max: 5)
-G 1 16051 5  100 			* And give it a duergar helm. (Max: 5)
-G 1 16052 5  100 			* And give it a duergar shield. (Max: 5)
-G 1 16053 5  100 			* And give it a pair of duergar leggings. (Max: 5)
-G 1 16054 5  100 			* And give it a pair of duergar bracers. (Max: 5)
-G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
-M 0 16076 1 16359 100 	* Satori at The Sparkling Jewel. (Max: 1)
-G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
-M 0 16077 1 16360 100 	* Jiestis at The Darkened Root. (Max: 1)
-G 1 16055 100  100 			* And give it a brown mushroom. (Max: 100)
-G 1 16056 100  100 			* And give it a large mushroom. (Max: 100)
-G 1 16058 100  100 			* And give it a dirty root. (Max: 100)
-G 1 16093 100  100 			* And give it merchant's gold. (Max: 100)
-M 0 16078 2 16364 100 	* the svirfneblin at Svirfneblin Chamber. (Max: 2)
-E 1 16062 5 7 100 			* And equip it with Svirfneblin leggings. (Max: 5)
-M 0 16078 2 16365 100 	* the svirfneblin at Svirfneblin Hallway. (Max: 2)
-M 0 16079 1 16366 100 	* the svirfneblin dignitary at Svirfneblin Chamber. (Max: 1)
-E 1 16063 5 3 100 			* And equip it with a necklace of nobility. (Max: 5)
-M 0 16080 1 16368 100 	* the caretaker at Svirfneblin Chamber. (Max: 1)
-E 1 16064 5 16 100 			* And equip it with a broadsword named 'Vision'. (Max: 5)
-M 0 16085 8 16370 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-M 0 16085 8 16370 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-E 1 16068 5 17 100 			* And equip it with a pair of dice. (Max: 5)
-M 0 16085 8 16371 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-M 0 16085 8 16371 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-M 0 16085 8 16375 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-M 0 16085 8 16375 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-M 0 16085 8 16376 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-M 0 16085 8 16376 100 	* the sharper at Thieve's Guard Room. (Max: 8)
-M 0 16086 3 16378 100 	* the magsman at Hallway in the Thieve's Guild. (Max: 3)
-E 1 16069 5 3 100 			* And equip it with a dark cloak. (Max: 5)
-M 0 16086 3 16388 100 	* the magsman at Personal Chamber. (Max: 3)
-M 0 16086 3 16396 100 	* the magsman at Private Chamber. (Max: 3)
-M 0 16087 3 16383 100 	* the master thief at Thieve's Council Chamber. (Max: 3)
-E 1 16070 5 18 100 			* And equip it with an obsidian earring. (Max: 5)
-M 0 16087 3 16391 100 	* the master thief at Master Thief's Room. (Max: 3)
-M 0 16087 3 16394 100 	* the master thief at Private Room. (Max: 3)
-M 0 16088 1 16385 100 	* the head thief at Thieve's Council Chamber. (Max: 1)
-E 1 16071 5 16 100 			* And equip it with a jewelled dagger. (Max: 5)
-M 0 16089 1 16390 100 	* Meliadus at Mage Chamber. (Max: 1)
-E 1 16072 5 0 100 			* And equip it with a hand grasping an orb. (Max: 5)
-E 1 16073 5 12 100 			* And equip it with a long flowing robe. (Max: 5)
-M 0 16090 1 16381 100 	* the trainer at Training Room. (Max: 1)
-D 0 16305 2 1 100 		* Close Eastern door at Entrance to the Traveller's Den
-D 0 16327 0 1 100 		* Close Northern door at Before the Northern Entrance of the Prisons
-D 0 16337 1 1 100 		* Close Eastern door at The eastern entrance
-D 0 16338 3 1 100 		* Close Eastern door at Western Entrance
-D 0 16369 0 1 100 		* Close Northern door at Entrance to the Thieve's Guild
-D 0 16397 1 1 100 		* Close Eastern door at Entrance to the Assassin's Guild
-D 0 16374 3 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16301 2 1 100 		* Close Eastern door at Whoring Area
-D 0 16300 3 1 100 		* Close Eastern door at Paying Room
-D 0 16306 0 1 100 		* Close Northern door at Entrance Hall to the Inn
-D 0 16307 2 1 100 		* Close Eastern door at Rest Room
-D 0 16308 2 1 100 		* Close Eastern door at Common Room
-D 0 16309 0 1 100 		* Close Northern door at Inn Room
-D 0 16311 2 1 100 		* Close Eastern door at Common Room
-D 0 16312 0 1 100 		* Close Northern door at Inn Room
-D 0 16311 1 1 100 		* Close Eastern door at Common Room
-D 0 16313 3 1 100 		* Close Eastern door at Hall to the Inn Rooms
-D 0 16313 0 1 100 		* Close Northern door at Hall to the Inn Rooms
-D 0 16315 2 1 100 		* Close Eastern door at Inn Room
-D 0 16313 2 1 100 		* Close Eastern door at Hall to the Inn Rooms
-D 0 16316 0 1 100 		* Close Northern door at Inn Room
-D 0 16317 2 1 100 		* Close Eastern door at Traveller's Den Hallway
-D 0 16318 0 1 100 		* Close Northern door at Inn Room
-D 0 16319 0 1 100 		* Close Northern door at Entrance to the Slaver's Market
-D 0 16320 2 1 100 		* Close Eastern door at Slave Cage
-D 0 16325 0 1 100 		* Close Northern door at Slave Hall
-D 0 16326 2 1 100 		* Close Eastern door at Slave Cage
-D 0 16327 1 1 100 		* Close Eastern door at Before the Northern Entrance of the Prisons
-D 0 16328 3 1 100 		* Close Eastern door at Prison Cell
-D 0 16330 1 1 100 		* Close Eastern door at Prison Hall
-D 0 16331 3 1 100 		* Close Eastern door at Prison Cell
-D 0 16330 3 1 100 		* Close Eastern door at Prison Hall
-D 0 16332 1 1 100 		* Close Eastern door at Prison Cell
-D 0 16333 1 1 100 		* Close Eastern door at Prison Hall
-D 0 16335 3 1 100 		* Close Eastern door at Prison Cell
-D 0 16333 3 1 100 		* Close Eastern door at Prison Hall
-D 0 16334 1 1 100 		* Close Eastern door at Prison Cell
-D 0 16336 2 1 100 		* Close Eastern door at Prison Hall
-D 0 16339 0 1 100 		* Close Northern door at Prison Cell
-D 0 16337 2 1 100 		* Close Eastern door at The eastern entrance
-D 0 16341 0 1 100 		* Close Northern door at Prison Cell
-D 0 16338 2 1 100 		* Close Eastern door at Western Entrance
-D 0 16340 0 1 100 		* Close Northern door at Prison Cell
-D 0 16342 2 1 100 		* Close Eastern door at Prison Hall
-D 0 16343 0 1 100 		* Close Northern door at Prison Cell
-D 0 16344 2 1 100 		* Close Eastern door at Prison Hall
-D 0 16345 0 1 100 		* Close Northern door at Prison Cell
-D 0 16346 2 1 100 		* Close Eastern door at The end of the prison hallway
-D 0 16347 0 1 100 		* Close Northern door at Chamber of the Beholder
-D 0 16354 3 1 100 		* Close Eastern door at Dining Area
-D 0 16355 1 1 100 		* Close Eastern door at Washroom of the Shadow's Shadow
-D 0 16363 1 1 100 		* Close Eastern door at Svirfneblin Hallway
-D 0 16364 3 1 100 		* Close Eastern door at Svirfneblin Chamber
-D 0 16365 1 1 100 		* Close Eastern door at Svirfneblin Hallway
-D 0 16366 3 1 100 		* Close Eastern door at Svirfneblin Chamber
-D 0 16367 1 1 100 		* Close Eastern door at Svirfneblin Hallway
-D 0 16368 3 1 100 		* Close Eastern door at Svirfneblin Chamber
-D 0 16369 1 1 100 		* Close Eastern door at Entrance to the Thieve's Guild
-D 0 16370 3 1 100 		* Close Eastern door at Thieve's Guard Room
-D 0 16369 3 1 100 		* Close Eastern door at Entrance to the Thieve's Guild
-D 0 16371 1 1 100 		* Close Eastern door at Thieve's Guard Room
-D 0 16374 0 1 100 		* Close Northern door at Hallway in the Thieve's Guild
-D 0 16375 2 1 100 		* Close Eastern door at Thieve's Guard Room
-D 0 16374 2 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16376 0 1 100 		* Close Northern door at Thieve's Guard Room
-D 0 16377 1 1 100 		* Close Eastern door at Storage Room
-D 0 16378 3 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16379 3 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16380 1 1 100 		* Close Eastern door at Practice Room
-D 0 16380 3 1 100 		* Close Eastern door at Practice Room
-D 0 16381 1 1 100 		* Close Eastern door at Training Room
-D 0 16382 2 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16383 0 1 100 		* Close Northern door at Thieve's Council Chamber
-D 0 16387 0 1 100 		* Close Northern door at Hallway in the Thieve's Guild
-D 0 16388 2 1 100 		* Close Eastern door at Personal Chamber
-D 0 16389 0 1 100 		* Close Northern door at Hallway in the Thieve's Guild
-D 0 16390 2 1 100 		* Close Eastern door at Mage Chamber
-D 0 16389 1 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16391 3 1 100 		* Close Eastern door at Master Thief's Room
-D 0 16391 0 1 100 		* Close Northern door at Master Thief's Room
-D 0 16392 2 1 100 		* Close Eastern door at Master Thief's Sleep Chamber
-D 0 16393 1 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16394 3 1 100 		* Close Eastern door at Private Room
-D 0 16395 1 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
-D 0 16396 3 1 100 		* Close Eastern door at Private Chamber
-M 0 16095 2 16400 100 	* the assassin at Hallway in the Assassin's Guild. (Max: 2)
-E 1 16077 5 16 100 			* And equip it with a choke wire. (Max: 5)
-M 0 16095 2 16402 100 	* the assassin at Chamber in the Assassin's Guild. (Max: 2)
-E 1 16077 5 16 100 			* And equip it with a choke wire. (Max: 5)
-M 0 16096 3 16413 100 	* the expert assassin at Assassin's Meeting Chamber. (Max: 3)
-E 1 16078 5 20 100 			* And equip it with an assassin's mask. (Max: 5)
-M 0 16096 3 16415 100 	* the expert assassin at Hallway in the Assassin's Guild. (Max: 3)
-M 0 16096 3 16421 100 	* the expert assassin at Assassin's Information Gathering. (Max: 3)
-M 0 16097 2 16405 100 	* the senior assassin at Chamber in the Assassin's Guild. (Max: 2)
-E 1 16079 5 14 100 			* And equip it with a flaming dagger tattoo. (Max: 5)
-M 0 16097 2 16423 100 	* the senior assassin at Assassin's Scrying Chamber. (Max: 2)
-M 0 16098 2 16409 100 	* the prime assassin at Chamber in the Assassin's Guild. (Max: 2)
-E 1 16080 5 14 100 			* And equip it with a wyvern tattoo. (Max: 5)
-M 0 16098 2 16411 100 	* the prime assassin at Assassin's Meeting Chamber. (Max: 2)
-M 0 16099 1 16412 100 	* the guildmaster at Assassin's Meeting Chamber. (Max: 1)
-E 1 16081 5 10 100 			* And equip it with a dragon tattoo. (Max: 5)
-E 1 16082 5 6 100 			* And equip it with a diamond helm. (Max: 5)
-E 1 16083 5 11 100 			* And equip it with the keeper's shield. (Max: 5)
-G 1 3002 1000  100 			* And give it a bottle. (Max: 1000)
-G 1 16093 100  100 			* And give it merchant's gold. (Max: 100)
-M 0 16054 3 16445 100 	* the serving wench at Common Room. (Max: 3)
-M 0 16047 3 16445 100 	* the half-orc at Common Room. (Max: 3)
-E 1 16033 5 16 100 			* And equip it with a broken bottle. (Max: 5)
-M 0 16048 3 16442 100 	* the svirfneblin patron at Common Room of the Traveller's Den. (Max: 3)
-E 1 16084 5 1 100 			* And equip it with a demon clan signet ring. (Max: 5)
-E 1 16084 5 1 100 			* And equip it with a demon clan signet ring. (Max: 5)
-E 1 16084 5 1 100 			* And equip it with a demon clan signet ring. (Max: 5)
-E 1 16085 5 14 100 			* And equip it with a pair of demon bracers. (Max: 5)
-E 1 16086 5 16 100 			* And equip it with a red and black blade. (Max: 5)
-E 1 16088 5 5 100 			* And equip it with a suit of demon plate. (Max: 5)
-D 0 16484 0 1 100 		* Close Northern door at Denizen of the Underdark's Abode
-D 0 16485 0 1 100 		* Close Northern door at Home of a Denizen of the Underdark
-D 0 16486 0 1 100 		* Close Northern door at Denizen of the Underdark's Abode
-D 0 16487 0 1 100 		* Close Northern door at Home of a Denizen of the Underdark
-D 0 16488 2 1 100 		* Close Eastern door at Denizen of the Underdark's Home
-D 0 16492 0 1 100 		* Close Northern door at Denizen of the Underdark's Abode
-D 0 16489 2 1 100 		* Close Eastern door at Home in the Underdark
-D 0 16493 0 1 100 		* Close Northern door at Home of a Denizen of the Underdark
-D 0 16490 2 1 100 		* Close Eastern door at Home of a Denizen of the Underdark
-D 0 16494 0 1 100 		* Close Northern door at Home in the Underdark
-D 0 16491 2 1 100 		* Close Eastern door at Denizen of the Underdark's Home
-D 0 16438 0 1 100 		* Close Northern door at Entrance to the Cages
-D 0 16497 2 1 100 		* Close Eastern door at Home in the Underdark
-D 0 16496 2 1 100 		* Close Eastern door at Denizen of the Underdark's Home
-D 0 16495 2 1 100 		* Close Eastern door at Home of a Denizen of the Underdark
-D 0 16424 1 1 100 		* Close Eastern door at Entrance to Eurandus' Home
-D 0 16414 2 1 100 		* Close Eastern door at Hallway in the Assassin's Guild
-D 0 16442 1 1 100 		* Close Eastern door at Common Room of the Traveller's Den
-D 0 16456 2 1 100 		* Close Eastern door at Entrance to Demon Clan
-D 0 16400 1 1 100 		* Close Eastern door at Hallway in the Assassin's Guild
-D 0 16401 3 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
-D 0 16401 0 1 100 		* Close Northern door at Corridor in the Assassin's Guild
-D 0 16402 2 1 100 		* Close Eastern door at Chamber in the Assassin's Guild
-D 0 16401 2 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
-D 0 16403 0 1 100 		* Close Northern door at Chamber in the Assassin's Guild
-D 0 16404 0 1 100 		* Close Northern door at Corridor in the Assassin's Guild
-D 0 16406 2 1 100 		* Close Eastern door at Chamber in the Assassin's Guild
-D 0 16404 2 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
-D 0 16405 0 1 100 		* Close Northern door at Chamber in the Assassin's Guild
-D 0 16407 0 1 100 		* Close Northern door at Corridor in the Assassin's Guild
-D 0 16408 2 1 100 		* Close Eastern door at Chamber in the Assassin's Guild
-D 0 16407 2 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
-D 0 16409 0 1 100 		* Close Northern door at Chamber in the Assassin's Guild
-D 0 16407 1 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
-D 0 16410 3 1 100 		* Close Eastern door at Assassin's Meeting Chamber
-D 0 16416 0 1 100 		* Close Northern door at Split in the Hallway
-D 0 16417 2 1 100 		* Close Eastern door at Assassin's Storage Room
-D 0 16418 0 1 100 		* Close Northern door at Hall of the Assassins
-D 0 16419 2 1 100 		* Close Eastern door at Assassin's Training Room
-D 0 16420 0 1 100 		* Close Northern door at Hall of the Assassins
-D 0 16421 2 1 100 		* Close Eastern door at Assassin's Information Gathering
-D 0 16422 0 1 100 		* Close Northern door at The Hall of the Assassins
-D 0 16423 2 1 100 		* Close Eastern door at Assassin's Scrying Chamber
-D 0 16424 3 1 100 		* Close Eastern door at Entrance to Eurandus' Home
-D 0 16425 1 1 100 		* Close Eastern door at Waiting Room
-D 0 16429 3 1 100 		* Close Eastern door at Large Hall
-D 0 16431 1 1 100 		* Close Eastern door at Guest Room
-D 0 16432 3 1 100 		* Close Eastern door at Large Hall
-D 0 16435 1 1 100 		* Close Eastern door at Eurandus' Room
-D 0 16434 0 1 100 		* Close Northern door at Large Hall
-D 0 16436 2 1 100 		* Close Eastern door at Experimenting Room
-D 0 16438 2 1 100 		* Close Eastern door at Entrance to the Cages
-D 0 16440 0 1 100 		* Close Northern door at The Cage
-D 0 16438 3 1 100 		* Close Eastern door at Entrance to the Cages
-D 0 16439 1 1 100 		* Close Eastern door at Viewing Room
-D 0 16444 3 1 100 		* Close Eastern door at Common Room
-D 0 16446 1 1 100 		* Close Eastern door at Hallway to the Rooms
-D 0 16446 0 1 100 		* Close Northern door at Hallway to the Rooms
-D 0 16447 2 1 100 		* Close Eastern door at Inn Room
-D 0 16446 2 1 100 		* Close Eastern door at Hallway to the Rooms
-D 0 16448 0 1 100 		* Close Northern door at Inn Room
-D 0 16449 0 1 100 		* Close Northern door at Hallway to the Rooms
-D 0 16451 2 1 100 		* Close Eastern door at Inn Room
-D 0 16449 2 1 100 		* Close Eastern door at Hallway to the Rooms
-D 0 16450 0 1 100 		* Close Northern door at Inn Room
-D 0 16452 0 1 100 		* Close Northern door at Hallway to the Rooms
-D 0 16453 2 1 100 		* Close Eastern door at Inn Room
-D 0 16452 2 1 100 		* Close Eastern door at Hallway to the Rooms
-D 0 16454 0 1 100 		* Close Northern door at Inn Room
-D 0 16459 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
-D 0 16460 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
-D 0 16459 2 1 100 		* Close Eastern door at Hallway in the Demon Clan
-D 0 16461 0 1 100 		* Close Northern door at Eastern Summoning Chamber
-D 0 16465 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
-D 0 16466 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
-D 0 16467 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
-D 0 16468 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
-D 0 16469 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
-D 0 16470 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
-D 0 16471 1 1 100 		* Close Eastern door at End of the Hallway
-D 0 16472 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
-D 0 16474 2 1 100 		* Close Eastern door at Hallway in the Demon Clan
-D 0 16475 0 1 100 		* Close Northern door at Western Summoning Chamber
-D 0 16479 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
-D 0 16480 3 1 100 		* Close Eastern door at Northern Summoning Room
+* ------ THIS ZONE TEMPORARILY DISABLED ------
+*
+* M 0 16001 30 16001 100 	* the enforcer eye at Corner of Wyrm Street and Sunset. (Max: 30)
+* M 0 16081 16 16001 100 	* the footpad at Corner of Wyrm Street and Sunset. (Max: 16)
+* E 1 5005 8 17 100 			* And equip it with a small black dagger. (Max: 8)
+* M 0 16001 35 16008 100 	* the enforcer eye at Wyrm Street. (Max: 35)
+* M 0 16001 35 16010 100 	* the enforcer eye at Wyrm Street. (Max: 35)
+* M 0 16001 35 16018 100 	* the enforcer eye at Wyrm Street. (Max: 35)
+* M 0 16001 35 16032 100 	* the enforcer eye at Moonlight Avenue. (Max: 35)
+* M 0 16001 35 16035 100 	* the enforcer eye at Sunrise. (Max: 35)
+* M 0 16001 35 16037 100 	* the enforcer eye at Sunset. (Max: 35)
+* M 0 16001 35 16048 100 	* the enforcer eye at Diamond Street. (Max: 35)
+* E 1 16001 15 5 100 			* And equip it with scale of the enforcer. (Max: 15)
+* M 0 16001 35 16063 100 	* the enforcer eye at Sunset. (Max: 35)
+* M 0 16001 35 16069 100 	* the enforcer eye at Emerald Street. (Max: 35)
+* M 0 16001 35 16080 100 	* the enforcer eye at Slaver's Route. (Max: 35)
+* M 0 16001 35 16087 100 	* the enforcer eye at Slaver's Route at Emerald. (Max: 35)
+* M 0 16001 35 16092 100 	* the enforcer eye at Slaver's Route. (Max: 35)
+* M 0 16002 24 16003 100 	* the floating eye at Wyrm Street. (Max: 24)
+* M 0 16002 24 16052 100 	* the floating eye at Diamond Street. (Max: 24)
+* M 0 16002 24 16087 100 	* the floating eye at Slaver's Route at Emerald. (Max: 24)
+* M 0 16002 24 16088 100 	* the floating eye at Slaver's Route before the Inn. (Max: 24)
+* M 0 16002 24 16075 100 	* the floating eye at Slaver's Route. (Max: 24)
+* M 0 16002 24 16071 100 	* the floating eye at Sunrise. (Max: 24)
+* M 0 16002 24 16020 100 	* the floating eye at North east corner on Wrym and Sunrise. (Max: 24)
+* M 0 16002 24 16040 100 	* the floating eye at Sunset. (Max: 24)
+* M 0 16002 24 16095 100 	* the floating eye at The Gathering Place. (Max: 24)
+* M 0 16002 24 16096 100 	* the floating eye at The Gathering Place. (Max: 24)
+* M 0 16002 24 16047 100 	* the floating eye at Diamond Street. (Max: 24)
+* M 0 16002 24 16047 100 	* the floating eye at Diamond Street. (Max: 24)
+* M 0 16002 24 16073 100 	* the floating eye at Sunrise. (Max: 24)
+* M 0 16002 24 16073 100 	* the floating eye at Sunrise. (Max: 24)
+* M 0 16002 24 16083 100 	* the floating eye at Slaver's Route. (Max: 24)
+* M 0 16002 24 16083 100 	* the floating eye at Slaver's Route. (Max: 24)
+* M 0 16007 16 16089 100 	* the svirfneblin at Slaver's Route Before the Prisons. (Max: 16)
+* E 1 16006 5 16 100 			* And equip it with a glinting gnome mace. (Max: 5)
+* M 0 16007 16 16056 100 	* the svirfneblin at Diamond Street. (Max: 16)
+* M 0 16007 16 16046 100 	* the svirfneblin at Diamond Street. (Max: 16)
+* M 0 16007 16 16065 100 	* the svirfneblin at Moonlight Avenue. (Max: 16)
+* M 0 16007 16 16063 100 	* the svirfneblin at Sunset. (Max: 16)
+* M 0 16007 16 16036 100 	* the svirfneblin at Sunset. (Max: 16)
+* M 0 16007 16 16034 100 	* the svirfneblin at Sunrise. (Max: 16)
+* M 0 16007 16 16086 100 	* the svirfneblin at Slaver's Route. (Max: 16)
+* M 0 16008 12 16041 100 	* the drow trader at Ruby Street. (Max: 12)
+* M 0 16008 12 16080 100 	* the drow trader at Slaver's Route. (Max: 12)
+* M 0 16009 18 16018 100 	* the duergar at Wyrm Street. (Max: 18)
+* M 0 16009 18 16030 100 	* the duergar at Sapphire Street Before the Tavern. (Max: 18)
+* M 0 16009 18 16022 100 	* the duergar at North end of Sunset. (Max: 18)
+* M 0 16009 18 16097 100 	* the duergar at The Gathering Place. (Max: 18)
+* M 0 16009 18 16097 100 	* the duergar at The Gathering Place. (Max: 18)
+* M 0 16014 10 16034 100 	* the lizard man at Sunrise. (Max: 10)
+* M 0 16014 10 16091 100 	* the lizard man at Slaver's Route. (Max: 10)
+* M 0 16014 10 16084 100 	* the lizard man at Slaver's Route in Midtown. (Max: 10)
+* M 0 16014 10 16067 100 	* the lizard man at Moonlight Avenue. (Max: 10)
+* M 0 16041 3 16085 100 	* the worker of the night at Slaver's Route, before the Whore House. (Max: 3)
+* M 0 16056 15 16088 100 	* the slave trader at Slaver's Route before the Inn. (Max: 15)
+* M 0 16056 15 16089 100 	* the slave trader at Slaver's Route Before the Prisons. (Max: 15)
+* E 1 16038 5 16 100 			* And equip it with the Slaver's whip. (Max: 5)
+* M 0 16056 15 16092 100 	* the slave trader at Slaver's Route. (Max: 15)
+* M 0 16056 15 16077 100 	* the slave trader at Slaver's Route. (Max: 15)
+* M 0 16056 15 16068 100 	* the slave trader at Emerald Street. (Max: 15)
+* M 0 16056 15 16080 100 	* the slave trader at Slaver's Route. (Max: 15)
+* M 0 16056 15 16084 100 	* the slave trader at Slaver's Route in Midtown. (Max: 15)
+* M 0 16056 15 16089 100 	* the slave trader at Slaver's Route Before the Prisons. (Max: 15)
+* M 0 16056 15 16092 100 	* the slave trader at Slaver's Route. (Max: 15)
+* M 0 16056 15 16099 100 	* the slave trader at The Slave's Square. (Max: 15)
+* M 0 16057 12 16090 100 	* a slave buyer at Slaver's Route. (Max: 12)
+* G 1 16039 5  100 			* And give it a pair of manacles. (Max: 5)
+* M 0 16057 12 16098 100 	* a slave buyer at The Slave's Square. (Max: 12)
+* M 0 16057 12 16045 100 	* a slave buyer at Moonlight Avenue. (Max: 12)
+* M 0 16057 12 16094 100 	* a slave buyer at The Gathering Place. (Max: 12)
+* M 0 16057 12 16090 100 	* a slave buyer at Slaver's Route. (Max: 12)
+* M 0 16057 12 16093 100 	* a slave buyer at Before the east entrance. (Max: 12)
+* M 0 16081 16 16015 100 	* the footpad at Wyrm Street. (Max: 16)
+* M 0 16081 16 16021 100 	* the footpad at Moonlight Avenue. (Max: 16)
+* M 0 16081 16 16039 100 	* the footpad at Sunset. (Max: 16)
+* M 0 16081 16 16048 100 	* the footpad at Diamond Street. (Max: 16)
+* M 0 16081 16 16035 100 	* the footpad at Sunrise. (Max: 16)
+* M 0 16081 16 16024 100 	* the footpad at Sunset. (Max: 16)
+* M 0 16081 16 16011 100 	* the footpad at Wyrm Street. (Max: 16)
+* M 0 16081 16 16061 100 	* the footpad at Sunset. (Max: 16)
+* M 0 16081 16 16071 100 	* the footpad at Sunrise. (Max: 16)
+* M 0 16081 16 16088 100 	* the footpad at Slaver's Route before the Inn. (Max: 16)
+* M 0 16081 16 16099 100 	* the footpad at The Slave's Square. (Max: 16)
+* M 0 16083 5 16020 100 	* the filcher at North east corner on Wrym and Sunrise. (Max: 5)
+* E 1 16066 5 9 100 			* And equip it with a pair of thieves' gloves. (Max: 5)
+* M 0 16083 5 16063 100 	* the filcher at Sunset. (Max: 5)
+* M 0 16083 5 16066 100 	* the filcher at Moonlight Avenue. (Max: 5)
+* M 0 16084 5 16048 100 	* the rogue at Diamond Street. (Max: 5)
+* D 0 16021 1 1 100 		* Close Eastern door at Moonlight Avenue
+* D 0 16025 0 1 100 		* Close Northern door at Before a huge dwelling
+* D 0 16030 0 1 100 		* Close Northern door at Sapphire Street Before the Tavern
+* D 0 16036 2 1 100 		* Close Eastern door at Sunset
+* D 0 16037 2 1 100 		* Close Eastern door at Sunset
+* D 0 16038 2 1 100 		* Close Eastern door at Sunset
+* D 0 16039 2 1 100 		* Close Eastern door at Sunset
+* D 0 16074 0 1 100 		* Close Northern door at Slaver's Route
+* D 0 16074 2 1 100 		* Close Eastern door at Slaver's Route
+* D 0 16075 0 1 100 		* Close Northern door at Slaver's Route
+* D 0 16075 2 1 100 		* Close Eastern door at Slaver's Route
+* D 0 16076 0 1 100 		* Close Northern door at Slaver's Route
+* D 0 16076 2 1 100 		* Close Eastern door at Slaver's Route
+* D 0 16077 0 1 100 		* Close Northern door at Slaver's Route
+* D 0 16079 0 1 100 		* Close Northern door at Slaver's Route
+* D 0 16085 0 1 100 		* Close Northern door at Slaver's Route, before the Whore House
+* D 0 16088 0 1 100 		* Close Northern door at Slaver's Route before the Inn
+* D 0 16089 2 1 100 		* Close Eastern door at Slaver's Route Before the Prisons
+* D 0 16093 1 1 100 		* Close Eastern door at Before the east entrance
+* M 0 16001 35 16100 100 	* the enforcer eye at The slave's square. (Max: 35)
+* M 0 16001 35 16105 100 	* the enforcer eye at Sunrise. (Max: 35)
+* M 0 16001 35 16109 100 	* the enforcer eye at Street of the Gods. (Max: 35)
+* M 0 16001 35 16120 100 	* the enforcer eye at Street of the Gods. (Max: 35)
+* M 0 16001 35 16129 100 	* the enforcer eye at Road of Shadows. (Max: 35)
+* M 0 16001 35 16136 100 	* the enforcer eye at Road of Shadows. (Max: 35)
+* M 0 16001 35 16142 100 	* the enforcer eye at Road of Shadows. (Max: 35)
+* M 0 16001 35 16148 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
+* M 0 16001 35 16155 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
+* M 0 16001 35 16162 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
+* M 0 16001 35 16172 100 	* the enforcer eye at Forgotten Alley. (Max: 35)
+* M 0 16001 35 16181 100 	* the enforcer eye at Azurite Street. (Max: 35)
+* E 1 16001 15 5 100 			* And equip it with scale of the enforcer. (Max: 15)
+* M 0 16001 35 16186 100 	* the enforcer eye at Death's Lane. (Max: 35)
+* M 0 16001 35 16193 100 	* the enforcer eye at Death's Lane. (Max: 35)
+* M 0 16002 24 16108 100 	* the floating eye at Street of the Gods. (Max: 24)
+* M 0 16002 24 16113 100 	* the floating eye at Street of the Gods. (Max: 24)
+* M 0 16002 24 16120 100 	* the floating eye at Street of the Gods. (Max: 24)
+* M 0 16002 24 16139 100 	* the floating eye at Road of Shadows. (Max: 24)
+* M 0 16002 24 16177 100 	* the floating eye at Sunrise. (Max: 24)
+* M 0 16002 24 16152 100 	* the floating eye at Forgotten Alley. (Max: 24)
+* M 0 16002 24 16198 100 	* the floating eye at Beginning of Sunset. (Max: 24)
+* M 0 16002 24 16198 100 	* the floating eye at Beginning of Sunset. (Max: 24)
+* M 0 16007 16 16101 100 	* the svirfneblin at The slave's square. (Max: 16)
+* M 0 16007 16 16144 100 	* the svirfneblin at Sunrise. (Max: 16)
+* M 0 16007 16 16147 100 	* the svirfneblin at Forgotten Alley. (Max: 16)
+* M 0 16007 16 16128 100 	* the svirfneblin at Road of Shadows at Sunset. (Max: 16)
+* M 0 16007 16 16133 100 	* the svirfneblin at Road of Shadows. (Max: 16)
+* M 0 16007 16 16110 100 	* the svirfneblin at Street of the Gods. (Max: 16)
+* M 0 16008 12 16197 100 	* the drow trader at Beginning of Death's Lane. (Max: 12)
+* E 1 16007 5 16 100 			* And equip it with the Sword of Darkness. (Max: 5)
+* M 0 16008 12 16177 100 	* the drow trader at Sunrise. (Max: 12)
+* M 0 16008 12 16142 100 	* the drow trader at Road of Shadows. (Max: 12)
+* M 0 16008 12 16115 100 	* the drow trader at Street of the Gods. (Max: 12)
+* M 0 16008 12 16112 100 	* the drow trader at Street of the Gods. (Max: 12)
+* M 0 16008 12 16119 100 	* the drow trader at Street of the Gods. (Max: 12)
+* M 0 16008 12 16133 100 	* the drow trader at Road of Shadows. (Max: 12)
+* M 0 16008 12 16175 100 	* the drow trader at Sunrise. (Max: 12)
+* M 0 16008 12 16100 100 	* the drow trader at The slave's square. (Max: 12)
+* M 0 16009 18 16157 100 	* the duergar at Forgotten Alley. (Max: 18)
+* E 1 16008 5 6 100 			* And equip it with a duergar helm. (Max: 5)
+* M 0 16009 18 16140 100 	* the duergar at Road of Shadows. (Max: 18)
+* M 0 16009 18 16132 100 	* the duergar at Road of Shadows. (Max: 18)
+* M 0 16009 18 16167 100 	* the duergar at The Forgotten Alley. (Max: 18)
+* M 0 16009 18 16134 100 	* the duergar at Road of Shadows at Azurite. (Max: 18)
+* M 0 16009 18 16134 100 	* the duergar at Road of Shadows at Azurite. (Max: 18)
+* M 0 16009 18 16115 100 	* the duergar at Street of the Gods. (Max: 18)
+* M 0 16009 18 16111 100 	* the duergar at Street of the Gods. (Max: 18)
+* M 0 16009 18 16113 100 	* the duergar at Street of the Gods. (Max: 18)
+* M 0 16009 18 16109 100 	* the duergar at Street of the Gods. (Max: 18)
+* M 0 16009 18 16103 100 	* the duergar at Sunrise before the cages. (Max: 18)
+* M 0 16010 1 16135 100 	* the necromancer at Road of Shadows. (Max: 1)
+* E 1 16009 5 10 100 			* And equip it with sleeves of Knowledge. (Max: 5)
+* M 0 16011 1 16135 100 	* the behir at Road of Shadows. (Max: 1)
+* G 1 16010 5  100 			* And give it a piece of polished blood stone. (Max: 5)
+* M 0 16012 1 16135 100 	* the fighter at Road of Shadows. (Max: 1)
+* E 1 16011 5 5 100 			* And equip it with glowing obsidian breast plate. (Max: 5)
+* M 0 16013 1 16135 100 	* a high priest of Xevior at Road of Shadows. (Max: 1)
+* E 1 16012 5 17 100 			* And equip it with a shining holy symbol of Xevior. (Max: 5)
+* M 0 16014 10 16148 100 	* the lizard man at Forgotten Alley. (Max: 10)
+* E 1 16013 10 7 100 			* And equip it with ripped leather pants. (Max: 10)
+* M 0 16014 10 16153 100 	* the lizard man at Forgotten Alley. (Max: 10)
+* M 0 16014 10 16117 100 	* the lizard man at Street of the Gods. (Max: 10)
+* M 0 16014 10 16121 100 	* the lizard man at Street of the Gods. (Max: 10)
+* M 0 16014 10 16131 100 	* the lizard man at Road of Shadows. (Max: 10)
+* M 0 16056 15 16101 100 	* the slave trader at The slave's square. (Max: 15)
+* M 0 16056 15 16140 100 	* the slave trader at Road of Shadows. (Max: 15)
+* E 1 16038 5 16 100 			* And equip it with the Slaver's whip. (Max: 5)
+* M 0 16056 15 16123 100 	* the slave trader at Street of the Gods. (Max: 15)
+* M 0 16056 15 16198 100 	* the slave trader at Beginning of Sunset. (Max: 15)
+* M 0 16057 12 16100 100 	* a slave buyer at The slave's square. (Max: 12)
+* G 1 16039 5  100 			* And give it a pair of manacles. (Max: 5)
+* M 0 16057 12 16101 100 	* a slave buyer at The slave's square. (Max: 12)
+* M 0 16057 12 16137 100 	* a slave buyer at Road Of Shadows. (Max: 12)
+* M 0 16081 16 16130 100 	* the footpad at Road of Shadows. (Max: 16)
+* M 0 16081 16 16140 100 	* the footpad at Road of Shadows. (Max: 16)
+* M 0 16081 16 16179 100 	* the footpad at Azurite Street. (Max: 16)
+* M 0 16081 16 16190 100 	* the footpad at Death's Lane. (Max: 16)
+* M 0 16082 5 16110 100 	* the cutpurse at Street of the Gods. (Max: 5)
+* M 0 16082 5 16129 100 	* the cutpurse at Road of Shadows. (Max: 5)
+* M 0 16082 5 16137 100 	* the cutpurse at Road Of Shadows. (Max: 5)
+* M 0 16082 5 16145 100 	* the cutpurse at Forgotten Alley. (Max: 5)
+* M 0 16083 5 16131 100 	* the filcher at Road of Shadows. (Max: 5)
+* M 0 16084 5 16103 100 	* the rogue at Sunrise before the cages. (Max: 5)
+* E 1 16067 5 3 100 			* And equip it with a gold chain. (Max: 5)
+* M 0 16084 5 16125 100 	* the rogue at Sunset. (Max: 5)
+* M 0 16084 5 16185 100 	* the rogue at Death's Lane. (Max: 5)
+* M 0 16084 5 16193 100 	* the rogue at Death's Lane. (Max: 5)
+* M 0 16091 6 16179 100 	* the bravo at Azurite Street. (Max: 6)
+* E 1 16074 5 16 100 			* And equip it with a blade of poison. (Max: 5)
+* M 0 16091 6 16127 100 	* the bravo at Azurite Street. (Max: 6)
+* M 0 16091 6 16144 100 	* the bravo at Sunrise. (Max: 6)
+* M 0 16091 6 16172 100 	* the bravo at Forgotten Alley. (Max: 6)
+* M 0 16091 6 16193 100 	* the bravo at Death's Lane. (Max: 6)
+* M 0 16092 6 16139 100 	* the murderer at Road of Shadows. (Max: 6)
+* M 0 16092 6 16170 100 	* the murderer at Forgotten Alley. (Max: 6)
+* M 0 16092 6 16106 100 	* the murderer at Sunrise. (Max: 6)
+* M 0 16092 6 16154 100 	* the murderer at Forgotten Alley. (Max: 6)
+* M 0 16092 6 16177 100 	* the murderer at Sunrise. (Max: 6)
+* M 0 16092 6 16182 100 	* the murderer at Azurite Street. (Max: 6)
+* M 0 16093 6 16189 100 	* the thug at Death's Lane. (Max: 6)
+* M 0 16093 6 16175 100 	* the thug at Sunrise. (Max: 6)
+* M 0 16093 6 16163 100 	* the thug at Forgotten Alley. (Max: 6)
+* M 0 16093 6 16160 100 	* the thug at Forgotten Alley. (Max: 6)
+* E 1 16075 5 10 100 			* And equip it with a pair of assassin's sleeves. (Max: 5)
+* M 0 16093 6 16184 100 	* the thug at Death's Lane. (Max: 6)
+* M 0 16093 6 16188 100 	* the thug at Death's Lane. (Max: 6)
+* M 0 16094 3 16167 100 	* the killer at The Forgotten Alley. (Max: 3)
+* E 1 16076 5 14 100 			* And equip it with a skull tattoo. (Max: 5)
+* M 0 16094 3 16190 100 	* the killer at Death's Lane. (Max: 3)
+* M 0 16094 3 16197 100 	* the killer at Beginning of Death's Lane. (Max: 3)
+* G 1 16090 5  100 			* And give it a fire gem. (Max: 5)
+* D 0 16103 2 1 100 		* Close Eastern door at Sunrise before the cages
+* D 0 16107 3 1 100 		* Close Eastern door at Sunrise before the Prisons
+* D 0 16108 0 1 100 		* Close Northern door at Street of the Gods
+* D 0 16109 0 1 100 		* Close Northern door at Street of the Gods
+* D 0 16110 0 1 100 		* Close Northern door at Street of the Gods
+* D 0 16122 1 1 100 		* Close Eastern door at Street of the Gods
+* D 0 16137 2 1 100 		* Close Eastern door at Road Of Shadows
+* D 0 16159 3 1 100 		* Close Eastern door at Dark Entrance Way
+* D 0 16167 3 1 100 		* Close Eastern door at The Forgotten Alley
+* D 0 16181 1 1 100 		* Close Eastern door at Azurite Street
+* D 0 16195 0 1 100 		* Close Northern door at Death's Lane
+* D 0 16199 3 1 100 		* Close Eastern door at Traveller's Crescent
+* M 0 16001 35 16201 100 	* the enforcer eye at Traveller's Crescent. (Max: 35)
+* M 0 16001 35 16212 100 	* the enforcer eye at Traveller's Crescent. (Max: 35)
+* M 0 16001 35 16217 100 	* the enforcer eye at Traveller's Crescent. (Max: 35)
+* M 0 16006 1 16239 100 	* the beholder at Vast Hall. (Max: 1)
+* G 1 16005 4  100 			* And give it beholder's eyestalk. (Max: 4)
+* M 0 16007 16 16201 100 	* the svirfneblin at Traveller's Crescent. (Max: 16)
+* M 0 16007 16 16209 100 	* the svirfneblin at Traveller's Crescent. (Max: 16)
+* M 0 16008 12 16208 100 	* the drow trader at Traveller's Crescent. (Max: 12)
+* M 0 16009 18 16210 100 	* the duergar at Traveller's Crescent. (Max: 18)
+* M 0 16009 18 16218 100 	* the duergar at Traveller's Crescent. (Max: 18)
+* M 0 16014 10 16211 100 	* the lizard man at Traveller's Crescent. (Max: 10)
+* E 1 16013 10 7 100 			* And equip it with ripped leather pants. (Max: 10)
+* M 0 16015 1 16221 100 	* the purple worm at Quiet Desolation. (Max: 1)
+* G 1 16014 5  100 			* And give it a purple worm scale bracelet. (Max: 5)
+* M 0 16016 1 16220 100 	* the huge purple worm at Destroyed Section of the Tunnel. (Max: 1)
+* G 1 16015 5  100 			* And give it a purple worm scale shield. (Max: 5)
+* M 0 16017 3 16228 100 	* the beholder's underling at Entry Hall. (Max: 3)
+* E 1 16016 5 9 100 			* And equip it with Gauntlets of the Eye. (Max: 5)
+* M 0 16017 3 16229 100 	* the beholder's underling at Jaded Hall. (Max: 3)
+* M 0 16017 3 16242 100 	* the beholder's underling at Guest Chamber. (Max: 3)
+* M 0 16018 3 16237 100 	* the beholder legionnaire at Entrance to the Vast Hall. (Max: 3)
+* E 1 16017 5 6 100 			* And equip it with Helm of the Eye. (Max: 5)
+* M 0 16018 3 16237 100 	* the beholder legionnaire at Entrance to the Vast Hall. (Max: 3)
+* M 0 16018 3 16237 100 	* the beholder legionnaire at Entrance to the Vast Hall. (Max: 3)
+* M 0 16019 1 16243 100 	* the supreme attendant at The Supreme Attendant's Chamber. (Max: 1)
+* E 1 16016 5 9 100 			* And equip it with Gauntlets of the Eye. (Max: 5)
+* E 1 16017 5 6 100 			* And equip it with Helm of the Eye. (Max: 5)
+* M 0 16020 1 16238 100 	* the grell at Vast Hall. (Max: 1)
+* M 0 16021 1 16247 100 	* the Barkeep at The Gemstone. (Max: 1)
+* G 1 3002 100  100 			* And give it a bottle. (Max: 100)
+* G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
+* M 0 16022 4 16247 100 	* the duergar patron at The Gemstone. (Max: 4)
+* M 0 16022 4 16244 100 	* the duergar patron at The Gemstone. (Max: 4)
+* M 0 16022 4 16245 100 	* the duergar patron at The Gemstone. (Max: 4)
+* M 0 16023 3 16246 100 	* the drow patron at The Gemstone. (Max: 3)
+* M 0 16023 3 16247 100 	* the drow patron at The Gemstone. (Max: 3)
+* M 0 16024 2 16244 100 	* the human patron at The Gemstone. (Max: 2)
+* M 0 16024 2 16246 100 	* the human patron at The Gemstone. (Max: 2)
+* M 0 16025 1 16245 100 	* Caris at The Gemstone. (Max: 1)
+* M 0 16026 1 16245 100 	* Antryg at The Gemstone. (Max: 1)
+* M 0 16027 7 16251 100 	* the gremlin at Twisting Passage. (Max: 7)
+* M 0 16027 7 16253 100 	* the gremlin at Chaotic Cluttered Room. (Max: 7)
+* M 0 16027 7 16254 100 	* the gremlin at Dark Chaotic Corridor. (Max: 7)
+* M 0 16027 7 16257 100 	* the gremlin at Twisting Dark Corridor. (Max: 7)
+* M 0 16027 7 16260 100 	* the gremlin at Dark Corridor. (Max: 7)
+* M 0 16027 7 16263 100 	* the gremlin at A Gloomy Room. (Max: 7)
+* M 0 16027 7 16273 100 	* the gremlin at Abandoned Rest Room. (Max: 7)
+* M 0 16028 3 16258 100 	* the slime creature at Damp Cluttered Room. (Max: 3)
+* E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
+* M 0 16028 3 16258 100 	* the slime creature at Damp Cluttered Room. (Max: 3)
+* M 0 16028 3 16273 100 	* the slime creature at Abandoned Rest Room. (Max: 3)
+* M 0 16029 5 16248 100 	* the huge rat at Deserted Warehouse. (Max: 5)
+* M 0 16029 5 16257 100 	* the huge rat at Twisting Dark Corridor. (Max: 5)
+* M 0 16029 5 16264 100 	* the huge rat at The Corridor in the Abandoned Warehouse. (Max: 5)
+* M 0 16029 5 16268 100 	* the huge rat at The Corridor. (Max: 5)
+* M 0 16029 5 16271 100 	* the huge rat at End of the Corridor. (Max: 5)
+* M 0 16030 5 16250 100 	* the jinxkin at Cluttered Room. (Max: 5)
+* E 1 16018 10 16 100 			* And equip it with a very sharp pin. (Max: 10)
+* M 0 16030 5 16252 100 	* the jinxkin at Small Dusty Enclave. (Max: 5)
+* M 0 16030 5 16253 100 	* the jinxkin at Chaotic Cluttered Room. (Max: 5)
+* M 0 16030 5 16255 100 	* the jinxkin at Dark Small Room. (Max: 5)
+* M 0 16030 5 16269 100 	* the jinxkin at The Old Office. (Max: 5)
+* M 0 16031 7 16252 100 	* the jermlaine at Small Dusty Enclave. (Max: 7)
+* E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
+* M 0 16031 7 16263 100 	* the jermlaine at A Gloomy Room. (Max: 7)
+* M 0 16031 7 16264 100 	* the jermlaine at The Corridor in the Abandoned Warehouse. (Max: 7)
+* E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
+* M 0 16031 7 16267 100 	* the jermlaine at Cramped Dim Room. (Max: 7)
+* M 0 16031 7 16267 100 	* the jermlaine at Cramped Dim Room. (Max: 7)
+* M 0 16031 7 16269 100 	* the jermlaine at The Old Office. (Max: 7)
+* M 0 16031 7 16269 100 	* the jermlaine at The Old Office. (Max: 7)
+* E 1 16019 10 16 100 			* And equip it with a muddy branch. (Max: 10)
+* M 0 16032 1 16298 100 	* the bodak at Audience Chamber. (Max: 1)
+* E 1 16021 5 17 100 			* And equip it with a black wand inlaid with gold symbols. (Max: 5)
+* E 1 16022 5 13 100 			* And equip it with girth of protection. (Max: 5)
+* M 0 16033 1 16285 100 	* the mage at Small Well Furnished Chamber. (Max: 1)
+* M 0 16034 3 16290 100 	* the iron golem at Main Hall. (Max: 3)
+* E 1 16024 5 16 100 			* And equip it with a large iron sword. (Max: 5)
+* M 0 16034 3 16294 100 	* the iron golem at Main Hall. (Max: 3)
+* M 0 16034 3 16296 100 	* the iron golem at Audience Chamber. (Max: 3)
+* M 0 16035 4 16283 100 	* the stone golem at A Hallway in the Mansion. (Max: 4)
+* M 0 16035 4 16286 100 	* the stone golem at End of Hall in the Mansion. (Max: 4)
+* M 0 16035 4 16293 100 	* the stone golem at Main Hall. (Max: 4)
+* M 0 16035 4 16297 100 	* the stone golem at Audience Chamber. (Max: 4)
+* E 1 16025 5 16 100 			* And equip it with a huge stone mace. (Max: 5)
+* M 0 16036 1 16282 100 	* Itreres at Guest Chamber. (Max: 1)
+* E 1 16026 5 11 100 			* And equip it with the Black Shield of Protection. (Max: 5)
+* M 0 16037 1 16294 100 	* the imp at Main Hall. (Max: 1)
+* E 1 16027 5 17 100 			* And equip it with a small black stone. (Max: 5)
+* M 0 16038 2 16289 100 	* the babau at Secret Chamber. (Max: 2)
+* M 0 16038 2 16295 100 	* the babau at Audience Chamber. (Max: 2)
+* M 0 16039 2 16280 100 	* the servant at Guest Room. (Max: 2)
+* M 0 16039 2 16287 100 	* the servant at Dining Hall. (Max: 2)
+* M 0 16040 1 16288 100 	* the gibbering mouther at Dining Hall. (Max: 1)
+* M 0 16057 12 16202 100 	* a slave buyer at Traveller's Crescent. (Max: 12)
+* M 0 16082 5 16201 100 	* the cutpurse at Traveller's Crescent. (Max: 5)
+* M 0 16083 5 16215 100 	* the filcher at Traveller's Crescent. (Max: 5)
+* M 0 16091 6 16209 100 	* the bravo at Traveller's Crescent. (Max: 6)
+* D 0 16274 3 1 100 		* Close Eastern door at Entrance To An Abandoned Warehouse
+* D 0 16228 2 1 100 		* Close Eastern door at Entry Hall
+* D 0 16246 2 1 100 		* Close Eastern door at The Gemstone
+* D 0 16275 2 1 100 		* Close Eastern door at Entrance Hall
+* D 0 16299 2 1 100 		* Close Eastern door at Entrance to the Whore House
+* D 0 16227 3 1 100 		* Close Eastern door at Before the Entrance
+* D 0 16222 1 1 100 		* Close Eastern door at The Hidden Way
+* D 0 16208 3 1 100 		* Close Eastern door at Traveller's Crescent
+* D 0 16219 0 1 100 		* Close Northern door at Dark Tunnel
+* D 0 16225 0 1 100 		* Close Northern door at Wide Passage
+* D 0 16299 0 1 100 		* Close Northern door at Entrance to the Whore House
+* D 0 16299 1 1 100 		* Close Eastern door at Entrance to the Whore House
+* D 0 16230 2 1 100 		* Close Eastern door at Jaded Hall Before a Beautiful Door
+* D 0 16237 0 1 100 		* Close Northern door at Entrance to the Vast Hall
+* D 0 16234 1 1 100 		* Close Eastern door at Jaded Corridor
+* D 0 16240 3 1 100 		* Close Eastern door at Guest Chamber
+* D 0 16234 3 1 100 		* Close Eastern door at Jaded Corridor
+* D 0 16241 1 1 100 		* Close Eastern door at Guest Chamber
+* D 0 16235 1 1 100 		* Close Eastern door at Jaded Corridor
+* D 0 16242 3 1 100 		* Close Eastern door at Guest Chamber
+* D 0 16235 3 1 100 		* Close Eastern door at Jaded Corridor
+* D 0 16243 1 1 100 		* Close Eastern door at The Supreme Attendant's Chamber
+* D 0 16249 3 1 100 		* Close Eastern door at Confusing Passage
+* D 0 16250 1 1 100 		* Close Eastern door at Cluttered Room
+* D 0 16251 3 1 100 		* Close Eastern door at Twisting Passage
+* D 0 16252 1 1 100 		* Close Eastern door at Small Dusty Enclave
+* D 0 16251 2 1 100 		* Close Eastern door at Twisting Passage
+* D 0 16253 0 1 100 		* Close Northern door at Chaotic Cluttered Room
+* D 0 16254 0 1 100 		* Close Northern door at Dark Chaotic Corridor
+* D 0 16256 2 1 100 		* Close Eastern door at Cramped Room
+* D 0 16254 2 1 100 		* Close Eastern door at Dark Chaotic Corridor
+* D 0 16255 0 1 100 		* Close Northern door at Dark Small Room
+* D 0 16257 0 1 100 		* Close Northern door at Twisting Dark Corridor
+* D 0 16258 2 1 100 		* Close Eastern door at Damp Cluttered Room
+* D 0 16260 1 1 100 		* Close Eastern door at Dark Corridor
+* D 0 16261 3 1 100 		* Close Eastern door at A Dim Room
+* D 0 16262 1 1 100 		* Close Eastern door at Shadowy Jumbled Corridor
+* D 0 16263 3 1 100 		* Close Eastern door at A Gloomy Room
+* D 0 16266 1 1 100 		* Close Eastern door at Corridor in the Warehouse
+* D 0 16267 3 1 100 		* Close Eastern door at Cramped Dim Room
+* D 0 16268 2 1 100 		* Close Eastern door at The Corridor
+* D 0 16269 0 1 100 		* Close Northern door at The Old Office
+* D 0 16271 2 1 100 		* Close Eastern door at End of the Corridor
+* D 0 16272 0 1 100 		* Close Northern door at Old Recreation Area
+* D 0 16272 3 1 100 		* Close Eastern door at Old Recreation Area
+* D 0 16273 1 1 100 		* Close Eastern door at Abandoned Rest Room
+* D 0 16279 3 1 100 		* Close Eastern door at Hallway in the mansion
+* D 0 16280 1 1 100 		* Close Eastern door at Guest Room
+* D 0 16281 3 1 100 		* Close Eastern door at Hallway in the Mansion
+* D 0 16282 1 1 100 		* Close Eastern door at Guest Chamber
+* D 0 16283 2 1 100 		* Close Eastern door at A Hallway in the Mansion
+* D 0 16287 0 1 100 		* Close Northern door at Dining Hall
+* D 0 16284 1 1 100 		* Close Eastern door at Washroom
+* D 0 16286 3 1 100 		* Close Eastern door at End of Hall in the Mansion
+* D 0 16285 3 1 100 		* Close Eastern door at Small Well Furnished Chamber
+* D 0 16286 1 1 100 		* Close Eastern door at End of Hall in the Mansion
+* D 0 16288 0 1 100 		* Close Northern door at Dining Hall
+* D 0 16289 2 1 100 		* Close Eastern door at Secret Chamber
+* D 0 16289 0 1 100 		* Close Northern door at Secret Chamber
+* D 0 16296 2 1 100 		* Close Eastern door at Audience Chamber
+* D 0 16294 0 1 100 		* Close Northern door at Main Hall
+* D 0 16295 2 1 100 		* Close Eastern door at Audience Chamber
+* M 0 16001 35 16337 100 	* the enforcer eye at The eastern entrance. (Max: 35)
+* M 0 16001 35 16336 100 	* the enforcer eye at Prison Hall. (Max: 35)
+* M 0 16001 35 16338 100 	* the enforcer eye at Western Entrance. (Max: 35)
+* M 0 16001 35 16346 100 	* the enforcer eye at The end of the prison hallway. (Max: 35)
+* M 0 16003 3 16331 100 	* the prisoner at Prison Cell. (Max: 3)
+* M 0 16003 3 16334 100 	* the prisoner at Prison Cell. (Max: 3)
+* M 0 16003 3 16343 100 	* the prisoner at Prison Cell. (Max: 3)
+* M 0 16004 2 16345 100 	* the great enforcing eye at Prison Cell. (Max: 2)
+* G 1 16003 4  100 			* And give it slime of the enforcing eye. (Max: 4)
+* M 0 16004 2 16347 100 	* the great enforcing eye at Chamber of the Beholder. (Max: 2)
+* G 1 16003 4  100 			* And give it slime of the enforcing eye. (Max: 4)
+* M 0 16005 1 16339 100 	* the huge beholder at Prison Cell. (Max: 1)
+* M 0 16041 3 16301 100 	* the worker of the night at Whoring Area. (Max: 3)
+* M 0 16041 3 16303 100 	* the worker of the night at Whoring Area. (Max: 3)
+* M 0 16042 2 16302 100 	* a maid of passion at Whoring Area. (Max: 2)
+* E 1 16029 5 12 100 			* And equip it with a translucent robe. (Max: 5)
+* M 0 16042 2 16303 100 	* a maid of passion at Whoring Area. (Max: 2)
+* E 1 16029 5 12 100 			* And equip it with a translucent robe. (Max: 5)
+* M 0 16043 1 16304 100 	* a granter of pleasure at Whoring Area. (Max: 1)
+* E 1 16030 5 13 100 			* And equip it with a belt of pleasure. (Max: 5)
+* M 0 16044 2 16301 100 	* a preferred customer at Whoring Area. (Max: 2)
+* E 1 16031 5 1 100 			* And equip it with a ring of nobility. (Max: 5)
+* M 0 16044 2 16302 100 	* a preferred customer at Whoring Area. (Max: 2)
+* M 0 16045 1 16300 100 	* the pimp at Paying Room. (Max: 1)
+* G 1 16032 5  100 			* And give it a set of gold teeth. (Max: 5)
+* M 0 16046 3 16310 100 	* the halfling patron at Common Room. (Max: 3)
+* M 0 16046 3 16314 100 	* the halfling patron at Common Room. (Max: 3)
+* M 0 16047 3 16310 100 	* the half-orc at Common Room. (Max: 3)
+* E 1 16033 5 16 100 			* And equip it with a broken bottle. (Max: 5)
+* M 0 16047 3 16311 100 	* the half-orc at Common Room. (Max: 3)
+* E 1 16033 5 16 100 			* And equip it with a broken bottle. (Max: 5)
+* M 0 16048 3 16308 100 	* the svirfneblin patron at Common Room. (Max: 3)
+* M 0 16049 1 16314 100 	* the innkeeper at Common Room. (Max: 1)
+* G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
+* M 0 16050 1 16310 100 	* Limbeck at Common Room. (Max: 1)
+* E 1 16034 5 8 100 			* And equip it with a pair of dusty boots. (Max: 5)
+* M 0 16051 1 16318 100 	* Geg at Inn Room. (Max: 1)
+* E 1 16035 5 6 100 			* And equip it with a gnome hat. (Max: 5)
+* M 0 16052 1 16312 100 	* Drevlin at Inn Room. (Max: 1)
+* E 1 16036 5 8 100 			* And equip it with boots of flying. (Max: 5)
+* M 0 16053 1 16308 100 	* Jarre at Common Room. (Max: 1)
+* E 1 16037 5 14 100 			* And equip it with bracers of strength. (Max: 5)
+* M 0 16054 3 16308 100 	* the serving wench at Common Room. (Max: 3)
+* M 0 16054 3 16314 100 	* the serving wench at Common Room. (Max: 3)
+* M 0 16055 1 16319 100 	* the Slave Dealer at Entrance to the Slaver's Market. (Max: 1)
+* G 1 16094 5  100 			* And give it not so rich merchant's gold. (Max: 5)
+* M 0 16056 15 16325 100 	* the slave trader at Slave Hall. (Max: 15)
+* M 0 16057 12 16321 100 	* a slave buyer at Slave Hall. (Max: 12)
+* M 0 16057 12 16323 100 	* a slave buyer at Slave Hall. (Max: 12)
+* M 0 16058 1 16320 100 	* the orc slave at Slave Cage. (Max: 1)
+* M 0 16059 1 16320 100 	* the goblin slave at Slave Cage. (Max: 1)
+* M 0 16060 1 16320 100 	* a male human slave at Slave Cage. (Max: 1)
+* M 0 16061 1 16320 100 	* the female human slave at Slave Cage. (Max: 1)
+* M 0 16062 1 16320 100 	* the kobold at Slave Cage. (Max: 1)
+* M 0 16063 1 16320 100 	* the elven slave at Slave Cage. (Max: 1)
+* M 0 16064 1 16320 100 	* the dwarven slave at Slave Cage. (Max: 1)
+* M 0 16022 4 16352 100 	* the duergar patron at The Dining Area. (Max: 4)
+* M 0 16023 3 16354 100 	* the drow patron at Dining Area. (Max: 3)
+* M 0 16046 3 16342 100 	* the halfling patron at Prison Hall. (Max: 3)
+* M 0 16048 3 16354 100 	* the svirfneblin patron at Dining Area. (Max: 3)
+* M 0 16065 1 16352 100 	* the Bartender at The Dining Area. (Max: 1)
+* G 1 16094 5  100 			* And give it not so rich merchant's gold. (Max: 5)
+* M 0 16066 1 16353 100 	* Prax at Dining Area. (Max: 1)
+* E 1 16040 5 3 100 			* And equip it with a long flowing cloak. (Max: 5)
+* M 0 16067 1 16353 100 	* Thespan at Dining Area. (Max: 1)
+* E 1 16041 5 16 100 			* And equip it with a jagged long sword. (Max: 5)
+* M 0 16068 1 16353 100 	* Endolar at Dining Area. (Max: 1)
+* E 1 16042 5 16 100 			* And equip it with an ebony dagger. (Max: 5)
+* M 0 16069 1 16351 100 	* Snaromba at Dining Area. (Max: 1)
+* E 1 16043 5 0 100 			* And equip it with a glowing sphere. (Max: 5)
+* M 0 16070 1 16351 100 	* Anmictes at Dining Area. (Max: 1)
+* E 1 16044 5 14 100 			* And equip it with a pair of midnight blue bracers. (Max: 5)
+* M 0 16071 1 16351 100 	* Emba at Dining Area. (Max: 1)
+* E 1 16045 5 16 100 			* And equip it with an ebony morning star. (Max: 5)
+* M 0 16072 1 16351 100 	* Shillikif at Dining Area. (Max: 1)
+* E 1 16046 5 5 100 			* And equip it with black drow chainmail. (Max: 5)
+* M 0 16073 1 16356 100 	* Yie'Stei at The Glowing Hand. (Max: 1)
+* G 1 16059 5  100 			* And give it a scroll of refresh. (Max: 5)
+* G 1 16060 5  100 			* And give it a hand of shocking grasp. (Max: 5)
+* G 1 16061 5  100 			* And give it a potion of detection. (Max: 5)
+* G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
+* M 0 16074 1 16357 100 	* Zae'tres at The Cracked Sword. (Max: 1)
+* G 1 16047 5  100 			* And give it a drow long sword. (Max: 5)
+* G 1 16048 5  100 			* And give it a drow dagger. (Max: 5)
+* G 1 16049 5  100 			* And give it a drow mace. (Max: 5)
+* G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
+* M 0 16075 1 16358 100 	* Raesarnt at The Dented Shield. (Max: 1)
+* G 1 16050 5  100 			* And give it a duergar breast plate. (Max: 5)
+* G 1 16051 5  100 			* And give it a duergar helm. (Max: 5)
+* G 1 16052 5  100 			* And give it a duergar shield. (Max: 5)
+* G 1 16053 5  100 			* And give it a pair of duergar leggings. (Max: 5)
+* G 1 16054 5  100 			* And give it a pair of duergar bracers. (Max: 5)
+* G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
+* M 0 16076 1 16359 100 	* Satori at The Sparkling Jewel. (Max: 1)
+* G 1 16093 5  100 			* And give it merchant's gold. (Max: 5)
+* M 0 16077 1 16360 100 	* Jiestis at The Darkened Root. (Max: 1)
+* G 1 16055 100  100 			* And give it a brown mushroom. (Max: 100)
+* G 1 16056 100  100 			* And give it a large mushroom. (Max: 100)
+* G 1 16058 100  100 			* And give it a dirty root. (Max: 100)
+* G 1 16093 100  100 			* And give it merchant's gold. (Max: 100)
+* M 0 16078 2 16364 100 	* the svirfneblin at Svirfneblin Chamber. (Max: 2)
+* E 1 16062 5 7 100 			* And equip it with Svirfneblin leggings. (Max: 5)
+* M 0 16078 2 16365 100 	* the svirfneblin at Svirfneblin Hallway. (Max: 2)
+* M 0 16079 1 16366 100 	* the svirfneblin dignitary at Svirfneblin Chamber. (Max: 1)
+* E 1 16063 5 3 100 			* And equip it with a necklace of nobility. (Max: 5)
+* M 0 16080 1 16368 100 	* the caretaker at Svirfneblin Chamber. (Max: 1)
+* E 1 16064 5 16 100 			* And equip it with a broadsword named 'Vision'. (Max: 5)
+* M 0 16085 8 16370 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* M 0 16085 8 16370 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* E 1 16068 5 17 100 			* And equip it with a pair of dice. (Max: 5)
+* M 0 16085 8 16371 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* M 0 16085 8 16371 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* M 0 16085 8 16375 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* M 0 16085 8 16375 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* M 0 16085 8 16376 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* M 0 16085 8 16376 100 	* the sharper at Thieve's Guard Room. (Max: 8)
+* M 0 16086 3 16378 100 	* the magsman at Hallway in the Thieve's Guild. (Max: 3)
+* E 1 16069 5 3 100 			* And equip it with a dark cloak. (Max: 5)
+* M 0 16086 3 16388 100 	* the magsman at Personal Chamber. (Max: 3)
+* M 0 16086 3 16396 100 	* the magsman at Private Chamber. (Max: 3)
+* M 0 16087 3 16383 100 	* the master thief at Thieve's Council Chamber. (Max: 3)
+* E 1 16070 5 18 100 			* And equip it with an obsidian earring. (Max: 5)
+* M 0 16087 3 16391 100 	* the master thief at Master Thief's Room. (Max: 3)
+* M 0 16087 3 16394 100 	* the master thief at Private Room. (Max: 3)
+* M 0 16088 1 16385 100 	* the head thief at Thieve's Council Chamber. (Max: 1)
+* E 1 16071 5 16 100 			* And equip it with a jewelled dagger. (Max: 5)
+* M 0 16089 1 16390 100 	* Meliadus at Mage Chamber. (Max: 1)
+* E 1 16072 5 0 100 			* And equip it with a hand grasping an orb. (Max: 5)
+* E 1 16073 5 12 100 			* And equip it with a long flowing robe. (Max: 5)
+* M 0 16090 1 16381 100 	* the trainer at Training Room. (Max: 1)
+* D 0 16305 2 1 100 		* Close Eastern door at Entrance to the Traveller's Den
+* D 0 16327 0 1 100 		* Close Northern door at Before the Northern Entrance of the Prisons
+* D 0 16337 1 1 100 		* Close Eastern door at The eastern entrance
+* D 0 16338 3 1 100 		* Close Eastern door at Western Entrance
+* D 0 16369 0 1 100 		* Close Northern door at Entrance to the Thieve's Guild
+* D 0 16397 1 1 100 		* Close Eastern door at Entrance to the Assassin's Guild
+* D 0 16374 3 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16301 2 1 100 		* Close Eastern door at Whoring Area
+* D 0 16300 3 1 100 		* Close Eastern door at Paying Room
+* D 0 16306 0 1 100 		* Close Northern door at Entrance Hall to the Inn
+* D 0 16307 2 1 100 		* Close Eastern door at Rest Room
+* D 0 16308 2 1 100 		* Close Eastern door at Common Room
+* D 0 16309 0 1 100 		* Close Northern door at Inn Room
+* D 0 16311 2 1 100 		* Close Eastern door at Common Room
+* D 0 16312 0 1 100 		* Close Northern door at Inn Room
+* D 0 16311 1 1 100 		* Close Eastern door at Common Room
+* D 0 16313 3 1 100 		* Close Eastern door at Hall to the Inn Rooms
+* D 0 16313 0 1 100 		* Close Northern door at Hall to the Inn Rooms
+* D 0 16315 2 1 100 		* Close Eastern door at Inn Room
+* D 0 16313 2 1 100 		* Close Eastern door at Hall to the Inn Rooms
+* D 0 16316 0 1 100 		* Close Northern door at Inn Room
+* D 0 16317 2 1 100 		* Close Eastern door at Traveller's Den Hallway
+* D 0 16318 0 1 100 		* Close Northern door at Inn Room
+* D 0 16319 0 1 100 		* Close Northern door at Entrance to the Slaver's Market
+* D 0 16320 2 1 100 		* Close Eastern door at Slave Cage
+* D 0 16325 0 1 100 		* Close Northern door at Slave Hall
+* D 0 16326 2 1 100 		* Close Eastern door at Slave Cage
+* D 0 16327 1 1 100 		* Close Eastern door at Before the Northern Entrance of the Prisons
+* D 0 16328 3 1 100 		* Close Eastern door at Prison Cell
+* D 0 16330 1 1 100 		* Close Eastern door at Prison Hall
+* D 0 16331 3 1 100 		* Close Eastern door at Prison Cell
+* D 0 16330 3 1 100 		* Close Eastern door at Prison Hall
+* D 0 16332 1 1 100 		* Close Eastern door at Prison Cell
+* D 0 16333 1 1 100 		* Close Eastern door at Prison Hall
+* D 0 16335 3 1 100 		* Close Eastern door at Prison Cell
+* D 0 16333 3 1 100 		* Close Eastern door at Prison Hall
+* D 0 16334 1 1 100 		* Close Eastern door at Prison Cell
+* D 0 16336 2 1 100 		* Close Eastern door at Prison Hall
+* D 0 16339 0 1 100 		* Close Northern door at Prison Cell
+* D 0 16337 2 1 100 		* Close Eastern door at The eastern entrance
+* D 0 16341 0 1 100 		* Close Northern door at Prison Cell
+* D 0 16338 2 1 100 		* Close Eastern door at Western Entrance
+* D 0 16340 0 1 100 		* Close Northern door at Prison Cell
+* D 0 16342 2 1 100 		* Close Eastern door at Prison Hall
+* D 0 16343 0 1 100 		* Close Northern door at Prison Cell
+* D 0 16344 2 1 100 		* Close Eastern door at Prison Hall
+* D 0 16345 0 1 100 		* Close Northern door at Prison Cell
+* D 0 16346 2 1 100 		* Close Eastern door at The end of the prison hallway
+* D 0 16347 0 1 100 		* Close Northern door at Chamber of the Beholder
+* D 0 16354 3 1 100 		* Close Eastern door at Dining Area
+* D 0 16355 1 1 100 		* Close Eastern door at Washroom of the Shadow's Shadow
+* D 0 16363 1 1 100 		* Close Eastern door at Svirfneblin Hallway
+* D 0 16364 3 1 100 		* Close Eastern door at Svirfneblin Chamber
+* D 0 16365 1 1 100 		* Close Eastern door at Svirfneblin Hallway
+* D 0 16366 3 1 100 		* Close Eastern door at Svirfneblin Chamber
+* D 0 16367 1 1 100 		* Close Eastern door at Svirfneblin Hallway
+* D 0 16368 3 1 100 		* Close Eastern door at Svirfneblin Chamber
+* D 0 16369 1 1 100 		* Close Eastern door at Entrance to the Thieve's Guild
+* D 0 16370 3 1 100 		* Close Eastern door at Thieve's Guard Room
+* D 0 16369 3 1 100 		* Close Eastern door at Entrance to the Thieve's Guild
+* D 0 16371 1 1 100 		* Close Eastern door at Thieve's Guard Room
+* D 0 16374 0 1 100 		* Close Northern door at Hallway in the Thieve's Guild
+* D 0 16375 2 1 100 		* Close Eastern door at Thieve's Guard Room
+* D 0 16374 2 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16376 0 1 100 		* Close Northern door at Thieve's Guard Room
+* D 0 16377 1 1 100 		* Close Eastern door at Storage Room
+* D 0 16378 3 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16379 3 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16380 1 1 100 		* Close Eastern door at Practice Room
+* D 0 16380 3 1 100 		* Close Eastern door at Practice Room
+* D 0 16381 1 1 100 		* Close Eastern door at Training Room
+* D 0 16382 2 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16383 0 1 100 		* Close Northern door at Thieve's Council Chamber
+* D 0 16387 0 1 100 		* Close Northern door at Hallway in the Thieve's Guild
+* D 0 16388 2 1 100 		* Close Eastern door at Personal Chamber
+* D 0 16389 0 1 100 		* Close Northern door at Hallway in the Thieve's Guild
+* D 0 16390 2 1 100 		* Close Eastern door at Mage Chamber
+* D 0 16389 1 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16391 3 1 100 		* Close Eastern door at Master Thief's Room
+* D 0 16391 0 1 100 		* Close Northern door at Master Thief's Room
+* D 0 16392 2 1 100 		* Close Eastern door at Master Thief's Sleep Chamber
+* D 0 16393 1 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16394 3 1 100 		* Close Eastern door at Private Room
+* D 0 16395 1 1 100 		* Close Eastern door at Hallway in the Thieve's Guild
+* D 0 16396 3 1 100 		* Close Eastern door at Private Chamber
+* M 0 16095 2 16400 100 	* the assassin at Hallway in the Assassin's Guild. (Max: 2)
+* E 1 16077 5 16 100 			* And equip it with a choke wire. (Max: 5)
+* M 0 16095 2 16402 100 	* the assassin at Chamber in the Assassin's Guild. (Max: 2)
+* E 1 16077 5 16 100 			* And equip it with a choke wire. (Max: 5)
+* M 0 16096 3 16413 100 	* the expert assassin at Assassin's Meeting Chamber. (Max: 3)
+* E 1 16078 5 20 100 			* And equip it with an assassin's mask. (Max: 5)
+* M 0 16096 3 16415 100 	* the expert assassin at Hallway in the Assassin's Guild. (Max: 3)
+* M 0 16096 3 16421 100 	* the expert assassin at Assassin's Information Gathering. (Max: 3)
+* M 0 16097 2 16405 100 	* the senior assassin at Chamber in the Assassin's Guild. (Max: 2)
+* E 1 16079 5 14 100 			* And equip it with a flaming dagger tattoo. (Max: 5)
+* M 0 16097 2 16423 100 	* the senior assassin at Assassin's Scrying Chamber. (Max: 2)
+* M 0 16098 2 16409 100 	* the prime assassin at Chamber in the Assassin's Guild. (Max: 2)
+* E 1 16080 5 14 100 			* And equip it with a wyvern tattoo. (Max: 5)
+* M 0 16098 2 16411 100 	* the prime assassin at Assassin's Meeting Chamber. (Max: 2)
+* M 0 16099 1 16412 100 	* the guildmaster at Assassin's Meeting Chamber. (Max: 1)
+* E 1 16081 5 10 100 			* And equip it with a dragon tattoo. (Max: 5)
+* E 1 16082 5 6 100 			* And equip it with a diamond helm. (Max: 5)
+* E 1 16083 5 11 100 			* And equip it with the keeper's shield. (Max: 5)
+* G 1 3002 1000  100 			* And give it a bottle. (Max: 1000)
+* G 1 16093 100  100 			* And give it merchant's gold. (Max: 100)
+* M 0 16054 3 16445 100 	* the serving wench at Common Room. (Max: 3)
+* M 0 16047 3 16445 100 	* the half-orc at Common Room. (Max: 3)
+* E 1 16033 5 16 100 			* And equip it with a broken bottle. (Max: 5)
+* M 0 16048 3 16442 100 	* the svirfneblin patron at Common Room of the Traveller's Den. (Max: 3)
+* E 1 16084 5 1 100 			* And equip it with a demon clan signet ring. (Max: 5)
+* E 1 16084 5 1 100 			* And equip it with a demon clan signet ring. (Max: 5)
+* E 1 16084 5 1 100 			* And equip it with a demon clan signet ring. (Max: 5)
+* E 1 16085 5 14 100 			* And equip it with a pair of demon bracers. (Max: 5)
+* E 1 16086 5 16 100 			* And equip it with a red and black blade. (Max: 5)
+* E 1 16088 5 5 100 			* And equip it with a suit of demon plate. (Max: 5)
+* D 0 16484 0 1 100 		* Close Northern door at Denizen of the Underdark's Abode
+* D 0 16485 0 1 100 		* Close Northern door at Home of a Denizen of the Underdark
+* D 0 16486 0 1 100 		* Close Northern door at Denizen of the Underdark's Abode
+* D 0 16487 0 1 100 		* Close Northern door at Home of a Denizen of the Underdark
+* D 0 16488 2 1 100 		* Close Eastern door at Denizen of the Underdark's Home
+* D 0 16492 0 1 100 		* Close Northern door at Denizen of the Underdark's Abode
+* D 0 16489 2 1 100 		* Close Eastern door at Home in the Underdark
+* D 0 16493 0 1 100 		* Close Northern door at Home of a Denizen of the Underdark
+* D 0 16490 2 1 100 		* Close Eastern door at Home of a Denizen of the Underdark
+* D 0 16494 0 1 100 		* Close Northern door at Home in the Underdark
+* D 0 16491 2 1 100 		* Close Eastern door at Denizen of the Underdark's Home
+* D 0 16438 0 1 100 		* Close Northern door at Entrance to the Cages
+* D 0 16497 2 1 100 		* Close Eastern door at Home in the Underdark
+* D 0 16496 2 1 100 		* Close Eastern door at Denizen of the Underdark's Home
+* D 0 16495 2 1 100 		* Close Eastern door at Home of a Denizen of the Underdark
+* D 0 16424 1 1 100 		* Close Eastern door at Entrance to Eurandus' Home
+* D 0 16414 2 1 100 		* Close Eastern door at Hallway in the Assassin's Guild
+* D 0 16442 1 1 100 		* Close Eastern door at Common Room of the Traveller's Den
+* D 0 16456 2 1 100 		* Close Eastern door at Entrance to Demon Clan
+* D 0 16400 1 1 100 		* Close Eastern door at Hallway in the Assassin's Guild
+* D 0 16401 3 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
+* D 0 16401 0 1 100 		* Close Northern door at Corridor in the Assassin's Guild
+* D 0 16402 2 1 100 		* Close Eastern door at Chamber in the Assassin's Guild
+* D 0 16401 2 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
+* D 0 16403 0 1 100 		* Close Northern door at Chamber in the Assassin's Guild
+* D 0 16404 0 1 100 		* Close Northern door at Corridor in the Assassin's Guild
+* D 0 16406 2 1 100 		* Close Eastern door at Chamber in the Assassin's Guild
+* D 0 16404 2 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
+* D 0 16405 0 1 100 		* Close Northern door at Chamber in the Assassin's Guild
+* D 0 16407 0 1 100 		* Close Northern door at Corridor in the Assassin's Guild
+* D 0 16408 2 1 100 		* Close Eastern door at Chamber in the Assassin's Guild
+* D 0 16407 2 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
+* D 0 16409 0 1 100 		* Close Northern door at Chamber in the Assassin's Guild
+* D 0 16407 1 1 100 		* Close Eastern door at Corridor in the Assassin's Guild
+* D 0 16410 3 1 100 		* Close Eastern door at Assassin's Meeting Chamber
+* D 0 16416 0 1 100 		* Close Northern door at Split in the Hallway
+* D 0 16417 2 1 100 		* Close Eastern door at Assassin's Storage Room
+* D 0 16418 0 1 100 		* Close Northern door at Hall of the Assassins
+* D 0 16419 2 1 100 		* Close Eastern door at Assassin's Training Room
+* D 0 16420 0 1 100 		* Close Northern door at Hall of the Assassins
+* D 0 16421 2 1 100 		* Close Eastern door at Assassin's Information Gathering
+* D 0 16422 0 1 100 		* Close Northern door at The Hall of the Assassins
+* D 0 16423 2 1 100 		* Close Eastern door at Assassin's Scrying Chamber
+* D 0 16424 3 1 100 		* Close Eastern door at Entrance to Eurandus' Home
+* D 0 16425 1 1 100 		* Close Eastern door at Waiting Room
+* D 0 16429 3 1 100 		* Close Eastern door at Large Hall
+* D 0 16431 1 1 100 		* Close Eastern door at Guest Room
+* D 0 16432 3 1 100 		* Close Eastern door at Large Hall
+* D 0 16435 1 1 100 		* Close Eastern door at Eurandus' Room
+* D 0 16434 0 1 100 		* Close Northern door at Large Hall
+* D 0 16436 2 1 100 		* Close Eastern door at Experimenting Room
+* D 0 16438 2 1 100 		* Close Eastern door at Entrance to the Cages
+* D 0 16440 0 1 100 		* Close Northern door at The Cage
+* D 0 16438 3 1 100 		* Close Eastern door at Entrance to the Cages
+* D 0 16439 1 1 100 		* Close Eastern door at Viewing Room
+* D 0 16444 3 1 100 		* Close Eastern door at Common Room
+* D 0 16446 1 1 100 		* Close Eastern door at Hallway to the Rooms
+* D 0 16446 0 1 100 		* Close Northern door at Hallway to the Rooms
+* D 0 16447 2 1 100 		* Close Eastern door at Inn Room
+* D 0 16446 2 1 100 		* Close Eastern door at Hallway to the Rooms
+* D 0 16448 0 1 100 		* Close Northern door at Inn Room
+* D 0 16449 0 1 100 		* Close Northern door at Hallway to the Rooms
+* D 0 16451 2 1 100 		* Close Eastern door at Inn Room
+* D 0 16449 2 1 100 		* Close Eastern door at Hallway to the Rooms
+* D 0 16450 0 1 100 		* Close Northern door at Inn Room
+* D 0 16452 0 1 100 		* Close Northern door at Hallway to the Rooms
+* D 0 16453 2 1 100 		* Close Eastern door at Inn Room
+* D 0 16452 2 1 100 		* Close Eastern door at Hallway to the Rooms
+* D 0 16454 0 1 100 		* Close Northern door at Inn Room
+* D 0 16459 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
+* D 0 16460 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
+* D 0 16459 2 1 100 		* Close Eastern door at Hallway in the Demon Clan
+* D 0 16461 0 1 100 		* Close Northern door at Eastern Summoning Chamber
+* D 0 16465 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
+* D 0 16466 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
+* D 0 16467 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
+* D 0 16468 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
+* D 0 16469 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
+* D 0 16470 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
+* D 0 16471 1 1 100 		* Close Eastern door at End of the Hallway
+* D 0 16472 3 1 100 		* Close Eastern door at Clan Member's Sleeping Quarters
+* D 0 16474 2 1 100 		* Close Eastern door at Hallway in the Demon Clan
+* D 0 16475 0 1 100 		* Close Northern door at Western Summoning Chamber
+* D 0 16479 1 1 100 		* Close Eastern door at Hallway in the Demon Clan
+* D 0 16480 3 1 100 		* Close Eastern door at Northern Summoning Room
 S
 $~

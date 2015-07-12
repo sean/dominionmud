@@ -14,36 +14,17 @@
 #ifndef _UTILS_H
 #define _UTILS_H
 
-#include "sysdep.h"
-
 /* external declarations and prototypes **********************************/
 
-#define core_dump()		core_dump_real(__FILE__, __LINE__)
-
-/*
- * Only provide our versions if one isn't in the C library. These macro names
- * will be defined by sysdep.h if a strcasecmp or stricmp exists.
- */
-#ifndef str_cmp
-int	str_cmp(const char *arg1, const char *arg2);
-#endif
-#ifndef strn_cmp
-int	strn_cmp(const char *arg1, const char *arg2, size_t n);
-#endif
-#ifndef str_cpy
-char *str_cpy(char *dst, const char *src);
-#endif
-#ifndef str_dup
-char *str_dup(const char *src);
-#endif
-
 /* public functions in utils.c */
-#define log			mud_log
-int     touch(const char *path);
-void    mud_log(char *str);
+char    *str_dup(const char *source);
+void    str_cpy(char *s, char *t);
+int     str_cmp(char *arg1, char *arg2);
+int     strn_cmp(char *arg1, char *arg2, int n);
+int     touch(char *path);
 void    mudlog(char *str, char type, int level, byte file);
 void    log_death_trap(struct char_data *ch);
-int     number(int from, int to);
+long    number(long from, long to);
 int     dice(int number, int size);
 void    sprintbit(long vektor, char *names[], char *result);
 void    sprinttype(int type, char *names[], char *result);
@@ -52,6 +33,19 @@ int     get_filename(char *orig_name, char *filename, int mode);
 struct  time_info_data age(struct char_data *ch);
 int     num_pc_in_room(struct room_data *room);
 const char *relg_name(struct char_data  *ch);
+void    ulog( const char * str, const char * file, const int line );
+void    remove_trailing_spaces( char * str );
+
+/* if you prefer to not log the filename and line number comment out
+   the following line and uncomment the line beneath it */
+// #define log( str )  ulog( str, __FILE__, __LINE__ );
+void mud_log( const char * str );
+void plog( char * format, ... );
+
+#define log mud_log
+
+int store_mud_time( const struct time_info_data * );
+int restore_mud_time( struct time_info_data * );
 
 /* undefine MAX and MIN so that our functions are used instead */
 #ifdef MAX
@@ -72,6 +66,7 @@ kind MIN(kind a, kind b);
 long MAX(long a, long b);
 long MIN(long a, long b);
 #endif
+
 /* in magic.c */
 bool    circle_follow(struct char_data *ch, struct char_data * victim);
 
@@ -153,14 +148,15 @@ void    update_pos(struct char_data *victim);
 
 #define CREATE(result, type, number)  do {\
 	   if (!((result) = (type *) calloc ((number), sizeof(type)))) { \
-	      perror("malloc failure"); \
+	      perror("malloc failure: buy more memory for your machine!"); \
 	      abort(); \
-	   } \
-	} while(0)
+	   } else \
+              memset( result, 0, sizeof( type ) * number ); \
+        } while(0)
 
 #define RECREATE(result,type,number) do {\
   if (!((result) = (type *) realloc ((result), sizeof(type) * (number))))\
-  { perror("realloc failure"); abort(); } } while(0)
+  { perror("realloc failure: buy more memory for your machine!"); abort(); } } while(0)
 
 /*
  * the source previously used the same code in many places to remove an item
@@ -195,10 +191,10 @@ void    update_pos(struct char_data *victim);
 
 #define MOB_FLAGS(ch)       ((ch)->char_specials.saved.act)
 #define PLR_FLAGS(ch)       ((ch)->char_specials.saved.act)
+#define PLR2_FLAGS(ch)      ((ch)->char_specials.saved.act2)
 #define PRF_FLAGS(ch)       ((ch)->player_specials->saved.pref)
-#define PRF_FLAGS2(ch)      ((ch)->player_specials->saved.pref2)
+#define PRF2_FLAGS(ch)      ((ch)->player_specials->saved.pref2)
 #define AFF_FLAGS(ch)       ((ch)->char_specials.saved.affected_by)
-#define AFF_FLAGS2(ch)      ((ch)->char_specials.saved.affected_by2)
 #define AFF2_FLAGS(ch)      ((ch)->char_specials.saved.affected_by2)
 #define BODY_PARTS(ch)      ((ch)->player_specials->saved.body_parts)
 #define ITEM_AFF(ch)        ((ch)->char_specials.item_aff_by)
@@ -213,7 +209,6 @@ void    update_pos(struct char_data *victim);
 #define PLR_FLAGGED(ch, flag) (!IS_NPC(ch) && IS_SET(PLR_FLAGS(ch), (flag)))
 #define AFF_FLAGGED(ch, flag) (IS_SET(AFF_FLAGS(ch), (flag)))
 #define AFF2_FLAGGED(ch, flag)  (IS_SET(AFF2_FLAGS(ch), (flag)))
-#define AFF_FLAGGED2(ch, flag)  (IS_SET(AFF2_FLAGS(ch), (flag)))
 #define PRF_FLAGGED(ch, flag) (IS_SET(PRF_FLAGS(ch), (flag)))
 #define ROOM_FLAGGED(loc, flag) (IS_SET(ROOM_FLAGS(loc), (flag)))
 #define HAS_BPART(ch, part)     (IS_SET(BODY_PARTS(ch), (part)))
@@ -244,14 +239,11 @@ void    update_pos(struct char_data *victim);
 			    (SUNLIGHT(room) == SUN_SET || \
 			     SUNLIGHT(room) == SUN_DARK))))
 
-
 #define IS_LIGHT(room)  (!IS_DARK(room))
 
 #define GET_ROOM_SPEC(room) ((room) >= 0 ? world[(room)].func : NULL)
 
 /* char utils ************************************************************/
-
-
 #define IN_ROOM(ch)     ((ch)->in_room)
 #define IN_ZONE(ch)     (world[(ch)->in_room].zone)
 #define GET_WAS_IN(ch)  ((ch)->was_in_room)
@@ -259,46 +251,17 @@ void    update_pos(struct char_data *victim);
 
 #define IS_SAME_RACE(ch, vict) (GET_RACE(ch) == GET_RACE(vict))
 
-#define RACE_UNDEF(ch)   ((GET_RACE(ch) == RACE_UNDEFINED) || \
-			      (GET_RACE(ch) == RACE_MAGIC) || \
-			      (GET_RACE(ch) == RACE_VEGGIE) || \
-			      (GET_RACE(ch) == RACE_WATER))
+#define RACE_UNDEF(ch)   ( (GET_RACE(ch) == UNDEFINED_RACE) || \
+                           !(GET_RACE(ch) < NUM_RACES) )
 
-#define IS_VERYOLD(ch)  ((GET_RACE(ch) == RACE_HUMAN && GET_AGE(ch) >= 60) || \
-			 (GET_RACE(ch) == RACE_GNOME && GET_AGE(ch) >= 133) || \
-			 (IS_ELF(ch) && GET_AGE(ch) >= 233) || \
-			 (IS_DWARF(ch) && GET_AGE(ch) >= 167) || \
-			 (IS_MINOTAUR(ch) && GET_AGE(ch) >= 65) || \
-			 (IS_HALFLING(ch) && GET_AGE(ch) >= 67) || \
-			 (GET_RACE(ch) == RACE_ATHASIANAE && GET_AGE(ch) >= 83) || \
-			 (GET_RACE(ch) == RACE_SESSANATHI && GET_AGE(ch) >= 145) || \
-			 (GET_RACE(ch) == RACE_CENTAUR && GET_AGE(ch) >= 40) || \
-			 (GET_RACE(ch) == RACE_HALFOGRE && GET_AGE(ch) >= 45) || \
-			 (GET_RACE(ch) == RACE_HALFGIANT && GET_AGE(ch) >= 80))
+#define IS_VERYOLD(ch)   ( !RACE_UNDEF(ch) && \
+                           GET_AGE( ch ) > races[ GET_RACE(ch) ].points.points.old_age - 10)
 
-#define IS_ELDERLY(ch)  ((GET_RACE(ch) == RACE_HUMAN && GET_AGE(ch) >= 70) || \
-			 (GET_RACE(ch) == RACE_GNOME && GET_AGE(ch) >= 160) || \
-			 (IS_ELF(ch) && GET_AGE(ch) >= 300) || \
-			 (IS_DWARF(ch) && GET_AGE(ch) >= 200) || \
-			 (IS_MINOTAUR(ch) && GET_AGE(ch) >= 75) || \
-			 (IS_HALFLING(ch) && GET_AGE(ch) >= 78) || \
-			 (GET_RACE(ch) == RACE_ATHASIANAE && GET_AGE(ch) >= 93) || \
-			 (GET_RACE(ch) == RACE_SESSANATHI && GET_AGE(ch) >= 165) || \
-			 (GET_RACE(ch) == RACE_CENTAUR && GET_AGE(ch) >= 50) || \
-			 (GET_RACE(ch) == RACE_HALFOGRE && GET_AGE(ch) >= 65) || \
-			 (GET_RACE(ch) == RACE_HALFGIANT && GET_AGE(ch) >= 90))
+#define IS_ELDERLY(ch)   ( !RACE_UNDEF(ch) && \
+                           GET_AGE( ch ) > races[ GET_RACE(ch) ].points.points.old_age + 10)
 
-#define IS_ANCIENT(ch)  ((GET_RACE(ch) == RACE_HUMAN && GET_AGE(ch) >= 90) || \
-			 (GET_RACE(ch) == RACE_GNOME && GET_AGE(ch) >= 200) || \
-			 (IS_ELF(ch) && GET_AGE(ch) >= 350) || \
-			 (IS_DWARF(ch) && GET_AGE(ch) >= 250) || \
-			 (IS_MINOTAUR(ch) && GET_AGE(ch) >= 95) || \
-			 (IS_HALFLING(ch) && GET_AGE(ch) >= 104) || \
-			 (GET_RACE(ch) == RACE_ATHASIANAE && GET_AGE(ch) >= 120) || \
-			 (GET_RACE(ch) == RACE_SESSANATHI && GET_AGE(ch) >= 190) || \
-			 (GET_RACE(ch) == RACE_CENTAUR && GET_AGE(ch) >= 60) || \
-			 (GET_RACE(ch) == RACE_HALFOGRE && GET_AGE(ch) >= 75) || \
-			 (GET_RACE(ch) == RACE_HALFGIANT && GET_AGE(ch) >= 100))
+#define IS_ANCIENT(ch)   ( !RACE_UNDEF(ch) && \
+                           GET_AGE( ch ) > races[ GET_RACE(ch) ].points.points.old_age + 20)
 
 #define GET_NAME(ch)    (IS_NPC(ch) ? \
 			 (ch)->player.short_descr : (ch)->player.name)
@@ -306,6 +269,9 @@ void    update_pos(struct char_data *victim);
 			 (ch)->player.keywords)
 #define GET_RDESC(ch)   (IS_NPC(ch) ? (ch)->player.long_descr : \
 			 (ch)->player.room_descr)
+#define GET_SHORT_DESC(ch) ((ch)->player.short_descr)
+#define GET_LONG_DESC(ch)  ((ch)->player.long_descr)
+#define GET_DESCRIPTION(ch) ((ch)->player.description)
 #define GET_TITLE(ch)      ((ch)->player.title)
 #define GET_TRUST(ch)      ((ch)->player.trust)
 #define GET_LEVEL(ch)      ((ch)->player.level)
@@ -325,6 +291,7 @@ void    update_pos(struct char_data *victim);
 #define GET_EMAIL(ch)     ((ch)->desc->email);
 #define GET_RACE(ch)      ((ch)->player.race)
 #define GET_REL(ch)       ((ch)->player.assocs[0])
+#define HAS_RELIGION(ch)  (strcmp( relg_name(ch), "None" ))
 #define GET_CLAN(ch)      ((ch)->player.assocs[1])
 #define GET_GUILD(ch)     ((ch)->player.assocs[1])
 #define GET_GUILD_LEV(ch) ((ch)->player.assocs[2])
@@ -394,6 +361,7 @@ void    update_pos(struct char_data *victim);
 #define GET_FATE_PTS(ch)   ((ch)->player_specials->saved.fate_pts)
 
 #define GET_COND(ch, i)         ((ch)->player_specials->saved.conditions[(i)])
+#define GET_ADDICT(ch, i)       ((ch)->player_specials->saved.addictions[(i)])
 #define GET_LOADROOM(ch)        ((ch)->player_specials->saved.load_room)
 #define GET_PRACTICES(ch)       ((ch)->player_specials->saved.spells_to_learn)
 #define GET_INVIS_LEV(ch)       ((ch)->player_specials->saved.invis_level)
@@ -454,11 +422,13 @@ void    update_pos(struct char_data *victim);
 #define IS_GOOD(ch)    (GET_ALIGNMENT(ch) >= 350)
 #define IS_EVIL(ch)    (GET_ALIGNMENT(ch) <= -350)
 #define IS_NEUTRAL(ch) (!IS_GOOD(ch) && !IS_EVIL(ch))
-#define IS_NEUT(ch)   (IS_NEUTRAL(ch))
+/* these definitions are wrong, so please fix them */
+#define IS_LAWFUL(ch)  (IS_GOOD(ch))
+#define IS_CHAOTIC(ch) (IS_EVIL(ch))
 
 #define IS_PERMGOOD(ch) (GET_PERMALIGN(ch) == ALIGN_GOOD)
 #define IS_PERMEVIL(ch) (GET_PERMALIGN(ch) == ALIGN_EVIL)
-#define IS_PERMNEUT(ch) (GET_PERMALIGN(ch) == ALIGN_NEUT)
+#define IS_PERMNEUT(ch) (GET_PERMALIGN(ch) == ALIGN_NEUTRAL)
 
 #define IS_PRAYER(spell)  ((spell_info[(spell)].sphere == SPHERE_PRAYER) || \
 			   (spell_info[(spell)].sphere == SPHERE_ACTS_OF_DEITIES) || \
@@ -492,6 +462,7 @@ void    update_pos(struct char_data *victim);
 
 #define CHECK_WAIT(ch)  (((ch)->desc) ? ((ch)->desc->wait > 1) : 0)
 #define STATE(d)        ((d)->connected)
+#define SUBSTATE(d)     ((d)->sub_state)
 #define GET_ANSI(d)     ((d)->ansi)
 
 /* object utils **********************************************************/
@@ -550,10 +521,13 @@ void    update_pos(struct char_data *victim);
 
 /* compound utilities and other macros **********************************/
 
-
 #define HSHR(ch) (GET_SEX(ch) ? (GET_SEX(ch)==SEX_MALE ? "his":"her") :"its")
 #define HSSH(ch) (GET_SEX(ch) ? (GET_SEX(ch)==SEX_MALE ? "he" :"she") : "it")
 #define HMHR(ch) (GET_SEX(ch) ? (GET_SEX(ch)==SEX_MALE ? "him":"her") : "it")
+
+#define HISHER(i) (i == SEX_MALE ? "his" : i == SEX_FEMALE ? "her" : "its")
+#define HESHE(i)  (i == SEX_MALE ? "he"  : i == SEX_FEMALE ? "she" : "it")
+#define HIMHER(i) (i == SEX_MALE ? "him" : i == SEX_FEMALE ? "her" : "it")
 
 #define ANA(obj) (strchr("aeiouyAEIOUY", *(obj)->name) ? "An" : "A")
 #define SANA(obj) (strchr("aeiouyAEIOUY", *(obj)->name) ? "an" : "a")
@@ -624,7 +598,8 @@ void    update_pos(struct char_data *victim);
 
 #define SPEC_ABBR(ch)  (IS_NPC(ch) ? "--" : spec_class_abbrevs[(int) GET_SPEC_CLASS(ch)])
 
-#define RACE_ABBR(ch)  (IS_NPC(ch) ? "--" : race_abbrev[(int) GET_RACE(ch)])
+#define RACE_ABBR(ch)  ( RACE_UNDEF(ch) ? "--" : \
+                         races[ GET_RACE(ch) ].abbrev )
 
 #define GUILD_ABBR(ch)  (IS_NPC(ch) ? "--" : guild_abbrev[(int) GET_GUILD(ch)])
 
@@ -633,98 +608,53 @@ void    update_pos(struct char_data *victim);
 #define IS_ROGUE(ch)   (GET_SKILL(ch, SPHERE_GTHIEVERY) > 1)
 #define IS_WARRIOR(ch) (GET_SKILL(ch, SPHERE_COMBAT) > 1)
 
-#define IS_REGENER(ch)        ((GET_RACE(ch) == RACE_SESSANATHI) || \
-			       (GET_RACE(ch) == RACE_VAMPIRE)    || \
-			       IS_DRAGON(ch) || \
+#define CAN_SPEAK(ch)        ( !RACE_UNDEF(ch) && \
+                               races[ GET_RACE(ch) ].canSpeak )
+
+#define IS_REGENER(ch)       ( (!RACE_UNDEF(ch) && \
+                                races[ GET_RACE(ch) ].points.regen != 0) || \
 			       IS_SET(ABIL_FLAGS(ch), ABIL_REGENERATION))
 
-#define IS_ANIMAL(ch)		(GET_RACE(ch) == RACE_ANIMAL)
-#define IS_HUMANOID(ch)      ((GET_RACE(ch) == RACE_HUMAN)       || \
-			      (GET_RACE(ch) == RACE_ATHASIANAE)  || \
-			      (GET_RACE(ch) == RACE_THURGAR)     || \
-			      (GET_RACE(ch) == RACE_GNOME)       || \
-			      (GET_RACE(ch) == RACE_DARGONAE)    || \
-			      (GET_RACE(ch) == RACE_KINTHALAS)   || \
-			      (GET_RACE(ch) == RACE_ARMACHNAE)   || \
-			      (GET_RACE(ch) == RACE_TARMIRNAE)   || \
-			      (GET_RACE(ch) == RACE_RADINAE)     || \
-			      (GET_RACE(ch) == RACE_KENDER)      || \
-			      (GET_RACE(ch) == RACE_DAERWAR)     || \
-			      (GET_RACE(ch) == RACE_KAERGAR)     || \
-			      (GET_RACE(ch) == RACE_ZAKHAR)      || \
-			      (GET_RACE(ch) == RACE_HALFLING)    || \
-			      (GET_RACE(ch) == RACE_HALFGIANT)   || \
-			      (GET_RACE(ch) == RACE_SESSANATHI)  || \
-			      (GET_RACE(ch) == RACE_HALFOGRE)    || \
-			      (GET_RACE(ch) == RACE_BYTERIAN)    || \
-			      (GET_RACE(ch) == RACE_VAMPIRE)     || \
-			      (GET_RACE(ch) == RACE_WEREWOLF)    || \
-			      (GET_RACE(ch) == RACE_UNDEAD)      || \
-			      (GET_RACE(ch) == RACE_GIANT)       || \
-			      (GET_RACE(ch) == RACE_HUMANOID)    || \
-			      (GET_RACE(ch) == RACE_GULLYDWARF)  || \
-			      (GET_RACE(ch) == RACE_DEMON))
+#define IS_HUMANOID(ch)      ( !RACE_UNDEF(ch) && races[ GET_RACE(ch) ].isHumanoid )
 
-#define CAN_SPEAK(ch)        (IS_HUMANOID(ch) || IS_CENTAUR(ch))
-#define IS_DRAGON(ch)        ((GET_RACE(ch) == RACE_RED_DRAGON)      || \
-			      (GET_RACE(ch) == RACE_BLUE_DRAGON)     || \
-			      (GET_RACE(ch) == RACE_GREEN_DRAGON)    || \
-			      (GET_RACE(ch) == RACE_BLACK_DRAGON)    || \
-			      (GET_RACE(ch) == RACE_WHITE_DRAGON)    || \
-			      (GET_RACE(ch) == RACE_BRONZE_DRAGON)   || \
-			      (GET_RACE(ch) == RACE_COPPER_DRAGON)   || \
-			      (GET_RACE(ch) == RACE_SILVER_DRAGON)   || \
-			      (GET_RACE(ch) == RACE_GOLD_DRAGON)     || \
-			      (GET_RACE(ch) == RACE_PLATINUM_DRAGON))
+#define IS_VAMPIRE(ch)       ( AFF2_FLAGGED(ch, AFF_VAMPIRE) )
 
-#define IS_DWARF(ch)          ((GET_RACE(ch) == RACE_THURGAR) || \
-			       (GET_RACE(ch) == RACE_DAERWAR) || \
-			       (GET_RACE(ch) == RACE_KAERGAR) || \
-			       (GET_RACE(ch) == RACE_ZAKHAR))
-#define IS_DWARVEN(ch)        (IS_DWARF(ch))
-#define IS_CENTAUR(ch)        ((GET_RACE(ch) == RACE_CENTAUR))
-#define IS_ELF(ch)            ((GET_RACE(ch) == RACE_DARGONAE)  || \
-			       (GET_RACE(ch) == RACE_ARMACHNAE) || \
-			       (GET_RACE(ch) == RACE_TARMIRNAE) || \
-			       (GET_RACE(ch) == RACE_RADINAE))
-#define IS_ELVEN(ch)          (IS_ELF(ch))
-#define IS_HALFLING(ch)       ((GET_RACE(ch) == RACE_HALFLING) || \
-			       (GET_RACE(ch) == RACE_KENDER))
+#define IS_LYCANTHROPE(ch)   ( AFF2_FLAGGED(ch, AFF_LYCANTHROPE) )
 
-#define IS_MINOTAUR(ch)       ((GET_RACE(ch) == RACE_KINTHALAS)  || \
-			       (GET_RACE(ch) == RACE_BYTERIAN))
+#define IS_UNDEAD(ch)        ( AFF2_FLAGGED(ch, AFF_UNDEAD) )
 
-#define IS_SESSANATHI(ch)     (GET_RACE(ch) == RACE_SESSANATHI)
+#define IS_MINOTAUR(ch)      (!RACE_UNDEF(ch) && \
+                              !strcmp( races[ GET_RACE(ch) ].name, "Minotaur" ))
 
-#define IS_TINY(ch)           (GET_RACE(ch) == RACE_PIXIE)
+#define IS_DRAGON(ch)        (!RACE_UNDEF(ch) && \
+                              strstr( races[ GET_RACE(ch) ].name, "Dragon" ))
 
-#define IS_SMALL(ch)          ((GET_RACE(ch) == RACE_GULLYDWARF) || \
-			       (GET_RACE(ch) == RACE_KENDER)     || \
-			       (GET_RACE(ch) == RACE_GNOME)      || \
-			       (GET_RACE(ch) == RACE_HALFLING)   || \
-			       (IS_DWARF(ch)))
+/* This needs to be fixed */
+#define IS_ANIMAL(ch)        (FALSE)
 
-#define IS_MEDIUM(ch)         ((GET_RACE(ch) == RACE_HUMAN)      || \
-			       (GET_RACE(ch) == RACE_HUMANOID)   || \
-			       (GET_RACE(ch) == RACE_ATHASIANAE) || \
-			       (GET_RACE(ch) == RACE_KINTHALAS)  || \
-			       (GET_RACE(ch) == RACE_BYTERIAN)   || \
-			       (GET_RACE(ch) == RACE_SESSANATHI) || \
-			       (GET_RACE(ch) == RACE_UNDEAD)     || \
-			       (GET_RACE(ch) == RACE_VEGGIE) || \
-			       (IS_ELF(ch)))
+/* This needs to be fixed */
+#define IS_ILLUSION(ch)      (FALSE)
 
-#define IS_LARGE(ch)           ((GET_RACE(ch) == RACE_CENTAUR) || \
-				(GET_RACE(ch) == RACE_HALFOGRE) || \
-				(GET_RACE(ch) == RACE_HALFGIANT) || \
-				(GET_RACE(ch) == RACE_DEMON) || \
-				(GET_RACE(ch) == RACE_GIANT))
+/* update as new races are added, perhaps the race_data should be
+   modified to keep a bitvec of perm affects */
+#define RACE_HAS_INFRA(ch)   ( !RACE_UNDEF(ch) && \
+                               (!strcmp( races[ GET_RACE(ch) ].name, "Gnome" ) || \
+                                !strcmp( races[ GET_RACE(ch) ].name, "Dwarf" )) )
+                               
+#define IS_TINY(ch)          ( !RACE_UNDEF(ch) && \
+                               races[ GET_RACE(ch) ].points.rsize == TINY)
 
-#define IS_HUGE(ch)            (IS_DRAGON(ch) || \
-				(!IS_TINY(ch) && \
-				 !IS_SMALL(ch) && \
-				 !IS_MEDIUM(ch) && \
-				 !IS_LARGE(ch)))
+#define IS_SMALL(ch)         ( !RACE_UNDEF(ch) && \
+                               races[ GET_RACE(ch) ].points.rsize == SMALL)
+
+#define IS_MEDIUM(ch)        ( !RACE_UNDEF(ch) && \
+                               races[ GET_RACE(ch) ].points.rsize == MEDIUM)
+
+#define IS_LARGE(ch)         ( !RACE_UNDEF(ch) && \
+                               races[ GET_RACE(ch) ].points.rsize == LARGE)
+
+#define IS_HUGE(ch)          ( !RACE_UNDEF(ch) && \
+                               races[ GET_RACE(ch) ].points.rsize == HUGE)
 
 #define OUTSIDE(ch) (!ROOM_FLAGGED((ch)->in_room, ROOM_INDOORS))
 

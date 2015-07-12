@@ -27,7 +27,7 @@ ACMD(do_look);
 void death_cry(struct char_data *ch);
 
 /* creates a random number in interval [from;to] */
-int number(int from, int to)
+long number(long from, long to)
 {
   /* error checking in case people call number() incorrectly */
   if (from > to) {
@@ -72,36 +72,37 @@ long MAX(long a, long b) { return a > b ? a : b; }
 #endif
 
 /* Copy one stirng to another */
-char * str_cpy(char *s, const char *t)
+void str_cpy(char *s, char *t)
 {
-  while ((*s++ = *t++))
-    /* DO NOTHING */;
-  return s;
+   while ((*s++ = *t++))
+      /* DO NOTHING */;
 }
 
 /* Create a duplicate of a string */
 char *str_dup(const char *source)
 {
   char *newp;
+  assert( source != NULL );
 
   CREATE(newp, char, strlen(source) + 1);
   return (strcpy(newp, source));
 }
 
+
+
 /* str_cmp: a case-insensitive version of strcmp */
 /* returns: 0 if equal, 1 if arg1 > arg2, -1 if arg1 < arg2  */
 /* scan 'till found different or end of both                 */
-int str_cmp(const char *arg1, const char *arg2)
+int str_cmp(char *arg1, char *arg2)
 {
   int chk, i;
 
   for (i = 0; *(arg1 + i) || *(arg2 + i); i++) {
     if ((chk = LOWER(*(arg1 + i)) - LOWER(*(arg2 + i)))) {
-      if (chk < 0) {
-	      return (-1);
-      } else {
-	      return (1);
-      }
+      if (chk < 0)
+	return (-1);
+      else
+	return (1);
     }
   }
   return (0);
@@ -111,17 +112,16 @@ int str_cmp(const char *arg1, const char *arg2)
 /* strn_cmp: a case-insensitive version of strncmp */
 /* returns: 0 if equal, 1 if arg1 > arg2, -1 if arg1 < arg2  */
 /* scan 'till found different, end of both, or n reached     */
-int strn_cmp(const char *arg1, const char *arg2, size_t n)
+int strn_cmp(char *arg1, char *arg2, int n)
 {
   int chk, i;
 
   for (i = 0; (*(arg1 + i) || *(arg2 + i)) && (n > 0); i++, n--) {
     if ((chk = LOWER(*(arg1 + i)) - LOWER(*(arg2 + i)))) {
-      if (chk < 0) {
-	      return (-1);
-      } else {
-	      return (1);
-      }
+      if (chk < 0)
+	return (-1);
+      else
+	return (1);
     }
   }
   return (0);
@@ -141,7 +141,7 @@ void log_death_trap(struct char_data * ch)
 
 
 /* writes a string to the log */
-void mud_log(char *str)
+void ulog( const char * str, const char * file, const int line )
 {
   time_t ct;
   char *tmstr;
@@ -149,12 +149,17 @@ void mud_log(char *str)
   ct = time(0);
   tmstr = asctime(localtime(&ct));
   *(tmstr + strlen(tmstr) - 1) = '\0';
-  fprintf(stderr, "%-19.19s :: %s\n", tmstr, str);
+
+  if ( file != NULL && line > 0 )
+    fprintf(stderr, "%-19.19s (%s:%d):: %s\n", tmstr,
+            file, line, str);
+  else
+    fprintf(stderr, "%-19.19s :: %s\n", tmstr, str);
 }
 
 
 /* the "touch" command, essentially. */
-int touch(const char *path)
+int touch(char *path)
 {
   FILE *fl;
 
@@ -574,7 +579,40 @@ struct time_info_data real_time_passed(time_t t2, time_t t1)
   return now;
 }
 
+/* attempt to open up the mud time file and read it in */
+int restore_mud_time( struct time_info_data * time_info )
+{
+  FILE * time_file;
 
+  if (!(time_file = fopen(TIME_FILE, "r"))) {
+    log("Time file non-existant... restarting MUD time.");
+    return -1; /* error */
+  }
+
+  /* read the time */
+  fread( time_info, sizeof( *time_info ), 1, time_file );
+
+  fclose( time_file );
+  return 0;  /* fine */
+}
+
+/* attempt to open up the mud time file and save the time */
+int store_mud_time( const struct time_info_data * time_info )
+{
+  FILE * time_file;
+  char buf[64];
+
+  if (!(time_file = fopen(TIME_FILE, "w"))) {
+    sprintf( buf, "Unable to store time to %s!", TIME_FILE );
+    log( buf );
+    return -1; /* error */
+  }
+
+  /* write the time */
+  fwrite( time_info, sizeof( *time_info ), 1, time_file );
+  fclose( time_file );
+  return 0;  /* fine */
+}
 
 /* Calculate the MUD time passed over the last t2-t1 centuries (secs) */
 struct time_info_data mud_time_passed(time_t t2, time_t t1)
@@ -669,7 +707,7 @@ void stop_follower(struct char_data * ch)
 
   ch->master = NULL;
   REMOVE_BIT(AFF_FLAGS(ch), AFF_CHARM);
-  REMOVE_BIT(AFF_FLAGS2(ch), AFF_GROUP);
+  REMOVE_BIT(AFF2_FLAGS(ch), AFF_GROUP);
 }
 
 
@@ -776,7 +814,7 @@ int get_filename(char *orig_name, char *filename, int mode)
   if (!*orig_name)
     return 0;
 
-  strncpy(name, orig_name, sizeof(name));
+  strcpy(name, orig_name);
   for (ptr = name; *ptr; ptr++)
     *ptr = LOWER(*ptr);
 
@@ -924,4 +962,67 @@ void parse_color_and_send(struct char_data *ch, unsigned char *src)
 
    if (ch->desc != NULL)
      SEND_TO_Q(CAP(lbuf), ch->desc);
+}
+
+void plog( char * fmt, ... )
+{
+  va_list ap;
+  char * p, * sval;
+  int ival;
+  double dval;
+
+  // time header
+  time_t ct;
+  char *tmstr;
+
+  ct = time(0);
+  tmstr = asctime(localtime(&ct));
+  *(tmstr + strlen(tmstr) - 1) = '\0';
+
+  fprintf(stderr, "%-19.19s :: ", tmstr );
+
+  // start dealing with the variable args
+  va_start( ap, fmt );
+
+  for ( p = fmt; *p; p++ ) {
+    if ( *p != '%' ) {
+      putc( *p, stderr );
+      continue;
+    }
+    switch ( *++p ) {
+      case 'd':
+        ival = va_arg( ap, int );
+        fprintf( stderr, "%d", ival );
+        break;
+      case 'f':
+        dval = va_arg( ap, double );
+        fprintf( stderr, "%f", dval );
+        break;
+      case 's':
+        for ( sval = va_arg( ap, char * ); *sval; sval++ )
+          putc( *sval, stderr );
+        break;
+      default:
+        putc( *p, stderr );
+        break;
+    }
+  }
+  va_end( ap );
+  // add a newline so it works like ulog
+  putc( '\n', stderr );
+}
+
+void remove_trailing_spaces( char * str )
+{
+  while ( isspace( str[ strlen( str ) - 1 ] ) )
+    str[ strlen( str ) - 1 ] = '\0';
+}
+
+#ifdef log
+#undef log
+#endif
+
+void mud_log( const char * str )
+{
+  ulog( str, NULL, -1 );
 }

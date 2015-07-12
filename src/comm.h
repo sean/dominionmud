@@ -16,6 +16,8 @@
 
 #define NUM_RESERVED_DESCS      8
 
+#define COPYOVER_FILE "copyover.dat"
+
 /* comm.c */
 void    send_to_all(char *messg);
 void    send_to_char(char *messg, struct char_data *ch);
@@ -53,6 +55,6 @@ void 	send_to_q(const  char *txt, struct descriptor_data *d);
 #define USING_SMALL(d)  ((d)->output == (d)->small_outbuf)
 #define USING_LARGE(d)  (!USING_SMALL(d))
 
-typedef RETSIGTYPE sigfunc(int);
+typedef void sigfunc(int); 
 
 #endif /* _COMM_H */

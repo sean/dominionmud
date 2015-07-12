@@ -13,9 +13,6 @@
 
 #define __COMM_C__
 
-#include "conf.h"
-#include "sysdep.h"
-
 #include <sys/socket.h>
 #include <sys/resource.h>
 #include <netinet/in.h>
@@ -23,6 +20,8 @@
 #include <netdb.h>
 #include <signal.h>
 
+#include "conf.h"
+#include "sysdep.h"
 #include "protos.h"
 
 int getpagesize(void);
@@ -69,6 +68,11 @@ extern int auto_save;           /* see config.c */
 extern int autosave_time;       /* see config.c */
 struct timeval null_time;       /* zero-valued time structure */
 extern struct index_data *mob_index;
+static bool fCopyOver;
+sh_int port;
+socket_t mother_desc;
+
+FILE * fpReserve;
 
 /* functions in this file */
 int  get_from_q(struct txt_q *queue, char *dest, int *aliased);
@@ -89,6 +93,7 @@ int  perform_alias(struct descriptor_data *d, char *orig);
 void record_usage(void);
 void make_prompt(struct descriptor_data *point);
 void check_idle_passwords(void);
+void init_descriptor(struct descriptor_data *newd, int desc);
 
 /* extern fcnts */
 void boot_db(void);
@@ -105,13 +110,12 @@ int isbanned(char *hostname);
 void weather_and_time(int mode);
 void perform_teleport_pulse(void);
 void perform_spc_update(void);
+void perform_current_sweep(void);
 void die(struct char_data *ch);
 long exp_needed(int level);
 void free_room(struct room_data *room);
-#if 0
 void free_zone(struct zone_data *zone);
 void free_shop(struct shop_data *shop);
-#endif
 ACMD(do_track);
 ACMD(do_infobar);
 char *scrpos(int y, int x, struct char_data *ch);
@@ -124,7 +128,6 @@ void mprog_wordlist_check(char *arg, struct char_data*mob, struct char_data *ch,
 
 int main(int argc, char **argv)
 {
-  int port;
   char buf[512];
   int pos = 1;
   char *dir;
@@ -159,11 +162,11 @@ int main(int argc, char **argv)
       break;
     case 'r':
       if (*(argv[pos] + 2)) {
-	       game_restrict = atoi(argv[pos] + 2);
+	      game_restrict = atoi(argv[pos] + 2);
       } else if (++pos < argc) {
-	       game_restrict = atoi(argv[pos]);
+	      game_restrict = atoi(argv[pos]);
       } else {
-	       game_restrict = 1;
+	      game_restrict = 1;
       }
       sprintf(buf, "Restricting game -- no new players allowed above level %d.", game_restrict);
       log(buf);
@@ -171,6 +174,10 @@ int main(int argc, char **argv)
     case 's':
       no_specials = 1;
       log("Suppressing assignment of special routines.");
+      break;
+    case 'C':
+      fCopyOver = TRUE;
+      mother_desc = atoi(argv[pos]+2);
       break;
     default:
       sprintf(buf, "SYSERR: Unknown option -%c in argument string.", *(argv[pos] + 1));
@@ -181,8 +188,9 @@ int main(int argc, char **argv)
   }
 
   if (pos < argc) {
-    if (!isdigit(*argv[pos])) {
-      fprintf(stderr, "Usage: %s [-c] [-m] [-q] [-r #] [-s] [-d pathname] [port #]\n", argv[0]);
+    if (!isdigit((int)*argv[pos])) {
+      fprintf(stderr, 
+	      "Usage: %s [-c] [-m] [-q] [-r #] [-s] [-d pathname] [port #]\n", argv[0]);
       exit(1);
     } else if ((port = atoi(argv[pos])) <= 1024) {
       fprintf(stderr, "Illegal port number.\n");
@@ -195,6 +203,12 @@ int main(int argc, char **argv)
   }
   sprintf(buf, "Using %s as data directory.", dir);
   log(buf);
+
+  // reserve a file descriptor
+  if ( !(fpReserve = fopen( NULL_FILE, "r" )) ) {
+    perror( NULL_FILE );
+    exit( 1 );
+  }
 
   if (scheck) {
     boot_world();
@@ -209,17 +223,98 @@ int main(int argc, char **argv)
   return 0;
 }
 
+int enter_player_game(struct descriptor_data *d);
+
+/* Reload players after a copyover */
+void copyover_recover( )
+{
+  struct descriptor_data *d;
+  FILE *fp;
+  char name[MAX_INPUT_LENGTH];
+  char host[1024];
+  struct char_file_u tmp_store;
+  int desc, player_i;
+  bool fOld;
+	
+  log ("Hot reboot recovery initiated");
+
+  /* there are some descriptors open which will hang forever then ? */
+  if ( !(fp = fopen (COPYOVER_FILE, "r")) ) {
+    perror ("copyover_recover:fopen");
+    log ("Hot reboot file not found. Exitting.\r\n");
+    exit (1);
+  }
+  
+  /* In case something crashes - doesn't prevent reading	*/
+  unlink(COPYOVER_FILE);
+  
+  for (;;) {
+    fOld = TRUE;
+    fscanf(fp, "%d %s %s\n", &desc, name, host);
+
+    if (desc == -1)
+      break;
+    
+    /* Write something, and check if it goes error-free */		
+    if (write_to_descriptor(desc, "\n\rRestoring from hot reboot ...\n\r") < 0) {
+      plog( "Unable to write to descriptor, closing connection to %s from %s.\n", name, host );
+      close(desc); /* nope */
+      continue;
+    }
+    
+    /* create a new descriptor */
+    CREATE (d, struct descriptor_data, 1);
+    memset ((char *) d, 0, sizeof (struct descriptor_data));
+    init_descriptor (d,desc); /* set up various stuff */
+    
+    strcpy(d->host, host);
+    d->next = descriptor_list;
+    descriptor_list = d;
+    
+    d->connected = CON_CLOSE;
+    
+    /* Now, find the pfile */
+    CREATE(d->character, struct char_data, 1);
+    clear_char(d->character);
+    CREATE(d->character->player_specials, struct player_special_data, 1);
+    d->character->desc = d;
+    
+    if ((player_i = load_char(name, &tmp_store)) >= 0) {
+      store_to_char(&tmp_store, d->character);
+      GET_PFILEPOS(d->character) = player_i;
+      if (!PLR_FLAGGED(d->character, PLR_DELETED))
+	REMOVE_BIT(PLR_FLAGS(d->character),PLR_WRITING | PLR_MAILING | PLR_CRYO);
+      else
+	fOld = FALSE;
+    } else
+      fOld = FALSE;
+    
+    /* Player file not found?! */
+    if (!fOld) {
+      write_to_descriptor(desc, 
+			  "\n\rSomehow, your character was lost in the reboot. Sorry.\n\r");
+      close_socket (d);			
+    } else {
+      enter_player_game(d);
+      d->connected = CON_PLAYING;
+      write_to_descriptor(desc, "\n\rReboot recovery complete.\n\r");
+      look_at_room(d->character, 0);
+    }
+  }
+  fclose (fp);
+}
 
 
 /* Init sockets, run game, and cleanup sockets */
 void init_game(int port)
 {
-  int mother_desc;
-
   srandom(time(0));
 
-  log("Opening mother connection.");
-  mother_desc = init_socket(port);
+  /* If copyover mother_desc is already set up */
+  if (!fCopyOver) {
+    log("Opening mother connection.");
+    mother_desc = init_socket(port);
+  }
 
   max_players = get_max_players();
 
@@ -228,8 +323,10 @@ void init_game(int port)
   log("Signal trapping.");
   signal_setup();
 
-  log("Entering game loop.");
+  if (fCopyOver) /* reload players */
+  copyover_recover( );
 
+  log("Entering game loop.");
   game_loop(mother_desc);
 
   log("Closing all sockets.");
@@ -243,6 +340,10 @@ void init_game(int port)
     log("Rebooting.");
     exit(52);                   /* what's so great about HHGTTG, anyhow? */
   }
+
+  /* save the current day/month/year etc. */
+  store_mud_time( &time_info );
+  
   log("Normal termination of game.");
 }
 
@@ -345,7 +446,8 @@ int get_max_players(void)
       perror("calling getrlimit");
       exit(1);
     }
-#if 0
+
+#ifndef __APPLE__
     /* set the current to the maximum */
     limit.rlim_cur = limit.rlim_max;
     if (setrlimit(RLIMIT_NOFILE, &limit) < 0) {
@@ -353,6 +455,7 @@ int get_max_players(void)
       exit(1);
     }
 #endif
+
 #ifdef RLIM_INFINITY
     if (limit.rlim_max == RLIM_INFINITY)
       max_descs = MAX_PLAYERS + NUM_RESERVED_DESCS;
@@ -418,9 +521,7 @@ void game_loop(int mother_desc)
   struct timeval last_time, now, timespent, timeout, opt_time;
   char   comm[MAX_INPUT_LENGTH];
   struct descriptor_data *d, *next_d;
-  struct char_data *tch, *next_tch;
-  int  pulse = 0, mins_since_crashsave = 0, maxdesc, aliased, dam;
-  long strike_loc = 0;
+  int  pulse = 0, mins_since_crashsave = 0, maxdesc, aliased;
 
   /* initialize various time values */
   null_time.tv_sec = 0;
@@ -431,19 +532,20 @@ void game_loop(int mother_desc)
 
   /* The Main Loop.  The Big Cheese.  The Top Dog.  The Head Honcho.  The.. */
   while (!circle_shutdown) {
-
     /* Sleep if we don't have any connections */
     if (descriptor_list == NULL) {
       log("No connections.  Going to sleep.");
       FD_ZERO(&input_set);
       FD_SET(mother_desc, &input_set);
-      if (select(mother_desc + 1, &input_set, (fd_set *) 0, (fd_set *) 0, NULL) < 0) {
-	if (errno == EINTR)
+      if (select(mother_desc + 1, &input_set,
+                 (fd_set *) 0, (fd_set *) 0, NULL) < 0) {
+	if (errno == EINTR) {
 	  log("Waking up to process signal.");
-	else
+	} else
 	  perror("Select coma");
-      } else
+      } else {
 	log("New connection.  Waking up.");
+      }
       gettimeofday(&last_time, (struct timezone *) 0);
     }
     /* Set up the input, output, and exception sets for select(). */
@@ -471,7 +573,6 @@ void game_loop(int mother_desc)
      */
     do {
       errno = 0;                /* clear error condition */
-
       /* figure out for how long we have to sleep */
       gettimeofday(&now, (struct timezone *) 0);
       timespent = timediff(&now, &last_time);
@@ -494,8 +595,9 @@ void game_loop(int mother_desc)
       return;
     }
     /* If there are new connections waiting, accept them. */
-    if (FD_ISSET(mother_desc, &input_set))
+    if (FD_ISSET(mother_desc, &input_set)) {
       new_descriptor(mother_desc);
+    }
 
     /* kick out the freaky folks in the exception set */
     for (d = descriptor_list; d; d = next_d) {
@@ -547,10 +649,10 @@ void game_loop(int mother_desc)
 	  if (aliased)          /* to prevent recursive aliases */
 	    d->prompt_mode = 0;
 	  else {
-	    if (perform_alias(d, comm))         /* run it through aliasing system */
+	    if (perform_alias(d, comm))   /* run it through aliasing system */
 	      get_from_q(&d->input, comm, &aliased);
 	  }
-	  command_interpreter(d->character, comm);      /* send it to interpreter */
+	  command_interpreter(d->character, comm);  /* send it to interpreter */
 	}
       }
     }
@@ -558,11 +660,12 @@ void game_loop(int mother_desc)
     /* send queued output out to the operating system (ultimately to user) */
     for (d = descriptor_list; d; d = next_d) {
       next_d = d->next;
-      if (FD_ISSET(d->descriptor, &output_set) && *(d->output))
+      if (FD_ISSET(d->descriptor, &output_set) && *(d->output)) {
 	if (process_output(d) < 0)
 	  close_socket(d);
 	else
 	  d->prompt_mode = 1;
+      }
     }
 
     /* kick out folks in the CON_CLOSE state */
@@ -595,92 +698,19 @@ void game_loop(int mother_desc)
 
     if (!(pulse % PULSE_VIOLENCE))
       perform_violence();
-#if 0
-      /* Perform weather checks */
-      if ((weather_info.sky == SKY_THUNDERSTORM) || \
-	  (weather_info.sky == SKY_TORNADO)      || \
-	  (weather_info.sky == SKY_BLIZZARD))
-	if (number(1, 10) == 10) {
-	  tch = NULL;
-	  strike_loc = number(1, top_of_world);
-	  if (!ROOM_FLAGGED(strike_loc, ROOM_INDOORS)) {
-	    if (weather_info.sky == SKY_TORNADO)
-	      dam = dice(15, 15);
-	    else if (weather_info.sky == SKY_TORNADO)
-	      dam = dice(6, 10);
-	    else  /* Blizzard */
-	      dam = dice(8, 12);
-	    /* Chance of dodging weather */
-	    if (number(0, 10) == 0)
-	      dam = 0;
-	    /* Now find someone in the room */
-	    for (tch = world[strike_loc].people; tch; tch = next_tch) {
-	       next_tch = tch->next_in_room;
-
-	       if (IS_IMMORTAL(tch))
-		 continue;
-
-	       if (dam > 0) {
-		 GET_HIT(tch) -= dam;
-		 update_pos(tch);
-		 if (weather_info.sky == SKY_TORNADO) {
-		   act("A tornado touches down, throwing $n around!", TRUE, tch, 0, 0, TO_ROOM);
-		   send_to_char("You are tossed around by a tornado!\r\n", tch);
-		 } else if (weather_info.sky == SKY_THUNDERSTORM) {
-		   act("A lightning bolt strikes $n!", TRUE, tch, 0, 0, TO_ROOM);
-		   send_to_char("You are struck by a lightning bolt!\r\n", tch);
-		 } else { /* Blizzard */
-		   act("A blizzard blows through the area covering $n with hail and snow!", TRUE, tch, 0, 0, TO_ROOM);
-		   send_to_char("A blizzard rips right through you!\r\n", tch);
-		 }
-	       }
-	       if (GET_POS(tch) == POS_DEAD) {
-		 if (!IS_NPC(tch)) {
-		   if (weather_info.sky == SKY_TORNADO)
-		     sprintf(buf2, "%s killed by tornado at %s", tch->player.name, world[tch->in_room].name);
-		   else if (weather_info.sky == SKY_BLIZZARD)
-		     sprintf(buf2, "%s killed by blizzard at %s", tch->player.name, world[tch->in_room].name);
-		   else
-		     sprintf(buf2, "%s killed by lightning at %s", tch->player.name,world[tch->in_room].name);
-		   mudlog(buf2, BRF, LVL_IMMORT, TRUE);
-		 }
-		 die(tch);
-	       } else if (tch != NULL) { /* no damage done */
-		 if (weather_info.sky == SKY_TORNADO) {
-		   act("The wind picks up as a tornado passes overhead.", FALSE, tch, 0, 0, TO_ROOM);
-		   send_to_char("The wind picks up as a tornado passes overhead.\r\n", tch);
-		   sprintf(buf, "Random tornado in room %ld.", world[strike_loc].number);
-		 } else if (weather_info.sky == SKY_THUNDERSTORM) {
-		   act("You jump as lightning strikes near by.", FALSE, tch, 0, 0, TO_ROOM);
-		   send_to_char("You jump as lightning strikes near by.\r\n", tch);
-		   sprintf(buf, "Random lightning in room %ld.", world[strike_loc].number);
-		 } else { /* blizzard time */
-		   act("You buckle down and hold your ground as a blizzard blows through.", FALSE, tch, 0, 0, TO_ROOM);
-		   send_to_char("You buckle down and hold your ground as a blizzard blows through.\r\n", tch);
-		   sprintf(buf, "Random blizzard in room %ld.", world[strike_loc].number);
-		 }
-		 mudlog(buf, BRF, LVL_GOD, TRUE);
-	       }
-	    }
-	  } /* PPL indoors are safe -- for now */
-	
-      }
-    }
-#endif
     /* new for TD */
     if (!(pulse % PULSE_TELEPORT))
       perform_teleport_pulse();
-#if 0
     if (!(pulse % PULSE_SPC_UPDATE))
       perform_spc_update();
     if (!(pulse % PULSE_EVENTS))
       event_activity();
     if (!(pulse % PULSE_RIVER))
       perform_current_sweep();
-#endif
 
     if (!(pulse % (SECS_PER_MUD_HOUR * PASSES_PER_SEC))) {
-      if (!(pulse % (number(180, 600) * PASSES_PER_SEC))) /* Update weather every 3 mins */
+      /* Update weather every 3 mins */
+      if (!(pulse % (number(180, 600) * PASSES_PER_SEC)))
 	weather_and_time(1);
       else
 	weather_and_time(0);
@@ -1122,18 +1152,17 @@ void send_to_q(const char *txt, struct descriptor_data * d)
      return;
 
    /* restore cursor position in output window -- i.e. 1 or 7 */
-   if (d != NULL && d->character != NULL)
-     if (!IS_NPC(d->character) && PRF_FLAGGED(d->character, PRF_INFOBAR))
-       if (d->connected == CON_PLAYING)
-	 write_to_output(CURSOR_POS_RESTORE, d); 
-#if 0
-       {
+   if (d != NULL && d->character != NULL) {
+     if (!IS_NPC(d->character) &&
+         PRF_FLAGGED(d->character, PRF_INFOBAR)) {
+       if (d->connected == CON_PLAYING) {
          if (PRF_FLAGGED(d->character, PRF_SCOREBAR))
            write_to_output("\033[7;1H", d);
          else
-           write_to_output("\033[1;1H", d);
+           write_to_output("\033[1;1H", d); // CURSOR_POS_RESTORE
        }
-#endif
+     }
+   }
    /* write output text */
    write_to_output(txt, d);
 
@@ -1151,13 +1180,31 @@ void send_to_q(const char *txt, struct descriptor_data * d)
  *  socket handling                                                 *
  ****************************************************************** */
 
+/* Initialize a descriptor */
+void init_descriptor (struct descriptor_data *newd, int desc)
+{
+  static int last_desc = 0;	/* last descriptor number */
+    
+  newd->descriptor = desc;
+  newd->idle_tics = 0;
+  newd->output = newd->small_outbuf;
+  newd->bufspace = SMALL_BUFSIZE - 1;
+  newd->login_time = time(0);
+  *newd->output = '\0';
+  newd->bufptr = 0;
+  // newd->has_prompt = 1;  /* prompt is part of greetings */
+  STATE(newd) = CON_NEW_CONN;
+  // CREATE(newd->history, char *, HISTORY_SIZE);
+  if (++last_desc == 1000)
+    last_desc = 1;
+  newd->desc_num = last_desc;
+}
 
 int new_descriptor(int s)
 {
   int desc, sockets_connected = 0;
   unsigned long addr;
   int i;
-  static int last_desc = 0;     /* last descriptor number */
   struct descriptor_data *newd;
   struct sockaddr_in peer;
   struct hostent *from;
@@ -1176,7 +1223,8 @@ int new_descriptor(int s)
     sockets_connected++;
 
   if (sockets_connected >= max_players) {
-    write_to_descriptor(desc, "Sorry, The Dominion is full right now... please try again later!\r\n");
+    write_to_descriptor(desc,
+                        "Sorry, The Dominion is full right now... please try again later!\r\n");
     close(desc);
     return 0;
   }
@@ -1206,53 +1254,49 @@ int new_descriptor(int s)
     free(newd);
     return 0;
   }
-#if 0
   /* Log new connections - probably unnecessary, but you may want it */
   sprintf(buf2, "New connection from [%s]", newd->host);
   mudlog(buf2, CMP, LVL_GOD, FALSE);
-#endif
 
   /* initialize descriptor data */
-  newd->descriptor = desc;
-  newd->connected = CON_NEW_CONN;
-  newd->wait = 1;
-  newd->output = newd->small_outbuf;
-  newd->bufspace = SMALL_BUFSIZE - 1;
-  newd->next = descriptor_list;
-  newd->login_time = time(0);
-
-  if (++last_desc == 1000)
-    last_desc = 1;
-  newd->desc_num = last_desc;
+  init_descriptor(newd, desc);
 
   /* prepend to list */
+  newd->next = descriptor_list;
   descriptor_list = newd;
 
+  /* usual junk to comply with the license */
+  sprintf( buf, "\r\n" \
+	   "                     The Dominion\r\n\r\n" \
+           "          A derivative of DikuMUD (GAMMA 0.0),\r\n" \
+           "    created by Hans-Henrik Staerfeldt, Katja Nyboe,\r\n" \
+           "   Tom Madsen, Michael Seifert, and Sebastian Hammer\r\n\r\n\r\n" );
+  /* now ask the user if they can see colors, to find out if their term is ANSI compatible */
   switch (number(0, 5)) {
     case 0:
-      sprintf(buf, "\r\n%sIs this text in color (specifically red)?%s ", 
-		KBRD, KNRM);
+      sprintf(buf, "%s\r\n%sIs this text in color (specifically red)?%s ", 
+	      buf, KBRD, KNRM);
       break;
     case 1:
-      sprintf(buf, "\r\n%sIs this text in color (specifically yellow)?%s ", 
-		KYEL, KNRM);
+      sprintf(buf, "%s\r\n%sIs this text in color (specifically yellow)?%s ", 
+	      buf, KYEL, KNRM);
       break;
     case 2:
-      sprintf(buf, "\r\n%sIs this text in color (specifically green)?%s ", 
-		KBGR, KNRM);
+      sprintf(buf, "%s\r\n%sIs this text in color (specifically green)?%s ", 
+	      buf, KBGR, KNRM);
       break;
     case 3:
-      sprintf(buf, "\r\n%sIs this text in color (specifically magenta)?%s ", 
-		KBMG, KNRM);
+      sprintf(buf, "%s\r\n%sIs this text in color (specifically magenta)?%s ", 
+	      buf, KBMG, KNRM);
       break;
     case 4:
-      sprintf(buf, "\r\n%sIs this text in color (specifically cyan)?%s ", 
-		KBCN, KNRM);
+      sprintf(buf, "%s\r\n%sIs this text in color (specifically cyan)?%s ", 
+	      buf, KBCN, KNRM);
       break;
     case 5: 
     default:
-      sprintf(buf, "\r\n%sIs this text in color (specifically blue)?%s ", 
-		KBBL, KNRM);
+      sprintf(buf, "%s\r\n%sIs this text in color (specifically blue)?%s ", 
+	      buf, KBBL, KNRM);
       break;
   }
   SEND_TO_Q(buf, newd);
@@ -1336,9 +1380,9 @@ int write_to_descriptor(int desc, char *txt)
       if (errno == EWOULDBLOCK)
 	errno = EAGAIN;
 #endif
-      if (errno == EAGAIN)
+      if (errno == EAGAIN) {
 	log("process_output: socket write would block, about to close");
-      else
+      } else
 	perror("Write to socket");
       return -1;
     } else {
@@ -1411,11 +1455,11 @@ int process_input(struct descriptor_data *t)
  * this descriptor is in the read set).  JE 2/23/95.
  */
 #if !defined(POSIX_NONBLOCK_BROKEN)
-  } while ((nl_pos == NULL) && (STATE(t) != CON_PICO));
+  } while ((nl_pos == NULL)); // && (STATE(t) != CON_PICO));
 #else
   } while (0);
 
-  if ((nl_pos == NULL) && (STATE(t) != CON_PICO))
+  if ((nl_pos == NULL)) // && (STATE(t) != CON_PICO))
     return 0;
 #endif
 
@@ -1423,14 +1467,14 @@ int process_input(struct descriptor_data *t)
    * okay, at this point we have at least one newline in the string; now we
    * can copy the formatted data to a new array for further processing.
    */
-
   read_point = t->inbuf;
 
+  /*
   if (STATE(t) == CON_PICO)
     for (ptr = read_point; *ptr && !nl_pos; ptr++)
       if (*(ptr+1) == '\0')
 	nl_pos = ptr;
-
+  */
   while (nl_pos != NULL) {
     write_point = tmp;
     space_left = MAX_INPUT_LENGTH - 1;
@@ -1444,7 +1488,7 @@ int process_input(struct descriptor_data *t)
 	  } else
 	    space_left++;
 	}
-      } else if (isascii(*ptr) && isprint(*ptr)) {
+      } else if (isascii((int)*ptr) && isprint((int)*ptr)) {
 	if ((*(write_point++) = *ptr) == '$') {         /* copy one character */
 	  *(write_point++) = '$';       /* if it's a $, double it */
 	  space_left -= 2;
@@ -1574,12 +1618,8 @@ void close_socket(struct descriptor_data *d)
     d->snoop_by->snooping = NULL;
   }
   /*. Kill any OLC stuff .*/
-  switch(d->connected) {
-     case CON_OEDIT:
-     case CON_REDIT:
-     case CON_ZEDIT:
-     case CON_MEDIT:
-     case CON_SEDIT:
+  switch (d->connected) {
+     case CON_EDITTING:
        cleanup_olc(d, CLEANUP_ALL);
      default:
        break;
@@ -1944,6 +1984,7 @@ void perform_act(char *orig, struct char_data *ch, struct obj_data *obj,
   else if (IS_NPC(to))
     mprog_wordlist_check(lbuf, to, ch, NULL, NULL, ACT_PROG);
 }
+
 #if 0
 #define SENDOK(ch) ((ch)->desc && (AWAKE(ch) || sleep) && \
 		    !PLR_FLAGGED((ch), PLR_WRITING))
@@ -1989,7 +2030,7 @@ void act(char *str, int hide_invisible, struct char_data *ch,
     to = world[ch->in_room].people;
   else if (obj && obj->in_room != NOWHERE)
     to = world[obj->in_room].people;
-#if 0
+#if 0  
   else if (vict_obj && vict_obj->in_room != NOWHERE)
     to = world[vict_obj->in_room].people;
 #endif

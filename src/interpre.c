@@ -44,7 +44,7 @@ int  isbanned(char *hostname);
 int  Valid_Name(char *newname);
 /* TD shit */
 void read_aliases(struct char_data *ch);
-extern char *pc_race_types[];
+extern struct race_data * races;
 int parse_race(char arg);
 int count_words(char *str);
 int has_mail(long recipient);
@@ -54,9 +54,7 @@ void oedit_parse(struct descriptor_data *d, char *arg);
 void zedit_parse(struct descriptor_data *d, char *arg);
 void sedit_parse(struct descriptor_data *d, char *arg);
 void gedit_parse(struct descriptor_data *d, char *arg);
-#if 0
 void hedit_parse(struct descriptor_data *d, char *arg);
-#endif
 
 /* prototypes for all do_x functions. */
 ACMD(do_action);
@@ -72,6 +70,7 @@ ACMD(do_color);
 ACMD(do_commands);
 ACMD(do_study);
 ACMD(do_evaluate);
+ACMD(do_copyover);
 ACMD(do_credits);
 ACMD(do_date);
 ACMD(do_dc);
@@ -136,6 +135,7 @@ ACMD(do_move);
 ACMD(do_not_here);
 ACMD(do_offer);
 ACMD(do_olc);
+ACMD(do_olc_master);
 ACMD(do_order);
 ACMD(do_page);
 ACMD(do_poofset);
@@ -147,7 +147,6 @@ ACMD(do_qcomm);
 ACMD(do_quit);
 ACMD(do_reboot);
 ACMD(do_remove);
-ACMD(do_rent);
 ACMD(do_reply);
 ACMD(do_report);
 ACMD(do_rescue);
@@ -211,16 +210,14 @@ ACMD(do_palm);            /* TD 04/28/93 */
 ACMD(do_peace);           /* TD 04/06/95 */
 ACMD(do_pummel);          /* TD 04/28/95 */
 ACMD(do_remort);          /* TD 06/03/95 */
-#if 0
 ACMD(do_sacrifice);       /* TD 04/08/95 */
 ACMD(do_doorbash);        /* TD 04/28/95 */
 ACMD(do_mana);            /* TD 03/17/95 */
-#endif
 ACMD(do_shadow);          /* TD 04/09/95 */
 ACMD(do_tick);            /* TD 09/11/95 */
 ACMD(do_world);           /* TD 09/22/95 */
 ACMD(do_meditate);        /* TD 09/30/95 */
-ACMD(do_edit);            /* TD 12/29/95 */
+//ACMD(do_edit);            /* TD 12/29/95 */
 ACMD(do_sign);            /* TD 01/21/96 */
 ACMD(do_scan);            /* TD 03/23/96 */
 ACMD(do_tog_rel);         /* TD 04/11/96 */
@@ -235,9 +232,7 @@ ACMD(do_promote);         /* TD 07/15/96 */
 ACMD(do_guild);           /* TD 07/15/96 */
 ACMD(do_recall);	  /* TD 07/19/96 */
 ACMD(do_infobar);         /* TD 07/21/96 */
-#if 0
 ACMD(do_poison_weapon);   /* TD 08/01/96 */
-#endif
 ACMD(do_stab);            /* TD 08/09/96 */
 ACMD(do_cudgel);          /* TD 08/12/96 */
 ACMD(do_rlist);           /* TD 08/17/96 */
@@ -367,7 +362,7 @@ const struct command_info cmd_info[] = {
   { "cringe"   , POS_RESTING , do_action   , 0, 0 },
   { "cry"      , POS_RESTING , do_action   , 0, 0 },
   { "cuddle"   , POS_RESTING , do_action   , 0, 0 },
-/*  { "cudgel"   , POS_FIGHTING, do_cudgel   , 1, 0 }, */
+  { "cudgel"   , POS_FIGHTING, do_cudgel   , 1, 0 },
   { "curse"    , POS_RESTING , do_action   , 0, 0 },
   { "curtsey"  , POS_STANDING, do_action   , 0, 0 },
 
@@ -401,9 +396,7 @@ const struct command_info cmd_info[] = {
   { "exits"    , POS_RESTING , do_exits    , 0, 0 },
   { "examine"  , POS_SITTING , do_examine  , 0, 0 },
   { "eyebrow"  , POS_RESTING , do_action   , 0, 0 },
-#if 0
-  { "edit"     , POS_DEAD    , do_edit     , LVL_IMPL, 0 },
-#endif
+  //  { "edit"     , POS_DEAD    , do_edit     , LVL_IMPL, 0 },
 
   { "force"    , POS_SLEEPING, do_force    , LVL_GOD, 0 },
   { "fart"     , POS_RESTING , do_action   , 0, 0 },
@@ -449,9 +442,10 @@ const struct command_info cmd_info[] = {
   { "guild"    , POS_DEAD    , do_guild    , 1, 0 },
   { "gt"       , POS_RESTING , do_guild    , 1, 0 },
   { "guitar"   , POS_STANDING, do_action   , 0, 0 },
-/*  { "gedit"    , POS_DEAD    , do_olc      , LVL_IMPL, SCMD_OLC_GEDIT}, */
+  { "gedit"    , POS_DEAD    , do_olc_master, LVL_BUILDER, SCMD_OLC_GEDIT},
 
   { "help"     , POS_DEAD    , do_help     , 0, 0 },
+  { "hedit"    , POS_DEAD    , do_olc_master, LVL_BUILDER, SCMD_OLC_HEDIT},
   { "hand"     , POS_STANDING, do_action   , 0, 0 },
   { "halo"     , POS_RESTING , do_action   , 0, 0 },
   { "happy"    , POS_RESTING , do_action   , 0, 0 },
@@ -500,7 +494,7 @@ const struct command_info cmd_info[] = {
 
   { "maim"     , POS_STANDING, do_action   , 0, 0 },
   { "meow"     , POS_RESTING , do_action   , 0, 0 },
-  { "medit"    , POS_DEAD    , do_olc      , LVL_BUILDER, SCMD_OLC_MEDIT},
+  { "medit"    , POS_DEAD    , do_olc_master, LVL_BUILDER, SCMD_OLC_MEDIT},
   { "mmm"      , POS_RESTING , do_action   , 0, 0 },
   { "moan"     , POS_RESTING , do_action   , 0, 0 },
   { "mock"     , POS_RESTING , do_action   , 0, 0 },
@@ -556,7 +550,7 @@ const struct command_info cmd_info[] = {
   { "oops"     , POS_RESTING , do_action   , 0, 0 },
   { "open"     , POS_SITTING , do_gen_door , 0, SCMD_OPEN },
   { "olc"      , POS_DEAD    , do_olc      , LVL_BUILDER, SCMD_OLC_SAVEINFO},
-  { "oedit"    , POS_DEAD    , do_olc      , LVL_BUILDER, SCMD_OLC_OEDIT},
+  { "oedit"    , POS_DEAD    , do_olc_master, LVL_BUILDER, SCMD_OLC_OEDIT},
   { "olist"    , POS_DEAD    , do_olist    , LVL_BUILDER, 0 },
 
   { "put"      , POS_RESTING , do_put      , 0, 0 },
@@ -573,9 +567,7 @@ const struct command_info cmd_info[] = {
   { "pinch"    , POS_STANDING, do_action   , 0, 0 },
   { "play"     , POS_STANDING, do_not_here , 1, 0 },
   { "point"    , POS_RESTING , do_action   , 0, 0 },
-#if 0
   { "poison"   , POS_RESTING , do_poison_weapon, 0, 0 },
-#endif
   { "poke"     , POS_RESTING , do_action   , 0, 0 },
   { "policy"   , POS_DEAD    , do_gen_ps   , 0, SCMD_POLICIES },
   { "ponder"   , POS_RESTING , do_action   , 0, 0 },
@@ -636,8 +628,9 @@ const struct command_info cmd_info[] = {
   { "rose"     , POS_RESTING , do_action   , 0, 0 },
   { "rub"      , POS_STANDING, do_action   , 0, 0 },
   { "ruffle"   , POS_STANDING, do_action   , 0, 0 },
-  { "redit"    , POS_DEAD    , do_olc      , LVL_BUILDER, SCMD_OLC_REDIT},
+  { "redit"    , POS_DEAD    , do_olc_master, LVL_BUILDER, SCMD_OLC_REDIT},
   { "rlist"    , POS_DEAD    , do_rlist    , LVL_BUILDER, 0 },
+  { "reboot"   , POS_DEAD    , do_copyover , LVL_SUP, 0 },
 
   { "say"      , POS_RESTING , do_say      , 0, 0 },
   { "'"        , POS_RESTING , do_say      , 0, 0 },
@@ -714,7 +707,7 @@ const struct command_info cmd_info[] = {
   { "switch"   , POS_DEAD    , do_switch   , LVL_BUILDER, 0 },
   { "swoon"    , POS_STANDING, do_action   , 0, 0 },
   { "syslog"   , POS_DEAD    , do_syslog   , LVL_IMMORT, 0 },
-  { "sedit"    , POS_DEAD    , do_olc      , LVL_BUILDER, SCMD_OLC_SEDIT},
+  { "sedit"    , POS_DEAD    , do_olc_master, LVL_BUILDER, SCMD_OLC_SEDIT},
 
   { "tell"     , POS_DEAD    , do_tell     , 0, 0 },
   { "tackle"   , POS_RESTING , do_action   , 0, 0 },
@@ -798,7 +791,7 @@ const struct command_info cmd_info[] = {
 
   { "zipper"   , POS_STANDING, do_action   , 0, 0 },
   { "zreset"   , POS_DEAD    , do_zreset   , LVL_GRGOD, 0 },
-  { "zedit"    , POS_DEAD    , do_olc      , LVL_BUILDER, SCMD_OLC_ZEDIT},
+  { "zedit"    , POS_DEAD    , do_olc_master, LVL_BUILDER, SCMD_OLC_ZEDIT},
 
   { "\n", 0, 0, 0, 0 } };       /* this must be last */
 
@@ -853,7 +846,7 @@ void command_interpreter(struct char_data *ch, char *argument)
    * requested by many people so "'hi" or ";godnet test" is possible.
    * Patch sent by Eric Green and Stefan Wasilewski.
    */
-  if (!isalpha(*argument)) {
+  if (!isalpha((int)*argument)) {
     arg[0] = argument[0];
     arg[1] = '\0';
     line = argument + 1;
@@ -861,13 +854,14 @@ void command_interpreter(struct char_data *ch, char *argument)
     line = any_one_arg(argument, arg);
 
   /* otherwise, find the command */
-  for (length = strlen(arg), cmd = 0; *cmd_info[cmd].command != '\n'; cmd++)
-    if (!strncmp(cmd_info[cmd].command, arg, length))
-      if (GET_LEVEL(ch) >= cmd_info[cmd].minimum_level)
-#if 0
-	  || GET_TRUST(ch) >= cmd_info[cmd].minimum_level)
-#endif 
+  for (length = strlen(arg), cmd = 0; *cmd_info[cmd].command != '\n';
+       cmd++) {
+    if (!strncmp(cmd_info[cmd].command, arg, length)) {
+      if ((GET_LEVEL(ch) >= cmd_info[cmd].minimum_level)
+	  || GET_TRUST(ch) >= cmd_info[cmd].minimum_level) 
 	break;
+    }
+  }
 
   if (*cmd_info[cmd].command == '\n')
     send_to_char("Huh?!?\r\n", ch);
@@ -875,12 +869,10 @@ void command_interpreter(struct char_data *ch, char *argument)
     send_to_char("You try, but the mind-numbing cold prevents you...\r\n", ch);
   else if (PLR_FLAGGED(ch, PLR_ASSHOLE) && (cmd_info[cmd].minimum_level > MAX_MORT_LEVEL))
     send_to_char("You obviously have pissed someone off, because you cannot do that right now.\r\n", ch);
-#if 0
   else if (IS_AFFECTED2(ch, AFF_PETRIFIED))
     send_to_char("You try, but in your petrified state you are unable to do anything!\r\n", ch);
   else if (IS_AFFECTED2(ch, AFF_PARALYSIS))
     send_to_char("You are in a state of paralysis and unable to anything!\r\n", ch);
-#endif
   else if (cmd_info[cmd].command_pointer == NULL)
     send_to_char("Sorry, that command hasn't been implemented yet.\r\n", ch);
   else if (IS_NPC(ch) && cmd_info[cmd].minimum_level >= LVL_IMMORT)
@@ -1133,7 +1125,7 @@ int search_block(char *arg, char **list, bool exact)
 int is_number(char *str)
 {
   while (*str)
-    if (!isdigit(*(str++)))
+    if (!isdigit((int)*(str++)))
       return 0;
 
   return 1;
@@ -1142,7 +1134,7 @@ int is_number(char *str)
 
 void skip_spaces(char **string)
 {
-  for (; **string && isspace(**string); (*string)++);
+  for (; **string && isspace((int)**string); (*string)++);
 }
 
 
@@ -1190,7 +1182,7 @@ char *one_argument(char *argument, char *first_arg)
     skip_spaces(&argument);
 
     first_arg = begin;
-    while (*argument && !isspace(*argument)) {
+    while (*argument && !isspace((int)*argument)) {
       *(first_arg++) = LOWER(*argument);
       argument++;
     }
@@ -1223,7 +1215,7 @@ char *one_word(char *argument, char *first_arg)
       }
       argument++;
     } else {
-      while (*argument && !isspace(*argument)) {
+      while (*argument && !isspace((int)*argument)) {
 	*(first_arg++) = LOWER(*argument);
 	argument++;
       }
@@ -1241,7 +1233,7 @@ char *any_one_arg(char *argument, char *first_arg)
 {
   skip_spaces(&argument);
 
-  while (*argument && !isspace(*argument)) {
+  while (*argument && !isspace((int)*argument)) {
     *(first_arg++) = LOWER(*argument);
     argument++;
   }
@@ -1386,10 +1378,10 @@ int _parse_name(char *arg, char *name)
   int i;
 
   /* skip whitespaces */
-  for (; isspace(*arg); arg++);
+  for (; isspace((int)*arg); arg++);
 
   for (i = 0; (*name = *arg); arg++, i++, name++)
-    if (!isalpha(*arg))
+    if (!isalpha((int)*arg))
       return 1;
 
   if (!i)
@@ -1527,7 +1519,47 @@ int perform_dupe_check(struct descriptor_data *d)
   return 1;
 }
 
-
+/* load the player, put them in the right room - used by copyover_recover too */
+int enter_player_game (struct descriptor_data *d)
+{
+  int load_result;
+  room_num load_room;
+  extern sh_int r_mortal_start_room;
+  extern sh_int r_immort_start_room;
+  extern sh_int r_frozen_start_room;
+  
+  reset_char(d->character);
+  read_aliases(d->character);
+  
+  if (PLR_FLAGGED(d->character, PLR_INVSTART))
+    GET_INVIS_LEV(d->character) = GET_LEVEL(d->character);
+  
+  /*
+   * We have to place the character in a room before equipping them
+   * or equip_char() will gripe about the person in NOWHERE.
+   */
+  if ((load_room = GET_LOADROOM(d->character)) != NOWHERE)
+    load_room = real_room(load_room);
+  
+  /* If char was saved with NOWHERE, or real_room above failed... */
+  if (load_room == NOWHERE) {
+    if (GET_LEVEL(d->character) >= LVL_IMMORT)
+      load_room = r_immort_start_room;
+    else
+      load_room = r_mortal_start_room;
+  }
+  
+  if (PLR_FLAGGED(d->character, PLR_FROZEN))
+    load_room = r_frozen_start_room;
+  
+  d->character->next = character_list;
+  character_list = d->character;
+  char_to_room(d->character, load_room);
+  load_result = Crash_load(d->character);
+  save_char(d->character, NOWHERE);
+  
+  return load_result;
+}
 
 /* deal with newcomers and other non-playing sockets */
 void nanny(struct descriptor_data *d, char *arg)
@@ -1537,11 +1569,6 @@ void nanny(struct descriptor_data *d, char *arg)
   static int points;
   char tmp_name[MAX_INPUT_LENGTH];
   struct char_file_u tmp_store;
-  extern sh_int r_mortal_start_room;
-  extern sh_int r_immort_start_room;
-  extern sh_int r_frozen_start_room;
-  extern const char *race_menu;
-  extern const char *ansi_race_menu;
   extern char *SECGREETING;
   extern char *THIRGREETING;
   extern char *FORGREETING;
@@ -1551,36 +1578,23 @@ void nanny(struct descriptor_data *d, char *arg)
   extern char *ANSI_MENU;
   extern char *ANSI_NAME_POLICY;
   extern int max_bad_pws;
-  sh_int load_room;
 
   int load_char(char *name, struct char_file_u *char_element);
   void set_base_attribs(struct char_data *ch);
   void print_plr_attribs(struct char_data *ch, int points);
   int add_attrib(struct char_data *ch, int points, int attrib);
   int sub_attrib(struct char_data *ch, int points, int attrib);
+  char * rsel_to_name( char c );
+  const char * build_race_menu( bool c );
+  void olc_parse(struct descriptor_data *d, char *arg);
 
   skip_spaces(&arg);
 
   switch (STATE(d)) {
 
     /*. OLC states .*/
-    case CON_OEDIT:
-      oedit_parse(d, arg);
-      break;
-    case CON_REDIT:
-      redit_parse(d, arg);
-      break;
-    case CON_ZEDIT:
-      zedit_parse(d, arg);
-      break;
-    case CON_MEDIT:
-      medit_parse(d, arg);
-      break;
-    case CON_SEDIT:
-      sedit_parse(d, arg);
-      break;
-    case CON_GEDIT:
-      gedit_parse(d, arg);
+    case CON_EDITTING:
+      olc_parse(d, arg);
       break;
     /*. End of OLC states .*/
 
@@ -1720,7 +1734,6 @@ void nanny(struct descriptor_data *d, char *arg)
      * (1) add a 15 or 20-second time limit for entering a password, and (2)
      * re-add the code to cut off duplicates when a player quits.  JE 6 Feb 96
      */
-
     echo_on(d);    /* turn echo back on */
 
     if (!*arg)
@@ -1863,10 +1876,7 @@ void nanny(struct descriptor_data *d, char *arg)
     }
 
     /* New stuff for TD - SPM */
-    if (GET_ANSI(d) == TRUE)
-      SEND_TO_Q(ansi_race_menu, d);
-    else
-      SEND_TO_Q(race_menu, d);
+    SEND_TO_Q( build_race_menu( GET_ANSI(d) ), d );
     /* reset the argument string */
     (*arg) = ('\0');
     STATE(d) = CON_QRACE;
@@ -1874,87 +1884,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
   case CON_QRACE:
     if ((*arg) == ('?')) {
-      switch (*(arg++)) {
-	case 'h':
-	case 'H':
-	  do_help(d->character, "HUMAN", 0, 0);
-	  break;
-	case 'a':
-	case 'A':
-	  do_help(d->character, "ATHASIANAE", 0, 0);
-	  break;
-	case 't':
-	case 'T':
-	  do_help(d->character, "thurgar", 0, 0);
-	  break;
-	case 'g':
-	case 'G':
-	  do_help(d->character, "gnome", 0, 0);
-	  break;
-	case 'd':
-	case 'D':
-	  do_help(d->character, "dargonae", 0, 0);
-	  break;
-	case 'n':
-	case 'N':
-	  do_help(d->character, "kinthalas", 0, 0);
-	  break;
-	case 'c':
-	case 'C':
-	  do_help(d->character, "centaur", 0, 0);
-	  break;
-	case 'm':
-	case 'M':
-	  do_help(d->character, "armachnae", 0, 0);
-	  break;
-	case 'i':
-	case 'I':
-	  do_help(d->character, "tarmirnae", 0, 0);
-	  break;
-	case 'r':
-	case 'R':
-	  do_help(d->character, "radinae", 0, 0);
-	  break;
-	case 'e':
-	case 'E':
-	  do_help(d->character, "kender", 0, 0);
-	  break;
-	case 'w':
-	case 'W':
-	  do_help(d->character, "daerwar", 0, 0);
-	  break;
-	case 'k':
-	case 'K':
-	  do_help(d->character, "kaergar", 0, 0);
-	  break;
-	case 'z':
-	case 'Z':
-	  do_help(d->character, "zakhar", 0, 0);
-	  break;
-	case 'f':
-	case 'F':
-	  do_help(d->character, "halfling", 0, 0);
-	  break;
-	case 'l':
-	case 'L':
-	  do_help(d->character, "half-giant", 0, 0);
-	  break;
-	case 's':
-	case 'S':
-	  do_help(d->character, "sessanathi", 0, 0);
-	  break;
-	case 'o':
-	case 'O':
-	  do_help(d->character, "half-ogre", 0, 0);
-	  break;
-	case 'b':
-	case 'B':
-	  do_help(d->character, "byterian", 0, 0);
-	  break;
-	default:
-	  do_help(d->character, "race", 0, 0);
-	  break;
-      }
+      do_help( d->character, rsel_to_name( *(++arg) ), 0, 0 );
       SEND_TO_Q("\r\n\r\nPlease choose a race: ", d);
       return;
     } else if ((*arg) == ('/')) {
@@ -1963,17 +1893,15 @@ void nanny(struct descriptor_data *d, char *arg)
       return;
     }
 
-    if ((GET_RACE(d->character) = parse_race(*arg)) == (RACE_UNDEFINED)) {
+    if ((GET_RACE(d->character) = parse_race(*arg)) == (UNDEFINED_RACE)) {
       SEND_TO_Q("\r\nThat's not a race!\r\n", d);
-      if (GET_ANSI(d) == TRUE)
-	SEND_TO_Q(ansi_race_menu, d);
-      else
-	SEND_TO_Q(race_menu, d);
+      SEND_TO_Q( build_race_menu( GET_ANSI(d) ), d );
       return;
     }
 
-    sprintf(buf, "Okay, you are now %s the %s\r\n", GET_NAME(d->character),
-	   pc_race_types[(int) GET_RACE(d->character)]);
+    sprintf( buf, "Okay, you are now %s the %s\r\n",
+             GET_NAME(d->character),
+             races[ GET_RACE( d->character ) ].name );
     SEND_TO_Q(buf, d);
 
     /* Set-up the base attributes of the player */
@@ -1988,10 +1916,7 @@ void nanny(struct descriptor_data *d, char *arg)
   case CON_QATTRIBS:
     switch (*arg) {
        case '/':
-	 if (GET_ANSI(d) == TRUE)
-	   SEND_TO_Q(ansi_race_menu, d);
-	 else
-	   SEND_TO_Q(race_menu, d);
+         SEND_TO_Q( build_race_menu( GET_ANSI(d) ), d );
 	 STATE(d) = CON_QRACE;
 	 return;
 	 break;
@@ -2005,9 +1930,11 @@ void nanny(struct descriptor_data *d, char *arg)
 	 d->character->aff_abils = d->character->real_abils;
 	 SEND_TO_Q("Thank you, your attributes have been determined.\r\n", d);
 	 if (GET_ANSI(d) == TRUE)
-	   SEND_TO_Q("\r\n[1m[36mWhat is your alignment ([[33mG[36m]ood, [[33mN[36m]eut, [[33mE[36m]vil, [[33m?[36m] Help, [[33m/[36m] Back)?[0m ", d);
+	   SEND_TO_Q("\r\n[1m[36mWhat is your alignment " \
+                     "([[33mG[36m]ood, [[33mN[36m]eut, [[33mE[36m]vil, " \
+                     "[[33mL[36m]awful, [[33mC[36m]haotic, [[33m?[36m] Help, [[33m/[36m] Back)?[0m ", d);
 	 else
-	   SEND_TO_Q("\r\nWhat is your alignment? ([G]ood, [N]eut, [E]vil, [?] Help, [/] Back) ", d);
+	   SEND_TO_Q("\r\nWhat is your alignment? ([G]ood, [N]eut, [E]vil, [L]awful, [C]haotic, [?] Help, [/] Back) ", d);
 	 (*arg) = ('\0');
 	 STATE(d) = CON_QALIGN;
 	 return;
@@ -2111,7 +2038,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	 SEND_TO_Q("\r\nGuilds and religions have alignment restrictions"
 		   "\r\nas well as some of the skills/spells.", d);
 	 SEND_TO_Q("\r\nWhat else could you possibly need help with?"
-		   "\r\n[G]ood, [N]eutral, or [E]vil? ", d);
+		   "\r\n[G]ood, [N]eutral, [E]vil, [L]awful or [C]haotic? ", d);
 	 break;
        case 'e':
        case 'E':
@@ -2123,14 +2050,24 @@ void nanny(struct descriptor_data *d, char *arg)
 	 break;
        case 'n':
        case 'N':
-	 GET_PERMALIGN(d->character) = ALIGN_NEUT;
+	 GET_PERMALIGN(d->character) = ALIGN_NEUTRAL;
+	 break;
+       case 'l':
+       case 'L':
+	 GET_PERMALIGN(d->character) = ALIGN_LAWFUL;
+	 break;
+       case 'c':
+       case 'C':
+	 GET_PERMALIGN(d->character) = ALIGN_CHAOTIC;
 	 break;
        default:
 	 SEND_TO_Q("That is not an alignment.\r\n", d);
 	 if (GET_ANSI(d) == TRUE)
-	   SEND_TO_Q("\r\n[1m[36mWhat is your alignment ([[33mG[36m]ood, [[33mN[36m]eutral, [[33mE[36m]vil, [[33m?[36m] Help)?[0m ", d);
+	   SEND_TO_Q("\r\n[1m[36mWhat is your alignment " \
+                     "([[33mG[36m]ood, [[33mN[36m]eut, [[33mE[36m]vil, " \
+                     "[[33mL[36m]awful, [[33mC[36m]haotic, [[33m?[36m] Help)?[0m ", d);
 	 else
-	   SEND_TO_Q("\r\nWhat is your alignment? ([G]ood, [N]eutral, [E]vil, [?] Help) ", d);
+	   SEND_TO_Q("\r\nWhat is your alignment? ([G]ood, [N]eutral, [E]vil, [L]awful, [C]haotic, [?] Help) ", d);
 	 return;
 	 break;
     }
@@ -2231,7 +2168,6 @@ void nanny(struct descriptor_data *d, char *arg)
     }
 
 #if 0        /* taken out temporarily */
-    extern const char *pc_class_types[];
     SEND_TO_Q("Now you will enter your short description.  This is very\r\n"
 	      "important in gameplay, so choose something good, that is\r\n"
 	      "not offensive, and that will look nice when your postion\r\n"
@@ -2292,8 +2228,9 @@ void nanny(struct descriptor_data *d, char *arg)
        SEND_TO_Q("Your keyword listing is too long, please shorten it.\r\n", d);
        return;
     } else {
-       sprintf(buf, " %s %s", LOWER(pc_race_types[(int) GET_RACE(d->character)]),
-	      LOWER(GET_NAME(d->character)));
+       sprintf(buf, " %s %s",
+               LOWER( races[ GET_RACE(d->character) ].name ),
+               LOWER(GET_NAME(d->character)));
        strcat(arg, buf);
        GET_KWDS(d->character) = str_dup(arg);
        sprintf(buf, "Your keywords are: %s\r\n", GET_KWDS(d->character));
@@ -2365,32 +2302,7 @@ void nanny(struct descriptor_data *d, char *arg)
       break;
 
     case '1':
-      reset_char(d->character);
-      if (PLR_FLAGGED(d->character, PLR_INVSTART))
-	GET_INVIS_LEV(d->character) = GET_LEVEL(d->character);
-      if ((load_result = Crash_load(d->character)))
-	d->character->in_room = NOWHERE;
-      save_char(d->character, NOWHERE);
-      send_to_char(WELC_MESSG, d->character);
-      d->character->next = character_list;
-      character_list = d->character;
-
-      if ((load_room = GET_LOADROOM(d->character)) != NOWHERE)
-	load_room = real_room(load_room);
-
-      /* If char was saved with NOWHERE, or real_room above failed... */
-      if (load_room == NOWHERE) {
-	if (GET_LEVEL(d->character) >= LVL_IMMORT) {
-	  load_room = r_immort_start_room;
-	} else {
-	  load_room = r_mortal_start_room;
-	}
-      }
-
-      if (PLR_FLAGGED(d->character, PLR_FROZEN))
-	load_room = r_frozen_start_room;
-
-      char_to_room(d->character, load_room);
+      load_result = enter_player_game( d );
       act("$n has entered the game.", TRUE, d->character, 0, 0, TO_ROOM);
 
       STATE(d) = CON_PLAYING;

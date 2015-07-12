@@ -103,7 +103,7 @@ char *CL_TEXT =
 int free_rent = NO;
 
 /* maximum number of items players are allowed to rent */
-int max_obj_save = 45;
+int max_obj_save = 50;
 
 /* receptionist's surcharge on top of item costs */
 int min_rent_cost = 100;
@@ -122,11 +122,10 @@ int auto_save = YES;
 int autosave_time = 5;
 
 /* Lifetime of crashfiles and forced-rent (idlesave) files in days */
-int crash_file_timeout = 10;
+int crash_file_timeout = 15;
 
 /* Lifetime of normal rent files in days */
 int rent_file_timeout = 30;
-
 
 /****************************************************************************/
 /****************************************************************************/

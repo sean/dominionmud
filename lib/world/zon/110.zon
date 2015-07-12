@@ -108,7 +108,7 @@ O 0 11016 3 11030 100 	* a crate at Cavern. (Max: 3)
 O 0 11016 3 11030 100 	* a crate at Cavern. (Max: 3)
 O 0 11015 2 11023 100 	* a scimitar at Cave. (Max: 2)
 O 0 11015 2 11023 100 	* a scimitar at Cave. (Max: 2)
-D 0 11008 5 1 100 		* Close Eastern door at Diverging Paths
+* D 0 11008 5 1 100 		* Close Eastern door at Diverging Paths
 D 0 11029 0 1 100 		* Close Northern door at End of the Passageway
 D 0 11030 2 1 100 		* Close Eastern door at Cavern
 D 0 11051 1 1 100 		* Close Eastern door at Small Road

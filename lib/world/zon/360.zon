@@ -9,7 +9,7 @@ BUILDING~
 *           By: Morrolan
 *
 M 0 36020 1 36082 100 	* the ice monster at The inner chamber of..... (Max: 1)
-E 1 36021 1 19 50 			* And equip it with the staff of ice storm. (Max: 1)
+* E 1 36021 1 19 50 			* And equip it with the staff of ice storm. (Max: 1)
 D 0 36080 4 1 100 		* Close Eastern door at Room 36080
 O 0 36011 1 36066 100 	* the hedgestone at The Gravestone. (Max: 1)
 D 1 36066 5 1 100 		* Close Eastern door at The Gravestone

@@ -18,8 +18,6 @@
 
 #include "protos.h"
 
-#define IS_GULLYDWARF(mob)  (GET_RACE(mob) == RACE_GULLYDWARF)
-
 /**************************************************************************
 *  declarations of most of the 'global' variables                         *
 ************************************************************************ */
@@ -35,6 +33,7 @@ struct char_data *character_list = NULL;        /* global linked list of
 struct index_data *mob_index;   /* index table for mobile file   */
 struct char_data *mob_proto;    /* prototypes for mobs           */
 long   top_of_mobt = 0;         /* top of mobile index table     */
+long   num_of_mobs = 0;
 
 struct obj_data *object_list = NULL;    /* global linked list of objs    */
 struct index_data *obj_index;   /* index table for object file   */
@@ -83,7 +82,6 @@ FILE   *help_fl = NULL;
 struct time_info_data time_info;      /* the infomation about the time    */
 struct player_special_data dummy_mob; /* dummy spec area for mobs      */
 struct reset_q_type reset_q;          /* queue of zones to be reset    */
-
 struct event_data *event_list;
 int    event_top;
 
@@ -92,13 +90,17 @@ void setup_dir(FILE * fl, long room, int dir);
 void index_boot(int mode);
 void discrete_load(FILE * fl, int mode);
 void parse_room(FILE * fl, long vnumber_nr);
-void parse_mobile(FILE * mob_f, long nr);
+void parse_mobile(FILE * mob_f, unsigned long nr);
 char *parse_object(FILE * obj_f, long nr);
 void load_zones(FILE * fl, char *zonename);
 void load_guilds(void);
 #ifndef OLD_HELP
 void load_help(FILE *fl, int mode);
 #endif
+void parse_experience( void );
+void parse_attributes( void );
+void parse_races( void );
+void parse_religions( void );
 void assign_mobiles(void);
 void assign_objects(void);
 void assign_rooms(void);
@@ -141,21 +143,24 @@ int  AddHatred(struct char_data *ch, int parm_type, int parm);
 int  AddFears(struct char_data *ch, int parm_type, int parm);
 void add_follower(struct char_data * ch, struct char_data * leader);
 int  get_hometown(struct char_data *ch);
+int  ungetc(int l, FILE *mob_f);
+byte saving_throws( struct char_data * ch, int save );
 
-  SPECIAL(breath_any);
-  SPECIAL(breath_acid);
-  SPECIAL(breath_fire);
-  SPECIAL(breath_frost);
-  SPECIAL(breath_gas);
-  SPECIAL(breath_lightning);
-  SPECIAL(old_dragon);
-  SPECIAL(snake);
-  SPECIAL(fido);
-  SPECIAL(thief);
+SPECIAL(breath_any);
+SPECIAL(breath_acid);
+SPECIAL(breath_fire);
+SPECIAL(breath_frost);
+SPECIAL(breath_gas);
+SPECIAL(breath_lightning);
+SPECIAL(old_dragon);
+SPECIAL(snake);
+SPECIAL(fido);
+SPECIAL(thief);
 
 /* external vars */
+extern int NUM_RACES;
+extern struct race_data * races;
 extern int no_specials;
-extern const byte saving_throws[NUM_PLR_RACES][9][LVL_CREATOR+1];
 long   exp_needed(int level);
 extern struct material_type const material_list[];
 extern char *color_list[];
@@ -192,6 +197,10 @@ ACMD(do_reboot)
     file_to_string_alloc(POLICIES_FILE, &policies);
     file_to_string_alloc(HANDBOOK_FILE, &handbook);
     file_to_string_alloc(BACKGROUND_FILE, &background);
+    parse_experience( );
+    parse_attributes( );
+    parse_races( );
+    parse_religions( );
   } else if (!str_cmp(arg, "wizlist"))
     file_to_string_alloc(WIZLIST_FILE, &wizlist);
   else if (!str_cmp(arg, "immlist"))
@@ -216,6 +225,14 @@ ACMD(do_reboot)
     file_to_string_alloc(HANDBOOK_FILE, &handbook);
   else if (!str_cmp(arg, "background"))
     file_to_string_alloc(BACKGROUND_FILE, &background);
+  else if (!str_cmp(arg, "exp"))
+    parse_experience( );
+  else if (!str_cmp(arg, "attr"))
+    parse_attributes( );
+  else if (!str_cmp(arg, "races"))
+    parse_races( );
+  else if (!str_cmp(arg, "religions"))
+    parse_religions( );
   else if (!str_cmp(arg, "xhelp")) {
 #ifdef OLD_HELP
     if (help_fl)
@@ -267,7 +284,27 @@ ACMD(do_reboot)
     index_boot(DB_BOOT_WIZHLP);
 #endif
   } else {
-    send_to_char("Unknown reload option.\r\n", ch);
+    send_to_char( "Unknown reload option.\r\n"
+                  "\tAvailable Options are:\r\n"
+                  "\t\tAll | *    - Reload everything\r\n"
+                  "\t\twizlist    - Reload the WizList\r\n"
+                  "\t\timmlist    - Reload the ImmList\r\n"
+                  "\t\tnews       - Reload the news\r\n"
+                  "\t\tcredits    - Reload the credits\r\n"
+                  "\t\tmotd       - Reload the Message of the Day\r\n"
+                  "\t\timotd      - Reload the Immort Message of the Day\r\n"
+                  "\t\tnewbie     - Reload the Newbie Info\r\n"
+                  "\t\thelp       - Reload the Help File\r\n"
+                  "\t\tinfo       - Reload the Info File\r\n"
+                  "\t\tpolicy     - Reload the Policy File\r\n"
+                  "\t\thandbook   - Reload the Immortal Handbook\r\n"
+                  "\t\tbackground - Reload the Background Story\r\n"
+                  "\t\texp        - Reload the Experience Table\r\n"
+                  "\t\tattr       - Reload the Attribute Map\r\n"
+                  "\t\traces      - Reload the Races\r\n"
+                  "\t\treligions  - Reload the Religions\r\n"
+                  "\t\txhelp      - Reload the Extra Help\r\n"
+                  "\t\twizhelp    - Reload the WizHelp\r\n", ch);
     return;
   }
 
@@ -327,17 +364,21 @@ void boot_db(void)
   file_to_string_alloc(POLICIES_FILE, &policies);
   file_to_string_alloc(HANDBOOK_FILE, &handbook);
   file_to_string_alloc(BACKGROUND_FILE, &background);
-
+  parse_experience( );
+  parse_attributes( );
+  parse_races( );
+  parse_religions( );
+  
 #ifdef OLD_HELP
   log("Opening help file.");
-  if (!(help_fl = fopen(HELP_KWRD_FILE, "r")))
+  if (!(help_fl = fopen(HELP_KWRD_FILE, "r"))) {
     log("   Could not open help file.");
-  else
+  } else
     help_table = build_help_index(help_fl, &top_of_helpt);
   log("Opening wizhelp file.");
-  if (!(wizhelp_fl = fopen(WIZHELP_KWRD_FILE, "r")))
+  if (!(wizhelp_fl = fopen(WIZHELP_KWRD_FILE, "r"))) {
     log("   Could not open wizhelp file.");
-  else
+  } else
     wizhelp_table = build_help_index(wizhelp_fl, &top_of_wizhelpt);
 #else
   log("Loading help entries.");
@@ -403,7 +444,7 @@ void boot_db(void)
     log(buf2);
     reset_zone(i);
   }
-  log("Resetting the game time:");
+  log("Restoring the game time:");
   reset_time();
 
   reset_q.head = reset_q.tail = NULL;
@@ -425,7 +466,10 @@ void reset_time(void)
   long beginning_of_time = 650336715;
   struct time_info_data mud_time_passed(time_t t2, time_t t1);
 
-  time_info = mud_time_passed(time(0), beginning_of_time);
+  /* see if the MUD has ever run before, if so, pull the saved time
+     from there, otherwise, start at the beginning of time */
+  if ( restore_mud_time( &time_info ) != 0 )
+    time_info = mud_time_passed(time(0), beginning_of_time);
 
   for (i = 0; i < top_of_zone_table; ++i) {
     if (time_info.hours <= 4)
@@ -449,10 +493,11 @@ void reset_time(void)
     zone_table[i].weather_info.change = 0;
     zone_table[i].weather_info.sky = SKY_SUNNY;
   }
-  time_info.year = 2741;
-  sprintf(buf, "   Current Gametime: %dH %dD %dM %dY.", time_info.hours,
-	  time_info.day, time_info.month, time_info.year);
-  log(buf);
+
+  sprintf(buf, "   Current Gametime: %dH %dD %dM %dY.",
+          time_info.hours, time_info.day,
+          time_info.month, time_info.year);
+  log( buf );
 
   weather_change();
 }
@@ -511,8 +556,6 @@ void build_player_index(void)
   top_of_p_file = top_of_p_table = nr;
 }
 
-
-
 /* function to count how many hash-mark delimited records exist in a file */
 int count_hash_records(FILE * fl)
 {
@@ -525,8 +568,6 @@ int count_hash_records(FILE * fl)
 
   return count;
 }
-
-
 
 void index_boot(int mode)
 {
@@ -609,6 +650,7 @@ void index_boot(int mode)
     CREATE(world, struct room_data, rec_count);
     break;
   case DB_BOOT_MOB:
+    num_of_mobs = rec_count;
     CREATE(mob_proto, struct char_data, rec_count);
     CREATE(mob_index, struct index_data, rec_count);
     break;
@@ -729,12 +771,12 @@ long asciiflag_conv(char *flag)
   register char *p;
 
   for (p = flag; *p; p++) {
-    if (islower(*p))
+    if (islower((int)*p))
       flags |= 1 << (*p - 'a');
-    else if (isupper(*p))
+    else if (isupper((int)*p))
       flags |= 1 << (26 + (*p - 'A'));
 
-    if (!isdigit(*p))
+    if (!isdigit((int)*p))
       is_number = 0;
   }
 
@@ -974,93 +1016,98 @@ void renum_zone_table(void)
 
 
 
-void parse_simple_mob(FILE *mob_f, int i, long nr)
+void parse_simple_mob(FILE *mob_f, unsigned long i, unsigned long nr)
 {
   int j, t[10];
   char line[256];
 
-    mob_proto[i].real_abils.str   = 11;
-    mob_proto[i].real_abils.intel = 11;
-    mob_proto[i].real_abils.wis   = 11;
-    mob_proto[i].real_abils.dex   = 11;
-    mob_proto[i].real_abils.con   = 11;
-    mob_proto[i].real_abils.cha   = 11;
-    mob_proto[i].real_abils.will  = 11;
+  assert( mob_f != NULL );
+  assert( i < num_of_mobs );
 
+  mob_proto[i].real_abils.str   = 11;
+  mob_proto[i].real_abils.intel = 11;
+  mob_proto[i].real_abils.wis   = 11;
+  mob_proto[i].real_abils.dex   = 11;
+  mob_proto[i].real_abils.con   = 11;
+  mob_proto[i].real_abils.cha   = 11;
+  mob_proto[i].real_abils.will  = 11;
 
-    get_line(mob_f, line);
-    if (sscanf(line, " %d %d %d %dd%d+%d %dd%d+%d ",
-	  t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8) != 9) {
-      fprintf(stderr, "Format error in mob #%ld, first line after S flag\n"
-	      "...expecting line of form '# # # #d#+# #d#+#'\n", nr);
-      exit(1);
-    }
-    GET_LEVEL(mob_proto + i)    = MAX(0, MIN(LVL_IMPL, t[0]));
-    if (t[1] >= (GET_LEVEL(mob_proto + i) * 2))
-       mob_proto[i].points.hitroll = MIN(100, (GET_LEVEL(mob_proto +i)*2)+3);
+  get_line(mob_f, line);
+  if (sscanf(line, " %d %d %d %dd%d+%d %dd%d+%d ",
+             t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8) != 9) {
+    fprintf(stderr, "Format error in mob #%ld, first line after S flag\n"
+            "...expecting line of form '# # # #d#+# #d#+#'\n", nr);
+    exit(1);
+  }
+  GET_LEVEL(mob_proto + i)    = MAX(0, MIN(LVL_IMPL, t[0]));
+  if (t[1] >= (GET_LEVEL(mob_proto + i) * 2))
+    mob_proto[i].points.hitroll = MIN(100, (GET_LEVEL(mob_proto +i)*2)+3);
+  else
+    mob_proto[i].points.hitroll = MIN(100, t[1]);
+  
+  for (j = 0; j < ARMOR_LIMIT; j++) {
+    if (t[2] < 0 || t[2] >= 100)
+      mob_proto[i].points.armor[j] = number(0, 100);
     else
-       mob_proto[i].points.hitroll = MIN(100, t[1]);
-
-    for (j = 0; j < ARMOR_LIMIT; j++) {
-       if (t[2] < 0 || t[2] >= 100)
-	 mob_proto[i].points.armor[j] = number(0, 100);
-       else
-	 mob_proto[i].points.armor[j] = MAX((t[2]-number(0, 5)), 0);
-    }
-
-    /* max hit = 0 is a flag that H, M, V is xdy+z */
-    mob_proto[i].points.max_hit = 0;
-    mob_proto[i].points.hit     = t[3];
-    mob_proto[i].points.mana    = t[4];
-    mob_proto[i].points.move    = t[5];
-
-    mob_proto[i].points.max_mana = 10;
-    mob_proto[i].points.max_move = 50;
-
-    mob_proto[i].mob_specials.damnodice   = t[6];
-    mob_proto[i].mob_specials.damsizedice = t[7];
-    mob_proto[i].points.damroll           = t[8];
-
-    get_line(mob_f, line);
-    sscanf(line, " %d %d ", t, t + 1);
-    GET_GOLD(mob_proto + i) = t[0];
-    GET_EXP(mob_proto + i) = t[1];
-
-    get_line(mob_f, line);
-    if (sscanf(line, " %d %d %d %d ", t, t + 1, t + 2, t + 3) < 3) {
-      fprintf(stderr, "Format error in mob #%ld, second line after S flag\n"
-	      "...expecting line of form '# # #'\n", nr);
-    }
-
-    mob_proto[i].char_specials.position   = t[0];
-    mob_proto[i].mob_specials.default_pos = t[1];
-    if (mob_proto[i].mob_specials.default_pos <= POS_STUNNED)
-      mob_proto[i].mob_specials.default_pos = POS_STANDING;
-    if (mob_proto[i].char_specials.position <= POS_STUNNED)
-      mob_proto[i].char_specials.position = POS_STANDING;
-
-    mob_proto[i].player.sex               = t[2];
-
-    mob_proto[i].player.race      = RACE_UNDEFINED;
-    mob_proto[i].player.weight    = 200;
-    mob_proto[i].player.height    = 198;
-
-    for (j = 0; j < 4; j++)
-      GET_COND(mob_proto + i, j) = -1;
-
-    /*
-     * these are now save applies; base save numbers for MOBs are now from
-     * the warrior save table.
-     */
-    for (j = 0; j < 5; j++)
-      GET_SAVE(mob_proto + i, j) = 0;
+      mob_proto[i].points.armor[j] = MAX((t[2]-number(0, 5)), 0);
+  }
+  
+  /* max hit = 0 is a flag that H, M, V is xdy+z */
+  mob_proto[i].points.max_hit = 0;
+  mob_proto[i].points.hit     = t[3];
+  mob_proto[i].points.mana    = t[4];
+  mob_proto[i].points.move    = t[5];
+  
+  mob_proto[i].points.max_mana = 10;
+  mob_proto[i].points.max_move = 50;
+  
+  mob_proto[i].mob_specials.damnodice   = t[6];
+  mob_proto[i].mob_specials.damsizedice = t[7];
+  mob_proto[i].points.damroll           = t[8];
+  
+  get_line(mob_f, line);
+  sscanf(line, " %d %d ", t, t + 1);
+  GET_GOLD(mob_proto + i) = t[0];
+  GET_EXP(mob_proto + i) = t[1];
+  
+  get_line(mob_f, line);
+  if (sscanf(line, " %d %d %d %d ", t, t + 1, t + 2, t + 3) < 3) {
+    fprintf(stderr, "Format error in mob #%ld, second line after S flag\n"
+            "...expecting line of form '# # #'\n", nr);
+  }
+  
+  mob_proto[i].char_specials.position   = t[0];
+  mob_proto[i].mob_specials.default_pos = t[1];
+  if (mob_proto[i].mob_specials.default_pos <= POS_STUNNED)
+    mob_proto[i].mob_specials.default_pos = POS_STANDING;
+  if (mob_proto[i].char_specials.position <= POS_STUNNED)
+    mob_proto[i].char_specials.position = POS_STANDING;
+  
+  mob_proto[i].player.sex               = t[2];
+  
+  mob_proto[i].player.race      = UNDEFINED_RACE;
+  mob_proto[i].player.weight    = 200;
+  mob_proto[i].player.height    = 72;
+  
+  for (j = 0; j < 4; j++)
+    GET_COND(mob_proto + i, j) = -1;
+  
+  /*
+   * these are now save applies; base save numbers for MOBs are now from
+   * the warrior save table.
+   */
+  for (j = 0; j < 5; j++)
+    GET_SAVE(mob_proto + i, j) = 0;
 }
 
 
-void parse_fuzzy_mob(FILE *mob_f, int i, long int nr)
+void parse_fuzzy_mob(FILE *mob_f, unsigned long i, unsigned long nr)
 {
   int j, t[10];
   char line[256];
+
+  assert( mob_f != NULL );
+  assert( i < num_of_mobs );
 
   mob_proto[i].real_abils.str   = number(5, 20);
   mob_proto[i].real_abils.intel = number(5, 20);
@@ -1071,13 +1118,13 @@ void parse_fuzzy_mob(FILE *mob_f, int i, long int nr)
   mob_proto[i].real_abils.will  = number(5, 20);
 
   if (mob_proto[i].real_abils.str >= 18)
-     mob_proto[i].real_abils.str_add = number(0, 99);
+    mob_proto[i].real_abils.str_add = number(0, 99);
 
   get_line(mob_f, line);
   if (sscanf(line, " %d %d 0 0d0+0 0d0+0\n", t, t + 1) != 2) {
-     fprintf(stderr, "Format error in mob #%ld, first line after A flag\n"
-	      "...expecting line of form '# # 0 0d0+0 0d0+0'\n", nr);
-     exit(1);
+    fprintf(stderr, "Format error in mob #%ld, first line after A flag\n"
+            "...expecting line of form '# # 0 0d0+0 0d0+0'\n", nr);
+    exit(1);
   }
 
   GET_LEVEL(mob_proto + i)    = t[0];
@@ -1085,196 +1132,68 @@ void parse_fuzzy_mob(FILE *mob_f, int i, long int nr)
 
   mob_proto[i].points.hitroll = (number(5, 95));
   for (j = 0; j < ARMOR_LIMIT; j++)
-      mob_proto[i].points.armor[j]   = (number(0, 90));
+    mob_proto[i].points.armor[j]   = (number(0, 90));
 
   /* max hit = 0 is a flag that H, M, V is xdy+z */
   mob_proto[i].points.max_hit = 0;
 
-  switch (GET_RACE(mob_proto + i)) {
-     case RACE_HUMAN:           /* Human-like Races */
-     case RACE_ATHASIANAE:
-     case RACE_RADINAE:
-     case RACE_HUMANOID:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(5, 12));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(5, 14));
-       mob_proto[i].points.move    = (GET_LEVEL(mob_proto +i)*number(5, 10));
-       mob_proto[i].mob_specials.damnodice   = (number(2, 6));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (number(1, 90));
-       break;
-     case RACE_THURGAR:         /* Dwarves */
-     case RACE_DAERWAR:
-     case RACE_KAERGAR:
-     case RACE_ZAKHAR:
-     case RACE_GULLYDWARF:
-       if (GET_RACE(mob_proto + i) == RACE_GULLYDWARF)
-	  mob_proto[i].points.hit = (GET_LEVEL(mob_proto + i)*number(1, 3));
-       else
-	  mob_proto[i].points.hit = (GET_LEVEL(mob_proto + i)*number(8, 14));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(4, 8));
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(4, 8));
-       if (GET_RACE(mob_proto + i) == RACE_GULLYDWARF) {
-	  mob_proto[i].mob_specials.damnodice = number(1, 2);
-	  mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/5);
-	  mob_proto[i].points.damroll = 0;
-       } else {
-	  mob_proto[i].mob_specials.damnodice = (number(3, 7));
-	  mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-	  mob_proto[i].points.damroll = ((GET_LEVEL(mob_proto + i)/4)+number(0, 2));
-       }
-       break;
-     case RACE_GNOME:
-     case RACE_KENDER:
-     case RACE_HALFLING:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(2, 6));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(8, 20));
-       mob_proto[i].points.move              = (GET_LEVEL(mob_proto +i)*number(6, 12));
-       mob_proto[i].mob_specials.damnodice   = (number(2, 4));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/3);
-       mob_proto[i].points.damroll           = (GET_LEVEL(mob_proto + i)/3);
-       break;
-     case RACE_DARGONAE:
-     case RACE_ARMACHNAE:
-     case RACE_TARMIRNAE:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(4, 9));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(6, 18));
-       mob_proto[i].points.move              = (GET_LEVEL(mob_proto +i)*number(6, 12));
-       mob_proto[i].mob_specials.damnodice   = (number(3, 6));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/3);
-       mob_proto[i].points.damroll           = (char)(GET_LEVEL(mob_proto + i)/1.5);
-       break;
-     case RACE_KINTHALAS:
-     case RACE_BYTERIAN:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(7, 14));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(2, 4));
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(6, 14));
-       mob_proto[i].mob_specials.damnodice = (number(4, 8));
-       mob_proto[i].mob_specials.damsizedice = (char)(GET_LEVEL(mob_proto + i)/1.5);
-       mob_proto[i].points.damroll = (char)(GET_LEVEL(mob_proto + i)/1.5);
-       break;
-     case RACE_CENTAUR:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(7, 15));
-       mob_proto[i].points.mana = 0;
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(10, 20));
-       mob_proto[i].mob_specials.damnodice = (number(3, 7));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (GET_LEVEL(mob_proto + i)/2);
-       break;
-     case RACE_HALFGIANT:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(25, 30));
-       mob_proto[i].points.mana = 0;
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(6, 12));
-       mob_proto[i].mob_specials.damnodice = (number(10, 16));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (char)(GET_LEVEL(mob_proto + i)/1.5);
-       break;
-     case RACE_HALFOGRE:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(15, 22));
-       mob_proto[i].points.mana = 0;
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(5, 12));
-       mob_proto[i].mob_specials.damnodice = (number(8, 14));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (int)(GET_LEVEL(mob_proto + i)/2);
-       break;
-     case RACE_SESSANATHI:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(8, 16));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(6, 16));
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(5, 16));
-       mob_proto[i].mob_specials.damnodice = (number(4, 9));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (GET_LEVEL(mob_proto + i)/2);
-       break;
-     case RACE_VAMPIRE:
-     case RACE_WEREWOLF:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(20, 45));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(8, 20));
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(10, 18));
-       mob_proto[i].mob_specials.damnodice = (number(8, 16));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (int)(GET_LEVEL(mob_proto + i)/1.5);
-       break;
-     case RACE_ANIMAL:
-     case RACE_WATER:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(10, 18));
-       mob_proto[i].points.mana = 0;
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(20, 25));
-       mob_proto[i].mob_specials.damnodice = (number(4, 12));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/3);
-       mob_proto[i].points.damroll = (int)(GET_LEVEL(mob_proto + i)/3);
-       break;
-     case RACE_UNDEAD:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(25, 35));
-       mob_proto[i].points.mana = 0;
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(1, 4));
-       mob_proto[i].mob_specials.damnodice = (number(4, 16));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (int)(GET_LEVEL(mob_proto + i)/1.5);
-       break;
-     case RACE_GIANT:
-     case RACE_DEMON:
-     case RACE_MAGIC:
-     case RACE_ILLUSIONARY:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(30, 60));
-       if (GET_RACE(mob_proto + i) != RACE_GIANT)
-	  mob_proto[i].points.hit += number(25, 100);
-       mob_proto[i].points.mana = 0;
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(6, 22));
-       mob_proto[i].mob_specials.damnodice = (number(20, 34));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/2);
-       mob_proto[i].points.damroll = (int)(GET_LEVEL(mob_proto + i)/1.5);
-       break;
-     case RACE_RED_DRAGON:
-     case RACE_BLUE_DRAGON:
-     case RACE_GREEN_DRAGON:
-     case RACE_BLACK_DRAGON:
-     case RACE_WHITE_DRAGON:
-     case RACE_BRONZE_DRAGON:
-     case RACE_COPPER_DRAGON:
-     case RACE_SILVER_DRAGON:
-     case RACE_GOLD_DRAGON:
-     case RACE_PLATINUM_DRAGON:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(75, 100));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(50, 75));
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(75, 150));
-       mob_proto[i].mob_specials.damnodice = (number(25, 50));
-       mob_proto[i].mob_specials.damsizedice = (int)(GET_LEVEL(mob_proto + i)/1.5);
-       mob_proto[i].points.damroll = (int)(GET_LEVEL(mob_proto + i)/1.5);
-       break;
-     default:
-       mob_proto[i].points.hit = (GET_LEVEL(mob_proto +i)*number(20, 40));
-       mob_proto[i].points.mana = (GET_LEVEL(mob_proto +i)*number(6, 12));
-       mob_proto[i].points.move = (GET_LEVEL(mob_proto +i)*number(10, 20));
-       mob_proto[i].mob_specials.damnodice = (number(2, 12));
-       mob_proto[i].mob_specials.damsizedice = (GET_LEVEL(mob_proto + i)/3);
-       mob_proto[i].points.damroll = (int)(GET_LEVEL(mob_proto + i)/3);
-       break;
-  }
+  mob_proto[i].points.hit =
+    number( races[ i ].points.points.min_hp,
+            races[ i ].points.points.max_hp ) +
+    ( GET_LEVEL( mob_proto + i ) *
+      number( races[ i ].points.points.min_lhp,
+              races[ i ].points.points.max_lhp ) );
+  mob_proto[i].points.mana =
+    number( races[ i ].points.points.min_ma,
+            races[ i ].points.points.max_ma ) +
+    ( GET_LEVEL( mob_proto + i ) *
+      number( races[ i ].points.points.min_lma,
+              races[ i ].points.points.max_lma ) );
+  mob_proto[i].points.move =
+    number( races[ i ].points.points.min_mo,
+            races[ i ].points.points.max_mo ) +
+    ( GET_LEVEL( mob_proto + i ) *
+      number( races[ i ].points.points.min_lmo,
+              races[ i ].points.points.max_lmo ) );
+  mob_proto[i].points.hitroll =
+    number( races[ i ].points.points.min_hi,
+            races[ i ].points.points.max_hi ) +
+    ( GET_LEVEL( mob_proto + i ) *
+      number( 1, races[ i ].points.points.min_hi ) );
+  mob_proto[i].points.damroll =
+    number( races[ i ].points.points.min_da,
+            races[ i ].points.points.max_da ) +
+    ( GET_LEVEL( mob_proto + i ) *
+      number( 1, races[ i ].points.points.min_da ) );
+  
+  mob_proto[i].mob_specials.damnodice   = number(1, GET_LEVEL( mob_proto + i ));
+  mob_proto[i].mob_specials.damsizedice = number(2, GET_LEVEL( mob_proto + i ));
 
   mob_proto[i].points.max_mana = mob_proto[i].points.mana;
   mob_proto[i].points.max_move = mob_proto[i].points.move;
 
   if (GET_LEVEL(mob_proto + i) <= 50)
-     GET_EXP(mob_proto + i) = (exp_needed(GET_LEVEL(mob_proto + i))/6);
+    GET_EXP(mob_proto + i) = (exp_needed(GET_LEVEL(mob_proto + i))/6);
   else
-     GET_EXP(mob_proto + i) = (exp_needed(40) + (exp_needed(25)*100000)/4);
+    GET_EXP(mob_proto + i) = (exp_needed(40) + (exp_needed(25)*100000)/4);
 
   if (IS_HUMANOID(mob_proto + i))
-     GET_GOLD(mob_proto + i) = (GET_LEVEL(mob_proto + i)*number(1, 50));
+    GET_GOLD(mob_proto + i) = (GET_LEVEL(mob_proto + i)*number(1, 50));
   else if (IS_DRAGON(mob_proto + i))
-     GET_GOLD(mob_proto + i) = (GET_LEVEL(mob_proto + i)*number(100, 200));
+    GET_GOLD(mob_proto + i) = (GET_LEVEL(mob_proto + i)*number(100, 200));
   else
-     GET_GOLD(mob_proto + i) = 0;
+    GET_GOLD(mob_proto + i) = 0;
 
   get_line(mob_f, line);
   if (sscanf(line, " %d 0\n", t) != 1) 
-      fprintf(stderr, "Format error in mob #%ld, second line after A flag\n"
-	      "...expecting line of form '# 0'\n", nr);
+    fprintf(stderr, "Format error in mob #%ld, second line after A flag\n"
+            "...expecting line of form '# 0'\n", nr);
   mob_proto[i].mob_specials.attack_type = t[0];
 
   get_line(mob_f, line);
   if (sscanf(line, " %d %d %d\n", t, t + 1, t + 2) != 3) {
-      fprintf(stderr, "Format error in mob #%ld, third line after A flag\n"
-	      "...expecting line of form '# # #'\n", nr);
+    fprintf(stderr, "Format error in mob #%ld, third line after A flag\n"
+            "...expecting line of form '# # #'\n", nr);
   }
 
   mob_proto[i].char_specials.position   = t[0];
@@ -1282,10 +1201,10 @@ void parse_fuzzy_mob(FILE *mob_f, int i, long int nr)
   mob_proto[i].player.sex               = t[2];
 
   for (j = 0; j < 4; j++)
-      GET_COND(mob_proto + i, j) = -1;
-
+    GET_COND(mob_proto + i, j) = -1;
+  
   for (j = 0; j < 5; j++)
-      GET_SAVE(mob_proto + i, j) = (saving_throws[(int) GET_RACE(mob_proto + i)][j][(int) GET_LEVEL(mob_proto + i)]);
+    GET_SAVE(mob_proto + i, j) = saving_throws( mob_proto + i, j );
 
   mob_proto[i].mob_specials.sounds       = NULL;
   mob_proto[i].mob_specials.distant_snds = NULL;
@@ -1300,18 +1219,18 @@ void parse_loud_mob(FILE *mob_f, int i, long int nr)
   parse_simple_mob(mob_f, i, nr);
 
   while (get_line(mob_f, line)) {
-	if (!strcmp(line, "L"))     /* end of the loud section */
-	   return;
-	else if (*line == '#') {    /* we've hit the next mob, maybe? */
-	   fprintf(stderr, "Unterminated L section in mob #%ld\n", nr);
-	   exit(1);
-	} else {
-	   /* Read the sound strings */
-	   mob_proto[i].mob_specials.sounds       = str_dup(line);
-	   mob_proto[i].mob_specials.distant_snds = str_dup(line);
-	}
+    if (!strcmp(line, "L"))     /* end of the loud section */
+      return;
+    else if (*line == '#') {    /* we've hit the next mob, maybe? */
+      fprintf(stderr, "Unterminated L section in mob #%ld\n", nr);
+      exit(1);
+    } else {
+      /* Read the sound strings */
+      mob_proto[i].mob_specials.sounds       = str_dup(line);
+      mob_proto[i].mob_specials.distant_snds = str_dup(line);
+    }
   }
-
+  
   fprintf(stderr, "Unexpected end of file reached after mob #%ld\n", nr);
   exit(1);
 }
@@ -1334,7 +1253,7 @@ void interpret_espec(char *keyword, char *value, long i, long nr)
   num_arg = atoi(value);
 
   CASE("Race") {
-    RANGE(0, TOT_RACES);
+    RANGE(0, NUM_RACES);
     mob_proto[i].player.race = num_arg;
   }
 
@@ -1408,7 +1327,7 @@ void parse_espec(char *buf, long i, long nr)
 
   if ((ptr = strchr(buf, ':')) != NULL) {
     *(ptr++) = '\0';
-    while (isspace(*ptr))
+    while (isspace((int)*ptr))
       ptr++;
   } else
     ptr = "";
@@ -1443,16 +1362,22 @@ char fread_letter(FILE *fp)
 
    do {
      c = getc(fp);
-   } while (isspace(c));
+   } while (isspace((int)c));
    return c;
 }
 
-void parse_mobile(FILE * mob_f, long nr)
+void parse_mobile(FILE * mob_f, unsigned long nr)
 {
-  static long i = 0;
+  static unsigned long i = 0;
   int j, t[10];
   char line[256], *tmpptr, letter;
   char f1[128], f2[128];
+
+  assert( mob_f != NULL );
+  assert( i < num_of_mobs );
+
+  memset( mob_index + i, 0, sizeof(struct index_data *) );
+  memset( mob_proto + i, 0, sizeof(struct char_data *) );
 
   mob_index[i].vnumber = nr;
   mob_index[i].number  = 0;
@@ -1497,11 +1422,9 @@ void parse_mobile(FILE * mob_f, long nr)
   case 'A':
     parse_fuzzy_mob(mob_f, i, nr);
     break;
-#if 0
   case 'L':
     parse_loud_mob(mob_f, i, nr);
     break;
-#endif
   /* add new mob types here.. */
   default:
     fprintf(stderr, "Unsupported mob type '%c' in mob #%ld\n", letter, nr);
@@ -1525,6 +1448,7 @@ void parse_mobile(FILE * mob_f, long nr)
      ungetc(letter, mob_f);
 
   /* On the fly spec_procs */
+#if 0
   switch (GET_RACE(mob_proto + i)) {
     case RACE_KENDER:
       if (!IS_SET(MOB_FLAGS(mob_proto + i), MOB_SPEC))
@@ -1584,6 +1508,7 @@ void parse_mobile(FILE * mob_f, long nr)
     default:
       break;
   }
+#endif
 
   top_of_mobt = i++;
 }
@@ -1779,13 +1704,30 @@ char *parse_object(FILE * obj_f, long nr)
 
   /* clears the t values for the obj */
   for (j = 0; j < 10; j++)
-      t[j] = 0;
+    t[j] = 0;
+
   if (!get_line(obj_f, line) ||
-      (retval = sscanf(line, "%ld %ld %ld %ld %ld %ld %ld %ld %ld\n", t, t + 1, t + 2, t + 3, t + 4, t + 5, t + 6, t + 7, t + 8)) < 4) {
-    fprintf(stderr, "Format error in second numeric line (expecting atleast 4 args, got %ld), %s\n", retval, buf2);
+      (retval = sscanf(line, "%ld %ld %ld %ld %ld %ld %ld %ld %ld\n",
+                       t, t + 1, t + 2, t + 3, t + 4,
+                       t + 5, t + 6, t + 7, t + 8)) < 4) {
+    fprintf(stderr, "Format error in second numeric line " \
+            "(expecting atleast 4 args, got %ld), %s\n", retval, buf2);
     exit(1);
   }
   obj_proto[i].obj_flags.value[0] = t[0];
+
+  /* check if it's a fireweapon or ammo if the values are valid */
+  if (obj_proto[i].obj_flags.type_flag == ITEM_FIREWEAPON ||
+      obj_proto[i].obj_flags.type_flag == ITEM_MISSILE) {
+    if (!(obj_proto[i].obj_flags.value[0] < NUM_AMMO_TYPES)) {
+      fprintf(stderr,
+              "Format error in second numeric line "\
+              "(object is fireweapon/missle with invalid ammo type: %ld), %s\n",
+              obj_proto[i].obj_flags.value[0], buf2);
+      exit(1);
+    }
+  }
+
   if (obj_proto[i].obj_flags.type_flag == ITEM_POTION ||
       obj_proto[i].obj_flags.type_flag == ITEM_SCROLL) {
     obj_proto[i].obj_flags.value[1] = t[1] < 51 ? (t[1]+50) : t[1];
@@ -1801,15 +1743,16 @@ char *parse_object(FILE * obj_f, long nr)
   obj_proto[i].obj_flags.value[6] = t[6];
   obj_proto[i].obj_flags.value[7] = t[7];
   if (retval == 9)
-     obj_proto[i].obj_flags.value[8] = t[8];
+    obj_proto[i].obj_flags.value[8] = t[8];
   else
-     obj_proto[i].obj_flags.value[8] = ITEM_SIZE_SMALL | ITEM_SIZE_MEDIUM | ITEM_SIZE_LARGE;
-
-
+    obj_proto[i].obj_flags.value[8] =
+      ITEM_SIZE_SMALL | ITEM_SIZE_MEDIUM | ITEM_SIZE_LARGE;
 
   if (!get_line(obj_f, line) ||
       (retval = sscanf(line, "%ld %ld %ld", t, t + 1, t + 2)) != 3) {
-    fprintf(stderr, "Format error in third numeric line (expecting 3 args, got %ld), %s\n", retval, buf2);
+    fprintf(stderr,
+            "Format error in third numeric line " \
+            "(expecting 3 args, got %ld), %s\n", retval, buf2);
     exit(1);
   }
   obj_proto[i].obj_flags.weight = t[0];
@@ -1827,7 +1770,6 @@ char *parse_object(FILE * obj_f, long nr)
   obj_strings(obj_proto + i);
 
   /* *** extra descriptions and affect fields *** */
-
   for (j = 0; j < MAX_OBJ_AFFECT; j++) {
     obj_proto[i].affected[j].location = APPLY_NONE;
     obj_proto[i].affected[j].modifier = 0;
@@ -1983,12 +1925,11 @@ void load_zones(FILE * fl, char *zonename)
 
 #undef Z
 
-
 void get_one_line(FILE *fl, char *buf)
 {
   if (fgets(buf, READ_SIZE, fl) == NULL) {
-    log("error reading help file: not terminated with $?");
-    exit(1);
+    // EOF?
+    strcpy(buf, "$\n");
   }
 
   buf[strlen(buf) - 1] = '\0'; /* take off the trailing \n */
@@ -2002,6 +1943,9 @@ void load_help(FILE *fl, int mode)
   char line[READ_SIZE+1], *scan;
   struct help_index_element el;
 
+  /* NOTE each help entry must be followed by a # and the file must be
+     terminated with a $ -- no exceptions! */
+  
   /* get the first keyword line */
   get_one_line(fl, key);
   while (*key != '$') {
@@ -2192,7 +2136,13 @@ void zone_update(void)
   struct reset_q_element *update_u, *temp;
   static int timer = 0;
   char buf[128];
+  char buf2[128];
+  struct char_data *tch = NULL;
+  unsigned long strike_loc = 0;
+  int dam = 0;
 
+  void die(struct char_data *ch);
+  
   /* jelson 10/22/92 */
   if (((++timer * PULSE_ZONE) / PASSES_PER_SEC) >= 60) {
     /* one minute has passed */
@@ -2226,6 +2176,94 @@ void zone_update(void)
 	}
 
 	zone_table[i].age = ZO_DEAD;
+      }
+
+      /* Perform weather checks */
+      // the algorithm below is NOT right, I would rather pick a
+      // random room in the zone, instead of picking a random room and
+      // then determining if it is in the zone.
+      strike_loc = number( 0, top_of_world );
+
+      if ( world[ strike_loc ].zone == zone_table[i].number ) {
+        struct weather_data weather_info =
+          zone_table[i].weather_info;
+      
+        dam = 0;
+        strcpy( buf, "" );
+        strcpy( buf2, "" );
+
+        // no funny weather indoors
+        if (!ROOM_FLAGGED(strike_loc, ROOM_INDOORS)) {
+          // find a character in that room
+          tch = world[strike_loc].people;
+          while ( tch != NULL ) {
+            if (IS_IMMORTAL(tch))
+              continue;
+
+            if ( number( 1, 2 ) != 2 )
+              break;
+
+            tch = tch->next_in_room;
+          }
+
+          if ( tch == NULL )
+            continue;
+          
+          switch ( weather_info.sky ) {
+          case SKY_THUNDERSTORM:
+            if ( number( 1, 10 ) != 10 ) {
+              dam = dice(15, 15);
+              sprintf( buf, "A lightning bolt strikes $n!" );
+              sprintf( buf2, "You are struck by a lightning bolt!\r\n" );
+            } else {
+              sprintf( buf, "You jump as lightning strikes near by." );
+              sprintf( buf2, "You jump as lightning strikes near by.\r\n" );
+            }
+            break;
+          case SKY_TORNADO:
+            if ( number( 1, 10 ) < 8 ) {
+              dam = dice(6, 10);
+              sprintf( buf, "A tornado touches down, throwing $n around!" );
+              sprintf( buf2, "You are tossed around by a tornado!\r\n" );
+            } else {
+              sprintf( buf, "The wind picks up as a tornado passes overhead." );
+              sprintf( buf2, "The wind picks up as a tornado passes overhead.\r\n" );
+            }
+            break;
+          case SKY_BLIZZARD:
+            if ( number( 1, 10 ) < 9 ) {
+              dam = dice(8, 12);
+              sprintf( buf, "A blizzard blows through the area covering $n with hail and snow!" );
+              sprintf( buf2, "A blizzard rips right through you!\r\n" );
+            } else {
+              sprintf( buf, "You buckle down and hold your ground as a blizzard blows through." );
+              sprintf( buf2, "You buckle down and hold your ground as a blizzard blows through.\r\n" );
+            }
+            break;
+          default:
+            // nothing happens
+            break;
+          }
+          
+          // tch is the character to get it,
+          // buf is the message to the room,
+          // buf2 is the message to the char,
+          if ( tch != NULL &&
+               strcmp( buf, "" ) &&
+               strcmp( buf2, "" ) ) {
+            assert( tch != NULL );
+            
+            if ( dam > 0 ) {
+              GET_HIT(tch) -= dam;
+              update_pos( tch );
+            }
+            act( buf, TRUE, tch, 0, 0, TO_ROOM );
+            send_to_char( buf2, tch );
+            // check if the character died
+            if ( GET_POS(tch) == POS_DEAD )
+              die( tch );
+          }
+        }
       }
     }
   }     /* end - one minute has passed */
@@ -2612,7 +2650,8 @@ void store_to_char(struct char_file_u * st, struct char_data * ch)
     GET_ITEMS_STUCK(ch, i) = NULL;
 
   ch->in_room = GET_LOADROOM(ch);
-/*
+
+  /*
    * If you're not poisioned and you've been away for more than an hour of
    * real time, we'll set your HMV back to full
    */
@@ -2626,13 +2665,11 @@ void store_to_char(struct char_file_u * st, struct char_data * ch)
     GET_MOVE(ch) = GET_MAX_MOVE(ch);
     GET_MANA(ch) = GET_MAX_MANA(ch);
     for (i = 0; i < 4; i++)
-       GET_COND(ch, i) = 24;
+      GET_COND(ch, i) = 24;
     GET_COND(ch, DRUNK) = 0;
   }
   GET_POS(ch) = POS_STANDING;
-}                               /* store_to_char */
-
-
+}
 
 
 /* copy vital data from a players char-structure to the file structure */
@@ -2765,9 +2802,7 @@ void char_to_store(struct char_data * ch, struct char_file_u * st)
   if (GET_LEVEL(ch) > 5 && IS_SET(PLR_FLAGS(ch), PLR_NEWBIE))
      REMOVE_BIT(PLR_FLAGS(ch), PLR_NEWBIE);
 /*   affect_total(ch); unnecessary, I think !?! */
-}                               /* Char to store */
-
-
+}
 
 void save_etext(struct char_data * ch)
 {
@@ -2807,7 +2842,7 @@ int create_entry(char *name)
 
 
 /* read and allocate space for a '~'-terminated string from a given file */
-char *fread_string(FILE * fl, const char *error)
+char *fread_string(FILE * fl, char *error)
 {
   char buf[MAX_STRING_LENGTH], tmp[512], *rslt;
   register char *point;
@@ -2866,10 +2901,7 @@ void free_char(struct char_data * ch)
 
   void free_alias(struct alias * a);
 
-  if (ch == NULL) {
-     log("SYSERR: HUGE PROBLEM, ch was passed to free_char as NULL!");
-     abort();
-  }
+  assert( ch != NULL );
 
   while ((a = GET_ALIASES(ch)) != NULL) {
     GET_ALIASES(ch) = (GET_ALIASES(ch))->next;
@@ -2887,32 +2919,49 @@ void free_char(struct char_data * ch)
   }
   if (!IS_NPC(ch) || (IS_NPC(ch) && GET_MOB_RNUM(ch) == -1)) {
     /* if this is a player, or a non-prototyped non-player, free all */
-    if (GET_NAME(ch))
-      free(GET_NAME(ch));
-    if (GET_RDESC(ch))
-      free(GET_RDESC(ch));
-    if (GET_KWDS(ch))
-      free(GET_KWDS(ch));
-    if (ch->player.title)
-      free(ch->player.title);
-    if (ch->player.short_descr)
-      free(ch->player.short_descr);
-    if (ch->player.long_descr)
-      free(ch->player.long_descr);
-    if (ch->player.description)
-      free(ch->player.description);
+    if (GET_NAME(ch)) {
+      free(GET_NAME(ch)); ch->player.name = NULL;
+    }
+    if (GET_RDESC(ch)) {
+      free(GET_RDESC(ch)); ch->player.room_descr = NULL;
+    }
+    if (GET_KWDS(ch)) {
+      free(GET_KWDS(ch)); ch->player.keywords = NULL;
+    }
+    if (GET_TITLE(ch)) {
+      free(GET_TITLE(ch)); ch->player.title = NULL;
+    }
+    if (ch->player.short_descr) {
+      free(ch->player.short_descr); ch->player.short_descr = NULL;
+    }
+    if (ch->player.long_descr) {
+      free(ch->player.long_descr); ch->player.long_descr = NULL;
+    }
+    if (ch->player.description) {
+      free(ch->player.description); ch->player.description = NULL;
+    }
   } else if ((i = GET_MOB_RNUM(ch)) > -1) {
     /* otherwise, free strings only if the string is not pointing at proto */
-    if (ch->player.name && ch->player.name != mob_proto[i].player.name)
-      free(ch->player.name);
-    if (ch->player.title && ch->player.title != mob_proto[i].player.title)
-      free(ch->player.title);
-    if (ch->player.short_descr && ch->player.short_descr != mob_proto[i].player.short_descr)
-      free(ch->player.short_descr);
-    if (ch->player.long_descr && ch->player.long_descr != mob_proto[i].player.long_descr)
-      free(ch->player.long_descr);
-    if (ch->player.description && ch->player.description != mob_proto[i].player.description)
-      free(ch->player.description);
+    if (ch->player.name && ch->player.name !=
+        mob_proto[i].player.name) {
+      free(ch->player.name);  ch->player.name = NULL;
+    }
+    if (ch->player.title &&
+        ch->player.title != mob_proto[i].player.title) {
+      free(ch->player.title); ch->player.title = NULL;
+    }
+    if (ch->player.short_descr &&
+        ch->player.short_descr != mob_proto[i].player.short_descr) {
+      free(ch->player.short_descr); ch->player.short_descr = NULL;
+    }
+    if (ch->player.long_descr &&
+        ch->player.long_descr != mob_proto[i].player.long_descr) {
+      free(ch->player.long_descr); ch->player.long_descr = NULL;
+    }
+    if (ch->player.description &&
+        ch->player.description != mob_proto[i].player.description) {
+      free(ch->player.description); ch->player.description = NULL;
+    }
   }
   while (ch->affected)
     affect_remove(ch, ch->affected, FALSE);
@@ -3130,10 +3179,11 @@ void clear_char(struct char_data * ch)
   GET_PFILEPOS(ch)             = -1;
   GET_WAS_IN(ch)               = NOWHERE;
   GET_POS(ch)                  = POS_STANDING;
+  GET_REL(ch)                  = REL_UNDEFINED;
   ch->mob_specials.default_pos = POS_STANDING;
 
   for (i=0; i < ARMOR_LIMIT; i++)
-     ch->points.armor[i] = 0;        /* No Armor */
+    ch->points.armor[i] = 0;        /* No Armor */
 }
 
 
@@ -3310,7 +3360,6 @@ long real_object(long vnumber)
  *  mob_prog bitvector types. This allows the use of the words in the
  *  mob/script files.
  */
-
 int mprog_name_to_type (char *name)
 {
    if (!str_cmp(name, "in_file_prog"  ))    return IN_FILE_PROG;
@@ -3340,7 +3389,7 @@ int fread_number(FILE *fp)
 
     do {
        c = getc(fp);
-    } while (isspace(c));
+    } while (isspace((int)c));
 
     number = 0;
 
@@ -3352,12 +3401,12 @@ int fread_number(FILE *fp)
        c = getc(fp);
     }
 
-    if (!isdigit(c)) {
+    if (!isdigit((int)c)) {
        log("Fread_number: bad format.");
        exit(1);
     }
 
-    while (isdigit(c)) {
+    while (isdigit((int)c)) {
        number = number * 10 + c - '0';
        c      = getc(fp);
     }
@@ -3373,23 +3422,67 @@ int fread_number(FILE *fp)
     return number;
 }
 
+/*
+  * Read a number from a file.
+  */
+long fread_long(FILE *fp)
+{
+  long number;
+  bool sign;
+  char c;
+  
+  do {
+    c = getc(fp);
+  } while (isspace((int)c));
+  
+  number = 0;
+
+  sign   = FALSE;
+  if (c == '+') {
+    c = getc(fp);
+  } else if (c == '-') {
+    sign = TRUE;
+    c = getc(fp);
+  }
+  
+  if (!isdigit((int)c)) {
+    log("Fread_long: bad format.");
+    exit(1);
+  }
+  
+  while (isdigit((int)c)) {
+    number = number * 10 + c - '0';
+    c      = getc(fp);
+  }
+  
+  if (sign)
+    number = 0 - number;
+  
+  if (c == '|')
+    number += fread_long(fp);
+  else if (c != ' ')
+    ungetc(c, fp);
+  
+  return number;
+}
+
  /*
   * Read to end of line (for comments).
   */
 void fread_to_eol(FILE *fp)
 {
-     char c;
-
-     do {
-	 c = getc(fp);
-     } while (c != '\n' && c != '\r');
-
-     do {
-	 c = getc(fp);
-     } while (c == '\n' || c == '\r');
-
-     ungetc(c, fp);
-     return;
+  char c;
+  
+  do {
+    c = getc(fp);
+  } while (c != '\n' && c != '\r');
+  
+  do {
+    c = getc(fp);
+  } while (c == '\n' || c == '\r');
+  
+  ungetc(c, fp);
+  return;
 }
 
  /*
@@ -3405,7 +3498,7 @@ char *fread_word(FILE *fp)
      {
 	 cEnd = getc(fp);
      }
-     while (isspace(cEnd));
+     while (isspace((int)cEnd));
 
      if (cEnd == '\'' || cEnd == '"')
      {
@@ -3421,7 +3514,7 @@ char *fread_word(FILE *fp)
      for (; pword < word + MAX_INPUT_LENGTH; pword++)
      {
 	 *pword = getc(fp);
-	 if (cEnd == ' ' ? isspace(*pword) || *pword == '~' : *pword == cEnd)
+	 if (cEnd == ' ' ? isspace((int)*pword) || *pword == '~' : *pword == cEnd)
 	 {
 	     if (cEnd == ' ' || cEnd == '~')
 		 ungetc(*pword, fp);

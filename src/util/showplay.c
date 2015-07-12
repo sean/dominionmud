@@ -16,7 +16,14 @@
 #include "../structs.h"
 #include "../utils.h"
 
-long memory_usage; 
+/* undefine MAX and MIN so that our functions are used instead */
+#ifdef MAX
+#undef MAX
+#endif
+
+#ifdef MIN
+#undef MIN
+#endif
 
 #ifdef __cplusplus
 template<class kind> 
@@ -35,6 +42,8 @@ long MIN(long a, long b) { return a < b ? a : b; }
 long MAX(long a, long b) { return a > b ? a : b; }
 #endif
 
+long memory_usage; 
+
 /* Create a duplicate of a string */
 char *str_dup(const char *source)
 {
@@ -48,8 +57,6 @@ char *str_dup(const char *source)
 /* clear ALL the working variables of a char; do NOT free any space alloc'ed */
 void clear_char(struct char_data * ch)
 {
-  int i;
-
   memset((char *) ch, 0, sizeof(struct char_data));
 
   ch->in_room                  = NOWHERE;
@@ -63,7 +70,7 @@ void clear_char(struct char_data * ch)
 void store_to_char(struct char_file_u * st, struct char_data * ch)
 {
   int i;
-
+  
   /* to save memory, only PC's -- not MOB's -- have player_specials */
   if (ch->player_specials == NULL)
     CREATE(ch->player_specials, struct player_special_data, 1);
@@ -75,10 +82,11 @@ void store_to_char(struct char_file_u * st, struct char_data * ch)
   GET_GUILD_LEV(ch)   = st->assocs[2];
   GET_LEVEL(ch)       = st->level;
   GET_AGE_MOD(ch)     = st->race_mod;
-  /*GET_INVITE(ch, 0)   = st->invitations[0];
+  /*
+  GET_INVITE(ch, 0)   = st->invitations[0];
   GET_INVITE(ch, 1)   = st->invitations[1];
-  GET_INVITE(ch, 2)   = st->invitations[2];*/
-
+  GET_INVITE(ch, 2)   = st->invitations[2];
+  */
   ch->player.short_descr = NULL;
   ch->player.long_descr  = NULL;
   ch->player.title       = str_dup(st->title);
@@ -105,6 +113,7 @@ void store_to_char(struct char_file_u * st, struct char_data * ch)
   ch->char_specials.carry_items = 0;
   for (i = 0; i < ARMOR_LIMIT; i++)
       ch->points.armor[i] = 0;
+
   GET_HITROLL(ch) = MIN(100, (GET_LEVEL(ch) * 2) + 3);
   GET_HITROLL(ch) = MAX(3, GET_HITROLL(ch));
   GET_DAMROLL(ch) = MIN(100, (GET_LEVEL(ch) * 2));
@@ -141,9 +150,8 @@ void store_to_char(struct char_file_u * st, struct char_data * ch)
 void free_char(struct char_data * ch)
 {
   int i;
-  struct alias *a;
 
-  void free_alias(struct alias * a);
+  void free_alias(struct alias *);
 
   if (ch == NULL) {
      abort();

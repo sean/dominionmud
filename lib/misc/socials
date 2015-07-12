@@ -37,7 +37,6 @@ Eh, WHO?
 You skip and dance around by yourself.
 $n skips a light fandango.
 
-
 cackle 0 0
 You cackle gleefully.
 $n throws back $s head and cackles with insane glee!
@@ -1087,7 +1086,6 @@ $n cowers away from you in fear.
 Um...is there a someone to cower from?!?
 You can't cower from yourself. *poke*
 
-
 babble 0 0
 You begin to speak gibberish.
 $n begins to speak gibberish.
@@ -1187,7 +1185,6 @@ $n staggers blindly into you-- you see stars.
 Who do you want to stagger into?
 You stagger blindly around the room.
 $n staggers blindly around the room.
-
 
 blink 0 0
 You bat your eyelashes.
@@ -1645,11 +1642,6 @@ They aren't even here!
 You pinch yourself to see if you're in a dream.
 $n pinches $mself to see if they are in a dream.
 
-pardon 0 0
-You say, 'Pardon me, do you have any Grey Poupon?'
-$n says, 'Pardon me, do you have any Grey Poupon?'
-#
-
 propose 0 0
 Who do you want to propose to?
 #
@@ -1790,7 +1782,6 @@ Who??
 You wish for more attention.
 $n wishes for more attention.
 
-
 wrap 0 0
 You wrap a present for your love.
 $n wraps a present for someone special.
@@ -1800,11 +1791,6 @@ $n wraps $s legs around you.  Wonder what comes next??
 Looks like they got away!
 You wrap yourself with some paper.
 $n wraps $mself with some wrapping paper.  Is it Christmas?
-
-stoke 0 0
-You stoke your soul by catching a smooth, perfect wave.
-$n stokes $s soul by catching a smooth, perfect wave.
-#
 
 zipper 0 0
 You examine your zipper to make sure it's up.
@@ -1831,25 +1817,6 @@ You stifle a laugh.
 $n stifles a laugh.
 #
 
-prance 0 0 
-You try to prance like a deer.
-$n pretends to be a deer and prances.
-You prance around $N like a deer.
-$n prances around $N like a deer.  Funny, isn't it?
-$n prances around you like a deer looking foolish.
-Prance around WHO??
-#
-
-blah 0 0 
-It has been a BLAH day, hansn't it?
-$n sticks $s tongue out and says, "BLAH!!"
-#
-
-quiet 0 0 
-Shhhhhhhhhh!!!
-Shhhhh!!  $n requests that everyone quiets down.
-#
-
 shh 0 0 
 Shhhhhhhhhh! Be quiet!
 $n tells everyone to be QUIET!!
@@ -1859,9 +1826,4 @@ $n tells you to please... BE QUIET! *nudge*
 Who are you trying to quiet?
 You tell yourself to shut up.
 $n shuts $mself up.
-
-
 $~
-
-
-

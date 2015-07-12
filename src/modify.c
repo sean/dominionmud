@@ -95,7 +95,7 @@ void string_add(struct descriptor_data *d, char *str)
      extern void redit_disp_extradesc_menu(struct descriptor_data *d);
      extern void redit_disp_exit_menu(struct descriptor_data *d);
      extern void medit_disp_menu(struct descriptor_data *d);
-     if (STATE(d) == CON_MEDIT) {
+     if (STATE(d) == CON_EDITTING && SUBSTATE(d) == OLC_MOB_EDIT) {
        if (OLC_MOB(d)->player.description)
 	 free(OLC_MOB(d)->player.description);
        OLC_MOB(d)->player.description = str_dup(*d->str);
@@ -103,7 +103,7 @@ void string_add(struct descriptor_data *d, char *str)
        free (d->str);
        medit_disp_menu(d);
      }
-     if (STATE(d) == CON_OEDIT) {
+     if (STATE(d) == CON_EDITTING && SUBSTATE(d) == OLC_OBJ_EDIT) {
        switch(OLC_MODE(d)) {
 	  case OEDIT_ACTDESC:
 	    if (OLC_OBJ(d)->action_description)
@@ -122,7 +122,7 @@ void string_add(struct descriptor_data *d, char *str)
 	    oedit_disp_extradesc_menu(d);
        }
      }
-     if (STATE(d) == CON_REDIT) {
+     if (STATE(d) == CON_EDITTING && SUBSTATE(d) == OLC_ROOM_EDIT) {
        switch(OLC_MODE(d)) {
 	  case REDIT_DESC:
 	    if (OLC_ROOM(d)->description)
@@ -363,7 +363,7 @@ void page_string(struct descriptor_data *d, char *str, int keep_internal)
     send_to_char("", d->character);
     return;
   }
-  CREATE(d->showstr_vector, char *, d->showstr_count = count_pages(str));
+  CREATE(d->showstr_vector, char *, (d->showstr_count = count_pages(str)));
 
   if (keep_internal) {
     d->showstr_head = str_dup(str);
@@ -408,7 +408,7 @@ void show_string(struct descriptor_data *d, char *input)
   /* Feature to 'goto' a page.  Just type the number of the page and you
    * are there!
    */
-  else if (isdigit(*buf))
+  else if (isdigit((int)*buf))
     d->showstr_page = MAX(0, MIN(atoi(buf) - 1, d->showstr_count - 1));
 
   else if (*buf) {
@@ -446,7 +446,7 @@ int count_words(char *str)
     int i, j = 0;
 
     for (i = 0; i < strlen(str); i++)
-	if (isspace(str[i]))
+	if (isspace((int)str[i]))
 	   j++;
     return j;
 }

@@ -1,0 +1,48 @@
+# NOTE: Add new religions below, obviously no religion can have the
+# same name. None MUST be the first religion, otherwise everyone who
+# enters the game will have a default religion (not good, in my
+# opinion).  Comments MUST begin with a pound sign and then a space.
+
+#None
+~                          # Abbrev
+~                          # Brief
+~                          # Long Desc
+~                          # Temple Location Hint
+U -1                       # U|G|N|E|L|C Temple Room
+
+#Kelloran
+Kel~                       # Religion Abbreviation
+God of Light and Healing~  # Brief Statement
+~                          # Extended Statement
+Look for his temple ...~   # Location Hint
+G 3021                     # G|N|E|L|C Temple Room
+
+#Aduran
+Adu~                       # Religion Abbreviation
+God of Nature and Balance~ # Brief Statement
+~                          # Extended Statement
+Look for his temple ...~   # Location Hint
+N 3021                     # G|N|E|L|C Temple Room
+
+#Solinara
+Sol~                          # Religion Abbreviation
+Goddess of Law and Knowledge~ # Brief Statement
+~                             # Extended Statement
+Look for her temple ...~      # Location Hint
+L 3021                        # G|N|E|L|C Temple Room
+
+#Maletis
+Mal~                               # Religion Abbreviation
+Goddess of War, Disease and Chaos~ # Brief Statement
+~                                  # Extended Statement
+Look for her temple ...~           # Location Hint
+C 3021                             # G|N|E|L|C Temple Room
+
+#Vasarian
+Vas~                           # Religion Abbreviation
+God Power, Greed and Darkness~ # Brief Statement
+~                              # Extended Statement
+Look for his temple ...~       # Location Hint
+E 3021                         # G|N|E|L|C Temple Room
+$~
+

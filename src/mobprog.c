@@ -49,6 +49,8 @@ extern bool str_prefix (const char *astr, const char *bstr);
 extern int number_percent(void);
 extern int number_range(int from, int to);
 
+extern long top_of_mobt;
+
 #define bug(x, y) { sprintf(buf2, (x), (y)); log(buf2); }
 
 
@@ -259,7 +261,7 @@ int mprog_do_ifchck(char *ifchck, struct char_data *mob, struct char_data *actor
     }
   else /* there should be an operator and value, so get them */
     {
-      while ((*point != ' ') && (!isalnum(*point)))
+      while ((*point != ' ') && (!isalnum((int)*point)))
 	if (*point == '\0')
 	  {
 	    bug ("Mob: %ld ifchck operator without value",
@@ -494,12 +496,11 @@ int mprog_do_ifchck(char *ifchck, struct char_data *mob, struct char_data *actor
 	  return -1;
 	}
     }
-#if 0
   if (!str_cmp(buf, "master"))
     {
       switch (arg[1])  /* arg should be "$*" so just get the letter */
 	{
-	case 'i': return (mob->master != NULL ? mob->master : NULL)
+	case 'i': return ((mob->master != NULL ? mob->master : NULL)
 			  && mob->master->in_room == mob->in_room);
 	case 'n': if (actor)
 		     return (actor->master != NULL
@@ -519,7 +520,6 @@ int mprog_do_ifchck(char *ifchck, struct char_data *mob, struct char_data *actor
 	  return -1;
 	}
     }
-#endif
   if (!str_cmp(buf, "isaffected"))
     {
       switch (arg[1])  /* arg should be "$*" so just get the letter */
@@ -1117,11 +1117,12 @@ char *mprog_process_if(char *ifchck, char *com_list, struct char_data *mob,
  *null = '\0';
 
  /* check for trueness of the ifcheck */
- if ((legal = mprog_do_ifchck(ifchck, mob, actor, obj, vo, rndm)))
+ if ((legal = mprog_do_ifchck(ifchck, mob, actor, obj, vo, rndm))) {
    if(legal != 0)
      flag = TRUE;
    else
      return null;
+ }
 
  while(loopdone == FALSE) /*scan over any existing or statements */
  {
@@ -1137,11 +1138,12 @@ char *mprog_process_if(char *ifchck, char *com_list, struct char_data *mob,
      morebuf = one_argument(cmnd,buf);
      if (!str_cmp(buf, "or"))
      {
-	 if ((legal = mprog_do_ifchck(morebuf,mob,actor,obj,vo,rndm)))
+        if ((legal = mprog_do_ifchck(morebuf,mob,actor,obj,vo,rndm))) {
 	   if (legal != 0)
 	     flag = TRUE;
 	   else
 	     return null;
+        }
      }
      else
        loopdone = TRUE;
@@ -1313,19 +1315,19 @@ void mprog_translate(char ch, char *t, struct char_data *mob, struct char_data *
       break;
 
      case 'N':
-	 if (actor) 
-	    if (CAN_SEE(mob, actor))
-	       if (IS_NPC(actor))
-		 strcpy(t, actor->player.short_descr);
-	       else
-	       {
-		   strcpy(t, actor->player.name);
-		   strcat(t, " ");
-		   strcat(t, actor->player.title);
-	       }
-	    else
-	      strcpy(t, "someone");
-	 break;
+       if (actor) {
+         if (CAN_SEE(mob, actor)) {
+           if (IS_NPC(actor))
+             strcpy(t, actor->player.short_descr);
+           else {
+             strcpy(t, actor->player.name);
+             strcat(t, " ");
+             strcat(t, actor->player.title);
+           }
+         } else
+           strcpy(t, "someone");
+       }
+       break;
 
      case 't':
 	 if (vict) {
@@ -1340,8 +1342,8 @@ void mprog_translate(char ch, char *t, struct char_data *mob, struct char_data *
 	 break;
 
      case 'T':
-	 if (vict) 
-	    if (CAN_SEE(mob, vict))
+          if (vict) {
+	    if (CAN_SEE(mob, vict)) {
 	       if (IS_NPC(vict))
 		 strcpy(t, vict->player.short_descr);
 	       else
@@ -1350,9 +1352,10 @@ void mprog_translate(char ch, char *t, struct char_data *mob, struct char_data *
 		 strcat(t, " ");
 		 strcat(t, vict->player.title);
 	       }
-	    else
+	    } else
 	      strcpy(t, "someone");
-	 break;
+          }
+          break;
 
      case 'r':
 	 if (rndm) {
@@ -1367,19 +1370,19 @@ void mprog_translate(char ch, char *t, struct char_data *mob, struct char_data *
       break;
 
      case 'R':
-	 if (rndm) 
-	    if (CAN_SEE(mob, rndm))
-	       if (IS_NPC(rndm))
-		 strcpy(t,rndm->player.short_descr);
-	       else
-	       {
-		 strcpy(t, rndm->player.name);
-		 strcat(t, " ");
-		 strcat(t, rndm->player.title);
-	       }
-	    else
-	      strcpy(t, "someone");
-	 break;
+       if (rndm) {
+         if (CAN_SEE(mob, rndm)) {
+           if (IS_NPC(rndm))
+             strcpy(t,rndm->player.short_descr);
+           else {
+             strcpy(t, rndm->player.name);
+             strcat(t, " ");
+             strcat(t, rndm->player.title);
+           }
+         } else
+           strcpy(t, "someone");
+       }
+       break;
 
      case 'e':
 	 if (actor)
@@ -1643,7 +1646,7 @@ void mprog_wordlist_check(char *arg, struct char_data *mob, struct char_data *ac
       {
 	strcpy(temp1, mprg->arglist);
 	list = temp1;
-	while(isspace(*list)) list++;
+	while(isspace((int)*list)) list++;
 	for (i = 0; i < strlen(list); i++)
 	  list[i] = LOWER(list[i]);
 	strcpy(temp2, arg);
@@ -1723,15 +1726,13 @@ void mprog_act_trigger(char *buf, struct char_data *mob, struct char_data *ch,
   if (IS_NPC(mob)
       && (mob_index[mob->nr].progtypes & ACT_PROG)
       && (mob != ch)) {
-#if 0
-  MPROG_DATA     *mprg;
+    MPROG_DATA     *mprg;
     for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next) {
        if ((mprg->type & ACT_PROG) && (!str_infix(buf, mprg->arglist))) {
 	 mprog_driver(mprg->comlist, mob, ch, obj, NULL);
 	 break;
        }
     }
-#endif
       tmp_act = (MPROG_ACT_LIST *) malloc(sizeof(MPROG_ACT_LIST));
       if (mob->mpactnum > 0)
 	tmp_act->next = mob->mpact;
@@ -1774,122 +1775,133 @@ void mprog_bribe_trigger(struct char_data *mob, struct char_data *ch, int amount
 
 }
 
-void mprog_death_trigger(struct char_data *mob, struct char_data *killer)
+void mprog_death_trigger(struct char_data * mob,
+                         struct char_data * killer)
 {
+  assert( mob != NULL );
+  assert( killer != NULL );
+  assert( mob->nr <= top_of_mobt );
+  
+  if (IS_NPC(mob)
+      && (mob_index[mob->nr].progtypes & DEATH_PROG)) {
+    mprog_percent_check(mob, killer, NULL, NULL, DEATH_PROG);
+  }
 
- if (IS_NPC(mob)
-     && (mob_index[mob->nr].progtypes & DEATH_PROG))
-   {
-     mprog_percent_check(mob, killer, NULL, NULL, DEATH_PROG);
-   }
-
- death_cry(mob);
- return;
-
+  death_cry(mob);
+  return;
 }
 
 void mprog_entry_trigger(struct char_data *mob)
 {
-
- if (IS_NPC(mob)
-     && (mob_index[mob->nr].progtypes & ENTRY_PROG))
-   mprog_percent_check(mob, NULL, NULL, NULL, ENTRY_PROG);
-
- return;
-
+  assert( mob != NULL );
+  assert( mob->nr <= top_of_mobt );
+  
+  if (IS_NPC(mob)
+      && (mob_index[mob->nr].progtypes & ENTRY_PROG))
+    mprog_percent_check(mob, NULL, NULL, NULL, ENTRY_PROG);
+  
+  return;
 }
 
-void mprog_fight_trigger(struct char_data *mob, struct char_data *ch)
+void mprog_fight_trigger(struct char_data * mob,
+                         struct char_data * ch)
 {
+  assert( mob != NULL );
+  assert( ch != NULL );
+  assert( mob->nr <= top_of_mobt );
+  
+  if (IS_NPC(mob)
+      && (mob_index[mob->nr].progtypes & FIGHT_PROG))
+    mprog_percent_check(mob, ch, NULL, NULL, FIGHT_PROG);
 
- if (IS_NPC(mob)
-     && (mob_index[mob->nr].progtypes & FIGHT_PROG))
-   mprog_percent_check(mob, ch, NULL, NULL, FIGHT_PROG);
-
- return;
-
+  return;
 }
 
-void mprog_give_trigger(struct char_data *mob, struct char_data *ch, struct obj_data *obj)
+void mprog_give_trigger(struct char_data *mob,
+                        struct char_data *ch,
+                        struct obj_data *obj)
 {
+  char        buf[MAX_INPUT_LENGTH];
+  MPROG_DATA *mprg;
 
- char        buf[MAX_INPUT_LENGTH];
- MPROG_DATA *mprg;
-
- if (IS_NPC(mob)
-     && (mob_index[mob->nr].progtypes & GIVE_PROG))
-   for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
-     {
-       one_argument(mprg->arglist, buf);
-       if ((mprg->type & GIVE_PROG)
-	   && ((!str_infix(obj->name, mprg->arglist))
-	       || (!str_cmp("all", buf))))
-	 {
-	   mprog_driver(mprg->comlist, mob, ch, obj, NULL);
-	   break;
-	 }
-     }
-
- return;
-
+  assert( mob != NULL );
+  assert( ch != NULL );
+  assert( obj != NULL );
+  assert( mob->nr <= top_of_mobt );
+  
+  if (IS_NPC(mob)
+      && (mob_index[mob->nr].progtypes & GIVE_PROG))
+    for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next) {
+      one_argument(mprg->arglist, buf);
+      if ((mprg->type & GIVE_PROG)
+          && ((!str_infix(obj->name, mprg->arglist))
+              || (!str_cmp("all", buf)))) {
+        mprog_driver(mprg->comlist, mob, ch, obj, NULL);
+        break;
+      }
+    }
+  
+  return;
 }
 
 void mprog_greet_trigger(struct char_data *ch)
 {
-
- struct char_data *vmob;
-
- for (vmob = world[ch->in_room].people; vmob != NULL; vmob = vmob->next_in_room)
-   if (IS_NPC(vmob)
-       && ch != vmob
-       && CAN_SEE(vmob, ch)
-       && (vmob->char_specials.fighting == NULL)
-       && AWAKE(vmob)
-       && (mob_index[vmob->nr].progtypes & GREET_PROG))
-     mprog_percent_check(vmob, ch, NULL, NULL, GREET_PROG);
-   else
-     if (IS_NPC(vmob)
-	 && (vmob->char_specials.fighting == NULL)
-	 && AWAKE(vmob)
-	 && (mob_index[vmob->nr].progtypes & ALL_GREET_PROG))
-       mprog_percent_check(vmob,ch,NULL,NULL,ALL_GREET_PROG);
-
- return;
-
+  struct char_data *vmob;
+  assert( ch != NULL );
+  
+  for (vmob = world[ch->in_room].people; vmob != NULL; vmob = vmob->next_in_room)
+    if (IS_NPC(vmob)
+        && ch != vmob
+        && CAN_SEE(vmob, ch)
+        && (vmob->char_specials.fighting == NULL)
+        && AWAKE(vmob)
+        && (mob_index[vmob->nr].progtypes & GREET_PROG))
+      mprog_percent_check(vmob, ch, NULL, NULL, GREET_PROG);
+    else
+      if (IS_NPC(vmob)
+          && (vmob->char_specials.fighting == NULL)
+          && AWAKE(vmob)
+          && (mob_index[vmob->nr].progtypes & ALL_GREET_PROG))
+        mprog_percent_check(vmob,ch,NULL,NULL,ALL_GREET_PROG);
+  
+  return;
 }
 
-void mprog_hitprcnt_trigger(struct char_data *mob, struct char_data *ch)
+void mprog_hitprcnt_trigger(struct char_data *mob,
+                            struct char_data *ch)
 {
-
- MPROG_DATA *mprg;
-
- if (IS_NPC(mob)
-     && (mob_index[mob->nr].progtypes & HITPRCNT_PROG))
-   for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
-     if ((mprg->type & HITPRCNT_PROG)
-	 && ((100*mob->points.hit / mob->points.max_hit) < atoi(mprg->arglist)))
-       {
-	 mprog_driver(mprg->comlist, mob, ch, NULL, NULL);
-	 break;
-       }
- 
- return;
-
+  MPROG_DATA *mprg;
+  assert( mob != NULL );
+  assert( ch != NULL );
+  assert( mob->nr <= top_of_mobt );
+  
+  if (IS_NPC(mob)
+      && (mob_index[mob->nr].progtypes & HITPRCNT_PROG))
+    for (mprg = mob_index[mob->nr].mobprogs; mprg != NULL; mprg = mprg->next)
+      if ((mprg->type & HITPRCNT_PROG)
+          && ((100*mob->points.hit / mob->points.max_hit) < atoi(mprg->arglist))) {
+        mprog_driver(mprg->comlist, mob, ch, NULL, NULL);
+        break;
+      }
+  
+  return;
 }
 
 void mprog_random_trigger(struct char_data *mob)
 {
+  assert( mob != NULL );
+  assert( mob->nr <= top_of_mobt );
+
   if (mob_index[mob->nr].progtypes & RAND_PROG)
     mprog_percent_check(mob,NULL,NULL,NULL,RAND_PROG);
-
+  
   return;
-
 }
 
 void mprog_speech_trigger(char *txt, struct char_data *mob)
 {
-
   struct char_data *vmob;
+  assert( mob != NULL );
 
   for (vmob = world[mob->in_room].people; vmob != NULL; vmob = vmob->next_in_room)
     if ((mob != vmob) && IS_NPC(vmob) && (mob_index[vmob->nr].progtypes & SPEECH_PROG))

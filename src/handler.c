@@ -26,8 +26,10 @@ extern struct char_data *character_list;
 extern struct index_data *mob_index;
 extern struct index_data *obj_index;
 extern struct descriptor_data *descriptor_list;
+extern struct race_data *races;
 extern char *MENU;
 extern char *ANSI_MENU;
+extern int NUM_RACES;
 
 /* external functions */
 void free_char(struct char_data * ch);
@@ -43,12 +45,14 @@ ACMD(do_look);
 void death_cry(struct char_data *ch);
 void raw_kill(struct char_data *ch, struct char_data *k);
 
+/**
+ */
 char *fname(char *namelist)
 {
   static char holder[30];
   register char *point;
 
-  for (point = holder; isalpha(*namelist); namelist++, point++)
+  for (point = holder; isalpha((int)*namelist); namelist++, point++)
     *point = *namelist;
 
   *point = '\0';
@@ -56,7 +60,8 @@ char *fname(char *namelist)
   return (holder);
 }
 
-
+/**
+ */
 int isname(char *str, char *namelist)
 {
   register char *curname, *curstr;
@@ -64,7 +69,7 @@ int isname(char *str, char *namelist)
   curname = namelist;
   for (;;) {
     for (curstr = str;; curstr++, curname++) {
-      if (!*curstr && !isalpha(*curname))
+      if (!*curstr && !isalpha((int)*curname))
 	return (1);
 
       if (!*curname)
@@ -79,15 +84,15 @@ int isname(char *str, char *namelist)
 
     /* skip to next name */
 
-    for (; isalpha(*curname); curname++);
+    for (; isalpha((int)*curname); curname++);
     if (!*curname)
       return (0);
     curname++;                  /* first char of new name */
   }
 }
 
-
-
+/**
+ */
 void affect_modify(struct char_data * ch, byte loc, sbyte mod, long bitv,
 			bool add, bool harmful)
 {
@@ -109,15 +114,15 @@ void affect_modify(struct char_data * ch, byte loc, sbyte mod, long bitv,
     }
   }
 #endif
-
+  
   if (add) {
     if (harmful == TRUE)
-      SET_BIT(AFF_FLAGS2(ch), bitv);
+      SET_BIT(AFF2_FLAGS(ch), bitv);
     else
       SET_BIT(AFF_FLAGS(ch), bitv);
   } else {
     if (harmful == TRUE)
-      REMOVE_BIT(AFF_FLAGS2(ch), bitv);
+      REMOVE_BIT(AFF2_FLAGS(ch), bitv);
     else
       REMOVE_BIT(AFF_FLAGS(ch), bitv);
     mod = -mod;
@@ -307,8 +312,6 @@ void affect_modify(struct char_data * ch, byte loc, sbyte mod, long bitv,
   } /* switch */
 }
 
-
-
 /* This updates a character by subtracting everything he is affected by */
 /* restoring original abilities, and then affecting all again           */
 void affect_total(struct char_data * ch)
@@ -355,21 +358,17 @@ void affect_total(struct char_data * ch)
   if (GET_STR(ch) == 18)
     GET_ADD(ch) = MIN(number(1, 100), 100);
 
- /* Added for TD to make sure that the races ALWAYS have their spec abils */
- if (((GET_RACE(ch)==RACE_DARGONAE) || (GET_RACE(ch)==RACE_GNOME) || \
-       (GET_RACE(ch)==RACE_ATHASIANAE) || (GET_RACE(ch)==RACE_ZAKHAR) || \
-       (GET_RACE(ch)==RACE_RADINAE) || (GET_RACE(ch)==RACE_TARMIRNAE) || \
-       (GET_RACE(ch)==RACE_SESSANATHI)) && !IS_AFFECTED(ch, AFF_INFRAVISION))
-     SET_BIT(ch->char_specials.saved.affected_by, AFF_INFRAVISION);
-
- if (((GET_RACE(ch)==RACE_BYTERIAN) || (GET_RACE(ch)==RACE_KINTHALAS)) && \
-    !IS_AFFECTED(ch, AFF_SENSE_LIFE))
+  /* Added for TD to make sure that the races ALWAYS have their spec abils */
+  if ( !IS_NPC( ch ) && RACE_HAS_INFRA( ch ) && !IS_AFFECTED(ch, AFF_INFRAVISION) )
+    SET_BIT(ch->char_specials.saved.affected_by, AFF_INFRAVISION);
+  
+  if ( !IS_NPC( ch ) && IS_MINOTAUR( ch ) && !IS_AFFECTED(ch, AFF_SENSE_LIFE) )
     SET_BIT(ch->char_specials.saved.affected_by, AFF_SENSE_LIFE);
-
- if ((GET_LEVEL(ch) >= 5) && IS_SET(PLR_FLAGS(ch), PLR_NEWBIE))
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_NEWBIE);
- if ((GET_POS(ch) == POS_FLYING) && (!IS_AFFECTED(ch, AFF_FLYING)))
-   GET_POS(ch) = POS_STANDING;
+  
+  if ( !IS_NPC( ch ) && (GET_LEVEL(ch) >= 5) && IS_SET(PLR_FLAGS(ch), PLR_NEWBIE))
+    REMOVE_BIT(PLR_FLAGS(ch), PLR_NEWBIE);
+  if ( !IS_NPC( ch ) && (GET_POS(ch) == POS_FLYING) && (!IS_AFFECTED(ch, AFF_FLYING)))
+    GET_POS(ch) = POS_STANDING;
 }
 
 
@@ -536,9 +535,9 @@ void char_from_room(struct char_data * ch)
 /* place a character in a room */
 void char_to_room(struct char_data * ch, long room)
 {
-  if (!ch || room < 0 || room > top_of_world)
+  if (!ch || room < 0 || room > top_of_world) {
     log("SYSERR: Illegal value(s) passed to char_to_room");
-  else {
+  } else {
     ch->next_in_room = world[room].people;
     world[room].people = ch;
     ch->in_room = room;
@@ -642,7 +641,6 @@ int apply_ac(struct char_data * ch, int eq_pos)
 }
 
 
-
 void equip_char(struct char_data * ch, struct obj_data * obj, int pos)
 {
   int j;
@@ -665,16 +663,13 @@ void equip_char(struct char_data * ch, struct obj_data * obj, int pos)
   }
   if ((IS_OBJ_STAT(obj, ITEM_ANTI_EVIL) && IS_EVIL(ch)) ||
       (IS_OBJ_STAT(obj, ITEM_ANTI_GOOD) && IS_GOOD(ch)) ||
-      (IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch))
-#if 0
-||  invalid_race(ch, obj)
-#endif
-	) {
-      act("You are zapped by $p and instantly let go of it.", FALSE, ch, obj, 0, TO_CHAR);
-      act("$n is zapped by $p and instantly lets go of it.", FALSE, ch, obj, 0, TO_ROOM);
-      obj_to_char(obj, ch);     /* changed to drop in inventory instead of
-				 * ground */
-      return;
+      (IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(ch))) {
+    //    || invalid_race(ch, obj)) {
+    act("You are zapped by $p and instantly let go of it.", FALSE, ch, obj, 0, TO_CHAR);
+    act("$n is zapped by $p and instantly lets go of it.", FALSE, ch, obj, 0, TO_ROOM);
+    obj_to_char(obj, ch);     /* changed to drop in inventory instead of
+                               * ground */
+    return;
   }
 
   GET_EQ(ch, pos) = obj;
@@ -781,7 +776,7 @@ int get_number(char **name)
     strcpy(*name, ppos);
 
     for (i = 0; *(number + i); i++)
-      if (!isdigit(*(number + i)))
+      if (!isdigit((int)*(number + i)))
 	return 0;
 
     return (atoi(number));
@@ -870,9 +865,9 @@ struct char_data *get_char_num(long nr)
 /* put an object in a room */
 void obj_to_room(struct obj_data * object, long room)
 {
-  if (!object || room < 0 || room > top_of_world)
+  if (!object || room < 0 || room > top_of_world) {
     log("SYSERR: Illegal value(s) passed to obj_to_room");
-  else {
+  } else {
     object->next_content = world[room].contents;
     world[room].contents = object;
     object->in_room = room;
@@ -1037,8 +1032,6 @@ void update_char_objects(struct char_data * ch)
     update_object(ch->carrying, 1);
 }
 
-
-
 /* Extract a ch completely from the world, and leave his stuff behind */
 void extract_char(struct char_data * ch)
 {
@@ -1049,15 +1042,15 @@ void extract_char(struct char_data * ch)
 
   extern struct char_data *combat_list;
 
+  assert( ch != NULL );
+  assert( ch->in_room != NOWHERE );
+
   if (!IS_NPC(ch) && !ch->desc) {
     for (t_desc = descriptor_list; t_desc; t_desc = t_desc->next)
       if (t_desc->original == ch)
 	do_return(t_desc->character, "", 0, 0);
   }
-  if (ch->in_room == NOWHERE) {
-    log("SYSERR: NOWHERE extracting char. (handler.c, extract_char)");
-    exit(1);
-  }
+
   if (ch->followers || ch->master)
     die_follower(ch);
 
@@ -1074,6 +1067,7 @@ void extract_char(struct char_data * ch)
       ch->desc->snoop_by = NULL;
     }
   }
+
   /* transfer objects to room, if any */
   while (ch->carrying) {
     obj = ch->carrying;
@@ -1113,23 +1107,26 @@ void extract_char(struct char_data * ch)
     free_char(ch);
     freed = 1;
   }
+
+  if (!freed) {
 #if 0
-  if (GET_FATE_PTS(ch) <= 0 && !IS_IMMORT(ch)) {
-     SET_BIT(PLR_FLAGS(ch), PLR_DELETED);
-     SEND_TO_Q("Your luck has run out, may you rest in eternal peace.\r\n", ch->desc);
-     if (ch->desc)
-       STATE(ch->desc) = CON_CLOSE;
-  } else
+    if (GET_FATE_PTS(ch) <= 0 && !IS_IMMORT(ch)) {
+      SET_BIT(PLR_FLAGS(ch), PLR_DELETED);
+      SEND_TO_Q("Your luck has run out, may you rest in eternal peace.\r\n", ch->desc);
+      if (ch->desc)
+	STATE(ch->desc) = CON_CLOSE;
+    } else
 #endif
-  if (ch->desc) {
-    STATE(ch->desc) = CON_MENU;
-    if (GET_ANSI(ch->desc) == TRUE)
-      SEND_TO_Q(ANSI_MENU, ch->desc);
-    else
-      SEND_TO_Q(MENU, ch->desc);
-  } else {  /* if a player gets purged from within the game */
-    if (!freed)
+    if (ch->desc) {
+      STATE(ch->desc) = CON_MENU;
+      if (GET_ANSI(ch->desc) == TRUE)
+	SEND_TO_Q(ANSI_MENU, ch->desc);
+      else
+	SEND_TO_Q(MENU, ch->desc);
+    } else {  
+      /* if a player gets purged from within the game */
       free_char(ch);
+    }
   }
 }
 

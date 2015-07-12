@@ -294,7 +294,7 @@ int Board_display_msg(int board_type, struct char_data * ch, char *arg)
     return 0;
   if (isname(number, "board bulletin")) /* so "read board" works */
     return (Board_show_board(board_type, ch, arg));
-  if (!isdigit(*number) || (!(msg = atoi(number))))
+  if (!isdigit((int)*number) || (!(msg = atoi(number))))
     return 0;
 
   if (GET_LEVEL(ch) < READ_LVL(board_type)) {
@@ -346,7 +346,7 @@ int Board_remove_msg(int board_type, struct char_data * ch, char *arg)
 
   one_argument(arg, number);
 
-  if (!*number || !isdigit(*number))
+  if (!*number || !isdigit((int)*number))
     return 0;
   if (!(msg = atoi(number)))
     return (0);

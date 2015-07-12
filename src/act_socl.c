@@ -54,7 +54,7 @@ struct social_messg {
   /* The victim turned out to be the character */
   char *char_auto;
   char *others_auto;
-}           *soc_mess_list = NULL;
+} * soc_mess_list = NULL;
 
 
 
@@ -123,9 +123,7 @@ ACMD(do_action)
       act(action->char_found, 0, ch, 0, vict, TO_CHAR | TO_SLEEP);
       act(action->others_found, action->hide, ch, 0, vict, TO_NOTVICT);
       act(action->vict_found, action->hide, ch, 0, vict, TO_VICT);
-#if 0
       mprog_wordlist_check(action->vict_found, vict, ch, NULL, NULL, ACT_PROG);       
-#endif
     }
   }
 }
@@ -189,7 +187,7 @@ char *fread_action(FILE * fl, int nr)
 
   fgets(buf, MAX_STRING_LENGTH, fl);
   if (feof(fl)) {
-    fprintf(stderr, "fread_action - unexpected EOF near action #%d", nr);
+    plog( "fread_action - unexpected EOF near action #%d", nr);
     exit(1);
   }
   if (*buf == '#')
@@ -209,6 +207,7 @@ void boot_social_messages(void)
   int nr, i, hide, min_pos, curr_soc = -1;
   char next_soc[100];
   struct social_messg temp;
+  extern struct command_info cmd_info[];
 
   /* open social file */
   if (!(fl = fopen(SOCMESS_FILE, "r"))) {
@@ -233,12 +232,14 @@ void boot_social_messages(void)
       log(buf);
     }
     if (fscanf(fl, " %d %d \n", &hide, &min_pos) != 2) {
-      fprintf(stderr, "Format error in social file near social '%s'\n",
-	      next_soc);
+      plog( "Format error in social file near social '%s'\n",
+            next_soc);
       exit(1);
     }
+    
     /* read the stuff */
     curr_soc++;
+    assert( curr_soc < list_top + 1 );
     soc_mess_list[curr_soc].act_nr = nr;
     soc_mess_list[curr_soc].hide = hide;
     soc_mess_list[curr_soc].min_victim_position = min_pos;

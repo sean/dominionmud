@@ -63,9 +63,9 @@ E 1 10522 1 1 100 			* And equip it with a ring of pitch-black metal. (Max: 1)
 E 1 10523 1 3 100 			* And equip it with a cloak of the purest black. (Max: 1)
 G 1 10528 1  100 			* And give it a pitch-black key. (Max: 1)
 M 0 10515 1 10599 100 	* the Keeper of the Shrine of Vice at Shrine to Vice. (Max: 1)
-E 1 10525 10 17 100 			* And equip it with a cat o' nine tails. (Max: 10)
+E 1 10525 1 17 100 			* And equip it with a cat o' nine tails. (Max: 1)
 M 0 10517 1 10565 100 	* a torturer at Torture Chambre. (Max: 1)
-E 1 10525 10 17 100 			* And equip it with a cat o' nine tails. (Max: 10)
+E 1 10525 1 17 100 			* And equip it with a cat o' nine tails. (Max: 1)
 G 1 10536 3  100 			* And give it a shining blue potion. (Max: 3)
 G 1 10535 10  100 			* And give it a glowing red potion. (Max: 10)
 M 0 10518 20 10566 100 	* an interrogator at Screening Room. (Max: 20)
@@ -99,8 +99,8 @@ E 1 10540 20 3 100 			* And equip it with a cloak. (Max: 20)
 G 1 10535 10  100 			* And give it a glowing red potion. (Max: 10)
 O 0 10533 1 10567 100 	* a tiny key at Outlay. (Max: 1)
 D 0 10538 2 2 100 		* Lock and Close Southern door at Trail of Terror
-D 0 10548 0 2 100 		* Lock and Close Northern door at Trophy Room
-D 0 10547 2 2 100 		* Lock and Close Southern door at Gargoyle Room
+* D 0 10548 0 2 100 		* Lock and Close Northern door at Trophy Room
+* D 0 10547 2 2 100 		* Lock and Close Southern door at Gargoyle Room
 D 0 10548 2 4 100 		* Close Upper door at Trophy Room
 D 0 10549 0 4 100 		* Close Northern door at Dressing Room
 D 0 10552 0 2 100 		* Lock and Close Northern door at Cell

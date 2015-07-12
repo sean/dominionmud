@@ -1160,12 +1160,14 @@ abdnpqr abdrt 0 E
 42 0 3 100d1000+84 0d0+0
 1000 2687500
 8 8 0
-Str: 25
-Dex: 23
-Int: 25
-Wis: 22
-Con: 22
-Cha: 25
+BareHandAttack: 3
+Str: 14
+Dex: 14
+Int: 13
+Wis: 14
+Con: 14
+Height: 96
+Weight: 144
 E
 #5701
 unfinished mob~

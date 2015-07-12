@@ -1,8 +1,8 @@
->rand_prog 10~
+>rand_prog 5~
   say So much to do...so little time...
   sigh
 ~
->rand_prog 10~
+>rand_prog 3~
   say Now where in the Heavens is that damned servant?
   mpecho The commissioner begins to fret and swear about his tardy servant.
 ~
@@ -62,7 +62,7 @@
      say And in return for your deed here is this:
      give 90 coin $n
      mpecho $I closes and locks the safe.
-     mpjunk wood dark darkblue-blue blue
+     mpjunk wood dark dark-blue blue
 ~
 >give_prog gem emerald~
      say Perfect!
@@ -95,9 +95,9 @@
      say For this you will be rewarded well.
      give 10000 coin $n
      say Thank you again for ridding us of that horrible beast.
-     mpat 1 drop scale
+     mpjunk scale green
 ~
->rand_prog 10~
+>rand_prog 1~
      if level($n) = 9
        say By the way, I have a SPECIAL quest if you are worthy enough.
      endif

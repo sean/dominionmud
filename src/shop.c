@@ -91,11 +91,12 @@ int is_open(struct char_data * keeper, int shop_nr, int msg)
   *buf = 0;
   if (SHOP_OPEN1(shop_nr) > time_info.hours)
     strcpy(buf, MSG_NOT_OPEN_YET);
-  else if (SHOP_CLOSE1(shop_nr) < time_info.hours)
+  else if (SHOP_CLOSE1(shop_nr) < time_info.hours) {
     if (SHOP_OPEN2(shop_nr) > time_info.hours)
       strcpy(buf, MSG_NOT_REOPEN_YET);
     else if (SHOP_CLOSE2(shop_nr) < time_info.hours)
       strcpy(buf, MSG_CLOSED_FOR_DAY);
+  }
 
   if (!(*buf))
     return (TRUE);
@@ -176,12 +177,12 @@ int evaluate_expression(struct obj_data * obj, char *expr)
   ops.len = vals.len = 0;
   ptr = expr;
   while (*ptr) {
-    if (isspace(*ptr))
+    if (isspace((int)*ptr))
       ptr++;
     else {
       if ((temp = find_oper_num(*ptr)) == NOTHING) {
 	end = ptr;
-	while (*ptr && !isspace(*ptr) && (find_oper_num(*ptr) == NOTHING))
+	while (*ptr && !isspace((int)*ptr) && (find_oper_num(*ptr) == NOTHING))
 	  ptr++;
 	strncpy(name, end, ptr - end);
 	name[ptr - end] = 0;
@@ -229,14 +230,17 @@ int trade_with(struct obj_data * item, int shop_nr)
   if (IS_OBJ_STAT(item, ITEM_NOSELL))
     return (OBJECT_NOTOK);
 
-  for (counter = 0; SHOP_BUYTYPE(shop_nr, counter) != NOTHING; counter++)
-    if (SHOP_BUYTYPE(shop_nr, counter) == GET_OBJ_TYPE(item))
+  for (counter = 0; SHOP_BUYTYPE(shop_nr, counter) != NOTHING;
+       counter++) {
+    if (SHOP_BUYTYPE(shop_nr, counter) == GET_OBJ_TYPE(item)) {
       if ((GET_OBJ_VAL(item, 2) == 0) &&
 	  ((GET_OBJ_TYPE(item) == ITEM_WAND) ||
 	   (GET_OBJ_TYPE(item) == ITEM_STAFF)))
 	return (OBJECT_DEAD);
       else if (evaluate_expression(item, SHOP_BUYWORD(shop_nr, counter)))
 	return (OBJECT_OK);
+    }
+  }
 
   return (OBJECT_NOTOK);
 }
@@ -793,12 +797,12 @@ void shopping_list(char *arg, struct char_data * ch,
 	}
       }
   index++;
-  if (!last_obj)
+  if (!last_obj) {
     if (*name)
       strcpy(buf, "Presently, none of those are for sale.\n\r");
     else
       strcpy(buf, "Currently, there is nothing for sale.\n\r");
-  else if (!(*name) || isname(name, last_obj->name))
+  } else if (!(*name) || isname(name, last_obj->name))
     strcat(buf, list_object(last_obj, cnt, index, shop_nr));
 
   page_string(ch->desc, buf, 1);
@@ -891,7 +895,7 @@ int ok_damage_shopkeeper(struct char_data * ch, struct char_data * victim)
 
 int add_to_list(struct shop_buy_data * list, int type, int *len, int *val)
 {
-  if (*val >= 0)
+  if (*val >= 0) {
     if (*len < MAX_SHOP_OBJ) {
       if (type == LIST_PRODUCE)
 	*val = real_object(*val);
@@ -903,6 +907,7 @@ int add_to_list(struct shop_buy_data * list, int type, int *len, int *val)
       return (FALSE);
     } else
       return (TRUE);
+  }
   return (FALSE);
 }
 
@@ -970,14 +975,14 @@ int read_type_list(FILE * shop_f, struct shop_buy_data * list,
     ptr = buf;
     if (num == NOTHING) {
       sscanf(buf, "%d", &num);
-      while (!isdigit(*ptr))
+      while (!isdigit((int)*ptr))
 	ptr++;
-      while (isdigit(*ptr))
+      while (isdigit((int)*ptr))
 	ptr++;
     }
-    while (isspace(*ptr))
+    while (isspace((int)*ptr))
       ptr++;
-    while (isspace(*(END_OF(ptr) - 1)))
+    while (isspace((int)*(END_OF(ptr) - 1)))
       *(END_OF(ptr) - 1) = 0;
     error += add_to_list(list, LIST_TRADE, &len, &num);
     if (*ptr)
@@ -1083,16 +1088,17 @@ char *customer_string(int shop_nr, int detailed)
   static char buf[256];
 
   *buf = 0;
-  for (index = 0; *trade_letters[index] != '\n'; index++, cnt *= 2)
-    if (!(SHOP_TRADE_WITH(shop_nr) & cnt))
+  for (index = 0; *trade_letters[index] != '\n'; index++, cnt *= 2) {
+    if (!(SHOP_TRADE_WITH(shop_nr) & cnt)) {
       if (detailed) {
 	if (*buf)
 	  strcat(buf, ", ");
 	strcat(buf, trade_letters[index]);
       } else
 	sprintf(END_OF(buf), "%c", *trade_letters[index]);
-    else if (!detailed)
+    } else if (!detailed)
       strcat(buf, "_");
+  }
 
   return (buf);
 }

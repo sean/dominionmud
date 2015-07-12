@@ -2,16 +2,47 @@
                     T  H  E    D  O  M  I  N  I  O  N
 
 
-The Dominion is based on Jeremy Elson's CircleMUD 3.0, who developed 
-CirclemUD from DikuMUD (Gamma 0.0) at Johns Hopkins Unversity's 
-Department of Computer Science.  All code unique to CircleMUD is 
-protected under a copyright by the Trustees of the Johns Hopkins University.
+The Dominion is based on Jeremy Elson's CircleMUD 3.0, see below for
+more information.  The Dominion modifications were developed by Sean
+"Glasgian" Mountcastle, Kevin "Kirahn" Huff and John "Grendel" Olvey.
 
-CircleMUD is available for anonymous FTP at ftp.cs.jhu.edu in pub/CircleMUD.
-Its author can be contacted at jelson@cs.jhu.edu.
+The Dominion is freely available and can be downloaded from
+SourceForge at http://www.sourceforge.net/projects/dominionmud/
+
+Its authors can be contacted at smountca@yahoo.com, huffk@sainc.com
+and infiniti@firebasealpha.com.
+
+Type HELP DOMINION for more information.
+
+And many thanks to the contributors of The Dominion:
+- The Creators of SillyMUD, especially John Brothers.
+- Kahn, Hatchet, and Fury of Merc - for getting me started on building MUDs.
+- Brutius of SneezyMUD for ideas, help, and inspiration.
+- Aladdin of Eternity DikuMUD 2.0 for help with object affects.
+- Aramina and Exile of HOLOmud for ideas, and a great MUD to play.
+- Kith of EnvyMUD, IP, HexOnyx, etc., for all the new socials.
+- Kahar of SniperMUD for his help fixing mob scripts.
+- Romulus of Phoenix MUD for some code and text menus.
+
+============================================================================
+
+		C  I  R  C  L  E  M  U  D     3  .  0
+
+
+CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+Johns Hopkins University's Department of Computer Science.  All code unique
+to CircleMUD is protected under a copyright by the Trustees of the Johns
+Hopkins University.
+
+CircleMUD is freeware and can be downloaded via anonymous FTP from
+ftp.circlemud.org or ftp2.circlemud.org in pub/CircleMUD.  Its author can
+be contacted at jelson@circlemud.org.
 
 Type HELP CIRCLEMUD for more information.
+
 ============================================================================
+
+
 
                    Original game idea, concept, and design:
 
@@ -27,14 +58,3 @@ Stephan Dahl.
 
 Originally developed at:
   DIKU - The Department of Computer Science at the University of Copenhagen.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Many thanks to those contributors of The Dominion:
-
-- The Creators of SillyMUD, especially John Brothers.
-- Brutius of SneezyMUD for ideas, help, and inspiration.
-- Aladdin of Eternity DikuMUD 2.0 for help with object affects.
-- Aramina and Exile of HOLOmud for ideas, and a great MUD to play.
-- Kith of EnvyMUD, IP, HexOnyx, etc., for all the new socials.
-- Kahn, Hatchet, and Fury of Merc - for getting me started on building MUDs.
-- Kahar of SniperMUD for his help fixing mob scripts.
-- Romulus of Phoenix MUD for some code and text menus.

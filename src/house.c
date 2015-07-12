@@ -441,14 +441,14 @@ void hcontrol_destroy_house(struct char_data * ch, char *arg)
     send_to_char("Unknown house.\r\n", ch);
     return;
   }
-  if ((real_atrium = real_room(house_control[i].atrium)) < 0)
+  if ((real_atrium = real_room(house_control[i].atrium)) < 0) {
     log("SYSERR: House had invalid atrium!");
-  else
+  } else
     REMOVE_BIT(ROOM_FLAGS(real_atrium), ROOM_ATRIUM);
 
-  if ((real_house = real_room(house_control[i].vnum)) < 0)
+  if ((real_house = real_room(house_control[i].vnum)) < 0) {
     log("SYSERR: House had invalid vnum!");
-  else
+  } else
     REMOVE_BIT(ROOM_FLAGS(real_house),
 	       ROOM_HOUSE | ROOM_PRIVATE | ROOM_HOUSE_CRASH);
 

@@ -8,11 +8,6 @@
 *  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
 ************************************************************************ */
 
-#ifndef __SYSDEP_H__
-#define __SYSDEP_H__
-
-/* Configurables: */
-
 /*
  * CircleMUD uses the crypt(3) function to encrypt player passwords in the
  * playerfile so that they are never stored in plaintext form.  However,
@@ -76,50 +71,6 @@
  */
 
 /* #define NO_LIBRARY_PROTOTYPES */
-
-/**************************************************************************/
-
-/*
- * If using the GNU C library, version 2+, then you can have it trace
- * memory allocations to check for leaks, uninitialized uses, and bogus
- * free() calls.  To see if your version supports it, run:
- *
- *      info libc 'Allocation Debugging' 'Tracing malloc'
- *
- * Example usage (Bourne shell):
- *
- *      MALLOC_TRACE=/tmp/circle-trace bin/circle
- *
- * After it finishes:
- *
- *      mtrace bin/circle /tmp/circle-trace
- *
- * (Stock CircleMUD produces a file approximately 1.5 megabytes in size
- * just running in Syntax Check mode.)
- *
- * NOTE: The GNU C library version 2.1.3 leaks a tiny bit of memory
- *	by itself. You will see something similar to:
- *
- *	- 0000000000 Free 36910 was never alloc'd /lib/libcrypt.so.1:(fcrypt+0x883)[0x4001b9ef]
- *
- *	Memory not freed:
- *	-----------------
- *	   Address     Size     Caller
- *	0x080ca830      0xf  at /lib/libc.so.6:(__strdup+0x29)[0x400a6a09]
- *	0x080ca848      0xc  at /lib/libc.so.6:(adjtime+0x25c)[0x400d127c]
- *	0x080ca858      0xc  at /lib/libc.so.6:(adjtime+0x25c)[0x400d127c]
- *	0x080ca868      0xc  at /lib/libc.so.6:(adjtime+0x25c)[0x400d127c]
- *
- * But with GNU C library version 2.2.4:
- *
- *	No memory leaks.
- *
- * Read the entire "Allocation Debugging" section of the GNU C library
- * documentation before setting this to '1'.
- */
-
-#define CIRCLE_GNU_LIBC_MEMORY_TRACK	0	/* 0 = off, 1 = on */
-
 
 /************************************************************************/
 /*** Do not change anything below this line *****************************/
@@ -225,6 +176,8 @@ extern void abort (), exit ();
 
 #ifdef HAVE_CRYPT_H
 #include <crypt.h>
+/*#else
+  #include <mcrypt.h>*/
 #endif
 
 #ifdef TIME_WITH_SYS_TIME
@@ -320,44 +273,16 @@ struct in_addr {
 
 /* Basic system dependencies *******************************************/
 
-#if CIRCLE_GNU_LIBC_MEMORY_TRACK && !defined(HAVE_MCHECK_H)
-#error "Cannot use GNU C library memory tracking without <mcheck.h>"
-#endif
-
-/* strcasecmp -> stricmp -> str_cmp */
-#if defined(HAVE_STRCASECMP)
-# define str_cmp strcasecmp
-#elif defined(HAVE_STRICMP)
-# define str_cmp stricmp
-#endif
-
-/* strncasecmp -> strnicmp -> strn_cmp */
-#if defined(HAVE_STRNCASECMP)
-# define strn_cmp strncasecmp
-#elif defined(HAVE_STRNICMP)
-# define strn_cmp strnicmp
-#endif
-
 #if !defined(__GNUC__)
-# define __attribute__(x)	/* nothing */
+#define __attribute__(x)	/* nothing */
 #endif
 
-#if defined(__MWERKS__)
-# define isascii(c)	(((c) & ~0x7f) == 0)	/* So easy to have, but ... */
-#endif
-
-/* Socket/header miscellany. */
-
+/* Define the type of a socket and other miscellany */
 #if defined(CIRCLE_WINDOWS)	/* Definitions for Win32 */
-
-# define snprintf _snprintf
-# define vsnprintf _vsnprintf
-# define PATH_MAX MAX_PATH
 
 # if !defined(__BORLANDC__) && !defined(LCC_WIN32)	/* MSVC */
 #  define chdir _chdir
 #  pragma warning(disable:4761)		/* Integral size mismatch. */
-#  pragma warning(disable:4244)		/* Possible loss of data. */
 # endif
 
 # if defined(__BORLANDC__)	/* Silence warnings we don't care about. */
@@ -374,29 +299,20 @@ struct in_addr {
 #  define FD_SETSIZE		1024
 # endif
 
-#elif defined(CIRCLE_VMS)
+  typedef SOCKET socket_t;
+# define CLOSE_SOCKET(sock)	closesocket(sock)
 
-/*
- * Necessary Definitions For DEC C With DEC C Sockets Under OpenVMS.
- */
-# if defined(DECC)
-#  include <stdio.h>
-#  include <time.h>
-#  include <stropts.h>
-#  include <unixio.h>
+# if defined(__MWERKS__)
+#  define isascii(c)	(((c) & ~0x7f) == 0)	/* So easy to have, but ... */
 # endif
 
-#elif !defined(CIRCLE_MACINTOSH) && !defined(CIRCLE_UNIX) && !defined(CIRCLE_ACORN)
-# error "You forgot to include conf.h or do not have a valid system define."
-#endif
-
-/* SOCKET -- must be after the winsock.h #include. */
-#ifdef CIRCLE_WINDOWS
-# define CLOSE_SOCKET(sock)	closesocket(sock)
-  typedef SOCKET		socket_t;
-#else
+/* Definitions for UNIX, Macintosh, or Acorn, until they differ... */
+#elif defined(CIRCLE_UNIX) || defined(CIRCLE_MACINTOSH) || defined(CIRCLE_ACORN)
+  typedef int socket_t;
 # define CLOSE_SOCKET(sock)	close(sock)
-  typedef int			socket_t;
+
+#else
+# error You forgot to include conf.h or do not have a valid system define.
 #endif
 
 #if defined(__cplusplus)	/* C++ */
@@ -424,9 +340,6 @@ struct in_addr {
 #define STDOUT_FILENO 1
 #endif
 
-#if !defined(HAVE_SNPRINTF) || !defined(HAVE_VSNPRINTF)
-# include "bsd-snprintf.h"
-#endif
 
 /* Function prototypes ************************************************/
 
@@ -552,16 +465,8 @@ struct in_addr {
    int sscanf(const char *s, const char *format, ...);
 #endif
 
-#ifdef NEED_STRDUP_PROTO
-   char *strdup(const char *txt);
-#endif
-
 #ifdef NEED_STRERROR_PROTO
    char *strerror(int errnum);
-#endif
-
-#ifdef NEED_STRLCPY_PROTO
-   size_t strlcpy(char *dest, const char *src, size_t copylen);
 #endif
 
 #ifdef NEED_SYSTEM_PROTO
@@ -696,4 +601,4 @@ struct in_addr {
 
 #endif /* NO_LIBRARY_PROTOTYPES */
 
-#endif /* __SYSDEP_H__ */
+

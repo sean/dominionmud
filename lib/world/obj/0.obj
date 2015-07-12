@@ -573,13 +573,21 @@ a longbow~
 A beautifully crafted longbow of polished oak is here.~
 ~
 6 g am
-10 5 5 11 0 0 0 20 14
+1 1 1 53 0 0 0 20 14
 13 10 10
 A
 18 2
 A
 19 2
 #53
+arrow~
+an arrow~
+A beautifully crafted arrow with feather fletching has been left here.~
+~
+7 g am
+1 1 2 3 0 0 0 0 0
+1 1 1
+#54
 cloak shadow~
 the Cloak of Shadows~
 A shadowy, dark piece of cloth lies here on the floor.~
@@ -593,7 +601,7 @@ A
 23 5
 A
 2 1
-#54
+#55
 leggings dark leather black~
 some black, leather leggings~
 A pair a leggings suited for the woods lie here.~
@@ -601,7 +609,7 @@ A pair a leggings suited for the woods lie here.~
 9 g af
 20 0 0 0 0 0 0 8 14
 2 20000 500
-#55
+#56
 boot black leather~
 a soft leather boot~
 A soft, black leather boot lies here.~

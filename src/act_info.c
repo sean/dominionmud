@@ -24,9 +24,11 @@ extern struct room_data *world;
 extern struct descriptor_data *descriptor_list;
 extern struct char_data *character_list;
 extern struct obj_data *object_list;
+extern struct command_info cmd_info[];
 /* New for TD 5/24/95 - Orig 3/16/95 */
-extern char *pc_race_types[];
-extern char *pc_religion_types[];
+extern struct race_data *races;
+extern struct religion_data *religions;
+extern int NUM_RACES;
 extern struct material_type const material_list[];
 
 extern char *credits;
@@ -47,10 +49,12 @@ extern char *connected_types[];
 extern char *room_bits[];
 extern char *spells[];
 /* TD 5/24/95 */
-extern char *race_abbrev[];
 long find_race_bitvector(char arg);
 int  exp_needed(int level);
 char *show_obj_condition(struct obj_data *obj);
+const char * align_to_name( enum aligns align );
+bool align_out_of_sync( struct char_data * ch );
+const char * relg_name( struct char_data * ch );
 ACMD(do_infobar);
 ACMD(do_action);
 
@@ -66,9 +70,14 @@ void show_obj_to_char(struct obj_data * object, struct char_data * ch, int mode)
   else if (object->short_description && ((mode == 1) || (mode == 2) ||
 	    (mode == 3) || (mode == 4))) {
       if (mode == 1)
-	 sprintf(buf, "%-30.30s", object->short_description);
-      else
-	 sprintf(buf, "%-40.40s", object->short_description);
+        sprintf(buf, "%-30.30s", object->short_description);
+      else {
+        if (GET_LEVEL(ch) >= LVL_GOD)
+          sprintf(buf, "%-35.35s (%6ld)",
+                  object->short_description, object->item_number);
+        else
+          sprintf(buf, "%-40.40s", object->short_description);
+      }
       /* get the condition of the object */
       sprintf(buf, "%s\t%s", buf, show_obj_condition(object));
   } else if (mode == 5) {
@@ -80,6 +89,19 @@ void show_obj_to_char(struct obj_data * object, struct char_data * ch, int mode)
       } else
 	act("It's blank.", FALSE, ch, 0, 0, TO_CHAR);
       return;
+    } else if (GET_OBJ_TYPE(object) == ITEM_FIREWEAPON) {
+      // let the viewer know if it is loaded or not
+      if (GET_OBJ_VAL(object, 3) != -1) {
+        long r_num = real_object(GET_OBJ_VAL(object, 3));
+        if ( r_num >= 0 ) {
+          struct obj_data * obj = read_object(r_num, REAL);
+          char * objName = obj->short_description;
+          sprintf(buf, "It appears to be loaded with %s.",
+                  objName);
+        }
+      } else {
+          str_cpy(buf, "It is not loaded.");
+      }
 #if 0
     } else if (GET_OBJ_TYPE(object) != ITEM_DRINKCON) {
       str_cpy(buf, "You see nothing special..");
@@ -181,7 +203,9 @@ char *show_obj_condition(struct obj_data *obj)
 
 
 
-void list_obj_to_char(struct obj_data * list, struct char_data * ch, int mode, bool show)
+void list_obj_to_char(struct obj_data * list,
+                      struct char_data * ch,
+                      int mode, bool show)
 {
   struct obj_data *i, *vis_obj = NULL;
   bool found;
@@ -305,8 +329,12 @@ void look_at_char(struct char_data * i, struct char_data * ch)
     /* TD 5/24/95 */
     sprintf(look_race_buf, "%s ", temp_buf);
     if (!IS_IMMORT(i)) {
-      sprinttype(i->player.race, pc_race_types, temp_buf);
-      sprintf(look_race_buf, "%s%s %s", look_race_buf, AN(temp_buf), temp_buf);
+      if ( i->player.race < NUM_RACES )
+        sprintf(look_race_buf, "%s%s %s", look_race_buf,
+                AN( races[ i->player.race ].name ),
+                races[ i->player.race ].name );
+      else /* If the race isn't set properly use this ... */
+        strcat( look_race_buf, "peculiar" );
     } else sprintf(look_race_buf, "%san Immortal", look_race_buf);
     strcat(look_race_buf, ".\r\n");
     send_to_char(look_race_buf, ch);
@@ -979,6 +1007,102 @@ ACMD(do_scan)
     }
 }
 
+/* score helper functions */
+const char * str_map( struct char_data * ch )
+{
+  if ( GET_STR(ch) < 5 )
+    return "are a weakling";
+  else if ( GET_STR(ch) < 10 )
+    return "are of average build";
+  else if ( GET_STR(ch) < 15 )
+    return "have the strength of many men";
+  else if ( GET_STR(ch) < 20 )
+    return "are as strong as an ox";
+  else if ( GET_STR(ch) < 25 )
+    return "have the strength of a giant";
+  else
+    return "have the strength of 10,000 giants";
+}
+
+const char * dex_map( struct char_data * ch )
+{
+  if ( GET_DEX(ch) < 5 )
+    return "are a bungling fool";
+  else if ( GET_DEX(ch) < 10 )
+    return "are of average dextrousness";
+  else if ( GET_DEX(ch) < 15 )
+    return "are extremely adroit";
+  else if ( GET_DEX(ch) < 20 )
+    return "are amazingly agile";
+  else if ( GET_DEX(ch) < 25 )
+    return "have uncanny reflexes";
+  else
+    return "are blindingly quick";
+}
+
+const char * con_map( struct char_data * ch )
+{
+  if ( GET_CON(ch) < 5 )
+    return "are ridiculously effete";
+  else if ( GET_CON(ch) < 10 )
+    return "are of average fortitude";
+  else if ( GET_CON(ch) < 15 )
+    return "are quite hardy";
+  else if ( GET_CON(ch) < 20 )
+    return "are full of vim and vigor";
+  else if ( GET_CON(ch) < 25 )
+    return "have an amazing amount of stamina";
+  else
+    return "have the fortitude of 10,000 giants";
+}
+
+const char * int_map( struct char_data * ch )
+{
+  if ( GET_INT(ch) < 5 )
+    return "are dumb as a post";
+  else if ( GET_INT(ch) < 10 )
+    return "are of average intellect";
+  else if ( GET_INT(ch) < 15 )
+    return "are quick to learn";
+  else if ( GET_INT(ch) < 20 )
+    return "are amazingly shrewd";
+  else if ( GET_INT(ch) < 25 )
+    return "are spectacularly sagacious";
+  else
+    return "have the intellect of the gods";
+}
+
+const char * wis_map( struct char_data * ch )
+{
+  if ( GET_WIS(ch) < 5 )
+    return "have no common sense";
+  else if ( GET_WIS(ch) < 10 )
+    return "have an average intuition";
+  else if ( GET_WIS(ch) < 15 )
+    return "have more than your fair share of common sense";
+  else if ( GET_WIS(ch) < 20 )
+    return "have great insight";
+  else if ( GET_WIS(ch) < 25 )
+    return "have an amazing capability for intuition";
+  else
+    return "are incredibly intuitive";
+}
+
+const char * cha_map( struct char_data * ch )
+{
+  if ( GET_CHA(ch) < 5 )
+    return "are extremely ugly";
+  else if ( GET_CHA(ch) < 10 )
+    return "are of average appearance";
+  else if ( GET_CHA(ch) < 15 )
+    return "have an amazing personality";
+  else if ( GET_CHA(ch) < 20 )
+    return "are strikingly good looking";
+  else if ( GET_CHA(ch) < 25 )
+    return "have an almost animal magnetism";
+  else
+    return "are as comely as the gods";
+}
 
 ACMD(do_score)
 {
@@ -1019,17 +1143,30 @@ ACMD(do_score)
 	       CCNRM(ch, C_SPR));
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
-  sprintf(buf, "%s%sAttributes: Str: %s%d/%d%s%s, Int: %s%d%s%s, Wis: "
-	"%s%d%s%s, Dex: %s%d%s%s, Con: %s%d%s%s, Cha: %s%d%s%s, Will: "
-	"%s%d%s%s.%s\r\n",
-	  buf, CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_STR(ch), GET_ADD(ch),
-	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_INT(ch),
-	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_WIS(ch),
-	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_DEX(ch),
-	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_CON(ch),
-	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_CHA(ch),
-	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_WILL(ch),
-	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCNRM(ch, C_SPR));
+    sprintf(buf, "%s%sAttributes: Str: %s%d/%d%s%s, Int: %s%d%s%s, Wis: "
+	    "%s%d%s%s, Dex: %s%d%s%s, Con: %s%d%s%s, Cha: %s%d%s%s, Will: "
+	    "%s%d%s%s.%s\r\n",
+	    buf, CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_STR(ch), GET_ADD(ch),
+	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_INT(ch),
+	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_WIS(ch),
+	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_DEX(ch),
+	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_CON(ch),
+	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_CHA(ch),
+	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_WILL(ch),
+	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCNRM(ch, C_SPR));
+  } else {
+    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+	    str_map( ch ), CCNRM(ch, C_SPR));
+    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+	    dex_map( ch ), CCNRM(ch, C_SPR));
+    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+	    con_map( ch ), CCNRM(ch, C_SPR));
+    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+	    int_map( ch ), CCNRM(ch, C_SPR));
+    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+	    wis_map( ch ), CCNRM(ch, C_SPR));
+    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+	    cha_map( ch ), CCNRM(ch, C_SPR));
   }
 #if 0
   sprintf(buf, "%s%sYour armor ratings are: %sHead %3d%%, Body %3d%%, Shield %3d%%\r\n",
@@ -1039,15 +1176,20 @@ ACMD(do_score)
 	  buf, GET_AC(ch, ARMOR_ARM_R), GET_AC(ch, ARMOR_ARM_L),
 	       GET_AC(ch, ARMOR_LEG_R), GET_AC(ch, ARMOR_LEG_L), CCNRM(ch, C_SPR));
 #endif
+  // alignment
   sprintf(buf, "%s%sYou are of %s%s%s%s alignment", buf, CCMAG(ch, C_SPR),
-	       CCBMG(ch, C_SPR), (IS_EVIL(ch) ? "evil" : IS_GOOD(ch) ? "good" : "neutral"),
+	       CCBMG(ch, C_SPR), align_to_name( GET_PERMALIGN(ch) ),
 	       CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
-  if (((GET_PERMALIGN(ch) == ALIGN_EVIL) && (!IS_EVIL(ch))) || \
-      ((GET_PERMALIGN(ch) == ALIGN_GOOD) && (!IS_GOOD(ch))) || \
-      ((GET_PERMALIGN(ch) == ALIGN_NEUT) && (IS_EVIL(ch) || IS_GOOD(ch))))
-     sprintf(buf, "%s, but your soul is in turmoil.\r\n", buf);
+  if ( align_out_of_sync( ch ) )
+    sprintf(buf, "%s, but your soul is in turmoil.\r\n", buf);
   else
-     strcat(buf, ".\r\n");
+    strcat(buf, ".\r\n");
+
+  // religion
+  if ( HAS_RELIGION( ch ) )
+    sprintf( buf, "%s%sYou are a believer in the faith of %s%s%s.\r\n",
+             buf, CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), relg_name(ch),
+             CCMAG(ch, C_SPR) );
 
   sprintf(buf, "%sYou have scored %s%ld%s%s exp", buf,
 	       CCBMG(ch, C_SPR), GET_EXP(ch), CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
@@ -1079,9 +1221,9 @@ ACMD(do_score)
      sprintf(buf, "%sThis ranks you as %s%s the level %d ",
 	     buf, CCYEL(ch, C_SPR), GET_NAME(ch), GET_LEVEL(ch));
      if (GET_MAX_LEVEL(ch) < LVL_IMMORT)
-	sprinttype(ch->player.race, pc_race_types, temp_buf);
+       sprintf( temp_buf, "%s", races[ GET_RACE(ch) ].name );
      else
-	str_cpy(temp_buf, "Immortal");
+       str_cpy(temp_buf, "Immortal");
      sprintf(buf, "%s%s%s%s.\r\n", buf, temp_buf, 
 	     CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
 
@@ -1547,7 +1689,7 @@ ACMD(do_who)
 
   while (*buf) {
     half_chop(buf, arg, buf1);
-    if (isdigit(*arg) && (GET_LEVEL(ch) >= LVL_IMMORT)) {
+    if (isdigit((int)*arg) && (GET_LEVEL(ch) >= LVL_IMMORT)) {
       sscanf(arg, "%d-%d", &low, &high);
       str_cpy(buf, buf1);
     } else if (*arg == '-') {
@@ -1612,10 +1754,7 @@ ACMD(do_who)
 		   "-------------------------------\r\n", ch);
 
   for (d = descriptor_list; d; d = d->next) {
-    
-    if ((d->connected) && !(d->connected == CON_OEDIT ||
-	 d->connected == CON_REDIT || d->connected == CON_MEDIT ||
-	 d->connected == CON_ZEDIT || d->connected == CON_SEDIT))
+    if ((d->connected) && !(d->connected == CON_EDITTING))
       continue;
 
     if (d->original)
@@ -1680,11 +1819,7 @@ ACMD(do_who)
 	strcat(buf, " (writing)");
 
       if (tch->desc != NULL &&
-	  ((STATE(tch->desc) == CON_ZEDIT) ||
-	  (STATE(tch->desc) == CON_REDIT) ||
-	  (STATE(tch->desc) == CON_MEDIT) ||
-	  (STATE(tch->desc) == CON_OEDIT) ||
-	  (STATE(tch->desc) == CON_SEDIT)))
+	  ((STATE(tch->desc) == CON_EDITTING)))
 	strcat(buf, " (editing)");
       if (PRF_FLAGGED(tch, PRF_DEAF))
 	strcat(buf, " (deaf)");
@@ -1783,9 +1918,7 @@ ACMD(do_users)
       continue;
     if (!d->connected && deadweight)
       continue;
-    if ((!d->connected) || (d->connected == CON_OEDIT ||
-	 d->connected == CON_REDIT || d->connected == CON_MEDIT ||
-	 d->connected == CON_ZEDIT || d->connected == CON_SEDIT)) {
+    if ((!d->connected) || (d->connected == CON_EDITTING)) {
       if (d->original)
 	tch = d->original;
       else if (!(tch = d->character))
@@ -2065,6 +2198,7 @@ ACMD(do_levels)
 ACMD(do_evaluate)
 {
   struct obj_data *obj;
+  long condition, tenth;
   extern char *item_types[];
 
   if (GET_SKILL(ch, SKILL_EVALUATE) < 1)
@@ -2079,62 +2213,47 @@ ACMD(do_evaluate)
 
   act("You study $p.", TRUE, ch, obj, NULL, TO_CHAR);
   act("$n examines $p carefully.", TRUE, ch, obj, NULL, TO_ROOM);
-    sprinttype(GET_OBJ_TYPE(obj), item_types, buf2);
-    sprintf(buf, "%s appears to be %s ", obj->short_description,
-            XANA(buf2));
-    strcat(buf, buf2);
-    strcat(buf, "\r\n");
+  sprinttype(GET_OBJ_TYPE(obj), item_types, buf2);
+  sprintf(buf, "%s appears to be %s ", obj->short_description,
+          XANA(buf2));
+  strcat(buf, buf2);
+  strcat(buf, "\r\n");
+  send_to_char(buf, ch);
+  
+  sprintf(buf, "%s weighs %dlbs., approximate value is %d gold.\r\n",
+          obj->short_description, GET_OBJ_WEIGHT(obj), 
+          (int)(GET_OBJ_COST(obj)*0.025f));
+  send_to_char(buf, ch);
+  
+  switch (GET_OBJ_TYPE(obj)) {
+  case ITEM_MISSILE:
+  case ITEM_WEAPON:
+    sprintf(buf, "The weapon's damage is approximately %.1f.\r\n", 
+            (((GET_OBJ_VAL(obj, 2) + 1) / 2.0) * GET_OBJ_VAL(obj, 1)));
     send_to_char(buf, ch);
-
-    sprintf(buf, "%s weighs %dlbs., approximate value is %d gold.\r\n",
-	    obj->short_description, GET_OBJ_WEIGHT(obj), 
-	    (int)(GET_OBJ_COST(obj)*0.025f));
+    break;
+  case ITEM_ARMOR:
+    sprintf(buf, "The armor will absorb %ld%% of the damage you receive\r\n",
+            GET_OBJ_VAL(obj, 0));
     send_to_char(buf, ch);
-
-    switch (GET_OBJ_TYPE(obj)) {
-    case ITEM_MISSILE:
-    case ITEM_WEAPON:
-      sprintf(buf, "The weapon's damage is approximately %.1f.\r\n", 
-	      (((GET_OBJ_VAL(obj, 2) + 1) / 2.0) * GET_OBJ_VAL(obj, 1)));
-      send_to_char(buf, ch);
-      break;
-    case ITEM_ARMOR:
-      sprintf(buf, "The armor will absorb %ld%% of the damage you receive\r\n",
-       GET_OBJ_VAL(obj, 0));
-      send_to_char(buf, ch);
-      break;
-    }
-    sprintf(buf, "%s appears to be constructed from %s.\r\n",
-	        obj->short_description,
-		material_list[GET_OBJ_VAL(obj, 7)].name);
-    send_to_char(buf, ch);
-#if 0
-    condition = GET_OBJ_VAL(obj, 9);
-    tenth = (material_list[GET_OBJ_VAL(obj, 7)].sturdiness / 10);
-
-    if ((GET_OBJ_TYPE(obj) != ITEM_FOOD) &&
-        (GET_OBJ_TYPE(obj) != ITEM_LIGHT)) {
-     if (material_list[GET_OBJ_VAL(obj, 7)].sturdiness == -1)
-	sprintf(buf, "The item is in perfect condition.\r\n");
-     else if (condition < (tenth * 1))
-	return (conditions[0]);
-     else if (condition < (tenth * 2))
-	return (conditions[1]);
-     else if (condition < (tenth * 4))
-	return (conditions[2]);
-     else if (condition < (tenth * 6))
-	return (conditions[3]);
-     else if (condition < (tenth * 7))
-	return (conditions[4]);
-     else if (condition < (tenth * 8))
-	return (conditions[5]);
-     else if (condition < (tenth * 9))
-	return (conditions[6]);
-     else
-	sprintf(buf, "The item is beyond all hope, throw the shit away!\r\n");
+    break;
+  }
+  sprintf(buf, "%s appears to be constructed from %s.\r\n",
+          obj->short_description,
+          material_list[GET_OBJ_VAL(obj, 7)].name);
+  send_to_char(buf, ch);
+  condition = GET_OBJ_VAL(obj, 9);
+  tenth = (material_list[GET_OBJ_VAL(obj, 7)].sturdiness / 10);
+  
+  if ((GET_OBJ_TYPE(obj) != ITEM_FOOD) &&
+      (GET_OBJ_TYPE(obj) != ITEM_LIGHT)) {
+    if (material_list[GET_OBJ_VAL(obj, 7)].sturdiness == -1)
+      sprintf(buf, "The item is in perfect condition.\r\n");
+    else
+      sprintf( buf, "The item is in %s condition.\r\n",
+               show_obj_condition( obj ) );
   }
   send_to_char(buf, ch);
-#endif
 }
 
 /* This needs to be redone based on the skills 'know <race>' */
@@ -2372,22 +2491,25 @@ void sort_commands(void)
 }
 
 
-
 ACMD(do_commands)
 {
   int no, i, cmd_num;
   int wizhelp = 0, socials = 0;
   struct char_data *vict;
+  char * prefix = 0;
 
   one_argument(argument, arg);
 
   if (*arg) {
     if (!(vict = get_char_vis(ch, arg)) || IS_NPC(vict)) {
-      send_to_char("Who is that?\r\n", ch);
-      return;
+      vict = NULL;
+      // check if the user just wants to see a list of commands that
+      // begin with a prefix
+      prefix = arg;
     }
-    if (GET_LEVEL(ch) < GET_LEVEL(vict)) {
-      send_to_char("You can't see the commands of people above your level.\r\n", ch);
+    if (vict != NULL && GET_LEVEL(ch) < GET_LEVEL(vict)) {
+      send_to_char("You can't see the commands of people above your level.\r\n",
+                   ch);
       return;
     }
   } else
@@ -2411,7 +2533,8 @@ ACMD(do_commands)
 	(cmd_info[i].minimum_level >= LVL_IMMORT) == wizhelp &&
 	(wizhelp || socials == cmd_sort_info[i].is_social)) {
       /* Don't print those pesky mp commands */
-      if (!strstr(cmd_info[i].command, "mp")) {
+      if (!strstr(cmd_info[i].command, "mp") ||
+          (prefix != NULL && strstr(cmd_info[i].command, prefix))) {
 	sprintf(buf + strlen(buf), "%-11s", cmd_info[i].command);
 	if (!(no % 7))
 	  strcat(buf, "\r\n");
@@ -2631,6 +2754,7 @@ char *region(int y1, int y2, struct char_data *ch)
 #define EXITS_BRACKET_TAG_POS                   "\e[22;26H"
 #define ROOMDESC_TAG_POS                        "\e[22;29H"
 #define ROOMDESC_BRACKET_TAG_POS                "\e[22;77H"
+#endif
 
 /* bottom values */
 #define HIT_VAL_POS                             "\e[21;8H"
@@ -2638,7 +2762,6 @@ char *region(int y1, int y2, struct char_data *ch)
 #define PIE_VAL_POS                             "\e[21;58H"
 #define EXITS_VAL_POS                           "\e[22;12H"
 #define ROOMDESC_VAL_POS                        "\e[22;39H"
-#endif
 
 /* top tags */
 #define COMBAT_TAG_POS                          "\e[1;1H"
@@ -2690,10 +2813,10 @@ void health_meter(struct char_data *ch, struct char_data *vict)
 
    str_cpy(buf, KGRN);
    for (a = 0; a < b; a++)
-      strcat(buf,"O"); /* ²"); */
+      strcat(buf,"²");
    strcat(buf, KRED);
    for (a = 0; a < (78-b); a++)
-      strcat(buf,"X"); /*°"); */
+      strcat(buf,"°");
    strcat(buf, KNRM);
    sprintf(buf2, "%s[%s]",scrpos(23,1,ch), buf);
    sprintf(buf2, "%s%s", buf2, INPUT_LINE);
@@ -2797,13 +2920,11 @@ ACMD(do_infobar)
        write_to_output(OUTPUT_LINE, ch->desc);
        write_to_output(CURSOR_POS_SAVE, ch->desc);
        sprintf(bigbuf, "%s", INPUT_LINE);
-#if 0
        if (PRF_FLAGGED(ch, PRF_SCOREBAR))
 	 sprintf(bigbuf,"%s", TWO_BAR_SCROLL_REGION);
        else
 	 sprintf(bigbuf,"%s", ONE_BAR_SCROLL_REGION);
        sprintf(bigbuf,"%s%s%s%s",bigbuf,OUTPUT_LINE,CURSOR_POS_SAVE,INPUT_LINE);
-#endif
        write_to_output(bigbuf, ch->desc);
        break;
      case SCMDB_EXITS:
@@ -2889,7 +3010,8 @@ ACMD(do_infobar)
        break;
      case SCMDB_RACE:
        /*  CHECK_SCORE;
-       sprintf(buf2, "%s%s%-16s%s%s", VALUE_COLOR, RACE_VAL_POS, pc_race_types[(int)GET_RACE(ch)], NORMAL_COLOR, INPUT_LINE);
+       sprintf(buf2, "%s%s%-16s%s%s", VALUE_COLOR, RACE_VAL_POS,
+               races[ GET_RACE(ch) ].name, NORMAL_COLOR, INPUT_LINE);
        write_to_output(buf2, ch->desc); */
        ch->infobar.race = GET_RACE(ch);
        break;

@@ -23,6 +23,8 @@ extern struct char_data *character_list;
 extern struct index_data *mob_index;
 extern struct room_data *world;
 extern struct str_app_type str_app[];
+extern struct race_data *races;
+extern int NUM_RACES;
 
 #define MOB_AGGR_TO_ALIGN (MOB_AGGR_EVIL | MOB_AGGR_NEUTRAL | MOB_AGGR_GOOD)
 
@@ -38,14 +40,13 @@ int RemFeared(struct char_data *ch, struct char_data *pud);
 void mprog_random_trigger(struct char_data * mob);
 void mprog_wordlist_check(char *arg, struct char_data * mob, struct char_data * actor,
 			  struct obj_data * obj, void *vo, int type);
-#if 0
 void hunt_victim(struct char_data *hunter);
-#endif
+
 ACMD(do_get);
 
 void mobile_activity(void)
 {
-  register struct char_data *ch, *next_ch, *vict;
+  register struct char_data *ch, *next_ch, *vict, *tmp_ch;
   struct obj_data *obj, *best_obj;
   int door, max, found;
   memory_rec *names;
@@ -87,7 +88,6 @@ void mobile_activity(void)
 	 }
        }
      } /* End of guardian mobs */
-#if 0
      /* hateful and fearing mobiles */
      if (MOB_FLAGGED(ch, MOB_HATEFUL) && (GET_HIT(ch) > (GET_MAX_HIT(ch) >> 1))) {
        if ((tmp_ch = FindAHatee(ch)) != NULL) {
@@ -120,7 +120,6 @@ void mobile_activity(void)
 	 do_flee(ch, "", 0, 0);
        }
      } /* End of fearful mobs */
-#endif
      /* Scavenger (picking up objects) */
      if (MOB_FLAGGED(ch, MOB_SCAVENGER) && !FIGHTING(ch) && AWAKE(ch)) {
        if (world[ch->in_room].contents && !number(0, 10)) {
@@ -208,10 +207,8 @@ void mobile_activity(void)
 	 }
      } /* helper mobs */
      /* Hunter mobs */
-#if 0 
      if (HUNTING(ch))
        hunt_victim(ch);
-#endif
      /* Add new mobile actions here */
   }                             /* end for() */
 }

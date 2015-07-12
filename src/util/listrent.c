@@ -64,7 +64,7 @@ void Crash_listrent(char *fname)
       return;
     }
     if (!feof(fl))
-      sprintf(buf, "%s[%5d] %s\n", buf, object.item_number, fname);
+      sprintf(buf, "%s[%5ld] %s\n", buf, object.item_number, fname);
   }
   printf("%s", buf);
   fclose(fl);

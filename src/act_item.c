@@ -25,7 +25,7 @@ extern struct room_data *world;
 extern char *drinks[];
 extern int drink_aff[][3];
 /* For TD 3/25/95 */
-extern char *pc_religion_types[];
+extern struct race_data * races;
 void break_obj(struct obj_data *o);
 void mprog_give_trigger(struct char_data * mob, struct char_data * ch, struct obj_data * obj);
 void mprog_bribe_trigger(struct char_data * mob, struct char_data * ch, int amount);
@@ -33,6 +33,7 @@ int  check_trigger_trap(struct char_data *vict, void *vo, int trigger_type);
 struct obj_data *find_trap(struct char_data *ch, int trigger);
 int trap_trig(struct obj_data *trap);
 int trap_damage(struct char_data *vict, struct obj_data *trap);
+extern int NUM_RACES;
 ACMD(do_infobar);
 
 void perform_put(struct char_data * ch, struct obj_data * obj, struct obj_data * cont)
@@ -299,9 +300,9 @@ ACMD(do_get)
 	send_to_char("Get from all of what?\r\n", ch);
 	return;
       }
-      for (cont = ch->carrying; cont; cont = cont->next_content)
+      for (cont = ch->carrying; cont; cont = cont->next_content) {
 	if (CAN_SEE_OBJ(ch, cont) &&
-	    (cont_dotmode == FIND_ALL || isname(arg2, cont->name)))
+	    (cont_dotmode == FIND_ALL || isname(arg2, cont->name))) {
 	  if (GET_OBJ_TYPE(cont) == ITEM_CONTAINER) {
 	    found = 1;
 	    get_from_container(ch, cont, arg1, FIND_OBJ_INV);
@@ -309,9 +310,12 @@ ACMD(do_get)
 	    found = 1;
 	    act("$p is not a container.", FALSE, ch, cont, 0, TO_CHAR);
 	  }
-      for (cont = world[ch->in_room].contents; cont; cont = cont->next_content)
+        }
+      }
+      for (cont = world[ch->in_room].contents; cont;
+           cont = cont->next_content) {
 	if (CAN_SEE_OBJ(ch, cont) &&
-	    (cont_dotmode == FIND_ALL || isname(arg2, cont->name)))
+	    (cont_dotmode == FIND_ALL || isname(arg2, cont->name))) {
 	  if (GET_OBJ_TYPE(cont) == ITEM_CONTAINER) {
 	    get_from_container(ch, cont, arg1, FIND_OBJ_ROOM);
 	    found = 1;
@@ -319,6 +323,8 @@ ACMD(do_get)
 	    act("$p is not a container.", FALSE, ch, cont, 0, TO_CHAR);
 	    found = 1;
 	  }
+        }
+      }
       if (!found) {
 	if (cont_dotmode == FIND_ALL)
 	  send_to_char("You can't seem to find any containers.\r\n", ch);
@@ -843,9 +849,9 @@ ACMD(do_drink)
   if (!GET_OBJ_VAL(temp, 1)) {  /* The last bit */
     GET_OBJ_VAL(temp, 2) = 0;
     GET_OBJ_VAL(temp, 3) = 0;
-    #if 0
+#if 0
     name_from_drinkcon(temp);
-    #endif
+#endif
   }
   return;
 }
@@ -1023,9 +1029,9 @@ ACMD(do_pour)
       GET_OBJ_VAL(from_obj, 1) = 0;
       GET_OBJ_VAL(from_obj, 2) = 0;
       GET_OBJ_VAL(from_obj, 3) = 0;
-      #if 0
+#if 0
       name_from_drinkcon(from_obj);
-      #endif
+#endif
       return;
     }
     if (!(to_obj = get_obj_in_list_vis(ch, arg2, ch->carrying))) {
@@ -1061,10 +1067,10 @@ ACMD(do_pour)
     act("$n gently fills $p from $P.", TRUE, ch, to_obj, from_obj, TO_ROOM);
   }
   /* New alias */
-  #if 0
+#if 0
   if (GET_OBJ_VAL(to_obj, 1) == 0)
     name_to_drinkcon(to_obj, GET_OBJ_VAL(from_obj, 2));
-  #endif
+#endif
 
   /* First same type liq. */
   GET_OBJ_VAL(to_obj, 2) = GET_OBJ_VAL(from_obj, 2);
@@ -1081,9 +1087,9 @@ ACMD(do_pour)
     GET_OBJ_VAL(from_obj, 1) = 0;
     GET_OBJ_VAL(from_obj, 2) = 0;
     GET_OBJ_VAL(from_obj, 3) = 0;
-    #if 0
+#if 0
     name_from_drinkcon(from_obj);
-    #endif
+#endif
   }
   /* Then the poison boogie */
   GET_OBJ_VAL(to_obj, 3) =
@@ -1244,7 +1250,7 @@ void scrap_obj(struct obj_data *obj, struct char_data *ch, int mode)
 
 void perform_wear(struct char_data * ch, struct obj_data * obj, int where)
 {
-  /* int i; */
+  int i;
   /*
    * ITEM_WEAR_TAKE is used for objects that do not require special bits
    * to be put into that position (e.g. you can hold any object, not just
@@ -1303,11 +1309,11 @@ void perform_wear(struct char_data * ch, struct obj_data * obj, int where)
     send_to_char(already_wearing[where], ch);
     return;
   }
-#if 0
+
   /* added so that there are sizes to equipment - TD 3/14/96 */
   if ((i = right_size(ch, obj)) != 1)
     scrap_obj(obj, ch, i);
-#endif
+
   wear_message(ch, obj, where);
   obj_from_char(obj);
   equip_char(ch, obj, where);
@@ -1556,7 +1562,6 @@ ACMD(do_remove)
   }
 }
 
-#if 0
 ACMD(do_poison_weapon)
 {
   struct obj_data *obj;
@@ -1612,7 +1617,7 @@ ACMD(do_poison_weapon)
     mag_affects(dice(10, 5), ch, ch, SPELL_POISON, 0);
   }
 }
-#endif
+
 /* to load ranged weapons */
 ACMD(do_load)
 {

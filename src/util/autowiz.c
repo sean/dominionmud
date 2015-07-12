@@ -111,7 +111,7 @@ void add_name(byte level, char *name)
     return;
 
   for (ptr = name; *ptr; ptr++)
-    if (!isalpha(*ptr))
+    if (!isalpha((int)*ptr))
       return;
 
   tmp = (struct name_rec *) malloc(sizeof(struct name_rec));

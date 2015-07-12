@@ -17,9 +17,11 @@
 #include "sysdep.h"
 
 #include "structs.h"
+#include "utils.h"
+#include "db.h"
 
 const char circlemud_version[] = {
-"The Dominion, v1.02 based on CircleMUD, version 3.00 beta patchlevel 10\r\n"};
+"The Dominion, v1.03 based on CircleMUD, version 3.00 beta patchlevel 10\r\n"};
 
 
 /* strings corresponding to ordinals/bitvectors in structs.h ***********/
@@ -474,7 +476,6 @@ const char *wear_bits[] = {
   "\n"
 };
 
-
 /* item size bits */
 const char *item_size_bits[] = {
   "TINY",
@@ -717,234 +718,165 @@ const char *fullness[] =
 
 
 /* str, int, wis, dex, con applies **************************************/
+#define MAX_ATTRIB_RANK 26
 
+struct str_app_type   str_app[ MAX_ATTRIB_RANK ];
+struct dex_skill_type dex_app_skill[ MAX_ATTRIB_RANK ];
+struct dex_app_type   dex_app[ MAX_ATTRIB_RANK ];
+struct con_app_type   con_app[ MAX_ATTRIB_RANK ];
+struct int_app_type   int_app[ MAX_ATTRIB_RANK ];
+struct wis_app_type   wis_app[ MAX_ATTRIB_RANK ];
+struct cha_app_type   cha_app[ MAX_ATTRIB_RANK ];
 
-/* [ch] strength apply (all) */
-const struct str_app_type str_app[] = {
-  {-5, -4, 0, 0},         /* str 0 */
-  {-5, -4, 3, 1},         /* str 1 */
-  {-3, -2, 3, 2},
-  {-3, -1, 10, 3},
-  {-2, -1, 25, 4},
-  {-2, -1, 55, 5},        /* 5 */
-  {-1, 0, 80, 6},
-  {-1, 0, 90, 7},
-  {0, 0, 100, 8},
-  {0, 0, 100, 9},
-  {0, 0, 115, 10},        /* 10 */
-  {0, 0, 115, 11},
-  {0, 0, 140, 12},
-  {0, 0, 140, 13},
-  {0, 0, 170, 14},
-  {0, 0, 170, 15},        /* 15 */
-  {0, 1, 195, 16},
-  {1, 1, 220, 18},
-  {1, 2, 255, 20},        /* 18 */
-  {3, 7, 640, 40},
-  {3, 8, 700, 40},        /* 20 */
-  {4, 9, 810, 40},
-  {4, 10, 970, 40},
-  {5, 11, 1130, 40},
-  {6, 12, 1440, 40},
-  {7, 14, 1750, 40},
-  {1, 3, 280, 22},
-  {2, 3, 305, 24},
-  {2, 4, 330, 26},
-  {7, 14, 1750, 40},            /* str = 25 */
-  {3, 6, 480, 30},              /* 18/0  - 18/50 */
-  {3, 6, 480, 30},              /* 18/51 - 18/75 */
-  {3, 6, 480, 30},              /* 18/76 - 18/90 */
-  {3, 6, 580, 30},              /* 18/91 - 18/99 */
-  {3, 7, 680, 32}               /* 18/100 */
+enum AttributeType {
+  STR,
+  DEX,
+  CON,
+  INT,
+  WIS,
+  CHA
 };
 
+int nameToAttribute( const char * s )
+{
+  if ( !strcmp( "Str", s ) )
+    return STR;
+  if ( !strcmp( "Dex", s ) )
+    return DEX;
+  if ( !strcmp( "Con", s ) )
+    return CON;
+  if ( !strcmp( "Int", s ) )
+    return INT;
+  if ( !strcmp( "Wis", s ) )
+    return WIS;
+  if ( !strcmp( "Cha", s ) )
+    return CHA;
+  return -1;
+}
 
+void parse_attributes( void )
+{
+  int index = 0, i;
+  FILE * fl = 0;
 
-/* [dex] skill apply (thieves only) */
-const struct dex_skill_type dex_app_skill[] = {
-   {-99, -99, -90, -99, -60},   /* dex = 0 */
-   {-90, -90, -60, -90, -50},   /* dex = 1 */
-   {-80, -80, -40, -80, -45},
-   {-70, -70, -30, -70, -40},
-   {-60, -60, -30, -60, -35},
-   {-50, -50, -20, -50, -30},   /* dex = 5 */
-   {-40, -40, -20, -40, -25},
-   {-30, -30, -15, -30, -20},
-   {-20, -20, -15, -20, -15},
-   {-15, -10, -10, -20, -10},
-   {-10, -5, -10, -15, -5},     /* dex = 10 */
-   {-5, 0, -5, -10, 0},
-   {0, 0, 0, -5, 0},
-   {0, 0, 0, 0, 0},
-   {0, 0, 0, 0, 0},
-   {0, 0, 0, 0, 0},             /* dex = 15 */
-   {0, 5, 0, 0, 0},
-   {5, 10, 0, 5, 5},
-   {10, 15, 5, 10, 10},         /* dex = 18 */
-   {15, 20, 10, 15, 15},
-   {15, 20, 10, 15, 15},                /* dex = 20 */
-   {20, 25, 10, 15, 20},
-   {20, 25, 15, 20, 20},
-   {25, 25, 15, 20, 20},
-   {25, 30, 15, 25, 25},
-   {25, 30, 15, 25, 25}         /* dex = 25 */
-};
+  if ( !(fl = fopen( ATTR_FILE, "r" ) ) ) {
+    plog( "parse_attributes: unable to open file (%s).\n",
+         ATTR_FILE );
+    exit( 1 );
+  }
 
+  log( "Loading attributes ..." );
+  
+  while ( !feof( fl ) ) {
+    char p[ 256 ], * tmp;
+    fgets( p, 256, fl );
 
-/* [dex] apply (all) */
-struct dex_app_type dex_app[] = {
-   {-7, -7, 0},         /* dex = 0 */
-   {-6, -6, 2},         /* dex = 1 */
-   {-4, -4, 4},
-   {-3, -3, 6},
-   {-2, -2, 8},
-   {-1, -1, 10},        /* dex = 5 */
-   {0, 0, 15},
-   {0, 0, 20},
-   {0, 0, 25},
-   {0, 0, 30},
-   {0, 0, 35},           /* dex = 10 */
-   {0, 0, 40},
-   {0, 0, 45},
-   {0, 0, 50},
-   {0, 0, 55},
-   {0, 0, 60},          /* dex = 15 */
-   {1, 1, 65},
-   {2, 2, 70},
-   {2, 2, 80},          /* dex = 18 */
-   {3, 3, 85},
-   {3, 3, 90},          /* dex = 20 */
-   {4, 4, 95},
-   {4, 4, 100},
-   {4, 4, 105},
-   {5, 5, 110},
-   {5, 5, 115}          /* dex = 25 */
-};
+    /* skip comments & blank lines */
+    if ( p[0] == '#' || isspace( p[0] ) )
+      continue;
 
+    /* EOF marker ... doesn't really need to be there */
+    if ( p[0] == '$' )
+      break;
 
-/* [con] apply (all) */
-struct con_app_type con_app[] = {
-   {-4, 20},            /* con = 0 */
-   {-3, 25},            /* con = 1 */
-   {-2, 30},
-   {-2, 35},
-   {-1, 40},
-   {-1, 45},            /* con = 5 */
-   {-1, 50},
-   {0, 55},
-   {0, 60},
-   {0, 65},
-   {0, 70},             /* con = 10 */
-   {0, 75},
-   {0, 80},
-   {0, 85},
-   {0, 88},
-   {1, 90},             /* con = 15 */
-   {2, 95},
-   {2, 97},
-   {3, 99},             /* con = 18 */
-   {3, 99},
-   {4, 99},             /* con = 20 */
-   {5, 99},
-   {5, 99},
-   {5, 99},
-   {6, 99},
-   {6, 100}             /* con = 25 */
-};
+    /* should be the start of a record, search for the tilde */
+    tmp = strstr( p, "~" );
+    if ( tmp != NULL )
+      p[ strlen( p ) - strlen( tmp ) ] = '\0';
+    else {
+      plog( "Junk in %s, '%s'\n", ATTR_FILE, p );
+      exit( 1 );
+    }
+    
+    switch ( nameToAttribute( p ) ) {
+    case STR:
+      for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
+        int tohit, todam, carry_w, wield_w;
+        fscanf( fl, "%d %d, %d, %d, %d",
+                &index, &tohit, &todam,
+                &carry_w, &wield_w );
+        // these should be in lock-step
+        assert( index == i );
+        str_app[ index ].tohit = tohit;
+        str_app[ index ].todam = todam;
+        str_app[ index ].carry_w = carry_w;
+        str_app[ index ].wield_w = wield_w;
+        fread_to_eol( fl );
+      }
+      break;
+    case DEX:
+      for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
+        int p_pocket, p_locks, traps, sneak, hide, react, miss, def;
+        fscanf( fl, "%d %d, %d, %d, %d, %d, %d, %d, %d",
+                &index, &p_pocket, &p_locks, &traps, &sneak, &hide,
+                &react, &miss, &def );
+        // these should be in lock-step
+        assert( index == i );
+        dex_app_skill[ index ].p_pocket = p_pocket;
+        dex_app_skill[ index ].p_locks  = p_locks;
+        dex_app_skill[ index ].traps    = traps;
+        dex_app_skill[ index ].sneak    = sneak;
+        dex_app_skill[ index ].hide     = hide;
+        dex_app[ index ].reaction  = react;
+        dex_app[ index ].miss_att  = miss;
+        dex_app[ index ].defensive = def;
+        fread_to_eol( fl );
+      }
+      break;
+    case CON:
+      for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
+        int hitp, shock;
+        fscanf( fl, "%d %d, %d",
+                &index, &hitp, &shock );
+        // these should be in lock-step
+        assert( index == i );
+        con_app[ index ].hitp  = hitp;
+        con_app[ index ].shock = shock;
+        fread_to_eol( fl );
+      }
+      break;
+    case INT:
+      for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
+        int learn;
+        fscanf( fl, "%d %d",
+                &index, &learn );
+        // these should be in lock-step
+        assert( index == i );
+        int_app[ index ].learn = (byte)learn;
+        fread_to_eol( fl );
+      }
+      break;
+    case WIS:
+      for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
+        int bonus;
+        fscanf( fl, "%d %d",
+                &index, &bonus );
+        // these should be in lock-step
+        assert( index == i );
+        wis_app[ index ].bonus = (byte)bonus;
+        fread_to_eol( fl );
+      }
+      break;
+    case CHA:
+      for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
+        int num_fols;
+        fscanf( fl, "%d %d",
+                &index, &num_fols );
+        // these should be in lock-step
+        assert( index == i );
+        cha_app[ index ].num_fols = (byte)num_fols;
+        fread_to_eol( fl );
+      }
+      break;
+    default:
+      plog( "Unknown attribute type: %s\n", p );
+      exit( 1 );
+      break;
+    }
+  }
+}
 
-
-/* [int] apply (all) */
-struct int_app_type int_app[] = {
-   {3},         /* int = 0 */
-   {5},         /* int = 1 */
-   {7},
-   {8},
-   {9},
-   {10},                /* int = 5 */
-   {11},
-   {12},
-   {13},
-   {15},
-   {17},                /* int = 10 */
-   {19},
-   {22},
-   {25},
-   {30},
-   {35},                /* int = 15 */
-   {40},
-   {45},
-   {50},                /* int = 18 */
-   {53},
-   {55},                /* int = 20 */
-   {56},
-   {57},
-   {58},
-   {59},
-   {60}         /* int = 25 */
-};
-
-
-/* [wis] apply (all) */
-struct wis_app_type wis_app[] = {
-   {0}, /* wis = 0 */
-   {0},  /* wis = 1 */
-   {0},
-   {0},
-   {0},
-   {0},  /* wis = 5 */
-   {0},
-   {0},
-   {0},
-   {0},
-   {0},  /* wis = 10 */
-   {0},
-   {2},
-   {2},
-   {3},
-   {3},  /* wis = 15 */
-   {3},
-   {4},
-   {5}, /* wis = 18 */
-   {6},
-   {6},  /* wis = 20 */
-   {6},
-   {6},
-   {7},
-   {7},
-   {7}  /* wis = 25 */
-};
-
-/* [cha] apply (all) */
-struct cha_app_type cha_app[] = {
-  {0},
-  {0},                          /* 1 */
-  {0},
-  {0},
-  {1},
-  {1},                          /* 5 */
-  {2},
-  {2},
-  {3},
-  {3},
-  {4},                          /* 10 */
-  {4},
-  {5},
-  {5},
-  {5},
-  {6},                          /* 15 */
-  {6},
-  {6},
-  {6},
-  {6},
-  {6},                          /* 20 */
-  {7},
-  {8},
-  {9},
-  {10},
-  {15}                          /* 25 */
-};
-
-
+/** Spell wear off messages */
 const char *spell_wear_off_msg[] = {
   "RESERVED DB.C",              /* 0 */
   "RESERVED DB.C",              /* 1 */
@@ -1278,7 +1210,8 @@ char *   const  color_list[] = {
     "mauve",              /* 15 */
     "brown",
     "tan",
-    "grey"
+    "grey",
+    "indigo"
 };
 
 struct material_type const material_list[] = {
@@ -1308,7 +1241,6 @@ struct material_type const material_list[] = {
 };
 
 
-#if 0
 /*
  * Coin information
  */
@@ -1320,8 +1252,6 @@ const struct coin_type coin_table[MAX_COIN] =
    {  10,      10,   1, "silver",     "sp"  },
    {  10,       1,   1, "copper",     "cp"  }
 };
-
-#endif
 
 char *locations[] = {
      "head",             /* 0 */

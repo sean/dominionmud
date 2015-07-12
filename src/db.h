@@ -11,7 +11,7 @@
 *                 All modifications by Sean Mountcastle (Glasgian)        *
 \*********************************************************************** */
 
-#define OLD_HELP 1               /* use old style helps */
+//#define OLD_HELP 1               /* use old style helps */
 
 #ifndef __DB_H__
 #define __DB_H__
@@ -65,14 +65,29 @@
 #define MAIL_FILE       "etc/plrmail"   /* for the mudmail system       */
 #define BAN_FILE        "etc/badsites"  /* for the siteban system       */
 #define HCONTROL_FILE   "etc/hcontrol"  /* for the house system         */
-#define GUILD_FILE      "etc/guilds"    /* for the guild database       */
+#define TIME_FILE       "etc/mudtime"   /* for the MUD time             */
+
+#define EXP_FILE        "data/exp_table"  /* for the exp table           */
+#define ATTR_FILE       "data/attributes" /* for the attribute table     */                                              
+#define RACE_FILE       "data/races"      /* for the races               */
+#define RELIGION_FILE   "data/religions"  /* for the religions           */
+#define GUILD_FILE      "data/guilds"     /* for the guild database      */
+#define SPELL_FILE      "data/spells"     /* for the skills/spells       */
+
+#define PLAYER_DIR      "players"
+#define NULL_FILE       "/dev/null"
+
+#define EXE_FILE        "bin/dominion"   /* maybe use argv[0] not reliable */
 
 /* public procedures in db.c */
 void    boot_db(void);
 int     create_entry(char *name);
 void    zone_update(void);
 long    real_room(long virt);
-char    *fread_string(FILE *fl, const char *error);
+char    *fread_string(FILE *fl, char *error);
+void    fread_to_eol( FILE * fl );
+long    fread_long( FILE * fl );
+int     fread_number( FILE * fl );
 long    get_id_by_name(char *name);
 char    *get_name_by_id(long id);
 

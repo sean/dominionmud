@@ -421,25 +421,16 @@ d 0 0 S
 1 1
 8 8 0
 #35035
-Syrus~
-~
-
+mob~
+unfinished mob~
+An unfinished mob stands here.
 ~
 You are looking at a featureless, unfinished mob.
 ~
-abdnopqr abdfhkprt 0 E
-30 67 71 15d60+60 7d29+65
-0 0
-8 8 1
-Str: 18
-Dex: 19
-Int: 17
-Wis: 17
-Con: 18
-Cha: 19
-Race: 8
-Height: 80
-E
+d 0 0 S
+1 1 10 1d1+1 1d1+1
+1 1
+8 8 0
 #35036
 mob~
 unfinished mob~

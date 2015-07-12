@@ -35,7 +35,7 @@ D 0 5665 0 1 100 		* Close Northern door at Naz'ol's hidden general store
 D 0 5661 2 1 100 		* Close Eastern door at Euc'lid Avenue
 M 0 5664 1 5664 100 	* an old salesman at Naz'ol's hidden Armory. (Max: 1)
 D 0 5664 2 1 100 		* Close Eastern door at Naz'ol's hidden Armory
-D 0 5664 1 1 100 		* Close Eastern door at Naz'ol's hidden Armory
+* D 0 5664 1 1 100 		* Close Eastern door at Naz'ol's hidden Armory
 G 1 5665 10  100 			* And give it a glowing pouch. (Max: 10)
 G 1 5666 10  100 			* And give it a Chree'zen battle headress. (Max: 10)
 G 1 5667 10  100 			* And give it a Chree'zen gauntlet. (Max: 10)

@@ -24,10 +24,12 @@ extern struct room_data *world;
 extern struct descriptor_data *descriptor_list;
 extern struct char_data *character_list;
 /* New for TD 5/24/95 */
-extern char *pc_religion_types[];
+extern struct race_data * races;
+extern struct religion_data * religions;
 extern void mprog_speech_trigger(char *txt, struct char_data *mob);
 extern int  top_of_p_table;
 extern struct player_index_element *player_table;
+extern int NUM_RACES;
 
 char *RandomWord(void)
 {

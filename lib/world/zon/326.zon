@@ -10,7 +10,7 @@ ALL~
 *
 M 0 32604 12 32672 100 	* a small, grey fox at Deep in the Golden Forest. (Max: 12)
 M 0 3101 1 32672 100 	* the craw wyrm at Deep in the Golden Forest. (Max: 1)
-G 1 3104 1  100 			* And give it a green scale. (Max: 1)
+* G 1 3104 1  100 			* And give it a green scale. (Max: 1)
 M 0 32604 20 32649 100 	* a small, grey fox at Pelarinne Road. (Max: 20)
 D 0 32649 5 1 100 		* Close Eastern door at Pelarinne Road
 M 0 32607 6 32635 100 	* a silver falcon at Turn in the trail. (Max: 6)

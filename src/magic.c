@@ -46,18 +46,15 @@ void add_follower(struct char_data * ch, struct char_data * leader);
 int  dice(int number, int size);
 extern struct spell_info_type spell_info[];
 
-
 struct char_data *read_mobile(long, int);
-
 
 /*
  * Saving throws for:
  * HuHaDwGnDrMiCeQuSiKaKeVaWe 13 (DraAniUndGiaHumGulDem)
  *   PARA, ROD, PETRI, BREATH, SPELL, COLD, FIRE, ACID, ELEC
  *     Levels 0-50
- * For The Dominon by Glasgian
+ * For The Dominon by Glasgian, needs fixing
  */
-
 byte saving_throws(struct char_data *ch, int save)
 {
    switch (save) {
@@ -107,7 +104,7 @@ void heat_blind(struct char_data *ch)
 
    tmp = number(1, 6);
 
-   if (AFF_FLAGGED2(ch, AFF_BLIND))
+   if (AFF2_FLAGGED(ch, AFF_BLIND))
      return;                     /* no affect */
 
    if ((IS_DARK(ch->in_room)) && (GET_LEVEL(ch) < LVL_IMMORT) &&

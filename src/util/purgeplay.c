@@ -40,7 +40,7 @@ void purge(char *filename)
     *reason = '\0';
 
     for (ptr = player.name; *ptr; ptr++)
-      if (!isalpha(*ptr) || *ptr == ' ') {
+      if (!isalpha((int)*ptr) || *ptr == ' ') {
 	okay = 0;
 	strcpy(reason, "Invalid name");
       }

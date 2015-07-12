@@ -25,11 +25,12 @@ extern int max_exp_gain;
 extern int max_exp_loss;
 /* TD - SPM */
 static char make_title_buf[128];
-extern char *pc_race_types[];
+extern struct race_data *races;
 int    exp_needed(int level);
 extern int regen_gain[];
 ACMD(do_infobar);
 int has_mail(long recip);
+extern int NUM_RACES;
 
 /*
  * The hit_limit, mana_limit, and move_limit functions are gone.  They
@@ -57,7 +58,7 @@ int mana_gain(struct char_data * ch)
     /* Position calculations    */
     switch (GET_POS(ch)) {
     case POS_MEDITATING:
-      gain <<= 3;                /* x8 */
+      gain <<= 4;                /* x16 */
       break;
     case POS_SLEEPING:
       gain <<= 1;                /* x2 */
@@ -188,10 +189,11 @@ int move_gain(struct char_data * ch)
 
 void set_title(struct char_data * ch, char *title)
 {
+  extern struct race_data * races;
+  
   if (title == NULL) {
-    strcpy(make_title_buf, "the ");
-    sprinttype(ch->player.race, pc_race_types, buf);
-    strcat(make_title_buf, buf);
+    sprintf( make_title_buf, "the %s",
+             races[ GET_RACE( ch ) ].name );
     title = str_dup(make_title_buf);
   }
 
@@ -298,6 +300,9 @@ void gain_condition(struct char_data * ch, int condition, int value)
 {
   bool intoxicated;
 
+  /* TEMPORARYILY DISABLE CONDITIONS */
+  GET_COND( ch, condition ) = -1;
+  
   if (GET_COND(ch, condition) == -1)    /* No change */
     return;
 
@@ -344,7 +349,7 @@ void check_idling(struct char_data * ch)
   extern int free_rent;
   void Crash_rentsave(struct char_data *ch, int cost);
 
-  if (++(ch->char_specials.timer) > 10)
+  if (++(ch->char_specials.timer) > 10) {
     if (GET_WAS_IN(ch) == NOWHERE && ch->in_room != NOWHERE) {
       GET_WAS_IN(ch) = ch->in_room;
       if (FIGHTING(ch)) {
@@ -372,6 +377,7 @@ void check_idling(struct char_data * ch)
       mudlog(buf, CMP, LVL_GOD, TRUE);
       extract_char(ch);
     }
+  }
 }
 
 /* return a number from 1 to 100 for chance of death */

@@ -23,6 +23,7 @@
 extern struct room_data *world;
 extern struct descriptor_data *descriptor_list;
 extern struct room_data *world;
+extern struct race_data *races;
 extern int pk_allowed;
 
 /* extern functions */
@@ -37,6 +38,7 @@ ACMD(do_remove);
 ACMD(do_wield);
 ACMD(do_say);
 extern int max_exp_gain;
+extern int NUM_RACES;
 void group_gain(struct char_data *ch, struct char_data *vict);
 void change_alignment(struct char_data *ch, struct char_data *vict);
 void die(struct char_data *vict, struct char_data *ch);
@@ -122,7 +124,6 @@ ACMD(do_hit)
   }
 }
 
-#if 0
 /*
  *  This function takes the place of all the do_<skillname> functions
  * by encapsuating them in one function which attempts to find the
@@ -132,11 +133,12 @@ ACMD(do_violent_skill)
 {
   struct char_data *vict = NULL;
   struct obj_data  *tobj = NULL, *weapon = NULL;
-  int prob, percent = number(1, 101), i = 0, door = -1;
+  int prob, percent = number(1, 101), door = -1; // , i = 0;
   bool target = FALSE;
 
-  extern struct spell_info[];
+  extern struct spell_info_type spell_info[];
   extern struct attack_hit_type attack_hit_text[];
+  extern char * spells [];
 
   if (IS_NPC(ch))
     prob = dice(10, 10);
@@ -157,6 +159,7 @@ ACMD(do_violent_skill)
     if ((tobj = get_obj_in_list_vis(ch, arg, ch->carrying)) != NULL)
       target = TRUE;
   }
+#if 0  
   if (!target && IS_SET(spell_info[subcmd].targets, TAR_OBJ_EQUIP)) {
     for (i = 0; !target && i < NUM_WEARS; i++)
       if (GET_EQ(ch, i) && !str_cmp(t, GET_EQ(ch, i)->name)) {
@@ -172,6 +175,7 @@ ACMD(do_violent_skill)
     if ((tobj = get_obj_vis(ch, t)))
       target = TRUE;
   }
+#endif
   if (!target && IS_SET(spell_info[subcmd].targets, TAR_FIGHT_VICT)) {
     if (FIGHTING(ch) != NULL) {
       vict = FIGHTING(ch);
@@ -200,13 +204,13 @@ ACMD(do_violent_skill)
      *   the weapon type that needs to be used.
      */
     if (!GET_EQ(ch, WEAR_WIELD) && !GET_EQ(ch, WEAR_HOLD)) {
-      sprintf(buf2, "You must be wielding a weapon to %s %s!" spells[subcmd], arg);
+      sprintf(buf2, "You must be wielding a weapon to %s %s!", spells[subcmd], arg);
       act(buf2, FALSE, ch, tobj, vict, TO_CHAR);
       return;
     }
     if (GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD)) != ITEM_WEAPON &&
 	GET_OBJ_TYPE(GET_EQ(ch, WEAR_HOLD)) != ITEM_WEAPON) {
-      sprintf(buf2, "You must be wielding a weapon to %s %s!" spells[subcmd], arg);
+      sprintf(buf2, "You must be wielding a weapon to %s %s!", spells[subcmd], arg);
       act(buf2, FALSE, ch, tobj, vict, TO_CHAR);
       return;
     }
@@ -215,13 +219,13 @@ ACMD(do_violent_skill)
     else if (GET_OBJ_TYPE(GET_EQ(ch, WEAR_HOLD)) == ITEM_WEAPON)
       weapon = GET_EQ(ch, WEAR_HOLD);
     else {
-      sprintf(buf2, "You must be wielding a weapon to %s %s!" spells[subcmd], arg);
+      sprintf(buf2, "You must be wielding a weapon to %s %s!", spells[subcmd], arg);
       act(buf2, FALSE, ch, tobj, vict, TO_CHAR);
       return;
     }
     if (GET_OBJ_VAL(weapon, 3) != (spell_info[subcmd].min_position) - TYPE_HIT) {
       sprintf(buf2, "You must be wielding a weapon that %s.\r\n",
-	      attack_hit_text[spell_info[subcmd].min_position].plural);
+	      attack_hit_text[(int)spell_info[subcmd].min_position].plural);
       send_to_char(buf2, ch);
       return;
     }
@@ -256,7 +260,6 @@ ACMD(do_violent_skill)
   } else
     send_to_char("What did you want to do?\r\n", ch);
 }
-#endif
 
 
 ACMD(do_behead)
@@ -445,8 +448,6 @@ ACMD(do_stab)
   WAIT_STATE(ch, 3 * PULSE_VIOLENCE);
 }
 
-
-
 ACMD(do_cudgel)
 {
   struct char_data *vict;
@@ -509,6 +510,7 @@ ACMD(do_cudgel)
       learn_from_mistake(ch, SKILL_CUDGEL);
   } else
     hit(ch, vict, SKILL_CUDGEL);
+  
   WAIT_STATE(ch, PULSE_VIOLENCE * 3);
 }
 
@@ -578,7 +580,6 @@ ACMD(do_berserk)
 }
 
 
-#if 0
 ACMD(do_deathstroke)
 {
   struct char_data *vict;
@@ -595,7 +596,7 @@ ACMD(do_deathstroke)
 		  "You neck feels much better now.\r\n", ch);
      return;
   }
-  if (GET_EQ(ch, WEAR_WIELD) || GET_EQ(ch, WEAR_HOL)) {
+  if (GET_EQ(ch, WEAR_WIELD) || GET_EQ(ch, WEAR_HOLD)) {
     send_to_char("Your hands must be free to break someone's neck!\r\n", ch);
     return;
   }
@@ -626,7 +627,6 @@ ACMD(do_deathstroke)
 
   WAIT_STATE(ch, 4 * PULSE_VIOLENCE);
 }
-#endif
 
 
 ACMD(do_circle)
@@ -646,31 +646,34 @@ ACMD(do_circle)
       return;
     }
   }
+
   if (vict == ch) {
     send_to_char("How can you circle around behind yourself?\r\n", ch);
     return;
   }
-  if (GET_POS(ch) > POS_FIGHTING)
-    do_backstab(ch, argument, cmd, subcmd);
 
   if (wielded == NULL && wielded2 == NULL) {
     send_to_char("You need to wield a weapon to make it a success.\r\n", ch);
     return;
   }
+
   if (wielded && GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD), 3) != TYPE_PIERCE - TYPE_HIT) {
     if (wielded2 && GET_OBJ_VAL(GET_EQ(ch, WEAR_HOLD), 3) != TYPE_PIERCE - TYPE_HIT) {
       send_to_char("Only piercing weapons can be used for backstabbing.\r\n", ch);
       return;
     }
   }
+
   if (ROOM_FLAGGED(ch->in_room, ROOM_PEACEFUL)) {  /* Protect newbies */
     send_to_char("You cannot bring yourself to do it.\r\n", ch);
     return;
   }
+
   if (!IS_NPC(ch) && !IS_NPC(vict) && (GET_LEVEL(ch) <= 5 || GET_LEVEL(vict) <= 5)) {
     send_to_char("A wall of air prevents you!\r\n", ch);
     return;
   }
+
   percent = number(10, 101);   /* 101% is a complete failure */
   prob    = (IS_NPC(ch) ? number(GET_SKILL(ch, SKILL_CIRCLE), 100) : GET_SKILL(ch, SKILL_CIRCLE));
 
@@ -688,7 +691,7 @@ ACMD(do_circle)
     send_to_char("Uh, oh, your target caught you trying to circle around.\r\n",ch);
     hit(ch, FIGHTING(ch), TYPE_UNDEFINED);
     WAIT_STATE(ch, PULSE_VIOLENCE * 2);
-    if (number(0, 10) > 8)
+    if (number(0, 10) > 9)
       learn_from_mistake(ch, SKILL_CIRCLE);
   }
 }
@@ -902,7 +905,7 @@ ACMD(do_bite)
 
    one_argument(argument, name);
 
-   if (GET_RACE(ch) != RACE_VAMPIRE) {
+   if ( !IS_VAMPIRE( ch ) ) {
      act("You open your mouth wide and try to bite $N's neck.", FALSE, ch, 0, vict, TO_CHAR);
      act("$n open $s mouth wide and tries to bite you on your neck, how kinky.", FALSE, ch, 0, vict, TO_VICT);
      act("$n open $s mouth wide and tries to bite $N's neck, how kinky.", FALSE, ch, 0, vict, TO_ROOM);
@@ -910,22 +913,22 @@ ACMD(do_bite)
    } else if (!(vict = get_char_room_vis(ch, name))) {
      send_to_char("Bite who?\n\r", ch);
      return;
-   } else if (FIGHTING(vict)) {
-     send_to_char("You can't bite a fighting person -- your teeth will get broken!\r\n", ch);
-     return;
    } else if (vict == ch) {
      send_to_char("Your own blood will not suffice.\n\r",ch);
      return;
+   } else if (FIGHTING(vict)) {
+     send_to_char("You can't bite a fighting person -- your teeth will get broken!\r\n", ch);
+     return;
    } else if (IS_IMMORT(vict)) {
      send_to_char("Your teeth crumble to dust as you try to bite your victim!\r\n",ch);
-     GET_RACE(ch)    = RACE_HUMAN;
+     REMOVE_BIT( AFF2_FLAGS(ch), AFF_VAMPIRE );
      GET_MAX_HIT(ch) = 1;
      return;
    }
    prob = (GET_MAX_LEVEL(ch) * number(1, 5));
    percent = number(1, 100);
 
-   if (((prob >= percent) && (GET_RACE(ch) == RACE_VAMPIRE)) || IS_IMMORT(ch)) {
+   if (((prob >= percent) && IS_VAMPIRE(ch)) || IS_IMMORT(ch)) {
      send_to_char("You feel a sharp pain in your neck, you have been bitten!\r\n", vict);
      if (IS_IMMORT(ch)) {
        send_to_char("Sweet blood flows over your lips as you sink your teeth into your victim's neck!\n\r", ch);
@@ -938,16 +941,17 @@ ACMD(do_bite)
        GET_MAX_HIT(vict) -= number(2, 18);
        GET_HIT(ch) += number(2, 20);
        if(!IS_IMMORT(ch)){
-       GET_COND(ch, THIRST) = 23;
-       GET_COND(ch, FULL)   = 23;
+         GET_COND(ch, THIRST) = 23;
+         GET_COND(ch, FULL)   = 23;
        } else
-       GET_COND(ch, THIRST) = GET_COND(ch, FULL) = -1;
+         GET_COND(ch, THIRST) = GET_COND(ch, FULL) = -1;
      }
      if (number(1, 100) > 90) {
        send_to_char("A strange feeling comes over you, suddenly have a loathing for sunlight and garlic.\r\n",vict);
        send_to_char("You have increased the members of your ancient race.\r\n",ch);
-       GET_RACE(vict) = RACE_VAMPIRE;
-       act("$N falls to the floor and screams in agony.  $e has been inducted into the ranks of the undead!", TRUE, ch, 0, vict, TO_NOTVICT);
+       SET_BIT( AFF2_FLAGS(vict), AFF_VAMPIRE );
+       act("$N falls to the floor and screams in agony.  $e has been inducted into the ranks of the undead!",
+           TRUE, ch, 0, vict, TO_NOTVICT);
      }
      return;
    }
@@ -965,7 +969,7 @@ ACMD(do_claw)
    if (!(vict = get_char_room_vis(ch, name))) {
      send_to_char("Maul who?\n\r", ch);
      return;
-   } else if (GET_RACE(ch) != RACE_WEREWOLF) {
+   } else if ( !IS_LYCANTHROPE(ch) ) {
      act("You attempt to maul $N, but rip out your finger nails instead!", FALSE, ch, 0, vict, TO_CHAR);
      GET_HIT(ch) -= 1;
      act("$n attempts to maul $N, but rips out $s finger nails instead!", FALSE, ch, 0, vict, TO_ROOM);
@@ -974,7 +978,7 @@ ACMD(do_claw)
    } else if (vict == ch) {
      send_to_char("You cannot seem to get the leverage necessary to maul yourself.\n\r",ch);
      return;
-   } else if (FIGHTING(vict) && GET_RACE(ch) == RACE_WEREWOLF) {
+   } else if (FIGHTING(vict) && IS_LYCANTHROPE(ch)) {
      send_to_char("You go into a mad rage and maul your victim!\r\n", ch);
      act("$n goes into a wild rage and mauls $N to pieces!", FALSE, ch, 0, vict, TO_ROOM);
      act("$n goes into a wild rage, tearing the flesh from your bones!", FALSE, ch, 0, vict, TO_VICT);
@@ -988,7 +992,7 @@ ACMD(do_claw)
    prob = (GET_MAX_LEVEL(ch) * number(1, 5));
    percent = number(10, 101);
 
-   if (((prob > percent) && (GET_RACE(ch) == RACE_WEREWOLF)) || IS_IMMORT(ch)) {
+   if (((prob > percent) && IS_LYCANTHROPE(ch)) || IS_IMMORT(ch)) {
      act("$n lunges at you and begins tearing at your flesh!", FALSE, ch, 0, vict, TO_VICT);
      if (IS_IMMORT(ch)) {
        act("You lunge at $N and begin tearing $m apart!\n\r", TRUE, ch, 0, vict, TO_CHAR);
@@ -999,22 +1003,21 @@ ACMD(do_claw)
        act("$n lunges at $N and begins to remove various appendages.", TRUE, ch, 0, vict,TO_NOTVICT);
        send_to_char("Your thirst for blood has been satisfied.\r\n",ch);
        GET_HIT(vict) = (GET_HIT(vict)/number(8, 18));
-       if(!IS_IMMORT(ch)) {
-       GET_COND(ch, THIRST) = MIN(24, GET_COND(ch, THIRST)+20);
-       GET_COND(ch, FULL)   = MIN(24, GET_COND(ch, FULL)+20);
+       if (!IS_IMMORT(ch)) {
+         GET_COND(ch, THIRST) = MIN(24, GET_COND(ch, THIRST)+20);
+         GET_COND(ch, FULL)   = MIN(24, GET_COND(ch, FULL)+20);
        }
        hit(ch, vict, TYPE_UNDEFINED);
      }
      if (number(1, 100) > 90) {
        send_to_char("A strange feeling comes over you, suddenly have a loathing for silver and the moon.\r\n",vict);
        send_to_char("You have increased the members of your ancient race.\r\n",ch);
-       GET_RACE(vict) = RACE_WEREWOLF;
+       SET_BIT( AFF2_FLAGS(vict), AFF_LYCANTHROPE );
        act("$N falls to the floor and screams in agony.  $e has been made a werewolf!", TRUE, ch, 0, vict, TO_NOTVICT);
      }
      return;
    }
 }
-
 
 ACMD(do_gore)
 {
@@ -1027,7 +1030,7 @@ ACMD(do_gore)
    if (!(vict = get_char_room_vis(ch, name))) {
      send_to_char("Gore who?\n\r", ch);
      return;
-   } else if ((GET_RACE(ch) != RACE_KINTHALAS) || (GET_RACE(ch) != RACE_BYTERIAN)) {
+   } else if ( !IS_MINOTAUR(ch) ) {
      act("You attempt to gore $N, but bang your head against $M instead!", FALSE, ch, 0, vict, TO_CHAR);
      GET_HIT(ch) -= 5;
      act("$n attempts to gore $N, but bangs $s head against $M instead!", FALSE, ch, 0, vict, TO_ROOM);
@@ -1039,8 +1042,7 @@ ACMD(do_gore)
    } else if (!IS_NPC(ch) && !IS_NPC(vict) && (GET_LEVEL(ch) <= 5 || GET_LEVEL(vict) <= 5)) {
      send_to_char("A wall of air prevents you!\r\n", ch);
      return;
-   } else if (FIGHTING(vict) && ((GET_RACE(ch) == RACE_KINTHALAS) || \
-	      (GET_RACE(ch) == RACE_BYTERIAN))) {
+   } else if (FIGHTING(vict) && IS_MINOTAUR(ch)) {
      send_to_char("You go into a wild rage and gore your victim!\r\n", ch);
      act("$n goes into a wild rage and gores $N!", FALSE, ch, 0, vict, TO_ROOM);
      act("$n goes into a wild rage, goring you in the chest!", FALSE, ch, 0, vict, TO_VICT);
@@ -1055,8 +1057,7 @@ ACMD(do_gore)
    prob = (GET_LEVEL(ch) * number(1, 5));
    percent = number(10, 101);
 
-   if (((prob > percent) && ((GET_RACE(ch) == RACE_KINTHALAS) || (GET_RACE(ch) == RACE_BYTERIAN))) || \
-	IS_IMMORT(ch)) {
+   if (((prob > percent) && IS_MINOTAUR(ch)) ||	IS_IMMORT(ch)) {
      act("$n lunges at you and begins goring you!", FALSE, ch, 0, vict, TO_VICT);
 
      if (IS_IMMORT(ch)) {
@@ -1147,6 +1148,7 @@ ACMD(do_flee)
     damage(ch, ch, dice(5, 5), TYPE_UNDEFINED, -1);
     return;
   }
+
   for (i = 0; i < MAX_DIR; i++) {
     attempt = number(0, MAX_DIR - 1);       /* Select a random direction */
     if (CAN_GO(ch, attempt) &&
@@ -1161,13 +1163,11 @@ ACMD(do_flee)
 	      char_from_room(MOUNTED(ch));
 	      char_to_room(MOUNTED(ch), ch->in_room);
 	    }
-#if 0
             if (IS_MOB(oppo) && MOB_FLAGGED(oppo, MOB_MEMORY) && 
                 !MOB_FLAGGED(oppo, MOB_WIMPY) && !MOB_FLAGGED(oppo, MOB_SENTINEL)) {
 	      HUNTING(oppo)  = ch;
               hunt_victim(oppo);
             } 
-#endif     
             if (oppo) {
 	      loss = GET_MAX_HIT(ch) - GET_HIT(ch);
 	      loss *= MAX(1, GET_LEVEL(oppo) - GET_LEVEL(ch));
@@ -1376,7 +1376,7 @@ ACMD(do_turn)
   percent = number(1, 101);     /* 101% is a complete failure */
   prob = IS_NPC(ch) ? number(GET_SKILL(ch, SKILL_TURN_UNDEAD), 99) : GET_SKILL(ch, SKILL_TURN_UNDEAD);
 
-  if (GET_RACE(vict) != RACE_UNDEAD)
+  if (!IS_UNDEAD(vict))
     percent = 101;
 
   act("$n points $s finger at $N and says, 'Back through the gates of hell, demonspawn!'",
@@ -1395,7 +1395,7 @@ ACMD(do_turn)
 		    GET_NAME(vict), GET_NAME(ch), HMHR(vict));
       log(buf);
     }
-    if (GET_LEVEL(ch) >= LVL_IMMORT)
+    if (IS_IMMORT(ch))
       return;
     else {
       send_to_char("You have become more experienced.\r\n", ch);
@@ -1553,7 +1553,7 @@ ACMD(do_shoot)
         break;
     }   
     if (GET_POS(vict) == POS_DEAD) {
-      if (IS_NPC(vict) || vict->desc)
+      if (IS_NPC(vict) || vict->desc) {
         if (IS_AFFECTED2(ch, AFF_GROUP))
 	  group_gain(ch, vict);
         else {
@@ -1567,15 +1567,16 @@ ACMD(do_shoot)
 	    send_to_char("You receive one lousy experience point.\r\n", ch);
 	  gain_exp(ch, exp);
 	  change_alignment(ch, vict);
-       }
-       if (!IS_NPC(vict)) {
-         sprintf(buf2, "%s killed by %s's volley of arrows at %s", GET_NAME(vict), GET_NAME(ch),
-	      world[vict->in_room].name);
-         mudlog(buf2, BRF, LVL_IMMORT, TRUE);
-         if (MOB_FLAGGED(ch, MOB_MEMORY))
-  	   forget(ch, vict);
-       }
-       die(vict, ch);
+        }
+      }
+      if (!IS_NPC(vict)) {
+        sprintf(buf2, "%s killed by %s's volley of arrows at %s", GET_NAME(vict), GET_NAME(ch),
+                world[vict->in_room].name);
+        mudlog(buf2, BRF, LVL_IMMORT, TRUE);
+        if (MOB_FLAGGED(ch, MOB_MEMORY))
+          forget(ch, vict);
+      }
+      die(vict, ch);
     }    
   }
   if (IS_NPC(vict)) {
@@ -1730,7 +1731,7 @@ ACMD(do_throw)
         break;
     }   
     if (GET_POS(vict) == POS_DEAD) {
-      if (IS_NPC(vict) || vict->desc)
+      if (IS_NPC(vict) || vict->desc) {
         if (IS_AFFECTED2(ch, AFF_GROUP))
 	  group_gain(ch, vict);
         else {
@@ -1744,16 +1745,17 @@ ACMD(do_throw)
 	    send_to_char("You receive one lousy experience point.\r\n", ch);
 	  gain_exp(ch, exp);
 	  change_alignment(ch, vict);
-       }
-       if (!IS_NPC(vict)) {
-         sprintf(buf2, "%s killed by %s's volley of arrows at %s", GET_NAME(vict), GET_NAME(ch),
-	      world[vict->in_room].name);
-         mudlog(buf2, BRF, LVL_IMMORT, TRUE);
-         if (MOB_FLAGGED(ch, MOB_MEMORY))
-  	   forget(ch, vict);
-       }
-       die(vict, ch);
-     }
+        }
+      }
+      if (!IS_NPC(vict)) {
+        sprintf(buf2, "%s killed by %s's volley of arrows at %s", GET_NAME(vict), GET_NAME(ch),
+                world[vict->in_room].name);
+        mudlog(buf2, BRF, LVL_IMMORT, TRUE);
+        if (MOB_FLAGGED(ch, MOB_MEMORY))
+          forget(ch, vict);
+      }
+      die(vict, ch);
+    }
   }
   if (IS_NPC(vict)) {
     HUNTING(vict) = ch;
