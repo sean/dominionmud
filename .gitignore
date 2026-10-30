@@ -1,4 +1,5 @@
 board.*
+confdefs.h
 config.cache
 config.status
 *.o
