@@ -205,8 +205,7 @@ void show(char *filename)
     exit(1);
   }
   for (;;) {
-    fread(&player, sizeof(struct char_file_u), 1, fl);
-    if (feof(fl)) {
+    if (fread(&player, sizeof(struct char_file_u), 1, fl) != 1) {
       fclose(fl);
       exit(1);
     }

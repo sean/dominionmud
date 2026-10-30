@@ -590,7 +590,11 @@ int restore_mud_time( struct time_info_data * time_info )
   }
 
   /* read the time */
-  fread( time_info, sizeof( *time_info ), 1, time_file );
+  if ( fread( time_info, sizeof( *time_info ), 1, time_file ) != 1 ) {
+    fclose( time_file );
+    log( "Time file unreadable... restarting MUD time." );
+    return -1; /* error */
+  }
 
   fclose( time_file );
   return 0;  /* fine */
@@ -775,7 +779,8 @@ int get_line(FILE * fl, char *buf)
 
   do {
     lines++;
-    fgets(temp, 256, fl);
+    if (!fgets(temp, 256, fl))
+      return 0;
     if (*temp)
       temp[strlen(temp) - 1] = '\0';
   } while (!feof(fl) && (*temp == '*' || !*temp));
@@ -962,6 +967,28 @@ void parse_color_and_send(struct char_data *ch, unsigned char *src)
 
    if (ch->desc != NULL)
      SEND_TO_Q(CAP(lbuf), ch->desc);
+}
+
+int log_snprintf( const char * src, int line, char * dst, size_t size,
+                  const char * fmt, ... )
+{
+  va_list args;
+  int n;
+
+  va_start( args, fmt );
+  n = vsnprintf( dst, size, fmt, args );
+  va_end( args );
+
+  if ( n < 0 || (size_t) n >= size )
+    ulog( "SYSERR: message truncated", src, line );
+  return n;
+}
+
+void data_read_error( const char * datafile, const char * src, int line )
+{
+  plog( "SYSERR: Format error or unexpected end of file in %s (read at %s:%d).",
+        datafile, src, line );
+  exit( 1 );
 }
 
 void plog( char * fmt, ... )

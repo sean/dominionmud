@@ -218,7 +218,8 @@ void check_autowiz(struct char_data * ch)
     sprintf(buf, "nice ../bin/autowiz %d %s %d %s %d &", min_wizlist_lev,
 	    WIZLIST_FILE, LVL_IMMORT, IMMLIST_FILE, (int) getpid());
     mudlog("Initiating autowiz.", CMP, LVL_IMMORT, FALSE);
-    system(buf);
+    if (system(buf) == -1)
+      log("SYSERR: unable to run autowiz.");
   }
 }
 

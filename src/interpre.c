@@ -1568,6 +1568,7 @@ void nanny(struct descriptor_data *d, char *arg)
   int player_i, load_result;
   static int points;
   char tmp_name[MAX_INPUT_LENGTH];
+  char when[32];
   struct char_file_u tmp_store;
   extern char *SECGREETING;
   extern char *THIRGREETING;
@@ -1640,6 +1641,10 @@ void nanny(struct descriptor_data *d, char *arg)
 		  "Name: ", d);
 	return;
       }
+      /* forget any previous name's logon info; set below for existing players */
+      *d->last_host = '\0';
+      d->last_logon = 0;
+
       if ((player_i = load_char(tmp_name, &tmp_store)) > -1) {
 	store_to_char(&tmp_store, d->character);
 	GET_PFILEPOS(d->character) = player_i;
@@ -1665,6 +1670,12 @@ void nanny(struct descriptor_data *d, char *arg)
 	  /* undo it just in case they are set */
 	  REMOVE_BIT(PLR_FLAGS(d->character),
 		     PLR_WRITING | PLR_MAILING | PLR_CRYO);
+
+	  /* tmp_store doesn't survive past this call, so keep what the
+	     menu needs for the "You last logged on" line */
+	  strncpy(d->last_host, tmp_store.host, HOST_LENGTH);
+	  d->last_host[HOST_LENGTH] = '\0';
+	  d->last_logon = tmp_store.last_logon;
 
 	  SEND_TO_Q("Password: ", d);
 	  echo_off(d);
@@ -2307,14 +2318,23 @@ void nanny(struct descriptor_data *d, char *arg)
 
       STATE(d) = CON_PLAYING;
       if (!GET_LEVEL(d->character)) {
+	/* brand-new character: nothing to report about a previous logon */
 	do_start(d->character);
 	send_to_char(START_MESSG, d->character);
+      } else if (d->last_logon > 0) {
+	strncpy(when, ctime(&d->last_logon), sizeof(when) - 1);
+	when[sizeof(when) - 1] = '\0';
+	when[strcspn(when, "\n")] = '\0';     /* ctime() ends with a newline */
+	if (*d->last_host)
+	  sprintf(buf2, "You last logged on from %s%s%s on %s%s%s.\r\n",
+		  CCYEL(d->character, C_SPR), d->last_host,
+		  CCNRM(d->character, C_SPR), CCYEL(d->character, C_SPR),
+		  when, CCNRM(d->character, C_SPR));
+	else
+	  sprintf(buf2, "You last logged on %s%s%s.\r\n",
+		  CCYEL(d->character, C_SPR), when, CCNRM(d->character, C_SPR));
+	send_to_char(buf2, d->character);
       }
-      sprintf(buf2, "You last logged on from %s%s%s on %s%s%s",
-	      CCYEL(d->character, C_SPR), tmp_store.host,
-	      CCNRM(d->character, C_SPR), CCYEL(d->character, C_SPR),
-              ctime(&tmp_store.last_logon), CCNRM(d->character, C_SPR));
-      send_to_char(buf2, d->character);
       if (PRF_FLAGGED(d->character, PRF_INFOBAR))
 	do_infobar(d->character, 0, 0, SCMDB_REDRAW);
       look_at_room(d->character, 0);

@@ -19,6 +19,8 @@
 
 #include "protos.h"
 
+void free_alias(struct alias *a);   /* In interpre.c */
+
 void write_aliases(struct char_data *ch)
 {
   FILE *file;
@@ -53,40 +55,59 @@ void write_aliases(struct char_data *ch)
 }
 
 void read_aliases(struct char_data *ch)
-{   
+{
   FILE *file;
   char fn[127];
-  struct alias *t2;
-  int length;
-  char temp_buf[127],buf[127];
+  struct alias *t2, *a;
+  int length, type;
+  char temp_buf[127], buf[127];
 
-  get_filename(GET_NAME(ch),fn,ALIAS_FILE);
+  get_filename(GET_NAME(ch), fn, ALIAS_FILE);
 
-  file = fopen(fn,"r");
+  file = fopen(fn, "r");
 
-  if( !file )
+  if (!file)
     return;
- 
-  CREATE(GET_ALIASES(ch),struct alias,1);
-  t2 = GET_ALIASES(ch); 
-  do 
-  { 
-    fscanf(file,"%d\n",&length);
-    fgets(buf,length+1,file);
+
+  CREATE(GET_ALIASES(ch), struct alias, 1);
+  t2 = GET_ALIASES(ch);
+  do
+  {
+    /* alias text, replacement text, then type; lengths come from the file
+       so they must be checked against our buffers */
+    if (fscanf(file, "%d\n", &length) != 1 ||
+        length < 0 || length >= (int) sizeof(buf) ||
+        !fgets(buf, length + 1, file))
+      break;
     t2->alias = str_dup(buf);
-    fscanf(file,"%d\n",&length);
-    fgets(buf,length+1,file);
-    strcpy(temp_buf," ");
-    strcat(temp_buf,buf); 
-    t2->replacement = str_dup(temp_buf); 
-    fscanf(file,"%d\n",&length);
-    t2->type = length; 
-    if( !feof(file) ){
-      CREATE(t2->next,struct alias,1);
+    if (fscanf(file, "%d\n", &length) != 1 ||
+        length < 0 || length >= (int) sizeof(temp_buf) - 1 ||
+        !fgets(buf, length + 1, file))
+      break;
+    strcpy(temp_buf, " ");
+    strcat(temp_buf, buf);
+    t2->replacement = str_dup(temp_buf);
+    if (fscanf(file, "%d\n", &type) != 1)
+      break;
+    t2->type = type;
+    if (!feof(file)) {
+      CREATE(t2->next, struct alias, 1);
       t2 = t2->next;
-    } 
-  } while( !feof(file) ); 
-  
+    }
+  } while (!feof(file));
+
+  if (!t2->alias || !t2->replacement || ferror(file)) {
+    /* unreadable or truncated alias file: drop them all rather than keep
+       a half-built list */
+    plog("SYSERR: alias file for %s is corrupt; aliases not loaded.",
+         GET_NAME(ch));
+    while ((a = GET_ALIASES(ch)) != NULL) {
+      GET_ALIASES(ch) = a->next;
+      free_alias(a);
+    }
+  }
+
   fclose(file);
-} 
+}
+ 
 

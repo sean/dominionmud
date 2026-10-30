@@ -204,13 +204,13 @@ ACMD(do_violent_skill)
      *   the weapon type that needs to be used.
      */
     if (!GET_EQ(ch, WEAR_WIELD) && !GET_EQ(ch, WEAR_HOLD)) {
-      sprintf(buf2, "You must be wielding a weapon to %s %s!", spells[subcmd], arg);
+      SNPRINTF(buf2, sizeof(buf2), "You must be wielding a weapon to %s %s!", spells[subcmd], arg);
       act(buf2, FALSE, ch, tobj, vict, TO_CHAR);
       return;
     }
     if (GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD)) != ITEM_WEAPON &&
 	GET_OBJ_TYPE(GET_EQ(ch, WEAR_HOLD)) != ITEM_WEAPON) {
-      sprintf(buf2, "You must be wielding a weapon to %s %s!", spells[subcmd], arg);
+      SNPRINTF(buf2, sizeof(buf2), "You must be wielding a weapon to %s %s!", spells[subcmd], arg);
       act(buf2, FALSE, ch, tobj, vict, TO_CHAR);
       return;
     }
@@ -517,7 +517,7 @@ ACMD(do_cudgel)
 
 ACMD(do_berserk)
 {
-  struct char_data *tch, *next_tch, *m;
+  struct char_data *tch, *next_tch;
   int    prcnt, prob;
 
   if (ch == NULL)
@@ -547,10 +547,6 @@ ACMD(do_berserk)
 	GET_HIT(ch)  -= MIN(20, GET_HIT(ch));
      }
 
-     if (ch->master != NULL)
-	m = ch->master;
-     else
-	m = ch;
 
      for (tch = world[ch->in_room].people; tch; tch = next_tch) {
        next_tch = tch->next_in_room;
@@ -784,7 +780,7 @@ ACMD(do_palm)
 {
    struct char_data *vict = NULL;
    char name[256], logbuf[256];
-   byte prob, percent, exp;
+   byte prob, percent;
 
    one_argument(argument,name);
 
@@ -821,7 +817,6 @@ ACMD(do_palm)
    percent = number(10, 101);   /* 101% is a complete failure */
    prob    = IS_NPC(ch) ? number(GET_SKILL(ch, SKILL_QUIVERING_PALM), 100) : GET_SKILL(ch, SKILL_QUIVERING_PALM);
 
-   exp = MIN((long)250000, (long)((GET_MAX_LEVEL(vict) <= 9) ? 0 : (GET_EXP(vict)/GET_MAX_LEVEL(vict))));
 
    if (((prob > percent) || IS_IMMORT(ch)) &&
        (GET_MAX_LEVEL(ch)-4) > GET_MAX_LEVEL(vict)) {
@@ -1105,7 +1100,7 @@ ACMD(do_order)
       return;
     }
     if (vict) {
-      sprintf(buf, "$N orders you to '%s'", message);
+      SNPRINTF(buf, sizeof(buf), "$N orders you to '%s'", message);
       act(buf, FALSE, vict, 0, ch, TO_CHAR);
       act("$n gives $N an order.", FALSE, ch, 0, vict, TO_ROOM);
 
@@ -1116,7 +1111,7 @@ ACMD(do_order)
 	command_interpreter(vict, message);
       }
     } else {                    /* This is order "followers" */
-      sprintf(buf, "$n issues the order '%s'.", message);
+      SNPRINTF(buf, sizeof(buf), "$n issues the order '%s'.", message);
       act(buf, FALSE, ch, 0, vict, TO_ROOM);
 
       org_room = ch->in_room;

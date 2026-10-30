@@ -63,8 +63,7 @@ int House_load(long vnum)
     return 0;
   }
   while (!feof(fl)) {
-    fread(&object, sizeof(struct obj_file_elem), 1, fl);
-    if (ferror(fl)) {
+    if (fread(&object, sizeof(struct obj_file_elem), 1, fl) != 1 && ferror(fl)) {
       perror("Reading house file: House_load.");
       fclose(fl);
       return 0;
@@ -179,13 +178,12 @@ void House_listrent(struct char_data * ch, long vnum)
   }
   *buf = '\0';
   while (!feof(fl)) {
-    fread(&object, sizeof(struct obj_file_elem), 1, fl);
-    if (ferror(fl)) {
+    if (fread(&object, sizeof(struct obj_file_elem), 1, fl) != 1 && ferror(fl)) {
       fclose(fl);
       return;
     }
     if (!feof(fl) && (obj = Obj_from_store(object)) != NULL) {
-      sprintf(buf, "%s [%ld] (%5dau) %s\r\n", buf,
+      sprintf(buf + strlen(buf), " [%ld] (%5dau) %s\r\n",
 	      GET_OBJ_VNUM(obj), GET_OBJ_RENT(obj),
 	      obj->short_description);
       free_obj(obj);
@@ -247,9 +245,7 @@ void House_boot(void)
     return;
   }
   while (!feof(fl) && num_of_houses < MAX_HOUSES) {
-    fread(&temp_house, sizeof(struct house_control_rec), 1, fl);
-
-    if (feof(fl))
+    if (fread(&temp_house, sizeof(struct house_control_rec), 1, fl) != 1)
       break;
 
     if (get_name_by_id(temp_house.owner) == NULL)
@@ -323,7 +319,7 @@ void hcontrol_list_houses(struct char_data * ch)
 
     strcpy(own_name, NAME(house_control[i].owner));
 
-    sprintf(buf, "%s%7ld %7ld  %-10s    %2d    %-12s %s\r\n", buf,
+    sprintf(buf + strlen(buf), "%7ld %7ld  %-10s    %2d    %-12s %s\r\n",
 	    house_control[i].vnum, house_control[i].atrium, built_on,
 	    house_control[i].num_of_guests, CAP(own_name), last_pay);
 

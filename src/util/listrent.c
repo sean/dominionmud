@@ -37,8 +37,8 @@ void Crash_listrent(char *fname)
     return;
   }
   sprintf(buf, "%s\n\r", fname);
-  if (!feof(fl))
-    fread(&rent, sizeof(struct rent_info), 1, fl);
+  if (fread(&rent, sizeof(struct rent_info), 1, fl) != 1)
+    rent.rentcode = RENT_UNDEF;
   switch (rent.rentcode) {
   case RENT_RENTED:
     strcat(buf, "Rent\n\r");
@@ -58,13 +58,12 @@ void Crash_listrent(char *fname)
     break;
   }
   while (!feof(fl)) {
-    fread(&object, sizeof(struct obj_file_elem), 1, fl);
-    if (ferror(fl)) {
+    if (fread(&object, sizeof(struct obj_file_elem), 1, fl) != 1 && ferror(fl)) {
       fclose(fl);
       return;
     }
     if (!feof(fl))
-      sprintf(buf, "%s[%5ld] %s\n", buf, object.item_number, fname);
+      sprintf(buf + strlen(buf), "[%5ld] %s\n", object.item_number, fname);
   }
   printf("%s", buf);
   fclose(fl);

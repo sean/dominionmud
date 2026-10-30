@@ -502,7 +502,7 @@ void shopping_buy(char *arg, struct char_data * ch,
   if (!IS_GOD(ch))
     GET_GOLD(keeper) += goldamt;
 
-  sprintf(tempstr, times_message(ch->carrying, 0, bought));
+  snprintf(tempstr, sizeof(tempstr), "%s", times_message(ch->carrying, 0, bought));
   sprintf(buf, "$n buys %s.", tempstr);
   act(buf, FALSE, ch, obj, 0, TO_ROOM);
 
@@ -638,7 +638,7 @@ void shopping_sell(char *arg, struct char_data * ch,
 			struct char_data * keeper, int shop_nr)
 {
   char tempstr[200], buf[MAX_STRING_LENGTH], name[200];
-  struct obj_data *obj, *tag = 0;
+  struct obj_data *obj;
   int sellnum, sold = 0, goldamt = 0;
 
   if (!(is_ok(keeper, ch, shop_nr)))
@@ -669,7 +669,7 @@ void shopping_sell(char *arg, struct char_data * ch,
     sold++;
 
     obj_from_char(obj);
-    tag = slide_obj(obj, keeper, shop_nr);
+    slide_obj(obj, keeper, shop_nr);
 
     goldamt += sell_price(ch, obj, shop_nr);
     GET_GOLD(keeper) -= sell_price(ch, obj, shop_nr);
@@ -961,7 +961,8 @@ int read_type_list(FILE * shop_f, struct shop_buy_data * list,
   if (!new_format)
     return (read_list(shop_f, list, 0, max, LIST_TRADE));
   do {
-    fgets(buf, MAX_STRING_LENGTH - 1, shop_f);
+    if (!fgets(buf, MAX_STRING_LENGTH - 1, shop_f))
+      data_read_error("shop file", __FILE__, __LINE__);
     if ((ptr = strchr(buf, ';')) != NULL)
       *ptr = 0;
     else
@@ -969,7 +970,8 @@ int read_type_list(FILE * shop_f, struct shop_buy_data * list,
     for (index = 0, num = NOTHING; *item_types[index] != '\n'; index++)
       if (!strn_cmp(item_types[index], buf, strlen(item_types[index]))) {
 	num = index;
-	strcpy(buf, buf + strlen(item_types[index]));
+	memmove(buf, buf + strlen(item_types[index]),
+		strlen(buf + strlen(item_types[index])) + 1);
 	break;
       }
     ptr = buf;

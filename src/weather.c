@@ -110,7 +110,7 @@ void weather_change(void)
     zone_table[i].weather_info.humidity =
 	 MIN(zone_table[i].weather_info.humidity, 100);
     /* winter -- colder temperatures */
-    if ((time_info.month >= 15) && (time_info.month <= 2))
+    if ((time_info.month >= 15) || (time_info.month <= 2))
       zone_table[i].weather_info.temperature -= (dice(2, 5) - dice(1, 5));
     /* spring -- warmer perhaps */
     else if ((time_info.month >= 3) && (time_info.month <= 7))

@@ -185,8 +185,7 @@ char *fread_action(FILE * fl, int nr)
 {
   char buf[MAX_STRING_LENGTH], *rslt;
 
-  fgets(buf, MAX_STRING_LENGTH, fl);
-  if (feof(fl)) {
+  if (!fgets(buf, MAX_STRING_LENGTH, fl) || feof(fl)) {
     plog( "fread_action - unexpected EOF near action #%d", nr);
     exit(1);
   }
@@ -224,7 +223,7 @@ void boot_social_messages(void)
 
   /* now read 'em */
   for (;;) {
-    fscanf(fl, " %s ", next_soc);
+    READ_CHECK(fscanf(fl, " %s ", next_soc), 1, SOCMESS_FILE);
     if (*next_soc == '$')
       break;
     if ((nr = find_command(next_soc)) < 0) {

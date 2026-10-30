@@ -32,7 +32,7 @@ int parse_alignment( char cval );
  */
 void parse_religions( void )
 {
-  int  index = 0, c, line = 1;
+  int  index = 0, c;
   char cval, gval, *p;
   long lval;
   FILE * fl = 0;
@@ -71,22 +71,20 @@ void parse_religions( void )
       c = getc( fl );
       if ( !isspace( c ) && isalpha( c ) ) {
         ungetc( c, fl );
-        fgets( buf2, 128, fl );
+        if ( !fgets( buf2, 128, fl ) )
+          data_read_error( RELIGION_FILE, __FILE__, __LINE__ );
         // get rid of newline character
         if ( (p = strstr( buf2, "\n" )) != NULL )
           buf2[ strlen( buf2 ) - strlen( p ) ] = '\0';
         religions[ index ].name   = strdup( buf2 );
-        line++;
         religions[ index ].abbrev = fread_string( fl, buf2 );
-        line++;
         religions[ index ].brief  = fread_string( fl, buf2 );
-        line++;
         // for the long statement, which may span multiple lines, we
         // know it's over when we find the ~
         buf2[0] = buf[0] = '\0';
         while ( strstr( buf2, "~" ) == NULL) {
-          fgets( buf2, 128, fl );
-          line++;
+          if ( !fgets( buf2, 128, fl ) )
+            data_read_error( RELIGION_FILE, __FILE__, __LINE__ );
           // remove any embedded comments
           if ( (p = strstr( buf2, "#" )) != NULL ) {
             assert( buf2[ p - buf2 ] == '#' );
@@ -99,20 +97,18 @@ void parse_religions( void )
         buf[ strlen( buf ) - 1 ] = '\0';
         religions[ index ].long_desc = strdup( buf );
         religions[ index ].hint   = fread_string( fl, buf2 );
-        line++;
-        fscanf( fl, "%c %c %ld", &gval, &cval, &lval );
+        READ_CHECK(fscanf( fl, "%c %c %ld", &gval, &cval, &lval ), 3, RELIGION_FILE);
         religions[ index ].sex    = UPPER(gval) == 'M' ? SEX_MALE :
           UPPER(gval) == 'F' ? SEX_FEMALE : SEX_NEUTRAL;
         religions[ index ].align  = parse_alignment( cval );
         religions[ index ].temple = lval;
-        line++;
 
         index++;
       } else { /* comment */
-        fread_to_eol( fl ); line++;
+        fread_to_eol( fl );
       }
     } else { /* blank line */
-      fread_to_eol( fl ); line++;
+      fread_to_eol( fl );
     }
   }
 

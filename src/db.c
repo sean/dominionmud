@@ -542,7 +542,8 @@ void build_player_index(void)
   }
 
   for (; !feof(player_fl);) {
-    fread(&dummy, sizeof(struct char_file_u), 1, player_fl);
+    if (fread(&dummy, sizeof(struct char_file_u), 1, player_fl) != 1)
+      break;                    /* end of file (or a partial last record) */
     if (!feof(player_fl)) {     /* new record */
       nr++;
       CREATE(player_table[nr].name, char, strlen(dummy.name) + 1);
@@ -613,14 +614,14 @@ void index_boot(int mode)
   sprintf(buf2, "%s/%s", prefix, index_filename);
 
   if (!(index = fopen(buf2, "r"))) {
-    sprintf(buf1, "Error opening index file '%s'", buf2);
+    SNPRINTF(buf1, sizeof(buf1), "Error opening index file '%s'", buf2);
     perror(buf1);
     exit(1);
   }
   /* first, count the number of records in the file so we can malloc */
-  fscanf(index, "%s\n", buf1);
+  READ_CHECK(fscanf(index, "%s\n", buf1), 1, index_filename);
   while (*buf1 != '$') {
-    sprintf(buf2, "%s/%s", prefix, buf1);
+    SNPRINTF(buf2, sizeof(buf2), "%s/%s", prefix, buf1);
     if (!(db_file = fopen(buf2, "r"))) {
       perror(buf2);
       log("file listed in index not found");
@@ -633,7 +634,7 @@ void index_boot(int mode)
     }
 
     fclose(db_file);
-    fscanf(index, "%s\n", buf1);
+    READ_CHECK(fscanf(index, "%s\n", buf1), 1, index_filename);
   }
 
   /* Exit if 0 records, unless this is shops */
@@ -672,9 +673,9 @@ void index_boot(int mode)
   }
 
   rewind(index);
-  fscanf(index, "%s\n", buf1);
+  READ_CHECK(fscanf(index, "%s\n", buf1), 1, index_filename);
   while (*buf1 != '$') {
-    sprintf(buf2, "%s/%s", prefix, buf1);
+    SNPRINTF(buf2, sizeof(buf2), "%s/%s", prefix, buf1);
     if (!(db_file = fopen(buf2, "r"))) {
       perror(buf2);
       exit(1);
@@ -702,7 +703,7 @@ void index_boot(int mode)
     }
 
     fclose(db_file);
-    fscanf(index, "%s\n", buf1);
+    READ_CHECK(fscanf(index, "%s\n", buf1), 1, index_filename);
   }
 #ifndef OLD_HELP
   /* sort the help index */
@@ -1386,8 +1387,8 @@ void parse_mobile(FILE * mob_f, unsigned long nr)
   assert( mob_f != NULL );
   assert( i < num_of_mobs );
 
-  memset( mob_index + i, 0, sizeof(struct index_data *) );
-  memset( mob_proto + i, 0, sizeof(struct char_data *) );
+  memset( mob_index + i, 0, sizeof(struct index_data) );
+  memset( mob_proto + i, 0, sizeof(struct char_data) );
 
   mob_index[i].vnumber = nr;
   mob_index[i].number  = 0;
@@ -2542,7 +2543,12 @@ int load_char(char *name, struct char_file_u * char_element)
 
   if ((player_i = find_name(name)) >= 0) {
     fseek(player_fl, (long) (player_i * sizeof(struct char_file_u)), SEEK_SET);
-    fread(char_element, sizeof(struct char_file_u), 1, player_fl);
+    if (fread(char_element, sizeof(struct char_file_u), 1, player_fl) != 1) {
+      sprintf(buf, "SYSERR: load_char: unable to read player record %d for %s.",
+              player_i, name);
+      log(buf);
+      return (-1);
+    }
     return (player_i);
   } else
     return (-1);
@@ -3114,7 +3120,8 @@ int file_to_string(char *name, char *buf)
   }
 
   do {
-    fgets(tmp, READ_SIZE, fl);
+    if (!fgets(tmp, READ_SIZE, fl))
+      break;
     tmp[strlen(tmp) - 1] = '\0'; /* take off the trailing \n */
     strcat(tmp, "\r\n");
 
@@ -3481,11 +3488,11 @@ long fread_long(FILE *fp)
   */
 void fread_to_eol(FILE *fp)
 {
-  char c;
+  int c;                        /* int, so EOF can be detected */
   
   do {
     c = getc(fp);
-  } while (c != '\n' && c != '\r');
+  } while (c != '\n' && c != '\r' && c != EOF);
   
   do {
     c = getc(fp);

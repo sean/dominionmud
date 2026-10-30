@@ -25,9 +25,11 @@ struct  key_data
 {
     char        key[20];	/* Increase if you make a key > 20 chars */
     int         string;		/* TRUE for string, FALSE for int        */
-    int         deflt;		/* Default value or pointer              */
+    intptr_t    deflt;		/* Default value or pointer              */
     void *      ptrs[12];	/* Increase if you have > 12 parms/line   */
 };
+
+#include <stdint.h>
 
 #define MAND		3344556	/* Magic # for manditory field           */
 #define SPECIFIED	3344557 /* Key was used already.                 */

@@ -146,7 +146,7 @@ void affect_update(void)
 	      send_to_char(spell_wear_off_msg[af->type], i);
 	      send_to_char("\r\n", i);
 	    }
-	    affect_remove(i, af, TRUE);
+	affect_remove(i, af, TRUE);
       }
     }
     /* Good effects */
@@ -164,7 +164,7 @@ void affect_update(void)
 	      send_to_char(spell_wear_off_msg[af->type], i);
 	      send_to_char("\r\n", i);
 	    }
-	    affect_remove(i, af, FALSE);
+	affect_remove(i, af, FALSE);
       }
     }
   }
@@ -944,7 +944,7 @@ static char *mag_summon_msgs[] = {
   "$N appears from a cloud of thick blue smoke!\r\n",
   "$N appears from a cloud of thick green smoke!\r\n",
   "$N appears from a cloud of thick red smoke!\r\n",
-  "$N disappears in a thick black cloud!\r\n"            /* 6 */
+  "$N disappears in a thick black cloud!\r\n",           /* 6 */
   "As $n makes a strange magical gesture, you feel a strong breeze.\r\n",
   "As $n makes a strange magical gesture, you feel a searing heat.\r\n",
   "As $n makes a strange magical gesture, you feel a sudden chill.\r\n",
@@ -1176,7 +1176,7 @@ void mag_summons(int level, struct char_data * ch, struct obj_data * obj,
       IS_CARRYING_N(mob) = 0;
       SET_BIT(AFF_FLAGS(mob), AFF_CHARM);
       add_follower(mob, ch);
-      act(mag_summon_msgs[fmsg], FALSE, ch, 0, mob, TO_ROOM);
+      act(mag_summon_msgs[msg], FALSE, ch, 0, mob, TO_ROOM);
       /* Clone the victim */
       if (spellnum == SPELL_CLONE) {
         if (GET_NAME(mob))

@@ -2,6 +2,7 @@ board.*
 config.cache
 config.status
 *.o
+*.d
 *.log
 *.alias
 *.objs

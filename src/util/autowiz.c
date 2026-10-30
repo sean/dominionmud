@@ -89,7 +89,8 @@ void read_file(void)
     exit(1);
   }
   while (!feof(fl)) {
-    fread(&player, sizeof(struct char_file_u), 1, fl);
+    if (fread(&player, sizeof(struct char_file_u), 1, fl) != 1)
+      break;
     if (!feof(fl) && player.level >= MIN_LEVEL &&
 	!(IS_SET(player.char_specials_saved.act, PLR_FROZEN)) &&
 	!(IS_SET(player.char_specials_saved.act, PLR_NOWIZLIST)) &&

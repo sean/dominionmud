@@ -73,11 +73,11 @@ void parse_races( void )
       c = getc( fl );
       if ( !isspace( c ) && isalpha( c ) ) {
         ungetc( c, fl );
-        fscanf( fl, "%s\n", buf2 );
+        READ_CHECK(fscanf( fl, "%s\n", buf2 ), 1, RACE_FILE);
         races[ index ].name   = strdup( buf2 );
         races[ index ].abbrev = fread_string( fl, buf2 );
-        fscanf( fl, "%c %c %d\n",
-                &sel, &cval, &ival );
+        READ_CHECK(fscanf( fl, "%c %c %d\n",
+                &sel, &cval, &ival ), 3, RACE_FILE);
         races[ index ].selector = LOWER( sel );
         assert( races[ index ].selector >= 'a' &&
                 races[ index ].selector <= 'z' );
@@ -87,106 +87,106 @@ void parse_races( void )
 
         races[ index ].points.bitvec = 1<<index;
 
-        fscanf( fl, "%d %ld %c",
+        READ_CHECK(fscanf( fl, "%d %ld %c",
                 &(races[ index ].points.regen),
                 &(races[ index ].points.start),
-                &cval );
+                &cval ), 3, RACE_FILE);
         races[ index ].isNPC = ( LOWER( cval ) == 't' ? TRUE : FALSE );
         
         /* incase there are any comments, always read to the end of line */
         fread_to_eol( fl );
 
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.abils.min_str),
-                &(races[ index ].points.abils.max_str) );
+                &(races[ index ].points.abils.max_str) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.abils.min_int),
-                &(races[ index ].points.abils.max_int) );
+                &(races[ index ].points.abils.max_int) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.abils.min_wis),
-                &(races[ index ].points.abils.max_wis) );
+                &(races[ index ].points.abils.max_wis) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.abils.min_dex),
-                &(races[ index ].points.abils.max_dex) );
+                &(races[ index ].points.abils.max_dex) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.abils.min_con),
-                &(races[ index ].points.abils.max_con) );
+                &(races[ index ].points.abils.max_con) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.abils.min_cha),
-                &(races[ index ].points.abils.max_cha) );
+                &(races[ index ].points.abils.max_cha) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.abils.min_wil),
-                &(races[ index ].points.abils.max_wil) );
+                &(races[ index ].points.abils.max_wil) ), 2, RACE_FILE);
         fread_to_eol( fl );
 
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_hi),
-                &(races[ index ].points.points.max_hi) );
+                &(races[ index ].points.points.max_hi) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_da),
-                &(races[ index ].points.points.max_da) );
+                &(races[ index ].points.points.max_da) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_hp),
-                &(races[ index ].points.points.max_hp) );
+                &(races[ index ].points.points.max_hp) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_ma),
-                &(races[ index ].points.points.max_ma) );
+                &(races[ index ].points.points.max_ma) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_mo),
-                &(races[ index ].points.points.max_mo) );
+                &(races[ index ].points.points.max_mo) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_lhp),
-                &(races[ index ].points.points.max_lhp) );
+                &(races[ index ].points.points.max_lhp) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_lma),
-                &(races[ index ].points.points.max_lma) );
+                &(races[ index ].points.points.max_lma) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.min_lmo),
-                &(races[ index ].points.points.max_lmo) );
+                &(races[ index ].points.points.max_lmo) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d",
+        READ_CHECK(fscanf( fl, "%d %d",
                 &(races[ index ].points.points.bage),
-                &(races[ index ].points.points.max_bage) );
+                &(races[ index ].points.points.max_bage) ), 2, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %c",
+        READ_CHECK(fscanf( fl, "%d %c",
                 &(races[ index ].points.points.old_age),
-                &cval );
+                &cval ), 2, RACE_FILE);
         races[ index ].canSpeak = ( LOWER( cval ) == 't' ? TRUE : FALSE );
         fread_to_eol( fl );
 
-        fscanf( fl, "%d %d %d",
+        READ_CHECK(fscanf( fl, "%d %d %d",
                 &(races[ index ].points.size[0].base_height),
                 &(races[ index ].points.size[0].mod_num_height),
-                &(races[ index ].points.size[0].mod_size_height) );
+                &(races[ index ].points.size[0].mod_size_height) ), 3, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d %d",
+        READ_CHECK(fscanf( fl, "%d %d %d",
                 &(races[ index ].points.size[0].base_weight),
                 &(races[ index ].points.size[0].mod_num_weight),
-                &(races[ index ].points.size[0].mod_size_weight) );
+                &(races[ index ].points.size[0].mod_size_weight) ), 3, RACE_FILE);
         fread_to_eol( fl );
 
-        fscanf( fl, "%d %d %d",
+        READ_CHECK(fscanf( fl, "%d %d %d",
                 &(races[ index ].points.size[1].base_height),
                 &(races[ index ].points.size[1].mod_num_height),
-                &(races[ index ].points.size[1].mod_size_height) );
+                &(races[ index ].points.size[1].mod_size_height) ), 3, RACE_FILE);
         fread_to_eol( fl );
-        fscanf( fl, "%d %d %d",
+        READ_CHECK(fscanf( fl, "%d %d %d",
                 &(races[ index ].points.size[1].base_weight),
                 &(races[ index ].points.size[1].mod_num_weight),
-                &(races[ index ].points.size[1].mod_size_weight) );
+                &(races[ index ].points.size[1].mod_size_weight) ), 3, RACE_FILE);
         
         index++;
       } else { /* comment */
@@ -235,8 +235,7 @@ const char * build_race_menu( bool color )
   strcat( rval, "\r\nSelect a race:\r\n" );
   while ( idx < NUM_RACES ) {
     if ( races[ idx ].isNPC != TRUE ) {
-      sprintf( rval, "%s  [%s%c%s] %s\r\n",
-               rval, ( color == TRUE ? KBBL : "" ),
+      sprintf( rval + strlen(rval), "  [%s%c%s] %s\r\n", ( color == TRUE ? KBBL : "" ),
                races[ idx ].selector,
                ( color == TRUE ? KNRM : "" ),
                races[ idx ].name );
@@ -327,69 +326,69 @@ void print_plr_attribs(struct char_data *ch, int points)
 
 #if SHOW_ATTRIBS
     sprintf(buf, "    +-[S]tr +-[I]nt +-[W]is +-[D]ex +-[C]on +-C[H]a +-Wi[L]l [Q]uit [?]Help\r\n");
-    sprintf(buf, "%s       %-2d    %-2d    %-2d    %-2d    %-2d    %-2d   %-2d\r\n", buf,
+    sprintf(buf + strlen(buf), "       %-2d    %-2d    %-2d    %-2d    %-2d    %-2d   %-2d\r\n",
 	    ch->real_abils.str, ch->real_abils.intel, ch->real_abils.wis,
 	    ch->real_abils.dex, ch->real_abils.con, ch->real_abils.cha,
 	    ch->real_abils.will);
-    sprintf(buf, "%sYou have %d points remaining: ", buf, points);
+    sprintf(buf + strlen(buf), "You have %d points remaining: ", points);
 #else
     sprintf(buf, "%sYour attributes are:\r\n", GET_ANSI(ch->desc) == TRUE ? KBCN : "");
     tempb[0] = '\0';
     for (i = 0; i < (ch->real_abils.str / 2); i++)
 	strcat(tempb, "*");
-    sprintf(buf, "%s\r\n+-[%sS%s]tr: %s%s%s\r\n", buf,
+    sprintf(buf + strlen(buf), "\r\n+-[%sS%s]tr: %s%s%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBBL : "", tempb,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
     tempb[0] = '\0';
     for (i = 0; i < (ch->real_abils.intel / 2); i++)
 	strcat(tempb, "*");
-    sprintf(buf, "%s+-[%sI%s]nt: %s%s%s\r\n", buf,
+    sprintf(buf + strlen(buf), "+-[%sI%s]nt: %s%s%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBBL : "", tempb,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
     tempb[0] = '\0';
     for (i = 0; i < (ch->real_abils.wis / 2); i++)
 	strcat(tempb, "*");
-    sprintf(buf, "%s+-[%sW%s]is: %s%s%s\r\n", buf,
+    sprintf(buf + strlen(buf), "+-[%sW%s]is: %s%s%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBBL : "", tempb,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
     tempb[0] = '\0';
     for (i = 0; i < (ch->real_abils.dex / 2); i++)
 	strcat(tempb, "*");
-    sprintf(buf, "%s+-[%sD%s]ex: %s%s%s\r\n", buf,
+    sprintf(buf + strlen(buf), "+-[%sD%s]ex: %s%s%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBBL : "", tempb,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
     tempb[0] = '\0';
     for (i = 0; i < (ch->real_abils.con / 2); i++)
 	strcat(tempb, "*");
-    sprintf(buf, "%s+-[%sC%s]on: %s%s%s\r\n", buf,
+    sprintf(buf + strlen(buf), "+-[%sC%s]on: %s%s%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBBL : "", tempb,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
     tempb[0] = '\0';
     for (i = 0; i < (ch->real_abils.cha / 2); i++)
 	strcat(tempb, "*");
-    sprintf(buf, "%s+-C[%sh%s]a: %s%s%s\r\n", buf,
+    sprintf(buf + strlen(buf), "+-C[%sh%s]a: %s%s%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBBL : "", tempb,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
     tempb[0] = '\0';
     for (i = 0; i < (ch->real_abils.will / 2); i++)
 	strcat(tempb, "*");
-    sprintf(buf, "%s+-Wi[%sl%s]: %s%s%s\r\n", buf,
+    sprintf(buf + strlen(buf), "+-Wi[%sl%s]: %s%s%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBBL : "", tempb,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
-    sprintf(buf, "%s  [%sR%s]eroll base stats (costs 1 point).\r\n", buf,
+    sprintf(buf + strlen(buf), "  [%sR%s]eroll base stats (costs 1 point).\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", GET_ANSI(ch->desc) == TRUE ? KBCN : "");
-    sprintf(buf, "%s\r\nRemaining Points: %s%-2d%s\r\n", buf,
+    sprintf(buf + strlen(buf), "\r\nRemaining Points: %s%-2d%s\r\n",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "", points,
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "");
 #endif
-    sprintf(buf, "%s\r\n([%sQ%s]uit, [%s?%s] Help) Your choice?%s ", buf,
+    sprintf(buf + strlen(buf), "\r\n([%sQ%s]uit, [%s?%s] Help) Your choice?%s ",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "",
 	    GET_ANSI(ch->desc) == TRUE ? KBCN : "",
 	    GET_ANSI(ch->desc) == TRUE ? KYEL : "",

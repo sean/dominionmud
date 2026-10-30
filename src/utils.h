@@ -44,6 +44,25 @@ void plog( char * format, ... );
 
 #define log mud_log
 
+/*
+ * Data files read at boot (races, religions, attributes, ...) must parse
+ * completely.  READ_CHECK aborts the boot with the data file and source
+ * location when a read returns fewer items than expected.
+ */
+/*
+ * Bounded sprintf for messages built from other (possibly large) buffers:
+ * the result is always NUL-terminated, and if it had to be cut short a
+ * SYSERR naming the calling file and line is logged.
+ */
+int  log_snprintf( const char * src, int line, char * dst, size_t size,
+                   const char * fmt, ... ) __attribute__((format(printf, 5, 6)));
+#define SNPRINTF(dst, size, ...) \
+  log_snprintf(__FILE__, __LINE__, (dst), (size), __VA_ARGS__)
+
+void data_read_error( const char * datafile, const char * src, int line );
+#define READ_CHECK(call, want, datafile) \
+  do { if ((call) != (want)) data_read_error((datafile), __FILE__, __LINE__); } while (0)
+
 int store_mud_time( const struct time_info_data * );
 int restore_mud_time( struct time_info_data * );
 
@@ -339,7 +358,7 @@ void    update_pos(struct char_data *victim);
 #define GET_POS(ch)       ((ch)->char_specials.position)
 #define GET_IDNUM(ch)     ((ch)->char_specials.saved.idnum)
 #define IS_CARRYING_W(ch) ((ch)->char_specials.carry_weight + \
-                           IS_IMMORT(ch) ? 0 : (GET_GOLD(ch)/100))
+                           (IS_IMMORT(ch) ? 0 : (GET_GOLD(ch)/100)))
 #define IS_CARRYING_WEIGHT(ch) ((ch)->char_specials.carry_weight)
 #define IS_CARRYING_N(ch) ((ch)->char_specials.carry_items)
 #define FIGHTING(ch)      ((ch)->char_specials.fighting)

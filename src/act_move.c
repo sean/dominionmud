@@ -700,7 +700,7 @@ ACMD(do_enter)
 	    perform_move(ch, door, 1);
 	    return;
 	  }
-    sprintf(buf2, "There is no %s here.\r\n", buf);
+    SNPRINTF(buf2, sizeof(buf2), "There is no %s here.\r\n", buf);
     send_to_char(buf2, ch);
   } else if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_INDOORS))
     send_to_char("You are already indoors.\r\n", ch);

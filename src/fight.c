@@ -145,12 +145,12 @@ void load_messages(void)
     fight_messages[i].msg = 0;
   }
 
-  fgets(chk, 128, fl);
+  if (!fgets(chk, 128, fl)) *chk = '\0';
   while (!feof(fl) && (*chk == '\n' || *chk == '*'))
-    fgets(chk, 128, fl);
+    if (!fgets(chk, 128, fl)) *chk = '\0';
 
   while (*chk == 'M') {
-    fgets(chk, 128, fl);
+    if (!fgets(chk, 128, fl)) *chk = '\0';
     sscanf(chk, " %d\n", &type);
     for (i = 0; (i < MAX_MESSAGES) &&
            (fight_messages[i].a_type != type) &&
@@ -178,9 +178,9 @@ void load_messages(void)
     messages->god_msg.attacker_msg = fread_action(fl, i);
     messages->god_msg.victim_msg = fread_action(fl, i);
     messages->god_msg.room_msg = fread_action(fl, i);
-    fgets(chk, 128, fl);
+    if (!fgets(chk, 128, fl)) *chk = '\0';
     while (!feof(fl) && (*chk == '\n' || *chk == '*'))
-      fgets(chk, 128, fl);
+      if (!fgets(chk, 128, fl)) *chk = '\0';
   }
 
   fclose(fl);

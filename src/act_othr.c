@@ -682,7 +682,6 @@ ACMD(do_use)
 {
   struct char_data *victim;
   struct obj_data *mag_item;
-  int    equipped = 1;
 
   half_chop(argument, arg, buf);
   if (!*arg) {
@@ -699,15 +698,14 @@ ACMD(do_use)
     switch (subcmd) {
     case SCMD_RECITE:
     case SCMD_QUAFF:
-      equipped = 0;
       if (!(mag_item = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-	sprintf(buf2, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+	SNPRINTF(buf2, sizeof(buf2), "You don't seem to have %s %s.\r\n", AN(arg), arg);
 	send_to_char(buf2, ch);
 	return;
       }
       break;
     case SCMD_USE:
-      sprintf(buf2, "You don't seem to be holding %s %s.\r\n", AN(arg), arg);
+      SNPRINTF(buf2, sizeof(buf2), "You don't seem to be holding %s %s.\r\n", AN(arg), arg);
       send_to_char(buf2, ch);
       return;
       break;
@@ -1425,11 +1423,10 @@ ACMD(do_world)
     int i;
 
     sprintf(buf, "Num   Name                          Lvl Rec     Builder       PK/PT\r\n");
-    sprintf(buf, "%s-------------------------------------------------------------------\r\n", buf);
+    sprintf(buf + strlen(buf), "-------------------------------------------------------------------\r\n");
 
     for (i = 0; i <= top_of_zone_table; i++)
-	sprintf(buf, "%s%3d   %-30.30s %-12.12s %-12.12s %s\r\n",
-		buf, zone_table[i].number, zone_table[i].name,
+	sprintf(buf + strlen(buf), "%3d   %-30.30s %-12.12s %-12.12s %s\r\n", zone_table[i].number, zone_table[i].name,
 		zone_table[i].levelrec, zone_table[i].builder,
 		((zone_table[i].pkill == 1) ? "Yes" : "No"));
 
@@ -1544,10 +1541,10 @@ void practice(struct char_data *ch,
 	       continue;
 	     if (spell_info[j].percent > oldskill &&
 		 spell_info[j].percent <= GET_SKILL(ch, skill_num))
-	       sprintf(buf, "%sYou learn about %s.\r\n", buf, spells[j]);
+	       sprintf(buf + strlen(buf), "You learn about %s.\r\n", spells[j]);
 	   }
 	 }
-	 sprintf(buf, "%sYou now have %d practices left.\r\n", buf, GET_PRACTICES(ch));
+	 sprintf(buf + strlen(buf), "You now have %d practices left.\r\n", GET_PRACTICES(ch));
 	 send_to_char(buf, ch);
        }
      } else if ((GET_SKILL(ch, sphere) >= spell_info[skill_num].percent) &&

@@ -122,7 +122,10 @@ void read_from_file(void *buf, int size, long filepos)
     return;
   }
   fseek(mail_file, filepos, SEEK_SET);
-  fread(buf, size, 1, mail_file);
+  if (fread(buf, size, 1, mail_file) != 1) {
+    log("SYSERR: Mail system -- unable to read mail file block.");
+    no_mail = 1;
+  }
   fclose(mail_file);
   return;
 }

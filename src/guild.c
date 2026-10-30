@@ -382,7 +382,7 @@ ACMD(do_accept)
      strcpy(buf, "Current petitioners are:\r\n");
      for (i = 0; i < 20; i++) {
        if (gptr->petitioners[i] != NULL)
-	 sprintf(buf, "%s%s%s", buf, gptr->petitioners[i],
+	 sprintf(buf + strlen(buf), "%s%s", gptr->petitioners[i],
 		  ((i+1) % 5 ? "\r\n" : " "));
      }
      strcat(buf,  "Whom do you wish to accept into the guild?\r\n");
@@ -487,7 +487,7 @@ ACMD(do_reject)
      strcpy(buf, "Current petitioners are:\r\n");
      for (i = 0; i < 20; i++) {
 	if (gptr->petitioners[i] != NULL)
-	  sprintf(buf, "%s%s%s", buf, gptr->petitioners[i],
+	  sprintf(buf + strlen(buf), "%s%s", gptr->petitioners[i],
 		  ((i+1) % 5 ? "\r\n" : " "));
      }
      strcat(buf,  "Whom do you wish to reject from the guild?\r\n");
@@ -751,8 +751,7 @@ ACMD(do_guild)
      send_to_char("___________________________________________",ch);
      send_to_char("\r\n\r\n",ch);
      sprintf(buf, "Other members of %s", gptr->name);
-     sprintf(buf, "%s...\r\n___________________________________________%s\r\n\r\n",
-	    buf, CCNRM(ch, C_NRM));
+     sprintf(buf + strlen(buf), "...\r\n___________________________________________%s\r\n\r\n", CCNRM(ch, C_NRM));
      send_to_char(buf, ch);
      /* Go through the entire list of players color coding those who are on */
      for (j = 0; j < top_of_p_table; j++) {

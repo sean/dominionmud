@@ -127,7 +127,7 @@ ACMD(do_send)
   if (PRF_FLAGGED(ch, PRF_NOREPEAT))
     send_to_char("Sent.\r\n", ch);
   else {
-    sprintf(buf2, "You send '%s' to %s.\r\n", buf, GET_NAME(vict));
+    SNPRINTF(buf2, sizeof(buf2), "You send '%s' to %s.\r\n", buf, GET_NAME(vict));
     send_to_char(buf2, ch);
   }
 }
@@ -406,12 +406,12 @@ void do_stat_room(struct char_data * ch)
   send_to_char(buf, ch);
 
   sprinttype(rm->sector_type, sector_types, buf2);
-  sprintf(buf, "Zone: [%3d], VNum: [%s%8ld%s], RNum: [%8ld], Type: %s\r\n",
+  SNPRINTF(buf, sizeof(buf), "Zone: [%3d], VNum: [%s%8ld%s], RNum: [%8ld], Type: %s\r\n",
 	  rm->zone, CCGRN(ch, C_NRM), rm->number, CCNRM(ch, C_NRM), ch->in_room, buf2);
   send_to_char(buf, ch);
 
   sprintbit((long) rm->room_flags, room_bits, buf2);
-  sprintf(buf, "SpecProc: %s, Flags: %s\r\n",
+  SNPRINTF(buf, sizeof(buf), "SpecProc: %s, Flags: %s\r\n",
 	  (rm->func == NULL) ? "None" : "Exists", buf2);
   send_to_char(buf, ch);
 
@@ -478,7 +478,7 @@ void do_stat_room(struct char_data * ch)
 	sprintf(buf1, "%s%ld%s", CCCYN(ch, C_NRM),
 		world[rm->dir_option[i]->to_room].number, CCNRM(ch, C_NRM));
       sprintbit(rm->dir_option[i]->exit_info, exit_bits, buf2);
-      sprintf(buf, "Exit %s%-5s%s:  To: [%s], Key: [%ld], Keywrd: %s, Type: %s\r\n ",
+      SNPRINTF(buf, sizeof(buf), "Exit %s%-5s%s:  To: [%s], Key: [%ld], Keywrd: %s, Type: %s\r\n ",
 	      CCCYN(ch, C_NRM), dirs[i], CCNRM(ch, C_NRM), buf1, rm->dir_option[i]->key,
 	   rm->dir_option[i]->keyword ? rm->dir_option[i]->keyword : "None",
 	      buf2);
@@ -512,7 +512,7 @@ void do_stat_object(struct char_data * ch, struct obj_data * j)
     strcpy(buf2, (obj_index[GET_OBJ_RNUM(j)].func ? "Exists" : "None"));
   else
     strcpy(buf2, "None");
-  sprintf(buf, "VNum: [%s%8ld%s], RNum: [%8ld], Type: %s, SpecProc: %s\r\n",
+  SNPRINTF(buf, sizeof(buf), "VNum: [%s%8ld%s], RNum: [%8ld], Type: %s, SpecProc: %s\r\n",
    CCGRN(ch, C_NRM), vnumber, CCNRM(ch, C_NRM), GET_OBJ_RNUM(j), buf1, buf2);
   send_to_char(buf, ch);
   sprintf(buf, "L-Des: %s\r\n", ((j->description) ? j->description : "None"));
@@ -718,7 +718,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
   send_to_char(buf, ch);
 
   sprintf(buf, "Keywords: %s\r\n", GET_KWDS(k) ? GET_KWDS(k) : "<None>");
-  sprintf(buf, "%sL-Des: %s %s\r\n", buf, 
+  sprintf(buf + strlen(buf), "L-Des: %s %s\r\n", 
 	  (GET_RDESC(k) ? GET_RDESC(k) : "<None>"),
 	  (GET_RDESC(k) ? "is standing here." : ""));
   send_to_char(buf, ch);
@@ -730,7 +730,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
   while (gptr && gptr->number != GET_GUILD(k))
     gptr = gptr->next;
   if (gptr != NULL)
-    sprintf(buf, "%s  Guild: %s  Guild Lev: %d", buf, 
+    sprintf(buf + strlen(buf), "  Guild: %s  Guild Lev: %d", 
 		gptr->name ? gptr->name : "Unknown!", GET_GUILD_LEV(k));
 
   sprintf(buf2, "\r\nLev: [%s%2d%s], XP: [%s%ld%s], Align: [%4d], PAlign: %s\r\n",
@@ -755,8 +755,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 	  GET_HOMETOWN(k), GET_PRACTICES(k), int_app[GET_INT(k)].learn,
 	  wis_app[GET_WIS(k)].bonus, GET_HANDEDNESS(ch) ? "Right" : "Left", GET_OLC_ZONE(k) ? GET_OLC_ZONE(k) : -1);
   }
-  sprintf(buf, "%sSt: [%s%d/%d%s], In: [%s%d%s], Wi: [%s%d%s], De: [%s%d%s], Co: [%s%d%s], Ch: [%s%d%s], Wl: [%s%d%s]\r\n",
-	  buf, CCCYN(ch, C_NRM), GET_STR(k), GET_ADD(k), CCNRM(ch, C_NRM),
+  sprintf(buf + strlen(buf), "St: [%s%d/%d%s], In: [%s%d%s], Wi: [%s%d%s], De: [%s%d%s], Co: [%s%d%s], Ch: [%s%d%s], Wl: [%s%d%s]\r\n", CCCYN(ch, C_NRM), GET_STR(k), GET_ADD(k), CCNRM(ch, C_NRM),
 	  CCCYN(ch, C_NRM), GET_INT(k), CCNRM(ch, C_NRM),
 	  CCCYN(ch, C_NRM), GET_WIS(k), CCNRM(ch, C_NRM),
 	  CCCYN(ch, C_NRM), GET_DEX(k), CCNRM(ch, C_NRM),
@@ -832,7 +831,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 	  IS_CARRYING_W(k), CAN_CARRY_W(k), IS_CARRYING_N(k), CAN_CARRY_N(k));
 
   for (i = 0, j = k->carrying; j; j = j->next_content, i++);
-  sprintf(buf, "%sItems in: inventory: %d, ", buf, i);
+  sprintf(buf + strlen(buf), "Items in: inventory: %d, ", i);
 
   for (i = 0, i2 = 0; i < NUM_WEARS; i++)
     if (GET_EQ(k, i))
@@ -1858,13 +1857,13 @@ ACMD(do_wiznet)
 	  sprintf(buf1, "Gods online:\r\n");
 	  any = TRUE;
 	}
-	sprintf(buf1, "%s  %s", buf1, GET_NAME(d->character));
+	sprintf(buf1 + strlen(buf1), "  %s", GET_NAME(d->character));
 	if (PLR_FLAGGED(d->character, PLR_WRITING))
-	  sprintf(buf1, "%s (Writing)\r\n", buf1);
+	  sprintf(buf1 + strlen(buf1), " (Writing)\r\n");
 	else if (PLR_FLAGGED(d->character, PLR_MAILING))
-	  sprintf(buf1, "%s (Writing mail)\r\n", buf1);
+	  sprintf(buf1 + strlen(buf1), " (Writing mail)\r\n");
 	else
-	  sprintf(buf1, "%s\r\n", buf1);
+	  sprintf(buf1 + strlen(buf1), "\r\n");
 
       }
     }
@@ -1874,10 +1873,10 @@ ACMD(do_wiznet)
 	  PRF_FLAGGED(d->character, PRF_NOWIZ) &&
 	  CAN_SEE(ch, d->character)) {
 	if (!any) {
-	  sprintf(buf1, "%sGods offline:\r\n", buf1);
+	  sprintf(buf1 + strlen(buf1), "Gods offline:\r\n");
 	  any = TRUE;
 	}
-	sprintf(buf1, "%s  %s\r\n", buf1, GET_NAME(d->character));
+	sprintf(buf1 + strlen(buf1), "  %s\r\n", GET_NAME(d->character));
       }
     }
     send_to_char(buf1, ch);
@@ -2021,7 +2020,7 @@ ACMD(do_gen_vfile)
      sprintf(buf2, "%s\r\n\r\n", CLEAR_RESET);
 
    while (fgets(syscom, 120, pfp) != NULL){
-      sprintf(buf2, "%s%s\r", buf2, syscom);
+      sprintf(buf2 + strlen(buf2), "%s\r", syscom);
    }
    page_string(ch->desc, buf2, 0);
    pclose(pfp);
@@ -2175,7 +2174,7 @@ void show_orgs(struct char_data *ch, char *value, int type)
 #if 0                
 	     }
 	     else if (player.assocs[1] == j) {
-		sprintf(org_list, "%s%s %s\r\n", org_list, player.name, player.title);
+		sprintf(org_list + strlen(org_list), "%s %s\r\n", player.name, player.title);
 		members++;
 	     }
 #endif
@@ -2185,21 +2184,20 @@ void show_orgs(struct char_data *ch, char *value, int type)
 		return;
 	     }
 	     else if (player.assocs[0] == j) {
-		sprintf(org_list, "%s%s %s\r\n", org_list, player.name, player.title);
+		sprintf(org_list + strlen(org_list), "%s %s\r\n", player.name, player.title);
 		members++;
 	     }
 	  }
        }
    }
    if (type != 1)
-     CAP(value);
-   sprintf(tempbuf, "Members of %s%s %s.\r\n", type ? buf : value,
+     *value = UPPER(*value);
+   SNPRINTF(tempbuf, sizeof(tempbuf), "Members of %s%s %s.\r\n", type ? buf : value,
 	   ((type == 0) ? "'s" : ""), ((type == 0) ? "Religion" : ""));
-   sprintf(tempbuf, "%s~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n", tempbuf);
+   sprintf(tempbuf + strlen(tempbuf), "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n");
    send_to_char(tempbuf, ch);
    percent = (members/total)*100;
-   sprintf(org_list, "%s\r\n%3.1f%% of the players in the game are in this %s.\r\n",
-	  org_list, percent, (type == 0 ? "religion" : "guild"));
+   sprintf(org_list + strlen(org_list), "\r\n%3.1f%% of the players in the game are in this %s.\r\n", percent, (type == 0 ? "religion" : "guild"));
    page_string(ch->desc, org_list, 1);
    return;
 }
@@ -2212,8 +2210,7 @@ void show_print_guilds(struct char_data *ch)
 
    strcpy(buf, "Guilds:\r\n");
    while (gptr != NULL) {
-     sprintf(buf, "%s[%2d] %-40.40s\t\t-- (%ld) %s\r\n",
-	     buf, gptr->number, gptr->name, 
+     sprintf(buf + strlen(buf), "[%2d] %-40.40s\t\t-- (%ld) %s\r\n", gptr->number, gptr->name, 
 	     gptr->guild_entr_room, gptr->leadersname);
      for (i = 0; i < MAX_PETITIONERS; i++) {
        if (gptr->petitioners[i] != NULL) {
@@ -2221,11 +2218,11 @@ void show_print_guilds(struct char_data *ch)
            first = FALSE;
            strcat(buf, "     Petitioners: ");
          }
-	 sprintf(buf, "%s%s ", buf, gptr->petitioners[i]);
+	 sprintf(buf + strlen(buf), "%s ", gptr->petitioners[i]);
        }
      }
      if (!first)
-       sprintf(buf, "%s\r\n", buf);
+       sprintf(buf + strlen(buf), "\r\n");
      
      gptr = gptr->next;
      first = TRUE;
@@ -2239,8 +2236,7 @@ void show_print_guilds(struct char_data *ch)
 
 void print_zone_to_buf(char *bufptr, int zone)
 {
-  sprintf(bufptr, "%s%3d %-30.30s Age: %3d; Reset: %3d (%1d); Top: %ld\r\n",
-	  bufptr, zone_table[zone].number, zone_table[zone].name,
+  sprintf(bufptr + strlen(bufptr), "%3d %-30.30s Age: %3d; Reset: %3d (%1d); Top: %ld\r\n", zone_table[zone].number, zone_table[zone].name,
 	  zone_table[zone].age, zone_table[zone].lifespan,
 	  zone_table[zone].reset_mode, zone_table[zone].top);
 }
@@ -2285,7 +2281,7 @@ ACMD(do_show)
     strcpy(buf, "Show options:\r\n");
     for (j = 0, i = 1; fields[i].level; i++)
       if (fields[i].level <= GET_MAX_LEVEL(ch))
-	sprintf(buf, "%s%-15s%s", buf, fields[i].cmd, (!(++j % 5) ? "\r\n" : ""));
+	sprintf(buf + strlen(buf), "%-15s%s", fields[i].cmd, (!(++j % 5) ? "\r\n" : ""));
     strcat(buf, "\r\n");
     send_to_char(buf, ch);
     return;
@@ -2335,15 +2331,13 @@ ACMD(do_show)
     sprintf(buf, "Player: %-12s (%s) [%2d %s]\r\n", vbuf.name,
             genders[(int) vbuf.sex], vbuf.level,
             races[ vbuf.race].abbrev );
-    sprintf(buf,
-	 "%sAu: %-ld  Bal: %-ld  Exp: %-ld  Align: %-5d  Lessons: %-3d\r\n",
-	    buf, vbuf.points.gold, vbuf.points.bank_gold, vbuf.points.exp,
+    sprintf(buf + strlen(buf),
+	 "Au: %-ld  Bal: %-ld  Exp: %-ld  Align: %-5d  Lessons: %-3d\r\n", vbuf.points.gold, vbuf.points.bank_gold, vbuf.points.exp,
 	    vbuf.char_specials_saved.alignment,
 	    vbuf.player_specials_saved.spells_to_learn);
     strcpy(birth, ctime(&vbuf.birth));
-    sprintf(buf,
-	    "%sStarted: %-20.16s  Last: %-20.16s  Played: %3dh %2dm\r\n",
-	    buf, birth, ctime(&vbuf.last_logon), (int) (vbuf.played / 3600),
+    sprintf(buf + strlen(buf),
+	    "Started: %-20.16s  Last: %-20.16s  Played: %3dh %2dm\r\n", birth, ctime(&vbuf.last_logon), (int) (vbuf.played / 3600),
 	    (int) (vbuf.played / 60 % 60));
     send_to_char(buf, ch);
     break;
@@ -2367,16 +2361,13 @@ ACMD(do_show)
     for (obj = object_list; obj; obj = obj->next)
       k++;
     sprintf(buf, "Current stats:\r\n");
-    sprintf(buf, "%s  %5ld players in game  %5ld connected\r\n", buf, i, con);
-    sprintf(buf, "%s  %5d registered\r\n", buf, top_of_p_table + 1);
-    sprintf(buf, "%s  %5ld mobiles          %5ld prototypes\r\n",
-	    buf, j, top_of_mobt + 1);
-    sprintf(buf, "%s  %5ld objects          %5ld prototypes\r\n",
-	    buf, k, top_of_objt + 1);
-    sprintf(buf, "%s  %5ld rooms            %5d zones\r\n",
-	    buf, top_of_world + 1, top_of_zone_table + 1);
-    sprintf(buf, "%s  %5d large bufs\r\n", buf, buf_largecount);
-    sprintf(buf, "%s  %5d buf switches     %5d overflows\r\n", buf,
+    sprintf(buf + strlen(buf), "  %5ld players in game  %5ld connected\r\n", i, con);
+    sprintf(buf + strlen(buf), "  %5d registered\r\n", top_of_p_table + 1);
+    sprintf(buf + strlen(buf), "  %5ld mobiles          %5ld prototypes\r\n", j, top_of_mobt + 1);
+    sprintf(buf + strlen(buf), "  %5ld objects          %5ld prototypes\r\n", k, top_of_objt + 1);
+    sprintf(buf + strlen(buf), "  %5ld rooms            %5d zones\r\n", top_of_world + 1, top_of_zone_table + 1);
+    sprintf(buf + strlen(buf), "  %5d large bufs\r\n", buf_largecount);
+    sprintf(buf + strlen(buf), "  %5d buf switches     %5d overflows\r\n",
 	    buf_switches, buf_overflows);
     send_to_char(buf, ch);
     break;
@@ -2385,7 +2376,7 @@ ACMD(do_show)
     for (i = 0, k = 0; i <= top_of_world; i++)
       for (j = 0; j < NUM_OF_DIRS; j++)
 	if (world[i].dir_option[j] && world[i].dir_option[j]->to_room == 0)
-	  sprintf(buf, "%s%2d: [%ld] %s\r\n", buf, (int) ++k, world[i].number,
+	  sprintf(buf + strlen(buf), "%2d: [%ld] %s\r\n", (int) ++k, world[i].number,
 		  world[i].name);
     send_to_char(buf, ch);
     break;
@@ -2393,7 +2384,7 @@ ACMD(do_show)
     strcpy(buf, "Death Traps\r\n-----------\r\n");
     for (i = 0, j = 0; i <= top_of_world; i++)
       if (IS_SET(ROOM_FLAGS(i), ROOM_DEATH))
-	sprintf(buf, "%s%2d: [%ld] %s\r\n", buf, (int) ++j,
+	sprintf(buf + strlen(buf), "%2d: [%ld] %s\r\n", (int) ++j,
 		world[i].number, world[i].name);
     send_to_char(buf, ch);
     break;
@@ -2402,10 +2393,10 @@ ACMD(do_show)
     strcpy(buf, "Godrooms\r\n--------------------------\r\n");
     for (i = 0, j = 0; i < top_of_world; i++) {
       if (world[i].zone == GOD_ROOMS_ZONE)
-	sprintf(buf, "%s%2d: [%ld] %s\r\n", buf, (int) j++, world[i].number,
+	sprintf(buf + strlen(buf), "%2d: [%ld] %s\r\n", (int) j++, world[i].number,
 		world[i].name);
       else if (IS_SET(world[i].room_flags, ROOM_GODROOM))
-	sprintf(buf, "%s%2d: [%ld] %s\r\n", buf, (int) j++, world[i].number,
+	sprintf(buf + strlen(buf), "%2d: [%ld] %s\r\n", (int) j++, world[i].number,
 		world[i].name);
     }
     send_to_char(buf, ch);
@@ -2459,7 +2450,7 @@ ACMD(do_set)
   struct guild_type *gptr = NULL;
   char   field[MAX_INPUT_LENGTH], name[MAX_INPUT_LENGTH], val_arg[MAX_INPUT_LENGTH];
   long   value = 0;
-  char   is_file = 0, is_mob = 0, is_player = 0;
+  char   is_file = 0, is_player = 0;
 
   int parse_race(char arg);
 
@@ -2535,7 +2526,6 @@ ACMD(do_set)
     is_player = 1;
     half_chop(buf, name, buf);
   } else if (!str_cmp(name, "mob")) {
-    is_mob = 1;
     half_chop(buf, name, buf);
   }
   half_chop(buf, field, buf);
@@ -2548,8 +2538,13 @@ ACMD(do_set)
   if (!*field) {
     send_to_char("Usage: set <victim> <field> <value>\r\n", ch);
     strcpy(buf, "Fielding being one of:\r\n");
-    while (fields[i].cmd[0] != '\n')
-      sprintf(buf, "%s%s", fields[i].cmd, ((++i) % 3) ? "\t" : "\r\n");
+    while (fields[i].cmd[0] != '\n') {
+      sprintf(buf + strlen(buf), "%s%s", fields[i].cmd,
+              ((i + 1) % 3) ? "\t" : "\r\n");
+      i++;
+    }
+    strcat(buf, "\r\n");
+    send_to_char(buf, ch);
     return;
   }
   if (!is_file) {
@@ -2883,7 +2878,7 @@ ACMD(do_set)
       send_to_char("That is not a valid guild number.\r\n", ch);
       strcpy(buf, "Valid guilds are:\r\n");
       for (i = 0, gptr = guild_info; gptr && i < num_of_guilds; gptr = gptr->next, i++) {
-	sprintf(buf, "%s%d) %s%s", buf, i, gptr->name, (i+1) % 2 ? "\r\n" : "\t");
+	sprintf(buf + strlen(buf), "%d) %s%s", i, gptr->name, (i+1) % 2 ? "\r\n" : "\t");
       }
       send_to_char(buf, ch);
       return;
@@ -2982,7 +2977,7 @@ ACMD(do_olist)
      if ((obj_index[nr].vnumber >= start) && (obj_index[nr].vnumber <= end))
      {
        f = TRUE;
-       sprintf(buf, "%s%3d. [%ld] %s\r\n", buf, ++found,
+       sprintf(buf + strlen(buf), "%3d. [%ld] %s\r\n", ++found,
 	       obj_index[nr].vnumber,
 	       obj_proto[nr].short_description);
      }
@@ -2990,7 +2985,7 @@ ACMD(do_olist)
    if (f == FALSE)
      send_to_char("Sorry, there are no objs in that zone.", ch);
    else {
-     sprintf(buf, "%s** %d Objects found in Zone %d\r\n", buf, found, (start/100));
+     sprintf(buf + strlen(buf), "** %d Objects found in Zone %d\r\n", found, (start/100));
      page_string(ch->desc, buf, 0);
    }
 }
@@ -3015,7 +3010,7 @@ ACMD(do_rlist)
    for (ii = 0; ii <= top_of_world; ii++)
      if (world[ii].zone == k) {
        found = TRUE;
-       sprintf(buf, "%s[%ld] %s\r\n", buf, world[ii].number, world[ii].name);
+       sprintf(buf + strlen(buf), "[%ld] %s\r\n", world[ii].number, world[ii].name);
      }
 
    if (found == FALSE)
@@ -3049,7 +3044,7 @@ ACMD (do_mlist)
    for (nr = 0; nr <= top_of_mobt; nr++) {
      if ((mob_index[nr].vnumber >= start) && (mob_index[nr].vnumber <= end)) {
        f = TRUE;
-       sprintf(buf, "%s%3d. [%ld] %s\r\n", buf, ++found,
+       sprintf(buf + strlen(buf), "%3d. [%ld] %s\r\n", ++found,
 	       mob_index[nr].vnumber,
 	       mob_proto[nr].player.short_descr);
      }
@@ -3057,7 +3052,7 @@ ACMD (do_mlist)
    if (f == FALSE)
      send_to_char("Sorry, there are no mobs in that zone.", ch);
    else {
-     sprintf(buf, "%s** %d Mobiles found in Zone %d\r\n", buf, found, (start/100));
+     sprintf(buf + strlen(buf), "** %d Mobiles found in Zone %d\r\n", found, (start/100));
      page_string(ch->desc, buf, 0);
    }
 }
@@ -3114,10 +3109,11 @@ ACMD(do_copyover)
   sprintf(buf, "%d", port);
   sprintf(buf2, "-C%d", mother_desc);
   if ( mini_mud )
-    sprintf( buf2, "%s -m", buf2 );
+    sprintf( buf2 + strlen(buf2), " -m");
   
   /* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
-  chdir("..");
+  if (chdir("..") < 0)
+    perror("do_copyover: chdir");
   
   execl(EXE_FILE, "dominion", buf2, buf, (char *)NULL);
   

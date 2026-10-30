@@ -314,14 +314,14 @@ ACMD(do_spec_comm)
   else if (IS_AFFECTED2(ch, AFF_SILENCE))
     send_to_char("Your throat is too tight to get the words out.\r\n", ch);
   else {
-    sprintf(buf, "$n %s you, '%s'", action_plur, buf2);
+    SNPRINTF(buf, sizeof(buf), "$n %s you, '%s'", action_plur, buf2);
     act(buf, FALSE, ch, 0, vict, TO_VICT);
     if (IS_NPC(vict))
       mprog_speech_trigger(buf2, vict);
     if (PRF_FLAGGED(ch, PRF_NOREPEAT))
       send_to_char(OK, ch);
     else {
-      sprintf(buf, "You %s %s, '%s'\r\n", action_sing, GET_NAME(vict), buf2);
+      SNPRINTF(buf, sizeof(buf), "You %s %s, '%s'\r\n", action_sing, GET_NAME(vict), buf2);
       act(buf, FALSE, ch, 0, 0, TO_CHAR);
     }
     act(action_others, FALSE, ch, 0, vict, TO_NOTVICT);
@@ -350,18 +350,18 @@ ACMD(do_write)
   }
   if (*penname) {               /* there were two arguments */
     if (!(paper = get_obj_in_list_vis(ch, papername, ch->carrying))) {
-      sprintf(buf, "You have no %s.\r\n", papername);
+      SNPRINTF(buf, sizeof(buf), "You have no %s.\r\n", papername);
       send_to_char(buf, ch);
       return;
     }
     if (!(pen = get_obj_in_list_vis(ch, penname, ch->carrying))) {
-      sprintf(buf, "You have no %s.\r\n", penname);
+      SNPRINTF(buf, sizeof(buf), "You have no %s.\r\n", penname);
       send_to_char(buf, ch);
       return;
     }
   } else {              /* there was one arg.. let's see what we can find */
     if (!(paper = get_obj_in_list_vis(ch, papername, ch->carrying))) {
-      sprintf(buf, "There is no %s in your inventory.\r\n", papername);
+      SNPRINTF(buf, sizeof(buf), "There is no %s in your inventory.\r\n", papername);
       send_to_char(buf, ch);
       return;
     }
@@ -374,7 +374,7 @@ ACMD(do_write)
     }
     /* One object was found.. now for the other one. */
     if (!GET_EQ(ch, WEAR_WIELD) && !GET_EQ(ch, WEAR_HOLD)) {
-      sprintf(buf, "You can't write with %s %s alone.\r\n", AN(papername),
+      SNPRINTF(buf, sizeof(buf), "You can't write with %s %s alone.\r\n", AN(papername),
 	      papername);
       send_to_char(buf, ch);
       return;
@@ -427,7 +427,7 @@ ACMD(do_page)
   else if (!*arg)
     send_to_char("Whom do you wish to page?\r\n", ch);
   else {
-    sprintf(buf, "*%s*\007\007 %s\007\007\r\n", GET_NAME(ch), buf2);
+    SNPRINTF(buf, sizeof(buf), "*%s*\007\007 %s\007\007\r\n", GET_NAME(ch), buf2);
     if (!str_cmp(arg, "all")) {
       if (GET_LEVEL(ch) > LVL_GOD) {
 	for (d = descriptor_list; d; d = d->next)

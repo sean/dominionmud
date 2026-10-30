@@ -1632,6 +1632,8 @@ struct txt_q {
 struct descriptor_data {
    int  descriptor;             /* file descriptor for socket           */
    char host[HOST_LENGTH+1];    /* hostname                             */
+   char last_host[HOST_LENGTH+1]; /* site of this player's previous logon */
+   time_t last_logon;           /* previous logon time; 0 if none known  */
    byte bad_pws;                /* number of bad pw attemps this login  */
    byte idle_tics;              /* tics idle at password prompt         */
    int  connected;              /* mode of 'connectedness'              */

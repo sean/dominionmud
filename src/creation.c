@@ -942,12 +942,12 @@ void zedit_create_index(int znum, char *type)
   sprintf(new_name, "%s/newindex", prefix);
 
   if (!(oldfile = fopen(old_name, "r"))) {
-    sprintf(buf, "SYSERR: OLC: Failed to open %s", buf);
+    snprintf(buf, sizeof(buf), "SYSERR: OLC: Failed to open %s", old_name);
     mudlog(buf, BRF, LVL_IMPL, TRUE);
     return;
   }
   if (!(newfile = fopen(new_name, "w+"))) {
-    sprintf(buf, "SYSERR: OLC: Failed to open %s", buf);
+    sprintf(buf, "SYSERR: OLC: Failed to open %s", new_name);
     mudlog(buf, BRF, LVL_IMPL, TRUE);
     return;
   }
@@ -1095,7 +1095,7 @@ void zedit_save_to_disk(struct descriptor_data *d)
 	zone_table[OLC_ZNUM(d)].reset_mode,
 	time_and_date, GET_NAME(d->character)
   );
-  fprintf(zfile, buf);
+  fputs(buf, zfile);
 
   for (cmd_no = 0; ZCMD.command != 'S'; cmd_no++) {
     switch (ZCMD.command) {
@@ -1314,10 +1314,9 @@ int start_change_command(struct descriptor_data *d, int pos)
 void zedit_disp_menu(struct descriptor_data * d)
 {
    int cmd_no = 0;
-   long room, counter = 0;
+   long counter = 0;
 
    get_char_cols(d->character);
-   room = real_room(OLC_NUM(d));
 
    /*. Menu header .*/
    sprintf(buf,
@@ -2498,7 +2497,7 @@ void redit_disp_flag_menu(struct descriptor_data * d)
      send_to_char(buf, d->character);
    }
    sprintbit(OLC_ROOM(d)->room_flags, room_bits, buf1);
-   sprintf(buf,
+   SNPRINTF(buf, sizeof(buf),
 	"\r\nRoom flags: %s%s%s\r\n"
 	"Enter room flags, 0 to quit : ",
 	cyn, buf1, nrm
@@ -2560,7 +2559,7 @@ void redit_disp_menu(struct descriptor_data * d)
 
    sprintbit((long) room->room_flags, room_bits, buf1);
    sprinttype(room->sector_type, sector_types, buf2);
-   sprintf(buf,
+   SNPRINTF(buf, sizeof(buf),
 	"[H[J"
 	"-- Room number : [%s%ld%s]  	Room zone: [%s%d%s]\r\n"
 	"%s1%s) Name        : %s%s\r\n"
@@ -3510,7 +3509,7 @@ void medit_disp_mob_flags(struct descriptor_data *d)
     send_to_char(buf, d->character);
   }
   sprintbit(MOB_FLAGS(OLC_MOB(d)), action_bits, buf1);
-  sprintf(buf, "\r\n"
+  SNPRINTF(buf, sizeof(buf), "\r\n"
 	"Current flags : %s%s%s\r\n"
 	"Enter mob flags (0 to quit) : ",
 	cyn, buf1, nrm);
@@ -3534,7 +3533,7 @@ void medit_disp_aff_flags(struct descriptor_data *d)
     send_to_char(buf, d->character);
   }
   sprintbit(AFF_FLAGS(OLC_MOB(d)), affected_bits, buf1);
-  sprintf(buf, "\r\n"
+  SNPRINTF(buf, sizeof(buf), "\r\n"
 	"Current flags   : %s%s%s\r\n"
 	"Enter aff flags (0 to quit) : ",
 	cyn, buf1, nrm);
@@ -3595,7 +3594,7 @@ void medit_disp_menu(struct descriptor_data * d)
 
   sprintbit(MOB_FLAGS(mob), action_bits, buf1);
   sprintbit(AFF_FLAGS(mob), affected_bits, buf2);
-  sprintf(buf,
+  SNPRINTF(buf, sizeof(buf),
 	"%sJ%s) Position  : %s%s\r\n"
 	"%sK%s) Default   : %s%s\r\n"
 	"%sL%s) Attack    : %s%s\r\n"
@@ -4010,43 +4009,36 @@ void medit_parse(struct descriptor_data * d, char *arg)
 	 case 's':
 	 case 'S':
 	   OLC_MODE(d) = MEDIT_STR;
-	   ++i;
 	   send_to_char("Enter new value: ", d->character);
 	   break;
 	 case 'd':
 	 case 'D':
 	   OLC_MODE(d) = MEDIT_DEX;
-	   ++i;
 	   send_to_char("Enter new value: ", d->character);
 	   break;
 	 case 'i':
 	 case 'I':
 	   OLC_MODE(d) = MEDIT_INT;
-	   ++i;
 	   send_to_char("Enter new value: ", d->character);
 	   break;
 	 case 'w':
 	 case 'W':
 	   OLC_MODE(d) = MEDIT_WIS;
-	   ++i;
 	   send_to_char("Enter new value: ", d->character);
 	   break;
 	 case 'c':
 	 case 'C':
 	   OLC_MODE(d) = MEDIT_CON;
-	   ++i;
 	   send_to_char("Enter new value: ", d->character);
 	   break;
 	 case 'h':
 	 case 'H':
 	   OLC_MODE(d) = MEDIT_CHA;
-	   ++i;
 	   send_to_char("Enter new value: ", d->character);
 	   break;
 	 case 'l':
 	 case 'L':
 	   OLC_MODE(d) = MEDIT_WIL;
-	   ++i;
 	   send_to_char("Enter new value: ", d->character);
 	   break;
 	 case 'q':
@@ -4462,7 +4454,7 @@ void oedit_disp_container_flags_menu(struct descriptor_data * d)
   get_char_cols(d->character);
   sprintbit(GET_OBJ_VAL(OLC_OBJ(d), 1), container_bits, buf1);
   send_to_char("[H[J", d->character);
-  sprintf(buf,
+  SNPRINTF(buf, sizeof(buf),
 	"%s1%s) CLOSEABLE\r\n"
 	"%s2%s) PICKPROOF\r\n"
 	"%s3%s) CLOSED\r\n"
@@ -4513,7 +4505,7 @@ void oedit_disp_prompt_apply_menu(struct descriptor_data * d)
   for (counter = 0; counter < MAX_OBJ_AFFECT; counter++) {
     if (OLC_OBJ(d)->affected[counter].modifier) {
       sprinttype(OLC_OBJ(d)->affected[counter].location, apply_types, buf2);
-      sprintf(buf, " %s%d%s) %+d to %s\r\n",
+      SNPRINTF(buf, sizeof(buf), " %s%d%s) %+d to %s\r\n",
 		grn, counter + 1, nrm,
 		OLC_OBJ(d)->affected[counter].modifier, buf2
       );
@@ -4673,7 +4665,7 @@ void oedit_disp_sizes(struct descriptor_data * d)
     send_to_char(buf, d->character);
   }
   sprintbit(GET_OBJ_SIZE(OLC_OBJ(d)), item_size_bits, buf1);
-  sprintf(buf,  "\r\nSize flags: %s%s%s\r\n"
+  SNPRINTF(buf, sizeof(buf),  "\r\nSize flags: %s%s%s\r\n"
 		"Enter size flag, 0 to quit : ",
 		cyn, buf1, nrm);
   send_to_char(buf, d->character);
@@ -4892,7 +4884,7 @@ void oedit_disp_extra_menu(struct descriptor_data * d)
     send_to_char(buf, d->character);
   }
   sprintbit(GET_OBJ_EXTRA(OLC_OBJ(d)), extra_bits, buf1);
-  sprintf(buf,  "\r\nObject flags: %s%s%s\r\n"
+  SNPRINTF(buf, sizeof(buf),  "\r\nObject flags: %s%s%s\r\n"
 		"Enter object extra flag (0 to quit) : ",
 		cyn, buf1, nrm);
   send_to_char(buf, d->character);
@@ -4913,7 +4905,7 @@ void oedit_disp_wear_menu(struct descriptor_data * d)
     send_to_char(buf, d->character);
   }
   sprintbit(GET_OBJ_WEAR(OLC_OBJ(d)), wear_bits, buf1);
-  sprintf(buf,  "\r\nWear flags: %s%s%s\r\n"
+  SNPRINTF(buf, sizeof(buf),  "\r\nWear flags: %s%s%s\r\n"
 		"Enter wear flag, 0 to quit : ",
 		cyn, buf1, nrm);
   send_to_char(buf, d->character);
@@ -4935,7 +4927,7 @@ void oedit_disp_menu(struct descriptor_data * d)
   sprintbit(GET_OBJ_EXTRA(obj), extra_bits, buf2);
 
   /*. Build first hallf of menu .*/
-  sprintf(buf, "[H[J"
+  SNPRINTF(buf, sizeof(buf), "[H[J"
 	"-- Item number : [%s%ld%s]\r\n"
 	"%s1%s) Namelist : %s%s\r\n"
 	"%s2%s) S-Desc   : %s%s\r\n"
@@ -4958,7 +4950,7 @@ void oedit_disp_menu(struct descriptor_data * d)
   /*. Build second half of menu .*/
   sprintbit(GET_OBJ_WEAR(obj), wear_bits, buf1);
   sprintbit(GET_OBJ_SIZE(obj), item_size_bits, buf2);
-  sprintf(buf,
+  SNPRINTF(buf, sizeof(buf),
 	"%s7%s) Wear flags  : %s%s\r\n"
 	"%s8%s) Weight      : %s%d\r\n"
 	"%s9%s) Cost        : %s%d\r\n"
@@ -6168,7 +6160,7 @@ void sedit_shop_flags_menu(struct descriptor_data *d)
     send_to_char(buf, d->character);
   }
   sprintbit(S_BITVECTOR(OLC_SHOP(d)), shop_bits, buf1);
-  sprintf(buf,
+  SNPRINTF(buf, sizeof(buf),
 	"\r\nCurrent Shop Flags : %s%s%s\r\n"
 	"Enter choice : ",
 	cyn, buf1, nrm
@@ -6194,7 +6186,7 @@ void sedit_no_trade_menu(struct descriptor_data *d)
     send_to_char(buf, d->character);
   }
   sprintbit(S_NOTRADE(OLC_SHOP(d)), trade_letters, buf1);
-  sprintf(buf,
+  SNPRINTF(buf, sizeof(buf),
 	"\r\nCurrently won't trade with: %s%s%s\r\n"
 	"Enter choice : ",
 	cyn, buf1, nrm
@@ -6206,10 +6198,8 @@ void sedit_no_trade_menu(struct descriptor_data *d)
 
 void sedit_types_menu(struct descriptor_data *d)
 {
-  struct shop_data *shop;
   int i, count = 0;
 
-  shop = OLC_SHOP(d);
   get_char_cols(d->character);
 
   send_to_char("[H[J", d->character);
@@ -6241,7 +6231,7 @@ void sedit_disp_menu(struct descriptor_data *d)
 
   sprintbit(S_NOTRADE(shop), trade_letters, buf1);
   sprintbit(S_BITVECTOR(shop), shop_bits, buf2);
-  sprintf(buf, "[H[J"
+  SNPRINTF(buf, sizeof(buf), "[H[J"
 	"-- Shop Number : [%s%ld%s]\r\n"
 	"%s0%s) Keeper      : [%s%ld%s] %s%s\r\n"
 	"%s1%s) Open 1      : %s%4d%s          %s2%s) Close 1     : %s%4d\r\n"
@@ -6647,7 +6637,7 @@ void gedit_disp_menu(struct descriptor_data * d)
 
    sprintbit((long) OLC_GUILD(d)->restrictions, restr_bits, buf1);
 
-   sprintf(buf,
+   SNPRINTF(buf, sizeof(buf),
 	"[H[J"
 	"-- Guild number : [%s%d%s]\r\n"
 	"%s1%s) Name        : %s%s\r\n"

@@ -187,7 +187,7 @@ void list_skills(struct char_data * ch, int sphere)
     sprintf(buf, "You have %d practice session%s remaining.\r\n",
 	    GET_PRACTICES(ch), (GET_PRACTICES(ch) == 1 ? "" : "s"));
 
-  sprintf(buf, "%sYou know of the following disciplines:\r\n\r\n", buf);
+  sprintf(buf + strlen(buf), "You know of the following disciplines:\r\n\r\n");
   strcpy(buf2, buf);
 
   /* if the player sends us a spell as the sphere get its sphere */
@@ -337,15 +337,15 @@ void show_guild_trainers(struct char_data *ch)
    extern char *spells[];
 
    strcpy(buf, "  Vnum    Name                     Sphere\r\n");
-   sprintf(buf, "%s~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n", buf);
+   sprintf(buf + strlen(buf), "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n");
    while (trainers[i].my_num != -1) {
       if ((r_num = real_mobile(trainers[i].my_num)) < 0) {
-	sprintf(buf, "%s[%-7ld] -- %s\r\n", buf, trainers[i].my_num, 
+	sprintf(buf + strlen(buf), "[%-7ld] -- %s\r\n", trainers[i].my_num, 
 		spells[(trainers[i].sphere)]);
       } else {
 	mob = read_mobile(r_num, REAL);
 	char_to_room(mob, ch->in_room);
-	sprintf(buf, "%s[%-7ld] %-21.21s -- %s\r\n", buf, 
+	sprintf(buf + strlen(buf), "[%-7ld] %-21.21s -- %s\r\n", 
 	      trainers[i].my_num, GET_NAME(mob),
 	      spells[(trainers[i].sphere)]);
 	extract_char(mob);
@@ -495,7 +495,6 @@ SPECIAL(temple)
 SPECIAL(lose_mist)
 {
   struct obj_data *k;
-  int value = 0;
 
   for (k = world[ch->in_room].contents; k; k = world[ch->in_room].contents) {
     act("$p is lost in the mist!", FALSE, 0, k, 0, TO_ROOM);
@@ -509,7 +508,6 @@ SPECIAL(lose_mist)
 
   for (k = world[ch->in_room].contents; k; k = world[ch->in_room].contents) {
     act("$p is lost in the mist!", FALSE, 0, k, 0, TO_ROOM);
-    value += MAX(1, MIN(50, GET_OBJ_COST(k) / 10));
     extract_obj(k);
   }
 
@@ -520,7 +518,6 @@ SPECIAL(lose_mist)
 SPECIAL(frost_shatter)
 {
   struct obj_data *k;
-  int value = 0;
 
   for (k = world[ch->in_room].contents; k; k = world[ch->in_room].contents) {
     act("$p shatters as it hits the ground!", FALSE, 0, k, 0, TO_ROOM);
@@ -534,7 +531,6 @@ SPECIAL(frost_shatter)
 
   for (k = world[ch->in_room].contents; k; k = world[ch->in_room].contents) {
     act("It is so cold that $p shatters as it hits the ground!", FALSE, 0, k, 0, TO_ROOM);
-    value += MAX(1, MIN(50, GET_OBJ_COST(k) / 10));
     extract_obj(k);
   }
 

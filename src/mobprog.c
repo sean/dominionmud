@@ -1108,8 +1108,8 @@ char *mprog_process_if(char *ifchck, char *com_list, struct char_data *mob,
 {
 
  char buf[ MAX_INPUT_LENGTH ];
- char *morebuf = '\0';
- char    *cmnd = '\0';
+ char *morebuf = NULL;
+ char    *cmnd = NULL;
  int loopdone = FALSE;
  int     flag = FALSE;
  int  legal;

@@ -44,10 +44,8 @@ void load_banned(void)
   }
   while (fscanf(fl, " %s %s %d %s ", ban_type, site_name, &date, name) == 4) {
     CREATE(next_node, struct ban_list_element, 1);
-    strncpy(next_node->site, site_name, BANNED_SITE_LENGTH);
-    next_node->site[BANNED_SITE_LENGTH] = '\0';
-    strncpy(next_node->name, name, MAX_NAME_LENGTH);
-    next_node->name[MAX_NAME_LENGTH] = '\0';
+    snprintf(next_node->site, sizeof(next_node->site), "%s", site_name);
+    snprintf(next_node->name, sizeof(next_node->name), "%s", name);
     next_node->date = date;
 
     for (i = BAN_NOT; i <= BAN_ALL; i++)
@@ -166,7 +164,7 @@ ACMD(do_ban)
   }
 
   CREATE(ban_node, struct ban_list_element, 1);
-  strncpy(ban_node->site, site, BANNED_SITE_LENGTH);
+  SNPRINTF(ban_node->site, sizeof(ban_node->site), "%s", site);
   for (nextchar = ban_node->site; *nextchar; nextchar++)
     *nextchar = LOWER(*nextchar);
   ban_node->site[BANNED_SITE_LENGTH] = '\0';
@@ -276,8 +274,10 @@ void Read_Invalid_List(void)
   CREATE(invalid_list, namestring, num_invalid);
 
   for (i = 0; i < num_invalid; i++) {
-    fgets(invalid_list[i], 80, fp);	/* read word */
-    invalid_list[i][strlen(invalid_list[i]) - 1] = '\0'; /* cleave off \n */
+    if (!fgets(invalid_list[i], 80, fp))	/* read word */
+      *invalid_list[i] = '\0';
+    else if (*invalid_list[i])
+      invalid_list[i][strlen(invalid_list[i]) - 1] = '\0'; /* cleave off \n */
   }
 
   fclose(fp);

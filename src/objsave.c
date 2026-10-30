@@ -242,8 +242,8 @@ int Crash_delete_crashfile(struct char_data * ch)
     }
     return 0;
   }
-  if (!feof(fl))
-    fread(&rent, sizeof(struct rent_info), 1, fl);
+  if (fread(&rent, sizeof(struct rent_info), 1, fl) != 1)
+    rent.rentcode = RENT_UNDEF;
   fclose(fl);
 
   if (rent.rentcode == RENT_CRASH)
@@ -268,13 +268,13 @@ int Crash_clean_file(char *name)
    */
   if (!(fl = fopen(fname, "r+b"))) {
     if (errno != ENOENT) {      /* if it fails, NOT because of no file */
-      sprintf(buf1, "SYSERR: OPENING OBJECT FILE %s (4)", fname);
+      SNPRINTF(buf1, sizeof(buf1), "SYSERR: OPENING OBJECT FILE %s (4)", fname);
       perror(buf1);
     }
     return 0;
   }
-  if (!feof(fl))
-    fread(&rent, sizeof(struct rent_info), 1, fl);
+  if (fread(&rent, sizeof(struct rent_info), 1, fl) != 1)
+    rent.rentcode = RENT_UNDEF;
   fclose(fl);
 
 #define LIMITED_ITEMS 0
@@ -348,8 +348,8 @@ void Crash_listrent(struct char_data * ch, char *name)
     return;
   }
   sprintf(buf, "%s\r\n", fname);
-  if (!feof(fl))
-    fread(&rent, sizeof(struct rent_info), 1, fl);
+  if (fread(&rent, sizeof(struct rent_info), 1, fl) != 1)
+    rent.rentcode = RENT_UNDEF;
   switch (rent.rentcode) {
   case RENT_RENTED:
     strcat(buf, "Rent\r\n");
@@ -369,15 +369,14 @@ void Crash_listrent(struct char_data * ch, char *name)
     break;
   }
   while (!feof(fl)) {
-    fread(&object, sizeof(struct obj_file_elem), 1, fl);
-    if (ferror(fl)) {
+    if (fread(&object, sizeof(struct obj_file_elem), 1, fl) != 1 && ferror(fl)) {
       fclose(fl);
       return;
     }
     if (!feof(fl))
       if (real_object(object.item_number) > -1) {
 	obj = read_object(object.item_number, VNUMBER);
-	sprintf(buf, "%s [%ld] (%5dau) %-20s\r\n", buf,
+	sprintf(buf + strlen(buf), " [%ld] (%5dau) %-20s\r\n",
 		object.item_number, GET_OBJ_RENT(obj),
 		obj->short_description);
 	extract_obj(obj);
@@ -425,7 +424,7 @@ int Crash_load(struct char_data * ch)
 
   if (!(fl = fopen(fname, "r+b"))) {
     if (errno != ENOENT) {      /* if it fails, NOT because of no file */
-      sprintf(buf1, "SYSERR: READING OBJECT FILE %s (5)", fname);
+      SNPRINTF(buf1, sizeof(buf1), "SYSERR: READING OBJECT FILE %s (5)", fname);
       perror(buf1);
       send_to_char("\r\n********************* NOTICE *********************\r\n"
 		   "There was a problem loading your objects from disk.\r\n"
@@ -435,10 +434,9 @@ int Crash_load(struct char_data * ch)
     mudlog(buf, NRM, MAX((int)LVL_IMMORT, (int)GET_INVIS_LEV(ch)), TRUE);
     return 1;
   }
-  if (!feof(fl))
-    fread(&rent, sizeof(struct rent_info), 1, fl);
-  else {
+  if (fread(&rent, sizeof(struct rent_info), 1, fl) != 1) {
     plog("SYSERR: Crash_load: %s's rent file was empty!", GET_NAME(ch));
+    fclose(fl);
     return 1;
   }
 
@@ -483,8 +481,7 @@ int Crash_load(struct char_data * ch)
   }
 
   while (!feof(fl)) {
-    fread(&object, sizeof(struct obj_file_elem), 1, fl);
-    if (ferror(fl)) {
+    if (fread(&object, sizeof(struct obj_file_elem), 1, fl) != 1 && ferror(fl)) {
       perror("Reading crash file: Crash_load.");
       fclose(fl);
       return 1;

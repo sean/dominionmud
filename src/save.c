@@ -508,7 +508,8 @@ bool load_char_obj( struct descriptor_data * d, const char * name )
       
       fclose( fp );
       sprintf( buf, "gzip -dfq %s", strsave );
-      system( buf );
+      if ( system( buf ) == -1 )
+        log( "SYSERR: unable to run gzip on player file." );
     }
 
     sprintf( strsave, "%s/%s/%s", PLAYER_DIR,
@@ -632,9 +633,9 @@ int fread_char( struct char_data *ch, FILE *fp )
   char        def_title  [] = "Your title was corrupted.";
   
   struct key_data key_tab [] = {
-    { "ShtDsc", TRUE,  (int) &def_sdesc,	{ &GET_SHORT_DESC(ch),   NULL } },
-    { "LngDsc", TRUE,  (int) &def_ldesc,	{ &GET_LONG_DESC(ch),    NULL } },
-    { "Dscr",   TRUE,  (int) &def_desc,		{ &GET_DESCRIPTION(ch),  NULL } },
+    { "ShtDsc", TRUE,  (intptr_t) def_sdesc,	{ &GET_SHORT_DESC(ch),   NULL } },
+    { "LngDsc", TRUE,  (intptr_t) def_ldesc,	{ &GET_LONG_DESC(ch),    NULL } },
+    { "Dscr",   TRUE,  (intptr_t) def_desc,		{ &GET_DESCRIPTION(ch),  NULL } },
     { "Sx",     FALSE, SEX_MALE,		{ &GET_SEX(ch),          NULL } },
     { "Race",   FALSE, MAND,			{ &GET_RACE(ch),         NULL } },
     { "Lvl",    FALSE, MAND,			{ &GET_LEVEL(ch),        NULL } },
@@ -657,7 +658,7 @@ int fread_char( struct char_data *ch, FILE *fp )
     { "Prac",   FALSE, MAND,			{ &GET_PRACTICES(ch),    NULL } },
     { "PAlign",  FALSE, 0,			{ &GET_PERMALIGN(ch),    NULL } },
     { "CAlign",  FALSE, 0,			{ &GET_ALIGNMENT(ch),    NULL } },
-    { "Ttle",   TRUE,  (int) &def_title,	{ &GET_TITLE(ch),        NULL } },
+    { "Ttle",   TRUE,  (intptr_t) def_title,	{ &GET_TITLE(ch),        NULL } },
 #if 0
     { "SavThr", FALSE, MAND,			{ &ch->saving_throw,  NULL } },
     { "Hit",    FALSE, MAND,			{ &ch->hitroll,       NULL } },
@@ -853,7 +854,7 @@ int fread_char( struct char_data *ch, FILE *fp )
     }
     else
       for ( j = 0; key_tab [i].ptrs [j]; j++ )
-        *(int *)key_tab [i].ptrs [j] = key_tab [i].deflt;
+        *(int *)key_tab [i].ptrs [j] = (int) key_tab [i].deflt;
   }
   
   /* Fixups */
@@ -895,7 +896,6 @@ struct obj_data * fread_obj( FILE * fp )
   struct extra_descr_data *ed;
   struct obj_data         obj;
   struct obj_data         *new_obj;
-  struct affected_type    *paf;
   char              buf[ MAX_STRING_LENGTH ];
   char             *spell_name = NULL;
   char             *p          = NULL;
@@ -918,9 +918,9 @@ struct obj_data * fread_obj( FILE * fp )
     struct key_data key_tab [] =
       {
 	{ "Name",        TRUE,  MAND,             { &obj.name,        NULL } },
-	{ "ShortDescr",  TRUE,  (int) &corobj,    { &obj.short_description, NULL } },
-	{ "Description", TRUE,  (int) &corobj,    { &obj.description, NULL } },
-        { "ActionDescr", TRUE,  NULL,             { &obj.action_description, NULL } },
+	{ "ShortDescr",  TRUE,  (intptr_t) corobj,    { &obj.short_description, NULL } },
+	{ "Description", TRUE,  (intptr_t) corobj,    { &obj.description, NULL } },
+        { "ActionDescr", TRUE,  0,                { &obj.action_description, NULL } },
         { "Vnum",        FALSE, MAND,             { &obj.item_number, NULL } },
 	{ "ExtraFlags",  FALSE, MAND,             { &obj.obj_flags.extra_flags, NULL } },
 	{ "WearFlags",   FALSE, MAND,             { &obj.obj_flags.wear_flags,  NULL } },
@@ -1173,7 +1173,7 @@ struct obj_data * fread_obj( FILE * fp )
                         str_dup ( (char *) key_tab [i].deflt );
         else
             for ( j = 0; key_tab [i].ptrs [j]; j++ )
-                * (int *) key_tab [i].ptrs [j] = key_tab [i].deflt;
+                * (int *) key_tab [i].ptrs [j] = (int) key_tab [i].deflt;
     }
 
     memcpy( new_obj, &obj, sizeof( struct obj_data ) );
@@ -1376,10 +1376,12 @@ struct obj_data * find_expensive_obj( struct char_data * ch )
  */
 void rent_adjust( struct char_data * ch )
 {
-  struct rent_info rent; //  = GET_RENT( ch );
+  struct rent_info rent; /* TODO: load real rent info (no GET_RENT yet) */
   struct obj_data * obj = NULL;
   int num_of_days = 0, cost = 0, orig_rent_code, j;
-  
+
+  memset(&rent, 0, sizeof(rent));
+
   if (rent.rentcode == RENT_RENTED || rent.rentcode == RENT_TIMEDOUT) {
     num_of_days = (float) (time(0) - rent.time) / SECS_PER_REAL_DAY;
     cost = (int) (rent.net_cost_per_diem * num_of_days);
@@ -1455,7 +1457,7 @@ void list_rent(struct char_data * ch, char *name)
     buf[0] = '\0';
     obj = d->character->carrying;
     while ( obj != NULL ) {
-      sprintf(buf, "%s [%ld] (%5dau) %-20s\r\n", buf,
+      sprintf(buf + strlen(buf), " [%ld] (%5dau) %-20s\r\n",
               obj->item_number,
               GET_OBJ_RENT(obj),
               obj->short_description);

@@ -513,7 +513,7 @@ ACMD(do_drop)
 	return;
       }
       if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-	sprintf(buf, "You don't seem to have any %ss.\r\n", arg);
+	SNPRINTF(buf, sizeof(buf), "You don't seem to have any %ss.\r\n", arg);
 	send_to_char(buf, ch);
       }
       while (obj) {
@@ -523,7 +523,7 @@ ACMD(do_drop)
       }
     } else {
       if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-	sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+	SNPRINTF(buf, sizeof(buf), "You don't seem to have %s %s.\r\n", AN(arg), arg);
 	send_to_char(buf, ch);
       } else
 	amount += perform_drop(ch, obj, mode, sname, RDR);
@@ -634,7 +634,7 @@ ACMD(do_give)
     dotmode = find_all_dots(arg);
     if (dotmode == FIND_INDIV) {
       if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-	sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+	SNPRINTF(buf, sizeof(buf), "You don't seem to have %s %s.\r\n", AN(arg), arg);
 	send_to_char(buf, ch);
       } else
 	perform_give(ch, vict, obj);
@@ -875,7 +875,7 @@ ACMD(do_eat)
     return;
   }
   if (!(food = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-    sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+    SNPRINTF(buf, sizeof(buf), "You don't seem to have %s %s.\r\n", AN(arg), arg);
     send_to_char(buf, ch);
     return;
   }
@@ -1445,7 +1445,7 @@ ACMD(do_wield)
   if (!*arg)
     send_to_char("Wield what?\r\n", ch);
   else if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-    sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+    SNPRINTF(buf, sizeof(buf), "You don't seem to have %s %s.\r\n", AN(arg), arg);
     send_to_char(buf, ch);
   } else {
     if (!CAN_WEAR(obj, ITEM_WEAR_HOLD))
@@ -1468,7 +1468,7 @@ ACMD(do_grab)
   if (!*argument || !*arg)
     send_to_char("Hold what?\r\n", ch);
   else if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-    sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+    SNPRINTF(buf, sizeof(buf), "You don't seem to have %s %s.\r\n", AN(arg), arg);
     send_to_char(buf, ch);
   } else {
     if (GET_OBJ_TYPE(obj) == ITEM_LIGHT)
@@ -1538,7 +1538,7 @@ ACMD(do_remove)
 	  found = 1;
 	}
       if (!found) {
-	sprintf(buf, "You don't seem to be using any %ss.\r\n", arg);
+	SNPRINTF(buf, sizeof(buf), "You don't seem to be using any %ss.\r\n", arg);
 	send_to_char(buf, ch);
       }
     }
@@ -1554,7 +1554,7 @@ ACMD(do_remove)
         if (number(1, 5) > 4)
           break_obj(obj);
       } else {
-	sprintf(buf, "You don't seem to be using %s %s.\r\n", AN(arg), arg);
+	SNPRINTF(buf, sizeof(buf), "You don't seem to be using %s %s.\r\n", AN(arg), arg);
 	send_to_char(buf, ch);
       }
     } else
@@ -1589,7 +1589,7 @@ ACMD(do_poison_weapon)
     }
   }
   if (!obj) {
-    sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+    SNPRINTF(buf, sizeof(buf), "You don't seem to have %s %s.\r\n", AN(arg), arg);
     send_to_char(buf, ch);
     return;
   }
@@ -1606,11 +1606,11 @@ ACMD(do_poison_weapon)
   /* Now check for success, poison, etc. */
 
   if (number(1, 101) < GET_SKILL(ch, SKILL_POISON_WEAPON)) {
-    if (!GET_OBJ_VAL(obj, 4)) 
+    if (!GET_OBJ_VAL(obj, 4))
       GET_OBJ_VAL(obj, 4) = poison_type;
-      sprintf(buf, "You coat the blade of %s with poison.\r\n",
-	    obj->short_description);
-      send_to_char(buf, ch);
+    sprintf(buf, "You coat the blade of %s with poison.\r\n",
+            obj->short_description);
+    send_to_char(buf, ch);
 
   } else {
     send_to_char("Oops, you seem to have poisoned yourself!\r\n", ch);

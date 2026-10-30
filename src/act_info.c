@@ -62,7 +62,6 @@ ACMD(do_action);
 
 void show_obj_to_char(struct obj_data * object, struct char_data * ch, int mode)
 {
-  bool found;
 
   *buf = '\0';
   if ((mode == 0) && object->description)
@@ -79,7 +78,7 @@ void show_obj_to_char(struct obj_data * object, struct char_data * ch, int mode)
           sprintf(buf, "%-40.40s", object->short_description);
       }
       /* get the condition of the object */
-      sprintf(buf, "%s\t%s", buf, show_obj_condition(object));
+      sprintf(buf + strlen(buf), "\t%s", show_obj_condition(object));
   } else if (mode == 5) {
     if (GET_OBJ_TYPE(object) == ITEM_NOTE) {
       if (object->action_description) {
@@ -111,26 +110,20 @@ void show_obj_to_char(struct obj_data * object, struct char_data * ch, int mode)
     }
   }
   if ((mode != 3) && (mode != 1)) {
-    found = FALSE;
     if (IS_OBJ_STAT(object, ITEM_INVISIBLE)) {
       strcat(buf, " (invisible)");
-      found = TRUE;
     }
     if (IS_OBJ_STAT(object, ITEM_BLESS) && IS_AFFECTED(ch, AFF_DETECT_ALIGN)) {
       strcat(buf, " ..It glows blue!");
-      found = TRUE;
     }
     if (IS_OBJ_STAT(object, ITEM_MAGIC) && IS_AFFECTED(ch, AFF_DETECT_MAGIC)) {
       strcat(buf, " ..It glows yellow!");
-      found = TRUE;
     }
     if (IS_OBJ_STAT(object, ITEM_GLOW)) {
       strcat(buf, " ..It has a soft glowing aura!");
-      found = TRUE;
     }
     if (IS_OBJ_STAT(object, ITEM_HUM)) {
       strcat(buf, " ..It emits a faint humming sound!");
-      found = TRUE;
     }
   }
   strcat(buf, "\r\n");
@@ -262,28 +255,28 @@ void diag_char_to_char(struct char_data * i, struct char_data * ch)
   CAP(buf);
 
   if (percent >= 100)
-    sprintf(buf, "%s %s to be in excellent condition.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s to be in excellent condition.\r\n",
 	    (i == ch ? "appear" : "appears"));
   else if (percent >= 90)
-    sprintf(buf, "%s %s a few scratches.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s a few scratches.\r\n",
 	    (i != ch ? "has" : "have"));
   else if (percent >= 75)
-    sprintf(buf, "%s %s some small wounds and bruises.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s some small wounds and bruises.\r\n",
 	    (i != ch ? "has" : "have"));
   else if (percent >= 50)
-    sprintf(buf, "%s %s quite a few wounds.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s quite a few wounds.\r\n",
 	    (i != ch ? "has" : "have"));
   else if (percent >= 30)
-    sprintf(buf, "%s %s some big nasty wounds and scratches.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s some big nasty wounds and scratches.\r\n",
 	    (i != ch ? "has" : "have"));
   else if (percent >= 15)
-    sprintf(buf, "%s %s pretty hurt.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s pretty hurt.\r\n",
 	    (i != ch ? "looks" : "look"));
   else if (percent >= 0)
-    sprintf(buf, "%s %s in awful condition.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s in awful condition.\r\n",
 	    (i != ch ? "is" : "are"));
   else
-    sprintf(buf, "%s %s bleeding awfully from big wounds.\r\n", buf,
+    sprintf(buf + strlen(buf), " %s bleeding awfully from big wounds.\r\n",
 	    (i != ch ? "is" : "are"));
   send_to_char(buf, ch);
 
@@ -291,7 +284,7 @@ void diag_char_to_char(struct char_data * i, struct char_data * ch)
   if (GET_WOUNDS(i)) {
     str_cpy(buf, (i != ch ? HSSH(i) : "You"));
     CAP(buf);
-    sprintf(buf, "%s %s %s.\r\n", buf, (i==ch ? "have" :"has"),
+    sprintf(buf + strlen(buf), " %s %s.\r\n", (i==ch ? "have" :"has"),
 	    (GET_WOUNDS(i) <= 3 ? "some small wounds" :
 	     (GET_WOUNDS(i)  <= 7 ? "several wounds" :
 	      (GET_WOUNDS(i)  <= 10 ? "several large wounds" :
@@ -330,12 +323,12 @@ void look_at_char(struct char_data * i, struct char_data * ch)
     sprintf(look_race_buf, "%s ", temp_buf);
     if (!IS_IMMORT(i)) {
       if ( i->player.race < NUM_RACES )
-        sprintf(look_race_buf, "%s%s %s", look_race_buf,
+        sprintf(look_race_buf + strlen(look_race_buf), "%s %s",
                 AN( races[ i->player.race ].name ),
                 races[ i->player.race ].name );
       else /* If the race isn't set properly use this ... */
         strcat( look_race_buf, "peculiar" );
-    } else sprintf(look_race_buf, "%san Immortal", look_race_buf);
+    } else sprintf(look_race_buf + strlen(look_race_buf), "an Immortal");
     strcat(look_race_buf, ".\r\n");
     send_to_char(look_race_buf, ch);
   }
@@ -576,7 +569,7 @@ void do_auto_exits(struct char_data * ch)
     if (EXIT(ch, door) && EXIT(ch, door)->to_room != NOWHERE &&
 	!IS_SET(EXIT(ch, door)->exit_info, EX_CLOSED) &&
 	!IS_SET(EXIT(ch, door)->exit_info, EX_SECRET))
-      sprintf(buf, "%s%s ", buf, dirname[door]);
+      sprintf(buf + strlen(buf), "%s ", dirname[door]);
 
   sprintf(buf2, "%s[ Exits: %s]%s\r\n", CCCYN(ch, C_NRM),
 	  *buf ? buf : "None! ", CCNRM(ch, C_NRM));
@@ -639,7 +632,7 @@ void look_at_room(struct char_data * ch, int ignore_brief)
   send_to_char(CCCYN(ch, C_NRM), ch);
   if (PRF_FLAGGED(ch, PRF_ROOMFLAGS)) {
     sprintbit((long) ROOM_FLAGS(ch->in_room), room_bits, buf);
-    sprintf(buf2, "[%ld] %s [ %s]", world[ch->in_room].number,
+    SNPRINTF(buf2, sizeof(buf2), "[%ld] %s [ %s]", world[ch->in_room].number,
 	    world[ch->in_room].name, buf);
     send_to_char(buf2, ch);
   } else
@@ -883,7 +876,6 @@ ACMD(do_look)
 
 ACMD(do_examine)
 {
-  int bits;
   struct char_data *tmp_char;
   struct obj_data *tmp_object;
 
@@ -895,8 +887,8 @@ ACMD(do_examine)
   }
   look_at_target(ch, arg, subcmd);
 
-  bits = generic_find(arg, FIND_OBJ_INV | FIND_OBJ_ROOM | FIND_CHAR_ROOM |
-		      FIND_OBJ_EQUIP, ch, &tmp_char, &tmp_object);
+  generic_find(arg, FIND_OBJ_INV | FIND_OBJ_ROOM | FIND_CHAR_ROOM |
+	       FIND_OBJ_EQUIP, ch, &tmp_char, &tmp_object);
 
   if (tmp_object) {
     if ((GET_OBJ_TYPE(tmp_object) == ITEM_DRINKCON) ||
@@ -951,7 +943,7 @@ void list_scanned_chars(struct char_data * list, struct char_data * ch, int dist
     if (!*buf)
       sprintf(buf, "You see %s", GET_NAME(i));
     else
-      sprintf(buf, "%s%s", buf, GET_NAME(i));
+      sprintf(buf + strlen(buf), "%s", GET_NAME(i));
     if (--count > 1)
       strcat(buf, ", ");
     else if (count == 1)
@@ -1127,26 +1119,25 @@ ACMD(do_score)
   curr    = (float) GET_HIT(ch);
   maxim   = MAX((float) 1, (float) GET_MAX_HIT(ch));
   percent = (curr/maxim)*100;
-  sprintf(buf, "%s%sYou have %s%3.1f%%%s%s Hit, ", buf,
+  sprintf(buf + strlen(buf), "%sYou have %s%3.1f%%%s%s Hit, ",
 	       CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), percent,
 	       CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
   curr    = (float) GET_MANA(ch);
   maxim   = MAX((float) 1, (float) GET_MAX_MANA(ch));
   percent = (curr/maxim)*100;
-  sprintf(buf, "%s%s%3.1f%%%s%s Piety, and ", buf,
+  sprintf(buf + strlen(buf), "%s%3.1f%%%s%s Piety, and ",
 	       CCBMG(ch, C_SPR), percent, CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
   curr    = (float) GET_MOVE(ch);
   maxim   = MAX((float) 1, (float) GET_MAX_MOVE(ch));
   percent = (curr/maxim)*100;
-  sprintf(buf, "%s%s%3.1f%%%s%s Move.%s\r\n", buf,
+  sprintf(buf + strlen(buf), "%s%3.1f%%%s%s Move.%s\r\n",
 	       CCBMG(ch, C_SPR), percent, CCNRM(ch, C_SPR), CCMAG(ch, C_SPR),
 	       CCNRM(ch, C_SPR));
 
   if (GET_LEVEL(ch) >= LVL_IMMORT) {
-    sprintf(buf, "%s%sAttributes: Str: %s%d/%d%s%s, Int: %s%d%s%s, Wis: "
+    sprintf(buf + strlen(buf), "%sAttributes: Str: %s%d/%d%s%s, Int: %s%d%s%s, Wis: "
 	    "%s%d%s%s, Dex: %s%d%s%s, Con: %s%d%s%s, Cha: %s%d%s%s, Will: "
-	    "%s%d%s%s.%s\r\n",
-	    buf, CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_STR(ch), GET_ADD(ch),
+	    "%s%d%s%s.%s\r\n", CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_STR(ch), GET_ADD(ch),
 	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_INT(ch),
 	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_WIS(ch),
 	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_DEX(ch),
@@ -1155,61 +1146,56 @@ ACMD(do_score)
 	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_WILL(ch),
 	    CCNRM(ch, C_SPR), CCMAG(ch, C_SPR), CCNRM(ch, C_SPR));
   } else {
-    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+    sprintf(buf + strlen(buf), "%sYou %s.%s\r\n", CCMAG(ch, C_SPR), 
 	    str_map( ch ), CCNRM(ch, C_SPR));
-    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+    sprintf(buf + strlen(buf), "%sYou %s.%s\r\n", CCMAG(ch, C_SPR), 
 	    dex_map( ch ), CCNRM(ch, C_SPR));
-    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+    sprintf(buf + strlen(buf), "%sYou %s.%s\r\n", CCMAG(ch, C_SPR), 
 	    con_map( ch ), CCNRM(ch, C_SPR));
-    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+    sprintf(buf + strlen(buf), "%sYou %s.%s\r\n", CCMAG(ch, C_SPR), 
 	    int_map( ch ), CCNRM(ch, C_SPR));
-    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+    sprintf(buf + strlen(buf), "%sYou %s.%s\r\n", CCMAG(ch, C_SPR), 
 	    wis_map( ch ), CCNRM(ch, C_SPR));
-    sprintf(buf, "%s%sYou %s.%s\r\n", buf, CCMAG(ch, C_SPR), 
+    sprintf(buf + strlen(buf), "%sYou %s.%s\r\n", CCMAG(ch, C_SPR), 
 	    cha_map( ch ), CCNRM(ch, C_SPR));
   }
 #if 0
-  sprintf(buf, "%s%sYour armor ratings are: %sHead %3d%%, Body %3d%%, Shield %3d%%\r\n",
-	  buf, CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_AC(ch, ARMOR_HEAD),
+  sprintf(buf + strlen(buf), "%sYour armor ratings are: %sHead %3d%%, Body %3d%%, Shield %3d%%\r\n", CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), GET_AC(ch, ARMOR_HEAD),
 	       GET_AC(ch, ARMOR_BODY), GET_AC(ch, ARMOR_SHIELD));
-  sprintf(buf, "%s                        Arms (R/L) %3d%%/%3d%%, Legs (R/L) %3d%%/%3d%%%s\r\n",
-	  buf, GET_AC(ch, ARMOR_ARM_R), GET_AC(ch, ARMOR_ARM_L),
+  sprintf(buf + strlen(buf), "                        Arms (R/L) %3d%%/%3d%%, Legs (R/L) %3d%%/%3d%%%s\r\n", GET_AC(ch, ARMOR_ARM_R), GET_AC(ch, ARMOR_ARM_L),
 	       GET_AC(ch, ARMOR_LEG_R), GET_AC(ch, ARMOR_LEG_L), CCNRM(ch, C_SPR));
 #endif
   // alignment
-  sprintf(buf, "%s%sYou are of %s%s%s%s alignment", buf, CCMAG(ch, C_SPR),
+  sprintf(buf + strlen(buf), "%sYou are of %s%s%s%s alignment", CCMAG(ch, C_SPR),
 	       CCBMG(ch, C_SPR), align_to_name( GET_PERMALIGN(ch) ),
 	       CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
   if ( align_out_of_sync( ch ) )
-    sprintf(buf, "%s, but your soul is in turmoil.\r\n", buf);
+    sprintf(buf + strlen(buf), ", but your soul is in turmoil.\r\n");
   else
     strcat(buf, ".\r\n");
 
   // religion
   if ( HAS_RELIGION( ch ) )
-    sprintf( buf, "%s%sYou are a believer in the faith of %s%s%s.\r\n",
-             buf, CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), relg_name(ch),
+    sprintf( buf + strlen(buf), "%sYou are a believer in the faith of %s%s%s.\r\n", CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), relg_name(ch),
              CCMAG(ch, C_SPR) );
 
-  sprintf(buf, "%sYou have scored %s%ld%s%s exp", buf,
+  sprintf(buf + strlen(buf), "You have scored %s%ld%s%s exp",
 	       CCBMG(ch, C_SPR), GET_EXP(ch), CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
 
   if (GET_LEVEL(ch) < MAX_MORT_LEVEL) {
-	sprintf(buf, "%s, and need %s%ld%s%s exp to level.\r\n",
-		buf, CCBMG(ch, C_SPR),
+	sprintf(buf + strlen(buf), ", and need %s%ld%s%s exp to level.\r\n", CCBMG(ch, C_SPR),
 		(exp_needed(GET_LEVEL(ch) + 1) - GET_EXP(ch)),
 		CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
   } else
-      sprintf(buf, "%s, and you can no longer gain levels.\r\n", buf);
+      sprintf(buf + strlen(buf), ", and you can no longer gain levels.\r\n");
 
   /* They'll have to type gold to see what's in their purse from now on */
   if (!IS_NPC(ch)) {
      playing_time = real_time_passed((time(0) - ch->player.time.logon) +
 				  ch->player.time.played, 0);
-     sprintf(buf, "%sYou have been playing for %s%d%s%s"
+     sprintf(buf + strlen(buf), "You have been playing for %s%d%s%s"
 		  " days, %s%d%s%s hours, %s%d%s%s minutes, "
-		  "and %s%d%s%s seconds.\r\n",
-	  buf, CCBMG(ch, C_SPR), playing_time.day,
+		  "and %s%d%s%s seconds.\r\n", CCBMG(ch, C_SPR), playing_time.day,
 	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR),
 	  CCBMG(ch, C_SPR), playing_time.hours,
 	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR),
@@ -1218,13 +1204,12 @@ ACMD(do_score)
 	  CCBMG(ch, C_SPR), playing_time.seconds,
 	  CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
 
-     sprintf(buf, "%sThis ranks you as %s%s the level %d ",
-	     buf, CCYEL(ch, C_SPR), GET_NAME(ch), GET_LEVEL(ch));
+     sprintf(buf + strlen(buf), "This ranks you as %s%s the level %d ", CCYEL(ch, C_SPR), GET_NAME(ch), GET_LEVEL(ch));
      if (GET_MAX_LEVEL(ch) < LVL_IMMORT)
        sprintf( temp_buf, "%s", races[ GET_RACE(ch) ].name );
      else
        str_cpy(temp_buf, "Immortal");
-     sprintf(buf, "%s%s%s%s.\r\n", buf, temp_buf, 
+     sprintf(buf + strlen(buf), "%s%s%s.\r\n", temp_buf, 
 	     CCNRM(ch, C_SPR), CCMAG(ch, C_SPR));
 
      /*  Print the guild membership if any */
@@ -1232,7 +1217,7 @@ ACMD(do_score)
        for (gptr = guild_info; gptr && gptr->number != GET_GUILD(ch); gptr=gptr->next)
 	 ;
        if (gptr && gptr->number == GET_GUILD(ch))
-	 sprintf(buf,  "%s%sYou are a %s%s%s%s in %s%s%s%s.%s\r\n", buf, 
+	 sprintf(buf + strlen(buf),  "%sYou are a %s%s%s%s in %s%s%s%s.%s\r\n", 
 		CCMAG(ch, C_SPR), CCBMG(ch, C_SPR), 
 		(GET_GUILD_LEV(ch) == 5 ? gptr->xlvlname :
 		 (GET_GUILD_LEV(ch) == 4 ? gptr->hlvlname :
@@ -1245,11 +1230,10 @@ ACMD(do_score)
   }
   switch (GET_POS(ch)) {
   case POS_DEAD:
-    sprintf(buf, "%s%sYou are DEAD%s!\r\n", buf, CCRED(ch, C_SPR), CCNRM(ch, C_SPR));
+    sprintf(buf + strlen(buf), "%sYou are DEAD%s!\r\n", CCRED(ch, C_SPR), CCNRM(ch, C_SPR));
     break;
   case POS_MORTALLYW:
-    sprintf(buf, "%s%sYou are mortally wounded!  You should seek help!%s\r\n",
-	    buf, CCBMG(ch, C_SPR), CCNRM(ch, C_SPR));
+    sprintf(buf + strlen(buf), "%sYou are mortally wounded!  You should seek help!%s\r\n", CCBMG(ch, C_SPR), CCNRM(ch, C_SPR));
     break;
   case POS_INCAP:
     strcat(buf, "You are incapacitated, slowly fading away...\r\n");
@@ -1268,7 +1252,7 @@ ACMD(do_score)
     break;
   case POS_FIGHTING:
     if (FIGHTING(ch))
-      sprintf(buf, "%sYou are fighting %s.\r\n", buf, PERS(FIGHTING(ch), ch));
+      sprintf(buf + strlen(buf), "You are fighting %s.\r\n", PERS(FIGHTING(ch), ch));
     else
       strcat(buf, "You are fighting thin air.\r\n");
     break;
@@ -1276,7 +1260,7 @@ ACMD(do_score)
     strcat(buf, "You are standing.\r\n");
     break;
   case POS_MOUNTED:
-    sprintf(buf, "%sYou are mounted upon %s.\r\n", buf, GET_NAME(MOUNTED(ch)));
+    sprintf(buf + strlen(buf), "You are mounted upon %s.\r\n", GET_NAME(MOUNTED(ch)));
     break;
   case POS_MEDITATING:
     strcat(buf, "You are contemplating your navel.\r\n");
@@ -1357,7 +1341,7 @@ ACMD(do_score)
     strcat(buf, "Your eyes are glowing red.\r\n");
 
   if (COLOR_LEV(ch) != C_OFF)
-     sprintf(buf, "%s%s", buf, CCNRM(ch, C_SPR));
+     sprintf(buf + strlen(buf), "%s", CCNRM(ch, C_SPR));
   send_to_char(buf, ch);
 }
 
@@ -1809,7 +1793,7 @@ ACMD(do_who)
 	       GET_TITLE(tch));
 
       if (GET_INVIS_LEV(tch))
-	sprintf(buf, "%s (i%d)", buf, GET_INVIS_LEV(tch));
+	sprintf(buf + strlen(buf), " (i%d)", GET_INVIS_LEV(tch));
       else if (IS_AFFECTED(tch, AFF_INVISIBLE))
 	strcat(buf, " (invis)");
 
@@ -1938,11 +1922,11 @@ ACMD(do_users)
 
       if (d->original) {
 	sprintf(levbuf, " %2d", GET_LEVEL(d->original));
-	sprintf(classname, "[ %3s ]",
+	SNPRINTF(classname, sizeof(classname), "[ %3s ]",
 		(GET_MAX_LEVEL(d->original) >= LVL_IMPL ? "IMP" : levbuf));
       } else {
 	sprintf(levbuf, " %2d", GET_LEVEL(d->character));
-	sprintf(classname, "[ %3s ]",
+	SNPRINTF(classname, sizeof(classname), "[ %3s ]",
 		(GET_MAX_LEVEL(d->character) >= LVL_IMPL ? "IMP" : levbuf));
       }
     } else
@@ -1975,7 +1959,7 @@ ACMD(do_users)
       sprintf(line, format, d->desc_num, "   -   ", "UNDEFINED",
 	      state, idletime, timeptr);
 
-    if (d->host && *d->host)
+    if (*d->host)
       sprintf(line + strlen(line), "[%s]\r\n", d->host);
     else
       strcat(line, "[Hostname unknown]\r\n");
@@ -2143,7 +2127,7 @@ void perform_immort_where(struct char_data * ch, char *arg)
     for (i = character_list; i; i = i->next)
       if (CAN_SEE(ch, i) && i->in_room != NOWHERE && isname(arg, i->player.name)) {
 	found = 1;
-	sprintf(buf, "%sM%3d. %-25s - [%ld] %s\r\n", buf, ++num, GET_NAME(i),
+	sprintf(buf + strlen(buf), "M%3d. %-25s - [%ld] %s\r\n", ++num, GET_NAME(i),
 		world[i->in_room].number, world[i->in_room].name);
       /* send_to_char(buf, ch);  */
       }
@@ -2198,7 +2182,6 @@ ACMD(do_levels)
 ACMD(do_evaluate)
 {
   struct obj_data *obj;
-  long condition, tenth;
   extern char *item_types[];
 
   if (GET_SKILL(ch, SKILL_EVALUATE) < 1)
@@ -2242,8 +2225,6 @@ ACMD(do_evaluate)
           obj->short_description,
           material_list[GET_OBJ_VAL(obj, 7)].name);
   send_to_char(buf, ch);
-  condition = GET_OBJ_VAL(obj, 9);
-  tenth = (material_list[GET_OBJ_VAL(obj, 7)].sturdiness / 10);
   
   if ((GET_OBJ_TYPE(obj) != ITEM_FOOD) &&
       (GET_OBJ_TYPE(obj) != ITEM_LIGHT)) {
@@ -2387,7 +2368,7 @@ ACMD(do_toggle)
   else
     sprintf(buf2, "%-3d", GET_WIMP_LEV(ch));
 
-  sprintf(buf,
+  SNPRINTF(buf, sizeof(buf),
 	  "Hit Pnt Display: %-3s    "
 	  "   Mana Display: %-3s    "
 	  "   Move Display: %-3s\r\n"
@@ -2813,13 +2794,13 @@ void health_meter(struct char_data *ch, struct char_data *vict)
 
    str_cpy(buf, KGRN);
    for (a = 0; a < b; a++)
-      strcat(buf,"²");
+      strcat(buf,"\xb2");
    strcat(buf, KRED);
    for (a = 0; a < (78-b); a++)
-      strcat(buf,"°");
+      strcat(buf,"\xb0");
    strcat(buf, KNRM);
    sprintf(buf2, "%s[%s]",scrpos(23,1,ch), buf);
-   sprintf(buf2, "%s%s", buf2, INPUT_LINE);
+   sprintf(buf2 + strlen(buf2), "%s", INPUT_LINE);
 
    write_to_output(buf2, ch->desc);
 }
@@ -2851,47 +2832,47 @@ ACMD(do_infobar)
 
    switch (subcmd) {
      case SCMDB_CLEAR:
-       sprintf(bigbuf,"%s%s",FULL_SCROLL_REGION, CLEAR_SCREEN);
+       SNPRINTF(bigbuf, sizeof(bigbuf),"%s%s",FULL_SCROLL_REGION, CLEAR_SCREEN);
        write_to_output(bigbuf, ch->desc);
        break;
      case SCMDB_REDRAW:
        do_infobar(ch, 0, 0, SCMDB_CLEAR);
          /* bottom bar border */
-         sprintf(bigbuf,"%s%s",scrpos(20,1,ch),BORDER_COLOR);
-         sprintf(bigbuf,"%s+------------------------------------------------------------------------------+",bigbuf);
-         sprintf(bigbuf,"%s%s",bigbuf,scrpos(23,1,ch));
-         sprintf(bigbuf,"%s+------------------------------------------------------------------------------+",bigbuf);
-         sprintf(bigbuf,"%s%s|",bigbuf,scrpos(21,1,ch));
-         sprintf(bigbuf,"%s%s|",bigbuf,scrpos(21,80,ch));
-         sprintf(bigbuf,"%s%s|",bigbuf,scrpos(22,1,ch));
-         sprintf(bigbuf,"%s%s|",bigbuf,scrpos(22,80,ch));
+         SNPRINTF(bigbuf, sizeof(bigbuf),"%s%s",scrpos(20,1,ch),BORDER_COLOR);
+         sprintf(bigbuf + strlen(bigbuf),"+------------------------------------------------------------------------------+");
+         sprintf(bigbuf + strlen(bigbuf),"%s",scrpos(23,1,ch));
+         sprintf(bigbuf + strlen(bigbuf),"+------------------------------------------------------------------------------+");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s|",scrpos(21,1,ch));
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s|",scrpos(21,80,ch));
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s|",scrpos(22,1,ch));
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s|",scrpos(22,80,ch));
        /* top bar border */
        if (PRF_FLAGGED(ch, PRF_SCOREBAR)) {
-	 sprintf(bigbuf,"%s\e[5;1H",bigbuf);
-	 sprintf(bigbuf,"%s+------------------------------------------------------------------------------+",bigbuf);
+	 sprintf(bigbuf + strlen(bigbuf),"\e[5;1H");
+	 sprintf(bigbuf + strlen(bigbuf),"+------------------------------------------------------------------------------+");
        }
        write_to_output(bigbuf, ch->desc);
          /* bottom bar tags */
          sprintf(bigbuf,"%s",TAG_COLOR);
-         sprintf(bigbuf,"%s%s%s",bigbuf,HIT_TAG_POS,"HP:");
-         sprintf(bigbuf,"%s%s%s",bigbuf,MOV_TAG_POS,"MV:");
-         sprintf(bigbuf,"%s%s%s",bigbuf,PIE_TAG_POS,"PP:");
-         sprintf(bigbuf,"%s%s%s",bigbuf,EXITS_TAG_POS,"Exits: [");
-         sprintf(bigbuf,"%s%s%s",bigbuf,EXITS_BRACKET_TAG_POS,"]");
-         sprintf(bigbuf,"%s%s%s",bigbuf,ROOMDESC_TAG_POS,"In Room: [");
-         sprintf(bigbuf,"%s%s%s",bigbuf,ROOMDESC_BRACKET_TAG_POS,"]");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s",HIT_TAG_POS,"HP:");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s",MOV_TAG_POS,"MV:");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s",PIE_TAG_POS,"PP:");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s",EXITS_TAG_POS,"Exits: [");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s",EXITS_BRACKET_TAG_POS,"]");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s",ROOMDESC_TAG_POS,"In Room: [");
+         SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s",ROOMDESC_BRACKET_TAG_POS,"]");
        if (PRF_FLAGGED(ch, PRF_SCOREBAR)) {
          /* top bar tags */
-	 sprintf(bigbuf,"%s%s%s",bigbuf,COMBAT_TAG_POS,"Combat:");
-	 sprintf(bigbuf,"%s%s%s",bigbuf,HITBON_TAG_POS,"Hit Bonus:");
-	 sprintf(bigbuf,"%s%s%s",bigbuf,ALIGN_TAG_POS, "Alignment:");
-	 sprintf(bigbuf,"%s%s%s",bigbuf,BANK_TAG_POS,  "Gold:");
-	 sprintf(bigbuf,"%s%s%s",bigbuf,DAMBON_TAG_POS,"Dam Bonus:");
-  	 /* sprintf(bigbuf,"%s%s%s",bigbuf,RACE_TAG_POS,  "Race:"); */
-	 sprintf(bigbuf,"%s%s%s",bigbuf,LEVEL_TAG_POS, "Level:");
-	 sprintf(bigbuf,"%s%s%s",bigbuf,PRAC_TAG_POS,  "Prac:");
-	 sprintf(bigbuf,"%s%s%s",bigbuf,CARRYING_TAG_POS,"Carrying :");
-	 sprintf(bigbuf,"%s%s%s",bigbuf,EXP_TAG_POS,   "Exp:");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",COMBAT_TAG_POS,"Combat:");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",HITBON_TAG_POS,"Hit Bonus:");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",ALIGN_TAG_POS, "Alignment:");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",BANK_TAG_POS,  "Gold:");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",DAMBON_TAG_POS,"Dam Bonus:");
+  	 /* sprintf(bigbuf + strlen(bigbuf),"%s%s",RACE_TAG_POS,  "Race:"); */
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",LEVEL_TAG_POS, "Level:");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",PRAC_TAG_POS,  "Prac:");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",CARRYING_TAG_POS,"Carrying :");
+	 sprintf(bigbuf + strlen(bigbuf),"%s%s",EXP_TAG_POS,   "Exp:");
        }
        write_to_output(bigbuf, ch->desc);
        do_infobar(ch, 0, 0, SCMDB_EXITS);
@@ -2924,7 +2905,7 @@ ACMD(do_infobar)
 	 sprintf(bigbuf,"%s", TWO_BAR_SCROLL_REGION);
        else
 	 sprintf(bigbuf,"%s", ONE_BAR_SCROLL_REGION);
-       sprintf(bigbuf,"%s%s%s%s",bigbuf,OUTPUT_LINE,CURSOR_POS_SAVE,INPUT_LINE);
+       SNPRINTF(bigbuf + strlen(bigbuf), sizeof(bigbuf) - strlen(bigbuf),"%s%s%s",OUTPUT_LINE,CURSOR_POS_SAVE,INPUT_LINE);
        write_to_output(bigbuf, ch->desc);
        break;
      case SCMDB_EXITS:
@@ -2934,11 +2915,11 @@ ACMD(do_infobar)
 	 if (EXIT(ch, door) && EXIT(ch, door)->to_room != NOWHERE &&
 	     (!IS_SET(EXIT(ch, door)->exit_info, EX_CLOSED) &&
 	      !IS_SET(EXIT(ch, door)->exit_info, EX_SECRET)))
-	   sprintf(buf, "%s%s", buf, dirname[door]);
+	   sprintf(buf + strlen(buf), "%s", dirname[door]);
 	 else if (EXIT(ch, door) && EXIT(ch, door)->to_room != NOWHERE &&
 	     (IS_SET(EXIT(ch, door)->exit_info, EX_CLOSED) &&
 	      !IS_SET(EXIT(ch, door)->exit_info, EX_SECRET)))
-	   sprintf(buf, "%s%s%s%s%s", buf, KNRM, KGLD, dirname[door], VALUE_COLOR);
+	   sprintf(buf + strlen(buf), "%s%s%s%s", KNRM, KGLD, dirname[door], VALUE_COLOR);
        }
        sprintf(buf2, "%s%s%-14.14s%s%s", VALUE_COLOR, EXITS_VAL_POS, buf, NORMAL_COLOR, INPUT_LINE);
        write_to_output(buf2, ch->desc);
@@ -2973,28 +2954,28 @@ ACMD(do_infobar)
        acnum /= 100;
        acnum = (acnum + dex_app[GET_DEX(ch)].defensive) >> 1;
        acstr(acnum, buf1);
-       sprintf(buf, "%s%s%-37s%s%s", VALUE_COLOR, COMBAT_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
+       SNPRINTF(buf, sizeof(buf), "%s%s%-37s%s%s", VALUE_COLOR, COMBAT_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
        write_to_output(buf, ch->desc);
        ch->infobar.ac = acnum;
        break;
      case SCMDB_ALIGN:
        CHECK_SCORE;
        naturestr(GET_ALIGNMENT(ch), buf1);
-       sprintf(buf, "%s%s%-11s%s%s", VALUE_COLOR, ALIGN_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
+       SNPRINTF(buf, sizeof(buf), "%s%s%-11s%s%s", VALUE_COLOR, ALIGN_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
        write_to_output(buf, ch->desc);
        ch->infobar.align = GET_ALIGNMENT(ch);
        break;
      case SCMDB_HITBON:
        CHECK_SCORE;
        bonstr(GET_HITROLL(ch), buf1);
-       sprintf(buf, "%s%s%-16s%s%s", VALUE_COLOR, HITBON_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
+       SNPRINTF(buf, sizeof(buf), "%s%s%-16s%s%s", VALUE_COLOR, HITBON_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
        write_to_output(buf, ch->desc);
        ch->infobar.hitbon = GET_HITROLL(ch);
        break;
      case SCMDB_DAMBON:
        CHECK_SCORE;
        bonstr(GET_DAMROLL(ch), buf1);
-       sprintf(buf, "%s%s%-16s%s%s", VALUE_COLOR, DAMBON_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
+       SNPRINTF(buf, sizeof(buf), "%s%s%-16s%s%s", VALUE_COLOR, DAMBON_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
        write_to_output(buf, ch->desc);
        ch->infobar.dambon = GET_DAMROLL(ch);
        break;
@@ -3018,7 +2999,7 @@ ACMD(do_infobar)
      case SCMDB_TITLE:  /* this one is special!! */
        CHECK_SCORE;
        sprintf(buf2, "The Chronicle of %s %s.", GET_NAME(ch), GET_TITLE(ch));
-       sprintf(bigbuf, "%s\e[5;%dH%s%s%s", VALUE_COLOR, (int)(40-strlen(buf2)/2), buf2, NORMAL_COLOR, INPUT_LINE);
+       SNPRINTF(bigbuf, sizeof(bigbuf), "%s\e[5;%dH%s%s%s", VALUE_COLOR, (int)(40-strlen(buf2)/2), buf2, NORMAL_COLOR, INPUT_LINE);
        write_to_output(bigbuf, ch->desc);
        break;
      case SCMDB_GOLD:
@@ -3030,7 +3011,7 @@ ACMD(do_infobar)
      case SCMDB_CARRYING:
        CHECK_SCORE;
        sprintf(buf1, "%ld lbs.", IS_CARRYING_W(ch));
-       sprintf(buf, "%s%s%-12s%s%s", VALUE_COLOR, CARRYING_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
+       SNPRINTF(buf, sizeof(buf), "%s%s%-12s%s%s", VALUE_COLOR, CARRYING_VAL_POS, buf1, NORMAL_COLOR, INPUT_LINE);
        write_to_output(buf, ch->desc);
        ch->infobar.weight = IS_CARRYING_W(ch);
        break;
@@ -3057,7 +3038,7 @@ ACMD(do_infobar)
        percent = (curr/maxim)*100;
        acnum = (int)(percent/5);
        for (i = 0; i < acnum; i++)
-	  strcat(buf1, "°");
+	  strcat(buf1, "\xb0");
        sprintf(buf, "%s%s%-20.20s%s%s", HIT_VAL_POS,
 	       (acnum >= 10 ? KGRN : (acnum >= 5 ? KYEL : KRED)),
 	       buf1, NORMAL_COLOR, INPUT_LINE);
@@ -3073,7 +3054,7 @@ ACMD(do_infobar)
        percent = (curr/maxim)*100;
        acnum = (int)(percent/5);
        for (i = 0; i < acnum; i++)
-	  strcat(buf1, "°");
+	  strcat(buf1, "\xb0");
        sprintf(buf, "%s%s%-20.20s%s%s", MOV_VAL_POS,
 	       (acnum >= 10 ? KGRN : (acnum >= 5 ? KYEL : KRED)),
 	       buf1, NORMAL_COLOR, INPUT_LINE);
@@ -3089,7 +3070,7 @@ ACMD(do_infobar)
        percent = (curr/maxim)*100;
        acnum = (int)(percent/5);
        for (i = 0; i < acnum; i++)
-	  strcat(buf1, "°");
+	  strcat(buf1, "\xb0");
        sprintf(buf, "%s%s%-20.20s%s%s", PIE_VAL_POS,
 	       (acnum >= 10 ? KBCN : (acnum >= 5 ? KCYN : KMAG)),
 	       buf1, NORMAL_COLOR, INPUT_LINE);
@@ -3171,8 +3152,8 @@ ACMD(do_infobar)
      case SCMDB_ENDFIGHT:
        if (!PRF_FLAGGED(ch, PRF_INFOBAR))
          break;
-       sprintf(bigbuf,"%s%s",bigbuf,scrpos(23,1,ch));
-       sprintf(bigbuf,"%s+------------------------------------------------------------------------------+",bigbuf);
+       sprintf(bigbuf + strlen(bigbuf),"%s",scrpos(23,1,ch));
+       sprintf(bigbuf + strlen(bigbuf),"+------------------------------------------------------------------------------+");
        write_to_output(bigbuf, ch->desc);
        break;
      default:

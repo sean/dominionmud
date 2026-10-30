@@ -214,7 +214,7 @@ void Board_write_message(int board_type, struct char_data * ch, char *arg)
   *(tmstr + strlen(tmstr) - 1) = '\0';
 
   sprintf(buf2, "(%s)", GET_NAME(ch));
-  sprintf(buf, "%6.10s %-12s :: %s", tmstr, buf2, arg);
+  SNPRINTF(buf, sizeof(buf), "%6.10s %-12s :: %s", tmstr, buf2, arg);
   len = strlen(buf) + 1;
   if (!(NEW_MSG_INDEX(board_type).heading = (char *) malloc(sizeof(char) * len))) {
     send_to_char("The board is malfunctioning - sorry.\r\n", ch);
@@ -459,14 +459,16 @@ void Board_load_board(int board_type)
     perror(buf);
     return;
   }
-  fread(&(num_of_msgs[board_type]), sizeof(int), 1, fl);
+  if (fread(&(num_of_msgs[board_type]), sizeof(int), 1, fl) != 1)
+    num_of_msgs[board_type] = 0;
   if (num_of_msgs[board_type] < 1 || num_of_msgs[board_type] > MAX_BOARD_MESSAGES) {
     log("SYSERR: Board file corrupt.  Resetting.");
     Board_reset_board(board_type);
     return;
   }
   for (i = 0; i < num_of_msgs[board_type]; i++) {
-    fread(&(msg_index[board_type][i]), sizeof(struct board_msginfo), 1, fl);
+    if (fread(&(msg_index[board_type][i]), sizeof(struct board_msginfo), 1, fl) != 1)
+      msg_index[board_type][i].heading_len = 0;
     if (!(len1 = msg_index[board_type][i].heading_len)) {
       log("SYSERR: Board file corrupt!  Resetting.");
       Board_reset_board(board_type);
@@ -476,7 +478,12 @@ void Board_load_board(int board_type)
       log("SYSERR: Error - malloc failed for board header");
       exit(1);
     }
-    fread(tmp1, sizeof(char), len1, fl);
+    if (fread(tmp1, sizeof(char), len1, fl) != (size_t) len1) {
+      free(tmp1);
+      log("SYSERR: Board file truncated!  Resetting.");
+      Board_reset_board(board_type);
+      return;
+    }
     MSG_HEADING(board_type, i) = tmp1;
 
     if ((len2 = msg_index[board_type][i].message_len)) {
@@ -489,7 +496,12 @@ void Board_load_board(int board_type)
 	log("SYSERR: malloc failed for board text");
 	exit(1);
       }
-      fread(tmp2, sizeof(char), len2, fl);
+      if (fread(tmp2, sizeof(char), len2, fl) != (size_t) len2) {
+        free(tmp2);
+        log("SYSERR: Board file truncated!  Resetting.");
+        Board_reset_board(board_type);
+        return;
+      }
       msg_storage[MSG_SLOTNUM(board_type, i)] = tmp2;
     }
   }

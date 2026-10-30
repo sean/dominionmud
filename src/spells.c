@@ -604,19 +604,19 @@ ASPELL(spell_identify)
       sprintf(buf, "This %s casts: ", item_types[(int) GET_OBJ_TYPE(obj)]);
 
       if (GET_OBJ_VAL(obj, 1) >= 1)
-	sprintf(buf, "%s %s", buf, spells[GET_OBJ_VAL(obj, 1)]);
+	sprintf(buf + strlen(buf), " %s", spells[GET_OBJ_VAL(obj, 1)]);
       if (GET_OBJ_VAL(obj, 2) >= 1)
-	sprintf(buf, "%s %s", buf, spells[GET_OBJ_VAL(obj, 2)]);
+	sprintf(buf + strlen(buf), " %s", spells[GET_OBJ_VAL(obj, 2)]);
       if (GET_OBJ_VAL(obj, 3) >= 1)
-	sprintf(buf, "%s %s", buf, spells[GET_OBJ_VAL(obj, 3)]);
-      sprintf(buf, "%s\r\n", buf);
+	sprintf(buf + strlen(buf), " %s", spells[GET_OBJ_VAL(obj, 3)]);
+      sprintf(buf + strlen(buf), "\r\n");
       send_to_char(buf, ch);
       break;
     case ITEM_WAND:
     case ITEM_STAFF:
       sprintf(buf, "This %s casts: ", item_types[(int) GET_OBJ_TYPE(obj)]);
-      sprintf(buf, "%s %s\r\n", buf, spells[GET_OBJ_VAL(obj, 3)]);
-      sprintf(buf, "%sIt has %ld maximum charge%s and %ld remaining.\r\n", buf,
+      sprintf(buf + strlen(buf), " %s\r\n", spells[GET_OBJ_VAL(obj, 3)]);
+      sprintf(buf + strlen(buf), "It has %ld maximum charge%s and %ld remaining.\r\n",
 	      GET_OBJ_VAL(obj, 1), GET_OBJ_VAL(obj, 1) == 1 ? "" : "s",
 	      GET_OBJ_VAL(obj, 2));
       send_to_char(buf, ch);
@@ -625,7 +625,7 @@ ASPELL(spell_identify)
     case ITEM_WEAPON:
       sprintf(buf, "Damage Dice is '%ldD%ld'", GET_OBJ_VAL(obj, 1),
 	      GET_OBJ_VAL(obj, 2));
-      sprintf(buf, "%s for an average per-round damage of %.1f.\r\n", buf,
+      sprintf(buf + strlen(buf), " for an average per-round damage of %.1f.\r\n",
 	      (((GET_OBJ_VAL(obj, 2) + 1) / 2.0) * GET_OBJ_VAL(obj, 1)));
       send_to_char(buf, ch);
       break;
@@ -643,7 +643,7 @@ ASPELL(spell_identify)
 	  found = TRUE;
 	}
 	sprinttype(obj->affected[i].location, apply_types, buf2);
-	sprintf(buf, "   Affects: %s By %d\r\n", buf2, obj->affected[i].modifier);
+	SNPRINTF(buf, sizeof(buf), "   Affects: %s By %d\r\n", buf2, obj->affected[i].modifier);
 	send_to_char(buf, ch);
       }
     }

@@ -769,7 +769,8 @@ void parse_attributes( void )
   
   while ( !feof( fl ) ) {
     char p[ 256 ], * tmp;
-    fgets( p, 256, fl );
+    if ( !fgets( p, 256, fl ) )
+      break;
 
     /* skip comments & blank lines */
     if ( p[0] == '#' || isspace( p[0] ) )
@@ -792,9 +793,9 @@ void parse_attributes( void )
     case STR:
       for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
         int tohit, todam, carry_w, wield_w;
-        fscanf( fl, "%d %d, %d, %d, %d",
+        READ_CHECK(fscanf( fl, "%d %d, %d, %d, %d",
                 &index, &tohit, &todam,
-                &carry_w, &wield_w );
+                &carry_w, &wield_w ), 5, ATTR_FILE);
         // these should be in lock-step
         assert( index == i );
         str_app[ index ].tohit = tohit;
@@ -807,9 +808,9 @@ void parse_attributes( void )
     case DEX:
       for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
         int p_pocket, p_locks, traps, sneak, hide, react, miss, def;
-        fscanf( fl, "%d %d, %d, %d, %d, %d, %d, %d, %d",
+        READ_CHECK(fscanf( fl, "%d %d, %d, %d, %d, %d, %d, %d, %d",
                 &index, &p_pocket, &p_locks, &traps, &sneak, &hide,
-                &react, &miss, &def );
+                &react, &miss, &def ), 9, ATTR_FILE);
         // these should be in lock-step
         assert( index == i );
         dex_app_skill[ index ].p_pocket = p_pocket;
@@ -826,8 +827,8 @@ void parse_attributes( void )
     case CON:
       for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
         int hitp, shock;
-        fscanf( fl, "%d %d, %d",
-                &index, &hitp, &shock );
+        READ_CHECK(fscanf( fl, "%d %d, %d",
+                &index, &hitp, &shock ), 3, ATTR_FILE);
         // these should be in lock-step
         assert( index == i );
         con_app[ index ].hitp  = hitp;
@@ -838,8 +839,8 @@ void parse_attributes( void )
     case INT:
       for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
         int learn;
-        fscanf( fl, "%d %d",
-                &index, &learn );
+        READ_CHECK(fscanf( fl, "%d %d",
+                &index, &learn ), 2, ATTR_FILE);
         // these should be in lock-step
         assert( index == i );
         int_app[ index ].learn = (byte)learn;
@@ -849,8 +850,8 @@ void parse_attributes( void )
     case WIS:
       for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
         int bonus;
-        fscanf( fl, "%d %d",
-                &index, &bonus );
+        READ_CHECK(fscanf( fl, "%d %d",
+                &index, &bonus ), 2, ATTR_FILE);
         // these should be in lock-step
         assert( index == i );
         wis_app[ index ].bonus = (byte)bonus;
@@ -860,8 +861,8 @@ void parse_attributes( void )
     case CHA:
       for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
         int num_fols;
-        fscanf( fl, "%d %d",
-                &index, &num_fols );
+        READ_CHECK(fscanf( fl, "%d %d",
+                &index, &num_fols ), 2, ATTR_FILE);
         // these should be in lock-step
         assert( index == i );
         cha_app[ index ].num_fols = (byte)num_fols;

@@ -29,10 +29,10 @@ file disagree, the **source code wins**.
 
 Rules for agents:
 - **Verify any API, macro or file name in the source** (`grep`) before using it. Never copy a
-  code sample from `DOCS/` or `SPECIFICATION/` without checking it.
-- **Search with `grep -a`** (or `LC_ALL=C grep`). `act_info.c` contains raw CP437 bytes (0xB2, used for
-  bar graphics), so a plain `grep` in a UTF-8 locale calls it a "binary file" and hides matches.
-  For example, `sort_commands()` is defined there. Keep those bytes as they are when editing.
+  code sample from documentation without checking it.
+- Keep sources plain ASCII. Write any non-ASCII byte as an escape (e.g. the CP437 bar-graphic
+  characters in `act_info.c` are `"\xb0"` / `"\xb2"`); raw high bytes make clang warn and make `grep`
+  treat the file as binary.
 - If you find a doc error while working in an area, fix it or flag it in your summary.
   Don't do big doc rewrites unless asked.
 - Authoritative in-repo references are the code itself, especially `structs.h`, `utils.h`,
@@ -99,12 +99,18 @@ make clean
   Edit `Makefile.in` / `conf.h.in` too when you change them, or both drift. Running `./configure`
   regenerates them. Don't commit platform-specific regenerated output without saying so.
 - **Do not run `make realclean`**: it deletes `lib/etc/players` and `lib/etc/plrmail` (player data).
-- **Baseline (gcc 13.3, Linux x86-64): builds and links, exit 0, ~520 warnings.** By flag: about 228
-  `-Wformat-overflow`, 171 `-Wrestrict` (mostly `sprintf(buf, "%s...", buf, ...)`), 75 `-Wunused-result`,
-  and a few serious ones (§8). **A change must not add new warnings.** Compare the count before and after:
+- **Baseline: zero warnings** with gcc 13.3 and 11.4 and clang 18 at `-Wall` (Linux x86-64), for both
+  `make` and the utilities. **Keep it at zero: a change must not add any warning.** Check with a clean build:
   ```sh
-  cd src && make clean >/dev/null && make 2>&1 | grep -c 'warning:'
+  cd src && make clean >/dev/null && make 2>&1 | grep -c 'warning:'    # expect 0
   ```
+  If you're on macOS, also check with clang (`make CC=clang`).
+- Header dependencies are automatic. The compiler writes a `.d` file per object (`-MMD -MP`, which gcc
+  and clang support), and the Makefile includes them, so editing any header rebuilds exactly the files
+  that use it. Editing `src/Makefile` rebuilds everything. A plain `make` is enough; you only need
+  `make clean` to start from scratch. `.d` files are gitignored and removed by `make clean`.
+- `make utils` stops at `showplay`, which doesn't compile (`RACE_HUMAN` no longer exists now that races
+  are data-driven). The other utilities build individually, e.g. `make ../bin/autowiz`.
 
 ### Run
 Run from the **repo root** (the default data dir is the relative path `lib`):
@@ -113,11 +119,13 @@ Run from the **repo root** (the default data dir is the relative path `lib`):
 ```
 - `-m` mini-MUD (loads `index.mini` files, no rent check): fastest for testing
 - `-q` quick boot (skip rent check) · `-s` no special procedures · `-r N` restrict new players
-- `-c` syntax-check mode: **currently segfaults** (see §8, `parse_fuzzy_mob`)
+- `-c` syntax-check mode: loads all world and data files, then exits 0 if they parse. A fast check after data edits
 - `-C<fd>` is internal (copyover re-exec)
 - Logs go to stderr. On a healthy boot you get a run of `Resetting <zone>` lines and then
-  `No connections.  Going to sleep.` The full world boot currently logs about 7 pre-existing `SYSERR`s
-  (`Char is already equipped`, one bad zone command). Those are baseline, not regressions.
+  `No connections.  Going to sleep.` A full boot logs **anywhere from 0 to ~15 `SYSERR`s that vary from run
+  to run** (`Char is already equipped`, a bad zone command), because zone resets use random rolls. So a
+  changed SYSERR count is not a regression signal by itself. Look for *new kinds* of SYSERR instead.
+  `dominion -c` is deterministic and should log none.
 - `bin/nightrun.sh` (csh autorun loop) and `bin/automain.sh` are 1990s scripts. They expect a
   directory named `DominionMUD`, `lib/logs/` and a `debug/` dir. Treat them as historical, not as the dev workflow.
 
@@ -170,7 +178,15 @@ ACMD(do_foo) { ... }                            /* 3. body in the matching act_*
 - `act(str, hide_invis, ch, obj, vict_obj, TO_CHAR|TO_VICT|TO_ROOM|TO_NOTVICT)` with `$n $N $e $m $s $p` codes.
 - Global scratch buffers `buf`, `buf1`, `buf2`, `arg` (`MAX_STRING_LENGTH` = 64 KB) are shared by
   everything. Don't hold data in them across calls that might also use them. In new code, prefer
-  local buffers and `snprintf`. Never `sprintf(buf, "%s...", buf)` (overlapping, undefined behavior).
+  local buffers and `snprintf`. Never `sprintf(buf, "%s...", buf)`: it's undefined behavior, and on modern
+  glibc at `-O2` it wipes out the earlier text (this is why `score`/`stat` used to print one line).
+  To append, use `sprintf(buf + strlen(buf), "...", ...)`.
+- `SNPRINTF(dst, sizeof(dst), fmt, ...)` (`utils.h`) is `snprintf` that logs `SYSERR: message truncated`
+  with the caller's file and line if the output didn't fit. Use it when building a message from other
+  large buffers (e.g. copying `buf2` into `buf`).
+- Every `fread`/`fgets`/`fscanf` must check its result. For boot-time data files, use
+  `READ_CHECK(fscanf(fl, fmt, ...), expected_count, DATA_FILE)` or call `data_read_error()`. Either logs
+  the data file and source line, then stops the boot, which is better than running with half-read data.
 - `log()` is a macro for `mud_log()`. Use `mudlog(msg, BRF|NRM|CMP, level, TRUE)` for messages
   visible to immortals. Prefix real errors with `SYSERR:`.
 - Colour via `CC*` macros in `screen.h` (`CCRED(ch, C_NRM)`, `CCNRM(...)`).
@@ -213,7 +229,7 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
   `>fight_prog`, `if ... endif`, `mpecho`, etc. `lib/prog/template.prg` documents the triggers.
 - OLC (`creation.c`) rewrites world files in place. If you hand-edit world files, keep the exact format
   OLC writes (tildes, `S` terminators, `$` at EOF) or the next OLC save may corrupt them.
-- After any data change, boot the full world (not just `-m`) and compare the `SYSERR` count with the baseline.
+- After any data change, run `./bin/dominion -c` (must exit 0 with no `SYSERR`), then boot the full world and look for new kinds of `SYSERR`.
 
 ---
 
@@ -242,29 +258,54 @@ Security
 - **Passwords are stored in plaintext.** `utils.h` only uses `crypt()` when `HAVE_CRYPT` is defined, but
   `configure`/`conf.h` define `CIRCLE_CRYPT` instead, so `CRYPT(a,b)` expands to `(a)`. Fixing this changes
   how stored passwords are compared, so plan a migration path. Don't just flip the macro.
-- `creation.c:1098` and `shop.c:505` pass non-literal format strings to printf-family functions (`-Wformat-security`).
-- Widespread unbounded `sprintf`/`strcpy` into fixed buffers (the hundreds of `-Wformat-overflow` warnings).
+- Some `fscanf("%s")` calls have no field width (e.g. `ban.c`, copyover recovery in `comm.c`). The input
+  files are local, but widths should be added.
 
 Crashes and undefined behavior
-- `db.c:1141` `parse_fuzzy_mob()` indexes `races[i]` with the **mob prototype index** instead of the mob's race
-  (`GET_RACE(mob_proto + i)`). This reads past the race table, so fuzzy-mob HP is garbage in normal boots and
-  `dominion -c` segfaults.
-- `db.c:1379-1380` `memset(..., sizeof(struct index_data *))` / `sizeof(struct char_data *)` uses the pointer size
-  instead of the struct size, so the prototypes are not actually zeroed.
-- `mobact.c:297-315` `FreeHates`/`FreeFears` free `n` (the *next* node) instead of `k`. This leaks the head,
-  double-frees, and uses freed memory.
-- `save.c:1377` `rent_adjust()` reads an uninitialised `struct rent_info rent` (the initialiser is commented out).
-- `save.c:635-660, 852, 921-922, 1173` store pointers in `int` fields (`(int) &def_sdesc`). That truncates on
-  64-bit systems and crashes the ASCII loader whenever it falls back to a default string.
-- `-Wmisleading-indentation` at `magic.c:143,161` and `act_item.c:1609` should be checked for real logic bugs.
+- `magic.c` `mag_summons()`, `SPELL_CLONE`: the clone's name strings are `free()`d and then `strcpy`'d into.
+  That's a use-after-free, and casting clone will likely crash.
+- Zone `temperature` (`weather.c`) is updated every hour but never read and never clamped. Nothing in
+  the game uses it yet.
+- Mob hit regeneration (`hit_gain()` via the shared `dummy_mob` `player_specials`) differs between `-O0`
+  and `-O2` builds: `stat <mob>` shows `+0` at `-O2`. Something reads uninitialised or shared state.
+- `save.c` `rent_adjust()` now runs on a zeroed `struct rent_info` (there's no `GET_RENT` yet). It's only
+  reachable from the unfinished ASCII loader, so it has no effect today.
+- `FreeHates`/`FreeFears` (`mobact.c`) are never called, so a mob's hate/fear lists leak when it is extracted.
 
 Housekeeping
-- `castle.c` and `opinion.c` aren't built. `opinion.c`'s functions were partly moved into `mobact.c`.
+- `castle.c` and `opinion.c` aren't built. `opinion.c`'s functions were partly moved into `mobact.c`, and
+  its copies of `FreeHates`/`FreeFears` still have the old free-the-wrong-node bug.
+- `util/showplay.c` doesn't compile (see §4).
+- `src/util/Makefile` (generated from `src/util/Makefile.in`) is a separate legacy Makefile that the normal
+  build doesn't use. The utilities are built by `src/Makefile`. It still has hand-listed header
+  dependencies and targets for utilities that don't compile.
 - Generated `src/Makefile`/`conf.h` are committed and macOS-flavoured. The legacy non-Unix Makefiles and
   `conf.h.*` are unmaintained.
 - `TODO.md` (accounts system, skills/spells in text files), `lib/data/README`, and the 1990s player
   reports in `lib/misc/{bugs,ideas,typos,todo}` are the historical backlog.
-- `DOCS/` and `SPECIFICATION/` are untracked and inaccurate (§2).
+
+Fixed in October 2026 (for history)
+- `parse_fuzzy_mob()` used the prototype index instead of the race, giving fuzzy mobs garbage HP. `-c` mode
+  didn't load the race tables and crashed. `FreeHates`/`FreeFears` freed the wrong node.
+- All ~520 gcc warnings were cleared. Real bugs fixed along the way: overlapping `sprintf`s that wiped
+  `score`/`stat`/`show` output; the `set` field list was never shown; good mobs used the neutral line
+  (`IS_NEUTRAL(ch) < 250`); summon success messages used the failure table, which was also missing a comma;
+  OLC wrote zone headers with a user-controlled format string and logged the wrong file name on open
+  failure; `rent_adjust()` read an uninitialised struct; mob prototypes were `memset` with the pointer size;
+  `save.c` stored pointers in `int`; `alias.c` read file-controlled lengths into a 127-byte buffer; boot
+  hung forever on an index file with no `$` or a data file with no final newline; copyover recovery could
+  spin on a truncated file; a short rent-file read could delete a player's crash file; and
+  `file_to_string()`/`get_line()`/the ban list wrote before their buffers on a failed read.
+- clang-only warnings, now also 0. **Gameplay change:** `IS_CARRYING_W` lacked parentheses, so carried
+  weight (items, plus gold/100 for mortals) was always 0 and carry limits were never enforced. They are
+  enforced now, so a mortal holding lots of gold can be over the limit. Winter in `weather.c` used `&&`
+  where `||` was meant; this has no visible effect yet because nothing reads temperature.
+- `src/Makefile` hand-listed only `conf.h sysdep.h protos.h` per object, so header edits didn't trigger
+  rebuilds. It now uses compiler-generated dependencies (`-MMD -MP`).
+- "You last logged on from ..." printed garbage for **every** player, because it read `nanny()`'s local
+  `tmp_store` on a later call than the one that loaded it. The previous host and time are now kept on the
+  descriptor (`last_host`, `last_logon`). The line is shown only to existing characters, and the time is
+  that of the last save, i.e. when the player last left.
 
 ---
 
@@ -277,8 +318,9 @@ Housekeeping
 3. **Match the local style:** CircleMUD/K&R-ish C, 2-space indent in most files, `/* */` comments, C89-compatible
    declarations at the top of blocks. New source files get the same banner header as their neighbours, plus
    `#define __FILE_C__` and the `conf.h` → `sysdep.h` → `protos.h` include order. Add new `.c` files to
-   **both** `src/Makefile` and `src/Makefile.in` (OBJFILES and a dependency rule).
-4. **Definition of done:** builds with **no new warnings** compared to baseline; the full world boots with
+   **both** `src/Makefile` and `src/Makefile.in` (just the `OBJFILES` list; the generic `%.o: %.c` rule and
+   the generated `.d` files handle the rest).
+4. **Definition of done:** builds with **zero warnings** (gcc, and clang if available); the full world boots with
    no new `SYSERR`s; the smoke test passes; the changed behaviour was exercised in-game (or you've explained
    why it couldn't be); help files (`lib/text/help/*.hlp`) are updated for player-visible changes.
 5. **Ask first** before you change on-disk formats (pfile structs, world file syntax, data-file formats),

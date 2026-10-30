@@ -29,8 +29,7 @@ void purge(char *filename)
   printf("Deleting: \n");
 
   for (;;) {
-    fread(&player, sizeof(struct char_file_u), 1, fl);
-    if (feof(fl)) {
+    if (fread(&player, sizeof(struct char_file_u), 1, fl) != 1) {
       fclose(fl);
       fclose(outfile);
       puts("Done.");

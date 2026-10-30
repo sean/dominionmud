@@ -259,7 +259,11 @@ void copyover_recover( )
   
   for (;;) {
     fOld = TRUE;
-    fscanf(fp, "%d %s %s\n", &desc, name, host);
+    if (fscanf(fp, "%d %s %s\n", &desc, name, host) != 3) {
+      if (!feof(fp))
+        log("SYSERR: copyover_recover: malformed copyover file.");
+      break;
+    }
 
     if (desc == -1)
       break;
@@ -923,7 +927,7 @@ void make_prompt(struct descriptor_data *d)
        }
     }
     if (GET_INVIS_LEV(d->character))
-       sprintf(prompt, "%s%si%d%s ", prompt, CCBBL(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%si%d%s ", CCBBL(d->character, C_NRM),
 	       GET_INVIS_LEV(d->character), CCNRM(d->character, C_NRM));
 
     if (PRF_FLAGGED(d->character, PRF_DISPHP)) {
@@ -933,16 +937,16 @@ void make_prompt(struct descriptor_data *d)
 	  percent = (curr/maxim)*100;
        else percent = 0;
        if (percent == 100)
-       sprintf(prompt, "%s%s%3.0f%%H%s ", prompt, CCGRN(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%3.0f%%H%s ", CCGRN(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else if (percent > 50)
-       sprintf(prompt, "%s%s%2.1f%%H%s ", prompt, CCGRN(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%H%s ", CCGRN(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else if (percent > 25)
-       sprintf(prompt, "%s%s%2.1f%%H%s ", prompt, CCYEL(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%H%s ", CCYEL(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else
-       sprintf(prompt, "%s%s%2.1f%%H%s ", prompt, CCRED(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%H%s ", CCRED(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
     }
 
@@ -953,16 +957,16 @@ void make_prompt(struct descriptor_data *d)
 	 percent = (curr/maxim)*100;
        else percent = 0;
        if (percent == 100)
-       sprintf(prompt, "%s%s%3.0f%%M%s ", prompt, CCGRN(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%3.0f%%M%s ", CCGRN(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else if (percent > 50)
-       sprintf(prompt, "%s%s%2.1f%%M%s ", prompt, CCGRN(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%M%s ", CCGRN(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else if (percent > 25)
-       sprintf(prompt, "%s%s%2.1f%%M%s ", prompt, CCYEL(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%M%s ", CCYEL(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else
-       sprintf(prompt, "%s%s%2.1f%%M%s ", prompt, CCRED(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%M%s ", CCRED(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
     }
 
@@ -973,16 +977,16 @@ void make_prompt(struct descriptor_data *d)
 	 percent = (curr/maxim)*100;
        else percent = 0;
        if (percent == 100)
-       sprintf(prompt, "%s%s%3.0f%%V%s ", prompt, CCGRN(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%3.0f%%V%s ", CCGRN(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else if (percent > 50)
-       sprintf(prompt, "%s%s%2.1f%%V%s ", prompt, CCGRN(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%V%s ", CCGRN(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else if (percent > 25)
-       sprintf(prompt, "%s%s%2.1f%%V%s ", prompt, CCYEL(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%V%s ", CCYEL(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
        else
-       sprintf(prompt, "%s%s%2.1f%%V%s ", prompt, CCRED(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%V%s ", CCRED(d->character, C_NRM),
 	      percent, CCNRM(d->character, C_NRM));
     }
 
@@ -995,13 +999,13 @@ void make_prompt(struct descriptor_data *d)
 	 percent = 0;
        percent = (100 - percent);
        if (percent == 0)
-       sprintf(prompt, "%s%s%1.0f%%E%s ", prompt, CCMAG(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%1.0f%%E%s ", CCMAG(d->character, C_NRM),
 	       percent, CCNRM(d->character, C_NRM));
        else if (percent < 100)
-       sprintf(prompt, "%s%s%2.1f%%E%s ", prompt, CCMAG(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%2.1f%%E%s ", CCMAG(d->character, C_NRM),
 	       percent, CCNRM(d->character, C_NRM));
        else
-       sprintf(prompt, "%s%s%3.1f%%E%s ", prompt, CCBMG(d->character, C_NRM),
+       sprintf(prompt + strlen(prompt), "%s%3.1f%%E%s ", CCBMG(d->character, C_NRM),
 	       percent, CCNRM(d->character, C_NRM));
     }
 #if 0
@@ -1010,7 +1014,7 @@ void make_prompt(struct descriptor_data *d)
       if (GET_MAX_HIT(FIGHTING(FIGHTING(d->character))) > 0)
 	percent = (int)((float)GET_HIT(FIGHTING(FIGHTING(d->character)))/(float)GET_MAX_HIT(FIGHTING(FIGHTING(d->character))))*10;
       else percent = 0;
-      sprintf(prompt, "%s [Tank: %s]", prompt, percent_hit[(int) percent]);
+      sprintf(prompt + strlen(prompt), " [Tank: %s]", percent_hit[(int) percent]);
     }
 
     if (PRF_FLAGGED(d->character, PRF_DISPENEMY) &&
@@ -1018,11 +1022,11 @@ void make_prompt(struct descriptor_data *d)
       if (GET_MAX_HIT(FIGHTING(d->character)) > 0)
 	percent = (int)((float)GET_HIT(FIGHTING(d->character))/(float)GET_MAX_HIT(FIGHTING(d->character)))*10;
       else percent = 0;
-      sprintf(prompt, "%s [Enemy: %s]", prompt, percent_hit[(int) percent]);
+      sprintf(prompt + strlen(prompt), " [Enemy: %s]", percent_hit[(int) percent]);
     }
 #endif
     if (IS_NPC(d->character))
-      sprintf(prompt, "%s%s", prompt, GET_NAME(d->character));
+      sprintf(prompt + strlen(prompt), "%s", GET_NAME(d->character));
 
     strcat(prompt, "> ");
 
@@ -1213,7 +1217,7 @@ int new_descriptor(int s)
 {
   int desc, sockets_connected = 0;
   unsigned long addr;
-  int i;
+  socklen_t i;
   struct descriptor_data *newd;
   struct sockaddr_in peer;
   struct hostent *from;
@@ -1283,29 +1287,23 @@ int new_descriptor(int s)
   /* now ask the user if they can see colors, to find out if their term is ANSI compatible */
   switch (number(0, 5)) {
     case 0:
-      sprintf(buf, "%s\r\n%sIs this text in color (specifically red)?%s ", 
-	      buf, KBRD, KNRM);
+      sprintf(buf + strlen(buf), "\r\n%sIs this text in color (specifically red)?%s ", KBRD, KNRM);
       break;
     case 1:
-      sprintf(buf, "%s\r\n%sIs this text in color (specifically yellow)?%s ", 
-	      buf, KYEL, KNRM);
+      sprintf(buf + strlen(buf), "\r\n%sIs this text in color (specifically yellow)?%s ", KYEL, KNRM);
       break;
     case 2:
-      sprintf(buf, "%s\r\n%sIs this text in color (specifically green)?%s ", 
-	      buf, KBGR, KNRM);
+      sprintf(buf + strlen(buf), "\r\n%sIs this text in color (specifically green)?%s ", KBGR, KNRM);
       break;
     case 3:
-      sprintf(buf, "%s\r\n%sIs this text in color (specifically magenta)?%s ", 
-	      buf, KBMG, KNRM);
+      sprintf(buf + strlen(buf), "\r\n%sIs this text in color (specifically magenta)?%s ", KBMG, KNRM);
       break;
     case 4:
-      sprintf(buf, "%s\r\n%sIs this text in color (specifically cyan)?%s ", 
-	      buf, KBCN, KNRM);
+      sprintf(buf + strlen(buf), "\r\n%sIs this text in color (specifically cyan)?%s ", KBCN, KNRM);
       break;
     case 5: 
     default:
-      sprintf(buf, "%s\r\n%sIs this text in color (specifically blue)?%s ", 
-	      buf, KBBL, KNRM);
+      sprintf(buf + strlen(buf), "\r\n%sIs this text in color (specifically blue)?%s ", KBBL, KNRM);
       break;
   }
   SEND_TO_Q(buf, newd);
@@ -1335,12 +1333,12 @@ int process_output(struct descriptor_data *t)
     if (!PRF_FLAGGED(t->character, PRF_INFOBAR))
       strcat(i + 2, "\r\n");
     else
-      sprintf(i,"%s\e8\r\n\e7%s",i,scrpos(24,1,t->character));
+      sprintf(i + strlen(i),"\e8\r\n\e7%s",scrpos(24,1,t->character));
   }
 
   if (!t->connected && t->character && PRF_FLAGGED(t->character, PRF_COMPACT) &&
       PRF_FLAGGED(t->character, PRF_INFOBAR))
-    sprintf(i,"%s%s",i,scrpos(24, 1, t->character));
+    sprintf(i + strlen(i),"%s",scrpos(24, 1, t->character));
 
   /*
    * now, send the output.  If this is an 'interruption', use the prepended
@@ -1464,7 +1462,7 @@ int process_input(struct descriptor_data *t)
  * this descriptor is in the read set).  JE 2/23/95.
  */
 #if !defined(POSIX_NONBLOCK_BROKEN)
-  } while ((nl_pos == NULL)); // && (STATE(t) != CON_PICO));
+  } while (nl_pos == NULL); // && (STATE(t) != CON_PICO));
 #else
   } while (0);
 
@@ -1613,7 +1611,6 @@ void close_socket(struct descriptor_data *d)
 {
   char buf[128];
   struct descriptor_data *temp;
-  long target_idnum = -1;
 
   close(d->descriptor);
   flush_queues(d);
@@ -1634,7 +1631,6 @@ void close_socket(struct descriptor_data *d)
        break;
   }
   if (d->character) {
-    target_idnum = GET_IDNUM(d->character);
     if (d->connected == CON_PLAYING) {
       save_char(d->character, NOWHERE);
       act("$n has lost $s link.", TRUE, d->character, 0, 0, TO_ROOM);

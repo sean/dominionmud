@@ -178,7 +178,7 @@ void mobile_activity(void)
 	     if (IS_HUMANOID(ch)) {
 	       if (IS_EVIL(ch))
 		 act("$n says, 'I'm gonna kill you, $N!'", FALSE, ch, 0, vict, TO_ROOM);
-	       else if (IS_NEUTRAL(ch) < 250)
+	       else if (IS_NEUTRAL(ch))
 		 act("$n says, 'Hey!  You're the fiend that attacked me!!!', exclaims $n.",
 		     FALSE, ch, 0, 0, TO_ROOM);
 	       else /* isgood */
