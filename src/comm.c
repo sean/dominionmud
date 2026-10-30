@@ -49,6 +49,10 @@ extern struct time_info_data time_info;         /* In db.c */
 extern char help[];
 extern const char *dirs[];
 extern const char *percent_hit[];
+void parse_experience(void);    /* In race.c */
+void parse_attributes(void);    /* In constant.c */
+void parse_races(void);         /* In race.c */
+void parse_religions(void);     /* In religion.c */
 
 /* local globals */
 struct descriptor_data *descriptor_list = NULL;         /* master desc list */
@@ -211,6 +215,11 @@ int main(int argc, char **argv)
   }
 
   if (scheck) {
+    /* boot_world() needs the race tables (fuzzy mobs) that boot_db() loads */
+    parse_experience();
+    parse_attributes();
+    parse_races();
+    parse_religions();
     boot_world();
     log("Done.");
     exit(0);

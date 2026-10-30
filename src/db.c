@@ -1103,7 +1103,7 @@ void parse_simple_mob(FILE *mob_f, unsigned long i, unsigned long nr)
 
 void parse_fuzzy_mob(FILE *mob_f, unsigned long i, unsigned long nr)
 {
-  int j, t[10];
+  int j, t[10], race;
   char line[256];
 
   assert( mob_f != NULL );
@@ -1130,6 +1130,16 @@ void parse_fuzzy_mob(FILE *mob_f, unsigned long i, unsigned long nr)
   GET_LEVEL(mob_proto + i)    = t[0];
   GET_RACE(mob_proto + i)     = t[1];
 
+  /* Base points come from the mob's race, not its prototype index */
+  race = t[1];
+  if (race < 0 || race >= NUM_RACES) {
+    sprintf(buf, "SYSERR: Invalid race %d for fuzzy mob #%ld, using race 0.",
+            race, nr);
+    log(buf);
+    race = 0;
+    GET_RACE(mob_proto + i) = race;
+  }
+
   mob_proto[i].points.hitroll = (number(5, 95));
   for (j = 0; j < ARMOR_LIMIT; j++)
     mob_proto[i].points.armor[j]   = (number(0, 90));
@@ -1138,33 +1148,33 @@ void parse_fuzzy_mob(FILE *mob_f, unsigned long i, unsigned long nr)
   mob_proto[i].points.max_hit = 0;
 
   mob_proto[i].points.hit =
-    number( races[ i ].points.points.min_hp,
-            races[ i ].points.points.max_hp ) +
+    number( races[ race ].points.points.min_hp,
+            races[ race ].points.points.max_hp ) +
     ( GET_LEVEL( mob_proto + i ) *
-      number( races[ i ].points.points.min_lhp,
-              races[ i ].points.points.max_lhp ) );
+      number( races[ race ].points.points.min_lhp,
+              races[ race ].points.points.max_lhp ) );
   mob_proto[i].points.mana =
-    number( races[ i ].points.points.min_ma,
-            races[ i ].points.points.max_ma ) +
+    number( races[ race ].points.points.min_ma,
+            races[ race ].points.points.max_ma ) +
     ( GET_LEVEL( mob_proto + i ) *
-      number( races[ i ].points.points.min_lma,
-              races[ i ].points.points.max_lma ) );
+      number( races[ race ].points.points.min_lma,
+              races[ race ].points.points.max_lma ) );
   mob_proto[i].points.move =
-    number( races[ i ].points.points.min_mo,
-            races[ i ].points.points.max_mo ) +
+    number( races[ race ].points.points.min_mo,
+            races[ race ].points.points.max_mo ) +
     ( GET_LEVEL( mob_proto + i ) *
-      number( races[ i ].points.points.min_lmo,
-              races[ i ].points.points.max_lmo ) );
+      number( races[ race ].points.points.min_lmo,
+              races[ race ].points.points.max_lmo ) );
   mob_proto[i].points.hitroll =
-    number( races[ i ].points.points.min_hi,
-            races[ i ].points.points.max_hi ) +
+    number( races[ race ].points.points.min_hi,
+            races[ race ].points.points.max_hi ) +
     ( GET_LEVEL( mob_proto + i ) *
-      number( 1, races[ i ].points.points.min_hi ) );
+      number( 1, races[ race ].points.points.min_hi ) );
   mob_proto[i].points.damroll =
-    number( races[ i ].points.points.min_da,
-            races[ i ].points.points.max_da ) +
+    number( races[ race ].points.points.min_da,
+            races[ race ].points.points.max_da ) +
     ( GET_LEVEL( mob_proto + i ) *
-      number( 1, races[ i ].points.points.min_da ) );
+      number( 1, races[ race ].points.points.min_da ) );
   
   mob_proto[i].mob_specials.damnodice   = number(1, GET_LEVEL( mob_proto + i ));
   mob_proto[i].mob_specials.damsizedice = number(2, GET_LEVEL( mob_proto + i ));
