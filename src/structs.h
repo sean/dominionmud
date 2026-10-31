@@ -806,7 +806,9 @@
 #define MAX_RAW_INPUT_LENGTH    1024    /* Max size of *raw* input */
 #define MAX_MESSAGES            40
 #define MAX_NAME_LENGTH         20  /* Used in char_file_u *DO*NOT*CHANGE* */
-#define MAX_PWD_LENGTH          12  /* Used in char_file_u *DO*NOT*CHANGE* */
+#define MAX_PWD_LENGTH          64  /* longest password a player may type   */
+#define PWD_HASH_LENGTH         127 /* stored password hash (password.h);   */
+                                    /* used in char_file_u *DO*NOT*CHANGE*  */
 #define MAX_TITLE_LENGTH        80  /* Used in char_file_u *DO*NOT*CHANGE* */
 #define HOST_LENGTH             30  /* Used in char_file_u *DO*NOT*CHANGE* */
 #define EXDSCR_LENGTH           1024/* Used in char_file_u *DO*NOT*CHANGE* */
@@ -1280,7 +1282,7 @@ struct time_data {
 
 /* general player-related info, usually PC's and NPC's */
 struct char_player_data {
-   char passwd[MAX_PWD_LENGTH+1]; /* character's password      */
+   char passwd[PWD_HASH_LENGTH+1]; /* character's password hash */
    char *name;         /* PC / NPC s name (kill ...  )         */
    char *short_descr;  /* for NPC 'actions'                    */
    char *long_descr;   /* for 'look'                           */
@@ -1596,7 +1598,7 @@ struct char_file_u {
    int height;
 
    struct language speaks[MAX_LANGUAGES];   /* Languages the char knows */
-   char   pwd[MAX_PWD_LENGTH+1];            /* character's password */
+   char   pwd[PWD_HASH_LENGTH+1];           /* character's password hash */
 
    struct char_special_data_saved    char_specials_saved;
    struct player_special_data_saved  player_specials_saved;

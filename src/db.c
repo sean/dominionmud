@@ -528,8 +528,16 @@ void build_player_index(void)
   fseek(player_fl, 0L, SEEK_END);
   size = ftell(player_fl);
   rewind(player_fl);
-  if (size % sizeof(struct char_file_u))
-    fprintf(stderr, "\aWARNING:  PLAYERFILE IS PROBABLY CORRUPT!\n");
+  if (size % sizeof(struct char_file_u)) {
+    /* wrong record size: a corrupt file, or one written by a build with a
+       different struct char_file_u (e.g. before passwords were hashed).
+       Reading it would scramble every player, so stop here. */
+    sprintf(buf, "SYSERR: %s is %ld bytes, not a multiple of the %ld-byte player "
+	    "record; it is corrupt or from an incompatible version.", PLAYER_FILE,
+	    size, (long) sizeof(struct char_file_u));
+    log(buf);
+    exit(1);
+  }
   recs = size / sizeof(struct char_file_u);
   if (recs) {
     sprintf(buf, "   %ld players in database.", recs);

@@ -703,10 +703,6 @@ void    update_pos(struct char_data *victim);
 #define SEEK_END        2
 #endif
 
-#if defined(NOCRYPT) || !defined(HAVE_CRYPT)
-#define CRYPT(a,b) (a)
-#else
-#define CRYPT(a,b) ((char *) crypt((a),(b)))
-#endif
+/* Passwords are hashed with password_hash()/password_verify() (password.h). */
 
 #endif

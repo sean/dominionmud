@@ -18,6 +18,7 @@
 #include "sysdep.h"
 
 #include "protos.h"
+#include "password.h"
 
 /*   external vars  */
 extern FILE *player_fl;
@@ -2856,8 +2857,11 @@ ACMD(do_set)
       send_to_char("You cannot change that.\r\n", ch);
       return;
     }
-    strncpy(tmp_store.pwd, CRYPT(val_arg, tmp_store.name), MAX_PWD_LENGTH);
-    tmp_store.pwd[MAX_PWD_LENGTH] = '\0';
+    if (strlen(val_arg) < 3 || strlen(val_arg) > MAX_PWD_LENGTH ||
+        password_hash(val_arg, tmp_store.pwd, sizeof(tmp_store.pwd))) {
+      send_to_char("Illegal password.\r\n", ch);
+      return;
+    }
     sprintf(buf, "Password changed to '%s'.", val_arg);
     break;
   case 48:

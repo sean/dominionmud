@@ -6,11 +6,12 @@
 ************************************************************************* */
 
 
-#include "conf.h"
-#include "sysdep.h"
+#include "../conf.h"
+#include "../sysdep.h"
 
-#include "structs.h"
-#include "utils.h"
+#include "../structs.h"
+#include "../utils.h"
+#include "../password.h"
 
 
 int str_eq(char *s, char *t)
@@ -47,13 +48,15 @@ void pword(char *filename, char *name, char *password)
   }
 
   for (;;) {
-    fread(&buf, sizeof(buf), 1, fl);
-    if (feof(fl))
+    if (fread(&buf, sizeof(buf), 1, fl) != 1)
       break;
 
     if (str_eq(name, buf.name)) {
       found = TRUE;
-      strncpy(buf.pwd, CRYPT(password, buf.name), MAX_PWD_LENGTH);
+      if (password_hash(password, buf.pwd, sizeof(buf.pwd))) {
+	fprintf(stderr, "Unable to hash the new password.\n");
+	exit(1);
+      }
       if (fseek(fl, -1L * sizeof(buf), SEEK_CUR) != 0)
 	perror("fseek");
       if (fwrite(&buf, sizeof(buf), 1, fl) != 1)

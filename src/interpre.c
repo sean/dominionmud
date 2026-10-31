@@ -17,6 +17,11 @@
 #include "sysdep.h"
 
 #include "protos.h"
+#include "password.h"
+
+#if PWD_HASH_LENGTH != PASSWORD_HASH_LENGTH
+#error "PWD_HASH_LENGTH (structs.h) and PASSWORD_HASH_LENGTH (password.h) must match"
+#endif
 
 extern char *motd;
 extern char *imotd;
@@ -1565,7 +1570,7 @@ int enter_player_game (struct descriptor_data *d)
 void nanny(struct descriptor_data *d, char *arg)
 {
   char buf[128];
-  int player_i, load_result;
+  int player_i, load_result, pw_result;
   static int points;
   char tmp_name[MAX_INPUT_LENGTH];
   char when[32];
@@ -1750,7 +1755,8 @@ void nanny(struct descriptor_data *d, char *arg)
     if (!*arg)
       close_socket(d);
     else {
-      if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character), MAX_PWD_LENGTH)) {
+      pw_result = password_verify(arg, GET_PASSWD(d->character));
+      if (pw_result == PASSWORD_BAD) {
 	sprintf(buf, "Bad PW: %s [%s]", GET_NAME(d->character), d->host);
 	mudlog(buf, BRF, LVL_GOD, TRUE);
 	GET_BAD_PWS(d->character)++;
@@ -1763,6 +1769,15 @@ void nanny(struct descriptor_data *d, char *arg)
 	  echo_off(d);
 	}
 	return;
+      }
+      if (pw_result == PASSWORD_OK_REHASH) {
+	/* stored as old plaintext (or with fewer rounds): hash it now */
+	if (!password_hash(arg, GET_PASSWD(d->character),
+			   sizeof(GET_PASSWD(d->character)))) {
+	  save_char(d->character, NOWHERE);
+	  sprintf(buf, "Upgraded stored password for %s.", GET_NAME(d->character));
+	  mudlog(buf, NRM, LVL_GOD, TRUE);
+	}
       }
       load_result = GET_BAD_PWS(d->character);
       GET_BAD_PWS(d->character) = 0;
@@ -1822,8 +1837,13 @@ void nanny(struct descriptor_data *d, char *arg)
       SEND_TO_Q("Password: ", d);
       return;
     }
-    strncpy(GET_PASSWD(d->character), CRYPT(arg, GET_NAME(d->character)), MAX_PWD_LENGTH);
-    *(GET_PASSWD(d->character) + MAX_PWD_LENGTH) = '\0';
+    if (password_hash(arg, GET_PASSWD(d->character),
+		      sizeof(GET_PASSWD(d->character)))) {
+      log("SYSERR: password_hash failed.");
+      SEND_TO_Q("\r\nUnable to set that password, please try another.\r\n", d);
+      SEND_TO_Q("Password: ", d);
+      return;
+    }
 
     SEND_TO_Q("\r\nPlease retype password: ", d);
     if (STATE(d) == CON_NEWPASSWD)
@@ -1835,8 +1855,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
   case CON_CNFPASSWD:
   case CON_CHPWD_VRFY:
-    if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character),
-		MAX_PWD_LENGTH)) {
+    if (password_verify(arg, GET_PASSWD(d->character)) == PASSWORD_BAD) {
       SEND_TO_Q("\r\nPasswords don't match... start over.\r\n", d);
       SEND_TO_Q("Password: ", d);
       if (STATE(d) == CON_CNFPASSWD)
@@ -2407,7 +2426,7 @@ void nanny(struct descriptor_data *d, char *arg)
     break;
 
   case CON_CHPWD_GETOLD:
-    if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character), MAX_PWD_LENGTH)) {
+    if (password_verify(arg, GET_PASSWD(d->character)) == PASSWORD_BAD) {
       echo_on(d);
       SEND_TO_Q("\r\nIncorrect password.\r\n", d);
       if (GET_ANSI(d) == TRUE)
@@ -2425,7 +2444,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
   case CON_DELCNF1:
     echo_on(d);
-    if (strncmp(CRYPT(arg, GET_PASSWD(d->character)), GET_PASSWD(d->character), MAX_PWD_LENGTH)) {
+    if (password_verify(arg, GET_PASSWD(d->character)) == PASSWORD_BAD) {
       SEND_TO_Q("\r\nIncorrect password.\r\n", d);
       if (GET_ANSI(d) == TRUE)
         SEND_TO_Q(ANSI_MENU, d);

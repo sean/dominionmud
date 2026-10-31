@@ -66,11 +66,12 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   creation.c, olc.c Online building (redit/oedit/medit/zedit/sedit)
   save.c            New ASCII player save (partial — see §7) + rent adjustment
   objsave.c         CircleMUD rent/crash object files under lib/plrobjs
+  password.c/.h     PBKDF2-HMAC-SHA256 password hashing; self-contained (see §7)
   spec_pro.c, spec_ass.c   SPECIAL() procedures and their assignment
   shop.c, house.c, mail.c, boards.c, ban.c, weather.c, graph.c, alias.c, modify.c ...
   castle.c, opinion.c      NOT compiled (not in OBJFILES); dead code
   Makefile.{amiga,arc,bcc,bcc55,lcc,msvc,os2}, Smakefile, conf.h.{amiga,arc,mac,os2,vms,win}  Legacy ports; untested
-  util/             Offline tools: autowiz, listrent, purgeplay, showplay, sign, split, mudpasswd, wld2html, mapwld ...
+  util/             Offline tools: autowiz, listrent, mudpasswd, purgeplay, showplay, sign, split, wld2html, mapwld ...
 lib/                Runtime data directory (server chdir()s here)
   data/             races, religions, guilds, exp_table, attributes (text, self-documenting headers); spells (empty)
   world/{wld,mob,obj,zon,shp}/   CircleMUD-format world files; `index` lists files loaded; `index.mini` for -m
@@ -241,11 +242,25 @@ There are **two player-save systems**:
    path (`interpre.c` nanny, `comm.c` copyover) uses this one. **Any change to `struct char_file_u` or
    to the types or sizes of anything inside it (`structs.h`) silently corrupts existing player files**,
    and the layout also depends on compiler and ABI (32- vs 64-bit). Never change it without an explicit,
-   agreed migration plan.
+   agreed migration plan. At boot, `build_player_index()` refuses to start (SYSERR, exit 1) if the file
+   size isn't a multiple of the record size, rather than misreading every player. The record is
+   currently 6184 bytes (gcc/clang, x86-64); it grew from 6072 when passwords became hashes (Oct 2026).
 2. **New ASCII system (partial, unfinished):** `save.c` `save_char_obj`/`load_char_obj`/`fread_char` write
    `lib/players/<A-E|F-J|K-O|P-T|U-Z>/<Name>` with key/value lines. Only the `save` command calls it,
    `lib/players/` doesn't exist, and nothing loads from it at login. Finishing this migration is listed
    in `TODO.md` ("/ Started").
+
+**Passwords** are never stored. `password.c` hashes them with PBKDF2-HMAC-SHA256 (16-byte random salt,
+`PASSWORD_ROUNDS` = 100000) into `$pbkdf2-sha256$<rounds>$<salt>$<hash>`, the same format as Python's
+passlib, in the 128-byte `pwd` field (`PWD_HASH_LENGTH`). Always use `password_hash()` and
+`password_verify()` (`password.h`); never compare or copy passwords yourself. `password_verify()` also
+accepts an old plaintext password and returns `PASSWORD_OK_REHASH`, and the login code then stores a
+hash. The same happens for hashes with fewer rounds than `PASSWORD_ROUNDS`, so raising that constant
+upgrades players as they log in. Each check costs about 0.1 s of CPU inside the single-threaded game
+loop (more rounds means more lag per login). Typed passwords may be 3–`MAX_PWD_LENGTH` (64) characters.
+Forgotten passwords can't be recovered, only reset: offline with `bin/mudpasswd lib/etc/players <name>
+<new-password>` (server stopped), or in-game by the implementor with `set <player> passwd <new>`.
+`password.c` uses only the standard C library, so the utilities can link it too.
 
 Object rent and crash files live in `lib/plrobjs` (`objsave.c`). Mail is in `lib/etc/plrmail` (binary).
 Gitignored runtime files: `lib/etc/players`, `lib/etc/plrmail`, `lib/etc/mudtime`, `*.objs`, `*.alias`.
@@ -255,9 +270,9 @@ Gitignored runtime files: `lib/etc/players`, `lib/etc/plrmail`, `lib/etc/mudtime
 ## 8. Known issues (verified October 2026; good starter tasks)
 
 Security
-- **Passwords are stored in plaintext.** `utils.h` only uses `crypt()` when `HAVE_CRYPT` is defined, but
-  `configure`/`conf.h` define `CIRCLE_CRYPT` instead, so `CRYPT(a,b)` expands to `(a)`. Fixing this changes
-  how stored passwords are compared, so plan a migration path. Don't just flip the macro.
+- Nothing limits connection or login-attempt rates. Each password check costs about 0.1 s of game-loop
+  time, so a flood of login attempts could cause lag. Consider a per-site connection limit.
+- An implementor's `set <player> passwd <new>` echoes the new password back to them (not to the log).
 - Some `fscanf("%s")` calls have no field width (e.g. `ban.c`, copyover recovery in `comm.c`). The input
   files are local, but widths should be added.
 
@@ -302,6 +317,11 @@ Fixed in October 2026 (for history)
   where `||` was meant; this has no visible effect yet because nothing reads temperature.
 - `src/Makefile` hand-listed only `conf.h sysdep.h protos.h` per object, so header edits didn't trigger
   rebuilds. It now uses compiler-generated dependencies (`-MMD -MP`).
+- Passwords were stored in plaintext: `CRYPT()` was a no-op because `configure` defined `CIRCLE_CRYPT`
+  but `utils.h` tested `HAVE_CRYPT`, and the 12-character field couldn't hold a real hash anyway. They
+  are now PBKDF2 hashes (see §7), and old plaintext entries are upgraded at the next login. This
+  changed the player-file record size. `util/mudpasswd` builds again (missing include path) and writes
+  hashes.
 - "You last logged on from ..." printed garbage for **every** player, because it read `nanny()`'s local
   `tmp_store` on a later call than the one that loaded it. The previous host and time are now kept on the
   descriptor (`last_host`, `last_logon`). The line is shown only to existing characters, and the time is
