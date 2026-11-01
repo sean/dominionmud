@@ -1636,6 +1636,7 @@ struct descriptor_data {
    char host[HOST_LENGTH+1];    /* hostname                             */
    char last_host[HOST_LENGTH+1]; /* site of this player's previous logon */
    time_t last_logon;           /* previous logon time; 0 if none known  */
+   unsigned long ip_addr;       /* peer IPv4 address, host byte order    */
    byte bad_pws;                /* number of bad pw attemps this login  */
    byte idle_tics;              /* tics idle at password prompt         */
    int  connected;              /* mode of 'connectedness'              */

@@ -68,6 +68,7 @@ int tics = 0;                   /* for extern checkpointing */
 int scheck = 0;                 /* for syntax checking mode */
 bool MOBTrigger = TRUE;         /* For MOBProgs */
 extern int nameserver_is_slow;  /* see config.c */
+extern int max_conns_per_site;  /* see config.c */
 extern int auto_save;           /* see config.c */
 extern int autosave_time;       /* see config.c */
 struct timeval null_time;       /* zero-valued time structure */
@@ -279,6 +280,13 @@ void copyover_recover( )
     CREATE (d, struct descriptor_data, 1);
     memset ((char *) d, 0, sizeof (struct descriptor_data));
     init_descriptor (d,desc); /* set up various stuff */
+    {
+      struct sockaddr_in peer;
+      socklen_t len = sizeof(peer);
+
+      if (getpeername(desc, (struct sockaddr *) &peer, &len) == 0)
+        d->ip_addr = ntohl(peer.sin_addr.s_addr);
+    }
     
     strcpy(d->host, host);
     d->next = descriptor_list;
@@ -1213,9 +1221,33 @@ void init_descriptor (struct descriptor_data *newd, int desc)
   newd->desc_num = last_desc;
 }
 
+/*
+ * Log refused connections at most once a minute, so that a flood of
+ * attempts can't also flood the log.
+ */
+void note_refused_site(unsigned long addr)
+{
+  static time_t last_logged = 0;
+  static int not_logged = 0;
+  time_t now = time(0);
+
+  if (now - last_logged < 60) {
+    not_logged++;
+    return;
+  }
+  sprintf(buf2, "Too many connections from [%lu.%lu.%lu.%lu], connection refused",
+	  (addr >> 24) & 0xFF, (addr >> 16) & 0xFF, (addr >> 8) & 0xFF, addr & 0xFF);
+  if (not_logged)
+    sprintf(buf2 + strlen(buf2), " (%d more refused since the last report)", not_logged);
+  mudlog(buf2, CMP, LVL_GOD, TRUE);
+  last_logged = now;
+  not_logged = 0;
+}
+
+
 int new_descriptor(int s)
 {
-  int desc, sockets_connected = 0;
+  int desc, sockets_connected = 0, site_connected = 0;
   unsigned long addr;
   socklen_t i;
   struct descriptor_data *newd;
@@ -1231,9 +1263,14 @@ int new_descriptor(int s)
   /* keep it from blocking */
   nonblock(desc);
 
-  /* make sure we have room for it */
-  for (newd = descriptor_list; newd; newd = newd->next)
+  /* make sure we have room for it, and that this site isn't over its limit;
+     both are checked before the hostname lookup, which can block */
+  addr = ntohl(peer.sin_addr.s_addr);
+  for (newd = descriptor_list; newd; newd = newd->next) {
     sockets_connected++;
+    if (newd->ip_addr == addr && STATE(newd) != CON_CLOSE)
+      site_connected++;
+  }
 
   if (sockets_connected >= max_players) {
     write_to_descriptor(desc,
@@ -1241,16 +1278,23 @@ int new_descriptor(int s)
     close(desc);
     return 0;
   }
+  if (max_conns_per_site > 0 && site_connected >= max_conns_per_site) {
+    write_to_descriptor(desc,
+                        "Sorry, there are too many connections from your site right now.\r\n");
+    close(desc);
+    note_refused_site(addr);
+    return 0;
+  }
   /* create a new descriptor */
   CREATE(newd, struct descriptor_data, 1);
   memset((char *) newd, 0, sizeof(struct descriptor_data));
+  newd->ip_addr = addr;
 
   /* find the sitename */
   if (nameserver_is_slow || !(from = gethostbyaddr((char *) &peer.sin_addr,
 				      sizeof(peer.sin_addr), AF_INET))) {
     if (!nameserver_is_slow)
       perror("gethostbyaddr");
-    addr = ntohl(peer.sin_addr.s_addr);
     sprintf(newd->host, "%03u.%03u.%03u.%03u", (int) ((addr & 0xFF000000) >> 24),
 	    (int) ((addr & 0x00FF0000) >> 16), (int) ((addr & 0x0000FF00) >> 8),
 	    (int) ((addr & 0x000000FF)));

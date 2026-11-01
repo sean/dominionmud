@@ -270,9 +270,13 @@ Gitignored runtime files: `lib/etc/players`, `lib/etc/plrmail`, `lib/etc/mudtime
 ## 8. Known issues (verified October 2026; good starter tasks)
 
 Security
-- Nothing limits connection or login-attempt rates. Each password check costs about 0.1 s of game-loop
-  time, so a flood of login attempts could cause lag. Consider a per-site connection limit.
+- Simultaneous connections per IP address are capped (`max_conns_per_site` in `config.c`, default 5,
+  0 = off). The *rate* of new connections isn't limited, though. A client can connect, try 3 passwords
+  (about 0.3 s of game-loop time) and reconnect in a loop. A per-site rate limit or failed-login
+  back-off would close that gap, and so would moving password hashing off the game loop.
+- Every new connection does a blocking reverse-DNS lookup (`gethostbyaddr`) unless `slowns` is on.
 - An implementor's `set <player> passwd <new>` echoes the new password back to them (not to the log).
+- The server is IPv4-only (`AF_INET` sockets), and so is the per-site limit.
 - Some `fscanf("%s")` calls have no field width (e.g. `ban.c`, copyover recovery in `comm.c`). The input
   files are local, but widths should be added.
 
@@ -322,6 +326,9 @@ Fixed in October 2026 (for history)
   are now PBKDF2 hashes (see §7), and old plaintext entries are upgraded at the next login. This
   changed the player-file record size. `util/mudpasswd` builds again (missing include path) and writes
   hashes.
+- Per-site connection limit added. `new_descriptor()` (`comm.c`) counts live connections from the
+  peer's IP (`descriptor_data.ip_addr`, also restored after copyover) before the DNS lookup and refuses
+  extras with a message. Refusals are logged at most once a minute, with a count.
 - "You last logged on from ..." printed garbage for **every** player, because it read `nanny()`'s local
   `tmp_store` on a later call than the one that loaded it. The previous host and time are now kept on the
   descriptor (`last_host`, `last_logon`). The line is shown only to existing characters, and the time is

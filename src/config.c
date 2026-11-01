@@ -178,6 +178,13 @@ int max_filesize = 65536;
 int max_bad_pws = 3;
 
 /*
+ * Maximum number of simultaneous connections from one IP address, so a
+ * single site can't tie up the game (0 = no limit).  Players behind the
+ * same home router or NAT share one address, so don't set this too low.
+ */
+int max_conns_per_site = 5;
+
+/*
  * Some nameservers are very slow and cause the game to lag terribly every
  * time someone logs in.  The lag is caused by the gethostbyaddr() function
  * which is responsible for resolving numeric IP addresses to alphabetic names.
