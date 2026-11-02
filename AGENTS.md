@@ -75,6 +75,7 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   Makefile.{amiga,arc,bcc,bcc55,lcc,msvc,os2}, Smakefile, conf.h.{amiga,arc,mac,os2,vms,win}  Legacy ports; untested
   util/             Offline tools: autowiz, listrent, mapwld, mudpasswd, purgeplay, showplay, sign, split (built by
                     `make utils`); wld2html and others aren't built
+                    worldmap*.py: Python tool that draws the illustrated world map (see below)
 lib/                Runtime data directory (server chdir()s here)
   data/             races, religions, guilds, exp_table, attributes (text, self-documenting headers); spells (empty)
   world/{wld,mob,obj,zon,shp}/   CircleMUD-format world files; `index` lists files loaded; `index.mini` for -m
@@ -159,6 +160,13 @@ telnet-script runner) is welcome. Ask before adding a framework.
 **World map:** `bin/mapwld [-l lib] [-n] [-z zone]...` prints an ASCII map of every zone (or the given
 ones) from `lib/world/{wld,zon}/index`: rooms laid out by their exits, doors, up/down levels, exits
 leaving the zone and exits that don't fit the grid. Handy for checking exits after world edits.
+
+**Illustrated map:** `python3 src/util/worldmap.py [-l lib] [-s scale] [-o out.png]` draws a
+fantasy-style PNG of the whole Dominion (7680x4320 at `-s 1`; `-s 0.25` for a quick preview). Zone
+positions, icons, coastline, rivers, biomes and labels are set by hand in `src/util/worldmap_layout.py`;
+roads come from the exits between zones (`src/util/worldmap_zones.py`, which also prints a per-zone
+summary when run directly). Needs numpy, opencv-python and Pillow. After adding or moving a zone,
+update `worldmap_layout.py` and redraw.
 
 Use `-g -O0` and/or `-fsanitize=address,undefined` (add them to `MYFLAGS` locally) plus `gdb` when debugging crashes.
 

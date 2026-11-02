@@ -22,3 +22,4 @@ lib/etc/mudtime
 lib/etc/players
 lib/etc/plrmail
 lib/accounts/
+__pycache__
