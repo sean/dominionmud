@@ -73,7 +73,8 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   shop.c, house.c, mail.c, boards.c, ban.c, weather.c, graph.c, alias.c, modify.c ...
   castle.c, opinion.c      NOT compiled (not in OBJFILES); dead code
   Makefile.{amiga,arc,bcc,bcc55,lcc,msvc,os2}, Smakefile, conf.h.{amiga,arc,mac,os2,vms,win}  Legacy ports; untested
-  util/             Offline tools: autowiz, listrent, mudpasswd, purgeplay, showplay, sign, split, wld2html, mapwld ...
+  util/             Offline tools: autowiz, listrent, mapwld, mudpasswd, purgeplay, showplay, sign, split (built by
+                    `make utils`); wld2html and others aren't built
 lib/                Runtime data directory (server chdir()s here)
   data/             races, religions, guilds, exp_table, attributes (text, self-documenting headers); spells (empty)
   world/{wld,mob,obj,zon,shp}/   CircleMUD-format world files; `index` lists files loaded; `index.mini` for -m
@@ -95,7 +96,7 @@ Only files named in each `index` are loaded. Don't delete them without asking.
 ### Build
 ```sh
 make                 # from repo root → builds bin/dominion (via src/Makefile)
-cd src && make utils # optional: autowiz listrent purgeplay showplay sign split
+cd src && make utils # optional: autowiz listrent mapwld mudpasswd purgeplay showplay sign split
 make clean
 ```
 - `mkdir -p bin` first on a fresh checkout if needed. `bin/dominion` is gitignored.
@@ -154,6 +155,10 @@ sex, race, ...; then 1 to play it) to exercise the feature you changed.
 For combat, spells or saves, log in with a test character and use the actual commands.
 **There is no automated test suite.** Proposing a small harness (e.g. a Python
 telnet-script runner) is welcome. Ask before adding a framework.
+
+**World map:** `bin/mapwld [-l lib] [-n] [-z zone]...` prints an ASCII map of every zone (or the given
+ones) from `lib/world/{wld,zon}/index`: rooms laid out by their exits, doors, up/down levels, exits
+leaving the zone and exits that don't fit the grid. Handy for checking exits after world edits.
 
 Use `-g -O0` and/or `-fsanitize=address,undefined` (add them to `MYFLAGS` locally) plus `gdb` when debugging crashes.
 
