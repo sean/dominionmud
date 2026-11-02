@@ -5,15 +5,10 @@
 # Copyright (c) 1993 The Trustees of The Johns Hopkins University
 # All Rights Reserved
 # See license.doc for more information
+#
+# Run from the top of the source tree with the server stopped.  Deletes
+# the player files of idle, never-played and deleted characters (see
+# util/purgeplay.c) and logs who went to lib/etc/DELETED.
 
-set DATE=(`date`);
-set ETC=../lib/etc
-set PURGEPLAY=../../bin/purgeplay
-
-cd $ETC
-echo "automaint cleaning pfile: $DATE" >> DELETED
-
-$PURGEPLAY players >> DELETED 
- 
-mv players players.old
-mv players.new players
+echo "automaint cleaning player files: `date`" >> lib/etc/DELETED
+bin/purgeplay -d lib/players >> lib/etc/DELETED

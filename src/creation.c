@@ -632,7 +632,7 @@ void strip_string(char *buffer)
   pointer = buffer;
   while ((pointer = strchr(pointer, '\r')))
     /*. Hardly elegant, but it does the job .*/
-    strcpy(pointer, pointer+1);
+    memmove(pointer, pointer + 1, strlen(pointer + 1) + 1);
 }
 
 

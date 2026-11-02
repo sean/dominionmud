@@ -1,6 +1,6 @@
 /* ************************************************************************
 *  file:  mudpasswd.c                                 Part of CircleMud   *
-*  Usage: changing passwords of chars in a Diku playerifle                *
+*  Usage: changing the password in a player file (lib/players)           *
 *  Copyright (C) 1990, 1991 - see 'license.doc' for complete information. *
 *  All Rights Reserved                                                    *
 ************************************************************************* */
@@ -12,74 +12,39 @@
 #include "../structs.h"
 #include "../utils.h"
 #include "../password.h"
+#include "../pfile.h"
 
 
-int str_eq(char *s, char *t)
+void pword(char *dir, char *name, char *password)
 {
-  for (;;) {
-    if (*s == 0 && *t == 0)
-      return (TRUE);
-    if (LOWER(*s) != LOWER(*t))
-      return (FALSE);
-    s++;
-    t++;
-  }
-}
+  struct char_file_u st;
+  char path[512];
 
-
-void pword(char *filename, char *name, char *password)
-{
-  FILE *fl;
-  struct char_file_u buf;
-  int found = FALSE;
-  long size;
-
-  if (!(fl = fopen(filename, "r+"))) {
-    perror(filename);
+  if (pfile_path(path, sizeof(path), dir, name) < 0) {
+    fprintf(stderr, "'%s' isn't a valid character name.\n", name);
     exit(1);
   }
-  fseek(fl, 0L, SEEK_END);
-  size = ftell(fl);
-  rewind(fl);
-  if (size % sizeof(struct char_file_u)) {
-    fprintf(stderr, "\aWARNING:  File size does not match structure, recompile mudpasswd.\n");
-    fclose(fl);
+  if (pfile_read(path, &st, NULL) < 0) {
+    fprintf(stderr, "%s: can't read %s (no such character?)\n", name, path);
     exit(1);
   }
-
-  for (;;) {
-    if (fread(&buf, sizeof(buf), 1, fl) != 1)
-      break;
-
-    if (str_eq(name, buf.name)) {
-      found = TRUE;
-      if (password_hash(password, buf.pwd, sizeof(buf.pwd))) {
-	fprintf(stderr, "Unable to hash the new password.\n");
-	exit(1);
-      }
-      if (fseek(fl, -1L * sizeof(buf), SEEK_CUR) != 0)
-	perror("fseek");
-      if (fwrite(&buf, sizeof(buf), 1, fl) != 1)
-	perror("fwrite");
-      if (fseek(fl, 0L, SEEK_CUR) != 0)
-	perror("fseek");
-    }
+  if (password_hash(password, st.pwd, sizeof(st.pwd))) {
+    fprintf(stderr, "Unable to hash the new password.\n");
+    exit(1);
   }
-
-  if (found) {
-    printf("%s password is now %s\n", name, password);
-  } else {
-    printf("%s not found\n", name);
+  if (pfile_write(path, &st) < 0) {
+    perror(path);
+    exit(1);
   }
-
-  fclose(fl);
+  printf("%s's password has been changed.\n", st.name);
 }
 
 
 int main(int argc, char **argv)
 {
   if (argc != 4)
-    fprintf(stderr, "Usage: %s playerfile character-name new-password\n", argv[0]);
+    fprintf(stderr, "Usage: %s players-dir character-name new-password\n"
+	    "  e.g. %s lib/players Glasgian 'new secret'\n", argv[0], argv[0]);
   else
     pword(argv[1], argv[2], argv[3]);
 

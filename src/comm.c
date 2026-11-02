@@ -37,7 +37,6 @@ int getrusage(int, struct rusage *);
 extern int game_restrict;
 extern int mini_mud;
 extern int no_rent_check;
-extern FILE *player_fl;
 extern int DFLT_PORT;
 extern char *DFLT_DIR;
 extern int MAX_PLAYERS;
@@ -355,7 +354,6 @@ void init_game(int port)
     close_socket(descriptor_list);
 
   close(mother_desc);
-  fclose(player_fl);
 
   if (circle_reboot) {
     log("Rebooting.");
@@ -737,7 +735,6 @@ void game_loop(int mother_desc)
 	weather_and_time(0);
       affect_update();
       point_update();
-      fflush(player_fl);
     }
 
     if (auto_save)

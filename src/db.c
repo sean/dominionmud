@@ -45,9 +45,7 @@ long   top_of_zone_table = 0;   /* top element of zone tab       */
 struct message_list fight_messages[MAX_MESSAGES];       /* fighting messages     */
 
 struct player_index_element *player_table = NULL;       /* index to plr file     */
-FILE   *player_fl = NULL;         /* file desc of player file      */
 int    top_of_p_table = 0;        /* ref to top of table           */
-int    top_of_p_file = 0;         /* ref of size of p file         */
 long   top_idnum = 0;             /* highest idnum in use          */
 
 int no_mail = 0;                /* mail disabled?                */
@@ -504,66 +502,6 @@ void reset_time(void)
 
 
 
-/* generate index table for the player file */
-void build_player_index(void)
-{
-  int nr = -1, i;
-  long size, recs;
-  struct char_file_u dummy;
-
-  if (!(player_fl = fopen(PLAYER_FILE, "r+b"))) {
-    if (errno != ENOENT) {
-      perror("fatal error opening playerfile");
-      exit(1);
-    } else {
-      log("No playerfile.  Creating a new one.");
-      touch(PLAYER_FILE);
-      if (!(player_fl = fopen(PLAYER_FILE, "r+b"))) {
-	perror("fatal error opening playerfile");
-	exit(1);
-      }
-    }
-  }
-
-  fseek(player_fl, 0L, SEEK_END);
-  size = ftell(player_fl);
-  rewind(player_fl);
-  if (size % sizeof(struct char_file_u)) {
-    /* wrong record size: a corrupt file, or one written by a build with a
-       different struct char_file_u (e.g. before passwords were hashed).
-       Reading it would scramble every player, so stop here. */
-    sprintf(buf, "SYSERR: %s is %ld bytes, not a multiple of the %ld-byte player "
-	    "record; it is corrupt or from an incompatible version.", PLAYER_FILE,
-	    size, (long) sizeof(struct char_file_u));
-    log(buf);
-    exit(1);
-  }
-  recs = size / sizeof(struct char_file_u);
-  if (recs) {
-    sprintf(buf, "   %ld players in database.", recs);
-    log(buf);
-    CREATE(player_table, struct player_index_element, recs);
-  } else {
-    player_table = NULL;
-    top_of_p_file = top_of_p_table = -1;
-    return;
-  }
-
-  for (; !feof(player_fl);) {
-    if (fread(&dummy, sizeof(struct char_file_u), 1, player_fl) != 1)
-      break;                    /* end of file (or a partial last record) */
-    if (!feof(player_fl)) {     /* new record */
-      nr++;
-      CREATE(player_table[nr].name, char, strlen(dummy.name) + 1);
-      for (i = 0;
-	   (*(player_table[nr].name + i) = LOWER(*(dummy.name + i))); i++);
-      player_table[nr].id = dummy.char_specials_saved.idnum;
-      top_idnum = MAX(top_idnum, dummy.char_specials_saved.idnum);
-    }
-  }
-
-  top_of_p_file = top_of_p_table = nr;
-}
 
 /* function to count how many hash-mark delimited records exist in a file */
 int count_hash_records(FILE * fl)
@@ -2342,9 +2280,13 @@ void reset_zone(int zone)
     if (ZCMD.if_flag && !last_cmd)
       continue;
 
-    /* If the number is >= than percentage of repop -- don't load */
-    if (number(1, 100) >= ZCMD.chance)
+    /* Roll for the command's chance of happening (100 = always).  A command
+       that loses its roll counts as failed, so the commands that depend on it
+       (if_flag) don't act on whichever mob or object was loaded before. */
+    if (number(1, 100) > ZCMD.chance) {
+      last_cmd = 0;
       continue;
+    }
 
     switch (ZCMD.command) {
     case '*':                   /* ignore command */
@@ -2515,87 +2457,6 @@ int is_empty(int zone_nr)
 *  stuff related to the save/load player system                          *
 *********************************************************************** */
 
-
-long get_id_by_name(char *name)
-{
-  int i;
-
-  one_argument(name, arg);
-  for (i = 0; i <= top_of_p_table; i++)
-    if ((!strcmp((player_table + i)->name, arg)) || 
-        is_abbrev(arg, (player_table + i)->name))
-      return ((player_table + i)->id);
-
-  return -1;
-}
-
-
-char *get_name_by_id(long id)
-{
-  int i;
-
-  for (i = 0; i <= top_of_p_table; i++)
-    if ((player_table + i)->id == id)
-      return ((player_table + i)->name);
-
-  return NULL;
-}
-
-
-/* Load a char, TRUE if loaded, FALSE if not */
-int load_char(char *name, struct char_file_u * char_element)
-{
-  int player_i;
-
-  int find_name(char *name);
-
-  if ((player_i = find_name(name)) >= 0) {
-    fseek(player_fl, (long) (player_i * sizeof(struct char_file_u)), SEEK_SET);
-    if (fread(char_element, sizeof(struct char_file_u), 1, player_fl) != 1) {
-      sprintf(buf, "SYSERR: load_char: unable to read player record %d for %s.",
-              player_i, name);
-      log(buf);
-      return (-1);
-    }
-    return (player_i);
-  } else
-    return (-1);
-}
-
-
-
-
-/*
- * write the vital data of a player to the player file
- *
- * NOTE: load_room should be an *RNUM* now.  It is converted to a vnum here.
- */
-void save_char(struct char_data * ch, ln_int load_room)
-{
-  struct char_file_u st;
-
-  if (IS_NPC(ch) || !ch->desc || GET_PFILEPOS(ch) < 0)
-    return;
-
-  char_to_store(ch, &st);
-
-  strncpy(st.host, ch->desc->host, HOST_LENGTH);
-  st.host[HOST_LENGTH] = '\0';
-  strncpy(st.email, ch->char_specials.email, MAX_TITLE_LENGTH);
-  st.email[MAX_TITLE_LENGTH] = '\0';
-
-  if (!PLR_FLAGGED(ch, PLR_LOADROOM)) {
-    if (load_room == NOWHERE)
-      st.player_specials_saved.load_room = NOWHERE;
-    else
-      st.player_specials_saved.load_room = world[load_room].number;
-  }
-
-  strcpy(st.pwd, GET_PASSWD(ch));
-
-  fseek(player_fl, GET_PFILEPOS(ch) * sizeof(struct char_file_u), SEEK_SET);
-  fwrite(&st, sizeof(struct char_file_u), 1, player_fl);
-}
 
 /* copy data from the file structure to a char struct */
 void store_to_char(struct char_file_u * st, struct char_data * ch)
@@ -2835,28 +2696,6 @@ void save_etext(struct char_data * ch)
 }
 
 
-/* create a new entry in the in-memory index table for the player file */
-int create_entry(char *name)
-{
-  int i;
-
-  if (top_of_p_table == -1) {
-    CREATE(player_table, struct player_index_element, 1);
-    top_of_p_table = 0;
-  } else if (!(player_table = (struct player_index_element *)
-	       realloc(player_table, sizeof(struct player_index_element) *
-		       (++top_of_p_table + 1)))) {
-    perror("create entry");
-    exit(1);
-  }
-  CREATE(player_table[top_of_p_table].name, char, strlen(name) + 1);
-
-  /* copy lowercase equivalent of name to table field */
-  for (i = 0; (*(player_table[top_of_p_table].name + i) = LOWER(*(name + i)));
-       i++);
-
-  return (top_of_p_table);
-}
 
 
 

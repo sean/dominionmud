@@ -763,6 +763,8 @@ ACMD(do_mptransfer)
 
     char_from_room(victim);
     char_to_room(victim, location);
+    if (!IS_NPC(victim))
+      look_at_room(victim, 0);  /* let a moved player see where they arrived */
 
     return;
 }

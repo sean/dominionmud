@@ -25,6 +25,7 @@
 #include "../structs.h"
 #include "../utils.h"
 #include "../db.h"
+#include "../pfile.h"
 
 #define IMM_LMARG "   "
 #define IMM_NSIZE  16
@@ -77,28 +78,22 @@ void initialize(void)
 }
 
 
-void read_file(void)
+static int wizlist_entry(const char *path, struct char_file_u *player, void *arg)
 {
   void add_name(byte level, char *name);
 
-  struct char_file_u player;
-  FILE *fl;
+  if (player && player->level >= MIN_LEVEL &&
+      !(IS_SET(player->char_specials_saved.act, PLR_FROZEN)) &&
+      !(IS_SET(player->char_specials_saved.act, PLR_NOWIZLIST)) &&
+      !(IS_SET(player->char_specials_saved.act, PLR_DELETED)))
+    add_name(player->level, player->name);
+  return 0;
+}
 
-  if (!(fl = fopen(PLAYER_FILE, "rb"))) {
-    perror("Error opening playerfile");
-    exit(1);
-  }
-  while (!feof(fl)) {
-    if (fread(&player, sizeof(struct char_file_u), 1, fl) != 1)
-      break;
-    if (!feof(fl) && player.level >= MIN_LEVEL &&
-	!(IS_SET(player.char_specials_saved.act, PLR_FROZEN)) &&
-	!(IS_SET(player.char_specials_saved.act, PLR_NOWIZLIST)) &&
-	!(IS_SET(player.char_specials_saved.act, PLR_DELETED)))
-      add_name(player.level, player.name);
-  }
 
-  fclose(fl);
+void read_file(void)
+{
+  pfile_foreach(PFILE_DIR, wizlist_entry, NULL);
 }
 
 

@@ -773,7 +773,7 @@ int get_number(char **name)
   if ((ppos = strchr(*name, '.'))) {
     *ppos++ = '\0';
     strcpy(number, *name);
-    strcpy(*name, ppos);
+    memmove(*name, ppos, strlen(ppos) + 1);   /* the ranges overlap */
 
     for (i = 0; *(number + i); i++)
       if (!isdigit((int)*(number + i)))
@@ -1556,7 +1556,7 @@ int find_all_dots(char *arg)
   if (!strcmp(arg, "all"))
     return FIND_ALL;
   else if (!strncmp(arg, "all.", 4)) {
-    strcpy(arg, arg + 4);
+    memmove(arg, arg + 4, strlen(arg + 4) + 1);
     return FIND_ALLDOT;
   } else
     return FIND_INDIV;

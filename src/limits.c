@@ -50,7 +50,7 @@ int mana_gain(struct char_data * ch)
     /* Neat and fast */
     gain = GET_LEVEL(ch);
   } else {
-    if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_NOHEAL))
+    if (ch->in_room != NOWHERE && IS_SET(ROOM_FLAGS(ch->in_room), ROOM_NOHEAL))
       return 0;
 
     gain = (((GET_WIS(ch) + GET_INT(ch)) >> 1) + (GET_LEVEL(ch) >> 2));
@@ -79,7 +79,7 @@ int mana_gain(struct char_data * ch)
   if (GET_COND(ch, TIRED) <= 1)
     gain >>= 3;                  /* 1/8 */
 
-  if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_REGEN))
+  if (ch->in_room != NOWHERE && IS_SET(ROOM_FLAGS(ch->in_room), ROOM_REGEN))
     gain <<= 1;                  /* x2 */
 
   return (gain);
@@ -132,7 +132,7 @@ int hit_gain(struct char_data * ch)
   if ((GET_COND(ch, FULL) == 0) || (GET_COND(ch, THIRST) == 0))
     gain >>= 2;                          /* 1/4 */
 
-  if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_REGEN))
+  if (ch->in_room != NOWHERE && IS_SET(ROOM_FLAGS(ch->in_room), ROOM_REGEN))
     gain <<= 2;                          /* x4 */
 
   /* NO HP gain when severely wounded!! */
@@ -181,7 +181,7 @@ int move_gain(struct char_data * ch)
   if (IS_AFFECTED2(ch, AFF_DISEASE) || (GET_COND(ch, TIRED) == 0))
      gain >>= 3;                /* 1/8 */
 
-  if (IS_SET(ROOM_FLAGS(ch->in_room), ROOM_REGEN))
+  if (ch->in_room != NOWHERE && IS_SET(ROOM_FLAGS(ch->in_room), ROOM_REGEN))
      gain <<= 3;                /* x8 */
 
   return (gain);

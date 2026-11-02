@@ -14,7 +14,7 @@ actual source, building it, and booting the server (gcc 13 / Linux, October 2026
 - It is a heavily modified **CircleMUD 3.0** (itself derived from **DikuMUD**).
   It also includes **Merc-style MOBprograms** (`mobprog.c`, `mobcmd.c`), an
   OLC (on-line creation) editor (`creation.c`, `olc.c`), copyover (hot reboot),
-  data-driven races/religions/guilds/experience tables, and a partial ASCII player-file system.
+  data-driven races/religions/guilds/experience tables, and plain-text player files (one per character).
 - Upstream remote: `https://github.com/sean/dominionmud` (branch `master`, 4 commits from 2015).
 - **License:** `LICENSE.md` (Dominion license + CircleMUD + DikuMUD licenses). Keep every
   existing copyright/credit header, never remove the CircleMUD/DikuMUD credits, and
@@ -45,7 +45,7 @@ Rules for agents:
 ```
 Makefile            Top-level: `make` → `cd src && make`; `make clean`
 configure           Autoconf 2.x script; generates src/conf.h, src/Makefile, src/util/Makefile
-README.md, TODO.md  History; migration TODO (races/religions/guilds/exp to text: done; skills & accounts: not done)
+README.md, TODO.md  History; migration TODO (races/religions/guilds/exp and player files to text: done; skills & accounts: not done)
 bin/                Built binaries go here (gitignored) + legacy csh/sh run scripts
 src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell_pa.c, act_othr.c ...)
   structs.h         Core structs, flags, MAX_LEVEL (50), LVL_* (LVL_IMMORT = 43), PULSE_* timing
@@ -55,7 +55,7 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   sysdep.h          Platform glue (sockets, crypt, prototypes for old libcs)
   comm.c            main(), socket loop, descriptors, output, act(), send_to_char(), copyover
   interpre.c/.h     cmd_info[] command table, command_interpreter(), argument parsing, login state machine (nanny)
-  db.c/db.h         World boot, file paths, zone resets, mob/obj loading, legacy binary player file, MOBprogram file reader
+  db.c/db.h         World boot, file paths, zone resets, mob/obj loading, char_to_store/store_to_char, MOBprogram file reader
   handler.c         char/obj list management: char_to_room, obj_to_char, extract_char, extract_obj, affect_*
   act_*.c           Player commands by area (comm, info, item, move, off(ensive), othr, socl, wizd)
   fight.c           Combat; damage(), hit(), death, experience
@@ -64,7 +64,8 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   limits.c          Regeneration, gain_exp, point_update
   mobact.c, mobprog.c, mobcmd.c                Mob AI and MOBprograms
   creation.c, olc.c Online building (redit/oedit/medit/zedit/sedit)
-  save.c            New ASCII player save (partial — see §7) + rent adjustment
+  save.c            Loading/saving characters and the player index (see §7)
+  pfile.c/pfile.h   Plain-text player file format; game-independent, also linked by the utilities
   objsave.c         CircleMUD rent/crash object files under lib/plrobjs
   password.c/.h     PBKDF2-HMAC-SHA256 password hashing; self-contained (see §7)
   spec_pro.c, spec_ass.c   SPECIAL() procedures and their assignment
@@ -78,7 +79,8 @@ lib/                Runtime data directory (server chdir()s here)
   prog/             MOBprogram files (*.prg), referenced from .mob files via `>in_file_prog name.prg~`
   text/             motd, news, credits, help/help.hlp, help/wizhelp.hlp ...
   misc/             socials, fight messages, xnames, plus 1990s in-game bug/idea/typo/todo logs
-  etc/              players (binary pfile, runtime), plrmail, badsites, hcontrol, guilds
+  players/          one text file per character, players/<letter>/<name> (runtime, gitignored)
+  etc/              plrmail, badsites, hcontrol, guilds
   plrobjs/, house/  Rent and house object files
 ```
 
@@ -99,7 +101,7 @@ make clean
 - The committed `src/Makefile` and `src/conf.h` are **configure outputs** (from a 2015 macOS run).
   Edit `Makefile.in` / `conf.h.in` too when you change them, or both drift. Running `./configure`
   regenerates them. Don't commit platform-specific regenerated output without saying so.
-- **Do not run `make realclean`**: it deletes `lib/etc/players` and `lib/etc/plrmail` (player data).
+- **Do not run `make realclean`**: it deletes `lib/etc/plrmail` (player mail).
 - **Baseline: zero warnings** with gcc 13.3 and 11.4 and clang 18 at `-Wall` (Linux x86-64), for both
   `make` and the utilities. **Keep it at zero: a change must not add any warning.** Check with a clean build:
   ```sh
@@ -110,8 +112,6 @@ make clean
   and clang support), and the Makefile includes them, so editing any header rebuilds exactly the files
   that use it. Editing `src/Makefile` rebuilds everything. A plain `make` is enough; you only need
   `make clean` to start from scratch. `.d` files are gitignored and removed by `make clean`.
-- `make utils` stops at `showplay`, which doesn't compile (`RACE_HUMAN` no longer exists now that races
-  are data-driven). The other utilities build individually, e.g. `make ../bin/autowiz`.
 
 ### Run
 Run from the **repo root** (the default data dir is the relative path `lib`):
@@ -123,10 +123,9 @@ Run from the **repo root** (the default data dir is the relative path `lib`):
 - `-c` syntax-check mode: loads all world and data files, then exits 0 if they parse. A fast check after data edits
 - `-C<fd>` is internal (copyover re-exec)
 - Logs go to stderr. On a healthy boot you get a run of `Resetting <zone>` lines and then
-  `No connections.  Going to sleep.` A full boot logs **anywhere from 0 to ~15 `SYSERR`s that vary from run
-  to run** (`Char is already equipped`, a bad zone command), because zone resets use random rolls. So a
-  changed SYSERR count is not a regression signal by itself. Look for *new kinds* of SYSERR instead.
-  `dominion -c` is deterministic and should log none.
+  `No connections.  Going to sleep.` A full boot of the stock world logs **no `SYSERR`s**, and neither
+  does `dominion -c`. Zone resets still use random rolls, so a data bug may show up only on some boots:
+  boot a few times after data changes and treat any `SYSERR` as a regression.
 - `bin/nightrun.sh` (csh autorun loop) and `bin/automain.sh` are 1990s scripts. They expect a
   directory named `DominionMUD`, `lib/logs/` and a `debug/` dir. Treat them as historical, not as the dev workflow.
 
@@ -228,6 +227,20 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
   `>in_file_prog`). Add new zone files to the relevant `index` (and `index.mini` if they're needed in mini mode).
 - MOBprograms (`lib/prog/*.prg`) use Merc 2.x syntax: `>greet_prog`, `>rand_prog`, `>speech_prog`,
   `>fight_prog`, `if ... endif`, `mpecho`, etc. `lib/prog/template.prg` documents the triggers.
+- MOBprog gotchas (verified November 2026): a `>speech_prog`/`>act_prog` keyword list runs the prog once when
+  any listed word is said (fixed in `mprog_wordlist_check`; it used to miss a later keyword such as `spheres`
+  after a partial hit on `sphere`, and could run twice). A word or phrase matches only when followed by a
+  space or the end of the line (`die.` does not match `p never die`). `mpechoat`, `mpforce` and
+  `mptransfer` need the mob to *see* the player, so a mob that must work in a dark room needs infravision
+  (affect flag `k`). `mptransfer` shows a moved player the room they arrive in. A `>give_prog` fires only when
+  the given object's whole keyword list appears in the prog's argument.
+- Puzzles: `lib/prog/pz_*.prg` drive the world's access+lore puzzles. Each uses a sentinel "fixture" mob
+  (level 1, 30000 hp, no gold) loaded by its zone, and a hidden room reachable only through the prog, with a
+  small reward loaded there by the zone reset. Solutions: say `death` at the skull in 10453 (Ancalador); say
+  `scales` at the black monolith, 1154 (Mytherandil); ask the elven sage in 19043 about `runes`, then say
+  `leaf` at the obelisk, 19008; give the torn scroll fragment from 32097 to the statue, 32095 (Serdim swamp);
+  say `silence` to the chalk in 3752 (High Tower); say `we shall never die` at the Drerim archway, 1821;
+  give 5 coins to the clockwork fish, 35003 (Gnishmire, lore only).
 - OLC (`creation.c`) rewrites world files in place. If you hand-edit world files, keep the exact format
   OLC writes (tildes, `S` terminators, `$` at EOF) or the next OLC save may corrupt them.
 - After any data change, run `./bin/dominion -c` (must exit 0 with no `SYSERR`), then boot the full world and look for new kinds of `SYSERR`.
@@ -236,19 +249,22 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
 
 ## 7. Persistence (be careful: this is player data)
 
-There are **two player-save systems**:
-1. **Live system (CircleMUD binary):** `lib/etc/players` is an array of raw `struct char_file_u` records
-   written with `fwrite` (`db.c` `save_char`/`load_char`, `char_to_store`/`store_to_char`). The login
-   path (`interpre.c` nanny, `comm.c` copyover) uses this one. **Any change to `struct char_file_u` or
-   to the types or sizes of anything inside it (`structs.h`) silently corrupts existing player files**,
-   and the layout also depends on compiler and ABI (32- vs 64-bit). Never change it without an explicit,
-   agreed migration plan. At boot, `build_player_index()` refuses to start (SYSERR, exit 1) if the file
-   size isn't a multiple of the record size, rather than misreading every player. The record is
-   currently 6184 bytes (gcc/clang, x86-64); it grew from 6072 when passwords became hashes (Oct 2026).
-2. **New ASCII system (partial, unfinished):** `save.c` `save_char_obj`/`load_char_obj`/`fread_char` write
-   `lib/players/<A-E|F-J|K-O|P-T|U-Z>/<Name>` with key/value lines. Only the `save` command calls it,
-   `lib/players/` doesn't exist, and nothing loads from it at login. Finishing this migration is listed
-   in `TODO.md` ("/ Started").
+Each character is one text file, `lib/players/<first letter>/<name in lower case>`, written by
+`pfile.c` (format described in `pfile.h`): `Key value` lines starting with `Version 1`, strings on one
+line with `\n`/`\\` escapes. Readers skip unknown keys and leave missing ones zero, so **add a field by
+adding a key** to `pfile_write`/`pfile_read`; no conversion is needed, and the files don't depend on
+compiler, CPU or struct layout. Saves go to `<name>.new` and are renamed into place.
+- `struct char_file_u` is now only an in-memory staging area between a file and `struct char_data`
+  (`char_to_store`/`store_to_char` in `db.c`); its old "DO NOT CHANGE" comments no longer apply.
+- `save.c`: `build_player_index()` reads every file at boot (creating the folders if missing) into
+  `player_table` (name, id); `load_char()` reads one file, `save_char()` saves a playing character,
+  `save_char_file()` writes a staged record (used by `set file`, guild accept/reject/dismiss).
+- Names are matched exactly (`find_name`, `get_id_by_name`); they used to match abbreviations, so a
+  new player typing a prefix of an existing name was offered that character's password prompt.
+- The old binary `lib/etc/players` is no longer read or written. There were no player files to convert
+  (the game hasn't run since 1997), so there is no converter.
+- Utilities read the same files: `bin/showplay lib/players`, `bin/purgeplay [-d] lib/players`
+  (lists, or with `-d` deletes, idle/deleted characters), `bin/autowiz`.
 
 **Passwords** are never stored. `password.c` hashes them with PBKDF2-HMAC-SHA256 (16-byte random salt,
 `PASSWORD_ROUNDS` = 100000) into `$pbkdf2-sha256$<rounds>$<salt>$<hash>`, the same format as Python's
@@ -258,12 +274,12 @@ accepts an old plaintext password and returns `PASSWORD_OK_REHASH`, and the logi
 hash. The same happens for hashes with fewer rounds than `PASSWORD_ROUNDS`, so raising that constant
 upgrades players as they log in. Each check costs about 0.1 s of CPU inside the single-threaded game
 loop (more rounds means more lag per login). Typed passwords may be 3–`MAX_PWD_LENGTH` (64) characters.
-Forgotten passwords can't be recovered, only reset: offline with `bin/mudpasswd lib/etc/players <name>
+Forgotten passwords can't be recovered, only reset: offline with `bin/mudpasswd lib/players <name>
 <new-password>` (server stopped), or in-game by the implementor with `set <player> passwd <new>`.
 `password.c` uses only the standard C library, so the utilities can link it too.
 
 Object rent and crash files live in `lib/plrobjs` (`objsave.c`). Mail is in `lib/etc/plrmail` (binary).
-Gitignored runtime files: `lib/etc/players`, `lib/etc/plrmail`, `lib/etc/mudtime`, `*.objs`, `*.alias`.
+Gitignored runtime files: `lib/players/`, `lib/etc/plrmail`, `lib/etc/mudtime`, `*.objs`, `*.alias`.
 
 ---
 
@@ -281,25 +297,30 @@ Security
   files are local, but widths should be added.
 
 Crashes and undefined behavior
-- `magic.c` `mag_summons()`, `SPELL_CLONE`: the clone's name strings are `free()`d and then `strcpy`'d into.
-  That's a use-after-free, and casting clone will likely crash.
+- Fixed November 2026 (found with an AddressSanitizer build, `make CFLAGS="-g -O1 -fsanitize=address"
+  LIBS=-fsanitize=address`, worth repeating after big changes): the clone spell freed the doppleganger
+  prototype's strings (now gives the clone its own copies, scaled to the victim's level); `stat <mob>` on a
+  mob with no race read `races[-1]` and crashed; `relg_name()` allowed an index one past the end; shops whose
+  keeper mob doesn't exist wrote to `mob_index[-1]` at boot (now logged as "Shop #N disabled" and skipped;
+  10 such shops, in zones 65, 120 and 150); `get_number()` ("2.guard") and three other places used
+  overlapping `strcpy`; so did `half_chop()` (`set`). `stat file` read `world[]` with a load-room vnum.
+  Loops over `player_table` stopped one player short (`<` instead of `<=`).
 - Zone `temperature` (`weather.c`) is updated every hour but never read and never clamped. Nothing in
   the game uses it yet.
 - Mob hit regeneration (`hit_gain()` via the shared `dummy_mob` `player_specials`) differs between `-O0`
   and `-O2` builds: `stat <mob>` shows `+0` at `-O2`. Something reads uninitialised or shared state.
-- `save.c` `rent_adjust()` now runs on a zeroed `struct rent_info` (there's no `GET_RENT` yet). It's only
-  reachable from the unfinished ASCII loader, so it has no effect today.
 - `FreeHates`/`FreeFears` (`mobact.c`) are never called, so a mob's hate/fear lists leak when it is extracted.
 
 Housekeeping
 - `castle.c` and `opinion.c` aren't built. `opinion.c`'s functions were partly moved into `mobact.c`, and
   its copies of `FreeHates`/`FreeFears` still have the old free-the-wrong-node bug.
-- `util/showplay.c` doesn't compile (see §4).
 - `src/util/Makefile` (generated from `src/util/Makefile.in`) is a separate legacy Makefile that the normal
   build doesn't use. The utilities are built by `src/Makefile`. It still has hand-listed header
   dependencies and targets for utilities that don't compile.
 - Generated `src/Makefile`/`conf.h` are committed and macOS-flavoured. The legacy non-Unix Makefiles and
   `conf.h.*` are unmaintained.
+- About 1,400 rooms are still unnamed placeholders ("Room NNNN", "This lovely room has yet to be written")
+  in unfinished or unconnected areas.
 - `TODO.md` (accounts system, skills/spells in text files), `lib/data/README`, and the 1990s player
   reports in `lib/misc/{bugs,ideas,typos,todo}` are the historical backlog.
 
@@ -333,6 +354,17 @@ Fixed in October 2026 (for history)
   `tmp_store` on a later call than the one that loaded it. The previous host and time are now kept on the
   descriptor (`last_host`, `last_logon`). The line is shown only to existing characters, and the time is
   that of the last save, i.e. when the player last left.
+- Zone resets: `reset_zone()` skipped a 100%-chance command 1 time in 100 (`>=` instead of `>`), and a
+  skipped command left `last_cmd` set, so the E/G/P commands that depend on it acted on the previously
+  loaded mob. That caused the random `Char is already equipped` SYSERRs. A lost roll now counts as a
+  failed command. `obj/54.obj` repeated 95 records from `53.obj` (vnums 5400-5496) in an old format,
+  which also broke the sorted object index; it now holds only its own objects (5570-5582).
+- World text (Nov 2026): about 1,060 misspellings and 100 grammar slips fixed in rooms, mobs, objects
+  and shops; stray carriage returns removed; ~600 short or empty room descriptions written or expanded
+  (`Room NNNN` / "yet to be written" placeholders in unconnected areas were left alone), and the whole of
+  Elrhinn (zone 30) rewritten. Data fixes: swapped diagonal exits in rooms 3039 and 2711, a corrupted
+  extra description in 32194, `(null)` keywords/names/messages in rooms 5896, 25574, 38350 and shop 11,
+  and two vandalised extra descriptions in Elrhinn.
 
 ---
 
@@ -352,7 +384,7 @@ Fixed in October 2026 (for history)
    why it couldn't be); help files (`lib/text/help/*.hlp`) are updated for player-visible changes.
 5. **Ask first** before you change on-disk formats (pfile structs, world file syntax, data-file formats),
    delete files, change gameplay balance numbers, or add dependencies/tooling.
-6. **Never** delete or overwrite `lib/etc/players`, `lib/etc/plrmail`, `lib/plrobjs/*` or `lib/house/*`
+6. **Never** delete or overwrite `lib/players/*`, `lib/etc/plrmail`, `lib/plrobjs/*` or `lib/house/*`
    unless explicitly asked.
 7. **Git:** work on a branch (`fix/…`, `feature/…`, `docs/…`). Commit messages use
    `type(scope): imperative summary` (types: `feat`, `fix`, `refactor`, `docs`, `chore`; scope = module,

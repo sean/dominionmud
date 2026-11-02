@@ -117,8 +117,6 @@ ACMD(do_save)
   }
   write_aliases(ch);      /* Save the players aliases - TD */
   save_char(ch, ch->in_room);
-  // THIS ALLOWS FOR ASCII saving
-  save_char_obj( ch );
   Crash_crashsave(ch);
   if (ROOM_FLAGGED(ch->in_room, ROOM_HOUSE_CRASH))
     House_crashsave(world[ch->in_room].number);

@@ -25,7 +25,6 @@
 SPECIAL(guild_guard);
 void ASSIGNMOB(long mob, SPECIAL(fname));
 long asciiflag_conv(char *);
-extern FILE *player_fl;
 extern int    top_of_p_table;
 extern struct player_index_element *player_table;
 extern struct descriptor_data *descriptor_list;
@@ -437,8 +436,7 @@ ACMD(do_accept)
      }
      if (cbuf != NULL) {
        char_to_store(vict, &tmp_store);
-       fseek(player_fl, (player_i) * sizeof(struct char_file_u), SEEK_SET);
-       fwrite(&tmp_store, sizeof(struct char_file_u), 1, player_fl);
+       save_char_file(&tmp_store);
        free_char(cbuf);
        send_to_char("Saved in file.\r\n", ch);
      } else
@@ -525,8 +523,7 @@ ACMD(do_reject)
      send_to_char(buf, ch);
      if (cbuf != NULL) {
        char_to_store(vict, &tmp_store);
-       fseek(player_fl, (player_i) * sizeof(struct char_file_u), SEEK_SET);
-       fwrite(&tmp_store, sizeof(struct char_file_u), 1, player_fl);
+       save_char_file(&tmp_store);
        free_char(cbuf);
      } else
        save_char(vict, NOWHERE);
@@ -546,7 +543,6 @@ ACMD(do_reject)
 
 ACMD(do_dismiss)
 {
-   int player_i = 0;
    struct char_data *vict = NULL, *cbuf = NULL;
    struct char_file_u tmp_store;
    struct guild_type *gptr = guild_info;
@@ -601,8 +597,7 @@ ACMD(do_dismiss)
      send_to_char("Be sure to notify the player of this!\r\n", ch);
      if (cbuf != NULL) {
        char_to_store(vict, &tmp_store);
-       fseek(player_fl, (player_i) * sizeof(struct char_file_u), SEEK_SET);
-       fwrite(&tmp_store, sizeof(struct char_file_u), 1, player_fl);
+       save_char_file(&tmp_store);
        free_char(cbuf);
      } else
        save_char(vict, NOWHERE);
@@ -754,7 +749,7 @@ ACMD(do_guild)
      sprintf(buf + strlen(buf), "...\r\n___________________________________________%s\r\n\r\n", CCNRM(ch, C_NRM));
      send_to_char(buf, ch);
      /* Go through the entire list of players color coding those who are on */
-     for (j = 0; j < top_of_p_table; j++) {
+     for (j = 0; j <= top_of_p_table; j++) {
 	if (load_char(player_table[j].name, &plr_rec) > -1)
 	  if (plr_rec.assocs[1] == GET_GUILD(ch)) {
 	    sprintf(buf, "%s the %s\r\n", plr_rec.name,

@@ -149,7 +149,7 @@ int parse_alignment( char cval )
 
 const char *relg_name(struct char_data  *ch)
 {
-  if (!( GET_REL(ch) >= 0 && GET_REL(ch) <= NUM_RELIGIONS ))
+  if (!( GET_REL(ch) >= 0 && GET_REL(ch) < NUM_RELIGIONS ))
     GET_REL( ch ) = 0;
 
   return religions[ GET_REL(ch) ].name;
@@ -181,6 +181,9 @@ bool align_out_of_sync( struct char_data * ch )
 
 bool religion_out_of_sync( struct char_data * ch )
 {
+  if ( GET_REL(ch) < 0 || GET_REL(ch) >= NUM_RELIGIONS )
+    return FALSE;
+
   return ( (religions[ GET_REL(ch) ].align == ALIGN_EVIL    && !IS_EVIL(ch)) ||
            (religions[ GET_REL(ch) ].align == ALIGN_GOOD    && !IS_GOOD(ch)) ||
            (religions[ GET_REL(ch) ].align == ALIGN_NEUTRAL && !IS_NEUTRAL(ch)) ||
@@ -292,7 +295,7 @@ ACMD(do_religion)
        send_to_char(buf, ch);
        send_to_char("'s religion...\r\n_______________________________________\n\r\n\r",ch);
        send_to_char(CCNRM(ch, C_NRM), ch);
-       for (j = 0; j < top_of_p_table; j++) {
+       for (j = 0; j <= top_of_p_table; j++) {
 	 if (load_char(player_table[j].name, &plr_rec) > -1)
 	   if (plr_rec.assocs[0] == GET_REL(ch)) {
 	     sprintf(buf, "%s %s\r\n", plr_rec.name, plr_rec.title);

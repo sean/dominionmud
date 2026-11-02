@@ -1,1 +1,1 @@
-bin/showplay lib/etc/players | more
+bin/showplay lib/players | more

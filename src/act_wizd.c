@@ -21,7 +21,6 @@
 #include "password.h"
 
 /*   external vars  */
-extern FILE *player_fl;
 extern struct room_data *world;
 extern struct char_data *character_list;
 extern struct obj_data *object_list;
@@ -369,7 +368,6 @@ ACMD(do_tick)
     weather_and_time(1);
     affect_update();
     point_update();
-    fflush(player_fl);
 
     send_to_char(OK, ch);
 }
@@ -702,7 +700,9 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 
   sprintf(buf2, " %s '%s'  IDNum: [%5ld], In room [%8ld]\r\n",
 	  (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
-	  GET_NAME(k), GET_IDNUM(k), world[k->in_room].number);
+	  GET_NAME(k), GET_IDNUM(k),
+	  (k->in_room >= 0 && k->in_room <= top_of_world) ?
+	  world[k->in_room].number : (long) NOWHERE);
   send_to_char(strcat(buf, buf2), ch);
   if (IS_MOB(k)) {
     sprintf(buf, "Alias: %s, VNum: [%8ld], RNum: [%8ld]\r\n",
@@ -725,7 +725,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
   send_to_char(buf, ch);
 
   sprintf( buf, "Race: %s Religion: %s",
-           races[ k->player.race ].name,
+           RACE_UNDEF(k) ? "<None>" : races[ GET_RACE(k) ].name,
            relg_name( k ) );
 
   while (gptr && gptr->number != GET_GUILD(k))
@@ -958,6 +958,7 @@ ACMD(do_stat)
       clear_char(victim);
       if (load_char(buf2, &tmp_store) > -1) {
 	store_to_char(&tmp_store, victim);
+	victim->in_room = NOWHERE;   /* not in the game: in_room holds a vnum */
 	if (GET_LEVEL(victim) > GET_LEVEL(ch))
 	  send_to_char("Sorry, you can't do that.\r\n", ch);
 	else
@@ -2161,7 +2162,7 @@ void show_orgs(struct char_data *ch, char *value, int type)
 
    sprintf(org_list, "\r\n");
 
-   for (i = 0; i < top_of_p_table; i++) {
+   for (i = 0; i <= top_of_p_table; i++) {
        if (load_char(player_table[i].name, &player) > -1) {
 	  total++;
 
@@ -2919,10 +2920,11 @@ ACMD(do_set)
 
   if (is_file) {
     char_to_store(vict, &tmp_store);
-    fseek(player_fl, (player_i) * sizeof(struct char_file_u), SEEK_SET);
-    fwrite(&tmp_store, sizeof(struct char_file_u), 1, player_fl);
     free_char(cbuf);
-    send_to_char("Saved in file.\r\n", ch);
+    if (save_char_file(&tmp_store) == 0)
+      send_to_char("Saved in file.\r\n", ch);
+    else
+      send_to_char("Couldn't write the player file; see the log.\r\n", ch);
   }
 }
 
@@ -3107,7 +3109,6 @@ ACMD(do_copyover)
   fclose(fp);
 
   /* Close reserve and other always-open files and release other resources */
-  fclose(player_fl);
   
   /* exec - descriptors are inherited */
   sprintf(buf, "%d", port);

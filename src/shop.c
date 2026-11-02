@@ -293,7 +293,7 @@ int transaction_amt(char *arg)
   if (*buf)
     if ((is_number(buf))) {
       num = atoi(buf);
-      strcpy(arg, arg + strlen(buf) + 1);
+      memmove(arg, arg + strlen(buf) + 1, strlen(arg + strlen(buf) + 1) + 1);
       return (num);
     }
   return (1);
@@ -1039,7 +1039,12 @@ void boot_the_shops(FILE * shop_f, char *filename, int rec_count)
       read_line(shop_f, "%d", &SHOP_BITVECTOR(top_shop));
       read_line(shop_f, "%d", &SHOP_KEEPER(top_shop));
 
-      SHOP_KEEPER(top_shop) = real_mobile(SHOP_KEEPER(top_shop));
+      temp = SHOP_KEEPER(top_shop);
+      SHOP_KEEPER(top_shop) = real_mobile(temp);
+      if (SHOP_KEEPER(top_shop) < 0) {
+        sprintf(buf2, "Shop #%ld disabled: its shopkeeper, mob #%ld, does not exist.", SHOP_NUM(top_shop), temp);
+        log(buf2);
+      }
       read_line(shop_f, "%d", &SHOP_TRADE_WITH(top_shop));
 
       temp = read_list(shop_f, list, new_format, 1, LIST_ROOM);
@@ -1077,6 +1082,8 @@ void assign_the_shopkeepers(void)
   cmd_slap = find_command("slap");
   cmd_puke = find_command("puke");
   for (index = 0; index < top_shop; index++) {
+    if (SHOP_KEEPER(index) < 0)   /* missing keeper, reported at load */
+      continue;
     if (mob_index[SHOP_KEEPER(index)].func)
       SHOP_FUNC(index) = mob_index[SHOP_KEEPER(index)].func;
     mob_index[SHOP_KEEPER(index)].func = shop_keeper;

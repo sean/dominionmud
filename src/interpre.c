@@ -1300,7 +1300,7 @@ void half_chop(char *string, char *arg1, char *arg2)
 
   temp = any_one_arg(string, arg1);
   skip_spaces(&temp);
-  strcpy(arg2, temp);
+  memmove(arg2, temp, strlen(temp) + 1);   /* arg2 may be string itself */
 }
 
 
@@ -1369,8 +1369,7 @@ int find_name(char *name)
   int i;
 
   for (i = 0; i <= top_of_p_table; i++) {
-    if (!str_cmp((player_table + i)->name, name) ||
-        is_abbrev(name, (player_table + i)->name))
+    if (!str_cmp((player_table + i)->name, name))
       return i;
   }
 

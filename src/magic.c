@@ -1171,28 +1171,38 @@ void mag_summons(int level, struct char_data * ch, struct obj_data * obj,
 
   for (i = 0; i < num; i++) {
     if ((mob = read_mobile(mob_num, VNUMBER))) {
+      /* Clone the victim (before anyone sees the new mob) */
+      if (spellnum == SPELL_CLONE && victim) {
+        /* A fresh mob shares its name strings with the prototype, so give
+           the clone its own copies instead of freeing and overwriting them
+           (free_char() only frees strings that differ from the prototype). */
+        char cname[MAX_INPUT_LENGTH];
+
+        strncpy(cname, GET_NAME(victim), sizeof(cname) - 1);
+        cname[sizeof(cname) - 1] = '\0';
+        mob->player.name = str_dup(IS_NPC(victim) ? victim->player.name : cname);
+        mob->player.short_descr = str_dup(cname);
+        sprintf(buf, "%s is standing here.\r\n", CAP(cname));
+        mob->player.long_descr = str_dup(buf);
+        GET_MAX_HIT(mob)  = GET_MAX_HIT(victim);
+        GET_HIT(mob)      = GET_MAX_HIT(victim);
+        GET_MAX_MOVE(mob) = GET_MAX_MOVE(victim);
+        GET_MOVE(mob)     = GET_MAX_MOVE(victim);
+        GET_LEVEL(mob)    = GET_LEVEL(victim);
+        /* The doppleganger prototype is an immortal-strength mob; fight like
+           an ordinary mob of the victim's level, as recalc_stats() would. */
+        GET_HITROLL(mob)  = GET_LEVEL(mob) << 1;
+        GET_DAMROLL(mob)  = GET_LEVEL(mob) << 1;
+        mob->mob_specials.damnodice   = MAX(1, GET_LEVEL(mob) >> 2);
+        mob->mob_specials.damsizedice = MAX(2, GET_LEVEL(mob) >> 1);
+        GET_EXP(mob) = 1;
+      }
       char_to_room(mob, ch->in_room);
       IS_CARRYING_WEIGHT(mob) = 0;
       IS_CARRYING_N(mob) = 0;
       SET_BIT(AFF_FLAGS(mob), AFF_CHARM);
       add_follower(mob, ch);
       act(mag_summon_msgs[msg], FALSE, ch, 0, mob, TO_ROOM);
-      /* Clone the victim */
-      if (spellnum == SPELL_CLONE) {
-        if (GET_NAME(mob))
-          free(GET_NAME(mob));
-        strcpy(GET_NAME(mob), GET_NAME(victim));
-        if (mob->player.short_descr)
-          free(mob->player.short_descr);
-        strcpy(mob->player.short_descr, GET_NAME(victim));
-        if (mob->player.long_descr)
-          free(mob->player.long_descr);
-        sprintf(mob->player.long_descr, "%s is standing here.\r\n", GET_NAME(victim));
-        GET_MAX_HIT(mob)  = GET_MAX_HIT(victim);
-        GET_MAX_MOVE(mob) = GET_MAX_MOVE(victim);
-        GET_LEVEL(mob)    = GET_LEVEL(victim);
-        GET_EXP(mob) = 1;
-      }
     } else {
       sprintf(buf, "SYSERR: (mag_summons) unable to load mob for %s, spell %d\n", GET_NAME(ch), spellnum);
       mudlog(buf, CMP, LVL_GOD, TRUE);

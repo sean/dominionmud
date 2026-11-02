@@ -61,7 +61,6 @@
 #define SOCMESS_FILE    "misc/socials"  /* messgs for social acts       */
 #define XNAME_FILE      "misc/xnames"   /* invalid name substrings      */
 
-#define PLAYER_FILE     "etc/players"   /* the player database          */
 #define MAIL_FILE       "etc/plrmail"   /* for the mudmail system       */
 #define BAN_FILE        "etc/badsites"  /* for the siteban system       */
 #define HCONTROL_FILE   "etc/hcontrol"  /* for the house system         */

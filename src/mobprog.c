@@ -1671,20 +1671,23 @@ void mprog_wordlist_check(char *arg, struct char_data *mob, struct char_data *ac
 	  }
 	else
 	  {
+	    /* Each keyword is searched from the start of the speech, and the
+	       program runs at most once however many keywords match. */
+	    bool matched = FALSE;
+
 	    list = one_argument(list, word);
-	    for(; word[0] != '\0'; list = one_argument(list, word))
-	      while ((start = strstr(dupl, word)))
-		if ((start == dupl || *(start-1) == ' ')
+	    for(; !matched && word[0] != '\0'; list = one_argument(list, word))
+	      for (dupl = temp2; (start = strstr(dupl, word)); dupl = start + 1)
+		if ((start == temp2 || *(start-1) == ' ')
 		    && (*(end = start + strlen(word)) == ' '
 			|| *end == '\n'
 			|| *end == '\r'
 			|| *end == '\0'))
 		  {
 		    mprog_driver(mprg->comlist, mob, actor, obj, vo);
+		    matched = TRUE;
 		    break;
 		  }
-		else
-		  dupl = start+1;
 	  }
       }
 
