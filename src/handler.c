@@ -355,8 +355,12 @@ void affect_total(struct char_data * ch)
   GET_CHA(ch)  = MAX(2, MIN((int)GET_CHA(ch), 25));
   GET_WILL(ch) = MAX(2, MIN((int)GET_WILL(ch), 25));
 
-  if (GET_STR(ch) == 18)
-    GET_ADD(ch) = MIN(number(1, 100), 100);
+  /* Exceptional strength (18/xx) is the character's own, rolled once and kept
+     in real_abils.str_add, which aff_abils copied above.  It used to be rerolled
+     here at random on every affect change, so carry, wield, to-hit and to-damage
+     limits jumped around.  It only means anything at exactly 18. */
+  if (GET_STR(ch) != 18)
+    GET_ADD(ch) = 0;
 
   /* Added for TD to make sure that the races ALWAYS have their spec abils */
   if ( !IS_NPC( ch ) && RACE_HAS_INFRA( ch ) && !IS_AFFECTED(ch, AFF_INFRAVISION) )

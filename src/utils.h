@@ -415,6 +415,8 @@ void    update_pos(struct char_data *victim);
 #define GET_ATTACK_TYPE(mob)    ((mob)->mob_specials.attack_type)
 #define MEMORY(ch)              ((ch)->mob_specials.memory)
 
+/* Row of str_app[] for ch: 0-25 for plain strength, 26-30 for 18/xx
+   (str_app[] has NUM_STR_APPLY = 31 rows; see constant.c). */
 #define STRENGTH_APPLY_INDEX(ch) \
 	( ((GET_ADD(ch)==0) || (GET_STR(ch) != 18)) ? GET_STR(ch) :\
 	  (GET_ADD(ch) <= 50) ? 26 :( \

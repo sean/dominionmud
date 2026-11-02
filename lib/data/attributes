@@ -1,6 +1,6 @@
 # NOTE
 
-# Strength
+# Strength.  Rows 26-30 are exceptional strength (18/01 to 18/100), between rows 18 and 19.
 Str~                 # Abbrev
 0  -6, -5,    0,  0  # value tohit, todam, carry_w, wield_w
 1  -5, -4,    3,  1  # value tohit, todam, carry_w, wield_w
@@ -28,6 +28,11 @@ Str~                 # Abbrev
 23  6, 11, 1250, 50  # value tohit, todam, carry_w, wield_w
 24  7, 12, 1750, 70  # value tohit, todam, carry_w, wield_w
 25  8, 14, 2000, 90  # value tohit, todam, carry_w, wield_w
+26  3,  5,  280, 22  # 18/01-18/50: tohit, todam, carry_w, wield_w
+27  3,  6,  305, 24  # 18/51-18/75: tohit, todam, carry_w, wield_w
+28  3,  6,  330, 26  # 18/76-18/90: tohit, todam, carry_w, wield_w
+29  4,  6,  380, 28  # 18/91-18/99: tohit, todam, carry_w, wield_w
+30  4,  7,  480, 30  # 18/100: tohit, todam, carry_w, wield_w
 
 # Dexterity
 Dex~

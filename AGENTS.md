@@ -236,8 +236,15 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
 - `lib/data/{races,religions,guilds,exp_table,attributes}`: each file starts with a comment header
   that defines its format. Read it before editing. Parsers are in `race.c` (`parse_races`, `parse_experience`),
   `religion.c` and `guild.c`. Races are limited to 62 selector letters. `exp_table` needs one row per level up to `MAX_LEVEL`.
-  `lib/etc/guilds` and `lib/data/guilds` are duplicates. Check `GUILD_FILE` in `db.h` (`data/guilds`)
-  before deciding which one is live.
+  `lib/etc/guilds` is an old copy; `GUILD_FILE` in `db.h` (`data/guilds`) is the live one.
+- `lib/data/guilds`: each guild's numeric line is `restrictions entrance-room direction guardian-mob`.
+  The direction is a *command number* (north 1, east 2, south 3, west 4, up 5, down 6), not a `D<n>`
+  exit number. The guardian gets the `guild_guard` spec, which stops anyone but members and immortals
+  moving that way out of the entrance room. Guilds 5-15 are the faction halls of zone 26 (Dustmen,
+  Harmonium, Mercykillers, Xaositects, Sign of One, Doomguard, Fraternity of Order, Athar, Believers of
+  the Source, Transcendent Order, Fated); their guardians are mobs 2601-2611, loaded by zone 26 in the
+  town room outside each hall. New guilds have no members yet: an immortal makes the first leader with `set <player> guild <n>`
+  and `set <player> glevel 5` (members of guild level 4+ can then `accept` petitioners).
 - World files use the standard CircleMUD 3.0 formats with Dominion extensions (races on mobs, "fuzzy" mobs,
   `>in_file_prog`). Add new zone files to the relevant `index` (and `index.mini` if they're needed in mini mode).
 - MOBprograms (`lib/prog/*.prg`) use Merc 2.x syntax: `>greet_prog`, `>rand_prog`, `>speech_prog`,
@@ -255,7 +262,11 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
   `scales` at the black monolith, 1154 (Mytherandil); ask the elven sage in 19043 about `runes`, then say
   `leaf` at the obelisk, 19008; give the torn scroll fragment from 32097 to the statue, 32095 (Serdim swamp);
   say `silence` to the chalk in 3752 (High Tower); say `we shall never die` at the Drerim archway, 1821;
-  give 5 coins to the clockwork fish, 35003 (Gnishmire, lore only).
+  give 5 coins to the clockwork fish, 35003 (Gnishmire, lore only); say `vrask` at the rubble, 2720
+  (Ganin's World; the captive gnome in 2726 gives the hint); say `gemmar` at the white door, 42026
+  (Gemini's Zone; Aurelle's light in 42006 gives the hint); say `ananke` at the pool, 43014 (Valley of
+  Fate; the Cutter in 43021 gives the hint). Not a puzzle, but prog-driven too: saying `trial` to Master
+  Oldric in the Adventurer's Academy (5801) sends a player through the Proving Halls (5802-5809).
 - OLC (`creation.c`) rewrites world files in place. If you hand-edit world files, keep the exact format
   OLC writes (tildes, `S` terminators, `$` at EOF) or the next OLC save may corrupt them.
 - After any data change, run `./bin/dominion -c` (must exit 0 with no `SYSERR`), then boot the full world and look for new kinds of `SYSERR`.
@@ -349,7 +360,7 @@ Housekeeping
   dependencies and targets for utilities that don't compile.
 - Generated `src/Makefile`/`conf.h` are committed and macOS-flavoured. The legacy non-Unix Makefiles and
   `conf.h.*` are unmaintained.
-- About 1,400 rooms are still unnamed placeholders ("Room NNNN", "This lovely room has yet to be written")
+- About 1,000 rooms are still unnamed placeholders ("Room NNNN", "This lovely room has yet to be written")
   in unfinished or unconnected areas.
 - `TODO.md` (accounts system, skills/spells in text files), `lib/data/README`, and the 1990s player
   reports in `lib/misc/{bugs,ideas,typos,todo}` are the historical backlog.
@@ -395,6 +406,30 @@ Fixed in October 2026 (for history)
   Elrhinn (zone 30) rewritten. Data fixes: swapped diagonal exits in rooms 3039 and 2711, a corrupted
   extra description in 32194, `(null)` keywords/names/messages in rooms 5896, 25574, 38350 and shop 11,
   and two vandalised extra descriptions in Elrhinn.
+- Unfinished zones finished (Nov 2026): Immortal Paradise (0: illusion mobs 29/30, blank mobs removed),
+  The Guilds (26: eleven faction halls made real guilds 5-15 with guardians and entrances), Ganin's
+  World (27: the kobold war cavern below the Kobold Catacombs, stair at 20065), Gemini's Zone (420:
+  the Weeping Wood, graveyard and catacombs of House Gemmar, east of Blackwood room 7544), Valley of Fate
+  (430: through the ancient archway in Pelarinne, 32621), and The Jungle (58: the Academy's Proving Halls,
+  and the Isle of Karras, reached by boat east from Sea of Tears room 20029). Leftover placeholder rooms,
+  mobs and objects in 58, 420 and 430 were removed (the vnum ranges stay reserved). The Fiend (42001) was
+  cut from ~6,500 hp/137 dmg to ~1,200 hp/36 dmg, and the Teeth of Gwahlur (42001, a 10000d50 weapon with
+  +100s) became a 4d6 dagger with +2/+2/+20 hp. Guild bugs: `save_guilds()` wrote a count line that
+  `load_guilds()` can't read (the first petition, accept or reject stopped the next boot); guilds were
+  `malloc`ed, so unused petitioner slots were garbage and `petition` crashed; the Bleak Cabal's guard
+  blocked north instead of east (direction 1, now 2).
+- Strength table (Nov 2026): `STRENGTH_APPLY_INDEX` maps 18/01-18/100 strength to rows 26-30, but
+  `str_app[]` had only 26 rows, so those characters read past the end of the array and got garbage
+  to-hit, to-damage, wield and carry limits (a new 18/56 character could carry nothing). `str_app[]` now has
+  `NUM_STR_APPLY` (31) rows, and `lib/data/attributes` has five new `Str` rows (26-30) between the
+  values for 18 and 19.
+  `affect_total()` also rerolled exceptional strength at random (18/01-18/100) on every affect change, so
+  those limits jumped around; it now keeps the character's own `real_abils.str_add` (and zeroes it
+  when strength isn't exactly 18).
+- `unaffect` (Nov 2026) removed nothing unless the victim also had a harmful affect; when it did, it
+  called `affect_remove(..., TRUE)` on the helpful list, which returns without removing anything, so the
+  loop never ended and the server hung. It also cleared the *immortal's* AFF flags. It now removes both
+  lists and leaves other AFF bits alone.
 
 ---
 

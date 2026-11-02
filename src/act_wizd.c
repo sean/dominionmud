@@ -2126,24 +2126,20 @@ ACMD(do_wizutil)
       act("A sudden fireball conjured from nowhere thaws $n!", FALSE, vict, 0, 0, TO_ROOM);
       break;
     case SCMD_UNAFFECT:
-      if (vict->affected2) {
-	while (vict->affected2)
-	  affect_remove(vict, vict->affected2, TRUE);
-	AFF2_FLAGS(ch) = 0;
-	send_to_char("There is a brief flash of light!\r\n"
-		     "You feel slightly different.\r\n", vict);
-	send_to_char("All _bad_ spells removed.\r\n", ch);
-        if (vict->affected) {
-	  while (vict->affected)
-	    affect_remove(vict, vict->affected, TRUE);
-	  AFF_FLAGS(ch) = 0;
-	  send_to_char("There is another brief flash of light!\r\n"
-		     "You feel different.\r\n", vict);
-        } 
-      } else {
+      /* Removes every spell affect, harmful (affected2) and helpful
+         (affected).  affect_remove() takes the affect's bits and stat
+         changes back off the victim; other AFF bits (race, equipment) stay. */
+      if (!vict->affected && !vict->affected2) {
 	send_to_char("Your victim does not have any affections!\r\n", ch);
 	return;
       }
+      while (vict->affected2)
+	affect_remove(vict, vict->affected2, TRUE);
+      while (vict->affected)
+	affect_remove(vict, vict->affected, FALSE);
+      send_to_char("There is a brief flash of light!\r\n"
+		   "You feel slightly different.\r\n", vict);
+      send_to_char("All spells removed.\r\n", ch);
       break;
     default:
       log("SYSERR: Unknown subcmd passed to do_wizutil (act.wizard.c)");

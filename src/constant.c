@@ -723,8 +723,12 @@ const char *fullness[] =
 
 /* str, int, wis, dex, con applies **************************************/
 #define MAX_ATTRIB_RANK 26
+/* Strength has five more rows than the other tables: STRENGTH_APPLY_INDEX
+   (utils.h) maps exceptional strength 18/01-18/50, 18/51-18/75,
+   18/76-18/90, 18/91-18/99 and 18/100 to rows 26-30. */
+#define NUM_STR_APPLY   (MAX_ATTRIB_RANK + 5)
 
-struct str_app_type   str_app[ MAX_ATTRIB_RANK ];
+struct str_app_type   str_app[ NUM_STR_APPLY ];
 struct dex_skill_type dex_app_skill[ MAX_ATTRIB_RANK ];
 struct dex_app_type   dex_app[ MAX_ATTRIB_RANK ];
 struct con_app_type   con_app[ MAX_ATTRIB_RANK ];
@@ -795,7 +799,7 @@ void parse_attributes( void )
     
     switch ( nameToAttribute( p ) ) {
     case STR:
-      for ( i = 0; i < MAX_ATTRIB_RANK; i++ ) {
+      for ( i = 0; i < NUM_STR_APPLY; i++ ) {
         int tohit, todam, carry_w, wield_w;
         READ_CHECK(fscanf( fl, "%d %d, %d, %d, %d",
                 &index, &tohit, &todam,
