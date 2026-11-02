@@ -1,1 +1,1 @@
-bin/showplay lib/players | more
+bin/showplay lib/accounts | more

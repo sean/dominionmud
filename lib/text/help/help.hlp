@@ -18,6 +18,27 @@ You tell Rasmussen, 'Hi there, how are you doing?'
 
 See also: ALIAS
 #
+ACCOUNT ACCOUNTS LOGIN EMAIL CHARACTERS
+You log in to The Dominion with an account: your email address and a
+password.  One account can hold up to 5 characters.  After logging in
+you see your account menu:
+
+  1-5  Play one of your characters (type its number)
+  C    Create a new character, while you have fewer than 5
+  P    Change your account password
+  Q    Quit
+
+To make an account, type the email address you'd like to use at the
+"Email address:" prompt and answer Yes.  Your characters don't have
+passwords of their own; the account password protects them all.
+
+From a character's menu, "Return to your account" goes back to the
+account menu, and "Delete this character" removes it from your account
+(you will be asked for your account password).  When you quit the game
+you return to that character's menu.
+
+See also: QUIT
+#
 ACCEPT
 Level: Guild Leader
 Syntax: accept <petitioning playername>

@@ -18,6 +18,7 @@
 #include "sysdep.h"
 
 #include "protos.h"
+#include "account.h"
 
 /* extern variables */
 extern struct room_data *world;
@@ -1956,7 +1957,8 @@ ACMD(do_users)
       else
 	sprintf(line, format, d->desc_num, classname, d->character->player.name, state, idletime, timeptr);
     } else
-      sprintf(line, format, d->desc_num, "   -   ", "UNDEFINED",
+      sprintf(line, format, d->desc_num, "   -   ",
+	      d->account ? d->account->email : "UNDEFINED",
 	      state, idletime, timeptr);
 
     if (*d->host)

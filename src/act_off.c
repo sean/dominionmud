@@ -1158,18 +1158,20 @@ ACMD(do_flee)
 	      char_from_room(MOUNTED(ch));
 	      char_to_room(MOUNTED(ch), ch->in_room);
 	    }
+	    loss = GET_MAX_HIT(ch) - GET_HIT(ch);
+	    loss *= MAX(1, GET_LEVEL(oppo) - GET_LEVEL(ch));
+	    gain_exp(ch, -loss);
+	    stop_fighting(oppo);
+	    stop_fighting(ch);
+	    GET_MOVE(ch) -= (GET_MOVE(ch) >> 4);
             if (IS_MOB(oppo) && MOB_FLAGGED(oppo, MOB_MEMORY) && 
                 !MOB_FLAGGED(oppo, MOB_WIMPY) && !MOB_FLAGGED(oppo, MOB_SENTINEL)) {
+	      /* the hunter may catch and kill ch at once, freeing a mob:
+		 nothing may touch ch after this */
 	      HUNTING(oppo)  = ch;
               hunt_victim(oppo);
-            } 
-            if (oppo) {
-	      loss = GET_MAX_HIT(ch) - GET_HIT(ch);
-	      loss *= MAX(1, GET_LEVEL(oppo) - GET_LEVEL(ch));
-	      gain_exp(ch, -loss);
-	      stop_fighting(oppo);
-	      stop_fighting(ch);
-	    }
+            }
+	    return;
 	  } else {
 	    act("$n tries to flee, but can't!", TRUE, ch, 0, 0, TO_ROOM);
 	  }

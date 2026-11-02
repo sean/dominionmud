@@ -302,6 +302,8 @@ void copyover_recover( )
     if ((player_i = load_char(name, &tmp_store)) >= 0) {
       store_to_char(&tmp_store, d->character);
       GET_PFILEPOS(d->character) = player_i;
+      /* the character's file names its account; back to it after quitting */
+      d->account = account_load(tmp_store.email);
       if (!PLR_FLAGGED(d->character, PLR_DELETED))
 	REMOVE_BIT(PLR_FLAGS(d->character),PLR_WRITING | PLR_MAILING | PLR_CRYO);
       else
@@ -1697,6 +1699,8 @@ void close_socket(struct descriptor_data *d)
     free(d->showstr_head);
   if (d->showstr_count)
     free(d->showstr_vector);
+  if (d->account)
+    free(d->account);
 
   free(d);
 }
@@ -1709,7 +1713,7 @@ void check_idle_passwords(void)
 
   for (d = descriptor_list; d; d = next_d) {
     next_d = d->next;
-    if (STATE(d) != CON_PASSWORD)
+    if (STATE(d) != CON_PASSWORD && STATE(d) != CON_ACCT_PASSWORD)
       continue;
     if (!d->idle_tics) {
       d->idle_tics++;

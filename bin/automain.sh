@@ -7,8 +7,8 @@
 # See license.doc for more information
 #
 # Run from the top of the source tree with the server stopped.  Deletes
-# the player files of idle, never-played and deleted characters (see
+# idle, never-played and deleted characters from their accounts (see
 # util/purgeplay.c) and logs who went to lib/etc/DELETED.
 
 echo "automaint cleaning player files: `date`" >> lib/etc/DELETED
-bin/purgeplay -d lib/players >> lib/etc/DELETED
+bin/purgeplay -d lib/accounts >> lib/etc/DELETED

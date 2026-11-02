@@ -26,6 +26,7 @@
 #include "../utils.h"
 #include "../db.h"
 #include "../pfile.h"
+#include "../account.h"
 
 #define IMM_LMARG "   "
 #define IMM_NSIZE  16
@@ -78,22 +79,27 @@ void initialize(void)
 }
 
 
-static int wizlist_entry(const char *path, struct char_file_u *player, void *arg)
+static int wizlist_entry(const char *path, struct account_file *f, void *arg)
 {
   void add_name(byte level, char *name);
+  struct char_file_u *player;
+  int i;
 
-  if (player && player->level >= MIN_LEVEL &&
-      !(IS_SET(player->char_specials_saved.act, PLR_FROZEN)) &&
-      !(IS_SET(player->char_specials_saved.act, PLR_NOWIZLIST)) &&
-      !(IS_SET(player->char_specials_saved.act, PLR_DELETED)))
-    add_name(player->level, player->name);
+  for (i = 0; f && i < f->a.num_chars; i++) {
+    player = &f->ch[i];
+    if (player->level >= MIN_LEVEL &&
+	!(IS_SET(player->char_specials_saved.act, PLR_FROZEN)) &&
+	!(IS_SET(player->char_specials_saved.act, PLR_NOWIZLIST)) &&
+	!(IS_SET(player->char_specials_saved.act, PLR_DELETED)))
+      add_name(player->level, player->name);
+  }
   return 0;
 }
 
 
 void read_file(void)
 {
-  pfile_foreach(PFILE_DIR, wizlist_entry, NULL);
+  account_foreach(ACCOUNT_DIR, wizlist_entry, NULL);
 }
 
 

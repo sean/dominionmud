@@ -1,15 +1,15 @@
 /* ************************************************************************
 *  file: purgeplay.c                                    Part of CircleMUD *
-*  Usage: purge useless characters from lib/players                       *
+*  Usage: purge useless characters from lib/accounts                      *
 *  All Rights Reserved                                                    *
 *  Copyright (C) 1992, 1993 The Trustees of The Johns Hopkins University  *
 ************************************************************************* */
 
 /*
  * Lists the characters that would be purged (invalid, never played, idle
- * too long for their level, or flagged deleted), and with -d removes their
- * player files.  Run it with the server stopped; their rent files in
- * lib/plrobjs are cleaned up by the game at its next boot.
+ * too long for their level, or flagged deleted), and with -d removes them
+ * from their accounts (the accounts themselves stay).  Run it with the
+ * server stopped; rent files in lib/plrobjs are cleaned up at next boot.
  */
 
 #include "../conf.h"
@@ -18,11 +18,13 @@
 #include "../structs.h"
 #include "../utils.h"
 #include "../pfile.h"
+#include "../account.h"
 
 static int do_delete = 0, num = 0;
 
 
-static int check(const char *path, struct char_file_u *player, void *arg)
+/* 1 = keep, 0 = purge, 2 = would purge but NODELETE is set */
+static int check(struct char_file_u *player)
 {
   int okay = 1;
   long timeout;
@@ -30,10 +32,6 @@ static int check(const char *path, struct char_file_u *player, void *arg)
 
   *reason = '\0';
 
-  if (!player) {
-    printf("%4d. %-20s can't be read; left alone\n", ++num, path);
-    return 0;
-  }
   for (ptr = player->name; *ptr; ptr++)
     if (!isalpha((int)*ptr)) {
       okay = 0;
@@ -82,11 +80,30 @@ static int check(const char *path, struct char_file_u *player, void *arg)
   if (player->level >= LVL_IMPL)
     okay = 1;
 
-  if (okay != 1) {
+  if (okay != 1)
     printf("%4d. %-20s %s\n", ++num, player->name, reason);
-    if (!okay && do_delete && remove(path) != 0)
-      perror(path);
+  return okay;
+}
+
+
+static int check_account(const char *path, struct account_file *f, void *arg)
+{
+  int i, purged = 0;
+  char name[MAX_NAME_LENGTH + 1];
+
+  if (!f) {
+    printf("      %s can't be read; left alone\n", path);
+    return 0;
   }
+  for (i = 0; i < f->a.num_chars; i++)
+    if (!check(&f->ch[i]) && do_delete) {
+      strcpy(name, f->ch[i].name);
+      account_drop_char(f, name);
+      i--;
+      purged++;
+    }
+  if (purged && account_write((const char *) arg, f) < 0)
+    perror(path);
   return 0;
 }
 
@@ -96,13 +113,13 @@ int main(int argc, char *argv[])
   if (argc == 3 && !strcmp(argv[1], "-d"))
     do_delete = 1;
   else if (argc != 2) {
-    printf("Usage: %s [-d] players-dir\n"
+    printf("Usage: %s [-d] accounts-dir\n"
 	   "  Lists the characters to purge; with -d, deletes their files.\n",
 	   argv[0]);
     return 1;
   }
   printf(do_delete ? "Deleting:\n" : "Would delete (run with -d to do it):\n");
-  pfile_foreach(argv[argc - 1], check, NULL);
+  account_foreach(argv[argc - 1], check_account, argv[argc - 1]);
   puts("Done.");
   return 0;
 }

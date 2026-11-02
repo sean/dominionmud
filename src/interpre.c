@@ -17,6 +17,7 @@
 #include "sysdep.h"
 
 #include "protos.h"
+#include "account.h"
 #include "password.h"
 
 #if PWD_HASH_LENGTH != PASSWORD_HASH_LENGTH
@@ -43,7 +44,6 @@ void echo_on(struct descriptor_data *d);
 void echo_off(struct descriptor_data *d);
 void do_start(struct char_data *ch);
 void init_char(struct char_data *ch);
-int  create_entry(char *name);
 int  special(struct char_data *ch, int cmd, char *arg);
 int  isbanned(char *hostname);
 int  Valid_Name(char *newname);
@@ -1565,10 +1565,189 @@ int enter_player_game (struct descriptor_data *d)
   return load_result;
 }
 
+/* ------------------------------------------------------------------ */
+/* accounts: the menu between logging in and choosing a character      */
+
+/* The account menu: the account's characters, then what can be done. */
+void show_account_menu(struct descriptor_data *d)
+{
+  const struct account_file *f;
+  const struct char_file_u *st;
+  struct account_data *a = d->account;
+  extern struct race_data *races;
+  extern int NUM_RACES;
+  int i;
+
+  /* the file is the truth: another session may have changed it */
+  if (account_reload(a) < 0) {
+    SEND_TO_Q("\r\nYour account can't be read just now; please try again later.\r\n", d);
+    STATE(d) = CON_CLOSE;
+    return;
+  }
+  f = account_last_read();
+
+  sprintf(buf, "\r\n%sAccount: %s%s\r\n\r\n",
+	  GET_ANSI(d) == TRUE ? KBCN : "", a->email, GET_ANSI(d) == TRUE ? KNRM : "");
+  SEND_TO_Q(buf, d);
+  if (!a->num_chars)
+    SEND_TO_Q("You have no characters yet.\r\n", d);
+  else
+    SEND_TO_Q("Your characters:\r\n", d);
+  for (i = 0; i < a->num_chars; i++) {
+    st = &f->ch[i];
+    if (!st->level)
+      sprintf(buf, "  %d) %-20s (new)\r\n", i + 1, st->name);
+    else
+      sprintf(buf, "  %d) %-20s level %d %s%s\r\n", i + 1, st->name, st->level,
+	      (st->race >= 0 && st->race < NUM_RACES) ? races[st->race].name : "",
+	      IS_SET(st->char_specials_saved.act, PLR_DELETED) ? " (deleted)" : "");
+    SEND_TO_Q(buf, d);
+  }
+  SEND_TO_Q("\r\n", d);
+  if (a->num_chars == 1)
+    SEND_TO_Q("1) Play that character\r\n", d);
+  else if (a->num_chars > 1) {
+    sprintf(buf, "1-%d) Play one of your characters\r\n", a->num_chars);
+    SEND_TO_Q(buf, d);
+  }
+  sprintf(buf, "C) Create a new character (%d of %d used)\r\n"
+	  "P) Change your account password\r\n"
+	  "Q) Quit\r\n\r\n"
+	  "   Make your choice: ", a->num_chars, MAX_ACCOUNT_CHARS);
+  SEND_TO_Q(buf, d);
+  STATE(d) = CON_ACCT_MENU;
+}
+
+
+/* Leave a character's menu (or a half-made character) for the account
+   menu. */
+void back_to_account(struct descriptor_data *d)
+{
+  if (d->character) {
+    free_char(d->character);
+    d->character = NULL;
+  }
+  if (!d->account) {      /* e.g. a player who was online over a hot reboot */
+    SEND_TO_Q("\r\nPlease log in again to see your account.\r\n", d);
+    close_socket(d);
+    return;
+  }
+  show_account_menu(d);
+}
+
+
+/* Load one of the account's characters and take it on to the MOTD, as the
+   character password prompt used to. */
+void select_character(struct descriptor_data *d, char *name)
+{
+  extern char *motd, *imotd;
+  struct char_file_u st;
+  int player_i;
+
+  if (d->character) {
+    free_char(d->character);
+    d->character = NULL;
+  }
+  if ((player_i = load_char(name, &st)) < 0 ||
+      IS_SET(st.char_specials_saved.act, PLR_DELETED) ||
+      str_cmp(st.email, d->account->email)) {
+    sprintf(buf, "\r\n%s can't be played just now.\r\n", name);
+    SEND_TO_Q(buf, d);
+    show_account_menu(d);
+    return;
+  }
+
+  CREATE(d->character, struct char_data, 1);
+  clear_char(d->character);
+  CREATE(d->character->player_specials, struct player_special_data, 1);
+  d->character->desc = d;
+  store_to_char(&st, d->character);
+  GET_PFILEPOS(d->character) = player_i;
+  /* undo it just in case they are set */
+  REMOVE_BIT(PLR_FLAGS(d->character), PLR_WRITING | PLR_MAILING | PLR_CRYO);
+
+  /* for the "You last logged on" line when they enter the game */
+  strncpy(d->last_host, st.host, HOST_LENGTH);
+  d->last_host[HOST_LENGTH] = '\0';
+  d->last_logon = st.last_logon;
+
+  if (isbanned(d->host) == BAN_SELECT &&
+      !PLR_FLAGGED(d->character, PLR_SITEOK)) {
+    SEND_TO_Q("Sorry, this char has not been cleared for login from your site!\r\n", d);
+    STATE(d) = CON_CLOSE;
+    sprintf(buf, "Connection attempt for %s denied from %s",
+	    GET_NAME(d->character), d->host);
+    mudlog(buf, NRM, LVL_GOD, TRUE);
+    return;
+  }
+  if (GET_LEVEL(d->character) < game_restrict) {
+    SEND_TO_Q("The game is temporarily restricted.. try again later.\r\n", d);
+    STATE(d) = CON_CLOSE;
+    sprintf(buf, "Request for login denied for %s [%s] (wizlock)",
+	    GET_NAME(d->character), d->host);
+    mudlog(buf, NRM, LVL_GOD, TRUE);
+    return;
+  }
+  /* check and make sure no other copies of this player are logged in */
+  if (perform_dupe_check(d))
+    return;
+
+  if (GET_ANSI(d) == TRUE)
+    SEND_TO_Q(KYEL, d);
+  if (GET_LEVEL(d->character) >= LVL_IMMORT)
+    SEND_TO_Q(imotd, d);
+  else
+    SEND_TO_Q(motd, d);
+  sprintf(buf, "\r\n\n%s*** PLEASE PRESS RETURN TO CONTINUE ***%s",
+	  GET_ANSI(d) == TRUE ? KBBL : "",
+	  GET_ANSI(d) == TRUE ? KNRM : "");
+  SEND_TO_Q(buf, d);
+
+  sprintf(buf, "%s [%s] has connected.", GET_NAME(d->character), d->host);
+  mudlog(buf, BRF, MAX((int)LVL_IMMORT, (int)GET_INVIS_LEV(d->character)), TRUE);
+  STATE(d) = CON_RMOTD;
+}
+
+
+/* The last step of character creation: save the new character and add it
+   to the account. */
+void finish_new_char(struct descriptor_data *d)
+{
+  extern char *newbm;
+
+  extern struct player_index_element *player_table;
+  int pos = GET_PFILEPOS(d->character);
+
+  /* someone else may have taken the last place, or the name, meanwhile */
+  if (account_reload(d->account) < 0 ||
+      d->account->num_chars >= MAX_ACCOUNT_CHARS ||
+      (pos < 0 && find_name(GET_NAME(d->character)) >= 0)) {
+    SEND_TO_Q("\r\nSorry, that character couldn't be created after all.\r\n", d);
+    back_to_account(d);
+    return;
+  }
+  /* a name freed by a character deleted from the game (but not yet from
+     its account) goes to the new character */
+  if (pos >= 0)
+    account_delete_char(player_table[pos].account, GET_NAME(d->character));
+
+  GET_PFILEPOS(d->character) = create_entry(GET_NAME(d->character), d->account->email);
+  init_char(d->character);
+  *GET_PASSWD(d->character) = '\0';     /* the account holds the password */
+  save_char(d->character, NOWHERE);
+  page_string(d, newbm, 0);
+  STATE(d) = CON_NEWM;
+
+  sprintf(buf, "%s [%s] [%s] new player.", GET_NAME(d->character), d->host,
+	  d->account->email);
+  mudlog(buf, NRM, LVL_IMMORT, TRUE);
+}
+
+
 /* deal with newcomers and other non-playing sockets */
 void nanny(struct descriptor_data *d, char *arg)
 {
-  char buf[128];
+  char buf[1024];
   int player_i, load_result, pw_result;
   static int points;
   char tmp_name[MAX_INPUT_LENGTH];
@@ -1624,89 +1803,256 @@ void nanny(struct descriptor_data *d, char *arg)
 	    break;
 	}
       }
-      STATE(d) = CON_GET_NAME;
+      STATE(d) = CON_ACCT_EMAIL;
       break;
 
-  case CON_GET_NAME:            /* wait for input of name */
-    if (d->character == NULL) {
+  case CON_ACCT_EMAIL:          /* wait for an email address      */
+    if (!*arg) {
+      close_socket(d);
+      return;
+    }
+    if (account_email(tmp_name, sizeof(tmp_name), arg) < 0) {
+      SEND_TO_Q("That doesn't look like an email address.\r\n"
+		"Email address: ", d);
+      return;
+    }
+    if (d->account)
+      free(d->account);
+    if ((d->account = account_load(tmp_name))) {
+      SEND_TO_Q("Password: ", d);
+      echo_off(d);
+      d->idle_tics = 0;
+      STATE(d) = CON_ACCT_PASSWORD;
+      return;
+    }
+    if (isbanned(d->host) >= BAN_NEW) {
+      sprintf(buf, "Request for new account %s denied from [%s] (siteban)",
+	      tmp_name, d->host);
+      mudlog(buf, NRM, LVL_GOD, TRUE);
+      SEND_TO_Q("Sorry, new accounts are not allowed from your site!\r\n", d);
+      STATE(d) = CON_CLOSE;
+      return;
+    }
+    CREATE(d->account, struct account_data, 1);
+    strcpy(d->account->email, tmp_name);
+    sprintf(buf, "There is no account for %s.\r\n"
+	    "Would you like to create one (Y/N)? ", tmp_name);
+    SEND_TO_Q(buf, d);
+    STATE(d) = CON_ACCT_NEW_CNFRM;
+    break;
+
+  case CON_ACCT_NEW_CNFRM:      /* create a new account?           */
+    if (UPPER(*arg) == 'Y') {
+      SEND_TO_Q("New account.\r\n"
+		"Choose a password for your account: ", d);
+      echo_off(d);
+      STATE(d) = CON_ACCT_NEWPW;
+    } else if (UPPER(*arg) == 'N') {
+      free(d->account);
+      d->account = NULL;
+      SEND_TO_Q("Okay, what IS your email address, then? ", d);
+      STATE(d) = CON_ACCT_EMAIL;
+    } else
+      SEND_TO_Q("Please type Yes or No: ", d);
+    break;
+
+  case CON_ACCT_PASSWORD:       /* password for a known account    */
+    echo_on(d);
+    if (!*arg) {
+      close_socket(d);
+      return;
+    }
+    pw_result = password_verify(arg, d->account->pwd);
+    if (pw_result == PASSWORD_BAD) {
+      sprintf(buf, "Bad PW: account %s [%s]", d->account->email, d->host);
+      mudlog(buf, BRF, LVL_GOD, TRUE);
+      d->account->bad_pws++;
+      account_save(d->account);
+      if (++(d->bad_pws) >= max_bad_pws) {      /* 3 strikes and you're out. */
+	SEND_TO_Q("Wrong password... disconnecting.\r\n", d);
+	STATE(d) = CON_CLOSE;
+      } else {
+	SEND_TO_Q("Wrong password.\r\nPassword: ", d);
+	echo_off(d);
+      }
+      return;
+    }
+    if (pw_result == PASSWORD_OK_REHASH &&      /* fewer rounds than now */
+	!password_hash(arg, d->account->pwd, sizeof(d->account->pwd))) {
+      sprintf(buf, "Upgraded stored password for account %s.", d->account->email);
+      mudlog(buf, NRM, LVL_GOD, TRUE);
+    }
+    sprintf(buf, "Account %s [%s] has connected.", d->account->email, d->host);
+    mudlog(buf, CMP, LVL_IMMORT, TRUE);
+
+    if (d->account->last_logon > 0) {
+      strncpy(when, ctime(&d->account->last_logon), sizeof(when) - 1);
+      when[sizeof(when) - 1] = '\0';
+      when[strcspn(when, "\n")] = '\0';
+      sprintf(buf, "\r\nYour account last logged in from %s on %s.\r\n",
+	      *d->account->last_host ? d->account->last_host : "an unknown site",
+	      when);
+      SEND_TO_Q(buf, d);
+    }
+    if (d->account->bad_pws) {
+      sprintf(buf, "\007\007%d LOGIN FAILURE%s SINCE THEN.\r\n",
+	      d->account->bad_pws, d->account->bad_pws > 1 ? "S" : "");
+      SEND_TO_Q(buf, d);
+    }
+    d->account->bad_pws = 0;
+    d->account->last_logon = time(0);
+    snprintf(d->account->last_host, sizeof(d->account->last_host), "%s", d->host);
+    account_save(d->account);
+    show_account_menu(d);
+    break;
+
+  case CON_ACCT_NEWPW:          /* choose a password               */
+  case CON_ACCT_CHPW_NEW:
+    if (!*arg || strlen(arg) > MAX_PWD_LENGTH || strlen(arg) < 3 ||
+	!str_cmp(arg, d->account->email)) {
+      SEND_TO_Q("\r\nIllegal password.\r\n", d);
+      SEND_TO_Q("Password: ", d);
+      return;
+    }
+    if (password_hash(arg, d->pending_pwd, sizeof(d->pending_pwd))) {
+      log("SYSERR: password_hash failed.");
+      SEND_TO_Q("\r\nUnable to set that password, please try another.\r\n"
+		"Password: ", d);
+      return;
+    }
+    SEND_TO_Q("\r\nPlease retype password: ", d);
+    STATE(d) = (STATE(d) == CON_ACCT_NEWPW) ? CON_ACCT_CNFPW : CON_ACCT_CHPW_VRFY;
+    break;
+
+  case CON_ACCT_CNFPW:          /* retype the new password         */
+  case CON_ACCT_CHPW_VRFY:
+    if (password_verify(arg, d->pending_pwd) == PASSWORD_BAD) {
+      SEND_TO_Q("\r\nPasswords don't match... start over.\r\n", d);
+      SEND_TO_Q("Password: ", d);
+      STATE(d) = (STATE(d) == CON_ACCT_CNFPW) ? CON_ACCT_NEWPW : CON_ACCT_CHPW_NEW;
+      return;
+    }
+    echo_on(d);
+    strcpy(d->account->pwd, d->pending_pwd);
+    *d->pending_pwd = '\0';
+    if (STATE(d) == CON_ACCT_CNFPW) {
+      struct account_data *other;
+
+      if ((other = account_load(d->account->email))) {  /* made meanwhile */
+	free(other);
+	SEND_TO_Q("\r\nThat account was just created by someone else.\r\n", d);
+	STATE(d) = CON_CLOSE;
+	return;
+      }
+      d->account->created = d->account->last_logon = time(0);
+      snprintf(d->account->last_host, sizeof(d->account->last_host), "%s", d->host);
+      sprintf(buf, "New account %s [%s].", d->account->email, d->host);
+      mudlog(buf, NRM, LVL_IMMORT, TRUE);
+    } else
+      SEND_TO_Q("\r\nPassword changed.\r\n", d);
+    if (account_save(d->account) < 0) {
+      SEND_TO_Q("\r\nSorry, your account couldn't be saved. Please try again later.\r\n", d);
+      STATE(d) = CON_CLOSE;
+      return;
+    }
+    show_account_menu(d);
+    break;
+
+  case CON_ACCT_CHPW_OLD:       /* changing password: the old one  */
+    if (password_verify(arg, d->account->pwd) == PASSWORD_BAD) {
+      echo_on(d);
+      SEND_TO_Q("\r\nIncorrect password.\r\n", d);
+      show_account_menu(d);
+      return;
+    }
+    SEND_TO_Q("\r\nEnter a new password: ", d);
+    STATE(d) = CON_ACCT_CHPW_NEW;
+    break;
+
+  case CON_ACCT_MENU:           /* pick, create or manage characters */
+    if (isdigit((unsigned char) *arg)) {
+      int n = atoi(arg);
+
+      if (n < 1 || n > d->account->num_chars) {
+	SEND_TO_Q("\r\nYou don't have a character with that number.\r\n", d);
+	show_account_menu(d);
+      } else
+	select_character(d, d->account->chars[n - 1]);
+      return;
+    }
+    switch (UPPER(*arg)) {
+    case 'C':
+      if (d->account->num_chars >= MAX_ACCOUNT_CHARS) {
+	sprintf(buf, "\r\nAn account can have at most %d characters; delete one "
+		"first.\r\n", MAX_ACCOUNT_CHARS);
+	SEND_TO_Q(buf, d);
+	show_account_menu(d);
+	return;
+      }
+      if (game_restrict) {
+	SEND_TO_Q("\r\nSorry, new characters can't be created at the moment.\r\n", d);
+	show_account_menu(d);
+	return;
+      }
+      if (d->character)
+	free_char(d->character);
       CREATE(d->character, struct char_data, 1);
       clear_char(d->character);
       CREATE(d->character->player_specials, struct player_special_data, 1);
       d->character->desc = d;
-    }
-    if (!*arg)
+      if (GET_ANSI(d) == TRUE)
+	SEND_TO_Q(ANSI_NAME_POLICY, d);
+      else
+	SEND_TO_Q(NAME_POLICY, d);
+      SEND_TO_Q("By what name do you wish to be known? ", d);
+      STATE(d) = CON_GET_NAME;
+      break;
+    case 'P':
+      SEND_TO_Q("\r\nEnter your current password: ", d);
+      echo_off(d);
+      STATE(d) = CON_ACCT_CHPW_OLD;
+      break;
+    case 'Q':
+    case '0':
+      SEND_TO_Q("\r\nGoodbye, come back soon!\r\n", d);
       close_socket(d);
-    else {
-      /* code I was going to add for command line operation is also in old src */
-      if ((_parse_name(arg, tmp_name)) || strlen(tmp_name) < 3 ||
-	  strlen(tmp_name) > MAX_NAME_LENGTH ||
-	  fill_word(strcpy(buf, tmp_name)) || reserved_word(buf)) {
-	SEND_TO_Q("Invalid name, please try another.\r\n"
-		  "Name: ", d);
-	return;
-      }
-      /* forget any previous name's logon info; set below for existing players */
-      *d->last_host = '\0';
-      d->last_logon = 0;
-
-      if ((player_i = load_char(tmp_name, &tmp_store)) > -1) {
-	store_to_char(&tmp_store, d->character);
-	GET_PFILEPOS(d->character) = player_i;
-
-	if (PLR_FLAGGED(d->character, PLR_DELETED)) {
-	  free_char(d->character);
-	  CREATE(d->character, struct char_data, 1);
-	  clear_char(d->character);
-	  CREATE(d->character->player_specials, struct player_special_data, 1);
-	  d->character->desc = d;
-	  CREATE(d->character->player.name, char, strlen(tmp_name) + 1);
-	  strcpy(d->character->player.name, CAP(tmp_name));
-	  GET_PFILEPOS(d->character) = player_i;
-	  if (GET_ANSI(d) == TRUE)
-	    SEND_TO_Q(ANSI_NAME_POLICY, d);
-	  else
-	    SEND_TO_Q(NAME_POLICY, d);
-	  /* Now see if the name is correct */
-	  sprintf(buf, "Did I get that right, %s (Y/N)? ", tmp_name);
-	  SEND_TO_Q(buf, d);
-	  STATE(d) = CON_NAME_CNFRM;
-	} else {
-	  /* undo it just in case they are set */
-	  REMOVE_BIT(PLR_FLAGS(d->character),
-		     PLR_WRITING | PLR_MAILING | PLR_CRYO);
-
-	  /* tmp_store doesn't survive past this call, so keep what the
-	     menu needs for the "You last logged on" line */
-	  strncpy(d->last_host, tmp_store.host, HOST_LENGTH);
-	  d->last_host[HOST_LENGTH] = '\0';
-	  d->last_logon = tmp_store.last_logon;
-
-	  SEND_TO_Q("Password: ", d);
-	  echo_off(d);
-	  d->idle_tics = 0;
-	  STATE(d) = CON_PASSWORD;
-	}
-      } else {
-	/* player unknown -- make new character */
-
-	if (!Valid_Name(tmp_name)) {
-	  SEND_TO_Q("Invalid name, please try another.\r\n", d);
-	  SEND_TO_Q("Name: ", d);
-	  return;
-	}
-	CREATE(d->character->player.name, char, strlen(tmp_name) + 1);
-	strcpy(d->character->player.name, CAP(tmp_name));
-        if (GET_ANSI(d) == TRUE)
-          SEND_TO_Q(ANSI_NAME_POLICY, d);
-        else
-          SEND_TO_Q(NAME_POLICY, d);
-	/* now see if name is correct */
-	sprintf(buf, "Did I get that right, %s (Y/N)? ", tmp_name);
-	SEND_TO_Q(buf, d);
-	STATE(d) = CON_NAME_CNFRM;
-      }
+      break;
+    default:
+      SEND_TO_Q("\r\nThat's not a menu choice!\r\n", d);
+      show_account_menu(d);
+      break;
     }
     break;
+
+  case CON_GET_NAME:            /* name for a new character      */
+    if (!*arg) {
+      back_to_account(d);
+      return;
+    }
+    if ((_parse_name(arg, tmp_name)) || strlen(tmp_name) < 3 ||
+	strlen(tmp_name) > MAX_NAME_LENGTH ||
+	fill_word(strcpy(buf, tmp_name)) || reserved_word(buf) ||
+	!Valid_Name(tmp_name)) {
+      SEND_TO_Q("Invalid name, please try another.\r\n"
+		"Name (or just Enter to go back): ", d);
+      return;
+    }
+    if ((player_i = load_char(tmp_name, &tmp_store)) > -1 &&
+	!IS_SET(tmp_store.char_specials_saved.act, PLR_DELETED)) {
+      SEND_TO_Q("That name is already taken, please try another.\r\n"
+		"Name (or just Enter to go back): ", d);
+      return;
+    }
+    /* a name freed by a deleted character keeps its place in the index */
+    GET_PFILEPOS(d->character) = player_i;
+    if (d->character->player.name)
+      free(d->character->player.name);
+    d->character->player.name = str_dup(CAP(tmp_name));
+    sprintf(buf, "Did I get that right, %s (Y/N)? ", tmp_name);
+    SEND_TO_Q(buf, d);
+    STATE(d) = CON_NAME_CNFRM;
+    break;
+
   case CON_NAME_CNFRM:          /* wait for conf. of new name    */
     if (UPPER(*arg) == 'Y') {
       if (isbanned(d->host) >= BAN_NEW) {
@@ -1725,166 +2071,22 @@ void nanny(struct descriptor_data *d, char *arg)
 	STATE(d) = CON_CLOSE;
 	return;
       }
+      d->character->char_specials.email = str_dup(d->account->email);
       SEND_TO_Q("New character.\r\n", d);
-      sprintf(buf, "Give me a password for %s: ", GET_NAME(d->character));
-      SEND_TO_Q(buf, d);
-      echo_off(d);
-      STATE(d) = CON_NEWPASSWD;
-    } else if (*arg == 'n' || *arg == 'N') {
-      SEND_TO_Q("Okay, what IS it, then? ", d);
-      free(d->character->player.name);
-      d->character->player.name = NULL;
-      STATE(d) = CON_GET_NAME;
-    } else {
-      SEND_TO_Q("Please type Yes or No: ", d);
-    }
-    break;
-  case CON_PASSWORD:            /* get pwd for known player      */
-    /*
-     * To really prevent duping correctly, the player's record should
-     * be reloaded from disk at this point (after the password has been
-     * typed).  However I'm afraid that trying to load a character over
-     * an already loaded character is going to cause some problem down the
-     * road that I can't see at the moment.  So to compensate, I'm going to
-     * (1) add a 15 or 20-second time limit for entering a password, and (2)
-     * re-add the code to cut off duplicates when a player quits.  JE 6 Feb 96
-     */
-    echo_on(d);    /* turn echo back on */
-
-    if (!*arg)
-      close_socket(d);
-    else {
-      pw_result = password_verify(arg, GET_PASSWD(d->character));
-      if (pw_result == PASSWORD_BAD) {
-	sprintf(buf, "Bad PW: %s [%s]", GET_NAME(d->character), d->host);
-	mudlog(buf, BRF, LVL_GOD, TRUE);
-	GET_BAD_PWS(d->character)++;
-	save_char(d->character, NOWHERE);
-	if (++(d->bad_pws) >= max_bad_pws) {    /* 3 strikes and you're out. */
-	  SEND_TO_Q("Wrong password... disconnecting.\r\n", d);
-	  STATE(d) = CON_CLOSE;
-	} else {
-	  SEND_TO_Q("Wrong password.\r\nPassword: ", d);
-	  echo_off(d);
-	}
-	return;
-      }
-      if (pw_result == PASSWORD_OK_REHASH) {
-	/* stored as old plaintext (or with fewer rounds): hash it now */
-	if (!password_hash(arg, GET_PASSWD(d->character),
-			   sizeof(GET_PASSWD(d->character)))) {
-	  save_char(d->character, NOWHERE);
-	  sprintf(buf, "Upgraded stored password for %s.", GET_NAME(d->character));
-	  mudlog(buf, NRM, LVL_GOD, TRUE);
-	}
-      }
-      load_result = GET_BAD_PWS(d->character);
-      GET_BAD_PWS(d->character) = 0;
-
-      if (isbanned(d->host) == BAN_SELECT &&
-	  !PLR_FLAGGED(d->character, PLR_SITEOK)) {
-	SEND_TO_Q("Sorry, this char has not been cleared for login from your site!\r\n", d);
-	STATE(d) = CON_CLOSE;
-	sprintf(buf, "Connection attempt for %s denied from %s",
-		GET_NAME(d->character), d->host);
-	mudlog(buf, NRM, LVL_GOD, TRUE);
-	return;
-      }
-      if (GET_LEVEL(d->character) < game_restrict) {
-	SEND_TO_Q("The game is temporarily restricted.. try again later.\r\n", d);
-	STATE(d) = CON_CLOSE;
-	sprintf(buf, "Request for login denied for %s [%s] (wizlock)",
-		GET_NAME(d->character), d->host);
-	mudlog(buf, NRM, LVL_GOD, TRUE);
-	return;
-      }
-      /* check and make sure no other copies of this player are logged in */
-      if (perform_dupe_check(d))
-	return;
-
-      if (GET_ANSI(d) == TRUE)
-        SEND_TO_Q(KYEL, d);
-      if (GET_LEVEL(d->character) >= LVL_IMMORT)
-	SEND_TO_Q(imotd, d);
-      else
-	SEND_TO_Q(motd, d);
-      sprintf(buf, "\r\n\n%s*** PLEASE PRESS RETURN TO CONTINUE ***%s", 
-              GET_ANSI(d) == TRUE ? KBBL : "",
-              GET_ANSI(d) == TRUE ? KNRM : "");
-      SEND_TO_Q(buf, d);
-      
-      sprintf(buf, "%s [%s] has connected.", GET_NAME(d->character), d->host);
-      mudlog(buf, BRF, MAX((int)LVL_IMMORT, (int)GET_INVIS_LEV(d->character)), TRUE);
-
-      if (load_result) {
-	sprintf(buf, "\r\n\r\n\007\007\007"
-		"%s%d LOGIN FAILURE%s SINCE LAST SUCCESSFUL LOGIN.%s\r\n",
-		CCRED(d->character, C_SPR), load_result,
-		(load_result > 1) ? "S" : "", CCNRM(d->character, C_SPR));
-	SEND_TO_Q(buf, d);
-	GET_BAD_PWS(d->character) = 0;
-      }
-      STATE(d) = CON_RMOTD;
-    }
-    break;
-
-  case CON_NEWPASSWD:
-  case CON_CHPWD_GETNEW:
-    if (!*arg || strlen(arg) > MAX_PWD_LENGTH || strlen(arg) < 3 ||
-	!str_cmp(arg, GET_NAME(d->character))) {
-      SEND_TO_Q("\r\nIllegal password.\r\n", d);
-      SEND_TO_Q("Password: ", d);
-      return;
-    }
-    if (password_hash(arg, GET_PASSWD(d->character),
-		      sizeof(GET_PASSWD(d->character)))) {
-      log("SYSERR: password_hash failed.");
-      SEND_TO_Q("\r\nUnable to set that password, please try another.\r\n", d);
-      SEND_TO_Q("Password: ", d);
-      return;
-    }
-
-    SEND_TO_Q("\r\nPlease retype password: ", d);
-    if (STATE(d) == CON_NEWPASSWD)
-      STATE(d) = CON_CNFPASSWD;
-    else
-      STATE(d) = CON_CHPWD_VRFY;
-
-    break;
-
-  case CON_CNFPASSWD:
-  case CON_CHPWD_VRFY:
-    if (password_verify(arg, GET_PASSWD(d->character)) == PASSWORD_BAD) {
-      SEND_TO_Q("\r\nPasswords don't match... start over.\r\n", d);
-      SEND_TO_Q("Password: ", d);
-      if (STATE(d) == CON_CNFPASSWD)
-	STATE(d) = CON_NEWPASSWD;
-      else
-	STATE(d) = CON_CHPWD_GETNEW;
-      return;
-    }
-    echo_on(d);
-
-    if (STATE(d) == CON_CNFPASSWD) {
       if (GET_ANSI(d) == TRUE) {
-	SEND_TO_Q("\r\n[1m[36mTo back up a menu at anytime type '[33m/[36m'.", d);
-	SEND_TO_Q("\r\nWhat is your sex ([33mM/F[36m)?[0m ", d);
+	SEND_TO_Q("\r\n[1m[36mTo back up a menu at anytime type '[33m/[36m'.", d);
+	SEND_TO_Q("\r\nWhat is your sex ([33mM/F[36m)?[0m ", d);
       } else {
 	SEND_TO_Q("\r\nTo back up a menu at anytime type '/' (Except for this one)."
 		  "\r\nWhat is your sex (M/F)? ", d);
       }
       STATE(d) = CON_QSEX;
+    } else if (*arg == 'n' || *arg == 'N') {
+      SEND_TO_Q("Okay, what IS it, then? ", d);
+      STATE(d) = CON_GET_NAME;
     } else {
-      save_char(d->character, NOWHERE);
-      echo_on(d);
-      SEND_TO_Q("\r\nDone.\n\r", d);
-      if (GET_ANSI(d) == TRUE)
-	SEND_TO_Q(ANSI_MENU, d);
-      else
-	SEND_TO_Q(MENU, d);
-      STATE(d) = CON_MENU;
+      SEND_TO_Q("Please type Yes or No: ", d);
     }
-
     break;
 
   case CON_QSEX:                /* query sex of new user         */
@@ -2147,54 +2349,7 @@ void nanny(struct descriptor_data *d, char *arg)
 	 return;
     }
 
-    if (GET_ANSI(d) == TRUE)
-      SEND_TO_Q("[1m[36m\r\nPlease enter your complete email address.[0m\r\n",d);
-    else
-      SEND_TO_Q("\r\nPlease enter your complete email address.\r\n",d);
-    STATE(d) = CON_QEMAIL;
-    break;
-
-  case CON_QEMAIL:
-    if (*arg == '/') {
-      if (GET_ANSI(d) == TRUE)
-	SEND_TO_Q("\r\n[1m[36mWhich hand is your predominant one, [[33mR[36m]ight or [[33mL[36m]eft?[0m \r\n", d);
-      else
-	SEND_TO_Q("\r\nWhich had is your predominant one, [R]ight or [L]eft? \r\n", d);
-      STATE(d) = CON_QHANDEDNESS;
-      return;
-    } else {
-       d->character->char_specials.email = str_dup(arg);
-       if (strlen(d->character->char_specials.email) <= 4)
-	 SEND_TO_Q("That is not a valid email address, please re-enter.\r\n", d);
-       else {
-	 STATE(d) = CON_QEMAIL_CNFRM;
-	 sprintf(buf, "%sIs '%s%s%s' your email address?%s ", GET_ANSI(d) == TRUE ? KBCN : "",
-		GET_ANSI(d) == TRUE ? KYEL : "",  d->character->char_specials.email,
-		GET_ANSI(d) == TRUE ? KBCN : "", GET_ANSI(d) == TRUE ? KNRM : "");
-	 SEND_TO_Q(buf, d);
-       }
-    }
-    break;
-
-  case CON_QEMAIL_CNFRM:
-    switch (*arg) {
-       case '/':
-	 SEND_TO_Q("\r\nPlease enter your complete email address.\r\n",d);
-	 STATE(d) = CON_QEMAIL;
-	 return;
-	 break;
-       case 'y':
-       case 'Y':
-	 SEND_TO_Q("\r\nThank You.\r\n", d);
-	 break;
-       case 'n':
-       case 'N':
-       default:
-	 SEND_TO_Q("\r\nOkay, what is it then? ", d);
-	 STATE(d) = CON_QEMAIL;
-	 return;
-	 break;
-    }
+    /* the email address comes from the account; on to finish_new_char() */
 
 #if 0        /* taken out temporarily */
     SEND_TO_Q("Now you will enter your short description.  This is very\r\n"
@@ -2290,15 +2445,7 @@ void nanny(struct descriptor_data *d, char *arg)
     }
 #endif
 
-    if (GET_PFILEPOS(d->character) < 0)
-      GET_PFILEPOS(d->character) = create_entry(GET_NAME(d->character));
-    init_char(d->character);
-    save_char(d->character, NOWHERE);
-    page_string(d, newbm, 0);
-    STATE(d) = CON_NEWM;
-
-    sprintf(buf, "%s [%s] [%s] new player.", GET_NAME(d->character), d->host, d->character->char_specials.email);
-    mudlog(buf, NRM, LVL_IMMORT, TRUE);
+    finish_new_char(d);
     break;
 
   case CON_NEWM:                /* read CR after printing Newbie Message */
@@ -2326,8 +2473,7 @@ void nanny(struct descriptor_data *d, char *arg)
 
     switch (*arg) {
     case '0':
-      do_gen_vfile(d->character, "", 0, SCMD_V_QUOTES);
-      close_socket(d);
+      back_to_account(d);
       break;
 
     case '1':
@@ -2391,18 +2537,12 @@ void nanny(struct descriptor_data *d, char *arg)
       break;
 
     case '4':
-      SEND_TO_Q("\r\nEnter your old password: ", d);
-      echo_off(d);
-      STATE(d) = CON_CHPWD_GETOLD;
-      break;
-
-    case '5':
-      SEND_TO_Q("\r\nEnter your password for verification: ", d);
+      SEND_TO_Q("\r\nEnter your account password for verification: ", d);
       echo_off(d);
       STATE(d) = CON_DELCNF1;
       break;
 
-    case '6':
+    case '5':
       SEND_TO_Q(CLEAR_RESET, d);
       if (d->character) {
         do_who(d->character, "", 0, 0);         
@@ -2424,26 +2564,9 @@ void nanny(struct descriptor_data *d, char *arg)
 
     break;
 
-  case CON_CHPWD_GETOLD:
-    if (password_verify(arg, GET_PASSWD(d->character)) == PASSWORD_BAD) {
-      echo_on(d);
-      SEND_TO_Q("\r\nIncorrect password.\r\n", d);
-      if (GET_ANSI(d) == TRUE)
-      SEND_TO_Q(ANSI_MENU, d);
-      else
-      SEND_TO_Q(MENU, d);
-      STATE(d) = CON_MENU;
-      return;
-    } else {
-      SEND_TO_Q("\r\nEnter a new password: ", d);
-      STATE(d) = CON_CHPWD_GETNEW;
-      return;
-    }
-    break;
-
   case CON_DELCNF1:
     echo_on(d);
-    if (password_verify(arg, GET_PASSWD(d->character)) == PASSWORD_BAD) {
+    if (password_verify(arg, d->account->pwd) == PASSWORD_BAD) {
       SEND_TO_Q("\r\nIncorrect password.\r\n", d);
       if (GET_ANSI(d) == TRUE)
         SEND_TO_Q(ANSI_MENU, d);
@@ -2466,17 +2589,19 @@ void nanny(struct descriptor_data *d, char *arg)
 	STATE(d) = CON_CLOSE;
 	return;
       }
-      if (GET_LEVEL(d->character) < LVL_GRGOD)
-	SET_BIT(PLR_FLAGS(d->character), PLR_DELETED);
-      save_char(d->character, NOWHERE);
+      if (GET_LEVEL(d->character) >= LVL_GRGOD) {
+	SEND_TO_Q("\r\nGreater gods can't delete themselves.\r\n", d);
+	back_to_account(d);
+	return;
+      }
+      account_delete_char(d->account->email, GET_NAME(d->character));
       Crash_delete_file(GET_NAME(d->character));
-      sprintf(buf, "Character '%s' deleted!\r\n"
-	      "Goodbye.\r\n", GET_NAME(d->character));
+      sprintf(buf, "\r\nCharacter '%s' deleted!\r\n", GET_NAME(d->character));
       SEND_TO_Q(buf, d);
-      sprintf(buf, "%s (lev %d) has self-deleted.", GET_NAME(d->character),
-	      GET_LEVEL(d->character));
+      sprintf(buf, "%s (lev %d) has self-deleted (account %s).", GET_NAME(d->character),
+	      GET_LEVEL(d->character), d->account->email);
       mudlog(buf, NRM, LVL_GOD, TRUE);
-      STATE(d) = CON_CLOSE;
+      back_to_account(d);
       return;
     } else {
       SEND_TO_Q("\r\nCharacter not deleted.\r\n", d);
@@ -2489,7 +2614,6 @@ void nanny(struct descriptor_data *d, char *arg)
     break;
 
   case CON_CLOSE:
-    do_gen_vfile(d->character, "", 0, SCMD_V_QUOTES);
     close_socket(d);
     break;
 

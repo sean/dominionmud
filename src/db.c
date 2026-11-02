@@ -3107,7 +3107,9 @@ void init_char(struct char_data * ch)
   for (i=0; i < ARMOR_LIMIT; i++)
       ch->points.armor[i] = 0;
 
-  player_table[top_of_p_table].id = GET_IDNUM(ch) = ++top_idnum;
+  GET_IDNUM(ch) = ++top_idnum;
+  if (GET_PFILEPOS(ch) >= 0)    /* may be a deleted character's old entry */
+    player_table[GET_PFILEPOS(ch)].id = GET_IDNUM(ch);
 
   for (i = 1; i <= MAX_SKILLS; i++) {
     if (GET_LEVEL(ch) < LVL_SUP)

@@ -65,7 +65,8 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   mobact.c, mobprog.c, mobcmd.c                Mob AI and MOBprograms
   creation.c, olc.c Online building (redit/oedit/medit/zedit/sedit)
   save.c            Loading/saving characters and the player index (see §7)
-  pfile.c/pfile.h   Plain-text player file format; game-independent, also linked by the utilities
+  account.c/.h      Account files: the account plus up to 5 character records; game-independent
+  pfile.c/pfile.h   One character record inside an account file; game-independent
   objsave.c         CircleMUD rent/crash object files under lib/plrobjs
   password.c/.h     PBKDF2-HMAC-SHA256 password hashing; self-contained (see §7)
   spec_pro.c, spec_ass.c   SPECIAL() procedures and their assignment
@@ -79,7 +80,7 @@ lib/                Runtime data directory (server chdir()s here)
   prog/             MOBprogram files (*.prg), referenced from .mob files via `>in_file_prog name.prg~`
   text/             motd, news, credits, help/help.hlp, help/wizhelp.hlp ...
   misc/             socials, fight messages, xnames, plus 1990s in-game bug/idea/typo/todo logs
-  players/          one text file per character, players/<letter>/<name> (runtime, gitignored)
+  accounts/         one text file per account with its characters, accounts/<first char>/<email> (runtime, gitignored)
   etc/              plrmail, badsites, hcontrol, guilds
   plrobjs/, house/  Rent and house object files
 ```
@@ -143,12 +144,13 @@ def rd():
     except Exception: pass
     return out.decode("latin1")
 print(rd()[-400:])
-for line in ["n", "Testplayer"]:           # color prompt, then a new name
+for line in ["n", "test@example.com"]:     # color prompt, then an email (new account)
     s.sendall((line + "\r\n").encode()); time.sleep(0.5); print(rd()[-400:])
 EOF
 pkill dominion
 ```
-Extend the script (password, race selection, commands) to exercise the feature you changed.
+Extend the script (Y to create the account, password twice, C to create a character, its name, Y,
+sex, race, ...; then 1 to play it) to exercise the feature you changed.
 For combat, spells or saves, log in with a test character and use the actual commands.
 **There is no automated test suite.** Proposing a small harness (e.g. a Python
 telnet-script runner) is welcome. Ask before adding a framework.
@@ -249,22 +251,36 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
 
 ## 7. Persistence (be careful: this is player data)
 
-Each character is one text file, `lib/players/<first letter>/<name in lower case>`, written by
-`pfile.c` (format described in `pfile.h`): `Key value` lines starting with `Version 1`, strings on one
-line with `\n`/`\\` escapes. Readers skip unknown keys and leave missing ones zero, so **add a field by
-adding a key** to `pfile_write`/`pfile_read`; no conversion is needed, and the files don't depend on
-compiler, CPU or struct layout. Saves go to `<name>.new` and are renamed into place.
-- `struct char_file_u` is now only an in-memory staging area between a file and `struct char_data`
+All player data lives in **account files**: one per account, `lib/accounts/<first character>/<email>`,
+holding the account (email, password hash, last login) and the records of its up to
+`MAX_ACCOUNT_CHARS` (5) characters. The layout is in `account.h`, a character record's in `pfile.h`:
+`Key value` lines, strings on one line with `\n`/`\\` escapes, each section closed by `End`.
+Readers skip unknown keys and leave missing ones zero, so **add a field by adding a key** to
+`pfile_write_record`/`pfile_read_record` (character) or `account_write`/`account_read` (account); no
+conversion is needed, and the files don't depend on compiler, CPU or struct layout. Every write goes
+to `<email>.new` and is renamed into place.
+- `struct char_file_u` is only an in-memory staging area between a record and `struct char_data`
   (`char_to_store`/`store_to_char` in `db.c`); its old "DO NOT CHANGE" comments no longer apply.
-- `save.c`: `build_player_index()` reads every file at boot (creating the folders if missing) into
-  `player_table` (name, id); `load_char()` reads one file, `save_char()` saves a playing character,
-  `save_char_file()` writes a staged record (used by `set file`, guild accept/reject/dismiss).
+- `save.c` does every read-modify-write of an account file, so two sessions of one account can't
+  overwrite each other's changes: `build_player_index()` reads all accounts at boot into
+  `player_table` (name, account email, id); `load_char()` finds a record through it; `save_char()` /
+  `save_char_file()` replace one record (used by `set file`, guild accept/reject/dismiss);
+  `account_save()` changes only the account's own fields; `account_delete_char()` removes a record
+  for good, freeing the name.
 - Names are matched exactly (`find_name`, `get_id_by_name`); they used to match abbreviations, so a
   new player typing a prefix of an existing name was offered that character's password prompt.
-- The old binary `lib/etc/players` is no longer read or written. There were no player files to convert
-  (the game hasn't run since 1997), so there is no converter.
-- Utilities read the same files: `bin/showplay lib/players`, `bin/purgeplay [-d] lib/players`
-  (lists, or with `-d` deletes, idle/deleted characters), `bin/autowiz`.
+- The old binary `lib/etc/players` and the per-character `lib/players/` files of early November 2026
+  are gone; there was no live data to convert (the game hasn't run since 1997).
+- Utilities read the same files: `bin/showplay lib/accounts`, `bin/purgeplay [-d] lib/accounts`
+  (lists, or with `-d` removes, idle/deleted characters), `bin/autowiz` (run from `lib`),
+  `bin/mudpasswd lib/accounts <email> <password>`.
+
+**Logging in** (November 2026): a person gives an email address and password, then picks one of the
+account's characters or makes a new one. Characters have no passwords of their own. The login states
+are `CON_ACCT_*` in `interpre.c` `nanny()`, with `show_account_menu()` (rereads the file each time),
+`select_character()` (bans, wizlock, dupe check, MOTD), `finish_new_char()` and `back_to_account()`;
+the character menu's 0 returns to the account. A hot reboot finds each player's account from the
+index. Accounts aren't email-verified: the game can't send mail.
 
 **Passwords** are never stored. `password.c` hashes them with PBKDF2-HMAC-SHA256 (16-byte random salt,
 `PASSWORD_ROUNDS` = 100000) into `$pbkdf2-sha256$<rounds>$<salt>$<hash>`, the same format as Python's
@@ -274,12 +290,13 @@ accepts an old plaintext password and returns `PASSWORD_OK_REHASH`, and the logi
 hash. The same happens for hashes with fewer rounds than `PASSWORD_ROUNDS`, so raising that constant
 upgrades players as they log in. Each check costs about 0.1 s of CPU inside the single-threaded game
 loop (more rounds means more lag per login). Typed passwords may be 3–`MAX_PWD_LENGTH` (64) characters.
-Forgotten passwords can't be recovered, only reset: offline with `bin/mudpasswd lib/players <name>
-<new-password>` (server stopped), or in-game by the implementor with `set <player> passwd <new>`.
+Forgotten passwords can't be recovered, only reset: offline with `bin/mudpasswd lib/accounts <email>
+<new-password>` (server stopped), or in-game by the implementor with `set file <player> passwd <new>`, which sets the password
+of that character's account (and no longer echoes it back).
 `password.c` uses only the standard C library, so the utilities can link it too.
 
 Object rent and crash files live in `lib/plrobjs` (`objsave.c`). Mail is in `lib/etc/plrmail` (binary).
-Gitignored runtime files: `lib/players/`, `lib/etc/plrmail`, `lib/etc/mudtime`, `*.objs`, `*.alias`.
+Gitignored runtime files: `lib/accounts/`, `lib/etc/plrmail`, `lib/etc/mudtime`, `*.objs`, `*.alias`.
 
 ---
 
@@ -291,7 +308,6 @@ Security
   (about 0.3 s of game-loop time) and reconnect in a loop. A per-site rate limit or failed-login
   back-off would close that gap, and so would moving password hashing off the game loop.
 - Every new connection does a blocking reverse-DNS lookup (`gethostbyaddr`) unless `slowns` is on.
-- An implementor's `set <player> passwd <new>` echoes the new password back to them (not to the log).
 - The server is IPv4-only (`AF_INET` sockets), and so is the per-site limit.
 - Some `fscanf("%s")` calls have no field width (e.g. `ban.c`, copyover recovery in `comm.c`). The input
   files are local, but widths should be added.
@@ -304,7 +320,8 @@ Crashes and undefined behavior
   keeper mob doesn't exist wrote to `mob_index[-1]` at boot (now logged as "Shop #N disabled" and skipped;
   10 such shops, in zones 65, 120 and 150); `get_number()` ("2.guard") and three other places used
   overlapping `strcpy`; so did `half_chop()` (`set`). `stat file` read `world[]` with a load-room vnum.
-  Loops over `player_table` stopped one player short (`<` instead of `<=`).
+  Loops over `player_table` stopped one player short (`<` instead of `<=`). `do_flee()` used a fleeing
+  mob after the hunter it provoked had killed and freed it (mob-vs-mob fights, at random).
 - Zone `temperature` (`weather.c`) is updated every hour but never read and never clamped. Nothing in
   the game uses it yet.
 - Mob hit regeneration (`hit_gain()` via the shared `dummy_mob` `player_specials`) differs between `-O0`
@@ -384,7 +401,7 @@ Fixed in October 2026 (for history)
    why it couldn't be); help files (`lib/text/help/*.hlp`) are updated for player-visible changes.
 5. **Ask first** before you change on-disk formats (pfile structs, world file syntax, data-file formats),
    delete files, change gameplay balance numbers, or add dependencies/tooling.
-6. **Never** delete or overwrite `lib/players/*`, `lib/etc/plrmail`, `lib/plrobjs/*` or `lib/house/*`
+6. **Never** delete or overwrite `lib/accounts/*`, `lib/etc/plrmail`, `lib/plrobjs/*` or `lib/house/*`
    unless explicitly asked.
 7. **Git:** work on a branch (`fix/…`, `feature/…`, `docs/…`). Commit messages use
    `type(scope): imperative summary` (types: `feat`, `fix`, `refactor`, `docs`, `chore`; scope = module,

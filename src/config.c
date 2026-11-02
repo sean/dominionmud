@@ -206,13 +206,12 @@ int nameserver_is_slow = NO;
 char *MENU =
 "[H[J"
 "\r\nWelcome to The Dominion!\r\n"
-"0) Exit from The Dominion.\r\n"
+"0) Return to your account.\r\n"
 "1) Enter The Dominion.\r\n"
 "2) Enter your description.\r\n"
 "3) Read the background story.\r\n"
-"4) Change your password.\r\n"
-"5) Delete your character.\r\n"
-"6) See who is currently in The Dominion.\r\n"
+"4) Delete this character.\r\n"
+"5) See who is currently in The Dominion.\r\n"
 "\r\n"
 "   Make your choice: ";
 
@@ -223,13 +222,12 @@ char *ANSI_MENU =
 "       ()                                )\r\n"
 "        |  Welcome to The Dominion       |\r\n"
 "        |                                |\r\n"
-"        |  [1m[33m0[35m) Leave The Dominion.[36m        |\r\n"
+"        |  [1m[33m0[35m) Return to your account.[36m    |\r\n"
 "        |  [1m[33m1[35m) Enter The Dominion.[36m        |\r\n"
 "        |  [1m[33m2[35m) Change your description.[36m   |\r\n"
 "        |  [1m[33m3[35m) Read the background story.[36m |\r\n"
-"        |  [1m[33m4[35m) Change your password.[36m      |\r\n"
-"        |  [1m[33m5[35m) Delete your character.[36m     |\r\n"
-"        |  [1m[33m6[35m) Those in The Dominion.[36m     |\r\n"
+"        |  [1m[33m4[35m) Delete this character.[36m     |\r\n"
+"        |  [1m[33m5[35m) Those in The Dominion.[36m     |\r\n"
 "        |                               /;\r\n"
 "         \\  /^\\/^\\/'\\  /\\/^\\/^\\/ \\/^\\ /^\r\n"
 "          ;/          \\;            ;/\r\n"
@@ -271,7 +269,9 @@ char *SECGREETING =
 "   _/    _/  _/    _/  _/    _/    _/  _/  _/    _/  _/  _/    _/  _/    _/  \r\n"
 "  _/_/_/      _/_/    _/    _/    _/  _/  _/    _/  _/    _/_/    _/    _/   \r\n"
 "\r\n"
-"By what name do you wish to be known? ";
+"You log in with your email address; to make a new account, just enter\r\n"
+"the address you'd like to use.\r\n"
+"\r\nEmail address: ";
 
 
 char *THIRGREETING =
@@ -303,7 +303,9 @@ char *THIRGREETING =
 "            ,//('(          |__>--<__|     /  Title Art by    .----_ \r\n"
 "           ( ( '))          |__>--<__|    |    -Tua Xiong   /' _---_~\\\r\n"
 "        `-)) )) (           |__>--<__|    |               /'  /     ~\\`\\\r\n"
-"By what name do you wish to be known? ";
+"You log in with your email address; to make a new account, just enter\r\n"
+"the address you'd like to use.\r\n"
+"\r\nEmail address: ";
 
 
 char *FORGREETING =
@@ -340,7 +342,9 @@ char *FORGREETING =
 "                                         ` :`.     .': '\r\n"
 "                                          `:  `\"\"\"'  :'\r\n"
 "\r\n"
-"By what name do you wish to be known? ";
+"You log in with your email address; to make a new account, just enter\r\n"
+"the address you'd like to use.\r\n"
+"\r\nEmail address: ";
 
 
 
@@ -380,7 +384,9 @@ char *ANSI_GREET =
 "[1m                                         [0;32m:`...........':[37m \r\n"
 "[1m                                         [0;32m`[1;37m [0;32m:`.[1;37m     [0;32m.': '[37m \r\n"
 "[1m                                          [0;32m`:[1;37m  [0;33m`[1;37m\"\"\"[0;33m'[1;37m  [0;32m:'[37m \r\n"
-"\r\n[31mBy what name do you wish to be known? [0m";
+"\r\n[0mYou log in with your email address; to make a new account, just enter\r\n"
+"the address you'd like to use.\r\n"
+"\r\n[31mEmail address: [0m";
 
 char *ANSI_NAME_POLICY =
 "\n\r[1m[36mNAME POLICY\n\r"

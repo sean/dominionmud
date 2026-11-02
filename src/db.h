@@ -80,7 +80,7 @@
 
 /* public procedures in db.c */
 void    boot_db(void);
-int     create_entry(char *name);
+int     create_entry(char *name, char *email);
 void    zone_update(void);
 long    real_room(long virt);
 char    *fread_string(FILE *fl, char *error);
@@ -186,7 +186,8 @@ struct reset_q_type {
 
 
 struct player_index_element {
-   char *name;
+   char *name;          /* lower case; "" for a deleted character's slot */
+   char *account;       /* email of the account that holds it            */
    long id;
 };
 

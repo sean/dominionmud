@@ -346,12 +346,16 @@ const char *connected_types[] = {
   "Changing PW 3",         /* 25 */
   "Self-Delete 1",
   "Self-Delete 2",
-  "Object Edit",
-  "Room Edit",
-  "Zone Edit",             /* 30 */
-  "Mobile Edit",
-  "Shop Edit",
-  "Guild Edit",
+  "OLC Editing",
+  "Get email",
+  "Account PW",            /* 30 */
+  "Confirm account",
+  "New account PW",
+  "Confirm acct PW",
+  "Account menu",
+  "Chg acct PW 1",         /* 35 */
+  "Chg acct PW 2",
+  "Chg acct PW 3",
   "\n"
 };
 

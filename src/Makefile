@@ -25,7 +25,7 @@ OBJFILES = comm.o act_comm.o act_info.o act_item.o act_move.o \
 	ban.o boards.o config.o constant.o creation.o db.o \
 	fight.o guild.o graph.o handler.o house.o interpre.o \
 	limits.o magic.o mail.o mobact.o mobcmd.o mobprog.o \
-	modify.o objsave.o olc.o password.o race.o random.o religion.o save.o pfile.o \
+	modify.o objsave.o olc.o password.o race.o random.o religion.o save.o pfile.o account.o \
 	shop.o spec_ass.o spec_pro.o spell_pa.o spells.o utils.o \
 	weather.o
 
@@ -77,13 +77,13 @@ split:
 ../bin/%: util/%.c Makefile
 	$(CC) $(CFLAGS) $(DEPFLAGS) -MF util/$*.d -MT $@ -o $@ $< $(LIBS)
 
-# mudpasswd also needs the password hashing code
-../bin/mudpasswd: util/mudpasswd.c password.o pfile.o Makefile
-	$(CC) $(CFLAGS) $(DEPFLAGS) -MF util/mudpasswd.d -MT $@ -o $@ util/mudpasswd.c password.o pfile.o $(LIBS)
+# mudpasswd also needs the password hashing and account code
+../bin/mudpasswd: util/mudpasswd.c password.o account.o pfile.o Makefile
+	$(CC) $(CFLAGS) $(DEPFLAGS) -MF util/mudpasswd.d -MT $@ -o $@ util/mudpasswd.c password.o account.o pfile.o $(LIBS)
 
-# these read the player files
-../bin/autowiz ../bin/purgeplay ../bin/showplay: ../bin/%: util/%.c pfile.o Makefile
-	$(CC) $(CFLAGS) $(DEPFLAGS) -MF util/$*.d -MT $@ -o $@ $< pfile.o $(LIBS)
+# these read the account files
+../bin/autowiz ../bin/purgeplay ../bin/showplay: ../bin/%: util/%.c account.o pfile.o Makefile
+	$(CC) $(CFLAGS) $(DEPFLAGS) -MF util/$*.d -MT $@ -o $@ $< account.o pfile.o $(LIBS)
 
 ../bin/dominion : $(OBJFILES)
 	$(CC) -o ../bin/dominion $(PROFILE) $(OBJFILES) $(LIBS)

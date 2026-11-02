@@ -430,14 +430,16 @@
 #define CON_DELCNF2      27             /* Delete confirmation 2        */
 #define CON_EDITTING     28             /* OLC Major Mode               */
 
-// deprecated
-//  #define CON_OEDIT        29             /*. OLC mode - object edit     .*/ 
-//  #define CON_REDIT        30             /*. OLC mode - room edit       .*/ 
-//  #define CON_ZEDIT        31             /*. OLC mode - zone info edit  .*/ 
-//  #define CON_MEDIT        32             /*. OLC mode - mobile edit     .*/ 
-//  #define CON_SEDIT        33             /*. OLC mode - shop edit       .*/ 
-//  #define CON_GEDIT        34             /*. OLC mode - guild edit      .*/ 
-//  #define CON_PICO         35             /*. Using the Editor .*/
+/* accounts (account.h): log in with an email address, then pick a character */
+#define CON_ACCT_EMAIL     29           /* Email address:               */
+#define CON_ACCT_PASSWORD  30           /* Account password:            */
+#define CON_ACCT_NEW_CNFRM 31           /* Create an account (Y/N)?     */
+#define CON_ACCT_NEWPW     32           /* Choose an account password   */
+#define CON_ACCT_CNFPW     33           /* Retype it                    */
+#define CON_ACCT_MENU      34           /* Account menu: pick a char    */
+#define CON_ACCT_CHPW_OLD  35           /* Changing account pw: old     */
+#define CON_ACCT_CHPW_NEW  36           /* Changing account pw: new     */
+#define CON_ACCT_CHPW_VRFY 37           /* Changing account pw: retype  */
 
 #define OLC_DEFAULT       0
 #define OLC_ZONE_EDIT     1
@@ -1668,6 +1670,9 @@ struct descriptor_data {
    bool   ansi;                  /* whether or not plr has ANSI term    */
    /* OLC stuff below */
    struct olc_data *olc;         /* OLC info - defined in creation.h    */
+   /* accounts (account.h) */
+   struct account_data *account; /* logged-in account, or NULL          */
+   char pending_pwd[PWD_HASH_LENGTH+1]; /* new password awaiting retype */
 };
 
 

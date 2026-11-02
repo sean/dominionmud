@@ -18,6 +18,7 @@
 #include "sysdep.h"
 
 #include "protos.h"
+#include "account.h"
 #include "password.h"
 
 /*   external vars  */
@@ -2847,9 +2848,9 @@ ACMD(do_set)
       return;
     GET_IDNUM(vict) = value;
     break;
-  case 47:
-    if (!is_file)
-      return;
+  case 47: {    /* the password of the character's account */
+    struct account_data *acct;
+
     if (GET_IDNUM(ch) > 1) {
       send_to_char("Please don't use this command, yet.\r\n", ch);
       return;
@@ -2858,13 +2859,23 @@ ACMD(do_set)
       send_to_char("You cannot change that.\r\n", ch);
       return;
     }
+    if (!vict->char_specials.email ||
+	!(acct = account_load(vict->char_specials.email))) {
+      send_to_char("That character doesn't belong to an account.\r\n", ch);
+      return;
+    }
     if (strlen(val_arg) < 3 || strlen(val_arg) > MAX_PWD_LENGTH ||
-        password_hash(val_arg, tmp_store.pwd, sizeof(tmp_store.pwd))) {
+        password_hash(val_arg, acct->pwd, sizeof(acct->pwd)) ||
+	account_save(acct) < 0) {
+      free(acct);
       send_to_char("Illegal password.\r\n", ch);
       return;
     }
-    sprintf(buf, "Password changed to '%s'.", val_arg);
+    /* don't echo the password itself */
+    sprintf(buf, "Password changed for account %s.", acct->email);
+    free(acct);
     break;
+  }
   case 48:
     SET_OR_REMOVE(PLR_FLAGS(vict), PLR_NODELETE);
     break;

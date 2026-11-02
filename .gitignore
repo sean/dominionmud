@@ -21,4 +21,4 @@ bin/split
 lib/etc/mudtime
 lib/etc/players
 lib/etc/plrmail
-lib/players/
+lib/accounts/

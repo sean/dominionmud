@@ -6,84 +6,17 @@
 *   |_| |_| |_|\___| |____/ \___/|_| |_| |_|_|_| |_|_|\___/|_| |_|        *
 *                                                                         *
 *  File:  PFILE.C                                                         *
-*  Usage: Plain-text player files, one per character (see pfile.h)        *
+*  Usage: Plain-text character records (see pfile.h)                     *
 \*********************************************************************** */
 
 #include "conf.h"
 #include "sysdep.h"
 
-#include <sys/stat.h>
-#include <dirent.h>
-#include <errno.h>
 
 #include "structs.h"
 #include "pfile.h"
 
 #define LINE_SIZE  (4 * EXDSCR_LENGTH + 256)
-
-/* ------------------------------------------------------------------ */
-/* paths                                                               */
-
-int pfile_path(char *buf, size_t size, const char *dir, const char *name)
-{
-  char lower[MAX_NAME_LENGTH + 1];
-  size_t i, len = strlen(name);
-
-  if (len < 1 || len > MAX_NAME_LENGTH)
-    return -1;
-  for (i = 0; i < len; i++) {
-    if (!isalpha((unsigned char) name[i]))
-      return -1;
-    lower[i] = tolower((unsigned char) name[i]);
-  }
-  lower[len] = '\0';
-  if ((size_t) snprintf(buf, size, "%s/%c/%s", dir, lower[0], lower) >= size)
-    return -1;
-  return 0;
-}
-
-
-int pfile_make_dirs(const char *dir)
-{
-  char path[256];
-  int c;
-
-  if (mkdir(dir, 0755) < 0 && errno != EEXIST)
-    return -1;
-  for (c = 'a'; c <= 'z'; c++) {
-    snprintf(path, sizeof(path), "%s/%c", dir, c);
-    if (mkdir(path, 0755) < 0 && errno != EEXIST)
-      return -1;
-  }
-  return 0;
-}
-
-int pfile_foreach(const char *dir,
-		  int (*fn)(const char *path, struct char_file_u *st, void *arg),
-		  void *arg)
-{
-  static struct char_file_u st;
-  struct dirent *de;
-  char sub[256], path[512];
-  DIR *dp;
-  int c, rc = 0;
-
-  for (c = 'a'; c <= 'z' && !rc; c++) {
-    snprintf(sub, sizeof(sub), "%s/%c", dir, c);
-    if (!(dp = opendir(sub)))
-      continue;
-    while (!rc && (de = readdir(dp))) {
-      if (*de->d_name == '.' || strchr(de->d_name, '.'))
-	continue;                       /* ".", "..", and "<name>.new" */
-      if ((size_t) snprintf(path, sizeof(path), "%s/%s", sub, de->d_name)
-	  >= sizeof(path))
-	continue;
-      rc = fn(path, pfile_read(path, &st, NULL) < 0 ? NULL : &st, arg);
-    }
-    closedir(dp);
-  }
-  return rc;
-}
 
 /* ------------------------------------------------------------------ */
 /* writing                                                             */
@@ -130,25 +63,18 @@ static void put_affects(FILE *fp, const char *key, const struct affected_type *a
 	      af[i].modifier, af[i].location, (long long) af[i].bitvector);
 }
 
-int pfile_write(const char *path, const struct char_file_u *st)
+int pfile_write_record(FILE *fp, const struct char_file_u *st)
 {
   const struct char_special_data_saved *cs = &st->char_specials_saved;
   const struct player_special_data_saved *ps = &st->player_specials_saved;
   const struct char_ability_data *ab = &st->abilities;
   const struct char_point_data *pt = &st->points;
-  char tmp[512];
-  FILE *fp;
-  int i, ok;
+  int i;
 
-  if ((size_t) snprintf(tmp, sizeof(tmp), "%s.new", path) >= sizeof(tmp))
-    return -1;
-  if (!(fp = fopen(tmp, "w")))
-    return -1;
-
-  put_num(fp, "Version", PFILE_VERSION);
+  put_num(fp, "Character", PFILE_VERSION);
+  /* no Email or Password: the account file holds them for all its characters */
   put_str(fp, "Name", st->name);
   put_num(fp, "Id", cs->idnum);
-  put_str(fp, "Password", st->pwd);
   put_num(fp, "Level", st->level);
   put_num(fp, "Sex", st->sex);
   put_num(fp, "Race", st->race);
@@ -161,7 +87,6 @@ int pfile_write(const char *path, const struct char_file_u *st)
   put_num(fp, "LastLogon", (long long) st->last_logon);
   put_str(fp, "Host", st->host);
   put_str(fp, "Username", st->username);
-  put_str(fp, "Email", st->email);
 
   put_str(fp, "Title", st->title);
   put_str(fp, "Description", st->description);
@@ -228,14 +153,7 @@ int pfile_write(const char *path, const struct char_file_u *st)
   put_affects(fp, "Affect2", st->affected2);
   fputs("End\n", fp);
 
-  ok = !ferror(fp);
-  if (fclose(fp) != 0)
-    ok = 0;
-  if (!ok || rename(tmp, path) != 0) {
-    remove(tmp);
-    return -1;
-  }
-  return 0;
+  return ferror(fp) ? -1 : 0;
 }
 
 /* ------------------------------------------------------------------ */
@@ -305,7 +223,7 @@ static void get_affect(const char *val, struct affected_type *af)
     }
 }
 
-int pfile_read(const char *path, struct char_file_u *st, int *unknown)
+int pfile_read_record(FILE *fp, struct char_file_u *st, int *unknown)
 {
   struct char_special_data_saved *cs = &st->char_specials_saved;
   struct player_special_data_saved *ps = &st->player_specials_saved;
@@ -315,14 +233,10 @@ int pfile_read(const char *path, struct char_file_u *st, int *unknown)
   char *key, *val, *p;
   long long v[8];
   long long n;
-  FILE *fp;
-  int got_version = 0;
 
   memset(st, 0, sizeof(*st));
   if (unknown)
     *unknown = 0;
-  if (!(fp = fopen(path, "r")))
-    return -1;
 
   while (fgets(line, sizeof(line), fp)) {
     if ((p = strchr(line, '\n')))
@@ -338,8 +252,7 @@ int pfile_read(const char *path, struct char_file_u *st, int *unknown)
 
 #define IS(k) (!strcmp(key, (k)))
 #define STR(field) get_str((field), sizeof(field), val)
-    if (IS("Version"))		got_version = 1;
-    else if (IS("End"))		break;
+    if (IS("End"))		return 0;
     else if (IS("Name"))	STR(st->name);
     else if (IS("Id"))		cs->idnum = (long) n;
     else if (IS("Password"))	STR(st->pwd);
@@ -429,6 +342,5 @@ int pfile_read(const char *path, struct char_file_u *st, int *unknown)
 #undef IS
 #undef STR
   }
-  fclose(fp);
-  return got_version ? 0 : -1;
+  return -1;                            /* the file ended inside the record */
 }
