@@ -17,8 +17,10 @@ sign~
 S
 #4001
 The Hills~
-   You are on a small path leading north, dark threatening hills
-surround you on almost all sides.
+   You are on a small path leading north, with dark, threatening hills
+surrounding you on almost all sides.  The grass is coarse and brown, and
+the wind moans softly through the hollows.  The path also leads back
+south.
 ~
 40 c 4
 D0
@@ -69,7 +71,7 @@ S
 #4010
 Entrance to the Mines of Moria~
    Upon entering the dark mine you hear the dirty sound of creatures
-scuurying in the mud ahead.  The light to the south seems far away, but
+scurrying in the mud ahead.  The light to the south seems far away, but
 a quick run will still allow you to escape before you discover the mine's
 inhabitants...or they discover you.
 ~
@@ -108,7 +110,7 @@ step westward;  soon your arms are scraping on both
 walls.  Just as you start to feel the pass become
 too narrow to continue, a large gap in the wall opens
 to the north.  The natural doorway seems to lead to
-a foul smelling cave from which an eerie glow eminates.
+a foul smelling cave from which an eerie glow emanates.
 ~
 40 ad 3
 D0
@@ -177,7 +179,7 @@ D0
 S
 #4016
 The Large Cave~
-   You stand in the center of a lofty cavern which steches from east
+   You stand in the center of a lofty cavern which stretches from east
 to west.  The walls seem to be etched, but the exact 
 details of the work are lost in the years of dust and moss.
 To the south, a small hole opens to a narrow tunnel.
@@ -201,7 +203,7 @@ The Large Cave~
    The natural course of the cave comes to an abrupt end to the east.
 A large wall has been built across the span of the tunnel, with no
 door or hinge to be seen.  As you press your ear against the 
-barrier, you can hear a soft wimper coming from behind.  For some,
+barrier, you can hear a soft whimper coming from behind.  For some,
 you realise, there will never be escape or light.
 ~
 40 ad 2
@@ -214,7 +216,7 @@ S
 Main Tunnel~
    As you move deeper into the ancient mines you begin to imagine
 what they must have looked like in the days when dwarves still 
-lived and worked here.  Wise men tell that when the the world 
+lived and worked here.  Wise men tell that when the world 
 was young and untouched by evil, the Thurgar dwarrows dug wide 
 and deep, carving grand halls and finding the rock and ore which
 would be the foundation for Phalar.  However, some great strife
@@ -257,7 +259,9 @@ D2
 S
 #4020
 The Hole~
-   You are by a hole in the floor, you can leave down, or north.
+   You are standing beside a hole in the floor of the tunnel, its edges
+worn smooth by the passage of many bodies.  A cold draft rises from
+below.  You can climb down, or leave to the north.
 ~
 40 acd 3
 D0
@@ -315,7 +319,7 @@ S
 The Large Cave~
    You meander along a large cavern whose western end tapers
 into a narrow passageway.  You can feel the bite of air on
-your face, but where it eminates from is hidden in the 
+your face, but where it emanates from is hidden in the 
 blackness of the mines.
 ~
 40 ad 2
@@ -348,7 +352,7 @@ D3
 S
 #4025
 End of the Main Tunnel~
-   The wide main tunnel ends here into a large cave.  Stalagtites
+   The wide main tunnel ends here into a large cave.  Stalactites
 crawl down from the ceiling, glistening with moisture.  As you glance
 around the cave you see that this cave must have been used for storage
 in the days when these mines were actually mined, not used to house
@@ -417,8 +421,9 @@ D3
 S
 #4028
 The Smelly Tunnel~
-   You are in a north-south leading tunnel, you see a small light
-to the north.  You notice a strange smell from the north..
+   You are in a tunnel leading north and south.  You see a small light
+to the north, and you notice a strange smell coming from that direction
+as well: smoke, sweat and something like rotting meat.
 ~
 40 ad 3
 D0
@@ -492,7 +497,8 @@ S
 #4032
 The Foothills~
    You are on a winding path that leads through the foothills on the
-other side of the mountain.  The path continues north.
+other side of the mountain.  Rocky slopes rise on either side, dotted
+with scrubby bushes.  The path continues north and south.
 ~
 40 0 2
 D0
@@ -542,8 +548,9 @@ D3
 S
 #4035
 At The Foothills' End~
-   At this point you are leaving the foothills.  You see a large
-area of plains to the north of here.
+   At this point you are leaving the foothills.  You see a large area of
+plains stretching away to the north, and to the east an ancient path
+leads into a dense forest.  The foothills lie back to the south.
 ~
 40 0 2
 D0
@@ -593,7 +600,9 @@ D3
 S
 #4038
 The Base Of The Mountain~
-   Exits are east and west.
+   You stand at the base of the mountain, where its steep, rocky flanks
+rise abruptly from the ground.  A road of smooth black glass runs past
+here from east to west, gleaming darkly in the light.
 ~
 40 0 2
 D1
@@ -608,7 +617,7 @@ S
 #4039
 The black glass road~
    A black glass road leads off through the hills east and west.  To the
-northeast you spy a dark city with evil eminating from it.
+northeast you spy a dark city with evil emanating from it.
 ~
 40 0 2
 D1
@@ -638,7 +647,10 @@ D3
 S
 #4041
 The Lion's Den~
-   The only exit is south.
+   This is the lion's den, a hollow beneath an overhanging rock, its
+floor strewn with gnawed bones and matted fur.  The smell of the great
+cat is overpowering.  The only exit is south, back to the black glass
+road.
 ~
 40 d 2
 D2
@@ -648,7 +660,9 @@ D2
 S
 #4042
 The Level Foothills~
-   Exits are east and west.
+   The foothills level out here into a stretch of rough grass and
+scattered boulders.  The ground is trampled flat in places by something
+very large.  Exits are east and west.
 ~
 40 0 2
 D1
@@ -662,7 +676,10 @@ D3
 S
 #4043
 The Cave Entrance~
-   Exits are east and west.
+   You stand before the mouth of a large cave set into the hillside to
+the west.  Enormous footprints lead in and out of it, and the stench of
+unwashed bodies drifts out on the air.  The level foothills lie to the
+east.
 ~
 40 d 2
 D1
@@ -676,7 +693,9 @@ D3
 S
 #4044
 The Hill Giant Cave~
-   The only exit is to the east.
+   This huge, smoky cave is the home of hill giants.  Piles of filthy
+furs serve as beds, and the remains of many meals lie scattered across
+the floor.  The only exit is to the east.
 ~
 40 ad 2
 D1
@@ -705,7 +724,8 @@ S
 #4046
 Between The Mountains~
    The trail between the mountains seems almost endless as you continue
-to trek along it.  It continues to both the east and west.
+to trek along it, with sheer slopes rising on either side.  It continues
+to both the east and west.
 ~
 40 c 5
 D1
@@ -770,8 +790,8 @@ D3
 S
 #4050
 The Tunnel~
-   You are in a tunnel, which turns here.  The tunnel continues to the
-east and the south.
+   You are in a tunnel, which turns here.  The walls are rough and damp,
+and the tunnel continues to the east and the south.
 ~
 40 ad 3
 D1
@@ -785,8 +805,8 @@ D2
 S
 #4051
 The Tunnel~
-   You are in an east-west leading tunnel.  The tunnel is very narrow
-here.
+   You are in an east-west tunnel.  The tunnel is very narrow here, and
+you must turn sideways to squeeze between the rock walls.
 ~
 40 ad 3
 D1
@@ -800,7 +820,8 @@ D3
 S
 #4052
 The Tunnel~
-   You are in an east-west leading tunnel.
+   You are at the end of an east-west tunnel.  The rock closes in ahead
+of you, and the only way out is back to the west.
 ~
 40 ad 3
 D3
@@ -810,7 +831,8 @@ D3
 S
 #4053
 The Tunnel~
-   You are at a turn, the tunnel continues north and east.
+   You are at a turn, where the tunnel continues north and east.  A
+faint, flickering light comes from the east.
 ~
 40 ad 3
 D0
@@ -843,8 +865,8 @@ D3
 S
 #4055
 The Maze~
-   You are in a maze of small damp tunnels.  The only exit is west to a 
-light cave.
+   You are in a maze of small, damp tunnels.  The only exit is west, to
+a light cave.
 ~
 40 ad 3
 D3
@@ -854,8 +876,9 @@ D3
 S
 #4056
 The Light Cave~
-   You are in a light cave, a large fire in front of you lights the room.
-The cave continues to the north and south.
+   You are in a light cave, lit by a large fire burning in front of you.
+Its warm glow dances across the rough walls, and smoke curls up to a
+crack in the ceiling.  The cave continues to the north and south.
 ~
 40 d 2
 D0
@@ -873,8 +896,8 @@ Well, errh - It looks somehow quite warm..!
 S
 #4057
 The Maze~
-   You are in a maze of small damp tunnels.  Exits leads both north
-and south.
+   You are in a maze of small, damp tunnels.  Exits lead both north and
+south.
 ~
 40 ad 3
 D0
@@ -888,7 +911,7 @@ D2
 S
 #4058
 The Maze~
-   You are in a maze of small damp tunnels.  Exits leads west and south.
+   You are in a maze of small, damp tunnels.  Exits lead west and south.
 ~
 40 ad 3
 D2
@@ -912,7 +935,7 @@ Instinct forces you to seek cover; at any moment you anticipate the
 dull crunch of stone crushing your skull.
      Just as you duck under a large steel girder which spans the roof,
 the clamour ends as quickly as it began.  Looking out, you realize
-that you are now in a completely different section of the mines.  the
+that you are now in a completely different section of the mines. The
 walls are older but more deftly crafted than the section you were just
 in; the roof is lofty and smooth.  You lost all sense of direction in
 the earlier chaos, but as it turns out, that does not matter.    
@@ -945,8 +968,8 @@ D3
 S
 #4061
 The Light Cave~
-   You are in the south end of a light cave, tunnels leads of to the
-south and west.
+   You are in the south end of a light cave.  Tunnels lead off to the
+south and west, and the cave continues to the north.
 ~
 40 d 2
 D0
@@ -964,7 +987,7 @@ D3
 S
 #4062
 The Maze~
-   You are in a maze of small damp tunnels.  Exits leads east and west.
+   You are in a maze of small, damp tunnels.  Exits lead east and west.
 ~
 40 ad 3
 D1
@@ -978,7 +1001,7 @@ D3
 S
 #4063
 The Maze~
-   You are in a maze of small damp tunnels.  Exits leads north and east.
+   You are in a maze of small, damp tunnels.  Exits lead north and east.
 ~
 40 ad 3
 D0
@@ -992,8 +1015,8 @@ D1
 S
 #4064
 The Tunnel~
-   You are in a tunnel, only exit is west - Only exit, well there is 
-also a hole in the ceiling.
+   You are in a tunnel whose only exit is west.  Well, the only exit
+except for a hole in the ceiling above you.
 ~
 40 ad 3
 D3
@@ -1007,8 +1030,8 @@ D4
 S
 #4065
 The Maze~
-   You are in a maze of small damp tunnels.  The tunnel continues east.
-To the north there is a light cave.
+   You are in a maze of small, damp tunnels.  The tunnel continues east,
+and to the north there is a light cave.
 ~
 40 ad 3
 D0
@@ -1022,8 +1045,8 @@ D1
 S
 #4066
 The Maze~
-   You are in a maze of small damp tunnels.  Exits leads east and
-north.  To the south is a large cave.
+   You are in a maze of small, damp tunnels.  Exits lead east and north,
+and to the south the tunnel opens into a large cave.
 ~
 40 ad 3
 D0
@@ -1041,8 +1064,7 @@ D2
 S
 #4067
 The Maze~
-   You are in a maze of small damp tunnels.  Exits leads west and
-north.
+   You are in a maze of small, damp tunnels.  Exits lead west and north.
 ~
 40 ad 3
 D0
@@ -1056,7 +1078,9 @@ D3
 S
 #4068
 The Large Cave~
-   You are in the northwest end of a large cave.
+   You are in the northwest end of a large cave.  The ceiling is lost in
+darkness overhead, and water drips steadily from somewhere above.  The
+cave continues to the east and south.
 ~
 40 ad 2
 D1
@@ -1070,8 +1094,8 @@ D2
 S
 #4069
 The Large Cave~
-   You are in the northeast end of a large cave.  To the north the
-is a small damp tunnel.
+   You are in the northeast end of a large cave.  To the north there is
+a small, damp tunnel, and the cave continues to the south and west.
 ~
 40 ad 2
 D0
@@ -1089,7 +1113,9 @@ D3
 S
 #4070
 The Large Cave~
-   You are in the southwest end of a large cave.
+   You are in the southwest end of a large cave.  The floor here is
+uneven and strewn with loose stones.  The cave continues to the north
+and east.
 ~
 40 ad 2
 D0
@@ -1103,8 +1129,8 @@ D1
 S
 #4071
 The Large Cave~
-   You are in the southeast end of a large cave.  To the east you
-notice a small tunnel.
+   You are in the southeast end of a large cave.  To the east you notice
+a small tunnel, and the cave continues to the north and west.
 ~
 40 ad 2
 D0
@@ -1142,8 +1168,8 @@ D3
 S
 #4073
 The End Of The Tunnel~
-   The tunnel stops here.  There is no other exits than the one you
-came from.
+   The tunnel stops here against a wall of solid rock.  There is no
+other exit than the one you came from, back to the west.
 ~
 40 ad 3
 D3

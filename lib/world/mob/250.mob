@@ -146,7 +146,7 @@ dfg 0 0 S
 8 8 1
 #25011
 stormgiant bodyguard~
-a stormgiant bodguard~
+a stormgiant bodyguard~
 The Bodyguard stands here, guarding his Lord.
 ~
 The Bodyguard looks especially mean and nasty when rubbed
@@ -341,7 +341,7 @@ A Cloud Scavenger systematically hunts the clouds for corpses.
 ~
 The Cloud Scavenger blends into the clouds, slowly moving from
 cloud to cloud looking for corpses to feed on.  You have a feeling
-they stay well fed thanks to the Guardions.
+they stay well fed thanks to the Guardians.
 ~
 cdgh dep 0 S
 10 18 81 1d2+10 1d2+10

@@ -1,10 +1,10 @@
 #5300
 Outside the Western Gates of Mytherandil~
-   You exit the city of Mytherandil and begin walking down a well-trodden
-path leading towards what appears to be an arena of some sort.  There are
-many battles going on, each seperated from the rest.  There are several
-spectators lined up to see the bloodshed all screaming at the top of
-their lungs.
+   You leave the city of Mytherandil behind and walk down a well-trodden
+path toward what appears to be an arena of some sort.  Even from here
+you can see many battles under way, each fenced off from the rest, and
+the screams of spectators carry on the wind.  The western gates of the
+city lie to the east, and the road continues west.
 ~
 53 c 0
 D1
@@ -18,10 +18,12 @@ D3
 S
 #5301
 Road to the Arena~
-   As you come closer to the arena, you see that it is much bigger than you
-first thought.  A wall seperates one side of the battlefield from the other.
-On the further side of the battlefield are a set of stands with many more
-screaming spectators.
+   As you draw closer to the arena, you see that it is far bigger than
+you first thought.  A great wall divides the battlefield in two, and on
+the far side rise wooden stands packed with screaming spectators.
+Pennants flutter above them, and the dust of the fighting hangs over
+everything like a haze.  The road leads east toward the city and west to
+Arena Road.
 ~
 53 c 0
 D1
@@ -35,13 +37,14 @@ D3
 S
 #5302
 Southeast Corner of Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield and you can see entrances to
-the arena on the south and east sides.  The entrance to the south is a large
-gate through which the fighters are entering.  The entrance to the east seems
-to go up a ramp onto the wall in the center of the battlefield.  Atop the
-wall are several archers.  Probably posted to make sure that there is no
-foul play.  On the western side you can see the stands containing the fans.
+   You stand on the cobblestone path known as Arena Road at a corner of
+the battlefield.  From here you can see two entrances to the arena: to
+the south, a large gate through which the fighters come and go, and to
+the east, a ramp leading up onto the great wall that divides the
+battlefield, where archers keep watch to make sure there is no foul
+play.  Crowds of excited fans throng the corner.  The road continues
+north and west around the arena, a dirt road leads south away from it,
+and the road to Mytherandil lies east.
 ~
 53 0 0
 D0
@@ -63,11 +66,12 @@ D3
 S
 #5303
 East Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Vendors hawk roasted nuts and watered wine to the
+passing crowds.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -81,10 +85,11 @@ D2
 S
 #5304
 A Dirt Road~
-   You walk down a dirt road that seems to take you away from The Arena.
-Far away you see what appears to be a desert.  And if it is a desert, it
-must be the Desert of Demise.  One of the most feared places in all of The
-Dominion.
+   You walk down a dirt road that leads away from the arena, the roar of
+the crowds fading behind you.  Far off to the south the land turns pale
+and shimmering, and if that is a desert, it must be the Desert of
+Demise, one of the most feared places in all the Dominion.  The road
+continues south, and Arena Road lies to the north.
 ~
 53 c 0
 D0
@@ -98,11 +103,12 @@ D2
 S
 #5305
 South Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  The roar of the spectators rises and falls like surf
+with every blow struck inside.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -116,11 +122,12 @@ D3
 S
 #5306
 East Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Splashes of dried blood stain the cobbles here, where
+some fighter was carried out.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -134,11 +141,12 @@ D2
 S
 #5307
 South Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Betting slips litter the gutter, torn up by
+disappointed gamblers.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -152,10 +160,10 @@ D3
 S
 #5308
 East Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  Here the gates separate
-and a ramp leads up the wall.  Atop the wall are several archers.  Probably
-posted to make sure that there is no foul play.
+   You stand on the cobblestone path known as Arena Road.  Here the
+fence of steel poles parts, and a ramp leads up onto the great dividing
+wall to the west, where several archers stand watch to make sure there
+is no foul play.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -173,10 +181,11 @@ D3
 S
 #5309
 Southern Gate to The Arena~
-   You stand on a cobblestone path most commonly known as Arena Road.  You
-are now standing at the Southern Gate of The Arena.  You can sign up here
-to enter The Arena.  Fighters brush by you rudely seemingly in a rush to
-enter The Arena.
+   You stand at the Southern Gate of the Arena, a broad archway of iron
+and timber through which the battlefield lies to the north.  Here you
+can sign up to enter the Arena.  Fighters brush rudely past you, eager
+to be inside, and the clamor of the crowd is deafening.  Arena Road runs
+east and west.
 ~
 53 c 0
 D0
@@ -194,11 +203,12 @@ D3
 S
 #5310
 East Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  A battered helmet has been hung on the fence as a
+warning, or perhaps a trophy.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -212,11 +222,12 @@ D2
 S
 #5311
 South Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  The clang of steel and the cries of the wounded carry
+clearly through the fence.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -230,11 +241,12 @@ D3
 S
 #5312
 East Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Banners of many colors snap in the wind atop the
+arena's poles.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -248,11 +260,12 @@ D2
 S
 #5313
 South Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Sand blown in from the desert gathers in drifts against
+the base of the fence.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -266,13 +279,13 @@ D3
 S
 #5314
 Northeast Corner of Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield and you can see entrances to
-the arena on the north and east sides.  The entrance to the north is a large
-gate through which the fighters are entering.  The entrance to the east seems
-to go up a ramp onto the wall in the center of the battlefield.  Atop the
-wall are several archers.  Probably posted to make sure that there is no
-foul play.  On the western side you can see the stands containing the fans.
+   You stand on the cobblestone path known as Arena Road at a corner of
+the battlefield.  From here you can see two entrances to the arena: to
+the north, a large gate through which the fighters come and go, and to
+the east, a ramp leading up onto the great wall that divides the
+battlefield, where archers keep watch to make sure there is no foul
+play.  Crowds of excited fans throng the corner.  The road continues
+south and west around the arena.
 ~
 53 0 0
 D2
@@ -286,13 +299,13 @@ D3
 S
 #5315
 Southwest Corner of Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield and you can see entrances to
-the arena on the south and west sides.  The entrance to the south is a large
-gate through which the fighters are entering.  The entrance to the west seems
-to go up a ramp onto the wall in the center of the battlefield.  Atop the
-wall are several archers.  Probably posted to make sure that there is no
-foul play.  On this side you can see the stands containing the fans.
+   You stand on the cobblestone path known as Arena Road at a corner of
+the battlefield.  From here you can see two entrances to the arena: to
+the south, a large gate through which the fighters come and go, and to
+the west, a ramp leading up onto the great wall that divides the
+battlefield, where archers keep watch to make sure there is no foul
+play.  Crowds of excited fans throng the corner.  The road continues
+north and east around the arena.
 ~
 53 0 0
 D0
@@ -306,11 +319,12 @@ D1
 S
 #5316
 North Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  A pair of urchins press their faces to the bars,
+cheering for their favorite fighter.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -324,11 +338,12 @@ D3
 S
 #5317
 West Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  The smell of sweat, blood and dust hangs heavy in the
+air.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -342,11 +357,12 @@ D2
 S
 #5318
 North Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Vendors hawk roasted nuts and watered wine to the
+passing crowds.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -360,11 +376,12 @@ D3
 S
 #5319
 West Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  The roar of the spectators rises and falls like surf
+with every blow struck inside.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -378,10 +395,11 @@ D2
 S
 #5320
 Northern Gate of The Arena~
-   You stand on a cobblestone path most commonly known as Arena Road.  You
-are now standing at the Northern Gate of The Arena.  You can sign up here
-to enter The Arena.  Fighters brush by you rudely seemingly in a rush to
-enter The Arena.
+   You stand at the Northern Gate of the Arena, a broad archway of iron
+and timber through which the battlefield lies to the south.  Here you
+can sign up to enter the Arena.  Fighters brush rudely past you, eager
+to be inside, and the clamor of the crowd is deafening.  Arena Road runs
+east and west.
 ~
 53 c 0
 D1
@@ -399,10 +417,11 @@ D3
 S
 #5321
 West Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  Here the gates separate
-and a ramp leads up the wall.  Atop the wall are several archers.  Probably
-posted to make sure that there is no foul play.
+   You stand on the cobblestone path known as Arena Road.  Here the
+fence parts, and a ramp leads up onto the great dividing wall to the
+east, where archers stand watch to prevent foul play.  To the west the
+shadowy space beneath the bleachers opens up, littered with trash.  The
+road continues north and south.
 ~
 53 0 0
 D0
@@ -424,11 +443,12 @@ D3
 S
 #5322
 North Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Splashes of dried blood stain the cobbles here, where
+some fighter was carried out.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -442,11 +462,12 @@ D3
 S
 #5323
 West Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  Betting slips litter the gutter, torn up by
+disappointed gamblers.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -460,11 +481,12 @@ D2
 S
 #5324
 North Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  A battered helmet has been hung on the fence as a
+warning, or perhaps a trophy.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -478,11 +500,12 @@ D3
 S
 #5325
 West Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield.  The battlefield is enclosed
-by giant steel poles welded together in a beautiful criss-cross pattern.
-You can peer into the arena and see the battles clearly, but you cannot
-get in without entering through a gate.
+   You stand on the cobblestone path known as Arena Road, which winds
+all the way around the battlefield.  A fence of giant steel poles,
+welded together in a handsome crisscross pattern, encloses the arena;
+you can see the battles clearly through it, but you cannot get in except
+through a gate.  The clang of steel and the cries of the wounded carry
+clearly through the fence.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -496,13 +519,13 @@ D2
 S
 #5326
 Northwest Corner of Arena Road~
-   You stand on a cobblestone path most commonly known as Arena Road.  It
-winds completely around the actual battlefield and you can see entrances to
-the arena on the north and west sides.  The entrance to the north is a large
-gate through which the fighters are entering.  The entrance to the west seems
-to go up a ramp onto the wall in the center of the battlefield.  Atop the
-wall are several archers.  Probably posted to make sure that there is no
-foul play.  On the this side you can see the stands containing the fans.
+   You stand on the cobblestone path known as Arena Road at a corner of
+the battlefield.  From here you can see two entrances to the arena: to
+the north, a large gate through which the fighters come and go, and to
+the west, a ramp leading up onto the great wall that divides the
+battlefield, where archers keep watch to make sure there is no foul
+play.  Crowds of excited fans throng the corner.  The road continues
+east and south around the arena.
 ~
 53 0 0
 D1
@@ -516,10 +539,11 @@ D2
 S
 #5327
 Atop the Arena Wall~
-   As you make your way up the ramp onto the wall you can now clearly see
-both sides of the battlefield.  From this view you can even see the city
-of Mytherandil off to the east.  Far off to the west and to the south
-expands a very large desert.
+   As you climb the ramp onto the wall, you can clearly see both sides
+of the battlefield spread out below.  From here you can even see the
+city of Mytherandil off to the east, and far to the west and south
+stretches a vast desert.  The wall continues east, and the ramp leads
+down to the west.
 ~
 53 0 0
 D1
@@ -533,9 +557,10 @@ D3
 S
 #5328
 Atop the Arena Wall~
-   The view from here is exquisite.  You can see the city of Mytherandil in
-all of its majesty.  Far off to the west and to the south expands a very
-large desert.
+   The view from here is exquisite.  You can see the city of Mytherandil
+in all its majesty to the east, its walls and towers gleaming, while far
+to the west and south a great desert stretches away.  Below you the
+fighters look like toy soldiers.  The wall continues east and west.
 ~
 53 0 0
 D1
@@ -549,11 +574,12 @@ D3
 S
 #5329
 Center of Arena Wall~
-   You stand at the highest point of the Arena Wall.  You can clearly see
-the entire battlefield as well as much of the land of The Dominion.  The
-city of Mytherandil seems small from this height.  The desert covering the
-land to the south and west stretches as far as you can see.  You can see
-what appears to be the glinting of water to the north.
+   You stand at the highest point of the Arena Wall, on a broad platform
+where the archers keep their watch.  You can see the whole battlefield,
+as well as much of the land of the Dominion; Mytherandil looks small
+from this height, the desert to the south and west stretches as far as
+you can see, and to the north something glints like water.  A trapdoor
+in the floor leads down, and the wall runs east and west.
 ~
 53 0 0
 D1
@@ -571,9 +597,10 @@ trapdoor~
 S
 #5330
 Atop the Arena Wall~
-   The view from here is exquisite.  You can see the city of Mytherandil in
-all of its majesty.  Far off to the west and to the south expands a very
-large desert.
+   The view from here is exquisite.  You can see the city of Mytherandil
+in all its majesty to the east, while far to the west and south a great
+desert stretches away beneath a shimmering haze.  Below you, the battles
+rage on both sides of the wall.  The wall continues east and west.
 ~
 53 0 0
 D1
@@ -587,10 +614,10 @@ D3
 S
 #5331
 Atop the Arena Wall~
-   As you make your way up the ramp onto the wall you can now clearly see
-both sides of the battlefield.  From this view you can even see the city
-of Mytherandil off to the east.  Far off to the west and to the south
-expands a very large desert.
+   From this end of the wall you can clearly see both sides of the
+battlefield.  The city of Mytherandil lies off to the east, and a vast
+desert stretches away to the west and south.  A ramp leads down to Arena
+Road to the east, and the wall continues west.
 ~
 53 0 0
 D1
@@ -604,9 +631,12 @@ D3
 S
 #5332
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+broken spear lies half-buried in the dirt.  The battlefield stretches
+north, east and west, and the Southern Gate lies south.
 ~
 53 0 0
 D0
@@ -628,9 +658,12 @@ D3
 S
 #5333
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Deep claw marks have torn up the turf here.  The battlefield stretches
+east, south and west.
 ~
 53 0 0
 D1
@@ -648,9 +681,12 @@ D3
 S
 #5334
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+dented shield, its crest hacked away, lies forgotten in the grass.  The
+battlefield stretches north, east and west.
 ~
 53 0 0
 D0
@@ -668,9 +704,12 @@ D3
 S
 #5335
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Scattered feathers and tufts of fur mark the scene of some recent
+struggle.  The battlefield stretches north and east.
 ~
 53 0 0
 D0
@@ -684,9 +723,12 @@ D1
 S
 #5336
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+The ground here is churned to mud by countless feet.  The battlefield
+stretches east, south and west.
 ~
 53 0 0
 D1
@@ -704,9 +746,12 @@ D3
 S
 #5337
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+few teeth, human and otherwise, glint in the trampled grass.  The
+battlefield stretches east and south.
 ~
 53 0 0
 D1
@@ -720,9 +765,12 @@ D2
 S
 #5338
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Bits of shattered armor crunch beneath your boots.  The battlefield
+stretches north, east and west.
 ~
 53 0 0
 D0
@@ -740,9 +788,12 @@ D3
 S
 #5339
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Flies buzz over a fresh dark patch in the earth.  The battlefield
+stretches north and west.
 ~
 53 0 0
 D0
@@ -756,9 +807,12 @@ D3
 S
 #5340
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+broken spear lies half-buried in the dirt.  The battlefield stretches
+east, south and west.
 ~
 53 0 0
 D1
@@ -776,9 +830,12 @@ D3
 S
 #5341
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Deep claw marks have torn up the turf here.  The battlefield stretches
+south and west.
 ~
 53 0 0
 D2
@@ -792,9 +849,12 @@ D3
 S
 #5342
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+dented shield, its crest hacked away, lies forgotten in the grass.  The
+battlefield stretches north, east, south and west.
 ~
 53 0 0
 D0
@@ -816,9 +876,12 @@ D3
 S
 #5343
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Scattered feathers and tufts of fur mark the scene of some recent
+struggle.  The battlefield stretches north, east and west.
 ~
 53 0 0
 D0
@@ -836,9 +899,12 @@ D3
 S
 #5344
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+The ground here is churned to mud by countless feet.  The battlefield
+stretches east, south and west.
 ~
 53 0 0
 D1
@@ -856,9 +922,12 @@ D3
 S
 #5345
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+few teeth, human and otherwise, glint in the trampled grass.  The
+battlefield stretches east and south.
 ~
 53 0 0
 D1
@@ -872,9 +941,12 @@ D2
 S
 #5346
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Bits of shattered armor crunch beneath your boots.  The battlefield
+stretches north, east and west.
 ~
 53 0 0
 D0
@@ -892,9 +964,12 @@ D3
 S
 #5347
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Flies buzz over a fresh dark patch in the earth.  The battlefield
+stretches north and east.
 ~
 53 0 0
 D0
@@ -908,9 +983,12 @@ D1
 S
 #5348
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+broken spear lies half-buried in the dirt.  The battlefield stretches
+east, south and west.
 ~
 53 0 0
 D1
@@ -928,9 +1006,12 @@ D3
 S
 #5349
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Deep claw marks have torn up the turf here.  The battlefield stretches
+south and west.
 ~
 53 0 0
 D2
@@ -944,9 +1025,12 @@ D3
 S
 #5350
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.  A
+dented shield, its crest hacked away, lies forgotten in the grass.  The
+battlefield stretches north, east and west.
 ~
 53 0 0
 D0
@@ -964,9 +1048,12 @@ D3
 S
 #5351
 A Battlefield~
-   You are standing in a large field.  The grass here has been crushed flat
-by the boots of the warriors and creatures which have fought here.  There
-is a dark red stain to the dirt beneath the grass.
+   You are standing on the great field of the Arena.  The grass has been
+crushed flat by the boots of the warriors and the claws of the creatures
+that have fought here, and the earth beneath it is stained a dark, rusty
+red.  The roar of the crowd beats down from the stands on every side.
+Scattered feathers and tufts of fur mark the scene of some recent
+struggle.  The battlefield stretches north and west.
 ~
 53 0 0
 D0
@@ -980,9 +1067,11 @@ D3
 S
 #5352
 Room Inside Arena Wall~
-   You descend into a narrow room.  Two archers stand here on either side of
-the inside of the wall peeking through small holes.  Maybe they are just here
-in the event of an emergency.
+   You descend into a narrow chamber hollowed out of the inside of the
+arena wall.  Small holes have been bored through the stone on either
+side, just wide enough to peer and shoot through, and a rack of arrows
+stands ready against the wall.  The air is close and smells of sweat.  A
+trapdoor leads up.
 ~
 53 0 0
 D4
@@ -992,8 +1081,12 @@ trapdoor~
 S
 #5353
 Below the Bleachers~
-   Above you is the first of three rows of seats that hold the fans here
-to watch the battles in The Arena.
+   You stand in the shadowy space beneath the bleachers, among the
+wooden beams and posts that hold up the stands.  Above you is the first
+of three rows of seats where the fans sit to watch the battles in The
+Arena.  Spilled ale drips through the gaps in the planks, and every so
+often a roar from the crowd shakes loose a shower of dust.  West Arena
+Road lies to the east.
 ~
 53 c 0
 D1
@@ -1007,9 +1100,11 @@ D4
 S
 #5354
 First Row of the Bleachers~
-   You reach the top of the first set of steps.  Off to your left and right
-are a bunch of seats with a thin leather padding on them.  They look quite
-uncomfortable.  Maybe that's why most of the fans are standing.
+   You reach the top of the first flight of steps.  To your left and
+right stretch rows of steel seats with thin leather padding.  They look
+quite uncomfortable, which may be why most of the fans are standing.
+The bleachers run north and south, steps lead west and down beneath the
+stands.
 ~
 53 0 0
 D0
@@ -1031,10 +1126,11 @@ D5
 S
 #5355
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Peanut shells and spilled ale make the steps treacherous.  The
+bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1048,10 +1144,11 @@ D2
 S
 #5356
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Somebody has carved their initials into the steel seat beside
+you.  The bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1065,10 +1162,11 @@ D2
 S
 #5357
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  The fans here are on their feet, shaking their fists at the
+fighters below.  The bleachers run north.
 ~
 53 0 0
 D0
@@ -1078,10 +1176,11 @@ D0
 S
 #5358
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  A lost sandal and a torn betting slip lie under the seats.  The
+bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1095,10 +1194,11 @@ D2
 S
 #5359
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  The steel is hot from the sun and creaks under the weight of the
+crowd.  The bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1112,10 +1212,11 @@ D2
 S
 #5360
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Peanut shells and spilled ale make the steps treacherous.  The
+bleachers run south.
 ~
 53 0 0
 D2
@@ -1125,8 +1226,11 @@ D2
 S
 #5361
 Below the Second Row of Bleachers~
-   Above you is the second of three rows of seats that hold the fans here
-to see the battles in The Arena.
+   You are beneath the second row of bleachers, where the timbers grow
+thicker to bear the weight of the crowds above.  Above you is the second
+of three rows of seats where the fans sit to watch the battles in The
+Arena.  Discarded bones and nutshells litter the dirt floor, dropped by
+careless spectators.
 ~
 53 0 0
 D1
@@ -1140,9 +1244,10 @@ D4
 S
 #5362
 Second Row of the Bleachers~
-   You reach the top of the second set of steps.  Off to your left and right
-are a bunch of seats with a thin leather padding on them.  They look quite
-uncomfortable.  Maybe that's why most of the fans are standing.
+   You reach the top of the second flight of steps.  To your left and
+right stretch rows of steel seats with thin leather padding, and the
+battlefield spreads out below you like a game board.  The bleachers run
+north and south, and steps lead west and down beneath the stands.
 ~
 53 0 0
 D0
@@ -1164,10 +1269,11 @@ D5
 S
 #5363
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Somebody has carved their initials into the steel seat beside
+you.  The bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1181,10 +1287,11 @@ D2
 S
 #5364
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Peanut shells and spilled ale make the steps treacherous.  The
+bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1198,10 +1305,11 @@ D2
 S
 #5365
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Somebody has carved their initials into the steel seat beside
+you.  The bleachers run north.
 ~
 53 0 0
 D0
@@ -1211,10 +1319,11 @@ D0
 S
 #5366
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  The fans here are on their feet, shaking their fists at the
+fighters below.  The bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1228,10 +1337,11 @@ D2
 S
 #5367
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  A lost sandal and a torn betting slip lie under the seats.  The
+bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1245,10 +1355,11 @@ D2
 S
 #5368
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  The steel is hot from the sun and creaks under the weight of the
+crowd.  The bleachers run south.
 ~
 53 0 0
 D2
@@ -1258,8 +1369,11 @@ D2
 S
 #5369
 Below the Third Row of Bleachers~
-   Above you is the last of three rows of seats that hold the fans here
-to see the battles in The Arena.
+   You are beneath the third and last row of bleachers.  Above you is
+the highest row of seats in The Arena, and through the gaps between the
+planks you catch glimpses of the sky.  The stamping of feet and the
+clash of steel from the arena floor echo strangely here, as though the
+whole structure were a great wooden drum.
 ~
 53 0 0
 D1
@@ -1273,9 +1387,12 @@ D4
 S
 #5370
 Top Row of Bleachers~
-   You reach the top of the last set of steps.  Off to your left and right
-are a bunch of seats with a thin leather padding on them.  They look quite
-uncomfortable.  Maybe that's why most of the fans are standing.
+   You reach the top of the last flight of steps, high above the
+battlefield.  Rows of steel seats with thin leather padding stretch to
+your left and right; they look so uncomfortable that most of the fans
+prefer to stand.  From up here the wind is strong, and you can see far
+out over the desert.  The bleachers run north and south, and steps lead
+down.
 ~
 53 0 0
 D0
@@ -1293,10 +1410,11 @@ D5
 S
 #5371
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  From up here the fighters below look no bigger than dolls.  The
+bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1310,10 +1428,11 @@ D2
 S
 #5372
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Peanut shells and spilled ale make the steps treacherous.  The
+bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1327,10 +1446,11 @@ D2
 S
 #5373
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  Somebody has carved their initials into the steel seat beside
+you.  The bleachers run north.
 ~
 53 0 0
 D0
@@ -1340,10 +1460,11 @@ D0
 S
 #5374
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  The fans here are on their feet, shaking their fists at the
+fighters below.  The bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1357,10 +1478,11 @@ D2
 S
 #5375
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  A lost sandal and a torn betting slip lie under the seats.  The
+bleachers run north and south.
 ~
 53 0 0
 D0
@@ -1374,10 +1496,11 @@ D2
 S
 #5376
 In The Bleachers~
-   From here you have a good view of the battlefield.  Probably why these
-bleachers are here.  The seats are made of steel, just like the fence and
-the supports of the bleachers.  A thin piece of leather has been strapped
-to each seat to improve comfort.  How cheap.
+   You are standing in the bleachers, rows of steel seats that rise
+above the battlefield and give a fine view of the fighting.  Each seat
+has a thin strip of leather strapped across it to improve comfort.  How
+cheap.  The steel is hot from the sun and creaks under the weight of the
+crowd.  The bleachers run south.
 ~
 53 0 0
 D2
@@ -1387,10 +1510,10 @@ D2
 S
 #5377
 A Split in the Dirt Road~
-   Here the road splits off into two paths.  One runs north and south,
-and to the northeast you can see a the city walls of Mytherandil.
-To the south the path seems to get very thin.  The road to the west
-most likely leads to the Desert of Demise.
+   The road splits here into two paths.  One runs north and south, and
+to the northeast you can see the walls of Mytherandil.  To the south the
+path grows very thin as it heads toward a dark line of trees.  The road
+to the west most likely leads to the Desert of Demise.
 ~
 53 c 0
 D0
@@ -1408,10 +1531,11 @@ D3
 S
 #5378
 A Turn in the Dirt Road~
-   At first glance the road seems to end here.  Upon closer inspection,
-you can see that the road simply fades into a small pathwhich goes
-through a gate of tall trees.  Through those trees it appears to get
-very, very dark.
+   At first glance the road seems to end here, but on closer inspection
+you see that it fades into a small path that passes through a gateway of
+tall trees to the east.  Beyond those trees it looks very, very dark,
+though a faint sweet scent drifts out from among them.  The road leads
+back north.
 ~
 53 c 0
 D0
@@ -1425,10 +1549,12 @@ D1
 S
 #5379
 A Wooden Alcove~
-  The road gets narrow and finally fades away as you enter a small,
-wooden alcove.  The trees seem to bend inward as if to cover this
-place from the sunlight.  The air here seems clear and fresh compared
-to that of the surrounding areas.
+   The road grows narrow and finally fades away as you enter a small
+wooden alcove.  The trees bend inward overhead as if to shelter this
+place from the sun, and soft, green grass grows thick beneath them,
+dotted with tiny white flowers.  The air here is clear and fresh
+compared to that of the lands around it, and a deep calm settles over
+you.  The way out lies west.
 ~
 53 der 0
 D3
@@ -1438,10 +1564,11 @@ D3
 S
 #5380
 A Dirt Road~
-   As you turn down the road leading towards the desert, you see that
-this area is even busy.  Wandering merchants and travelers pass you by
-on their way to Mytherandil.  Some eye you suspiciously while others
-simply hurry past you.
+   As you turn down the road leading toward the desert, you see that
+even this area is busy.  Wandering merchants and travelers pass by on
+their way to Mytherandil, some eyeing you suspiciously while others
+simply hurry past, their pack animals laden with goods.  The road runs
+east and west.
 ~
 53 0 0
 D1
@@ -1455,9 +1582,11 @@ D3
 S
 #5381
 A Dirt Road~
-   The dirt road is very wide here and you can plainly see the Desert
-of Demise far off in the distance.  Merchants and travelers pass you
-by on their way between Mytherandil and the desert.
+   The wide dirt road runs between Mytherandil and the desert, rutted by
+cartwheels and pocked with hoofprints.  Merchants and travelers pass you
+by, some eyeing you suspiciously, others simply hurrying on their way.
+Far off to the west you can see the pale shimmer of the Desert of
+Demise.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -1471,9 +1600,10 @@ D3
 S
 #5382
 A Turn in the Dirt Road~
-   Here the road winds off to the north and you can catch a glimpse of
-Mytherandil from here.  As you look around, merchants and travelers pass
-you by on their way between Mytherandil and the desert.
+   The road bends here, curving between low, dusty hills.  Merchants and
+travelers pass you by on their way between Mytherandil and the desert.
+Looking back, you can catch a glimpse of the walls of Mytherandil.  The
+road leads north and east.
 ~
 53 0 0
 D0
@@ -1487,9 +1617,10 @@ D1
 S
 #5383
 A Turn in the Dirt Road~
-   Here the road winds off to the south and you can catch a glimpse of
-Mytherandil from here.  As you look around, merchants and travelers pass
-you by on their way between Mytherandil and the desert.
+   The road bends here, curving between low, dusty hills.  Merchants and
+travelers pass you by on their way between Mytherandil and the desert.
+Looking back, you can catch a glimpse of the walls of Mytherandil.  The
+road leads south and west.
 ~
 53 0 0
 D2
@@ -1503,9 +1634,11 @@ D3
 S
 #5384
 A Dirt Road~
-   The dirt road is very wide here and you can plainly see the Desert
-of Demise far off in the distance.  Merchants and travelers pass you
-by on their way between Mytherandil and the desert.
+   The wide dirt road runs between Mytherandil and the desert, rutted by
+cartwheels and pocked with hoofprints.  Merchants and travelers pass you
+by, some eyeing you suspiciously, others simply hurrying on their way.
+Dry grass and scrubby bushes line the road, coated in dust.  The road
+continues east and west.
 ~
 53 0 0
 D1
@@ -1519,9 +1652,9 @@ D3
 S
 #5385
 A Turn in the Dirt Road~
-   Here the road winds off to the south and you can catch a glimpse of
-Mytherandil from here.  As you look around, merchants and travelers pass
-you by on their way between Mytherandil and the desert.
+   The road bends here, curving between low, dusty hills.  Merchants and
+travelers pass you by on their way between Mytherandil and the desert.
+The city is hidden behind the hills now.  The road leads east and south.
 ~
 53 0 0
 D1
@@ -1535,10 +1668,10 @@ D2
 S
 #5386
 A Dirt Road~
-   Here the road winds off to the north and south.  You realize that
-you can no longers see the city of Mytherandil behind you.  Merchants
-and travelers pass you by on their way between Mytherandil and the
-desert.
+   The road winds north and south here between dusty hills.  You realize
+that you can no longer see the city of Mytherandil behind you, and the
+land ahead grows ever more barren.  Merchants and travelers pass by on
+their way between the city and the desert.
 ~
 53 0 0
 D0
@@ -1552,10 +1685,10 @@ D2
 S
 #5387
 A Turn in the Dirt Road~
-   Here the road winds off the the north and down the road a bit it
-seems to split off to the north and south.  You can no longer see the
-city of Mytherandil behind you.  Merchants and travelers pass you by
-on their way between Mytherandil and the desert.
+   The road bends here, curving between low, dusty hills.  Merchants and
+travelers pass you by on their way between Mytherandil and the desert.
+The road ahead seems to split not far beyond this bend.  The road leads
+north and west.
 ~
 53 0 0
 D0
@@ -1569,9 +1702,11 @@ D3
 S
 #5388
 A Dirt Road~
-   The dirt road is very wide here and you can plainly see the Desert
-of Demise far off in the distance.  Merchants and travelers pass you
-by on their way between Mytherandil and the desert.
+   The wide dirt road runs between Mytherandil and the desert, rutted by
+cartwheels and pocked with hoofprints.  Merchants and travelers pass you
+by, some eyeing you suspiciously, others simply hurrying on their way.
+A milestone carved with faded runes leans at the side of the road.  The
+road continues east and west.
 ~
 53 0 0
 D1
@@ -1585,9 +1720,11 @@ D3
 S
 #5389
 A Dirt Road~
-   The dirt road is very wide here and you can plainly see the Desert
-of Demise far off in the distance.  Merchants and travelers pass you
-by on their way between Mytherandil and the desert.
+   The wide dirt road runs between Mytherandil and the desert, rutted by
+cartwheels and pocked with hoofprints.  Merchants and travelers pass you
+by, some eyeing you suspiciously, others simply hurrying on their way.
+The air is noticeably warmer here, and the wind carries grains of sand.
+The road continues east and west.
 ~
 53 0 0
 D1
@@ -1601,11 +1738,11 @@ D3
 S
 #5390
 A Split in the Dirt Road~
-   Here the dirt road splits off to both the north and south.  To the
-south you can see that the road turns from dirt to sand.  This likely
-indicates that the path south leads to the dreaded Desert of Demise.
-To the north the path takes a turn but it appears that the dirt turns
-to sand in that direction too.  The air seems a little more dense now.
+   The dirt road splits here, branching north and south.  To the south
+the dirt gives way to sand, which surely means that path leads to the
+dreaded Desert of Demise; to the north the path turns, and it looks as
+though the dirt gives way to sand in that direction too.  The air seems
+a little hotter already.  The road also leads back east.
 ~
 53 0 0
 D0
@@ -1623,9 +1760,10 @@ D2
 S
 #5391
 A Dirt Road~
-   The dirt road narrows a bit here.  The dirt road slowly begins to
-fade into a road of sand.  Merchants and travelers pass you by on
-eir way between Mytherandil and the desert.
+   The dirt road narrows here, and fine sand begins to mix with the
+earth beneath your feet as the road slowly gives way to the desert.  The
+air is hot and dry, and merchants and travelers trudge past on their way
+between Mytherandil and the desert.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -1639,9 +1777,11 @@ D2
 S
 #5392
 A Dirt Road~
-   The dirt road narrows a bit here.  The dirt road slowly begins to
-fade into a road of sand.  Merchants and travelers pass you by on
-eir way between Mytherandil and the desert.
+   The dirt road narrows here, and fine sand begins to mix with the
+earth beneath your feet as the road slowly gives way to the desert.  The
+air is hot and dry, and merchants and travelers trudge past on their way
+between Mytherandil and the desert.  Sparse tufts of yellow grass cling
+to the edges of the road.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -1655,9 +1795,11 @@ D2
 S
 #5393
 A Dirt Road~
-   The dirt road narrows a bit here.  The dirt road slowly begins to
-fade into a road of sand.  Merchants and travelers pass you by on
-eir way between Mytherandil and the desert.
+   The dirt road narrows here, and fine sand begins to mix with the
+earth beneath your feet as the road slowly gives way to the desert.  The
+air is hot and dry, and merchants and travelers trudge past on their way
+between Mytherandil and the desert.  A bleached animal skull has been
+set on a post beside the road.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -1671,11 +1813,12 @@ D2
 S
 #5394
 Before The Desert of Demise~
-   Before you expands the Desert of Demise.  The road you stand upon
-will take you back to Mytherandil.  Its location may be important
-to your survival.  It almost seems as if the temperature has gone up
-a few degrees just in the last few seconds.  Merchants and travelers
-pass you by on their way between Mytherandil and the desert.
+   Before you stretches the Desert of Demise, an endless sea of sand
+rippling away to the horizon under a merciless sun.  The road you stand
+on leads back toward Mytherandil, and remembering where it lies may be
+important to your survival.  The temperature seems to climb a few
+degrees even as you stand here.  The road leads north, and the border of
+the desert lies south.
 ~
 53 c 0
 D0
@@ -1689,9 +1832,11 @@ D2
 S
 #5395
 A Dirt Road~
-   The dirt road narrows a bit here.  The dirt road slowly begins to
-fade into a road of sand.  Merchants and travelers pass you by on
-eir way between Mytherandil and the desert.
+   The dirt road narrows here, and fine sand begins to mix with the
+earth beneath your feet as the road slowly gives way to the desert.  The
+air is hot and dry, and merchants and travelers trudge past on their way
+between Mytherandil and the desert.  Heat shimmers rise from the ground
+ahead.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -1705,9 +1850,10 @@ D2
 S
 #5396
 A Dirt Road~
-   The dirt road narrows a bit here.  The dirt road slowly begins to
-fade into a road of sand.  Merchants and travelers pass you by on
-eir way between Mytherandil and the desert.
+   The dirt road narrows here, and fine sand begins to mix with the
+earth beneath your feet as the road slowly gives way to the desert.  The
+air is hot and dry, and merchants and travelers trudge past on their way
+between Mytherandil and the desert.  The road continues north and south.
 ~
 53 0 0
 D0
@@ -1721,9 +1867,10 @@ D2
 S
 #5397
 A Turn in the Dirt Road~
-   Here the winds around a corner and you see that you are very close
-to the desert.  Merchants and travelers pass you by on their way
-between Mytherandil and the desert.
+   The road bends here, curving between low, dusty hills.  Merchants and
+travelers pass you by on their way between Mytherandil and the desert.
+The desert is very close now, and the wind is hot and gritty.  The road
+leads south and west.
 ~
 53 0 0
 D2
@@ -1737,9 +1884,11 @@ D3
 S
 #5398
 A Dirt Road~
-   The dirt road narrows a bit here.  The dirt road slowly begins to
-fade into a road of sand.  Merchants and travelers pass you by on
-eir way between Mytherandil and the desert.
+   The dirt road narrows here, and fine sand begins to mix with the
+earth beneath your feet as the road slowly gives way to the desert.  The
+air is hot and dry, and merchants and travelers trudge past on their way
+between Mytherandil and the desert.  Sparse tufts of yellow grass cling
+to the edges of the road.  The road continues east and west.
 ~
 53 0 0
 D1
@@ -1753,11 +1902,12 @@ D3
 S
 #5399
 Before The Desert of Demise~
-   Before you expands the Desert of Demise.  The road you stand upon
-will take you back to Mytherandil.  Its location may be important
-to your survival.  It almost seems as if the temperature has gone up
-a few degrees just in the last few seconds.  Merchants and travelers
-pass you by on their way between Mytherandil and the desert.
+   Before you stretches the Desert of Demise, an endless sea of sand
+rippling away to the horizon under a merciless sun.  The road you stand
+on leads back toward Mytherandil, and remembering where it lies may be
+important to your survival.  The temperature seems to climb a few
+degrees even as you stand here.  The road leads east, and the border of
+the desert lies west.
 ~
 53 c 0
 D1
@@ -1771,10 +1921,11 @@ D3
 S
 #5400
 Border of The Desert of Demise~
-   Before you stretches the reknowned Desert of Demise.  Blowing
-sand stings your eyes, but you can make out the road off to the east.
-The road that could take you back to civilization.  Away from this
-place.  If you enter the desert will you ever return?
+   Before you stretches the renowned Desert of Demise.  Blowing sand
+stings your eyes, but you can still make out the road nearby, the road
+that could take you back to civilization, away from this place.  If you
+enter the desert, will you ever return?  The road lies east, and the
+desert west.
 ~
 53 c 0
 D1
@@ -1788,11 +1939,13 @@ D3
 S
 #5401
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -1810,11 +1963,13 @@ D3
 S
 #5402
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1832,11 +1987,13 @@ D3
 S
 #5403
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1854,11 +2011,13 @@ D3
 S
 #5404
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1876,11 +2035,13 @@ D3
 S
 #5405
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1898,11 +2059,13 @@ D3
 S
 #5406
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1920,11 +2083,13 @@ D3
 S
 #5407
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1942,11 +2107,13 @@ D3
 S
 #5408
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1964,11 +2131,13 @@ D3
 S
 #5409
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -1990,11 +2159,13 @@ D3
 S
 #5410
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -2012,11 +2183,13 @@ D3
 S
 #5411
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -2034,11 +2207,13 @@ D3
 S
 #5412
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -2056,10 +2231,11 @@ D3
 S
 #5413
 Border of The Desert of Demise~
-   Before you stretches the reknowned Desert of Demise.  Blowing
-sand stings your eyes, but you can make out the road off to the east.
-The road that could take you back to civilization.  Away from this
-place.  If you enter the desert will you ever return?
+   Before you stretches the renowned Desert of Demise.  Blowing sand
+stings your eyes, but you can still make out the road nearby, the road
+that could take you back to civilization, away from this place.  If you
+enter the desert, will you ever return?  The road lies north, and the
+desert stretches south and west.
 ~
 53 c 0
 D0
@@ -2077,11 +2253,13 @@ D3
 S
 #5414
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -2099,11 +2277,13 @@ D3
 S
 #5415
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2125,11 +2305,13 @@ D3
 S
 #5416
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2151,11 +2333,13 @@ D3
 S
 #5417
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2177,11 +2361,13 @@ D3
 S
 #5418
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2203,11 +2389,13 @@ D3
 S
 #5419
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2229,11 +2417,13 @@ D3
 S
 #5420
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2255,11 +2445,13 @@ D3
 S
 #5421
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2281,11 +2473,13 @@ D3
 S
 #5422
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2307,11 +2501,13 @@ D3
 S
 #5423
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2329,11 +2525,13 @@ D3
 S
 #5424
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2351,11 +2549,13 @@ D3
 S
 #5425
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2373,11 +2573,13 @@ D3
 S
 #5426
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2395,11 +2597,13 @@ D3
 S
 #5427
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2417,11 +2621,13 @@ D3
 S
 #5428
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2435,11 +2641,13 @@ D3
 S
 #5429
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -2457,11 +2665,13 @@ D3
 S
 #5430
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2483,11 +2693,13 @@ D3
 S
 #5431
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2509,11 +2721,13 @@ D3
 S
 #5432
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2535,11 +2749,13 @@ D3
 S
 #5433
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2561,11 +2777,13 @@ D3
 S
 #5434
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2587,11 +2805,13 @@ D3
 S
 #5435
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2613,11 +2833,13 @@ D3
 S
 #5436
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2639,11 +2861,13 @@ D3
 S
 #5437
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2665,11 +2889,13 @@ D3
 S
 #5438
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2687,11 +2913,13 @@ D3
 S
 #5439
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -2709,11 +2937,12 @@ D3
 S
 #5440
 The Oasis~
-   You made it!  The food and water here is plentiful, and yet it
-seems that there is more to this place than meets the eye.  Several
-small woodlands type creatures refresh themselves as if there were
-not a massive desert surrounding them.  And how the *&%$ did they
-get here?
+   You made it!  A small pond of clear, cool water lies here, ringed by
+date palms and lush green grass, and fruit hangs heavy from the
+branches.  Yet there seems to be more to this place than meets the eye.
+Small woodland creatures refresh themselves at the water's edge as if
+there were no massive desert surrounding them at all.  And how on earth
+did they get here?
 ~
 53 chrs 0
 D0
@@ -2739,11 +2968,13 @@ D5
 S
 #5441
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2765,11 +2996,13 @@ D3
 S
 #5442
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2791,11 +3024,13 @@ D3
 S
 #5443
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2817,11 +3052,13 @@ D3
 S
 #5444
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2843,11 +3080,13 @@ D3
 S
 #5445
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2869,11 +3108,13 @@ D3
 S
 #5446
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2895,11 +3136,13 @@ D3
 S
 #5447
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2921,11 +3164,13 @@ D3
 S
 #5448
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2943,11 +3188,13 @@ D3
 S
 #5449
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -2965,11 +3212,13 @@ D3
 S
 #5450
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -2991,11 +3240,13 @@ D3
 S
 #5451
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3017,11 +3268,13 @@ D3
 S
 #5452
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3043,11 +3296,13 @@ D3
 S
 #5453
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3069,11 +3324,13 @@ D3
 S
 #5454
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3095,11 +3352,13 @@ D3
 S
 #5455
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3121,11 +3380,13 @@ D3
 S
 #5456
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3147,11 +3408,13 @@ D3
 S
 #5457
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3173,11 +3436,13 @@ D3
 S
 #5458
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3195,11 +3460,13 @@ D3
 S
 #5459
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D1
@@ -3213,11 +3480,13 @@ D2
 S
 #5460
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3235,11 +3504,13 @@ D2
 S
 #5461
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3257,11 +3528,13 @@ D2
 S
 #5462
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3279,11 +3552,13 @@ D2
 S
 #5463
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3301,11 +3576,13 @@ D2
 S
 #5464
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3323,11 +3600,13 @@ D2
 S
 #5465
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3345,11 +3624,13 @@ D2
 S
 #5466
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3367,11 +3648,13 @@ D2
 S
 #5467
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3389,11 +3672,13 @@ D2
 S
 #5468
 The Desert of Demise~
-   You stand in the great expanse known only as The Desert of Demise.
-A small distance away there appears to be a path of some sort...
-possibly even a road.  But even better!  If your eyes do not deceive
-you, just around that dune over there you can see a small pond!
-With trees!  Water sure would be nice right about now...
+   You stand in the great, trackless expanse known only as the Desert of
+Demise.  Dunes of blinding white sand roll away on every side under a
+merciless sun, and the hot wind hisses across their crests.  A small
+distance away there appears to be a path of some sort... possibly even a
+road.  But even better!  If your eyes do not deceive you, just around
+that dune over there you can see a small pond!  With trees!  Water sure
+would be nice right about now...
 ~
 53 0 0
 D0
@@ -3407,10 +3692,10 @@ D1
 S
 #5469
 Under the Oasis~
-   After stripping down to your skimmies and swimming to the bottom
-of the pond, you peer around in the clear water.  More strange fruit
-has made its way to the bottom of the pond here.  Something shiny
-catches your eye in the distance.
+   After stripping down to your skivvies and swimming to the bottom of
+the pond, you peer around in the clear, cool water.  Strange fruit has
+drifted down to settle on the sandy bottom here, and waterweeds sway
+gently around you.  Something shiny catches your eye in the distance.
 ~
 53 0 0
 D4

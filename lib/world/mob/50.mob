@@ -4,7 +4,7 @@ the Earl of Irynthar~
 The Earl of Irynthar is out for a stroll.
 ~
 A tall noble with sand-colored hair and goatee is strolling by with 
-an amiable but authoritave countenance. Long out of knighthood, he 
+an amiable but authoritative countenance. Long out of knighthood, he 
 nevertheless looks quite confident in his abilities to defend himself, 
 and has gone on to wining, dining and governing the human population.
 ~
@@ -327,7 +327,7 @@ the blacksmith~
 The blacksmith stands in the glare of the fire.
 ~
 This ex-warrior is short and brawny, looks to have some dwarf ancestry.
-He is carrying a hot poker though, better not tary with him.
+He is carrying a hot poker though, better not tarry with him.
 ~
 bd 0 0 S
 29 50 48 90d10+100 4d7+54
@@ -399,11 +399,11 @@ bd 0 0 S
 #5031
 mekala thai cook~
 Mekala~
-Mekala tosses what looks like dragon toungue in a pan nearby.
+Mekala tosses what looks like dragon tongue in a pan nearby.
 ~
 This young, dark woman has traveled far from jungle lands to prepare
 her spicy-hot dishes for this heavily traversed town. She sings a 
-foreign song in a bizarre, guttaral tongue.
+foreign song in a bizarre, guttural tongue.
 ~
 bd 0 0 S
 29 50 91 10d90+10000 4d7+54
@@ -487,8 +487,8 @@ d 0 0 S
 8 8 1
 #5038
 boy mischievious~
-a mischievious boy~
-A mischievious boy is looking for something to set on fire.
+a mischievous boy~
+A mischievous boy is looking for something to set on fire.
 ~
 His small, darting eyes are set off by a mess of tousled black hair.
 Ever since his sling shot was taken away, he has been playing with 
@@ -579,7 +579,7 @@ black animal~
 a black animal~
 An iron chain rattles as something moves in the back of the room.
 ~
-Some black colored animal, its hard to tell exactly what in this darkness, is
+Some black colored animal, it's hard to tell exactly what in this darkness, is
 chained to the back wall. Even its eyes are darkened as a black fold
 of cloth covers them until the moment of its departure from the world. 
 ~
@@ -631,7 +631,7 @@ the gate watchman~
 The gate watchman stares glass-eyed at the horizon.
 ~
 He was apparently chosen for his inability to blink. He is a brawny
-fellow, but doesnt strike you as having the froth-mouthed drive to fight
+fellow, but doesn't strike you as having the froth-mouthed drive to fight
 as seen in the town guards.
 ~
 dglm d 0 S
@@ -643,7 +643,7 @@ sparrow bird pet~
 a little sparrow~
 A little sparrow pecks at the ground.
 ~
-The tiny metal clasp round a leg of this diminuitive bird tells you
+The tiny metal clasp round a leg of this diminutive bird tells you
 it is someone's pet. It regards you with one eye then the other in
 a nervous fashion, awaiting its first chance to fly to freedom.
 ~
@@ -768,7 +768,7 @@ bd df -900 S
 #5059
 guard elite watch warrior~
 a warrior of the Black Watch~
-A warrior of the Black Watch maintains a alert vigilance here.
+A warrior of the Black Watch maintains an alert vigilance here.
 ~
 A handsome, stalwart warrior of the famed elite guard of Irynthar
 keeps a tireless watch over the peace of the town. 
@@ -862,7 +862,7 @@ stu fool~
 the fool~
 A blathering fool is standing here.
 ~
-Achhh! Dont pay too much attention to him or you'll regret it.
+Achhh! Don't pay too much attention to him or you'll regret it.
 ~
 bd 0 0 S
 1 5 25 1d4+1 1d4+1

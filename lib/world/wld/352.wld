@@ -158,9 +158,8 @@ D3
 S
 #35209
 An Intersection in the Path~
-  You are standing on a trail that sees little use.  To the west you see a
-path that seems has seen less traffic than this one.  South of here you 
-see a vast plain, and north of here is a rather nice looking forest.
+   You are standing on a trail that sees little use.  To the north lies
+a pleasant-looking forest, and to the south a vast plain spreads out.
 ~
 352 0 3
 D0
@@ -174,8 +173,9 @@ D2
 S
 #35210
 A Grown Over Trail~
-  You are standing on a fading trail.  North of here you can see a small
-forest.  South of here you see a vast plain.
+   You are standing on a fading trail, half hidden beneath grass and
+creeping weeds.  North of here you can see a small forest, and south of
+here you see a vast plain rolling away to the horizon.
 ~
 352 0 3
 D0
@@ -189,8 +189,9 @@ D2
 S
 #35211
 A Grown Over Trail~
-   You are on a small trail that is slowly disappearing due to lack of use.
-South of here you can see a vast plain, and north you see a small forest.
+   You are on a small trail slowly vanishing for lack of use.  South of
+here a vast plain stretches away, and to the north stands a small
+forest.
 ~
 352 0 2
 D0
@@ -204,9 +205,10 @@ D2
 S
 #35212
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  You can go east and south.
 ~
 352 0 2
 D1
@@ -220,9 +222,11 @@ D2
 S
 #35213
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A hawk hangs motionless high overhead.  You
+can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -244,9 +248,11 @@ D3
 S
 #35214
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  The wind sends long silver waves rolling
+through the grass.  You can go south and west.
 ~
 352 0 2
 D2
@@ -260,9 +266,11 @@ D3
 S
 #35215
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Grasshoppers spring away from your feet.  You
+can go north, east and south.
 ~
 352 0 2
 D0
@@ -280,9 +288,12 @@ D2
 S
 #35216
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A faint trail of flattened grass hints that
+something large passed this way.  You can go north, east, south and
+west.
 ~
 352 0 2
 D0
@@ -304,9 +315,11 @@ D3
 S
 #35217
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Wildflowers bloom low among the grass stems.
+You can go north, south and west.
 ~
 352 0 2
 D0
@@ -324,9 +337,10 @@ D3
 S
 #35218
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  You can go east and south.
 ~
 352 0 2
 D1
@@ -340,9 +354,11 @@ D2
 S
 #35219
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A hawk hangs motionless high overhead.  You
+can go east, south and west.
 ~
 352 0 2
 D1
@@ -360,9 +376,11 @@ D3
 S
 #35220
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  The wind sends long silver waves rolling
+through the grass.  You can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -384,9 +402,11 @@ D3
 S
 #35221
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Grasshoppers spring away from your feet.  You
+can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -408,9 +428,11 @@ D3
 S
 #35222
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A faint trail of flattened grass hints that
+something large passed this way.  You can go north and west.
 ~
 352 0 2
 D0
@@ -424,9 +446,11 @@ D3
 S
 #35223
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Wildflowers bloom low among the grass stems.
+You can go north, east and south.
 ~
 352 0 2
 D0
@@ -444,9 +468,10 @@ D2
 S
 #35224
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  You can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -468,9 +493,11 @@ D3
 S
 #35225
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A hawk hangs motionless high overhead.  You
+can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -492,9 +519,11 @@ D3
 S
 #35226
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  The wind sends long silver waves rolling
+through the grass.  You can go north, south and west.
 ~
 352 0 2
 D0
@@ -512,9 +541,11 @@ D3
 S
 #35227
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Grasshoppers spring away from your feet.  You
+can go east and south.
 ~
 352 0 2
 D1
@@ -528,9 +559,12 @@ D2
 S
 #35228
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A faint trail of flattened grass hints that
+something large passed this way.  You can go north, east, south and
+west.
 ~
 352 0 2
 D0
@@ -552,9 +586,11 @@ D3
 S
 #35229
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Wildflowers bloom low among the grass stems.
+You can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -576,9 +612,10 @@ D3
 S
 #35230
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  You can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -600,9 +637,11 @@ D3
 S
 #35231
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A hawk hangs motionless high overhead.  You
+can go north, south and west.
 ~
 352 0 2
 D0
@@ -620,9 +659,11 @@ D3
 S
 #35232
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  The wind sends long silver waves rolling
+through the grass.  You can go north, east and south.
 ~
 352 0 2
 D0
@@ -640,9 +681,11 @@ D2
 S
 #35233
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Grasshoppers spring away from your feet.  You
+can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -664,9 +707,12 @@ D3
 S
 #35234
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A faint trail of flattened grass hints that
+something large passed this way.  You can go north, east, south and
+west.
 ~
 352 0 2
 D0
@@ -688,9 +734,11 @@ D3
 S
 #35235
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Wildflowers bloom low among the grass stems.
+You can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -712,9 +760,10 @@ D3
 S
 #35236
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  You can go north and west.
 ~
 352 0 2
 D0
@@ -728,9 +777,11 @@ D3
 S
 #35237
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A hawk hangs motionless high overhead.  You
+can go north, east and south.
 ~
 352 0 2
 D0
@@ -748,9 +799,11 @@ D2
 S
 #35238
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  The wind sends long silver waves rolling
+through the grass.  You can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -772,9 +825,11 @@ D3
 S
 #35239
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Grasshoppers spring away from your feet.  You
+can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -796,9 +851,11 @@ D3
 S
 #35240
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A faint trail of flattened grass hints that
+something large passed this way.  You can go north and west.
 ~
 352 0 2
 D0
@@ -812,9 +869,11 @@ D3
 S
 #35241
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Wildflowers bloom low among the grass stems.
+You can go north, east and south.
 ~
 352 0 2
 D0
@@ -832,9 +891,10 @@ D2
 S
 #35242
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  You can go north, east, south and west.
 ~
 352 0 2
 D0
@@ -856,9 +916,11 @@ D3
 S
 #35243
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  A hawk hangs motionless high overhead.  You
+can go north and west.
 ~
 352 0 2
 D0
@@ -872,9 +934,11 @@ D3
 S
 #35244
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  The wind sends long silver waves rolling
+through the grass.  You can go north, east and south.
 ~
 352 0 2
 D0
@@ -892,10 +956,11 @@ D2
 S
 #35245
 Thallin Plains~
-   You are in a great expanse of plains.  Waving tall grass is all that can be
-seen.  The plains seem to extend forever.  Way off in the north you think you
-see a lake, but it could be a mirage of the waving folliage.
-
+   You are in a great expanse of plains where waving tall grass is all
+that can be seen, stretching away as if forever.  Far off to the north
+you think you see the glint of a lake, though it may be only a mirage
+among the swaying grass.  Grasshoppers spring away from your feet.  You
+can go north and west.
 ~
 352 0 2
 D0
@@ -909,9 +974,9 @@ D3
 S
 #35246
 Before the Plains~
-   You are walking on a covered over path.  North of here, a vast plain 
-stretches before you.  The path leads into this plain, but t disappears in
-the tall grass.  South of here the path is more defined.
+   You are walking on an overgrown path.  North of here a vast plain
+stretches before you, and the path runs into it only to vanish in the
+tall grass.  South of here the path is better defined.
 ~
 352 0 2
 D0
@@ -925,8 +990,9 @@ D2
 S
 #35247
 Turn in the Path~
-   You are on a small path in the middle of a field.  The path turns and goes
-east from here, further into the plains, and south you can see a monestary.
+   You are on a small path in the middle of a field.  The path turns
+here and leads east toward the plains, and to the south you can see a
+monastery.
 ~
 352 0 3
 D1
@@ -940,10 +1006,9 @@ D2
 S
 #35248
 A Fading Path~
-   The path you are on seems to be not very travelled on this end.  South of
-here the path looks to be more defined and travelled, and you think you can 
-make out what looks to be a building of some sort.  North of here you see
-a rather large plain
+   The path is little travelled at this end.  North of here a large
+plain spreads out, and to the west the path turns south toward a
+building of some sort.
 ~
 352 0 3
 D0
@@ -956,10 +1021,11 @@ D3
 0 -1 35247
 S
 #35249
-Path to the Monestary~
-   You stand on a small path that runs from the monestary to the plains.  
-Many monks come out here to meditate and be at peace.  South of here you
-see the monestary and what appears to be a town south of that.
+Path to the Monastery~
+   You stand on a small path that runs between the monastery and the
+plains.  Monks often come out here to meditate in the quiet, and flat
+stones have been set beside the path for them to sit on.  South of here
+stands the monastery, with what looks to be a town beyond it.
 ~
 352 0 3
 D0

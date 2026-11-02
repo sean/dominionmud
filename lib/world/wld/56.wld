@@ -1,14 +1,12 @@
 #5600
 Inside Naz'ol~
-   The thick reddish smoke makes your vision blurry as it burns your 
-eyes and makes them water. You can see nothing through the thick smoke
-except for what lies at your feet...corpses...the more you look around,
- the more you see. The corpses are mangled worse than the left-overs
-from a pack of wolves. Something VERY cruel and guiltless has torn this 
-place apart, leaving nothing but wretch in its path. As you peer around
-to find some sign of life you notice movement through the smoke...
-glowing amber claws reach for your throat before you even have time to
-run...
+   Thick reddish smoke blurs your vision, burning your eyes until they
+water.  You can see nothing through it except what lies at your feet:
+corpses, and the more you look, the more you see, mangled worse than the
+leavings of a wolf pack.  Something very cruel and utterly without
+conscience has torn this place apart.  The smoke drifts north into the
+town, and the great gate lies to the south.  A trapdoor is set into the
+cobbles here.
 ~
 56 agt 1
 D0
@@ -28,12 +26,12 @@ trap~
 S
 #5601
 Grand entrance to Naz'ol~
-   You are standing in front of a massive marble gate carved from the 
-face of a massive slab of reddish marble. You can smell a foul stench
-coming from the other side of the gate, the familiar smell of dEcAy,
-and charred flesh. As the smoke from inside the gate reaches your nose,
-it almost makes you vomit due to the images forming in your mind of what
-could possibly make that strong of a smell...
+   You stand before a massive gate carved from the face of an enormous
+slab of reddish marble, its surface worked with images of a proud and
+peaceful town.  A foul stench seeps from the other side: the familiar
+smell of decay and charred flesh.  As the smoke from within reaches you,
+it almost makes you retch at the images it forms in your mind of what
+could be waiting beyond.  The forest lies to the south.
 ~
 56 r 1
 D0
@@ -47,10 +45,11 @@ D2
 S
 #5602
 Inside the Trap~
-   You climb down into the trap door, and find yourself standing in
-some sort of abandoned mine shaft. It appears that noone has been here
-in a long while due to the thick layer of dust on the ground. The mine
-shaft looks like it branches further ahead to the north.
+   You climb down through the trapdoor and find yourself in what seems
+to be an abandoned mine shaft.  Old timbers shore up the ceiling, and a
+thick layer of undisturbed dust covers the floor; no one has been here
+in a long while.  The shaft leads north into darkness, and the trapdoor
+leads back up.
 ~
 56 adgr 0
 D0
@@ -64,10 +63,10 @@ trap~
 S
 #5603
 Edge of the Forest~
-  You are standing at what appears to be the end of the forest you
-have been treading through. You peer to the north and notice a gate
-of some sort carved from the side of a slab of marble the size of a
-small mountain. To the south the forest continues.
+   You stand at what appears to be the end of the forest you have been
+struggling through.  To the north rises a gate of some sort, carved from
+the side of a slab of red marble the size of a small mountain, and a
+haze of smoke hangs above it.  To the south the forest continues.
 ~
 56 r 3
 D0
@@ -81,10 +80,11 @@ D2
 S
 #5604
 Deep in the Forest~
-   Small animals scurry away at the sound of your approach as you cut your 
-way through the dense forest. The intense humidity, mixed with the sting
-of insects on your exposed flesh almost makes you wish that you were home
-in bed with your mate. All you can see is more forest any way you look.
+   Small animals scurry away at the sound of your approach as you cut
+your way through the dense forest.  The heavy, humid air and the sting
+of insects on your exposed skin almost make you wish you were home in
+bed.  All you can see in any direction is more forest.  The way
+continues north and south.
 ~
 56 0 3
 D0
@@ -98,9 +98,11 @@ D2
 S
 #5605
 Deep in the forest~
-   You press deeper into the forest unknowing what will be found as a
-result. All you can hope for is to find some form of life other than
-small game, and insects that seem to love the taste of your flesh...
+   You press deeper into the forest, not knowing what you will find.
+All you can hope for is some form of life besides small game and the
+insects that seem to love the taste of your flesh.  Vines hang from
+every branch, and the ground squelches underfoot.  The forest continues
+north and east, and to the west you hear the trickle of running water.
 ~
 56 0 3
 D0
@@ -118,9 +120,11 @@ D3
 S
 #5606
 Small creek ~
-   You have come to a small creek running north to south. You notice a 
-foul smell coming from the strange looking water. The water has a vague
-reddish tint. Woods completely sorround you on all sides.
+   You have come to a small creek running from north to south through
+the trees.  A foul smell rises from its strange water, which has a
+distinct reddish tint, and nothing grows along its banks.  Woods
+surround you on all sides.  A clearing opens to the north, and the
+forest continues east and south.
 ~
 56 0 3
 D0
@@ -144,10 +148,12 @@ south where it vanishes underneath a mass of giant roots.
 S
 #5607
 Blood Pond~
-   Upon entering a clearing in the forest, a large pool of blood 
-catches your attention in the middle of the clearing. There is no 
-small game or insects in this clearing, unlike the rest of the forest
-where you have been all but stampeded by the pests.
+   You enter a clearing in the forest, and a large pool in its center
+immediately catches your attention: a pool not of water but of blood,
+dark and still.  Unlike the rest of the forest, where you have been all
+but stampeded by pests, there are no small animals or insects here at
+all.  The pool's northern edge lies to the north, and the creek runs off
+to the south.
 ~
 56 0 3
 D0
@@ -172,10 +178,11 @@ deep because you can't even see the bottom.
 S
 #5608
 In the Blood~
-   You are in way over your head in the thick blood that is all around 
-you. The blood being very salty prevents you from seeing much under the 
-surface...OUCH!!!!!!!!...
-Something has a hold of your leg...!
+   You are in way over your head in the thick blood that surrounds you.
+It is so salty and dark that you can see almost nothing beneath the
+surface...  OUCH!  Something has hold of your leg!  The blood swirls
+away in every direction, and somewhere above lies the surface.  Dark
+clots drift past in the murk.
 ~
 56 ahr 8 -1 -1
 D0
@@ -226,9 +233,11 @@ hole in the center of it, maybe for a key?
 S
 #5609
 Deep in the Blood~
-   You have sunken in blood, yuck!
-
-   The blood seems to be making your body tingle...
+   You have sunk deep into the blood, and it closes thick and warm over
+your head.  The salty liquid stings your eyes and makes your skin tingle
+strangely, as though something in it were seeping into your body.
+Everything around you is a murky red, and the surface is somewhere above
+you, beyond a thick, rubbery clot.
 ~
 56 acefgr 8 -1 -1
 D4
@@ -242,10 +251,10 @@ blood pool thick salty~
 S
 #5610
 North end of the Pool~
-   You are standing at the north side of the pool. To the north you can 
-make out a giant red wall that seems to shine in the dim forest light.
-It is apparent now that the blood that makes up this pool is freely 
-flowing from a large crack in the wall to the north.
+   You stand at the northern edge of the pool of blood.  To the north a
+giant wall of red marble seems to shine in the dim forest light, and it
+is clear now that the blood filling this pool flows freely from a large
+crack in its base.  The clearing lies to the south.
 ~
 56 0 3
 D0
@@ -259,9 +268,10 @@ D2
 S
 #5611
 At the marble wall~
-   In front of you stands a wall made from red marble. Through a crack 
-near the bottom, blood flows southward forming a small river. The
-crack in the wall just might be big enough to take a peek through.
+   Before you stands a wall of red marble, smooth and towering.  Through
+a crack near its bottom, blood flows out and away to the south, forming
+a small river.  The crack just might be big enough to peek through.  The
+pool lies to the south.
 ~
 56 0 3
 D2
@@ -271,10 +281,10 @@ D2
 S
 #5612
 Deep in the forest~
-   Upon walking through the forest you notice a small creek of 
-reddish water running into a mass of roots at your feet. The sound
-of the trickling water is a little duller than an average stream...
-hmmm. You might want to take a closer look at the strange water.
+   As you walk through the forest, you notice a small creek of reddish
+water vanishing into a tangle of roots at your feet.  Its trickle sounds
+strangely dull, thicker than an ordinary stream's... hmmm.  You might
+want to take a closer look at that water.  The creek leads north.
 ~
 56 0 3
 D0
@@ -291,9 +301,9 @@ color of blood'n'shit.
 S
 #5613
 Deep in the forest~
-   You trudge deeper into the thick forest hoping to find something of
-interest. *Ouch* You are bit on the neck by a mosquito the size of small
-bird!
+   You trudge deeper into the thick forest, hoping to find something of
+interest. *Ouch!* You are bitten on the neck by a mosquito the size of a
+small bird!  The forest continues east and west.
 ~
 56 0 3
 D1
@@ -307,10 +317,10 @@ D3
 S
 #5614
 Deeper in the forest~
-   As you push further on into the jungle-like forest you make a small
-discovery...the faint smell of a burning campfire catches your senses.
-You peer all around and your eyes catch a glimpse of firelight to the
-northeast. You think "Maybe i should check this out..."
+   As you push on into the jungle-like forest, you make a small
+discovery: the faint smell of a campfire.  Peering all around, you catch
+a glimpse of firelight through a screen of bushes to the northeast.
+Maybe you should check it out...  The forest leads back west.
 ~
 56 0 1
 D3
@@ -326,10 +336,12 @@ bushes foliage~
 S
 #5615
 Outside the cave~
-   You look up at the waterfall in front of you and clearly see now 
-that there is definitely firelight flickering in there. Also the smell
-of cooked fish lets you know that there is no doubt someone or something
-in there cooking food.
+   You stand at the foot of a waterfall that tumbles over a mossy cliff
+into a clear pool, and through the falling water you can clearly see
+firelight flickering in a cave behind it.  The smell of cooking fish
+leaves no doubt that someone, or something, is in there preparing a
+meal.  You could climb up behind the falls, or push back through the
+bushes to the southwest.
 ~
 56 c 6
 D4
@@ -350,10 +362,11 @@ enough to get to the cave...you'll just get wet'ed.
 S
 #5616
 Inside the cave...~
-   You peer around and notice a small campfire vaguely hidden behind
-a wall of stalagmites. Over the small fire hangs a fish that has a 
-stick impaled up its tail-fin. But whatever is cooking the fish is
-nowhere to be seen.
+   You peer around this damp cave and notice a small campfire, half
+hidden behind a wall of stalagmites.  A fish hangs over the fire,
+impaled on a stick through its tail, but whoever is cooking it is
+nowhere to be seen.  The roar of the waterfall fills the cave.  A
+passage leads north, and the way out lies down.
 ~
 56 dgr 0
 D0
@@ -367,9 +380,11 @@ D5
 S
 #5617
 The Survivor's lair~
-   Curled up in the corner is a shivering mass of a man who is so
-terrified upon seeing you that his hair is standing on end. He appears
-to be covered from head to toe in fresh blood...his?
+   This small, hidden chamber at the back of the cave is the lair of
+someone who has fled from great horror.  A heap of moss serves as a bed,
+and a few scavenged belongings are piled against the wall: a dented pot,
+a torn cloak, a child's wooden doll.  Everything is smeared with dried
+blood.  The cave lies to the south.
 ~
 56 dglrs 0
 D2
@@ -379,8 +394,12 @@ D2
 S
 #5618
 Dank, Dark Cavern~
-   The mine shaft appears to be completely deserted and lifeless.
-
+   This dank, dark cavern opens out where several branches of the mine
+shaft meet.  The mine appears to be completely deserted and lifeless;
+old timber supports sag under the weight of the rock, and rusted tools
+lie where they were dropped long ago.  Water drips steadily from the
+ceiling into shallow pools.  Shafts lead east and west, and the way back
+to the trap lies to the south.
 ~
 56 0 0
 D1
@@ -398,7 +417,11 @@ D3
 S
 #5619
 Abandoned mine shaft~
-   The mine shaft appears to be completely deserted, and without life.
+   The mine shaft appears to be completely deserted and without life.
+The tunnel is low and narrow, and you must stoop to avoid the jagged
+rock overhead.  Abandoned picks and a broken cart rest against the wall,
+covered in a thick layer of dust.  The shaft comes to an end here, and
+the only way out is back west.
 ~
 56 ad 0
 D3
@@ -408,7 +431,11 @@ D3
 S
 #5620
 Abandoned mine shaft~
-   The mine shaft appears to be completely deserted.
+   The mine shaft appears to be completely deserted.  The air is thick
+with dust and the smell of damp earth, and the tunnel walls show the
+marks of picks that have not swung in many years.  A cave-in has sealed
+off the far end of the shaft, leaving only the way back east to the
+cavern.
 ~
 56 adr 0
 D1
@@ -418,11 +445,12 @@ D1
 S
 #5621
 Elijah Square~
-   Looking around you notice small street signs of some sort along
-the sides of the streets. The signs mark this intersection as Elijah
-Square, with Elijah Avenue heading north, and Elijah Street heading
-east to west. Still no signs of human survivors can be found as far
-as your sight lets you see in the smoke.
+   Looking around, you notice small street signs along the sides of the
+streets, marking this intersection as Elijah Square.  Elijah Avenue
+heads north, and Elijah Street runs east and west.  A toppled statue of
+some hero lies across the cobbles, its head smashed.  There is still no
+sign of living people as far as you can see through the smoke.  The gate
+lies to the south.
 ~
 56 a 1
 D0
@@ -444,9 +472,11 @@ D3
 S
 #5622
 Elijah Avenue~
-  You are standing on the once beautiful street named after the Hero Elijah.
-But now these streets are flooded with dried blood, and corpses of dead 
-villagers who were slain in cold blood by the Chree'zen.
+   You are standing on a once beautiful street named for the hero
+Elijah.  Now it is flooded with dried blood and strewn with the corpses
+of villagers slain in cold blood by the Chree'zen.  Shattered shop signs
+hang from single nails.  The avenue leads north to the central square
+and south to Elijah Square.
 ~
 56 a 1
 D0
@@ -460,8 +490,11 @@ D2
 S
 #5623
 Elijah Street~
-  You gaze down Elijah Street and see nothing but ruins...
-
+   You gaze down Elijah Street and see nothing but ruins.  The homes and
+shops that once lined the street are blackened shells, their roofs
+collapsed and their windows empty.  A pile of broken crates leans
+against the wall to the north, and the street runs east, deeper into the
+ruined city, and west towards Elijah Square.
 ~
 56 ar 1
 D0
@@ -479,7 +512,11 @@ D3
 S
 #5624
 Elijah Street~
-This description is yet unfinished...
+   Elijah Street runs east from here into Elijah Square and west deeper
+into the ruins of Naz'ol.  The cobblestones are cracked and stained dark
+with old blood, and the smell of smoke still clings to the burned-out
+buildings on either side.  A child's wooden toy lies abandoned in the
+gutter.
 ~
 56 0 1
 D1
@@ -493,7 +530,11 @@ D3
 S
 #5625
 Elijah Street~
-This description is yet unfinished...
+   The ruins of Naz'ol stretch out on every side along Elijah Street.
+Charred beams jut from the rubble like broken ribs, and a thin haze of
+reddish smoke drifts down the street, stinging your eyes.  Here and
+there you see the remains of those who could not escape, left where they
+fell.  The street continues east and west.
 ~
 56 a 1
 D1
@@ -507,7 +548,11 @@ D3
 S
 #5626
 Elijah Street~
-This description is yet unfinished...
+   Elijah Street is choked with rubble here, and you must pick your way
+carefully around fallen stones and the remains of a toppled cart.  Doors
+hang from broken hinges, and the walls of the houses are scored with
+deep claw marks.  Whatever came through this city did so with terrible
+strength.  The street continues east and west.
 ~
 56 a 1
 D1
@@ -521,7 +566,11 @@ D3
 S
 #5627
 Elijah Street~
-This description is yet unfinished...
+   Elijah Street nears its western end here.  The buildings on this
+stretch fared a little better than the rest; a few still have roofs,
+though their doors have been smashed in and their contents scattered
+across the street.  To the west the street turns a corner, and to the
+east it runs back into the ruins.
 ~
 56 a 1
 D1
@@ -535,7 +584,12 @@ D3
 S
 #5628
 Elijah Street-southwest corner~
-This description is yet unfinished...
+   You are at the southwest corner of Elijah Street, where the road
+turns sharply north into a dark alley.  A crumbling wall marks the edge
+of the city here, and beyond it you can see only smoke.  Fragments of
+bone are scattered across the cobblestones, and the silence is broken
+only by the occasional crash of a collapsing building somewhere in the
+distance.
 ~
 56 a 1
 D0
@@ -549,7 +603,11 @@ D1
 S
 #5629
 Dark alley~
-This description is yet unfinished...
+   This dark alley is barely wide enough for two people to walk side by
+side.  The walls of the buildings lean in overhead, blocking out most of
+the light, and the ground is slick with refuse and worse.  Somewhere
+nearby you hear frantic footsteps and a stifled sob.  The alley leads
+north to Euc'lid Avenue and south to Elijah Street.
 ~
 56 agr 1
 D0
@@ -563,7 +621,11 @@ D2
 S
 #5630
 Euc'lid Avenue~
-This description is yet unfinished...
+   Euc'lid Avenue was once one of the finer streets of Naz'ol, lined
+with tall stone houses and shaded by trees.  Now the trees are charred
+stumps and the houses are gutted ruins.  Fragments of bone and dried
+blood litter the street.  A dimly lit alley leads north, a dark alley
+leads south, and the avenue continues east.
 ~
 56 a 1
 D0
@@ -581,8 +643,11 @@ D2
 S
 #5631
 Elijah Street~
-  The further you walk down Elijah st., the more you realize that this town
-is now devoid of all HUMAN life...
+   The further you walk down Elijah Street, the more you realize that
+this town is now devoid of all HUMAN life.  Doors stand open on empty
+homes, tables are still set for meals that were never eaten, and bodies
+lie sprawled where they fell.  The street continues east and west
+through the silent ruins.
 ~
 56 ar 1
 D1
@@ -596,9 +661,10 @@ D3
 S
 #5632
 Elijah Street~
-  As you continue down the street you still cannot find any forms of human 
-life.  To your north there is a faint light coming from beneath a pile of
-toppled over collumns.  
+   As you continue down the street, you still find no trace of living
+people.  To your north, a faint light glimmers from beneath a pile of
+toppled columns, where the front of some building has collapsed.  The
+street continues east and west.
 ~
 56 a 1
 D0
@@ -616,13 +682,15 @@ D3
 E
 north secret collumns collumn~
   There is a small beam of light coming from under a pile of toppled 
-collumns.  Maybe your first sign of human life...?
+columns.  Maybe your first sign of human life...?
 ~
 S
 #5633
 Elijah Street~
-  Still no signs of life, this town is starting to appear completely deserted.
-Maybe if you searched through the rubble, you could find a survivor.
+   Still no signs of life; this town is beginning to seem completely
+deserted.  Charred beams have fallen across the street, and the doors of
+every house hang open or smashed.  Maybe, if you searched through the
+rubble, you could find a survivor.  The street continues east and west.
 ~
 56 ar 1
 D1
@@ -636,8 +704,10 @@ D3
 S
 #5634
 Elijah Street-southeast corner~
-  You have come to a corner in the road.  To the north you think you hear sounds of laughter doming from an unknown source.  Use extreme caution in searching
-through this town of newly spawned evil.
+   You have come to a corner in the road.  To the north, from somewhere
+down a dark alley, you think you hear the sound of laughter.  Use
+extreme caution as you search this town of newly spawned evil.  The
+street leads back west.
 ~
 56 a 1
 D0
@@ -651,8 +721,12 @@ D3
 S
 #5635
 Shadowy, dank alley~
-  You peer all around and see nothing but ruins...
-But wait, is that human laughter you hear coming from the north?
+   You peer all around this shadowy, dank alley and see nothing but
+ruins: heaps of broken stone, charred timbers and shattered pottery.
+Water drips from a broken gutter overhead into a foul-smelling puddle.
+But wait, is that human laughter you hear coming from the north?  The
+alley leads north to Euc'lid Avenue and south to the corner of Elijah
+Street.
 ~
 56 a 1
 D0
@@ -666,7 +740,11 @@ D2
 S
 #5636
 Euc'lid Avenue~
-This description is yet unfinished...
+   Euc'lid Avenue bends here, running west towards the heart of the
+city.  The ruined houses along this stretch were once grand, and
+fragments of carved stone and painted plaster lie among the rubble.  A
+small alley leads off to the north, half hidden between two buildings,
+and a shadowy alley leads back south.
 ~
 56 a 1
 D0
@@ -684,7 +762,11 @@ D3
 S
 #5637
 Small, incognito alley~
-This description is yet unfinished...
+   This small, incognito alley is so narrow and so well hidden between
+two leaning buildings that you might easily have walked past it.  Its
+walls are untouched by fire, and the ground is surprisingly clean, as
+though someone has been taking care to keep it that way.  The alley
+leads north to the corner of Templeton Road and south to Euc'lid Avenue.
 ~
 56 a 1
 D0
@@ -698,7 +780,11 @@ D2
 S
 #5638
 Templeton Road-northeast corner~
-This description is yet unfinished...
+   You stand at the northeast corner of Templeton Road, where it meets a
+small alley leading south.  Templeton Road was once the great market
+street of Naz'ol, and the remains of stalls and awnings still line its
+edges, their bright cloth now tattered and stained with soot.  The road
+runs off to the west.
 ~
 56 a 1
 D2
@@ -712,7 +798,11 @@ D3
 S
 #5639
 Templeton Road~
-This description is yet unfinished...
+   Templeton Road stretches west from its northeastern corner, lined
+with the wreckage of market stalls.  Broken barrels have spilled their
+contents across the cobblestones, where rotting fruit and grain have
+drawn swarms of flies.  Overhead, scraps of colored awning flap weakly
+in the smoky breeze.  The road continues east and west.
 ~
 56 a 1
 D1
@@ -726,7 +816,11 @@ D3
 S
 #5640
 Templeton Road~
-This description is yet unfinished...
+   The wide expanse of Templeton Road is strewn with debris: overturned
+carts, shattered crockery and the trampled remains of what were once
+fine goods.  A merchant's sign, its painted letters scorched beyond
+reading, swings from a single chain above a gutted shop.  The road
+continues east and west.
 ~
 56 a 1
 D1
@@ -740,7 +834,11 @@ D3
 S
 #5641
 Templeton Road~
-This description is yet unfinished...
+   Templeton Road runs on through the ruined market.  Here the stalls
+were torn apart rather than burned, their timbers splintered and flung
+across the street, and deep gouges mark the cobblestones as though great
+claws had raked them.  The silence here is heavy and watchful.  The road
+continues east and west.
 ~
 56 a 1
 D1
@@ -754,7 +852,11 @@ D3
 S
 #5642
 Templeton Road~
-This description is yet unfinished...
+   Templeton Road widens as it approaches Templeton Square to the west,
+and through the haze you can make out the spiral staircase climbing to
+the temple there.  Bodies lie thicker along this stretch, as though the
+people of Naz'ol fled towards the temple in their final hour.  The road
+runs back east.
 ~
 56 a 1
 D1
@@ -768,8 +870,9 @@ D3
 S
 #5643
 Templeton Square~
- You have entered Templeton Square.  Leading east and west is Templeton road, 
-while up there leads a spiral staircase to an average size temple.
+   You have entered Templeton Square.  Templeton Road leads east and
+west, and up a spiral staircase stands a temple of modest size, its
+doors scorched and its windows broken.  Elijah Avenue leads south.
 ~
 56 a 1
 D1
@@ -787,9 +890,10 @@ D3
 S
 #5644
 Templeton Road~
- While walking further down Templteton road, nothing seems to have changed.
-Carnage is everywhere, bodies lay tattered and thrown all over the place like
-decorations.
+   As you walk further down Templeton Road, nothing changes.  Carnage is
+everywhere, and bodies lie tattered and thrown about like grisly
+decorations.  Smoke drifts between the burned-out houses.  The road
+continues east and west.
 ~
 56 a 1
 D1
@@ -803,7 +907,10 @@ D3
 S
 #5645
 Templeton Road~
-This description is yet unfinished...
+   Templeton Road continues west of the square, passing between the
+burned-out shells of what were once the homes of wealthy merchants.
+Iron gates stand twisted and torn from their posts, and ash drifts
+across the street like gray snow.  The road continues east and west.
 ~
 56 ar 1
 D1
@@ -817,7 +924,10 @@ D3
 S
 #5646
 Templeton Road~
-This description is yet unfinished...
+   The western stretch of Templeton Road is quiet and shadowed.  Smoke
+from the smoldering ruins hangs low over the street, so thick in places
+that you can barely see a few paces ahead.  Somewhere nearby, a loose
+shutter bangs slowly in the wind.  The road continues east and west.
 ~
 56 a 1
 D1
@@ -831,7 +941,10 @@ D3
 S
 #5647
 Templeton Road~
-This description is yet unfinished...
+   Templeton Road draws near its western end.  The ruins thin out here
+into patches of scorched garden and broken fencing, and a few blackened
+trees still stand along the edge of the street.  To the west the road
+turns a corner, and to the east it runs back towards the square.
 ~
 56 ar 1
 D1
@@ -845,7 +958,11 @@ D3
 S
 #5648
 Euc'lid Avenue~
-This description is yet unfinished...
+   Euc'lid Avenue runs straight and wide between rows of ruined
+townhouses.  Their stone steps lead up to doors that no longer exist,
+and through the gaping windows you glimpse overturned furniture and
+scattered belongings.  Fragments of bone litter the street.  The avenue
+continues east and west.
 ~
 56 a 1
 D1
@@ -859,7 +976,11 @@ D3
 S
 #5649
 Templeton Road-northwest corner~
-This description is yet unfinished...
+   You stand at the northwest corner of Templeton Road, where the road
+turns south into a dimly lit alley.  The corner is dominated by the
+shell of a large inn, its sign still hanging over the doorway, though
+its upper floors have collapsed into the common room below.  Templeton
+Road runs back to the east.
 ~
 56 ar 1
 D1
@@ -873,7 +994,12 @@ D2
 S
 #5650
 Dimly lit, peaceful alley~
-This description is yet unfinished...
+   This dimly lit alley is strangely peaceful, untouched by the
+destruction that has ravaged the rest of Naz'ol.  Lanterns hang unlit
+from hooks along the walls, and flower boxes beneath the windows still
+hold a few living blooms.  The quiet here is a welcome relief, and it
+seems a safe place to catch your breath.  The alley leads north to
+Templeton Road and south to Euc'lid Avenue.
 ~
 56 cr 1
 D0
@@ -887,7 +1013,11 @@ D2
 S
 #5651
 Euc'lid Avenue~
-This description is yet unfinished...
+   Euc'lid Avenue continues through the ruined city, its once-proud
+houses reduced to rubble and ash.  A low wall of piled stones and broken
+furniture has been thrown across part of the street, perhaps a barricade
+raised by desperate defenders.  It did them little good.  The avenue
+continues east and west.
 ~
 56 a 1
 D1
@@ -901,7 +1031,11 @@ D3
 S
 #5652
 Euc'lid Avenue~
-This description is yet unfinished...
+   Along this stretch of Euc'lid Avenue the destruction seems to have
+been especially savage.  Walls have been torn down to their foundations,
+and the cobblestones are scorched black in great sweeping streaks, as if
+something had breathed fire down the length of the street.  The avenue
+continues east and west.
 ~
 56 a 1
 D1
@@ -915,7 +1049,10 @@ D3
 S
 #5653
 Euc'lid Avenue~
-This description is yet unfinished...
+   Euc'lid Avenue opens up to the east into Central Square, once the
+bustling heart of Naz'ol.  Even from here you can hear the trickle of
+the fountain in the square, a strangely gentle sound amid so much ruin.
+The avenue runs back to the west between rows of gutted houses.
 ~
 56 ar 1
 D1
@@ -971,8 +1108,11 @@ D3
 S
 #5657
 Elijah Avenue~
-  You make your way down the street that now appears to be some kind of 
-battlefield. Bodies lie all around, torn limb from limb.
+   You make your way down a street that now appears to be some kind of
+battlefield.  Bodies lie all around, torn limb from limb, and the
+cobbles are split and cracked as if something enormous had passed this
+way.  The avenue leads north to Templeton Square and south to the
+central square.
 ~
 56 a 1
 D0
@@ -991,8 +1131,11 @@ of the pillar...
 S
 #5658
 Central Square~
-   You are standing in the once great square that people from all over would
-come to brouse the shops, and drink in the bars...
+   You are standing in the once great square where people from all over
+came to browse the shops and drink in the taverns.  Now the awnings are
+torn and burned, the shop windows smashed, and a small fountain still
+flows in the center as if nothing had happened.  Elijah Avenue leads
+north and south, and Euc'lid Avenue east and west.
 ~
 56 ar 1
 D0
@@ -1014,7 +1157,11 @@ D3
 S
 #5659
 Euc'lid Avenue~
-This description is yet unfinished...
+   Euc'lid Avenue leads east away from Central Square.  The houses here
+were tall and narrow, built shoulder to shoulder, and now they lean
+against one another like weary drunks, threatening to collapse at any
+moment.  Dried blood is splashed across their doorsteps.  The square
+lies to the west.
 ~
 56 a 1
 D1
@@ -1028,7 +1175,10 @@ D3
 S
 #5660
 Euc'lid Avenue~
-This description is yet unfinished...
+   The eastern stretch of Euc'lid Avenue is littered with the remains of
+a fierce struggle: broken spears, dented shields and pieces of armor,
+all scattered among the fallen.  The defenders of Naz'ol made a stand
+here, and lost.  The avenue continues east and west.
 ~
 56 a 1
 D1
@@ -1042,10 +1192,11 @@ D3
 S
 #5661
 Euc'lid Avenue~
-  All you can see as you slowly walk down Euc'lid ave. are fragments of
-bone littering the street, and dried blood strewn all over everything you see.
-You think you might see a beam of light coming from a pile of toppled pillars
-to your south.  Maybe human life...maybe Chree'zen...
+   All you can see as you walk slowly down Euc'lid Avenue are fragments
+of bone littering the street and dried blood smeared over everything.
+You think you see a beam of light coming from a pile of toppled pillars
+to the south.  Human life... or Chree'zen?  The avenue continues east
+and west.
 ~
 56 a 1
 D1
@@ -1063,7 +1214,10 @@ D3
 S
 #5662
 Euc'lid Avenue~
-This description is yet unfinished...
+   Euc'lid Avenue runs on between ruined homes and shops.  Smoke still
+curls from a cellar window, and the sharp smell of burned timber fills
+your nose.  In the distance you hear the crunch of something heavy
+moving through the rubble.  The avenue continues east and west.
 ~
 56 a 1
 D1
@@ -1083,10 +1237,11 @@ This description is yet unfinished...
 S
 #5664
 Naz'ol's hidden Armory~
-  Hiding behind a stack of crates, an old, severly beaten and gashed man
-offers you his goods to buy.  One catch...you have to rid his town of the
-evil Chree'zen so his people can return from the shadows and reclaim their 
-town.
+   This cramped hiding place behind a wall of crates was once the back
+room of an armory.  Racks of weapons and pieces of armor have been
+dragged in here and stacked out of sight, and a single candle burns low
+on an upturned barrel.  A gap among the crates leads south to the
+street.
 ~
 56 adgr 0
 D2
@@ -1102,8 +1257,11 @@ can see many types of armor inside...
 S
 #5665
 Naz'ol's hidden general store~
-  As you crawl under the fallen collumns that are the door to this shop, you
-notice a petite young woman hiding behind a pillar.  As you walk closer to her, she realizes that you aren't Chree'zen and she shows you her goods...
+   You crawl under the fallen columns that serve as the door to this
+hidden shop.  Inside, shelves of salvaged goods line the walls of what
+is left of a general store: rope, lanterns, food, blankets, all gathered
+in from the ruined town.  The fallen pillars lead out to the north and
+south.
 ~
 56 cd 1
 D0
@@ -1177,12 +1335,12 @@ hole~
 S
 #5675
 Realm of Morrolan~
-You are standing in a huge room, sparcely decorated with furniture made of
+You are standing in a huge room, sparsely decorated with furniture made of
 the blackest of agate material. There is a large table in the center of the
 room. On it lies a globe of the world of The Dominion. It has all sides of
 the world in vivid detail. Showing castles, towns, and forests perfectly.  
 The western wall seems different than the others in that it is opaque in
-color, and gives off an almost unatural light. There is an inscription
+color, and gives off an almost unnatural light. There is an inscription
 on the wall.
 ~
 56 adjlr 0
@@ -1202,7 +1360,7 @@ The inscription notes:
  
      You are in the Realm of Morrolan. How you got here, I do not know.
 If caught here, it is punishable by instant death. Do not proceed anywhere
-from here. Contact a higher power and ask for imediate removal, or face
+from here. Contact a higher power and ask for immediate removal, or face
 the possibility of death, without compensation.
 
        'Have a nice day' ;)
@@ -1212,7 +1370,7 @@ the possibility of death, without compensation.
 S
 #5676
 The store room of Morrolan~
-Clutered around the floor are artifacts and items from all reaches of the
+Cluttered around the floor are artifacts and items from all reaches of the
 Dominion. You think you can grab them, but fail miserably.
 ~
 56 abfjlm 1
@@ -1356,10 +1514,11 @@ This description is yet unfinished...
 S
 #5699
 Eastern Courtyard of Elrhinn~
-   The center of the courtyard lies in stretches of brick and cobblestones
-to the west, and to the east you see a low building stand with the words,
-'City Hall of Elrhinn' in silver engraving.  Far off to the west, you see
-the busy marketplace.
+   The center of the courtyard lies to the west in broad stretches of
+brick and cobblestone, busy with townsfolk.  To the east stands a low
+building engraved in silver with the words "City Hall of Elrhinn", and
+far off to the west you can see the busy marketplace.  The courtyard
+continues north and south.
 ~
 56 0 1
 D0
@@ -1442,7 +1601,7 @@ as the walls, and has a giant skull on it.
 56 h 1
 D0
 Before you stands a door made purely of onyx. In the center of this great
-door, is platinum skull. It's eyes are eminating with a light that is unseen.
+door, is platinum skull. It's eyes are emanating with a light that is unseen.
 ~
 great door~
 1 5704 5705
@@ -1468,7 +1627,7 @@ D1
 ~
 0 0 5707
 D2
-This door is made out of pure onyx. It looks inpenitrable.
+This door is made out of pure onyx. It looks impenetrable.
 ~
 great door~
 1 5704 5704
@@ -1532,8 +1691,8 @@ Leave now, or face the owner of this magnificent castle."
 S
 #5709
 The stairway~
-You are accending stairs that are very large and VERY black. These stairs
-seem to made for something very, very big. The walls are sparcly lit by
+You are ascending stairs that are very large and VERY black. These stairs
+seem to made for something very, very big. The walls are sparsely lit by
 candles that affixed to the walls.
 ~
 56 hi 1
@@ -1548,8 +1707,8 @@ D5
 S
 #5710
 The stairway~
-You are accending stairs that are very large and VERY black. These stairs
-seem to made for something very, very big. The walls are sparcly lit by
+You are ascending stairs that are very large and VERY black. These stairs
+seem to made for something very, very big. The walls are sparsely lit by
 candles that affixed to the walls.
 ~
 56 hi 1
@@ -1635,7 +1794,7 @@ S
 Room #5716~
 You are atop a great black tower. You look over the edge and see nothing 
 buy infinite darkness. You realize you above the realm of light, and you
-notice that is is much harder to breath up here. You think it may be a 
+notice that it is much harder to breathe up here. You think it may be a 
 good idea to leave.
 ~
 56 aef 1
@@ -1993,7 +2152,11 @@ This description is yet unfinished...
 S
 #5774
 Lancius' basement~
-This description is yet unfinished...
+   You have descended into Lancius' basement, a low, cool room with
+walls of rough-cut stone.  Shelves line the walls, stacked with jars of
+preserves, coils of rope and casks of wine, and a narrow cot has been
+pushed into one corner as if someone has been hiding down here.  The air
+smells of earth and candle wax.  A door leads back up into the house.
 ~
 56 jl 1
 D4

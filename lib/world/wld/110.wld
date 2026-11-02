@@ -1,11 +1,10 @@
 #11000
 A Scraggly Trail~
-   This trail slopes up and away from the main road to 
-the west.  At points the trail seems to fade into 
-obscurity against the grey stone and near-grey mountain 
-grass prevalent here.  The trail leads generally eastward 
-and up higher into the rocky ground.  There is a sign 
-here, seemingly out-of-place in this rough country.
+   This trail slopes up and away from the main road to the west, and at
+times it seems to fade away entirely against the gray stone and the
+near-gray mountain grass that grows everywhere here.  It leads generally
+east, up into rockier ground.  A sign stands here, oddly out of place in
+this rough country.
 ~
 110 0 5
 D1
@@ -34,11 +33,11 @@ sign~
 S
 #11001
 A Scraggly Trail~
-   What could barely be called a trail leads west back 
-down the mountainside, and down into a very small valley 
-where a small house sits in the middle of a well-groomed 
-yard.  The door to the house is open and inviting, 
-welcoming you for a visit.
+   What could barely be called a trail leads west back down the
+mountainside.  Below you lies a very small valley, where a little house
+sits in the middle of a well-kept yard.  Its door stands open, as if
+inviting you to visit, though no smoke rises from its chimney.  You can
+climb down into the valley.
 ~
 110 0 5
 D3
@@ -52,15 +51,12 @@ D5
 S
 #11002
 A Groomed Path~
-   You are standing in the western end of a very, very
-small valley, just about enough room for the one house
-standing to your east.  You can see from here that the
-door to the cozy cottage is open and inviting, but the
-interior seems very dark.  The Widmans River flows right
-by your feet here and you could probably enter the water
-to your south.  A path bordered by shrubberies leads
-up to the structure, and ends where you are standing; right
-by the easiest path back up into the hills.
+   You stand at the western end of a very, very small valley, with just
+about enough room for the one house standing to your east.  The cozy
+cottage's door is open and inviting, but the inside looks very dark.
+The Widmans River flows right past your feet, and you could probably
+enter the water to the south.  A path bordered by shrubs leads up to the
+house, and the easiest way back into the hills lies above.
 ~
 110 0 5
 D1
@@ -78,13 +74,11 @@ D4
 S
 #11003
 Outside a House~
-   The path you are on leads from the front door of the
-cottage to your east, to the edge of the small valley
-to the west.  The building seems quiet...almost too
-quiet.  A small voice in the back of your head, the
-same voice that has saved your life on countless
-occasions, seems to be telling you that something is
-very, very wrong here.
+   The path leads from the front door of the cottage to the east back
+toward the edge of the valley to the west.  The building is quiet...
+almost too quiet.  Scorch marks blacken the doorframe.  A small voice in
+the back of your head, the same one that has saved your life on
+countless occasions, tells you that something is very, very wrong here.
 ~
 110 0 2
 D1
@@ -99,13 +93,12 @@ D3
 S
 #11004
 Smithery~
-   Devastation greets your eyes.
-   The forge has been blasted apart, along with most of 
-the back door.  Hammers, tongs, and anvils lie about in 
-one gigantic mess, and the smith's bed smoulders yet.  
-This place has been utterly wrecked and blasted apart, by 
-more than one man you would think from all the tracks in 
-the dust...
+   Devastation greets your eyes.  The forge has been blasted apart,
+along with most of the back door, and hammers, tongs and anvils lie
+strewn about in one gigantic mess.  The smith's bed still smolders.  The
+place has been utterly wrecked, by more than one man, you would think,
+from all the tracks in the dust.  A garden lies to the east, and the
+front door to the west.
 ~
 110 d 0
 D1
@@ -138,11 +131,11 @@ swords.  You think you may have a motive now...
 S
 #11005
 A Small Garden~
-    This garden was probably once kept orderly and 
-weedless.  Unfortunately, it seems someone has been 
-careless with a fireball.  There's nothing here now but 
-blast-marks and ashes, and the remains of a trail leading 
-to the east edge of this tiny valley.
+   This garden was probably once kept orderly and free of weeds.
+Unfortunately, someone seems to have been careless with a fireball, and
+nothing is left but blast marks, ashes and the charred stalks of beans
+and cabbages.  The remains of a trail lead to the eastern edge of the
+valley, and many boot prints lead that way.
 ~
 110 0 2
 D1
@@ -160,11 +153,11 @@ tracks~
 S
 #11006
 Mountain Ridge~
-   You are standing on a ridge in the mountains, just east
-of a very small valley.  You spot a tiny cottage sitting 
-in the center of the valley, and the ridge continues 
-south.  Looking at the sheer drops to the north and west, 
-you consider not taking those directions.
+   You are standing on a ridge in the mountains, just east of a very
+small valley where a tiny cottage sits.  The ridge continues south, and
+a path leads east through the brush.  Looking at the sheer drops to the
+north, you decide not to go that way.  The tracks in the dirt continue
+south.
 ~
 110 0 5
 D1
@@ -187,13 +180,12 @@ tracks track~
 S
 #11007
 Mountain Ridge~
-    The mountain range continues north from here, and 
-widens out into a small plateau just to your south.  Going
-east and west from here would be a bad idea, considering 
-the steepness of the drop.  From this height, you have a 
-fairly good panoramic view to the south, including what 
-appears to be a small mountain village to your south and 
-west, and a tall, ominous peak westwards from here.
+   The ridge continues north from here and widens into a small plateau
+just to the south.  Going east or west would be a bad idea, considering
+the steepness of the drop.  From this height you have a fine view to the
+south, including what looks like a small mountain village to the
+southwest, and a tall, ominous peak rises to the west.  Boot prints mark
+the dirt.
 ~
 110 0 5
 D0
@@ -211,12 +203,11 @@ tracks track~
 S
 #11008
 Diverging Paths~
-   You are standing on a small plateau in the mountains, 
-just south of a ridge that leads northwards through the 
-rocky area.  To the east, south, and west are gentle 
-slopes leading down into different areas of the mountains.
-A giant, dark peak looks down over you to the west, 
-looking quite spooky indeed!
+   You are standing on a small plateau in the mountains, at the southern
+end of a ridge that runs north through the rocky country.  To the east,
+south and west, slopes lead down into different parts of the mountains.
+A giant, dark peak looms over you to the west, looking quite spooky
+indeed!  Tracks lead off in several directions.
 ~
 110 0 5
 D0
@@ -243,12 +234,10 @@ east, one south.
 S
 #11009
 A Steep Slope~
-   This slopes leads down and to the west from here.  Up 
-above, you see a plateau at the southern end of a long 
-mountain ridge.  Surpisingly, there seems to be signs of 
-traffic in this area, leading into the large depression 
-here.  The going looks somewhat dangerous, and you decide 
-to exercise a little caution.
+   This slope leads down and to the west from the plateau above.
+Surprisingly, there are signs of traffic here, worn paths and scuffed
+stone leading down into a large depression.  The going looks dangerous,
+and you decide to exercise a little caution.
 ~
 110 0 4
 D0
@@ -272,11 +261,10 @@ would call well-travelled.
 S
 #11010
 Small Plateau~
-   You are standing upon another mini-plateau, bordered by
-a sheer wall of rock to the north.  You can climb up the 
-slope to the east, or continue along the flat area to the 
-west.  Another slope leads downwards to the south, looking
-unsafe but climbable.
+   You are standing on another small plateau, bordered by a sheer wall
+of rock to the north.  You can climb up the slope to the east or
+continue along the flat ground to the west.  Another slope leads down to
+the south; it looks unsafe, but climbable.
 ~
 110 0 4
 D1
@@ -294,13 +282,11 @@ D3
 S
 #11011
 Small Plateau~
-   This plateau ends here, with a steep drop-off to the 
-south, and a solid wall of rock to the north.  Eastwards 
-the plateau continues, and you think you can climb up the 
-steep rocky slope just west of here.  You are afforded a 
-good view of the lower regions of this depression, and you
-think you spot what might be a cave south and down from 
-here...
+   The plateau ends here, with a steep drop to the south and a solid
+wall of rock to the north.  To the east the plateau continues, and you
+think you could climb the steep, rocky slope just west of here.  You
+have a good view of the lower parts of the depression, and you think you
+can spot what might be a cave to the south and below.
 ~
 110 0 4
 D1
@@ -314,12 +300,11 @@ D3
 S
 #11012
 Rocky Slope~
-   This slope is fairly treacherous, but looks to be 
-somewhat safer to the north.  East the slope leads down 
-to a small plateau that also looks considerably safer 
-than your other choices.  The shale under your feet 
-slips badly, and you are almost thrown off balance; 
-this is no place to be without mountaineering equipment.
+   This slope is treacherous, though it looks somewhat safer to the
+north.  To the east it leads down to a small plateau that also looks
+safer than your other choices.  The shale slides badly under your feet,
+nearly throwing you off balance; this is no place to be without climbing
+gear.
 ~
 110 0 5
 D0
@@ -333,15 +318,12 @@ D1
 S
 #11013
 Overlook~
-   You are standing on a point outcropping with a 
-beautiful view of the mountains to the north.  Far 
-below, you see what appears to be a foot-path climb 
-up to the central mountain, a peak that looks dark 
-and disturbing.  You get very bad vibes from that 
-mountain for some reason, and it doesn't seem like 
-a very good idea to try to find a way to get there.
-   The only safe way to leave this overlook is to 
-the south.
+   You are standing on a pointed outcrop with a beautiful view of the
+mountains to the north.  Far below you can see a footpath climbing
+toward the central mountain, a peak that looks dark and disturbing.  You
+get very bad feelings about that mountain for some reason, and it
+doesn't seem like a good idea to look for a way there.  The only safe
+way off this overlook is to the south.
 ~
 110 0 4
 D2
@@ -351,11 +333,10 @@ D2
 S
 #11014
 Rocky Slope~
-    You slip and slide your way across the steep ground, 
-trying desperately to keep your balance.  You can climb 
-up to a small plateau to the north from here, or carefully
-head down to the floor of the depression to the west.  
-You're not sure which is safer...
+   You slip and slide your way across the steep ground, trying
+desperately to keep your balance.  You could climb up to a small plateau
+to the north, or carefully make your way down to the floor of the
+depression to the west.  You're not sure which is safer...
 ~
 110 0 5
 D0
@@ -369,12 +350,11 @@ D3
 S
 #11015
 Depression Floor~
-   A small path leads south here, away from the rocky 
-slope leading up to the east.  A small spring burbles 
-here, evidently the cause of much of the traffic.  
-Looking up, you see sheer rock walls surrounding much 
-of the depression, making an effective fortress of
-this place.
+   A small path leads south here, away from the rocky slope that rises
+to the east.  A small spring burbles out of the rocks, plainly the
+reason for much of the traffic, and the ground around it is churned with
+boot prints.  Sheer rock walls surround most of the depression, making
+it a natural fortress.
 ~
 110 0 4
 D1
@@ -388,11 +368,10 @@ D2
 S
 #11016
 Depression Floor~
-   The small path you are standing on leads north, and
-east into what appears to be a large cave hollowed out
-of the mountainside.  The whole place seems quiet, too
-quiet in fact.  Your little adventurer's intuition is
-busily warning you of traps.
+   The small path leads north, and east into what seems to be a large
+cave hollowed out of the mountainside.  The whole place is quiet, too
+quiet in fact, and your adventurer's intuition is busily warning you of
+traps.
 ~
 110 0 4
 D0
@@ -406,13 +385,12 @@ D1
 S
 #11017
 Cave Entrance~
-   A cave leads into the heart of the mountainside, well-
-lit by sconces upon the walls.  A large rock sits by 
-the side here, near a small firepit.  Debris litters the 
-area; rabbit bones, half of a broken whetstone, and random
-litter.  The ground is devoid of grass, and well trodden 
-by many pairs of boots.  Strange that someone should live 
-so deep in the mountains...
+   A cave leads into the heart of the mountain here, well lit by sconces
+on its walls.  A large rock sits beside a small fire pit, and debris
+litters the area: rabbit bones, half of a broken whetstone and other
+rubbish.  The ground is bare of grass and trodden hard by many pairs of
+boots.  Strange that someone should live so deep in the mountains...
+The cave leads east, and the depression lies west.
 ~
 110 c 0
 D1
@@ -426,13 +404,11 @@ D3
 S
 #11018
 Cave Passageway~
-   You are near the entrance of the cave.  The outside 
-light streams in from the west, accompanied by a slight 
-breeze, making the flames in the sconces flutter a bit
-and throw stange shadows upon the walls.  This passageway 
-heads north and south from here, each way seeming dark and
-stuffy compared to outdoors.  From the tracks in the 
-floor, you guess that the north is the more used.
+   You are near the entrance of the cave.  Daylight streams in from the
+west with a slight breeze, making the flames in the sconces flutter and
+throw strange shadows on the walls.  The passage runs north and south,
+each way dark and stuffy compared to the outdoors.  From the tracks on
+the floor, you guess that the north is more used.
 ~
 110 d 0
 D0
@@ -450,12 +426,10 @@ D3
 S
 #11019
 Cave Passageway~
-   The passage turns here, one end leading south, towards 
-the cave's entrance, and east -- that much deeper into the
-mountain.  The light sconces keep the area bright enough 
-to see, but not nearly bright enough for you to be quite 
-comfortable in this strange place.  From far off you hear 
-the echoes of what sound to be voices.
+   The passage turns here, leading south toward the cave's entrance and
+east deeper into the mountain.  The sconces keep the passage bright
+enough to see by, but not nearly bright enough to be comfortable in this
+strange place.  From far off come the echoes of what sound like voices.
 ~
 110 d 0
 D1
@@ -469,11 +443,9 @@ D2
 S
 #11020
 Cave Passageway~
-   This twisty passage leads east and west from here.  
-Eastwards you hear the unmistakable sounds of low 
-voices.  The echoes seem to be playing funny effects 
-on you, however, and you are not sure  from how far 
-off these voices might be coming.
+   This twisting passage leads east and west.  To the east you hear the
+unmistakable murmur of low voices, but the echoes play tricks on your
+ears, and you cannot tell how far off they might be.
 ~
 110 d 0
 D1
@@ -487,11 +459,9 @@ D3
 S
 #11021
 Cave Passageway~
-   The passage you are standing in turns west and south 
-from here.  One of the sconces here is out, making this 
-area extremely dark and hard to see in.  You do see lights
-from the south, however, seemingly brighter than the 
-sconces you've seen along the walls so far.
+   The passage turns west and south here.  One of the sconces has gone
+out, leaving this stretch very dark and hard to see in, but brighter
+light shines from the south.
 ~
 110 d 0
 D2
@@ -505,13 +475,11 @@ D3
 S
 #11022
 Cave Passageway~
-   This is a T-intersection in the cave passageway, the 
-north leading back towards the cave's entrance (you 
-think!), the west leading towards a well-lighted area.  
-Eastwards the passageway continues into the shadowy 
-recesses of the mountain uninvitingly.  The echoes of 
-voices are confusing you a bit, and you are not sure 
-whether you should try to remain quiet or not.
+   This is a T-shaped intersection in the passage.  North leads back
+toward the entrance of the cave (you think!), west leads toward a
+well-lit area, and east the passage continues uninvitingly into the
+shadowy depths of the mountain.  The echoing voices confuse you, and you
+are not sure whether you ought to stay quiet or not.
 ~
 110 d 0
 D0
@@ -529,10 +497,10 @@ D3
 S
 #11023
 Cave~
-   Many sconces line the walls here, casting light on 
-some weapon racks and chests of armor.  Everything
-is neat, orderly, and actually well-dusted.  Someone
-cares for these items...frequently it seems.
+   Many sconces line the walls here, lighting racks of weapons and
+chests of armor.  Everything is neat, orderly and actually well dusted;
+someone cares for these things, and frequently, it seems.  The passage
+lies to the east.
 ~
 110 d 0
 D1
@@ -542,12 +510,10 @@ D1
 S
 #11024
 Cave Passageway~
-   The passageway you are in leads south and west from 
-here.  Many large stones and rocks are on the floor of the
-cave, making walking difficult in the dim light from the 
-sconces on the walls.  You hear the continued echo of 
-voices, seemingly fainter now.  Must be the strange 
-acoustics of this place...
+   The passage leads south and west from here.  Large stones and rocks
+litter the floor, making walking difficult in the dim light of the
+sconces.  The echo of voices continues, fainter now; it must be the
+strange acoustics of this place...
 ~
 110 d 0
 D2
@@ -561,10 +527,9 @@ D3
 S
 #11025
 Cave Passageway~
-   The cave twists around like a coiled snake, leading 
-east and north from here.  You begin to wonder if your 
-orientations are still correct.  That worries you for
-some reason.
+   The cave twists around like a coiled snake here, leading east and
+north.  You begin to wonder whether you still know which way is which,
+and that worries you.
 ~
 110 d 0
 D0
@@ -578,13 +543,10 @@ D1
 S
 #11026
 Cave Passageway~
-   You can head north and west through the cave passageways
-here, both ways dimly lit by the ever-present sconces on 
-the walls.  The echoes you heard earlier seem to be getting
-louder, and seem to be coming from the northern passage.  
-You feeled a bit chilled from the cooled cave air and 
-shiver a bit in the faint whisper of a breeze.  This place 
-is a little too eerie and dark to be comfortable in.
+   You can head north or west through the passages here, both dimly lit
+by the ever-present sconces.  The voices you heard earlier seem louder
+now and seem to come from the north.  A faint breeze whispers through
+the cool cave air, and you shiver.
 ~
 110 d 0
 D0
@@ -598,12 +560,10 @@ D3
 S
 #11027
 Cave Passageway~
-   The echoes are growing louder, and seem to be coming 
-from the northern end of this corridor.  Southwards you 
-see the tunnel continue right before yet another bend in 
-the passagway.  You spot a small piece of red cloth torn 
-against a sharp rock jutting out from the passage's side.  
-It looks like silk, very nice in fact.
+   The echoes are growing louder, coming from the northern end of this
+corridor, and to the south the tunnel continues to yet another bend.  A
+small piece of red cloth has caught on a sharp rock jutting from the
+passage wall.  It looks like silk, and very fine silk at that.
 ~
 110 d 0
 D0
@@ -617,12 +577,10 @@ D2
 S
 #11028
 Cave Passageway~
-   The main passageway leads south from here, and a smaller
-cave tunnel leads away to the west.  Two large boulders 
-sit against the wall, wiped clean of dirt and grime.  A 
-paper food wrapper has been trodden under several pairs of 
-feet here; at best guess, you'd say this would probably be 
-a guard post.
+   The main passage leads south from here, and a smaller tunnel leads
+away to the west.  Two large boulders sit against the wall, wiped clean
+of dirt and grime, and a paper food wrapper has been trodden under many
+feet.  At a guess, you'd say this is a guard post.
 ~
 110 d 0
 D2
@@ -636,13 +594,11 @@ D3
 S
 #11029
 End of the Passageway~
-   The cave passageway ends abruptly here to the north in 
-a large wooden door set into the stone walls.  The 
-craftsmanship is superb!  You can also head back to the 
-main passage to the west, where there seems to be more
-light than here.  An echo from down the passage makes you 
-wonder for a moment if you're being followed, but you
-see nothing there...
+   The passage ends abruptly to the north at a large wooden door set
+into the stone, and its craftsmanship is superb.  You can also head back
+east to the main passage, where there is more light.  An echo from down
+the passage makes you wonder for a moment whether you are being
+followed, but you see nothing there...
 ~
 110 d 0
 D0
@@ -657,13 +613,12 @@ D1
 S
 #11030
 Cavern~
-   This natural cavern has been turned into a combination 
-office/storeroom.  A small brook rushes through the south 
-wall, and flows back into the west wall through a tiny 
-hole.  Boxes and crates are stacked against the walls, and 
-a beat up oaken desk stands near the door stacked with 
-papers written upon by an unsteady hand.  Some large 
-lanterns keep the place very well lighted.
+   This natural cavern has been turned into a combination office and
+storeroom.  A small brook rushes in through the south wall and flows out
+again through a tiny hole in the west wall.  Boxes and crates are
+stacked against the walls, and a battered oaken desk near the door is
+piled with papers written in an unsteady hand.  Large lanterns keep the
+place brightly lit.  A wooden door leads south.
 ~
 110 d 0
 D2
@@ -674,12 +629,10 @@ door wooden~
 S
 #11031
 Cave Passageway~
-   You are standing south of the main entrance to this 
-cave.  The passage you are in continues south, very badly 
-lit along its length by the sconces lining the walls 
-every fifteen feet or so.  From somewhere deep in the 
-recesses of the cave, you hear a faint, rhythmic thumping 
-sound distorted by the passage's strange acoustics.
+   You are south of the main entrance to the cave.  The passage
+continues south, very poorly lit by sconces spaced every fifteen feet or
+so.  From somewhere deep in the cave comes a faint, rhythmic thumping,
+distorted by the passage's strange acoustics.
 ~
 110 d 0
 D0
@@ -693,11 +646,10 @@ D2
 S
 #11032
 Cave Passageway~
-   You are standing at the southern bend of this passage,
-able to head east and north from here.  The rock around you
-echoes the sound of far-off pounding to you, making the
-place seem somehow alive, with a heartbeat.  This place
-is fairly eerie, now that you come to think of it.
+   You are standing at the southern bend of this passage, which leads
+east and north.  The rock around you echoes with far-off pounding, as if
+the mountain itself had a heartbeat, and the place seems somehow alive.
+It is fairly eerie, now that you think about it.
 ~
 110 d 0
 D0
@@ -711,11 +663,10 @@ D1
 S
 #11033
 Cave Passageway~
-   The passageway makes a U-turn here, heading north and
-westwards to the other side of the 'U'.  The air seems
-humid and hard to breathe.  Some algae grows near the
-floor in the slick spots, giving a definite subtle smell
-of rot to the air.
+   The passage makes a U-turn here, heading north and west to the other
+side of the bend.  The air is humid and hard to breathe, and slimy green
+algae grows near the floor in the wet spots, giving the air a subtle
+smell of rot.
 ~
 110 d 0
 D0
@@ -729,10 +680,9 @@ D3
 S
 #11034
 Cave Passageway~
-   The tunnel twists to the south and east from here, 
-its dark length seemingly dismal and lifeless.  A faint 
-thumping sound reverberates from the walls, making you 
-perk your ears for the direction of the noise.
+   The tunnel twists south and east from here, its dark length dismal
+and lifeless.  A faint thumping sound reverberates from the walls, and
+you strain your ears to tell where it is coming from.
 ~
 110 d 0
 D1
@@ -746,13 +696,11 @@ D2
 S
 #11035
 Cave Passageway~
-   This area darker than the rest of the passageway, due
-to the fact that the sconces along the walls stop abruptly
-here.  The way to the south is completely dark, in direct
-contrast to the tunnels to the west.  You peer hard to the
-south, but can make out nothing in the impenetrable 
-darkness.  And still that distant thumping impinges on 
-your consciousness...
+   This stretch is darker than the rest of the passage, for the sconces
+along the walls stop abruptly here.  The way to the south is completely
+dark, in stark contrast to the lit tunnels to the west, and you peer
+hard into it but can make out nothing at all.  And still that distant
+thumping nags at the edge of your hearing...
 ~
 110 d 0
 D2
@@ -766,13 +714,11 @@ D3
 S
 #11036
 Cave Passageway~
-   You are standing in a north-south tunnel carved 
-naturally through the stone of the mountain.  To the 
-north the tunnel is lighted by sconces along the wall, 
-banishing the deep, deep darkness you now stand in.  To 
-the south you can see nothing.  A deep thumping noise 
-seems to be getting louder and louder as you stand here, 
-coming from somewhere deep inside.
+   You are standing in a north-south tunnel carved naturally through the
+stone of the mountain.  To the north the tunnel is lit by sconces that
+hold back the deep, deep darkness you now stand in; to the south you can
+see nothing.  A deep thumping grows louder and louder as you stand here,
+coming from somewhere far within.
 ~
 110 ad 0
 D0
@@ -786,11 +732,10 @@ D2
 S
 #11037
 Cave Passageway~
-   The passageway switches directions again in the dark 
-gloom of the mountain, heading to the north and east from 
-here.  As you round the corner, a trick of the acoustics 
-make the deep thrumming and pounding you've been hearing 
-sound as if its coming from two feet away!  Very unsettling.
+   The passage changes direction again in the gloom, heading north and
+east.  As you round the corner, a trick of the acoustics makes the deep
+pounding you have been hearing sound as though it were coming from two
+feet away!  Very unsettling.
 ~
 110 ad 0
 D0
@@ -804,10 +749,9 @@ D1
 S
 #11038
 Cave Passageway~
-   The tunnel weaves around, twisting to the north and 
-west here.  The darkness around you is near total.  Ahead, 
-you hear the sounds of something metal banging against 
-stone.  Could someone be mining out the tunnel, perhaps?
+   The tunnel weaves around, twisting north and west, and the darkness
+is almost total.  Ahead you hear the sound of metal striking stone.
+Could someone be digging out the tunnel?
 ~
 110 ad 0
 D0
@@ -821,11 +765,10 @@ D3
 S
 #11039
 Cave Passageway~
-   A glimmer of light to the east alerts you to the fact
-that something is going on in the tunnel nearby.  The south
-exit of the tunnel leads off into complete darkness.  All
-around on the ground are piles of earth and stone, making
-you have to wend through the tunnel carefully.  Hmm.
+   A glimmer of light to the east tells you that something is going on
+nearby.  The southern tunnel leads off into complete darkness.  Piles of
+earth and stone lie everywhere on the ground, and you must pick your way
+carefully between them.  Hmm.
 ~
 110 ad 0
 D1
@@ -839,11 +782,11 @@ D2
 S
 #11040
 End of Passage~
-   The tunnel stops abruptly here at a fissure in the stone.
-All around on the ground are rocks and gravel, mined from
-the fissure in an attempt to widen it enough for passage.
-A few pieces of paper litter and wrappers tells you that
-the work here is relatively recent.
+   The tunnel stops abruptly here at a fissure in the stone.  Rocks and
+gravel lie all about, dug from the fissure in an effort to widen it
+enough to pass through, and a few scraps of paper and food wrappers tell
+you the work is recent.  Picks and buckets lean against the wall.  The
+passage lies to the west.
 ~
 110 d 0
 D3
@@ -853,14 +796,12 @@ D3
 S
 #11041
 A Rocky Slope~
-   This treacherous slope leads ever-downward quite a ways,
-down to a valley where there seems to be a small village!  
-What a village is doing this far from civilization, and how
-they survive you've no idea.  From the smoke wafting from 
-some of the chimneys, it looks like this place is still 
-inhabited as well.
-   Now if you can only get down this slope without breaking
-an ankle...
+   This treacherous slope leads down a long way into a valley, where
+there seems to be a small village!  How a village came to be this far
+from civilization, and how it survives, you have no idea, but smoke
+drifting from some of the chimneys shows that people still live there.
+Now if you can only get down this slope without breaking an ankle...
+The slope leads east and west.
 ~
 110 0 5
 D1
@@ -874,10 +815,10 @@ D3
 S
 #11042
 A Rocky Slope~
-Just to the east you see a dark, ancient trail leading into a
-jagged range of mountains.  A low rumble from the east causes the ground
-the shiver violently.  To the west you see a trail lead back down the rocky
-slope.
+   Just to the east you see a dark, ancient trail leading into a jagged
+range of mountains.  A low rumble from the east makes the ground shiver
+violently beneath your feet.  To the west the trail leads back down the
+rocky slope.
 ~
 110 c 5
 D1
@@ -892,11 +833,11 @@ S
 #11043
 Main Road~
    This place leaves you very unimpressed.  And bored.  You are
-definitely bored by this place.  The people are listless, going
-about their business with a slowness that pains your eyes.  A 
-slope to the west climbsup the mountainside, and  an open shop
-made of wood and stone stands to your south.  Eastwards this
-road continues.  To the north is some sort of toll house.
+definitely bored by this place.  The people are listless and go about
+their business with a slowness that pains your eyes.  A slope to the
+west climbs up the mountainside, and a shop of wood and stone stands
+open to the south.  The road continues east, and to the north stands
+some sort of toll house.  A sign stands here.
 ~
 110 0 1
 D0
@@ -921,14 +862,14 @@ If yer headin west be sure to take along enough supplies
    (In other words be VERY WELL PREPARED!!  BEWARE THE GIANTS!!)
 If yer headin east Be Sure to stop on in at the Mountain Tavern
    and give us a hello
-Northards you may find easier travelling than if ya take to the mountains
+Northwards you may find easier travelling than if ya take to the mountains
    to the west...
 We bid ye good journey's wher're ye may head, Friend!
 ~
 S
 #11044
 The Mountain Tavern~
-Hmm.  Looks like there's no one here, not even an
+Hmm.  Looks like there's no one here, not even a
 bartender.  Evidently you've come during off hours,
 since no bar could be THIS dull.  The walls are 
 decorated with mounted animal heads and arrows
@@ -943,8 +884,12 @@ D2
 S
 #11045
 General Store~
-A bored shopkeeper waves an idle hand towards his stock
-of stuff.  Browse, type list, buy, sell, whatever...
+   This cluttered general store is crammed with a little of everything:
+coils of rope, lanterns, sacks of flour, bolts of cloth, tools and
+trinkets piled on shelves that sag under the weight.  A bored shopkeeper
+behind the counter waves an idle hand towards his stock of stuff.
+Browse, type list, buy, sell, whatever...  The door leads north to the
+Main Road.
 ~
 110 d 0
 D0
@@ -954,11 +899,9 @@ D0
 S
 #11046
 Main Road~
-Nothing is going on in this section of village either.
-To the east is an actual road intersection, and to the
-west you see one of the ends of this road.  A large
-grassy area to the south is fenced off for a horse
-corral.
+   Nothing is going on in this part of the village either.  To the east
+is an actual road intersection, and to the west you see one end of the
+road.  A large grassy area to the south is fenced off as a horse corral.
 ~
 110 0 1
 D1
@@ -976,11 +919,11 @@ D3
 S
 #11047
 Corral~
-Many horses look up at you when you enter this corral.
-The horses are kept in by a big wooden fence, which 
-they seem quite happy to been kept in by.  You don't
-see anyone around taking care of these horses, but
-someone is probably close by.
+   Horses look up from their grazing as you enter this corral.  A sturdy
+wooden fence keeps them in, and they seem quite content to stay.  A
+water trough stands by the gate, and the smell of hay and horse is
+everywhere.  You see no one tending the horses, but someone is probably
+close by.  The road lies to the north.
 ~
 110 d 0
 D0
@@ -990,10 +933,10 @@ D0
 S
 #11048
 Intersection~
-  You are standing in an intersection deep in the heart of Stanneg by the
-Mountains.  In fact, this is the only intersections anywhere in Stanneg
-by the Mountains it appears.   There are some buildings to the north,  
-south, east, and west.  None particularly stand out from the others.
+   You are standing at an intersection in the heart of Stanneg by the
+Mountains.  In fact, it seems to be the only intersection anywhere in
+Stanneg by the Mountains.  Buildings stand to the north, south, east and
+west, none of them particularly standing out from the others.
 ~
 110 0 1
 D0
@@ -1015,12 +958,10 @@ D3
 S
 #11049
 Small Road~
-   This road runs north through Stanneg by the Mountains, 
-if through would be the operative word for such a motley 
-collection of buildings.  Westwards is a small, open-roofed
-building that appears to be a farmer's market.  The road 
-you are on continues north, and comes to an intersection 
-just south of here.
+   This road runs north through Stanneg by the Mountains, if "through"
+is the word for such a motley collection of buildings.  To the west is a
+small, open-roofed building that appears to be a farmer's market.  The
+road continues north, and to the south it reaches the intersection.
 ~
 110 0 1
 D0
@@ -1038,9 +979,12 @@ D3
 S
 #11050
 Farmer's Market~
-One farmer's wife stands here, waiting for someone
-to buy the food her family has grown.  She looks
-bored, but not unhappy...no competition!
+   This small farmer's market is little more than a wooden stall beneath
+a patched canvas awning, its tables heaped with baskets of carrots,
+turnips, apples and fresh-baked loaves.  A farmer's wife stands here,
+waiting for someone to buy the food her family has grown.  She looks
+bored, but not unhappy... no competition!  The small road lies to the
+east.
 ~
 110 0 0
 D1
@@ -1050,10 +994,10 @@ D1
 S
 #11051
 Small Road~
-   The small, north-south road running through Stanneg
-by the Mountains ends here, curving to become the front
-walk of a private home to the east.  The road runs south
-from this house, towards the center of the village.
+   The small north-south road through Stanneg ends here, curving to
+become the front walk of a private home to the east.  Flowers have been
+planted along the walk.  The road runs south toward the center of the
+village.
 ~
 110 0 1
 D0
@@ -1073,12 +1017,11 @@ D2
 S
 #11052
 Private Home~
-   The interior of this home is simple and rustic.  A 
-ladder leads up to the loft, where the sleeping pallets 
-are tucked away.  A wood-burning stove keeps the place 
-well heated and cozy.  A homemade rocking chair stands 
-crooked in the corner, draped with a old looking afghan.  
-This home is a nice place, very comfortable.
+   The inside of this home is simple and rustic.  A ladder leads up to a
+loft where sleeping pallets are tucked away, and a wood-burning stove
+keeps the place warm and cozy.  A homemade rocking chair stands crooked
+in the corner, draped with an old afghan.  It is a nice place, very
+comfortable.  The front door leads west.
 ~
 110 d 0
 D3
@@ -1089,10 +1032,9 @@ door front~
 S
 #11053
 Small Road~
-   The road ends here, leading up to a stone house
-to the south.  Smoke rises from the chimney in a dark
-stream, and the windows are frosted over with humidity.
-North, you see the main intersection of Stanneg.
+   The road ends here at a stone house to the south.  Smoke pours from
+its chimney in a dark stream, and its windows are fogged over with
+steam.  To the north you can see the main intersection of Stanneg.
 ~
 110 0 1
 D0
@@ -1107,11 +1049,11 @@ door front~
 S
 #11054
 Private Home~
-   This home strikes you as unbearable warm and uncomfortable.
-The fireplace is going at a full-bonfire, a mammoth stack of
-firewood beside it against the wall.  The decorations seem
-somewhat spartan and plain; a landscape, an old hunting 
-bow...nothing much of interest.
+   This home strikes you as unbearably warm and uncomfortable.  The
+fireplace is roaring like a bonfire, with a mammoth stack of firewood
+beside it against the wall.  The decorations are spartan and plain: a
+landscape, an old hunting bow... nothing much of interest.  The front
+door leads north.
 ~
 110 d 0
 D0
@@ -1122,12 +1064,12 @@ door front~
 S
 #11055
 Main Road~
-   You are standing on the Main Road of Stanneg Village.  This town
-is directly between the Pelarinne Forest and the Western Mountains.
-Probably was developed in hopes that the travellers would need extra,
-last minute supplies and would buy them from Stanneg...from the looks
-of things the plan didn't go over too well.  
-  There is a sign here.
+   You are standing on the Main Road of Stanneg Village, which lies
+directly between the Pelarinne Forest and the Western Mountains.  It was
+probably built in hopes that travelers would need last-minute supplies
+and buy them here; from the look of things, the plan didn't work out too
+well.  Double doors lead north into an inn, a small road leads east, and
+the intersection lies west.  There is a sign here.
 ~
 110 0 1
 D0
@@ -1152,18 +1094,18 @@ point in the Dominion, though it was quite small and insignificant
 otherwise.  The Western Mountains were a key part in the High Lord's
 of Glasgian's following and Cair had moved her forces into the very heart
 of the mountains already.  
-  The people of Stanneg were used as messangers and runners between the
+  The people of Stanneg were used as messengers and runners between the
 Muhrian army and the Golden Knights of Glasgian.  The homes were turned
 ~
 S
 #11056
 Stanneg Inn~
-   This is a plainly decorated room, the main room of the
-Stanneg Inn.  A large arch to the west leads to a common
-room where food and drink can be ordered, and a set of
-rickety wooden stairs lead up to the rooms are.  A thread-
-bare rug lies in the middle of the floor, evidently well-
-loved by a cat or two from the quantity of hair on it.
+   This is the plainly decorated main room of the Stanneg Inn.  A large
+arch to the west leads to a common room where food and drink can be
+ordered, and a set of rickety wooden stairs leads up to the rooms.  A
+threadbare rug lies in the middle of the floor, plainly well loved by a
+cat or two, judging by the amount of hair on it.  Double doors lead
+south.
 ~
 110 d 0
 D2
@@ -1182,12 +1124,11 @@ D4
 S
 #11057
 Common Room~
-   A large fireplace warms this room in great waves of
-heat, to combat the chill drafts eminating from the windows
-on the west and north sides of this room.  A few benches
-and tables are clustered in the center of the room, for
-the use of the locals.  Fairly plain, for a frequented
-gathering place.
+   A large fireplace warms this room in great waves of heat, fighting
+the chill drafts that seep in through the windows on the west and north
+sides.  A few benches and tables are clustered in the center for the use
+of the locals.  It is fairly plain, for a popular gathering place.  The
+arch leads east.
 ~
 110 d 0
 D1
@@ -1197,10 +1138,10 @@ D1
 S
 #11058
 Reception~
-   A hall leads away to the west lined with small brown doors.  A small
-table has a ledger on it, seemingly almost unused.  The hall is plain and
-without any decoration, except for a nice painting of (what  else) a
-mountain hanging above the stairs that lead back down to the inn proper.
+   A hall lined with small brown doors leads away to the west.  A small
+table holds a ledger that seems almost unused.  The hall is plain and
+undecorated, except for a nice painting of (what else) a mountain,
+hanging above the stairs that lead back down to the inn.
 ~
 110 d 0
 D5
@@ -1210,12 +1151,11 @@ D5
 S
 #11059
 A Rocky Slope~
-   This slope is fairly shallow and easy to walk on, 
-despite the loose shale and gravel.  To the east is a high 
-ridge you could stand on, and to the west is a flat area 
-near two trails leading up and down into the mountains.  
-High above you, to your west, is that ominous, dark peak, 
-which seems to radiating a sense of hopelessness...
+   This slope is fairly gentle and easy to walk on, despite the loose
+shale and gravel.  To the east is a high ridge you could stand on, and
+to the west a ledge near two trails leading up and down into the
+mountains.  High above you to the west looms the ominous dark peak,
+which seems to radiate a sense of hopelessness...
 ~
 110 0 5
 D1
@@ -1229,13 +1169,11 @@ D3
 S
 #11060
 Ledge~
-   This ledge overlooks a small path that leads up and 
-down from here.  Below, you see the path head down to a 
-large flat area where a small cottage lies nestled in the 
-mountains, smoke rising from it in a curling line.  Above, 
-the path seems to head towards that dark peak piercing the 
-sky.  You notice a few boot-tracks in the earth, seemingly 
-to lead down towards the cottage.
+   This ledge overlooks a small path that leads up and down from here.
+Below, the path heads down to a flat area where a small cottage lies
+nestled in the mountains, smoke rising from it in a curling line.
+Above, the path seems to lead toward the dark peak piercing the sky.  A
+few boot prints in the earth seem to lead down toward the cottage.
 ~
 110 0 4
 D1
@@ -1253,12 +1191,11 @@ D5
 S
 #11061
 Outside of a Cottage~
-   Now that you approach closer to the cottage, you notice 
-that the smoke is not coming from the chimney, but rather 
-the gutted ruins of the building.  Something torched this 
-place, badly.  You see no signs of life among the wreckage.
-You can enter one of the particularly large holes in the 
-wall to the west, with caution.
+   Now that you are closer to the cottage, you see that the smoke is not
+coming from its chimney but from the gutted ruins of the building
+itself.  Something torched this place, badly.  You see no signs of life
+among the wreckage.  You could enter, with caution, through one of the
+particularly large holes in the wall to the west.  The path leads up.
 ~
 110 0 4
 D3
@@ -1272,12 +1209,11 @@ D4
 S
 #11062
 Torched Cottage~
-   This whole place is smouldering still from whatever 
-decided to try to burn it to the ground.  On the floor 
-near the center of the ruined structure is the burnt and 
-dessicated corpse of a man, outstretched and blackened.  
-There's not much to see here; whatever decided to destroy 
-this place did it very well.
+   This whole place is still smoldering from whatever tried to burn it
+to the ground.  Near the center of the ruin lies the burnt and shriveled
+corpse of a man, outstretched and blackened.  A trapdoor is set into the
+floor beneath the ashes.  There's not much else to see; whatever
+destroyed this place did its job very well.  The way out lies east.
 ~
 110 0 0
 D1
@@ -1296,13 +1232,11 @@ the body you notice some sort of latch to a trapdoor.
 S
 #11063
 Mountain Trail~
-   This mountain trail leads straight up into the evil 
-looking mountains.  High above you, one mountain peak 
-seems to radiate danger and fear, and the trail seems 
-to be leading straight up to it.  You wonder if it is 
-wise to continue this way...
-   The trail goes even higher up to the west, and back 
-down to the east.
+   This mountain trail leads straight up into the evil-looking
+mountains.  High above you, one peak seems to radiate danger and fear,
+and the trail seems to lead straight toward it.  You wonder whether it
+is wise to continue...  The trail climbs higher to the west, and back
+down to the ledge below.
 ~
 110 0 5
 D3
@@ -1316,11 +1250,10 @@ D5
 S
 #11064
 Mountain Trail~
-   The trail leads up even higher into the mountains to the
-west here.  You shiver as the cold mountain air washes over
-you, and your back prickles as you wonder if anything lives
-up here, or anything _dangerous_ for that matter.  Maybe 
-heading back down to the east would be a good idea...
+   The trail leads still higher into the mountains to the west.  You
+shiver as the cold mountain air washes over you, and your back prickles
+as you wonder whether anything lives up here, anything dangerous, that
+is.  Maybe heading back down to the east would be a good idea...
 ~
 110 0 5
 D1
@@ -1334,10 +1267,10 @@ D3
 S
 #11065
 Mountain Trail~
-   The trail leads up the side of the tallest mountain in 
-the range--the one that sticks up into the dark sky like a 
-monument to death and futility.  The trail leads back to 
-safety to the east, and goes even higher to the west.
+   The trail climbs the side of the tallest mountain in the range, the
+one that juts into the dark sky like a monument to death and futility.
+The trail leads back toward safety to the east, and higher still to the
+west.
 ~
 110 0 5
 D1
@@ -1351,12 +1284,10 @@ D3
 S
 #11066
 Near the Peak~
-   This is as close to the peak as you're going to get, 
-unless you use that tiny, tiny path leading up to your 
-north.  Up the side of the mountain you see a great cave 
-hollowed out, the inside pitch black.  The path leads down 
-the mountains to your east, which seems to be the best 
-place to go.
+   This is as close to the peak as you are going to get, unless you take
+the tiny, tiny path leading up to the north.  Further up the side of the
+mountain you see a great cave, its mouth pitch black.  The trail leads
+down the mountain to the east, which seems the best way to go.
 ~
 110 0 5
 D0
@@ -1370,10 +1301,10 @@ D1
 S
 #11067
 Small, Dangerous Path~
-   This path leads up, up, up the side of the mountain, to 
-the evil-seeming cave.  It also heads down to the south--a 
-lot safer place to be.  In fact, you hear footsteps above 
-your head...
+   This path climbs up, up, up the side of the mountain toward the
+evil-looking cave.  It also leads back down to the south, a much safer
+place to be.  In fact, you can hear footsteps somewhere above your
+head... and pebbles trickle down past you.
 ~
 110 0 5
 D2
@@ -1387,11 +1318,11 @@ D4
 S
 #11068
 Small, Dangerous Path~
-   Unfortunately, you realize too late that this bigger 
-ledge that leads north to the darkened cave is an ideal 
-spot for an ambush.  This ledge gives you a beautiful 
-panoramic view of the entire mountain range, however.  
-Breathtaking!
+   Too late, you realize that this wider ledge leading north to the
+darkened cave is an ideal spot for an ambush.  It does, however, give
+you a beautiful panoramic view of the whole mountain range, its peaks
+marching away into the haze.  Breathtaking!  The cave lies north, and
+the path leads down.
 ~
 110 0 5
 D0
@@ -1405,13 +1336,11 @@ D5
 S
 #11069
 Cave Entrance~
-   You are standing in the entrance of a simply huge cave!
-The size is stunning!  All around the entrance are burnt 
-bones and various types of wooden and metal debris.  Giant 
-claw marks are all along the ground, leading back deeper 
-into the cave.
-   Two tunnels lead off from here, one up, one down.  There
-are claw marks leading in either direction.
+   You are standing in the entrance of a simply huge cave!  Its size is
+stunning!  Burnt bones and debris of wood and metal lie all about, and
+giant claw marks score the ground, leading deeper into the cave.  Two
+tunnels lead off from here, one up and one down, and the claw marks lead
+both ways.  The ledge lies to the south.
 ~
 110 ad 4
 D2
@@ -1429,10 +1358,9 @@ D5
 S
 #11070
 Sloping Tunnel~
-   The tunnels slopes up to the north deeper into the 
-mountain.  A rather gusty breeze riffles your clothing 
-from ahead somewhere.  The claw marks in the stone floor 
-continue up the passage, through the darkness.
+   The tunnel slopes up and north, deeper into the mountain.  A gusty
+breeze ruffles your clothing from somewhere ahead, and the claw marks in
+the stone floor continue up the passage into the darkness.
 ~
 110 ad 0
 D0
@@ -1446,11 +1374,10 @@ D5
 S
 #11071
 Sloping Tunnel~
-   The tunnel continues its slope upwards, and the wind 
-blows at you even stronger yet.  The claw tracks in the 
-stone stop abruptly here, where there seems to be a lot of 
-unearthed dirt and stone around, heaped upon the floor.  
-You feel uneasy about this place.
+   The tunnel continues upward, and the wind blows at you even harder.
+The claw tracks in the stone stop abruptly here, where a great deal of
+dirt and stone has been dug up and heaped upon the floor.  You feel
+uneasy about this place.  The tunnel leads north and south.
 ~
 110 ad 4
 D0
@@ -1479,9 +1406,10 @@ dirt stone~
 S
 #11072
 Next to the cliff edge~
-   You stop short and wobble at the edge of a huge cliff over looking
-a vast valley.  To the south a small, rocky path leads down the
-mountain. 
+   You stop short and wobble at the edge of a huge cliff overlooking a
+vast valley.  The wind roars up from below, and eagles circle far
+beneath your feet.  To the south the tunnel leads back into the
+mountain.
 ~
 110 d 0
 D2
@@ -1491,11 +1419,10 @@ D2
 S
 #11073
 Sloping Tunnel~
-   This tunnel slopes deep, down into the mountain's heart.
-The air feels still and uncomfortably warm, despite the 
-closeness of the cave's entrance above you.  There's a 
-deep, musky odor in the air, and the giant claw marks 
-continue downwards.
+   This tunnel slopes deep down into the heart of the mountain.  The air
+is still and uncomfortably warm despite the nearness of the cave
+entrance above, and a deep, musky odor hangs in it.  The giant claw
+marks continue downward.
 ~
 110 ad 4
 D4
@@ -1509,13 +1436,11 @@ D5
 S
 #11074
 Sloping Tunnel~
-   A bright light greets your eyes from the north, in 
-direct contrast to the darkness of the tunnel overhead.  
-You break  out in a sweat due to the overwhelming warmth 
-of the air.  The musky odor has grown quite intense, 
-drowning out everything else in the air and making it hard 
-to breathe.  Something in your gut begins squirming 
-uncomfortably as you wonder what's ahead...
+   A bright light shines from the north, in stark contrast to the
+darkness of the tunnel above.  You break out in a sweat in the
+overwhelming warmth, and the musky odor has grown so strong that it
+drowns out everything else and makes it hard to breathe.  Something in
+your gut begins to squirm uncomfortably as you wonder what lies ahead...
 ~
 110 ad 4
 D0
@@ -1529,13 +1454,12 @@ D4
 S
 #11075
 Lair~
-This place is huge!!!  It should be considering the 
-dragon's great bulk.  However, instead of seeing the 
-customary carnage and mound of gold that one is accustomed 
-to seeing in a dragon lair, this one is decorated subtly 
-with tapestries and drapes, and other comforts of human 
-life.  There is even a huge-dragon sized bed--undoubtedly 
-conjured to life by its elder dragon owner.
+   This place is huge, as it should be, considering the great bulk of
+its owner.  But instead of the usual carnage and heap of gold you might
+expect in a dragon's lair, this one is subtly decorated with tapestries,
+drapes and other comforts of civilized life.  There is even a
+dragon-sized bed, no doubt conjured into being by its elder owner, and
+the scent of fine wine hangs in the air.  The tunnel lies to the south.
 ~
 110 d 4
 D2
@@ -1545,8 +1469,11 @@ D2
 S
 #11080
 A small path through the brush~
-A small well travelled path leads east through the brush. By the size of
-the opening your not too sure what goes through here.
+   A small, well-traveled path leads east through the thick brush, the
+branches on either side broken and pushed back by something passing this
+way again and again.  Judging by the size of the opening, you're not too
+sure what goes through here, and you're not sure you want to find out.
+The mountain ridge lies to the west.
 ~
 110 0 3
 D1
@@ -1562,8 +1489,9 @@ A small dirt path.
 S
 #11081
 Path through the brush~
-As you squeeze your way through the brush you notice an opening up ahead
-to the east. You can see the mountain ridge back to the west.
+   As you squeeze your way through the brush, you notice an opening up
+ahead to the east.  Thorny branches snag at your clothes.  You can still
+see the mountain ridge back to the west.
 ~
 110 0 0
 D1
@@ -1579,9 +1507,9 @@ A small path
 S
 #11082
 Opening in the brush~
-   The brush is less dense here.  To the east you see a small village
-filled with thatch huts.  To the west you can still make out the mountain
-ridge.
+   The brush is less dense here.  To the east you can see a small
+village of thatched huts, with smoke curling up from cooking fires, and
+to the west you can still make out the mountain ridge.
 ~
 110 c 3
 D1
@@ -1597,10 +1525,11 @@ A small path.
 S
 #11083
 A small village~
-While trecking through the bushes you have come upon a small village tucked
-away in the woods. This seems like the central point to the village, there
-is a big empty space here. But, you see wooden huts all around you. The 
-smell of a burning fire fills the air.
+   While trekking through the bushes, you have come upon a small village
+tucked away in the woods.  This seems to be its center, a big open space
+surrounded by wooden huts, and the smell of a wood fire fills the air.
+Huts stand to the north and south, a clearing lies to the east, and the
+brush lies west.
 ~
 110 0 2
 D0
@@ -1626,9 +1555,9 @@ Opening in the brush.
 S
 #11084
 A clearing in the woods~
-Being the center of this village is a smoldering bon fire here. There are
-a few more huts here to the north, south, and east. The mountain ridge
-still can be seen to the west over the brush and woodlands.
+   A smoldering bonfire burns in this clearing at the heart of the
+village.  More huts stand to the north, south and east, and the mountain
+ridge can still be seen to the west over the brush and woodland.
 ~
 110 n 2
 D0
@@ -1653,15 +1582,16 @@ A clearing in the woods.
 0 0 11083
 E
 fire bonfire~
-The remnates of a fire is smoldering in a fire pit in the center of the
+The remnants of a fire is smoldering in a fire pit in the center of the
 village.
 ~
 S
 #11085
 A small hut~
-   The hut is made entirely of thatch and sticks from around the area.
-A cooking pit lies in the center of the hut still smoldering from a
-recent fire.  To the south a small doorway leads out of the hut.
+   The hut is made entirely of thatch and sticks gathered from the
+surrounding woods.  A cooking pit in the center still smolders from a
+recent fire, and the smell of roasted roots hangs in the air.  A small
+doorway leads south.
 ~
 110 0 0
 D2
@@ -1672,10 +1602,10 @@ A clearing in the woods.
 S
 #11086
 A thatch hut~
-   The hut is entirely made of thatch and a doorway leads out of the hut
-to the north.  On the wall hangs a strange, rudimentry picture of a
-brilliant city with a wonderful panoramic sun setting behind just below
-the horizon.  The significance of the picture remains unknown to you.
+   This hut is made entirely of thatch, and a doorway leads out to the
+north.  On the wall hangs a strange, crude picture of a brilliant city,
+with a splendid sun setting just below the horizon behind it.  Its
+significance remains a mystery to you.
 ~
 110 0 0
 D0
@@ -1686,9 +1616,9 @@ A small village
 S
 #11087
 A run down hut~
-   The walls are sagging down and the ceiling has many holes where light
-shines through.  The floor has no mat or rug covering the wet mud under-
-foot.  To the south a doorway leads out of the hut.
+   The walls of this hut sag, and light shines through many holes in its
+ceiling.  There is no mat or rug to cover the wet mud underfoot.  A
+doorway leads south.
 ~
 110 0 0
 D2
@@ -1699,9 +1629,9 @@ A village path.
 S
 #11088
 A shabby hut~
-   The hut is over-used and run down.  The ceiling is caving in more than
-one spot and the walls have large holes where the thatch has weathered away.
-To the north there is a doorway leading out of the hut.
+   This hut is worn out and run down.  The ceiling is caving in in more
+than one place, and the walls have large holes where the thatch has
+weathered away.  A doorway leads north.
 ~
 110 0 0
 D0
@@ -1712,11 +1642,11 @@ A village path.
 S
 #11089
 The Shaman's Hut~
-   The hut is slightly more lavish than the rest.  A 'legruin' is fixed
-into the dirt before a window on the southern wall.  Tapestries hang
-down from where the walls meet the ceiling on each wall creating cloaks
-of color all around you.  To the west, a doorway leads back out of the
-Shaman's Hut.
+   This hut is a little more lavish than the rest.  A carved legruin is
+set into the dirt floor before a window in the south wall, and
+tapestries hang from where the walls meet the ceiling, draping the room
+in cloaks of color.  Bundles of dried herbs and small bones dangle from
+the rafters.  A doorway leads west.
 ~
 110 0 0
 D3
@@ -1732,11 +1662,10 @@ Fringe Folk here in the Mountains.
 S
 #11090
 The Corner of the Pasture~
-   You are in a small field enclosed by a wooden fence to keep the
-animals from wandering off into the wilderness.  To the west and north
-the fence blocks you from going in that direction.  The grass is green
-and lush, blowing lightly in the gene breeze.  Looming high above
-to the west you see a huge mountain range.
+   You are in a small field enclosed by a wooden fence that keeps the
+animals from wandering off into the wilderness.  The fence blocks the
+way north and west.  The grass is green and lush, rippling in the gentle
+breeze, and a huge mountain range looms high to the west.
 ~
 110 0 2
 D1
@@ -1750,9 +1679,10 @@ D2
 S
 #11091
 Next to a wooden fence in the pasture~
-   Just north of you is a wooden fence that keeps the animals here
-from wandering off into the unknown.  A tall range of mountains casts
-a dark forboding shadow over the pasture and the town to the south.
+   Just north of you a wooden fence keeps the animals from wandering off
+into the unknown.  A tall range of mountains casts a dark, foreboding
+shadow over the pasture and the town to the south.  The pasture
+continues east, south and west.
 ~
 110 0 2
 D1
@@ -1770,9 +1700,10 @@ D3
 S
 #11092
 Corner of the Pasture~
-   A rotting wooden fence bars passage to the north and east, also keeping
-the animals grazing here from wandering off into the wilderness.
-A range of mountains to the west casts a dark shadow over Stanneg.
+   A rotting wooden fence bars the way north and east, keeping the
+grazing animals from wandering into the wilderness.  A range of
+mountains to the west casts a dark shadow over Stanneg.  The pasture
+continues south and west.
 ~
 110 0 2
 D2
@@ -1786,10 +1717,9 @@ D3
 S
 #11093
 Next to a fence in the pasture~
-   The pasture continues in all directions except west, where a fence
-made of rotting wood sits keeping the animals from wandering off.
-You see to the south the town of Stanneg is dwarfed by the towering
-mountain range to the west.
+   The pasture continues in every direction except west, where a fence
+of rotting wood keeps the animals in.  To the south the town of Stanneg
+is dwarfed by the towering mountain range to the west.
 ~
 110 0 2
 D0
@@ -1807,10 +1737,10 @@ D2
 S
 #11094
 The lush pasture~
-   Animals are all about, enjoying the shade of the mountains to the
-west.  You don't think, from the disturbing feeling you get from the
-mountains, that you could laze about with such ease.  The pasture continues
-in all directions from here.
+   Animals graze all about, enjoying the shade of the mountains to the
+west.  Given the disturbing feeling those mountains give you, you doubt
+you could laze about so easily.  The pasture continues in every
+direction.
 ~
 110 0 2
 D0
@@ -1832,9 +1762,9 @@ D3
 S
 #11095
 Beside a fence in the Pasture~
-   To the north and south you see the fence come to corners and to the
-west is the center of the pasture.  Animals graze solemnly and some lay
-about in the shade of the towering mountains off to the west.
+   To the north and south the fence comes to corners, and to the west
+lies the center of the pasture.  Animals graze solemnly, and some lie in
+the shade of the towering mountains off to the west.
 ~
 110 0 2
 D0
@@ -1852,10 +1782,9 @@ D3
 S
 #11096
 Corner of the pasture~
-   The fence cxomes to a corner here, and the pasture continues
-east and north from here.  The grass is long and provides much
-nurishment for the animals grazing.  Beyond the fence to the south
-is a small village.
+   The fence comes to a corner here, and the pasture continues east and
+north.  The grass is long and rich, and the animals graze contentedly.
+Beyond the fence to the south lies a small village.
 ~
 110 0 2
 D0
@@ -1869,10 +1798,9 @@ D1
 S
 #11097
 Near the Gates of the Pasture~
-   A wooden gate, meshed with chicken wire stands to the south.  
-The pasture continues in all other directions, the green grass
-blowing gently in the breeze.  A small village lies beyond the 
-gate.
+   A wooden gate meshed with chicken wire stands to the south, opening
+onto a small road into the village.  The pasture continues in every
+other direction, its green grass blowing gently in the breeze.
 ~
 110 0 2
 D0
@@ -1894,9 +1822,9 @@ D3
 S
 #11098
 Corner of the pasture~
-   The pasture continues in all directions save east where a small wooden 
-fence prevents you and the animals grazing within from wandering off.
-A dark, towering range of mountains lies to the west.
+   The pasture continues north and west, but to the east a small wooden
+fence keeps you and the grazing animals from wandering off.  A dark,
+towering range of mountains lies to the west.
 ~
 110 0 2
 D0
@@ -1910,10 +1838,10 @@ D3
 S
 #11099
 Small Road~
-   You are on a small dirt road leading north away from Stanneg and
-towards the pastures.  Many animals graze about within a fenced in area.
-Looking to the west you see a towering mountain range, its dark shadow
-covering the entire village of Stanneg.
+   You are on a small dirt road leading north out of Stanneg toward the
+pastures, where many animals graze within a fenced area.  To the west a
+towering mountain range casts its dark shadow over the whole village of
+Stanneg.  A gate leads north, and the road continues south.
 ~
 110 0 1
 D0

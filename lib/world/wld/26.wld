@@ -1,12 +1,13 @@
 #2600
 Entryway to the Guildhouse of The Bleak Cabal~
-       You step into the guildhouse and the scent of steel hits your nostrils
-with the force of a sledgehammer.  Swords and axes of every type and make
-decorate the walls and give you the sensation that you are in the presense of
-power.  A huge bonfire burns lively in an open pit off toward the center of the
-room and mounted against the far wall is a huge emblem wrought of the the
-finest steel in The Domionion.  This appears to be the mark that all the
-members of this group carry with them on their travels.
+   You step into the guildhouse, and the scent of steel hits you with
+the force of a sledgehammer.  Swords and axes of every type and make
+decorate the walls, giving you the sense of being in the presence of
+power.  A huge bonfire burns lively in an open pit near the center of
+the room, and mounted against the far wall is a great emblem wrought of
+the finest steel in the Dominion, the mark that every member of this
+group carries on their travels.  A doorway leads north, stairs lead up
+and down, and the street lies to the west.
 ~
 26 dt 0
 D0
@@ -32,13 +33,13 @@ To the storeroom.
 S
 #2601
 The Meeting Room of The Bleak Cabal~
-       A thick table of oak dominates this room upon with lies several
-contracts half finished.  Evidently, this guild is always in negotiation for
-their services.  Chairs of metal and wood that command attention are arranged
-smartly around the table and the walls are covered in expensive furs.  Glancing
-at the ceiling, you are amazed to see a huge broadsword suspended above the
-table.  It looks to be so large that 20 of the strongest creatures in the world
-wouldn't be enough to lift it.
+   A thick oak table dominates this room, and on it lie several
+half-finished contracts; this guild, it seems, is always negotiating for
+its services.  Imposing chairs of metal and wood are arranged smartly
+around the table, and the walls are covered in expensive furs.  Glancing
+at the ceiling, you are amazed to see a huge broadsword suspended above
+the table, so large that twenty of the strongest creatures in the world
+could not lift it.  The entryway lies to the south.
 ~
 26 d 0
 D2
@@ -49,11 +50,11 @@ To the entryway.
 S
 #2602
 The Bleak Cabal's Practice Chamber~
-       Several practice dummies stand in various fighting stances in each
-corner of this six-sided room.  The walls are covered with thick mats that are
-battle-scarred from throwing knives and axe blades.  Several pieces of strange
-looking equipment lie in the corner, no doubt to train the members of this
-guild in the arts of hand to hand combat.  
+   Practice dummies stand in fighting stances in each corner of this
+six-sided room.  The walls are covered with thick mats, battle-scarred
+by throwing knives and axe blades, and several pieces of strange-looking
+equipment lie in the corner, no doubt for training the guild's members
+in the arts of hand-to-hand combat.  Stairs lead down to the entryway.
 ~
 26 d 0
 D5
@@ -64,11 +65,12 @@ To the entryway.
 S
 #2603
 The Storeroom of the Cabal~
-       It is in here that the weapons, equipment, provisions, and other
-miscellaneous items of the guild come to rest.  The members agree to some
-extent to share and share alike and it is here where that creed takes place. 
-Either drop off, pick up, or sort through some of the items.  But take only
-what you need to survive the hardships of your journeys through this land.
+   Here the weapons, equipment, provisions and other odds and ends of
+the guild come to rest.  The members agree, to some extent, to share and
+share alike, and this is where that creed is practiced.  Shelves and
+bins line the walls.  Drop off, pick up or sort through what you find,
+but take only what you need to survive the hardships of your journeys.
+A door leads east, and stairs lead up to the entryway.
 ~
 26 d 0
 D1
@@ -129,8 +131,8 @@ S
 The Practice Chamber of The Dustmen~
        Weapons and spellbooks are lined neatly on the walls of this room, which
 seems to be the practice area for this guild.  Although knowledge of people and
-places are what this group stives for, they seem to take pride to being
-jacks-of-all-trades by the looks of the works that they study.  Practing
+places are what this group strives for, they seem to take pride to being
+jacks-of-all-trades by the looks of the works that they study.  Practice
 equipment and areas for meditational spell-crafting study are all located here,
 depending on what you wish to work with.
 ~
@@ -144,7 +146,7 @@ S
 #2607
 The Storeroom~
        Shoes, walking sticks, staves, and maps of all types are divided into
-separte piles in this room, along with other wonderous artifacts that this
+separate piles in this room, along with other wondrous artifacts that this
 guild has discovered on their amazing journeys across The Dominion.  Whatever
 you find in here is available for your personal use and anything you wish to
 donate to the guild may also be left here.
@@ -232,13 +234,14 @@ To the entryway.
 S
 #2612
 Entryway of the Watchers Guildhouse~
-       Solid stone and thick wooden beams greet your eyes upon stepping into
-the guildhouse of The Order of the Watchers.  Built to resemble a castle from
-the looks of things, the members of this guild have dedicated their lives to
-maintaining the laws that govern this land.  Huge murals of important followers
-and basic ideals hang from thick crosspieces in the ceiling.  Torches mounted
-on the wall flare off a bright light which easily fills the room and casts the
-shadows to the far corners.
+   Solid stone and thick wooden beams greet your eyes as you step into
+the guildhouse of the Order of the Watchers.  It is built to resemble a
+castle, fitting for a guild whose members have dedicated their lives to
+upholding the laws that govern this land.  Huge murals of important
+followers and the Order's ideals hang from thick crossbeams overhead,
+and torches mounted on the walls flood the room with light, chasing the
+shadows into the far corners.  A doorway leads north, stairs lead up and
+down, and the street lies to the south.
 ~
 26 d 0
 D0
@@ -263,13 +266,13 @@ To the storeroom.
 S
 #2613
 The Meeting Chamber of the Watchers~
-       An eight-sided table sits in this room, flanked by twice as many chairs
-of solid stone.  Cushions are thoughtfully provided on the seats of the large
-chairs which is a good idea since otherwise, they appear quite uncomfortable. 
-The smooth walls are marred only by the carvings of every law you've every
-heard of in The Dominion.  The laws of this area, that of the areas to the
-south, even those of the dragons are on here.  It seems that this order takes
-lawbreaking quite seriously.
+   An eight-sided table sits in this room, flanked by twice as many
+chairs of solid stone.  Cushions have thoughtfully been placed on their
+seats, which is wise, for the chairs look quite uncomfortable without
+them.  The smooth walls are marred only by carvings of every law you
+have ever heard of in the Dominion: the laws of this land, those of the
+lands to the south, even those of the dragons.  This Order takes
+lawbreaking very seriously.  The entryway lies to the south.
 ~
 26 d 0
 D2
@@ -280,11 +283,12 @@ To the entryway.
 S
 #2614
 The Training Grounds of the Watchers~
-       A massively HUGE bonfire sits in the center of this room, casting it's
-light on weapons and books of every available description, shape, and size. 
-Surrounding the column of flame and smoke (which disappears into a large hole
-cut into the ceiling) are areas in which the members of the guild hone their
-fighting abillities and their knowledge of magic and clerical studies. 
+   A massive bonfire sits in the center of this room, its column of
+flame and smoke rising into a large hole cut in the ceiling and casting
+its light on weapons and books of every description.  Around it are
+areas where the members of the guild hone their fighting skills and
+their knowledge of magic and clerical studies.  Stairs lead down to the
+entryway.
 ~
 26 d 0
 D5
@@ -295,11 +299,11 @@ To the entryway.
 S
 #2615
 The Watchers Storeroom~
-       Lying neatly in piles are artifacts and weapons from around the world. 
-Evidently, when a member of the guild has no use for a blade, staff, wand,
-book, or piece of clothing, he or she brings it here and allows the other
-Watchers access to it.  Looking over what's available, you can choose to leave
-stuff here, or pick up a few things that catch your eye.
+   Artifacts and weapons from around the world lie neatly in piles here.
+When a member of the guild no longer needs a blade, staff, wand, book or
+piece of clothing, they bring it here so that other Watchers can use it.
+You may leave things here or take a few that catch your eye.  A door
+leads east, and stairs lead up to the entryway.
 ~
 26 djl 0
 D1
@@ -315,7 +319,7 @@ S
 #2616
 Entryway to the Guild of the Mercykillers~
        Your eyes are greeted with every latest fashion, invention, and style
-that you've heard whipsers of in this guildhall.  The Mercykillers, being made
+that you've heard whispers of in this guildhall.  The Mercykillers, being made
 up of the younger people in The Dominion, apparently can't stand the thought of
 anything getting old.  The interior of this place looks to have been recently
 remodeled in the currently popular style.  To the rear of the room, and the
@@ -361,8 +365,8 @@ S
 The Mercykillers' Training Grounds~
        Brand new, recently forged weapons sit in specially designed holders on
 the wall, allowing any member of the guild to use them and practice.  Off to
-another side, a thin mat of wolfskin sits in front of a pot of insence where
-healing and meditational abillities are worked on.  And in the rear of the room
+another side, a thin mat of wolfskin sits in front of a pot of incense where
+healing and meditational abilities are worked on.  And in the rear of the room
 a thick bookcase (probably made yesterday) is lined with newly revised
 spellbooks, which guild members interested in the arcane can look over.
 ~
@@ -410,7 +414,7 @@ S
 #2621
 The Meeting Hall of the Xaositects~
        Tables of elvish make and design line the walls with a center podium cut
-from the trees in Darkwier form a circle that extends across the room.  A thin
+from the trees in Darkweir form a circle that extends across the room.  A thin
 shaft of light, brighter than most of the room, glides down from a hidden spot
 above you in the ceiling and illuminates the center speaking area.  Murals on
 the wall show depictions of the elven race rising above the other species in
@@ -497,10 +501,10 @@ S
 The Discussion Hall of The Sign of One~
        Podiums of white marble and stools of gold and silver dot this room just
 off from the entryway.  One podium near the front of the room is on an elevated
-dias and you can only assume that the guildmaster speaks from this site.  To
+dais and you can only assume that the guildmaster speaks from this site.  To
 the rear of the room, however, there is a large black curtain draped over a
 long object and the floor beneath the curtain is spotted with crimson streaks. 
-It must be an interrorgation table on which information is extracted.  The
+It must be an interrogation table on which information is extracted.  The
 walls are chiseled with prayers and sigils that glorify the God of Light.
 ~
 26 d 0
@@ -554,7 +558,7 @@ S
 #2628
 Entryway for the Guildhouse of The Doomguard~
        Black stone cut from onyx and obsidian flashes reflected torchlight in
-your eyes as you step into the guidlhouse of the knights who follow the Diety
+your eyes as you step into the guildhouse of the knights who follow the Deity
 of War.  Cair's Doomguard decorate sparsely, and what decoration they do have
 has honorable, yet terrifying overtones.  Murals showing brotherhood line one
 wall, while on the others are scenes of the Doomguard vanquishing the
@@ -595,8 +599,8 @@ The Training Area for the Doomguard~
        Torchlight gleams along the blades of hundreds of training swords and
 daggers in the area, which serves as a practice facility for the knights in
 Cair's service.  Sparing dummies (each outfitted with symbols of Malachi) show
-extreme wear and tear from the viscious cuts that each blade has inflicted. 
-For those that wish to hone clerical abillites and become paladins of evil in
+extreme wear and tear from the vicious cuts that each blade has inflicted. 
+For those that wish to hone clerical abilities and become paladins of evil in
 Cair's service, there is a small shrine to the rear of the room.
 ~
 26 d 0
@@ -634,7 +638,7 @@ the entryway of these knights that follow the God of Justice, Malachi.  You see
 a huge painting directly across from you which symbolizes the fight of this
 group against the tides of evil in the name of Honor, Justice, and Malachi. 
 Several torches mounted in holders of brass throw light across the room,
-casting a prisine, yet somber feel in this room.  Etched into the floor of the
+casting a pristine, yet somber feel in this room.  Etched into the floor of the
 chamber are the names of every knight that gave his life defending this
 religion and this guild.
 ~
@@ -672,7 +676,7 @@ S
 The Training Hall for The Fraternity of Order~
        Flanked by mottos inscribed on the walls ("The path of the knight is one
 of honor"  "A true warrior is one with Malachi on his side and the spirit of
-the Mordiquendi in his heart") this room spans a hundred yards at least. 
+the Moriquendi in his heart") this room spans a hundred yards at least. 
 Training dummies, thick mats of down and grass for wrestling, and a ring for
 dueling are just some of the things that catch your eye.  In the center of the
 room is an altar where some members of the guild learn the arts of healing and
@@ -710,11 +714,11 @@ S
 Entryway to the Guildhouse of The Athar~
        Descending into the depths below the earth, you're surrounded by
 darkness that only your meager light or eyesight can see through.  The chamber
-your are in is clean, meticulously so, and the stone and wood that was use to
+you are in is clean, meticulously so, and the stone and wood that was use to
 create it seems very, very ancient.  Several symbols are carved into the wooden
-beams that support the weight of of the floor above you.  Interesting designs
+beams that support the weight of the floor above you.  Interesting designs
 and several runes depicting greed and price dot most of the available carving
-space.  You see a stairwell in front of you that leads down into the darknes
+space.  You see a stairwell in front of you that leads down into the darkness
 even further.
 ~
 26 ad 0
@@ -758,7 +762,7 @@ The Training Grounds for The Athar~
 a material you've never seen before sit on the floor, muffling all noise that
 you, and the others that train in here, make.  Everything you could hope to
 learn about in this world can probably be found here, from ways to walk
-silently, to poisoning techniques, to clerical abillities, and even spells that
+silently, to poisoning techniques, to clerical abilities, and even spells that
 only high-leve wizards could cast.  What you choose to work on while you're
 here is completely up to you.
 ~
@@ -776,7 +780,7 @@ contributed to the general fund for the guild.  Anything that others choose not
 to use anymore can be deposited here, including weapons, armor, and magical
 items.  If you choose to take certain things from the room, it would probably
 be a good idea to leave something as well....the motto "Nothing comes for free"
-being a priciple idea of this guild.
+being a principle idea of this guild.
 ~
 26 ad 0
 D2
@@ -788,7 +792,7 @@ S
 #2640
 Entryway to the Guildhouse for The Believers of the Source~
        The darkness that covers you when you descend into this place is nearly
-absolute.  From what you can tell, the walls are convered in a black fabric
+absolute.  From what you can tell, the walls are covered in a black fabric
 that looks and feels like silk or satin.  The floor beneath you feels like some
 kind of rock, and your fears at a cave-in are curbed once you see the huge
 beams that support the weight of the ground above you.  A large mural of a
@@ -850,7 +854,7 @@ S
 The storeroom~
        In this musty little chamber lie several weapons, pieces of equipment,
 and other items that the members of this guild have not current use for.  You
-are encouraged to take waht you can from the available materials or donate
+are encouraged to take what you can from the available materials or donate
 whatever you can spare to help the strength of the guild.
 ~
 26 ad 0
@@ -861,7 +865,7 @@ To the meeting hall.
 0 -1 2641
 S
 #2644
-Entryway of the Tower of The Transcendant Order~
+Entryway of the Tower of The Transcendent Order~
        Blue flames leap from mountings on the walls as you step into the tower
 of the guild devoted to white magic in The Dominion.  The entry spell proceeds
 to light the stairwell in front of you that spirals up into the higher reaches
@@ -885,9 +889,9 @@ S
 #2645
 The Storeroom~
        A myriad of objects of all shapes and sizes sit on the second level of
-this tower.  The Transcendant Order uses this room to deposit that which they
+this tower.  The Transcendent Order uses this room to deposit that which they
 do not wish to use or want to give to the other members of the guild.  You may
-choose to leave things here that you do not need or take things that you thnk
+choose to leave things here that you do not need or take things that you think
 you may.  The staircase continues upward and also goes back down to the
 entrance.
 ~
@@ -904,12 +908,12 @@ To the entryway.
 0 -1 2644
 S
 #2646
-Practice Chamber of The Transcendant Order~
-        The starwell opens up into a circular room with torches lit rather than
+Practice Chamber of The Transcendent Order~
+        The stairwell opens up into a circular room with torches lit rather than
 globes of continual light.  You figure that there must be a dispel magic field
 placed on this practice chamber to keep some of the more spectacular effects of
 spellcasting from destroying the tower.  Row upon row of bookshelves hold
-verious tomes of magic that the warlocks and enchantresses of this guild must
+various tomes of magic that the warlocks and enchantresses of this guild must
 use to study nearly any spell they can think of.  The stairway continues up
 across the room to the top of the tower.
 ~
@@ -926,13 +930,13 @@ To the storeroom.
 0 -1 2645
 S
 #2647
-The Hall of Meeting for The Transcendant Order~
+The Hall of Meeting for The Transcendent Order~
        The stairway ends at the top of the tower and it is in this circular
 chamber that the guild members meet to discuss various concerns and needs.  Two
 sets of tables sit on either side of a large ornate chair where the master of
-the guild must sit.  A firplace in the corner throws off a cheery light and the
+the guild must sit.  A fireplace in the corner throws off a cheery light and the
 painting on the wall show scenes of harmony and order along with the member of
-the guild trimuphing over those of the rival guilds.  The thick stone walls are
+the guild triumphing over those of the rival guilds.  The thick stone walls are
 made from ivory and mortar and they effective trap in the heat cast from the
 fire.
 ~

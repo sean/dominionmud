@@ -34,7 +34,7 @@ S
 #6101
 A Narrow Trail Through The Deep, Dark Forest~
    You are on a dusty trail winding its way east-west between huge,
-ancient trees whose grey trunks remind you of ancient pillars in a
+ancient trees whose grey trunks remind you of ancient pillars in an
 enormous, deserted hall.  To the south, a frail path leads away from
 the trail.
 ~
@@ -192,8 +192,9 @@ The ancient grey giants seem to observe you silently.
 S
 #6106
 A Junction In The Deep, Dark Forest~
-   You are by a junction where three paths meet.  Ancient grey trees tower
-above you on all sides.  Paths lead east, south and west.
+   You are by a junction where three paths meet.  Ancient gray trees
+tower above you on all sides, their trunks twisted and their branches
+hung with moss.  Paths lead east, south and west.
 ~
 61 ad 3
 D1
@@ -353,8 +354,9 @@ some places, giant grey roots have broken up through its surface.
 S
 #6111
 A Narrow Trail Through The Deep, Dark Forest~
-   You are on a dusty trail winding its way north-south between huge, ancient
-trees that loom ominously above you.
+   You are on a dusty trail winding its way north-south between huge,
+ancient trees that loom ominously above you.  Little light reaches the
+ground here, and the air is still and cool.
 ~
 61 ad 3
 D0
@@ -444,8 +446,9 @@ The ancient grey giants seem to observe you silently.
 S
 #6114
 A Junction In The Deep, Dark Forest~
-   You are by a junction where three paths meet.  Ancient grey trees tower
-above you on all sides.  Paths lead north, east and west.
+   You are by a junction where three paths meet.  Ancient gray trees
+tower above you on all sides, their trunks twisted and their branches
+hung with moss.  Paths lead north, east and west.
 ~
 61 ad 3
 D0
@@ -559,8 +562,9 @@ The ancient grey giants seem to observe you silently.
 S
 #6118
 A Small Path In The Deep, Dark Forest~
-   You are on a narrow path leading through the deep, dark forest.  Ancient,
-grey trees loom everywhere.  The path continues south and west.
+   You are on a narrow path leading through the deep, dark forest.
+Ancient, gray trees loom everywhere, and thick roots snake across the
+path.  The path continues south and west.
 ~
 61 ad 3
 D2
@@ -844,7 +848,8 @@ S
 #6127
 A Narrow Trail Through The Deep, Dark Forest~
    You are on a dusty trail winding its way between huge, ancient trees
-standing close on all sides.  The trail leads east and south.
+standing close on all sides.  Somewhere in the distance a branch cracks.
+The trail leads east and south.
 ~
 61 ad 3
 D1
@@ -967,7 +972,7 @@ been for the size you could have sworn it was part of a spider web.
 S
 #6131
 The giant spider web~
-   You get caught up in the spider web and are cutting yorself free when you
+   You get caught up in the spider web and are cutting yourself free when you
 suddenly see several spiders advancing towards you gnashing their
 giant mandibles together creating a horrid noise.
 ~
@@ -979,10 +984,11 @@ D1
 S
 #6132
 Up In The Tree~
-   You are hanging on the outside of a huge tree trunk covered in a sticky
-substance.  Directly to the west is an immense spider web suspended between
-numerous of the giant trees including the one you are hanging on.  To the
-north is what looks like a large webbed entrance.
+   You are clinging to the outside of a huge tree trunk covered in a
+sticky, glistening substance.  Directly to the west an immense spider
+web is strung between several of the giant trees, including the one you
+are hanging on, its strands thick as rope.  To the north is what looks
+like a large webbed entrance.  The ground lies far below.
 ~
 61 acdp 3
 D0
@@ -1009,9 +1015,10 @@ walk on it.
 S
 #6133
 On The spider web~
-   You are balancing carefully on the giant sticky threads that holds the
-giant web in place.  To the east is a giant tree trunk and to the west is
-an entrance to a cave-like structure made from many layers of spider web.
+   You are balancing carefully on the giant, sticky threads that hold
+the great web in place, and the whole web trembles with every step you
+take.  To the east is a giant tree trunk, and to the west an entrance to
+a cave-like structure built of many layers of spider silk.
 ~
 61 adp 2
 D1
@@ -1037,9 +1044,10 @@ S
 #6134
 The Den Of The Queen Spider~
    You are inside a cave-like structure that seems to be made entirely
-from countless layers of spider web.  Temperature and humidity is very
-high making it hard to breathe the foul air that lingers here.  The walls
-are covered with open cocoons.
+of countless layers of spider web.  The heat and humidity are stifling,
+making it hard to breathe the foul air that lingers here, and the walls
+are lined with cocoons, most of them split open and empty.  The web lies
+to the east.
 ~
 61 ad 2
 D1
@@ -1205,8 +1213,9 @@ A small road leads off to the west through a very small town.
 S
 #6151
 The Narrow Trail~
-Everything is very quiet here.  You see, just to the south-west, a small
-town and to the east lies a very large tree.  
+   Everything is very quiet here.  Just to the southwest you see a small
+town, and to the east lies a very large tree, towering above all the
+others.  The trail leads back south.
 ~
 61 ad 3
 D1
@@ -1241,8 +1250,10 @@ The bend on the trail.
 S
 #6153
 Inside The Great Tree~
-   You have stepped inside of this hollowed tree.  From here steps lead down
-into darkness or you can exit the tree by going west.
+   You have stepped inside this hollowed tree.  The smooth inner walls
+curve up into darkness, and the air smells of old wood and earth.  From
+here steps lead down into the darkness, or you can exit the tree by
+going west.
 ~
 61 ad 3
 D3

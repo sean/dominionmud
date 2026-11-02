@@ -1,7 +1,11 @@
 #19001
 Entrance to the Elven forest.~
-Huge green trees are everyware. An enormous wooden gate rises 
-up to the north.  A wooden archway spans across the path.
+   Huge green trees rise everywhere around you, their trunks broad as
+towers and their leaves so high above that the light reaches the forest
+floor in soft, shifting patches.  An enormous wooden gate rises up to
+the north, carved with leaves and vines so lifelike they seem to sway,
+and a graceful wooden archway spans the path before it.  The forest path
+leads back south.
 ~
 190 0 0
 D0
@@ -15,10 +19,11 @@ D2
 S
 #19002
 Guarded path through the forest.~
-The path runs straight through the forest from south to north. 
-You feel yourself observed by someone. To the east you see a 
-wooden door in a large tree, and to the west you see a rope 
-hanging down from a tree.
+   The path runs straight through the forest from south to north,
+between towering trees whose leaves glow gold and green in the dappled
+light.  You feel yourself observed from somewhere above.  To the east a
+wooden door has been set into the trunk of a great tree, and a rope
+hangs down from the branches overhead, leading up to a platform.
 ~
 190 0 0
 D0
@@ -40,8 +45,11 @@ D4
 S
 #19003
 Guard room.~
-In the north-east corner of this dimly lit room stands a large 
-round stone table. To the east and west you can see doors.
+   This dimly lit room serves the guards of the Elven forest.  In its
+northeast corner stands a large, round stone table, its surface marked
+with the rings of countless mugs and scattered with playing cards.  Bows
+and quivers hang on pegs along the walls.  Doors lead east and west, and
+a narrow opening in the floor leads down.
 ~
 190 d 0
 D1
@@ -59,8 +67,10 @@ secret carpet wool~
 S
 #19004
 Guard chiefs bed room.~
-This room is apparantly the chief of the elvenguards bedroom. 
-In a corner stands a large bed and there is a door to the west.
+   This room is apparently the bedroom of the chief of the elven guards.
+A large bed carved from a single piece of pale wood stands in one
+corner, and a polished breastplate hangs on a stand beside it.  The room
+smells of cedar.  A door leads west.
 ~
 190 d 0
 D3
@@ -70,7 +80,9 @@ D3
 S
 #19005
 Cellar.~
-In this damp cellar are some food and other things stored.
+   In this damp cellar are stored barrels of food, sacks of flour and
+other provisions.  The air is cool and smells of earth and apples.  A
+ladder leads back up to the guard room.
 ~
 190 ad 0
 D4
@@ -80,8 +92,12 @@ D4
 S
 #19006
 On the platform.~
-You are standing on a wooden platform above the entrance of 
-the elven forest. From here you can see as far as Thewston.
+   You are standing on a wooden platform built high among the branches
+above the entrance to the Elven forest.  A light railing of woven
+branches runs around its edge.  From here the view is wonderful: the
+forest rolls away in every direction like a green sea, and on a clear
+day you can see as far as Thewston.  A ladder leads back down to the
+path.
 ~
 190 c 0
 D5
@@ -91,7 +107,11 @@ D5
 S
 #19007
 Guarded path through the forest.~
-The path runs straight through the forest from south to north.
+   The path runs straight through the forest from south to north, a
+ribbon of soft earth bordered by ferns and moss.  The trees here have
+been tended carefully; dead branches are cleared away and young saplings
+grow in neat rows between the old giants.  Elven soldiers keep a
+watchful eye on all who pass this way.
 ~
 190 0 0
 D0
@@ -105,9 +125,11 @@ D2
 S
 #19008
 Path crossing.~
-   The path splits up into four paths, one in every direction.
-In the middle of the crossing stands a gigantic stone obelisk
-with runes carved into its surface.
+   The path splits here into four paths, one in every direction.  In the
+middle of the crossing stands a gigantic stone obelisk, its surface
+carved from top to bottom with flowing elven runes that seem to shimmer
+faintly in the shade.  A small temple lies to the west, and paths lead
+north and south.
 ~
 190 0 0
 D0
@@ -130,9 +152,10 @@ runes told, but you are not, so this means nothing to you....
 S
 #19009
 A fine path through the elven forest.~
-On both sides of this path is doors. Over the eastern door is a 
-sign telling you this must be the weapon shop, and over the western 
-door is a similar sign telling you it's the armoury.
+   Doors open on both sides of this path.  Over the eastern door a sign
+announces the armory, and over the western door a similar sign announces
+the weapon shop.  Lanterns of colored glass hang from the branches
+above.  The path continues north and south.
 ~
 190 0 0
 D0
@@ -154,7 +177,11 @@ D3
 S
 #19010
 The Elven Armoury.~
-On the walls of this large room are fine elven armours hanging.
+   This is the Elven Armoury, a large, airy room lit by tall windows.
+On its walls hang fine suits of elven armor: shirts of gleaming mail as
+light as silk, helms shaped like leaves and breastplates etched with
+delicate patterns of vines.  A long counter of polished wood runs across
+the back of the room.  A fine path leads back west.
 ~
 190 d 0
 D3
@@ -163,8 +190,12 @@ D3
 0 -1 19009
 S
 #19011
-The Elven Weaponary.~
-On the counter and upon the walls hang fine weapons of elven quality.
+The Elven Weaponry.~
+   This is the Elven Weaponry.  On the counter and upon the walls hang
+fine weapons of elven quality: slender swords, graceful longbows strung
+with silver cord, and spears whose blades shine like moonlight.  Every
+piece is a work of art as well as of war.  A fine path through the
+forest lies to the east.
 ~
 190 d 0
 D1
@@ -174,10 +205,10 @@ D1
 S
 #19012
 A fine path through the elven forest.~
-On both sides of this path are doors. Over the eastern door is a sign 
-telling you this must be the magic shop of the elven village, and 
-over the western door is a similar sign telling you it's Quintors 
-fine shop. To the north the path continues.
+   Doors open on both sides of this path.  Over the eastern door a sign
+announces the magic shop of the elven village, and over the western door
+another reads "Quintor's Fine Shop".  The path continues north and
+south.
 ~
 190 0 0
 D0
@@ -199,8 +230,11 @@ D3
 S
 #19013
 Quintors fine shop.~
-In this fine room you can see all kinds of equipment. Everything 
-from bags to torches can bee seen on the shelves.
+   This is Quintor's fine shop.  In this tidy room you can see all kinds
+of equipment arranged neatly on the shelves, everything from bags and
+backpacks to torches, lanterns and coils of rope.  A small brass scale
+sits on the counter beside a ledger.  A fine path through the forest
+lies to the east.
 ~
 190 d 0
 D1
@@ -210,10 +244,11 @@ D1
 S
 #19014
 The Magic Shop.~
-As you enter this store you feel a sensation in your stomach. 
-There is something wrong here or is it just the powers of all 
-magic in here? All around this room you see objects of different 
-shapes and sizes.
+   As you enter this store, you feel a strange fluttering in your
+stomach.  Is something wrong here, or is it just the power of all the
+magic gathered in one place?  Objects of every shape and size fill the
+room, some glowing softly, some humming, and one small box rattling as
+if something inside wanted out.  The door leads west.
 ~
 190 d 0
 D3
@@ -223,9 +258,10 @@ D3
 S
 #19015
 The end of the fine path.~
-   On both sides of the path are doors.  Over the eastern door is
-a sign telling you this must be the tavern, and to the north you see
-a large house, nearly two stories high.
+   Doors open on both sides of the path here.  Over the eastern door a
+sign announces the tavern, and to the north stands a large house, nearly
+two stories high, built among the roots of an ancient tree.  A road
+leads off to the west, and the path runs back south.
 ~
 190 0 0
 D0
@@ -247,11 +283,11 @@ D3
 S
 #19016
 The Tavern of Hope.~
-You are standing in the bar of the Tavern. The bar is set against 
-the northern wall, old elven writings, carvings and symbols cover 
-its top. A fireplace is built into the eastern wall, and through 
-the door in the western wall you se the fine path. This place 
-really makes you feel at home.
+   You are standing in the bar of the tavern.  The bar runs along the
+northern wall, its top covered with old elven writings, carvings and
+symbols, and a fireplace crackles in the eastern wall.  Through the door
+in the western wall you can see the fine path.  This place really makes
+you feel at home.  Stairs lead up to the reception.
 ~
 190 dgr 0
 D3
@@ -265,8 +301,10 @@ D4
 S
 #19017
 Inside the fine house.~
-You stand in a large foaye whith large stairs leading up and doors 
-to the east and west.
+   You stand in a large foyer with grand stairs leading up to the floor
+above.  The walls are paneled in pale wood carved with scenes of the
+elven forest, and a soft green carpet covers the floor.  Doors lead east
+and west, and the fine path lies back to the south.
 ~
 190 d 0
 D1
@@ -288,8 +326,9 @@ D4
 S
 #19018
 Guard room.~
-This room looks much like a guard room, and it must be for in the 
-room you can see:
+   This room looks much like a guard room, and so it must be, for it
+holds a round wooden table, a rack of spears and a few hard chairs, and
+in the room you can see:
 ~
 190 d 0
 D1
@@ -299,8 +338,11 @@ D1
 S
 #19019
 Trophy room of the Elven King.~
-You stand in the trophy room of the King. On the walls of the room 
-hunting trophies and gifts of all sorts are hanging.
+   You stand in the trophy room of the Elven King.  On the walls hang
+hunting trophies and gifts of all sorts: the antlers of great stags, the
+pelt of a white bear, jeweled daggers from distant kings and a shield so
+old its painted crest has faded to a ghost.  The foyer lies back to the
+west.
 ~
 190 d 0
 D3
@@ -310,8 +352,10 @@ D3
 S
 #19020
 The grand stairs.~
-You are climbing up the grand stairs of the house. The stairs 
-continue up and down.
+   You are climbing up the grand stairs of the house.  The steps are
+wide and shallow, made of polished wood, and the banister is carved in
+the shape of a long, twisting vine.  The stairs continue up to the upper
+floor and down to the foyer.
 ~
 190 d 0
 D4
@@ -325,8 +369,11 @@ D5
 S
 #19021
 The upper floor of the house.~
-You are standing in a corridor leading to the east. On the north 
-and south walls are doors.
+   You are standing in a corridor on the upper floor of the house,
+leading to the east.  Its walls are hung with paintings of elven lords
+and ladies, and lamps of colored glass cast a gentle light.  Doors on
+the north and south walls lead to the library and the living room, and
+the grand stairs lead back down.
 ~
 190 d 0
 D0
@@ -348,10 +395,10 @@ D5
 S
 #19022
 The corridor.~
-You are standing in a corridor with wooden floor and ceiling. To 
-the north and to the south are doors. Fo the east you see a window.
-The window looks like it may be big enough for you to walk out -
-walk out and hmmm...what happens when you walk out into mid-air?
+   You are standing in a corridor with a wooden floor and ceiling.
+Doors lead north and south, and the stairs lie to the west.  To the east
+is a large window that looks big enough to walk out of... and hmm, what
+happens when you walk out into mid-air?
 ~
 190 d 0
 D0
@@ -369,9 +416,10 @@ D3
 S
 #19023
 The Library.~
-Book shelves line the walls of this room. In the center of the 
-room is a large desk and some chairs. The shelves are filled with 
-books and scrolls.
+   Bookshelves line the walls of this room, filled with books and
+scrolls written in the flowing elven script.  In the center stands a
+large desk with a few chairs around it, and a reading lamp of green
+glass.  The corridor lies to the south.
 ~
 190 d 0
 D2
@@ -381,9 +429,9 @@ D2
 S
 #19024
 The Livingroom.~
-In this room you feel the warmth from the fireplace and there is 
-some nice chairs in front of the fireplace. You feel relaxed, why 
-not rest a while?
+   The warmth of the fireplace fills this room, and comfortable chairs
+are drawn up before it on a soft woven rug.  You feel relaxed; why not
+rest a while?  The corridor lies to the north.
 ~
 190 d 0
 D0
@@ -393,8 +441,8 @@ D0
 S
 #19025
 Falling down to the ground.~
-IT'S NO GOOD!!! YOU'RE NOT A BIRD, YOU WILL NOW DIE SQUATED ON THE 
-GROUND. ASK A WIZARD TO GET A SPATULA!
+   IT'S NO GOOD!!!  YOU'RE NOT A BIRD, AND YOU WILL NOW DIE SQUASHED ON
+THE GROUND.  ASK A WIZARD TO GET A SPATULA!
 ~
 190 cj 0
 D3
@@ -404,8 +452,11 @@ D3
 S
 #19026
 Guards bed room.~
-This looks like an ordinary bed room with about twenty beds in it. 
-There are no other exits than the one to the south.
+   This looks like an ordinary bedroom for the guards, with about twenty
+narrow beds lined up in neat rows, each with a chest at its foot.
+Everything is clean and orderly, as befits soldiers of the Elven King.
+A door to the north leads to the training room, and the corridor lies to
+the south.
 ~
 190 d 0
 D0
@@ -419,8 +470,9 @@ D2
 S
 #19027
 The Training room.~
-In the middle of this room there is some training equipment, and 
-there are currently:
+   In the middle of this room there is some training equipment: straw
+targets, wooden dummies and a rack of practice weapons.  The floor is
+covered in sand to soften falls, and there are currently:
 ~
 190 d 0
 D0
@@ -430,9 +482,10 @@ D0
 S
 #19028
 Hope Road~
-   The road is enclosed on the northern and southern sides by gold and
-silver trees.  To the west you see a strange net of some sort spanning
-across the road.  To the east, the road leads towards the Tavern of Hope.
+   The road is bordered on the north and south by trees of gold and
+silver, their leaves chiming softly in the breeze.  To the west a
+strange net of some sort spans the road, and to the east the road leads
+toward the Tavern of Hope.
 ~
 190 0 1
 D1
@@ -446,10 +499,11 @@ D3
 S
 #19029
 End of Hope Road~
-   You step up onto a platform where a large net spans across.  The bottom
-corners are tied and staked down onto the wooden platform.  The net
-stretches up high into the golden trees where you suddenly notice that
-the village is not exclusive to the ground.
+   You step up onto a wooden platform where a large net is strung.  Its
+bottom corners are tied and staked to the platform, and it stretches
+high up into the golden trees, where you suddenly notice that the
+village is not confined to the ground.  You could climb up the net, or
+go back east.
 ~
 190 0 0
 D1
@@ -463,11 +517,11 @@ D4
 S
 #19030
 On the Misgdlan Platform~
-   You are on the Misgdlan Platform, the first platform in the elven
-caste.  You see several platforms all suspended in mid-air by undetectable
-lines.  Some platforms are built around the trunks of the great trees.
-To the east a rope bridge with boards as flooring leads off across 
-the divide, between trees, towards another platform.
+   You are on the Misgdlan Platform, the first platform of the elven
+tree village.  Other platforms hang all around you in mid-air, held by
+lines too fine to see, and some are built around the trunks of the great
+trees.  To the east a rope bridge floored with boards leads across the
+gap to another platform.  The net leads down.
 ~
 190 g 2
 D1
@@ -481,9 +535,10 @@ D5
 S
 #19031
 The rope bridge~
-   Just to the west is Misdglan Platform and to the east you see that
-another rope bridge from the north connects with the one you are on now.
-Looking down you get a great view of the forest from above.
+   Just to the west lies the Misgdlan Platform, and here the bridge you
+are on meets another rope bridge leading north.  Looking down, you get a
+wonderful view of the forest from above, its canopy rolling away like a
+golden sea.
 ~
 190 g 2
 D0
@@ -497,11 +552,10 @@ D3
 S
 #19032
 On the rope bridge~
-   You are walking on a rope bridge with wooden slats tied to the ropes
-to make a substantial floor to walk on.  The bridge leads north towards
-a platform built about the trunk of a golden tree and south, the bridge
-connects with another bridge spanning east and west across the upper
-reaches of the forest.
+   You are walking on a rope bridge with wooden slats tied to its ropes
+to make a sturdy floor.  The bridge leads north toward a platform built
+around the trunk of a golden tree, and south to where it meets another
+bridge spanning the upper reaches of the forest.
 ~
 190 0 2
 D0
@@ -515,10 +569,10 @@ D2
 S
 #19033
 Platform of the Sun~
-   The platform is oval shaped and built about the trunk of a great
-tree.  There are no railings to prevent falling around the edge.  To
-the south you see a rope bridge lead off across the upper reaches of
-the forest.
+   This oval platform is built around the trunk of a great tree, high
+above the forest floor, and it has no railings at all to prevent a fall.
+Sunlight pours down on it through a gap in the canopy, warming the wood.
+To the south a rope bridge leads off across the treetops.
 ~
 190 0 2
 D2
@@ -528,9 +582,10 @@ D2
 S
 #19034
 The holding cell~
-   This holding cell is quite bleak.  There are marks etched into the
-wall which appear to be day counters.  To the north, through thick steel
-bars you can see the barracks of the city guard.
+   This holding cell is very bleak.  Marks scratched into the wall
+appear to count off the days of past prisoners, row upon row of them.
+To the north, through thick steel bars, you can see the barracks of the
+town guard.
 ~
 190 a 2
 D0
@@ -540,9 +595,9 @@ D0
 S
 #19035
 Eastern Elrhinn road~
-   A short ways off to the west you see the town of Elrhinn.  To the
-east the ground becomes jagged and gradually leads to a small range of
-mountains.  From the town, a road leads off towards the mountains.
+   A short way off to the west you see the town of Elrhinn.  To the east
+the ground grows jagged as it rises gradually toward a small range of
+mountains, and the road leads on from the town toward them.
 ~
 190 a 2
 D1
@@ -556,9 +611,10 @@ D3
 S
 #19036
 Eastern Elrhinn Road~
-   The road leads off from the town west of here towards the mountain
-range to the east.  To the north, hills begin to dot the landscape and
-a few miles further you see a green range of rolling hills.
+   The road leads from the town in the west toward the mountain range to
+the east.  To the north hills begin to dot the landscape, and a few
+miles off you can see a green range of rolling hills; a grassy trail
+leads that way.
 ~
 190 a 2
 D0
@@ -576,10 +632,10 @@ D3
 S
 #19037
 The dark stairwell~
-You are inside a cramped stairwell with stairs leading down towards
-a doorway.  Above you, you smell fresh air seeping into the underground
-chamber. With each step a cloud of dust billows from the stair into
-the musty dampness.  
+   You are in a cramped stairwell, with stairs leading down toward a
+doorway.  Fresh air seeps down from above into this underground chamber,
+and with each step a cloud of dust billows up from the stairs into the
+musty dampness.  A trapdoor leads up.
 ~
 190 ac 2
 D4
@@ -593,10 +649,10 @@ D5
 S
 #19038
 A dimly-lit room~
-The room is bare save few chairs surrounding a wooden table in the
-center of the room.  Light illumes the room from two torches set in
-silver gilded chassis on the walls.  To the west you see a dark corridor
-lead away towards a stairway.
+   The room is bare except for a few chairs around a wooden table in its
+center.  Two torches in silver-gilded holders light the room.  Papers on
+the table have been hastily gathered, as if someone left in a hurry.  A
+door leads west to a dark corridor.
 ~
 190 acgms 2
 D3
@@ -606,9 +662,9 @@ door~
 S
 #19039
 The dark corridor~
-The hallway is dark and the air is damp.  The wooden walls creak
-slightly with each step you take down the corridor.  You see to the east
-a door outlined by light.  
+   The hallway is dark, and the air is damp.  The wooden walls creak
+slightly with each step you take.  To the east a door is outlined in
+light, and the stairway lies to the west.
 ~
 190 an 2
 D1
@@ -622,9 +678,9 @@ D3
 S
 #19040
 Foot of the Stairway~
-Stairs lead up into darkness from here.  Adorning the woodn framework
-of the stairway are two flickering torches in silver chassis.  To the
-east, a dim corridor leads off.
+   Stairs lead up into darkness from here, and two flickering torches in
+silver holders adorn the wooden framework of the stairway.  To the east
+a dim corridor leads off.
 ~
 190 a 2
 D1
@@ -638,13 +694,12 @@ D4
 S
 #19041
 Foyer of the Temple of Kelloran~
-   Before you, to the south, a rather large temple opens up before you.
-Statues line the walls of the foyer path, depicting warriors and valkaries -
-martyrs who have given their life for their lord.  Most are nameless
-now after many centuries, but once in a while a familiar face appears.
-Above the doorway into the temple hangs a great, silver-gilded crest
-of Kelloran.  To the north, one of the streets of Elrhinn extends in
-an east-west fashion.
+   A large temple opens up before you to the south.  Statues line the
+walls of the foyer, depicting warriors and valkyries, martyrs who gave
+their lives for their lord.  Most are nameless now after many centuries,
+but now and then a familiar face appears.  Above the doorway into the
+temple hangs a great crest of Kelloran, gilded in silver.  To the north
+lies one of the streets of Elrhinn.
 ~
 190 a 2
 D0
@@ -658,13 +713,13 @@ D2
 S
 #19042
 The altar within the temple~
-   A large altar with bowels filled with incense fills most of the
-center of the room.  The incense presents itself subtly, causing your
-head to become light for a moment while you adjust to the odor.  The altar
-is made from white marble and seems to gleam as the light from a large,
-glass skylight pours down onto the altar.  The walls are made of wood and
-a descriptive, intricate etching adorns every single inch.  Most etchings
-are of battles depict legendary priests devoted to their lord, Kelloran.
+   A large altar of white marble fills most of the center of this room,
+its bowls heaped with smoldering incense whose scent makes your head
+swim for a moment.  Light pours down onto the altar through a great
+glass skylight, making it gleam.  The wooden walls are covered with
+intricate etchings, most of them showing battles fought by legendary
+priests devoted to their lord, Kelloran.  A tome rests upon the altar.
+The foyer lies north.
 ~
 190 a 2
 D0
@@ -680,18 +735,18 @@ was upended by the armies of Glasgian, the immortal plains were split
 in two.  The Ancient Ones whom previously ruled the realm from their
 lofty thrones upon high were banished by an even higher, more mysterious
 power into a more simple plane.  The became creators of the land and
-arbitrators and other more mysterious postitions which do not befit
+arbitrators and other more mysterious positions which do not befit
 the minds of mortal men.  
 ~
 S
 #19043
 Foyer of the Temple of Falentai~
-   The foyer is made up a two gardens, one to the north, one to the south.
-Within each garden stands an extremely lifelike statue - one depicting
-a young girl picking one of the flowers, the other of a tall male elf
-outfitted in golden armor, sword drawn and readied at his side.  His eyes
-are turned towards the temple west of here.  To the east you see the path
-through the elven village.
+   This foyer is made up of two small gardens, one to the north and one
+to the south.  In each stands an extremely lifelike statue: one of a
+young girl picking a flower, the other of a tall male elf in golden
+armor, his sword drawn and ready at his side, his eyes turned toward the
+temple to the west.  To the east lies the path through the elven
+village.
 ~
 190 c 2
 D1
@@ -705,12 +760,12 @@ D3
 S
 #19044
 Temple of Falentai~
-   A fire dances in the middle of a ring of stones in the center of the
-small temple.  The temple is almost cone shaped, like an egg split down
-the middle and set upright, the smoke from the small fire curls slowly
-upwards and disappears through a flew in the center of the ceiling.  The
-walls are white and bare save for the eastern part where a plain, wooden
-sculpted flower hangs over the doorway.  
+   A fire dances within a ring of stones in the center of this small
+temple.  The temple is almost cone-shaped, like an egg split down the
+middle and set upright, and the smoke from the fire curls slowly upward
+and out through a flue in the center of the ceiling.  The walls are
+white and bare, save for a plain wooden flower carved and hung above the
+doorway to the east.
 ~
 190 a 2
 D1
@@ -755,9 +810,12 @@ This room is yet unfinished...
 190 a 2
 S
 #19090
-The Reception in the Tavarn of the hope.~
-   You are standing in the reception.  The staircase leads down to 
-the entrance hall.  There is a small sign on the counter.
+The Reception in the Tavern of the hope.~
+   You are standing in the reception of the Tavern of Hope, a cozy room
+with a polished wooden counter and a ledger for guests to sign.  Lamps
+glow warmly on the walls, and the smell of supper drifts up from below.
+There is a small sign on the counter.  The staircase leads down to the
+entrance hall.
 ~
 190 cd 0
 D5
@@ -777,6 +835,36 @@ Rooms are expensive but good!  You may:
                           MY WAY OR THE HIGHWAY
                              PAY YOUR RENT!
                 WE WON'T THINK TWICE BEFORE KICKING YOU OUT.
+~
+S
+#19091
+The Heart of the Wood~
+   You stand in a hidden glade where the oldest trees of the elven wood
+lean together overhead, their leaves glowing gold and green in a light
+that has no source.  Fallen leaves lie ankle-deep and smell of every
+spring you have ever known.  At the center a single sapling grows from a
+ring of white stones, and on the largest stone a verse is cut in elven
+script beneath a plain translation in the common tongue.  A path of pale
+stones leads east, back toward the crossing.
+~
+190 cd 0
+D1
+A path of pale stones leads back to the crossing.
+~
+~
+0 -1 19008
+E
+verse stone stones script~
+The verse reads: "Here sleeps Ilvaren, first queen of the wood, who
+planted the trees that shelter her people. Each leaf that falls returns
+to her, and each spring she gives it back. Take nothing from this place
+but rest." Someone has added in smaller letters: "and perhaps a little
+light for the road."
+~
+E
+sapling~
+The sapling is no taller than your knee, yet its bark is silver and its
+few leaves glow softly. It seems very young and very old at once.
 ~
 S
 $~

@@ -1,8 +1,11 @@
 #3900
 On the Widmans River~
-   As the river flows toward Elrhinn it picks up speed and whisks you
-along the high banks flanked by the trees of Pelarinne.  The gloomy forest
-to the west makes you long for the relative safety of the city.
+   As the Widmans River flows toward Elrhinn it gathers speed, whisking
+you along between high banks crowned by the golden trees of Pelarinne.
+Leaves drift past on the current, and the water chuckles against your
+hull.  The gloomy forest to the west makes you long for the relative
+safety of the town.  Downstream lies the east, and upstream the river
+bends west toward a small bank.
 ~
 39 ap 7 5 0
 D1
@@ -16,9 +19,10 @@ D3
 S
 #3901
 The Riverbank~
-   The river is deep, and runs swiftly in an east-west direction.  To the
-north the river eddies and enters a backwash where a small bank extends
-down from a thick stand of golden trees.
+   The river is deep here and runs swiftly from east to west.  To the
+north the water eddies into a quiet backwash, where a small bank slopes
+down from a thick stand of golden trees and a trail leads away into the
+forest.  The river continues east and west.
 ~
 39 p 7 5 0
 D0
@@ -36,11 +40,12 @@ D3
 S
 #3902
 The Twisty Part Of The River~
-   The Widmans River twists and turns as the Uller River merges into
-it from the north.  You are nearly tossed out of you boat by the force
-of the current.  The water is dark, cold, almost reptilian in sheen.
-It seems almost alive.  The current runs to the east, but you think you
-could probably fight hard enough to move to the south or north.
+   The Widmans River twists and turns here as the Uller River pours into
+it from the north, and the meeting of the two currents nearly tosses you
+out of your boat.  The water is dark and cold, with an almost reptilian
+sheen, and it seems almost alive.  The current runs east, but you could
+probably fight hard enough to row north up the Uller, or west
+downstream.
 ~
 39 ap 7 5 0
 D0
@@ -58,9 +63,10 @@ D3
 S
 #3903
 The Scenic Route~
-   The dark forest of Pelarinne recedes behind you to the northeast.
-The river continues in a westerly direction toward the river delta,
-where you can just make out a large island.
+   The dark forest of Pelarinne recedes behind you to the northeast as
+the river widens and slows.  Reeds grow thick along the banks, and
+herons stalk the shallows.  The river continues west toward the delta,
+where you can just make out a large island rising from the water.
 ~
 39 p 7 5 0
 D1
@@ -74,9 +80,11 @@ D3
 S
 #3904
 The Swift River Delta~
-   You are at the edge of the river delta, where the river empties
-out on its way to the sea.  The water here is Black.  Deep.  Dark.
-Deadly.  The tidal waves sweep you around and around up and down.
+   You are at the edge of the river delta, where the river spreads out
+on its way to the sea.  The water here is black.  Deep.  Dark.  Deadly.
+The tidal swells sweep you around and around, up and down, and the smell
+of salt is strong on the wind.  Channels lead north, south and west, and
+the river runs back east.
 ~
 39 p 7 5 0
 D0
@@ -98,9 +106,10 @@ D3
 S
 #3905
 Near The Rocks~
-   You bob up and down in the waves comming dangerously close to some
-large, jagged rocks on the eastern shore of an unusual looking island.
-There is no way you could possibly land there without getting killed.
+   You bob up and down in the waves, dangerously close to the large,
+jagged rocks along the eastern shore of an unusual-looking island.
+Spray bursts over the rocks with every swell.  There is no way you could
+land here without being killed.  The delta lies to the east and south.
 ~
 39 p 7 5 0
 D1
@@ -114,11 +123,11 @@ D2
 S
 #3906
 The South River Delta~
-   You are making your way along a channel in the river delta between
+   You are making your way along a channel in the river delta, between
 the island to the west and the shore to the south and east.  To the
-south an aging broken down looking pier juts out from land and toward
-the west the channel works it way close to the island as it moves around
-its southern tip.
+south an old, broken-down pier juts out from the shore, and to the west
+the channel works its way close to the island as it curves around the
+southern tip.
 ~
 39 p 7 5 0
 D0
@@ -140,9 +149,10 @@ D3
 S
 #3907
 The Pier~
-   You float next to a crumbling pier long since neglected.
-To the west the water gets sluggish and there are many weeds and
-some seaweed floating about.
+   You float beside a crumbling pier, long since abandoned.  Its pilings
+are slimy with weed and its planks have rotted through in places,
+leaving gaping holes.  To the west the water turns sluggish and choked
+with weeds and seaweed.  The delta lies to the north.
 ~
 39 p 7 5 0
 D0
@@ -156,10 +166,10 @@ D3
 S
 #3908
 Mired In Seaweed~
-   The going is rough here.  The tide struggles with the normal flow
-of the river and here near the edge of the sea there is a large
-amount of growth.  To the west the channel passes the southern tip of
-the island and heads for open waters.
+   The going is rough here.  The tide struggles against the flow of the
+river, and near the edge of the sea a great tangle of seaweed has grown
+up, wrapping around your oars.  Shapes seem to move beneath the weeds.
+The channel leads north back into the delta, and east to the old pier.
 ~
 39 p 7 5 0
 D0
@@ -175,7 +185,7 @@ S
 The Waterfall~
    You are at the beginning of the canyon.  Water pours down from the
 top of the cliff high above and to the east.  To the south you can make
-your way towards a beach head, caught inbetween the high cliffs.  
+your way towards a beach head, caught in between the high cliffs.  
 ~
 39 p 7 5 0
 D2
@@ -189,9 +199,10 @@ D3
 S
 #3910
 The Beach Head~
-   This is a secluded looking beach on the southern tip of the island.
-Before you, a set of stairs leads up the southern cliff face.  To the
-north you see the Sea of Tears stretch out towards the horizon.
+   This secluded beach lies at the southern tip of the island, a small
+crescent of pale sand hemmed in by cliffs.  Before you, a set of stairs
+cut into the rock climbs the southern cliff face.  To the north the Sea
+of Tears stretches away to the horizon, gray and restless.
 ~
 39 p 2
 D0
@@ -205,8 +216,12 @@ D4
 S
 #3911
 The North Channel~
-   The river splits as it runs up against the island.  A navigatable
-channel slips off to the west.
+   The river splits as it runs up against the northern tip of the
+island, the water churning white where it breaks against the rocks.  A
+navigable channel slips off to the west between the island and the steep
+riverbank, while the main current sweeps on towards the delta to the
+south.  Willows lean out over the water, trailing their branches in the
+current.
 ~
 39 cp 7 5 0
 D2
@@ -220,8 +235,11 @@ D3
 S
 #3912
 The North Channel~
-   The river current carries you swiftly westward as the channel
-begins to narrow as it squeezes past the north end of the island.
+   The river current carries you swiftly westward as the channel begins
+to narrow, squeezing past the north end of the island.  On your left the
+island's banks are thick with reeds and tall grass; on your right the
+far shore rises in a wall of gray rock.  The water here is deep and
+dark, and you must work to keep your boat from turning in the eddies.
 ~
 39 p 7 5 0
 D1
@@ -235,9 +253,10 @@ D3
 S
 #3913
 Near The Isle~
-   You are sitting just off a small landing on the island that
-appears to be nothing more than a short path that leads to the
-side of a hill.
+   You are sitting just off a small landing on the island, which appears
+to be nothing more than a short path leading to the side of a hill.  The
+island looks bleak and windswept, with little but rocks and coarse
+grass.  The channel lies to the east, and the landing to the south.
 ~
 39 cp 7 5 0
 D1
@@ -251,11 +270,11 @@ D2
 S
 #3914
 The Lane Of The Lying~
-   Bodies lie everywhere.  Commoner, peasant, duke, duchess.  The Gods
-will not hear you call here.  Hence they will not answer you.  To the
-south the path ends at a dark cave entrance.  To the east you see a 
-beach head with grass poking up out of the sand.
- A sign has been posted beside the entrance.
+   Bodies lie everywhere along this lane: commoner and peasant, duke and
+duchess, all alike in death.  The gods will not hear you call here, and
+so they will not answer you.  To the south the path ends at a dark cave
+entrance in the hillside, and a sign has been posted beside it.  To the
+north lies the water.
 ~
 39 p 1
 D0
@@ -277,10 +296,11 @@ A sign beside the dark cave opening reads:
 S
 #3915
 The First Trial Of Peringuard~
-   Ah... you find yourself in Peringuard's battlefield playground.  
-He loves to torture his people through these places.  He
-collects the greatest combatants of the world and puts them here.
-To the east a large golden gateway blocks the way to the next trial.
+   Ah... you find yourself in Peringuard's battlefield playground.  He
+loves to torment his people in places like this, collecting the greatest
+fighters of the world and setting them here to test all comers.  The
+floor is stained with old blood and scattered with broken weapons.  To
+the east a large golden gateway bars the way to the next trial.
 ~
 39 adp 1
 D1
@@ -290,11 +310,11 @@ gateway golden~
 S
 #3916
 The Second Trial Of Peringuard~
-   Peringuard's voice reveberates from the four walls of this room:
-'Get some rest and make sure you're healed.  You'll need it for
-the next monster in my playground.  Or are you strong enough?'
-   To the south is the gateway to the next challenge of Perin-
-guard's stronghold.
+   Peringuard's voice echoes from the four walls of this room: 'Get some
+rest and make sure you're healed.  You'll need it for the next monster
+in my playground.  Or are you strong enough?'  The room is bare stone,
+lit by torches in iron sconces.  To the south a gateway leads to the
+next challenge of Peringuard's stronghold.
 ~
 39 adp 1
 D2
@@ -304,10 +324,10 @@ gateway~
 S
 #3917
 The Third Trial Of Peringuard~
-   You go inside a red room.  Very red.  As if the King used
-them to disembowel his guests.  The path continues eastward.  You
-see blue lights in that direction but first you'll have to get past
-the gateway.
+   You step into a red room.  Very red, as though the king had used it
+to disembowel his guests.  The walls, the floor and even the ceiling are
+painted the color of fresh blood.  The path continues east, where blue
+lights flicker beyond another gateway.
 ~
 39 adp 0
 D1
@@ -317,9 +337,11 @@ gateway~
 S
 #3918
 The Fourth Trial Of Peringuard~
-  You see a blue light flicker on and off.  A voice crackles, 'WHY ARE 
-YOU HERE!?'  To the south is a large golden gateway leading towards
-the next trial.
+   A blue light flickers on and off in this chamber, throwing everything
+into stark relief and then plunging it into darkness.  A voice crackles
+from nowhere: 'WHY ARE YOU HERE!?'  The walls are scorched black, and
+the air smells of smoke and sulfur.  To the south a large golden gateway
+leads toward the next trial.
 ~
 39 adp 0
 D2
@@ -329,10 +351,11 @@ gateway~
 S
 #3919
 The Fifth Trial Of Peringuard~
-   This is the generals quarters.  Hraka abound.  The frayed
-corpses of rabbits lie scattered about this hell-hole.  The General
-is not a very neat person as you can tell.
-To the east is a large golden gateway leading to the Sixth Trial.
+   These are the general's quarters, and it shows.  Filth abounds; the
+frayed corpses of rabbits lie scattered about this hellhole, and a heap
+of greasy furs in one corner serves as a bed.  The general is not a very
+neat person.  To the east a large golden gateway leads to the sixth
+trial.
 ~
 39 adp 0
 D1
@@ -342,11 +365,11 @@ gateway~
 S
 #3920
 The Sixth Trial Of Peringuard~
-   The paths appear to be endless.  You shudder the sounds of death cries 
-from the east.  A loud voice bellows another warning: 'Leave now or face 
-my wrath!'  There is a crawlway leading upwards at the far end of the room 
-and there is a fresh breeze coming from there.  To the south you see
-a gateway leading to the last trial of Peringuard.
+   The passages here seem endless, and you shudder at the death cries
+echoing from somewhere beyond.  A loud voice bellows another warning:
+'Leave now or face my wrath!'  At the far end of the room a crawlway
+leads upward, and a fresh breeze blows down through it.  To the south a
+gateway leads to the last trial of Peringuard.
 ~
 39 adp 0
 D2
@@ -360,10 +383,11 @@ D4
 S
 #3921
 The Final Trial Of Peringuard~
-   This is Peringuard's room.  What else did you expect?  The room is lavishly
-decorated for the king.  Everything is so opulent that it makes
-your eyes bulge.  Survive and reap his fortune!  The only exit is a large
-oak door in the east wall.
+   This is Peringuard's own room.  What else did you expect?  It is
+lavishly decorated for a king, with gilded pillars, silk hangings,
+marble statues and furs heaped on a great throne, all so opulent that it
+makes your eyes bulge.  Survive, and reap his fortune!  The only exit is
+a large oak door in the east wall.
 ~
 39 adp 0
 D1
@@ -374,9 +398,10 @@ door oak~
 S
 #3922
 The Royal Chamber~
-   The treasure room of Peringuard is dark save for your lantern.
-Hopefully it has not been looted yet by the many legendary thieves
-of Elrhinn.  A clever looking secret passage leads upward from here.
+   The treasure room of Peringuard is dark save for your own light,
+which glitters on coins and jewels heaped in every corner.  Hopefully it
+has not yet been looted by the many legendary thieves of Elrhinn.  A
+cleverly hidden passage leads upward from here.
 ~
 39 adjp 0
 D4
@@ -386,9 +411,10 @@ D4
 S
 #3923
 Above, On The Beach~
-   You sit amongst the rocks above a small beach at the southern
-end of the island.  You could clamber down easy enough, but getting
-back up would be another story.
+   You sit among the rocks above a small beach at the southern end of
+the island, with the wind tugging at your hair and the sea booming
+below.  You could clamber down easily enough, but getting back up would
+be another story.
 ~
 39 p 4
 D5

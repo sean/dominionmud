@@ -1,12 +1,11 @@
 #8000
 A huge cave~
-   You are in a huge cave without a ceiling, undoubtedly the entrance
-for the dragon which lives within these caves.  The walls are scorched 
-and thick soot clings to them from the hot fires spewed forth from the 
-belly of the dragon.  There is no gold here, unlike how the fairy tales 
-suggest.  Only bones.  The room is unbearably hot and the air is hard 
-to breathe.  To the south there is a small passageway leading out of 
-the cave.
+   You are in a huge cave open to the sky, undoubtedly the lair and
+doorway of the dragon that dwells within these caves.  The walls are
+scorched and caked with thick soot from the fires spewed from its belly.
+There is no gold here, whatever the fairy tales say; only bones, heaped
+in drifts against the walls.  The heat is unbearable and the air hard to
+breathe.  A passage leads south.
 ~
 80 ad 0
 D2
@@ -16,14 +15,13 @@ D2
 S
 #8001
 Northwest Tower of Bryn Mawr~
-   You step out of the stairway onto the deck of the northwest tower of 
-Bryn Mawr Castle.  Ramparts encircle the edge of the tower providing
-a standard line of defense against arrows and other projectiles.  You
-have an excellent view of the cavern from up here.  The walls of the entire
-cavern dance as light reflects off of the many jewels hidden within.  
-The ceiling is still very far above you even at your extended height.
-An opening in the floor of the tower leads back down to the main sections
-of the castle.
+   You step out of the stairway onto the deck of the northwest tower of
+Bryn Mawr Castle.  Ramparts of krisahla stone encircle the edge of the
+tower, a standard defense against arrows and other missiles.  From up
+here you have an excellent view of the great cavern: its walls dance
+with light reflected from the countless jewels set within them, and the
+ceiling is still very far above you, lost in shadow.  The stairway leads
+down.
 ~
 80 ad 0
 D5
@@ -33,14 +31,11 @@ D5
 S
 #8002
 Northeast Tower of Bryn Mawr~
-   You step out of the stairway onto the deck of the northeast tower of 
-Bryn Mawr Castle.  Ramparts encircle the edge of the tower providing
-a standard line of defense against arrows and other projectiles.  You
-have an excellent view of the cavern from up here.  The walls of the entire
-cavern dance as light reflects off of the many jewels hidden within.  
-The ceiling is still very far above you even at your extended height.
-An opening in the floor of the tower leads back down to the main sections
-of the castle.
+   You step out of the stairway onto the deck of the northeast tower of
+Bryn Mawr Castle.  Ramparts encircle the edge of the tower, and from
+here you can see across the whole glittering cavern, its jeweled walls
+twinkling like a night sky turned inside out.  The ceiling is still far
+above, lost in shadow.  The stairway leads down.
 ~
 80 ad 0
 D5
@@ -50,9 +45,9 @@ D5
 S
 #8003
 The passageway~
-   The heat is nearly unbearable here.  To the north you sense that 
-that is where the heat originates from.  A strange flickering glow
-lines the walls of the chamber to the north.  A hole in the floor leads
+   The heat is nearly unbearable here, and the rock is warm to the
+touch.  It seems to come from the north, where a strange, flickering
+glow lines the walls of the chamber beyond.  A hole in the floor leads
 back down to a lower level of the caves.
 ~
 80 acd 0
@@ -67,12 +62,11 @@ D5
 S
 #8004
 End of the Passageway~
-   You have come to a dead end tunnel in the Bryn Mawr Mines.  Suddenly,
-a deep rumble comes from somewhere overhead and the ceiling partially
-crumbles revealing a hole large enough to squeeze through.  A dry, 
-overwhelming heat pours down into the dead-end from beyond the new
-hole in the ceiling.  To the south you see a mine tunnel lead off through
-the darkness.
+   You have come to a dead-end tunnel in the Bryn Mawr Mines.  A deep
+rumble once shook the ceiling here, and part of it has crumbled away,
+leaving a hole just large enough to squeeze through.  A dry,
+overwhelming heat pours down through it.  To the south a mine tunnel
+leads off into the darkness.
 ~
 80 ad 0
 D2
@@ -86,9 +80,9 @@ D4
 S
 #8005
 The stairway~
-   The stairway winds along the cold, 'krisahla' walls of the circular 
-shaped tower.  You guess that the stairs are leading up to the deck of  
-the tower and leading down to the main section of the castle.
+   The stairway winds up along the cold krisahla walls of the round
+tower, each step worn smooth by the boots of dwarven sentries.  It leads
+up to the deck of the tower, and down to the main halls of the castle.
 ~
 80 ad 0
 D4
@@ -102,12 +96,12 @@ D5
 S
 #8006
 Throne of the King~
-   The throne room is entirely made of the 'krisahla' stone found in
-the mines of Bryn Mawr.  The throne is the only exception which looks
-to be founded by plain wood.  A large red tapestry hangs overhead with
-the seal of Bryn Mawr, a golden shield and hammer of fire.  Before the
-throne is a carpet with a matching symbol.  To the south, a large arch-
-way leads out of the throne room to the main hall of the castle.
+   The throne room is built entirely of the krisahla stone mined beneath
+Bryn Mawr, its walls gleaming with a soft, pearly sheen.  A large red
+tapestry hangs above the throne bearing the seal of Bryn Mawr, a golden
+shield and a hammer of fire, and a carpet with the same symbol runs
+before it.  Braziers burn on either side.  To the south a large archway
+leads out of the throne room.
 ~
 80 ad 0
 D2
@@ -117,9 +111,9 @@ D2
 S
 #8007
 The stairway~
-   The stairway winds along the cold, 'krisahla' walls of the circular 
-shaped tower.  You guess that the stairs are leading up to the deck of  
-the tower and leading down to the main section of the castle.
+   The stairway winds up along the cold krisahla walls of the round
+tower, each step worn smooth by the boots of dwarven sentries.  It leads
+up to the deck of the tower, and down to the main halls of the castle.
 ~
 80 ad 0
 D4
@@ -133,10 +127,9 @@ D5
 S
 #8008
 Abandoned Passageway in the Bryn Mawr Mines~
-   The walls of the passage are scarred with wounds of many centuries of
-mine picks and shovels digging their way in search of precious krisahla.
-Tracks are still in the dirt but they are not fresh.  The tunnel continues
-on to the south and to the east.
+   The walls of this passage are scarred by centuries of picks and
+shovels digging in search of precious krisahla.  Old tracks mark the
+dirt floor, though none are fresh.  The tunnel continues south and east.
 ~
 80 ad 0
 D1
@@ -157,11 +150,10 @@ creatures that made them were in quite a hurry.
 S
 #8009
 Abandoned Tunnel~
-   The tunnel becomes smaller here, clearly because of the lack of mining
-done in this area of the mines.  There are less scratches upon the walls 
-of the mines as well.  In the dirt you see tracks, most leading away from 
-the east towards the west.
-
+   The tunnel grows smaller here, plainly because little mining was done
+in this part of the mines, and there are fewer scratches on its walls.
+In the dirt you see tracks, most of them leading from the east toward
+the west, as if those who made them had been in a hurry to leave.
 ~
 80 ad 0
 D1
@@ -175,9 +167,9 @@ D3
 S
 #8010
 Abandoned Tunnel~
-   You see many tracks, closely grouped together leading back down the tunnel
-to the west, not very many can be seen leading east.  It is very dark, the
-only light is provided by your source.  
+   Many tracks, closely grouped together, lead back down the tunnel to
+the west; very few lead east.  It is very dark here, and the only light
+is your own.  The tunnel continues east and west.
 ~
 80 ad 0
 D1
@@ -191,8 +183,11 @@ D3
 S
 #8011
 Turn in the Abandoned Tunnels~
-   The tunnel turns here leading north and west.  You notice a strange, dry 
-heat emenating from the walls of the small passage.  
+   The tunnel turns here, leading north and west.  You notice a strange,
+dry heat emanating from the walls of the small passage, and the rock is
+warm to the touch.  The timbers that once shored up the ceiling have
+dried and cracked, and fine dust trickles down from above with every
+step you take.
 ~
 80 ad 0
 D0
@@ -206,10 +201,10 @@ D3
 S
 #8012
 Dead-end Tunnel~
-You have come to an abrupt dead end in the tuennel.  It seems that the
-mining was abandoned here as the wall is only half dug into.  You may
-go back to the south through the gloomy passage.  You also feel a waft
-of air coming from the ceiling of the dead end here.
+   You have come to an abrupt dead end in the tunnel.  The mining seems
+to have been abandoned here, and the wall ahead is only half dug out.  A
+waft of fresh air blows down from a trapdoor set into the ceiling.  The
+gloomy passage leads back south.
 ~
 80 ad 0
 D2
@@ -223,11 +218,11 @@ trapdoor~
 S
 #8013
 Southwestern Tower Top~
-   You come up from a hole in the floor of the stairwell onto the deck
-of the southwestern tower of the castle.  You have an exquisite view of
-the surrounding cavern from here.  Although you are up about a hundred feet
-from the ground, you are still quite far from the ceiling of the cavern.  
-The jewels on the walls of the cavern twinkle and dance in the soft light.
+   You climb up through a hole in the floor of the stairwell onto the
+deck of the southwestern tower of the castle.  The view of the
+surrounding cavern is exquisite: though you are a hundred feet above the
+ground, the ceiling is still far above, and the jewels in the cavern
+walls twinkle and dance in the soft light.  The stairs lead down.
 ~
 80 ad 0
 D5
@@ -237,10 +232,10 @@ D5
 S
 #8014
 Corner in the Hallway in the Castle~
-   You have come to a corner of hallways in the Bryn Mawr Castle.  To the
-south and east hallways lead off, lit by torches.  A small archway in the
-corner of the room reveals a stairway within leading up to the watchtowers
-of the castle.  
+   You have come to a corner where two hallways meet in Bryn Mawr
+Castle.  Torchlit hallways lead off south and east, and a small archway
+in the corner reveals a stairway leading up to the watchtowers of the
+castle.
 ~
 80 ad 0
 D1
@@ -258,9 +253,9 @@ D4
 S
 #8015
 Hallway in the Castle~
-   On the the walls of the great hallway are torches placed in golden 
-sheathes.  To the west you notice that the hallway comes to a corner and
-to the east the hallway leads far off.
+   Torches in golden sheaths line the walls of this great hallway, their
+light glinting off the polished krisahla stone.  To the west the hallway
+comes to a corner, and to the east it leads far off.
 ~
 80 ad 0
 D1
@@ -274,11 +269,10 @@ D3
 S
 #8016
 Hallway in the Castle~
-   To the north you notice a great room unfold beyond the archway.  Across
-from the archway hangs a small, dark blue crest depicting a golden shield
-and a flaming hammer above the shield.  The hallway in which you stand
-now leads off like giant sun rays lighted by torches sheathed in gold
-east and west from here.
+   To the north a great room opens beyond an archway.  Across from the
+arch hangs a small, dark blue crest bearing a golden shield with a
+flaming hammer above it.  The hallway runs east and west like rays of
+the sun, lit by torches in golden sheaths.
 ~
 80 ad 0
 D0
@@ -296,9 +290,9 @@ D3
 S
 #8017
 Hallway in the Castle~
-   The hallway stretches off both east and west from this point.  To the 
-east, however, you notice that the hallway you are in comes to a corner.
-The walls are lined with torches sheathed in gold.
+   The hallway stretches east and west from here, and to the east it
+comes to a corner.  The walls are lined with torches in golden sheaths,
+and the floor is laid with slabs of polished stone.
 ~
 80 ad 0
 D1
@@ -312,10 +306,10 @@ D3
 S
 #8018
 Corner in the Hallway in the Castle~
-   You have come to a corner of hallways in the Bryn Mawr Castle.  To the
-south and west, hallways lead off, lit by torches.  A small archway in the
-corner of the room reveals a stairway within leading up to the watchtowers
-of the castle.  
+   You have come to a corner where two hallways meet in Bryn Mawr
+Castle.  Torchlit hallways lead off south and west, and a small archway
+in the corner reveals a stairway leading up to the watchtowers of the
+castle.
 ~
 80 ad 0
 D2
@@ -345,9 +339,10 @@ D5
 S
 #8020
 A mining shed~
-   The shed is quite small and dirt trickles in through small rusted
-holes in the ceiling.  A scarce few tools lean up against the metal walls.
-To the east, out a small doorway is the tunnels of the Bryn Mawr Mines.
+   This shed is quite small, and dirt trickles in through small rusted
+holes in its ceiling.  A few battered tools lean against its walls of
+scrap metal.  To the east, a small doorway leads out into the tunnels of
+the Bryn Mawr Mines.
 ~
 80 ad 1
 D1
@@ -357,9 +352,9 @@ door shed~
 S
 #8021
 Tunnel in the Bryn Mawr Mines~
-   Just to the west, set into the earthy wall of the tunnel is a small,
-metal shed, pieced together by scraps.  To the north and south the tunnel  
-continues, walls scarred by the toll of the mining.
+   Set into the earthen wall of the tunnel just to the west is a small
+metal shed, pieced together from scraps.  The tunnel continues north and
+south, its walls scarred by the toil of the miners.
 ~
 80 ad 0
 D0
@@ -378,8 +373,8 @@ S
 #8022
 Dead-end Tunnel~
    The tunnel comes to an abrupt dead end.  The rock to the north is
-harder and unvaluable making this passage nearly worthless.  To the south,
-the tunnel leads back into the darkness of the mines.
+harder and worthless, which made this passage hardly worth digging.  To
+the south the tunnel leads back into the darkness of the mines.
 ~
 80 ad 0
 D2
@@ -389,8 +384,11 @@ D2
 S
 #8023
 The dark passage in the Mines~
-   Everything is quite dark, the only light is coming from your own source.
-The passage continues on to the north and south.
+   Everything is quite dark here, and the only light comes from whatever
+source you carry with you.  The passage is rough-hewn, its walls still
+showing the marks of dwarven picks, and the ceiling is so low that
+taller folk must stoop.  The passage continues on to the north, where it
+ends abruptly, and to the south towards an earthen stairway.
 ~
 80 ad 0
 D0
@@ -404,8 +402,11 @@ D2
 S
 #8024
 The circle stairs~
-   The stairs wind up and down the cylindar shaped tower.  Light spills into
-the stairwell from above and the air feels less stuffy.
+   The stairs wind up and down the cylinder-shaped tower, their stone
+steps worn smooth in the middle.  Light spills into the stairwell from
+above, and the air feels less stuffy here than in the depths below.
+Narrow arrow slits in the curving wall look out over the great cavern.
+The stairs continue up to the top of the southwestern tower and down.
 ~
 80 ad 0
 D4
@@ -419,9 +420,9 @@ D5
 S
 #8025
 Hallway in the castle~
-   On the west wall is a large picture with the bust of a stallwart dwarf
-painted upon it.  The hallway lead off north and south through the
-western part of the castle.
+   On the west wall of this hallway hangs a large painting of the bust
+of a stalwart dwarf with a braided beard.  The hallway leads north and
+south through the western part of the castle.
 ~
 80 ad 0
 D0
@@ -442,9 +443,9 @@ Mountain Dwarf'.
 S
 #8026
 Hallway in the castle~
-   On the east wall is a large picture with the bust of a darkelf
-painted upon it.  The hallway lead off north and south through the
-eastern part of the castle.
+   On the east wall of this hallway hangs a large painting of the bust
+of a dark elf, a curious thing to find in a dwarven hall.  The hallway
+leads north and south through the eastern part of the castle.
 ~
 80 ad 0
 D0
@@ -458,7 +459,7 @@ D2
 E
 picture~
    "A valiant dargonae once travelled through the great Gate of Rhulin 
-which seperated the dwarves of Bryn Mawr and the evil elves.  He sought 
+which separated the dwarves of Bryn Mawr and the evil elves.  He sought 
 refuge from his evil brethren with the dwarves who was reluctantly accepted 
 into the dwarven society.  He rose into power and helped the dwarves defend 
 their great kingdom and valuable mines from the dargonae."  
@@ -471,8 +472,8 @@ down towards the dark army.
 S
 #8027
 The circle stairs~
-   The stairs wind up and down the cylindar shaped tower.  Light spills into
-the stairwell from above and the air feels less stuffy.
+   The stairs wind up and down the cylindrical tower.  Light spills into
+the stairwell from above, and the air feels less stuffy here.
 ~
 80 ad 0
 D4
@@ -486,9 +487,9 @@ D5
 S
 #8028
 At the ladder in the Mines~
-   A ladder pokes up through a wide crevice in the floor of the tunnel 
-to another passage leading north and south below.  To the north you can 
-continue on through the mines in darkness.
+   A ladder pokes up through a wide crevice in the floor of the tunnel
+from another passage below.  To the north you can continue on through
+the dark mines.
 ~
 80 ad 0
 D0
@@ -502,9 +503,9 @@ D5
 S
 #8029
 Passage in the Mines~
-   The walls of the mine tunnel are covered with the deep scars of mining
-but on the west wall is a ladder leading up through a hole in the ceiling.
-To the north and south the passage continues as well.
+   The walls of the mine tunnel are covered with the deep scars of
+mining, and on the west wall a ladder leads up through a hole in the
+ceiling.  The passage continues north and south.
 ~
 80 ad 0
 D0
@@ -522,9 +523,9 @@ D4
 S
 #8030
 Turn in the tunnel~
-   The passage leads off to the east as well as south through the gloomy
-darkness of the mines.  You hear the sound of metal upon stone coming from
-somewhere above and to the northeast of you.  
+   The passage leads off east and south through the gloomy darkness of
+the mines.  You hear the sound of metal striking stone coming from
+somewhere above you and to the northeast.
 ~
 80 ad 0
 D1
@@ -538,10 +539,9 @@ D2
 S
 #8031
 An earthen stairway~
-   Stairs cut directly into the wall of the mine lead up to the east.  A 
-wooden archway with a lit lantern hanging from an iron hook stands at the 
-top of the stairs.  The passage also leads off to the west from here towards
-a corner in the mine tunnel.
+   Stairs cut directly into the wall of the mine lead up to the east,
+and at their top stands a wooden archway with a lantern hanging from an
+iron hook.  The passage also leads west toward a corner in the tunnel.
 ~
 80 ad 0
 D3
@@ -555,11 +555,11 @@ D4
 S
 #8032
 An earthen stairway~
-   A lantern glowing softly hangs from an iron hook provides some long missed
-light in the tunnel, it also signals that someone or something is nearby.
-Through the archway, to the west are some recently carved steps leading down
-to the same tunnel below you a few feet.  You hear the clanking more
-distinctly here and it seems to be coming somewhere to the north.
+   A softly glowing lantern hangs from an iron hook here, providing some
+long-missed light, and a sign that someone, or something, is nearby.
+Recently carved steps lead down through the archway to the tunnel a few
+feet below.  The clanking of tools is clearer here and seems to come
+from the north.
 ~
 80 ad 0
 D0
@@ -573,8 +573,10 @@ D5
 S
 #8033
 The stairwell~
-   A small window set into the curve of the tower, looks out across the 
-cavern.  The stairs lead up and down the tower.
+   A small window set into the curve of the tower looks out across the
+cavern, giving you a view of the dwarven town spread out below, its
+streets lit by the glow of forges and lanterns.  The stone stairs lead
+up and down the tower, spiraling out of sight in both directions.
 ~
 80 ad 0
 D4
@@ -588,9 +590,9 @@ D5
 S
 #8034
 Corner in the Castle~
-   To the north and east, large hallways lined with torches lead off.  There
-is an archway set into the corner of the hallways giving way to a set of
-stairs which lead up a circular shaped tower.
+   Large, torchlit hallways lead off north and east from this corner.
+An archway set into the corner opens onto a set of stairs that wind up a
+round tower.
 ~
 80 ad 0
 D0
@@ -608,9 +610,9 @@ D4
 S
 #8035
 The hallway in the castle~
-   To the west you see the hallway come to a corner with the western north-
-south hallway.  Just to the east, further down the hallway you see a great
-gate stretching from floor to ceiling in a breach in the southern wall.
+   To the west the hallway meets the western north-south hall at a
+corner.  Just to the east, further down, a great gate stretches from
+floor to ceiling in a breach in the southern wall.
 ~
 80 ad 0
 D1
@@ -624,11 +626,11 @@ D3
 S
 #8036
 Inside the Castle of Bryn Mawr~
-   To the east and west, great, stone halls lead off through the ancient
-castle.  To the south lies the Gate of Ciurienne, entrance to the castle.
-Torches line the walls sheathed in gold.  Between the torches are pictures;
-some old, some new, some the size of a coin, some stretch from floor to
-ceiling.
+   Great stone halls lead east and west through the ancient castle from
+here.  To the south lies the Gate of Ciurienne, the entrance to the
+castle.  Torches in golden sheaths line the walls, and between them hang
+pictures, some old and some new, some the size of a coin and some
+stretching from floor to ceiling.
 ~
 80 acd 0
 D1
@@ -646,8 +648,10 @@ D3
 S
 #8037
 Hallway in the Castle~
-   To the east and west the hall leads off and just to the west you see
-a great iron gate within the southern wall leading out of the castle.
+   The hall leads east and west, and just to the west you see a great
+iron gate in the southern wall leading out of the castle.  A row of
+carved stone shields lines the walls, each bearing the arms of some
+dwarven clan.
 ~
 80 ad 0
 D1
@@ -661,9 +665,9 @@ D3
 S
 #8038
 Corner of the Hallway~
-   To the north and west the hallways lead, the walls lined with torches.
-An archway is in the corner of the hallways and just beyond lies a stairway
-which climbs up the southeastern watchtower.
+   Torchlit hallways lead north and west from this corner of the castle.
+An archway in the corner opens onto a stairway that climbs the
+southeastern watchtower.
 ~
 80 ad 0
 D0
@@ -681,8 +685,10 @@ D4
 S
 #8039
 Inside the Stairwell~
-   The stairs wind up and down the curved walls of the tower and there are
-no torches in here to light the way.  From above a cool draft blows down.
+   The stairs wind up and down along the curved walls of the tower, and
+no torches light the way here; you must feel your way along the cold
+stone.  A cool draft blows down from above, carrying the smell of earth
+and rock.
 ~
 80 ad 0
 D4
@@ -696,9 +702,10 @@ D5
 S
 #8040
 Turn in the passageway~
-   The passageway turns here leading both north and east.  Both passages
-are dark and were the wall meets the ceiling cobwebs stick frighteningly 
-gently.
+   The passageway turns here, leading both north and east.  Both
+passages are dark, and where the walls meet the ceiling, cobwebs sway
+frighteningly gently, stirred by some draft you cannot feel.  The floor
+is littered with loose stones and the remains of old mining tools.
 ~
 80 ad 0
 D0
@@ -713,8 +720,8 @@ S
 #8041
 Intersection of passages~
    Two mine tunnels lead off through the darkness, one to the north and
-another heading west.  You see a faint glimmer of light to the south and the
-air feels fresher in that direction.
+another to the west.  A faint glimmer of light shows to the south, and
+the air feels fresher in that direction.
 ~
 80 ad 0
 D0
@@ -732,11 +739,13 @@ D3
 S
 #8042
 Before the Castle~
-   The walls of the castle before you stretch high into the mighty heights
-of the cavern in which this castle and township both reside.  There is very 
-little ornamental work done on the exterior of this castle, unlike most 
-others found in the realm.  To the south a road leads off between large
-jewelled stalagmites towards the Township of Bryn Mawr. 
+   The walls of the castle rise before you into the mighty heights of
+the cavern that holds both castle and town.  Unlike most castles in the
+realm, its exterior is plain and almost unadorned, built for strength
+rather than beauty, though the krisahla stone gleams softly of its own
+accord.  A great gate leads north into the castle, and to the south a
+road winds between large, jeweled stalagmites toward the Township of
+Bryn Mawr.
 ~
 80 ad 0
 D0
@@ -750,8 +759,8 @@ D2
 S
 #8043
 Turn in the tunnel~
-   To the east a waft of fresh air hits you and a glow covers the curvature
-of the walls.  To the north you sense the tunnel leading further into the 
+   To the east a waft of fresh air reaches you, and a soft glow lights
+the curve of the walls.  To the north the tunnel leads deeper into the
 mines.
 ~
 80 ad 0
@@ -766,10 +775,10 @@ D1
 S
 #8044
 Inside the Mines~
-   To the south you see a large iron gate between two large granite pillars;
-the entrance of the Mines of Bryn Mawr.  To the east, darkness begins its
-inevitable shroud about the walls and floor of the tunnel but the ceiling
-remains lit by the glow of the cavern outside.
+   To the south a large iron gate stands between two great granite
+pillars: the entrance to the Mines of Bryn Mawr.  To the west the
+darkness of the tunnels closes in over the walls and floor, though the
+ceiling here is still lit by the glow of the cavern outside.
 ~
 80 ad 0
 D2
@@ -783,10 +792,10 @@ D3
 S
 #8045
 Corner of Isengier and Kaledreme Roads~
-   Two roads meet here at a walled corner, and branch off east and south.
-On one side of the roads, a fortified wall makes a perimeter around the city.
-On the other side are small homes built of strong stone.  A few of the homes
-have long tendrils of smoke rising from their chimneys.  
+   Two roads meet at this walled corner and branch off east and south.
+On one side, a fortified wall forms the boundary of the town; on the
+other stand small homes built of sturdy stone, with long tendrils of
+smoke rising from a few of their chimneys.
 ~
 80 ad 0
 D1
@@ -800,9 +809,10 @@ D2
 S
 #8046
 Isengier Road~
-   You are on a small street leading east and west between the fortification
-wall, and in contrast, a garden lining the opposite side of the road, 
-abutting the brick wall of a low building.  
+   You are on a small street that runs east and west between the stern
+fortification wall and, in contrast, a pretty garden of mushrooms and
+pale cave flowers lining the opposite side, against the brick wall of a
+low building.
 ~
 80 ad 0
 D1
@@ -817,9 +827,8 @@ S
 #8047
 Corner of Isengier Road and Kenas' Way~
    To the west, Isengier Road leads off down a quiet street through the
-town.  To the south you see Kenas' Way lead between small shops situated
-on both sides of the road.  The walls surrounding the city meet here,
-abutting the streets.
+town, and to the south Kenas' Way runs between small shops on both
+sides.  The town walls meet here, close against the streets.
 ~
 80 ad 0
 D2
@@ -833,9 +842,9 @@ D3
 S
 #8048
 Corner of Hurin's Road and The Rite of Gandor~
-   The Rite of Gandor leads off to the east alongside the great citywall
-which surrounds the city.  To the south, Hurin's Road runs off from the
-corner towards the southern part of the city.
+   The Rite of Gandor leads off to the east alongside the great wall
+that surrounds the town.  To the south, Hurin's Road runs from this
+corner toward the southern part of town.
 ~
 80 ad 0
 D1
@@ -849,12 +858,12 @@ D2
 S
 #8049
 Rite of Gandor~
-   This oddly named street stretches off east and west through the small,
-underground town of Bryn Mawr.  High above, hundreds of feet high, you see
-the ceiling of the cavern in which the mines, Castle, and town all reside.
-To the south is an unknown building with a faded window set into the strong
-brick wall.  To the north is a facade of the fortification wall the surrounds
-the city.
+   This oddly named street stretches east and west through the small
+underground town of Bryn Mawr.  Hundreds of feet overhead you can see
+the ceiling of the great cavern that holds the mines, the castle and the
+town, glittering faintly with jewels.  To the south is a building with a
+faded window set into its strong brick wall, and to the north rises the
+face of the fortification wall.
 ~
 80 ad 0
 D1
@@ -869,9 +878,9 @@ S
 #8050
 Corner of Rite of Gandor and Smerg Mawr Way~
    The eastern and northern sections of the fortification wall meet here
-at a sharp point.  To the south the road leads off between interesecting 
-roads and buildings.  To the west, Rite of Gandor leads between the large
-fortification wall and low buildings.
+at a sharp point, crowned by a small guard turret.  To the south the
+road leads off between buildings, and to the west the Rite of Gandor
+runs between the great wall and the low buildings of the town.
 ~
 80 ad 0
 D2
@@ -885,10 +894,10 @@ D3
 S
 #8051
 Bryn Castle Road~
-   Not far away, the large Castle of Bryn Mawr looms into the highest
-reaches of the cavern.  Light reflects off the jewel filled walls providing
-an unearthly glow.  To the north and south, the road leads onward towards
-your destiny.
+   Not far away, the great Castle of Bryn Mawr looms up into the highest
+reaches of the cavern.  Light reflects off the jewel-filled walls,
+bathing everything in an unearthly glow.  The road leads north toward
+the castle and south.
 ~
 80 ad 0
 D0
@@ -902,12 +911,13 @@ D2
 S
 #8052
 Before the Mines of Bryn Mawr~
-   Before you lies the forsaken mines of Bryn Mawr.  In ancient times
-these passages cut directly into the cavern walls were mined for their 
-precious stone - krisahla.  It is said that during the height of this 
-ancient dwarven empire they were forced to desert the mines due to a
-powerful, evil force brought to pass by The Overseer.  From here, you may
-venture into the abandoned passages or continue south along the road.
+   Before you lie the forsaken Mines of Bryn Mawr.  In ancient times
+these passages, cut directly into the walls of the cavern, were mined
+for the precious stone krisahla.  It is said that at the height of the
+old dwarven empire the miners were forced to abandon them because of a
+powerful, evil force brought about by The Overseer.  From here you may
+venture into the abandoned passages to the north, or follow the cavern
+road south.
 ~
 80 acd 0
 D0
@@ -921,9 +931,10 @@ D2
 S
 #8053
 Kaledreme Road~
-   To the north, you see Kaledreme Road meet at a corner with Isengier Road.
-To the south, a short walk, are the gates and entrance to the city.  To the
-east, you see the aft section of a small, well-built structure.  
+   To the north, Kaledreme Road meets Isengier Road at a corner.  A
+short walk to the south lie the gates of the town.  To the east you see
+the back of a small, well-built structure.  The road is paved with
+neatly fitted slate.
 ~
 80 ad 0
 D0
@@ -937,10 +948,10 @@ D2
 S
 #8054
 Garin Meridan's Fine Foods~
-   The smell of fresh baked bread and the spices of cured meat overwhelm
-your senses.  Each article of flavorful nurishment is wrapped in white
-paper and stacked in their respective piles.  To the east is the exit of 
-the shop.
+   The smell of fresh-baked bread and spiced, cured meat overwhelms your
+senses.  Every item of food is wrapped in white paper and stacked in its
+own neat pile, and wheels of hard cheese are lined up along a shelf
+behind the low counter.  The exit lies to the east.
 ~
 80 ad 0
 D1
@@ -950,10 +961,10 @@ D1
 S
 #8055
 Kenas' Way~
-   To either side you, open doorways lead into shops.  From the western
-shop a delightful smell of fresh baked food assails your senses.  From the
-eastern shop you hear a loud clanking, that of steel on steel.  To the
-north and south, Kenas' Way continues.
+   Open doorways lead into shops on either side of you.  From the
+western shop comes a delightful smell of fresh-baked food, and from the
+eastern shop a loud clanking of steel on steel.  Kenas' Way continues
+north and south.
 ~
 80 ad 0
 D0
@@ -975,10 +986,11 @@ D3
 S
 #8056
 Grem Trimbleshield's Smithy~
-   Strewn all about the shop are shields, breastplates, and other various
-types of armorment.  Hung on the walls are exquisite swords and daggers and
-hammers - all made from the vast staple of krisahla mined long ago.  To
-the west lies the open doorway leading out of the shop and onto Kenas' Way.
+   Shields, breastplates and every other kind of armament lie strewn
+about this shop, and on the walls hang exquisite swords, daggers and
+hammers, all made from the vast store of krisahla mined long ago.  The
+forge glows red in the back, and the air shimmers with its heat.  To the
+west the open doorway leads back out onto Kenas' Way.
 ~
 80 ad 0
 D3
@@ -988,10 +1000,11 @@ D3
 S
 #8057
 Hurin's Road~
-   To the east and west of you are the aft sections of shops made from dark,
-red brick.  Spots of weeds have made their place alongside the walls and
-are continuing their conquest out into the road.  To the north, Hurin's Road
-meets the Rite of Gandor against the powerful wall of fortification.
+   The backs of shops built of dark red brick stand to the east and
+west.  Weeds have taken root along their walls and are continuing their
+conquest out into the road.  To the north, Hurin's Road meets the Rite
+of Gandor against the powerful fortification wall, and to the south it
+continues to an intersection.
 ~
 80 ad 0
 D0
@@ -1005,10 +1018,10 @@ D2
 S
 #8058
 Isyndir's Goods & Wares~
-   All about the shop are useful articles for travelling and for day to   
-day life.  You see backpacks, bags, lanterns, and other such items hung
-on racks or in ordered piles all about the room.  To the east a doorway
-leads out onto the streets of Bryn Mawr.
+   Useful articles for traveling and for everyday life fill this shop:
+backpacks, bags, lanterns, coils of rope and other such items, hung on
+racks or stacked in tidy piles.  To the east a doorway leads out onto
+the streets of Bryn Mawr.
 ~
 80 ad 0
 D1
@@ -1018,10 +1031,9 @@ D1
 S
 #8059
 Smerg Mawr Way~
-   The street is devoid of any descriptive nuances save the open doorway
-to the west leading into some sort of shop.  Above the doorway is a sign
-which reads, 'Isyndir's Goods & Wares'.  To the north and south, Smerg
-Mawr Way continues.
+   The street is plain and unremarkable, save for the open doorway to
+the west of a shop with a sign above it reading "Isyndir's Goods &
+Wares".  Smerg Mawr Way continues north and south.
 ~
 80 ad 0
 D0
@@ -1039,12 +1051,11 @@ D3
 S
 #8060
 Bryn Castle Road~
-   Just to the southwest you see the northeastern corner of the fortification
-wall which surrounds the town of Bryn Mawr.  The outside of the wall is 
-scarred from bearing the brunt of numerous seiges against the town.  Since
-the wall is still standing, you determine that the fortification wall serves
-its purpose well.  Off to the north, a large castle with high towers poking
-above the walls looms.  
+   Just to the southwest you can see the corner of the fortification
+wall that surrounds the town of Bryn Mawr.  Its outer face is scarred by
+the brunt of many sieges, yet it still stands, so it has plainly served
+its purpose well.  Off to the north, a great castle lifts its high
+towers toward the cavern roof.  The road leads north and south.
 ~
 80 ad 0
 D0
@@ -1058,13 +1069,11 @@ D2
 S
 #8061
 The cavern road~
-   The road upon which you travel is dug directly into the soil of the 
-cavern.  It is cut in a boxy shape about 5 feet into the earth, forming
-two walls which stand on either side of you.  To the north, you see a dark
-hole leading into the mountain.  Around the hole, boards have been nailed 
-into place to fortify it from erosion.  To the east, a paved road leads
-directly towards a large gate, providing entrance to the city within.  To
-the south you see the cavern road continue.
+   The road here is cut directly into the soil of the cavern, dug in a
+box shape some five feet deep so that earthen walls stand on either side
+of you.  To the north a dark hole leads into the mountain, its edges
+shored up with boards against erosion.  To the east a paved road leads
+toward a large walled town, and the cavern road continues south.
 ~
 80 ad 0
 D0
@@ -1082,10 +1091,10 @@ D2
 S
 #8062
 The paved road~
-   This part of the road is paved with slate and brick, indicating that
-an intelligent species resides within the high walls surrounding the town.
-To the west, the paved road meets an unpaved path which leads north and
-south.
+   This part of the road is paved with slate and brick, a sign that some
+intelligent folk live within the high walls ahead.  To the west the
+paved road meets an unpaved path leading north and south, and to the
+east lie the gates of the town.
 ~
 80 cd 0
 D1
@@ -1099,11 +1108,11 @@ D3
 S
 #8063
 Entrance to the Town~
-   A large, cast-iron gate spans between the opening in the citywalls.  
-Above the gateway, a signs bears the words, "Bryn Mawr Township".  Beyond
-the gate you see a small, quaint town spread out with buildings dotting
-the streets.  To the north and south, a street leads alongside the western
-section of the citywall.
+   A large cast-iron gate spans the opening in the town walls, and above
+it a sign bears the words "Bryn Mawr Township".  Beyond the gate a
+small, quaint town spreads out, its buildings dotting the streets.
+Streets lead north and south along the inside of the western wall, and
+the paved road lies west.
 ~
 80 ad 0
 D0
@@ -1121,8 +1130,11 @@ D3
 S
 #8064
 Kenas' Way Intersection~
-   Kenas' Way intersects here with a stone bridge which spans across 
-a small stream just to the east.  North and south, Kenas' way continues.
+   Kenas' Way intersects here with a stone bridge which spans a small
+stream just to the east.  The stream gurgles along a channel cut in the
+cavern floor, its water clear and cold, and the bridge is built of the
+same dark stone as the dwarven houses around it.  North and south,
+Kenas' Way continues through the town.
 ~
 80 ad 0
 D0
@@ -1140,9 +1152,10 @@ D2
 S
 #8065
 Stone Bridge~
-   Fungus and moss grows in abundance here upon the rocks that line the
-stream.  The water whispers quietly as it passes under the bridge.  To the
-east and west of here are roads of the town.
+   Fungus and moss grow in abundance on the rocks lining the stream
+here, glowing faintly in shades of blue and green.  The water whispers
+quietly as it passes beneath this small stone bridge.  Streets of the
+town lie to the east and west.
 ~
 80 ad 0
 D1
@@ -1156,10 +1169,10 @@ D3
 S
 #8066
 Intersection at Hurin's Road~
-   Just west of here is a bridge which spans across a small stream that 
-bisects the town.  To the north and south, Hurin's Road leads off through
-the eastern part of the town.  To the east is a fairly large structure,
-through the open archway you see that it is some sort of hall.
+   Just west of here a bridge spans a small stream that divides the
+town.  To the north and south, Hurin's Road leads off through the
+eastern part of town.  To the east stands a fairly large building, and
+through its open archway you can see that it is some sort of hall.
 ~
 80 ad 0
 D0
@@ -1181,10 +1194,11 @@ D3
 S
 #8067
 Town Hall~
-   The hall is fairly large and there are no other rooms which you can
-see.  A message board is propped up on the east wall and there are a few
-desks scattered about with important documents splayed upon their tops.
-The walls and ceiling are made from marble and look very grand.
+   The hall is fairly large, and you can see no other rooms beyond it.
+The walls and ceiling are of marble and look very grand.  A message
+board is propped against the east wall, and a few desks are scattered
+about with important documents spread across them.  The way out lies
+west.
 ~
 80 ad 0
 D3
@@ -1194,9 +1208,10 @@ D3
 S
 #8068
 Eastern Gates of Bryn Mawr~
-   Smerg Mawr Way is intersected here with a road leading out of the town. 
-The fortification wall connects to a large cast-iron gate, rusted open from
-many years without threat from outsiders.
+   Smerg Mawr Way meets a road leading out of the town here.  The
+fortification wall joins a large cast-iron gate, rusted open after many
+years without any threat from outside.  Smerg Mawr Way runs north and
+south, and the road leads east.
 ~
 80 ad 0
 D0
@@ -1214,10 +1229,10 @@ D2
 S
 #8069
 Bryn Castle Road~
-   Just to the west lies the open gates to the Town of Bryn Mawr.  Spilling
-forth from the gates is a road made of slate which continues to the east.
-Above, the ceiling of the cavern glows as light from the town reflects off
-of the jewels and stones in the ceiling.
+   Just to the west lie the open gates of the town of Bryn Mawr, and a
+road of slate spills out of them and continues east.  Overhead, the
+ceiling of the cavern glows as the light of the town reflects off the
+jewels and stones set within it.
 ~
 80 ad 0
 D1
@@ -1231,10 +1246,11 @@ D3
 S
 #8070
 Turn in Bryn Castle Road~
-   To the east a huge pillar of stalagmites grows out of the ground and
-meets a dripping stalagtite which is hanging from the ceiling, two hundred
-feet above.  The road turns continues north towards a large castle which 
-seems to have sprouted from the very floor of the cavern.  
+   To the east a huge pillar has formed where a stalagmite rising from
+the ground meets a dripping stalactite that hangs from the ceiling two
+hundred feet above, the two grown together over untold ages.  The road
+turns here, leading west and north toward a great castle that seems to
+have sprouted from the very floor of the cavern.
 ~
 80 ad 0
 D0
@@ -1249,8 +1265,9 @@ S
 #8071
 The cavern road~
    The road has been cut directly into the floor of the cavern, forming
-a well dug trench.  Lining the walls of the road are lit torches leading 
-you both north and south.
+a deep, well-dug trench.  Lit torches line its walls, leading you on
+north and south, and their light glitters on veins of crystal in the
+earth.
 ~
 80 ad 0
 D0
@@ -1264,10 +1281,10 @@ D2
 S
 #8072
 Kaledreme Road~
-   Just to the north you see the main entrance of Bryn Mawr.  Beyond that,
-Kaledreme Road continues on through the town.  A giant wall surrounding
-the city provides protection against violent outsiders can be seen just
-to the west.
+   Just to the north lies the main entrance of Bryn Mawr, and beyond it
+Kaledreme Road continues on through the town.  The giant wall that
+protects the town from violent outsiders rises just to the west.  The
+road continues south to a corner.
 ~
 80 ad 0
 D0
@@ -1281,11 +1298,11 @@ D2
 S
 #8073
 Krisahla Inn~
-   The inn is cozy and warm.  A fire burns low in beyond a stone hearth.
-The floor of the room is covered with a heavy, grey fur rug which stretches
-from wall to wall.  Hallways lead off in all directions towards the sleeping
-chambers for the few travelers that come this far into the earth.  To the
-east a doorway leads out into the streets of Bryn Mawr.
+   The inn is cozy and warm.  A fire burns low in a stone hearth, and a
+heavy gray fur rug stretches from wall to wall across the floor.
+Hallways lead off in every direction to the sleeping chambers of the few
+travelers who come this deep into the earth.  To the east a doorway
+leads out into the streets of Bryn Mawr.
 ~
 80 ad 0
 D1
@@ -1295,10 +1312,10 @@ D1
 S
 #8074
 Kenas' Way~
-   The road continues from here to the north and south through the stony
-streets of Bryn Mawr.  Just to the west is a low, one-story building with
-the light of a fireplace dancing in the dark windows.  Above the wooden door
-is a sign which reads, 'Krisahla Inn'.
+   The road continues north and south through the stony streets of Bryn
+Mawr.  Just to the west stands a low, one-story building, the light of a
+fireplace dancing in its dark windows, and above its wooden door hangs a
+sign reading "Krisahla Inn".
 ~
 80 ad 0
 D0
@@ -1316,9 +1333,9 @@ D3
 S
 #8075
 Hurin's Road~
-   The road continues onward north and south from here.  A large building 
-lies directly to the west with a sign above the doorway reading, 'Bryn Mawr
-Money Exchange'.  
+   The road continues north and south from here.  A large, solid
+building lies directly to the west, its door bound in iron, with a sign
+above it reading "Bryn Mawr Money Exchange".
 ~
 80 ad 0
 D0
@@ -1336,10 +1353,10 @@ D3
 S
 #8076
 The Mail Exchange~
-   The Mail Exchange of Bryn Mawr is a quiet and yet slightly chaotic
-place.  Stacks of mail are scattered all about on desks, the floor, up
-against the walls, and just about everywhere else.  There is a doorway to
-the east leading back out onto the streets of the town.
+   The Mail Exchange of Bryn Mawr is a quiet yet slightly chaotic place.
+Stacks of mail lie scattered everywhere: on desks, on the floor, piled
+against the walls and just about anywhere else they will fit.  A doorway
+to the east leads back out onto the streets of the town.
 ~
 80 ad 0
 D1
@@ -1349,10 +1366,10 @@ D1
 S
 #8077
 Smerg Mawr Way~
-   Just to the north is are the Eastern Gates of Bryn Mawr.  On either side
-of you is a great stone wall, fortifying the city from seige and on the
-other side is a low building with a sign above the doorway.  To the north
-and south the road continues.
+   Just to the north are the Eastern Gates of Bryn Mawr.  On one side of
+you rises the great stone wall that fortifies the town against siege,
+and on the other stands a low building with a sign above its door.  The
+road continues north and south.
 ~
 80 ad 0
 D0
@@ -1374,10 +1391,10 @@ sign door~
 S
 #8078
 The cavern road~
-   Here, the road slopes sharply downward into a trench of sorts, lined
-with bright torches.  The trench was specifically designed to control any 
-traffic, acting as a funnel, making any approaching force travel through 
-the trench to get to the town.  
+   Here the road slopes sharply down into a trench lined with bright
+torches.  The trench was built to control traffic, acting as a funnel,
+so that any approaching force would have to march through it to reach
+the town.  The road leads north and south.
 ~
 80 ad 0
 D0
@@ -1391,9 +1408,9 @@ D2
 S
 #8079
 Corner of Kaledreme Road and Dunn Loring Road~
-   Kaledreme Road and Dunn Loring Road meet here at a corner with the city-
-wall alongside.  A torch has been mounted directly in the middle of the 
-corner of the two joining walls providing minimal light.
+   Kaledreme Road and Dunn Loring Road meet here at a corner alongside
+the town wall.  A torch mounted where the two walls join gives a little
+light, its flame reflected in the polished stone.
 ~
 80 ad 0
 D0
@@ -1407,9 +1424,9 @@ D1
 S
 #8080
 Dunn Loring Road~
-   You are standing between the great citywall which towers to the south
-and a wall of a small building with a window flickering light within.  The
-road continues along to the east and west.
+   You are standing between the great town wall, which towers to the
+south, and the side of a small building with flickering light in its
+window.  The road continues east and west.
 ~
 80 ad 0
 D1
@@ -1423,9 +1440,9 @@ D3
 S
 #8081
 Corner of Dunn Loring Road and Kenas' Way~
-   The roads meet here at the west facade of a low building and the great   
-citywall which stands to the south.  To the north, Kenas' Way leads off 
-between the wall and to the west, Dunn Loring Road continues onward.
+   The roads meet here beside a low building and the great town wall,
+which stands to the south.  To the north, Kenas' Way leads off between
+the buildings, and to the west, Dunn Loring Road continues onward.
 ~
 80 ad 0
 D0
@@ -1439,11 +1456,10 @@ D3
 S
 #8082
 Corner of Dunn Loring Road and Hurin's Road~
-   You stand at the corner of two ancient roads in the town of Bryn Mawr.
-They look quite old and you ponder briefly what might have happened many
-centuries ago along these streets.  To the north, Hurin's Road leads off
-and to the east, starting at the foot of a brick wall of a building, Dunn
-Loring Road continues.
+   You stand at the corner of two ancient roads in the town of Bryn
+Mawr.  They look very old indeed, their paving stones worn into hollows,
+and you wonder briefly what might have happened along these streets many
+centuries ago.  Hurin's Road leads north, and Dunn Loring Road east.
 ~
 80 ad 0
 D0
@@ -1457,9 +1473,9 @@ D1
 S
 #8083
 Dunn Loring Road~
-   Dunn Loring Road continues off to the east and to the west through the 
-ancient, cavern town of Bryn Mawr.  A low building stands to the north, but
-there is no doorway on this side.  
+   Dunn Loring Road continues east and west through the ancient cavern
+town of Bryn Mawr.  A low building stands to the north, though it has no
+doorway on this side.
 ~
 80 ad 0
 D1
@@ -1473,9 +1489,9 @@ D3
 S
 #8084
 Corner of Dunn Loring Road and Smerg Mawr Way~
-   Two roads meet here at a corner of the great wall which surrounds the
-town.  To the north, Smerg Mawr Way leads off along the eastern perimeter
-of the town and to the west, Dunn Loring Road continues.
+   Two roads meet here at a corner of the great wall that surrounds the
+town.  To the north, Smerg Mawr Way leads off along the eastern edge of
+the town, and to the west, Dunn Loring Road continues.
 ~
 80 ad 0
 D0
@@ -1489,12 +1505,12 @@ D3
 S
 #8085
 The golden archway~
-   The tunnel opens up here at a golden archway into a large cavern.  It
-is a fantastic sight.  A small town sits in the center of the cavern and
-beyond that lies a great castle.  Light from the town reflects off the walls
-and ceiling of the cavern, making this strange place seem a bit hospitable.
-To the north, the beginnings of a road appear in the floor, and to the east
-it will lead you back into the tunnels of the mountain.
+   The tunnel opens here through a golden archway into an enormous
+cavern, and it is a fantastic sight.  A small town sits in the center of
+the cavern, and beyond it rises a great castle.  Light from the town
+reflects off the jeweled walls and ceiling, making this strange place
+seem almost hospitable.  To the north a road begins in the cavern floor,
+and to the east a dark tunnel leads away.
 ~
 80 ad 0
 D0
@@ -1508,8 +1524,8 @@ D1
 S
 #8086
 The dark tunnel~
-   To the west a faint glow can be seen hugging the walls of the tunnel.
-A set of steps leads up in a southwards direction leading into darkness.
+   To the west a faint glow clings to the walls of the tunnel.  A set of
+steps leads up into darkness.
 ~
 80 ad 0
 D3
@@ -1523,10 +1539,10 @@ D4
 S
 #8087
 On the steps~
-   The stairway is shrouded in darkness but somewhere above you a faint
-list glows.  Peering into the darkness you see a bit further up, the stairs
-glow faintly reflecting the flickering light of a torch.  You cannot see
-any sort of light coming from below you, further down the stairs.
+   The stairway is shrouded in darkness, but somewhere above you a faint
+light glows; a little further up, the steps shine faintly with the
+flicker of a torch.  No light at all comes from below.  The steps lead
+up and down.
 ~
 80 ad 0
 D4
@@ -1540,11 +1556,10 @@ D5
 S
 #8088
 On a landing~
-   You are on a four by four foot landing and steps lead up and down from 
-here.  The steps have been chipped and eroded slightly but seem to be holding
-up well even after the presumed many, many years of existence.  Four posts
-on each corner of the landing have burning embers set into shallow wells in
-the tops of the stone posts.  
+   You are on a landing barely four feet square, with steps leading up
+and down.  The steps are chipped and worn but seem to be holding up well
+after many, many years.  Stone posts stand at each corner of the
+landing, with burning embers set in shallow wells in their tops.
 ~
 80 ad 0
 D4
@@ -1558,10 +1573,9 @@ D5
 S
 #8089
 Top of the Stairs~
-   Before you, a set of stairs leads down into a shroud of darkness.  Your
-curiousity begins to grow as you take in the shadows before you.  To the
-east, the tunnel leads off between crumbling walls.
-
+   Before you a set of stairs leads down into a shroud of darkness, and
+your curiosity grows as you study the shadows.  To the east the tunnel
+leads off between crumbling walls.
 ~
 80 ad 0
 D1
@@ -1575,10 +1589,10 @@ D5
 S
 #8090
 Turn in the tunnel~
-   You have come to a turn in the dark tunnels, leading you south and west.
-The passage seems to be leading slightly downward.  The walls rumble slightly
-as if a powerful force is acting upon this internal system of tunnels from
-the outside.
+   You have come to a turn in the dark tunnels, which lead south and
+west.  The passage slopes slightly downward, and the walls rumble
+faintly, as if some powerful force were acting on this network of
+tunnels from outside.
 ~
 80 ad 0
 D2
@@ -1592,10 +1606,11 @@ D3
 S
 #8091
 Entrance of the Tunnel~
-   You are standing at the entrance of a dark tunnel lying in wait to the
-north.  Shadows spill out of the mouth like demons escaping the Farlands.
-But you do not sense evil, yet, only a great feeling of mystery.  From the
-south comes the roar of a waterfall crashing down into a pool.
+   You are standing at the entrance of a dark tunnel that waits to the
+north, its shadows spilling out of its mouth like demons escaping the
+Farlands.  You sense no evil yet, only a great feeling of mystery.  From
+the south comes the roar of a waterfall crashing into a pool, muffled as
+if by a wall of rock.
 ~
 80 ad 0
 D0
@@ -1609,10 +1624,11 @@ boulder secret~
 S
 #8093
 Bryn Mawr Money Exchange Guild~
-   The building is quite bland on the inside.  An empty table, mainly
-for decoration, sits in the midddle of the room.  Along the western
-wall is a long counter with several tellers behind a cast iron fence
-for protection.  There is almost no sound or talking inside the bank.
+   The inside of the building is quite bland.  An empty table, mainly
+for decoration, sits in the middle of the room, and along the western
+wall a long counter stands behind a cast-iron fence, with tellers
+waiting on the other side.  There is almost no sound or talking inside
+the bank.  The door leads east.
 ~
 80 0 0
 D1
@@ -1625,7 +1641,7 @@ The stairwell~
    Walls surround you in a circular fashion and stairs wind around
 alongside them.  You see them spiral upwards and disappear out into a
 bright hole where a shaft of light slants into the room.  To the east,
-you see the door exitting the stairwell.
+you see the door exiting the stairwell.
 ~
 80 cdg 0
 D1

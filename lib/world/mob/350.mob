@@ -130,7 +130,7 @@ E
 #35011
 Amiria dwarf armorer~
 Amiria the armorer~
-Amiria stands here over some binded leather, working hard.
+Amiria stands here over some bound leather, working hard.
 ~
 You are looking at a featureless, unfinished mob.
 ~
@@ -385,7 +385,7 @@ Ardanin~
 A small gnome dressed in elaborate mage's robes is here, trying to get a crowd.
 ~
 Ardanin is an outcast in the gnomish society, he has actually gone to magic.
-He stands here trying to convince he gnomish brethern that magic isn't all 
+He stands here trying to convince he gnomish brethren that magic isn't all 
 bad.
 ~
 bdeg 0 0 S
@@ -399,8 +399,8 @@ inventor gnome Tedis~
 Tedis the inventor~
 A round gnome is here explaining his newest invention.
 ~
-The inventor stands before you with many of his newest invetions.  He has 
-small trinkets and doohickies straped to him, supposedly doing marvelous 
+The inventor stands before you with many of his newest inventions.  He has 
+small trinkets and doohickies strapped to him, supposedly doing marvelous 
 things.
 ~
 bdeg 0 0 E
@@ -421,16 +421,23 @@ d 0 0 S
 1 1
 8 8 0
 #35035
-mob~
-unfinished mob~
-An unfinished mob stands here.
+guardsman watcher guard~
+the Watcher guardsman~
+A guardsman of the Order of the Watchers stands beside the door, keeping watch.
 ~
-You are looking at a featureless, unfinished mob.
+The guardsman wears a polished breastplate with a golden setting sun
+worked into its center, and a red and yellow tattoo of the sun circles
+his right eye. He stands straight and still, one hand resting on the
+hilt of his sword, and his gaze follows everyone who crosses the foyer.
+The Watchers have sworn to uphold the laws of the land, and he looks as
+though he has never broken one in his life.
 ~
-d 0 0 S
-1 1 10 1d1+1 1d1+1
-1 1
-8 8 0
+bden 0 700 S
+20 40 85 1d12+4000 2d8+70
+500 50000
+8 8 1
+>in_file_prog watcher_guard.prg~
+|
 #35036
 mob~
 unfinished mob~
@@ -475,4 +482,19 @@ d 0 0 S
 1 1 0 1d1+1 1d1+1
 1 1
 8 8 0
+#35040
+fish clockwork fountain brass~
+the clockwork fish~
+The brass clockwork fish of the fountain watches you with one ticking eye.
+~
+The fish is cast of brass and fitted with gears that tick quietly inside
+it. A slot in its mouth is just the size of a coin, and a small brass
+plate on its side reads: "Feed the fish five coins for a song."
+~
+bdenopqr k 0 S
+1 20 -10 1d1+30000 1d1+0
+0 0
+8 8 0
+>in_file_prog pz_fish.prg~
+|
 $~

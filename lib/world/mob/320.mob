@@ -76,7 +76,7 @@ A shiver goes down your spine as something touches your foot underwater.
 ~
 The draduml is covered in slime and is basically a big tentacle that wraps 
 itself around its prey.  The eyes are on the end of the tentacle and on
-the otherside of the tentacle is a large barrel shaped body and no legs.
+the other side of the tentacle is a large barrel shaped body and no legs.
 The tentacle wraps itself around the prey and stings it then draws it down
 into the body and digests the prey.
 ~
@@ -179,4 +179,18 @@ bd 0 700 S
 14 4 63 1d30+80 1d10+10
 1000 10000
 8 8 1
+#32014
+light eyes statue gaze~
+the light in the statue's eyes~
+A faint light flickers deep in the marble statue's eyes.
+~
+The light seems to come from far behind the statue's eyes, patient and
+watchful.
+~
+bdenopqr k 0 S
+1 20 -10 1d1+30000 1d1+0
+0 0
+8 8 0
+>in_file_prog pz_statue.prg~
+|
 $~

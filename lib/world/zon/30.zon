@@ -79,7 +79,7 @@ E 1 1122 1 17 100 			* And equip it with a long steelsword. (Max: 1)
 D 0 3020 1 0 100 		* Open Eastern door at Dalkyst Road
 D 0 3020 2 0 100 		* Open Eastern door at Dalkyst Road
 M 0 5700 1 3131 100 	* the statue at Morrolan's House. (Max: 1)
-M 0 35035 1 3120 100 	* (null) at Foyer of Watcher Manor. (Max: 1)
+M 0 35035 1 3120 100 	* the Watcher guardsman at Foyer of Watcher Manor. (Max: 1)
 D 0 3071 3 1 100 		* Close Eastern door at Southern Eastwall Road
 M 0 3092 1 3063 100 	* Styrian at A small alcove. (Max: 1)
 D 0 3063 0 1 100 		* Close Northern door at A small alcove

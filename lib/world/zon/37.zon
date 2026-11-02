@@ -337,5 +337,8 @@ D 0 3880 1 1 		* Close Eastern door at The Altar
 D 0 3881 3 1 		* Close Eastern door at The Treasury
 D 0 3880 3 1 		* Close Eastern door at The Altar
 D 0 3882 1 1 		* Close Eastern door at A Passage
+* puzzle
+M 0 3765 1 3752              floating stick of chalk (puzzle)
+O 0 3753 4 3884             old scroll (puzzle reward)
 S
 $~

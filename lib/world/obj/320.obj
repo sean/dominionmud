@@ -361,4 +361,20 @@ letter~
    On the letter is a strange, ancient eleven script which most likely
 the greatest sages of Elrhinn could not decipher.
 ~
+#32038
+fragment scroll torn~
+a torn scroll fragment~
+A scrap of torn parchment is wedged here among the bones.~
+~
+12 0 a
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+fragment scroll torn~
+The fragment is the lower half of a scroll, its upper edge ragged where
+it was torn away. In faded elvish hand it reads: "...and so I swear to
+hold the garden until the last of the Serdim is gone. Let whoever makes
+my oath whole again take what I kept." The tear looks as if it would fit
+another piece exactly.
+~
 $~

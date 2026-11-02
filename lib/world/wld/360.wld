@@ -1,9 +1,9 @@
 #36000
 A Dark, Smokey Chamber~
 You are standing in a smokey, almost dark room. A few candles flicker about,
-giveing a small amount of light, which makes the shadows dance. A couple of
-tables are scattered about, surrounded by a plethra of chairs and 
-comfortable places to sit. Fine tapastries cover the planked, wooden
+giving a small amount of light, which makes the shadows dance. A couple of
+tables are scattered about, surrounded by a plethora of chairs and 
+comfortable places to sit. Fine tapestries cover the planked, wooden
 walls that surround the entire room. A pair of encircled stairs rise up,
 leading to a trapdoor.
 ~
@@ -58,7 +58,7 @@ S
 The large onyx pathway~
      As you walk further down this path, you notice more and more about it.
 You begin to see intricate carvings and stories carved into the stone.
-Ther is one carving that strikes your attention. It is that of a 
+There is one carving that strikes your attention. It is that of a 
 sorceress of some sort. 
 ~
 360 ai 1
@@ -134,7 +134,7 @@ D2
 0 0 36005
 E
 gates gate door doors~
-     Before you are doors that seem to be inpenitrable even by the power
+     Before you are doors that seem to be impenetrable even by the power
 of the gods themselves. They are composed of a material that appears to
 be onyx, but has a magical feel to it.
 ~
@@ -147,7 +147,7 @@ S
 #36007
 The greeting chamber~
      You have entered what seems to be the greeting chambers of this most
-unholy of places. The surroundings are lit by sparcly spaced out candels 
+unholy of places. The surroundings are lit by sparsely spaced out candles 
 that lie on tables on hardwood. The walls are decorated with paintings of
 past battles fought, and wars that plagued the lands long ago. There is a
 fine rug lying on the floor, weaved with strings of platinum, and gold.
@@ -166,12 +166,12 @@ S
 #36008
 The great foyer~
      You are standing in what looks to be the main foyer of this strange
-castle. It is light by one main source, a large golden chandolier that
+castle. It is light by one main source, a large golden chandelier that
 hangs high in the room by a chain of pure gold. It is shaped like a seven
 sided star, and has one separate torch on each of the seven points. In the
-center on this chandolier is another, larger torch. Along the walls, are
-several tapastries woven of different materials. The floor is bare, save 
-for a large carving of a dragon inlayed with gold.
+center on this chandelier is another, larger torch. Along the walls, are
+several tapestries woven of different materials. The floor is bare, save 
+for a large carving of a dragon inlaid with gold.
 ~
 360 cdh 0
 D0
@@ -210,11 +210,11 @@ D3
 S
 #36010
 Western stairwell~
-     You are standing in a room whos walls are covered with large tapestries
+     You are standing in a room whose walls are covered with large tapestries
 and weapons from great worksman all across the land. On the north wall, are
 swords that were forged by steels never before seen. There is a large set of
 stairs leading both upward and downward in the middle of the room. They
-are made from a very stronge substance from what you can tell. Able to 
+are made from a very strong substance from what you can tell. Able to 
 support much weight.
 ~
 360 ai 0
@@ -233,7 +233,7 @@ D5
 S
 #36011
 Atop the stairwell~
-     You are accending a massive set of stairs that seems to have been
+     You are ascending a massive set of stairs that seems to have been
 built for something very large. The further up this magnificent stairwell
 you go, the more you wonder what is awaiting you at the top. The stairs
 themselves seem to have an aura to them. An evil aura.
@@ -269,7 +269,7 @@ S
 The pool of blood~
      As you stumble around for a while in this pitch black room. You 
 finally notice that you are standing in what you think is a pool of
-water. After closer examination, you realize that it is infact a pool
+water. After closer examination, you realize that it is in fact a pool
 of blood that you are standing in. You wonder what it is from...
 ~
 360 af 7 -1 -1
@@ -326,7 +326,7 @@ S
 The great hallway~
      You are walking along a strange hallway that is dimly lit by candles
 and glowing stones along the walls. There are pictures all along this
-hallway. Pictures of battles, wars, and conquerers long ago. As you look
+hallway. Pictures of battles, wars, and conquerors long ago. As you look
 closer, you notice one picture out of the ordinary.
 ~
 360 cdgh 0
@@ -374,7 +374,7 @@ Before the stairway~
      You are standing before a stairway of magnificent architecture. The
 stairs themselves look to have been carved by hand, and put together one
 at a time. The railing that surrounds the stairwell is composed of some
-metalic compound, and is laced with gold. In the ceiling directly above
+metallic compound, and is laced with gold. In the ceiling directly above
 the stairway, is a stained glass window that casts shadows of light all
 about the room.
 ~
@@ -390,10 +390,10 @@ D4
 S
 #36020
 The Stairway~
-     The stairs that you are walking on contain more gold and jewelles than
+     The stairs that you are walking on contain more gold and jewels than
 the richest Ruler could possibly acquire if he were to sell all of his
-possesions. There are intricate carvings, and well layed gems all through
-the stairway. The surrounding walls are covered in find linen tapastries
+possessions. There are intricate carvings, and well laid gems all through
+the stairway. The surrounding walls are covered in find linen tapestries
 and the room is lit by candlelight.
 ~
 360 t 1
@@ -408,10 +408,10 @@ D5
 S
 #36021
 The Stairway~
-     The stairs that you are walking on contain more gold and jewelles than
+     The stairs that you are walking on contain more gold and jewels than
 the richest Ruler could possibly acquire if he were to sell all of his
-possesions. There are intricate carvings, and well layed gems all through
-the stairway. The surrounding walls are covered in find linen tapastries
+possessions. There are intricate carvings, and well laid gems all through
+the stairway. The surrounding walls are covered in find linen tapestries
 and the room is lit by candlelight.
 ~
 360 t 0
@@ -426,10 +426,10 @@ D5
 S
 #36022
 The Stairway~
-     The stairs that you are walking on contain more gold and jewelles than
+     The stairs that you are walking on contain more gold and jewels than
 the richest Ruler could possibly acquire if he were to sell all of his
-possesions. There are intricate carvings, and well layed gems all through
-the stairway. The surrounding walls are covered in find linen tapastries
+possessions. There are intricate carvings, and well laid gems all through
+the stairway. The surrounding walls are covered in find linen tapestries
 and the room is lit by candlelight.
 ~
 360 t 1
@@ -494,7 +494,7 @@ The South Hall~
 the cobwebs that have been built in the years of neglect. The floor is
 covered in dirt and filth, and has no visible proof that anyone has walked
 this hallway for some time. You hear a faint cry for help off in the 
-distance. The hallway comtinues to the south.
+distance. The hallway continues to the south.
 ~
 360 cg 1
 D0
@@ -526,7 +526,7 @@ S
 The eastern passage~
      The passage you are traveling upon seems to be well kept as if some
 maid does her rounds here. The walls sparkle with shine and you can see
-your reflection on the glassy floor. There are tables aggainst the 
+your reflection on the glassy floor. There are tables against the 
 surrounding walls, covered with candles and the occasional water jug.
 The hall extends further to the east, and there is a door to the south.
 ~
@@ -626,7 +626,7 @@ book~
      The Book Reads:
  "There is a powerful time kept high up in the castle somewhere. It is
 said to have been used long ago in the creation of this great castle.
-In order to get this powerful item, you must defeat the current possesor
+In order to get this powerful item, you must defeat the current possessor
 of the staff, then it and it's power will be yours to wield."
 ~
 S
@@ -703,7 +703,7 @@ rooftop~
 S
 #36037
 The dead end~
-     You have come to an abrupt hault as the hall suddenly stops. The 
+     You have come to an abrupt halt as the hall suddenly stops. The 
 ceiling seems to have just suddenly met with the floor in an almost
 purposeful arch. There are no obvious exits here.
 ~
@@ -834,7 +834,7 @@ In the caverns~
      These caverns seem to getting smaller and smaller, as if they are
 coming to a close. The ceiling is getting lower, and the walls seem to
 be closing in. The ground is still wet, and the air still filled with
-stench. The darkness closes in, and you begin to get affraid.
+stench. The darkness closes in, and you begin to get afraid.
 ~
 360 afi 0
 D1
@@ -906,7 +906,7 @@ The gate-fence~
  As the path narrows, and the trees become more still, you find
 yourself standing before a large iron fencing. There is a large gate
 located at the end of the path. The gate is also iron, and has a large
-stone wyvern standing on eihter side of the gate. 
+stone wyvern standing on either side of the gate. 
 ~
 360 n 3
 D1
@@ -924,7 +924,7 @@ In the caverns~
      These caverns seem to getting smaller and smaller, as if they are
 coming to a close. The ceiling is getting lower, and the walls seem to
 be closing in. The ground is still wet, and the air still filled with
-stench. The darkness closes in, and you begin to get affraid.
+stench. The darkness closes in, and you begin to get afraid.
 ~
 360 afi 0
 D1
@@ -996,7 +996,7 @@ The gate-fence~
      As the path narrows, and the trees become more still, you find 
 yourself standing before a large iron fencing. There is a large gate
 located at the end of the path. The gate is also iron, and has a large
-stone wyvern standing on eihter side of the gate.
+stone wyvern standing on either side of the gate.
 ~
 360 n 3
 D1

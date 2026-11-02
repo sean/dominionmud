@@ -3,7 +3,7 @@ ogre giant~
 a huge ogre~
 An big, ugly ogre stands in hiding waiting to ambush you.
 ~
-The ogre has greenish-black skin with ugly purple bumbs and warts all
+The ogre has greenish-black skin with ugly purple bumps and warts all
 over.  It wears animal skins as clothing and carries a huge club with big
 spikes on it.  He looks as if he wants to kill you.  Probably will too.
 ~
@@ -26,10 +26,10 @@ cdeg ks 1000 S
 #1802
 drerim druid~
 a Druid of Drerim~
-An evil looking druid stands here sacrificing a defensless animal.
+An evil looking druid stands here sacrificing a defenseless animal.
 ~
 The Drerim Druid looks up at you briefly with an evil grin then goes back
-to ripping the heart and eyes from a poor defensless fox.  The fox squeals
+to ripping the heart and eyes from a poor defenseless fox.  The fox squeals
 in pain then is silent and the Darkoth begins to laugh hysterically.
 ~
 dghj dn -1000 S
@@ -130,7 +130,7 @@ A group of korreds dance about a small patch of flowers.
 The Korred lack the horns that make the satyrs famous but still have the
 carefree attitude of their cousins.  Even though they look playful enough,
 they look as if they could be formidable enemies with their powerful looking
-bicepts.
+biceps.
 ~
 bdl k 450 S
 12 27 43 12d24+96 1d8+35
@@ -141,10 +141,10 @@ adventurer man leader~
 the Adventurer Leader~
 A tough looking man stares you down.
 ~
-This man is surely the leader of the group of adventurers.  He cooly raises
+This man is surely the leader of the group of adventurers.  He coolly raises
 his hand to stop his party from bashing your head in for startling them
 all like you did.  He says, 'Now, jest git on back down that thar trail an'
-everything should be allright.'
+everything should be all right.'
 ~
 abdm cdfk 500 E
 18 39 61 12d12+0 2d12+44
@@ -170,7 +170,7 @@ E
 #1812
 treant tree gianttree giant~
 the Treant~
-A huge tree looks at you with dark-green eyes and chuckles hallowly.
+A huge tree looks at you with dark-green eyes and chuckles hollowly.
 ~
 This tree looks like it is related to both humans and the tree world.  It
 has a kind looking face yet still looks as if it could do a lot of damage.
@@ -242,4 +242,18 @@ d 0 0 S
 1 1 6 1d1+1 1d1+1
 1 1
 8 8 1
+#1818
+markings archway pulse~
+the markings on the archway~
+The strange markings on the archway pulse faintly, like a slow heartbeat.
+~
+The markings, ##*|***>><<***|*##, are cut deep into the stone, and a
+dull red glow throbs in the grooves.
+~
+bdenopqr k 0 S
+1 20 -10 1d1+30000 1d1+0
+0 0
+8 8 0
+>in_file_prog pz_drerim.prg~
+|
 $~

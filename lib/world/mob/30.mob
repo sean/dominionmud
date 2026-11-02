@@ -470,7 +470,7 @@ abdg df 250 S
 #3071
 man dealer~
 the dealer~
-A small, wirey man stands here, waiting eagerly for buying customers.
+A small, wiry man stands here, waiting eagerly for buying customers.
 ~
     A secretive man, always seeming to have just what his customers are
 looking for.
@@ -482,7 +482,7 @@ bdg df -1000 S
 #3089
 man dealer dice casino~
 the dealer~
-A small, wirey man stands here, beckoning you to play a game.
+A small, wiry man stands here, beckoning you to play a game.
 ~
 The table operator smiles at you.
 The table operator says, 'step right up and test your luck.'
@@ -514,7 +514,7 @@ The Commissioner of Elrhinn sits behind a desk here sorting papers.
 He is a thin gnome in his middle-years wearing a pair of thin 
 spectacles.  He muddles about the office in an almost frenzy-like state
 as he sorts and fills out and logs and envelopes important documents
-pertaining to the wellfare of Elrhinn.
+pertaining to the welfare of Elrhinn.
 ~
 bd 0 100 S
 48 75 79 1d6+11111 9d4+100
@@ -627,7 +627,7 @@ A large, green creature, resembling a giant snake rears before you.
 ~
 It has a hungry expression on its hideous face.  Green scaled armor
 covers the 15 ft. long body of the wyrm.  It opens its mouth wide,
-revealing razor-like jaws and a blood-red forked toungue which lashes
+revealing razor-like jaws and a blood-red forked tongue which lashes
 about like a whip searching for food.
 ~
 dfg 0 -500 E

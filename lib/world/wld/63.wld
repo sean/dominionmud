@@ -1,10 +1,10 @@
 #6301
 The Webbed Entrance~
-   Sticky, sticky, sticky!  The ground is cluttered with leaves,
-decayed remains of webbed crickets, beetle, rats, dogs, and even
-humans.  You begin to wonder about what lies ahead.  The air is
-damp here, and even the little light that shines through the
-canopy seems to be absorbed into the webbing.
+   Sticky, sticky, sticky!  The ground is cluttered with leaves and the
+shriveled remains of webbed crickets, beetles, rats, dogs and even
+humans, and you begin to wonder what lies ahead.  The air is damp, and
+what little light filters through the canopy seems to be swallowed by
+the webbing.  A passage leads north, and the tree lies to the south.
 ~
 63 cp 1
 D0
@@ -18,10 +18,10 @@ D2
 S
 #6302
 The Webby Passage~
-   You find that footing here is very good, almost too good.  The
-limbs are coated with cobwebs and seem unusually strong for tree
-branches.  Paths lead in four directions.  The eastward path goes
-down a bit.
+   The footing here is very good... almost too good.  The limbs
+underfoot are coated with cobwebs and seem unusually strong for tree
+branches.  Paths lead off in four directions; the eastward path slopes
+down a little.
 ~
 63 p 2
 D0
@@ -43,9 +43,10 @@ D3
 S
 #6303
 The Wasp Hive~
-   Drones scuttle about in this room.  The cells on the walls are
-honeycomb in shape and many of the maggots and wasps you see have
-fang-marks on their bodies.  You sense some order in their markings.
+   Drones scuttle about this chamber, whose walls are made of six-sided
+cells like a honeycomb.  Many of the maggots and wasps you see bear fang
+marks on their bodies, and the papery walls hum with a constant drone.
+You sense some order in those markings.  The passage lies to the east.
 ~
 63 p 2
 D1
@@ -55,8 +56,11 @@ D1
 S
 #6304
 The Webby Passage~
-   Another webby passage, all sticky and wet.  Tiny ballooning
-spiders fill the air.  It seems that these young ones are newborns.
+   This is another webby passage, all sticky and wet.  Thick strands of
+silk stretch from branch to branch, sagging under the weight of dew, and
+tiny ballooning spiders fill the air, drifting on fine threads that
+catch the light.  It seems that these young ones are newborns, only
+recently hatched.  The passage leads east and south.
 ~
 63 p 2
 D1
@@ -70,9 +74,10 @@ D2
 S
 #6305
 Beneath The Busy Path~
-   You here the sounds of crawling arachnids above.  The rhythms of
-the footsteps suggest a primitive order in there movement.  The light
-seems brighter upwards.
+   You hear the sounds of crawling creatures moving above you, and the
+rhythm of their footsteps suggests a primitive order in their movements.
+The light seems brighter overhead, where a path runs along the branches.
+The passage leads west.
 ~
 63 p 2
 D3
@@ -86,9 +91,10 @@ D4
 S
 #6306
 On The Busy Path~
-   Spiders, spiders, everywhere!  It is almost ant-like in efficiency
-with one big difference.  The spiders here are carrying ant-corpses,
-as well as rats, wolves, and humans.
+   Spiders, spiders everywhere!  The path is as busy as an anthill, with
+one big difference: the spiders here are carrying the corpses of ants,
+rats, wolves and humans, all bundled in silk.  The path continues south,
+and a way leads down beneath it.
 ~
 63 p 2
 D2
@@ -102,9 +108,10 @@ D5
 S
 #6307
 On The Busy Path~
-   Spiders, spiders, everywhere!  It is almost ant-like in efficiency
-with one big difference.  The spiders here are carrying ant-corpses,
-as well as cats, wolves, and humans.  
+   Spiders, spiders everywhere!  They scuttle past in endless lines,
+carrying silk-wrapped bundles of prey: ants, cats, wolves and humans.
+You must step carefully to avoid being trampled.  The path continues
+north and east.
 ~
 63 p 2
 D0
@@ -118,9 +125,10 @@ D1
 S
 #6308
 On The Busy Path~
-   Spiders, spiders, everywhere!  It is almost ant-like in efficiency
-with one big difference.  The spiders here are carrying ant-corpses,
-as well as cats, dogs, and humans.
+   Spiders, spiders everywhere, marching in orderly lines with their
+silk-wrapped burdens: ants, cats, dogs and humans.  The path is worn
+smooth by countless legs.  It continues north, east and south, and to
+the west it splits.
 ~
 63 p 2
 D0
@@ -142,10 +150,10 @@ D3
 S
 #6309
 A Split In The Path~
-   As always, there is a split in the road.  One road is strewn with
-cricket feelers.  The other is well-kept and suitable for smooth
-travelling.  The webbing that was prevalent in earlier rooms is almost
-non-existant now.
+   As always, there is a split in the road.  One way, to the north, is
+strewn with cricket feelers; the other, to the south, is well kept and
+smooth.  The webbing that covered everything earlier is almost absent
+here.  The busy path lies to the east.
 ~
 63 p 2
 D0
@@ -163,9 +171,11 @@ D2
 S
 #6310
 A Fuzzy Tree Limb~
-   You are on a 'fuzzy' tree limb.  Interesting, since the branches
-seem to have 'hairs' sprouting from its bark.  As you look closer
-you see millions of aphids covering each limb.
+   You are on a "fuzzy" tree limb; the branches seem to have hairs
+sprouting from their bark.  Looking closer, you see that each limb is
+covered with millions of aphids, crawling over one another in a green
+carpet.  The trunk lies to the west, and the split in the path to the
+south.
 ~
 63 p 2
 D2
@@ -179,8 +189,11 @@ D3
 S
 #6311
 The Tree Trunk~
-   You feel that you can rest here safely.  There is evidence of
-webbing here, but it is of a finer quality.
+   You stand on the broad trunk of a great tree, wrapped round and round
+in webbing of a much finer quality than elsewhere: smooth, strong and
+almost silken to the touch.  The air is calm here, and you feel that you
+can rest safely for a while.  A fuzzy limb leads off to the east, and
+the entrance to a lair lies to the south.
 ~
 63 cp 2
 D1
@@ -194,10 +207,10 @@ D2
 S
 #6312
 The Tree Lair Entrance~
-   It seems the inhabitant of this place does not web her victims,
-as evidenced by the remains before you.  The area is cluttered with
-desiccated corpses, apparently bitten but unwebbed, and drained of
-their life juices.
+   It seems the inhabitant of this place does not web her victims, as
+the remains before you show.  The area is cluttered with desiccated
+corpses, bitten but unwebbed, and drained of their life juices.  The
+trunk lies to the north, and a dark lair opens to the west.
 ~
 63 p 2
 D0
@@ -211,9 +224,10 @@ D3
 S
 #6313
 The Wolf Spider Lair~
-   Very dark, as all lairs of spiders are.  Not much of furnishings
-save an exit.  The wolf spider keeps no corpses here, but rather
-throws them out at her leisure.
+   It is very dark here, as all spiders' lairs are.  There is not much
+in the way of furnishings, save an exit.  The wolf spider keeps no
+corpses here, preferring to throw them out at her leisure, but the smell
+of death lingers all the same.  The way out lies east.
 ~
 63 p 2
 D1
@@ -223,9 +237,10 @@ D1
 S
 #6320
 The Webless Path~
-   Strange.  No webbing here.  In fact, no sounds whatsoever.  
-The path continues northward, where you find that you may have
-to tightrope your way across a ravine.
+   Strange.  There is no webbing here, and in fact no sound at all; even
+your footsteps seem muffled.  The path continues north back to the
+split, and to the west you see that you may have to tightrope your way
+across a ravine.
 ~
 63 p 2
 D0
@@ -239,11 +254,12 @@ D3
 S
 #6321
 Above The Ravine~
-   Stranger still.  Your feet get a real firm grip on the spiderline.
-You are above a deep ravine.  This line connects you between two trees.
-Below you can see a prismatic web with lots of animal bones caught in it:
-some bear and small deer bones in fact.  No human skeletons are visible 
-(yet).
+   Stranger still.  Your feet find a firm grip on a single thick spider
+line stretched between two trees above a deep ravine.  Far below hangs a
+prismatic web, glittering with every color, with many animal bones
+caught in it: bear and small deer, in fact.  No human skeletons are
+visible.  Yet.  The line leads east and south, and you could climb down
+to the web.
 ~
 63 p 2
 D1
@@ -261,9 +277,10 @@ D5
 S
 #6322
 The Rainbow Web~
-   This is the rainbow web -- each strand, each link, a hue of violently
-sharp colors and contrasts.  The resident here seems to have a command
-of light as well.
+   This is the rainbow web, each strand and each link a hue of violently
+sharp color, so bright that it hurts your eyes.  Light seems to bend and
+play along the strands, as if the creature that spun this web had
+command of light itself.  The way up leads back to the spider line.
 ~
 63 p 2
 D4
@@ -273,9 +290,10 @@ D4
 S
 #6323
 The Web Forest~
-   The trees here take on a different appearance -- they are not trees
-anymore, but disjointed make-shift silken made shafts, sticky to the
-touch, and webby in texture.  This is another world it would appear.
+   The trees here look different: they are not trees any more, but
+disjointed, makeshift shafts of silk, sticky to the touch and webby in
+texture.  It is another world, it would appear.  The spider line lies to
+the north, and a pit opens below.
 ~
 63 p 2
 D0
@@ -289,9 +307,10 @@ D5
 S
 #6324
 The Slave Pit~
-   You have entered the slave pit.  A voice blares in the distance,
-'Get back to work, maggots!'  Rails upon rails of mined gold and silver
-clutter the trail beneath you.
+   You have entered the slave pit.  Somewhere in the distance a voice
+blares, 'Get back to work, maggots!'  Rails upon rails of mined gold and
+silver clutter the trail beneath you, and the walls of silk are streaked
+with ore dust.  A path leads north, and the web forest lies above.
 ~
 63 p 2
 D0
@@ -305,9 +324,10 @@ D4
 S
 #6325
 The Tether Path~
-   Another tether path just like the rest of them.  Surprisingly
-well-lit by the golden orbs that hang from the sides, you can see
-the paths become finer and finer in quality.
+   This is another tether path, just like the rest of them, but it is
+surprisingly well lit by the golden orbs that hang along its sides, and
+you can see that the paths become finer and finer in quality as you go.
+A crossing lies east, and the slave pit west.
 ~
 63 p 2
 D1
@@ -321,7 +341,11 @@ D3
 S
 #6326
 A Road Crossing~
-   Another shifty little strand of webs, almost ethereal in nature.
+   This is another shifty little strand of webs, almost ethereal in
+nature, where two paths cross.  The strands shimmer faintly and seem to
+fade in and out of sight, so that you are never quite sure whether there
+is anything beneath your feet.  A thicker leader strand climbs upwards,
+and the tether path leads off to the west.
 ~
 63 p 2
 D3
@@ -335,10 +359,11 @@ D4
 S
 #6327
 A Leader Strand~
-   This strand is weightier, more sturdy.  It shimmers as you step on
-it.  You are definitely not in the Dominion's realms anymore.  Just
-where you are you can't tell.  It feels like you're moving through
-ether.  You can still get back down to more surer lands.
+   This strand is heavier and sturdier than the others, and it shimmers
+as you step on it.  You are definitely not in the realms of the Dominion
+any more, though where you are you cannot tell; it feels as if you are
+moving through the ether itself.  You can still climb back down to surer
+ground.  The strand leads north.
 ~
 63 p 2
 D0
@@ -352,9 +377,10 @@ D5
 S
 #6328
 The Entrance Of The Ethereal Web~
-   You are at the entrance to ethereal web.  Flickering in and out,
-in and out, each strand reveals a different hue from black to green 
-to blue.
+   You are at the entrance to the ethereal web.  Its strands flicker in
+and out of existence, each one revealing a different hue, from black to
+green to blue, as it fades and returns.  The base of the web lies to the
+south.
 ~
 63 p 2
 D2
@@ -364,11 +390,12 @@ D2
 S
 #6330
 The Young Wormkin's Crib~
-   A playpen of sorts, with maggots of wasps and other baby
-vermin lying about.  You feel that humans have been played with
-here too, and eaten later.  You sense that the maker of this
-place has an appetite for dragon meat, and uses this room as a
-breeding area.
+   This is a playpen of sorts, littered with the maggots of wasps and
+other baby vermin.  You get the feeling that humans have been played
+with here too, and eaten afterward.  Scorch marks and scattered scales
+suggest that the master of this place has an appetite for dragon meat
+and uses this room as a breeding area.  The way up leads to the base of
+the web.
 ~
 63 p 2
 D4
@@ -378,10 +405,10 @@ D4
 S
 #6331
 The Base Of The Web~
-   Large strands connect at this point.  The node shimmers and
-flickers within the ether.  You see many flying creatures --
-insects, pegasi, and dragon wormkins -- navigate the dangerous
-passages of the web.  Exits go in many directions.
+   Great strands of silk come together at this point, and the node
+shimmers and flickers in the ether.  Flying creatures of every kind,
+insects, pegasi and young dragons, navigate the dangerous passages of
+the web around you.  Strands lead north, east, south and west.
 ~
 63 p 2
 D0
@@ -403,9 +430,9 @@ D3
 S
 #6332
 Through The Trees~
-   This part of the web intersects through the branches of some
-trees.  Various leaves and other debris that the many drones have
-not picked up yet lie here.
+   This part of the web passes through the branches of some trees, and
+leaves and other debris that the drones have not yet cleared away lie
+caught in its strands.  Strands lead east, south and west.
 ~
 63 p 2
 D1
@@ -423,9 +450,10 @@ D3
 S
 #6333
 Above The Clouds~
-   You can see all of the Dominion in this ethereal web.  Many
-of the larger dragons that do wish to fly seem to fly away
-from the sticky strands of the web.
+   From this point in the ethereal web you can see all of the Dominion
+spread out far below, its forests, mountains and seas tiny as a map.
+Many of the larger dragons keep well away from the sticky strands as
+they fly.  Strands lead east, south and west.
 ~
 63 p 2
 D1
@@ -443,9 +471,10 @@ D3
 S
 #6334
 On A Cloud~
-   This cloud is rather thick in consistency.  You suddenly realize
-this is not a typical cloud, but it might be the nest of an aerial
-creature.
+   This cloud is thick and springy underfoot.  You suddenly realize that
+it is not an ordinary cloud at all, but the woven nest of some aerial
+creature, lined with feathers and bones.  The way down leads to the base
+of the web.
 ~
 63 p 2
 D5
@@ -455,8 +484,11 @@ D5
 S
 #6335
 A Link In The Ethereal Web~
-   This is another link in the ethereal web.  Various creatures seem
-to get caught (or hypnotized) by its sticky strands.
+   This is another link in the ethereal web, a knot of shining strands
+suspended in empty air.  Various creatures seem to get caught, or
+perhaps hypnotized, by its sticky strands, and you can see the faint
+shapes of past victims wrapped in silk nearby.  The web leads east to a
+tenuous strand and west to the base of the web.
 ~
 63 p 2
 D1
@@ -470,8 +502,11 @@ D3
 S
 #6336
 The Tenuous Strand~
-   Very windy here since it goes up into the sky somewhat.  Still, it
-is safe enough to move around.
+   It is very windy here, for this strand climbs up into the sky above
+the treetops, and the web sways with every gust.  Still, the strands are
+strong and it is safe enough to move around if you are careful.  Far
+below you can see the green canopy of the forest.  Limbs and strands
+lead south and west, and you can climb down to the base of the web.
 ~
 63 p 2
 D2
@@ -489,9 +524,11 @@ D5
 S
 #6340
 The Elder Wormkin's Room~
-   A more mature wormkin it seems resides here.  Various tomes
-of arcane lore clutter the area, along with shards of armor and
-weaponry.
+   A more mature wormkin, it seems, resides here, in a cozy hollow of
+silk and bark.  Various tomes of arcane lore clutter the area, stacked
+in teetering piles or lying open on the floor, along with shards of
+armor and weaponry from past adventurers.  The walls are covered in
+scribbled notes.  The way down leads back to the base of the web.
 ~
 63 p 2
 D5
@@ -501,8 +538,11 @@ D5
 S
 #6341
 Another Tree Limb~
-   Once again the web crosses another tree limb.  To the side you
-see the possible entrance to another creature's lair.
+   Once again the web crosses another tree limb, a thick branch of gray
+bark worn smooth by the passing of countless spiders.  To the east you
+see what might be the entrance to another creature's lair, dark and
+quiet.  The web continues south towards a cloud and west to another link
+in the ethereal web.
 ~
 63 p 2
 D1
@@ -520,9 +560,11 @@ D3
 S
 #6342
 The Bird Spider's Lair~
-   This is a big game hunter among most spiders.  Crushed
-jewels and weapons suggest the inhabitant must have powerful
-jaws.  Beware!
+   This is the lair of a big-game hunter among spiders.  Crushed jewels
+and broken weapons litter the floor of the lair, along with the bones of
+creatures far larger than any ordinary spider would dare to hunt.  The
+inhabitant must have powerful jaws indeed.  Beware!  The only way out is
+down, back to the base of the web.
 ~
 63 p 2
 D5
@@ -532,8 +574,11 @@ D5
 S
 #6345
 A Link In The Ethereal Web~
-   This is another link in the ethereal web.  Various creatures
-seem to get caught (or hypnotized) by its sticky strands.
+   This is another link in the ethereal web, where shimmering strands
+come together in a tangle of light.  Various creatures seem to get
+caught, or perhaps hypnotized, by its sticky strands, and the longer you
+stare at them the harder it becomes to look away.  Strands lead south,
+west and further up into the web.
 ~
 63 p 2
 D2
@@ -551,9 +596,10 @@ D4
 S
 #6346
 The Quiet Tree Top~
-You are on a quiet branch high in the tree of webs.  You see another
-branch almost connects with this one which looks to lead far down 
-towards the ground.
+   You are on a quiet branch high in the tree of webs, where the wind
+blows cool and fresh.  Another branch almost touches this one, and it
+looks as though you could climb down it all the way to the ground.
+Strands of web lead east and west.
 ~
 63 p 2
 D1
@@ -571,9 +617,10 @@ D5
 S
 #6347
 On The Web~
-   RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  You hear the roar
-of a powerful beast.  Dragon, you think.  You shiver in your boots
-as you tiptoe along this section of the web.
+   RRRRRRRROOOOOOOOAAAAAAAARR!  You hear the roar of some powerful
+beast.  A dragon, you think.  You shiver in your boots as you tiptoe
+along this section of the web, which shudders with every echo.  Strands
+lead east and south, and down to the base of the web.
 ~
 63 p 2
 D1
@@ -591,8 +638,12 @@ D5
 S
 #6350
 The Ki-Rin Chamber~
-   A wise ki-rin was entrapped here many years ago.  It is from her
-that the ruler of this realm draws magical strength.
+   A wise ki-rin was entrapped here many years ago, held in a chamber of
+silken strands so fine they glow like moonlight.  It is from her that
+the ruler of this realm draws magical strength, and you can feel the
+power flowing out of the chamber along the strands of the web.  Despite
+her captivity, the chamber feels calm and gentle.  The way out lies to
+the north.
 ~
 63 p 2
 D0
@@ -602,9 +653,10 @@ D0
 S
 #6355
 A Link In The Ethereal Web~
-   This is another link in the ethereal web.  Various creatures
-seem to get caught (or hypnotized) by its sticky strands.  To
-the north you sense the heavy breathing of a fiery animal.
+   This is another link in the ethereal web.  Various creatures seem to
+have been caught, or hypnotized, by its sticky strands, and hang
+motionless all around.  To the north you sense the heavy breathing of
+some fiery creature, and the air grows hot.  The web continues south.
 ~
 63 p 2
 D0
@@ -618,9 +670,10 @@ D2
 S
 #6360
 Yevaud's Lair~
-   Yevaud, the Usurper of Ag'baad, resides here.  A voice cries
-out, 'BEWARE, the Usurper of Ag'baad lives here!  FLEE while you can!'
-But even Yevaud has his master... or so you deduce.
+   Yevaud, the Usurper of Ag'baad, makes his home here, amid a nest of
+scorched silk and blackened bones.  A voice cries out, 'BEWARE, the
+Usurper of Ag'baad lives here!  FLEE while you can!'  But even Yevaud
+has his master... or so you deduce.  The way out lies south.
 ~
 63 p 2
 D2
@@ -630,10 +683,10 @@ D2
 S
 #6365
 A Link In The Ethereal Web~
-   This is another link in the ethereal web.  Various creatures
-seem to get caught (or hypnotized) by its sticky strands.  A
-single spider line lies to the north, while ghastly seemings are
-due southward.  The grim entrance of Arachnos' Lair is downward.
+   This is another link in the ethereal web, where various creatures
+hang caught or hypnotized in its sticky strands.  A single spider line
+leads north, and ghastly shapes drift to the south.  The grim entrance
+of Arachnos' Lair lies below, and the base of the web to the east.
 ~
 63 p 2
 D0
@@ -655,10 +708,10 @@ D5
 S
 #6366
 The Entrance To The Donjonkeep~
-   A dark path at the end of the web strand, you see ahead
-a torch lit chamber where the souls of unavenged adventurers
-come and gnash their teeth.  The howls and screams of many
-echo through the hall ways.  You see one definite path ahead.
+   A dark path leads from the end of the web strand toward a torchlit
+chamber ahead, where the souls of unavenged adventurers come to gnash
+their teeth.  Howls and screams echo through the passages.  There is
+only one way forward, to the north.
 ~
 63 p 2
 D0
@@ -668,8 +721,11 @@ D0
 S
 #6367
 The Guardian's Room~
-   A chair sits here for a tireless guardian who ensures that no
-soul escapes.  Other than that, the room is undecorated.
+   A sturdy wooden chair sits here for a tireless guardian whose task is
+to ensure that no soul escapes the realm beyond.  Other than the chair,
+the room is undecorated: bare walls of tightly woven web, a floor of
+packed silk and a heavy, hopeless silence.  The Realm of the Hopeless
+lies to the north.
 ~
 63 p 2
 D0
@@ -683,10 +739,10 @@ An ordinary chair, well used, glued to the ground by spiderweb.
 S
 #6368
 The Realm Of The Hopeless~
-   Here you see many misguided souls who think they still live.
-They search for those who killed them without warrant, and seek
-the free souls of living beings to inhabit and perhaps adventure
-once more.
+   Here you see many misguided souls who believe they still live.  Pale
+and translucent, they search endlessly for those who killed them without
+cause, and seek the free souls of the living to inhabit, that they might
+adventure once more.  The way continues north.
 ~
 63 p 2
 D0
@@ -696,10 +752,9 @@ D0
 S
 #6369
 The Realm Of The Hopeless~
-   Here you see many misguided souls who think they still live.
-They search for those who killed them without warrant, and seek
-the free souls of living beings to inhabit and perhaps adventure
-once more.
+   Here many misguided souls drift about, believing they still live.
+They reach out toward you with longing as you pass, hungry for a living
+body to inhabit.  The way continues north, and south to the Donjonkeep.
 ~
 63 p 2
 D0
@@ -713,11 +768,10 @@ D2
 S
 #6370
 The Donjonkeep~
-   No souls have ever lived in this place.  The wails of slaves and
-the howls of wolves are the only way you can describe the sounds you
-hear.  The walls are thin and wispy.  The only light you receive is
-the shimmering from the strand of the ethereal web you used to get
-here.  
+   No soul has ever truly lived in this place.  The wails of slaves and
+the howls of wolves are the only words for the sounds you hear.  The
+walls are thin and wispy, and the only light comes from the shimmer of
+the ethereal strand by which you came.  The strand lies to the east.
 ~
 63 p 2
 D1
@@ -727,10 +781,11 @@ D1
 S
 #6371
 The Single Spider Line~
-   A single spider line supports you once more.  As you look across
-the ether you seen a single shack up ahead with a light in the window.
-You sense a great evil coming from the north and feel inclined to go
-back on the ethereal web and take your chances there.
+   A single spider line supports you once more.  Looking across the
+ether, you see a lone shack up ahead with a light in its window.  You
+sense a great evil to the north and feel inclined to go back to the
+ethereal web and take your chances there.  The line runs north and
+south.
 ~
 63 p 2
 D0
@@ -744,8 +799,11 @@ D2
 S
 #6372
 The Single Spider Line~
-   A single spider line supports you once more.  The shack comes
-closer into view and you are even more inclined to go back now.
+   A single spider line supports you once more, stretched taut over a
+dizzying drop.  It hums faintly under your weight and sways with every
+step.  The shack comes closer into view to the south, crooked and
+patched together from scraps, and you are even more inclined to turn
+back now.  The line also runs north.
 ~
 63 p 2
 D0
@@ -759,10 +817,11 @@ D2
 S
 #6373
 The Hermit's Corner~
-   Here you see evidence of a vagrant's abode.  The shack is to the
-north, if you dare enter it.  You get the sneaking feeling you should
-go back now.  The skies above you darken and roar with the laughter
-of thunder.
+   Here you see signs of a vagrant's dwelling: a cold fire pit, a
+tattered blanket and a few gnawed bones.  The shack lies to the north,
+if you dare enter it.  You get the sneaking feeling you should go back
+now.  The skies above darken and roar with the laughter of thunder.  The
+spider line lies to the north, and a chamber to the south.
 ~
 63 p 2
 D0
@@ -784,8 +843,12 @@ He plunges a black dagger into your back...
 S
 #6390
 The Entrance To The Arachnos' Lair~
-   All strands inevitably lead here, the center of the web, the
-entrance to Arachnos' Lair.
+   All strands inevitably lead here, to the center of the web and the
+entrance to Arachnos' Lair.  Thick cables of silk, each as wide as your
+arm, converge from every direction into a great funnel that tunnels
+inward, and the whole web trembles faintly as though something vast were
+stirring within.  The air is heavy and sweet with a sickly smell.  A
+sticky chamber lies to the east.
 ~
 63 p 2
 D1
@@ -795,11 +858,12 @@ D1
 S
 #6391
 The Sticky Chamber~
-   You can still bail out since your knees are shaking from the
-anticipation (or is it fear?).  The sky is clear on this strand of 
-web, surprisingly unsticky.  The strand does not vibrate like the 
-others.  A few ballooning spiders pass by, cackling 'You're gonna
-die, you're gonna fry.  Good bye!'
+   You can still turn back, since your knees are shaking with
+anticipation (or is it fear?).  The sky is clear on this strand of web,
+and it is surprisingly unsticky; it does not vibrate like the others.  A
+few ballooning spiders drift past, cackling, 'You're gonna die, you're
+gonna fry.  Goodbye!'  A great door lies to the east, and the base of
+the web below.
 ~
 63 p 2
 D1
@@ -813,9 +877,10 @@ D5
 S
 #6392
 The Great Door~
-   Before you you see a large, web-like door.  Various designs
-of ancient runes and names of Mytherish heroes are etched into
-the webwork.  Perhaps lists of victims?  You can't tell.  
+   Before you stands a large, web-like door.  Ancient runes and the
+names of Mytheran heroes are etched into its webwork.  Perhaps they are
+lists of victims?  You can't tell.  The door leads north, and the strand
+runs back west.
 ~
 63 dp 2
 D0
@@ -829,12 +894,12 @@ D3
 S
 #6399
 The Lair Of Arachnos~
-   This is the lair of the Empress Spider, Arachnos.  You can
-see a lavishly adorned rainbow web, her lair allows her to move
-to any universe she wishes by using her magical strands to the
-Prime Material Plane.  Coffers upon coffers of gold, magical
-jewels and gems await.  Unfortunately Arachnos is a baggy spider
-too, and webs all her treasures to her beautiful silken body.
+   This is the lair of the Empress of Spiders, Arachnos.  Her lavishly
+adorned rainbow web stretches in every direction, and through its
+magical strands she can travel to any universe she wishes.  Coffers upon
+coffers of gold, magical jewels and gems lie all about, but Arachnos is
+a greedy spider too, and she has webbed all her treasures tightly to her
+beautiful web.  The great door lies to the south.
 ~
 63 g 2
 D2

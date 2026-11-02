@@ -25,7 +25,7 @@ cfghm k -366 S
 #20002
 kobold miner~
 The kobold miner~
-The kobold miner is here, chisling away at the rock.
+The kobold miner is here, chiseling away at the rock.
 ~
 You see a kobold male here, drenched in sweat.  He seems intent on 
 lengthening the tunnel while avoiding the sting of the taskmaster's 
@@ -51,7 +51,7 @@ gh k -496 S
 #20004
 kobold soldier~
 The kobold soldier~
-A kobold soldier is patroling here.
+A kobold soldier is patrolling here.
 ~
 You see a stout kobold warrior on patrol.  He seems quite displeased 
 at your intrusion.
@@ -66,7 +66,7 @@ the kobold guard~
 A kobold warrior stands at attention here.
 ~
 You see a stout kobold standing here quite bored until your intrusion.  
-He screams in a primative language and attacks.
+He screams in a primitive language and attacks.
 ~
 bcfglm k -366 S
 1 20 10 2d4+0 1d2+1
@@ -104,7 +104,7 @@ The gelatinous cube~
 You see a smooth wall here.
 ~
 You see a glistening, smooth wall here.  The only break in the shiny 
-surface is the hand of a kobold pertruding from it.
+surface is the hand of a kobold protruding from it.
 ~
 bcfgh dfkt 0 S
 7 10 10 5d10+0 2d4+3

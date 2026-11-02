@@ -97,5 +97,8 @@ M 0 1814 1 1886 100 	* the Drerim guard at Stairway to the Drerim Temple. (Max: 
 M 0 1802 2 1885 100 	* a Druid of Drerim at Hallway in the Drerim Temple. (Max: 2)
 M 0 1802 2 1897 100 	* a Druid of Drerim at Corner in the Drerim Temple. (Max: 2)
 D 0 1873 2 2 100 		* Lock and Close Southern door at A Silent Clearing
+* puzzle
+M 0 1818 1 1821              markings on the archway (puzzle)
+O 0 1806 5 1898              blue wooden ring (puzzle reward)
 S
 $~

@@ -1,8 +1,8 @@
 #32600
 Forest Path~
-   The forest is quite dense here yet to the north there is a break in the
-trees which seems to open into a small village.  To the south the
-path leads through the dark trees.
+   The forest is dense here, but to the north there is a break in the
+trees that seems to open onto a small village.  Golden leaves drift down
+around you.  To the south the path leads into the dark trees.
 ~
 326 p 2
 D0
@@ -16,9 +16,10 @@ D2
 S
 #32601
 Turn in the Path~
-   The path turns here avoiding large trees standing to the south and
-west.  Tiny daggers of light pierce through the thick foliage above.
-To the north and east the trail continues.
+   The path turns here to avoid large trees standing to the south and
+west.  Tiny daggers of light pierce the thick foliage overhead,
+scattering gold across the forest floor.  The trail continues north and
+east.
 ~
 326 p 2
 D0
@@ -32,9 +33,9 @@ D1
 S
 #32602
 Dark Forest Path~
-   The trail turns here leading south and west avoiding two large trees.
-The trees are dark and shade you from the sun.  A strange quietness
-makes you nervous.  Upon a tree is nailed a sign.
+   The trail turns here, leading south and west around two great trees
+whose dark crowns shade you from the sun.  A strange quiet hangs in the
+air, making you nervous.  A sign has been nailed to one of the trees.
 ~
 326 p 2
 D2
@@ -59,11 +60,11 @@ The sign reads:
 S
 #32603
 The small clearing~
-   You stand in a small clearing with the golden trees all about you.
-Four, very large stones, have been grouped together to make a small
-monolith in the center of the clearing.  To the north you see a passageway
-carved into a small rocky hill and to the east and south a trail leads
-off between the golden trees.
+   You stand in a small clearing ringed by golden trees.  Four very
+large stones have been set together in the center of the clearing to
+form a small monolith, weathered and mossy, and the grass grows greener
+around its base.  To the north a passage leads past a small rocky hill,
+and to the east and south trails lead off through screens of foliage.
 ~
 326 p 2
 D0
@@ -88,10 +89,10 @@ dust long ago.
 S
 #32604
 The Forest Trail~
-   The trail leads east and south between tall golden trees.  Lights creeps
-through the branches causing a strange glow to occur.  To the east the trail
-continues through the forest.  South, you can make your way between the 
-foliage.
+   The trail leads east and south between tall golden trees, and light
+creeping through the branches makes the air itself seem to glow.  To the
+east the trail continues through the forest, to the south you can make
+your way between the foliage, and a wall of brush lies to the west.
 ~
 326 p 2
 D1
@@ -109,9 +110,9 @@ brush~
 S
 #32605
 Turn in the Trail~
-   The trail turns here leading south and west between the golden trees.
-Light silhouettes the branches and leaves above you creating dark natural
-patterns.  
+   The trail turns here, leading south and west between the golden
+trees.  Light silhouettes the branches and leaves above you, creating
+dark, shifting patterns on the path at your feet.
 ~
 326 p 2
 D2
@@ -125,8 +126,9 @@ D3
 S
 #32606
 Turn in the Trail~
-   The leaves rustle slightly as a breeze passes by.  The small trail turns
-south here and also to the east it leads between the majestic golden trees.
+   The leaves rustle softly as a breeze passes.  The small trail turns
+south here, and to the east it leads on between the majestic golden
+trees.
 ~
 326 p 2
 D1
@@ -140,10 +142,10 @@ D2
 S
 #32607
 The Forest Trail~
-   Tall golden trees stand proudly on either side of the clear trail.  Not
-a single root trips you along the well-trodden path.  To the south you see
-a small clearing break the dense clutter of the trees and to the east and
-west the trail continues.
+   Tall golden trees stand proudly on either side of this clear trail,
+and not a single root trips you on the well-trodden path.  To the south
+you can see a small clearing in the trees, and the trail continues east
+and west.
 ~
 326 p 2
 D1
@@ -161,9 +163,9 @@ D3
 S
 #32608
 Turn in the Path~
-   Walls of golden-leafed branches are on either side of you, forcing the
-path to turn south and west.  Everything seems to open up to the south.  
-as if you were at some natural archway into the Pelarinne Forest.
+   Walls of golden-leafed branches stand on either side of you, forcing
+the path to turn south and west.  To the south everything seems to open
+up, as if you stood at a natural archway into the Pelarinne Forest.
 ~
 326 p 2
 D2
@@ -177,10 +179,10 @@ D3
 S
 #32609
 Turn in the Small Road~
-   The small road you have been travelling upon turns south and east here.
-To the east you see a great golden forest.  The sight of the golden-leafed
-trees can fill a thief with such a longing, yet the ruse of the golden trees
-is well known.
+   The small road turns south and east here.  To the east you see a
+great golden forest, and the sight of its golden-leafed trees could fill
+any thief with longing, though the ruse of the golden trees is well
+known: their leaves are gold only in color.
 ~
 326 p 2
 D1
@@ -194,10 +196,10 @@ D2
 S
 #32610
 At an Intersection of roads~
-   A path leads off between the golden-leafed trees to the south and   
-disappears into the forest.  To the east the road leads towards the Pelarinne 
-Forest, and to the west, in the distance, you think a small village may be
-nigh from the small plume of smoke lazily crawling into the sky.
+   A path leads off south between the golden-leafed trees and disappears
+into the forest.  To the east the road leads toward the Pelarinne
+Forest, and far to the west a small plume of smoke drifting lazily into
+the sky hints that a village may be near.
 ~
 326 p 2
 D1
@@ -215,9 +217,9 @@ D3
 S
 #32611
 On the Small Road~
-   To the north you can see nothing but the golden boughs of the Pelarinne
-Forest and small hills.  The glow created from the forest is dazzling to
-the eye.  The road leads east into the forest and west down the road.
+   To the north you can see nothing but the golden boughs of the
+Pelarinne Forest and small hills beyond.  The glow of the forest is
+dazzling to the eye.  The road leads east into the forest and back west.
 ~
 326 p 2
 D1
@@ -231,10 +233,10 @@ D3
 S
 #32612
 Into the Golden Forest~
-   A mystical archway made of stone, connected to two rather large trees
-is the entrance to the forest.  To the west you can see the road stretch
-off towards the horizon, and east, a small path leads deep into the forest 
-of golden trees.
+   A mystical archway of stone joined to two rather large trees marks
+the entrance to the forest, its arch overgrown with golden vines.  To
+the west the road stretches off toward the horizon, and to the east a
+small path leads deep into the forest of golden trees.
 ~
 326 p 2
 D1
@@ -248,8 +250,10 @@ D3
 S
 #32613
 Intersection in the Forest~
-   Two paths meet here.  You may continue your travels south through the
-thick golden trees and to the east and west along the trail.
+   Two paths meet here in a small open space among the golden trees.
+You may continue your travels south through the thick forest, or east
+and west along the trail.  To the north, a wall of tangled brush hides
+whatever lies beyond.
 ~
 326 p 2
 D0
@@ -271,8 +275,9 @@ D3
 S
 #32614
 Turn in the trail~
-   The trail turns here north and west.  The leaves of the trees rustle 
-gently in the breeze passing through the forest.
+   The trail turns here, heading north and west.  The leaves of the
+trees rustle gently in the breeze passing through the forest, and golden
+light filters down to dapple the soft earth of the path.
 ~
 326 p 2
 D0
@@ -286,8 +291,8 @@ D3
 S
 #32615
 Turn in the trail~
-   An extremely large tree stands to the west forcing you to turn north
-or south here.  The trail also leads off to the east down a long trail
+   An extremely large tree stands to the west, forcing the trail to turn
+north or south here.  The trail also leads off east down a long avenue
 lined with majestic golden trees.
 ~
 326 p 2
@@ -306,9 +311,9 @@ D2
 S
 #32616
 Trail through the forest~
-   The trail leads east and west down the long line of golden trees.  To the
-west you see an extremely large tree a little ways down the path forcing
-the path to turn and go around it.
+   The trail leads east and west down a long line of golden trees.  To
+the west, a little way down the path, an extremely large tree forces the
+path to turn around it.
 ~
 326 p 2
 D1
@@ -322,9 +327,9 @@ D3
 S
 #32617
 The Forest Trail~
-   Exits lead off in every direction save north where a dense wall of
-the golden trees seems to have been formed.  To the south, a branching 
-trail leads off into a darker section of the forest.
+   A dense wall of golden trees stands to the north, but paths lead off
+in every other direction.  To the south a branching trail leads into a
+darker part of the forest.
 ~
 326 p 2
 D1
@@ -342,9 +347,10 @@ D3
 S
 #32618
 Intersection of trails~
-   You are standing in a small clearing with a large tree standing directly
-in the center of it.  Large roots jut from the ground around the tree.  
-Paths lead off in every direction from here.
+   You are standing in a small clearing with a great tree in its very
+center, its huge roots jutting out of the ground all around.  Paths lead
+off in every direction, and the tree's lowest branches are within reach
+above you.
 ~
 326 p 2
 D0
@@ -375,9 +381,9 @@ making the tree climb-able with a minimum of effort.
 S
 #32619
 Turn in the trail~
-   The trail turns here north and west.  To the north the trail leads east
-and west next to a wall of golden trees to the north and to the west is a
-small clearing with a large tree standing in the center of it.
+   The trail turns north and west here.  To the north it runs east and
+west beside a wall of golden trees, and to the west lies a small
+clearing with a great tree in its center.
 ~
 326 p 2
 D0
@@ -391,9 +397,9 @@ D3
 S
 #32620
 Turn in the trail~
-   The trail turns here, north and east.  You can see to the east a 
-great archway has been built and a road forms at the base of the archway
-leading through gentle rolling hills.
+   The trail turns here, north and east.  To the east a great archway
+has been built, and a road begins at its base, leading out through
+gentle rolling hills.  A riverbank lies to the south.
 ~
 326 p 2
 D0
@@ -411,11 +417,11 @@ D2
 S
 #32621
 The ancient archway~
-   Large stones chipped into shapes of a square are stacked high here and
-have been made into some sort of archway.  Strange etchings have been etched
-into the top cross-stone, now unreadable, but the meaning remains.  To the
-east a road leads through gentle rolling hills.  To the west begins the
-majestic Pelarinne Forest with a trail leading into it.
+   Large stones cut square have been stacked high here to make some sort
+of archway.  Strange etchings run across its top stone, unreadable now,
+though their meaning lingers somehow.  To the east a road leads through
+gentle rolling hills, and to the west begins the majestic Pelarinne
+Forest, with a trail leading into it.
 ~
 326 p 2
 D1
@@ -429,9 +435,9 @@ D3
 S
 #32622
 Turn in the road~
-   The road turns west and south here.  You see a great forest filled 
-with majestic golden trees to the west and to the east a small township
-off a little ways down the road.
+   The road turns west and south here.  To the west you see a great
+forest of majestic golden trees, and to the east, a little way off down
+the road, a small township.
 ~
 326 p 2
 D2
@@ -445,9 +451,9 @@ D3
 S
 #32623
 A Small Road~
-   You are on a small road which widens to the west and enters a small
-village.  Looming above the village is a dark mountain range.  To the
-east the roads leads towards a forest filled with trees the color of amber.
+   You are on a small road that widens to the west as it enters a small
+village, above which looms a dark mountain range.  To the east the road
+leads toward a forest of trees the color of amber.
 ~
 326 p 2
 D1
@@ -461,9 +467,9 @@ D3
 S
 #32624
 Turn in the Small Road~
-   The road turns here.  To the west it leads towards a small village.  A
-rather large formation of rocks blocks any travel to the east and forces the
-road to turn north.  
+   The road turns here.  To the west it leads toward a small village,
+and a large formation of rocks blocks any travel east, forcing the road
+to turn north.
 ~
 326 p 2
 D0
@@ -477,9 +483,9 @@ D3
 S
 #32625
 A small trail~
-   You are travelling along a small trail in the forest.  To the east is
-a large hill of made of boulders.  The trail is forced to continue along 
-north and south with a huge tree to the west and the rocky hill to the east.
+   You are traveling along a small trail in the forest.  To the east
+rises a large hill made of boulders, and a huge tree to the west hems
+the trail in, so that it can only continue north and south.
 ~
 326 p 2
 D0
@@ -493,9 +499,9 @@ D2
 S
 #32626
 Turn in the trail~
-   The trail turns here to the east and south.  To the west a large hill
-made of boulders makes travel in that direction impossible.  To the north
-a wall made of amber colored trees forces the path to turn east.
+   The trail turns east and south here.  To the west a large hill of
+boulders makes travel impossible, and to the north a wall of
+amber-colored trees forces the path to turn east.
 ~
 326 p 2
 D1
@@ -509,9 +515,9 @@ D2
 S
 #32627
 Turn in the path~
-   Golden trees stand on either side of the trail.  Bushes dot the floor of
-the forest, strangely enough, you do not see any leaves on the forest floor,
-only soft grass.  The trail continues west and north.
+   Golden trees stand on either side of the trail, and bushes dot the
+forest floor.  Strangely enough, you see no fallen leaves anywhere, only
+soft grass.  The trail continues west and north.
 ~
 326 p 2
 D0
@@ -525,11 +531,10 @@ D3
 S
 #32628
 A small path in the forest~
-   The trees grow extremely large here and above, the branches become
-almost like a blanket in their density.  The shadows becomes smaller as
-the darkness sets in.  To the east you can pick your way between the trees 
-and foliage and to the north you see a well trodden path.  To the south 
-lies a clearing and intersection of paths.
+   The trees grow extremely large here, and their branches high above
+form an almost solid blanket, so that the shadows deepen into darkness.
+To the east you can pick your way between the trees and foliage, to the
+north you see a well-trodden path, and to the south lies a clearing.
 ~
 326 ap 2
 D0
@@ -547,10 +552,10 @@ D2
 S
 #32629
 The dark forest~
-   The forest darkens as the branches high above block out the light.  
-The golden hue of the trees becomes more like the color of crimson in the
-shadows.  To the west you see a small path leading north and south and
-to the south you see more forest but no path.
+   The forest darkens here, for the branches high above knit together to
+shut out most of the sun, and in the gloom the golden leaves take on the
+deep color of crimson.  There is no path; you must pick your way between
+the trunks and the foliage.  The forest continues south and west.
 ~
 326 ap 2
 D2
@@ -564,10 +569,11 @@ D3
 S
 #32630
 The dark forest~
-   The trees become the color of crimson as the branches high above block
-out much of the light.  To the north, you see a well trodden path and 
-the forest continues to the east and south you can pick your way between 
-the trees and foliage.  
+   The forest darkens here, for the branches high above knit together to
+shut out most of the sun, and in the gloom the golden leaves take on the
+deep color of crimson.  There is no path; you must pick your way between
+the trunks and the foliage.  A well-trodden path can be glimpsed through
+the trees to the north.  The forest continues north, east and south.
 ~
 326 ap 2
 D0
@@ -585,9 +591,11 @@ D2
 S
 #32631
 The dark forest~
-   The forest is darker here as high above the branches block out much
-of the light from the sun.  To the north you see a well trodden path 
-leading in an east-west fashion, and to the west the forest continues.
+   The forest darkens here, for the branches high above knit together to
+shut out most of the sun, and in the gloom the golden leaves take on the
+deep color of crimson.  There is no path; you must pick your way between
+the trunks and the foliage.  Strange, pale mushrooms ring the roots of
+an ancient tree.  The forest continues north and west.
 ~
 326 p 2
 D0
@@ -601,10 +609,10 @@ D3
 S
 #32632
 Split in the Road~
-   The road branches here north and south as the forest is very dense to 
-the west.  To the east down the road a ways you see a small town surrounded 
-by stone walls.  Several plumes of chimney smoke rise from within the town 
-and etch slowly across the sky.
+   The road branches north and south here, for the forest is very dense
+to the west.  Down the road to the east lies a small town surrounded by
+stone walls, with several plumes of chimney smoke drifting slowly across
+the sky.
 ~
 326 p 2
 D0
@@ -622,10 +630,9 @@ D2
 S
 #32633
 Road through the hills~
-   Low hills covered with green grass roll along to the north and south.
-You can see to the east the gates of the town surrounded by strong-looking
-stone walls.  To the west you see the road leading towards the golden Forest
-of Pelarinne.  
+   Low hills covered with green grass roll away to the north and south.
+To the east you can see the gates of the town in its strong stone walls,
+and to the west the road leads toward the golden forest of Pelarinne.
 ~
 326 p 2
 D1
@@ -639,9 +646,9 @@ D3
 S
 #32634
 Before the Western Gates~
-   Directly east of here is the eastern gates of a small town.  You can 
-hear the bustle of life coming from within.  To the west a road stretches
-off between rolling hills towards the Pelarinne Forest.
+   Directly east of here lie the western gates of a town, and you can
+hear the bustle of life from within.  To the west a road stretches off
+between rolling hills toward the Pelarinne Forest.
 ~
 326 p 2
 D1
@@ -655,9 +662,9 @@ D3
 S
 #32635
 Turn in the trail~
-   The trail turns here to the east and also north.  To the east you see
-the forest become much thicker and darker as the branches of the trees
-block out the sunlight.
+   The trail turns east and north here.  To the east the forest grows
+much thicker and darker as the branches of the trees shut out the
+sunlight.
 ~
 326 p 2
 D0
@@ -671,9 +678,9 @@ D1
 S
 #32636
 The forest trail~
-   The forest darkens here as high above, the branches of the trees become
-so dense that they block out much of the sunlight.  To the west you see the
-trail turn north through the forest.  To the east the trail branches off.
+   The forest darkens here, for the branches high above grow so dense
+that they block out most of the sunlight.  To the west the trail turns
+north through the forest, and to the east it branches.
 ~
 326 ap 2
 D1
@@ -687,8 +694,8 @@ D3
 S
 #32637
 Branch of trails~
-   The trail turns here, leading east and north.  Also, to the south, you
-think you can pick your way through the amber foliage to the south. 
+   Trails branch off here to the north and west, and you think you could
+pick your way south through the amber foliage toward a road.
 ~
 326 ap 2
 D0
@@ -706,9 +713,9 @@ D3
 S
 #32638
 The dark forest~
-   The forest is quite dark as the branches high above block out the light.
-You see a road to the south and to the east you see the forest open
-up a bit and become lighter.
+   The forest is very dark here beneath the thick branches.  You see a
+road to the south, and to the east the forest opens up a little and
+grows lighter.
 ~
 326 ap 2
 D1
@@ -722,9 +729,10 @@ D2
 S
 #32639
 Small clearing~
-   You stand in a small clearing surrounded by the golden trees inherent to
-the Pelarinne Forest.  The forest continues in every direction except south 
-which is blocked by closely grown trees.
+   You stand in a small clearing surrounded by the golden trees of the
+Pelarinne Forest, where sunlight falls in warm shafts onto soft grass.
+The forest continues in every direction except south, which is blocked
+by closely grown trees.
 ~
 326 p 2
 D0
@@ -742,9 +750,11 @@ D3
 S
 #32640
 The dark forest~
-   The trees become the color of crimson as the branches high above block
-out much of the light.  To the north the forest continues and to the east
-and west you can pick your way between the trees and foliage.  
+   The forest darkens here, for the branches high above knit together to
+shut out most of the sun, and in the gloom the golden leaves take on the
+deep color of crimson.  There is no path; you must pick your way between
+the trunks and the foliage.  Somewhere above, a branch creaks as if
+under a great weight.  The forest continues north, east and west.
 ~
 326 ap 2
 D0
@@ -762,8 +772,12 @@ D3
 S
 #32641
 The dark forest~
-   The forest is quite dark here as the branches above shade you from the   
-light of the sun.  The golden trees block any passage to the east and south.
+   The forest darkens here, for the branches high above knit together to
+shut out most of the sun, and in the gloom the golden leaves take on the
+deep color of crimson.  There is no path; you must pick your way between
+the trunks and the foliage.  The golden trees grow so close here that
+they wall off the way east and south.  The forest continues north and
+west.
 ~
 326 ap 2
 D0
@@ -777,11 +791,10 @@ D3
 S
 #32642
 Turn in Pelarinne Road~
-   Pelarinne Road turns here to avoid the dense, golden foliage which has
-grown thick to the north and west.  Off to the east you can see plumes of
-smoke slowly creeping across the sky, signalling that a city or village is
-in that direction.  To the north and west you can see nothing through the
-golden forest.
+   Pelarinne Road turns here to avoid the dense golden foliage grown
+thick to the north and west.  Off to the east you can see plumes of
+smoke creeping across the sky, a sign that a town or village lies in
+that direction.  The road continues east and south.
 ~
 326 p 2
 D1
@@ -795,9 +808,10 @@ D2
 S
 #32643
 Pelarinne Road~
-   The road leads through the forest in an east - west fashion.  To the
-east you can see a small village on the horizon past rolling hills.  Dense
-foliage makes passage impossible to the north and south.  
+   The road runs east and west through the forest, and to the east you
+can see a small village on the horizon beyond rolling hills.  Dense
+foliage walls the road to the north and south, though to the south the
+brush looks thin enough in one place to be pushed aside.
 ~
 326 p 2
 D1
@@ -815,9 +829,10 @@ D3
 S
 #32644
 Pelarinne Road~
-   The road leads through the forest in an east - west fashion.  To the
-east you can see a small village on the horizon past rolling hills.  Dense
-foliage makes passage impossible to the north and south.  
+   The road runs east and west through the forest toward a small village
+on the eastern horizon.  Dense foliage presses in on both sides; to the
+south and to the west the brush grows across the way, though a
+determined traveller might part it.
 ~
 326 p 2
 D1
@@ -835,8 +850,9 @@ foliage~
 S
 #32645
 Turn in Pelarinne Road~
-   The road turns here north and west.  North of here you can see that the
-road branches.  To the west the road leads into the golden Pelarinne Forest.
+   The road turns here, north and west.  To the north you can see that
+the road branches, and to the west it leads into the golden Pelarinne
+Forest.
 ~
 326 p 2
 D0
@@ -850,10 +866,10 @@ D3
 S
 #32646
 Turn in Pelarinne Road~
-   The road is quite dark here as the golden limbs of the trees block out
-much of the light.  The road leads east and north from here through the 
-forest.  To the south you can make your way through the foliage.  To the
-west you see a large wooden waypost standing across the path.
+   The road is dark here, for the golden limbs of the trees shut out
+much of the light.  It leads east and north through the forest, and to
+the south you can make your way through the foliage.  To the west a
+large wooden waypost stands across the path, barring the way.
 ~
 326 p 2
 D0
@@ -871,9 +887,9 @@ D2
 S
 #32647
 Pelarinne Road~
-   Long lines of trees stand to the north and south, alongside the road.
-The road leads in and east-west fashion through the forest.  To the east
-you can see the road branches.
+   Long lines of trees stand to the north and south beside the road,
+which runs east and west through the forest.  To the east you can see
+the road branch.
 ~
 326 p 2
 D1
@@ -887,8 +903,10 @@ D3
 S
 #32648
 Pelarinne Road~
-   Pelarinne Road leads east and west from here.  To the north a small 
-openning in the trees leads off into the golden forest.
+   Pelarinne Road leads east and west from here, a well-traveled way of
+packed earth lined with golden trees.  To the north a small opening in
+the trees leads off into the forest, where the light grows dim and the
+shadows deep.
 ~
 326 p 2
 D0
@@ -906,9 +924,9 @@ D3
 S
 #32649
 Pelarinne Road~
-   The road continues east and west through the golden forest.  The branches
-of the trees drape overhead, shading you constantly from the light of the
-sun.
+   The road continues east and west through the golden forest, and the
+branches drape overhead to shade you from the sun.  Half hidden among
+the roots beside the road, a low wooden door leads down into the earth.
 ~
 326 np 2
 D1
@@ -926,9 +944,9 @@ door~
 S
 #32650
 Pelarinne Road~
-   You are travelling down the road amidst the golden trees.  A slight 
-passes through making the leaves rustle gently.  The road leads east and 
-west through the forest.
+   You are travelling along the road among the golden trees.  A slight
+breeze passes through, and the leaves rustle gently overhead.  The road
+leads east and west through the forest.
 ~
 326 p 2
 D1
@@ -942,9 +960,9 @@ D3
 S
 #32651
 Pelarinne Road~
-   The road leads off through the forest east and west.  Large trees, the
-color of amber stand on either side of the road like giant, sentries.  To
-the south a small path leads between two large trees deeper into the forest.
+   The road runs east and west through the forest, and large
+amber-colored trees stand on either side like giant sentries.  To the
+south a small path leads between two large trees deeper into the forest.
 ~
 326 p 2
 D1
@@ -962,9 +980,9 @@ D3
 S
 #32652
 Pelarinne Road~
-   The road leads through the forest east and west between two natural walls
-of golden colored trees.  To the south however, another small road branches
-off into the forest.  
+   The road runs east and west between two natural walls of golden
+trees.  To the south, however, a smaller road branches off into the
+forest.
 ~
 326 p 2
 D1
@@ -983,7 +1001,8 @@ S
 #32653
 Turn in Pelarinne Road~
    The road turns here, heading north and also west.  The majestic trees
-hang their branches over the road shading you from the light.
+hang their branches over the road, shading you from the light, and
+fallen golden leaves carpet the ground.
 ~
 326 p 2
 D0
@@ -997,9 +1016,9 @@ D3
 S
 #32654
 Clearing behind the brush~
-   You are just behind a thick brush.  You can see some sort of road just
-to the north if you look hard enough through the brush.  To the east the
-small clearing continues.
+   You are just behind a thick screen of brush.  If you look hard enough
+through it you can see a road just to the north.  To the east the small
+clearing continues, hidden from any passer-by.
 ~
 326 p 2
 D0
@@ -1018,9 +1037,9 @@ collapses quite easily if you try to open it.
 S
 #32655
 Clearing behind the brush~
-   You are just behind a thick brush.  You can see some sort of road just
-to the north if you look hard enough through the brush.  To the west the
-small clearing continues.
+   You are just behind a thick screen of brush.  If you look hard enough
+through it you can see a road just to the north.  To the west the small
+clearing continues, a quiet hollow hidden from the road.
 ~
 326 p 2
 D0
@@ -1039,10 +1058,10 @@ collapses quite easily if you try to open it.
 S
 #32656
 Deep in the Golden Forest~
-   The trees crowd close and the branches high above block out the light.
-The golden hue to the trees takes on a darker shade, more like crimson,
-in the shade.  A natural wall of foliage stands to the north and west, 
-impossible to hack through with a weapon even.
+   The trees crowd close here, and the branches high above block out the
+light, so that the golden trees darken to crimson in the shade.  A
+natural wall of foliage stands to the north and west that not even a
+weapon could hack through.  The forest continues east and south.
 ~
 326 ap 2
 D1
@@ -1057,8 +1076,8 @@ S
 #32657
 Deep in the Golden forest~
    The branches high above form a blanket of golden leaves and limbs,
-making the forest quite dark here.  Grass grows a deep green underfoot,
-and is ripples like waves in the breeze.  The forest continues in every
+making the forest quite dark.  Grass grows a deep green underfoot and
+ripples like waves in the breeze.  The forest continues in every
 direction.
 ~
 326 ap 2
@@ -1082,9 +1101,8 @@ D3
 S
 #32658
 Deep in the Golden Forest~
-   Two huge trees with golden leaves stand to the north and south blocking
-any attempt to exit in that direction.  But you can continue either east
-or west.  
+   Two huge golden trees stand to the north and south, blocking any way
+in those directions, but you can continue east or west.
 ~
 326 ap 2
 D1
@@ -1098,11 +1116,10 @@ D3
 S
 #32659
 Deep in the Golden forest~
-   The forest has grown so thick to the east and north that it would make
-travelling in those direction impossible.  But the forest is not as dense to
-the south and west.  Huge golden trees crowd together blocking out much of
-the light with their branches; the darkness changing the golden hue of the  
-leaves to the color of crimson.
+   The forest has grown so thick to the east and north that travel in
+those directions is impossible, but it thins to the south and west.
+Huge golden trees crowd together overhead, and their shadow turns the
+golden hue of the leaves to crimson.
 ~
 326 p 2
 D2
@@ -1116,9 +1133,9 @@ D3
 S
 #32660
 Clearing behind the foliage~
-   You are in a dark clearing with trees all about, save south and east 
-which is horribly overgrown with thick layers of the golden foliage.  To the
-east the cleaing continues.
+   You are in a dark clearing ringed by trees.  To the south a gap leads
+onto a forest path, and the clearing continues east, but elsewhere
+layers of golden foliage have grown thick and tangled.
 ~
 326 p 2
 D1
@@ -1137,9 +1154,9 @@ will collapse quite easily if you try to open it.
 S
 #32661
 Clearing behind the foliage~
-   You are in a dark clearing with trees all about, save south and west 
-which is horribly overgrown with thick layers of the golden foliage.  To the
-east the cleaing continues.
+   You are in a dark clearing ringed by trees.  To the south a gap leads
+onto a forest path, and the clearing continues west, but elsewhere
+layers of golden foliage have grown thick and tangled.
 ~
 326 p 2
 D2
@@ -1158,9 +1175,9 @@ will collapse quite easily if you try to open it.
 S
 #32662
 Path between the Golden Trees~
-   The path leads north and south.  To the north you see a road leading
-east and west through the forest.  Also to the east it seems possible that
-you could pick your way through the brush.
+   The path leads north and south.  To the north you see a road running
+east and west through the forest, and to the east it seems you could
+pick your way through the brush.
 ~
 326 p 2
 D0
@@ -1178,10 +1195,9 @@ D2
 S
 #32663
 Road in the forest~
-   You are on a small road just south of Pelarinne Road.  A little ways
-south of you, you see what seems to be some sort of cabin and to the west
-the foliage is thin enough that you could pick your way through it without
-too much effort.
+   You are on a small road just south of Pelarinne Road.  A little way
+south stands some sort of cabin, and to the west the foliage is thin
+enough that you could pick your way through it without much effort.
 ~
 326 p 2
 D0
@@ -1199,10 +1215,11 @@ D3
 S
 #32664
 Deep in the Golden Forest~
-   The forest is very dense here as the golden trees crowd close on all
-sides, especially to the west where it would be impossible to continue. 
-The closeness of the trees makes the branches high above into a blanket of
-limbs and leaves blocking out much of the light.
+   The forest is very dense here, for the golden trees crowd close on
+all sides, especially to the west, where it is impossible to go on.
+Their branches knit overhead into a blanket of limbs and leaves that
+shuts out much of the light.  The forest continues north, east and
+south.
 ~
 326 ap 2
 D0
@@ -1220,11 +1237,10 @@ D2
 S
 #32665
 Deep in the Golden Forest~
-   The forest is very dense here as the golden trees crowd close on all
-sides, especially to the east where it would be impossible to continue due 
-to an oversized tree that has managed to grow in this dense pocket of the
-forest.  The closeness of the trees makes the branches high above into a 
-blanket of limbs and leaves blocking out much of the light.
+   The forest is very dense here.  To the east an oversized tree has
+somehow grown in this crowded pocket of the forest, blocking the way
+entirely, and the branches overhead knit together to shut out the light.
+The forest continues north, south and west.
 ~
 326 ap 2
 D0
@@ -1242,9 +1258,10 @@ D3
 S
 #32666
 Deep in the Golden Forest~
-   The forest is quite thick here, and most of the light is blocked out
-by the heavy layer of branches and leaves above you.  To the east the
-forest opens up a bit and to the south the forest continues.
+   The forest is thick here, and most of the light is blocked by the
+heavy layer of branches and leaves above you.  One trunk has low, sturdy
+limbs that you could climb.  To the east the forest opens up a little,
+and to the south it continues.
 ~
 326 ap 2
 D1
@@ -1263,9 +1280,9 @@ You think you maybe able to climb that big tree over there.
 S
 #32667
 The forest clearing~
-   You stand in the middle of a clearing finally seeing some light again.
-To the east a small path leads off between two rows of golden trees and the
-forest deepens in all other directions.  
+   You stand in the middle of a clearing, seeing some light again at
+last.  To the east a small path leads off between two rows of golden
+trees, and the forest deepens in every other direction.
 ~
 326 p 2
 D0
@@ -1287,9 +1304,10 @@ D3
 S
 #32668
 The forest path~
-   You are on a small path leading between a long row of golden trees to the
-south and thick foliage to the north.  The path continues east and to the
-west you see a small clearing.  
+   You are on a small path between a long row of golden trees to the
+south and thick foliage to the north, through which a gap opens onto a
+dark clearing.  The path continues east, and to the west you see a small
+clearing.
 ~
 326 p 2
 D0
@@ -1307,10 +1325,9 @@ D3
 S
 #32669
 The forest path~
-   Large golden trees stand to the south forming a row which leads alongside
-the trail.  Thick foliage makes any passage to the north impossible.  The
-path continues to the east where you see it turn and to the west through
-the forest.
+   Large golden trees stand in a row along the south side of the trail.
+To the north a break in the foliage opens onto a dark clearing.  The
+path continues east, where you see it turn, and west through the forest.
 ~
 326 p 2
 D0
@@ -1328,9 +1345,10 @@ D3
 S
 #32670
 Turn in the path~
-   A huge tree the color of amber stands proudly to the east forcing 
-the path to turn north.  And to the south you see a long row of the
-golden trees abutting the southern side of the path.
+   A huge amber-colored tree stands proudly to the east, forcing the
+path to turn north.  A long row of golden trees runs along the south
+side of the path, and to the south a dim path leads off between them.
+The way west leads back along the forest path.
 ~
 326 p 2
 D0
@@ -1349,11 +1367,11 @@ D3
 S
 #32671
 The Traveller's Tradepost~
-   You are in a small trading post which has just the bare essentials to   
-survival in the forest.  Fruits and other sorts of foods are stacked in
-meager portions in front of a wooden counter.  Some leather packs and 
-knives are on the wall behind the counter.  A doorway stands wide open
-to the north and you see the forest beyond.
+   You are in a small trading post stocked with the bare essentials for
+survival in the forest.  Fruits and other foods are stacked in meager
+portions in front of a wooden counter, and leather packs and knives hang
+on the wall behind it.  A doorway stands wide open to the north onto the
+forest.
 ~
 326 p 1
 D0
@@ -1363,11 +1381,11 @@ D0
 S
 #32672
 Deep in the Golden Forest~
-   The green grass underfoot waves lazily in the silence as a subtle breeze
-passes through.  To the east and north the forest continues through the 
-darkness created by the crowded branches above.  To the west, through a
-wide break in the trees you can see some sort of structure standing like
-an archway between the trees.
+   The green grass underfoot waves lazily in the silence as a subtle
+breeze passes through.  To the east and north the forest continues
+through the darkness beneath the crowded branches.  To the west, through
+a wide break in the trees, you can see some sort of structure standing
+like an archway between the trunks.
 ~
 326 ap 2
 D0
@@ -1385,9 +1403,9 @@ D3
 S
 #32673
 Deep in the Golden Forest~
-   The trees have become the color of crimson in the dark shade.  The forest
-continues in all direction from here, save south, which would be impossible 
-to travel due to the overgrown foliage and trees.
+   The trees have turned the color of crimson in the dark shade.  The
+forest continues in every direction but south, where overgrown foliage
+and trees make travel impossible.
 ~
 326 ap 2
 D0
@@ -1405,10 +1423,10 @@ D3
 S
 #32674
 Deep in the Golden forest~
-   The forest is quite thick here, the trees the color of crimson as
-the darkness changes their natural golden sheen.  The forest continues
-in all directions save south which is near impossible to hack through
-due to the overgrown foliage and trees.
+   The forest is thick here, and the darkness turns the natural golden
+sheen of the trees to crimson.  The forest continues in every direction
+but south, where the overgrown foliage and trees are nearly impossible
+to hack through.
 ~
 326 ap 2
 D0
@@ -1426,10 +1444,10 @@ D3
 S
 #32675
 Deep in the Golden forest~
-   The forest is quite thick here, the trees the color of crimson as
-the darkness changes their natural golden sheen.  The forest becomes 
-impossible to travel through to the east and south due to the overgrown 
-foliage and trees.
+   The forest is thick here, and the darkness turns the natural golden
+sheen of the trees to crimson.  Overgrown foliage and trees make travel
+impossible to the east and south, but you can go north to a clearing or
+west.
 ~
 326 ap 2
 D0
@@ -1443,10 +1461,10 @@ D3
 S
 #32676
 Up in the tall tree~
-   You stand upon a large, stable limb high in the tree.  From this vantage
-point you can see for miles in every direction.  To the west you see the
-Pelarinne Forest stretch off towards dark mountains.  To the east you can see
-small spires of smoke signalling some sort of city or town in that direction.
+   You stand upon a large, stable limb high in the tree.  From this
+vantage point you can see for miles in every direction.  To the west the
+Pelarinne Forest stretches off toward dark mountains, and to the east
+small spires of smoke mark a city or town.
 ~
 326 p 1
 D5
@@ -1456,12 +1474,11 @@ D5
 S
 #32677
 Up in the tall tree~
-   You stand upon a large, stable limb high in the tree.  From this vantage
-point you can see for miles in every direction.  To the east you see the
-Pelarinne Forest stretch off all the way to the horizon.  To the northwest 
-you can see small spires of smoke signalling some sort of city or town in 
-that direction.  A very disturbing looking mist covered valley lies to the
-southwest.
+   You stand upon a large, stable limb high in the tree.  From this
+vantage point you can see for miles in every direction.  To the east the
+Pelarinne Forest stretches all the way to the horizon, and to the
+northwest small spires of smoke mark a city or town.  To the southwest
+lies a disturbing valley shrouded in mist.
 ~
 326 p 1
 D5

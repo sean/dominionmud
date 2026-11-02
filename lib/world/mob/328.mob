@@ -57,7 +57,7 @@ A huge, ugly troll glares at you as you enter.
 ~
 The troll is covered in small moles and other signs of disease.
 In many places you see the scars of battle on his limbs.
-In his eyes is a lonliness, but over-shadowing that is an unearthly want
+In his eyes is a loneliness, but over-shadowing that is an unearthly want
 or need for something.
 ~
 bcdf anpr -390 S
@@ -71,7 +71,7 @@ A gruesome, towering troll stands here guarding his king.
 ~
 The bodyguard is quite devoted to the Troll King and will die protecting
 him.  He wears a strange silver mask which covers only his mouth and nose.
-Black hair falls down behind. over his powerful, broad shoulders.
+Black hair falls down behind, over his powerful, broad shoulders.
 ~
 bdeim acmr 800 S
 28 10 60 30d6+350 4d7+15

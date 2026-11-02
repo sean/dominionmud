@@ -92,7 +92,7 @@ keeper~
 the Crypt Keeper~
 The Crypt Keeper, grinning at you maliciously, is here.
 ~
-The dessicated little fellow cackles with mad glee as he approaches
+The desiccated little fellow cackles with mad glee as he approaches
 you.  He twitches from excitement so much that his scraggly hair
 jostles as he flashes his dull yellow teeth.
 ~
@@ -233,6 +233,21 @@ df 0 -700 E
 8 8 0
 Race: 28
 E
+#10416
+skull grinning pale priest~
+the skull of the Pale Priest~
+A grinning skull rests upon the altar, black candles burning in its eye sockets.
+~
+The skull is yellow with age, and its teeth are filed to points. Black
+candles have been set in its empty eye sockets, and their flames lean
+toward you as though the skull were breathing.
+~
+bdenopqr k 0 S
+1 20 -10 1d1+30000 1d1+0
+0 0
+8 8 0
+>in_file_prog pz_skull.prg~
+|
 #10499
 necromancer necro~
 the Necromancer~

@@ -1,10 +1,10 @@
 #25500
 Trailhead of the Nature Trail~
-   The beginning of a natural trail is before you.  The trees seem to
-grow away from the trail, allowing a group of people to walk along
-the plush grass the flows south from here.  While the rest of the
-forest is entrenched in darkness, the trees give sunlight unusual
-access giving the trail a holy feeling.
+   The beginning of a natural trail lies before you.  The trees seem to
+have grown away from it, leaving room for a group to walk side by side
+on the plush grass that runs south from here.  While the rest of the
+forest is sunk in darkness, the trees here let the sunlight through,
+giving the trail an almost holy feeling.
 ~
 255 c 3
 D0
@@ -243,8 +243,8 @@ S
 #25514
 The Natural Trail~
    The trail seems even more alive here, the trees around you look
-welcoming and to the south you see a opening in the forest with
-a enourmous tree in the center.  To the north the trail continues.
+welcoming and to the south you see an opening in the forest with
+an enormous tree in the center.  To the north the trail continues.
 ~
 255 0 3
 D0
@@ -253,19 +253,18 @@ The trail continues north.
 ~
 0 -1 25513
 D2
-To the south you see a open glade in the forest.
+To the south you see an open glade in the forest.
 ~
 ~
 0 -1 25515
 S
 #25515
 The North end of the Druid's Glade~
-   As you enter the glade you feel your worries disappear.  You are
-overcome with an awe of nature as the soft sunlight shines onto
-your face.  The trees seem to have grown around this glade in a
-perfect circle.  Beautiful green grass covers the ground from the outer
-edges of the circle right up to the large oak tree to the south.  The
-trail leads away from the glade to the north.
+   As you enter the glade, you feel your worries drop away, and you are
+overcome with awe at the beauty of nature as soft sunlight falls on your
+face.  The trees have grown around this glade in a perfect circle, and
+beautiful green grass covers the ground from its edges right up to the
+great oak tree to the south.  The trail leads away north.
 ~
 255 0 3
 D0
@@ -281,13 +280,13 @@ To the south is a large oak tree.
 S
 #25516
 The Heart of the Forest~
-   You have reached the heart of the forest.  All the sounds of the
-creatures of the woods flow into your ears and around inside of
-you.  The openness of the glade allows you to look straight up the
-side of the gigantic oak tree in front of you.  You sense that this
-must be the meeting place for all the druids in the land.  The
-placement of the tree branches seem to give all creatures of the
-land the ability to climb this great tree.
+   You have reached the heart of the forest.  The sounds of all the
+creatures of the woods flow into your ears and seem to swirl around
+inside you.  The openness of the glade lets you look straight up the
+side of the gigantic oak before you, its branches spread like welcoming
+arms; surely this must be the meeting place of all the druids in the
+land.  The branches are placed so that any creature could climb the
+great tree.  The glade lies north.
 ~
 255 0 3
 D0
@@ -303,9 +302,10 @@ The branches form out of the tree allowing you to climb up.
 S
 #25517
 Up the Great Tree~
-   You climb the tree with little effort.  Huge branches, large enough
-to walk on grow away from the trunk to the east and the west.  There
-seems to be some movement further up the tree as well.
+   You climb the tree with little effort.  Huge branches, wide enough to
+walk on, grow away from the trunk to the east and west, and a small
+house has been built into the trunk to the north.  There seems to be
+movement further up the tree as well.  You can climb up or down.
 ~
 255 ns 3
 D0
@@ -336,14 +336,13 @@ You can climb down to the base of the tree from here.
 S
 #25518
 Up the Great Tree~
-   The world expands around you as you reach the middle of the
-great tree.  All the other trees in the forest seem suddenly short
-from your current point of view.  You look out above the forest
-and see the the great desert beyond the river to the south.  To the
-north you can see a large range of mountains expanding into the
-clouds.  Westward must be the tower of high sorcery, but there is
-too much mist from Haor-Dark to see it.  You may climb up or down
-the tree from here.
+   The world opens out around you as you reach the middle of the great
+tree, and the other trees of the forest suddenly seem short.  You can
+see out over the forest to the great desert beyond the river to the
+south, and to the north a large range of mountains rises into the
+clouds.  To the west must be the high tower of sorcery, though too much
+mist rises from the dark forest to see it.  A shadowy opening leads west
+into the trunk, and you may climb up or down.
 ~
 255 cns 3
 D3
@@ -362,12 +361,11 @@ The branches below you would allow you to climb down from here.
 S
 #25519
 The Druid Hall~
-   A platform has been placed around the tree here, allowing a
-person to stand here and watch adventurers come down the
-natural trail that you yourself walked down just a few minutes
-ago.  The sunlight seems to shine directly into the top of the
-tree just above you.  You are able to climb up into the top of
-the tree or down the tree from here.
+   A platform has been built around the tree here, so that one can stand
+and watch adventurers come down the natural trail you walked yourself
+just a few minutes ago.  The sunlight seems to pour straight into the
+top of the tree just above you.  You can climb up into the crown or down
+the trunk.
 ~
 255 0 3
 D4
@@ -383,11 +381,13 @@ The branches below you would allow you to climb down from here.
 S
 #25520
 The Chamber of the Great Druid~
-   As you enter the top of the great tree you are engulfed in
-extremely bright sunlight.  Your eyes finally adjust, and you see
-a great room before you, made out of the tree itself.  From here
-you can see the entire forest and beyond.  This is the home of
-the Great Druid, from whom druids learn their skills and spells.
+   As you enter the crown of the great tree, you are bathed in extremely
+bright sunlight.  When your eyes finally adjust, you see a great room
+before you, shaped from the living tree itself, with walls of woven
+branches and a floor of smooth, polished wood.  From here you can see
+the entire forest and beyond.  This is the home of the Great Druid, from
+whom druids learn their skills and spells.  The way down leads to the
+Druid Hall.
 ~
 255 0 3
 D5
@@ -398,8 +398,10 @@ The branches below you would allow you to climb down from here.
 S
 #25521
 On a Branch~
-   You are standing on a branch there are small rooms to the north
-and the south.  The branch continues to the east and west.
+   You are standing on a broad branch of the great tree, high above the
+forest floor.  A small room has been built against the branch to the
+north, and the sound of voices and clinking mugs drifts out of it.  The
+branch continues to the east, back toward the trunk, and to the west.
 ~
 255 ns 3
 D0
@@ -419,8 +421,10 @@ To the west the branch continues.
 S
 #25522
 On a Branch~
-   You are standing on a branch there are small rooms to the north
-and the south.  The branch continues to the east and west.
+   You are standing on a broad branch of the great tree, so wide that
+two people could walk side by side along it.  Leaves rustle all around
+you, and through them you catch glimpses of the forest far below.  The
+branch continues to the east and west.
 ~
 255 ns 3
 D1
@@ -436,8 +440,9 @@ To the west the branch continues.
 S
 #25523
 On a Branch~
-   You are standing on a branch there are small rooms to the north
-and the south.  The branch continues to the east and west.
+   You are standing on a broad branch of the great tree.  Its bark has
+been worn smooth by many feet, and rope railings have been strung along
+the edges for the nervous.  The branch continues to the east and west.
 ~
 255 ns 3
 D1
@@ -453,8 +458,10 @@ To the west the branch continues.
 S
 #25524
 On a Branch~
-   You are standing on a branch there are small rooms to the north
-and the south.  The branch continues to the east and west.
+   You are standing on a broad branch of the great tree.  The branch
+narrows slowly as it reaches out from the trunk, and it sways gently in
+the breeze.  It continues to the east, and to the west it comes to an
+end.
 ~
 255 0 3
 D1
@@ -470,8 +477,9 @@ To the west the branch continues.
 S
 #25525
 End of the Branch~
-   You stand at the end of the branch.  The view from here is of the
-tops of the trees of Haor Forest.  The only exit is east.
+   You stand at the end of the branch, looking out over the tops of the
+trees of the forest, a rolling sea of green.  A small tree house is
+built to the north, and the branch leads back east.
 ~
 255 0 3
 D0
@@ -487,8 +495,10 @@ To the east the branch continues.
 S
 #25526
 On a Branch~
-   You are standing on a branch there are small rooms to the north
-and the south.  The branch continues to the east and west.
+   You are standing on a broad branch of the great tree.  To the north a
+small hall has been built among the boughs, its doorway hung with dark
+cloth.  The branch continues to the east, and to the west it joins the
+great trunk.
 ~
 255 n 3
 D0
@@ -509,9 +519,8 @@ To the west you see the trunk of the great tree.
 S
 #25527
 On a Branch~
-  You are standing on a branch.  There are doors to the north and south, 
-while the branch continues to the east and west.  You see a sign on the
-small door to the north.
+   You are standing on a broad branch.  A small door to the north bears
+a sign, and the branch continues east and west.
 ~
 255 n 3
 D0
@@ -537,8 +546,9 @@ KeEP OuT, My STufF!
 S
 #25528
 On a Branch~
-   You are standing on a branch there are small rooms to the north
-and the south.  The branch continues to the east and west.
+   You are standing on a broad branch of the great tree.  A small tree
+house has been built among the leaves to the north.  The branch
+continues to the east and west.
 ~
 255 0 3
 D0
@@ -559,8 +569,9 @@ To the west the branch continues.
 S
 #25529
 On a Branch~
-   You are standing on a branch there are small rooms to the north
-and the south.  The branch continues to the east and west.
+   You are standing on a broad branch of the great tree.  A small tree
+house has been built among the leaves to the north.  The branch
+continues to the west, and to the east it comes to an end.
 ~
 255 0 3
 D0
@@ -581,9 +592,10 @@ To the west the branch continues.
 S
 #25530
 End of the Branch~
-   You stand at the end of the branch.  To the west the branch heads
-back to the trunk to the Great Tree.  There is a high branch from another
-tree that you think you can jump over to to the east.
+   You stand at the end of the branch.  To the west it leads back to the
+trunk of the Great Tree, and to the north a small tree house is built
+among the leaves.  To the east a high branch of another tree reaches
+close enough that you think you could jump across.
 ~
 255 0 3
 D0
@@ -604,11 +616,11 @@ To the west the branch continues.
 S
 #25531
 A High Branch~
-   You stand atop one of the many trees in Haon-Dor forest.  Around you
-the forest expands.  Little animals of the forest crawl around the trees,
-looking quite harmless.  A maple tree is with reach to the south, a
-cottonwood tree waves gently in the wind to the north.  The great tree
-is within jumping distance to the west.
+   You stand atop one of the many trees of the forest, with the woods
+spreading out all around you.  Small animals scamper harmlessly among
+the branches.  A maple tree is within reach to the south, and a
+cottonwood waves gently in the wind to the north.  The Great Tree is
+within jumping distance to the east.
 ~
 255 0 3
 D0
@@ -629,10 +641,10 @@ The leaves of the maple tree rustle, seeming to welcome you.
 S
 #25532
 Atop A Cottonwood~
-   You feel a warm breeze blowing from the west as you stand
-on one of the high branches of a cottonwood tree.  To the south
-you can jump back to the High Branch.  Cottonwood branches
-extend like limbs to the north and west.
+   A warm breeze blows from the west as you stand on one of the high
+branches of a cottonwood tree.  To the south you can jump back to the
+high branch, and cottonwood branches stretch out like arms to the north
+and west.
 ~
 255 0 3
 D0
@@ -653,9 +665,9 @@ A cottonwood branch extends to the west.
 S
 #25533
 A Cottonwood Branch~
-   The branch is sturdy here, leading off to the north.  Peering around
-you you notice movement to the north.  The branch continues north,
-the top of the cottonwood is to the south.
+   The branch is sturdy here, leading off to the north, and you notice
+movement in that direction.  Fluffy cottonwood seeds drift past on the
+breeze.  The top of the tree lies to the south.
 ~
 255 c 3
 D0
@@ -671,9 +683,10 @@ The tiptop of the cottonwood trunk is south.
 S
 #25534
 A Bird Nest~
-   You carefully step into a large thatch nest.  Looking around you see
-remains of large snipe eggs.  It looks as if something has broken the
-eggs up and eaten them.  The only exits are south and north.
+   You step carefully into a large nest woven of thatch and twigs.
+Looking around, you see the remains of large snipe eggs; something seems
+to have broken them open and eaten them.  A tree house is built to the
+north, and the branch leads south.
 ~
 255 0 3
 D0
@@ -689,9 +702,10 @@ A cottonwood branch leads back toward the trunk.
 S
 #25535
 A Cottonwood Branch~
-   The cottonwood branch leads away from the top of the base of
-the tree.  The wind has stopped blowing and you hear the noises
-of the forest.  The branch continues west.
+   The cottonwood branch leads away from the top of the tree.  The wind
+has died down, and you can hear the sounds of the forest all around you.
+A small tree house is built to the north, and the branch continues east
+and west.
 ~
 255 0 3
 D0
@@ -712,9 +726,10 @@ The branch continues to the west.
 S
 #25536
 A Cottonwood Branch~
-   The branch starts to become a little narrower as you move away
-from the trunk of the tree.  To the west something glistens in the
-sunlight and catches your eye.
+   The branch begins to grow narrower as you move away from the trunk.
+To the west something glistens in the sunlight and catches your eye.  A
+small tree house is built to the north, and the branch continues east
+and west.
 ~
 255 0 3
 D0
@@ -735,9 +750,10 @@ To the west you see a shimmering object on the branch.
 S
 #25537
 End of the Branch~
-   The branch ends here, looking westward the mist seems to have
-started engulfing the forest again, blocking your vision from what
-you think would have been a gorgeous view.
+   The branch ends here.  Looking west, you see that the mist has begun
+to engulf the forest again, hiding what would surely have been a
+gorgeous view.  A small tree house is built to the north, and the branch
+leads back east.
 ~
 255 0 3
 D0
@@ -753,10 +769,10 @@ The branch continues to the east.
 S
 #25538
 Atop a Maple~
-   The branches of this tree are not very wide and you decide that it
-would be a wise idea not to try to walk on them.  To the north you
-can jump back to the High Branch.  You also notice a small hole in
-the tree, climbing down the trunk a bit should allow you access.
+   The branches of this maple are not very wide, and you decide it would
+be wise not to try walking on them.  To the north you can jump back to
+the high branch.  You also notice a small hole in the trunk a little way
+down; climbing down should let you reach it.
 ~
 255 0 3
 D0
@@ -772,9 +788,9 @@ The trunk seems to allow you to climb down a bit.
 S
 #25539
 Trunk of a Maple Tree~
-   Climbing down the trunk you notice all the sap on the bark.  It is
-quite annoying, sticking your hands all up.  You can climb up or
-down the trunk.  There is a hole in the trunk of the tree to the east.
+   Climbing down the trunk, you notice sap oozing all over the bark, and
+it sticks annoyingly to your hands.  There is a hole in the trunk to the
+east, and you can climb up or down.
 ~
 255 c 3
 D1
@@ -795,9 +811,10 @@ The trunk leads down toward the ground.
 S
 #25540
 The Owl's Nest~
-   The hole is dark, and small.  Sap seeps down the inside of the tree
-at a leisurely pace.  The light from outside casts your shadow on the
-wall, almost frightening you.  West is the only exit.
+   The hole is small and dark, and sap seeps slowly down the inside of
+the tree.  The light from outside throws your shadow on the wall, almost
+frightening you.  Feathers and small bones litter the floor.  West is
+the only exit.
 ~
 255 a 3
 D3
@@ -808,9 +825,9 @@ You can climb out of the hole back onto the trunk.
 S
 #25541
 Trunk of the Maple Tree~
-   Small branches allow you to climb up or down the trunk of the
-tree from here.  The sap oozing from the tree is starting to really
-bother you.  The forest floor is below you.
+   Small branches let you climb up or down the trunk of the tree from
+here.  The sap oozing from the bark is really starting to bother you.
+The forest floor lies below.
 ~
 255 c 3
 D4
@@ -826,9 +843,9 @@ Small branches lead down to the forest floor.
 S
 #25542
 Base of the Maple Tree~
-   You stand at the bottom of a large maple tree rising up into the
-sky.  Small branches could serve as steps in order to climb the tree.
-A small path leads to the north.
+   You stand at the foot of a large maple tree rising into the sky.  Its
+small branches could serve as steps to climb it.  A small path leads
+north.
 ~
 255 0 3
 D0
@@ -844,7 +861,9 @@ Small branches lead up the tree.
 S
 #25550
 Shade's House~
-Sparsely decorated.....the moving people must not have gotten here yet....
+   This little house among the branches is sparsely decorated, with bare
+wooden walls and an empty floor... the moving people must not have
+gotten here yet.  A doorway leads south to the great tree.
 ~
 255 cdegjls 3
 D2
@@ -859,7 +878,7 @@ Gangrel's Cavern~
 the legendary strider.  In the limited light, you see that the entire place
 is made from basalt and obsidian rock, the natural formations creating 
 shelf space and places to rest.  Costly skins decorate the room as do millions
-of gold pieces in fine gemstones and artifacts that he's managed to aquire.
+of gold pieces in fine gemstones and artifacts that he's managed to acquire.
      The rear wall, however, consists of a small pallet, a jar of incense, and
 a shrine with the symbol of Garou upon it.  Lit candles surround this area,
 obviously the strider's place of meditation and worship.  Several other items
@@ -876,7 +895,7 @@ E
 shrine pallet worship candles~
 Lit by six candles, arranged in a hexagon around the pallet, the meditation
 site is a site that even guests should avoid.  Holy ground to the dark elf,
-Gangrel would probably not be appriciative of you disturbing this spot.
+Gangrel would probably not be appreciative of you disturbing this spot.
 ~
 S
 #25552
@@ -925,7 +944,7 @@ bar wet-bar wet~
 Surrounded on all sides by a heated pool, the bar is the focal point for
 this area.  Famous for it's high-quality, imported, Franklin Malt Liquor,
 the three owners love when people show up and drink for a bit to take
-thier minds off of the craziness of the outside world.
+their minds off of the craziness of the outside world.
 ~
 S
 #25553
@@ -977,8 +996,10 @@ This way leads back to the bar.
 S
 #25556
 Tree House (25556)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the south.
 ~
 255 cd 3
 D2
@@ -1022,7 +1043,7 @@ abide or be punished and shunned:
 
 5.  We are a peaceful brotherhood above all and are here to do our duty
     to our fellow kin within Glasgians, Landrin's, Gaeya, and Jamn's religion.
-    killing anyone of these religions is out of the question and you will
+    Killing anyone of these religions is out of the question and you will
     be punished by death and will be stripped of everything you own.
 
 My brothers and sisters of the Night Tribe,  i wish only the best for all
@@ -1037,7 +1058,7 @@ You have entered a treehouse.  Everything here seems to be to one-half scale,
 the chairs, the table, the roof!  The other thing you notice immediately is
 all the stuff.  There must not be more than 5 or 6 square feet of floor 
 showing through the mounds of items stacked about.  The centerpiece of the 
-room is a monsterous fountain statue of Moriquendi...the head of the statue
+room is a monstrous fountain statue of Moriquendi...the head of the statue
 poking through the roof.  By all looks this has to be the home of a Kender.
 ~
 255 cdjl 3
@@ -1069,12 +1090,12 @@ have the collection in this room.
 ~
 E
 throne~
-You see a tiny throne here, made of mahagany and trimmed with royal red 
+You see a tiny throne here, made of mahogany and trimmed with royal red 
 felt.
 ~
 E
 table~
-You see a dimutive table here, though quite well made.  It is made of solid
+You see a diminutive table here, though quite well made.  It is made of solid
 oak, and the legs of the table have been shaped into images of Elven 
 Princesses.
 ~
@@ -1086,8 +1107,10 @@ carpenters.  At the head of the table you see a small throne.
 S
 #25559
 Tree House (25559)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the south.
 ~
 255 cd 3
 D2
@@ -1097,8 +1120,10 @@ D2
 S
 #25560
 Tree House (25560)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the south.
 ~
 255 cd 3
 D2
@@ -1108,8 +1133,10 @@ D2
 S
 #25561
 Tree House (25561)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the south.
 ~
 255 cd 3
 D2
@@ -1119,8 +1146,10 @@ D2
 S
 #25562
 Tree House (25562)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the north.
 ~
 255 cd 3
 D0
@@ -1131,8 +1160,10 @@ A branch of the Great Tree lies outside your door.
 S
 #25563
 Tree House (25563)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the north.
 ~
 255 cd 3
 D0
@@ -1143,8 +1174,10 @@ A branch of the Great Tree lies outside your door.
 S
 #25564
 Tree House (25564)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the north.
 ~
 255 cd 3
 D0
@@ -1155,8 +1188,10 @@ A branch of the Great Tree lies outside your door.
 S
 #25565
 Tree House (25565)~
-   This one room house for sale.  Nice view of forest.  Cost of
-10,000,000 gold.  Contact a Greater God in order to purchase.
+   This snug one-room tree house is for sale, with a lovely view out
+over the forest canopy.  Its walls are of living wood, and leaves rustle
+at the round window.  It costs 10,000,000 gold; contact a Greater God in
+order to purchase it.  The branch lies to the north.
 ~
 255 cd 3
 D0
@@ -1167,14 +1202,14 @@ A branch of the Great Tree lies outside your door.
 S
 #25566
 The Shadowy Foyer~
-     You step past the guard and into the trunk of the Great Tree.  Your
-eyes must be deceiving you....there's no way that a room of this size could
-fit inside here, no matter how big the tree looks from the outside.  
-Strands of mist and shadow swirl around your legs as you look upon the 
-carvings on the walls.  Steps carved from silverwood and hinged with moss
-lead upward into the shadows above.  Around you, from somewhere, you hear
-low, rythmical chanting; it's tempo and beat filling your soul with piece
-and making you feel safe.
+   You step past the guard and into the trunk of the Great Tree, and
+your eyes must be deceiving you... there is no way a room this size
+could fit inside, however big the tree looks from outside.  Strands of
+mist and shadow swirl around your legs as you look at the carvings on
+the walls.  Steps carved from silverwood and hinged with moss lead up
+into the shadows, and from somewhere comes low, rhythmic chanting, its
+beat filling your soul with peace and making you feel safe.  The way out
+lies east.
 ~
 255 cdef 1
 D1
@@ -1196,20 +1231,16 @@ a balance, that the order strives to maintain.
 S
 #25567
 The Temple of Garou~
-      You now stand in the Temple of Garou Kinnslayer, built into the hollow
-of the Great Tree.  Looking around in respect, you see intricate carvings of
-wood and metal that walls which stretch up to a ceiling so high, you cannot
-see it.  A thin shaft of light streams down from above, illuminating an altar
-near the back of the temple.  Made of obsidian, this holy artifact is devoid
-of all objects, save one:  The Book of the Kinnslayer.  In it, you will find
-the Lord of Neutrality's teachings and laws to his followers and potential
-worshippers.
-      The other object you see in this massive chamber, is a large fountain
-in the center of the floor.  Standing at least eight feet tall and roughly
-thirty feet in diameter, the fountain is apexed by a statue of a wolf with
-it's head bowed toward the pool at the base.  Streams of crystaline, clear
-water flow from the eyes and mouth of the statue, cascading down into the 
-pool, allowing easy access to drink from, should it be desired.
+   You now stand in the Temple of Garou Kinnslayer, built into the
+hollow of the Great Tree.  Intricate carvings of wood and metal cover
+walls that rise to a ceiling so high you cannot see it, and a thin shaft
+of light streams down from above onto an altar of obsidian near the back
+of the temple.  Upon it lies only the Book of the Kinnslayer, holding
+the teachings and laws of the Lord of Neutrality.  In the center of the
+floor stands a great fountain, some thirty feet across, topped by a
+statue of a wolf with its head bowed toward the pool; clear water
+streams from its eyes and mouth into the basin below.  A ramp leads
+down.
 ~
 255 cder 0
 D5
@@ -1229,7 +1260,7 @@ E
 tome book garou kinnslayer~
 
                         The Book of the Kinnslayer
-                transcibed by Andara B'lainheart: Wolven Cleric
+                transcribed by Andara B'lainheart: Wolven Cleric
 
 
         After Glasgian created the lower gods of light, he concentrated his
@@ -1247,7 +1278,7 @@ balance of power in The Dominion.
 companionship of one's friends.  We, as a group, tend not to involve ourselves
 in the petty squabbles that dominate the other religions.  We are all brothers
 and sisters and treat each other as such.  Unless asked, the Church of Garou
-tends not to make alliences or take sides unless we will benefit more than our
+tends not to make alliances or take sides unless we will benefit more than our
 "allies" in the long run.  But be forewarned, our God is a vindictive and
 wrathful one to those who would attempt to destroy him and we follow in his
 footsteps on that train of thought.  By vindictive, we mean near-genocide.  
@@ -1479,7 +1510,7 @@ S
 #25571
 The Temple of Chaos~
    You are standing in a large temple. The room is filled with mist. 
-You are surrounded in noise that engulfes your thoughts making it hard 
+You are surrounded in noise that engulfs your thoughts making it hard 
 to think.  However you feel that you are growing to see through the chaos 
 and master in its ways. There is a large altar that stands in the middle 
 of the room.
@@ -1492,12 +1523,12 @@ D5
 E
 Altar~
 This altar is made of granite. It seems to speak to you as it stares hazily
-at your soul. Apon the altar is a cloth that seems to have an inscription on
-it. Devlan's tome of chaos sits apon this cloth.
+at your soul. Upon the altar is a cloth that seems to have an inscription on
+it. Devlan's tome of chaos sits upon this cloth.
 ~
 E
 Cloth~
-You notice that the cloth is finely woven of the best materals and gold 
+You notice that the cloth is finely woven of the best materials and gold 
 threading. The writing glows.
 ~
 E
@@ -1508,7 +1539,7 @@ E
 Tome~
 
 1.      You shall honor all gods no matter how there religions differ from
-        ours. Abreveating their names, insulting them is an insult to our
+        ours. Abbreviating their names, insulting them is an insult to our
         religion. We are CHAOS not insults. Do not break this one!
 
 2.      Do not help maintain order Lie steal and kill do whatever to offset
@@ -1524,9 +1555,9 @@ Things that will get you kicked out fast!
  
 1.      Breaking Rule #1 will get you kicked out real fast with added penalties
  
-2.      Excessive cursing on public channels, or herasement
+2.      Excessive cursing on public channels, or harassment
  
-3.      Whinning NO WHINNING
+3.      Whining NO WHINING
  
 4.      Promoting order
  
@@ -1570,7 +1601,7 @@ E
 tome~
 As a member of this religion you are expected, first and foremost, to
 make a profit.  Whether this is buy stealing gold or by stealing life 
-is irrelevent.
+is irrelevant.
 
 Aid your brothers when they have need and do not, ever, steal from or
 kill others of this religion.
@@ -1589,7 +1620,7 @@ Do this and rise to power alongside the Eternal Rogue.
 S
 #25573
 The Inner Chamber~
-This room is basically a tavern.  There is a bar at one and and tables 
+This room is basically a tavern.  There is a bar at one end and tables 
 cover the floor.  A huge fire burns in a pit in the middle of the room
 and 'obtainers of antiquities' and 'removers of the burden of life' sit
 around relaxing before returning to work.
@@ -1609,10 +1640,10 @@ S
 The Nexus of Stars~
    You stand in a vast, dark room.  A large statue of Starburst, Immortal
 King of the Rogues, stands in the center of the room.  Lavish satin and silk
-chairs abound the chamber for you to rest easy upon while waiting for your
+chairs fill the chamber for you to rest easy upon while waiting for your
 assailant or unhappy victim to give up on finding you.  There is a golden
-coin spinning within a small globe which has brought many a follower of Sb
-luck in their line of work.  All you need to do is 'touch' it to receive
+coin spinning within a small globe which has brought many a follower of
+Starburst luck in their line of work.  All you need to do is 'touch' it to receive
 the blessing.
 ~
 255 egjlnrs 0
@@ -1625,20 +1656,21 @@ D5
 ~
 0 0 25573
 E
-(null)~
-(null)~
+coin golden globe~
+   A small golden coin spins endlessly within a globe of clear crystal,
+never slowing and never falling.  Its faces flash as it turns, first the
+laughing face of Starburst and then a single eight-pointed star.
+~
 S
 #25575
 The Chamber of Balance~
-      Reaching the top of the stairs, your mind and body suddenly feel
-completely unified with one another.  This chamber has been blessed and
-spellbound by the Forestkeeper, allowing all who arrive here a chance to
-meditate, relax, and heal themselves in mind, spirit, and body. Soft, white
-light from an unseen source illuminates the room allowing you to see that
-a ramp leads up from this chamber to a large room.  The strands of mist
-and shadow seem to halt at the top of the ramp, slowly writhing back upon
-themselves and sliding across the floor and back down the steps in a
-never-ending cycle.
+   Reaching the top of the stairs, you feel your mind and body suddenly
+become one.  This chamber has been blessed and spellbound by the
+Forestkeeper, so that all who come here may meditate, rest and heal in
+mind, spirit and body.  Soft white light from an unseen source fills the
+room, and a ramp leads up to a large chamber above.  The strands of mist
+and shadow halt at the top of the steps below, writhing back on
+themselves and sliding back down in a never-ending cycle.
 ~
 255 degrs 0
 D4
@@ -1657,10 +1689,10 @@ Entrance to Cair's temple~
 You have entered a tunnel in the mountainside. As you enter this passage you
 notice a smoldering torch pinned to the mountainside with a very large battle
 axe.  The torch has been placed above a golden scroll mounted to the hard 
-granite surface of the mountainside. You hear a faint chanting sound comming
+granite surface of the mountainside. You hear a faint chanting sound coming
 from inside this passage. As you look down the passage you can barely make
 out a bluish light off in the distance. You feel compelled to follow the light
-and in your mind you feel yourself begining to chant....
+and in your mind you feel yourself beginning to chant....
 ~
 255 cdeh 0
 D4
@@ -1679,26 +1711,26 @@ As you lean closer to examine the scroll you noticed that the torch begins
 to burn and glows with a fierce light. The scroll unwinds itself and 
 reads:
 
-The essance of a great evil has begun to fill the relm. It has been
-prophesized that the land will become barren and will fill with death and
-great misery. There is a evil abroad which turns Kings to destroy other Kings,
+The essence of a great evil has begun to fill the realm. It has been
+prophesied that the land will become barren and will fill with death and
+great misery. There is an evil abroad which turns Kings to destroy other Kings,
 Gods against Gods, as well as brother against brother.  The basis of death;
 murder, pillage, and plunder...the organization of War!  The Immortal being
-has escaped the chains of her capturs and has now come with wrath and fury to
-overthrough the dominion and take what is deemed to be hers. This being is
+has escaped the chains of her captors and has now come with wrath and fury to
+overthrow the dominion and take what is deemed to be hers. This being is
 Cair Muhr.........
 
 Those who wish to follow the path of War must:
 
-* Be hummble and have great honor! The evil way of Cair Muhr is through
+* Be humble and have great honor! The evil way of Cair Muhr is through
   power! Unlike those who do not think out their action, the temple of Cair 
-  will endulge itself in respect.
+  will indulge itself in respect.
 
 * Be loyal to Cair Muhr. Loyalty will bring you great rewards, and will
   keep your soul dark and chaotic.
 
 * Sacrifice offerings of equipment and corpses of those who fall in battle 
-  to Cair's followers. Those who die buy the sword do no longer need thier 
+  to Cair's followers. Those who die buy the sword do no longer need their 
   belongings, for it will only let them plan an attack on you quicker.
 
 * Believe and have faith. Cair is a very honest being and has a heart 
@@ -1707,9 +1739,9 @@ Those who wish to follow the path of War must:
 Those who follow the path of war may not:
 
 * Ask favors of other gods. Cair is a very jealous god and will not allow
-  such actions. If you are giong to confide in a lord...confide in Cair.
+  such actions. If you are going to confide in a lord...confide in Cair.
 
-* Wear any equipment of another riligion. They must be turned over to Cair 
+* Wear any equipment of another religion. They must be turned over to Cair 
   herself, or sacrificed to her.
 
 * Group with any members of Glasgian or Sand's religion members for they 
@@ -1717,9 +1749,9 @@ Those who follow the path of war may not:
 
 
 The essence of war is a purely evil act. It take the evil heart to shed the
-blood of others unconditionally. It has been forseen that Cair will lead her
+blood of others unconditionally. It has been foreseen that Cair will lead her
 army of mortal followers against The Dominion, and when she become victorious
-over all will be the sole Diety of the relm while her followers will become
+over all will be the sole Deity of the realm while her followers will become
 immortal and share control over this world...
 ~
 S
@@ -1744,7 +1776,7 @@ This room resembles nothing of a cave, but more like a grand palace! You
 notice that the walls are covered in golden murals of warfare. Where in 
 every scene there is a picture of Cair Muhr leading her army to victory. In
 the middle of the room there lies a huge cushion on the floor for Cair's 
-weary folowers to lay apon when they need to recover quickly from their 
+weary followers to lay upon when they need to recover quickly from their 
 battles. You hear nothing in this room, but your head booms with a war cry
 from Cair, "The streets will be filled with the bones of those who do not
 believe!"
@@ -1760,7 +1792,7 @@ D3
 0 0 25579
 E
 mural picture wall~
-The inscription states that these are the loyal accolytes to Cair Muhr:
+The inscription states that these are the loyal acolytes to Cair Muhr:
 
 Hyghlo        Sferra
 Kyndig        Malkil
@@ -1775,11 +1807,11 @@ These are the brethren and sisters of War!
 S
 #25579
 The Altar of War~
-This room, like the one before it, is emaculantly large. There lies in the
+This room, like the one before it, is immaculately large. There lies in the
 middle of this room a very large altar made from the mountainside, pure 
 granite!  It is from this altar that the purple light flows from. You notice
 that the light seems to come from an eternal source... Never stopping its
-endless rotation and rythem. When you look up towards the ceiling you can 
+endless rotation and rhythm. When you look up towards the ceiling you can 
 barely make out a door.
 ~
 255 degnrs 0
@@ -1798,7 +1830,7 @@ S
 The Power Cache~
 This room is overflowing with items of power.  Scrolls, staffs and wand lie
 on shelves and in racks across the wall.  Here, the might of the rogues
-becomes apparant.  Only those with skill could amass such a wealth of magic.
+becomes apparent.  Only those with skill could amass such a wealth of magic.
 There is a gilded scroll on the wall which you feel you should read.
 ~
 255 fghjlrs 0
@@ -1872,7 +1904,7 @@ the histories and laws of the Goddess are inscribed.  The ceiling of the
 temple is made of glass and you smile as you realize that somehow you've
 been transported to the ocean.  Every species of aquatic life you've ever 
 heard of and several that you haven't swim happily in the waters above your
-head.  In the center of the floor is a altar with a thin, blue cloth over the
+head.  In the center of the floor is an altar with a thin, blue cloth over the
 top of it.  Resting on the cloth is a goblet filled with a clear liquid.  It
 seems that prayers to the Goddess can be made from this spot.
 ~
@@ -1885,11 +1917,11 @@ Through the curtain you see the Hall of Water.
 S
 #25590
 ObsidMagi Hall~
-A large meeting hall, lit by a circle of candles incompassing the Magi
+A large meeting hall, lit by a circle of candles encompassing the Magi
 book of pure wisdom, the book of evil. In the center of the floor a moon
-has been encrested into the floor, made of silver there is a star etched
+has been encrusted into the floor, made of silver there is a star etched
 just south of the moon, this is the symbol of the Dark Magic...The symbol
-of ObidMagi. The walls are adorned in dark purple tapistries...a remant of
+of ObidMagi. The walls are adorned in dark purple tapestries...a remnant of
 the eternal darkness of the clan.
 ~
 255 degrs 0

@@ -82,7 +82,7 @@ A huge beholder watches over the other enforcers.
 A globular body greets your curious gaze.  This beholder is the head of the
 enforcers of the Underdark.  The enforcers keep a tenuous peace, keeping
 prolonged fights from occurring but allowing stealing and assassinations. 
-This body is a sphere with ten eyestalks ontop.  A huge eleventh eye
+This body is a sphere with ten eyestalks on top.  A huge eleventh eye
 resides in the central area.  A large mouth with razor sharp teeth lies below
 this huge eye.  The body is protected by a hard chitinous covering.
 ~
@@ -103,7 +103,7 @@ beholder~
 the beholder~
 A beholder of incredible size floats here scheming against the world.       
 ~
-A huge spherical body floats in the air here.  Ontop of the sphere reside 10
+A huge spherical body floats in the air here.  On top of the sphere reside 10
 moving eyestalks.  A huge eye is in the centre of the sphere.  This huge eye
 seems to disrupt your casting abilities.  This beholder lives in this city and
 masterminds many evil operations.
@@ -209,7 +209,7 @@ A very evil looking fighter chats with his companions.
 ~
 This fighter looks like a bounty hunter who has had some luck.  Your mind
 goes wild imagining the many possibilities of why he is in the Under Dark,
-perhaps there is some creature that has had a reward placed on it's head,
+perhaps there is some creature that has had a reward placed on its head,
 whatever the reason is the fighter doesn't seem that happy that you are
 staring at him.
 ~
@@ -491,7 +491,7 @@ A weird shape made of slime flows along the wall.
 ~
 The slime is green and oozes slowly down the wall onto the floor.  You
 look closely and notice with a start that it seems to be alive.  The slime is
-slowly eating it's way through the wall and floor.
+slowly eating its way through the wall and floor.
 ~
 dg 0 0 S
 49 -6 0 1d250+1880 6d8+16
@@ -575,7 +575,7 @@ A huge iron statue of a human stands to the side.
 ~
 This looks to be an iron statue of a human.  The statue stands a good
 fifteen feet tall.  In fact it almost looks as if it can move.  You then glance
-at it's eyes and notice with a shock that they are watching you. 
+at its eyes and notice with a shock that they are watching you. 
 ~
 bd d 0 S
 0 3 83 5d100+9200 11d8+34

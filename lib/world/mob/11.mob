@@ -49,7 +49,7 @@ fletcher man~
 the Fletcher~
 A man sits comfortably in a chair stringing a bow.
 ~
-He looks wisened beyond his years.
+He looks wizened beyond his years.
 ~
 bdenop r 1000 S
 41 1 50 1d1+10000 1d1+35
@@ -70,7 +70,7 @@ bdenop r 1000 S
 #1106
 kruk butcher~
 the butcher~
-A large man, arms spattered with blood and grisle stands behind the counter.
+A large man, arms spattered with blood and gristle stands behind the counter.
 ~
 Kruk is quite large and wears a scowl on his face.  His arms are spattered
 with the blood of the meat he chops hours on end.
@@ -188,7 +188,7 @@ A shadow faintly resembling a hobbit is here.
 ~
 Jade, last of the hobbits, dealer in death, and survivor of the
 great Half-orc inquisition in the year of the Black Fire wears a 
-cloak over his grey, shadowed face.  As he notices you he flips hiso
+cloak over his grey, shadowed face.  As he notices you he flips his
 weapon into a fighting position and awaits your next move.
 ~
 bdeq cr 0 E
@@ -202,7 +202,7 @@ tinker gnome~
 the gnomish tinker~
 A wiry, old gnome frets over a strange contraption he is working on.
 ~
-With his spectacles resting on the front of his enlongated nose, the tinker
+With his spectacles resting on the front of his elongated nose, the tinker
 swears obscenities at the object in his hands which seems to be unagreeable
 in getting itself fixed.
 ~
@@ -256,7 +256,7 @@ sentinel dwarven dwarf~
 the dwarven sentinel~
 A squat sentinel with an air of strength and will stands here before the gate.
 ~
-The dwarf is short and brawny with a grissled beard which hangs down
+The dwarf is short and brawny with a grizzled beard which hangs down
 to his britches stands here protecting the gates of the castle.
 His armor is silver and covered with strange runes.
 ~
@@ -383,4 +383,19 @@ d 0 0 S
 1 1 0 1d1+1 1d1+1
 1 1
 8 8 0
+#1131
+monolith black stone~
+the black monolith~
+Faint words stir beneath the glassy surface of the black monolith.
+~
+The monolith is black and smooth as glass, and faintly warm. Now and
+then words seem to stir far beneath its surface, like fish in a deep
+pool.
+~
+bdenopqr k 0 S
+1 20 -10 1d1+30000 1d1+0
+0 0
+8 8 0
+>in_file_prog pz_monolith.prg~
+|
 $~

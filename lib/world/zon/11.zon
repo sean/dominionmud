@@ -91,5 +91,8 @@ M 0 1100 1 1190 100 	* Axxen, the Bread Maker at The Bread Shop. (Max: 1)
 G 1 3011 100  100 			* And give it a waybread. (Max: 100)
 G 1 7 100  100 			* And give it an unleavened bread. (Max: 100)
 M 0 1105 1 1197 100 	* a silver-clad sentinel at Scarelle's Outfitting. (Max: 1)
+* puzzle
+M 0 1131 1 1154             the black monolith (puzzle)
+O 0 1152 256 1296            scroll of recall (puzzle reward)
 S
 $~

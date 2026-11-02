@@ -1,7 +1,7 @@
 #28000
 Trail leading into the hills~
      A path leading northward lies before you.  Ahead you see a tranquil path
-patially shaded by the long stretching branches of the Norik trees.  Further
+partially shaded by the long stretching branches of the Norik trees.  Further
 north in the distance you can se the tips of the northern mountains. The path
 continues north and south.
 ~
@@ -14,9 +14,9 @@ S
 #28001
 Trail leading into the hills~
      A gentle breeze brushes your hair to one side as you continue your trek
-along this solem trail.  The smell of rain is in the air.  The clouds seem
+along this solemn trail.  The smell of rain is in the air.  The clouds seem
 a bit darker to the north.  The hills are coming more into your view as you
-travel more northward.  The trail comtinues north and south.
+travel more northward.  The trail continues north and south.
 ~
 280 0 0
 D0
@@ -30,8 +30,8 @@ D2
 S
 #28002
 Trail leading into the hills~
-     Just ahead you see the base of the the hills.  A small drop of rain lands
-on your collar.  Instictively, you reach to pull you cloak around you body
+     Just ahead you see the base of the hills.  A small drop of rain lands
+on your collar.  Instinctively, you reach to pull you cloak around you body
 in expectation of foul weather.  You see small animal tracks along the trail.
 The trail leads north towards the hills or south back towards Phalar.
 ~
@@ -56,7 +56,7 @@ This hole is covered by some brush, but looks as though you could enter it
 S
 #28003
 The small burrow~
-     You squeeze down the narrow hole, desending into a small animals dwelling.
+     You squeeze down the narrow hole, descending into a small animals dwelling.
 You are forced to crawl on your hands and knees to search this burrow.  To
 the north you see two small eyes watching you intently through a crawlway.
 The exits lead up back through the mouth of the hole or north into the crawlway
@@ -106,7 +106,7 @@ D3
 S
 #28006
 Rabbit Burrow~
-     The burrow is oval in shape, a few half eaten vegtables lie on the floor
+     The burrow is oval in shape, a few half eaten vegetables lie on the floor
 This appears to be the home of a small family of animals.  The crawlway leads
 east, or back to the entrance to the south.
 
@@ -305,7 +305,7 @@ In the northern plains~
 it smells kind of funny, and it's beginning to really piss you off.  The
 smoke you noticed earlier is now floating in from the east, and you can make
 out several huts off in the distance.  The smoke seems to be coming from
-there.  Perhaps it's a village of somekind.
+there.  Perhaps it's a village of some kind.
 ~
 280 0 2
 D0
@@ -377,7 +377,7 @@ S
 #28056
 A corner trail in the plains.~
       The trail runs up to the edges of a thick forest and then curves along
-the boundries of it.  The grasses that you've been walking through seem
+the boundaries of it.  The grasses that you've been walking through seem
 to shrink back from that clogging swarm of thick trunks and branches.  Even
 if you did want to enter that forest, it would be impossible from here.  Your
 choices at this time seem to be limited to south and east.
@@ -534,7 +534,7 @@ S
 #28063
 The open plains~
         You seem to have reached the edges of the plains.  Impassable hills
-and jagged rocks to the north and east disapate any ideas you might have had 
+and jagged rocks to the north and east dissipate any ideas you might have had 
 for traveling in those directions.  From the south, you faintly hear sounds
 of something being pounded at a steady tempo.
 ~
@@ -578,10 +578,10 @@ Back out into the grasslands.
 S
 #28065
 In the Village~
-     Inside the village you go, and that damnned pounding is back again.  The
+     Inside the village you go, and that damned pounding is back again.  The
 noise is really starting to drive you nuts.  As far as the village goes, it's
 not much to talk about.  Small, run-down huts with almost no people to be 
-seen.  You can leave the village by reutrning back or, of course, you could
+seen.  You can leave the village by returning back or, of course, you could
 continue onward and see what awaits you.
 ~
 280 0 2
@@ -636,7 +636,7 @@ Techniques Known Across the Plains."
 S
 #28068
 In the Village~
-     You contiue walking down the, well, street, you guess.  It's not really
+     You continue walking down the, well, street, you guess.  It's not really
 much of one, what with the rough dirt and clumps of rocks everywhere.  Huts
 line the sides of the walkway, but a large one to the south catches your eye.
 It stands apart from the others, bigger, neater, and covered with strange
@@ -703,7 +703,7 @@ to form around your gut.  The small huts to the sides of you are pointless to
 enter, each of them being so rundown and small.  You see shapes moving about
 inside, but they don't seem to be bothering you....yet.  That noise you heard
 earlier is getting progressively louder the farther into the compound you go.
-The rythmic pounding suggests some big event might be occuring soon, but what
+The rhythmic pounding suggests some big event might be occurring soon, but what
 could it possibly be?
 ~
 280 0 2
@@ -737,7 +737,7 @@ D1
 ~
 0 0 28071
 D2
-The large hut you spotted has it's entrance directly this way.
+The large hut you spotted has its entrance directly this way.
 ~
 door s south~
 1 0 28073

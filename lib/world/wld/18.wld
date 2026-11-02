@@ -1,10 +1,12 @@
 #1800
 Stone Bridge~
-   You are standing on a stone bridge crossing the Widmans River.  The
-city of Elrhinn lies directly to the north and you can still faintly hear
-the bustle of commotion from within.  To the south is an ancient forest
-dark with old trees slightly swaying in the breeze.  You sense something
-not quite right about the forest.
+   You are standing on an old stone bridge crossing the Widmans River,
+its arch worn smooth by centuries of travelers and its parapets green
+with moss.  The water rushes dark and fast below.  The town of Elrhinn
+lies directly to the north, and you can still faintly hear the bustle
+from within its walls.  To the south rises an ancient forest, dark with
+old trees swaying slightly in the breeze.  You sense something not quite
+right about it.
 ~
 18 c 2
 D0
@@ -18,11 +20,13 @@ D2
 S
 #1801
 Entrance to Darkweir Hallow~
-   Two gnarled trees have been magically bent and entwined together forming 
-a natural archway into the Darkweir Hallows.  There are strange, foreign 
-enscriptions etched into the archway.  It appears to be some sort of ancient 
-druid hex that keeps evil out of the forest.  You hope it has lasted this 
-long.
+   Two gnarled trees have been magically bent and entwined together to
+form a natural archway into Darkweir Hallows.  Strange, foreign
+inscriptions are etched into the living bark of the arch, and they seem
+to shift slightly when you are not looking straight at them.  It appears
+to be some sort of ancient druidic ward meant to keep evil out of the
+forest.  You hope it has lasted this long.  The bridge lies to the
+north, and a path leads south into the trees.
 ~
 18 c 2
 D0
@@ -36,10 +40,12 @@ D2
 S
 #1802
 Up in a Tall Tree~
-   You are standing up in a tall tree that overlooks the entire forest.
-A gentle breeze cools you as it sweeps by.  A magnificent city lies to the
-north-east and to the south you see an even taller tree than the one you
-are in now.
+   You are perched high in a tall tree that overlooks the entire forest.
+A gentle breeze cools you as it sweeps by, setting the branches swaying
+beneath your feet.  A magnificent town lies to the northeast, its walls
+and rooftops tiny in the distance, and to the south you see a tree even
+taller than the one you are in.  The way down leads back to the edge of
+the forest.
 ~
 18 c 2
 D5
@@ -49,11 +55,12 @@ D5
 S
 #1803
 Deep in the Forest~
-   You are wandering around Darkweir Hallows with no path.  Unfortunatly 
-you are lost too.  Hopefully you can find your way back to the path or 
-somewhere else as it is getting darker with each step into the forest you 
-take.  The blueish trees' gnarled branches rip your jerkin and the roots 
-trip you as you blunder on.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.
 ~
 18 a 2
 D1
@@ -67,11 +74,12 @@ D2
 S
 #1804
 Deep in the Forest~
-   You are wandering around Darkweir Hallows with no path.  Unfortunatly 
-you are lost too.  Hopefully you can find your way back to the path or 
-somewhere else as it is getting darker with each step into the forest you 
-take.  The blueish trees' gnarled branches rip your jerkin and the roots 
-trip you as you blunder on.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.
 ~
 18 a 2
 D1
@@ -89,11 +97,12 @@ D3
 S
 #1805
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your jerkin and the roots trip you as
-you blunder on.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.
 ~
 18 a 2
 D2
@@ -107,8 +116,10 @@ D3
 S
 #1806
 Turn in the Path~
-   The path takes a turn to the east here.  It is leading you deeper into the
-forest but to the north you can still see the natural archway.
+   The path takes a turn to the east here, leading you deeper into the
+forest.  The trees grow taller and closer together, and the light turns
+a cool, dim blue.  To the north you can still see the natural archway at
+the forest's entrance.
 ~
 18 c 2
 D0
@@ -122,9 +133,11 @@ D1
 S
 #1807
 Turn in the Path~
-   The path takes another turn here avoiding two trees that have grown 
-to enormous proportions.  You can no longer see the entrance to the forest
-and to the south the path just twists off deeper into the forest.
+   The path takes another turn here, bending around two trees that have
+grown to enormous proportions, their trunks so thick that ten men
+holding hands could not circle them.  You can no longer see the entrance
+to the forest.  To the south the path twists off deeper into the woods,
+and it leads back west.
 ~
 18 c 2
 D2
@@ -138,13 +151,14 @@ D3
 S
 #1808
 Edge of the Forest~
-   Before you stands a huge wall of stone.  There is no possible way
-to scale this awesome mountain.  It would seem the forest is totally
-blocked off by the mountain and so are any exits to the west.  You scramble
-up the side of the mountain a little ways but soon get tired of the almost
-straight up climb.  You look out over the forest and see that it stretches
-to the east for about 3 miles then after that you can only see darkness.
-There is a tall, sturdy tree here with branches that look climbable.
+   Before you stands a huge wall of stone, sheer and gray, rising out of
+the forest like the side of the world.  There is no possible way to
+scale it, and it blocks the forest off completely to the west.  You
+scramble up a little way but soon tire of the nearly vertical climb.
+From here you can see that the forest stretches away to the east for
+about three miles; beyond that there is only darkness.  A tall, sturdy
+tree grows here, with branches that look easy to climb.  The forest
+continues east and south.
 ~
 18 0 2
 D1
@@ -162,12 +176,13 @@ D4
 S
 #1809
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-gnarled branches of the trees rip your jerkin and the roots trip you as
-you blunder on.  You can make yor way through the thick foliage in all
-directions except south.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.  The undergrowth to the south is too thick to force your way
+through.
 ~
 18 0 2
 D0
@@ -185,11 +200,12 @@ D3
 S
 #1810
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your jerkin and the roots trip you as
-you blunder on.  Exits lead in all directions.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.
 ~
 18 0 2
 D0
@@ -211,11 +227,12 @@ D3
 S
 #1811
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your jerkin and the roots trip you as
-you blunder on.  Exits lead in all directions.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.
 ~
 18 0 2
 D0
@@ -237,10 +254,11 @@ D3
 S
 #1812
 Off the Path~
-   You are just off the path in Darkweir Hallows.  The blueish trees' gnarled 
-branches rip your jerkin and the roots trip you as you blunder on.  
-You can force your way back through the thick foliage and onto the path
-to the east or delve deeper into the dark forest by heading west.
+   You are just off the path in Darkweir Hallows.  The bluish trees'
+gnarled branches tear at your clothing, and roots snake across the
+ground to trip you.  You can force your way back through the thick
+foliage onto the path to the east, or delve deeper into the dark forest
+to the west.
 ~
 18 0 2
 D1
@@ -254,11 +272,12 @@ D3
 S
 #1813
 Ancient Path Through Darkweir Hallows~
-   You are walking along a very old path that looks like it may have been
-used by more animals than man.  Hopefully you won't come across any of those
-animals that may be detrimental to your health.  To the west you can pick
-your way through the foliage, but beyond that, you can't see what is on the
-other side except more trees and forest.  The path continues north and south.
+   You are walking along a very old path that looks to have been used by
+more animals than men, its packed earth marked with hoofprints and
+pawprints.  Hopefully you won't meet any of the animals that might be
+bad for your health.  To the west you can pick your way through the
+foliage, though beyond it you can see nothing but more trees.  The path
+continues north and south.
 ~
 18 c 2
 D0
@@ -276,13 +295,12 @@ D3
 S
 #1814
 Edge of the Forest~
-   Before you stands a huge wall of stone.  There is no possible way
-to scale this awesome mountain.  It would seem the forest is totally
-blocked off by the mountain and so are any exits to the west.  You scramble
-up the side of the mountain a little ways but soon get tired of the almost
-straight up climb.  You look out over the forest and see that it stretches
-to the east for about 3 miles then after that you can only see darkness.
-You notice some faint footprints in the dirt leading south.
+   Before you stands a huge wall of stone, sheer and gray.  There is no
+possible way to scale it, and it blocks the forest off completely to the
+west.  You look out over the forest and see that it stretches away east
+for about three miles before vanishing into darkness.  Faint footprints
+in the dirt here lead south along the foot of the cliff.  The forest
+also continues north and east.
 ~
 18 0 2
 D0
@@ -300,13 +318,15 @@ D2
 S
 #1815
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your jerkin and the roots trip you as
-you blunder on.  You almost crack your weapon on a stone structure as you 
-hack away at some leaves so the south.  There is no door here that you can
-find.  You can make your way through the forest to the east and to the west.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.  As you hack at the leaves to the south, your weapon nearly
+cracks against cold stone: some kind of moss-covered structure lies
+hidden in the foliage there, but you can find no way into it.  You can
+make your way through the forest to the east and west.
 ~
 18 0 2
 D1
@@ -320,11 +340,12 @@ D3
 S
 #1816
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your jerkin and the roots trip you as
-you blunder on.  Exits lead in all directions.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.
 ~
 18 0 2
 D0
@@ -346,12 +367,13 @@ D3
 S
 #1817
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your jerkin and the roots trip you as
-you blunder on.  Exits lead in all directions except east as the foliage
-is too thick to even hack through with your weapon.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.  To the east the foliage is too thick to hack through even with
+a weapon.
 ~
 18 0 2
 D0
@@ -369,11 +391,11 @@ D3
 S
 #1818
 Ancient Path Through Darkweir Hallows~
-   You are walking along a very old path that looks like it may have been
-used by more animals than man.  Hopefully you won't come across any of those
-animals that may be detrimental to your health.  To the east you can pick
-your way through the foliage, but beyond that, you can't see what is on the
-other side except more trees and forest.  The path continues north and south.
+   You are walking along a very old path, more used by animals than by
+men.  Ferns grow thick along its edges, and the trees lean in overhead.
+To the east you can pick your way through the foliage, though beyond it
+you can see nothing but more forest.  The path continues north and
+south.
 ~
 18 c 2
 D0
@@ -391,11 +413,11 @@ D2
 S
 #1819
 Off the Ancient Path~
-   You are just off a path that bisects Darkweir.  Your conscience kicks in
-and reminds you that you can still get back on the path before you get lost.
-Your wander-lust reminds you that you will never get to be powerful or
-receive glory without doing a little adventuring.  Exits lead west, back onto 
-the trail or south into a light section of the forest.
+   You are just off the ancient path that crosses Darkweir.  Your
+conscience reminds you that you can still get back onto the path before
+you are lost; your wanderlust reminds you that you will never be
+powerful or win glory without doing a little adventuring.  The way leads
+west back onto the trail, or south toward a brighter part of the forest.
 ~
 18 0 2
 D2
@@ -409,11 +431,12 @@ D3
 S
 #1820
 Up in a Tall Tree~
-   You are standing up in a tall tree that overlooks the entire forest.
-Breezes cool you as they gently sweep by.  A magnificent city lies far to 
-the north and to the south-west you see an even taller tree than the one you
-are in now.  Coming from almost directly beneath you, maybe a bit to the
-south-east, a hint of smoke from a cooking fire invades your nostrils.
+   You are perched high in a tall tree that overlooks the entire forest.
+Breezes cool you as they sweep gently by.  A magnificent town lies far
+to the north, and to the southwest you see a tree even taller than this
+one.  From almost directly beneath you, perhaps a little to the
+southeast, comes the smell of smoke from a cooking fire.  The way down
+leads to the light forest below.
 ~
 18 c 2
 D5
@@ -423,11 +446,13 @@ D5
 S
 #1821
 Before the Druidic Temple~
-   You stand before a small temple that stands roughly 5 feet high.  Too poorly
-built to be a dvarven temple, too tall to be a gnomish temple.  Maybe an ancient
-race of elvish druids built it!  There are some strange markings written on
-the archway into the temple that look like this: ##*|***>><<***|*## and
-scrawled in animals blood is a strange message in a common toungue.
+   You stand before a small, crumbling temple that rises barely five
+feet high.  It is too poorly built to be dwarven and too tall to be
+gnomish; perhaps an ancient race of elvish druids built it.  Strange
+markings are carved on the archway into the temple, like this:
+##*|***>><<***|*##, and a message has been scrawled across the stones in
+animal blood.  The archway leads east into the temple, and the cliff's
+edge runs north and south.
 ~
 18 0 2
 D0
@@ -461,17 +486,15 @@ message common blood animal~
 S
 #1822
 Entrance to the Ancient Drerim Temple~
-   It is said that, once, the Clan of Drerim ruled this forest.  They 
-were a group of druids that despised the creatures of the forest.  They 
-worshipped Gray and all his evil philosophies.  Legend has it the Drerim 
-Clan would take pregnant deer and place them on spits just as the doe 
-would be born so it could watch its mother die.  This is just one 
-atrocity committed by the druids. Then the Forestmaster entered the 
-Dominion and took control of the woodlands and their inhabitants.  He 
-lead an army of skilled rangers and the most powerful of the animals of 
-Darkweir Hallows.  This temple is the only remaining temple of the Drerim 
-Clan, left in ruins as a reminder to all evil of what the consequences 
-will be for disturbing the forests.
+   It is said that the Clan of Drerim once ruled this forest: a cabal of
+druids who despised the creatures of the woods and worshipped Gray and
+all his evil philosophies.  Legends tell of terrible cruelties they
+worked on the beasts of Darkweir, until the Forestmaster came into the
+Dominion and took control of the woodlands, leading an army of skilled
+rangers and the mightiest of the forest's animals against them.  This
+temple is the last of the Drerim Clan's, left in ruins as a reminder to
+all evil of the price of disturbing the forest.  Cracked pillars lean
+overhead, and a stairway leads on to the east.  The way out lies west.
 ~
 18 ad 1
 D1
@@ -485,12 +508,11 @@ D3
 S
 #1823
 Deep in the Forest~
-   You are standing just to the east of an ancient path that runs directly 
-through the forest of Darkweir.  It has gotten a bit darker as the forest 
-gets thicker and the large leaves of the trees block out the sunlight as 
-the forest gets thicker.  Pushing aside some brambles and foliage on the
-western side of the path, you find what seems to be the aft section of some
-ancient temple.
+   You are standing just east of the ancient path that runs through
+Darkweir.  It has grown darker here, as the forest thickens and the
+great leaves block out the sunlight.  Pushing aside the brambles, you
+glimpse the moss-covered back wall of some ancient temple hidden among
+the trees.  The forest continues north, east and south.
 ~
 18 0 2
 D0
@@ -508,13 +530,13 @@ D2
 S
 #1824
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your jerkin and the roots trip you as
-you blunder on.  Exits lead in all directions except east where a two huge 
-trees have entwined together throughout the ages blocking any exit in that
-direction.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.  To the east two huge trees have grown entwined together over
+the ages, blocking any passage in that direction.
 ~
 18 0 2
 D0
@@ -532,10 +554,10 @@ D3
 S
 #1825
 Ancient Path Through Darkweir Hallows~
-   You are walking along a very old path that looks like it may have been
-used by more animals than man.  Hopefully you won't come across any of those
-animals that may be detrimental to your health.  The path continues north 
-and south.
+   You are walking along a very old path that looks to have been used
+more by animals than by men.  The trees press close on either side, and
+somewhere off in the woods a branch snaps.  The path continues north and
+south.
 ~
 18 c 2
 D0
@@ -549,10 +571,11 @@ D2
 S
 #1826
 Light Forest~
-   The forest is very bright here as there are only two very large trees   
-in the vicinity.  Their dark, blue leaves are shaped into strange spirals
-that reach up towards the heavens.  It is quiet here as if something were
-nearby or about to happen.
+   The forest is bright here, for only two very large trees stand
+nearby.  Their dark blue leaves grow in strange spirals that reach up
+toward the heavens, and sunlight pours down between them onto a carpet
+of soft grass.  It is quiet, as if something were nearby or about to
+happen.  The forest leads north and east.
 ~
 18 0 2
 D0
@@ -566,9 +589,11 @@ D1
 S
 #1827
 Light Forest~
-   You are in a light section of Darkweir.  You are searching your
-surroundings when a sudden burst of laughter splits the silence from the
-east.  You wonder if a party of adventurers is nearby.
+   You are in a lighter section of Darkweir, where the trees thin and
+sunlight dapples the forest floor.  As you look around, a sudden burst
+of laughter splits the silence from somewhere nearby.  Perhaps a party
+of adventurers is camped close at hand.  The forest continues east,
+south and west.
 ~
 18 0 2
 D1
@@ -586,11 +611,11 @@ D3
 S
 #1828
 Light Forest~
-   The forest is bright and pretty and you can easily pick your way through
-the gentle woods.  You hear voices coming from the south-east and can 
-smell hickory wood burning from a nearby cooking fire.  Also a tall tree
-stands here with huge, sturdy branches.  It looks like you could easily
-climb it.
+   The forest is bright and pretty here, and you can easily pick your
+way through the gentle woods.  You hear voices coming from the southeast
+and smell hickory wood burning in a cooking fire.  A tall tree stands
+here with huge, sturdy branches that look easy to climb.  The forest
+continues east, south and west.
 ~
 18 0 2
 D1
@@ -612,11 +637,10 @@ D4
 S
 #1829
 Light Forest~
-   You have come to the edge of the light section of the forest.  To the
-south is a small clearing in which you spy a small party of men enjoying a
-hickory smoked deer.  You creep closer trying not to disturb them but fail
-miserably as you step on a dry twig and it *SNAPS* beneath your feet alerting
-the party of your arrival.
+   You have come to the edge of the light forest.  To the south lies a
+small clearing, and from it comes the smell of roasting venison and the
+murmur of rough voices.  Every twig underfoot seems ready to snap and
+give you away.  The forest continues east and west.
 ~
 18 0 2
 D1
@@ -634,9 +658,10 @@ D3
 S
 #1830
 Edge of the Light forest~
-   You have come to the edge of the light forest.  There is a wall of dense
-foliage blocking all passage to the east.  You hear voices and hushed
-commotion coming from a small clearing to the south-west.
+   You have come to the edge of the light forest.  A wall of dense
+foliage blocks all passage to the east.  You hear voices and hushed
+movement coming from a small clearing to the southwest.  The forest
+leads south and west.
 ~
 18 0 2
 D2
@@ -650,13 +675,11 @@ D3
 S
 #1831
 Edge of the Forest~
-   Before you stands a huge wall of stone.  There is no possible way
-to scale this awesome mountain.  It would seem the forest is totally
-blocked off by the mountain and so are any exits to the west.  You scramble
-up the side of the mountain a little ways but soon get tired of the almost
-straight up climb.  You look out over the forest and see that it stretches
-to the east for about 3 miles then after that you can only see darkness.
-You notice some faint footprints in the dirt leading north.
+   Before you stands a huge wall of stone, sheer and gray.  There is no
+possible way to scale it, and it blocks the forest off completely to the
+west.  The forest stretches away to the east until it vanishes into
+darkness.  Faint footprints in the dirt here lead north along the foot
+of the cliff.
 ~
 18 0 2
 D0
@@ -670,10 +693,11 @@ D1
 S
 #1832
 Deep in the Forest~
-   You are deep in the forest with no trail or any clue as to what might be
-sneaking around looking for some food...yourself being the food of course.
-It is pretty dark here and it is tough holding a lantern as well as your
-weapon and picking your way over oversized roots of the great trees.
+   You are deep in the forest with no trail, and no clue as to what
+might be creeping about in search of food... with you, of course, as the
+food.  It is very dark here beneath the bluish canopy, and it is no easy
+thing to hold a light and a weapon at once while clambering over the
+enormous roots of the great trees.
 ~
 18 0 2
 D1
@@ -691,11 +715,11 @@ D3
 S
 #1833
 Deep in the Forest~
-   You are deep in the forest with no trail or any clue as to what might be
-sneaking around looking for some food...yourself being the food of course.
-It is pretty dark here and it is tough holding a lantern as well as your
-weapon and picking your way over oversized roots of the great trees.  Exits
-lead in all directions.
+   You are deep in the forest with no trail, and no clue as to what
+might be creeping about in search of food... with you, of course, as the
+food.  It is very dark here beneath the bluish canopy, and it is no easy
+thing to hold a light and a weapon at once while clambering over the
+enormous roots of the great trees.
 ~
 18 0 2
 D0
@@ -717,11 +741,11 @@ D3
 S
 #1834
 Deep in the Forest~
-   You are picking yor way through the dense, dark-blue foliage of Darkweir.
-You can grunting sounds and the rapid chatter of the forest inhabitants as
-the warn others of your noisy approach.  There is a thick wall of brambles
-and bushes to the east blocking any passage that way.  Exits lead in all
-other directions.
+   You are picking your way through the dense, dark blue foliage of
+Darkweir.  Grunting sounds and the rapid chatter of the forest's
+creatures surround you as they warn one another of your noisy approach.
+A thick wall of brambles and bushes to the east blocks any passage that
+way, but the forest continues north, south and west.
 ~
 18 a 2
 D0
@@ -739,11 +763,10 @@ D3
 S
 #1835
 Ancient Path Through Darkweir Hallows~
-   You are walking along a very old path that looks like it may have been
-used by more animals than man.  Hopefully you won't come across any of those
-animals that may be detrimental to your health.  You can hack and slash
-your way through the foliage to the east where it gets a bit lighter.  Other-
-wise the path continues north and south.
+   You are walking along a very old path, more used by animals than by
+men, its earth marked with tracks of every size.  To the east the
+foliage thins, and you could hack your way through toward a lighter part
+of the forest.  Otherwise the path continues north and south.
 ~
 18 0 2
 D0
@@ -761,11 +784,11 @@ D2
 S
 #1836
 Off the Ancient Path~
-   You are just off a path that bisects Darkweir.  Your conscience kicks in
-and reminds you that you can still get back on the path before you get lost.
-Your wander-lust reminds you that you will never get to be powerful or
-receive glory without doing a little adventuring.  Exits lead west, back onto 
-the trail or south into a light section of the forest.
+   You are just off the ancient path that crosses Darkweir.  Your
+conscience reminds you that you can still get back onto the path before
+you are lost; your wanderlust reminds you that you will never be
+powerful or win glory without doing a little adventuring.  The way leads
+west back onto the trail, or south toward a brighter part of the forest.
 ~
 18 0 2
 D2
@@ -779,9 +802,10 @@ D3
 S
 #1837
 Light forest~
-   You can hear hushed laughter and some idle conversation coming from a
-ways further in the forest to the east.  The flicker of a campfire turns
-the dark-blue leaves of the Darkweirian Trees into eerie purple blades.
+   Hushed laughter and idle conversation drift through the trees from
+somewhere to the east.  The flicker of a campfire turns the dark blue
+leaves of the Darkweir trees into eerie purple blades, and the smell of
+woodsmoke hangs in the air.  The light forest continues north and east.
 ~
 18 0 2
 D0
@@ -795,11 +819,11 @@ D1
 S
 #1838
 Light Forest~
-   You have come to the edge of the light section of the forest.  To the
-east is a small clearing in which you spy a small party of men enjoying a
-hickory smoked deer.  You creep closer trying not to disturb them but fail
-miserably as you step on a dry twig and it *SNAPS* beneath your feet alerting
-the party of your arrival.
+   You have come to the edge of the light forest.  To the east lies a
+small clearing, and from it comes the smell of roasting venison and the
+murmur of rough voices.  However carefully you tread, every dry twig
+seems ready to snap and give you away.  The forest continues north,
+south and west.
 ~
 18 0 2
 D0
@@ -821,11 +845,11 @@ D3
 S
 #1839
 Small Encampment in the Clearing~
-   You walk into the clearing looking kind of sheepish.  There are four  
-adventurers staring at you, wondering why you disturbed their dinner.  A
-large leg of venison is sitting on a fire built from hickory tree bark 
-filling the entire clearing with a wonderful aroma that gets your appetite
-a-soaring.
+   This small clearing has been trampled flat by the boots of a camping
+party.  A fire of hickory bark burns in a ring of stones at its center,
+filling the clearing with a wonderful aroma that sets your stomach
+growling.  Bedrolls and packs lie scattered about the fire.  The light
+forest surrounds the clearing on every side.
 ~
 18 0 2
 D0
@@ -847,12 +871,10 @@ D3
 S
 #1840
 Light Forest~
-   You have come to the edge of the light section of the forest.  To the
-west is a small clearing in which you spy a small party of men enjoying a
-hickory smoked deer.  You creep closer trying not to disturb them but fail
-miserably as you step on a dry twig and it *SNAPS* beneath your feet alerting
-the party of your arrival.  A thick wall of foliage blocks any passage to
-the east.
+   You have come to the edge of the light forest.  To the west lies a
+small clearing, and from it comes the smell of roasting venison and the
+murmur of rough voices.  A thick wall of foliage blocks any passage to
+the east, and the forest's edge runs north and south.
 ~
 18 0 2
 D0
@@ -870,12 +892,11 @@ D3
 S
 #1841
 Edge of the Forest~
-   Before you stands a huge wall of stone.  There is no possible way
-to scale this awesome mountain.  It would seem the forest is totally
-blocked off by the mountain and so are any exits to the west.  You scramble
-up the side of the mountain a little ways but soon get tired of the almost
-straight up climb.  You look out over the forest and see that it stretches
-to the east for about 3 miles into the horizon.
+   Before you stands a huge wall of stone, sheer and gray.  There is no
+possible way to scale it, and it blocks the forest off completely to the
+west.  You scramble up a little way but soon tire of the nearly vertical
+climb.  From here the forest stretches away to the east for about three
+miles, as far as the horizon.  The forest continues north and east.
 ~
 18 0 2
 D0
@@ -889,12 +910,13 @@ D1
 S
 #1842
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your clothing and the roots trip you as
-you blunder on.  Exits lead in all directions except south as the foliage
-is too thick to even hack through with your weapon.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.  To the south the foliage is too thick to hack through even with
+a weapon.
 ~
 18 0 2
 D0
@@ -912,12 +934,13 @@ D3
 S
 #1843
 Deep in the Forest~
-   You are wandering around Darkweir with no path.  Unfortunatly you are
-lost too.  Hopefully you can find your way back to the path or somewhere
-else as it is getting darker with each step into the forest you take.  The
-blueish trees' gnarled branches rip your clothing and the roots trip you as
-you blunder on.  Exits lead in all directions except south as the foliage
-is too thick to even hack through with your weapon.
+   You are wandering through Darkweir Hallows with no path to follow,
+and you are thoroughly lost.  The bluish trees crowd close on every
+side, their gnarled branches snagging your clothing and their roots
+tripping you as you blunder on.  Moss hangs in gray curtains from the
+boughs, and it grows a little darker with every step you take into the
+forest.  To the south the foliage is too thick to hack through even with
+a weapon.
 ~
 18 0 2
 D0
@@ -935,11 +958,10 @@ D3
 S
 #1844
 Off the Ancient Path~
-   You are just off a path that bisects Darkweir.  Your conscience kicks in
-and reminds you that you can still get back on the path before you get lost.
-Your wander-lust reminds you that you will never get to be powerful or
-receive glory without doing a little adventuring.  Exits lead east, back onto 
-the trail or west into a dark section of Darkweir.
+   You are just off the ancient path that crosses Darkweir.  Your
+conscience reminds you that you can still get back onto the path before
+you are lost; your wanderlust urges you deeper.  The way leads east back
+onto the trail, or west into a dark section of Darkweir.
 ~
 18 0 2
 D1
@@ -953,10 +975,10 @@ D3
 S
 #1845
 Ancient Path Through Darkweir Hallows~
-   You are walking along a very old path that looks like it may have been
-used by more animals than man.  Hopefully you won't come across any of those
-animals that may be detrimental to your health.  The path continues north 
-and south.
+   You are walking along a very old path, more used by animals than by
+men.  Mushrooms grow in rings along its edges, and the air is damp and
+earthy.  The path continues north and south, and to the west you could
+push your way off the path into the forest.
 ~
 18 0 2
 D0
@@ -974,10 +996,11 @@ D3
 S
 #1846
 Light Forest~
-   The forest is very bright here as there are only two very large trees   
-in the vicinity.  Their dark, blue leaves are shaped into strange spirals
-that reach up towards the heavens.  It is quiet here as if something were
-nearby or about to happen.
+   The forest is bright here, for only two very large trees stand
+nearby.  Their dark blue leaves grow in strange spirals that reach up
+toward the heavens, and a small patch of wildflowers blooms in the
+sunlight between them.  It is quiet, as if something were nearby or
+about to happen.  The forest leads north and east.
 ~
 18 0 2
 D0
@@ -991,9 +1014,9 @@ D1
 S
 #1847
 Light Forest~
-   You are trekking through a lighter section of the forest but off the
-path so you can still easily get lost even though you can see.  Two huge
-trees block all passage to the north and south but you may still continue
+   You are trekking through a lighter section of the forest, though off
+the path you can still easily get lost even when you can see.  Two huge
+trees block all passage to the north and south, but you may continue
 through the forest to the east and west.
 ~
 18 0 2
@@ -1008,9 +1031,10 @@ D3
 S
 #1848
 Light Forest~
-   The forest is bright and pretty and you can easily pick your way through
-the gentle woods.  You hear voices coming from the north-east and can 
-smell hickory wood burning from a nearby cooking fire.  
+   The forest is bright and pretty here, and you can easily pick your
+way through the gentle woods.  You hear voices coming from the northeast
+and smell hickory wood burning in a cooking fire.  The forest continues
+north, east and west.
 ~
 18 0 2
 D0
@@ -1028,11 +1052,9 @@ D3
 S
 #1849
 Light Forest~
-   You have come to the edge of the light section of the forest.  To the
-west is a small clearing in which you spy a small party of men enjoying a
-hickory smoked deer.  You creep closer trying not to disturb them but fail
-miserably as you step on a dry twig and it *SNAPS* beneath your feet alerting
-the party of your arrival.
+   You have come to the edge of the light forest.  To the north lies a
+small clearing, and from it comes the smell of roasting venison and the
+murmur of rough voices.  The forest continues east and west.
 ~
 18 0 2
 D0
@@ -1050,9 +1072,10 @@ D3
 S
 #1850
 Edge of the Light forest~
-   You have come to the edge of the light forest.  There is a wall of dense
-foliage blocking all passage to the east.  You hear voices and hushed
-commotion coming from a small clearing to the north-west.
+   You have come to the edge of the light forest.  A wall of dense
+foliage blocks all passage to the east.  You hear voices and hushed
+movement coming from a small clearing to the northwest.  The forest
+leads north and west.
 ~
 18 0 2
 D0
@@ -1066,10 +1089,10 @@ D3
 S
 #1851
 The Ancient Path Through Darkweir Hallows~
-   You are trekking down a long, ancient path through Darkweir.  Huge walls
-of vines have overgrown on both sides of the path making it too dense to
-even consider hacking your way to either the east or the west.  You may only
-continue walking north or south.
+   You are trekking down a long, ancient path through Darkweir.  Huge
+walls of vines have grown up on both sides of the path, so dense that
+you would not even consider hacking your way through to the east or
+west.  You may only continue north or south.
 ~
 18 0 2
 D0
@@ -1083,10 +1106,11 @@ D2
 S
 #1852
 Up in a Tall Tree~
-   You are standing up in a tall tree that overlooks the entire forest.
-Breezes cool you as they gently sweep by.  A magnificent city lies far to 
-the north and to the south you see the tallest tree you have ever laid eyes  
-on.  It has silverish leaves that shimmer in the breeze.
+   You are perched high in a tall tree that overlooks the entire forest.
+Breezes cool you as they sweep gently by.  A magnificent town lies far
+to the north, and to the south you see the tallest tree you have ever
+laid eyes on, its silvery leaves shimmering in the breeze like a
+thousand tiny mirrors.  The way down leads back to the path.
 ~
 18 0 2
 D5
@@ -1096,11 +1120,11 @@ D5
 S
 #1853
 The Ancient Path Through Darkweir Hallows~
-   You are trekking down a long, ancient path through Darkweir.  Huge walls
-of vines have overgrown on both sides of the path making it too dense to
-even consider hacking your way to either the east or the west.  To the south
-the path comes to an end but intersects another path that lies in an east
-west fashion.  Looking north the Ancient Path continues on between the trees.
+   You are trekking down a long, ancient path through Darkweir.  Huge
+walls of vines have grown up on both sides of the path, too dense to
+hack through.  To the south the path comes to an end where it meets
+another path running east and west.  Looking north, the ancient path
+continues on between the trees.
 ~
 18 0 2
 D0
@@ -1114,10 +1138,10 @@ D2
 S
 #1854
 Turn in the Path~
-   The path takes a turn here leading to the south and to the east.  A tall
-tree stands directly in the middle of the trail with low, sturdy branches.
-It looks like you may be able to climb the tree and see the forest from
-a bird's-eye view.
+   The path takes a turn here, leading south and east.  A tall tree
+stands directly in the middle of the trail with low, sturdy branches.
+It looks as if you could climb it and see the forest from a bird's-eye
+view.
 ~
 18 c 2
 D1
@@ -1135,13 +1159,12 @@ D4
 S
 #1855
 A Path through Darkweir Hallow~
-   You are on a path in the southern section of Darkweir.  Tall trees line
-both sides of the path making it almost like you were in a tunnel.  Hard  
-roots crossing the path cause you to stumble every so often even though
-you are trying to keep from being clumsy.  To the west you notice the
-trail turns sharply to the south.  Also there is a large tree sitting
-directly in the center of the trail to the west.  To the east the path
-stretches off without much change.
+   You are on a path in the southern part of Darkweir.  Tall trees line
+both sides of the path, their branches meeting overhead so that it is
+almost like walking through a tunnel.  Hard roots cross the path, making
+you stumble however careful you are.  To the west the trail turns
+sharply to the south around a large tree growing in its center, and to
+the east the path stretches off without much change.
 ~
 18 0 2
 D1
@@ -1155,13 +1178,11 @@ D3
 S
 #1856
 A Path through Darkweir Hallow~
-   You are on a path in the southern section of Darkweir Hallow.  Tall 
-trees line both sides of the path making it almost like you were in a 
-tunnel.  Hard roots crossing the path cause you to stumble every so often 
-even though you are trying to keep from being clumsy.  To the east the 
-path comes to an intersection with another path running north to the 
-north.  To the west the path stretches off towards a large tree sitting 
-in the middle of the path.
+   You are on a path in the southern part of Darkweir Hallow.  Tall
+trees line both sides of the path like the walls of a tunnel, and roots
+cross it to trip the unwary.  To the east the path comes to an
+intersection with another path leading north, and to the west it
+stretches off toward a large tree growing in the middle of the trail.
 ~
 18 0 2
 D1
@@ -1175,10 +1196,11 @@ D3
 S
 #1857
 Intersection of the Two Paths~
-   You are at an intersection where you have the choice between two paths.
-One path that looks very old and well used stretches off into the northern
-sections of Darkweir Hallow.  To the east and west another path stretches 
-off like a tunnel between the tall dark-blue trees.
+   You are at an intersection where two paths meet.  One, very old and
+well used, stretches off into the northern reaches of Darkweir Hallow.
+The other runs east and west like a tunnel between the tall dark blue
+trees.  A weathered stone marker stands at the junction, its carvings
+long since worn away.
 ~
 18 0 2
 D0
@@ -1196,13 +1218,11 @@ D3
 S
 #1858
 A Path through Darkweir Hallow~
-   You are on a path in the southern section of Darkweir.  Tall trees line
-both sides of the path making it almost like you were in a tunnel.  Hard  
-roots crossing the path cause you to stumble every so often even though
-you are trying to keep from being clumsy.  To the west you notice the path
-comes to an intersection where another path leads off to the north.  To the
-east the path through Darkweir Hallow just keeps on stretching off like a 
-tunnel between the trees.
+   You are on a path in the southern part of Darkweir.  Tall trees line
+both sides of the path like the walls of a tunnel, and roots cross it to
+trip the unwary.  To the west the path comes to an intersection where
+another path leads north.  To the east the path stretches on, growing
+darker as it goes.
 ~
 18 0 2
 D1
@@ -1216,13 +1236,12 @@ D3
 S
 #1859
 The Dark Path in the Forest~
-   The path suddenly gets dark here as the trees press in closer and closer.
-Looking up you can barely see the sun through the dark-blue leaves.  Here and
-there daggers of sunlight breach the darkness but not often enough to not
-require a lantern or some kind of light source.  You get the feeling that you
-are being watched from somewhere.  Looking back to the west you can see the
-forest brighten as the trees become less ambient.  Down the path to the east
-it remains dark and foreboding.
+   The path suddenly grows dark as the trees press in closer and closer.
+Looking up, you can barely see the sun through the dark blue leaves;
+here and there a dagger of sunlight pierces the gloom, but not often
+enough to see by without a light.  You get the feeling that you are
+being watched.  Back to the west the forest brightens as the trees thin,
+but down the path to the east it remains dark and foreboding.
 ~
 18 a 2
 D1
@@ -1236,10 +1255,11 @@ D3
 S
 #1860
 Dark Path Through Darkweir~
-   You are walking down a dark path in Darkweir Hallow.  The trees seem 
-to push closer and closer together, making it impossible to go anywhere 
-but east or west.  The feeling of being watched hasn't left either and 
-you are beginning to get a little nervous.
+   You are walking down a dark path in Darkweir Hallow.  The trees push
+closer and closer together, making it impossible to go anywhere but east
+or west.  The feeling of being watched has not left you, and you are
+beginning to get a little nervous.  Every rustle in the leaves makes you
+start.
 ~
 18 a 2
 D1
@@ -1253,13 +1273,11 @@ D3
 S
 #1861
 Dark Path Through Darkweir~
-   You are walking down a dark path in Darkweir Hallow.  The trees seem 
-to push closer and closer together, making it impossible to go anywhere but east
-or west.  The feeling of being watched hasn't left either and you are
-beginning to get a little nervous.  To the east the path takes a turn to
-the south you think but aren't sure as it is pretty dark.  Another tree
-stands directly in the center of the trail a little further east down the
-dark trail through the hollow.
+   You are walking down a dark path in Darkweir Hallow.  The trees push
+closer and closer together, making it impossible to go anywhere but east
+or west.  The feeling of being watched has not left you.  To the east
+the path seems to turn, though in this darkness you cannot be sure, and
+the shape of another great tree rises from the middle of the trail.
 ~
 18 a 2
 D1
@@ -1273,11 +1291,11 @@ D3
 S
 #1862
 Turn in the Path~
-   The path takes a turn here leading to the south and to the west.  A tall
-tree stands directly in the middle of the trail with low, sturdy branches.
-It looks like you may be able to climb the tree and see the forest from
-a bird's-eye view.  Looking east, the tunnel of trees stretches off into
-a tiny hole of light.  To the south it just stays dark.
+   The path takes a turn here, leading south and west.  A tall tree
+stands directly in the middle of the trail with low, sturdy branches;
+you could climb it and see the forest from a bird's-eye view.  To the
+east the tunnel of trees closes in to a tiny pinhole of light far away,
+while to the south the path stays dark.
 ~
 18 a 2
 D2
@@ -1295,13 +1313,13 @@ D4
 S
 #1863
 Up in a Tall Tree~
-   Light at last!  You are standing up in a tall tree that overlooks the 
-entire forest.  Breezes cool you as they gently sweep by.  A magnificent 
-city lies far to the north and to the west you see the tallest tree you 
-have ever laid eyes on.  It has silverish leaves that shimmer in the breeze.  You are about to
-climb down when you suddenly spy several large (even large at the height
-you are at) mean looking figures are huddled behind trees.  It would seem
-they are waiting for something to happen.  They look like ogres!
+   Light at last!  You are perched high in a tall tree that overlooks
+the entire forest, and the breeze is cool and fresh after the gloom
+below.  A magnificent town lies far to the north, and to the west you
+see the tallest tree you have ever laid eyes on, its silvery leaves
+shimmering in the breeze.  As you look down, you spy several large,
+mean-looking figures huddled behind the trees below, waiting for
+something.  They look like ogres!  The way down leads back to the path.
 ~
 18 0 2
 D5
@@ -1311,9 +1329,10 @@ D5
 S
 #1864
 The Path Through Darkweir Hollows~
-   The tunnel-like path between the trees doesn't leave too much room for
-checking out the area but looking to the north you spy a large tree sitting
-in the center of the path.  To the south the trail takes a turn to the east.
+   The tunnel-like path between the trees leaves little room for looking
+around, hemmed in as it is by trunks and hanging vines.  To the north
+you spy a large tree growing in the center of the path, and to the south
+the trail turns east.
 ~
 18 0 2
 D0
@@ -1327,10 +1346,11 @@ D2
 S
 #1865
 Dark Path through Darkweir Hollows~
-   You are walking down a dark, tunnel-like path through Darkweir Hollows.
-You cannot see very well in the darkness as the dark-blue leaves of the trees
-block out the sunlight.  To the north you see a tree sitting directly in the
-center of the path.  To the south it is ominously silent and dark.
+   You are walking down a dark, tunnel-like path through Darkweir
+Hollows.  The dark blue leaves overhead shut out the sunlight, and you
+can see very little in the gloom.  To the north a tree grows directly in
+the center of the path.  To the south everything is ominously silent and
+dark.
 ~
 18 a 2
 D0
@@ -1344,9 +1364,9 @@ D2
 S
 #1866
 Turn in the Path~
-   At this point, two huge, fat trees sit on the southern side of the path,
-forcing it to turn and run around it.  It continues on to the north and to
-the east.
+   Two huge, fat trees sit on the southern side of the path here, their
+roots heaving up the earth, forcing the trail to bend around them.  It
+continues on to the north and to the east.
 ~
 18 0 2
 D0
@@ -1360,9 +1380,10 @@ D1
 S
 #1867
 Turn in the Path~
-   The path turns here to avoid running into a dense clump of brambles and
-dark-blue bushes.  The path continues to the west and to the south the tunnel
-of trees opens up finally but still it strecthes on as far as you can see.
+   The path turns here to avoid a dense clump of brambles and dark blue
+bushes, thick with thorns as long as your finger.  It continues to the
+west, and to the south the tunnel of trees finally opens up, though the
+trail still stretches on as far as you can see.
 ~
 18 0 2
 D2
@@ -1376,8 +1397,11 @@ D3
 S
 #1868
 Turn in the Dark Path~
-   The Dark Path takes a quick turn here.  It leads off into darkness in
-both the east and southward directions.  Everything is silent.
+   The Dark Path takes a quick turn here, bending around a stand of
+twisted, leafless trees.  It leads off into darkness both to the east
+and to the south.  The ground is soft and damp underfoot, and a thin
+mist clings to the hollows on either side of the path.  Everything is
+silent; not even the wind stirs the branches.
 ~
 18 0 2
 D1
@@ -1391,11 +1415,11 @@ D2
 S
 #1869
 The Dark Path~
-   You are standing on the dark path in the southern part of the Darkweir
-Hollows.  Dark-blue leaves of the trees block out any sunlight that may be
-shining.  You no longer know if it is dark or light outside the tunnel-like
-ambience of the trees.  Looking east and west you see the path turn south-
-ward in both directions.
+   You are standing on the dark path in the southern part of Darkweir
+Hollows.  The dark blue leaves block out every trace of sunlight, so
+that you no longer know whether it is day or night beyond the trees.
+Looking east and west, you can just make out the path turning southward
+in both directions.
 ~
 18 0 2
 D1
@@ -1409,8 +1433,11 @@ D3
 S
 #1870
 Turn in the Dark Path~
-   The Dark Path takes a quick turn here.  It leads off into darkness in
-both the west and southward directions.  Everything is deadly silent.
+   The Dark Path takes a quick turn here.  It leads off into darkness
+both to the west and to the south, winding between gnarled trunks that
+crowd close on either side.  No birds sing, no insects chirp, and even
+your own footsteps seem muffled by the heavy air.  Everything is deadly
+silent.
 ~
 18 0 2
 D2
@@ -1424,11 +1451,11 @@ D3
 S
 #1871
 Dark Path through Darkweir Hollows~
-   You are walking down a dark, tunnel-like path through Darkweir Hollows.
-You cannot see very well in the darkness as the dark-blue leaves of the trees
-block out the sunlight.  To the north you see a tree sitting directly in the
-center of the path.  To the south it is ominously silent and dark as the
-trail comes to a corner and turns to the west.
+   You are walking down a dark, tunnel-like path through Darkweir
+Hollows.  The dark blue leaves overhead shut out the sunlight, and you
+can see very little.  To the north a tree grows in the middle of the
+path.  To the south everything is ominously silent and dark where the
+trail reaches a corner and turns west.
 ~
 18 0 2
 D0
@@ -1442,9 +1469,11 @@ D2
 S
 #1872
 Before the Trailhead~
-   You stand before a trailhead that leads into a bright hollow of trees.
-You hear the chitter-chatter of the forest animals coming from the south and
-feel the pull of nature on your heels from the south.
+   You stand before a trailhead that leads into a bright hollow of
+trees.  After the gloom of the dark path, the sunlight here seems almost
+dazzling.  The chatter of forest animals drifts up from the south, and
+you feel the pull of nature drawing you onward.  The path leads back
+north.
 ~
 18 0 2
 D0
@@ -1458,11 +1487,12 @@ D2
 S
 #1873
 A Silent Clearing~
-   You have stumbled upon a silent clearing in the woods.  The trees circle
-around you and you slowly realize this is the most PERFECT place for an
-ambush.  Speak of the Devil!  You here a low pitched chuckle coming from
-behind one of the trees and whirl around to face your enemy.  There is a
-very small cave with an even smaller iron gate locked across the entrance.
+   You have stumbled upon a silent clearing in the woods.  The trees
+stand in a close ring around you, and you slowly realize that this is
+the most PERFECT place for an ambush.  The grass is trampled flat, and
+bones are scattered in the long weeds at the clearing's edge.  In the
+hillside to the south there is a very small cave, with an even smaller
+iron gate locked across its entrance.  The dark path leads back north.
 ~
 18 a 2
 D0
@@ -1476,8 +1506,10 @@ secret~
 S
 #1874
 Turn in the Dark Path~
-   The Dark Path takes a quick turn here.  It leads off into darkness in
-both the north and east directions.  Everything is deadly silent.
+   The Dark Path takes a quick turn here, doubling back on itself around
+a low mound of moss-covered stones.  It leads off into darkness to the
+north and to the east.  Pale fungus grows on the roots of the nearby
+trees, giving off the faintest of glows.  Everything is deadly silent.
 ~
 18 0 2
 D0
@@ -1491,8 +1523,11 @@ D1
 S
 #1875
 Turn in the Dark Path~
-   The Dark Path takes a quick turn here.  It leads off into darkness in
-both the west and northern directions.  Everything is deadly silent.
+   The Dark Path takes a quick turn here.  It leads off into darkness to
+the west and to the north, where it rejoins the main path through
+Darkweir Hollows.  The trees lean in overhead until their branches
+nearly meet, and what little light there is fades to a dull gray.
+Everything is deadly silent.
 ~
 18 0 2
 D0
@@ -1505,10 +1540,12 @@ D3
 0 -1 1874
 S
 #1876
-The Ogre's Hord~
-   You are in small cave just past the ambush that the ogres set up for you. 
-Strewn all about the cave are weapons a equipment...no doubt from luckless
-adventurers that stumbled into the ambush.
+The Ogre's Hoard~
+   You are in a small cave just past the clearing where the ogres lie in
+ambush.  Weapons, armor and equipment are strewn all about the cave, no
+doubt taken from luckless adventurers who stumbled into the trap.  The
+stench is terrible, and the floor is littered with gnawed bones.  An
+iron gate leads back north to the clearing.
 ~
 18 0 2
 D0
@@ -1523,7 +1560,7 @@ and the walls are still made of the dirt the hall was dug into.  On the
 wall is a large crest and under it is a list of rules which every member
 of the Ebon Cross must adhere to.
 A large statue of Gray stands in the north eastern corner of the room
-looking very evil and powerhungry.
+looking very evil and power-hungry.
 ~
 18 cejlrs 0
 D4
@@ -1565,13 +1602,12 @@ is a large scroll with several things written upon it.
 S
 #1878
 The Backroom~
-   This room looks to be some sort of shady casino.
-There are all sorts of gambling games scattered throughout the room
-which people are avidly trying their luck at.  On the wall is a large
-picture of a man playing a lute.  Under the picture is a caption of
-of the name of the young elf in the picture, Lyre.  Once a great bard,
-now he is the proprietor of the Tankard's casino.  To the south there
-is an exit to the main bar.
+   This room appears to be some sort of shady casino.  Gambling games of
+all sorts are scattered throughout the room, and people are avidly
+trying their luck at them amid clouds of pipe smoke.  On the wall hangs
+a large painting of a young elf playing a lute, with a caption beneath
+bearing his name: Lyre.  Once a great bard, he is now the proprietor of
+the Tankard's casino.  A door to the south leads to the main bar.
 ~
 18 0 0
 D2
@@ -1581,11 +1617,10 @@ door~
 S
 #1880
 Corner of the Drerim Temple~
-   You are standing at a corner in the hallway inside the Drerim
-Temple.  An eerie glow is cast from small blood red candles set upon
-golden candleholders which are fixed into the wall.  You hear the
-droning prayers of the druids chanting to their god echoing through the
-hallways.
+   You are standing at a corner of the hallway inside the Drerim Temple.
+An eerie glow is cast by small blood-red candles set in golden holders
+fixed to the walls.  The droning prayers of the druids, chanting to
+their god, echo through the hallways.  The hallway leads east and south.
 ~
 18 ad 0
 D1
@@ -1599,11 +1634,10 @@ D2
 S
 #1881
 Hallway in the Drerim Temple~
-   You stand in a small hallway big enough for the wiry druids that
-wander through this temple.  You see blood seeping from a small crack
-in the wall of the temple lit by a blood red candle in the wall above
-the crack.  You can go east down the hallway or west which leads to a
-corner.
+   You stand in a narrow hallway, just big enough for the wiry druids
+who wander this temple.  Blood seeps from a small crack in the wall, lit
+by a blood-red candle burning above it.  You can go east down the
+hallway, or west to a corner.
 ~
 18 ad 0
 D1
@@ -1617,11 +1651,11 @@ D3
 S
 #1882
 Hallway in the Drerim Temple~
-   The hallway is made of a a strange stone which you cannot quite place.
-It is a pale white color and feels as if it may be hollow  on the inside.
-A candle burns out as you stand here and the hot, wet wax spills on the
-floor next to your feet.  You can go either east, towards a corner in the
-temple or west down the hallway.
+   The hallway is made of a strange stone you cannot quite place.  It is
+pale white and feels as if it might be hollow inside, almost like bone.
+As you stand here a candle gutters out, and its hot wax spills onto the
+floor beside your feet.  You can go east toward a corner, or west down
+the hallway.
 ~
 18 ad 0
 D1
@@ -1635,10 +1669,11 @@ D3
 S
 #1883
 Corner in the Drerim Temple~
-   Here the walls are spilling blood all over the place.  The blood swirls
-around your feet and finds a small hole in the floor where it whirlpools
-out of the temple.  The walls suddenly stop spouting blood and all is
-silent - even the chanting of the druids has stopped.
+   Here the walls are spilling blood everywhere.  It swirls around your
+feet and drains into a small hole in the floor, spinning away like a
+whirlpool.  Then, without warning, the walls stop bleeding and
+everything falls silent; even the chanting of the druids has stopped.
+The hallway leads south and west.
 ~
 18 ad 0
 D2
@@ -1652,10 +1687,11 @@ D3
 S
 #1884
 Hallway in the Drerim Temple~
-   You stand here and watch in horror as a small stream of blood trickles
-out of the wall and spills onto the floor.  The hallway is lit by an 
-eerie glow coming from blood red candles in candleholders fixed into
-the pale white walls of the temple.
+   You stand here and watch in horror as a small stream of blood
+trickles out of the wall and spills onto the floor.  The hallway is lit
+by the eerie glow of blood-red candles in holders fixed to the pale
+white walls.  It leads north to a corner and south to the entrance of
+the temple.
 ~
 18 ad 0
 D0
@@ -1669,11 +1705,12 @@ D2
 S
 #1885
 Hallway in the Drerim Temple~
-   The hallway is lit up by small candles giving off a strange glow - casting
-shadows on the walls all about you making you jump at every movement.  A
-droning chant echoes through the hallway as you walk along the blood covered
-walls.  You can continue walking north towards a point where the hallways
-turns west or go south to a small set of stairs that lead up into darkness.
+   The hallway is lit by small candles that give off a strange glow,
+casting shadows on the walls that make you jump at every movement.  A
+droning chant echoes along the hallway as you walk between the
+blood-covered walls.  You can continue north toward a point where the
+hallway turns west, or go south toward a small stairway leading up into
+darkness.
 ~
 18 ad 0
 D0
@@ -1687,11 +1724,12 @@ D2
 S
 #1886
 Stairway to the Drerim Temple~
-   You stand before a set of stairs that lead up into a very scary looking
-temple.  Two statues made of bone stand to either side of the stairs.  Their
-eyes are fixed on you as you ponder entering the temple.  You can hear a 
-droning chant coming from within the temple which makes you want to return
-to the safety of the Hallows.
+   You stand before a set of stairs that lead up into a very
+frightening-looking temple of pale stone.  Two statues made of bone
+stand on either side of the stairs, and their empty eyes seem fixed on
+you as you consider whether to enter.  A droning chant comes from within
+the temple, making you long to return to the safety of the Hallows.  The
+ruined entrance lies to the west.
 ~
 18 ad 0
 D3
@@ -1712,10 +1750,10 @@ Ancient Wars.
 S
 #1887
 Stairs to Drerim Temple~
-   You are standing up a set of ancient, cracked stairs that lead up into
-the Drerim Temple.  It is quite dark within the temple and a monotone
-chant echoes out from the depths of the temple.  A small railing with
-strange foreign runes is latched onto the walls of the stairway.
+   You are climbing a set of ancient, cracked stairs that lead up into
+the Drerim Temple.  It is very dark within, and a monotone chant echoes
+from its depths.  A narrow railing carved with strange foreign runes is
+fixed to the walls of the stairway.  The stairs lead up and down.
 ~
 18 ad 0
 D4
@@ -1729,9 +1767,9 @@ D5
 S
 #1888
 Entrance to the Drerim Temple~
-   You are standing at the top of the stairs leading down to the Ancient 
-Forest of Darkweir.  The temple walls are a pale white color which seem to
-be exuding blood from small cracks in the walls.  Hallways lead off north
+   You are standing at the top of the stairs that lead down toward the
+ancient forest of Darkweir.  The temple walls are pale white and seem to
+be oozing blood from small cracks in the stone.  Hallways lead off north
 and south into the darkness of the temple.
 ~
 18 ad 0
@@ -1750,9 +1788,9 @@ D5
 S
 #1889
 At a Stairway in the Temple~
-   A small stairway spirals upwards into blackness where the chanting 
-seems to be originating from.  The hallway leads off north and south into
-the depths of the Drerim Temple.
+   A small stairway spirals upward into blackness, and the chanting
+seems to come from somewhere above.  The hallway leads off north and
+south into the depths of the Drerim Temple.
 ~
 18 ad 0
 D0
@@ -1770,11 +1808,12 @@ D4
 S
 #1890
 The Drerim Inner Circle~
-   You have entered the Inner Circle of the Drerim Druids.  You cannot hear
-the druids but you can hear and somehow feel their presence within this
-chamber.  A black circle with a red triangle overlapping the circle hangs
-the ceiling and a ring of candles are set up on the floor.  It would be 
-absolutly dark without the candles giving off a little light.
+   You have entered the Inner Circle of the Drerim Druids.  You cannot
+hear the druids, yet somehow you can feel their presence within this
+chamber.  A great black circle overlapped by a red triangle hangs from
+the ceiling, and a ring of candles burns on the floor beneath it, the
+only light in the room.  Without them it would be utterly dark.  A
+doorway leads east, and the stairs lead down.
 ~
 18 ad 0
 D1
@@ -1788,12 +1827,13 @@ D5
 S
 #1891
 Lord Drerimin's Chamber~
-   The chamber is the largest room of the temple that you have seen.  Purple
-tapestries hang from the walls with golden embroidery upon them.  Each 
-tapestry has the symbol you saw in the Inner Circle chamber.  A small, bone
-altar with the remains of a furred creature, you cannot tell exactly of what,
-is splayed out over the altar crudely.  The heart is missing from the remains
-and is sitting in a small bowl waiting for god knows what.
+   This chamber is the largest room of the temple that you have seen.
+Purple tapestries embroidered with gold hang from the walls, each
+bearing the symbol of the black circle and red triangle.  A small altar
+of bone stands at the center of the room, crudely splayed with the
+remains of some furred creature you cannot identify.  Its heart has been
+removed and set in a small bowl beside it, waiting for who knows what.
+The Inner Circle lies to the west.
 ~
 18 d 0
 D3
@@ -1803,10 +1843,10 @@ D3
 S
 #1892
 Hallway in the Drerim Temple~
-   The hallway is quite dark, lit only by small blood red candles fixed onto
-the pale walls by golden holders.  The echoes of the druidic chants fills the
-hallway from all directions.  You may continue north towards the entrance to
-the temple or south through the hallways.
+   The hallway is very dark, lit only by small blood-red candles fixed
+to the pale walls in golden holders.  The echoes of the druids' chanting
+fill the hallway from every direction.  You may continue north toward
+the entrance of the temple, or south through the hallways.
 ~
 18 ad 0
 D0
@@ -1820,14 +1860,12 @@ D2
 S
 #1893
 Hallway in the Drerim Temple~
-   The echoes of the druid chants bounce of the walls in the hallway of the 
-temple.  The eerie glow of blood red candles casts shadows upon the walls
-which make you jump when the candles flicker.  The small cracks in the walls 
-seep blood which oozes out in small bubbles then spills onto the floor about
-your feet.  The hallway continues north towards a small set of stairs and
-south towards a corner in the hallway.
-
-
+   The echoes of the druids' chants bounce off the walls of this
+hallway.  The eerie glow of the blood-red candles casts shadows that
+make you jump whenever they flicker.  Small cracks in the walls seep
+blood, which oozes out in small bubbles and spills onto the floor about
+your feet.  The hallway continues north toward a small stairway and
+south toward a corner.
 ~
 18 ad 0
 D0
@@ -1841,9 +1879,10 @@ D2
 S
 #1894
 Corner in the Drerim Temple~
-   The hallway turns east and north here.  Small blood red colored candles
-in golden holders are fixed onto the walls.  Chanting echoes through halls
-somewhere from the east you think.
+   The hallway turns east and north here.  Small blood-red candles in
+golden holders are fixed to the walls, their flames burning perfectly
+still though you can feel a draft.  Chanting echoes through the halls
+from somewhere to the east, you think.
 ~
 18 ad 0
 D0
@@ -1857,10 +1896,10 @@ D1
 S
 #1895
 Hallway in the Drerim Temple~
-   Blood seeps from the cracks in the walls of the hallway.  It runs down
-the walls and forms a viscous puddle on the floor.  A rat scurries by through
-the puddle of blood leaving tiny red footprints in the blood.  The hallway
-continues east and west towards a small corner of the temple.
+   Blood seeps from the cracks in the walls of this hallway, running
+down the stone to form a viscous puddle on the floor.  A rat scurries
+through the puddle and away, leaving a trail of tiny red footprints.
+The hallway continues east, and west toward a corner.
 ~
 18 ad 0
 D1
@@ -1874,10 +1913,10 @@ D3
 S
 #1896
 Hallway in the Drerim Temple~
-   You are standing in a small hallway only about 5 feet high.  It seems to
-fit the small bodied druids that once roamed the temple.  A droning chant
-echoes through hallway.  You may continue exploring east which leads to
-a corner in the hallway or west.
+   You are standing in a small hallway only about five feet high, built
+to fit the small-bodied druids who once roamed the temple.  You must
+stoop to pass.  A droning chant echoes along the hallway.  You may
+continue east toward a corner, or west.
 ~
 18 ad 0
 D1
@@ -1891,9 +1930,10 @@ D3
 S
 #1897
 Corner in the Drerim Temple~
-   You are standing at a corner in the Drerim Temple hallway.  A tiny stream
-of blood trickles down the wall and onto the floor.  You may continue north 
-into darkness and west down the hallway.
+   You are standing at a corner of the temple hallway.  A tiny stream of
+blood trickles down the wall and pools on the floor, and the air is
+thick with the coppery smell of it.  You may continue north into
+darkness or west down the hallway.
 ~
 18 ad 0
 D0
@@ -1904,5 +1944,35 @@ D3
 ~
 ~
 0 -1 1896
+S
+#1898
+The Crypt of the Drerim~
+   You stand in a cramped crypt hollowed out beneath the temple, its air
+thick with dust and the smell of old blood.  A dull red glow seeps from
+the grooves of a worn stone plaque set into the floor, just enough to
+see by.  Niches line the walls, and in every one lies a druid in a
+rotted purple robe, the black circle and red triangle stitched on his
+breast.  Every one of them is quite dead.  A rough tunnel climbs back up
+toward the daylight to the west.
+~
+18 d 0
+D3
+A rough tunnel climbs back up to the temple archway.
+~
+~
+0 -1 1821
+E
+plaque stone floor~
+The plaque reads: "We of the Drerim drank the blood of the beasts of the
+wood that we might never die. Here we sleep until the blood calls us
+back." Beneath it, in a different and much later hand, someone has
+scratched: "It never did."
+~
+E
+niches druids robes~
+The druids lie with their hands crossed over their chests. Some clutch
+small bowls, long since dry. None of them has stirred in a very long
+time.
+~
 S
 $~

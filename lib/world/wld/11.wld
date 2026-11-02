@@ -1,11 +1,14 @@
 #1100
 The Northern Gate~
-   You are standing within the North Gate of Mytherandil.  The ceiling
-is about 20 feet above you.  Two massive wooden doors about a foot and a
-half thick are wide open.  You don't think the city has too much to
-fear from the outside considering the burly guards that are always alert
-for the dangers that abound The Dominion.  To the south, Mytheran Road
-bustles with activity all the way to the Southern Gate.
+   You are standing within the great North Gate of Mytherandil.  The
+vaulted stone ceiling arches some twenty feet above you, blackened by
+the smoke of countless torches, and two massive wooden doors, each a
+foot and a half thick and banded with iron, stand wide open against the
+walls.  The city seems to have little to fear from the outside, given
+the burly guards who are always alert for the dangers that abound in the
+Dominion.  Beyond the gate to the north the road leads out into the
+wilds, and to the south the clamor of Northgate Square spills in through
+the archway.
 ~
 11 0 1
 D0
@@ -19,12 +22,13 @@ D2
 S
 #1101
 Corner of Northgate Road and Western Wall Road~
-   You are standing at the corner of the most northwestern part of
-Mytherandil.  The northern wall stands high and proud as it casts its
-shadow across the city.  Looking just eastward you can see a large
-building with lots of noise coming from within, sounds like the noise
-of swords training.  South, the Western Wall Road stretches off toward
-the West Gate.
+   You are standing at the northwestern corner of Mytherandil, where the
+northern and western walls meet in a squat, round tower.  The northern
+wall stands high and proud, casting its long shadow across the cobbles.
+Just to the east you can hear a great deal of noise coming from a large
+building: the ring of steel on steel and the shouts of men at sword
+practice.  To the south, Western Wall Road stretches off toward the West
+Gate.
 ~
 11 0 1
 D1
@@ -38,13 +42,14 @@ D2
 S
 #1102
 Western Northgate Road~
-   The 20 ft. wall of Northgate Road stands almost directly above you
-keeping the unknown and dangerous from the city.  Suddenly you hear a
-loud battle cry and then a clash of swords...you begin to draw your weapon 
-instinctively but then notice the sign above the door to the south:
-"The Guild of the Fighter".  The sign also bares the crest of Mytherandil's 
-famed Warrior Guild - A shield with two clashing swords on the face of it.
-Some of the Dominion's finest swordsman are members of the guild.
+   The twenty-foot wall looms almost directly above you, keeping the
+unknown and the dangerous out of the city.  Suddenly you hear a loud
+battle cry and a clash of swords, and your hand drops to your weapon by
+instinct before you notice the sign above the door to the south: "The
+Guild of the Fighter".  The sign also bears the crest of Mytherandil's
+famed Warrior Guild, a shield with two clashing swords on its face.
+Some of the Dominion's finest swordsmen are members here.  Northgate
+Road runs east and west.
 ~
 11 0 1
 D1
@@ -62,11 +67,12 @@ D3
 S
 #1103
 Western Northgate Road~
-   The proud 20 ft. wall of Mytherandil towers above you...it makes Northgate
-Road seem very small when in fact it is about 10 - 15 feet wide.  To your
-west Northgate Road continues on to Western Wall Road and to the east it
-meets Mytheran Road.  Just to the west you think you hear the sounds 
-of fighting.
+   The proud twenty-foot wall of Mytherandil towers above you, making
+Northgate Road seem very small, though it is a good ten to fifteen feet
+wide.  Moss grows in the cracks between the great blocks of the wall,
+and pigeons roost in the gaps along its top.  To the west you can hear
+the sounds of fighting from the warriors' guild, and to the east the
+road runs on toward Mytheran Road.
 ~
 11 0 1
 D1
@@ -80,11 +86,11 @@ D3
 S
 #1104
 Western Northgate Road~
-   You are standing between the huge buildings lining the Northgate Road
-and the large 20 foot wall protecting Mytherandil.  Gazing upwards you spy
-the silhouette of a lone archer pacing the ramparts, searching for signs
-of invasion or any kind of trouble which may threaten the city.  Northgate
-Road moves on either east or west.
+   You are standing between the tall buildings lining Northgate Road and
+the great twenty-foot wall protecting Mytherandil.  Gazing upward, you
+spy the silhouette of a lone archer pacing the ramparts, searching the
+horizon for any sign of invasion or trouble that might threaten the
+city.  Northgate Road continues east and west.
 ~
 11 0 1
 D1
@@ -98,11 +104,11 @@ D3
 S
 #1105
 Western Northgate Road~
-   From this point on Northgate Road you can see all the way to Mytheran
-Road which is just past the building the building to the east as well as
-the corner where Northgate Road and Western Wall road which is to the west.
-There are some shady looking characters standing outside the building to
-the east.
+   From this point on Northgate Road you can see all the way to the
+corner of Western Wall Road in the west, and east past the next building
+to where the road meets Mytheran Road.  Some shady-looking characters
+loiter outside the building just to the east, their hoods drawn low, and
+passersby seem to find reasons to cross to the far side of the street.
 ~
 11 0 1
 D1
@@ -116,11 +122,12 @@ D3
 S
 #1106
 Western Northgate Road~
-  You walk along with the eyes of two shady individuals following your
-every motion.  They are dressed in black cloaks and are fingering their
-extremely effective daggers.  There is a sign above the door with an emblem
-depicting a Black Dagger.  Everything is silent within the doorway of
-the guild.
+   You walk along with the eyes of two shady individuals following your
+every motion.  They are dressed in black cloaks and idly finger their
+very effective-looking daggers.  Above a door here hangs a sign bearing
+the emblem of a black dagger, and everything is silent within its
+doorway.  Across the road to the south, oddly, is a small flower shop.
+Northgate Square lies to the east, and the road runs back west.
 ~
 11 0 1
 D1
@@ -138,12 +145,12 @@ D3
 S
 #1107
 Northgate Square~
-   You are standing at the intersection of Northgate Road and Mytheran
-Road which runs south.  Directly to the north is the northern gate
-of Mytherandil.  You can see several guards standing about the gate
-checking the papers and documents of people entering the city from
-other area and cities of The Dominion.  Northgate Road runs east and
-west.
+   You are standing at the busy intersection of Northgate Road and
+Mytheran Road, which runs south through the heart of the city.  Directly
+to the north is the northern gate of Mytherandil, where several guards
+stand about checking the papers and documents of people entering from
+other lands of the Dominion.  Carts and travelers jostle for room, and
+hawkers call out their wares.  Northgate Road runs east and west.
 ~
 11 0 1
 D0
@@ -165,10 +172,12 @@ D3
 S
 #1108
 Eastern Northgate Road~
-   Directly to the west is Northgate Square, the intersection of Mytheran
-Road and Northgate Road.  To the south is the entrance to a small building.
-Above the doorway to the building is a sign that says, "Mytherandil Mage 
-Guild".  
+   Directly to the west is Northgate Square, the bustling intersection
+of Mytheran Road and Northgate Road.  On the south side of the road
+stands a small building of dark stone with narrow, shuttered windows.
+Above its doorway hangs a sign that reads "Mytherandil Mage Guild",
+though its door is firmly shut and a faint smell of ozone lingers about
+it.  Northgate Road continues east.
 ~
 11 0 1
 D1
@@ -182,10 +191,11 @@ D3
 S
 #1109
 Eastern Northgate Road~
-   You are strolling down the quiet Northgate Road.  The Northern Wall
-towers ominously overhead - protecting the inhabitants of the city from
-the dangers of the outside world.  Northgate Road continues west towards
-Northgate Square and east towards Eastern Wall Road.
+   You are strolling down the quiet stretch of Northgate Road.  The
+Northern Wall towers ominously overhead, protecting the people of the
+city from the dangers of the outside world, and its shadow keeps this
+part of the street cool even at midday.  Northgate Road continues west
+toward Northgate Square and east toward Eastern Wall Road.
 ~
 11 0 1
 D1
@@ -199,10 +209,11 @@ D3
 S
 #1110
 Eastern Northgate Road~
-   Northgate Road runs east towards Eastern Wall Road and west back towards
-the Northgate Square.  You stand in awe at the sheer size of the towering
-Northern Wall.  Two large buildings, still dwarfed by the massive wall, 
-stand opposite the wall.
+   You stand in awe at the sheer size of the towering Northern Wall.
+Two large buildings stand opposite it on the south side of the road, yet
+even they are dwarfed by the massive stonework.  A drainage gutter runs
+along the base of the wall, gurgling after a rain.  Northgate Road runs
+east toward Eastern Wall Road and west back toward Northgate Square.
 ~
 11 0 1
 D1
@@ -216,10 +227,11 @@ D3
 S
 #1111
 Eastern Northgate Road~
-   Eastern Northgate Road runs east and west taking you to guilds and to   
-the Northgate Square.  The huge northern wall towers over you as you walk
-along.  East, Northgate Road will run into Eastern Wall Road and west will
-take you to the Northgate Square.
+   Eastern Northgate Road runs east and west between the guilds and
+Northgate Square.  The huge northern wall towers over you as you walk
+along, and the clatter of the armory to the east grows louder with every
+step.  To the east, Northgate Road runs into Eastern Wall Road, and to
+the west it leads back to the square.
 ~
 11 0 1
 D1
@@ -233,12 +245,12 @@ D3
 S
 #1112
 Eastern Northgate Road~
-   You stand outside a doorway which opens up onto Northgate Road.  Inside
-you can hear the loud clanking of steel upon steel.  There is a small sign
-atop the doorway which reads: "Steel Cross Armory".  This is Mytherandil's
-finest armory...in fact it is the only armory.  You can continue east to  
-where Northgate Road meets Eastern Wall Road and west towards Northgate
-Square as well as south into the armory.
+   You stand beside a building from which comes the loud clanking of
+steel upon steel.  A small sign above its shuttered front reads: "Steel
+Cross Armory".  This is Mytherandil's finest armory... in fact, it is
+the only one.  Sparks and smoke drift out from a vent in its roof.  You
+can continue east to where Northgate Road meets Eastern Wall Road, or
+west toward Northgate Square.
 ~
 11 0 1
 D1
@@ -252,9 +264,13 @@ D3
 S
 #1113
 Corner of Northgate Road and Eastern Wall Road~
-   Here, Northgate Road and Eastern Wall Road meet.  South, you can travel
-towards the Eastern Gate of Mytherandil or go west towards Northgate 
-Square. ~
+   Here, Northgate Road and Eastern Wall Road meet beneath the shadow of
+the great city wall.  The cobblestones are worn smooth by the endless
+traffic of carts and travelers, and the clamor of Mytherandil drifts in
+from every side.  To the south you can follow Eastern Wall Road towards
+the Eastern Gate of the city, or you can head west along Northgate Road
+towards Northgate Square.
+~
 11 0 1
 D2
 ~
@@ -267,10 +283,12 @@ D3
 S
 #1114
 Western Wall Road~
-   You are standing just south of the corner of Northgate Road and Western
-Wall Road.  Beside you stands the West Wall of Mytherandil.  It towers above
-you at about 20 feet in height.  You can travel south towards the Western
-Gate.
+   You are standing just south of the corner of Northgate Road and
+Western Wall Road.  Beside you the West Wall of Mytherandil towers some
+twenty feet into the air, its stones weathered gray and streaked with
+lichen.  Narrow stairs cut into the wall lead to the ramparts, though
+they are barred to all but the guards.  You can travel north to the
+corner, or south toward the Western Gate.
 ~
 11 0 1
 D0
@@ -284,12 +302,14 @@ D2
 S
 #1115
 Reading Room~
-   You are in a suprisingly quiet area for a warriors guild.  This is not 
-to say that just outside the room it is quiet.  But in here you are
-relatively safe from the clashing and banging of shields and swords and the
-ferocious battle cries that assault your ears.  There is a small board
-with a header written in the worst handwriting you have ever layed eyes on:
-"The Adventurer's Board".
+   This is a surprisingly quiet room for a warriors' guild.  That is not
+to say that it is quiet just outside, but in here you are relatively
+safe from the clash of shields and swords and the ferocious battle cries
+that assault your ears.  Battered chairs stand about a cold hearth, and
+old banners hang from the rafters.  There is a small board on the wall,
+its header written in the worst handwriting you have ever laid eyes on:
+"The Adventurer's Board".  The training area lies to the east, and the
+street to the north.
 ~
 11 0 1
 D0
@@ -303,14 +323,15 @@ D1
 S
 #1116
 The Warrior's Training Area~
-   The Warrior's Training Area is more like a battle field.  The wounded
-are being carried off by medics and the ground has been turned to mud from
-so much walking, bashing, kicking, and the general wear and tear that 
-naturally becomes a part of a warriors lifestyle.  There are wooden dragons
-that are almost unrecognizable from the beating they have taken from all
-the warriors honeing their axe skills on them.  Several young almost feral
-warriors are desperatly trying to hit with their oversized pikes a small
-magical ball that is dodging their wild slashes and thrusts.
+   The Warrior's Training Area is more like a battlefield.  The wounded
+are being carried off by medics, and the ground has been churned to mud
+by all the walking, bashing, kicking and general wear and tear that come
+naturally with a warrior's lifestyle.  Wooden dragons stand about,
+almost unrecognizable from the beating they have taken from warriors
+honing their axe skills on them.  Several young, almost feral warriors
+are trying desperately to hit a small magical ball with their oversized
+pikes as it dodges their wild slashes and thrusts.  The reading room
+lies back to the west.
 ~
 11 0 1
 D3
@@ -320,9 +341,12 @@ D3
 S
 #1117
 The Black Flint Lantern Shop~
-   The putrid smell of sulfur assails your nostrils as you enter the Black
-Flint Lantern Shop.  There are lanterns and torches of all shapes and sizes
-and kegs filled with kerosene all about the room.
+   The putrid smell of sulfur assails your nostrils as you enter the
+Black Flint Lantern Shop.  Lanterns and torches of all shapes and sizes
+hang from the rafters and crowd the shelves, and kegs of lamp oil are
+stacked about the room.  Everything is coated with a thin film of soot,
+and the windows are so grimy that the shop is lit only by its own wares.
+The door leads south to Darkmin Lane.
 ~
 11 0 1
 D2
@@ -346,10 +370,12 @@ D5
 S
 #1119
 The Budding Rose~
-   As you enter you suspect something is not right.  The man behind the
-counter does not fit the surroundings.  Nevertheless, the shop is filled
-with flowers of all aromas and shapes and sizes.  To the north a small
-doorway exits the shop.
+   As you enter, you suspect something is not right.  The shop is filled
+with flowers of all colors, aromas, shapes and sizes, arranged in
+buckets and pots on every surface, yet the place has the feel of a front
+for something else.  Fresh petals are strewn on the floor, but the
+counter is scarred with knife marks.  To the north a small doorway leads
+back out of the shop.
 ~
 11 0 1
 D0
@@ -359,10 +385,11 @@ D0
 S
 #1120
 Mytheran Road~
-   You stand between Northgate Square which is to the north and Darkmin
-Lane which intersects Mytheran Road to the south.  Two buildings stand to
-either side of Mytheran Road.  Entrances to them can be found off of 
-Northgate Road.  
+   You stand on Mytheran Road between Northgate Square to the north and
+Mytheran Plaza to the south, where Darkmin Lane crosses the road.  Tall
+buildings rise on either side of the road, though their entrances face
+onto Northgate Road.  The road is paved with smooth gray stones laid in
+a pattern of interlocking circles.
 ~
 11 0 1
 D0
@@ -379,7 +406,7 @@ The Mage's Library~
    You stand within a small library which looks very old and is very dusty.
 The stale smell of the books wafts through the air.  Several mages are 
 sitting in a small circle with joined hands.  The eldest mage is muttering
-words in a strange toungue.  Suddenly a small ball of fire appears out of
+words in a strange tongue.  Suddenly a small ball of fire appears out of
 nowhere and hovers in the middle of the ring of mages then as one of the
 younger mages giggles at the wonder the ball of fire disappears.  The young
 interrupting mage is cuffed on the ear by the eldest and they join hands
@@ -400,7 +427,7 @@ The Mage Training Area~
    The room is quite dark save for the glowing candles which float in mid
 air.  They give off a strange green colored light casting unearthly shadows
 on the walls.  There is no one here to train you as far as you can see but
-you do sense some kind of presense watching you...guiding you.
+you do sense some kind of presence watching you...guiding you.
 ~
 11 0 1
 D5
@@ -410,14 +437,13 @@ D5
 S
 #1123
 The Writhing Flame Cantina~
-   You stand in a small cantina filled with The Dominion's most irreputable
-characters.  They slowly turn and look at you to make sure you are not going
-to be a problem.  But quickly turn back to their converstations and drink.
-A small girl with a green hue to her skin stands behind the bar mixing a 
-strange colored drink - it is black at the bottom and a rusty red color
-on top of the black section of the drink.  Tables and chairs and a few 
-benches are all about the floor of the bar but most are already taken.  
-Stairs lead up to the inn on the far part of the cantina.
+   You stand in a small cantina filled with the Dominion's most
+disreputable characters.  They slowly turn to look at you, making sure
+you are not going to be a problem, then turn back to their drinks and
+their low conversations.  Tables, chairs and a few benches crowd the
+floor, most of them already taken, and the air is thick with smoke and
+the smell of strange spirits.  Stairs at the far end of the cantina lead
+up to the inn.  The door leads south to Darkmin Lane.
 ~
 11 0 1
 D2
@@ -461,10 +487,11 @@ door~
 S
 #1126
 Eastern Wall Road~
-   You are standing just south of the corner of Northgate Road and Eastern
-Wall Road.  Beside you stands the East Wall of Mytherandil.  It towers above
-you at about 20 feet in height.  You can travel south towards the Eastern
-Gate.
+   You are standing just south of the corner of Northgate Road and
+Eastern Wall Road.  Beside you the East Wall of Mytherandil towers some
+twenty feet into the air.  A row of iron rings is set into its base,
+where merchants tie their horses on market days.  You can travel north
+to the corner, or south toward the Eastern Gate.
 ~
 11 0 1
 D0
@@ -478,9 +505,11 @@ D2
 S
 #1127
 Intersection of Western Wall Road and Darkmin Lane~
-   Darkmin Lane intersects here with Western Wall Road.  South you can
-travel towards the Western Gates and if you go east down Darkmin Lane you
-will reach Mytheran road.
+   Darkmin Lane meets Western Wall Road at this quiet intersection.  A
+stone horse trough stands at the corner, and a lamplighter's ladder
+leans against the wall.  To the south you can travel toward the Western
+Gate, and east down Darkmin Lane you will reach Mytheran Road.  Western
+Wall Road also continues north.
 ~
 11 0 1
 D0
@@ -498,9 +527,10 @@ D2
 S
 #1128
 Darkmin Lane~
-   Darkmin Lane is a small, quiet road that bisects the northern section
-of Mytherandil.  It runs east towards Mytheran Road and west back to 
-Western Wall Road.  
+   Darkmin Lane is a small, quiet road that crosses the northern section
+of Mytherandil.  Window boxes spill flowers over the sills of the narrow
+houses here, and a cat dozes on a doorstep in the sun.  The lane runs
+east toward Mytheran Road and west back to Western Wall Road.
 ~
 11 0 1
 D1
@@ -514,8 +544,10 @@ D3
 S
 #1129
 Darkmin Lane and Rithrin Street~
-   Rithrin Street exits south of here to take you in a small circle of shops
-and things but exits back onto Darkmin Lane a bit further east of here.
+   Rithrin Street leaves Darkmin Lane here, heading south to make a
+small loop past shops and houses before rejoining the lane a little
+further east.  A wooden signpost stands at the corner, its arms painted
+with the names of the streets.  Darkmin Lane runs east and west.
 ~
 11 0 1
 D1
@@ -533,10 +565,10 @@ D3
 S
 #1130
 Darkmin Lane~
-   You are standing at the center of the portion of Darkmin Lane.  A small
-doorway with a sign above it is to the north.  The sign reads: "Black Flint
-Lantern's".  You may travel to the east towards the Mytheran Plaza or  
-west towards Western Wall Road.
+   You are standing near the middle of Darkmin Lane.  A small doorway
+with a sign above it lies to the north.  The sign reads: "Black Flint
+Lanterns", and the smell of sulfur and oil drifts from it.  You may
+travel east toward Mytheran Plaza or west toward Western Wall Road.
 ~
 11 0 1
 D0
@@ -554,11 +586,11 @@ D3
 S
 #1131
 Darkmin Lane~
-   Darkmin Lane runs across the northern section of Mytherandil, quaintly
-and quietly.  It is a narrow lane wth a bed of flowers to either side as
-borders around the shop buildings.  South is Rithrin st. and if you travel
-on eastward you will reach Mytheran Plaza.  West will take you to Western 
-Wall Road.  
+   Darkmin Lane runs quietly across the northern section of Mytherandil.
+It is a narrow lane with beds of flowers bordering the shop buildings on
+either side.  To the south is Rithrin Street, and if you travel on
+eastward you will reach Mytheran Plaza.  West will take you to Western
+Wall Road.
 ~
 11 0 1
 D1
@@ -576,10 +608,10 @@ D3
 S
 #1132
 Darkmin Lane~
-   Just east of here you can see Mytheran Plaza and all of its famed
-splendor.  You can already smell the sweet fragrance of the flowers 
-within the trellices of the plaza.  Darkmin Lane runs west towards 
-Western Wall Road.
+   Just east of here you can see Mytheran Plaza in all of its famed
+splendor, and already you can smell the sweet fragrance of the flowers
+climbing its trellises.  The lane widens here, and its cobbles give way
+to smooth flagstones.  Darkmin Lane runs west toward Western Wall Road.
 ~
 11 0 1
 D1
@@ -593,15 +625,15 @@ D3
 S
 #1133
 Mytheran Plaza~
-   The famed Plaza of Mytherandil was donated to the city by the former lord 
-of Charring Cross, Darkmane, before the city was taken over by Spine.  The 
-plaza is the last remaining memory of Charring Cross as it used to be.  
-The citizens of Mytherandil value the plaza greatly and have even requested 
-a guard to keep watch and make sure that nothing will ever happen to the area.  
-Overhead, a silver trellice with gracious potted plants and vines entwined
-about the trellice makes the plaza the perfect place for lovers and family
-to come and enjoy the day.  Darkmin Lane runs east and west from the plaza
-and Mytheran Road runs north and south.
+   The famed Plaza of Mytherandil was given to the city by the former
+lord of Charing Cross, Darkmane, before that city was taken over by
+Spine.  It is the last remaining memory of Charing Cross as it used to
+be, and the citizens of Mytherandil value it greatly.  Overhead, a
+silver trellis is entwined with vines and hung with potted plants,
+filtering the sunlight into green and gold, which makes the plaza the
+perfect place for lovers and families to enjoy the day.  Darkmin Lane
+runs east and west from the plaza, and Mytheran Road runs north and
+south.
 ~
 11 cehrs 1
 D0
@@ -623,9 +655,11 @@ D3
 S
 #1134
 Darkmin Lane~
-   Darkmin Lane, a quiet and majestic walk through the northern, commercial
-section of Mytherandil.  To the west is the famous Mytheran Plaza.  And to 
-the east Darkmin Lane continues to the Eastern Wall Road.
+   Darkmin Lane makes a quiet and stately walk through the northern,
+commercial section of Mytherandil.  Elegant shopfronts with bow windows
+display silks, perfumes and silverware.  To the west is the famous
+Mytheran Plaza, and to the east Darkmin Lane continues toward Eastern
+Wall Road.
 ~
 11 0 1
 D1
@@ -639,10 +673,11 @@ D3
 S
 #1135
 Darkmin Lane~
-   Darkmin Lane, one of Mytherandil's most beautiful streets, runs both
-east, towards Western Wall Road, and west to Mytheran Plaza.  However, to the
-south is a slightly larger street which curves through some small buildings
-and finally rejoins Darkmin Lane further east of here.
+   Darkmin Lane, one of Mytherandil's most beautiful streets, runs east
+toward Eastern Wall Road and west to Mytheran Plaza.  Here a slightly
+larger street branches south, curving through a cluster of small
+buildings before it rejoins Darkmin Lane further east.  Lamp posts of
+wrought iron line the way.
 ~
 11 0 1
 D1
@@ -660,13 +695,13 @@ D3
 S
 #1136
 Darkmin Lane~
-   You are standing at the center of the east portion of Darkmin Lane.  But
-the silence which pervaded the rest of the lane is gone.  Loud music and
-voices are coming from the building to the north which ruins the serenity of
-the quaint lane.  There is a small sign above the doorway to the north which
-reads: "The Writhing Flame Cantina and Inn".  It is reputed to be one of
-the higher class bars in the Dominion but when you get inside it is just like
-all the rest...smelly, loud, and of course dangerous.
+   The silence that fills the rest of Darkmin Lane is gone here.  Loud
+music, raucous laughter and the crash of breaking crockery pour from the
+building to the north, spoiling the serenity of the quaint lane.  A
+small sign above its doorway reads: "The Writhing Flame Cantina and
+Inn".  It is reputed to be one of the higher-class bars in the Dominion,
+but those who have been inside say it is just like all the rest: smelly,
+loud and, of course, dangerous.  The lane runs east and west.
 ~
 11 0 1
 D0
@@ -684,13 +719,12 @@ D3
 S
 #1137
 Darkmin Lane~
-   Darkmin Lane runs quietly and without much action across the northern
-section of Mytherandil.  The surrounding area is usually loud and can be
-an eyesore but this small lane is truely a sight for sore eyes.  Dainty
-flowers abutte the lane and provide as a border to the modern granite 
-buildings.  To the south a larger road opens up which curves through several
-shops and the like.  Darkmin Lane continues east to the Eastern Wall Road
-and west towards Mytheran Plaza.
+   Darkmin Lane runs quietly across the northern section of Mytherandil.
+The rest of the city can be loud and something of an eyesore, but this
+small lane is truly a sight for sore eyes.  Dainty flowers border the
+lane and soften the hard lines of the granite buildings.  To the south a
+larger road opens up, curving away past several shops.  Darkmin Lane
+continues east to Eastern Wall Road and west toward Mytheran Plaza.
 ~
 11 0 1
 D1
@@ -708,10 +742,11 @@ D3
 S
 #1138
 Darkmin Lane~
-   The great Eastern Wall of Mytherandil is in plain view directly to the
-east.  Back west you can barely make out Mytheran Plaza.  Shop buildings
-crowd the tiny lane on both sides but are seemingly stopped by the
-delicate flowers that border the buildings.
+   The great Eastern Wall of Mytherandil is in plain view directly to
+the east, its gray bulk filling the end of the lane.  Back to the west
+you can just make out the green of Mytheran Plaza.  Shops crowd the tiny
+lane on both sides, held back, it seems, only by the delicate flowers
+that border them.
 ~
 11 0 1
 D1
@@ -725,9 +760,10 @@ D3
 S
 #1139
 Eastern Wall Road and Darkmin Lane~
-   You stand next to the massive Eastern Wall of Mytherandil.  It towers   
-above you about 20 feet high and is as solid as a dragon's back.  You can
-go either north or south along Eastern Wall Road or to the west down
+   You stand beside the massive Eastern Wall of Mytherandil.  It towers
+some twenty feet above you and is as solid as a dragon's back, its great
+blocks fitted so tightly that not even a knife blade could slip between
+them.  You can go north or south along Eastern Wall Road, or west down
 Darkmin Lane.
 ~
 11 0 1
@@ -746,9 +782,10 @@ D3
 S
 #1140
 Western Wall Road~
-   You are standing next to the large Western Wall.  The road that runs
-along the western wall leads north and south around the perimeter of 
-Mytherandil.
+   You are standing beside the great Western Wall.  The road that runs
+along its foot leads north and south around the edge of Mytherandil, and
+the houses that face the wall here are small and plain, their doorsteps
+scrubbed white.
 ~
 11 0 1
 D0
@@ -762,9 +799,11 @@ D2
 S
 #1141
 Mytherandil Map's~
-   You have entered a strange shop with maps lining every wall.  Strange
-names appear on the maps and some maps glow brightly while some are tattered
-and weathered.
+   You have entered a strange shop with maps covering every wall, from
+floor to ceiling.  Strange names appear on them, many of places you have
+never heard of.  Some of the maps glow softly, their inked rivers
+seeming to flow and their forests to sway, while others are tattered and
+weathered with age.  A door leads east to Rithrin Street.
 ~
 11 0 1
 D1
@@ -774,10 +813,10 @@ D1
 S
 #1142
 Rithrin Street~
-   This rather large road is more a cul-de-sac than a road.  It opens up to
-Darkmin Lane to the north and continues south where it curves sharply east.
-There is a small shop with a globe shaped sign with the words "Mytherandil's 
-Maps" printed upon it.  
+   This rather large road is more a cul-de-sac than a street.  It opens
+onto Darkmin Lane to the north and continues south, where it curves
+sharply east.  To the west is a small shop with a globe-shaped sign
+bearing the words "Mytherandil's Maps".
 ~
 11 0 1
 D0
@@ -796,9 +835,11 @@ door~
 S
 #1143
 Burial Tower of Sand Moriquendi~
-   You stand within a small tower dedicated to the memory of Sand,
-the Lord of Justice.  A small stairway leads up into a candle lit
-chamber.  To the south is one of the many streets of Mytherandil.
+   You stand within a small tower dedicated to the memory of Sand, the
+Lord of Justice.  The walls are of pale stone, unadorned save for a
+single carved set of scales above the stairway, and the air is still and
+cool and smells of candle wax.  A narrow stairway leads up into a
+candlelit chamber, and the way down leads back to Rithrin Street.
 ~
 11 0 1
 D4
@@ -812,11 +853,11 @@ D5
 S
 #1144
 Rithrin Street~
-   Rithrin street is a rather large avenue that curves around a large, 
-curious monolith which is in the center of the circular Rithrin street and
-Darkmin Lane, which can be reached directly to the north.  To the east is
-a doorway which leads into a small shop.  Above the doorway is a sign which
-reads: "Iron Cross Armor Shop".
+   Rithrin Street is a wide avenue that curves around a large, curious
+monolith standing at the center of the loop it makes with Darkmin Lane,
+which can be reached directly to the north.  To the east is a doorway
+leading into a small shop, beneath a sign that reads: "Iron Cross Armor
+Shop".  The street continues south around the monolith.
 ~
 11 0 1
 D0
@@ -834,12 +875,12 @@ D2
 S
 #1145
 Iron Cross Armor Shop~
-   You are in the Iron Cross Armory.  Shields, full suits of armor, helms,
-helmets, iron greaves, and many other protective wear abound the small
-armor shop.  There is a small countertop set up against the far wall with a 
-fat man dozing in a comfortable looking chair.  A young apprentice works
-in the back room rigorously on a large shield in front of a roaring fire for
-melting iron and steel.
+   You are in the Iron Cross Armory.  Shields, full suits of armor,
+helms, iron greaves and many other kinds of protective wear crowd every
+corner of the small shop.  A small counter stands against the far wall
+beside a comfortable-looking chair, and the glow of a roaring forge for
+melting iron and steel spills out from the back room.  The air is hot
+and smells of coal smoke.  A door leads west to Rithrin Street.
 ~
 11 0 1
 D3
@@ -849,8 +890,12 @@ D3
 S
 #1146
 Mytheran Road~
-   Mytheran Road runs north into Mytheran Plaza and continues south towards
-the Common Square.  The wide street is cobbled with smooth, round stones.
+   Mytheran Road runs north into Mytheran Plaza and continues south
+towards the Common Square.  The wide street is cobbled with smooth,
+round stones, polished by countless feet and wagon wheels, and it is
+lined on both sides by the tall stone fronts of shops and homes.
+Merchants call out their wares, and the smell of fresh bread and
+woodsmoke hangs over the busy thoroughfare.
 ~
 11 0 1
 D0
@@ -864,11 +909,11 @@ D2
 S
 #1147
 The WhiteFlame Weapon Shop~
-   The WhiteFlame Weapon Shop is heaven for the warrior who likes a good
-weapon - and you have never met a warrior who does not like to handle a 
-good weapon.  Swords, maces, pikes, and the like are on display all about 
-the shop.  A rather large man with a cheerful smile looks up at you from the
-back room and calls out, 'Be right with you in a second, neighbor.'
+   The WhiteFlame Weapon Shop is heaven for a warrior who likes a good
+weapon, and you have never met a warrior who does not.  Swords, maces,
+pikes and the like are on display all about the shop, polished until
+they gleam, and a forge glows in the back room.  The door leads east to
+Maldre Road.
 ~
 11 0 1
 D1
@@ -878,11 +923,11 @@ D1
 S
 #1148
 Maldre Road~
-   Maldre Road is a somewhat larger street than Darkmin street.  It travels 
-around a large white building standing within the perimieter of Maldre 
-street.  There is also a smaller building to the west.  A large sign
-with a picture of a sword encompassed in white flames is hung above the  
-entrance to the building.
+   Maldre Road is somewhat wider than Darkmin Lane.  It travels around a
+large white building standing within the loop of the road.  A smaller
+building stands to the west, and above its entrance hangs a large sign
+painted with a sword wreathed in white flames.  The road leads north to
+Darkmin Lane and continues south.
 ~
 11 0 1
 D0
@@ -900,11 +945,11 @@ D3
 S
 #1149
 Mytherandil Jail~
-   You are in the entrance to the jail of Mytherandil.  You see a small
-desk with papers and pens strewn upon it pushed into the corner and
-a large cell with strong iron bars to keep whoever is inside the cell in.
-To the south is a dorrway with steps leading down to the streets of
-Mytherandil below.
+   You are in the entrance to the jail of Mytherandil.  A small desk,
+strewn with papers and pens, is pushed into the corner, and the walls
+are bare whitewashed stone.  A large cell with strong iron bars lies to
+the east, built to keep whoever is inside in.  The air smells of damp
+straw.  Steps lead down to Maldre Road below.
 ~
 11 0 1
 D1
@@ -918,13 +963,13 @@ D5
 S
 #1150
 Maldre Road~
-   You are on Maldre Road which runs the perimeter of a lavish looking
-building.  There is a doorway into what seems to be a small pub of some
-kind.  The pub's walls are somewhat charred and chipped as if it has with
-stood a small battle.  Then you notice the small wooden sign next to the
-entrance to the pub which reads: "Orcmeer Pub" with the words 'Go back to
-Moria Damn Orcs!' under the sign.  You make the educated guess that the
-orcs who visit the pub are not well liked.  
+   You are on Maldre Road, which runs around a lavish-looking white
+building.  To the east is the doorway of a small pub whose walls are
+charred and chipped as if it has withstood a small battle.  A wooden
+sign beside the entrance reads "Orcmeer Pub", and beneath it someone has
+scrawled: "Go back to Moria, Damn Orcs!"  You make the educated guess
+that the orcs who visit the pub are not well liked.  The road continues
+north and south.
 ~
 11 0 1
 D0
@@ -942,12 +987,13 @@ D2
 S
 #1151
 Orcmeer Pub~
-   You are inside one seedy shithole of a bar.  Drunken orcs stagger about
-and relieve themselves where they wish.  A few of the other races sit quietly
-in a small corner of the bar.  There is a large grouchy looking orc standing
-behind the bar wiping the crust of month old ale from it.  There is a dagger
-target board with the picture of the High Lord of Mytherandil nailed over 
-it. ~
+   You are inside one seedy hole of a bar.  The floor is sticky, the
+tables are carved with crude runes, and the stench of stale ale and
+worse is enough to make your eyes water.  A few of the other races sit
+quietly in a small corner, keeping to themselves.  A dagger target board
+hangs on one wall with a picture of the High Lord of Mytherandil nailed
+over it, well-perforated.  The door leads west to Maldre Road.
+~
 11 0 1
 D3
 ~
@@ -956,10 +1002,11 @@ D3
 S
 #1152
 Eastern Wall Road~
-   You are travelling along the eastern perimeter of Mytherandil with the
-massive eastern citywall towering over you.  To the north is a small lane
-and further north you can reach the corner of Eastern Wall Road and North-
-gate Road.  Travelling south will take you to the Eastern Gate.
+   You are traveling along the eastern edge of Mytherandil with the
+massive city wall towering over you.  To the north a small lane meets
+the road, and further north you can reach the corner of Eastern Wall
+Road and Northgate Road.  Traveling south will take you to the Eastern
+Gate.
 ~
 11 0 1
 D0
@@ -973,9 +1020,9 @@ D2
 S
 #1153
 Western Wall Road~
-   Western Wall Road runs north towards to where it meets Northgate Road
-and south to the Western Gate.  Gazing up the huge western citywall you
-spot an archer on lookout pacing the ramparts.  
+   Western Wall Road runs north toward Northgate Road and south to the
+Western Gate.  Gazing up at the huge western wall, you spot an archer on
+lookout pacing the ramparts, his bow silhouetted against the sky.
 ~
 11 0 1
 D0
@@ -989,10 +1036,11 @@ D2
 S
 #1154
 Rithrin Street~
-   Rithrin Street takes a turn here as it makes its way around the monolith-
-like structure standing just north-east of you.  You look up the monolith 
-and study it but you cannot find anything interesting.  Rithrin street
-continues north and east from here.
+   Rithrin Street takes a turn here as it makes its way around the tall
+monolith standing just to the northeast.  The stone is black and smooth,
+faintly warm to the touch even in the shade, and taller than three men.
+The longer you study it, the more it seems to be waiting for something.
+Rithrin Street continues north and east from here.
 ~
 11 0 1
 D0
@@ -1006,10 +1054,11 @@ D1
 S
 #1155
 Rithrin street~
-   You are standing near some stairs which lead up the strange tower. 
-There is a sign next to the stairs which reads: "The Burial Chambers of
-Sand Moriquendi, may his name live forever."  Rithrin Street continues
-either east or west and a small grassy path leads south to the Main Road.
+   You are standing near a flight of stairs that leads up into a slender
+tower.  A sign beside the stairs reads: "The Burial Chambers of Sand
+Moriquendi, may his name live forever."  Fresh flowers have been left on
+the bottom step.  Rithrin Street continues east and west, and a small
+grassy path leads south to the Main Road.
 ~
 11 0 1
 D1
@@ -1031,10 +1080,10 @@ D4
 S
 #1156
 Rithrin Street~
-   Rithrin street takes a sharp turn here as it continues to run the
-perimeter of the structure standing just to your northwest.  Rithrin street
-leads north back to Darkmin Lane and west around the structure.
-
+   Rithrin Street takes a sharp turn here as it runs around the monolith
+standing just to your northwest.  Its black surface reflects the street
+like a dark mirror.  Rithrin Street leads north back toward Darkmin Lane
+and west around the monolith.
 ~
 11 0 1
 D0
@@ -1048,10 +1097,10 @@ D3
 S
 #1157
 Mytheran Road~
-   Mytheran Road cuts straight down the center of Mytherandil.  From the
-Northern Gate all the way down to the Southern Gate.  Just south of here
-you can see the northern part of the great Dominion Square.  It is extremely
-large and full of life.
+   Mytheran Road cuts straight down the center of Mytherandil, all the
+way from the Northern Gate to the Southern Gate.  Just south of here you
+can see the northern edge of the great square, enormous and full of
+life, its stalls and banners stretching as far as you can see.
 ~
 11 0 1
 D0
@@ -1065,9 +1114,10 @@ D2
 S
 #1158
 Maldre Road~
-   Maldre Road curves north and east from this point as it coninues around
-the large white building. It looks as if it were made for a very rich and
-powerful man.  
+   Maldre Road curves north and east from this point as it continues
+around the large white building.  Its walls of polished marble rise high
+above the street, and it looks as if it were built for a very rich and
+powerful man.
 ~
 11 0 1
 D0
@@ -1081,10 +1131,10 @@ D1
 S
 #1159
 Maldre Road~
-   A wide marble set of stairs leads up into the entrance of the building.
-You listen for signs of life coming from up within the structure but hear 
-not a thing.  Maldre Road continues east and west and a small cobbled path
-leads south to Center Street.
+   A wide set of marble stairs leads up into the entrance of the great
+white building.  You listen for signs of life from within but hear
+nothing at all.  Maldre Road continues east and west, and a small
+cobbled alley leads south toward Center Street.
 ~
 11 0 1
 D1
@@ -1106,8 +1156,9 @@ D4
 S
 #1160
 Maldre Road~
-   You are standing just south-east of the large building fit almost for
-a king.  Maldre Road continues east around the building and north to Darkmin
+   You are standing just southeast of the large white building, a
+structure fit almost for a king.  Its tall windows are barred with iron.
+Maldre Road continues west around the building and north to Darkmin
 Lane.
 ~
 11 0 1
@@ -1122,13 +1173,13 @@ D3
 S
 #1161
 Eastern Wall Road~
-   The Eastern Wall stands about 25 feet high just overhead.  But this
-looks a bit different since it has a huge hole and a black charred ring
-around the hole.  Looks as if someone was trying to enter the hard way.
-There is scaffolding around the hole where it looks as if the city's blue
-collar workers are trying to patch that section of wall up.  Heading north
-from here will take you up to Eastern Northgate Road and if you head south
-you will get to the Eastern Gate.
+   The Eastern Wall stands about twenty-five feet high overhead, but
+here it looks quite different: a huge hole has been blasted through it,
+ringed with black scorch marks.  It looks as if someone tried to enter
+the hard way.  Wooden scaffolding surrounds the hole, and piles of
+fresh-cut stone wait for the city's workers to patch the breach.
+Heading north will take you toward Northgate Road, and south will take
+you to the Eastern Gate.
 ~
 11 0 1
 D0
@@ -1142,9 +1193,10 @@ D2
 S
 #1162
 Western Wall Road~
-   You are standing just north of the Western Gate.  It juts up even higher
-than the wall and looks to be about 5 feet wider.  You can head north though
-towards Northgate Road.  
+   You are standing just north of the Western Gate.  The gatehouse juts
+up even higher than the wall and is a good five feet wider, its towers
+crowned with banners that snap in the wind.  You can head north along
+the wall toward Northgate Road, or south to the gates.
 ~
 11 0 1
 D0
@@ -1158,10 +1210,11 @@ D2
 S
 #1163
 The Cryptic Scroll~
-   This small shop has many scrolls about it.  Most of them are enclosed
-within glass cases and cannot be read.  Which is a good because the gods
-could only know what kind of chaos could be raised if anyone could just
-read the scrolls all at once.  
+   This small shop is filled with scrolls.  Most of them are sealed
+within glass cases where they cannot be read, which is a good thing, for
+only the gods know what chaos might be raised if anyone could read them
+all at once.  Ink pots and quills cover a writing desk, and the air
+smells of parchment and wax.  The door leads south to the Main Road.
 ~
 11 0 1
 D2
@@ -1170,16 +1223,13 @@ D2
 0 -1 1175
 S
 #1164
-Mytheran Apothocary~
-   The Apothecary is a somewhat large shop with dim lights.  There are pots
-and bottle and beakers here and there, sitting on the shelves, on desks,
-and even precariously sitting on the floor for anyone to accidently kick over
-and spill.  A rather small gnome is humming to himself as he mixes a green,
-smelling looking liquid and something else you gather to be invisible as 
-it splashes the other liquid around but you cannot see him pouring anything.
-There is a quick puff of smoke and the gnome takes a quick sip of the potion.
-He smiles and writes something down in his notebook then notices you standing
-there waiting to be helped.
+Mytheran Apothecary~
+   The Apothecary is a fairly large shop lit only by a few dim lamps.
+Pots, bottles and beakers sit here and there, on shelves, on desks and
+even precariously on the floor where anyone might kick them over.
+Strange vapors curl from a bubbling flask on the counter, and every so
+often a small puff of colored smoke rises from somewhere in the back.
+The door leads south to the Main Road.
 ~
 11 0 1
 D2
@@ -1189,10 +1239,11 @@ D2
 S
 #1165
 Small Path~
-   You are on a small path that connects Center Street and Rithrin Street.
-You notice that it has been cobbled but must have been many years ago since
-there is more grass poking up than there is cobble.  South of here is Center
-Street and just to the north is Rithrin Street.  
+   You are on a small path that connects the Main Road and Rithrin
+Street.  It was cobbled once, many years ago, but now more grass pokes
+up between the stones than there are stones to see.  Wildflowers grow
+along its edges.  South of here is the Main Road, and just to the north
+is Rithrin Street.
 ~
 11 0 1
 D0
@@ -1206,9 +1257,10 @@ D2
 S
 #1166
 Northwestern Great Square~
-   You are standing in the Northeastern Square of Mytherandil.  There are
-small shops to the north and west.  Just east of here is Northern Dominion
-Square and South is Weastern Dominion Square.
+   You are standing in the northwestern corner of the great square of
+Mytherandil.  Small shops line the square to the north and west, their
+awnings striped in bright colors.  Just east of here is the northern
+part of the square, and to the south is its western side.
 ~
 11 0 1
 D1
@@ -1222,9 +1274,11 @@ D2
 S
 #1167
 Northern Great Square~
-You stand in the northern most part of the Great Square.  It is devoid of
-shop but the inhabitants of the city mill about here lackadasically.  To
-the north, Mytheran Road leads off towards the northern gates of the city.
+   You stand in the northernmost part of the Great Square.  No shops
+stand here, but the people of the city mill about at an unhurried pace,
+chatting in small groups and feeding the pigeons that strut across the
+marble.  To the north, Mytheran Road leads off toward the northern gate
+of the city, and the square spreads out to the east, south and west.
 ~
 11 0 1
 D0
@@ -1246,11 +1300,12 @@ D3
 S
 #1168
 Northeastern Great Square~
-   You are standing in the northeastern section of this great plaza.  Two
-shops, to the north and east grab your attention.  The shop to the north
-has a large sign above the entrance which read: "The General Store" and the
-one to the east has a sign reading: "The Hobbit's Loaf".  The wonderful 
-aroma of bread heating in an oven fills your nose from the east.
+   You are standing in the northeastern section of this great plaza.
+Two shopfronts face the square here: to the north a large sign reads
+"The General Store", and to the east another reads "The Hobbit's Loaf",
+though both have their entrances on the streets behind.  The wonderful
+aroma of bread baking in an oven drifts from the east.  The square
+continues south and west.
 ~
 11 0 1
 D2
@@ -1264,11 +1319,11 @@ D3
 S
 #1169
 A small alley~
-   The alley is pretty dark as the shadows of two large buildings
-stand to the east and west blocking out any sunlight.  There is
-patches of grass growing up between the cracks in the alley where it
-has been left unattended and in disrepair for too long.  To the north
-is a small road and to the south is the main road of Mytherandil.
+   This alley is dark, for the two large buildings standing to the east
+and west block out nearly all the sunlight.  Patches of grass grow up
+between the cracked cobbles where the alley has been left in disrepair
+for too long, and a rat scurries along the base of one wall.  To the
+north is Maldre Road, and to the south the Main Road of Mytherandil.
 ~
 11 0 1
 D0
@@ -1282,10 +1337,12 @@ D2
 S
 #1170
 Leatherworks of Mytherandil~
-   All about the room are leather items; saddlebags, jerkins, sleeves,
-leggings, even rings are on display all over the store.  Amidst the 
-mountains of leather you spy a counter in the corner of the room with a
-elf sitting behind it stitching two pieces of leather together diligently.
+   Leather goods fill every corner of this shop: saddlebags, jerkins,
+sleeves, leggings, belts and even rings are on display.  Hides hang
+drying from the rafters, and the rich smell of tanned leather and oil is
+everywhere.  Amid the mountains of leather a counter stands in the
+corner, covered in awls, needles and spools of waxed thread.  The door
+leads south to the Main Road.
 ~
 11 0 1
 D2
@@ -1295,11 +1352,12 @@ D2
 S
 #1171
 The Mail Exchange~
-   Tall stacks of letters are all about the room bundled up and ready to
-be shipped out to different sections of The Dominion.  A few posters
-are posted on the walls and a board for posting rewards for lost things
-as well as for anonymously putting rewards on criminals heads is on
-a wall.
+   Tall stacks of letters stand all about the room, bundled and ready to
+be shipped to every corner of the Dominion.  Posters cover the walls,
+and a board hangs near the door for posting rewards for lost things,
+and, anonymously, for putting bounties on criminals' heads.  A row of
+pigeonholes behind the counter is stuffed with parcels.  The door leads
+south to the Main Road.
 ~
 11 0 1
 D2
@@ -1309,10 +1367,11 @@ D2
 S
 #1172
 Eastern Wall Road~
-   The road stretches off to the north and south, towards Northgate Rd.
-and The Eastern Gates which are just south of here, respectively.  To
-the east is a large wall protecting the city from invaders.  Large buildings
-stand to the west but its just the side of the building with no door.
+   The road stretches north toward Northgate Road and south toward the
+Eastern Gates, which lie just a short way off.  To the east the great
+city wall protects Mytherandil from invaders, and to the west stand the
+blank sides of large buildings without a single door or window facing
+the road.
 ~
 11 0 1
 D0
@@ -1326,11 +1385,12 @@ D2
 S
 #1173
 Western Gates of Mytherandil~
-   Two large gates stand open on either side of the archway.  Above,
-you can hear the heavy footsteps through the stone of the guards pacing
-the ramparts watching for intruders.  To the east a large road stretches
-right down the middle of Mytherandil leading to the Eastern Gates.  To
-the north is a small doorway which leads into a torchlit stairway.
+   Two great gates stand open on either side of this deep stone archway.
+Above, through the stone, you can hear the heavy footsteps of the guards
+pacing the ramparts as they watch for intruders.  Murder holes pierce
+the ceiling of the archway, and the iron teeth of a raised portcullis
+glint overhead.  To the west lies the open land beyond the city, and to
+the east the gates open onto a busy intersection.
 ~
 11 0 1
 D1
@@ -1344,11 +1404,12 @@ D3
 S
 #1174
 Before the Western Gates~
-   You are at a busy intersection where traders exitting and enetering
-the city bustle about towards the shops and out the gates to the west.
-A large road leads off abutting the Western Wall far away to the north
-and to the east a road continues towards the Eastern Gates directly
-through the center of the city.
+   You are at a busy intersection where traders entering and leaving the
+city bustle between the shops and the gates to the west.  Wagons wait in
+line to pass through, their drivers arguing over who was first.  Western
+Wall Road runs north and south along the inside of the wall, and to the
+east the Main Road runs straight through the center of the city toward
+the Eastern Gates.
 ~
 11 0 1
 D0
@@ -1370,10 +1431,11 @@ D3
 S
 #1175
 The Main Road~
-   The Main Road leads straight off to the east towards Dominion Square,
-the center of the city.  To the west is a large intersection before the
-gates of the city.  To the north and south, small stores have been erected
-bearing goods for the citizens of Mytherandil.
+   The Main Road leads straight east toward the Great Square at the
+center of the city, and west to the busy intersection before the gates.
+On either side small stores have been built to sell goods to the
+citizens of Mytherandil: a scroll shop to the north and the money
+exchange to the south.
 ~
 11 0 1
 D0
@@ -1395,9 +1457,10 @@ D3
 S
 #1176
 The Main Road~
-   The Main Road is an east-west road leading directly through the
-center of the city of Mytherandil.  To the north and south are stores
-which sell goods to the people.  
+   The Main Road runs east and west through the center of Mytherandil,
+paved with broad slabs of white marble.  To the north an apothecary
+sends strange smells into the street, and to the south a bakery fills
+the air with the aroma of fresh bread.
 ~
 11 0 1
 D0
@@ -1419,10 +1482,11 @@ D3
 S
 #1177
 The Main Road~
-   The main road leads off to the east and to the west.  It is a marble
-avenue which bisects the two main sections of the city, the common sections
-to the north and is mostly residential in the south.  To north is a small
-path covered in grass and a small alley is to the south.  
+   The Main Road leads east and west, a marble avenue that divides the
+city in two: the commercial quarter to the north, and the mostly
+residential quarter to the south.  To the north a small path, overgrown
+with grass, leads away between the buildings, and to the south a grassy
+alley does the same.
 ~
 11 0 1
 D0
@@ -1444,12 +1508,12 @@ D3
 S
 #1178
 The Main Road~
-  A row of strange statues depicting famous warriors and wizards,
-names long forgotten stand to the north and south while the main
-road leads off to the east and west.  To the east is the famed
-Dominion Square with shops surrounding it and people rushing through
-it in a hectic frenzy.  To the west the road leads towards the Western
-gates of the city.
+   A row of strange statues stands along both sides of the road here,
+depicting famous warriors and wizards whose names have long been
+forgotten.  Their faces have been worn smooth by the weather, but their
+poses are still proud.  To the east is the famed Great Square, with
+shops surrounding it and people rushing through it in a hectic frenzy.
+To the west the road leads toward the Western Gates of the city.
 ~
 11 0 1
 D1
@@ -1463,14 +1527,13 @@ D3
 S
 #1179
 Western Great Square~
-   You stand at the western section of the Dominion Square, which was
-dedicated to the future well being of the lands.  To the north is
-a corner in the square where two small caravans have parked and are
-trying to sell their goods.  To the east you can see the pandemonium
-of the tourists trying to see everything and the inhabitants of the
-city trying to do their daily business.  To the south is the southwestern
-section of the square where two shops with their doors wide open wait
-for customers.
+   You stand in the western section of the Great Square, dedicated to
+the future well-being of the lands.  To the north, in the corner of the
+square, traveling merchants have parked their caravans and are calling
+out their wares.  To the east you can see the bedlam of visitors trying
+to see everything at once and citizens trying to go about their daily
+business.  To the south the square continues to its southwestern corner,
+and to the west the Main Road leads toward the gates.
 ~
 11 0 1
 D0
@@ -1492,12 +1555,13 @@ D3
 S
 #1180
 Center of the Great Square~
-   This hectic place is filled with people trying to see the sights and
-people trying to do their daily business.  Several old timers who look
-like they have seen their share of beasts and magic are sitting with
-lackluster faces staring and shaking their heads at all the people
-passing by.  A statue of the High Lord of Mytherandil stands directly
-in the center of the square.  
+   This is the bustling heart of Mytherandil, filled with people trying
+to see the sights and people trying to get on with their business.  A
+statue of the High Lord of Mytherandil stands in the very center of the
+square, gazing out sternly over his city.  Several old-timers who look
+as if they have seen their share of beasts and magic sit on the benches
+nearby, shaking their heads at the crowds.  The square spreads out in
+every direction.
 ~
 11 c 1
 D0
@@ -1519,11 +1583,11 @@ D3
 S
 #1181
 Eastern Great Square~
-   You are in the easternmost section of Dominion square.  People mill
-about doing their daily business and some folks are perched on benches
-watching the other folk pass by.  To the north, south, and west, the
-square continues while to the east The Main road leads off towards the
-Eastern Gates.
+   You are in the easternmost section of the Great Square.  People mill
+about going about their business, and some folks perch on benches
+watching the world pass by.  To the north, south and west the square
+continues, while to the east the Main Road leads off toward the Eastern
+Gates.
 ~
 11 0 1
 D0
@@ -1545,10 +1609,10 @@ D3
 S
 #1182
 The Main Road~
-   The main road stretches east and west towards the East and West Gates of
-Mytherandil, respectively.  Just to the west is the Great Square, dedicated
-to Mytherandil by the High Lord Template to the well-being of the
-Dominion.
+   The Main Road stretches east toward the Eastern Gates and west to the
+Great Square, which was dedicated to the well-being of the Dominion by
+the High Lord of Mytherandil.  Merchants' carts rumble past, and street
+sweepers work tirelessly to keep the white marble clean.
 ~
 11 0 1
 D1
@@ -1562,10 +1626,11 @@ D3
 S
 #1183
 Intersection on Main Road~
-   The Main Road is intersected here by a small alleyway leading north
-and south between large buildings.  The cobblestone alley to the north
-is pretty dark and you can see grass poking up through the cobblestones.
-You can go east towards the Eastern Gates or west towards Dominion Square.
+   The Main Road is crossed here by a pair of narrow alleys leading
+north and south between large buildings.  The cobbled alley to the north
+is quite dark, with grass poking up between its stones, while the one to
+the south is newly paved.  You can go east toward the Eastern Gates or
+west toward the Great Square.
 ~
 11 0 1
 D0
@@ -1587,11 +1652,10 @@ D3
 S
 #1184
 The Main Road~
-   The main road continues west towards Dominion Square and east towards
-the Eastern Gates of Mytherandil.  You see several people exit a small
-store to the north with a sign fixed above the doorway which reads,
-'Leatherworks'.  To the south you see another store with a sign above it 
-reading, 'The Fletcher's Shop'.
+   The Main Road continues west toward the Great Square and east toward
+the Eastern Gates.  Several people come out of a small store to the
+north, beneath a sign that reads "Leatherworks", and across the road to
+the south hangs another sign reading "The Fletcher's Shop".
 ~
 11 0 1
 D0
@@ -1613,11 +1677,12 @@ D3
 S
 #1185
 The Main Road~
-   Just to the east you see the East Gates of Mytherandil opened wide.
-To the north is a small office building with a sign above the entrance,
-'The Mail Exchange'.  To the south you see another small store with 
-a sign on the door reading, 'Outfitter's of Mytherandil'.  If you travel west 
-from here you will head towards Dominion Square in the middle of the city.
+   Just to the east you can see the Eastern Gates of Mytherandil
+standing wide open.  To the north is a small office beneath a sign
+reading "The Mail Exchange", and to the south another small store bears
+a sign on its door: "Outfitters of Mytherandil".  If you travel west
+from here, you will head toward the Great Square in the middle of the
+city.
 ~
 11 0 1
 D0
@@ -1640,9 +1705,11 @@ D3
 S
 #1186
 Before the Eastern Gates~
-   There is a large archway just to the east with two large open gates
-to each side of the archway.  On top of the archway you can see several 
-guards on the ramparts watching the eastern horizon for signs of intruders.
+   A large archway lies just to the east, its two great gates standing
+open to either side.  On top of the archway you can see several guards
+on the ramparts watching the eastern horizon for intruders.  Eastern
+Wall Road runs north and south along the inside of the wall, and the
+Main Road leads west into the city.
 ~
 11 0 1
 D0
@@ -1664,11 +1731,11 @@ D3
 S
 #1187
 Eastern Gates of Mytherandil~
-   The gates to the city stand on either side of you wide open.  And even
-though they stand open many guards mill about making sure there is no
-threat of intrusion or anything that could bring harm to the city.
-To the east a large street leads off through the center of the city
-and the Eastern Wall road leads off to the north and south.
+   The gates of the city stand wide open on either side of you.  Even
+so, many guards mill about, making sure there is no threat of intrusion
+or anything else that could bring harm to the city, and they eye every
+traveler who passes.  To the west the gates open onto the city, and to
+the east the road leads out into the lands beyond.
 ~
 11 0 1
 D1
@@ -1682,10 +1749,11 @@ D3
 S
 #1188
 Western Wall Road~
-   Directly to the north are the Western Gates to the city.  A large 
-commotion surrounds the gates at almost all hours of the day, as Mytheran-
-dil is one of the largest cities and demands the merchants of The Dominion
-stop here to sell their wares.  To the south runs Western Wall Road.
+   Directly to the north are the Western Gates of the city.  A great
+commotion surrounds them at almost all hours of the day, for Mytherandil
+is one of the largest cities in the Dominion, and every merchant passing
+through stops here to sell his wares.  To the south, Western Wall Road
+runs on along the wall.
 ~
 11 0 1
 D0
@@ -1699,10 +1767,11 @@ D2
 S
 #1189
 The Money Exchange Guild~
-   You are in a large room with a glass window on the far wall opposite
-the door leading back to the Main Street.  People are here counting their
-money and maing withdrawls and deposits and checking their accounts
-balance.
+   You are in a large room with a glass window on the far wall, opposite
+the door leading back to the Main Road.  People stand in line here,
+counting their money, making withdrawals and deposits and checking their
+balances, while clerks scratch busily in great leather-bound ledgers.
+Iron bars protect the counter.
 ~
 11 0 1
 D0
@@ -1712,11 +1781,12 @@ D0
 S
 #1190
 The Bread Shop~
-   This place smells amazing, the odor of baking dough fills the shop
-and more.  You see bread, baked daily here, on display within glass
-casing for the more fancily done bread and in bags for the more money
-minded man.  A doorway leads back to Main Road in the northern wall
-of the bakery.
+   This place smells amazing.  The aroma of baking dough fills the shop,
+and fresh loaves are on display everywhere: fancy breads in glass cases
+for those who can afford them, and plain loaves in paper bags for the
+more money-minded.  Flour dusts every surface, and the heat of the ovens
+makes the room warm and cozy.  A doorway in the northern wall leads back
+to the Main Road.
 ~
 11 0 1
 D0
@@ -1726,10 +1796,10 @@ D0
 S
 #1191
 A grassy path~
-   This seems to be an alleyway between a few small buildings
-which connects Tarak's Walk, a short ways to the south, and the Main Road
-just to the north.  Soft, green grass has overgrown the ancient cobble-
-stones embedded into the soil here.
+   This alley between a few small buildings connects Tarak's Walk, a
+short way to the south, with the Main Road just to the north.  Soft,
+green grass has overgrown the ancient cobblestones set into the earth,
+and the footsteps of passersby make no sound here.
 ~
 11 0 1
 D0
@@ -1743,10 +1813,10 @@ D2
 S
 #1192
 Southwestern Great Square~
-   This section of Dominion Square is not very busy.  A few folks
-mill around but most are heading to more populated sections of the
-square.  No shops are here but a small plaque is fixed into the ground.
-To the east and north the square continues.
+   This section of the Great Square is not very busy.  A few folks mill
+about, but most are heading for the more crowded parts of the square.
+No shops are here, but a small plaque is set into the ground among the
+marble flagstones.  The square continues to the east and north.
 ~
 11 0 1
 D0
@@ -1761,15 +1831,15 @@ E
 plaque~
 The small plaque on the ground reads......
 
-i'll do this in a sec...
+I'll do this in a sec...
 ~
 S
 #1193
 Southern Great Square~
-   The square stretches off in all direction save south where Mytheran
+   The square stretches off in all directions save south, where Mytheran
 Road continues through the center of the city.  The floor of the square
-is made of marble and hasn't a single scuff from the many treads upon
-it.
+is made of marble, polished so well that it shows not a single scuff
+from the many feet that tread upon it.
 ~
 11 0 1
 D0
@@ -1791,9 +1861,10 @@ D3
 S
 #1194
 Southeastern Great Square~
-   To the east and south you see small gardens with small hexes
-about them warding off time and weather, nature enemy.  The gardens
-outline the marble square which leads off north and west.
+   To the east and south you see small gardens, protected by faint
+magical wards that keep time and weather, nature's enemies, at bay;
+their roses bloom in every season.  The gardens border the marble
+square, which leads off to the north and west.
 ~
 11 0 1
 D0
@@ -1807,11 +1878,10 @@ D3
 S
 #1195
 A small alleyway~
-   This alleyway leads between two small, one-floor buildings which
-stand to the left and right of you.  New, rough cobblestones jut
-from the ground makes walking somewhat uncomfortable here.
-To the north you see the Main Road of Mytherandil and to the south
-is Messne's Lane.
+   This alleyway leads between two small, one-story buildings standing
+to your left and right.  New, rough cobblestones jut from the ground,
+making walking somewhat uncomfortable.  To the north you see the Main
+Road of Mytherandil, and to the south is Messne's Lane.
 ~
 11 0 1
 D0
@@ -1825,11 +1895,11 @@ D2
 S
 #1196
 The Fletchers Shop~
-   The shop is full of different sizes of bows and arrows.  Some look
-as if they were made to fit giants and some are small enough for you
-to clean your teeth with.  The arrows on display are perfect and each
-have red and yellow fletching on the tails of the arrows showing it
-was made here.
+   The shop is full of bows and arrows of every size.  Some look as if
+they were made to fit giants, and some are small enough to clean your
+teeth with.  The arrows on display are perfect, each with red and yellow
+fletching at its tail to show that it was made here.  Shavings of yew
+and ash litter the floor.  The door leads north to the Main Road.
 ~
 11 0 1
 D0
@@ -1839,9 +1909,11 @@ D0
 S
 #1197
 Scarelle's Outfitting~
-   The shop is mainly a distributor of clothing other than armor.  
-Shirts, pants, hats, and boots are propped up on racks for display.
-To the north is the main road of Mytherandil.
+   This shop deals mainly in clothing other than armor.  Shirts,
+breeches, cloaks, hats and boots hang on racks and lie folded on long
+tables, in every color from plain homespun brown to dyed silks of
+crimson and blue.  A tall mirror stands in one corner for customers to
+admire themselves.  To the north is the Main Road of Mytherandil.
 ~
 11 0 1
 D0
@@ -1851,10 +1923,11 @@ D0
 S
 #1198
 Eastern Wall Road~
-   Directly to the north you will be before the Eastern Gates of
-Mytherandil.  You can see many guards milling about on duty, protecting
-the city.  The towering Eastern Wall easily stands 30 feet above you,
-making you feel very small, which you are in respect to the wall.
+   Directly to the north lies the open space before the Eastern Gates of
+Mytherandil, where many guards mill about on duty.  The towering Eastern
+Wall stands a good thirty feet above you here, making you feel very
+small, which, in respect to the wall, you are.  The road continues south
+along its foot.
 ~
 11 0 1
 D0
@@ -1868,11 +1941,12 @@ D2
 S
 #1199
 Western Wall Road~
-  Western Wall Road leads off north and south abutting the great
-stone wall which surrounds the city to ward off invaders.  Many a 
-last-stand has been held here and the gates were never breached by the 
-forces of evil.  To the north the road leads towards the Western Gates of 
-Mytherandil and south along the residential section of the city.
+   Western Wall Road runs north and south along the great stone wall
+that surrounds the city.  Many a last stand has been made here, and the
+gates were never breached by the forces of evil; old scars from arrows
+and siege stones still pit the face of the wall.  To the north the road
+leads toward the Western Gates, and to the south along the residential
+quarter of the city.
 ~
 11 0 1
 D0
@@ -1886,7 +1960,12 @@ D2
 S
 #1200
 Malachi's Temple~
-   Make me beautiful.
+   You stand within Malachi's Temple, a lofty hall of pale marble raised
+in honor of the god.  Rows of polished wooden pews face a raised dais at
+the far end of the room, where a great altar of white stone rests
+beneath a window of colored glass.  Candles burn in silver stands along
+the walls, filling the temple with a warm and steady light and the
+faint, sweet smell of beeswax.  The foyer lies back to the east.
 ~
 11 0 1
 D1
@@ -1896,11 +1975,11 @@ D1
 S
 #1201
 The Foyer of Malachi's Temple~
-   You see all about you pictures of ancient battles that took
-place where good triumphed over evil.  The crest of Light, Malachi's
-Symbol hangs on the far wall, opposite the doorway that leads back to
-the street.  An archway is to the west that leads to another room
-in Malachi's Temple.
+   Paintings of ancient battles in which good triumphed over evil cover
+the walls of this foyer, their colors bright and their heroes shining.
+The crest of Light, Malachi's symbol, hangs on the far wall opposite the
+doorway that leads back to the street, gleaming as though lit from
+within.  An archway to the west leads deeper into Malachi's Temple.
 ~
 11 0 1
 D2
@@ -1914,9 +1993,10 @@ D3
 S
 #1202
 The grassy path~
-   Soft grass pokes up between crackes in the ruined cobblestone
-path between several small buildings.  To the north the path leads to
-the Main Road of Mytherandil and south is Tarak's Walk.
+   Soft grass pokes up between the cracks in this ruined cobblestone
+path, which winds between several small buildings.  A few hardy daisies
+grow along its edges.  To the north the path leads to the Main Road of
+Mytherandil, and to the south is Tarak's Walk.
 ~
 11 0 1
 D0
@@ -1930,11 +2010,12 @@ D2
 S
 #1203
 Foyer to the Temple of Glasgian~
-   You are in a small temple for the Creator of All, Glasgian.
-On the wall is a long listing of His rules for those that follow his
-philosophies of pure kindness and protection of the innocent.
-To the east you see a small archway that leads to the room where
-his followers can worship him.
+   You are in a small temple to the Creator of All, Glasgian.  Upon the
+wall is a long list of His rules for those who follow His philosophy of
+pure kindness and the protection of the innocent, painted in careful
+letters of blue and silver.  The room is dim and peaceful.  To the east
+a small archway leads to the room where His followers worship, and the
+doorway to the south leads back to Tarak's Walk.
 ~
 11 0 1
 D1
@@ -1948,7 +2029,12 @@ D2
 S
 #1204
 Temple of Glasgian~
-Make me beautful.
+   You stand within the Temple of Glasgian.  The hall is built of dark,
+polished stone, and its high ceiling is lost in shadows that seem to
+shift whenever you look away.  A great altar stands at the far end of
+the room, carved with the sigil of the god and lit by a ring of tall
+black candles.  The air is cool and hushed, and your footsteps echo
+softly.  The foyer lies back to the west.
 ~
 11 0 1
 D3
@@ -1958,10 +2044,10 @@ D3
 S
 #1205
 Mytheran Road~
-   Dominion Square stretches out boldy to the north.  It is so
-large, from this vantage point, it looks like miles to the other side.
-To the south you can see a small intersection of roads and further past
-that, you spy the Southern Gates of Mytherandil.
+   The Great Square stretches out boldly to the north, so large from
+this vantage point that the far side seems miles away.  To the south you
+can see a small intersection of roads, and further past that, the
+Southern Gates of Mytherandil.
 ~
 11 0 1
 D0
@@ -1985,10 +2071,11 @@ D1
 S
 #1207
 Jirdin's Wand & Staves~
-   The room is very small and non-descript except for a small counter
-upon which many staves and staffs of all shapes and sizes and lengths
-sit.  The walls are bare except for the doorway which leads back to
-Messne's Lane.
+   This very small shop is plain except for a long counter on which
+staves and staffs of all shapes, sizes and lengths lie in neat rows,
+some of plain oak, others of strange dark woods carved with runes.  The
+air hums faintly with stored magic, and the hair on your arms stands on
+end.  The walls are bare, and the doorway leads back to Messne's Lane.
 ~
 11 0 1
 D2
@@ -1998,10 +2085,10 @@ D2
 S
 #1208
 The small alleyway~
-   Two small buildings stand to the left and right forcing you to
-only go north and south here.  Freshly replaced cobblestones poke
-through the ground here.  To the north leads to the Main Road
-and south is Messne's Lane.
+   Two small buildings stand to your left and right, so that you can
+only go north or south here.  Freshly laid cobblestones poke up through
+the ground, still sharp-edged and uneven.  To the north lies the Main
+Road, and to the south is Messne's Lane.
 ~
 11 0 1
 D0
@@ -2015,11 +2102,12 @@ D2
 S
 #1209
 The Butchery~
-   You smell fresh meat in this small store.  From the walls poke
-sharp curved hooks upon which great sides of meat are hung to be
-cut.  There is a steel door and from behind it you hear the sounds of
-animals being slaughtered in a grisely fashion.  To the south you will
-leave the shop and return to Messne's Lane.
+   You smell fresh meat in this small store.  Sharp curved hooks jut
+from the walls, and great sides of meat hang from them waiting to be
+cut.  Sawdust covers the floor to soak up the blood, and a heavy wooden
+block stands scarred by years of cleavers.  Behind a steel door in the
+back wall you can hear the grisly sounds of animals being slaughtered.
+To the south you can leave the shop and return to Messne's Lane.
 ~
 11 0 1
 D2
@@ -2039,11 +2127,11 @@ D3
 S
 #1211
 Eastern Wall Road~
-   Towering high above you is the eastern citywall.  It has lasted through
-many centuries of war and invasion giving you a very secure feeling.  
-To the south is a small intersection of roads and further beyond that
-is the corner where Eastern Wall Road meets SouthGate Road.  To the north
-you will come to the Eastern Gates of Mytherandil.
+   Towering high above you is the eastern city wall.  It has lasted
+through centuries of war and invasion, and it gives you a very secure
+feeling.  To the south is a small intersection of roads, and beyond that
+the corner where the wall turns.  To the north you will come to the
+Eastern Gates of Mytherandil.
 ~
 11 0 1
 D0
@@ -2057,10 +2145,11 @@ D2
 S
 #1212
 Western Wall Road~
-   A great protective wall towers overhead protecting the city from
-invasion.  To the east a small road leads off past some small buildings
-directly through the southern section of Mytherandil.  The western wall
-suddenly comes to an end here to the south.
+   A great protective wall towers overhead.  Here at the southwestern
+corner of the city it ends abruptly, meeting the southern wall in a
+tall, round tower.  To the east a small road, Tarak's Walk, leads off
+past some small buildings through the southern part of Mytherandil, and
+Western Wall Road runs back north.
 ~
 11 0 1
 D0
@@ -2074,9 +2163,10 @@ D1
 S
 #1213
 Tarak's Walk~
-   The street leads off to the other side of Mytherandil past several
-small buildings to the east.  Western Wall Road is directly to the
-west of here running north and south.
+   Tarak's Walk leads east past several small buildings toward the far
+side of Mytherandil.  Western Wall Road runs north and south directly to
+the west of here.  The street is quiet, and the smell of cooking drifts
+from the houses nearby.
 ~
 11 0 1
 D1
@@ -2090,10 +2180,10 @@ D3
 S
 #1214
 Tarak's Walk~
-   A small building lies to the north with an elaborate crimson and gold
-colored archway in the center of it.  From here you can tell nothing of
-what lies inside.  Tarak's Walk leads east towards Mytheran Road and
-close to the west you can see Western Wall Road.
+   A small building lies to the north with an elaborate archway of
+crimson and gold at the center of its face.  From here you can tell
+nothing of what lies within.  Tarak's Walk leads east toward Mytheran
+Road, and close by to the west you can see Western Wall Road.
 ~
 11 0 1
 D0
@@ -2111,10 +2201,10 @@ D3
 S
 #1215
 Tarak's Walk~
-   This small lane stretches through the southern section of Mytherandil.
-To the east it leads towards Vigor's Crossing, a crossroad of Tarak's Walk,
-Mytheran Road and Messne Walk.  To the north a small path leads between
-two small buildings.
+   This small lane stretches through the southern section of
+Mytherandil.  To the east it leads toward Vigor's Crossing, where
+Tarak's Walk, Mytheran Road and Messne's Lane meet.  To the north a
+small grassy path leads between two small buildings.
 ~
 11 0 1
 D0
@@ -2132,11 +2222,11 @@ D3
 S
 #1216
 Tarak's Walk~
-   This street has been dedicated to a long deceased sorcerer that 
-brought goodness to the Dominion and befriended many of the gods.
-It leads east and west and to the north and south are the faces of
-small buildings.  The building to the north of you has a black and blue
-painted archway and darkness within it.
+   This street was dedicated to a sorcerer, long dead, who brought
+goodness to the Dominion and befriended many of the gods.  It leads east
+and west between the faces of small buildings.  The building to the
+north has an archway painted black and blue, and darkness lies within
+it.
 ~
 11 0 1
 D0
@@ -2154,9 +2244,10 @@ D3
 S
 #1217
 Tarak's Walk~
-   Just to the west you see a small intersection of roads.  To the west
-leads Tarak's Walk which runs between houses to the south and two small
-one-floor buildings which stand to the north.  
+   Just to the east you see a small intersection of roads.  To the west,
+Tarak's Walk runs between houses to the south and two small one-story
+buildings to the north.  Children's chalk drawings cover the cobbles
+here.
 ~
 11 0 1
 D1
@@ -2170,11 +2261,12 @@ D3
 S
 #1218
 Vigor's Crossing~
-   Here is the grave of one of the Moriquendi's greatest followers.
-A small plaque over a small patch of grass tells her story.  In all
-directions, save up and down, a road leads off.  To the north, Mytheran
-Road bisects the city and south it leads towards the Southern Gates.
-To the east is Tarak's Walk and to the west runs Messre Lane.
+   Here lies the grave of one of the Moriquendi's greatest followers.  A
+small plaque over a neat patch of grass tells her story, and someone has
+left a bunch of fresh flowers beside it.  Roads lead off in every
+direction from this crossing: to the north, Mytheran Road runs through
+the city, and to the south it leads on toward the Southern Gates.  To
+the east is Messne's Lane, and to the west runs Tarak's Walk.
 ~
 11 0 1
 D0
@@ -2198,9 +2290,9 @@ plaque grave vigor~
    The small golden plaque reads:
 
 Vigor, Champion of the Moriquendi, Protector of the Light, lies here.
-Murdered many years before by an innumberable mob of enemies of the Light,
+Murdered many years before by an innumerable mob of enemies of the Light,
 now a martyr to those that still believe that there is hope and freedom
-to those that are good.  This Valkarie, now a memory, should always
+to those that are good.  This Valkyrie, now a memory, should always
 remind us that the Moriquendi will.........
 
 for some reason the rest of the plaque is not legible
@@ -2208,10 +2300,10 @@ for some reason the rest of the plaque is not legible
 S
 #1219
 Messne's Lane~
-   This street, dedicated to the man that saved the Templates
-life during the Goblin Wars, leads east and west.  A small bed of
-flowers runs alongside the lane next to the brick buildings to the
-north and the grey-stone houses standing to the south.
+   This street, named for the man who saved the Template's life during
+the Goblin Wars, leads east and west.  A small bed of flowers runs
+alongside the lane by the brick buildings to the north, and gray stone
+houses stand to the south.
 ~
 11 0 1
 D1
@@ -2225,10 +2317,10 @@ D3
 S
 #1220
 Messne's Lane~
-   Messne's Lane leads east towards the Eastern Wall Road and west
-towards Vigor's Crossing.  To the north there is a small doorway
-leading in to a one floor building.  To the south is the back facade
-of a quaint looking home.
+   Messne's Lane leads east toward Eastern Wall Road and west toward
+Vigor's Crossing.  To the north a small doorway leads into a one-story
+building, and to the south is the back of a quaint-looking home, its
+garden wall overhung with ivy.
 ~
 11 0 1
 D0
@@ -2246,11 +2338,12 @@ D3
 S
 #1221
 Messne's Lane~
-   Messne's Lane is a small road leading between two one-floor buildings
-which stand to the north and a row of plain looking houses closely cropped
-together so as to get as many within the walls of Mytherandil as possible.
-To the west Messne's Lane leads towards Vigor's Crossing and east will
-bring you to Eastern Wall Road.
+   Messne's Lane is a small road between two one-story buildings to the
+north and a row of plain houses to the south, crowded close together to
+fit as many as possible within the walls of Mytherandil.  To the north a
+narrow alley leads off between the buildings.  To the west the lane
+leads toward Vigor's Crossing, and east will bring you to Eastern Wall
+Road.
 ~
 11 0 1
 D0
@@ -2268,11 +2361,11 @@ D3
 S
 #1222
 Messne's Lane~
-   The street leads between two small buildings standing to the
-north and a row of houses to the south.  If you head west you will
-find yourself at Vigor's Crossing and east will take you to Eastern
-Wall Road.  To the north you see a doorway leading into a small building
-with a flickering light coming from within the threshhold.
+   The street leads between small buildings to the north and a row of
+houses to the south.  If you head west you will find yourself at Vigor's
+Crossing, and east will take you to Eastern Wall Road.  To the north a
+doorway leads into a small building, and a flickering light comes from
+within.
 ~
 11 0 1
 D0
@@ -2290,9 +2383,9 @@ D3
 S
 #1223
 Messne's Lane~
-   Just to the east you see the towering Eastern Wall of Mytherandil
-alongside Eastern Wall Road.  Messne's Lane heading west will bring
-you between building and houses to Vigor's Crossing.  
+   Just to the east you see the towering Eastern Wall of Mytherandil and
+the road that runs alongside it.  Heading west, Messne's Lane will bring
+you between shops and houses to Vigor's Crossing.
 ~
 11 0 1
 D1
@@ -2306,11 +2399,11 @@ D3
 S
 #1224
 Intersection at Eastern Wall Road~
-   You see a quaint little road lead off to the west from here.
-The citywall towers high above you.  Light hits the top of the wall
-just right, capturing the silhouette of an archer perfectly as he stands
-guard atop the ramparts.  The eastern wall suddenly comes to an end here to
-the south as it is comes to a corner.  
+   A quaint little lane leads off to the west from here.  The city wall
+towers high above you, and the light strikes its top just right,
+capturing the silhouette of an archer standing guard on the ramparts.
+Here at the southeastern corner of the city the eastern wall comes to an
+end, meeting the southern wall.  Eastern Wall Road leads back north.
 ~
 11 0 1
 D0
@@ -2404,7 +2497,9 @@ weary traveller quickly.
 S
 #1230
 An Empty House~
-   the house is empty save for a small sign posted upon a wall.
+   The house is empty save for a small sign posted upon a wall.  The
+floorboards are swept clean, and the windows let in the noise of the
+street outside.  SouthGate Road lies to the south.
 ~
 11 0 1
 D2
@@ -2419,9 +2514,10 @@ a free fireplace which will rest the weary adventurer.
 S
 #1231
 Mytheran Road~
-   The side facades of small houses are close on the east and west of
-Mytheran Road.  To the north you can see Vigor's Crossing, a memorial
-for the martyr, Vigor.  South will take you to SouthGate Plaza.
+   The sides of small houses stand close to the east and west of
+Mytheran Road, and laundry flaps on lines strung between their upper
+windows.  To the north you can see Vigor's Crossing, a memorial to the
+martyr Vigor.  South will take you to SouthGate Plaza.
 ~
 11 0 1
 D0
@@ -2477,7 +2573,7 @@ D2
 0 -1 1247
 E
 sign~
-  This the perfect house.  It is nice.  The gate to hell is in the bacement
+  This the perfect house.  It is nice.  The gate to hell is in the basement
 behind a fireplace. Bees are attracted to priests that enter.  The windows
 from the outside look like evil eyes staring at you.  Only 3 people have gone
 completely insane here.
@@ -2510,7 +2606,7 @@ D2
 0 -1 1249
 E
 sign~
-   This house is for sale...no no no...this one doesnt have evil windows
+   This house is for sale...no no no...this one doesn't have evil windows
 that glow and stare at night and theres no goddamned gate to hell here...
 Go down the street a little ways...
 8 mil...been blessed by the High Priest...makes you comfortable
@@ -2619,7 +2715,7 @@ D3
 S
 #1242
 SouthGate Road~
-   The monolithical southern citywall stands alongside the road
+   The monolithic southern citywall stands alongside the road
 and small brick houses have paths leading up to them to the north.
 The SouthGate Road leads east and west towards the Southern Gates
 of Mytherandil and Western Wall Road respectively.
@@ -2661,12 +2757,12 @@ D3
 S
 #1244
 SouthGate Plaza~
-   The floor of SouthGate Plaza is made of red brick and has been
-tread upon too often as the bricks are jutting up from the ground
-awkwardly.  Everything looks very peaceful here.  Mythran Road leads
-north while to the south you can see the Southern Gates of
-Mytherandil. The southern gates rise high on either side of you
-preventing you from journeying in that direction. 
+   The floor of SouthGate Plaza is made of red brick, trodden upon so
+often that the bricks now jut up from the ground at awkward angles.
+Everything is very peaceful here; an old woman sells apples from a
+barrow, and a few children chase each other around a dry fountain.
+Mytheran Road leads north, and to the south you can see the Southern
+Gates of Mytherandil rising high above the plaza.
 ~
 11 0 1
 D0
@@ -2800,11 +2896,12 @@ D3
 S
 #1251
 Southern Gates of Mytherandil~
-   Two large, wooden gates have been fastened to the Southern Citywall
-by hinges allowing it to swing open and closed.  Looking up you see
-a smaller cast-iron gate within the ceiling which can be dropped in
-case of an emergency.  To the north, a large road leads through the
-city presumably to the northern gates.
+   Two large wooden gates have been hung on great iron hinges set into
+the southern city wall, so that they can swing open and closed.  Looking
+up, you see a smaller cast-iron portcullis hidden in the ceiling, ready
+to be dropped in case of emergency.  To the north, a large road leads
+through the city toward the northern gate, and to the south the Southern
+Road leads away into the countryside.
 ~
 11 0 1
 D0
@@ -2818,11 +2915,11 @@ D2
 S
 #1252
 The Holding Cell~
-   You are in a holding cell for miscreants of the city of Mytherandil.
-Peering through the bars you see the jailor working behind a desk.  He
-looks up at you and in a rapid, almost unintellible voice says, 'Sit down,
-you're gonna be here a long while.'  The walls are filled with dirty
-messages that look to have been scratched out recently.  
+   You are in a holding cell for the miscreants of Mytherandil.  Through
+the bars you can see the jailor's desk in the room outside.  The cell
+holds nothing but a wooden bench and a bucket, and the walls are covered
+with crude messages scratched into the stone by past occupants, many of
+them only recently.  The cell door lies to the west.
 ~
 11 fghs 0
 D3
@@ -2832,13 +2929,13 @@ D3
 S
 #1253
 The Burial Chambers~
-   The Chamber is empty save for a tomb in the center of the room.
-Pale yellow candles encircle it and you can hear chanting coming from
-somewhere within the chamber but because of the darkness you cannot see
-from where the hallowed sounds are coming.  It is forbidden to speak here
-lest you are murmering prayers to the great lord.  A small stariway in
-one of the corners of the chamber leads down to the entrance to the
-twoer.
+   The chamber is empty save for a tomb in the center of the room,
+carved from white marble and engraved with a set of balanced scales.
+Pale yellow candles encircle it, and you can hear chanting coming from
+somewhere within the chamber, though in the darkness you cannot see
+where the hallowed sounds come from.  It is forbidden to speak here
+unless you are murmuring prayers to the great lord.  A small stairway in
+one corner of the chamber leads down to the entrance of the tower.
 ~
 11 efgh 0
 D5
@@ -2853,5 +2950,37 @@ delete your character and ban your site.  That's a promise, we run a
 clean mud here.
 ~
 11 b 0
+S
+#1296
+Within the Black Monolith~
+   You stand inside the monolith, though it is far larger within than
+without.  The walls are black glass, and through them you can see
+Rithrin Street, dim and silent as if seen through deep water.  In the
+center of the chamber stands a great set of bronze scales, perfectly
+level, though one pan holds a single white feather and the other a small
+stone heart.  Words are carved in the floor around them.  Through the
+glass to the east, a shimmering patch shows the way back out to the
+street.
+~
+11 0 0
+D1
+The glass shimmers here, and the street lies beyond.
+~
+~
+0 -1 1156
+E
+words floor carving~
+The carving reads: "Here Sand Moriquendi, Lord of Justice, heard the
+oaths of the city. Whoever swore falsely before these scales found the
+stone heart heavier than the feather, and did not leave this place. The
+honest went out the way they came. Weigh your words, child of
+Mytherandil, for the scales are still listening."
+~
+E
+scales bronze feather heart~
+The scales are of old bronze and hang perfectly level. A white feather
+rests in one pan and a heart of gray stone in the other, and somehow
+they weigh exactly the same.
+~
 S
 $~

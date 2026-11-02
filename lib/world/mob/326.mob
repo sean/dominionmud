@@ -16,7 +16,7 @@ the elven hunter~
 An elf is here who looks like he has a keen sense within the forest.
 ~
 The elf is dressed in brown and green.  His hair is black and tied into
-a tail which hangs long down his back.  About his waiste is a belt with
+a tail which hangs long down his back.  About his waist is a belt with
 a knife sheath on it.
 ~
 cde ps 500 S
@@ -44,7 +44,7 @@ deer~
 a white deer~
 A large, white-furred deer grazes here. 
 ~
-The deer is about 5 feet from head to tail.  Upon it's head is a set of
+The deer is about 5 feet from head to tail.  Upon its head is a set of
 antlers which spans nearly the same length as the body.  In its eyes is
 a strange look as if it knows who you are yet it does not care.
 ~
@@ -69,7 +69,7 @@ woman brigand~
 a forest brigand~
 A woman stands here dressed in ragged chainmail.
 ~
-She doesnt look like the type that wants you for your good looks.
+She doesn't look like the type that wants you for your good looks.
 She wears ragged chainmail and leather pants.  
 ~
 cdghjk k -500 S
@@ -79,7 +79,7 @@ cdghjk k -500 S
 #32606
 forest figure slim druid~
 the forest druid~
-A slim figure stands here, blending in with the trees almost undetectibly.
+A slim figure stands here, blending in with the trees almost undetectably.
 ~
 The druid wears nothing but a long robe which changes color along with
 the environment it is in.  His eyes are black as night and his skin has
@@ -107,7 +107,7 @@ a mob~
 a big mob~
 A big mob stands here.
 ~
-It looks lik,e a big mob
+It looks like a big mob
 ~
 d 0 100 S
 1 1 6 2d2+2 2d2+1

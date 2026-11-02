@@ -81,5 +81,7 @@ G 1 3085 25  95 			* And give it a chained steel bracer. (Max: 25)
 M 0 35010 1 35031 100 	* Herrik the baker at Herrik's Bakery. (Max: 1)
 G 1 35001 25  100 			* And give it a sweetroll. (Max: 25)
 G 1 35002 25  100 			* And give it a loaf of bread. (Max: 25)
+* puzzle
+M 0 35040 1 35003             clockwork fish (puzzle)
 S
 $~

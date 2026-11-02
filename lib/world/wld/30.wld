@@ -1,10 +1,13 @@
 #3000
 Outside the Northern Gate of Elrhinn~
    To the south lies the Elrhinn Township, one of the larger towns on
-this continent.  It is reknowned for its merchants who bring valuables
-from all over the Dominion to sell and trade.  You see some figures
-standing around the city gate to the south, and a large iron portcullis
-hangs from the gate.
+this continent.  It is renowned for its merchants, who bring valuables
+from all over the Dominion to sell and trade, and the road here is
+rutted deep by the wheels of their wagons.  Tall stone walls stretch
+away to either side, their battlements lined with banners of red and
+gold.  You see some figures standing around the city gate to the south,
+where a large iron portcullis hangs ready to drop.  The Northern Road
+leads away north into the countryside.
 ~
 30 0 2
 D0
@@ -19,9 +22,11 @@ S
 #3001
 Inside the Northern Gate of Elrhinn~
    Rising up before you is a huge iron portcullis, decorated with the
-seal of the township of Elrhinn.  To either side of the gate are the
-sturdy town walls, formed centuries ago to protect the town from unwanted
-invasion.
+seal of the township of Elrhinn.  To either side of the gate stand the
+sturdy town walls, raised centuries ago to protect the town from
+unwanted invasion, their gray stones weathered smooth by wind and rain.
+The bustle of the town spills out to the south along Northwall Road,
+while beyond the gate to the north lies the open road.
 ~
 30 d 0
 D0
@@ -40,9 +45,11 @@ with rays of light shining from to every angle.
 S
 #3002
 The West End of Northwall Road~
-   This is the Northwestern corner of the city.  Northwall Road continues
-to the east while Westwall Road leads south.  The tall city walls obscure
-you view to the north and west.
+   This is the northwestern corner of the city, where the two great
+walls meet in a squat stone tower.  Weeds sprout between the cobbles
+here, and the noise of the town seems far away.  Northwall Road
+continues to the east, while Westwall Road leads south.  The tall city
+walls block your view to the north and west.
 ~
 30 0 1
 D1
@@ -57,9 +64,11 @@ S
 #3003
 Western Northwall Road~
    Northwall Road runs east and west along the inside of the city wall.
-You see a turn in the road to the west and far off to the east you
-can see the city gates.  The tall city wall obscures your view to the
-north.
+Narrow houses of timber and stone crowd its southern side, their upper
+stories leaning out over the street, and one of them has a sturdy door
+facing the road.  You see a turn in the road to the west, and far off to
+the east you can see the city gates.  The tall city wall blocks your
+view to the north.
 ~
 30 n 1
 D1
@@ -78,9 +87,10 @@ S
 #3004
 Western Northwall Road~
    Northwall Road runs east and west along the inside of the city wall.
-You see a turn in the road far off to the west and to the east you
-can see the city gates.  The tall city wall obscures your view to the
-north.
+Window boxes full of flowers brighten the houses on the south side of
+the road, and the open doorway of one of them leads south.  You see a
+turn in the road far off to the west, and to the east you can see the
+city gates.  The tall city wall blocks your view to the north.
 ~
 30 n 1
 D1
@@ -98,9 +108,11 @@ D3
 S
 #3005
 Northwall Road~
-   You are on a road that runs east and west.  To your north you view
-the town gate, to your south the courtyard.  Merchants flood the streets
-each day, using this well travelled path.
+   You are on a broad road that runs east and west just inside the
+walls.  To your north you see the town gate, and to the south Dalkyst
+Road leads toward the courtyard at the heart of the town.  Merchants
+flood the streets each day, driving their carts along this well-traveled
+path, and the cobbles are worn smooth by their passing.
 ~
 30 0 1
 D0
@@ -123,9 +135,10 @@ S
 #3006
 Eastern Northwall Road~
    Northwall Road runs east and west along the inside of the city wall.
-You see a turn in the road far off to the east and close by to the west
-you can see the city gates.  The tall city wall obscures your view to the
-north.
+A tidy house stands on the south side of the road, its doorway leading
+south.  You see a turn in the road far off to the east, and close by to
+the west you can see the city gates.  The tall city wall blocks your
+view to the north.
 ~
 30 n 1
 D1
@@ -144,9 +157,10 @@ S
 #3007
 Eastern Northwall Road~
    Northwall Road runs east and west along the inside of the city wall.
-You see a turn in the road close by to the east and off to the west you
-can see the city gates.  The tall city wall obscures your view to the
-north.
+A small house with a crooked chimney stands to the south, its doorway
+open to the street.  You see a turn in the road close by to the east,
+and off to the west you can see the city gates.  The tall city wall
+blocks your view to the north.
 ~
 30 n 1
 D1
@@ -164,9 +178,11 @@ D3
 S
 #3008
 The East End of Northwall Road~
-   This is the Northeastern corner of the city.  Northwall Road continues
-to the west while Eastwall Road leads south.  The tall city walls obscure
-you view to the north and east.
+   This is the northeastern corner of the city, where the north and east
+walls meet beneath a squat watchtower.  The road is quiet here, away
+from the bustle of the gate.  Northwall Road continues to the west,
+while Eastwall Road leads south.  The tall city walls block your view to
+the north and east.
 ~
 30 0 1
 D2
@@ -180,9 +196,11 @@ D3
 S
 #3009
 Jynnah's Grocer~
-     As you enter this shop, you are overcome with the smell of fresh
-baked goods.  Jynnah smiles at you from behind the stove, and continues
-to prepare her food.
+   As you enter this shop, you are overcome with the smell of fresh
+baked goods.  Loaves of bread, sweet rolls and meat pies are piled high
+on the wooden counter, and strings of onions and dried herbs hang from
+the rafters.  The heat from the stove makes the little room warm and
+cozy.  The door leads back out to the east.
 ~
 30 det 0
 D1
@@ -192,9 +210,11 @@ door east~
 S
 #3010
 The End of Dalkyst Road~
-   The road ends here at the enterance to two buildings.  To the west you
-see a small shop bearing a sign that reads, "Jynnah's Grocery". To the
-east lies the Dalkyst Inn.
+   Dalkyst Road ends here at the entrance to two buildings.  To the west
+you see a small shop bearing a sign that reads, "Jynnah's Grocery", and
+the smell of baking bread wafts from its door.  To the east lies the
+Dalkyst Inn, a rambling building of dark timber with smoke curling from
+its chimney.  The road leads back south.
 ~
 30 0 1
 D1
@@ -212,10 +232,12 @@ door west~
 S
 #3011
 The Meeting Room of Dalkyst Inn~
-   This room is furnished with seveal round tables, thick fur rugs and
-many chairs have been set out in no discernable order.  The fire in the
-hearth looks warm and inviting.  An old wooden staircase leads up to the
-guest rooms.
+   This is the meeting room of the Dalkyst Inn.  It is furnished with
+several round tables, thick fur rugs and many chairs, set out in no
+discernible order.  The fire in the hearth looks warm and inviting, and
+the smell of ale and roasting meat hangs in the air.  An old wooden
+staircase leads up to the guest rooms, and the door leads west to the
+road.
 ~
 30 det 1
 D3
@@ -230,9 +252,10 @@ S
 #3012
 Northern Westwall Road~
    Westwall Road runs north and south along the inside of the city wall.
-You see a turn in the road close by to the north and far off to the south
-you can see the city gates.  The tall city wall obscures your view to the
-north.
+A sturdy house stands on the east side of the road, its door facing the
+street.  You see a turn in the road close by to the north, and far off
+to the south you can see the city gates.  The tall city wall blocks your
+view to the west.
 ~
 30 n 1
 D0
@@ -251,9 +274,10 @@ S
 #3013
 Northern Eastwall Road~
    Eastwall Road runs north and south along the inside of the city wall.
-You see a turn in the road close by to the north and far off to the south
-you can see the city gates.  The tall city wall obscures your view to the
-north.
+Ivy climbs the gray stones of the wall here, and a rain barrel stands
+beneath a drainspout.  You see a turn in the road close by to the north,
+and far off to the south you can see the city gates.  The tall city wall
+blocks your view to the east.
 ~
 30 0 1
 D0
@@ -267,10 +291,11 @@ D2
 S
 #3014
 The Sacristy~
-   The room is quite plain and simple.  A chair and a desk with papers
-and books strewn atop it is pushed into the northern corner of the room.
-A single white robe is hanging upon a hook beside the desk.  There is
-a doorway cut into the eastern wall leading out of the sacristy.
+   This room is quite plain and simple.  A chair and a desk, its top
+strewn with papers and books, are pushed into the northern corner of the
+room, and a single white robe hangs on a hook beside the desk.  A small
+window lets in a shaft of pale light.  There is a door in the eastern
+wall leading out of the sacristy to the altar.
 ~
 30 det 0
 D1
@@ -280,10 +305,11 @@ door~
 S
 #3015
 The Altar~
-   A large, plain marble altar sits on a small step.  A few chairs are
-to either side and behind the altar.  Off to the east are several aisles
-of pews and to the west is a large wall.  To the west behind the altar is
-a small door that leads to the sacristy.
+   A large, plain marble altar sits on a small step here at the front of
+the church.  A few chairs are set to either side and behind the altar,
+and tall candles burn in silver holders upon it.  Off to the east are
+several aisles of pews.  Behind the altar to the west is a small door
+that leads to the sacristy.
 ~
 30 der 0
 D1
@@ -297,10 +323,11 @@ door~
 S
 #3016
 The Aisle of Pews~
-   On either side of you are wooden pews with small mats before them
-for kneeling upon.  Red colored stained glass windows dot the walls of
-the church.  To the east is the entrance foyer and to the west is a small
-aisle leading towards the altar.
+   On either side of you stand wooden pews with small mats before them
+for kneeling upon.  Red stained glass windows dot the walls of the
+church, casting pools of rosy light across the floor, and the air is
+heavy with the scent of candle wax.  To the east is the entrance foyer,
+and to the west the aisle leads toward the altar.
 ~
 30 der 0
 D1
@@ -314,9 +341,11 @@ D3
 S
 #3017
 Entrance to the Elrhinn Church~
-   You stand within the foyer of the old church of Elrhinn.  Pews lead
-off to the west all the way towards a marble altar at the front of the
-church.
+   You stand within the foyer of the old church of Elrhinn.  The ceiling
+soars high above you, lost in shadow, and the murmur of the town fades
+behind you into a reverent hush.  Pews lead off to the west, all the way
+to a marble altar at the front of the church.  The door to the east
+leads out to a cobbled path.
 ~
 30 det 0
 D1
@@ -330,10 +359,12 @@ D3
 S
 #3018
 Dalkyst Road~
-   As you walk down the road, you can hear the chatter of many people.
-Obviously this is a well populated part of the town.  The road continues
-east for several blocks.  The tall spires of the church of Elrhinn rise
-above you to the west.
+   As you walk down the road, you can hear the chatter of many people;
+this is obviously a well-populated part of the town.  Dalkyst Road
+continues east for several blocks, and to the south it opens into the
+northern end of the courtyard.  Northwall Road lies to the north.  The
+tall spires of the church of Elrhinn rise above you to the west, beyond
+a gate.
 ~
 30 0 1
 D0
@@ -355,10 +386,10 @@ gate church~
 S
 #3019
 Dalkyst Road~
-   As you walk down the road, you can hear the chatter of many people.
-Obviously this is a well populated part of the town.  The road continues
-east for another block and ends in a small building.  You see the church
-off to the west.
+   As you walk down the road, you can hear the chatter of many people,
+and the clatter of carts and hooves echoes between the buildings.  The
+road continues east for another block and ends at a small building.  You
+can see the spires of the church off to the west.
 ~
 30 0 1
 D1
@@ -372,11 +403,12 @@ D3
 S
 #3020
 Dalkyst Road~
-   You walk down a well travelled road, leading to a group of buildings in
-the east.  The smell of fresh food drifts past you, delighting your senses.
-As you continue down the road you come to a small building.  A sign above the
-door reads, "Sajah's Common Goods".  Dalkyst Road makes a turn to the north
-here, leading to more businesses.
+   You walk down a well-traveled road leading to a group of buildings in
+the east.  The smell of fresh food drifts past you, delighting your
+senses.  Here you come to a small building with a sign above the door
+that reads, "Sajah's Common Goods", and across the road to the south is
+a fletcher's shop.  Dalkyst Road makes a turn to the north here, leading
+to more businesses, and runs back to the west.
 ~
 30 0 1
 D0
@@ -398,9 +430,11 @@ D3
 S
 #3021
 Shop of Common Goods~
-     You have entered a quaint shop, and are greeted by a friendly shopkeeper.
-The shelves are lined with everyday items, from such things as leather bags,
-to canteens and lanterns.
+   You have entered a quaint shop, where the shelves are lined with
+everyday items, from leather bags to canteens and lanterns.  Coils of
+rope hang from pegs on the walls, and a row of glass jars on the counter
+holds candles, flints and other small necessities.  The door leads back
+west to Dalkyst Road.
 ~
 30 det 0
 D3
@@ -411,9 +445,10 @@ S
 #3022
 Northern Westwall Road~
    Westwall Road runs north and south along the inside of the city wall.
-You see a turn in the road off to the north and close by to the south
-you can see the city gates.  The tall city wall obscures your view to the
-north.
+The houses here are small and close together, and washing hangs on lines
+strung between their windows.  You see a turn in the road off to the
+north, and close by to the south you can see the city gates.  The tall
+city wall blocks your view to the west.
 ~
 30 0 1
 D0
@@ -428,9 +463,10 @@ S
 #3023
 Northern Eastwall Road~
    Eastwall Road runs north and south along the inside of the city wall.
-You see a turn in the road off to the north and close by to the south
-you can see the city gates.  The tall city wall obscures your view to the
-north.
+A stone trough for horses stands against the wall here, half full of
+rainwater.  You see a turn in the road off to the north, and close by to
+the south you can see the city gates.  The tall city wall blocks your
+view to the east.
 ~
 30 0 1
 D0
@@ -444,9 +480,11 @@ D2
 S
 #3024
 Elrhinn Smithy~
-    Armors formed from various materials adorn the walls of this building,
-ranging from very fine hand crafted steel to common leather.  Smoke fills the
-room as the blacksmith's stove heats up, preparing itself to be used again.
+   Armor formed from various materials adorns the walls of this
+building, ranging from very fine, hand-crafted steel to common leather.
+Smoke fills the room as the blacksmith's forge heats up, preparing
+itself to be used again, and the ring of hammer on anvil echoes from
+somewhere in the back.  The door leads south to Forrin Road.
 ~
 30 det 0
 D2
@@ -456,10 +494,11 @@ door~
 S
 #3025
 Elrhinn Arms~
-    As you enter the store you are blinded by the glinting metal that hangs
-from the buildings walls.  Weapons of all shapes and sizes are here, either
-being worked on or sold.  The store owner walks about busily, trying to get
-his weapons prepared for retail.
+   As you enter the store, you are dazzled by the glinting metal that
+hangs from the building's walls.  Weapons of all shapes and sizes are
+here, either being worked on or waiting to be sold: swords and axes,
+maces and spears, and racks of daggers sorted by length.  The door leads
+south to Forrin Road.
 ~
 30 det 0
 D2
@@ -469,9 +508,11 @@ door~
 S
 #3026
 Northwestern Courtyard of Elrhinn~
-   The courtyard lies sprawled out to the southeast, this corner is
-general occupied by travelling merchants selling their wares in wooden
-carts.  The main stores of Elrhinn are south then west of here.
+   The courtyard lies sprawled out to the southeast.  This corner is
+generally occupied by traveling merchants selling their wares from
+wooden carts, and their cries fill the air as they compete for your
+attention.  The main stores of Elrhinn lie to the south and then west of
+here.  The courtyard continues east and south.
 ~
 30 g 1
 D1
@@ -489,9 +530,10 @@ D8
 S
 #3027
 Northern Courtyard of Elrhinn~
-   The courtyard continues primarily to the south, east and west.  Far
-off to the north you can see the city gates of Elrhinn, and to the south
-lies the main square of Elrhinn.
+   The courtyard continues to the south, east and west, a broad expanse
+of worn flagstones crowded with townsfolk.  Far off to the north, up
+Dalkyst Road, you can see the city gates of Elrhinn, and to the south
+lies the main square of the town.
 ~
 30 0 1
 D0
@@ -513,10 +555,11 @@ D3
 S
 #3028
 Northeastern Courtyard of Elrhinn~
-   The courtyard lies sprawled out to the southwest, this corner is
-general occupied by travelling merchants selling their wares right off
-their pack animals.  To the southeast you can see the large city hall
-and the barracks of the city guardsmen.
+   The courtyard lies sprawled out to the southwest.  This corner is
+generally occupied by traveling merchants selling their wares right off
+their pack animals, and the air is thick with the smell of horses and
+spices.  To the southeast you can see the large city hall and the
+barracks of the city guardsmen.  The courtyard continues south and west.
 ~
 30 0 1
 D2
@@ -534,10 +577,12 @@ D9
 S
 #3029
 Inside City Hall~
-   This is the northern corridor of the Elrhinn City Hall, to the east
-is the barracks of the city guardsmen, and the office of the captain of
-the city guard.  To the south is the main foyer, and far off to the
-south you see the entrance to the mayor's office.
+   This is the northern corridor of the Elrhinn City Hall, a long
+hallway with a floor of polished stone and walls hung with faded
+tapestries of the town's history.  To the east is a door to the barracks
+of the city guardsmen and the office of the captain of the guard.  To
+the south is the main foyer, and far beyond it lies the entrance to the
+mayor's office.
 ~
 30 de 0
 D1
@@ -551,10 +596,12 @@ D2
 S
 #3030
 Barracks~
-   These are the living quarters of the city guardsmen of Elrhinn.  This
-room is very spartanly furnished, with single beds placed along the
-northern wall in perfect rows.  Through the doorway to the west is the
-northern hallway, while the barracks continue to the south and east.
+   These are the living quarters of the city guardsmen of Elrhinn.  The
+room is very sparsely furnished, with narrow beds placed along the
+northern wall in perfect rows, each one made up with a gray blanket
+folded tight enough to bounce a coin.  Through the doorway to the west
+is the northern corridor of City Hall, while the barracks continue to
+the south and east.
 ~
 30 de 0
 D1
@@ -572,11 +619,11 @@ door west~
 S
 #3031
 Barracks~
-   These are the living quarters of the city guardsmen of Elrhinn.  This
-room is very spartanly furnished, with single beds placed along the
-northern wall in perfect rows.  Through the doorway to the east is the
-office of the captain of the city guard while the barracks continue to
-the south and west.
+   These are the living quarters of the city guardsmen of Elrhinn.
+Narrow beds stand along the northern wall in perfect rows, and a
+footlocker sits at the end of each one.  The floor is scrubbed spotless.
+Through the doorway to the east is the office of the captain of the city
+guard, while the barracks continue to the south and west.
 ~
 30 de 0
 D1
@@ -595,10 +642,12 @@ S
 #3032
 The Captain's Office~
    This is the office of the captain of the city guardsmen.  A huge desk
-made of polished mahogony has been placed facing the doorway.  Various
-implements of war are hung on the eastern wall behind the desk.  A trophy
-case is located along the southern wall, and contained with in are numerous
-trophies for the captain's unmatched skill in combat.
+made of polished mahogany has been placed facing the doorway, so that no
+one can enter unseen.  Various implements of war hang on the eastern
+wall behind the desk, every blade oiled and gleaming.  A trophy case
+stands along the southern wall, and within it are numerous trophies
+honoring the captain's unmatched skill in combat.  The door leads back
+west to the barracks.
 ~
 30 det 0
 D3
@@ -609,10 +658,12 @@ S
 #3033
 Outside the Western Gate of Elrhinn~
    To the east lies the Elrhinn Township, one of the larger towns on
-this continent.  It is renowned for its merchants who bring valuables
-from all over the Dominion to sell and trade.  You see some figures
-standing around the city gate to the east, and a large iron portcullis
-hangs from the gate.
+this continent.  It is renowned for its merchants, who bring valuables
+from all over the Dominion to sell and trade.  Tall walls of gray stone
+stretch away to the north and south, and the road here is trampled hard
+by the feet of countless travelers.  You see some figures standing
+around the city gate to the east, where a large iron portcullis hangs
+ready to drop.  The road leads away to the west.
 ~
 30 0 2
 D1
@@ -628,9 +679,11 @@ S
 #3034
 Inside the Western Gate~
    Rising up before you is a huge iron portcullis, decorated with the
-seal of the township of Elrhinn.  To either side of the gate are the
-sturdy town walls, formed centuries ago to protect the town from unwanted
-invasion.
+seal of the township of Elrhinn.  To either side of the gate stand the
+sturdy town walls, raised centuries ago to protect the town from
+unwanted invasion.  Arrow slits pierce the stone above the gate, and the
+shadowed archway smells of damp and horses.  Westwall Road lies to the
+east.
 ~
 30 dt 0
 D1
@@ -644,9 +697,11 @@ portcullis port~
 S
 #3035
 Westwall Road~
-   You are on a road that runs north and south.  To your west lies the
-town gate, far off to the east the courtyard.  Merchants flood the streets
-each day, using this well travelled path.
+   You are on a road that runs north and south along the western wall.
+To your west lies the town gate, and to the east Forrin Road leads off
+toward the courtyard.  Merchants flood the streets each day, driving
+carts and pack animals along this well-traveled path, and the noise of
+their haggling never seems to stop.
 ~
 30 0 1
 D0
@@ -668,10 +723,11 @@ D3
 S
 #3036
 Forrin Road~
-   You stand between two shops on either side of the road.  To the east,
-Forrin Road continues towards the great square of Elrhinn.  Forrin Road
-also leads west towards the Western Gates.  Behind wooden doors on either
-side of the road are low buildings.
+   You stand between two shops on either side of the road, low buildings
+behind sturdy wooden doors.  To the north the clang of a smith's hammer
+rings out, and to the south hangs a sign painted with a faded compass
+rose.  Forrin Road continues east toward the great square of Elrhinn,
+and west toward the western gate.
 ~
 30 0 1
 D0
@@ -690,17 +746,14 @@ D3
 ~
 ~
 0 -1 3035
-E
-suckthispinko~
-FUCK YOU
-~
 S
 #3037
 Forrin Road~
-   Just to the east you see the large Square of Elrhinn open up, bustling
-with activity.  To the north and south sit two small shops behind wooden 
-doors, both ringing with noise.  To the west you see the road lead off 
-between shops towards the western gates.
+   Just to the east you see the large square of Elrhinn open up,
+bustling with activity.  To the north and south sit two small shops
+behind wooden doors, both ringing with the noise of metalwork and
+smelling of hot iron.  To the west the road leads off between shops
+toward the western gate.
 ~
 30 0 1
 D0
@@ -719,16 +772,14 @@ D3
 ~
 ~
 0 -1 3036
-E
-kevin~
-god he;s so sexy
-~
 S
 #3038
 Western Courtyard of Elrhinn~
-   The courtyard lies sprawled out to the east, the road to the west
-is lined with large shops.  The main square lies to the east and
-beyond that you can see Elrhinn City Hall.
+   The courtyard lies sprawled out to the east, while the road to the
+west is lined with large shops.  Pigeons strut across the flagstones
+here, scattering whenever a cart rolls past.  The main square lies to
+the east, and beyond it you can see Elrhinn City Hall.  The courtyard
+also continues north and south.
 ~
 30 0 1
 D0
@@ -750,12 +801,14 @@ D3
 S
 #3039
 The Courtyard of Elrhinn~
-   You stand in the center of a marvelous courtyard, containing a statue
-formed by the hands of Elrhinn's greatest artisians.  Citizens of Elrhinn
-pass through this common place day in and day out.  The courtyard extends
-in every direction, and off to the west a you see a busy marketplace.
-North of here is a gate leading out of the town, to the east you see a
-large building marked City Hall.
+   You stand in the center of a marvelous courtyard, around a statue
+formed by the hands of Elrhinn's greatest artisans.  Citizens of Elrhinn
+pass through this common place day in and day out, and the air is filled
+with the sounds of conversation, the cries of vendors and the clatter of
+hooves.  The courtyard extends in every direction.  Off to the west you
+see a busy marketplace, and to the east a large building marked City
+Hall.  To the north, beyond the courtyard, a road leads to a gate out of
+the town.
 ~
 30 ces 1
 D0
@@ -789,11 +842,11 @@ D7
 D8
 ~
 ~
-0 -1 3053
+0 -1 3055
 D9
 ~
 ~
-0 -1 3055
+0 -1 3053
 E
 statue statues~
    The statue is a depiction of the High God of the Arcane - for when
@@ -811,10 +864,11 @@ the west you see the busy marketplace.
 S
 #3041
 The Entrance to City Hall~
-   This is the entrace to city hall, the door to the east leads inside
-while the courtyard lies to the west.  Above the door the words,
-'Elrhinn City Hall' are engraved into the granite, and to the left of
-the entrance is a plaque with the mayor's name upon it.
+   This is the entrance to City Hall.  The door to the east leads
+inside, while the courtyard lies to the west.  Above the door the words
+"Elrhinn City Hall" are engraved into the granite, and to the left of
+the entrance is a plaque bearing the mayor's name.  A broad stone
+archway to the north leads into the Adventurer's Academy.
 ~
 30 e 1
 D0
@@ -839,9 +893,13 @@ plaque~
 S
 #3042
 The Main Foyer~
-   The floor here is made of a bluish marble that is quite slippery.
-The mayor's office is toward the south and the hallway to the north
-leads to the city guardsmen's head-quarters.
+   The floor here is made of a bluish marble that is polished to a shine
+and quite slippery underfoot.  Tall windows fill the foyer with light,
+and a bench stands against one wall for those waiting on the town's
+business.  The mayor's office lies toward the south, the hallway to the
+north leads to the headquarters of the city guardsmen, and a gathering
+room opens to the east.  The door to the west leads back out to the
+courtyard.
 ~
 30 de 0
 D0
@@ -863,10 +921,10 @@ door west~
 S
 #3043
 Barracks~
-   These are the living quarters of the city guardsmen of Elrhinn.  This
-room is very spartanly furnished, with single beds placed along the
-northern wall in perfect rows.  To the north is the entrance to the barracks,
-while the barracks continue to the west.
+   These are the living quarters of the city guardsmen of Elrhinn.
+Narrow beds stand along the walls in perfect rows, and a rack of
+practice swords leans in one corner.  The barracks continue to the north
+and east.
 ~
 30 de 0
 D0
@@ -880,10 +938,11 @@ D1
 S
 #3044
 Barracks~
-   These are the living quarters of the city guardsmen of Elrhinn.  This
-room is very spartanly furnished, with single beds placed along the
-northern wall in perfect rows.  Through the doorway to the east is a
-storeroom, while the barracks continue to the east and north.
+   These are the living quarters of the city guardsmen of Elrhinn.
+Narrow beds stand along the walls in perfect rows, and the room smells
+of leather and polish.  Through the doorway to the east is a storeroom,
+and a heavy door to the south leads to the holding cell.  The barracks
+continue to the north and west.
 ~
 30 de 0
 D0
@@ -905,9 +964,11 @@ D3
 S
 #3045
 City Guard Storeroom~
-   This guardsmen use this room to store any excess items they own, the
-citizens of Elrhinn also donate items to this storeroom and as such the
-guardsmen allow needy citizens to take from this room as needed.
+   The guardsmen use this room to store any excess items they own.  The
+citizens of Elrhinn also donate items to this storeroom, and the
+guardsmen allow needy citizens to take from it as they need.  Shelves
+and crates line the walls, holding a jumble of clothing, tools and old
+equipment.  A door leads west to the barracks, and another leads east.
 ~
 30 dejlmt 0
 D1
@@ -921,9 +982,10 @@ door west~
 S
 #3046
 Eastwall Road~
-   To your east lies the town gate, Eastwall Road continues to the north
-and south.  The back of City Hall is to the west, but there seems to be
-no entrance from this side.
+   Eastwall Road continues to the north and south along the inside of
+the city wall, and to your east lies the town gate.  The back of City
+Hall rises to the west, a blank wall of gray stone with no entrance on
+this side.  Carts rumble past on their way to and from the gate.
 ~
 30 0 1
 D0
@@ -942,9 +1004,10 @@ S
 #3047
 Inside the Eastern Gate~
    Rising up before you is a huge iron portcullis, decorated with the
-seal of the township of Elrhinn.  To either side of the gate are the
-sturdy town walls, formed centuries ago to protect the town from unwanted
-invasion.
+seal of the township of Elrhinn.  To either side of the gate stand the
+sturdy town walls, raised centuries ago to protect the town from
+unwanted invasion.  A chill draft blows through the archway from the
+open land beyond.  Eastwall Road lies to the west.
 ~
 30 det 0
 D1
@@ -959,10 +1022,12 @@ S
 #3048
 Outside the Eastern Gate of Elrhinn~
    To the west lies the Elrhinn Township, one of the larger towns on
-this continent.  It is reknowned for its merchants who bring valuables
-from all over the Dominion to sell and trade.  You see some figures
-standing around the city gate to the west, and a large iron portcullis
-hangs from the gate.
+this continent.  It is renowned for its merchants, who bring valuables
+from all over the Dominion to sell and trade.  The road here is busy
+with wagons coming and going, and the walls of the town rise tall and
+gray before you.  You see some figures standing around the city gate to
+the west, where a large iron portcullis hangs ready to drop.  The
+Eastern Elrhinn Road leads away to the east.
 ~
 30 0 2
 D1
@@ -978,11 +1043,12 @@ portcullis port~
 S
 #3049
 Mybius' Mystical Maps~
-    You have entered a small shop, with a huge political map of what looks
-to be the south east portion of the Dominion is nailed to a wall.  Smaller
-versions of the map are stacked on a counter top in the center of the
-room.  The shopkeeper looks at you, rather intently, as a scientist would
-study their subject.
+   You have entered a small shop, where a huge political map of what
+looks to be the southeastern portion of the Dominion is nailed to a
+wall.  Smaller copies of the map are stacked on a countertop in the
+center of the room, and rolled charts poke out of barrels in every
+corner.  The smell of ink and old parchment is everywhere.  The door
+leads north to Forrin Road.
 ~
 30 det 0
 D0
@@ -992,10 +1058,13 @@ door north~
 S
 #3050
 Elrhinn Magic Shop~
-    Magical artifacts of all kinds can be found here, amoung various other
-common magical items.  Owned by the wizards of Elrhinn, this shop is a way
-in which they make money to conduct experiments in the ever expanding field
-of their arcane art.
+   Magical artifacts of all kinds can be found here, along with various
+other, more common magical items.  Shelves of oddly colored bottles
+glimmer in the candlelight, and something in a jar on the counter seems
+to be watching you.  Owned by the wizards of Elrhinn, this shop is the
+way in which they earn the money to conduct experiments in the
+ever-expanding field of their arcane art.  The door leads south to
+Silverstream Way.
 ~
 30 det 0
 D2
@@ -1005,10 +1074,11 @@ door south~
 S
 #3051
 The Repair Smithy~
-   The low, heat filled building has armor, swords, knives, and even
-cooking pots and other household utinsels scattered haphazardly all over
-the shop.  The wall opposite the doorway in the north wall is made of red
-brick and radiates the heat of the forge everywhere within the shop.
+   This low, heat-filled building has armor, swords, knives and even
+cooking pots and other household utensils scattered haphazardly all over
+it, each waiting its turn to be mended.  The wall opposite the doorway
+in the north wall is made of red brick and radiates the heat of the
+forge everywhere within the shop.
 ~
 30 det 0
 D0
@@ -1018,9 +1088,11 @@ door north~
 S
 #3052
 Shop of Healing~
-   As you enter this small shop the sweet smell of spices assaults your
-senses.  Run by the cleric's of Elrhinn this shop produces healing potions
-and various elixirs and salves.
+   As you enter this small shop, the sweet smell of spices and herbs
+fills your senses.  Bundles of dried leaves hang from the ceiling, and
+rows of stoppered bottles line the shelves behind the counter.  Run by
+the clerics of Elrhinn, this shop produces healing potions and various
+elixirs and salves.  The door leads south to Silverstream Way.
 ~
 30 det 0
 D2
@@ -1030,9 +1102,11 @@ door south~
 S
 #3053
 Southwestern Courtyard of Elrhinn~
-   The courtyard lies sprawled out to the northeast, this corner is
-general occupied by travelling merchants selling their wares in wooden
-carts.  The main stores of Elrhinn are north then west of here.
+   The courtyard lies sprawled out to the northeast.  This corner is
+generally occupied by traveling merchants selling their wares from
+wooden carts, piled high with fruit, cloth and trinkets.  The main
+stores of Elrhinn lie to the north and then west of here.  The courtyard
+continues north and east.
 ~
 30 0 1
 D0
@@ -1050,9 +1124,10 @@ D6
 S
 #3054
 Southern Courtyard of Elrhinn~
-   The courtyard continues primarily to the north, and the east and west.
-Far off to the north you can see the city gates of Elrhinn, and to the
-south a road leads toward the sacred grove.
+   The courtyard continues to the north, east and west.  Far off to the
+north you can see the city gates of Elrhinn, and to the south
+Silverstream Way leads off between rows of shops.  A pair of old stone
+benches stands here, worn smooth by generations of weary shoppers.
 ~
 30 0 1
 D0
@@ -1074,9 +1149,11 @@ D3
 S
 #3055
 Southeastern Courtyard~
-   The courtyard lies sprawled out to the northwest, this corner is
-general occupied by travelling merchants selling their wares in wooden
-carts.  To the northwest lies a large building marked city hall.
+   The courtyard lies sprawled out to the northwest.  This corner is
+generally occupied by traveling merchants selling their wares from
+wooden carts, and the smell of roasting nuts drifts from one of them.
+Beyond the courtyard to the northeast rises the large building of City
+Hall.  The courtyard continues north and west.
 ~
 30 0 1
 D0
@@ -1094,10 +1171,11 @@ D7
 S
 #3056
 Entrance to the Template's Chambers~
-   To the east is a door set into the wall with a plaque over it
-reading "Office of the Template".  A desk is pushed against the southern
-wall of this small office, cluttered with bureaucratic paraphinalia.
-To the north, you see the main foyer of the Town Hall.
+   A desk is pushed against the southern wall of this small office,
+cluttered with ink pots, ledgers and stacks of bureaucratic
+paraphernalia.  To the east is a door set into the wall with a plaque
+over it reading "Office of the Template".  To the north, you see the
+main foyer of City Hall.
 ~
 30 de 0
 D0
@@ -1111,11 +1189,12 @@ door east~
 S
 #3057
 Chambers of the Template of Elrhinn~
-   This room is lavishly furnished with plush chairs and a sofa for the
-Template's visitors, a large mahogony desk and matching mahogony chair
-have been placed across from them for the Template.  Several book cases
-line the walls filled with tomes containing the statutes of Elrhinn and
-many others on the affairs of man, particularly politics and religion.
+   This room is lavishly furnished, with plush chairs and a sofa for the
+Template's visitors and a large mahogany desk and matching chair set
+across from them.  Several bookcases line the walls, filled with tomes
+containing the statutes of Elrhinn and many others on the affairs of
+men, particularly politics and religion.  A thick red carpet muffles
+every footstep.  The door leads back west.
 ~
 30 der 0
 D3
@@ -1126,9 +1205,10 @@ S
 #3058
 Southern Westwall Road~
    Westwall Road runs north and south along the inside of the city wall.
-You see a the docks of Elrhinn far off to the south and close by to the
-north you can see the city gates.  The tall city wall obscures your view
-to the west.
+You can see the docks of Elrhinn far off to the south, and the smell of
+the water drifts up the road on the breeze.  Close by to the north you
+can see the city gates, and a house stands on the east side of the road.
+The tall city wall blocks your view to the west.
 ~
 30 n 1
 D0
@@ -1147,9 +1227,10 @@ S
 #3059
 Southern Eastwall Road~
    Eastwall Road runs north and south along the inside of the city wall.
-You see a turn in the road far off to the south and close by to the
-north lie the city gates.  The tall city wall obscures your view
-to the east.
+The cobbles here are uneven, and puddles linger in the low places long
+after the rain.  You see a turn in the road far off to the south, and
+close by to the north lie the city gates.  The tall city wall blocks
+your view to the east.
 ~
 30 0 1
 D0
@@ -1163,10 +1244,10 @@ D2
 S
 #3060
 End of Silverstream Way~
-    You are standing at the western end of Silverstream Way.  To the
-east, you see the road cut betweem two rows of shops on either side of
-the road.  To the north, there's a shop with a sign hung above the 
-doorway and to the south looks to be a guildhouse of some sorts.
+   You are standing at the western end of Silverstream Way.  To the
+east, the road runs between two rows of shops.  To the north there's a
+shop with a sign hung above the doorway, and to the south looks to be a
+guildhouse of some sort, its doorway framed by carved pillars.
 ~
 30 0 1
 D0
@@ -1191,10 +1272,11 @@ The sign reads:
 S
 #3061
 Silverstream Way~
-   Silverstream Way continues to the east and west between quaint shops
-on either side of the road.  To the west however, you see the road stop
-short before a large, red brick wall.  To the north and south you see
-shops.
+   Silverstream Way continues east and west between quaint shops on
+either side of the road.  To the west, however, the road stops short
+before a large red brick wall.  To the north and south you see shops,
+their doors painted in cheerful colors.  The road itself is paved with
+pale stone that gleams like silver after rain.
 ~
 30 0 1
 D0
@@ -1221,11 +1303,12 @@ the road looks quite nice actually
 S
 #3062
 Silverstream Way~
-   Just to the north lies the Southern section of the square of Elrhinn.
-To the south you see a thick green forest, the Sacred Forest.  To the
-east is a small alcove with a single tree in the middle with benches 
-surrounding it.  To the west, the road leads off between small, quaint 
-shops.
+   Just to the north lies the southern section of the square of Elrhinn.
+To the south you see a thick green forest, the Sacred Grove, its edge
+marked by ancient oaks whose branches arch over the road like the vault
+of a cathedral.  To the east is a small alcove with a single tree in the
+middle and benches surrounding it.  To the west, the road leads off
+between small, quaint shops.
 ~
 30 0 1
 D0
@@ -1247,10 +1330,12 @@ D3
 S
 #3063
 A small alcove~
-   In the middle of the quiet alcove grows a large green tree.  A wooden
-fence surrounds it with dark green grass surrounding that.  Surrounding
-the alcove is a red brick wall.  To the west, through a small archway in
-the brick wall, Silverstream Way leads off.
+   In the middle of this quiet alcove grows a large green tree, its
+spreading branches casting a cool shade.  A low wooden fence surrounds
+it, and beyond that a ring of dark green grass.  A red brick wall
+encloses the whole alcove, muffling the noise of the town, and doors in
+the wall lead north and south.  To the west, through a small archway in
+the brick wall, lies Silverstream Way.
 ~
 30 n 1
 D0
@@ -1268,7 +1353,11 @@ D3
 S
 #3064
 Before the Tower~
-   A large tower rises up from the ground here high into the sky.
+   A large tower rises up from the ground here high into the sky, built
+of pale stone so smooth that no seam or joint can be seen.  Narrow
+windows spiral up its sides, and faint lights flicker in some of them
+even by day.  The grass about its base grows thick and green.  A door
+leads east into the tower, and the Sacred Grove lies to the west.
 ~
 30 0 2
 D1
@@ -1283,9 +1372,9 @@ S
 #3065
 Southern Westwall Road~
    Westwall Road runs north and south along the inside of the city wall.
-You see a the docks of Elrhinn far off to the south and off to the north
-you can see the city gates.  The tall city wall obscures your view to
-the west.
+You can see the docks of Elrhinn far off to the south, where the masts
+of ships rise above the rooftops, and off to the north you can see the
+city gates.  The tall city wall blocks your view to the west.
 ~
 30 0 1
 D0
@@ -1299,9 +1388,11 @@ D2
 S
 #3066
 Elrhinn Money Exchange Guild~
-   The bank is very drab and is not very exciting.  On the eastern wall
-is a picture depicting a the bust of a gnome with an intelligent smirk
-on his face.  Upon the counter is a sign.
+   The bank is very drab and not very exciting.  The walls are paneled
+in dark wood, and a heavy iron-banded strongbox sits behind the counter,
+well out of reach.  On the eastern wall is a picture depicting the bust
+of a gnome with an intelligent smirk on his face.  Upon the counter is a
+sign.  The door leads north to Silverstream Way.
 ~
 30 det 0
 D0
@@ -1310,18 +1401,18 @@ door north~
 1 -1 3061
 E
 sign counter~
-To use my services just consicely as you can, tell me what you need.
+To use my services just concisely as you can, tell me what you need.
 You may check your balance, makes deposits and of course, make deposits.
 Thanks You!
 ~
 S
 #3067
 Entrance to the Sacred Grove~
-   As you enter this vale you feel a great presence surrounds you as if
+   As you enter this vale you feel a great presence surround you, as if
 you were being watched from somewhere in the distance.  Magical light
-dances from behind the trees, making the forest seemingly come to life.
-The path continues to the east and south, to the north lies the town
-courtyard.
+dances from behind the trees, making the forest seem to come to life,
+and the air is sweet with the scent of moss and wildflowers.  The path
+continues to the east and south, and to the north lies Silverstream Way.
 ~
 30 0 2
 D0
@@ -1339,11 +1430,11 @@ D2
 S
 #3068
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-south and east the forest path continues.
+   Following the dusty path, you see that the trees seem to part for
+you, sensing that you pose no immediate threat.  Men and women dressed
+in long robes walk about, intent on their own private conversations.
+The forest grows lighter to the east, where a tower of some sort rises
+above the trees.  The path continues to the east, south and west.
 ~
 30 0 2
 D1
@@ -1361,11 +1452,11 @@ D3
 S
 #3069
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-south and east the forest path continues.
+   The dusty path winds between great old trees whose trunks are covered
+in soft green moss.  Shafts of sunlight slant down through the leaves,
+and the only sounds are birdsong and the soft murmur of robed figures
+speaking together.  The tower rises above the trees to the east.  The
+path continues to the east, south and west.
 ~
 30 0 2
 D1
@@ -1383,11 +1474,10 @@ D3
 S
 #3070
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-south and east the forest path continues.
+   The trees thin out here, and the forest becomes lighter.  Just to the
+east you see the base of a tall tower standing in a clearing.  Robed men
+and women pass to and fro along the path, nodding politely as they go.
+The path continues to the south and west.
 ~
 30 0 2
 D1
@@ -1406,9 +1496,10 @@ S
 #3071
 Southern Eastwall Road~
    Eastwall Road runs north and south along the inside of the city wall.
-You see a bend in the road far off to the south and off to the north
-you can see the city gates.  The tall city wall obscures your view to
-the west.
+A brightly painted door on the west side of the road leads into a
+clubhouse, from which come bursts of laughter and music.  You see a bend
+in the road far off to the south, and off to the north you can see the
+city gates.  The tall city wall blocks your view to the east.
 ~
 30 n 1
 D0
@@ -1426,9 +1517,11 @@ door~
 S
 #3072
 The End of Dagger Lane~
-   This dark road appears to have come to an abrupt end.  Dagger Lane
-winds it way back out of this corner to the south, and the door to the
-Grog and Tankard hangs limply from its hinges to the east.
+   This dark road appears to have come to an abrupt end.  The buildings
+lean close overhead, shutting out the sky, and the cobbles are slick
+with refuse.  Dagger Lane winds its way back out of this corner to the
+south, and the door to the Grog and Tankard hangs limply from its hinges
+to the east.
 ~
 30 0 1
 D1
@@ -1442,10 +1535,12 @@ D2
 S
 #3073
 The Grog and Tankard~
-   The lighting in here is very poor, though you can make out several
-people hanging about the bar talking in whispers.  Along the western
-wall of the tavern several booths contain others who look up from their
-meals at you with angry sneers.
+   The lighting in here is very poor, and the air is thick with pipe
+smoke and the sour smell of spilled ale.  Along the western wall of the
+tavern several booths offer a measure of privacy to those who want it,
+and a long, battered bar runs along the far side of the room.  A door
+leads north to a back room, a trapdoor in the floor leads down, and the
+door to the west leads back out to Dagger Lane.
 ~
 30 d 0
 D0
@@ -1464,11 +1559,10 @@ trapdoor down~
 S
 #3074
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-north and east the forest path continues.
+   Following the dusty path, you see that the trees seem to part for
+you, sensing that you pose no immediate threat.  Ferns grow thick
+beneath the trees, and somewhere nearby a stream trickles over stones.
+The path continues to the north and east.
 ~
 30 0 2
 D0
@@ -1482,11 +1576,10 @@ D1
 S
 #3075
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-north and east the forest path continues.
+   The dusty path winds on between ancient trees, their roots twisting
+across the ground like the knuckles of great hands.  Men and women
+dressed in long robes walk about, intent on their own private
+conversations.  The path continues to the north, east and west.
 ~
 30 0 2
 D0
@@ -1504,11 +1597,10 @@ D3
 S
 #3076
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-north and east the forest path continues.
+   A soft, magical light shimmers among the trees here, though you can
+see no source for it.  The grove is very peaceful, and you feel your
+worries fall away as you walk.  The path continues to the north, east
+and west.
 ~
 30 0 2
 D0
@@ -1526,11 +1618,10 @@ D3
 S
 #3077
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-north and east the forest path continues.
+   Following the dusty path, you see that the trees seem to part for
+you, sensing that you pose no immediate threat.  A carved stone bench
+sits beside the path beneath a spreading oak, inviting you to rest.  The
+path continues to the north, east and west.
 ~
 30 0 2
 D0
@@ -1548,11 +1639,10 @@ D3
 S
 #3078
 The Sacred Grove~
-   Following the dusty path, you see that the trees seem to part for you,
-sensing that you pose no immediate threat. The forest becomes lighter here
-and to your east you see a tower of some sort.  Men and women dressed in
-long robes walk about, intent on their own private conversations.  To the
-north and west the forest path continues.
+   The path comes to an end here at the edge of the grove, where a small
+house stands among the trees to the south, its door shaded by climbing
+roses.  The forest is quiet and still.  The dusty path leads back to the
+west.
 ~
 30 n 2
 D2
@@ -1566,8 +1656,11 @@ D3
 S
 #3079
 Beneath the Grog and Tankard~
-   This room is filled with hueg barrels of ale and wine.  You glimpse some
-light peering out from behind one of the barrels.
+   This cellar is filled with huge barrels of ale and wine, stacked to
+the ceiling and smelling strongly of oak and sour beer.  You glimpse
+some light peering out from behind one of the barrels, near a door in
+the eastern wall.  A passage leads north, and a trapdoor overhead leads
+up to the tavern.
 ~
 30 d 0
 D0
@@ -1585,10 +1678,11 @@ trapdoor up~
 S
 #3080
 Atharian Hideout~
-   There are barrels closed and tightly tied together along every wall.
-Upon one of the barrels in the eastern corner of the room is a book,
-opened to a specific page.  To the west you see a door leading out of
-the hideout.
+   Barrels, tightly closed and lashed together, stand along every wall
+of this hidden room.  Upon one of the barrels in the eastern corner of
+the room lies a book, opened to a specific page.  A single shuttered
+lantern provides the only light.  To the west a door leads out of the
+hideout.
 ~
 30 det 0
 D3
@@ -1603,7 +1697,7 @@ founders of the Guild.
 
    We, The Athar, are a secret establishment founded on the belief that
 'Anything you need can be bought with the right amount of prodding.'
-The Brotherhood can never be extinghuished if it protects its own;
+The Brotherhood can never be extinguished if it protects its own;
 over its god, family, even money.  The world is a dangerous place
 where one must either:
 1.  watch his or her back every moment.
@@ -1611,10 +1705,11 @@ where one must either:
 S
 #3081
 House of the Sage~
-   The room is fairly non descript save for two shelves of books facing
-opposite from each other on the northern and southern walls of the room.
-A straw mat lying in the center of the room covers the hard wood floor.
-To the east is a doorway leading back out to the streets of Elrhinn.
+   The room is fairly nondescript save for two shelves of books facing
+each other on the northern and southern walls.  A straw mat lying in the
+center of the room covers the hardwood floor, and the smell of old paper
+and candle wax hangs in the air.  To the east is a doorway leading back
+out to the streets of Elrhinn.
 ~
 30 det 0
 D1
@@ -1629,9 +1724,11 @@ titles are illegible or are in some unknown, forgotten runes.
 S
 #3082
 The West End of Southwall Road~
-   This is the Southwestern corner of the city.  Southwall Road continues
-to the east while Westwall Road leads north.  The tall city walls obscure
-you view to the west and the docks lies to the south.
+   This is the southwestern corner of the city, where the walls meet
+beneath a squat watchtower.  Southwall Road continues to the east, while
+Westwall Road leads north.  A small house stands to the west, and to the
+south the road leads down to the docks, where the smell of fish and tar
+is strong.  The tall city walls block your view to the west.
 ~
 30 0 1
 D0
@@ -1654,8 +1751,9 @@ S
 #3083
 Western Southwall Road~
    Southwall Road runs east and west along the inside of the city wall.
-You see a turn in the road far off to the west and close by to the east
-you can see the city gates.  The tall city wall obscures your view to the
+A narrow, shadowy lane leads off to the north between leaning buildings.
+You see a turn in the road far off to the west, and close by to the east
+you can see the city gates.  The tall city wall blocks your view to the
 south.
 ~
 30 0 1
@@ -1674,9 +1772,10 @@ D3
 S
 #3084
 Southwall Road~
-   You are on a road that runs east and west.  To your south lies the
-town's southern gates, and beyond that the Hallows of Darkweir.  Merchants
-flood the streets each day, using this well trodden walkway.
+   You are on a road that runs east and west along the southern wall.
+To your south lies the town's southern gate, and beyond that the Hallows
+of Darkweir.  Merchants flood the streets each day, using this
+well-trodden walkway, though few of them seem eager to travel south.
 ~
 30 s 1
 D1
@@ -1695,9 +1794,10 @@ S
 #3085
 Eastern Southwall Road~
    Southwall Road runs east and west along the inside of the city wall.
-You see a turn in the road to the far off to the east and close by to
-the west you can see the city gates.  The tall city wall obscures your
-view to the south.
+A house stands on the north side of the road, its windows shuttered.
+You see a turn in the road far off to the east, and close by to the west
+you can see the city gates.  The tall city wall blocks your view to the
+south.
 ~
 30 n 1
 D0
@@ -1717,9 +1817,11 @@ D3
 S
 #3086
 The East End of Southwall Road~
-   This is the Southeastern corner of the city.  Southwall Road continues
-to the east while Eastwall Road leads south.  The tall city walls obscure
-you view to the south and east.
+   This is the southeastern corner of the city, where the walls meet
+beneath a squat watchtower.  Southwall Road continues to the west, while
+Eastwall Road leads north.  The great stones at the base of the walls
+are old and weathered, worn smooth by centuries of wind and rain.  The
+tall city walls block your view to the south and east.
 ~
 30 0 1
 D0
@@ -1737,11 +1839,12 @@ cornerstone~
 S
 #3087
 Southern Docks of Elrhinn~
-   You have come upon a large river running along side a group of wooden
-docks.  Boats arrive and depart the Town of Elrhinn carrying both goods
-and passengers daily.  A large man selling boats stands upon the main
-dock, yelling obscenites at his dockworkers for what he calls, "Being
-slower than a mules ass."
+   You have come upon a large river running alongside a group of wooden
+docks.  Boats arrive and depart the town of Elrhinn daily, carrying both
+goods and passengers, and the planks are piled with crates, barrels and
+coils of rope.  Gulls wheel and cry overhead, and the water slaps
+against the pilings.  The docks continue to the south, and the road
+leads north into town.
 ~
 30 e 1
 D0
@@ -1755,10 +1858,12 @@ D2
 S
 #3088
 Dalkyst Inn~
-   The hallway here leads to many rooms, from which you can hear the
-sounds of people talking, sleeping, and engaging in various other
-activities.  There seem to be a few rooms left for tired adventurers
-further down the hall.
+   The upstairs hallway of the Dalkyst Inn leads to many rooms, from
+which you can hear the sounds of people talking, snoring and engaging in
+various other activities.  A worn runner covers the floorboards, and a
+small counter stands at the head of the stairs.  There seem to be a few
+rooms left for tired adventurers further down the hall.  The stairs lead
+back down to the meeting room.
 ~
 30 der 0
 D5
@@ -1768,10 +1873,11 @@ D5
 S
 #3089
 Inside the Tower of Magus~
-   You stand within a circular shaped tower with a stairway winding up
-along the walls to another level.  The ceiling is adorned with wooden 
-rafters.  Along the walls you see torches flickering brightly, illuminating
-the tower well.
+   You stand within a circular tower with a stairway winding up along
+the walls to another level.  The ceiling is crossed by heavy wooden
+rafters, and along the walls torches flicker brightly, illuminating the
+tower well.  Strange symbols are painted on the floor in a wide ring.  A
+door leads west, out of the tower.
 ~
 30 det 1
 D3
@@ -1789,12 +1895,13 @@ The are pretty darn bright.
 S
 #3090
 Magus' Laboratory~
-   The laboratory consists of a desk, three large wall to wall shelves,
-and a globe.  The desk is strewn with parchments and scrolls and pens.
-There is nothing really fascinating or magical about the room at first
-look.  Then you notice that the globe constantly spins without any gears
-turning it.  In the corner of the room you see a staircase wind down
-alongside the curved walls of the tower.
+   The laboratory consists of a desk, three large wall-to-wall shelves
+and a globe.  The desk is strewn with parchments, scrolls and pens, and
+the shelves are crowded with books and jars.  There is nothing really
+fascinating or magical about the room at first glance.  Then you notice
+that the globe spins constantly without any gears turning it.  In the
+corner of the room a staircase winds down alongside the curved walls of
+the tower.
 ~
 30 der 1
 D5
@@ -1809,8 +1916,9 @@ S
 #3091
 The Mail Exchange of Elrhinn~
    The Mail Exchange is a very boring place.  Folk stand idly about
-waiting to send their mail with the Postmaster.  Upon the wall is
-a Wanted poster.  Down the hall to the west you see the Meeting Room.
+waiting to send their mail, and rows of wooden pigeonholes line the wall
+behind the counter, stuffed with letters and parcels.  Upon one wall is
+a wanted poster.  A door to the west leads back to the gathering room.
 ~
 30 det 0
 D3
@@ -1821,9 +1929,10 @@ S
 #3092
 The Gathering Room~
    There is a large table in the center of the room with stone benches
-fixed to the floor surrounding it.  To the west, a short hallway will
-take you to the main foyer of the Town Hall.  To the east, down the
-hallway a short ways you see the Mail Exchange.
+fixed to the floor around it, and townsfolk often gather here to discuss
+the news of the day.  To the west, a short hallway will take you to the
+main foyer of City Hall.  To the east, through a door, lies the Mail
+Exchange, and a staircase leads up.
 ~
 30 dest 0
 D1
@@ -1843,9 +1952,11 @@ S
 #3093
 Inside the Southern Gate of Elrhinn~
    Rising up before you is a huge iron portcullis, decorated with the
-seal of the township of Elrhinn.  To either side of the gate are the
-sturdy town walls, formed centuries ago to protect the town from unwanted
-invasion.
+seal of the township of Elrhinn.  To either side of the gate stand the
+sturdy town walls, raised centuries ago to protect the town from
+unwanted invasion.  Few travelers pass this way, and the guards here
+keep a sharper watch than at the other gates, for the road beyond leads
+toward darker lands.  Southwall Road lies to the north.
 ~
 30 d 0
 D0
@@ -1865,10 +1976,11 @@ S
 #3094
 Outside the Southern Gate of Elrhinn~
    To the north lies the Elrhinn Township, one of the larger towns on
-this continent.  It is reknowned for its merchants who bring valuables
-from all over the Dominion to sell and trade.  You see some figures
-standing around the city gate to the north, and a large iron portcullis
-hangs from the gate.
+this continent.  It is renowned for its merchants, who bring valuables
+from all over the Dominion to sell and trade.  The land here is open and
+windswept, and the road runs south toward an old stone bridge.  You see
+some figures standing around the city gate to the north, where a large
+iron portcullis hangs ready to drop.
 ~
 30 0 2
 D0
@@ -1882,8 +1994,10 @@ D2
 S
 #3095
 The Northern Road~
-You stand on a small road north of Elrhinn.  To the north you can see a small
-trail lead between lush, green trees to some sort of building.
+   You stand on a small road north of Elrhinn, with fields of grain and
+pasture rolling away on either side.  To the north you can see a small
+trail leading between lush, green trees to some sort of building, and to
+the south the walls and gate of the town rise up against the sky.
 ~
 30 0 1
 D0
@@ -1897,11 +2011,12 @@ D2
 S
 #3096
 The cobbled path~
-   Row after row of flowers and plants abut the cobbled path.  To the
-west you see the entrance to the Church of Elrhinn.  If you follow the
-path to the north it will lead you towards the chapel.  To the east,
-you will leave the sanctity and peace of the Holy Grounds and be back
-on the streets of Elrhinn.
+   Row after row of flowers and plants border the cobbled path, filling
+the air with their fragrance and the hum of bees.  To the west you see
+the entrance to the Church of Elrhinn, and if you follow the path to the
+north it will lead you toward the chapel.  Through the gate to the east,
+you will leave the sanctity and peace of the holy grounds and be back on
+the streets of Elrhinn.
 ~
 30 cn 0
 D0
@@ -1919,9 +2034,10 @@ church door~
 S
 #3097
 The cobbled path~
-   To the north, down the path a short ways sits a small, white chapel.
-Gardens surround it as well as the cobbled path you are on.  To the
-south you see the entrance to the church of Elrhinn.
+   To the north, down the path a short ways, sits a small white chapel.
+Gardens surround it as well as the cobbled path you are on, and neatly
+trimmed hedges line the way.  To the south the path leads back toward
+the entrance to the church of Elrhinn.
 ~
 30 0 0
 D0
@@ -1935,9 +2051,10 @@ D2
 S
 #3098
 Before the Chapel~
-   Just to the north is the entrance to the chapel.  Colorful gardens 
-surround it, sending into the air a subtle, sweet aroma.  To the south,
-a cobbled path leads off towards the entrance to the church.
+   Just to the north is the entrance to the chapel, a small building of
+whitewashed stone with a slender bell tower.  Colorful gardens surround
+it, sending a subtle, sweet aroma into the air.  To the south, the
+cobbled path leads off toward the entrance to the church.
 ~
 30 0 0
 D0
@@ -1951,11 +2068,12 @@ D2
 S
 #3099
 Inside the Chapel~
-   The chapel is well lit by a skylight in the ceiling, and a circle of 
-marble benches surrounds a small podium.  There is a niche in the northern
-wall of the chapel where a mosaic has been etched.  Under the mosaic is
-a table with several lit candles flickering their gentle light.  A doorway
-in the south wall leads back out to the cobble path and the gardens.
+   The chapel is well lit by a skylight in the ceiling, and a circle of
+marble benches surrounds a small podium.  In a niche in the northern
+wall a mosaic has been set, its tiny tiles of colored glass glowing
+softly.  Under the mosaic stands a table with several lit candles
+flickering their gentle light.  A doorway in the south wall leads back
+out to the cobbled path and the gardens.
 ~
 30 es 0
 D2
@@ -1965,10 +2083,12 @@ door chapel~
 S
 #3100
 Above the Gathering Room~
-  This room is filled with plush sofas and comfortable chairs, for the
-use of visiting dignitaries to Elrhinn.  It is also a popular place for
-locals to post notes regarding items they are selling, trading, or looking
-to purchase.
+   This room is filled with plush sofas and comfortable chairs for the
+use of visiting dignitaries to Elrhinn.  Heavy curtains frame the
+windows, and a thick carpet covers the floor.  It is also a popular
+place for locals to post notes about items they are selling, trading or
+looking to purchase.  A door leads west, and a staircase leads down to
+the gathering room.
 ~
 30 n 0
 D3
@@ -1982,9 +2102,11 @@ D5
 S
 #3101
 The Fletcher's Shop~
-   Arrows and bows are hung and displayed all about the shop.  Behind the
-counter, the fletcher strings a bow with all his might.  To the north you
-see a door leading out of the shop and back to Dalkyst Road.
+   Arrows and bows are hung and displayed all about the shop: longbows
+and shortbows, crossbows and bundles of arrows fletched with goose and
+hawk feathers.  Curls of wood shavings litter the floor, and the smell
+of fresh-cut ash and glue fills the air.  To the north a door leads out
+of the shop and back to Dalkyst Road.
 ~
 30 0 0
 D0
@@ -1995,8 +2117,9 @@ S
 #3102
 Turn in the trail~
    The trail turns north and east here.  To the north you see a great,
-forboding swamp open up before you.  To the east a trail leads off
-into darkness.
+foreboding swamp open up before you, its dark waters choked with reeds
+and its trees shrouded in mist.  To the east a trail leads off into
+darkness.
 ~
 30 acgt 0
 D0
@@ -2016,12 +2139,12 @@ Room 3103~
 S
 #3104
 House of the Shadowhunter~
-   A single, circle-shaped skylight in the center of the ceiling casts
-an unearthly glow about the shadow-shrouded chamber.  The walls are grey
-stone and the floor white marble.  Chests and tables and other semi-lavish
-items of furniture are set about the room.  A silk covered bed is pushed
-against the northern wall.  To the south a doorway leads back to the
-streets of Elrhinn.
+   A single, circular skylight in the center of the ceiling casts an
+unearthly glow about this shadow-shrouded chamber.  The walls are gray
+stone and the floor white marble.  Chests, tables and other semi-lavish
+items of furniture are set about the room, and a silk-covered bed is
+pushed against the northern wall.  To the south a doorway leads back to
+the streets of Elrhinn.
 ~
 30 cejlmr 0
 D2
@@ -2031,13 +2154,13 @@ D2
 S
 #3105
 The hidden tower~
-   You are standing in the center of a circular shaped tower within
-the valley.  Odd trinkets dot the floors and desks and all along the
-walls are bookshelves containing tattered documents and books and
-manuscripts of all sorts and colors.  The faint scent of sulfur
-permeates the air and a shifting haze which you cannot see directly
-seems to float about before your eyes.  A door stands in the northeast
-part of the circular tower leading back to the misty, damp valley.
+   You are standing in the center of a circular tower within the valley.
+Odd trinkets dot the floors and desks, and all along the walls are
+bookshelves holding tattered documents, books and manuscripts of all
+sorts and colors.  The faint scent of sulfur permeates the air, and a
+shifting haze which you cannot see directly seems to float before your
+eyes.  A door in the eastern part of the tower leads back out to the
+misty, damp valley.
 ~
 30 cegjlmrs 0
 D1
@@ -2047,10 +2170,11 @@ door~
 S
 #3106
 House of Morrolan~
-   The room is sparsely furnished save for a bed and a large black
-chair and a desk.  Some ornaments hang upon the walls and a rug made
-from the furs of a strange beast spreads itself out upon the wooden
-floor.  To the north a door leads out of the home to the street.
+   The room is sparsely furnished save for a bed, a large black chair
+and a desk.  Some ornaments hang upon the walls, and a rug made from the
+fur of a strange beast spreads itself out upon the wooden floor.  To the
+north a door leads out of the home to the street, and a stairway leads
+up to the second floor.
 ~
 30 cegjlnrs 0
 D0
@@ -2065,10 +2189,10 @@ S
 #3107
 House of Thulin~
    The walls of the house are dark and covered with silk tapestries.
-There is a window on the west and east walls looking out to the city
-of Elrhinn.  Trinkets and odds and ends are located about the room
-on shelves, desks, and chairs.  To the north is a doorway leading out
-of the house.
+There are windows in the west and east walls looking out on the town of
+Elrhinn.  Trinkets and odds and ends are scattered about the room on
+shelves, desks and chairs.  To the north is a doorway leading out of the
+house, and a stairway leads up to the attic.
 ~
 30 cejlmnrs 0
 D0
@@ -2082,10 +2206,10 @@ D4
 S
 #3108
 House of Spin~
-The house is conically shaped and a black, cast-iron stairway
-stands in the center of the room leading up, back to the forest of
-Pelarinne. Odds and ends are scattered about the room on chairs,
-chests, and other various tables.  
+   The house is conical in shape, and a black cast-iron stairway stands
+in the center of the room, leading up and back to the forest of
+Pelarinne.  Odds and ends are scattered about the room on chairs, chests
+and various other tables.
 ~
 30 jlr 0
 D4
@@ -2095,9 +2219,10 @@ door~
 S
 #3109
 Second floor~
-   The attic of the house is filled to the brim with junk and
-other paraphinalia.  There is a stairway leading down to the ground
-floor of the house.
+   The attic of the house is filled to the brim with junk and other
+paraphernalia: old trunks, broken chairs, rolled-up rugs and boxes whose
+contents have long been forgotten.  There is a stairway leading down to
+the ground floor of the house.
 ~
 30 degjlm 0
 D5
@@ -2107,11 +2232,10 @@ D5
 S
 #3110
 Thulin's Attic~
-   The attic is threadbare and cobwebs string themselves out in the
+   The attic is threadbare, and cobwebs string themselves out in the
 corners.  Windows set into the eastern and southern walls of the attic
-give access to a view of the township of Elrhinn.  A spiral stairway
-descend back down to the ground floor of the house in the corner of
-the room.
+give a view of the township of Elrhinn.  In the corner of the room, a
+spiral stairway descends back down to the ground floor of the house.
 ~
 30 cjlm 0
 D5
@@ -2121,13 +2245,13 @@ D5
 S
 #3111
 House of Kern~
-   The house is all made from hard mahogany wood.  The walls bear weapons
-and armor and treasures.  A large rug made from the skin of some obscure
-beast lies sprawled out upon the floor.  There is a strange lamp in the
-corner of the room which has some red balls of ink floating up and down
-through a thick fluid.  It casts strange shadows upon the walls.  A doorway
-leads out of the house through the western wall.  Above the door is the
-crest of House Kern.
+   The house is made entirely of hard mahogany wood.  The walls bear
+weapons, armor and treasures, and a large rug made from the skin of some
+obscure beast lies sprawled upon the floor.  There is a strange lamp in
+the corner of the room in which red balls of ink float up and down
+through a thick fluid, casting strange shadows upon the walls.  A
+doorway leads out of the house through the western wall.  Above the door
+is the crest of House Kern.
 ~
 30 cejlr 0
 D3
@@ -2144,7 +2268,7 @@ S
 #3112
 House Morrolan~
    The house is well furnished with antiques and finely carved wood.
-Strange trinkets of all shapes and sizes are littered about on desks, 
+Strange trinkets of all shapes and sizes are littered about on desks and
 tables as well as the floor.  To the north you see a doorway leading
 back to the streets of Elrhinn.
 ~
@@ -2156,12 +2280,12 @@ D0
 S
 #3113
 Kern's House~
-   The house is sparsely furnished, the walls however are covered with
-tapistries depicting battles and ferocious creatures.  In the corner
-of the room, beside a velvet couch, upon a table of cherrywood rests
-a strange lamp with a red, inky substance which floats up and down casting
-shadows upon the wall.  To the north is a doorway leading back to the
-streets of the town.
+   The house is sparsely furnished, but the walls are covered with
+tapestries depicting battles and ferocious creatures.  In the corner of
+the room, beside a velvet couch, a strange lamp rests upon a table of
+cherrywood, a red, inky substance floating up and down within it and
+casting shadows upon the wall.  To the north is a doorway leading back
+to the streets of the town.
 ~
 30 cegjlmr 0
 D0
@@ -2207,12 +2331,12 @@ Room 3119~
 S
 #3120
 Foyer of Watcher Manor~
-   You step into a huge manor house, made entirely of marble.  On the floor 
-before you is the setting sun, the symbol of the watchers, made of gold and
-enlaid into the marble floor.  A large fireplace sits next to a brass door
-to the north.  A winding staircase leads up to another brass door, and there
-are duplicate doors to the east and west.  South of here is the exit to the
-streets of Elrihnn.
+   You step into a huge manor house, made entirely of marble.  On the
+floor before you is the setting sun, the symbol of the Watchers, made of
+gold and inlaid into the marble floor.  A large fireplace sits next to a
+brass door to the north.  A winding staircase leads up to another brass
+door, and there are matching doors to the east and west.  South of here
+is the exit to the streets of Elrhinn.
 ~
 30 ejlmn 0
 D0
@@ -2250,13 +2374,14 @@ door~
 S
 #3122
 Tyrstan's Room~
-   You have entered the house of Tyrstan Strykrr.  The floor is marble inlaid
-with gold, with a giant sun in the center of the floor, the symbol of the
-Order of the Watchers.  A massive black marble fireplace roars in the back
-of the room.  Chairs of highly polished wood sit in front of the fireplace,
-looking very inviting.  Books line the walls, telling of the stories and
-fables of The Dominion.  Large chests sit in the corners of the room, holding
-equipment he has picked up along his journies.
+   You have entered the house of Tyrstan Strykrr.  The floor is marble
+inlaid with gold, with a giant sun in its center, the symbol of the
+Order of the Watchers.  A massive black marble fireplace roars at the
+back of the room, and chairs of highly polished wood sit before it,
+looking very inviting.  Books line the walls, telling the stories and
+fables of the Dominion.  Large chests sit in the corners of the room,
+holding equipment gathered on many journeys.  A door leads south to the
+foyer.
 ~
 30 ejlmr 0
 D2
@@ -2266,7 +2391,10 @@ door~
 S
 #3123
 Harowens House~
-  This lovely room has yet to be written
+   This room in Watcher Manor is comfortably furnished, with a bed, a
+writing desk and a tall wardrobe of dark wood.  A small golden sun, the
+symbol of the Watchers, hangs above the bed.  A door leads east to the
+foyer.
 ~
 30 jl 0
 D1
@@ -2276,7 +2404,10 @@ door~
 S
 #3124
 Kalas' Room~
-  This lovely room has yet to be written
+   This room in Watcher Manor is comfortably furnished, with a bed, a
+writing desk and a tall wardrobe of dark wood.  A small golden sun, the
+symbol of the Watchers, hangs above the bed.  A door leads west to the
+foyer.
 ~
 30 jl 0
 D3
@@ -2286,7 +2417,10 @@ door~
 S
 #3125
 Kas's Room~
-  This lovely room has yet to be written
+   This room at the top of the stairs in Watcher Manor is comfortably
+furnished, with a bed, a writing desk and a tall wardrobe of dark wood.
+A small golden sun, the symbol of the Watchers, hangs above the bed.  A
+door leads down to the foyer.
 ~
 30 jl 0
 D5
@@ -2296,7 +2430,10 @@ door~
 S
 #3126
 Googy's Clubhouse a'Go Go~
-  This lovely room has yet to be written
+   This cheerful clubhouse is painted in bright colors, and mismatched
+chairs and cushions are scattered about the room.  Streamers hang from
+the rafters, and the floor is sticky with spilled drinks.  A door leads
+east to Eastwall Road.
 ~
 30 jlmr 0
 D1
@@ -2328,7 +2465,9 @@ Room 3129~
 S
 #3130
 Xerix's House~
-  This lovely room has yet to be written
+   This small house is simply furnished with a bed, a table and a pair
+of chairs.  A cold hearth stands against one wall.  A door leads west to
+Westwall Road.
 ~
 30 ejlm 0
 D3
@@ -2338,7 +2477,9 @@ door~
 S
 #3131
 Morrolan's House~
-  This lovely room has yet to be written
+   This quiet house among the trees of the Sacred Grove is simply
+furnished, its windows looking out on green leaves and dappled light.  A
+door leads north to the grove.
 ~
 30 jlm 0
 D0
@@ -2750,7 +2891,10 @@ Room 3198~
 S
 #3199
 Up in the air~
-   You are up in the air above the center of the main square of elrhinn.
+   You are up in the air above the center of the main square of Elrhinn.
+Far below, the townsfolk bustle about like ants, and the rooftops and
+walls of the town spread out around you in every direction.  The wind
+whistles past your ears.
 ~
 30 0 9
 D5
@@ -2838,7 +2982,7 @@ Order of the Watchers.  A massive black marble fireplace roars in the back
 of the room.  Chairs of highly polished wood sit in front of the fireplace,
 looking very inviting.  Books line the walls, telling of the stories and
 fables of The Dominion.  Large chests sit in the corners of the room, holding
-equipment he has picked up along his journies.
+equipment he has picked up along his journeys.
 ~
 30 0 0
 D2

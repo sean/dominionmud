@@ -42,7 +42,7 @@
 0
 %s Sorry, I don't have that armour.~
 %s Sorry, you don't seem to have that.~
-%s I don't buy such a item, try some other shop.~
+%s I don't buy such an item, try some other shop.~
 %s Sorry, that's a too expensive armour for me, try in Thewston.~
 %s Get some money if you like to buy something...~
 %s Ok, that'll be %d coins, please.~
@@ -98,7 +98,7 @@
 16
 21
 8
-%s Sorry, I'm unfortunatly out of that for the moment.~
+%s Sorry, I'm unfortunately out of that for the moment.~
 %s You don't seem to be a honest man, maybe I should call the guards?~
 %s I don't trade in that kind of objects.~
 %s Sorry, I'm out of cash, try in Thewston, or give it to me. :-)~

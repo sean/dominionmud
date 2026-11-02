@@ -61,8 +61,8 @@ CircleMUD v3.0 Shop File~
 0.80
 1.40
 -1
-(null)~
-%s Maybe you should that item again...~
+%s Sorry, I don't have that item.~
+%s Maybe you should check your pack for that item again...~
 %s Sorry, I'm not in that business.~
 %s Sorry, young friend, I cannot pay for that.~
 %s Come back when you can pay, thank you.~
@@ -94,7 +94,7 @@ CircleMUD v3.0 Shop File~
 0.75
 1.25
 -1
--1
+-1
 %s Sorry, I don't stock that item.~
 %s You don't seem to have that.~
 %s I don't trade in such items.~

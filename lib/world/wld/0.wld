@@ -1,7 +1,11 @@
 #0
 The Void~
-   You don't think that you are not floating in nothing.  You can see
-a strange portal located above you.
+   You drift in a vast and silent emptiness.  There is no floor beneath
+your feet, no sky above your head, and no sound save the slow beat of
+your own heart.  Whether you are floating in nothing or nothing is
+floating around you, you cannot quite decide.  Far above you hangs a
+shimmering portal, its edges rippling like the surface of a disturbed
+pool, the only thing in this void that seems truly real.
 ~
 0 des 1
 D4
@@ -12,10 +16,11 @@ The Temple of Midgaard floats above you.
 S
 #1
 Limbo~
-   You are floating in a formless void, detached from all sensation of physical
-matter, surrounded by swirling glowing light, which fades into the relative
-darkness around you without any trace of edges or shadow.
-   There is a "No Tipping" notice pinned to the darkness.
+   You are floating in a formless void, detached from all sensation of
+physical matter, surrounded by swirling, glowing light that fades into
+the darkness around you without any trace of edges or shadow.  There is
+no up, no down and no sound.  A "No Tipping" notice is pinned to the
+darkness.
 ~
 0 des 1
 D5
@@ -25,8 +30,9 @@ D5
 S
 #3
 A Totally Empty Room~
-   The walls are completely bare...no nothing at all in the room.
-How... weird.
+   The walls are completely bare... there is nothing at all in the room,
+not a speck of dust, not a stick of furniture, not even a shadow in the
+corners.  How... weird.  The only way out is up.
 ~
 0 dj 0
 D4
@@ -37,10 +43,10 @@ You do not see that here.
 S
 #4
 The Meeting Room Of The Gods~
-   The meeting room is plain and very simple.  A circular table sits
-in the middle of the room, lit by some unseen light source.  There
-are many chairs around the table, all empty.  The Immortal Board Room
-is to the north.
+   The meeting room of the gods is plain and very simple.  A circular
+table sits in the middle of the room, lit by some unseen source, and
+many chairs stand around it, all empty.  The Immortal Board Room is to
+the north.
 ~
 0 djns 0
 D0
@@ -51,10 +57,10 @@ The Immortal Board Room can be seen to the north.
 S
 #5
 The Inn Of The Gods~
-   The Inn of the Gods is a small room, holding only a shelf with many
-small precious stones on it.  When God comes to rent his belongings,
-his essence is stored in the stones.  The Immortal Board Room is to
-the south.
+   The Inn of the Gods is a small room holding only a shelf of small,
+precious stones that glitter in every color.  When a god rests, their
+essence is stored within the stones until they return.  The Immortal
+Board Room is to the south.
 ~
 0 djs 0
 D2
@@ -64,22 +70,23 @@ The Immortal Board Room can be seen to the south.
 0 -1 8
 S
 #6
-Rigerous Nine~
-   You are in a cage that seems to be suspended over some kind of abyss
-of darkness.  Above you is a  large chain that stretches up into the
-infinite darkness.  A blueish eish colored light emenates from the ceiling
-of the cage.  You try to call out, but the sound just fades into nothing.
-A sick, black feeling of despair sets over you as you realize you are 
-stuck here by a god's command until they have pity on your soul or you
-rot away as Time's fingers shred you to pieces...
+Rigorous Nine~
+   You are in a cage suspended over some kind of abyss of darkness.
+Above you a great chain stretches up into infinite blackness, and a
+bluish light seeps from the ceiling of the cage.  You try to call out,
+but the sound fades into nothing.  A sick, black feeling of despair
+settles over you as you realize that you are stuck here by a god's
+command until they take pity on your soul, or until you rot away as
+Time's fingers shred you to pieces...
 ~
 0 defghs 0
 S
 #7
 The Gods' Mortal Board Room~
-   Here the Gods have magically created an exact copy of the mortal board
-room.  Any God can easily post and read messages from the mortal board room
-without being seen by any mortals.  The Immortal Board Room is to the west.
+   Here the gods have magically created an exact copy of the mortal
+board room, so that any god can read and post messages on the mortal
+board without being seen by mortals.  The Immortal Board Room is to the
+west.
 ~
 0 d 0
 D3
@@ -90,12 +97,12 @@ The Immortal Board Room can be seen to the west.
 S
 #8
 The Immortal Board Room~
-   The main hang out of the Gods, the Immortal Board Room is the place to
-be.  Gods exchange messages here most every day.  The mortal board room is
-to the east and the meeting room for the gods is to the south.  To the north
-is the Gods' Inn and to the west is a post office for Gods.  There is a large
-staircase leading down to the main temple in the city of Midgaard.  In the
-northeast corner you spot a small staircase leading upwards.
+   The main hangout of the gods, the Immortal Board Room is the place to
+be, and gods exchange messages here most every day.  The mortal board
+room is to the east and the gods' meeting room to the south.  To the
+north is the Inn of the Gods, and to the west a post office for the
+gods.  A large staircase leads down to the courtyard of Elrhinn, and in
+the northeast corner a small staircase leads up.
 ~
 0 cdr 0
 D0
@@ -133,10 +140,10 @@ the stairs.
 S
 #9
 The Post Office Of The Gods~
-   The Post Office Of The Gods is the same as most Post Offices except that
-it is not as slow.  Even the Postal service knows not to anger the Gods.
-Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
-The Immortal Board Room is to the east.
+   The Post Office of the Gods is the same as most post offices, except
+that it is not as slow; even the postal service knows not to anger the
+gods.  Piles of junk mail line the walls.  Even gods, it seems, get on
+mailing lists.  The Immortal Board Room is to the east.
 ~
 0 dj 0
 D1
@@ -147,8 +154,13 @@ The Immortal Board Room is just to the east.
 S
 #10
 The Social Gathering Room~
-   This elegantly decorated room has one simple purpose.  To socialize with
-everyone else around in one central location.
+   This elegantly decorated room has one simple purpose: to bring
+everyone together in one central location.  Deep, comfortable chairs are
+gathered in loose circles around low tables, and the walls are hung with
+rich tapestries in warm reds and golds.  The murmur of past
+conversations seems to linger in the air, and the whole room feels
+relaxed and welcoming.  A staircase leads back down to the Immortal
+Board Room.
 ~
 0 d 0
 D5
@@ -182,7 +194,7 @@ smiles forming on the skulls to haunt your dreams for years to come.
 ~
 S
 #12
-Jamn's Antechambre~
+Jamn's Antechamber~
    The walls around you are made of white marble.  The rooms opens up
 to always reveal a clear blue sky.  A tree grows from a grassy area in
 the center of the room.  Garlic and sapphires lie in the dirt.  The
@@ -243,11 +255,11 @@ the sand seems to be flowing upwards into the top chamber.
 S
 #14
 Sb's Star Room~
-   This place seems to have no dimentions.  Stars move of into infinity in
+   This place seems to have no dimensions.  Stars move of into infinity in
 all directions yet whatever is beneath your feet is solid.  Pictures hang
 in free space along four sides.  Looking closely you see that some appear 
 to me no more than framed constellations, although none that you recognise.
-A large hound sprawls apon a sedan composed of stars, waiting for his master.
+A large hound sprawls upon a sedan composed of stars, waiting for his master.
 ~
 0 ejlr 0
 D0
@@ -265,10 +277,10 @@ Garou's Clearing~
 a swirl of fog, shadow, and mist.  Red eyes stare out at you from all sides
 and the sounds of the creatures of the night echo softly off of walls you 
 cannot see.  The footing below you seems to indicate that you're on the 
-floor of a forest clearing of somekind, but as to where, or even when, you
+floor of a forest clearing of some kind, but as to where, or even when, you
 are, it's impossible to say.  Below you are several soft wolf-skin mats, w 
 which you may stop and rest on for awhile.  But you are wary, for somewhere
-in these shadows you get the disticnt impression that something more than
+in these shadows you get the distinct impression that something more than
 human is watching.  You find yourself beginning to wonder just what kind of
 pets a God like the Kinnslayer keeps for company......
 ~
@@ -285,7 +297,10 @@ D5
 S
 #16
 An Unused God Room~
-   Anyone want this fine piece of real estate?
+   This plain, empty chamber is waiting for a god to call it home.  Its
+walls are smooth and white, and the floor is bare.  Anyone want this
+fine piece of real estate?  A door leads north to the Immortal Board
+Room.
 ~
 0 defghks 0
 D0
@@ -295,15 +310,15 @@ D0
 S
 #17
 Kerus' Chambers~
-     You stand now in the inner chambers of the Arbritrator of Dominion.
+     You stand now in the inner chambers of the Arbitrator of Dominion.
 You can look out on all the realms within the vast land.  From the Castles
 to the east, to the giant mountains of the west.  Nothing is out of this
 rooms sight.  The room is dimly lit by a large stone fire pit in the middle
 of the room.  Pictures depicting Dominions dark ages are arranged on the
 walls.  The wars of the Garouite and Grayites, the Crusades against the 
   religion of Gray, and the final fall into darkness under the rule of
-the Grayites.  Before you is the great throne of the Arbritrator, you
-can see the Arbritrator will not let the realms go unruled again.
+the Grayites.  Before you is the great throne of the Arbitrator, you
+can see the Arbitrator will not let the realms go unruled again.
 ~
 0 degjlms 0
 D0
@@ -339,10 +354,10 @@ S
 #19
 Cair Muhr's Immortal Chamber~
 A strange haze of purple and blue swirl before your eyes in a hypnotic fashion
-as you realize that you are suspended in beam of light emmitted from a bright
-star in the glaxay beneath you. As you take a closer look into the haze you
-notice that as it swirls there is a never ending rythem to it. You also notice
-that this rythem is the same as the one beating in your chest. A voice appears
+as you realize that you are suspended in beam of light emitted from a bright
+star in the galaxy beneath you. As you take a closer look into the haze you
+notice that as it swirls there is a never ending rhythm to it. You also notice
+that this rhythm is the same as the one beating in your chest. A voice appears
 in you head and tells you 'You have entered the layer of Cair'.
 ~
 0 jlmrs 0
@@ -440,9 +455,9 @@ D6
 S
 #22
 Realm of Dread~
-   As you step into this plane you feel a heavy weight decend upon your 
+   As you step into this plane you feel a heavy weight descend upon your 
 soul, seeming to crush the life from your mortal body.  In the distance
-banshies wail out in a song of pain, worshiping their master.  Looking to
+banshees wail out in a song of pain, worshiping their master.  Looking to
 your right you see a giant throne formed from bones of various races, 
 some with flesh still clinging to them in a web of blood.  A putrid smell
 assaults your nostrils, the smell of decaying flesh.
@@ -464,7 +479,7 @@ wash over you as you exhale.  Suddenly the area is lit by a dim light that
 springs into life from nowhere, fifteen feet above the forest floor.  You see
 that you are walking in a small graveyard, where several chiseled tombstones
 mark those cherished faithful of Garou's who gave their lives for his cause.
-The workmanship on the headstones is matserful, and the solemn atmosphere of 
+The workmanship on the headstones is masterful, and the solemn atmosphere of 
 this second clearing makes you humbly think of your own mortality, or 
 immortality, as the case may be.
 ~
@@ -502,7 +517,9 @@ D5
 S
 #27
 An unfinished room~
-You are in an unfinished room.
+   This small, bare chamber lies beneath the High Chamber of Malachi.
+Its stone walls are unadorned, and the only way out is the opening
+above, which leads back up.
 ~
 0 n 0
 D5
@@ -511,8 +528,11 @@ D5
 0 0 26
 S
 #30
-The Sacrifical Chamber~
-   An unfinished room.
+The Sacrificial Chamber~
+   This dark stone chamber is bare except for a low altar of black rock
+in its center, its surface stained and scarred.  The air is heavy and
+still, and the walls seem to absorb what little light there is.  The
+atrium lies to the north.
 ~
 0 djs 0
 D0
@@ -522,6 +542,11 @@ D0
 S
 #31
 atrium~
+   This small, quiet atrium is lit by soft light that seems to fall from
+nowhere in particular.  Its floor is paved with smooth white stone, and
+slender columns line the walls, supporting a vaulted ceiling far above.
+The air is still and carries a faint scent of incense.  A door in the
+western wall leads into the Watchers' storeroom.
 ~
 0 egjknst 0
 D3

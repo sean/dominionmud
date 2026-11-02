@@ -138,7 +138,7 @@ Elf bard Elven~
 the Elven bard~
 An Elven bard is sitting here playing on his lute and singing.
 ~
-This Elf is dressed in green, whith brown pants. He is playing on a 
+This Elf is dressed in green, with brown pants. He is playing on a 
 fine rose-tree lute with silver strings.
 ~
 bd d 750 S
@@ -150,7 +150,7 @@ druid old man human~
 the old Druid~
 An old Druid is standing on the hill chanting an arcane spell.
 ~
-This is a human in his old days. He is dresed in a heavy cloak and 
+This is a human in his old days. He is dressed in a heavy cloak and 
 holds a Staff made of oak in his hands.
 ~
 abcdg dht 1 S
@@ -202,22 +202,30 @@ abdmor gmnop 1000 S
 145 350000
 8 8 1
 #19018
-unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+keeper torch gaunt figure~
+the keeper of the Torch~
+A gaunt, hooded figure holds a torch aloft against the gloom of the wasteland.
 ~
-Its unfinshed.
+The keeper is tall and terribly thin, wrapped in a gray cloak the color
+of the mist. Beneath the hood its face is little more than skin
+stretched over bone, and its eyes are pale and unblinking. It holds a
+torch high in one bony hand, and the flame burns a steady, sickly green
+that gives off no warmth at all. Whatever it once was, it has stood at
+the edge of this wasteland for a very long time, lighting the way for
+those who come through the mirror.
 ~
-d 0 1000 S
-0 3 4 1d1+1 1d1+1
-0 0
+bdeno k -800 S
+27 60 65 12d50+520 6d4+60
+300 100000
 8 8 0
+>in_file_prog torch_keeper.prg~
+|
 #19019
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 4 1d1+1 1d1+1
@@ -225,10 +233,10 @@ d 0 1000 S
 8 8 0
 #19020
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -236,10 +244,10 @@ d 0 1000 S
 8 8 0
 #19021
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -247,10 +255,10 @@ d 0 1000 S
 8 8 0
 #19022
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -258,10 +266,10 @@ d 0 1000 S
 8 8 0
 #19023
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -269,10 +277,10 @@ d 0 1000 S
 8 8 0
 #19024
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -280,10 +288,10 @@ d 0 1000 S
 8 8 0
 #19025
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -291,10 +299,10 @@ d 0 1000 S
 8 8 0
 #19026
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -302,10 +310,10 @@ d 0 1000 S
 8 8 0
 #19027
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -313,10 +321,10 @@ d 0 1000 S
 8 8 0
 #19028
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -324,10 +332,10 @@ d 0 1000 S
 8 8 0
 #19029
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
@@ -335,13 +343,42 @@ d 0 1000 S
 8 8 0
 #19030
 unfinished mob~
-an unfinshed mob~
-An unfinishedmob stands here.
+an unfinished mob~
+An unfinished mob stands here.
 ~
-Its unfinshed.
+Its unfinished.
 ~
 d 0 1000 S
 0 3 0 1d1+1 1d1+1
 0 0
 8 8 0
+#19031
+sage elven old~
+an old elven sage~
+An old elven sage sits here, leaning on a staff of white wood.
+~
+The sage is ancient even for an elf. His hair is white as frost and his
+eyes are the green of new leaves, and he studies you with a patient,
+gentle curiosity.
+~
+bdenopq k 900 S
+15 20 0 5d10+150 1d6+2
+50 0
+8 8 1
+>in_file_prog pz_sage.prg~
+|
+#19032
+shimmer runes obelisk light~
+the shimmer on the obelisk~
+A faint shimmer of green light plays across the runes of the obelisk.
+~
+The light seems to come from within the stone itself, moving slowly over
+the runes as though reading them.
+~
+bdenopqr k 0 S
+1 20 -10 1d1+30000 1d1+0
+0 0
+8 8 0
+>in_file_prog pz_obelisk.prg~
+|
 $~

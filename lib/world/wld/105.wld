@@ -1,9 +1,11 @@
 #10501
 Port Harem~
-   You stand on a blindingly white beach; it stretches to your north and south
-as far as you can see. Hundred of beautifuly garbed women of all shades 
-languish on the shore; they have stony-dull eyes that stare right past you. 
-Something looks not-quite-so-right in this pristine place.
+   You stand on a blindingly white beach of crystal sand that stretches
+north and south as far as you can see.  Hundreds of richly garbed women
+of every shade languish on the shore, their dull, stony eyes staring
+right past you as if you were not there.  Something is not quite right
+in this pristine place.  The Sea of Tears lies to the west, and a mound
+rises to the east.
 ~
 105 0 2
 D1
@@ -31,9 +33,11 @@ they all blend into this pristine color.
 S
 #10502
 Beachside Harem~
-  Now THIS is wierd. Frightened women scamper out from a hole in a huge mound
-and you can hear screaming from down in the depths. A large forest lies to
-your east, and a trail can be vaguely seen.
+   Now THIS is weird.  Frightened women scramble out of a hole in a huge
+mound of earth, and you can hear screaming from somewhere down in its
+depths.  A large forest lies to the east, and a trail can vaguely be
+seen leading into it.  The beach lies to the west, and the hole leads
+down.
 ~
 105 a 4
 D1
@@ -54,12 +58,12 @@ Downwards you can see what looks to be a lush harem.
 S
 #10503
 Beach Road~
-  This path is extremely well-kept. Small stones line the outer path, and 
-the sand from the beach has been lain to make a path--though the crystal
-seems to have been melted down to make the floor harder. The palm trees here
-completely fill every part of the area outside the path. Strange noises and
-utterly blood-chilling screams fill the air. It is very dark here. 
-  The path leads on to your west, and a strange mound lies to your east.
+   This path is extremely well kept.  Small stones line its edges, and
+the sand of the beach has been laid down and somehow melted into a hard,
+glassy surface.  Palm trees crowd every inch of ground outside the path,
+and strange noises and blood-chilling screams fill the air.  It is very
+dark here.  The path leads on to the east, and a strange mound lies to
+the west.
 ~
 105 a 2
 D1
@@ -75,11 +79,11 @@ To your west you can see a huge mound.
 S
 #10504
 Harem~
-  This place is full of imported beauty--lavish Persian rugs, assorted 
-priceless vases, and piles of money and jewelry everywhere.  Beautiful, 
-silent women dance before you, twirling in silk gowns that barely hide
-their beauty. A sound can be heard over all the racket, shouting, "Keep 
-working!"
+   This chamber is full of imported finery: lavish rugs, priceless
+vases, and piles of money and jewelry heaped everywhere.  Silent women
+in silk gowns move about in a mechanical dance, their eyes empty, as if
+under some spell.  Over all the racket, a harsh voice can be heard
+shouting, "Keep working!"  The way out lies up.
 ~
 105 dj 1
 D4
@@ -90,12 +94,10 @@ You can just see from the hole in the ground that you are right by a path that l
 S
 #10505
 Beach Road~
-This path is extremely well-kept. Small stones line the outer path, and
-the sand from the beach has been lain to make a path--though the crystal
-seems to have been melted down to make the floor harder. The palm trees here
-completely fill every part of the area outside the path. Strange noises and
-utterly blood-chilling screams fill the air. It is very dark here.
-A large hill rises to your east, and the beach road lies to your west.
+   This path is extremely well kept, edged with small stones and paved
+with sand melted into glass.  Palm trees crowd close on either side, and
+strange noises and blood-chilling screams echo through the darkness
+beneath them.  The path leads west, and east to the foot of a hill.
 ~
 105 ac 2
 D1
@@ -111,9 +113,11 @@ You see a well-kept trail.
 S
 #10506
 Creepy Road~
-  You're not quite sure why, but this road sends shivers down your very spine.
-Perhaps it's the total and complete silence. Or perhaps it's the skeletons
-strown haphazardly about. You just don't know.
+   You're not quite sure why, but this road sends shivers down your
+spine.  Perhaps it's the total and complete silence; not a bird sings,
+not a leaf stirs.  Or perhaps it's the skeletons strewn haphazardly
+along the roadside, bleached white by the sun.  You just don't know.
+The road runs east and west.
 ~
 105 c 2
 D1
@@ -133,9 +137,11 @@ They're quite real, and quite frightening. We weren't lying to you.
 S
 #10507
 Creepy Road~
-  You're not quite sure why, but this road sends shivers down your very spine.
-Perhaps it's the total and complete silence. Or perhaps it's the skeletons
-strown haphazardly about. You just don't know.
+   You're not quite sure why, but this road sends shivers down your
+spine.  Perhaps it's the total and complete silence; not a bird sings,
+not a leaf stirs.  Or perhaps it's the skeletons strewn haphazardly
+along the roadside, bleached white by the sun.  You just don't know.
+The road runs east and west.
 ~
 105 0 2
 D1
@@ -155,14 +161,16 @@ They're quite real, and quite frightening. We weren't lying to you.
 S
 #10508
 Creepy Road~
-  You're not quite sure why, but this road sends shivers down your very spine.
-Perhaps it's the total and complete silence. Or perhaps it's the skeletons
-strown haphazardly about. You just don't know. A large building towers above
-you to the east.
+   You're not quite sure why, but this road sends shivers down your
+spine.  Perhaps it's the total and complete silence; not a bird sings,
+not a leaf stirs.  Or perhaps it's the skeletons strewn haphazardly
+along the roadside, bleached white by the sun.  You just don't know.  A
+large building towers above you to the east, its windows dark.  The road
+leads back west.
 ~
 105 c 2
 D1
-You know, like we said, a large building lieing to your east and all.
+You know, like we said, a large building lying to your east and all.
 ~
 ~
 0 0 10545
@@ -183,11 +191,10 @@ They're quite real, and quite frightening. We weren't lying to you.
 S
 #10509
 Vice Hill~
-  You are on a tall hill overlooking the entire island. You can see the 
-zenith to your far north; the hill blocks all the view to the north and on.
-To your south, you can see the beginnings of a rock-strewn-path...continuing
-further down, you can see the end of the hill. The forest covers up most
-of the view from here.
+   You are on a tall hill overlooking the entire island.  Its peak lies
+above you, and the hill blocks your view beyond.  Below, a rock-strewn
+path winds down to the foot of the hill, and the forest covers most of
+the island from view.  The way leads up and down.
 ~
 105 0 4
 D4
@@ -203,11 +210,10 @@ Looking down, you can see the end of the hill.
 S
 #10510
 Vice Hill~
-  You are on a tall hill overlooking the entire island. You can see the 
-zenith to your far south; the hill blocks all the view to south and on.
-To your south, you can see the beginnings of a rock-strewn path...continuing
-further down, you can see the end of the hill. The forest covers up most of
-the view from here.
+   You are on a tall hill overlooking the entire island.  The peak lies
+above you, and below, a rock-strewn path winds down toward the foot of
+the hill.  The forest hides most of the view.  The way leads up and
+down.
 ~
 105 0 4
 D4
@@ -223,9 +229,11 @@ Looking down, you can see the end of the hill.
 S
 #10511
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north,
+and east to the foot of Vice Hill.
 ~
 105 ad 0
 D0
@@ -245,9 +253,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10512
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north,
+and west to the foot of Vice Hill.
 ~
 105 ad 0
 D0
@@ -256,7 +266,7 @@ The tarry tunnel continues to your north.
 ~
 0 0 10514
 D3
-The tarrry ascends onto a hill to your west.
+The terrain ascends onto a hill to your west.
 ~
 ~
 0 0 10523
@@ -267,9 +277,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10513
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -289,9 +301,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10514
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -311,9 +325,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10515
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -333,9 +349,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10516
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -355,9 +373,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10517
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -377,9 +397,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10518
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -399,9 +421,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10519
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -421,9 +445,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10520
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads north
+and south.
 ~
 105 ad 0
 D0
@@ -443,9 +469,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10521
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads south,
+and to the east it opens onto a square.
 ~
 105 ach 0
 D1
@@ -465,9 +493,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10522
 Tarry Tunnel~
-  The walls of this tunnel are covered and dripping with wet, gooey tar.
-Your shoes half-squish, half-sink, half-stick in the disgusting substance
-as you slowly slog your way through the gunk.
+   The walls of this tunnel are covered with wet, gooey tar that drips
+slowly from the ceiling in long black strings.  Your boots half squish,
+half sink and half stick in the disgusting stuff as you slog your way
+through the gunk, and the air reeks of pitch.  The tunnel leads south,
+and to the west lies the entrance to a dark hall.
 ~
 105 ach 0
 D2
@@ -487,11 +517,11 @@ The tar looks disgusting, but not too dangerous.
 S
 #10523
 Vice Hill~
-  You stand at the bottom of a tall hill. The forestry around you keeps you 
-from seeing too much, but you can make out a tarry road to your north, and 
-the dark openings of two tunnels to your east and west. Of course, you could
-always go south up to the relative safety of the hill. A huge tree here looks
-climbable, and you can vaguely see a net at the top.
+   You stand at the bottom of a tall hill.  The forest around you keeps
+you from seeing very far, but you can make out the dark openings of two
+tunnels to the east and west, oozing tar.  You could always go south, up
+to the relative safety of the hill.  A huge tree here looks climbable,
+and you can vaguely see a net hanging near its top.
 ~
 105 c 4
 D1
@@ -578,27 +608,28 @@ D2
 0 0 10525
 E
 tar pit tarpit~
-It's big, black, boiling, sticky, and gooey. What more incintive do you need
+It's big, black, boiling, sticky, and gooey. What more incentive do you need
 to stay away from it?
 ~
 S
 #10527
 Boiling Tar Pit~
-   As you sink one foot into the goo, it sticks. You try to pull it out, but
-lose your balance, and the other foot gets stuck in the pit. Try and try as
-you might, you can't get them out! Each sinks lower and lower until your entire
-legs are encased in the pit. You scream for help, but none comes. You scream
-until your head finally descends into the goo and you can breathe no more. 
-So sorry! You have suffocated to death.
+   As you set one foot into the goo, it sticks.  You try to pull it out
+but lose your balance, and the other foot gets stuck as well.  Try as
+you might, you cannot free them!  Each sinks lower and lower until your
+legs are encased in the boiling pit.  You scream for help, but none
+comes, and you scream until your head finally sinks beneath the goo and
+you can breathe no more.  So sorry!  You have suffocated to death.
 ~
 105 cj 2
 S
 #10528
 Vice Hill~
-  You stand at the bottom of a large hill. It is eerily beautiful here, but it 
-still looks quite sinister. You notice a rocky road to your south, and you can
-ascend the hill to take a look around you. A road hangs a bit above you to 
-your left by no supports! hmm... a beautifuly made road is to your west.
+   You stand at the bottom of a large hill.  It is eerily beautiful
+here, yet it still looks quite sinister.  A rocky road leads south, and
+you can climb the hill to the north to look around.  A road of some kind
+hangs in the air just above you to the east, with no supports at all!
+Hmm... and a beautifully made road leads west.
 ~
 105 0 4
 D0
@@ -617,7 +648,7 @@ You see a slippery-looking rocky road to your south.
 ~
 0 0 10540
 D3
-A beautifuly made, well-kept path is to your west.
+A beautifully made, well-kept path is to your west.
 ~
 ~
 0 0 10529
@@ -629,11 +660,12 @@ Of course, you should ascend a hill, right?
 S
 #10529
 High Path~
-  This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path. Bricks of the same substance
-line the path--it doesn't look as if a piece of paper could be inserted between
-them. The trees have been trimmed back to allow easy passage. Even among all
-this beauty, you sense a sinister presence.
+   This road is amazingly well built, paved with some black, onyx-like
+stone shined to a mirror gleam, and lined with bricks of the same stuff
+fitted so tightly that not even a sheet of paper could slip between
+them.  The trees have been trimmed back to allow easy passage.  Even
+amid all this beauty, you sense a sinister presence.  The road leads
+east and south.
 ~
 105 ac 1
 D1
@@ -649,10 +681,11 @@ The high path continues on.
 S
 #10530
 Trail of Terror~
-  This trail is covered by the skeletal ribs of a huge creature in some sort 
-of diabolocal canopy. You can hear--drums?--some sort of pulsing beat in the
-distance. A soft chanting can be heard in the far distance, but you can
-see no sign of life. Lonliness sends you into a panicky state.
+   This trail runs beneath the skeletal ribs of some huge creature,
+arching overhead like a diabolical canopy.  You can hear... drums?  Some
+pulsing beat in the distance, and a soft chanting farther off still, but
+you see no sign of life.  Loneliness grips you, and panic is not far
+behind.  The trail leads south and west.
 ~
 105 0 1
 D2
@@ -668,17 +701,18 @@ The bottom of Vice Hill starts to your west.
 E
 ribs skeleton~
   This must have been a HUGE monster! Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and
+not have to find out.  Each rib seems to be razor-sharp at the edges, and
 the bones have been cleaned to a perfect white.
 ~
 S
 #10531
 High Path~
-  This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path. Bricks of the same substance
-line the path--it doesn't look as if a piece of paper could be inserted between
-them. The trees have been trimmed back to allow easy passage. Even among all
-this beauty, you sense a sinister presence.
+   This road is amazingly well built, paved with some black, onyx-like
+stone shined to a mirror gleam, and lined with bricks of the same stuff
+fitted so tightly that not even a sheet of paper could slip between
+them.  The trees have been trimmed back to allow easy passage.  Even
+amid all this beauty, you sense a sinister presence.  The road leads
+north and south.
 ~
 105 ac 1
 D0
@@ -694,10 +728,11 @@ The high path continues on.
 S
 #10532
 Trail of Terror~
-  This trail is covered by the skeletal ribs of a huge creature in some sort 
-of diabolocal canopy. You can hear--drums?--some sort of pulsing beat in the
-distance. A soft chanting can be heard in the far distance, but you can
-see no sign of life. Lonliness sends you into a panicky state.
+   This trail runs beneath the skeletal ribs of some huge creature,
+arching overhead like a diabolical canopy.  You can hear... drums?  Some
+pulsing beat in the distance, and a soft chanting farther off still, but
+you see no sign of life.  Loneliness grips you, and panic is not far
+behind.  The trail leads north and south.
 ~
 105 0 1
 D0
@@ -713,17 +748,18 @@ The strange trail continues on.
 E
 ribs skeleton~
   This must have been a HUGE monster! Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and
+not have to find out.  Each rib seems to be razor-sharp at the edges, and
 the bones have been cleaned to a perfect white.
 ~
 S
 #10533
 High Path~
-  This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path. Bricks of the same substance
-line the path--it doesn't look as if a piece of paper could be inserted between
-them. The trees have been trimmed back to allow easy passage. Even among all
-this beauty, you sense a sinister presence.
+   This road is amazingly well built, paved with some black, onyx-like
+stone shined to a mirror gleam, and lined with bricks of the same stuff
+fitted so tightly that not even a sheet of paper could slip between
+them.  The trees have been trimmed back to allow easy passage.  Even
+amid all this beauty, you sense a sinister presence.  The road leads
+north and south.
 ~
 105 ac 1
 D0
@@ -739,10 +775,11 @@ The high path continues on.
 S
 #10534
 Trail of Terror~
-  This trail is covered by the skeletal ribs of a huge creature in some sort 
-of diabolocal canopy. You can hear--drums?--some sort of pulsing beat in the
-distance. A soft chanting can be heard in the far distance, but you can
-see no sign of life. Lonliness sends you into a panicky state.
+   This trail runs beneath the skeletal ribs of some huge creature,
+arching overhead like a diabolical canopy.  You can hear... drums?  Some
+pulsing beat in the distance, and a soft chanting farther off still, but
+you see no sign of life.  Loneliness grips you, and panic is not far
+behind.  The trail leads north and south.
 ~
 105 0 1
 D0
@@ -758,17 +795,18 @@ The strange trail continues on.
 E
 ribs skeleton~
   This must have been a HUGE monster! Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and
+not have to find out.  Each rib seems to be razor-sharp at the edges, and
 the bones have been cleaned to a perfect white.
 ~
 S
 #10535
 High Path~
-  This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path. Bricks of the same substance
-line the path--it doesn't look as if a piece of paper could be inserted between
-them. The trees have been trimmed back to allow easy passage. Even among all
-this beauty, you sense a sinister presence.
+   This road is amazingly well built, paved with some black, onyx-like
+stone shined to a mirror gleam, and lined with bricks of the same stuff
+fitted so tightly that not even a sheet of paper could slip between
+them.  The trees have been trimmed back to allow easy passage.  Even
+amid all this beauty, you sense a sinister presence.  The road leads
+north and south.
 ~
 105 ac 1
 D0
@@ -784,10 +822,11 @@ The high path continues on.
 S
 #10536
 Trail of Terror~
-  This trail is covered by the skeletal ribs of a huge creature in some sort 
-of diabolocal canopy. You can hear--drums?--some sort of pulsing beat in the
-distance. A soft chanting can be heard in the far distance, but you can
-see no sign of life. Lonliness sends you into a panicky state.
+   This trail runs beneath the skeletal ribs of some huge creature,
+arching overhead like a diabolical canopy.  You can hear... drums?  Some
+pulsing beat in the distance, and a soft chanting farther off still, but
+you see no sign of life.  Loneliness grips you, and panic is not far
+behind.  The trail leads north and south.
 ~
 105 0 1
 D0
@@ -803,17 +842,18 @@ The strange trail continues on.
 E
 ribs skeleton~
   This must have been a HUGE monster! Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and
+not have to find out.  Each rib seems to be razor-sharp at the edges, and
 the bones have been cleaned to a perfect white.
 ~
 S
 #10537
 High Path~
-  This road is amazingly built--some sort of blax onyxlike substance, shined
-to a mirror-like gleam forms the main of the path. Bricks of the same substance
-line the path--it doesn't look as if a piece of paper could be inserted between
-them. The trees have been trimmed back to allow easy passage. Even among all
-this beauty, you sense a sinister presence.
+   This road is amazingly well built, paved with some black, onyx-like
+stone shined to a mirror gleam, and lined with bricks of the same stuff
+fitted so tightly that not even a sheet of paper could slip between
+them.  The trees have been trimmed back to allow easy passage.  Even
+amid all this beauty, you sense a sinister presence.  The road leads
+north, and to the south it ends at a door.
 ~
 105 ac 1
 D0
@@ -829,10 +869,12 @@ A building of exquisite craftsmanship is to your south.
 S
 #10538
 Trail of Terror~
-  This trail is covered by the skeletal ribs of a huge creature in some sort 
-of diabolocal canopy. You can hear--drums?--some sort of pulsing beat in the
-distance. A soft chanting can be heard in the far distance, but you can
-see no sign of life. Lonliness sends you into a panicky state.
+   This trail runs beneath the skeletal ribs of some huge creature,
+arching overhead like a diabolical canopy.  You can hear... drums?  Some
+pulsing beat in the distance, and a soft chanting farther off still, but
+you see no sign of life.  Loneliness grips you, and panic is not far
+behind.  The trail leads north, and to the south a door of bone stands
+in a great arch of ribs.
 ~
 105 c 1
 D0
@@ -848,17 +890,17 @@ door bone~
 E
 ribs skeleton~
   This must have been a HUGE monster! Whoever slayed it--no, you'd rather just
-not have to find out.  Each rib seems to be razer-sharp at the edges, and
+not have to find out.  Each rib seems to be razor-sharp at the edges, and
 the bones have been cleaned to a perfect white.
 ~
 S
 #10539
 Vice Hill~
-  You stand at the zenith of a tall hill overlooking the entire island. The 
-view here would be breathtaking, were it not so sinister. You can see a 
-gooey, tarry brine to your north, and to all other directions a sinister, black
-forest is eerily silent. If you look very carefully, you can see the harbours
-to your north and east. The exits descend in all directions.
+   You stand at the peak of a tall hill overlooking the entire island.
+The view would be breathtaking if it were not so sinister.  To the north
+lies a gooey, tarry brine, and in every other direction a black forest
+stands eerily silent.  If you look very carefully, you can see harbors
+to the north and east.  Paths descend east, south and west.
 ~
 105 0 4
 D1
@@ -885,10 +927,11 @@ quite silent--not a chirp can be heard.
 S
 #10540
 Cliff Road~
-  The road is quite slippery here, and you can see to your far south what 
-looks like a dropoff into absolute nothingness. Rocks skitter as you slide
-around the road. It really looks quite dangerous--the hill would be a much
-safer way to look at the view.
+   The road is quite slippery here, and far to the south you can see
+what looks like a drop into absolute nothingness.  Rocks skitter away
+beneath your feet as you slide about.  It really looks dangerous; the
+hill would be a much safer place to enjoy the view.  The road leads
+north and south.
 ~
 105 0 5
 D0
@@ -909,10 +952,10 @@ the horizon.
 S
 #10541
 Cliff Road~
-  The road is even more slippery here, and you can see to your south what 
-looks like a dropoff into absolute nothingness. Rocks skitter as you slide
-around the road. It really looks quite dangerous--you'd be much better going
-back--now.
+   The road is even more slippery here, and to the south the cliff drops
+away into absolute nothingness.  Rocks skitter out from under you and
+vanish over the edge without a sound.  You would be much better off
+going back... now.  The road leads north and south.
 ~
 105 0 5
 D0
@@ -932,10 +975,9 @@ You can now see a little of it. It looks quite unstable.
 S
 #10542
 Cliff Road~
-  The road is quite slippery here, and you can see to your south what 
-looks like a dropoff into absolute nothingness. Rocks skitter as you slide
-around the road. It really looks quite dangerous--you'd be much better going
-back--now.
+   The road is slippery and steep, and to the south it drops away into
+absolute nothingness.  Seabirds wheel far below.  You would be much
+better off going back... now.  The road leads north and south.
 ~
 105 0 5
 D0
@@ -944,7 +986,7 @@ You can still go back--it's a better idea to anyways.
 ~
 0 0 10541
 D2
-Don't say we didn't warn you. It's a cliff allright. A big and unsteady one.
+Don't say we didn't warn you. It's a cliff all right. A big and unsteady one.
 ~
 ~
 0 0 10543
@@ -955,10 +997,10 @@ You can see it. It looks quite close. It looks very dangerous.
 S
 #10543
 Cliff Road~
-  What a view! If you weren't having such trouble staying up, you could see
-it much better. Each step brings you closer to the edge--it looks very danger-
-ous, and the cliff's edge is quite close now. The ground is beginning to shake
-under your weight.
+   What a view!  If you weren't having so much trouble staying on your
+feet, you could enjoy it much better.  Each step brings you closer to
+the edge, which is very near now, and the ground is beginning to shake
+beneath your weight.  The only way back is north.
 ~
 105 0 5
 D0
@@ -986,16 +1028,16 @@ You see the wall of the cliff--since you're obviously not supposed to be here an
 S
 #10545
 Entrance to the Building of Fear~
-  Low moans seem to come from the walls as you stand before the fallen entrance
-to a huge building. The walls appear to be made of some kind of grey stone--
-that, or they have turned grey with age. A passageway opens to your east, but
-you can't see anything in the room, because of the darkness. Shadows cast
-weird angles everywhere. A faded plaque has hangs from a nail in a far corner
-of the room.
+   Low moans seem to come from the very walls as you stand before the
+fallen entrance of a huge building.  Its walls are made of some gray
+stone, or else they have turned gray with age.  A passage opens to the
+east, though you can see nothing in the room beyond for the darkness,
+and shadows fall at weird angles everywhere.  A faded plaque hangs from
+a nail in a far corner.  The road lies west.
 ~
 105 0 0
 D1
-You can vaguly see some kind of picture or something on one of the walls...
+You can vaguely see some kind of picture or something on one of the walls...
 ~
 ~
 0 0 10546
@@ -1013,11 +1055,11 @@ sign note plaque~
 S
 #10546
 The Tapestry Room~
-  Strange tapestries fill all the walls here. Each one seems to depict a 
-horrendous torture at the hands of some foul monster. If you look closely
-enough, the pictures are so realistic, so clear, so true-to-life, that they
-look real. Even closer examaniation reveals that they`re moving! You probably
-don't want to stay here long.
+   Strange tapestries cover every wall of this room, each depicting some
+horrendous torture at the hands of a foul monster.  Look closely, and
+the pictures are so realistic and true to life that they seem real.
+Look closer still, and you see that they are moving!  You probably don't
+want to stay here long.  Passages lead east and west.
 ~
 105 ad 0
 D1
@@ -1046,12 +1088,12 @@ see it, we're not going to tell you anything else.
 S
 #10548
 Trophy Room~
-  There are literally hundereds of pedestals here, each with the skulls of
-a different animal. Some are large, some quite small--some look like nothing
-you have ever seen before. You can see a large ritual alter on one side of 
-the room, and a strange room encased in seamless glass on the other half.
-Behind the alter, a little uneavenness in the wall can be seen, as if someone
-cut perferations through the wall.
+   Hundreds of pedestals fill this room, each bearing the skull of a
+different creature: some large, some quite small, and some like nothing
+you have ever seen.  A large ritual altar stands on one side of the
+room, and a strange chamber of seamless glass on the other.  Behind the
+altar, the wall is slightly uneven, as if someone had cut perforations
+through it.  Passages lead east and west.
 ~
 105 dj 0
 D1
@@ -1078,10 +1120,11 @@ skilled hunter.
 S
 #10549
 Dressing Room~
-  This room looks to be more the kind of room where a person dreeses than 
-a butcher shop--meat racks, knives of all various and sundry sizes, and 
-other assorted meat-preparing items lie strewn around the room. There is, 
-of course, the paltry coatrack, with what look to be strange robes in it.
+   This looks less like a dressing room than a butcher shop: meat racks,
+knives of every size and other assorted tools for preparing meat lie
+strewn about.  There is, of course, a paltry coatrack in the corner,
+with what look to be strange robes hanging on it.  A hidden door leads
+north.
 ~
 105 ad 0
 D0
@@ -1093,9 +1136,10 @@ door secret~
 S
 #10550
 Wailing Tower~
-  The howls you heard at the entrance are much louder here. It appears to be
-coming from above you--indeed, you can see a spiral staircase ascending into
-the building. Should you go up? You decide.
+   The howls you heard at the entrance are much louder here, and they
+seem to come from above, where a spiral staircase ascends into the
+heights of the building.  Should you go up?  You decide.  A passage
+leads west.
 ~
 105 acdj 0
 D3
@@ -1115,13 +1159,14 @@ This staircase appears to go up to infinity. You can't see where it ends.
 S
 #10551
 On the staircase~
-  The wailing surrounds you entirely here. You feel you might go mad if you 
-don't leave this stairwell. Over and over and over the sounds shriek over you.
-Perhaps you should go up--and quickly.
+   The wailing surrounds you completely here, and you feel you might go
+mad if you do not leave this stairwell.  Over and over, the sounds
+shriek about you.  Perhaps you should go up, and quickly.  The stairs
+lead up and down.
 ~
 105 acdj 0
 D4
-You see a very wierdly shaped hallway.
+You see a very weirdly shaped hallway.
 ~
 ~
 0 -1 10553
@@ -1133,12 +1178,13 @@ You see the bottom of the staircase.
 S
 #10552
 Cell~
-  The stench of refuse is particularly strong here. The cell can't be more than
-3-by-2 meters. A small cot is bolted to the floor, and a small drainage hole
-with no covering is in the middle of the room. The floors slant down to the
-hole, and you can see streaks of rust where the iron bolts have oxidized. 
-Manacles hang from the wall in the back of the cell, and you can see two
-skeletal hands, all that is left of what once must have been a human being.
+   The stench of refuse is particularly strong in this cell, which
+cannot be more than ten feet by six.  A small cot is bolted to the
+floor, and the floor slopes toward an uncovered drainage hole in the
+middle of the room, streaked with rust where the iron bolts have
+corroded.  Manacles hang from the back wall, and in them are two
+skeletal hands, all that remains of what once must have been a human
+being.  The way out lies north.
 ~
 105 acdj 0
 D0
@@ -1167,11 +1213,11 @@ walk near it.
 S
 #10553
 Strangely shaped hallway.~
-  This hallway appears to be nothing more than an extension around the stairs.
-Made from the same grey material as the rest of the building, this room seems
-to have something strange about it. Perhaps it's the strange black tiling at
-certain points around the room. There are doors leading in almost all
-directions, and the stairs continue on upward.
+   This hallway seems to be nothing more than a passage around the
+stairs, built of the same gray stone as the rest of the building, yet
+something about it is strange; perhaps it is the black tiles set into
+the floor at odd points around the room.  Doors lead north, east and
+south, and the stairs continue up and down.
 ~
 105 d 0
 D0
@@ -1202,10 +1248,10 @@ The stairs ascend downwards.
 S
 #10554
 Open Hearth~
-  The damp remains of what was probably once a huge bonfire are strewn about
-the room. The coals are mushy here, and they're everywhere. They creep through
-the soles of your boots and get caught between your toes. What a disgusting
-place. You can exit this gross room to your south.
+   The damp remains of what was once a huge bonfire are strewn about
+this room.  Mushy coals lie everywhere, oozing through the soles of your
+boots and squishing between your toes.  What a disgusting place.  A door
+leads south.
 ~
 105 ad 0
 D2
@@ -1221,8 +1267,10 @@ mass of mud in your hand.
 S
 #10555
 Supply Room~
-   Old, rotten crates are piled up everywhere here. You have an exit to your
-west.
+   Old, rotten crates are piled up everywhere in this supply room, many
+of them broken open and their contents long since spoiled or carried
+off.  The floorboards are soft and spongy with damp, and the room smells
+of mildew.  The only exit is the door to your west.
 ~
 105 acdj 0
 D3
@@ -1238,10 +1286,11 @@ the corner. It looks to have an odd device of some kind in it.
 S
 #10556
 Deserted Bedroom~
-  This lush chamber looks as if it hasn't been used for centuries. A bed, once
-beautiful, has cobwebs hanging from its huge canopy. The room is so dark that
-you can only view certain things even WITH a light. A dresser is at the very
-back of the room. You can exit to your north.
+   This lush chamber looks as if it has not been used for centuries.  A
+once-beautiful bed is draped with cobwebs hanging from its huge canopy,
+and the room is so dark that even with a light you can make out only
+certain things.  A dresser stands at the very back of the room.  The
+exit lies north.
 ~
 105 ad 0
 D0
@@ -1257,10 +1306,11 @@ entire surface. The spiders seemed to have a heyday over this one.
 S
 #10557
 Creepy Hallway~
-  You can hear strange music floating throughout the corridor. The hallway is
-lit by some unknown source in an eerie green light. The walls are painted a 
-bright scarlet red. Whoever painted this hallway didn't have kindness or 
-bunnies and light in mind. Exits lead in every direction but up.
+   Strange music drifts along this corridor from nowhere in particular,
+and the hallway is lit by some unknown source with an eerie green light.
+The walls are painted a bright scarlet red; whoever painted this hallway
+did not have kindness, bunnies or sunshine in mind.  Doors lead east and
+south, the hallway runs north and west, and stairs lead down.
 ~
 105 d 0
 D0
@@ -1291,10 +1341,10 @@ The stairs descend downwards into nothingness.
 S
 #10558
 Office of the High Priest of Fear~
-   This office is hardly the regular office. The High Priest of Fear is
-obviously into the torture thing, as manacles, iron maidens, and racks
-line the walls. A boiling cauldron of oil is in the very centre of the room.
-A door is to your west.
+   This is hardly an ordinary office.  The High Priest of Fear is
+obviously fond of torture, for manacles, iron maidens and racks line the
+walls, and a cauldron of boiling oil bubbles in the very center of the
+room.  A door leads west.
 ~
 105 d 0
 D3
@@ -1320,10 +1370,11 @@ very painful.
 S
 #10559
 Creepy Hallway~
-  You can hear strange music floating throughout the corridor. The hallway is
-lit by some unknown source in an eerie green light. The walls are painted a 
-bright scarlet red. Whoever painted this hallway didn't have kindness or 
-bunnies and light in mind. You can go to your north or south.
+   Strange music drifts along this corridor from nowhere in particular,
+and the hallway is lit by some unknown source with an eerie green light.
+The walls are painted a bright scarlet red; whoever painted this hallway
+did not have kindness, bunnies or sunshine in mind.  A door leads north,
+and the hallway continues south.
 ~
 105 d 0
 D0
@@ -1339,8 +1390,11 @@ You see the creepy hallway.
 S
 #10560
 Closet~
-  This closet has strange clothes strewn everywhere. It probably wouldn't be
-a good idea to try them on.
+   This cramped closet has strange clothes strewn everywhere: robes
+stitched with odd symbols, masks with empty eyeholes and garments of a
+cut you do not recognize at all.  Some of them seem to move slightly
+when you aren't looking directly at them.  It probably wouldn't be a
+good idea to try them on.  A door leads south.
 ~
 105 ad 0
 D2
@@ -1351,10 +1405,11 @@ door~
 S
 #10561
 Creepy Hallway~
-  You can hear strange music floating throughout the corridor. The hallway is
-lit by some unknown source in an eerie green light. The walls are painted a 
-bright scarlet red. Whoever painted this hallway didn't have kindness or 
-bunnies and light in mind. You can go to your north or east.
+   Strange music drifts along this corridor from nowhere in particular,
+and the hallway is lit by some unknown source with an eerie green light.
+The walls are painted a bright scarlet red; whoever painted this hallway
+did not have kindness, bunnies or sunshine in mind.  The hallway leads
+north and east.
 ~
 105 d 0
 D0
@@ -1370,10 +1425,11 @@ You see the creepy hallway.
 S
 #10562
 Creepy Hallway~
-  You can hear strange music floating throughout the corridor. The hallway is
-lit by some unknown source in an eerie green light. The walls are painted a 
-bright scarlet red. Whoever painted this hallway didn't have kindness or 
-bunnies and light in mind. You can go to your north or south.
+   Strange music drifts along this corridor from nowhere in particular,
+and the hallway is lit by some unknown source with an eerie green light.
+The walls are painted a bright scarlet red; whoever painted this hallway
+did not have kindness, bunnies or sunshine in mind.  The hallway leads
+north and south.
 ~
 105 d 0
 D0
@@ -1389,10 +1445,11 @@ You see the creepy hallway.
 S
 #10563
 Creepy Hallway~
-  You can hear strange music floating throughout the corridor. The hallway is
-lit by some unknown source in an eerie green light. The walls are painted a 
-bright scarlet red. Whoever painted this hallway didn't have kindness or 
-bunnies and light in mind. You can go to your south or west.
+   Strange music drifts along this corridor from nowhere in particular,
+and the hallway is lit by some unknown source with an eerie green light.
+The walls are painted a bright scarlet red; whoever painted this hallway
+did not have kindness, bunnies or sunshine in mind.  The hallway leads
+south, and to the west a balcony opens to the sky.
 ~
 105 d 0
 D2
@@ -1408,12 +1465,13 @@ The end of the hallways opens up into the outside. It looks to be a balcony.
 S
 #10564
 Balcony~
-  From here, you can see the entire island. The vantange is breathtaking, and
-still looks to be sinister. To your far south, you can see what looks like the
-ribs of a huge animal. To your far east, you can see a pristine white beach.
-Most of the island is covered in forest, and extends around a huge hill. The 
-far, far north shows some absolutely huge trees, and a rather large, black 
-pool of what can only be tar. You can go back into the building by going east.
+   From here you can see the entire island, and the view is
+breathtaking, if still sinister.  Far to the south you can see what
+looks like the ribs of a huge animal, and far to the east a pristine
+white beach.  Forest covers most of the island, wrapped around a huge
+hill, and in the far north stand absolutely enormous trees beside a
+large, black pool of what can only be tar.  You can go back into the
+building to the east.
 ~
 105 0 1
 D1
@@ -1423,12 +1481,12 @@ You see the creepy hallway.
 0 0 10563
 S
 #10565
-Torture Chambre~
-   This room is stacked high with torture instruments of all kinds, ranging
-from the mild shackle to spiked manacles, to several different whips, to
-some rather sinister-looking magical instruments, to a yoke that is obviously
-fitted to the human body. This isn't a pleasant place. An interrogation room
-lies to your east, and a teleporting zone is to your north.
+Torture Chamber~
+   This room is stacked high with torture instruments of every kind,
+from simple shackles to spiked manacles, whips of several sorts,
+sinister-looking magical devices and a yoke plainly fitted to the human
+body.  This is not a pleasant place.  A door leads south to the
+interrogation room, and the square lies to the north.
 ~
 105 adj 0
 D0
@@ -1444,9 +1502,10 @@ door~
 S
 #10566
 Screening Room~
-  This is the room where all prisoners are interrogated. Should they be found
-lacking in the information the interrogators need, they are taken to the 
-torture chamber to your west.
+   This is where prisoners are interrogated.  Those found lacking in the
+information the interrogators need are taken to the torture chamber to
+the west.  A single chair faces a table, its arms fitted with straps.  A
+door leads south.
 ~
 105 d 0
 D2
@@ -1455,16 +1514,17 @@ You see the outlay.
 door~
 1 10533 10567
 D3
-You see the torture chambre.
+You see the torture chamber.
 ~
 ~
 1 -1 10565
 S
 #10567
 Outlay~
-  This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you. 
-You see no visible exits.
+   This room is an outlying corner of the square hallway in the House of
+Despair.  Strange pictures line the walls, and shrieks can be heard all
+around you.  You see no visible exits, though the north wall sounds
+hollow when you knock on it.
 ~
 105 d 0
 D0
@@ -1474,9 +1534,10 @@ door secret~
 S
 #10568
 Outlay~
-  This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you. 
-You see no visible exits.
+   This small room is an outlying corner of the square hallway in the
+House of Despair.  Strange pictures line the walls, faces twisted in
+endless screams, and shrieks echo all around you.  You see no visible
+exits, though the south wall sounds hollow when you knock on it.
 ~
 105 d 0
 D2
@@ -1486,9 +1547,9 @@ door secret~
 S
 #10569
 Waiting Room~
-  This room has nothing but two chair in it, lined with straps. The walls are 
-painted a sterile white, and the air has a hint of fog in it. There is an 
-interrogation centre to your west.
+   This room holds nothing but two chairs fitted with straps.  The walls
+are painted a sterile white, and a faint fog hangs in the air.  An
+interrogation center lies to the west.
 ~
 105 d 0
 D3
@@ -1499,12 +1560,12 @@ You can see the interrogation room.
 S
 #10570
 Interrogation Centre~
-   A long, circular desk forms the central piece of furniture in this room. A 
-huge, stark chair is at the head, while smaller chairs line the rest. An
-opening in the desk allows a person to be placed in the iron chair with 
-straps in the centre. For what purpose, you shudder to guess. You can go
-back into the waiting room, or can go south through a teleportation device
-to the square room.
+   A long, circular desk is the centerpiece of this room, with a huge,
+stark chair at its head and smaller chairs around the rest.  An opening
+in the desk allows a person to be placed in an iron chair fitted with
+straps in the center.  For what purpose, you shudder to guess.  You can
+go back east into the waiting room, or south through a teleportation
+platform to the square.
 ~
 105 d 0
 D1
@@ -1541,9 +1602,9 @@ You see a waiting room.
 S
 #10572
 Waiting Room~
-  This room has nothing but two chair in it, lined with straps. The walls are 
-painted a sterile white, and the air has a hint of fog in it. There is an 
-office to your east.
+   This room holds nothing but two chairs fitted with straps.  The walls
+are painted a sterile white, and a faint fog hangs in the air.  An
+interrogation center lies to the west.
 ~
 105 d 0
 D3
@@ -1554,9 +1615,10 @@ You can see the office of the Priest of Despair.
 S
 #10573
 Outlay~
-  This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you. 
-You see no visible exits.
+   This small room is an outlying corner of the square hallway in the
+House of Despair.  Strange pictures line the walls, faces twisted in
+endless screams, and shrieks echo all around you.  You see no visible
+exits, though the north wall sounds hollow when you knock on it.
 ~
 105 d 0
 D0
@@ -1566,9 +1628,9 @@ door secret~
 S
 #10575
 Alcove~
-  This small alcove has no real interesting quality, save the fact that it
-has a large opening to a tar pit of boggling dimensions. You can(and should)
-go back to your west.
+   This small alcove has nothing of interest about it, except that it
+opens onto a boiling tar pit of mind-boggling size to the south.  You
+can, and should, go back to the west.
 ~
 105 d 0
 D2
@@ -1584,10 +1646,11 @@ You can see the sitting room.
 S
 #10576
 Sitting Room~
-  Here the Priest of Despair could sit and watch as his prisoners (and hapless
-adventurers were thrown(or stupidly walked into) the tar pit. Looks as though
-they were thrown in not far from here, as you can see telltale signs of 
-scuffling around you.
+   From here the Priest of Despair could sit and watch as prisoners, and
+hapless adventurers, were thrown (or stupidly walked) into the tar pit.
+They must have been thrown in not far from here, judging by the scuff
+marks and torn scraps of cloth on the floor.  An alcove lies to the
+east.
 ~
 105 d 0
 D1
@@ -1598,9 +1661,10 @@ That's probably as close as you'd want to get to the tar pit.
 S
 #10577
 Outlay~
-  This room is an outlying area of the square hallway in the House of Despair.
-Strange pictures line the walls, and shrieks can be heard all around you. 
-You see no visible exits.
+   This small room is an outlying corner of the square hallway in the
+House of Despair.  Strange pictures line the walls, faces twisted in
+endless screams, and shrieks echo all around you.  You see no visible
+exits, though the south wall sounds hollow when you knock on it.
 ~
 105 d 0
 D2
@@ -1610,9 +1674,10 @@ door secret~
 S
 #10578
 Square~
-Here, there are exits in all directions. These, however, are no ordinary exits.
-They're transporter platforms, each designed to be a room to step in to go to 
-the designated areas. A small sign is on a wall at the corner of the room.
+   Exits lead in every direction from here, but they are no ordinary
+exits: each is a shimmering transporter platform, designed to carry
+whoever steps onto it to some other part of the building.  The air hums
+with magic.  A small sign hangs on the wall in the corner of the room.
 ~
 105 d 0
 D0
@@ -1648,15 +1713,16 @@ You see a transporter platform.
 E
 sign note plaque~
                   YOU HAVE ENTERED THE HALL OF DESPAIR
-               AUTHORIZED PERSONELL AND PRISONERS ONLY!!!
+               AUTHORIZED PERSONNEL AND PRISONERS ONLY!!!
 ~
 S
 #10579
 Entrance to the Hall of Hopelessness~
-  You stand on a dusty floor in a fallen-down hut. Just to the east, you can
-see the remains of a deserted corridor. The entire chamber is empty and devoid
-of anything of any real interest. You can see an transporter platform to your
-north. All around you are depictions of people in inescapable situations.
+   You stand on the dusty floor of a fallen-down hut.  Just to the east
+you can see the remains of a deserted corridor.  The chamber is empty
+and holds nothing of real interest except its walls, which are painted
+all around with people trapped in hopeless situations.  A transporter
+platform lies to the north, and a tarry tunnel to the south.
 ~
 105 d 0
 D0
@@ -1677,8 +1743,10 @@ You can see a tarry tunnel.
 S
 #10580
 Deserted Corridor~
-   A damp, musty hall leads north. You detect no sounds--in fact, all sounds 
-seem to be muted in this strange place.
+   A damp, musty hall leads north.  You detect no sounds; in fact, all
+sounds seem to be muted in this strange place, as if the air itself were
+swallowing them.  The stone walls are slick with moisture, and to the
+west lies the entrance to the Hall of Hopelessness.
 ~
 105 d 0
 D0
@@ -1699,8 +1767,10 @@ You can see the entrance to the Hall of Hopelessness.
 S
 #10581
 Deserted Corridor~
-  A damp, musty hall leads north and south. You detect no sounds--in fact, all
-sounds seem to me muted in this strange place.
+   A damp, musty hall leads north and south.  You detect no sounds; in
+fact, all sounds seem to be muted in this strange place, and even your
+own voice sounds distant and thin.  The entrance to the Hall of
+Hopelessness lies to the west.
 ~
 105 d 0
 D0
@@ -1726,8 +1796,10 @@ You can see the entrance to the Hall of Hopelessness.
 S
 #10582
 Deserted Corridor~
-   A damp, musty hall leads south. You detect no sounds--in fact, all sounds 
-seem to be muted in this strange place.
+   A damp, musty hall leads south.  You detect no sounds; in fact, all
+sounds seem to be muted in this strange place.  The air is cold and
+heavy, and a feeling of despair settles over you like a wet cloak.  The
+entrance to the Hall of Hopelessness lies to the west.
 ~
 105 d 0
 D1
@@ -1748,8 +1820,10 @@ You can see the entrance to the Hall of Hopelessness.
 S
 #10583
 Dark Room~
-   The walls are totally painted black in this strange room. You can detect
-nothing short of your hand in front of your face.
+   The walls are painted entirely black in this strange room, and the
+darkness is so complete that you cannot even see your hand in front of
+your face.  The air is cold and still, and you have the unpleasant
+feeling that you are not alone.  A secret door leads back west.
 ~
 105 ad 0
 D3
@@ -1760,11 +1834,12 @@ door secret~
 S
 #10584
 Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so
-you may walk along it without fear of falling. This is probably best, as 
-you are extremely high up from the ground. You hear birds chirping right by
-you, and feel very peaceful here--that is, as long as you are in the trees.
-You may go north, south, or down.
+   Someone has most conveniently strung netting through the trees here,
+so that you can walk along it without fear of falling, which is just as
+well, for you are extremely high above the ground.  Birds chirp right
+beside you, and the leaves rustle softly in the breeze.  You feel very
+peaceful here... as long as you stay in the trees.  The netting leads
+north, and you can climb down the tree to the foot of the hill.
 ~
 105 0 3
 D0
@@ -1785,11 +1860,12 @@ quite strong, and supportable. You don't need to fear being on it at all.
 S
 #10585
 Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so
-you may walk along it without fear of falling. This is probably best, as 
-you are extremely high up from the ground. You hear birds chirping right by
-you, and feel very peaceful here--that is, as long as you are in the trees.
-You may go north or south on through the trees.
+   Someone has most conveniently strung netting through the trees here,
+so that you can walk along it without fear of falling, which is just as
+well, for you are extremely high above the ground.  Birds chirp right
+beside you, and the leaves rustle softly in the breeze.  You feel very
+peaceful here... as long as you stay in the trees.  The netting leads
+north and south.
 ~
 105 0 3
 D0
@@ -1810,11 +1886,12 @@ quite strong, and supportable. You don't need to fear being on it at all.
 S
 #10586
 Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so
-you may walk along it without fear of falling. This is probably best, as 
-you are extremely high up from the ground. You hear birds chirping right by
-you, and feel very peaceful here--that is, as long as you are in the trees.
-You may go north or south on through the trees.
+   Someone has most conveniently strung netting through the trees here,
+so that you can walk along it without fear of falling, which is just as
+well, for you are extremely high above the ground.  Birds chirp right
+beside you, and the leaves rustle softly in the breeze.  You feel very
+peaceful here... as long as you stay in the trees.  The netting leads
+north and south.
 ~
 105 0 3
 D0
@@ -1835,12 +1912,12 @@ quite strong, and supportable. You don't need to fear being on it at all.
 S
 #10587
 Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so
-you may walk along it without fear of falling. This is probably best, as 
-you are extremely high up from the ground. You hear birds chirping right by
-you, and feel very peaceful here--that is, as long as you are in the trees.
-You may go north or south on through the trees. You can see a very dangerous
-tar pit right below you.
+   Someone has most conveniently strung netting through the trees here,
+so that you can walk along it without fear of falling, which is just as
+well, for you are extremely high above the ground.  Birds chirp right
+beside you, and the leaves rustle softly in the breeze.  You feel very
+peaceful here... as long as you stay in the trees.  The netting leads
+north and south.
 ~
 105 0 3
 D0
@@ -1861,11 +1938,12 @@ quite strong, and supportable. You don't need to fear being on it at all.
 S
 #10588
 Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so
-you may walk along it without fear of falling. This is probably best, as 
-you are extremely high up from the ground. You hear birds chirping right by
-you, and feel very peaceful here--that is, as long as you are in the trees.
-You may go north or south on through the trees.
+   Someone has most conveniently strung netting through the trees here,
+so that you can walk along it without fear of falling, which is just as
+well, for you are extremely high above the ground.  Birds chirp right
+beside you, and the leaves rustle softly in the breeze.  You feel very
+peaceful here... as long as you stay in the trees.  The netting leads
+north and south.
 ~
 105 0 3
 D0
@@ -1886,11 +1964,12 @@ quite strong, and supportable. You don't need to fear being on it at all.
 S
 #10589
 Through the Trees~
-   Someone has most convieniently placed netting through the trees here, so
-you may walk along it without fear of falling. This is probably best, as 
-you are extremely high up from the ground. You hear birds chirping right by
-you, and feel very peaceful here--that is, as long as you are in the trees.
-You may go north to a dock, or south on through the trees.
+   Someone has most conveniently strung netting through the trees here,
+so that you can walk along it without fear of falling, which is just as
+well, for you are extremely high above the ground.  Birds chirp right
+beside you, and the leaves rustle softly in the breeze.  You feel very
+peaceful here... as long as you stay in the trees.  The netting leads
+south, and to the north it ends at a dock.
 ~
 105 0 3
 D0
@@ -1911,11 +1990,11 @@ quite strong, and supportable. You don't need to fear being on it at all.
 S
 #10590
 Port by the Forest~
-   You are at an extremely wierd dock. It's raised high on stilts on one side--
-apparently keeping you from falling off of a cliff. Netting starts out to your
-south, keeping you from falling through the trees. You can see a large tar 
-pit to your south--good thing there's that netting to keep you from falling
-into it.
+   You are at an extremely odd dock, raised high on stilts on one side
+to keep you from falling off a cliff.  Netting begins to the south,
+strung through the treetops, and far below to the south lies a large tar
+pit; good thing there is netting to keep you from falling into it.  The
+dock juts out to the north.
 ~
 105 0 1
 D0
@@ -1931,12 +2010,12 @@ The netting begins to your south.
 S
 #10591
 Hall of Wax~
-  Gory statues line this hall--statues of all kinds of torture, from the
-most mundane iron-maiden experience to the more imaginative things one can
-do with a cat-of-nine tails and razors. The thing that makes these statues
-most uncomfortable to look at is the fact that they are made from wax--and
-look so lifelike you can almost see them screaming in terror. Do you see
-one move? No, it must be your mind playing tricks on you.
+   Gory statues line this hall, depicting every kind of torture, from
+the most mundane iron-maiden experience to the more imaginative things
+one can do with a cat-o'-nine-tails and razors.  What makes them most
+uncomfortable to look at is that they are made of wax, and so lifelike
+that you can almost see them screaming in terror.  Did one move?  No, it
+must be your mind playing tricks on you.  The way leads north.
 ~
 105 ad 0
 D0
@@ -1947,10 +2026,11 @@ You can see a horrid hall to your north.
 S
 #10592
 Entrance to the Office of the High Priest of Terror~
-  This is certainly not your average office--certain telltale signs lead you
-to this fact. Perhaps it's the skulls lined up on spikes around the room. Or,
-perhaps the fact that it looks to be several rooms. You really don't want to
-be here. You can go south or north...neither way looks too comforting.
+   This is certainly not your average office.  Perhaps it is the skulls
+lined up on spikes around the room that give it away, or the fact that
+it seems to open into several other rooms.  You really don't want to be
+here.  A door leads north, and a passage south; neither way looks very
+comforting.
 ~
 105 d 0
 D0
@@ -1966,12 +2046,13 @@ You can see a hall of wax statues.
 S
 #10593
 Hall of Torture~
-  This certainly isn't the entrance to the office...how does one get back? You
-feel somewhat turned around. As you look around you, you are overcome with
-nausea as you realize immediately that you shouldn't have. Many items of 
-torture lie around here, some that you'd never imagined could have been invent-
-ed. Certainly not by a sane person. You can go to your east(oh, so that's how
-you get back to the entrance), or to the south, into another chambre.
+   This certainly isn't the entrance to the office... how does one get
+back?  You feel turned around.  As you look about, you are overcome with
+nausea, and you immediately realize that you shouldn't have looked:
+instruments of torture lie everywhere, some of which you never imagined
+could have been invented, and certainly not by a sane person.  You can
+go east (oh, so that's the way back to the entrance) or south into
+another chamber.
 ~
 105 d 0
 D1
@@ -1987,12 +2068,12 @@ You see a hall with lots of dead bodies around.
 S
 #10594
 Hall of Death~
-  Dead bodies lie strewn about here. They appear to have been killed from the
-devices in the Hall of Torture. You certainly don't want to think too long
-about it, as they are so mangled you can't tell what they were--whether
-they were human or other. You can get out of here by going back to the
-Hall of Torture, to the Temple of Terror to your east, or to the
-Office of the High Priest to your south.
+   Dead bodies lie strewn about this hall, apparently killed by the
+devices in the Hall of Torture.  They are so mangled that you cannot
+tell whether they were human or something else, and you certainly don't
+want to think about it for long.  You can leave by a door north to the
+Hall of Torture, east to the Temple of Terror, or through a door south
+to the office of the High Priest.
 ~
 105 d 0
 D0
@@ -2013,14 +2094,13 @@ door~
 S
 #10595
 Office of the High Priest of Terror~
-   This is probably the most beautiful part of the entire island you have
-seen. Amazingly enough, there are no signs of the carnage and disgusting
-methods of torture that can be seen throughout the rest of the buildings
-you've viewed. In fact, this place looks downright natural. A nice desk
-made of redwood is the frontpiece of the room, and a high-backed chair
-is behind it. A plush sofa is in front of it, and plaques and other 
-credentials line the walls. An insignia--the cat o' nine tails--is frosted
-into the only window in the room.
+   This is probably the most beautiful place on the entire island.
+Amazingly, there are no signs of the carnage and torture that fill the
+rest of these buildings; in fact, the room looks downright natural.  A
+fine desk of redwood stands at the front of the room with a high-backed
+chair behind it and a plush sofa before it, and plaques and other
+credentials line the walls.  An insignia, the cat-o'-nine-tails, is
+frosted into the only window.  The way out lies north.
 ~
 105 d 0
 D0
@@ -2058,11 +2138,11 @@ VERY heavy.
 S
 #10597
 Entrance to the Temple of Terror~
-  The entrance to this temple is blinding--that's probably the most noteworthy
-point of note. Flashes of light emenate from a globe in the center of the room,
-causing strange effects in the room. The room is made from a metal that 
-reflects the light like a mirror--but brighter. You can go to the strange
-trail to your north, or on into the temple to your east.
+   The entrance to this temple is blinding; that is its most notable
+feature.  Flashes of light burst from a globe in the center of the room,
+and the walls, made of a metal that reflects light like a mirror only
+brighter, throw them back a thousandfold.  You can go north through a
+door to the strange trail, or east into the temple.
 ~
 105 d 0
 D0
@@ -2077,16 +2157,16 @@ You see a blindingly lit hallway.
 0 0 10598
 E
 globe ball light~
-  All the light seems to emenate from this globe. It's made from material
+  All the light seems to emanate from this globe. It's made from material
 that looks to come from the sun itself--yet it's cold--very cold.
 ~
 S
 #10598
 Blindingly lit hallway~
-  This east-west hallway is so brightly lit that you can barely see anything. 
-You have to shield your eyes just to see in front of you. It appears to be
-made from the same metal as the entrance to the building does. A small room
-opens to your north.
+   This east-west hallway is so brightly lit that you can barely see
+anything, and you must shield your eyes just to see in front of you.  It
+is made of the same mirror-bright metal as the temple entrance.  A small
+room opens to the north.
 ~
 105 d 0
 D0
@@ -2107,10 +2187,11 @@ The entrance to the temple is to your direct west.
 S
 #10599
 Shrine to Vice~
-  This small shrine contains nothing other than an alter and a small book
-with the inscription, "You cannot take that which is not yours--but you
-can have as much of it as you want."...you think you hear maniacal cackling
-somewhere around you, but when you turn, you see nothing.
+   This small shrine holds nothing but an altar and a small book bearing
+the inscription: "You cannot take that which is not yours... but you can
+have as much of it as you want."  You think you hear maniacal cackling
+somewhere nearby, but when you turn, you see nothing.  The hallway lies
+to the south.
 ~
 105 d 0
 D2

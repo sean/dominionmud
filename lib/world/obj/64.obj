@@ -75,7 +75,7 @@ A piece of luminous green fungus is lying here.~
 #6409
 fungus red~
 a piece of luminous red fungus~
-A piece of lunimous red fungus is lying here.~
+A piece of luminous red fungus is lying here.~
 ~
 1 1 65537
 0 0 36 0
@@ -189,7 +189,7 @@ A small, black leather book is lying here.~
 E
 book leather black small~
 This small book is actually a journal of a brave adventurer who journeyed
-into the Abyss and made his way out again. Unfoutunately, the script seems
+into the Abyss and made his way out again. Unfortunately, the script seems
 hastily written and messy so it would take a long time to decipher it.
 ~
 #6421
@@ -245,7 +245,7 @@ A small manual is lying here.~
 E
 manual small~
 This manuscript, written in a very neat handwriting, is obviously the work of a
-high priest. It discusses the prayers and preperations that seemed to help her
+high priest. It discusses the prayers and preparations that seemed to help her
 in healing the wounded. It is divided into three parts: "The Curing of Light
 Wounds", "The Curing of More Serious Wounds", and "Curing the Critically
 Injured".
@@ -276,7 +276,7 @@ A forest green book is lying here.~
 E
 book forest green~
 This oddly colored book was obviously written by a druid (that probably would
-explain the color) and dicusses various trees and such that live in the forest.
+explain the color) and discusses various trees and such that live in the forest.
 One thing that does catch your eye is a chapter about telling which trees are
 able to cast spells. Apparently, Eucalyptus trees and the trees that "shiver"
 do not cast spells, but the trees that "moan" do.
@@ -371,7 +371,7 @@ encyclopedia book a~
    This book is just packed with creatures and items that begin with the letter
 A. Some of the entries look like these:
 Anaconda- Anacondas don't want "none" unless you've got buns, hun'.
-Aphrodesiac- For some reason, females seem to really like a good aphrodesiac.
+Aphrodisiac- For some reason, females seem to really like a good aphrodisiac.
    You should try some sometime... you may be surprised!
 ~
 #6432
@@ -403,7 +403,7 @@ encyclopedia book c~
    This book is just packed with creatures and items that begin with the letter
 C. Some of the entries look like these:
 The "Cub*" Clan- this group has been know to wander around the world with no
-   paticular goal except to just see what it can kill.
+   particular goal except to just see what it can kill.
 Club- very effective in the harvesting of seal fur.
 ~
 #6434
@@ -468,7 +468,7 @@ E
 encyclopedia book g~
    This book is just packed with creatures and items that begin with the letter
 G. Some of the entries look like these:
-Golem- there are so many variaties of golems that it would be impossible to
+Golem- there are so many varieties of golems that it would be impossible to
    name them all... in fact, more are being made today than ever before!
 Gold- for some reason, this soft metal has a high value though one would wonder
    why since you can't even make a decent weapon out of it.
@@ -537,7 +537,7 @@ E
 encyclopedia book k~
    This book is just packed with creatures and items that begin with the letter
 K. Some of the entries look like these:
-Kanga-Roo, Captain- leader of the Roo forces in their fued against their hated
+Kanga-Roo, Captain- leader of the Roo forces in their feud against their hated
    enemies, the Aborigines. Fortunately, the Aborigine Chief is just as inept
    or else the war would have ended in defeat for the Roos.
 Knife- a very useful invention, the knife helps us in many ways. When one is
@@ -608,7 +608,7 @@ E
 encyclopedia book o~
    This book is just packed with creatures and items that begin with the letter
 O. Some of the entries look like these:
-Otyugh- these vile and disgusting creatures live an filth and trash, but why do
+Otyugh- these vile and disgusting creatures live in filth and trash, but why do
    some of them seem to have a more pleasant personality than politicians?
 Onyx- another highly valued material, things made of this stuff tend to be
    highly praised until their power is made more realistic.
@@ -627,7 +627,7 @@ encyclopedia book p~
 P. Some of the entries look like these:
 Purple Worm- this large creature lives in the Desert and is always looking for
    something to snack on. Also quite sociable, he is often known to have even
-   univited visitors for lunch.
+   uninvited visitors for lunch.
 Pick- a useful tool in digging all of the graves for the people who die a bit
    too often.
 ~
@@ -695,7 +695,7 @@ E
 encyclopedia book t~
    This book is just packed with creatures and items that begin with the letter
 T. Some of the entries look like these:
-Tasmanian Devil- a rather nasty and viscious beast, it was captured by several
+Tasmanian Devil- a rather nasty and vicious beast, it was captured by several
    Roo soldiers by order of their queen. They had hoped that they could train
    it to kill the Aborigines, but they have had no success. It is currently
    kept in a locked cage for which the queen has the only key.
@@ -716,7 +716,7 @@ encyclopedia book u~
 U. Some of the entries look like these:
 Unicorn- these horny horses only go for those that are pure good. Most people,
    however, do not want to admit that these steeds will let them ride.
-Ukelele- a kind of small guitar, most serious muscians don't consider this
+Ukulele- a kind of small guitar, most serious musicians don't consider this
    instrument a real instrument for entertaining anyone except children.
 ~
 #6452
@@ -789,7 +789,7 @@ Yochlol, Handmaiden of Lolth- these rather disgusting females have this strange
    the dangerous ones! (perhaps you should give them a Black Flag spider-killer
    for a present; they are sure to show you their appreciation)
 Yellow tulip- for some unknown reason, holding this pretty little flower helps
-   somone remain unnoticed by people who are looking around.
+   someone remain unnoticed by people who are looking around.
 ~
 #6456
 encyclopedia book z~
@@ -811,7 +811,7 @@ Zweihander- a large, heavy, sword that does a lot of damage. Unfortunately,
 #6457
 encyclopedia book index~
 an encyclopedia Index~
-A hide bound book with with the word INDEX on the side is lying here.~
+A hide bound book with the word INDEX on the side is lying here.~
 ~
 12 0 1
 0 0 0 0
@@ -877,7 +877,7 @@ A
 14 -50
 #6462
 money pouch gold monastary~
-the monastary's money pouch~
+the monastery's money pouch~
 WOW! Some FOOL has just left a large pouch of GOLD lying here!~
 ~
 20 0 1

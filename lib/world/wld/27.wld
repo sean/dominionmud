@@ -133,7 +133,7 @@ S
 #2704
 Before the Throne of the Kobold King~
 Here the northern and southern walls of the great cavern curve to meet.  A
-much more recent addtion to this magnificent cavern has been a throne of
+much more recent addition to this magnificent cavern has been a throne of
 metal, wood, and rock, that by all indications has been hurriedly thrown 
 together so that its inhabitant can oversee the ongoing operation.  On the
 wall next to the throne looks to be some sort of tactical plan.
@@ -222,7 +222,7 @@ S
 #2708
 Walking on Air Across the Chasm.~
 You've taken a step into mid-air, and are now getting a rapid introduction
-to two priciples of physics...gravity and terminal velocity.  The key word
+to two principles of physics...gravity and terminal velocity.  The key word
 is TERMINAL.
 ~
 27 bc 0
@@ -231,7 +231,7 @@ S
 The Dark, Murky Pool~
 Wading through the dark murky water, you find that it reaches roughly your
 knee level at its deepest, against the north and western cave walls.  The
-water is quite chilly, so you arn't too depressed to find that the opening
+water is quite chilly, so you aren't too depressed to find that the opening
 in the cave wall through which the water issues is much to small to crawl
 through.
 
@@ -325,12 +325,12 @@ D6
 The cavern continues to the northeast.
 ~
 ~
-0 0 2700
+0 0 2702
 D7
 The cavern continues to the northwest.
 ~
 ~
-0 0 2702
+0 0 2700
 D8
 The passage continues to the southeast.
 ~
@@ -639,7 +639,7 @@ D3
 S
 #2723
 The Great Cavern~
-You stand amid a vast cavern, the ceiling vaulting overhaed coated in 
+You stand amid a vast cavern, the ceiling vaulting overhead coated in 
 stalactites.  The stalagmites that once must have covered the floor have all
 been shattered, with only the fragments remaining, scattered about and mixed
 in with fragments of stone from the excavation efforts going on closer to
@@ -691,8 +691,8 @@ D3
 S
 #2725
 The Great Cavern~
-You are standing admist huge cavern, which must have been quite grand before
-the humaniods turned it into a staging ground for war.  Immediately to the
+You are standing amidst huge cavern, which must have been quite grand before
+the humanoids turned it into a staging ground for war.  Immediately to the
 west, you see the staircase leading to the tunnel that works its way toward
 the surface. 
 ~
@@ -839,7 +839,7 @@ S
 Climbing Amongst the Rocks~
 Rocks, rocks, and more rocks.  The kobolds must be dumping here all the stone
 they are excavating closer to the surface.  To the west, the rock fragments
-form an impenetratable wall.
+form an impenetrable wall.
 ~
 27 ad 0
 D1
@@ -852,7 +852,7 @@ S
 A Tunnel.~
 You stand in a tunnel carved by an ancient underground river, though not even
 a trickle of water is evident now.  This subterranean passage runs roughly
-east-west.  You see lots of pieces of freshly chisled rock scattered about
+east-west.  You see lots of pieces of freshly chiseled rock scattered about
 the floor, probably dumped here by all those little kobolds carrying around
 buckets of rock.
 ~
@@ -906,9 +906,9 @@ The tunnel continues to the northwest.
 S
 #2736
 River Channel through Great Cavern~
-A river channel, now dry, cuts its way across the carvern floor here, running
-from east to west.  To the south the southern wall of the carvern rises 
-upwards, west the river path cuts into the carvern wall, and north and east
+A river channel, now dry, cuts its way across the cavern floor here, running
+from east to west.  To the south the southern wall of the cavern rises 
+upwards, west the river path cuts into the cavern wall, and north and east
 the cavern continues.
 ~
 27 ad 0
@@ -1030,7 +1030,7 @@ S
 Mouth of Fissure~
 You stand in the mouth of a fissure in the southern wall of the great 
 cavern.  It continues deeper into the earth toward the west, but appears
-to narrow rapidy.
+to narrow rapidly.
 ~
 27 ad 0
 D0
@@ -1051,8 +1051,9 @@ You see the great cavern.
 S
 #2743
 Fissure in Cavern Wall~
-The fissure narrows a little here, though you can still continue to the
-south, or return to the great cavern to the northwest.
+   The fissure narrows a little here, its jagged walls pressing in on
+either side, though you can still continue to the south, or return to
+the great cavern back to the west.
 ~
 27 ad 0
 D2
@@ -1068,7 +1069,8 @@ You see the mouth of the fissure.
 S
 #2744
 Narrowing of Crevice~
-The crevice narrows here, with any travel further south impossible.
+   The crevice narrows here between walls of damp, jagged rock, until
+any travel further south is impossible.  The only way out is back north.
 ~
 27 adi 0
 D0
@@ -1079,11 +1081,13 @@ The crevice widens to the north.
 S
 #2745
 Narrowing of Fissure~
-The fissure narrows here, to the point of impassibility.
+   The fissure narrows here to the point of impassability; not even a
+child could squeeze through the crack that continues south.  The only
+way out is back north.
 ~
 27 adi 0
 D0
-The fissure wides to the north.
+The fissure widens to the north.
 ~
 ~
 0 -1 2743

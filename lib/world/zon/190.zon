@@ -127,5 +127,9 @@ M 0 19017 1 19019 100 	* the Champion at Trophy room of the Elven King.. (Max: 1
 E 1 19000 1 17 100 			* And equip it with a diamond-edged sword. (Max: 1)
 E 1 19003 100 4 100 			* And equip it with mithril chainmail. (Max: 100)
 E 1 19022 1 15 100 			* And equip it with a small fire-opal bracelet. (Max: 1)
+* puzzle
+M 0 19031 1 19043             old elven sage (puzzle)
+M 0 19032 1 19008             shimmer on the obelisk (puzzle)
+O 0 19017 1001 19091            jar with glowing worm (puzzle reward)
 S
 $~

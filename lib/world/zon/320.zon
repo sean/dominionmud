@@ -140,5 +140,9 @@ O 0 32032 1 32236 100 	* the picture at Hallway to the Tower. (Max: 1)
 O 0 32033 1 32237 100 	* the picture at Hallway to the Ancient Tower. (Max: 1)
 O 0 32034 1 32238 100 	* the picture at Hallway to the Tower. (Max: 1)
 M 0 32013 1 32005 100 	* the old hermit at Under the Tree. (Max: 1)
+* puzzle
+M 0 32014 1 32095             light in the statue's eyes (puzzle)
+O 0 32038 1 32097             torn scroll fragment (puzzle)
+O 0 32021 4 32241            green potion (puzzle reward)
 S
 $~

@@ -1,11 +1,13 @@
 #5000
 The sunken temple courtyard~
-The pale light from the open sky pours always into this unsheltered
-courtyard, together with the amber glow of standing torches. Many
-citizens of the town of Cair-Irynthar find it their pleasure to lounge
-here. The dark marble temple rises like a shadow to the north, the
-vivid colors of roses eastwards, and the library lies to the west.
-There is a stone arch to the south.
+   Pale light from the open sky pours always into this unsheltered
+courtyard, mingling with the amber glow of standing torches.  The
+flagstones are sunk a few steps below the surrounding streets, so that
+the courtyard feels like a quiet bowl set apart from the town, and many
+citizens of Cair-Irynthar find it their pleasure to lounge here.  The
+dark marble temple rises like a shadow to the north, the vivid colors of
+a rose garden spill out to the east, and the library lies to the west.
+A stone arch leads south.
 ~
 50 p 1
 D0
@@ -27,13 +29,14 @@ D3
 S
 #5001
 The Temple of Mercy~
-   A myriad of candles, burning brightly in amber hues, illuminate
-the black-domed temple. This is where all adventurers of human
-ilk must begin their trials of danger and discovery. You stand
-in a cast of rosy-gold light, stretching along the floor from
-a stained glass window that serves as your first sight of the
-known world. The unknown world awaits you with open.. jaws.
-There is an inscription in the north wall.
+   A myriad of candles burning in amber hues lights this black-domed
+temple.  This is where all adventurers of human ilk must begin their
+trials of danger and discovery.  You stand in a cast of rosy-gold light
+falling across the floor from a stained glass window, your first sight
+of the known world.  The unknown world awaits you with open... jaws.  An
+inscription is carved into the north wall.  Passages lead north to a
+terrace, east to the alms room and west to the altar, and the courtyard
+lies to the south.
 ~
 50 dep 0
 D0
@@ -73,12 +76,12 @@ The lone and level sands stretch far away."
 S
 #5002
 The alms room~
-   Murals of black and gold adorn the walls in swirling patterns,
-within which are outlined several dark silhouettes. Under some
-scrutiny you can trace a basilisk, a chimera, and a dragon
-circling a deity, a dusty red cloak about her neck. 
-Homage and sacrifice to this human deity are paid here by the
-other citizens of the realm. 
+   Murals of black and gold adorn the walls of this room in swirling
+patterns, and within them dark silhouettes are outlined.  With some
+scrutiny you can trace a basilisk, a chimera and a dragon circling a
+goddess with a dusty red cloak about her neck.  A worn offering box
+stands against the wall.  Homage and sacrifice to this human deity are
+paid here by the citizens of the realm.  The temple lies to the west.
 ~
 50 cdep 0
 D3
@@ -88,10 +91,12 @@ D3
 S
 #5003
 At the altar~
-   You stand in a quiet room garbed on all sides by black drapery,
-save for the south wall, on which is painted a stellar calendar
-with symbols difficult to interpret. Reverance to the elusive
-human deity is paid here.
+   You stand in a quiet room hung on all sides with black drapery, save
+for the south wall, on which a stellar calendar has been painted in
+silver and gold, full of symbols difficult to interpret.  Incense
+smolders in a brass dish, and the hush is profound.  Reverence to the
+elusive human deity is paid here.  The temple lies to the east, and
+steps lead down to a silvery-lit landing.
 ~
 50 dep 0
 D1
@@ -112,10 +117,11 @@ only to the local priesthood.
 S
 #5004
 A narrow terrace north of the temple~
-   You stand on a thin stone terrace before the temple. Southwards the
-dome of the temple rises among the town smoke, and a set of steps to
-the north leads up to the northern square before the cliffs edge.
-Black willows grow in small clusters to the east and west.
+   You stand on a thin stone terrace behind the temple.  To the south
+the dome of the temple rises among the smoke of the town's chimneys, and
+a set of steps to the north leads up to the square before the cliff's
+edge.  Black willows grow in small clusters to the east and west, their
+long fronds trailing in the breeze.
 ~
 50 p 1
 D2
@@ -129,9 +135,12 @@ D4
 S
 #5005
 The town library~
-   Silence reigns here. On two walls are painted the black and gold arcs
-of mural designs; bands twisted into knotlike patterns and borders.
-Travellers and citizens may post information on the board hung here.
+   Silence reigns here.  Shelves of books and scrolls line two walls,
+and the others are painted with black and gold arcs of mural designs:
+bands twisted into knotlike patterns and borders.  Reading desks with
+green-shaded lamps stand in neat rows.  Travelers and citizens may post
+information on the board that hangs here.  The courtyard lies to the
+east.
 ~
 50 cdfp 0
 D1
@@ -143,7 +152,11 @@ S
 The temple garden~
    An impressionistic splash of red, black and gold meets the eye,
 accompanied by the intoxicating fragrance of roses growing nearly wild
-in this garden. 
+in this garden.  Their thorny canes have long since escaped their
+trellises and now sprawl over the low stone walls and crumbling benches.
+Bees drift lazily from bloom to bloom, and the walls of the temple
+shelter the garden from the wind.  The sunken courtyard lies to the
+west.
 ~
 50 p 1
 D3
@@ -153,10 +166,11 @@ D3
 S
 #5007
 A stone arch~
-   An imposing arch of the grey-white stone of the cliffs arcs over your
-head, half grown over with dark green ivy. Before you to the south
-are the stone steps leading up to the town gallows, and northwards 
-lies the courtyard of the temple.
+   An imposing arch of the gray-white stone of the cliffs curves over
+your head, half overgrown with dark green ivy.  Weathered carvings of
+crowned faces peer out from among the leaves.  Before you, stone steps
+lead up to the town gallows, and to the north lies the courtyard of the
+temple.
 ~
 50 p 1
 D0
@@ -170,11 +184,12 @@ D4
 S
 #5008
 Cair-Irynthar square~
-   The traffic of foreigners and local citizens is heavy here, the ground
-is trodden down and the scents of animals, smoke and exotic perfumes
-hangs in the air. The cliffs and the northern gate of the town lie north
-of here, the lane paralleling the cliffs runs east and west, and the
-entrance to the temple is southwards.
+   The traffic of foreigners and local citizens is heavy here, and the
+ground is trodden hard.  The scents of animals, smoke and exotic
+perfumes hang in the air, and merchants call out in a dozen tongues.
+The cliffs and the northern gate of the town lie to the north, the lane
+paralleling the cliffs runs east and west, and steps lead down to the
+terrace behind the temple.
 ~
 50 p 1
 D0
@@ -196,17 +211,18 @@ D5
 S
 #5009
 The gate at the cliffs~
-   The wind picks up and blows sharply at your hair and garb as the
-town falls behind and the world opens out before you. You are standing
-atop a highland cliff, lined with mosses, lichen and purple heather,
-and looking out over a foggy wetland. The graveyard for the dead of
-Cair-Irynthar lies near the foot of the cliffs, and in the far distance
-you can make out the blue line of the sea closing the horizon.
+   The wind picks up and blows sharply at your hair and clothes as the
+town falls behind and the world opens out before you.  You are standing
+atop a highland cliff covered in mosses, lichen and purple heather,
+looking out over a foggy wetland.  The graveyard of Cair-Irynthar lies
+near the foot of the cliffs, and in the far distance the blue line of
+the sea closes the horizon.  A gate leads north to the cliff's edge, and
+the square lies to the south.
 ~
 50 p 1
 D0
 ~
-gate
+gate
 ~
 1 5079 5058
 D2
@@ -216,9 +232,11 @@ D2
 S
 #5010
 A lane bordering the cliffs~
-   The wind from the northern sea finds its way over the rooftops of shops
-and fills the heavily trafficked lane with a salty scent. The path is
-lined with a few oaks, and shops lie to the north and south.
+   The wind from the northern sea finds its way over the rooftops of the
+shops and fills this busy lane with a salty scent.  A few oaks line the
+path, their roots heaving up the paving stones, and shops stand to the
+north and south.  The lane continues east to the square and west along
+the cliffs.
 ~
 50 p 1
 D0
@@ -241,9 +259,11 @@ S
 #5011
 The alchemy shop~
    Vials and bottles of all shapes and sizes line the cluttered shelves
-of this small shop. On a window in the north wall sits a bizarre
-golden squid-like creature in a jar, glinting in the sun. You wonder
-what oddities could be found in storage.
+of this small shop, filled with liquids of every hue.  On the sill of a
+window in the north wall sits a bizarre golden squid-like creature in a
+jar, glinting in the sun and occasionally twitching a tentacle.  You
+wonder what other oddities might be found in storage.  The door leads
+south to the lane.
 ~
 50 cdehp 0
 D2
@@ -253,10 +273,11 @@ D2
 S
 #5012
 The House of Sorcery~
-   You stand in a small, well-lit shop of cobblestone and mortar, entirely
-cluttered with scrolls, glowing wands, odd regents and components.
-The place has an unmistakable scent of sulfur that makes you wonder,
-but the sorceress seems knowledgeable.
+   You stand in a small, well-lit shop of cobblestone and mortar,
+cluttered from floor to ceiling with scrolls, glowing wands, odd
+reagents and components.  The place has an unmistakable scent of sulfur
+that makes you wonder what goes on here after hours.  The door leads
+north to the lane.
 ~
 50 cdehp 0
 D0
@@ -266,10 +287,10 @@ D0
 S
 #5013
 A lane bordering the cliffs~
-   You have come to a crossroads of sorts. A park lies to the north, from
-which a pleasant scent is drifting, and the road continues, narrowing,
-to the west towards the homes of the residents. Eastwards lies shops
-and the northern gate; a shaded lane travels to the south.
+   You have come to a crossroads of sorts.  A park lies to the north,
+and a pleasant scent of flowers drifts from it.  The road continues
+west, narrowing, toward the homes of the residents.  To the east lie
+shops and the northern gate, and a shaded lane travels south.
 ~
 50 p 1
 D0
@@ -291,11 +312,12 @@ D3
 S
 #5014
 Wisteria park~
-   The town wall to the north and stone building to the east are climbing
-with purple-flowering wisteria vine, forming in leafy clumps at the bottoms.
-The park is a quiet, relaxing place, with the exception of the occasional
-explosion coming from a pale tower rising to the northwest, accompanied
-by a brilliant flash of light.
+   The town wall to the north and the stone building to the east are
+covered in purple-flowering wisteria, its vines gathering in leafy
+clumps at their base.  The park is a quiet, relaxing place, except for
+the occasional explosion from a pale tower rising to the northwest, each
+one accompanied by a brilliant flash of light.  The park continues west,
+and the lane lies to the south.
 ~
 50 ap 2
 D2
@@ -309,11 +331,12 @@ D3
 S
 #5015
 Wisteria park~
-   The dark greenery of the park extends eastwards, grown over with purple-
-flowering wisteria vine which slowly ambles up the town walls. To the
-south, the cliff lane runs east-west. An occasional explosion from a
-pale stone tower to the north startles you, and piques your curiousity
-about that strange place.
+   The dark greenery of the park extends eastward, overgrown with
+purple-flowering wisteria that slowly creeps up the town walls.  Bees
+drone among the blossoms.  To the north rises a pale stone tower, and an
+occasional explosion from within it startles you and piques your
+curiosity about that strange place.  A swinging wooden gate lies to the
+south.
 ~
 50 ap 2
 D0
@@ -332,10 +355,10 @@ S
 #5016
 The Tower of Sorcery~
    Gently curving sigils have been worked into the ancient, weathered
-stone of the tower of the local wizards, winding towards the ceiling
-in a sloping spiral. A stairwell has its foot at the north wall,
-rickety but presumably stable enough to support you. A dim violet
-faerie glow illuminates the room.
+stone of this tower of the local wizards, winding toward the ceiling in
+a sloping spiral.  A dim violet faerie glow lights the room from nowhere
+in particular.  A rickety stairwell rises from the north wall,
+presumably stable enough to support you.  The park lies to the south.
 ~
 50 cdp 0
 D2
@@ -350,10 +373,10 @@ S
 #5017
 A dark spiral staircase~
    The immobile stone faces of gargoyles regard you with cold stares
-from the walls of the darkened stairwell. At each turn in the spiral
-steps a more mangled face than the last confronts you, drawing closer
-to the laboratory above. What is the sculptor implying about the
-study of magic?
+from the walls of this darkened stairwell.  At each turn of the spiral
+steps, a more mangled face than the last confronts you, the nearer you
+draw to the laboratory above.  What is the sculptor implying about the
+study of magic?  The stairs lead up and down.
 ~
 50 acdp 0
 D4
@@ -367,13 +390,13 @@ D5
 S
 #5018
 The mages' laboratory~
-**BOOM!**
-When your vision returns to normal, you find yourself surrounded by 
-narrow black lab tables cluttered with a chaotic mess of bubbling vials,
-shattered beakers, and miscellaneous spell components. The latest
-experiment in familiars, a leathery-skinned fork-tailed creature,
-hops knavishly from shoulder to shoulder among the mages at work here.
-If you need practice in the magic arts, this would be a good place to start.
+   **BOOM!** When your vision returns to normal, you find yourself
+surrounded by narrow black lab tables cluttered with a chaotic mess of
+bubbling vials, shattered beakers and miscellaneous spell components.
+Scorch marks radiate across the ceiling, and a haze of colored smoke
+hangs in the air.  If you need practice in the magic arts, this would be
+a good place to start.  A balcony lies to the north, a den to the south,
+and the stairs lead down.
 ~
 50 cdep 0
 D0
@@ -391,14 +414,14 @@ D5
 S
 #5019
 At the gallows~
-In the shade of old gnarl-limbed elder trees stands the bane of all thieves
-and murderers, the platform of the gallows. The dark sand of the road shows
-none of the blood that has been shed here, but the legends of the dead live
-on in tales and nightmares. The executions still take place at irregular
-intervals, to the joy of hidden enemies and law-abiding citizens. You
-note there is plenty of room for spectators.
-Besides the east-west road, a stone arch stands to the north, and a
-well-travelled path leads southwards.
+   In the shade of old, gnarl-limbed elder trees stands the bane of all
+thieves and murderers: the platform of the gallows, its beam dark with
+age.  The black sand of the road shows none of the blood that has been
+shed here, but the legends of the dead live on in tales and nightmares.
+Executions still take place at irregular intervals, to the joy of hidden
+enemies and law-abiding citizens alike, and there is plenty of room for
+spectators.  The road runs east and west, a path leads south, and steps
+lead down to the stone arch.
 ~
 50 p 1
 D1
@@ -420,10 +443,11 @@ D5
 S
 #5020
 On a weathered stone terrace~
-   This seems to be a plaza of sorts, but is so worn and cracked with age
-the stone is barely holding together. Moss and weeds have all but 
-overgrown the rock-strewn surface. Balmy, roguish scents are drifting out
-of a dark, ivy-clothed building to the east.
+   This seems to have been a plaza once, but it is so worn and cracked
+with age that the stone barely holds together, and moss and weeds have
+all but overgrown its rock-strewn surface.  Balmy, roguish scents drift
+out of a dark, ivy-clad building to the east.  The southern path runs
+north and south.
 ~
 50 p 1
 D0
@@ -441,11 +465,13 @@ D2
 S
 #5021
 Nightbreak Cafe~
-   You have entered the infamous Nightbreak Cafe, home by night to those who
-secret themselves away in hideouts by day. The place is well-known to be
-run by the local assassins guild, and it is common to witness conversations
-here spoken in whispers as deals are cut and bounties arranged.
-The rules of conduct are etched on the back wall.
+   You have entered the infamous Nightbreak Cafe, home by night to those
+who hide away by day.  It is well known to be run by the local
+assassins' guild, and conversations here are spoken in whispers as deals
+are cut and bounties arranged.  Candles gutter in wine bottles on the
+tables, and the air is rich with the smell of strong coffee.  The rules
+of conduct are etched on the back wall.  The door leads west, and a
+trapdoor in the floor leads down.
 ~
 50 d 0
 D3
@@ -454,7 +480,7 @@ D3
 0 -1 5020
 D5
 ~
-trapdoor
+trapdoor
 ~
 1 5081 5145
 E
@@ -470,9 +496,10 @@ The list is, of course, left anonymous.
 S
 #5022
 The southern path~
-   A well-trodden dirt path heads southwards, bordered by dense clumps
-of black-tipped grass. By night the moths gather by a fatal instinct
-round the glow of torches lining the way, beating their wings heavily.
+   A well-trodden dirt path heads south, bordered by dense clumps of
+black-tipped grass.  Torches line the way, and by night the moths gather
+around their glow by some fatal instinct, beating their wings heavily
+against the flames.  The gallows lie to the north.
 ~
 50 p 1
 D0
@@ -486,11 +513,12 @@ D2
 S
 #5023
 The southern path~
-   The green grass and firm soil of the path begin to give way to mud
-strewn with traces of human filth as you pass into the poorer section
-of Cair-Irynthar. The shanties and town dump add a mild stench to the air,
-and attest to the virtual burglaries of the poor by the rich.. and
-often by the poor.
+   The green grass and firm soil of the path give way here to mud strewn
+with traces of human filth as you pass into the poorer section of
+Cair-Irynthar.  Shanties lean against one another, and the town dump
+adds its stench to the air, bearing witness to the robbery of the poor
+by the rich... and often by the poor.  A shanty stands to the east, the
+dump lies to the west, and the path runs north and south.
 ~
 50 0 1
 D0
@@ -512,11 +540,11 @@ D3
 S
 #5024
 A withered shanty~
-   The splintered plankings that make the walls of this room are
-sodden with rain and leaking water, light and a chilling wind
-in to its inhabitants, who look sick from poverty. A rat scurries
-nonchalantly by your toes, then pauses to debate their merits as
-food. The mud floor is littered with debris.
+   The splintered planks that make up the walls of this shanty are
+sodden with rain, letting in water, light and a chilling wind upon its
+sickly inhabitants.  A rat scurries nonchalantly past your toes, then
+pauses to consider their merits as food.  The mud floor is littered with
+debris and a few sodden blankets.  The way out lies west.
 ~
 50 cd 0
 D3
@@ -526,9 +554,11 @@ D3
 S
 #5025
 The town dump~
-   The foul stench of rotting food and other miscellaneous goods creates
-an almost visible brown haze among the heaps of trash, clouding your 
-senses. Those who call it home certainly smell as decayed as it does.
+   The foul stench of rotting food and other refuse forms an almost
+visible brown haze among the heaps of trash, clouding your senses.
+Those who call this place home smell as decayed as it does.  In one heap
+of rubble a dark gap leads downward.  The dump continues south, and the
+path lies east.
 ~
 50 0 1
 D1
@@ -541,15 +571,16 @@ D2
 0 -1 5026
 D5
 ~
-rubble
+rubble
 ~
 1 23 5136
 S
 #5026
 The town dump~
-   You wander amid heaps of trash that smell of disease, famine, and
-other pleasantries...suffice it to say that very little that should
-be alive here is, and vice-versa. 
+   You wander amid heaps of trash that smell of disease, famine and
+other pleasantries.  Suffice it to say that very little that should be
+alive here is, and vice versa.  Flies rise in clouds at every step.  The
+dump continues north, and the path lies east.
 ~
 50 0 1
 D0
@@ -563,12 +594,11 @@ D1
 S
 #5027
 The southern path~
-   The soft mud of the path loosens and parts as it meets your heels,
-pulling you in slightly with each step. A rotten stench is filtering
-in from the west, repelling you in another direction automatically
-such that it takes a great conscious effort for you to turn that way.
-The path heads north into the town's mainstream, and south closer to
-the wildlands beyond it.
+   The soft mud of the path loosens and parts beneath your heels,
+sucking at your boots with each step.  A rotten stench drifts in from
+the west, so foul that it takes a great conscious effort to turn that
+way at all.  The path heads north into the busier part of town, and
+south toward the wildlands beyond.
 ~
 50 0 1
 D0
@@ -586,11 +616,11 @@ D3
 S
 #5028
 A black sand road~
-   The black sand of the road absorbs heat and feels pleasant to those
-without coverings on their feet, attracting all sorts of loafers and
-siteseers who come on days off to relax and watch the festivities at
-the gallows.
-A bloody trail leads into a building to the south.
+   The black sand of this road soaks up the heat of the sun and feels
+pleasant underfoot, attracting all sorts of loafers and sightseers, who
+come on their days off to relax and watch the festivities at the
+gallows.  A bloody trail leads into a building to the south, from which
+comes the smell of raw meat.  The road runs east and west.
 ~
 50 p 1
 D1
@@ -614,7 +644,11 @@ and Friends'. It appears the fellow has a quirky sense of humor.
 S
 #5029
 A slight wrinkle in the fabric of space~
-   You are in an empty room, too bad nobody edited it yet!
+   Space seems to ripple and fold here, as though the world had been
+stitched together a little carelessly at this spot.  Colors shimmer at
+the edge of your vision and sounds arrive a moment too late.  A black
+sand road lies to the west, and a sandy bend before the east gate lies
+to the east.
 ~
 50 0 1
 D1
@@ -629,9 +663,10 @@ S
 #5030
 A sandy bend before the east gate~
    The wide road comes to a crossroads close to the eastern gate, which
-appears to be forged from some heavy metal and painted white. The
-ground is a mix of shuffled black and gold sand where the two roads 
-meet.
+appears to be forged of some heavy metal and painted white.  Here the
+ground is a mix of shuffled black and gold sand where the two roads
+meet.  The gold sand road leads north, the black sand road west, and the
+gate lies east.
 ~
 50 p 1
 D0
@@ -649,10 +684,11 @@ D3
 S
 #5031
 A gold sand road~
-   A thick stone and mortar building with small windows stands to the
-east, but no entrance can be seen from here, and the black stone of
-the weapons shop is westwards. The road is treeless and wide, the
-air laiden with smoke and the shouts of bartering.
+   A thick stone-and-mortar building with small windows stands to the
+east, though no entrance can be seen from here, and the black stone
+front of the weapons shop lies to the west.  The road is treeless and
+wide, the air laden with smoke and the shouts of bartering.  The gold
+sand road continues north and south.
 ~
 50 p 1
 D0
@@ -671,10 +707,9 @@ S
 #5032
 A gold sand road~
    The sand road continues north and south, crowded with citizens going
-about their business. The armoury stands to the west, emitting heat
-from the fires of the forge.
-Occasional drunken shouts and laughter can be heard from a smoking lodge
-to the east.
+about their business.  The armory stands to the west, giving off heat
+from the fires of its forge, and drunken shouts and laughter come from a
+smoky lodge to the east.
 ~
 50 p 1
 D0
@@ -697,9 +732,10 @@ S
 #5033
 A gold sand road~
    Sand of pale gold has been carted in from the desert lands to cover
-this road, reducing the sinking effect of mud during the rains.
-The air here is heavy with the smell of delicious food, fresh bread
-baking, and something spicier, to the east.
+this road, keeping it from turning to mud in the rains.  The air is
+heavy with the smell of delicious food, fresh bread baking to the west
+and something spicier somewhere nearby.  The road continues north and
+south.
 ~
 50 p 1
 D0
@@ -717,9 +753,12 @@ D3
 S
 #5034
 A bend in the road~
-   You have come to a narrow bend, and can feel the faint heat of a fire
-from a small, blackened stone structure to the north. Patches of gold
-sand are scattered about.
+   You have come to a narrow bend in the road, where patches of gold
+sand lie scattered over the packed earth.  You can feel the faint heat
+of a fire from a small, blackened stone building to the north, and the
+ring of a hammer rises above the noise of the street.  A corner store
+lies to the east, the gold sand road leads south, and a lane runs west
+along the cliffs.
 ~
 50 p 1
 D0
@@ -741,9 +780,11 @@ D3
 S
 #5035
 A lane bordering the cliffs~
-   This narrow lane, sometimes dimmed with fog from the sea and forests,
-travels east and west paralleling the cliffs just around the shops to
-the north. Faint bird cries are issuing from the building to the south.
+   This narrow lane, often dimmed by fog rolling in from the sea and
+forests, runs east and west alongside the cliffs, just behind the shops
+to the north.  A mapmaker's sign hangs over a door on that side, and
+faint bird calls come from a building to the south.  Gulls wheel
+overhead, crying.
 ~
 50 p 1
 D0
@@ -765,10 +806,10 @@ D3
 S
 #5036
 A shaded lane~
-   You travel on a wide lane lined with ash and oak trees, whose limbs
-bend in various directions and give ample shade. Little things seem
-to be sparkling through the doorway of a building to the west, though
-it is hard to tell from here exactly what.
+   You travel along a wide lane lined with ash and oak trees, whose
+limbs bend every which way and give ample shade.  Little things seem to
+sparkle through the doorway of a building to the west, though it is hard
+to tell from here exactly what.  The lane continues north and south.
 ~
 50 p 1
 D0
@@ -786,11 +827,11 @@ door~
 S
 #5038
 A shaded lane~
-   You are outside the town treasury, just to the west of here, making
-this a place bustling with activity, including the occasional
-attentions of a pickpocket or two, for the lane is broad and the 
-shadows of the trees leave plenty of hiding places. However, the
-frequent presence of guards gives a feeling of security.
+   You are outside the town treasury, which stands just to the west, and
+the lane here bustles with activity, including the occasional attention
+of a pickpocket or two, for the lane is broad and the shadows of the
+trees leave plenty of hiding places.  Still, the frequent presence of
+guards gives a feeling of security.  The lane continues north and south.
 ~
 50 p 1
 D0
@@ -808,10 +849,10 @@ D3
 S
 #5039
 A shaded lane~
-   The bent limbs of ash and oak trees lining the lane casts a pattern
-of dappled light on the ground, which shifts languidly back and forth
-in the breeze. To the west stands the old post office, and the lane
-continues north and south.
+   The bent limbs of the ash and oak trees lining the lane cast a
+pattern of dappled light on the ground, which shifts languidly back and
+forth in the breeze.  To the west stands the old post office, its sign
+hanging crookedly, and the lane continues north and south.
 ~
 50 p 1
 D0
@@ -830,10 +871,10 @@ S
 #5040
 A cluster of trees before the west gate~
    You stand at a busy crossroads, darkened by the shade of an uneven
-ring of oaks trellised with ivy. The wind brushes the leaves, but this
-sound is dulled by the din of the town going about its daily business.
-The ornate west gate lies just to the west, a road paved with black sand
-runs east and north is a lane shaded by oak and ash trees.
+ring of oaks trellised with ivy.  The wind brushes the leaves, but their
+whisper is drowned by the din of the town going about its daily
+business.  The ornate west gate lies just to the west, a road paved with
+black sand runs east, and to the north is a lane shaded by oak and ash.
 ~
 50 p 1
 D0
@@ -852,9 +893,10 @@ S
 #5041
 A black sand road~
    Black sand has been hauled up the steep cliffs from the beaches to
-reduce the unpleasant affects of copious mud during the frequent
-rains and heavy fogs of the region. The road is so heavily travelled
-it has almost been packed down into a hard surface.
+cover this road, sparing it the worst of the mud from the frequent rains
+and heavy fogs of the region.  The road is so heavily traveled that it
+has been packed into an almost solid surface.  The stables lie to the
+south, the gallows to the east and the west gate to the west.
 ~
 50 p 1
 D1
@@ -873,11 +915,11 @@ S
 #5042
 The butcher shop~
    You are enclosed in a poorly lit, stuffy room that smells of blood,
-salted meat and strange preservatives you didn't think existed in
-this time period. Pewter cases filled with ice give off wisps of steam
-near a roasting fire at the east wall. You might wonder why this place
-is situated so proximate to the gallows, but the butcher nonchalantly
-claims all his goods died peaceably, then turns away to stifle a chuckle.
+salted meat and strange preservatives you have never smelled before.
+Pewter cases packed with ice give off wisps of steam near a roasting
+fire at the east wall, and carcasses hang from hooks in the ceiling.
+You might wonder why this shop is so close to the gallows, but it is
+probably best not to ask.  The road lies to the north.
 ~
 50 cdehp 0
 D0
@@ -887,10 +929,11 @@ D0
 S
 #5043
 The stables~
-  No whinnies issue from the darkened stalls of this place; the horses are
-as yet untamed and the stables lie empty. It is not unusual for a vagrant
-to make his home here, however, before being moved on by the guards or
-attacked by the barn owls.
+   No whinnies come from the darkened stalls of this place; the horses
+are as yet untamed elsewhere, and the stables lie empty.  Old straw rots
+in the stalls, and barn owls watch from the rafters.  It is not unusual
+for a vagrant to make his home here, at least until he is moved on by
+the guards or attacked by the owls.  The road lies to the north.
 ~
 50 adp 0
 D0
@@ -900,15 +943,15 @@ D0
 S
 #5044
 The east gate of Cair-Irynthar~
-  You stand on the eastern border of Cair-Irynthar, before a heavy gate
-forged from iron and painted bone-white. A hot desert wind blows
-through the grating sporadically, giving hint to the vast regions
-beyond.
+   You stand on the eastern border of Cair-Irynthar, before a heavy gate
+forged of iron and painted bone-white.  A hot desert wind blows
+sporadically through its grating, carrying grains of sand and hinting at
+the vast lands beyond.  The town lies to the west.
 ~
 50 p 1
 D1
 ~
-gate
+gate
 ~
 1 5079 5160
 D3
@@ -918,10 +961,11 @@ D3
 S
 #5045
 The west gate of Cair-Irynthar~
-  An ornate gate, heavy and wrought from black iron, hangs on ancient hinges
-to the west, bordered by slender elms. The ivy so plentiful in the town
-is twined and braided about its intricate coils and carvings, which
-consist largely of prowling cats and eclipsed circle designs.
+   An ornate gate, heavy and wrought from black iron, hangs on ancient
+hinges to the west, flanked by slender elms.  The ivy so plentiful in
+the town is twined and braided about its intricate coils and carvings,
+which are mostly of prowling cats and eclipsed circles.  A wide cart
+path lies beyond, and the crossroads lies to the east.
 ~
 50 p 1
 D1
@@ -930,20 +974,19 @@ D1
 0 -1 5040
 D3
 ~
-gate
+gate
 ~
 1 5079 5121
 S
 #5046
 The Dirk & Dagger~
-   A circular stone is whirring in a fast spin at the far wall,
-as the weaponsmaster of Cair-Irynthar continually sharpens his wares,
-and re-hangs them to display on the stone and mortar walls.
-A single window admits virtually no light, so filled with the
-webs and dust of neglect is it.. obviously the shopowner prefers
-to seclude himself to the obsessive labors of his work. You wonder
-if he ever makes anything new, so fanatical he is about sharpening
-and re-sharpening the old.
+   A circular grinding stone whirs at the far wall, where the
+weaponsmaster of Cair-Irynthar endlessly sharpens his wares before
+hanging them back on the stone-and-mortar walls.  A single window admits
+almost no light, so clogged is it with the webs and dust of neglect;
+obviously the owner prefers to shut himself away with the obsessive
+labors of his work.  Blades of every length gleam on the walls.  The
+road lies to the east.
 ~
 50 cdehp 0
 D1
@@ -953,10 +996,10 @@ D1
 S
 #5047
 The Silver Scale~
-   You pass into a shop whose walls are gleaming dully, hung with
-various armor reflecting the firelight spawning from the forge.
-Goods of defensive metal may be bought and sold here, at
-nearly reasonable prices. Use 'list' to peruse the options.
+   You pass into a shop whose walls gleam dully, hung with all manner of
+armor that reflects the firelight from the forge.  Goods of defensive
+metal may be bought and sold here at nearly reasonable prices; use
+'list' to peruse the options.  The road lies to the east.
 ~
 50 cdehp 0
 D1
@@ -966,13 +1009,13 @@ D1
 S
 #5048
 Dragon's Wrath Alehouse~
-   You have entered a rowdy tavern, noticeably different from the
-intellectual bounty hunting atmosphere of the Nightbreak Cafe.
-Your feet are hard put to find a purchase on the slippery floor
-of spilled ale and cracked, sodden wood. This is the meeting
-place of those of a fighting bent, accordingly the blood from
-last night's brawls has barely dried on the walls before tonight's
-is shed, be wary.
+   You have entered a rowdy tavern, very different from the hushed
+bounty-hunting atmosphere of the Nightbreak Cafe.  Your feet are hard
+put to find purchase on the slippery floor of spilled ale and cracked,
+sodden wood.  This is the meeting place of those of a fighting bent, and
+the blood from last night's brawls has barely dried on the walls before
+tonight's is shed.  Be wary.  The bar counter lies to the south, the
+road to the west, and battered stone steps lead down.
 ~
 50 dp 0
 D2
@@ -990,10 +1033,11 @@ D5
 S
 #5049
 Along the bar counter~
-   You have entered a loud and boisterous corner in the alehouse,
-where adventurers tell their tales of fact and fable.. Perhaps
-there are things to be learned here of the lands beyond the
-thin walls of the city.
+   You have entered a loud and boisterous corner of the alehouse, where
+adventurers tell their tales of fact and fable over tankards of dark
+ale.  Perhaps there are things to be learned here of the lands beyond
+the thin walls of the town.  A dark corner lies to the east, and the
+main room to the north.
 ~
 50 dp 0
 D0
@@ -1037,12 +1081,13 @@ D5
 S
 #5052
 The sparring hall~
-   Shields and other items of heraldry line the sunken stone walls
-of the sparring room, gleaming with human pride. While not being
-overly promiscuous, the heads of foes are noticeably stacked one
-atop the other on a pole of polished wood in the corner. 
-If you are looking to improve your skills in the art of battle,
-this might be a good place to start.
+   Shields and other items of heraldry line the sunken stone walls of
+this sparring room, gleaming with human pride.  Without being too
+boastful about it, the heads of past foes are stacked one atop the other
+on a pole of polished wood in the corner.  Straw is scattered over the
+floor to soak up the blood.  If you are looking to improve your skills
+in the art of battle, this might be a good place to start.  Steps lie to
+the east, and the lodge to the west.
 ~
 50 dep 0
 D1
@@ -1056,10 +1101,11 @@ D3
 S
 #5053
 The Bread Basket~
-   You pass into an unusually humble dwelling and shop for the town,
-built from baked clay and hot from the cumbersome bread ovens
-projecting partially out of the far wall. The smell of fresh
-bread is mouth-watering.
+   You pass into a humble dwelling and shop, unusual for this town,
+built of baked clay and kept hot by the cumbersome bread ovens that
+bulge partly out through the far wall.  Loaves, rolls and pastries are
+piled on wooden racks, and the smell of fresh bread is mouth-watering.
+The road lies to the east.
 ~
 50 cdehp 0
 D1
@@ -1069,9 +1115,11 @@ D1
 S
 #5054
 The blacksmiths~
-   The orange glow of the forge brightens an otherwise black, windowless
-room. This is the blacksmith's home and workplace; a humble cot rests
-very close to the fire.
+   The orange glow of the forge lights an otherwise black, windowless
+room.  This is the blacksmith's home and workplace both; a humble cot
+rests very close to the fire, and tongs, hammers and half-finished
+horseshoes hang from every wall.  The heat is fierce.  The road lies to
+the south.
 ~
 50 dp 0
 D2
@@ -1081,10 +1129,11 @@ D2
 S
 #5055
 The aviary~
-  Shrill and murmuring bird calls alike assail your ears. The aviary is
-crowded with bird cages holding the trained variety of species for sale,
-and something like aspirin is available on a small, high-standing round
-table by the door.
+   Shrill and murmuring bird calls alike assail your ears.  The aviary
+is crowded with cages holding trained birds of every species for sale,
+from songbirds to hooded hawks, and feathers drift in the air like snow.
+A small, high round table by the door holds a dish of willow bark, for
+the headaches.  The lane lies to the north.
 ~
 50 cdehp 0
 D0
@@ -1100,15 +1149,13 @@ The bird cages~
 S
 #5057
 The post office~
-   You narrowly avoid the guillotine-style slash of a rusted axe
-as you pass through the doorway of the town post office. It
-seems some sort of riot is underway in here - what would be a
-strike if this wasn't before unions - among the numerous
-disgruntled postal workers conglomerated. Shining silver letter-
-openers flash in the light as they heedlessly try to backstab
-anyone in sight. It's a droll scene. You decide it prudent to
-mail your wares and be on your way.
-There is a sign posted on the north wall.
+   You narrowly avoid the swing of a rusted axe as you step through the
+doorway of the town post office.  Some sort of riot seems to be under
+way among the many disgruntled postal workers crowded here, and shining
+silver letter openers flash in the light as they try to stab anyone in
+sight.  It is a droll scene.  Mailbags lie torn open on the floor,
+letters spilling everywhere.  A sign hangs on the wall.  The lane lies
+to the east.
 ~
 50 cdp 0
 D1
@@ -1125,15 +1172,16 @@ Thank you and have a nice day.
 S
 #5058
 Standing at the edge of a cliff~
-   A sea stretches out below you and to the north, swallowing most
-of the cliff and anything beyond within its dark-blue arms.  A trail
-disappears downward towards a beachhead.  To the south lie the gates
-to a city.
+   A sea stretches out below you to the north, its dark blue arms
+swallowing the foot of the cliff and everything beyond.  The wind is
+fierce up here, and spray rises from the rocks far below.  A trail
+disappears downward toward a beach, and to the south a gate leads into
+the town.
 ~
 50 p 4
 D2
 ~
-gate
+gate
 ~
 1 5079 5009
 D5
@@ -1143,7 +1191,10 @@ D5
 S
 #5059
 A narrow path down the cliff~
-   You are in an empty room, too bad nobody edited it yet!
+   A narrow path winds down the face of the cliff, little more than a
+ledge cut into the rock.  The wind tugs at you, and loose stones skitter
+away into the depths below.  The path leads back up to the edge of the
+cliff.
 ~
 50 0 4
 D4
@@ -1154,10 +1205,11 @@ S
 #5060
 A balcony of the tower~
    This high point on the northern edge of Cair-Irynthar boasts quite a
-view. When fog is not seen rolling about the balcony's railing, one
-can see the graveyard near the foot of the cliff to the north, and
-beyond it, the pearl blue sea, clothing the far horizon. The mages
-have made this a favored place for recreational studies.
+view.  When the fog is not rolling about its railing, you can see the
+graveyard near the foot of the cliff to the north, and beyond it the
+pearl-blue sea clothing the far horizon.  The mages have made this a
+favorite place for their recreational studies.  The laboratory lies to
+the south.
 ~
 50 0 1
 D2
@@ -1167,12 +1219,12 @@ D2
 S
 #5061
 A silvery-lit landing~
-   Your steps echo in a hollow stairwell of naked stone. The air hangs
-light and silent about you as a curtain of falling snow, though there
-is a chanting taking place, seemingly miles away, in the chamber to
-the west. Lamps mounted on the walls give off a silver glow reminiscent
-of saints and martyrs, whether they died for the cause of good, or for
-evil.
+   Your steps echo in a hollow stairwell of naked stone.  The air hangs
+light and silent about you, like a curtain of falling snow, though
+chanting can be heard as if from miles away in the chamber to the west.
+Lamps mounted on the walls give off a silver glow that calls to mind
+saints and martyrs, whether they died for the cause of good or of evil.
+The stairs lead up to the altar and down into darkness.
 ~
 50 dp 0
 D3
@@ -1190,13 +1242,13 @@ D5
 S
 #5062
 The room of doctrine~
-   Artifacts and relics from a time before the known world are encased
-and illumined in airless, black glass cabinets, their twinkling golden
-and silver chasings catching your eye with mocking immortality. Urns
-of demon ash line polished amberwood shelves, and a small, simple altar
-edged in ivory stands against the north wall.
-This is the sanctum of the ministry. Those of a pious bent would do
-well to begin studies here.
+   Artifacts and relics from a time before the known world are displayed
+in airless cabinets of black glass, their gold and silver chasings
+glinting with mocking immortality.  Urns of demon ash line polished
+amberwood shelves, and a small, simple altar edged in ivory stands
+against the north wall.  This is the sanctum of the ministry; those of a
+pious bent would do well to begin their studies here.  The landing lies
+to the east, a sanctuary to the south, and steps lead down.
 ~
 50 cdep 0
 D1
@@ -1214,11 +1266,13 @@ D5
 S
 #5063
 The chamber of sacrifice~
-   You have entered a somber chamber, somehow filled with darkness
-and still retaining shadows that seem to flicker in the recesses
-of the room. It appears a sacrifice to the matron deity of Cair-Irynthar
-is scheduled to take place. You may watch, but be warned there are
-times set aside for the sacrifice of those who interfere.
+   You have entered a somber chamber, filled somehow with darkness,
+where shadows seem to flicker in the recesses of the room.  A stone
+altar stands in its center, channels carved into its surface to carry
+away the blood.  It appears that a sacrifice to the matron goddess of
+Cair-Irynthar is about to take place.  You may watch, but be warned:
+there are times set aside for the sacrifice of those who interfere.
+Steps lead up.
 ~
 50 adp 0
 D4
@@ -1228,10 +1282,10 @@ D4
 S
 #5064
 At a swinging wooden gate~
-   You pass through a creaking gate of weathered wood, swinging idly in
-the wind. To the west rise the bluffs and gardens of the homes of
-Cair-Irynthar's varied people; citizens can also be seen passing eastwards
-into the town itself.
+   You pass through a creaking gate of weathered wood that swings idly
+in the wind.  To the west rise the bluffs and gardens of the homes of
+Cair-Irynthar's varied people, and citizens can be seen passing east
+into the town itself.  A park lies to the north.
 ~
 50 p 1
 D0
@@ -1244,21 +1298,22 @@ D1
 0 -1 5013
 D3
 ~
-gate
+gate
 ~
 1 23 5065
 S
 #5065
 A windy cliffside lane~
-   A damp and chilly wind wafts over the homes of the clifftop moors.
-About you bluffs rise, pale grey and dark sandstone, smooth from
-the sculpturing of winds, and dotted with purple heather and green
-mosses. A path strays through the clifftop hills.
+   A damp, chilly wind blows over the homes of the clifftop moors.
+Bluffs of pale gray and dark sandstone rise about you, smoothed by the
+wind and dotted with purple heather and green mosses.  The path strays
+west through the clifftop hills, and a wooden gate leads east into the
+town.
 ~
 50 p 2
 D1
 ~
-gate
+gate
 ~
 1 23 5064
 D3
@@ -1268,10 +1323,11 @@ D3
 S
 #5066
 A windy cliffside lane~
-   A damp and chilly wind wafts over the homes of the clifftop moors.
-About you bluffs rise, pale grey and dark sandstone, smooth from
-the sculpturing of winds, and dotted with purple heather and green
-mosses. A path strays through the clifftop hills.
+   A damp, chilly wind blows over the homes of the clifftop moors.
+Bluffs of pale gray and dark sandstone rise about you, dotted with
+purple heather and green mosses.  Here the path meets the doorways of
+two homes, one of black stone to the south and one of red stone to the
+west, and continues north and east.
 ~
 50 p 2
 D0
@@ -1293,10 +1349,10 @@ D3
 S
 #5067
 A windy cliffside lane~
-   A damp and chilly wind wafts over the homes of the clifftop moors.
-About you bluffs rise, pale grey and dark sandstone, smooth from
-the sculpturing of winds, and dotted with purple heather and green
-mosses. A path strays through the clifftop hills.
+   A damp, chilly wind blows over the clifftop moors.  Bluffs of pale
+gray and dark sandstone rise about you, dotted with purple heather and
+green mosses.  A narrow track climbs up onto a bluff covered with
+flowers, and the path leads back south.
 ~
 50 p 2
 D2
@@ -1310,10 +1366,11 @@ D4
 S
 #5068
 Atop a bluff of purple flowers~
-   The wind blows your hair from your face as you stand atop a small bluff,
-beautiful in its blossom colors of lavender and mist-grey flowers.
-The abodes of the residents of Cair-Irynthar litter the surroundings, 
-nestled among the rocks and clinging to the precarious cliff edge.
+   The wind blows your hair back from your face as you stand atop a
+small bluff, beautiful with blossoms of lavender and mist-gray.  The
+homes of Cair-Irynthar's residents are scattered about, nestled among
+the rocks and clinging to the precarious cliff edge.  A home lies to the
+north, the bluff continues west, and a track leads down to the lane.
 ~
 50 p 2
 D0
@@ -1331,10 +1388,11 @@ D5
 S
 #5069
 Atop a bluff of purple flowers~
-   The wind blows your hair from your face as you stand atop a small bluff,
-beautiful in its blossom colors of lavender and mist-grey flowers.
-The abodes of the residents of Cair-Irynthar litter the surroundings, 
-nestled among the rocks and clinging to the precarious cliff edge.
+   The wind blows your hair back from your face as you stand atop a
+small bluff covered with lavender and mist-gray flowers.  Homes cling to
+the rocks and the cliff edge all around.  A cliffside home lies to the
+north and a black stone dwelling to the south, and the bluff continues
+east and west.
 ~
 50 0 2
 D0
@@ -1356,10 +1414,10 @@ D3
 S
 #5070
 Atop a bluff of purple flowers~
-  The wind blows your hair from your face as you stand atop a small bluff,
-beautiful in its blossom colors of lavender and mist-grey flowers.
-The abodes of the residents of Cair-Irynthar litter the surroundings, 
-nestled among the rocks and clinging to the precarious cliff edge.
+   The wind blows your hair back from your face as you stand atop a
+small bluff covered with lavender and mist-gray flowers.  To the north
+stands a sturdy house with a stout door, and the bluff continues east.
+A track leads down to the lane.
 ~
 50 n 2
 D0
@@ -1377,10 +1435,10 @@ D5
 S
 #5071
 A windy cliffside lane~
-   A damp and chilly wind wafts over the homes of the clifftop moors.
-About you bluffs rise, pale grey and dark sandstone, smooth from
-the sculpturing of winds, and dotted with purple heather and green
-mosses. A path strays through the clifftop hills.
+   A damp, chilly wind blows over the clifftop moors.  Bluffs of pale
+gray and dark sandstone rise about you, smoothed by the wind and dotted
+with purple heather and green mosses.  The path leads west, and a track
+climbs up onto a flowering bluff.
 ~
 50 0 2
 D3
@@ -1394,10 +1452,11 @@ D4
 S
 #5072
 A black stone dwelling~
-   You stand in a quiet, empty dwelling of sturdy black sandstone.
-Occupied now by only a few spiders, it looks like it could be
-a comfortable place to live with a little work. With enough gold,
-perhaps one of the higher gods might sell it to you?
+   You stand in a quiet, empty dwelling of sturdy black sandstone, cool
+even on the warmest day.  Only a few spiders live here now, spinning
+their webs in the empty window frames, but it could be a comfortable
+place to live with a little work.  With enough gold, perhaps one of the
+higher gods might sell it to you.  The lane lies to the north.
 ~
 50 dp 0
 D0
@@ -1407,10 +1466,11 @@ D0
 S
 #5073
 A red stone dwelling~
-   You stand in a quiet dwelling of mortar and rose-colored stone.
-Occupied now by only a few spiders, it looks like it could be a
-comfortable place to live, with a little work. And gold, of course.
-Perhaps it may be bought from one of the gods.
+   You stand in a quiet dwelling of mortar and rose-colored stone that
+glows warmly when the sun strikes it.  Only a few spiders live here now,
+but it could be a comfortable place to live with a little work, and
+gold, of course.  Perhaps it may be bought from one of the gods.  The
+lane lies to the east.
 ~
 50 dp 0
 D1
@@ -1420,11 +1480,13 @@ D1
 S
 #5074
 A cliffhanging home~
-   Quaint cobblestone and mortar walls enclose you, creating a quiet
-atmosphere. This is home now to only a few small mice, but it appears
-that it could be a comforatble place to live, with a little work.
-And enough gold. Perhaps it may be bought from one of the gods of the
-realm.
+   Quaint walls of cobblestone and mortar enclose you, and the howl of
+the wind outside is muffled to a sigh.  A small hearth stands cold in
+one wall, and the window looks out over the heather and the misty drop
+of the cliffs.  This home is now occupied only by a few small mice, but
+with a little work, and enough gold, it could be a comfortable place to
+live.  Perhaps it may be bought from one of the gods of the realm.  The
+bluff lies to the south.
 ~
 50 d 0
 D2
@@ -1434,11 +1496,13 @@ D2
 S
 #5075
 A cliffhanging home~
-   Quaint cobblestone and mortar walls enclose you, creating a quiet
-atmosphere. This is home now to only a few small mice, but it appears
-that it could be a comforatble place to live, with a little work.
-And enough gold. Perhaps it may be bought from one of the gods of the
-realm.
+   Quaint walls of cobblestone and mortar enclose you, and the howl of
+the wind outside is muffled to a sigh.  A small hearth stands cold in
+one wall, and the window looks out over the heather and the misty drop
+of the cliffs.  This home is now occupied only by a few small mice, but
+with a little work, and enough gold, it could be a comfortable place to
+live.  Perhaps it may be bought from one of the gods of the realm.  The
+bluff lies to the south.
 ~
 50 d 0
 D2
@@ -1448,10 +1512,10 @@ D2
 S
 #5076
 A black stone dwelling~
-   You stand in a quiet, empty dwelling of sturdy black sandstone.
-Occupied now by only a few spiders, it looks like it could be
-a comfortable place to live with a little work. With enough gold,
-perhaps one of the higher gods might sell it to you?
+   You stand in a quiet, empty dwelling of sturdy black sandstone.  Only
+a few spiders live here now, but with a little work it could be a
+comfortable home.  With enough gold, perhaps one of the higher gods
+might sell it to you.  The bluff lies to the north.
 ~
 50 d 0
 D0
@@ -1461,11 +1525,13 @@ D0
 S
 #5077
 Lancius' House~
-   Quaint cobblestone and mortar walls enclose you, creating a quiet
-atmosphere. This is home now to only a few small mice, but it appears
-that it could be a comforatble place to live, with a little work.
-And enough gold. Perhaps it may be bought from one of the gods of the
-realm.
+   Quaint walls of cobblestone and mortar enclose you, and the howl of
+the wind outside is muffled to a sigh.  A small hearth stands cold in
+one wall, and the window looks out over the heather and the misty drop
+of the cliffs.  This home is now occupied only by a few small mice, but
+with a little work, and enough gold, it could be a comfortable place to
+live.  Perhaps it may be bought from one of the gods of the realm.  A
+door leads south to the bluff, and a stair leads down to the basement.
 ~
 50 dejln 0
 D2
@@ -1479,10 +1545,11 @@ D5
 S
 #5078
 A windy cliffside lane~
-   A damp and chilly wind wafts over the homes of the clifftop moors.
-About you bluffs rise, pale grey and dark sandstone, smooth from
-the sculpturing of winds, and dotted with purple heather and green
-mosses. A path strays through the clifftop hills.
+   A damp, chilly wind blows over the homes of the clifftop moors.
+Bluffs of pale gray and dark sandstone rise about you, dotted with
+purple heather.  A black stone dwelling stands to the north, and to the
+south a path hung with golden lanterns leads away.  The lane runs east
+and west.
 ~
 50 0 2
 D0
@@ -1504,10 +1571,9 @@ D3
 S
 #5079
 A windy cliffside lane~
-   A damp and chilly wind wafts over the homes of the clifftop moors.
-About you bluffs rise, pale grey and dark sandstone, smooth from
-the sculpturing of winds, and dotted with purple heather and green
-mosses. A path strays through the clifftop hills.
+   A damp, chilly wind blows over the clifftop moors, and the heather
+bends flat before it.  To the west the lane passes through a gate
+wreathed in vines, and it continues north and east.
 ~
 50 0 2
 D0
@@ -1525,10 +1591,10 @@ D3
 S
 #5080
 A windy cliffside lane~
-   A damp and chilly wind wafts over the homes of the clifftop moors.
-About you bluffs rise, pale grey and dark sandstone, smooth from
-the sculpturing of winds, and dotted with purple heather and green
-mosses. A path strays through the clifftop hills.
+   A damp, chilly wind blows over the clifftop moors.  Bluffs of pale
+gray and dark sandstone rise about you, and a red stone dwelling stands
+to the west.  A steep path climbs up a high bluff, and the lane leads
+south.
 ~
 50 0 2
 D2
@@ -1546,9 +1612,11 @@ D4
 S
 #5081
 Climbing a high bluff~
-   Winds buffet this side of the cliff face, carving strange forms into
-the rocks, and impatiently eroding the soil. There is some sort of
-cave home to the west.
+   Winds buffet this side of the cliff, carving strange shapes into the
+rocks and impatiently eroding the soil, so that pebbles trickle away
+beneath your feet.  A cave-like home has been carved into the rock to
+the west.  A narrow ledge leads north, and the path leads down to the
+lane.
 ~
 50 0 4
 D0
@@ -1566,9 +1634,10 @@ D5
 S
 #5082
 A home carved into the rock~
-   A cave-like dwelling, home to only a few spiders and hidden bats, is
-dark as pitch and smells of dank moss and the fecal remains of animals.
-With some work, however, it might even make a decent abode.
+   This cave-like dwelling, home only to a few spiders and hidden bats,
+is as dark as pitch and smells of dank moss and the droppings of
+animals.  With some work, however, it might even make a decent abode.
+The way out lies east.
 ~
 50 d 0
 D1
@@ -1578,9 +1647,11 @@ D1
 S
 #5083
 A narrow ledge~
-   Rocks tumble over the eastern side of the cliff as you traverse the
-thread-thin trail. Over the edge, you can see the rooftops of the town.
-The mages tower rises prominently on a northern cliff parallel to yours.
+   Rocks tumble away down the eastern side of the cliff as you edge
+along this thread-thin trail.  Over the edge you can see the rooftops of
+the town, and the mages' tower rises prominently on a cliff to the
+north.  The ledge leads north to a home and south back down, and a path
+climbs up.
 ~
 50 0 4
 D0
@@ -1598,11 +1669,13 @@ D4
 S
 #5084
 A cliffhanging home~
-   Quaint cobblestone and mortar walls enclose you, creating a quiet
-atmosphere. This is home now to only a few small mice, but it appears
-that it could be a comforatble place to live, with a little work.
-And enough gold. Perhaps it may be bought from one of the gods of the
-realm.
+   Quaint walls of cobblestone and mortar enclose you, and the howl of
+the wind outside is muffled to a sigh.  A small hearth stands cold in
+one wall, and the window looks out over the heather and the misty drop
+of the cliffs.  This home is now occupied only by a few small mice, but
+with a little work, and enough gold, it could be a comfortable place to
+live.  Perhaps it may be bought from one of the gods of the realm.  The
+ledge lies to the south.
 ~
 50 d 0
 D2
@@ -1612,10 +1685,11 @@ D2
 S
 #5085
 Atop a windswept bluff~
-   These are treeless heights, anguished by constant wind and populated
-by haunting apparitions and occasional whistling banshee songs,
-making it a popular place to live among the recluses of the town.
-Homes of varying sizes dot the hills.
+   These are treeless heights, tormented by constant wind and said to be
+haunted by apparitions and the occasional whistling song of a banshee,
+which makes them a popular place to live among the town's recluses.
+Homes of varying sizes dot the hills, clinging to the rocks.  A dwelling
+stands to the west, the bluff continues north, and a ledge lies below.
 ~
 50 0 2
 D0
@@ -1633,10 +1707,11 @@ D5
 S
 #5086
 Atop a windswept bluff~
-   These are treeless heights, anguished by constant wind and populated
-by haunting apparitions and occasional whistling banshee songs,
-making it a popular place to live among the recluses of the town.
-Homes of varying sizes dot the hills.
+   These are treeless heights, tormented by constant wind and said to be
+haunted by apparitions and the occasional whistling song of a banshee,
+which makes them a popular place to live among the town's recluses.
+Homes of varying sizes dot the hills, clinging to the rocks.  Homes
+stand to the north and east, and the bluff continues south and west.
 ~
 50 0 2
 D0
@@ -1658,11 +1733,11 @@ D3
 S
 #5087
 A dwelling among strange rock formations~
-   You stand in a narrow dwelling among the bluff-scattered homes of
-Cair-Irynthar. Out of rectangular-etched windows you can make out
-odd Stonehenge-style formations of stone, giving the place an eerie
-feel. It could make an excellent home, with enough gold to pay the
-price of the lot.
+   You stand in a narrow dwelling among the homes scattered across the
+bluffs of Cair-Irynthar.  Through its narrow, rectangular windows you
+can make out an odd ring of standing stones on the heights, which gives
+the place an eerie feel.  It could make an excellent home for one with
+enough gold to pay the price of the lot.  The bluff lies to the east.
 ~
 50 d 0
 D1
@@ -1672,11 +1747,13 @@ D1
 S
 #5088
 A cliffhanging home~
-   Quaint cobblestone and mortar walls enclose you, creating a quiet
-atmosphere. This is home now to only a few small mice, but it appears
-that it could be a comforatble place to live, with a little work.
-And enough gold. Perhaps it may be bought from one of the gods of the
-realm.
+   Quaint walls of cobblestone and mortar enclose you, and the howl of
+the wind outside is muffled to a sigh.  A small hearth stands cold in
+one wall, and the window looks out over the heather and the misty drop
+of the cliffs.  This home is now occupied only by a few small mice, but
+with a little work, and enough gold, it could be a comfortable place to
+live.  Perhaps it may be bought from one of the gods of the realm.  The
+bluff lies to the south.
 ~
 50 d 0
 D2
@@ -1686,11 +1763,13 @@ D2
 S
 #5089
 A cliffhanging home~
-   Quaint cobblestone and mortar walls enclose you, creating a quiet
-atmosphere. This is home now to only a few small mice, but it appears
-that it could be a comforatble place to live, with a little work.
-And enough gold. Perhaps it may be bought from one of the gods of the
-realm.
+   Quaint walls of cobblestone and mortar enclose you, and the howl of
+the wind outside is muffled to a sigh.  A small hearth stands cold in
+one wall, and the window looks out over the heather and the misty drop
+of the cliffs.  This home is now occupied only by a few small mice, but
+with a little work, and enough gold, it could be a comfortable place to
+live.  Perhaps it may be bought from one of the gods of the realm.  The
+bluff lies to the west.
 ~
 50 d 0
 D3
@@ -1700,10 +1779,12 @@ D3
 S
 #5090
 Atop a windswept bluff~
-   These are treeless heights, anguished by constant wind and populated
-by haunting apparitions and occasional whistling banshee songs,
-making it a popular place to live among the recluses of the town.
-Homes of varying sizes dot the hills.
+   These are treeless heights, tormented by constant wind and said to be
+haunted by apparitions and the occasional whistling song of a banshee,
+which makes them a popular place to live among the town's recluses.
+Homes of varying sizes dot the hills, clinging to the rocks.  The bluff
+continues east, the cliff edge lies north, a garden lies south and a
+black stone dwelling west.
 ~
 50 0 2
 D0
@@ -1725,10 +1806,10 @@ D3
 S
 #5091
 Over the edge~
-You stand perched on the rocky brink of the cliffs of Cair-Irynthar.
-Before you a sea of wavering fog holds the land in its grip, 
-undulating in the slight wind. You can make out a narrow trail
-sliding straight down among the scant bushes and heather flowers.
+   You stand perched on the rocky brink of the cliffs of Cair-Irynthar.
+Before you a sea of wavering fog holds the land below in its grip,
+rolling slowly in the wind.  A narrow trail slides straight down among
+the scant bushes and heather.  The bluff lies to the south.
 ~
 50 0 4
 D2
@@ -1742,11 +1823,11 @@ D5
 S
 #5092
 A stony drop~
-Rocks go streaming down and over the cliff as you slide and skip
-down a sheer drop of a trail. You have little time to take in
-your surroundings, as your attention is focused on keeping a 
-purchase on the skiddy soil.... the cliff's brink is always
-close at hand.
+   Rocks go streaming down and over the cliff as you slide and skip down
+this sheer drop of a trail.  You have little time to take in your
+surroundings, for all your attention is on keeping your footing on the
+loose soil... and the cliff's brink is always close at hand.  The trail
+leads up and down.
 ~
 50 0 4
 D4
@@ -1760,11 +1841,10 @@ D5
 S
 #5093
 A stony drop~
-Rocks go streaming down and over the cliff as you slide and skip
-down a sheer drop of a trail. You have little time to take in
-your surroundings, as your attention is focused on keeping a 
-purchase on the skiddy soil.... the cliff's brink is always
-close at hand.
+   Rocks go streaming down and over the cliff as you slide down this
+sheer trail, clutching at heather for balance.  A dwelling is perched
+precariously on the edge to the east.  The trail leads up, and down to a
+landing of twisted trees.
 ~
 50 0 4
 D1
@@ -1782,10 +1862,10 @@ D5
 S
 #5094
 A landing of twisted trees~
-The gnarled limbs of dark trees make nightmarish shapes in the air
-around you. The cliff descends in a fall so steep it is no longer
-climbable one step to the north of you, but small paths of strange
-black grass forge east and west.
+   The gnarled limbs of dark trees make nightmarish shapes in the air
+around you.  One step to the north the cliff falls away so steeply that
+it can no longer be climbed, but small paths of strange black grass lead
+east and west.  The trail climbs back up.
 ~
 50 a 3
 D1
@@ -1803,10 +1883,11 @@ D4
 S
 #5095
 A path of black grass~
-A little trail picks its way among small ill-anchored stones and
-patches of black, wiry grass, that at first site gives the place
-a ravaged, charred look. However, the vegetation is living, just
-endowed with a dark hue.
+   A little trail picks its way among loose stones and patches of black,
+wiry grass that at first sight give the place a ravaged, charred look,
+though the plants are living, merely dark in hue.  A home is set into
+the cliff to the south, and a short rockslide leads down.  The path runs
+east and west.
 ~
 50 0 2
 D1
@@ -1828,10 +1909,10 @@ D5
 S
 #5096
 A path of black grass~
-A little trail picks its way among small ill-anchored stones and
-patches of black, wiry grass, that at first site gives the place
-a ravaged, charred look. However, the vegetation is living, just
-endowed with a dark hue.
+   A little trail picks its way among loose stones and patches of black,
+wiry grass that look burned at first glance, though they are very much
+alive.  The wind whistles through the rocks.  The path runs east and
+west.
 ~
 50 0 2
 D1
@@ -1845,10 +1926,10 @@ D3
 S
 #5097
 A path of black grass~
-A little trail picks its way among small ill-anchored stones and
-patches of black, wiry grass, that at first site gives the place
-a ravaged, charred look. However, the vegetation is living, just
-endowed with a dark hue.
+   A little trail picks its way among loose stones and patches of black,
+wiry grass.  Here a tangle of dark vines spills down from above, where a
+wild garden grows on a ledge.  The path runs east, and you could climb
+up into the garden.
 ~
 50 0 2
 D1
@@ -1862,11 +1943,11 @@ D4
 S
 #5098
 A garden of wild witchbane~
-As you brush through the wild garden, a slightly sticky substance 
-with a dark red hue adheres itself to your legs, raising the hairs
-of suspicion on the back of your neck. The tenuous climbing vines
-are dark green with black undersides, rather resembling.. poison
-ivy.
+   As you brush through this wild garden, a slightly sticky substance of
+a dark red hue clings to your legs, raising the hairs of suspicion on
+the back of your neck.  The climbing vines are dark green with black
+undersides, rather resembling... poison ivy.  A dark opening lies to the
+south, and the path lies below.
 ~
 50 a 3
 D2
@@ -1880,11 +1961,11 @@ D5
 S
 #5099
 A dark home filled with hanging moss~
-You brush aside a curtain of dark green subterranean mosses and slip
-inside a roomy cave of pitch darkness. The place has an eerie feel,
-as if inhabited by some ethereal spirit that forbids you to abide
-within. Cool moss of deep azure and green hangs in flowing tresses
-from the ceiling, reminiscent of a prehistoric time.
+   You brush aside a curtain of dark green moss and slip into a roomy
+cave of pitch darkness.  The place has an eerie feel, as though some
+ethereal spirit dwelt here and forbade you to stay.  Cool moss of deep
+azure and green hangs in flowing tresses from the ceiling, like
+something from a primeval age.  The garden lies to the north.
 ~
 50 ad 0
 D0
@@ -1894,11 +1975,11 @@ D0
 S
 #5100
 A short rockslide~
-You stand amidst a tumble of rocks of various sizes and shades of grey
-and ebony. A pale hawk circles overhead, uttering a shivering cry.
-It is impossible to continue downwards without meeting an untimely (?)
-death. A few homes have been hidden here in the cliff face, a bit of
-a hike from any civilization.
+   You stand amid a tumble of rocks of every size and shade of gray and
+ebony.  A pale hawk circles overhead, uttering a shivering cry.  It is
+impossible to continue downward without meeting an untimely death.  A
+few homes have been hidden in the cliff face here, east and west, a fair
+hike from any civilization.  The path lies above.
 ~
 50 0 5
 D1
@@ -1916,9 +1997,9 @@ D4
 S
 #5101
 A home embedded in the cliff~
-This is a windowless, but airy nook of walls inside cliff stone.
-It looks as though with some cleaning up it could be a comfortable
-place to live.
+   This is a windowless but airy nook walled in cliff stone, with a
+ledge for a bed and a niche for a lamp.  With some cleaning up it could
+be a comfortable, if lonely, place to live.  The way out lies east.
 ~
 50 d 0
 D1
@@ -1928,9 +2009,9 @@ D1
 S
 #5102
 A home embedded in the cliff~
-This is a windowless, but airy nook of walls inside cliff stone.
-It looks as though with some cleaning up it could be a comfortable
-place to live.
+   This is a windowless but airy nook walled in cliff stone, with a
+ledge for a bed and a niche for a lamp.  With some cleaning up it could
+be a comfortable, if lonely, place to live.  The way out lies west.
 ~
 50 d 0
 D3
@@ -1940,10 +2021,10 @@ D3
 S
 #5103
 A path of black grass~
-A little trail picks its way among small ill-anchored stones and
-patches of black, wiry grass, that at first site gives the place
-a ravaged, charred look. However, the vegetation is living, just
-endowed with a dark hue.
+   A little trail picks its way among loose stones and patches of black,
+wiry grass.  To the east the trees close in around a small, dark grove,
+and the wind seems to die away at its edge.  The path leads back west to
+a landing of twisted trees.
 ~
 50 0 2
 D1
@@ -1957,11 +2038,12 @@ D3
 S
 #5104
 A small haunted grove~
-With the exception of the inexplicable darkness permeating this grove,
-there is little way to explain the odd feeling of foreboding about this
-place. No birds sing, no rat scurries in the open, the leaves rustle
-barely enough to break the silence. Yet an odd presence makes itself
-felt.
+   An inexplicable darkness fills this small grove, and there is no
+explaining the feeling of foreboding that hangs over it.  No birds sing,
+no rats scurry in the open, and the leaves rustle barely enough to break
+the silence.  Yet some odd presence makes itself felt, watching.  Homes
+have been dug into the cliff to the east and south, and the path lies
+west.
 ~
 50 a 3
 D1
@@ -1979,9 +2061,10 @@ D3
 S
 #5105
 A home embedded in the cliff~
-This is a windowless, but airy nook of walls inside cliff stone.
-It looks as though with some cleaning up it could be a comfortable
-place to live.
+   This windowless but airy nook has been hollowed out of the cliff
+stone, with a ledge for a bed and a niche for a lamp.  With some
+cleaning up it could be a comfortable place to live.  The grove lies to
+the north.
 ~
 50 d 0
 D0
@@ -1991,9 +2074,10 @@ D0
 S
 #5106
 A home embedded in the cliff~
-This is a windowless, but airy nook of walls inside cliff stone.
-It looks as though with some cleaning up it could be a comfortable
-place to live.
+   This windowless but airy nook has been hollowed out of the cliff
+stone, with a ledge for a bed and a niche for a lamp.  With some
+cleaning up it could be a comfortable place to live.  The grove lies to
+the west.
 ~
 50 d 0
 D3
@@ -2003,9 +2087,10 @@ D3
 S
 #5107
 A home embedded in the cliff~
-This is a windowless, but airy nook of walls inside cliff stone.
-It looks as though with some cleaning up it could be a comfortable
-place to live.
+   This windowless but airy nook has been hollowed out of the cliff
+stone, with a ledge for a bed and a niche for a lamp.  With some
+cleaning up it could be a comfortable place to live.  The path lies to
+the north.
 ~
 50 d 0
 D0
@@ -2015,10 +2100,11 @@ D0
 S
 #5108
 A dwelling perched precariously on the edge~
-This home is so tenuously held to the brink of stone and mud that you
-have to wonder how long before the rains carry it over the edge.
-However, if a god assures you it is safe, it must be.... right?
-You trust us, don't you?
+   This home is held so tenuously to the brink of stone and mud that you
+have to wonder how long it will be before the rains carry it over the
+edge.  The floor slopes noticeably, and the wind whistles through gaps
+in the walls.  However, if a god assures you it is safe, it must be...
+right?  You trust us, don't you?  The trail lies to the west.
 ~
 50 d 0
 D3
@@ -2028,10 +2114,11 @@ D3
 S
 #5109
 A black stone dwelling~
-You stand in a quiet, empty dwelling of sturdy black sandstone.
-Occupied now by only a few spiders, it looks like it could be
-a comfortable place to live with a little work. With enough gold,
-perhaps one of the higher gods might sell it to you?
+   You stand in a quiet, empty dwelling of sturdy black sandstone, cool
+even on the warmest day.  Only a few spiders live here now, but with a
+little work it could be a comfortable home.  With enough gold, perhaps
+one of the higher gods might sell it to you.  The bluff lies to the
+east.
 ~
 50 d 0
 D1
@@ -2041,10 +2128,12 @@ D1
 S
 #5110
 A garden of wild rosethorn~
-Dense bushes of rosethorn, growing wild, fill the garden with splashes
-of white and red colors. There is a grassy space in the center, circled
-by smooth grey stones, where children play and older residents of the
-town picnic and enjoy themselves.
+   Dense bushes of wild rosethorn fill this garden with splashes of
+white and red, and their scent hangs heavy in the air.  In the center is
+a grassy space circled by smooth gray stones, where children play and
+the older residents of the town picnic and enjoy themselves.  Black
+stone dwellings stand to the east, south and west, and the bluff lies
+north.
 ~
 50 0 2
 D0
@@ -2066,10 +2155,11 @@ D3
 S
 #5111
 A black stone dwelling~
-You stand in a quiet, empty dwelling of sturdy black sandstone.
-Occupied now by only a few spiders, it looks like it could be
-a comfortable place to live with a little work. With enough gold,
-perhaps one of the higher gods might sell it to you?
+   You stand in a quiet, empty dwelling of sturdy black sandstone, cool
+even on the warmest day.  Only a few spiders live here now, but with a
+little work it could be a comfortable home.  With enough gold, perhaps
+one of the higher gods might sell it to you.  The garden lies to the
+north.
 ~
 50 d 0
 D0
@@ -2079,10 +2169,11 @@ D0
 S
 #5112
 A black stone dwelling~
-You stand in a quiet, empty dwelling of sturdy black sandstone.
-Occupied now by only a few spiders, it looks like it could be
-a comfortable place to live with a little work. With enough gold,
-perhaps one of the higher gods might sell it to you?
+   You stand in a quiet, empty dwelling of sturdy black sandstone, cool
+even on the warmest day.  Only a few spiders live here now, but with a
+little work it could be a comfortable home.  With enough gold, perhaps
+one of the higher gods might sell it to you.  The garden lies to the
+west.
 ~
 50 d 0
 D3
@@ -2092,10 +2183,11 @@ D3
 S
 #5113
 A black stone dwelling~
-You stand in a quiet, empty dwelling of sturdy black sandstone.
-Occupied now by only a few spiders, it looks like it could be
-a comfortable place to live with a little work. With enough gold,
-perhaps one of the higher gods might sell it to you?
+   You stand in a quiet, empty dwelling of sturdy black sandstone, cool
+even on the warmest day.  Only a few spiders live here now, but with a
+little work it could be a comfortable home.  With enough gold, perhaps
+one of the higher gods might sell it to you.  The garden lies to the
+east.
 ~
 50 d 0
 D1
@@ -2105,10 +2197,10 @@ D1
 S
 #5114
 A red stone dwelling~
-You stand in a quiet dwelling of mortar and rose-colored stone.
-Occupied now by only a few spiders, it looks like it could be a
-comfortable place to live, with a little work. And gold, of course.
-Perhaps it may be bought from one of the gods.
+   You stand in a quiet dwelling of mortar and rose-colored stone.  Only
+a few spiders live here now, but it could be a comfortable place to live
+with a little work, and gold, of course.  Perhaps it may be bought from
+one of the gods.  The lane lies to the east.
 ~
 50 d 0
 D1
@@ -2118,10 +2210,11 @@ D1
 S
 #5115
 Passing through a vine-wreathed gate~
-A gate swathed in green, fruitless vine lies open, but the path
-looks little-travelling. You wonder if there is anything of use to
-you out this remote way, apparently passing out of the residential
-area.
+   A gate swathed in green, fruitless vines stands open here, but the
+path beyond looks little traveled.  It seems to pass out of the
+residential area altogether, and you wonder whether there is anything of
+use out this remote way.  The lane lies to the east, and the path leads
+west.
 ~
 50 0 2
 D1
@@ -2135,10 +2228,11 @@ D3
 S
 #5116
 A black stone dwelling~
-You stand in a quiet, empty dwelling of sturdy black sandstone.
-Occupied now by only a few spiders, it looks like it could be
-a comfortable place to live with a little work. With enough gold,
-perhaps one of the higher gods might sell it to you?
+   You stand in a quiet, empty dwelling of sturdy black sandstone, cool
+even on the warmest day.  Only a few spiders live here now, but with a
+little work it could be a comfortable home.  With enough gold, perhaps
+one of the higher gods might sell it to you.  The lane lies to the
+south.
 ~
 50 d 0
 D2
@@ -2148,10 +2242,10 @@ D2
 S
 #5117
 A path hung with golden lanterns~
-A wide path of chalky-white cobblestone leads to southwards towards some
-dense illumination. Here the lane is lined with poles hung with lanterns
-giving off a mild golden glow, swinging in the breeze. The wind passes
-more strongly along a lane to the north.
+   A wide path of chalky white cobblestones leads south toward a bright
+glow.  Poles line the way, hung with lanterns that give off a mild
+golden light and swing gently in the breeze.  The wind blows more
+strongly along the lane to the north.
 ~
 50 0 2
 D0
@@ -2165,10 +2259,10 @@ D2
 S
 #5118
 A circle of golden lanterns~
-The path fades into a broad circular clearing, ringed with white stones
-and hanging golden lanterns that provide a bright radiance. A few white
-stone houses, small but cozy-looking, lie just east and west, enjoying
-the luminescence.
+   The path opens into a broad, round clearing ringed with white stones
+and hanging golden lanterns that bathe everything in a warm radiance.  A
+few small but cozy-looking white stone houses stand just east and west,
+enjoying the light.  The lantern-hung path leads north.
 ~
 50 0 2
 D0
@@ -2186,10 +2280,11 @@ D3
 S
 #5119
 A white stone dwelling~
-A small dwelling has been fashioned from chalky-white stones and 
-grey mortar. It is empty of signs of habitation. You feel, nevertheless,
-that this could be a comfortable place to live, if bought from the gods
-of the realm.
+   This small dwelling has been fashioned of chalky white stones and
+gray mortar, and the glow of the lanterns outside fills it with warm
+light.  It shows no sign of habitation, yet you feel it could be a
+comfortable place to live, if bought from the gods of the realm.  The
+clearing lies to the east.
 ~
 50 d 0
 D1
@@ -2199,10 +2294,11 @@ D1
 S
 #5120
 A white stone dwelling~
-A small dwelling has been fashioned from chalky-white stones and 
-grey mortar. It is empty of signs of habitation. You feel, nevertheless,
-that this could be a comfortable place to live, if bought from the gods
-of the realm.
+   This small dwelling has been fashioned of chalky white stones and
+gray mortar, and the glow of the lanterns outside fills it with warm
+light.  It shows no sign of habitation, yet you feel it could be a
+comfortable place to live, if bought from the gods of the realm.  The
+clearing lies to the west.
 ~
 50 d 0
 D3
@@ -2212,14 +2308,16 @@ D3
 S
 #5121
 A wide cart path~
-The road outside the town of Cair-Irynthar is well-travelled by vehicles
-of trade.... is it a path for wide carts, or a wide path for carts?
-Westwards, a dense forest is blurred with low-hanging clouds.
+   The road outside the town of Cair-Irynthar is well traveled by
+vehicles of trade, and deep ruts score its surface... is it a path for
+wide carts, or a wide path for carts?  To the west a dense forest lies
+blurred beneath low-hanging clouds.  The town's west gate lies to the
+east.
 ~
 50 0 2
 D1
 ~
-gate
+gate
 ~
 1 5079 5045
 D3
@@ -2229,9 +2327,10 @@ D3
 S
 #5122
 An untravelled path~
-A thin line of soil barely resembling a path threads its lonesome way
-between the dull grey stones. You can only wonder if there is much of
-note out this direction, as a sense of barrenness is prominent.
+   A thin line of soil, barely resembling a path, threads its lonely way
+between dull gray stones.  A sense of barrenness hangs over everything,
+and you can only wonder whether there is anything of note out this way.
+The path leads east to a vine-wreathed gate and on to the west.
 ~
 50 0 2
 D1
@@ -2245,9 +2344,10 @@ D3
 S
 #5123
 An untravelled path~
-A thin line of soil barely resembling a path threads its lonesome way
-between the dull grey stones. You can only wonder if there is much of
-note out this direction, as a sense of barrenness is prominent.
+   A thin line of soil, barely resembling a path, threads its lonely way
+between dull gray stones.  A sense of barrenness hangs over everything,
+and you can only wonder whether there is anything of note out this way.
+The path bends north and east.
 ~
 50 0 2
 D0
@@ -2261,9 +2361,11 @@ D1
 S
 #5124
 An untravelled path~
-A thin line of soil barely resembling a path threads its lonesome way
-between the dull grey stones. You can only wonder if there is much of
-note out this direction, as a sense of barrenness is prominent.
+   A thin line of soil, barely resembling a path, threads its lonely way
+between dull gray stones.  A sense of barrenness hangs over everything,
+and you can only wonder whether there is anything of note out this way.
+Here the path ends below a small bluff that you could climb, and leads
+back south.
 ~
 50 0 2
 D2
@@ -2277,11 +2379,12 @@ D4
 S
 #5125
 Climbing a small bluff~
-A few gnarled, wind-tortured trees spread their meager limbs in hunched
-eastward arcs. There is little that is extraordinary about this place.
-It is deserted, it is lonely, yet a particularly green bluff forms a
-plateau just above you. It calls to you in an eerie way, yet emits
-a chaotic aura that might be best left alone.
+   A few gnarled, wind-tortured trees spread their meager limbs in
+hunched arcs toward the east.  There is little remarkable about this
+place; it is deserted and lonely.  Yet a particularly green bluff forms
+a plateau just above you, and it calls to you in an eerie way, though it
+gives off a chaotic aura that might be best left alone.  The path lies
+below.
 ~
 50 0 4
 D4
@@ -2295,11 +2398,12 @@ D5
 S
 #5126
 Blind Man's Bluff~
-The lonely hilltop is blanketed in a strange, rich green grass-cover,
-and the only sound is that of the wind whistling over the moors.
-A haunting, otherworldly presence has made this bluff its home,
-casting what malevolence it yet can on the mortal world, and giving
-the bluff its name.
+   This lonely hilltop is blanketed in a strange, rich green grass, and
+the only sound is the wind whistling over the moors.  A haunting,
+otherworldly presence has made this bluff its home, casting what
+malevolence it yet can upon the mortal world, and giving the bluff its
+name.  A small cairn of stones stands at its center.  The way down lies
+below.
 ~
 50 0 2
 D5
@@ -2309,11 +2413,11 @@ D5
 S
 #5127
 A clearing circled by oaks and maples~
-The stone-rimmed path opens out to a clearing of dirt, encircled
-by broad oaks and maples with leaves the color of honey. To the
-north a black gate is closed against the clamor of the world,
-and the road continues east to town, and west where it vanishes
-into a fog banked forest.
+   The stone-rimmed path opens into a clearing of bare earth, encircled
+by broad oaks and maples with leaves the color of honey.  To the north a
+black gate stands closed against the clamor of the world.  The road
+continues east toward town, and west, where it vanishes into a
+fog-banked forest.
 ~
 50 0 3
 D0
@@ -2331,14 +2435,15 @@ D3
 S
 #5128
 The black orchard gate~
-A small gate wrought with black iron flowers and arches swings loosely
-in the shallow wind. Beyond, rows of brambles are stretching past the
-range of your vision.
+   A small gate of black iron, wrought with flowers and arches, swings
+loosely in the gentle wind.  Beyond it, rows of brambles stretch away
+past the range of your vision, and the scent of ripe fruit drifts
+through.  The clearing lies to the south.
 ~
 50 0 2
 D0
 ~
-gate
+gate
 ~
 1 5079 5129
 D2
@@ -2348,11 +2453,12 @@ D2
 S
 #5129
 The blackberry orchard~
-Dark brambles hung with dully shining berries form condensed
-hedges, growing in lines and stretching their thorny tendrils
-across your path. The limbs trail low, heavy with fruit in
-temperate climate. High stone walls protect this precious bower
-from the destructive noise and thoughts of ordinary humans.
+   Dark brambles hung with dully shining berries grow in dense hedges,
+stretching their thorny tendrils across your path, and their limbs trail
+low, heavy with fruit.  High stone walls shelter this precious bower
+from the noise and cares of ordinary folk, and the air is sweet with the
+smell of ripening berries.  A gate leads south, and the orchard
+continues north and west.
 ~
 50 0 2
 D0
@@ -2361,7 +2467,7 @@ D0
 0 -1 5130
 D2
 ~
-gate
+gate
 ~
 1 23 5128
 D3
@@ -2371,11 +2477,12 @@ D3
 S
 #5130
 Under an oak dark and wet with rain~
-A broad oak, knotted with the eons it has seen, stands amidst a
-circle of blackberry shrubs that seem to form a protective shroud
-of thorns about the area. Ivy vines hang loose from its many-cornered
-limbs.
-Some images have been carved into the oak.
+   A broad oak, knotted with the eons it has seen, stands amid a circle
+of blackberry bushes that form a protective shroud of thorns about it.
+Ivy hangs loose from its many-cornered limbs, and thick blue-green moss
+covers its trunk.  Images have been carved into the oak, and charred
+into the bark as if by a fiery touch.  The orchard lies to the north,
+south and west.
 ~
 50 0 2
 D0
@@ -2407,11 +2514,12 @@ words "Know thy limits".
 S
 #5131
 The blackberry orchard~
-Dark brambles hung with dully shining berries form condensed
-hedges, growing in lines and stretching their thorny tendrils
-across your path. The limbs trail low, heavy with fruit in
-temperate climate. High stone walls protect this precious bower
-from the destructive noise and thoughts of ordinary humans.
+   Dark brambles hung with dully shining berries grow in dense hedges,
+stretching their thorny tendrils across your path, and their limbs trail
+low, heavy with fruit.  High stone walls shelter this precious bower
+from the noise and cares of ordinary folk, and the air is sweet with the
+smell of ripening berries.  A great oak stands to the east, and the
+orchard continues south and west.
 ~
 50 0 2
 D1
@@ -2429,11 +2537,11 @@ D3
 S
 #5132
 The blackberry orchard~
-Dark brambles hung with dully shining berries form condensed
-hedges, growing in lines and stretching their thorny tendrils
-across your path. The limbs trail low, heavy with fruit in
-temperate climate. High stone walls protect this precious bower
-from the destructive noise and thoughts of ordinary humans.
+   Dark brambles hung with dully shining berries grow in dense hedges,
+stretching their thorny tendrils across your path, and their limbs trail
+low, heavy with fruit.  High stone walls shelter this precious bower
+from the noise and cares of ordinary folk, and the air is sweet with the
+smell of ripening berries.  The orchard continues north and east.
 ~
 50 0 2
 D0
@@ -2447,12 +2555,11 @@ D1
 S
 #5133
 The southern path~
-The soft mud of the path loosens and parts as it meets your heels,
-pulling you in slightly with each step. A rotten stench is filtering
-in from the west, repelling you in another direction automatically
-such that it takes a great conscious effort for you to turn that way.
-The path heads north into the town's mainstream, and south closer to
-the wildlands beyond it.
+   The soft mud of the path parts beneath your heels, sucking at your
+boots with each step.  A rotten stench drifts in from the west.  A large
+flat stone lies set into the ground at the side of the path, worn smooth
+by many feet.  The path heads north into the busier part of town, and
+south toward the southern gate.
 ~
 50 0 1
 D0
@@ -2465,34 +2572,34 @@ D2
 0 -1 5135
 D5
 ~
-stone
+stone
 ~
 1 23 5134
 S
 #5134
 The House of Witches~
-Dangling mirrors reflect your face a thousand times from the walls
-and ceiling of this supply house of witchcraft. Ingredients for 
-the hexes of hags and the poisons of roguish assassins bubble
-and float in jars crowded onto shelves, and tinkling against each
-other from strings around the stone doorway. A voodoo doll pinned
-to one wall seems to be eyeing you. Let's hope you are not already
-earmarked for demise by someone.
+   Dangling mirrors reflect your face a thousand times from the walls
+and ceiling of this supply house of witchcraft.  Ingredients for the
+hexes of hags and the poisons of assassins bubble and float in jars
+crowded onto shelves, and charms tinkle against one another on strings
+around the stone doorway.  A voodoo doll pinned to one wall seems to be
+eyeing you.  Let's hope you are not already marked for death by someone.
+A stone door leads up.
 ~
 50 acd 0
 D4
 ~
-stone
+stone
 ~
 1 23 5133
 S
 #5135
 The southern gate~
-You stand before the southern gate,forged into ornaments of
-the triskelion in black iron and covered with ivy. Beyond it,
-days distant, the mountains of black glass rise shrouded in
-permanent night. Northwards lies the spread of the town of
-Cair-Irynthar, hooded in wreaths of cooking smoke.
+   You stand before the southern gate, wrought of black iron in the
+shape of interlocking triskelions and covered with ivy.  Beyond it, days
+distant, the mountains of black glass rise shrouded in permanent night.
+To the north lies the spread of Cair-Irynthar, hooded in wreaths of
+cooking smoke.  A cobblestone road leads south through the gate.
 ~
 50 0 1
 D0
@@ -2501,17 +2608,17 @@ D0
 0 -1 5133
 D2
 ~
-gate
+gate
 ~
 1 5079 5183
 S
 #5136
 A foul staircase~
-A staircase littered with rubble descends into a passageway
-crawling with rats and smelling of.. your imagination needs
-no assistance here. The place gives you the creeps, particularly
-since there seem to be faint traces of recent footfalls outlined
-in the slime on the soiled floor..
+   A staircase littered with rubble descends into a passage crawling
+with rats and smelling of... your imagination needs no help here.  The
+place gives you the creeps, particularly since there seem to be faint
+traces of recent footprints in the slime on the floor.  The passage
+leads north, and the rubble above opens onto the town dump.
 ~
 50 ad 0
 D0
@@ -2520,17 +2627,17 @@ D0
 0 -1 5137
 D4
 ~
-rubble
+rubble
 ~
 1 23 5025
 S
 #5137
 A dark passageway~
-You slip cautiously along the passage. The wall is dotted with large
-holes, roomy enough for a large rat.. or something.. to pass through
-with ease, and are not just down by the ground but up near the ceiling.
-A fetid stench rolls over you from within the holes. The passage
-continues south and east into black.
+   You slip cautiously along the passage.  The walls are dotted with
+large holes, roomy enough for a large rat... or something else... to
+pass through with ease, and not just down by the floor but up near the
+ceiling as well.  A fetid stench rolls out of them.  The passage
+continues east into blackness, and back south to the stairs.
 ~
 50 ad 0
 D1
@@ -2544,10 +2651,10 @@ D2
 S
 #5138
 A dark passageway~
-Your foot slides as your boot sinks into some unpleasant substance
-on the muddy floor.. mold? Only inspection in better light will tell.
-Eastwards the passage slants into a dark pool, and disappears to the
-west into blackness.
+   Your foot slides as your boot sinks into some unpleasant substance on
+the muddy floor.  Mold?  Only an inspection in better light will tell,
+and you would rather not.  To the east the passage slopes down into a
+dark pool, and to the west it disappears into blackness.
 ~
 50 ad 0
 D1
@@ -2561,10 +2668,11 @@ D3
 S
 #5139
 Trudging through a pool of slime~
-The dark passage slopes into a pool of drainage from the roads of
-town, seeping in through cracks above you and wetting your hair
-with slime. There is an eerie feeling about this place, as if only
-the few and priviledged are welcome here.
+   The dark passage slopes down into a pool of drainage from the town's
+roads, which seeps in through cracks overhead and drips slime into your
+hair.  There is an eerie feeling about this place, as if only the few
+and privileged were welcome here.  Slippery stone steps lead up, and the
+passage continues east and west.
 ~
 50 ad 0
 D1
@@ -2582,16 +2690,16 @@ D4
 S
 #5140
 A doorway hung with daggers~
-The dark hall of the underground ends here before a tall, narrow
-door of sturdy oak, scarred with daggerpoints. The soil is wet
-with some dark fluid.. slime from the boots of passersby? Of 
-course.
-A circular emblem is etched into the door.
+   The dark underground hall ends here before a tall, narrow door of
+sturdy oak, scarred all over with the marks of dagger points.  The
+ground is wet with some dark fluid... slime from the boots of passersby?
+Of course.  A circular emblem is etched into the door.  The pool of
+slime lies back to the west.
 ~
 50 d 0
 D1
 ~
-door
+door
 ~
 1 23 5141
 D3
@@ -2614,11 +2722,12 @@ This is no monastery here, I say, you dead.
 S
 #5141
 A hall in the Assassins Guild~
-You stand in a wide, dark hallway of the Assassins Guild. On the
-ceiling spreads a gigantic mural of the black serpentlike naga,
-a model of stealth and intelligence, in muted blue and black.
-An elegant table stands against the wall, laid with a simple
-black cloth and a few daggers.
+   You stand in a wide, dark hallway of the Assassins Guild.  On the
+ceiling spreads a gigantic mural, in muted blue and black, of the black,
+serpentine naga, a model of stealth and intelligence.  An elegant table
+stands against the wall, laid with a simple black cloth and a few
+daggers.  A thick rug covers part of the floor.  Passages lead north and
+east, and a door leads west.
 ~
 50 d 0
 D0
@@ -2631,24 +2740,24 @@ D1
 0 -1 5142
 D3
 ~
-door
+door
 ~
 1 23 5140
 D5
 ~
-rug
+rug
 ~
 1 5081 5143
 S
 #5142
 The Assassin Hideout~
-The hideout of rogues is surprisingly comfortable. Although no refuge
-from the blood and risk of their everyday existence, it is nevertheless
-a haven in which bounties can be split and repose taken by a warm 
-fireplace hung with guild daggers, skillfully tapered and too hot 
-from the flames to steal. A bar sunken into the far stone wall 
-assists your dexterity.. so it is said..and bunks are layer the
-area to the east, hung with stolen tapestries and sheets.
+   The hideout of the rogues is surprisingly comfortable.  Though no
+refuge from the blood and risk of their everyday lives, it is a haven
+where bounties can be split and rest taken beside a warm fireplace hung
+with guild daggers, skillfully tapered and too hot from the flames to
+steal.  A bar sunk into the far stone wall helps one's dexterity, or so
+it is said, and bunks line the walls, hung with black curtains.  A dark
+glow lies to the north, and the hall lies west.
 ~
 50 d 0
 D0
@@ -2662,28 +2771,28 @@ D3
 S
 #5143
 A secret hideaway~
-You slip down into the hideaway.
-A pleasant room encloses you, a windowless dugout hidden from
-the lawful population and furnished with kick-back chairs and
-half-full bottles of wine. No bounty hunter could find a lounging
-thief here, sheltered away from the executioners of town. No
-hunter, that is, except a rogue like yourself.
+   You slip down into the hideaway.  A pleasant, windowless room
+encloses you, a dugout hidden from the law-abiding population and
+furnished with deep chairs and half-full bottles of wine.  No bounty
+hunter could find a lounging thief here, safe from the executioners of
+the town.  No hunter, that is, except a rogue like yourself.  The
+rug-covered trapdoor leads up.
 ~
 50 ad 0
 D4
 ~
-rug
+rug
 ~
 1 5081 5141
 S
 #5144
 Beside a row of hanging spines~
-This is where the rogues of Cair-Irynthar come to gain and improve
-their skills of the trade. A hanging row of the spines of previous
-victims covers the east wall, scarred with the dagger twists of 
-countless thieves perfecting their backstab. You may have to travel
-far in search of more fine-tuned skills, but the guildmistress is
-willing to give newcomers their start in the art of fiends.
+   This is where the rogues of Cair-Irynthar come to learn and sharpen
+the skills of their trade.  A row of spines from past victims hangs
+along the east wall, scarred by the dagger twists of countless thieves
+perfecting their backstab.  You may have to travel far for more finely
+tuned skills, but newcomers can get their start in the art of fiends
+here.  The hall lies to the south.
 ~
 50 de 0
 D2
@@ -2693,17 +2802,16 @@ D2
 S
 #5145
 Slippery stone steps~
-The darkness of a steep stairwell encloses you. The dripping
-and oozing sounds of slime creeping down the walls is barely
-detectable beneath the sounds of your own breathing. There seems
-to be tracks of footfalls in the slime coating the steps.. 
-evidently this serves as a secret passageway, regularly used,
-for some individuals of a shady nature.
+   The darkness of a steep stairwell encloses you.  The sound of slime
+oozing down the walls is barely audible beneath your own breathing.
+Footprints mark the slime on the steps; evidently this is a secret
+passage, regularly used by individuals of a shady nature.  A trapdoor
+leads up, and the steps lead down.
 ~
 50 ad 0
 D4
 ~
-trapdoor
+trapdoor
 ~
 1 5081 5021
 D5
@@ -2713,11 +2821,11 @@ D5
 S
 #5146
 The blackberry orchard~
-Dark brambles hung with dully shining berries form condensed
-hedges, growing in lines and stretching their thorny tendrils
-across your path. The limbs trail low, heavy with fruit in
-temperate climate. High stone walls protect this precious bower
-from the destructive noise and thoughts of ordinary humans.
+   Dark brambles hung with dully shining berries grow in dense hedges,
+stretching their thorny tendrils across your path, and their limbs trail
+low, heavy with fruit.  High stone walls shelter this precious bower
+from the noise and cares of ordinary folk, and the air is sweet with the
+smell of ripening berries.  The orchard continues east.
 ~
 50 0 2
 D1
@@ -2727,11 +2835,11 @@ D1
 S
 #5147
 The blackberry orchard~
-Dark brambles hung with dully shining berries form condensed
-hedges, growing in lines and stretching their thorny tendrils
-across your path. The limbs trail low, heavy with fruit in
-temperate climate. High stone walls protect this precious bower
-from the destructive noise and thoughts of ordinary humans.
+   Dark brambles hung with dully shining berries grow in dense hedges,
+stretching their thorny tendrils across your path, and their limbs trail
+low, heavy with fruit.  High stone walls shelter this precious bower
+from the noise and cares of ordinary folk, and the air is sweet with the
+smell of ripening berries.  A great oak stands to the south.
 ~
 50 0 2
 D2
@@ -2741,9 +2849,10 @@ D2
 S
 #5148
 A wide cart path~
-The road outside the town of Cair-Irynthar is well-travelled by vehicles
-of trade.... is it a path for wide carts, or a wide path for carts?
-Westwards, a dense forest is blurred with low-hanging clouds.
+   The road outside Cair-Irynthar is well traveled by vehicles of trade,
+and deep ruts score its surface.  To the west it vanishes into a dense
+forest blurred by low-hanging clouds and fog.  The clearing of oaks and
+maples lies to the east.
 ~
 50 0 2
 D1
@@ -2753,11 +2862,11 @@ D1
 S
 #5149
 A dark corner of the tavern~
-The loners of Cair-Irynthar gather here (figure *that* one out) to
-mourn their losses over gallons of liquid spirits. Occasionally,
-one can be seen passed out on the floor, robbed by some thief
-slipping in from the Nightbreak, but generally the livers here
-are stout from long and weary experiences.
+   The loners of Cair-Irynthar gather in this dark corner (figure *that*
+one out) to mourn their losses over gallons of liquid spirits.  Now and
+then one can be seen passed out on the floor, robbed by some thief
+slipping in from the Nightbreak, but in general the livers here are
+stout from long and weary experience.  The bar counter lies to the west.
 ~
 50 adp 0
 D3
@@ -2767,12 +2876,12 @@ D3
 S
 #5150
 The Lodge of Wrath~
-The home lodge of warriors is a surprisingly comfortable place,
-furnished with a thick, hardy rug of a red so dark as to almost
-be black, beds shelved in bunks of hearty oak, a roaring fireplace
-in the corner. Several large chairs stuffed with coarse wool are
-situated round the fire for the rowdy telling of tales over 
-inebriating brews.
+   The home lodge of the warriors is a surprisingly comfortable place,
+with a thick, hardy rug of a red so dark it is almost black, bunks of
+hearty oak and a roaring fireplace in the corner.  Several large chairs
+stuffed with coarse wool are drawn up around the fire for the rowdy
+telling of tales over intoxicating brews.  A red glow lies to the north,
+and the sparring hall to the east.
 ~
 50 de 0
 D0
@@ -2786,10 +2895,10 @@ D1
 S
 #5151
 A red portal~
-You stand in the shimmering glow of a portal of deep red light.
-This is the gift of the Archmage to the warriors guild, in return
-for other favors, of course. Beyond the glare is a vision of
-the temple courtyard, the center of town, to the west.
+   You stand in the shimmering glow of a portal of deep red light, the
+gift of the Archmage to the warriors' guild in return for other favors,
+of course.  Beyond the glare you can see the temple of the town, to the
+west.  The lodge lies to the south.
 ~
 50 d 0
 D2
@@ -2803,12 +2912,11 @@ D3
 S
 #5152
 A black portal~
-You stand in the shimmering glow of a portal of rogue-black light.
-This is the gift of the Archmage to the assassin's guild, in
-return for a few bounties performed, of course. Ever wonder who
-put the Earl of Cair-Irynthar in power?..Nevermind. Beyond the dark
-glare is a vision of the temple courtyard, the center of town,
-above you.
+   You stand in the shimmering glow of a portal of rogue-black light,
+the gift of the Archmage to the assassins' guild in return for a few
+bounties performed, of course.  Ever wonder who put the Earl of
+Cair-Irynthar in power?  Never mind.  Beyond the dark glare you can see
+the temple of the town, above you.  The hideout lies to the south.
 ~
 50 d 0
 D2
@@ -2822,14 +2930,13 @@ D4
 S
 #5153
 The Sanctuary~
-The walls of the sanctuary of those of a priestly bent are indefinite,
-seemingly rounded and blurred by a muted pale light that seems to come
-from nowhere. It is perhaps a product of the combined faiths of those
-who live here.. dark, alabaster, and every shade in between. All
-beliefs are accepted here, provided they are not discussed too often,
-lest blood should be spilt.
-There are several bookshelves of varying religious works, an altar
-without ornament, and numerous cots for clerics to take their rest in.
+   The walls of this sanctuary for those of a priestly bent seem
+indefinite, rounded and blurred by a muted pale light that comes from
+nowhere, perhaps a product of the combined faiths of those who live
+here, dark, alabaster and every shade between.  All beliefs are accepted
+here, provided they are not discussed too often, lest blood be spilled.
+Bookshelves hold religious works of every kind.  The room of doctrine
+lies to the north, and a white glow to the east.
 ~
 50 dep 0
 D0
@@ -2843,11 +2950,10 @@ D1
 S
 #5154
 A white portal~
-You stand bathed in the glow of a portal of white light.
-This is the gift of the Archmage to the guild of the ministry,
-in return for certain blessings, of course. Beyond the pale glare
-is a vision of the temple courtyard, the center of town, below
-you.
+   You stand bathed in the glow of a portal of white light, the gift of
+the Archmage to the guild of the ministry in return for certain
+blessings, of course.  Beyond the pale glare you can see the temple of
+the town, below you.  The sanctuary lies to the west.
 ~
 50 dp 0
 D3
@@ -2861,12 +2967,12 @@ D5
 S
 #5155
 The Den of Sorcery~
-The den of sorcery for mages and witches and wizards is a comfortable
-place, well-lit by magical rose and violet faerie fires for the reading
-of tomes. There is a rug in guild colors of blue and violet which spans
-the stone floor, and hammocks hang in rows along the walls, where the
-mages take their repose. A series of bookshelves provide ample guild
-literature, and an oak coffee table before a couch dominates the room.
+   The den of sorcery is a comfortable place for mages, witches and
+wizards, well lit by rose and violet faerie fires for the reading of
+tomes.  A rug in the guild colors of blue and violet covers the stone
+floor, hammocks hang in rows along the walls, and bookshelves offer
+ample guild literature.  An oak table stands before a deep couch.  The
+laboratory lies to the north, and a blue glow lies below.
 ~
 50 de 0
 D0
@@ -2880,12 +2986,11 @@ D5
 S
 #5156
 A blue portal~
-You stand in the faerie glow of a portal of brilliant blue light.
-This is the gift of the previous Archmage upon his own guild.
-He went on to fashion further portals all leading all over the 
-known world, before the Lady Assassin extinguished his life.
-Beyond the blue glare is a vision of the temple courtyard, the center
-of town.
+   You stand in the faerie glow of a portal of brilliant blue light, the
+gift of the previous Archmage to his own guild.  He went on to fashion
+further portals leading all over the known world, before the Lady
+Assassin ended his life.  Beyond the blue glare you can see the temple
+of the town, to the south.  The den lies above.
 ~
 50 d 0
 D2
@@ -2899,10 +3004,10 @@ D4
 S
 #5157
 Some battered stone steps~
-Broad, shallow stairs of dark stone descend into a hallway warm
-with the heat of sparring warriors. Above you the sounds of the
-alehouse distract you with bawdy laughter. A doorway is west,
-bruised with sword-points.
+   Broad, shallow stairs of dark stone descend into a hallway warm with
+the heat of sparring warriors.  Above you the bawdy laughter of the
+alehouse drifts down.  A doorway to the west is scarred with the marks
+of sword points.
 ~
 50 dp 0
 D3
@@ -2916,10 +3021,10 @@ D4
 S
 #5158
 The town treasury~
-With the exception of a few portraits of the founders of you-don't-
-know-what, the room is quite drab, and could benefit from some fresh
-air. A huge pile of the town's wealth lies on the tile floor, guarded
-from your meddling by a protective amber shield.
+   Apart from a few portraits of the founders of you-don't-know-what,
+this room is drab and could do with some fresh air.  A huge pile of the
+town's wealth lies on the tiled floor, shielded from your meddling by a
+protective field of shimmering amber light.  The lane lies to the east.
 ~
 50 cdp 0
 D1
@@ -2940,11 +3045,11 @@ we know the town's security rests with you. Have a nice day.
 S
 #5159
 The Tiger's Eye~
-Three cases, locked and faced in glass, reveal their glittering
-contents along the walls. These selfsame jewels perhaps attracted
-you from the street... clouded pearls, white and blue diamonds,
-amethyst and golden tigers eyes. Using 'list' will allow you to
-peruse the goods available.
+   Three locked cases faced with glass stand along the walls, revealing
+their glittering contents: the very jewels, perhaps, that drew you in
+from the street.  Clouded pearls, white and blue diamonds, amethysts and
+golden tiger's eyes sparkle on black velvet.  Using 'list' will let you
+peruse the goods.  The lane lies to the east.
 ~
 50 cdp 0
 D1
@@ -2954,16 +3059,12 @@ D1
 S
 #5160
 A stone path~
-You stand just outside the eastern gate of the town of Cair-Irynthar.
-Fresh bread and cool drink await those within who are willing to
-pay for the service, and about the city, other willing merchants
-may also be found in abundance.
-Eastwards the land stretches in unmarred wilderness to the far
-horizon, and to the southeast you think you can catch glimpses of
-the thatched roofs of yet another village, this one smaller and more
-humble.
-A trail south along the cobblestone wall seems to head in that
-direction.
+   You stand just outside the eastern gate of Cair-Irynthar, where fresh
+bread, cool drink and merchants of every kind await those willing to
+pay.  To the east the land stretches away in unspoiled wilderness to the
+far horizon, and to the southeast you think you can glimpse the thatched
+roofs of another village, smaller and more remote.  A path follows the
+town wall to the south.
 ~
 50 0 2
 D2
@@ -2972,17 +3073,16 @@ D2
 0 -1 5161
 D3
 ~
-gate
+gate
 ~
 1 5079 5044
 S
 #5161
 Along the town wall~
-You follow the thick wall of grey cobblestone that marks the
-outer border of Cair-Irynthar. Moss, nourished by frequent rainfall,
-hides portions of the wall under its green tendrils. A stony
-path can be made out to the north, and the wall makes its way
-southwards to a corner.
+   You follow the thick wall of gray cobblestone that marks the outer
+edge of Cair-Irynthar.  Moss, fed by frequent rain, hides parts of the
+wall beneath its green tendrils.  A stony path lies to the north, and
+the wall runs south to a corner.
 ~
 50 0 2
 D0
@@ -2996,10 +3096,9 @@ D2
 S
 #5162
 Along the town wall~
-You reach a bend in the town wall, and the trail follows it on
-both sides to the north and west. Ivy growing along the wall here
-brushes your arm as you pass. Dense shrubbery lining the path to
-the east renders that way unnavigable.
+   You reach a bend in the town wall, and the trail follows it north and
+west.  Ivy growing on the wall brushes your arm as you pass, and dense
+shrubbery lining the path to the east makes that way impassable.
 ~
 50 0 2
 D0
@@ -3013,10 +3112,10 @@ D3
 S
 #5163
 Along the town wall~
-A small path lined with broad trees breaks off to the south from
-the cobblestone wall of Cair-Irynthar, which runs eastwards to a corner.
-The gate of the town must be somewhere near. You can make out the
-buzz of city life, hushed by the stone barrier, from the north.
+   A small path lined with broad trees breaks off to the south from the
+cobblestone wall of Cair-Irynthar, which runs east to a corner.  You can
+make out the buzz of town life to the north, hushed by the stone
+barrier.
 ~
 50 0 2
 D1
@@ -3030,10 +3129,10 @@ D2
 S
 #5164
 A path hung with moss~
-A narrow path bordered with ancient, broad-trunked trees leads
-north to the town wall of Cair-Irynthar and southwards to a short drop.
-Moss completely covers and overflows from the oaks, brushing the
-hair and helms of all but the shortest races of beings.
+   A narrow path bordered by ancient, broad-trunked trees leads north to
+the town wall and south to a short drop.  Moss covers and overflows the
+oaks, hanging low enough to brush the hair and helms of all but the
+shortest races.
 ~
 50 a 3
 D0
@@ -3047,12 +3146,11 @@ D5
 S
 #5165
 A short mossy cliff~
-A four foot grey stone cliff, matted with clumps of green moss
-and overhung with tall bending trees, is easily scaled by handy
-footholds in the rock. The place looks well-travelled by some
-hardy population of small-footed creatures.
-One path continues in a north-south vein over the cliff, another
-breaks off and leads east.
+   A gray stone cliff, four feet high and matted with clumps of green
+moss, rises here beneath tall, bending trees.  It is easily climbed by
+handy footholds in the rock, and the place looks well traveled by some
+hardy population of small-footed creatures.  The path continues up over
+the cliff, and south toward the lodge of the warriors.
 ~
 50 a 3
 D2
@@ -3067,7 +3165,7 @@ S
 #5166
 A path hung with moss~
 The slender trail winds its way north-south through bending
-trees laiden with spanish moss. (Except this was before Spain.)
+trees laden with spanish moss. (Except this was before Spain.)
 It comes to an end before the bubbling ebbs of a tiny stream,
 pouring gently forth from a hole in the rock on which you are
 poised, and flows southward.
@@ -3135,12 +3233,12 @@ D0
 S
 #5170
 A stairwell~
-An old temple stairwell winds down in darkness into the inner, long
-abandoned recesses of the golden temple. It seems few have reason
-to travel this way. The dust that coats the steps lies mostly
-undisturbed, and an aura of desertion hangs about the place.
-Whoever does traverse these ancient halls may or may not have
-the light of goodness in their motivations.
+   An old temple stairwell winds down into the darkness of the inner,
+long-abandoned recesses of the golden temple.  Few seem to have reason
+to come this way; the dust on the steps lies mostly undisturbed, and an
+air of desertion hangs about the place.  Whoever does walk these ancient
+halls may or may not be guided by the light of goodness.  A landing lies
+to the east, and the stairs lead up.
 ~
 50 acdp 0
 D1
@@ -3154,8 +3252,11 @@ D4
 S
 #5171
 A stairwell~
-The old stairwell completes its descent here, and a single passage,
-shadowed in darkness black as ink, leads east.
+   The old stairwell completes its descent here at the bottom of a cold,
+narrow shaft of stone.  The steps are worn hollow in the middle by long
+years of use, and water seeps down the walls, leaving dark stains.  A
+single passage, shadowed in darkness as black as ink, leads east, while
+the stairs climb back up to a dark landing.
 ~
 50 adp 0
 D1
@@ -3169,10 +3270,11 @@ D4
 S
 #5172
 A dark landing~
-A seatless landing creates a pause in the stairwell before its final
-descent. Angular shapes of lighter areas on the walls indicate this
-place may have once been hung with numerous paintings or tapestries,
-possibly comemorating the priests and gods of the past.
+   A bare landing makes a pause in the stairwell before its final
+descent.  Pale, angular patches on the darkened walls show where
+paintings or tapestries once hung, perhaps commemorating the priests and
+gods of the past.  Now only cobwebs hang there.  A corridor leads west,
+and the stairs continue down.
 ~
 50 adp 0
 D3
@@ -3186,13 +3288,12 @@ D5
 S
 #5173
 A dark corridor~
-Shadows seem to creep within the shadows already existing, clashing
-and clambering over one another before the approach of your footfalls,
-yet everything seems to indicate to you that this is not the sort of
-fun fairy-tale niche your mother liked to tell tales about by the
-fireside of your ancient home. Do you continue, or turn back? Sometimes
-shadows may form a bluff of great danger in the recesses of your
-imagination.
+   Shadows seem to creep within the shadows here, clambering over one
+another at the approach of your footsteps, and everything tells you that
+this is not the sort of fairy-tale nook your mother told stories about
+by the fireside of your childhood home.  Do you continue, or turn back?
+Sometimes shadows are only a bluff... and sometimes they are not.  The
+corridor runs east and west.
 ~
 50 ad 0
 D1
@@ -3206,14 +3307,15 @@ D3
 S
 #5174
 A dark corridor~
-The hallway bends sharply, leading off to the south and west. No light
-penetrates either one, so as always the question of where you want to
-go depends on where you've been.
+   The hallway bends sharply here, leading off to the south and west.
+No light penetrates either way, so, as always, where you want to go
+depends on where you have been.  The stone of the northern wall seems
+somehow different from the rest.
 ~
 50 ad 0
 D0
 ~
-stone
+stone
 ~
 1 5117 5184
 D2
@@ -3235,11 +3337,11 @@ You see nothing special.
 S
 #5175
 A dark corridor~
-The corridor halts abruptly. A drop opens out at your feet, beneath
-which water shivers and shimmers, black against black. The pool is 
-nearly still, only an occasional ripple moving across the surface
-gives any indication of life, or life in death, within.
-Northwards the hall disappears into the dark.
+   The corridor halts abruptly.  A drop opens at your feet, and beneath
+it water shivers and shimmers, black against black.  The pool is nearly
+still; only an occasional ripple crossing its surface gives any sign of
+life, or of life in death, within.  To the north the hall disappears
+into darkness.
 ~
 50 ad 0
 D0
@@ -3253,11 +3355,11 @@ D5
 S
 #5176
 Edge of a black-bottom pool~
-You wade ankle-deep into the murky waters of a black-bottom pool.
-It appears this pool was once a nice pleasure bath for the priests
-and their guests, but has fallen into decay from recent lack of
-use. Who knows what creatures make their home beneath the dark
-surface.
+   You wade ankle-deep into the murky waters of a black-bottomed pool.
+It seems this was once a pleasant bath for the priests and their guests,
+with steps leading down into it, but it has fallen into decay from long
+disuse.  Who knows what creatures make their home beneath the dark
+surface.  The pool deepens to the south, and the corridor lies above.
 ~
 50 acd 6
 D2
@@ -3271,12 +3373,12 @@ D4
 S
 #5177
 A black-bottom pool~
-Swamp-like waters black as coal enclose you and wash like cold
-slime over every limb, each movement sending a chill coursing
-through from ears to toes. The smooth, dark bottom of the pool
-shows traces of faded ornamental designs, now mostly hidden and
-eroded with moss and algae. Few can pin a name on the grotesque
-underwater creatures that now make this their home.
+   Swamp-like waters as black as coal close around you, washing like
+cold slime over every limb, and each movement sends a chill coursing
+through you from ears to toes.  The smooth, dark floor of the pool shows
+traces of faded ornamental tilework, now mostly hidden beneath moss and
+algae.  Few could put a name to the grotesque creatures that make this
+place their home.
 ~
 50 ad 8 -268437312 0
 D0
@@ -3290,12 +3392,12 @@ D1
 S
 #5178
 A black-bottom pool~
-Swamp-like waters black as coal enclose you and wash like cold
-slime over every limb, each movement sending a chill coursing
-through from ears to toes. The smooth, dark bottom of the pool
-shows traces of faded ornamental designs, now mostly hidden and
-eroded with moss and algae. Few can pin a name on the grotesque
-underwater creatures that now make this their home.
+   Swamp-like waters as black as coal close around you, washing like
+cold slime over every limb, and each movement sends a chill coursing
+through you from ears to toes.  The smooth, dark floor of the pool shows
+traces of faded ornamental tilework, now mostly hidden beneath moss and
+algae.  Few could put a name to the grotesque creatures that make this
+place their home.
 ~
 50 ad 8 -268437312 0
 D0
@@ -3313,12 +3415,12 @@ D2
 S
 #5179
 A black-bottom pool~
-Swamp-like waters black as coal enclose you and wash like cold
-slime over every limb, each movement sending a chill coursing
-through from ears to toes. The smooth, dark bottom of the pool
-shows traces of faded ornamental designs, now mostly hidden and
-eroded with moss and algae. Few can pin a name on the grotesque
-underwater creatures that now make this their home.
+   Swamp-like waters as black as coal close around you, washing like
+cold slime over every limb, and each movement sends a chill coursing
+through you from ears to toes.  The smooth, dark floor of the pool shows
+traces of faded ornamental tilework, now mostly hidden beneath moss and
+algae.  Few could put a name to the grotesque creatures that make this
+place their home.
 ~
 50 ad 8 -268437312 0
 D0
@@ -3332,12 +3434,12 @@ D3
 S
 #5180
 A black-bottom pool~
-Swamp-like waters black as coal enclose you and wash like cold
-slime over every limb, each movement sending a chill coursing
-through from ears to toes. The smooth, dark bottom of the pool
-shows traces of faded ornamental designs, now mostly hidden and
-eroded with moss and algae. Few can pin a name on the grotesque
-underwater creatures that now make this their home.
+   Swamp-like waters as black as coal close around you, washing like
+cold slime over every limb, and each movement sends a chill coursing
+through you from ears to toes.  The smooth, dark floor of the pool shows
+traces of faded ornamental tilework, now mostly hidden beneath moss and
+algae.  Few could put a name to the grotesque creatures that make this
+place their home.
 ~
 50 ad 8 -268437312 0
 D2
@@ -3351,10 +3453,11 @@ D3
 S
 #5181
 The cartographers~
-You are in a closely walled-in room with little air and much light;
-a glass-fronted bookcase displays a variety of map parchments, though
-as they are curled and bound with colored ribbon, it is difficult to
-discern their contents.
+   You are in a closely walled room with little air and much light.  A
+glass-fronted bookcase displays a variety of maps, though they are
+curled and bound with colored ribbon, making it hard to see their
+contents.  A drafting table by the window is covered with compasses,
+rulers and half-inked coastlines.  The lane lies to the south.
 ~
 50 cdehp 0
 D2
@@ -3364,10 +3467,11 @@ D2
 S
 #5182
 The corner store~
-You enter a small, wooden-planked shop, in sore need of some
-repairs, but essentially kept very tidy by someone with little
-else to do but revel in her senility. A few crowded shelves
-hold items that may be of use to you in everyday living.
+   You enter a small shop of wooden planks, badly in need of repair but
+kept very tidy by someone with little else to do.  A few crowded shelves
+hold items that may be of use in everyday living, from candles and
+string to tin cups and wooden spoons, each with a handwritten price tag.
+The road lies to the west.
 ~
 50 dp 0
 D3
@@ -3377,24 +3481,26 @@ D3
 S
 #5183
 A cobblestone road~
-You stand outside the southern gate of the town of Cair-Irynthar.
-The walls are high enough to keep the town secure, and ringed
-with tendrils of lush green ivy. The busy murmur of citylife can
-be heard from beyond. Southwards, the cobblestone road crosses
-a meadow of sorts before disappearing into a line of dark woods.
+   You stand outside the southern gate of Cair-Irynthar.  The walls are
+high enough to keep the town secure and are ringed with tendrils of lush
+green ivy, and the busy murmur of town life drifts from beyond them.
+The cobblestone road ends here at the gate; beyond it to the south lies
+a wild meadow, and past that a line of dark woods.
 ~
 50 0 2
 D0
 ~
-gate
+gate
 ~
 1 5079 5135
 S
 #5184
 A crawlspace~
-   You slip into someone's private domain. Better leave without
-a trace before long, it could be dangerous to remain, should
-the dweller of this place return and claim what is theirs.
+   You slip into someone's private domain, a cramped space barely high
+enough to crouch in.  You had better leave without a trace before long;
+it could be dangerous to remain should the dweller of this place return
+to claim what is theirs.  Strange passages seem to lead everywhere and
+nowhere at once.
 ~
 50 cdjk 0
 D0
@@ -3407,7 +3513,7 @@ D1
 0 -1 1
 D2
 ~
-stone
+stone
 ~
 1 5117 5174
 D3

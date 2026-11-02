@@ -754,4 +754,18 @@ Race: 28
 Height: 66
 Weight: 105
 E
+#3765
+chalk stick floating~
+a floating stick of chalk~
+A stick of chalk hovers beside the blackboard, waiting.
+~
+It is an ordinary stick of white chalk, worn down at one end, hanging in
+the air as patiently as a schoolmaster.
+~
+bdenopqr k 0 S
+1 20 -10 1d1+30000 1d1+0
+0 0
+8 8 0
+>in_file_prog pz_chalk.prg~
+|
 $~
