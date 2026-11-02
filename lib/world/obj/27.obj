@@ -1,0 +1,156 @@
+#2700
+spear kobold short~
+a short kobold spear~
+A short spear with a fire-hardened point lies here.~
+~
+5 0 am
+0 1 6 11 0 0 0 10 14
+4 20 2
+#2701
+jerkin hides patched~
+a jerkin of patched hides~
+A jerkin stitched together from a dozen different hides lies here.~
+~
+9 0 ad
+3 0 0 0 0 0 0 8 14
+6 25 3
+#2702
+crown copper beaten~
+a crown of beaten copper~
+A dented crown of beaten copper lies here.~
+~
+9 0 ae
+2 0 0 0 0 0 0 13 14
+2 400 40
+E
+crown copper~
+The crown has been hammered out of a single sheet of copper, crudely but
+with great enthusiasm, and set with chips of colored glass.  It is
+dented in three places and was clearly made for a head with horns.
+~
+A
+13 10
+A
+6 1
+#2703
+scepter bone thighbone~
+a scepter of gnome bone~
+A scepter made from a long bone and copper wire lies here.~
+~
+5 0 am
+0 2 5 5 0 0 0 13 14
+4 300 30
+E
+scepter bone~
+It is a thighbone, probably a gnome's, bound with copper wire and capped
+at the heavy end with a lump of lead.  It makes a fine club.
+~
+A
+18 1
+A
+19 1
+#2704
+rattle gourd shaman~
+a shaman's gourd rattle~
+A gourd rattle hung with tiny bones lies here.~
+~
+12 g am
+0 0 0 0 0 0 0 10 14
+1 150 15
+A
+12 15
+#2705
+pick kobold battered~
+a battered kobold pick~
+A battered little pick lies here.~
+~
+5 0 am
+0 1 7 11 0 0 0 18 14
+5 15 1
+#2706
+rope coil~
+a coil of rope~
+A coil of stout hemp rope lies here.~
+~
+12 0 a
+0 0 0 0 0 0 0 7 14
+5 10 1
+#2707
+necklace tusk boar~
+a necklace of boar tusks~
+A necklace of yellowed boar tusks lies here.~
+~
+9 0 ac
+1 0 0 0 0 0 0 0 14
+2 250 25
+A
+1 1
+A
+13 10
+#2708
+club nail troll~
+a nail-studded troll club~
+A huge club studded with iron nails lies here.~
+~
+5 0 am
+0 2 8 5 0 0 0 10 24
+20 120 12
+A
+19 2
+#2709
+war map plan scrawled~
+a scrawled war map~
+A scrawled war map has been dropped here.~
+~
+16 0 am
+0 0 0 0 0 0 0 22 14
+1 5 1
+E
+war map plan scrawled~
+The map is drawn in charcoal on a scrap of hide.  It shows the great
+cavern, the long tunnel east to the chasm, and a great many arrows.  One
+arrow is labeled "trolls come".  Another, pointing up toward the
+surface, is labeled "then gnomes".  A third, pointing off the edge of
+the hide, is labeled "then everybody".  In the margin someone has drawn
+a small kobold wearing a very large crown.
+~
+#2710
+trinkets gnomish heap stolen~
+a heap of stolen gnomish trinkets~
+A heap of stolen gnomish trinkets glitters here.~
+~
+8 0 a
+0 0 0 0 0 0 0 11 14
+6 900 0
+E
+trinkets gnomish heap~
+Clockwork birds with broken wings, brass spoons, spectacles, buckles, a
+music box that plays three notes and stops: the kind of shiny things a
+kobold would steal from a gnome.  Taken together, they are worth a fair
+sum.
+~
+#2711
+sack coins small~
+a small sack of coins~
+A small sack bulging with coins lies here.~
+~
+20 0 a
+350 0 0 0 0 0 0 4 14
+1 350 0
+#2712
+compass clockwork gnomish~
+a gnomish clockwork compass~
+A brass compass full of tiny ticking gears lies here.~
+~
+12 g am
+0 0 0 0 0 0 0 11 14
+1 600 50
+E
+compass clockwork~
+It is a compass in a brass case, but instead of a simple needle it holds
+a whirring nest of tiny gears, and its needle points not north but
+always, unerringly, toward the nearest way out.
+~
+A
+14 20
+$~

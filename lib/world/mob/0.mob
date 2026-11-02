@@ -237,25 +237,37 @@ Height: 62
 Weight: 110
 E
 #29
-mob illus_pres_one~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+illus_one wolf shadow illusion~
+a shadowy wolf~
+A lean wolf made of shifting shadow pads silently about the room.
 ~
-d 0 0 S
-0 3 39 0d0+0 0d0+0
+The wolf is little more than a moving smudge of darkness with two pale
+points of light for eyes.  Its paws make no sound, it casts no shadow of
+its own, and now and then its outline wavers like smoke in a draft.
+Still, its bared teeth look sharp enough.
+~
+dopqr p 0 E
+5 8 6 4d8+18 1d6+1
 0 0
 8 8 0
+BareHandAttack: 4
+E
 #30
-mob illus_pres_two~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+illus_two ogre brute illusion~
+an ogre brute~
+A hulking ogre brute glowers here, gripping a knotted club.
 ~
-d 0 0 S
-0 3 8 0d0+0 0d0+0
+Nine feet of muscle, warts and bad temper, the ogre stoops beneath a
+ceiling that is not there and grips a club made from a whole young tree.
+It smells convincingly of sweat and old meat, but when it moves its feet
+leave no marks on the ground and its shadow lags a moment behind it.
+~
+dopqr p 0 E
+10 8 4 7d10+40 2d4+3
 0 0
-8 8 0
+8 8 1
+BareHandAttack: 6
+E
 #31
 illus_three ettin giant illusion~
 an ettin ~
@@ -391,96 +403,6 @@ deopqr defkrB 0 E
 BareHandAttack: 12
 Race: 28
 E
-#39
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 35 0d0+0 0d0+0
-0 0
-8 8 0
-#40
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 6 0d0+0 0d0+0
-0 0
-8 8 0
-#41
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#43
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#44
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#45
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#46
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#47
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
 #89
 doppleganger~
 Glasgian~

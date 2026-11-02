@@ -1,0 +1,231 @@
+#2700
+vrask king kobold~
+King Vrask~
+King Vrask lounges on his lopsided throne, barking orders at anyone in earshot.
+~
+The king of the kobolds is a full head taller than any of his subjects,
+which makes him very nearly four feet tall, and he carries himself as
+though it were forty.  His scales are a dull rust red, his snout is
+crisscrossed with old scars, and a crown of beaten copper sits crookedly
+between his horns.  He clutches a scepter made from a gnome's thighbone
+and taps it impatiently against the arm of his throne while he studies
+the war plan on the wall.
+~
+bdeglnp k -500 E
+10 15 14 8d10+90 2d5+3
+900 6000
+8 8 1
+BareHandAttack: 5
+Height: 46
+Weight: 70
+E
+>in_file_prog kobold_king.prg~
+|
+#2701
+kobold warrior~
+a kobold warrior~
+A kobold warrior in a jerkin of patched hides drills with a short spear.
+~
+He is small, scaly and mean, with a doglike snout full of needle teeth
+and a short spear that he handles as though he has been practicing very
+hard.  He has.  His jerkin is made of a dozen different hides stitched
+clumsily together, and he eyes you with the bright, nervous hostility of
+a creature that knows it is going to war.
+~
+dgl k -350 E
+4 14 8 4d8+30 1d6+1
+40 400
+8 8 1
+BareHandAttack: 11
+E
+#2702
+kobold spearman~
+a kobold spearman~
+A kobold spearman stands at attention, spear held stiffly upright.
+~
+This kobold is one of the king's veterans, and he is trying very hard to
+look like one.  He wears a jerkin of hides sewn with copper rings and
+holds his spear as straight as a flagpole.  A necklace of small teeth
+rattles at his throat.
+~
+dglm k -350 E
+5 13 10 5d8+35 1d8+1
+60 500
+8 8 1
+BareHandAttack: 11
+E
+#2703
+kobold digger~
+a kobold digger~
+A weary kobold digger trudges past with a bucket of rubble.
+~
+She is thin and covered from snout to tail in gray rock dust, and the
+bucket of stones she carries is nearly as big as she is.  Her claws are
+worn down to stubs, and she does not look up as you pass.  She has the
+look of someone who has been digging for a very long time and expects to
+dig for a great while longer.
+~
+dg k -150 E
+2 18 4 3d6+10 1d3+1
+8 200
+8 8 2
+BareHandAttack: 8
+E
+#2704
+kobold shaman~
+a kobold shaman~
+A kobold shaman in an orange robe shakes a rattle and chants at the troops.
+~
+The shaman is wrapped in a robe dyed a violent orange and hung with
+charms of bone, feather and copper wire.  She shakes a rattle made from
+a gourd and a small skull, and chants in a high, wavering voice,
+blessing spears, stakes, kobolds and anything else that holds still long
+enough.
+~
+dglm k -450 E
+7 12 12 6d10+50 1d8+3
+150 2250
+8 8 2
+BareHandAttack: 0
+E
+#2705
+kobold warchief chief~
+a kobold war-chief~
+A scarred kobold war-chief stands guard beside the throne.
+~
+The war-chief is broad for a kobold and covered in old scars, one of
+which has taken most of his left ear.  He wears a shirt of rusted chain
+several sizes too big for him, belted tight, and carries a stone
+battleaxe that he keeps between the king and everyone else.
+~
+bdglmn k -450 E
+8 12 14 7d10+60 2d4+3
+200 3750
+8 8 1
+BareHandAttack: 3
+E
+#2706
+kobold scout~
+a kobold scout~
+A kobold scout slinks through the tunnel, keeping to the shadows.
+~
+Lean and quick, the scout wears dark hides smeared with mud so that she
+is hard to see against the rock.  A sling and a pouch of stones hang at
+her belt, and her eyes dart constantly toward the darkness of the
+tunnels ahead.
+~
+dgl ks -350 E
+5 13 9 5d8+30 1d6+2
+30 500
+8 8 2
+BareHandAttack: 11
+E
+#2707
+kobold engineer~
+a kobold engineer~
+A kobold engineer argues with the chasm, a coil of rope over one shoulder.
+~
+The engineer wears a leather apron with a dozen pockets, every one of
+them full of pegs, cords, nails and scraps of slate covered in
+calculations.  He measures the chasm with a knotted string, scowls,
+measures it again, and scribbles another figure on his slate.  The
+figures do not seem to be getting any smaller.
+~
+dg k -200 E
+3 16 6 4d6+20 1d4+1
+25 350
+8 8 1
+BareHandAttack: 8
+E
+#2708
+rat cave giant~
+a giant cave rat~
+A giant cave rat, as big as a dog, sniffs about for scraps.
+~
+It is a rat, but a rat the size of a hunting dog, with a naked pink tail
+as long as your arm and yellow teeth like chisels.  Its fur is gray and
+patchy, and it watches you with small red eyes, trying to decide whether
+you count as food.
+~
+dgc k 0 E
+2 18 4 3d6+12 1d4+1
+0 200
+8 8 0
+BareHandAttack: 4
+E
+#2709
+troll envoy gorrug~
+Gorrug, the troll envoy~
+A huge, green-skinned troll leans on a club, looking bored by the kobolds' plans.
+~
+Gorrug is a mountain troll, nine feet of warty green hide stretched over
+knotted muscle, and he has to stoop even here beneath the cavern's lofty
+ceiling.  A necklace of boar tusks hangs on his chest and a club studded
+with iron nails rests on his shoulder.  He has come down from the Kehrn
+Mountains to see what his king's new allies are worth, and judging by
+his expression, the answer so far is "not much".
+~
+bdeglnq ak -600 E
+13 10 28 12d12+90 2d8+6
+600 10250
+8 8 1
+BareHandAttack: 7
+Height: 108
+Weight: 600
+E
+>in_file_prog troll_envoy.prg~
+|
+#2710
+crayfish blind white~
+a blind white crayfish~
+A blind white crayfish creeps along the bottom of the pool.
+~
+It is a pale, ghostly crayfish as long as your hand, with no eyes at all
+and long, twitching feelers that it waves through the cold water.  Its
+claws are small, but they can still give you a nasty nip.
+~
+dgb 0 0 E
+1 18 4 2d4+8 1d3+0
+0 100
+8 8 0
+BareHandAttack: 1
+E
+#2711
+gnome captive tinkerer pibb~
+Pibb, a captive gnome~
+A ragged gnome sits chained to an iron ring, tinkering with a pebble and a bit of wire.
+~
+Pibb was once a tinkerer of Gnishmire, and he still has the tinkerer's
+restless hands, though the kobolds have taken every tool he owned.  His
+pointed hat is torn, his beard is full of rock dust, and an iron cuff
+around his ankle is chained to the wall.  He has made himself a tiny
+spinning top out of a pebble and some wire, and he spins it over and
+over while he watches the kobolds with clever, unhappy eyes.
+~
+bden 0 300 E
+5 13 8 5d8+30 1d4+1
+0 500
+8 8 1
+Race: 3
+BareHandAttack: 13
+Height: 38
+Weight: 45
+E
+>in_file_prog captive_gnome.prg~
+|
+#2712
+rubble heap stones fixture~
+a heap of rubble~
+The rubble heap fills the tunnel from floor to ceiling.
+~
+A wall of broken stone, packed tight from floor to ceiling.  A few of
+the stones near the bottom are worn smooth by small hands.
+~
+bdenopq k 0 E
+1 0 0 1d1+30000 1d1+0
+0 0
+8 8 0
+E
+>in_file_prog pz_rubble.prg~
+|
+$~

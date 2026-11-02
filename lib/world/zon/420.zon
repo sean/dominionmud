@@ -1,17 +1,50 @@
 #420
 Gemini's Zone~
 Gemini~
-BUILDING~
+ALL~
 3001 1
 42099 24 2
 *
-* Last Updated: Wed Feb 26 18:53:55 
-*           By: Gemini
+* Last Updated: Mon Nov  2 2026
+*           By: Claude
 *
-D 0 42006 5 1 100 		* Close Eastern door at Room 42006
-M 0 42001 1 42005 100 	* the Fiend at Room 42005. (Max: 1)
-G 1 42003 1  100 			* And give it a Pick-lock. (Max: 1)
-D 0 42005 3 1 100 		* Close Eastern door at Room 42005
-D 1 42005 3 2 100 		* Lock and Close Southern door at Room 42005
+D 0 42005 3 2 100 		* Lock the iron gate at The Fiend's Clearing.
+D 0 42006 1 2 100 		* Lock the iron gate at The Solitary Crypt.
+D 0 42006 5 1 100 		* Close the crypt door at The Solitary Crypt.
+D 0 42008 4 1 100 		* Close the crypt door at The Crypt Stair.
+D 0 42008 5 1 100 		* Close the wooden door at The Crypt Stair.
+D 0 42009 4 1 100 		* Close the wooden door at The Lower Crypt.
+M 0 42001 1 42005 100 	* the Fiend at The Fiend's Clearing. (Max: 1)
+G 1 42003 1 100 			* And give it a pick-lock. (Max: 1)
+M 0 42002 6 42002 100 	* a weeping soul-tree at Among the Weeping Trees. (Max: 6)
+M 0 42002 6 42003 100 	* a weeping soul-tree at The Wailing Wind. (Max: 6)
+M 0 42002 6 42003 100 	* a weeping soul-tree at The Wailing Wind. (Max: 6)
+M 0 42002 6 42004 100 	* a weeping soul-tree at In the Ghost-Light. (Max: 6)
+M 0 42002 6 42005 100 	* a weeping soul-tree at The Fiend's Clearing. (Max: 6)
+M 0 42002 6 42001 100 	* a weeping soul-tree at An Unholy Grove. (Max: 6)
+M 0 42006 1 42006 100 	* a pale, radiant light (Aurelle) at The Solitary Crypt. (Max: 1)
+M 0 42010 1 42011 100 	* old Hobb the gravedigger at The Gravedigger's Hut. (Max: 1)
+M 0 42003 4 42010 100 	* a ghoul at Among the Toppled Headstones. (Max: 4)
+M 0 42003 4 42012 100 	* a ghoul at A Row of Open Graves. (Max: 4)
+M 0 42003 4 42014 100 	* a ghoul at The Ossuary Wall. (Max: 4)
+M 0 42003 4 42007 100 	* a ghoul at The Forgotten Graveyard. (Max: 4)
+M 0 42004 2 42015 100 	* a barrow wight at The Mausoleum of House Gemmar. (Max: 2)
+E 1 42004 2 5 100 			* And equip it with a silver funeral mask. (Max: 2)
+M 0 42004 2 42015 100 	* a barrow wight at The Mausoleum of House Gemmar. (Max: 2)
+E 1 42005 2 17 100 			* And equip it with a black iron longsword. (Max: 2)
+M 0 42005 4 42009 100 	* a skeletal crypt guard at The Lower Crypt. (Max: 4)
+M 0 42005 4 42016 100 	* a skeletal crypt guard at A Catacomb Passage. (Max: 4)
+M 0 42005 4 42019 100 	* a skeletal crypt guard at The Bone Chapel. (Max: 4)
+M 0 42005 4 42020 100 	* a skeletal crypt guard at The Hall of Urns. (Max: 4)
+M 0 42008 1 42018 100 	* a corpse-fed grave worm at A Collapsed Gallery. (Max: 1)
+M 0 42007 1 42021 100 	* a banshee at The Weeping Well. (Max: 1)
+G 1 42006 1 100 			* And give her a tear-stained silver locket. (Max: 1)
+M 0 42009 2 42024 100 	* a bone sentinel at The Twin Stair. (Max: 2)
+M 0 42009 2 42025 100 	* a bone sentinel at The Landing of Two Doors. (Max: 2)
+M 0 42011 1 42026 100 	* the white marble door (puzzle fixture) at The Hall of Two Faces. (Max: 1)
+M 0 42000 1 42027 100 	* Morvane of House Gemmar at The Sanctum of Morvane. (Max: 1)
+E 1 42000 1 4 100 			* And equip him with a robe of woven shadow. (Max: 1)
+E 1 42001 1 17 100 			* And equip him with the Teeth of Gwahlur. (Max: 1)
+O 0 42002 1 42028 100 	* the sunstone at The Tomb of Aurelle. (Max: 1)
 S
 $~

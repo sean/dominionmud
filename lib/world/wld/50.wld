@@ -189,7 +189,8 @@ ground is trodden hard.  The scents of animals, smoke and exotic
 perfumes hang in the air, and merchants call out in a dozen tongues.
 The cliffs and the northern gate of the town lie to the north, the lane
 paralleling the cliffs runs east and west, and steps lead down to the
-terrace behind the temple.
+terrace behind the temple.  On the south side of the square, a door of
+black onyx leads into the guildhouse of the Doomguard.
 ~
 50 p 1
 D0
@@ -200,6 +201,11 @@ D1
 ~
 ~
 0 -1 5035
+D2
+The entrance to the hall of the Doomguard.
+~
+~
+0 -1 2628
 D3
 ~
 ~

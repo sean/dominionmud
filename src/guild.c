@@ -66,7 +66,9 @@ struct guild_type *enqueue_guild(void)
 {
   struct guild_type * gptr = NULL;
 
-  if ((gptr = (struct guild_type *) malloc(sizeof(struct guild_type))) == NULL) {
+  /* calloc: petitioners[], desc and leadersname must start out NULL, since
+     load_guilds() only fills in the ones present in the file. */
+  if ((gptr = (struct guild_type *) calloc(1, sizeof(struct guild_type))) == NULL) {
     fprintf(stderr, "SYSERR: Out of memory when creating guild!");
     exit(1);
   } else
@@ -235,8 +237,8 @@ void save_guilds(void)
     fprintf(stderr, "SYSERR: Cannot save guilds!\n");
     exit(0);
   }
-  /* The total number of guilds */
-  fprintf(gfile, "%d\n", num_of_guilds);
+  /* No count line: load_guilds() counts the '#' records itself and expects
+     the file to start with the first "#<number>" line. */
   /* Save each guild */
   while (guildnum < num_of_guilds && gptr != NULL) {
     sprintbits(gptr->restrictions, flags);

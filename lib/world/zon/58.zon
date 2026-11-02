@@ -1,12 +1,110 @@
 #58
 The Jungle~
 Airc~
-BUILDING~
+ALL~
 3001 1
 5999 50 2
 *
-* Last Updated: Wed Apr  2 20:34:35 
-*           By: Kirahn
+* Last Updated: Mon Nov  2 2026
+*           By: Claude
 *
+D 0 5805 0 2 100 		* Lock the practice door in the Hall of Locks.
+D 0 5806 2 2 100 		* Lock the practice door (north side).
+O 0 5800 1 5805 100 	* an iron practice key at The Hall of Locks. (Max: 1)
+M 0 5800 1 5801 100 	* Master Oldric at the Adventurer's Academy. (Max: 1)
+M 0 5801 4 5803 100 	* a straw training dummy at The Hall of Dummies. (Max: 4)
+M 0 5801 4 5803 100 	* a straw training dummy at The Hall of Dummies. (Max: 4)
+M 0 5801 4 5803 100 	* a straw training dummy at The Hall of Dummies. (Max: 4)
+O 0 5802 2 5803 100 	* a wooden practice sword at The Hall of Dummies. (Max: 2)
+M 0 5802 3 5804 100 	* a shadow rat at The Hall of Shadows. (Max: 3)
+M 0 5802 3 5804 100 	* a shadow rat at The Hall of Shadows. (Max: 3)
+M 0 5803 1 5807 100 	* a clay practice golem at The Hall of Patience. (Max: 1)
+O 0 5801 1 5809 100 	* an Academy graduate's pin at The Graduation Hall. (Max: 1)
+M 0 5806 3 5813 100 	* a jungle ape at The Strangler Fig Grove. (Max: 3)
+M 0 5806 3 5817 100 	* a jungle ape at In the Jungle Canopy. (Max: 3)
+M 0 5806 3 5817 100 	* a jungle ape at In the Jungle Canopy. (Max: 3)
+M 0 5807 3 5814 100 	* a jewel-bright poison frog at A Steaming Stream. (Max: 3)
+M 0 5807 3 5814 100 	* a jewel-bright poison frog at A Steaming Stream. (Max: 3)
+M 0 5807 3 5820 100 	* a jewel-bright poison frog at A Mangrove Swamp. (Max: 3)
+M 0 5804 2 5812 100 	* a black jungle panther at A Jungle Trail. (Max: 2)
+G 1 5813 2 100 			* And give it a black panther pelt. (Max: 2)
+M 0 5804 2 5811 100 	* a black jungle panther at The Edge of the Jungle. (Max: 2)
+M 0 5808 2 5820 100 	* a carnivorous bloodvine at A Mangrove Swamp. (Max: 2)
+M 0 5808 2 5816 100 	* a carnivorous bloodvine at The Vine Bridge. (Max: 2)
+M 0 5805 1 5819 100 	* a giant constrictor at The Serpent's Hollow. (Max: 1)
+G 1 5814 1 100 			* And give it a serpent-skin belt. (Max: 1)
+O 0 5815 4 5815 100 	* a ripe jungle fruit at The Overgrown Shrine of Karras. (Max: 4)
+O 0 5815 4 5813 100 	* a ripe jungle fruit at The Strangler Fig Grove. (Max: 4)
+D 0 5821 1 1 100 		* Close the gates of Karras (outside).
+D 0 5822 3 1 100 		* Close the gates of Karras (inside).
+M 0 5810 2 5822 100 	* a Kinthalas gate guard at The Gatehouse. (Max: 2)
+E 1 5803 12 17 100 			* And equip her with a Kinthalas battleaxe. (Max: 12)
+M 0 5810 2 5822 100 	* a Kinthalas gate guard at The Gatehouse. (Max: 2)
+E 1 5804 12 4 100 			* And equip her with a suit of red scale armor. (Max: 12)
+M 0 5809 8 5824 100 	* a Kinthalas warrior at The Courtyard of the Red Axe. (Max: 8)
+E 1 5803 12 17 100 			* And equip him with a Kinthalas battleaxe. (Max: 12)
+M 0 5809 8 5824 100 	* a Kinthalas warrior at The Courtyard of the Red Axe. (Max: 8)
+E 1 5804 12 4 100 			* And equip him with a suit of red scale armor. (Max: 12)
+M 0 5809 8 5826 100 	* a Kinthalas warrior at The Kinthalas Barracks. (Max: 8)
+E 1 5803 12 17 100 			* And equip him with a Kinthalas battleaxe. (Max: 12)
+M 0 5809 8 5826 100 	* a Kinthalas warrior at The Kinthalas Barracks. (Max: 8)
+M 0 5809 8 5827 100 	* a Kinthalas warrior at The Fighting Pit. (Max: 8)
+E 1 5803 12 17 100 			* And equip him with a Kinthalas battleaxe. (Max: 12)
+M 0 5809 8 5827 100 	* a Kinthalas warrior at The Fighting Pit. (Max: 8)
+M 0 5809 8 5829 100 	* a Kinthalas warrior at The Mess Hall. (Max: 8)
+M 0 5809 8 5852 100 	* a Kinthalas warrior at the foot of the red stair. (Max: 8)
+E 1 5804 12 4 100 			* And equip him with a suit of red scale armor. (Max: 12)
+M 0 5822 1 5828 100 	* the Kinthalas smith at The Kinthalas Armory. (Max: 1)
+M 0 5819 1 5834 100 	* a minotaur cook at The Kitchens. (Max: 1)
+O 0 5816 3 5829 100 	* a loaf of black bread at The Mess Hall. (Max: 3)
+M 0 5820 1 5835 100 	* a shackled prisoner at The Cells. (Max: 1)
+M 0 5814 4 5825 100 	* a Byterian scholar at The Courtyard of the White Axe. (Max: 4)
+E 1 5806 8 4 100 			* And equip her with a gray Byterian robe. (Max: 8)
+M 0 5814 4 5830 100 	* a Byterian scholar at The Byterian Cloister. (Max: 4)
+E 1 5806 8 4 100 			* And equip her with a gray Byterian robe. (Max: 8)
+M 0 5814 4 5832 100 	* a Byterian scholar at The Scriptorium. (Max: 4)
+M 0 5814 4 5833 100 	* a Byterian scholar at The Byterian Refectory. (Max: 4)
+M 0 5821 1 5831 100 	* the Byterian librarian at The Great Library of Karras. (Max: 1)
+M 0 5815 4 5825 100 	* a Byterian battle-mage at The Courtyard of the White Axe. (Max: 4)
+E 1 5807 6 17 100 			* And equip him with a Byterian oak staff. (Max: 6)
+M 0 5815 4 5846 100 	* a Byterian battle-mage at the foot of the white stair. (Max: 4)
+E 1 5807 6 17 100 			* And equip him with a Byterian oak staff. (Max: 6)
+M 0 5815 4 5872 100 	* a Byterian battle-mage at The Gray Stone Hallway. (Max: 4)
+E 1 5806 8 4 100 			* And equip him with a gray Byterian robe. (Max: 8)
+M 0 5815 4 5879 100 	* a Byterian battle-mage at The Hall of Byterian Thaumaturgy. (Max: 4)
+M 0 5814 4 5878 100 	* a Byterian scholar at Study of Byterian Lore. (Max: 4)
+M 0 5811 6 5876 100 	* a Kinthalas officer at The Gray Stone Hallway. (Max: 6)
+E 1 5805 6 5 100 			* And equip him with a horned skull helm. (Max: 6)
+M 0 5811 6 5880 100 	* a Kinthalas officer at The Officer's Quarters. (Max: 6)
+E 1 5805 6 5 100 			* And equip him with a horned skull helm. (Max: 6)
+M 0 5811 6 5881 100 	* a Kinthalas officer at The Officer's Room. (Max: 6)
+M 0 5811 6 5881 100 	* a Kinthalas officer at The Officer's Room. (Max: 6)
+M 0 5811 6 5866 100 	* a Kinthalas officer at The Tactician's Ready Room. (Max: 6)
+M 0 5811 6 5893 100 	* a Kinthalas officer at Intersection in a Grand Hallway. (Max: 6)
+E 1 5805 6 5 100 			* And equip him with a horned skull helm. (Max: 6)
+M 0 5813 1 5883 100 	* Dhak the Mad at Private Chambers of Dhak. (Max: 1)
+E 1 5810 1 4 100 			* And equip him with a singed robe. (Max: 1)
+M 0 5812 1 5898 100 	* Krommyon, King of the Kinthalas, at The Kinthalas Axe. (Max: 1)
+E 1 5808 1 17 100 			* And equip him with Krommyon's red axe. (Max: 1)
+M 0 5816 1 5888 100 	* Skeiron the Lorekeeper at Private Chambers of Skeiron. (Max: 1)
+G 1 5811 1 100 			* And give him a Byterian star chart. (Max: 1)
+M 0 5817 1 5890 100 	* Kerkyon the Axe-lord at Private Chambers of Kerkyon. (Max: 1)
+E 1 5809 1 17 100 			* And equip him with Kerkyon's white axe. (Max: 1)
+M 0 5818 1 5889 100 	* Prokrustes at Private Room of Prokrustes. (Max: 1)
+E 1 5812 1 17 100 			* And equip him with an iron measuring rod. (Max: 1)
+D 0 5853 1 1 100 		* Close the steel door on the red stair's landing.
+D 0 5852 3 1 100 		* Close the steel door at the foot of the red stair.
+D 0 5882 3 1 100 		* Close Dhak's steel door.
+D 0 5883 1 1 100 		* Close Dhak's steel door (inside).
+D 0 5893 3 1 100 		* Close Krommyon's heavy steel door.
+D 0 5886 3 1 100 		* Close the steel door to Krommyon's sleeping room.
+D 0 5887 1 1 100 		* Close Skeiron's oak doors.
+D 0 5891 1 1 100 		* Close Kerkyon's oak doors.
+D 0 5892 1 1 100 		* Close Prokrustes' oak doors.
+D 0 5884 1 1 100 		* Close Krommyon's heavy steel door (inside).
+D 0 5885 1 1 100 		* Close the steel door of Krommyon's sleeping room (inside).
+D 0 5888 3 1 100 		* Close Skeiron's oak doors (inside).
+D 0 5890 3 1 100 		* Close Kerkyon's oak doors (inside).
+D 0 5889 3 1 100 		* Close Prokrustes' oak doors (inside).
 S
 $~

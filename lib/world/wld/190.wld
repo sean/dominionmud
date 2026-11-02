@@ -485,9 +485,15 @@ Hope Road~
    The road is bordered on the north and south by trees of gold and
 silver, their leaves chiming softly in the breeze.  To the west a
 strange net of some sort spans the road, and to the east the road leads
-toward the Tavern of Hope.
+toward the Tavern of Hope.  Among the trees to the north, a doorway
+woven of living branches leads into the hall of the Xaositects.
 ~
 190 0 1
+D0
+The entrance to the hall of the Xaositects.
+~
+~
+0 -1 2620
 D1
 ~
 ~

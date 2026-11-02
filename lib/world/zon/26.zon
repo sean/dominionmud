@@ -10,5 +10,17 @@ ALL~
 *
 D 0 2603 1 1 100 		* Close Eastern door at The Storeroom of the Cabal
 D 0 2615 1 1 100 		* Close Eastern door at The Watchers Storeroom
+M 0 2600 1 2600 100 	* the Cabal's guard in the Bleak Cabal's entryway. (Max: 1)
+M 0 2601 1 1144 100 	* the Dustman doorwarden, guardian of The Dustmen, at room 1144. (Max: 1)
+M 0 2602 1 3084 100 	* the Harmonium steward, guardian of The Harmonium, at room 3084. (Max: 1)
+M 0 2603 1 3010 100 	* the Mercykiller sashbearer, guardian of The Mercykillers, at room 3010. (Max: 1)
+M 0 2604 1 19028 100 	* the Xaositect bowsinger, guardian of The Xaositects, at room 19028. (Max: 1)
+M 0 2605 1 3053 100 	* the Lamplighter of the Sign, guardian of The Sign of One, at room 3053. (Max: 1)
+M 0 2606 1 5008 100 	* the Doomguard blackblade, guardian of The Doomguard, at room 5008. (Max: 1)
+M 0 2607 1 3046 100 	* the Fraternity warden, guardian of The Fraternity of Order, at room 3046. (Max: 1)
+M 0 2608 1 10037 100 	* the Athar tallyman, guardian of The Athar, at room 10037. (Max: 1)
+M 0 2609 1 10030 100 	* a Silent One, guardian of The Believers of the Source, at room 10030. (Max: 1)
+M 0 2610 1 3078 100 	* the Transcendent adept, guardian of The Transcendent Order, at room 3078. (Max: 1)
+M 0 2611 1 10017 100 	* the Fated hexer, guardian of The Fated, at room 10017. (Max: 1)
 S
 $~

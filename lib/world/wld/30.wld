@@ -214,9 +214,16 @@ The End of Dalkyst Road~
 you see a small shop bearing a sign that reads, "Jynnah's Grocery", and
 the smell of baking bread wafts from its door.  To the east lies the
 Dalkyst Inn, a rambling building of dark timber with smoke curling from
-its chimney.  The road leads back south.
+its chimney.  The road leads back south.  To the north a freshly painted
+door, hung with a sash of green silk, opens into the guildhall of the
+Mercykillers.
 ~
 30 0 1
+D0
+The entrance to the hall of the Mercykillers.
+~
+~
+0 -1 2616
 D1
 ~
 door east~
@@ -984,8 +991,9 @@ S
 Eastwall Road~
    Eastwall Road continues to the north and south along the inside of
 the city wall, and to your east lies the town gate.  The back of City
-Hall rises to the west, a blank wall of gray stone with no entrance on
-this side.  Carts rumble past on their way to and from the gate.
+Hall rises to the west, a long wall of gray stone broken only by a heavy
+whitestone door that bears the rune of justice of the Fraternity of
+Order.  Carts rumble past on their way to and from the gate.
 ~
 30 0 1
 D0
@@ -1000,6 +1008,11 @@ D2
 ~
 ~
 0 -1 3059
+D3
+The entrance to the hall of the Fraternity of Order.
+~
+~
+0 -1 2632
 S
 #3047
 Inside the Eastern Gate~
@@ -1106,7 +1119,8 @@ Southwestern Courtyard of Elrhinn~
 generally occupied by traveling merchants selling their wares from
 wooden carts, piled high with fruit, cloth and trinkets.  The main
 stores of Elrhinn lie to the north and then west of here.  The courtyard
-continues north and east.
+continues north and east.  To the south, white marble pillars frame the
+door of the Sign of One's guildhouse.
 ~
 30 0 1
 D0
@@ -1117,6 +1131,11 @@ D1
 ~
 ~
 0 -1 3054
+D2
+The entrance to the hall of the Sign of One.
+~
+~
+0 -1 2624
 D6
 ~
 ~
@@ -1642,9 +1661,15 @@ The Sacred Grove~
    The path comes to an end here at the edge of the grove, where a small
 house stands among the trees to the south, its door shaded by climbing
 roses.  The forest is quiet and still.  The dusty path leads back to the
-west.
+west.  To the east a slender tower of pale stone rises above the trees,
+blue light flickering in its windows.
 ~
 30 n 2
+D1
+The entrance to the hall of the Transcendent Order.
+~
+~
+0 -1 2644
 D2
 ~
 door~
@@ -1775,9 +1800,16 @@ Southwall Road~
    You are on a road that runs east and west along the southern wall.
 To your south lies the town's southern gate, and beyond that the Hallows
 of Darkweir.  Merchants flood the streets each day, using this
-well-trodden walkway, though few of them seem eager to travel south.
+well-trodden walkway, though few of them seem eager to travel south.  A
+modest bluestone hall stands on the north side of the road, a great rune
+'H' carved above its door.
 ~
 30 s 1
+D0
+The entrance to the hall of the Harmonium.
+~
+~
+0 -1 2608
 D1
 ~
 ~

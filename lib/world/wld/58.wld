@@ -11,334 +11,740 @@ Central Chamber within the Adventurer's Academy~
    Paintings of mighty heroes locked in battle with the forces of evil
 cover the walls of this great chamber, and between them hang faded
 tapestries and candles that flicker in iron sconces.  Long benches face
-a raised lectern where veterans once taught the young.  A doorway in the
-north wall has been bricked up long ago, its outline still visible in
-the plaster.  Steps lead out and down through a gateway to the south,
-onto the streets of Elrhinn.
+a raised lectern where veterans once taught the young, and where one old
+teacher still does.  In the north wall an old doorway has been bricked
+up, but a pale shimmer hangs across the bricks, like heat above a road
+in summer: the way into the Proving Halls, for anyone the master judges
+ready.  Steps lead out and down through a gateway to the south, onto the
+streets of Elrhinn.
 ~
-58 0 0
+58 e 0
 D2
 ~
 ~
-0 0 3041
+0 -1 3041
+E
+doorway shimmer bricks north~
+The bricks are solid enough, but the air in front of them shimmers.  A
+small brass plaque beside them reads: 'The Proving Halls.  Ask the
+master for your trial.'
+~
 S
 #5802
 The First Room~
-   You hear a noise behind you and turn around to find the exit gone,
-a stone wall that looks to have always been there stands before you.
-To the north, a doorway leads to another room.
+   You hear a noise behind you and turn around to find the way you came
+gone: a stone wall that looks as though it has always been there stands
+where the shimmer was.  This is the first of the Academy's Proving
+Halls, built long ago to teach young adventurers the lessons they would
+need to survive.  Words have been painted on the wall in neat white
+letters.  To the north, a doorway leads to another room.
+~
+58 e 0
+D0
+~
+~
+0 -1 5803
+E
+words wall letters~
+The words read: 'Lesson the first: always look about you, and read
+everything.  Lesson the second: the only way out is through.'
+~
+S
+#5803
+The Hall of Dummies~
+   Straw-stuffed training dummies stand in rows across this long hall,
+dressed in battered armor and painted with targets.  Racks of wooden
+practice weapons line the walls.  Painted over the far door is: "Lesson
+the third: strike first, but know your foe.  STUDY it before you fight."
+The hall continues north, and the first room lies south.
 ~
 58 0 0
 D0
 ~
 ~
-0 0 5803
-S
-#5803
-Room 5803~
-  This lovely room has yet to be written
+0 -1 5804
+D2
 ~
-58 0 0
+~
+0 -1 5802
 S
 #5804
-Room 5804~
-  This lovely room has yet to be written
+The Hall of Shadows~
+   This hall is pitch dark, and anyone foolish enough to come in without
+a light will stumble about in the blackness, listening to small things
+scurrying in the corners.  On the wall, in letters that glow faintly:
+"Lesson the fourth: never go anywhere without a light."  Exits lead east
+and south.
 ~
-58 0 0
+58 a 0
+D1
+~
+~
+0 -1 5805
+D2
+~
+~
+0 -1 5803
 S
 #5805
-Room 5805~
-  This lovely room has yet to be written
+The Hall of Locks~
+   A small square chamber with a heavy wooden door in the north wall,
+locked fast.  On the wall beside it is painted: "Lesson the fifth: a
+locked door wants a key, and keys are often closer than they seem.  Look
+about, take what you find, and UNLOCK the door."  The hall of shadows
+lies to the west.
 ~
 58 0 0
+D0
+A heavy wooden practice door.
+~
+door wooden~
+1 5800 5806
+D3
+~
+~
+0 -1 5804
 S
 #5806
-Room 5806~
-  This lovely room has yet to be written
+The Hall of Many Doors~
+   Doorways open in every wall of this round chamber, and every one of
+them looks exactly the same.  Painted on the floor in the middle of the
+room is: "Lesson the sixth: when lost, remember where you came from.
+Not every way is a way forward."  Doors lead north, east, south and
+west.
 ~
 58 0 0
+D0
+~
+~
+0 -1 5807
+D1
+~
+~
+0 -1 5806
+D2
+~
+door wooden~
+1 5800 5805
+D3
+~
+~
+0 -1 5806
 S
 #5807
-Room 5807~
-  This lovely room has yet to be written
+The Hall of Patience~
+   A long, bare hall with a sandy floor, scuffed by many feet.  A squat
+clay figure stands at the far end, and the words painted above it read:
+"Lesson the seventh: fight only when you must, and FLEE when you must.
+There is no shame in living."  The hall leads north and south.
 ~
 58 0 0
+D0
+~
+~
+0 -1 5808
+D2
+~
+~
+0 -1 5806
 S
 #5808
-Room 5808~
-  This lovely room has yet to be written
+The Hall of Rest~
+   This quiet chamber holds a few simple cots and a stone basin of
+clear, cold water.  The walls are painted the soft green of new leaves.
+Above the basin: "Lesson the eighth: rest when you are hurt, drink when
+you are thirsty, and you will live to see tomorrow."  The hall continues
+north, and the hall of patience lies south.
 ~
-58 0 0
+58 e 0
+D0
+~
+~
+0 -1 5809
+D2
+~
+~
+0 -1 5807
 S
 #5809
-Room 5809~
-  This lovely room has yet to be written
+The Graduation Hall~
+   A tall hall hung with banners of every color, each one bearing the
+name of someone who passed the trial here long ago.  At the far end a
+statue of an old warrior stands with one hand raised in salute.  The
+words carved on its plinth read: "Lesson the last: you are ready.  Go
+out into the Dominion, and be kind to those who come after."  A
+shimmering archway to the south leads back to the Academy.
 ~
-58 0 0
+58 e 0
+D2
+~
+~
+0 -1 5801
 S
 #5810
-Room 5810~
-  This lovely room has yet to be written
+A Black Sand Beach~
+   Black volcanic sand crunches underfoot along this narrow beach, and
+the surf of the Sea of Tears rolls in white over a reef offshore.
+Behind the beach the jungle of the Isle of Karras rises like a wall: a
+dense, steaming tangle of palms, ferns and creeper-hung trees, loud with
+the shrieks of birds.  A few minotaur-sized dugout canoes have been
+dragged up above the tide line.  The sea lies to the west, and a path
+enters the jungle to the east.
 ~
-58 0 0
+58 0 2
+D1
+~
+~
+0 -1 5811
+D3
+~
+~
+0 -1 20029
+E
+canoes dugout~
+Each canoe has been hollowed out of a single enormous tree trunk and is
+long enough to carry a dozen men, or four minotaurs.  A red axe has been
+painted on the prow of one, and a white axe on another.
+~
 S
 #5811
-Room 5811~
-  This lovely room has yet to be written
+The Edge of the Jungle~
+   The jungle closes in around you the moment you leave the beach.  Hot,
+wet air settles on your skin like a blanket, and the light turns green
+and dim under the canopy.  Creepers hang everywhere, and somewhere close
+by something large crashes away through the undergrowth.  A muddy path
+leads east into the jungle and south into a swamp, and the beach lies
+west.
 ~
-58 0 0
+58 0 12
+D1
+~
+~
+0 -1 5812
+D2
+~
+~
+0 -1 5820
+D3
+~
+~
+0 -1 5810
 S
 #5812
-Room 5812~
-  This lovely room has yet to be written
+A Jungle Trail~
+   A trail has been hacked through the jungle here by heavy blades, and
+the stumps of the cut vines still ooze sap.  Huge hoofprints are pressed
+deep into the mud.  The trees here are so tall that their crowns are
+lost in the green gloom far above.  The trail runs east and west, a fig
+grove lies north, and a dark hollow opens to the south.
 ~
-58 0 0
+58 0 12
+D0
+~
+~
+0 -1 5813
+D1
+~
+~
+0 -1 5814
+D2
+~
+~
+0 -1 5819
+D3
+~
+~
+0 -1 5811
 S
 #5813
-Room 5813~
-  This lovely room has yet to be written
+The Strangler Fig Grove~
+   Great strangler figs grow here, their pale roots wrapped around the
+dead trunks of the trees they have killed, so that each one stands like
+a cage around a hollow where a tree used to be.  Ropes of roots hang
+down from the canopy, and one of the hollow figs is so big that you
+could climb up inside it.  Paths lead east and south.
 ~
-58 0 0
+58 0 12
+D1
+~
+~
+0 -1 5815
+D2
+~
+~
+0 -1 5812
+D4
+~
+~
+0 -1 5817
 S
 #5814
-Room 5814~
-  This lovely room has yet to be written
+A Steaming Stream~
+   A stream runs across the trail here, so warm that steam curls from
+its surface, and the stones in its bed are slick with bright green weed.
+The water smells faintly of sulfur.  Tiny brilliantly colored frogs
+cling to the stones, and you would be wise not to touch them.  The trail
+continues east and west, and a ruin is visible through the trees to the
+north.
 ~
-58 0 0
+58 0 12
+D0
+~
+~
+0 -1 5815
+D1
+~
+~
+0 -1 5816
+D3
+~
+~
+0 -1 5812
 S
 #5815
-Room 5815~
-  This lovely room has yet to be written
+The Overgrown Shrine of Karras~
+   The ruin of an old shrine stands here, almost swallowed by the
+jungle.  Its pillars are wrapped in creepers and its roof has fallen in,
+but the great stone statue at its heart still stands: a minotaur of
+enormous size, its horns broken, holding a double-bladed axe across its
+chest.  Offerings of fruit and flowers have been laid at its hooves,
+some of them fresh.  Paths lead south and west.
 ~
-58 0 0
+58 0 12
+D2
+~
+~
+0 -1 5814
+D3
+~
+~
+0 -1 5813
+E
+statue minotaur karras axe~
+This is Karras, the ancient god of the minotaurs, for whom the isle is
+named.  One blade of the double axe has been painted white, and the
+other red.  The paint is old, and someone has scratched at both blades,
+as if each clan had tried to scrape off the other's color.
+~
 S
 #5816
-Room 5816~
-  This lovely room has yet to be written
+The Vine Bridge~
+   A bridge of woven vines spans a deep gorge here, sagging alarmingly
+in the middle.  Far below, a river roars white between black rocks.  The
+bridge creaks and sways with every step, but it was built to carry
+minotaurs, and it should carry you.  The trail leads east to the
+fortress and west back into the jungle.
 ~
-58 0 0
+58 0 12
+D1
+~
+~
+0 -1 5818
+D3
+~
+~
+0 -1 5814
 S
 #5817
-Room 5817~
-  This lovely room has yet to be written
+In the Jungle Canopy~
+   You have climbed up through the hollow fig into the canopy, a second
+world of branches, flowers and sunlight high above the jungle floor.
+Monkeys chatter in the treetops, and from up here you can see the whole
+isle: the black beach, the steaming jungle, and to the east a great
+fortress of gray stone rising on a rocky hill.  The hollow trunk leads
+back down.
 ~
-58 0 0
+58 0 12
+D5
+~
+~
+0 -1 5813
+E
+fortress gray stone hill~
+The fortress of Karras is built of gray stone without mortar.  Two great
+towers rise from it, one flying a banner with a red axe and one with a
+white, and they are as far apart as the builders could put them.
+~
 S
 #5818
-Room 5818~
-  This lovely room has yet to be written
+A Clearing before the Walls~
+   The jungle has been cut back here in a wide clearing below a rocky
+hill, on top of which rise the gray walls of the fortress of Karras.
+Spiked stakes have been driven into the ground at the edge of the trees,
+and some of them bear grisly trophies.  A paved road climbs east to the
+gates, and the vine bridge lies to the west.
 ~
-58 0 0
+58 0 2
+D1
+~
+~
+0 -1 5821
+D3
+~
+~
+0 -1 5816
 S
 #5819
-Room 5819~
-  This lovely room has yet to be written
+The Serpent's Hollow~
+   The ground falls away here into a dark, damp hollow beneath the roots
+of a giant tree.  The air stinks of musk and rot, and the earth is
+scattered with bones, some of them very large.  Something has shed a
+skin here, a papery tube as wide as a barrel.  The trail lies back to
+the north.
 ~
-58 0 0
+58 a 12
+D0
+~
+~
+0 -1 5812
 S
 #5820
-Room 5820~
-  This lovely room has yet to be written
+A Mangrove Swamp~
+   The path gives out here into a swamp of mangrove trees standing on
+their roots like spiders in the black water.  The mud sucks at your
+feet, the air hums with insects, and the water is full of things that
+move.  The only firm ground leads back north.
 ~
-58 0 0
+58 0 6
+D0
+~
+~
+0 -1 5811
 S
 #5821
-Room 5821~
-  This lovely room has yet to be written
+Before the Gates of Karras~
+   The paved road ends before the gates of Karras, two massive doors of
+iron-bound timber set into walls of gray stone so finely fitted that no
+mortar was needed to build them.  Above the gate a great double axe has
+been carved into the stone, one blade chiseled smooth and the other left
+rough.  The gates lead east into the fortress, and the road leads back
+down the hill to the west.
 ~
-58 0 0
+58 0 1
+D1
+The great gates of Karras.
+~
+gates gate doors~
+1 -1 5822
+D3
+~
+~
+0 -1 5818
 S
 #5822
-Room 5822~
-  This lovely room has yet to be written
+The Gatehouse~
+   You stand in the vaulted gatehouse of Karras, between the outer gates
+and a portcullis that has been left raised.  Murder holes pierce the
+ceiling, and the walls are scarred where boiling oil once poured down on
+attackers.  Racks of spears stand ready on either side.  The great
+courtyard lies east, and the gates lead back out to the west.
 ~
-58 0 0
+58 d 0
+D1
+~
+~
+0 -1 5823
+D3
+The great gates of Karras.
+~
+gates gate doors~
+1 -1 5821
 S
 #5823
-Room 5823~
-  This lovely room has yet to be written
+The Great Courtyard of Karras~
+   The great courtyard of Karras is paved in gray stone and open to the
+sky, and it is split neatly down the middle by a line of black
+flagstones.  North of the line, the stones are swept clean and a
+fountain plays; south of it, the ground is churned and scarred and loud
+with the sound of minotaurs drilling.  Neither side seems to cross the
+line if it can help it.  The courtyard continues north and south, and
+the gatehouse lies west.
 ~
-58 0 0
+58 0 1
+D0
+~
+~
+0 -1 5825
+D2
+~
+~
+0 -1 5824
+D3
+~
+~
+0 -1 5822
 S
 #5824
-Room 5824~
-  This lovely room has yet to be written
+The Courtyard of the Red Axe~
+   This half of the courtyard belongs to the Kinthalas, the warrior clan
+of Karras, and they let everyone know it: a red axe is painted on every
+wall, the ground is churned by hooves and stained with old blood, and
+the air rings with the clash of weapons from the fighting pit to the
+east.  The barracks lie south, an armory west, and the great courtyard
+north.
 ~
-58 0 0
+58 0 1
+D0
+~
+~
+0 -1 5823
+D1
+~
+~
+0 -1 5827
+D2
+~
+~
+0 -1 5826
+D3
+~
+~
+0 -1 5828
 S
 #5825
-Room 5825~
-  This lovely room has yet to be written
+The Courtyard of the White Axe~
+   This half of the courtyard belongs to the Byterians, the scholar clan
+of Karras.  A fountain of white marble plays here, carved with a great
+white axe, and stone benches stand around it where minotaurs in gray
+robes sit reading.  The cloister lies north, the library east and the
+refectory west; the great courtyard lies south.
 ~
-58 0 0
+58 0 1
+D0
+~
+~
+0 -1 5830
+D1
+~
+~
+0 -1 5831
+D2
+~
+~
+0 -1 5823
+D3
+~
+~
+0 -1 5833
+E
+fountain marble white axe~
+The water rises from the blade of the carved axe and falls in a fine
+curtain into the basin.  Coins glint on the bottom, and a little brass
+plate reads: 'For knowledge, not for luck.'
+~
 S
 #5826
-Room 5826~
-  This lovely room has yet to be written
+The Kinthalas Barracks~
+   Long rows of straw pallets fill this low, crowded hall, each one with
+a weapon propped beside it and a sea chest at its foot.  The place reeks
+of sweat, oil and wet fur.  Minotaur warriors sleep, gamble and sharpen
+their axes here, and every one of them is waiting for a chance to fight
+his way up the stair to the officers' quarters above.  A trapdoor leads
+down to the cells, a passage runs south toward the stair, the mess hall
+lies east, and the courtyard north.
 ~
-58 0 0
+58 d 0
+D0
+~
+~
+0 -1 5824
+D1
+~
+~
+0 -1 5829
+D2
+~
+~
+0 -1 5852
+D5
+~
+~
+0 -1 5835
 S
 #5827
-Room 5827~
-  This lovely room has yet to be written
+The Fighting Pit~
+   A round pit has been dug into the earth here, ten feet deep and
+ringed by a wooden rail at which minotaurs crowd to shout and wager.
+The sand in the bottom is dark with blood.  Promotions among the
+Kinthalas are settled here, and so are most arguments.  The courtyard
+lies west.
 ~
-58 0 0
+58 0 1
+D3
+~
+~
+0 -1 5824
 S
 #5828
-Room 5828~
-  This lovely room has yet to be written
+The Kinthalas Armory~
+   Axes, hammers, spears and great curved swords hang in racks on every
+wall of this long stone room, every one of them sized for a minotaur's
+hand.  A forge glows in one corner, and the anvil beside it rings under
+the hammer of a sweating smith.  The courtyard lies east.
 ~
-58 0 0
+58 d 0
+D1
+~
+~
+0 -1 5824
 S
 #5829
-Room 5829~
-  This lovely room has yet to be written
+The Mess Hall~
+   Long trestle tables fill this smoky hall, and the benches beside them
+have been broken and mended so many times that they are more nails than
+wood.  The floor is littered with bones, and the walls are splashed with
+stew.  Meals among the Kinthalas are loud, fast and frequently violent.
+The kitchens lie east, and the barracks west.
 ~
-58 0 0
+58 d 0
+D1
+~
+~
+0 -1 5834
+D3
+~
+~
+0 -1 5826
 S
 #5830
-Room 5830~
-  This lovely room has yet to be written
+The Byterian Cloister~
+   A quiet cloister surrounds a small garden of herbs and flowers here,
+its arches carved with scenes from the history of Karras.  Byterian
+minotaurs walk slowly along it in pairs, talking in low voices.  A
+passage leads north to the white stair, and the courtyard lies south.
 ~
-58 0 0
+58 0 1
+D0
+~
+~
+0 -1 5846
+D2
+~
+~
+0 -1 5825
+E
+arches scenes carvings history~
+The carvings show the history of Karras: minotaurs arriving from the sea
+in great canoes, building the fortress, and kneeling together before the
+god Karras.  Further along the two clans appear, one with a white axe
+and one with a red, and in the last carving they stand back to back,
+facing away from each other.
+~
 S
 #5831
-Room 5831~
-  This lovely room has yet to be written
+The Great Library of Karras~
+   Shelves of dark wood rise from floor to ceiling in this vast hall,
+packed with books, scrolls and clay tablets from every corner of the
+Dominion and beyond.  Ladders on brass rails run along them, and reading
+tables stand in pools of lamplight.  It is very quiet.  A sign in
+several languages asks visitors not to snort.  The scriptorium lies
+east, and the courtyard west.
 ~
-58 0 0
+58 d 0
+D1
+~
+~
+0 -1 5832
+D3
+~
+~
+0 -1 5825
 S
 #5832
-Room 5832~
-  This lovely room has yet to be written
+The Scriptorium~
+   Rows of tall writing desks stand in this bright room, each with a
+minotaur scholar bent over it, copying a book by hand.  Pots of ink,
+quills as long as your arm and stacks of fresh vellum cover every
+surface.  The library lies west.
 ~
-58 0 0
+58 d 0
+D3
+~
+~
+0 -1 5831
 S
 #5833
-Room 5833~
-  This lovely room has yet to be written
+The Byterian Refectory~
+   A long, quiet hall with a single table of polished wood, set with
+plain white plates.  A reader stands at a lectern at the head of the
+table, reading aloud from a book of history while the Byterians eat in
+silence.  The courtyard lies east.
 ~
-58 0 0
+58 d 0
+D1
+~
+~
+0 -1 5825
 S
 #5834
-Room 5834~
-  This lovely room has yet to be written
+The Kitchens~
+   Huge iron pots bubble over open fires in this sweltering kitchen, and
+whole carcasses of jungle boar turn on spits.  A harried minotaur cook
+stamps between them, roaring at anyone who gets in the way.  The mess
+hall lies west.
 ~
-58 0 0
+58 d 0
+D3
+~
+~
+0 -1 5829
 S
 #5835
-Room 5835~
-  This lovely room has yet to be written
+The Cells~
+   A row of cramped cells has been cut into the rock beneath the
+barracks, each closed by iron bars as thick as your wrist.  The air is
+damp and stale, and the only light comes from the trapdoor above.  Most
+of the cells are empty, but scratch marks on the walls count the days of
+those who were kept here.  The trapdoor leads up to the barracks.
 ~
-58 0 0
-S
-#5836
-Room 5836~
-  This lovely room has yet to be written
+58 ad 0
+D4
 ~
-58 0 0
-S
-#5837
-Room 5837~
-  This lovely room has yet to be written
 ~
-58 0 0
-S
-#5838
-Room 5838~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5839
-Room 5839~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5840
-Room 5840~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5841
-Room 5841~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5842
-Room 5842~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5843
-Room 5843~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5844
-Room 5844~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5845
-Room 5845~
-  This lovely room has yet to be written
-~
-58 0 0
+0 -1 5826
 S
 #5846
-Room 5846~
-  This lovely room has yet to be written
+At the Foot of the White Stair~
+   A broad stair of white stone climbs from here to the upper halls of
+the Byterians.  The steps are worn smooth in the middle by generations
+of hooves, and a brass lamp burns at the foot of the stair, never
+allowed to go out.  The cloister lies south, and the stair leads up.
 ~
-58 0 0
-S
-#5847
-Room 5847~
-  This lovely room has yet to be written
+58 d 0
+D2
 ~
-58 0 0
-S
-#5848
-Room 5848~
-  This lovely room has yet to be written
 ~
-58 0 0
-S
-#5849
-Room 5849~
-  This lovely room has yet to be written
+0 -1 5830
+D4
 ~
-58 0 0
-S
-#5850
-Room 5850~
-  This lovely room has yet to be written
 ~
-58 0 0
-S
-#5851
-Room 5851~
-  This lovely room has yet to be written
-~
-58 0 0
+0 -1 5870
 S
 #5852
-Room 5852~
-  This lovely room has yet to be written
+At the Foot of the Red Stair~
+   A narrow passage runs south from the barracks to the foot of a stair
+that climbs to the upper halls of the Kinthalas.  A steel door in the
+west wall opens onto the stair's first landing, and its surface is
+covered in dents, as if generations of warriors had tested their horns
+against it on their way up.  The barracks lie north.
 ~
-58 0 0
+58 d 0
+D0
+~
+~
+0 -1 5826
+D3
+A dented steel door.
+~
+steel door~
+1 0 5853
 S
 #5853
 On a Landing~
-   Before turning and going on to the next level, the stairs come to a
-landing.  A steel door is set into the east wall, and the stairs
-continue up.
+   The red stair climbs from the steel door below to this landing before
+turning and going on up to the next level.  The walls are scratched and
+scarred by horns, and a dented steel door is set into the east wall.
+The stairs continue up.
 ~
 58 d 0
 D1
@@ -351,86 +757,15 @@ D4
 ~
 0 0 5877
 S
-#5854
-Room 5854~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5855
-Room 5855~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5856
-Room 5856~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5857
-Room 5857~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5858
-Room 5858~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5859
-Room 5859~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5860
-Room 5860~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5861
-Room 5861~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5862
-Room 5862~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5863
-Room 5863~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5864
-Room 5864~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5865
-Room 5865~
-  This lovely room has yet to be written
-~
-58 0 0
-S
 #5866
-The Tactian's Ready Room~
-   You are startled by the number of creatures in this room, until you see
-that most are suits of armor filled with straw. On the east wall, behind these
-figures are drawings of different races with targets shown on different points
-on their anatomy. A thin slate board covers most of the west wall and diagrams
-of military strategy is chalked onto it. The southern wall is covered with a 
-huge map, depicting Karras and the ocean that surrounds the isle.
+The Tactician's Ready Room~
+   You are startled by the number of creatures in this room, until you
+see that most are suits of armor filled with straw.  On the east wall,
+behind these figures are drawings of different races with targets shown
+on different points on their anatomy.  A thin slate board covers most of
+the west wall and diagrams of military strategy is chalked onto it.  The
+southern wall is covered with a huge map, depicting Karras and the ocean
+that surrounds the isle.
 ~
 58 d 0
 D0
@@ -440,11 +775,11 @@ D0
 S
 #5867
 The Lobby of Karras~
-   Despite the large statue of Karras at the southern en of the room, one can
-determine quickly that this is not a temple. Rather, this is a place of respect
-away from the best of locations. The room is lit by two emerald stones that
-flank the likeness of Karras. Those that are given the use of magic via Karras
-can be found here praying to the ancient deity.
+   Despite the large statue of Karras at the southern end of the room,
+one can determine quickly that this is not a temple.  The room is lit by
+two emerald stones that flank the likeness of Karras.  Those that are
+given the use of magic via Karras can be found here praying to the
+ancient deity.
 ~
 58 d 0
 D0
@@ -454,11 +789,11 @@ D0
 S
 #5868
 The Officer's Quarters~
-   This is the room used by higher ranking Kinthalas officers for housing. The
-bad news for these guys, is the recent moral problems that was corrected. The
-minotaur at the receiving end of the adjustments, is lying in his bloody cot
-looking up at the ceiling. The three other cots here are made and all their
-equipment is in perfect condition.
+   This is the room used by higher ranking Kinthalas officers for
+housing.  The bad news for these officers is a recent morale problem,
+now corrected: the minotaur at the receiving end of the correction is
+lying in his bloody cot looking up at the ceiling.  The three other cots
+here are made and all their equipment is in perfect condition.
 ~
 58 d 0
 D0
@@ -474,10 +809,10 @@ his head.
 S
 #5869
 The Officer's Room~
-   The mood in this room is very relaxed for Kinthalas officers. There is a 
-morale problem here. There is some equipment lying around, but nothing that
-you would want to keep. You count enough cots for twelve officers, but some
-look like they haven't been slept in.
+   The mood in this room is very relaxed for Kinthalas officers.  There
+is a morale problem here.  There is some equipment lying around, but
+nothing that you would want to keep.  You count enough cots for twelve
+officers, but some look like they haven't been slept in.
 ~
 58 d 0
 D0
@@ -487,9 +822,10 @@ D0
 S
 #5870
 Top of Stairs at the Gray Hallway~
-   The steps end here at a hallway constructed using cut stone of a gray color.
-Unlike other construction, no mortar has been used which makes for a beautiful
-sight. The seams are so tight that you doubt water could trickle through.
+   The steps end here at a hallway constructed using cut stone of a gray
+color.  Unlike other construction, no mortar has been used which makes
+for a beautiful sight.  The seams are so tight that you doubt water
+could trickle through.
 ~
 58 d 0
 D3
@@ -503,9 +839,9 @@ D5
 S
 #5871
 The Gray Stone Hallway~
-   The hall is kept very clean and not much movement can be detected. There is
-a slight aroma of aged paper here. Oak doors lead north and south and the hall
-leads east and west.
+   The hall is kept very clean and not much movement can be detected.
+There is a slight aroma of aged paper here.  Oak doors lead north and
+south and the hall leads east and west.
 ~
 58 d 0
 D0
@@ -527,9 +863,9 @@ D3
 S
 #5872
 The Gray Stone Hallway~
-   The hall here has a slight waft of smoke drifting about and a strange odor
-of both incense and carbon. An oak door is to the north and to the south and
-the hall continues easy and west.
+   The hall here has a slight waft of smoke drifting about and a strange
+odor of both incense and carbon.  An oak door is to the north and to the
+south and the hall continues east and west.
 ~
 58 0 0
 D0
@@ -581,10 +917,10 @@ D4
 S
 #5875
 The Gray Stone Hallway~
-   The number of marks in the floor and walls are more frequent now. The door
-to the south is splattered with dried blood. The door to the north doesn't
-have blood on it, but marks on the door indicate that someone wanted in there
-badly. The hall leads west or back to the east.
+   The number of marks in the floor and walls are more frequent now.
+The door to the south is splattered with dried blood.  The door to the
+north doesn't have blood on it, but marks on the door indicate that
+someone wanted in there badly.  The hall leads west or back to the east.
 ~
 58 d 0
 D0
@@ -606,11 +942,11 @@ D3
 S
 #5876
 The Gray Stone Hallway~
-   All good things must come to an end, and when the Kinthalas are involved;
-include blood. The perfect masonry now has blood in the seams, and a puddle of
-blood has been tracked back and forth through the hall. Judging from the hacks
-in the doors to the north and south, this is the location of many moral
-improvement rituals and demotions.
+   All good things must come to an end, and when the Kinthalas are
+involved, they end in blood.  The perfect masonry now has blood in the
+seams, and a puddle of blood has been tracked back and forth through the
+hall.  Judging from the hacks in the doors to the north and south, this
+is the location of many morale improvement rituals and demotions.
 ~
 58 d 0
 D0
@@ -632,9 +968,9 @@ D3
 S
 #5877
 Top of the Stairs at the Stone Hallway~
-   The stairs end at the beginning of a hall that was built using gray stone.
-No mortar was used in the construction here, just perfect masonry. The hall
-continues east and the stairs lead down.
+   The stairs end at the beginning of a hall that was built using gray
+stone.  No mortar was used in the construction here, just perfect
+masonry.  The hall continues east and the stairs lead down.
 ~
 58 d 0
 D1
@@ -648,10 +984,10 @@ D5
 S
 #5878
 Study of Byterian Lore~
-   The walls of this large room are lined with shelves of books tracing the 
-vast history of the Byterian race. There are tables and chairs about the room
-used for studying. Unlike the Great Library of Karras, this room seems to be 
-for the sole purpose of the Byterian military.
+   The walls of this large room are lined with shelves of books tracing
+the vast history of the Byterian race.  There are tables and chairs
+about the room used for studying.  Unlike the Great Library of Karras,
+this room seems to be for the sole purpose of the Byterian military.
 ~
 58 d 0
 D2
@@ -661,12 +997,12 @@ D2
 S
 #5879
 The Hall of Byterian Thaumaturgy~
-   This great room has scrolls lined in racks along the east and west walls.
-Large shelves, along the north wall, house many components in jars of 
-different sizes. Several tables in the middle of the room hold the ongoing
-experiments of the intelligent Byterians. In no way does the room have the 
-same odor as The Spyre, but on can gather that much of the magic taught there,
-is first learned here.
+   This great room has scrolls lined in racks along the east and west
+walls.  Large shelves, along the north wall, house many components in
+jars of different sizes.  Several tables in the middle of the room hold
+the ongoing experiments of the intelligent Byterians.  In no way does
+the room have the same odor as The Spyre, but one can gather that much
+of the magic taught there, is first learned here.
 ~
 58 d 0
 D2
@@ -676,10 +1012,11 @@ D2
 S
 #5880
 The Officer's Quarters~
-   It is readily apparent that the best Kinthalas officers live in this room.
-All equipment is sharpened, honed, polished, buffed, cleaned and/or organized.
-The area is divided up giving four officers equal space, thus keeping the 
-aggressive behavior directed at lower ranking warriors.
+   It is readily apparent that the best Kinthalas officers live in this
+room.  All equipment is sharpened, honed, polished, buffed, cleaned
+and/or organized.  The area is divided up giving four officers equal
+space, thus keeping the aggressive behavior directed at lower ranking
+warriors.
 ~
 58 d 0
 D2
@@ -689,10 +1026,10 @@ D2
 S
 #5881
 The Officer's Room~
-   The warriors downstairs fight to get up here, and once they are here, they
-realize there is only one way out. Fear of demotion, will turn a good warrior
-into a hardened leader. This large room is used to house about twenty of the
-Kinthalas junior officers.
+   The warriors downstairs fight to get up here, and once they are here,
+they realize there is only one way out.  Fear of demotion, will turn a
+good warrior into a hardened leader.  This large room is used to house
+about twenty of the Kinthalas junior officers.
 ~
 58 d 0
 D2
@@ -702,11 +1039,11 @@ D2
 S
 #5882
 South End of a Grand Hallway~
-   The hall ends at one gruesome sight. On the east wall, a form of a large
-minotaur is outlined with a giant burn mark (that had to hurt!). A red axe is
-painted on the south wall. A steel door on the west wall has several dents
-and weapon marks on it, but seems to have held up to the onslaught. The only
-way out is to the north.
+   The hall ends at one gruesome sight.  On the east wall, a form of a
+large minotaur is outlined with a giant burn mark (that had to hurt!).
+A red axe is painted on the south wall.  A steel door on the west wall
+has several dents and weapon marks on it, but seems to have held up to
+the onslaught.  The only way out is to the north.
 ~
 58 d 0
 D0
@@ -722,52 +1059,52 @@ steel door~
 S
 #5883
 Private Chambers of Dhak~
-This room does not appear to belong to one with a stable mind. All of the 
-furniture in the room is piled on the west side of the room. A sleeping area
-is laid out in the middle of the room. The walls are covered with marks of
-great explosions. A door out is on the east wall.
+   This room does not appear to belong to one with a stable mind.  All
+of the furniture in the room is piled on the west side of the room.  A
+sleeping area is laid out in the middle of the room.  The walls are
+covered with marks of great explosions.  A door out is on the east wall.
 ~
 58 d 0
 D1
 ~
-~
-0 0 5882
+steel door~
+1 0 5882
 S
 #5884
 Private Chambers of Krommyon~
-   This room is the most diverse of any held by a minotaur in Karras. Rich
-tapestries and artifacts from all the Dominion decorate the room. Many seem
-difficult to estimate the value of, or too bulky for transport. Covered 
-candles cast various colors about the room and incense give the room an
-earthy aroma. An interesting thing that you notice about the room is the lack
-of a bed. The only exit is back east.
+   This room is the most diverse of any held by a minotaur in Karras.
+Rich tapestries and artifacts from all the Dominion decorate the room.
+Many seem difficult to estimate the value of, or too bulky for
+transport.  Covered candles cast various colors about the room and
+incense gives the room an earthy aroma.  An interesting thing that you
+notice about the room is the lack of a bed.  The only exit is back east.
 ~
 58 d 0
 D1
 ~
-~
-0 0 5893
+heavy steel door~
+1 0 5893
 S
 #5885
 The sleeping room of Krommyon~
-   The smell about knocks you out the door! All around the room, from wall to
-wall, giant pillows cover the floor. You can not think of a reason to really
-linger in this room, unless you want to share with Krommyon. The door is 
-directly behind you on the east wall.
+   The smell about knocks you out the door!  All around the room, from
+wall to wall, giant pillows cover the floor.  You cannot think of a
+reason to really linger in this room, unless you want to share with
+Krommyon.  The door is directly behind you on the east wall.
 ~
 58 d 0
 D1
 ~
-~
-0 0 5886
+steel door~
+1 0 5886
 S
 #5886
 North End of Grand Hall~
-   A large ornamental shield mounted on the north wall is the first thing you
-notice here. Stains in the scratches and pit marks in the red marble floor
-make the floor give the false impression that the floor is in better condition
-here than at the intersection. A heavy steel door is on the west wall and the
-only other exit is back south.
+   A large ornamental shield mounted on the north wall is the first
+thing you notice here.  Stains in the scratches and pit marks in the red
+marble floor make the floor give the false impression that the floor is
+in better condition here than at the intersection.  A heavy steel door
+is on the west wall and the only other exit is back south.
 ~
 58 d 0
 D2
@@ -788,8 +1125,8 @@ center.
 S
 #5887
 Southern End of a Grand Hallway~
-   Although not as well lit as the intersection, this end of the grand hallway
-is no less impressive. Two large oak doors lead to the east.
+   Although not as well lit as the intersection, this end of the grand
+hallway is no less impressive.  Two large oak doors lead to the east.
 ~
 58 d 0
 D0
@@ -804,54 +1141,55 @@ doors~
 S
 #5888
 Private Chambers of Skeiron~
-   Without a doubt, this is the room of someone well read. There are books and
-scrolls everywhere! Stuffed bookshelves line all walls except for the west. A
-bed is against the west wall and a HUGE desk is in the center of the room.
+   Without a doubt, this is the room of someone well read.  There are
+books and scrolls everywhere!  Stuffed bookshelves line all walls except
+for the west.  A bed is against the west wall and a HUGE desk is in the
+center of the room.
 ~
 58 d 0
 D3
 oak doors
 ~
 doors~
-0 0 5887
+1 0 5887
 E
 desk~
    The desk is covered with papers and books with everything from recipes to
 star charts written on them. Glass containers are scattered around, some
-empty, some with unknown substances, and some spilled over. Ooops!
+empty, some with unknown substances, and some spilled over. Oops!
 ~
 S
 #5889
 Private Room of Prokrustes~
-   This room has an unseen light source that makes the room uncomfortable. For
-such a well lit place the room seems quiet plain. There are no paintings on
-the walls. In fact, there is not much to look at anywhere in the room. This is
-the private chambers of someone important, but they certainly do not have a 
-taste for the better things.
+   This room has an unseen light source that makes the room
+uncomfortable.  For such a well lit place the room seems quite plain.
+There are no paintings on the walls.  In fact, there is not much to look
+at anywhere in the room.  This is the private chambers of someone
+important, but they certainly do not have a taste for the better things.
 ~
 58 d 0
 D3
 ~
-~
-0 0 5892
+doors~
+1 0 5892
 S
 #5890
 Private Chambers of Kerkyon~
-   This room is decorated with the rich heritage of the Byterian. Paintings
-cover the walls of minotaurs wearing armor, most wielding a great battleaxe.
-The furniture in this room seem grand and sturdy. You get the impression
-that the owner of the room is a powerful being.
+   This room is decorated with the rich heritage of the Byterian.
+Paintings cover the walls of minotaurs wearing armor, most wielding a
+great battleaxe.  The furniture in this room seems grand and sturdy.
+You get the impression that the owner of the room is a powerful being.
 ~
 58 0 0
 D3
 ~
-~
-0 0 5891
+doors~
+1 0 5891
 S
 #5891
 North End of the Grand Hallway.~
-   The grand hallway ends here with a set of large oak double doors to the 
-east. A painting hangs on the north wall. The light of the bright 
+   The grand hallway ends here with a set of large oak double doors to
+the east.  A painting hangs on the north wall.  The light of the bright
 intersection makes the end of the hall seem shadowy.
 ~
 58 d 0
@@ -874,12 +1212,13 @@ has the words "Byterian Axe" engraved in it.
 S
 #5892
 Bright Intersection of a Grand Hallway.~
-   This grand hallway has white marble floors, which make the well lit 
-intersection almost unbearable. You can tell immediately that this place is
-lit with some form of magic. The ceiling and walls along this hall are 
-perfectly white except where large doors are seen. To the east is a set of
-oak double doors. To the north and south the hall continues, though not as
-well lit. A landing in the spiral stairs is to the west.
+   This grand hallway has white marble floors, which make the well lit
+intersection almost unbearable.  You can tell immediately that this
+place is lit with some form of magic.  The ceiling and walls along this
+hall are perfectly white except where large doors are seen.  To the east
+is a set of oak double doors.  To the north and south the hall
+continues, though not as well lit.  A landing in the spiral stairs is to
+the west.
 ~
 58 d 0
 D0
@@ -902,11 +1241,12 @@ D3
 S
 #5893
 Intersection in a Grand Hallway~
-   This is the intersection in what was once a grand hallway. The floor was
-once a beautiful red marble, but now it is marked with scratches and chip
-marks. The yellowed walls and ceiling are marked with weapon marks and burns.
-The hallway continues into the darkness of the north and south. A landing at
-spiral stairs is to the east and a steel door is on the west wall.
+   This is the intersection in what was once a grand hallway.  The floor
+was once a beautiful red marble, but now it is marked with scratches and
+chip marks.  The yellowed walls and ceiling are marked with weapon marks
+and burns.  The hallway continues into the darkness of the north and
+south.  A landing at spiral stairs is to the east and a steel door is on
+the west wall.
 ~
 58 d 0
 D0
@@ -932,9 +1272,9 @@ heavy steel door~
 S
 #5894
 A Bright Landing~
-   The spiral stairs stop at a small landing here. Extra effort has been
-spent to make the landing bright. The stairs continue up and an intersection
-is to the east.
+   The spiral stairs stop at a small landing here.  Extra effort has
+been spent to make the landing bright.  The stairs continue up and an
+intersection is to the east.
 ~
 58 d 0
 D1
@@ -982,7 +1322,7 @@ in the room below.
 D5
 ~
 ~
-0 0 5899
+1 0 5899
 E
 table granite~
    You see that you are directly above the large granite table used for 
@@ -991,11 +1331,11 @@ conducting the affairs of Karras.
 S
 #5897
 The Byterian Axe~
-    The first thing you notice is the magnificent gray marble floor with a 
-large inlaid white marble axe in the center of the room. The room is bare
-except for three large thrones along the north wall. From this room, Skeiron,
-Kerkyon, and Prokrustes run the affairs of the Byterians. An oak door leads
-west and stairs in the corner lead down.
+   The first thing you notice is the magnificent gray marble floor with
+a large inlaid white marble axe in the center of the room.  The room is
+bare except for three large thrones along the north wall.  From this
+room, Skeiron, Kerkyon, and Prokrustes run the affairs of the Byterians.
+An oak door leads west and stairs in the corner lead down.
 ~
 58 0 0
 D3
@@ -1010,7 +1350,7 @@ stairs down.
 0 0 5894
 E
 white axe~
-   The large axe that is inlaid in the floor is a crafted from a single slab
+   The large axe that is inlaid in the floor is crafted from a single slab
 of white marble. From top to pommel is 60 feet, and blade tip to blade tip
 25 feet. One can not imagine how this giant was installed during construction.
 ~
@@ -1023,11 +1363,11 @@ S
 #5898
 The Kinthalas Axe~
    This dimly lit room is the throne room of Krommyon, "the king" of the
-Kinthalas. A gray and red marble floor can be seen in places not covered with
-furs, rugs, and other debris. A large stone throne sits at the north end of
-the room and a large apparatus with several stains under it, sits at the south
-end of the room. A steel door leads to the east and stairs in the corner lead
-down.
+Kinthalas.  A gray and red marble floor can be seen in places not
+covered with furs, rugs, and other debris.  A large stone throne sits at
+the north end of the room and a large apparatus with several stains
+under it, sits at the south end of the room.  A steel door leads to the
+east and stairs in the corner lead down.
 ~
 58 d 0
 D1
@@ -1046,631 +1386,31 @@ This throne seems to be ancient. The workmanship is that of dwarves, but why
 would dwarves need such a huge throne?
 ~
 E
-aparatus~
+apparatus~
 This device seems to be used in the initiation of conversation with those who
 are shy. Bloody hair is wrapped around a gear in the device.
 ~
 S
 #5899
 The Place of The Double Axe~
-    From this room, the Byterian and Kinthalas leaders rule Karras. A huge
-granite table, runs north and south, with three identical thrones along each
-side. On the east wall, are the paintings and relics of the Byterian, along
-the west the weapons and implements of the Kinthalas. An oak door leads to
-the east and a steel door leads to the west.
+   From this room, the Byterian and Kinthalas leaders rule Karras.  A
+huge granite table, runs north and south, with three identical thrones
+along each side.  On the east wall, are the paintings and relics of the
+Byterian, along the west the weapons and implements of the Kinthalas.
+An oak door leads to the east and a steel door leads to the west.
 ~
 58 d 0
 D1
 ~
-~
-0 0 5897
+Oak door~
+1 0 5897
 D3
 ~
-~
-0 0 5898
+steel door~
+1 0 5898
 D4
 ~
 ~
 1 0 5896
-S
-#5900
-Room 5900~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5901
-Room 5901~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5902
-Room 5902~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5903
-Room 5903~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5904
-Room 5904~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5905
-Room 5905~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5906
-Room 5906~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5907
-Room 5907~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5908
-Room 5908~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5909
-Room 5909~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5910
-Room 5910~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5911
-Room 5911~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5912
-Room 5912~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5913
-Room 5913~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5914
-Room 5914~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5915
-Room 5915~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5916
-Room 5916~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5917
-Room 5917~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5918
-Room 5918~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5919
-Room 5919~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5920
-Room 5920~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5921
-Room 5921~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5922
-Room 5922~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5923
-Room 5923~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5924
-Room 5924~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5925
-Room 5925~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5926
-Room 5926~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5927
-Room 5927~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5928
-Room 5928~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5929
-Room 5929~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5930
-Room 5930~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5931
-Room 5931~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5932
-Room 5932~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5933
-Room 5933~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5934
-Room 5934~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5935
-Room 5935~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5936
-Room 5936~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5937
-Room 5937~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5938
-Room 5938~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5939
-Room 5939~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5940
-Room 5940~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5941
-Room 5941~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5942
-Room 5942~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5943
-Room 5943~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5944
-Room 5944~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5945
-Room 5945~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5946
-Room 5946~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5947
-Room 5947~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5948
-Room 5948~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5949
-Room 5949~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5950
-Room 5950~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5951
-Room 5951~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5952
-Room 5952~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5953
-Room 5953~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5954
-Room 5954~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5955
-Room 5955~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5956
-Room 5956~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5957
-Room 5957~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5958
-Room 5958~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5959
-Room 5959~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5960
-Room 5960~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5961
-Room 5961~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5962
-Room 5962~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5963
-Room 5963~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5964
-Room 5964~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5965
-Room 5965~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5966
-Room 5966~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5967
-Room 5967~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5968
-Room 5968~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5969
-Room 5969~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5970
-Room 5970~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5971
-Room 5971~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5972
-Room 5972~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5973
-Room 5973~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5974
-Room 5974~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5975
-Room 5975~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5976
-Room 5976~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5977
-Room 5977~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5978
-Room 5978~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5979
-Room 5979~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5980
-Room 5980~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5981
-Room 5981~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5982
-Room 5982~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5983
-Room 5983~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5984
-Room 5984~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5985
-Room 5985~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5986
-Room 5986~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5987
-Room 5987~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5988
-Room 5988~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5989
-Room 5989~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5990
-Room 5990~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5991
-Room 5991~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5992
-Room 5992~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5993
-Room 5993~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5994
-Room 5994~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5995
-Room 5995~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5996
-Room 5996~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5997
-Room 5997~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5998
-Room 5998~
-  This lovely room has yet to be written
-~
-58 0 0
-S
-#5999
-Room 5999~
-  This lovely room has yet to be written
-~
-58 0 0
 S
 $~

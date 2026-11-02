@@ -286,9 +286,16 @@ Dead End~
    You have come to a dead end in the street, and you quickly realize
 that your blunder has put you in a bad position should anyone want to
 trap you.  The soft snicker from the shadows behind you confirms your
-suspicions.  The only way out is back south.
+suspicions.  Set into the north wall is a door of black stone, carved
+with the image of a hand with a black palm, and the only other way out
+is back south.
 ~
 100 ps 0
+D0
+The entrance to the hall of the Fated.
+~
+~
+0 -1 2648
 D2
 ~
 ~
@@ -503,7 +510,8 @@ Dark Alley~
    You are in a dark alley, and low snickers seem to come from every
 direction; with the echoes you can't really tell.  Maybe from the
 north... no, from the south... you give up.  The alley runs north and
-south.
+south.  At the foot of one wall, a grate that is not quite as rusty as
+it looks opens onto a stair leading down.
 ~
 100 ps 0
 D0
@@ -514,6 +522,11 @@ D2
 ~
 ~
 0 -1 10039
+D5
+The entrance to the hall of the Believers of the Source.
+~
+~
+0 -1 2640
 S
 #10031
 Alley Corner~
@@ -637,13 +650,19 @@ Basement in the Abandoned Building~
    The basement is just a basement, or so you think, until you feel the
 prick of a dagger at the back of your neck.  Damp walls, a dirt floor
 and a few broken crates are all you can see in the darkness.  A stairway
-leads up.
+leads up.  In one corner, half hidden behind the crates, a trapdoor
+leads down into the dark.
 ~
 100 dps 0
 D4
 ~
 ~
 0 -1 10021
+D5
+The entrance to the hall of the Athar.
+~
+~
+0 -1 2636
 S
 #10038
 Abandoned Building~

@@ -1,12 +1,42 @@
 #430
 Valley of Fate~
 Calyx~
-BUILDING~
+ALL~
 3001 1
-43099 5 2
+43099 24 2
 *
-* Last Updated: Wed Feb  5 22:15:07 
-*           By: Grendel
+* Last Updated: Mon Nov  2 2026
+*           By: Claude
 *
+M 0 43000 4 43000 100 	* a striped tree-glider at A Lush Trail among the Zxyer Trees. (Max: 4)
+M 0 43000 4 43001 100 	* a striped tree-glider at Deeper among the Zxyer Trees. (Max: 4)
+M 0 43000 4 43002 100 	* a striped tree-glider at A Mossy Hollow. (Max: 4)
+M 0 43000 4 43002 100 	* a striped tree-glider at A Mossy Hollow. (Max: 4)
+M 0 43001 3 43006 100 	* a dappled valley deer at A Meadow of Silver Grass. (Max: 3)
+M 0 43001 3 43006 100 	* a dappled valley deer at A Meadow of Silver Grass. (Max: 3)
+M 0 43001 3 43005 100 	* a dappled valley deer at The Valley Floor. (Max: 3)
+M 0 43002 2 43023 100 	* a silver fox at A Thicket of Thorns. (Max: 2)
+M 0 43002 2 43007 100 	* a silver fox at The Singing Brook. (Max: 2)
+M 0 43003 2 43009 100 	* a giant forest boar at The Golden Orchard. (Max: 2)
+G 1 43003 2 100 			* And give it a curving boar tusk. (Max: 2)
+M 0 43003 2 43009 100 	* a giant forest boar at The Golden Orchard. (Max: 2)
+O 0 43000 6 43009 100 	* a golden Zxyer fruit at The Golden Orchard. (Max: 6)
+O 0 43000 6 43009 100 	* a golden Zxyer fruit at The Golden Orchard. (Max: 6)
+M 0 43004 1 43010 100 	* Corrin, the centaur warden, at The Warden's Glade. (Max: 1)
+E 1 43002 1 17 100 			* And equip him with a centaur's ash spear. (Max: 1)
+E 1 43006 1 2 100 			* And equip him with a silver spindle brooch. (Max: 1)
+M 0 43005 2 43011 100 	* a mischievous pixie at The Ring of Standing Stones. (Max: 2)
+M 0 43005 2 43026 100 	* a mischievous pixie at The Waterfall at the Valley's Head. (Max: 2)
+M 0 43006 1 43025 100 	* a thornback bear at Inside the Fallen Zxyer. (Max: 1)
+G 1 43004 1 100 			* And give it a thornback bear pelt. (Max: 1)
+M 0 43007 2 43020 100 	* the shade of a lost traveller at The Road of What Will Be. (Max: 2)
+M 0 43007 2 43027 100 	* the shade of a lost traveller at Behind the Waterfall. (Max: 2)
+M 0 43012 1 43012 100 	* an ancient Zxyer treeherd at The Path of Threads. (Max: 1)
+G 1 43005 1 100 			* And give it a staff of Zxyer heartwood. (Max: 1)
+M 0 43008 1 43017 100 	* the Spinner at The Spinner's Glade. (Max: 1)
+M 0 43009 1 43019 100 	* the Measurer at The Measurer's Glade. (Max: 1)
+M 0 43010 1 43021 100 	* the Cutter at The Cutter's Glade. (Max: 1)
+M 0 43011 1 43014 100 	* the Pool of Reflections (puzzle fixture) at The Pool of Reflections. (Max: 1)
+O 0 43001 1 43022 100 	* a bracelet of woven fate-thread at The Loom of Fate. (Max: 1)
 S
 $~

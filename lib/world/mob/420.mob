@@ -1,24 +1,41 @@
 #42000
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+morvane dark twin lich gemmar~
+Morvane of House Gemmar~
+Morvane, the Dark Twin, sits upon a throne of black stone, smiling.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+Once he was a handsome young man, and something of that remains: the
+fine bones of his face, the easy smile, the long elegant hands.  The
+rest has withered away to parchment skin stretched over bone, and his
+eyes burn with a cold green fire.  Black roots run from the throne into
+his back and shoulders, and every few moments they pulse, and a far-off
+moan drifts down from the forest above.  He and his sister were born
+beneath one star; he swore that he would never die, and he has kept his
+word at the cost of everyone around him.
+~
+bdfglnpt adk -1000 E
+28 59 66 25d20+1300 5d10+18
+3000 250000
+8 8 1
+BareHandAttack: 10
+Int: 18
+Wis: 15
+Height: 70
+E
+>in_file_prog morvane.prg~
+|
 #42001
-Fiend~
-The Fiend~
-Before you stands the Fiend. Beckoning your approach.
+fiend skeleton cloaked~
+the Fiend~
+Before you stands the Fiend, beckoning you to approach.
 ~
-The Fiend is a ghastly sight.  It appears to be a skeleton, with a
-sinister, hellishly grinning skull.  The eyes are the only thing which
-appear to be human, yet nothing human lurks behind them.
+The Fiend is a ghastly sight.  It appears to be a skeleton with a
+sinister, hellishly grinning skull, wrapped in the dark cloak that hid
+it as it led you through the woods.  Only its eyes appear human, and
+nothing human lurks behind them.  It is Morvane's huntsman, and it
+brings the souls that feed the trees.
 ~
 bdfglpt adk -1000 E
-25 69 63 100d50+4000 6d22+68
+25 53 63 20d20+1000 4d10+14
 0 169375
 8 8 1
 BareHandAttack: 10
@@ -31,983 +48,166 @@ Cha: 14
 Height: 96
 E
 #42002
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+tree soul weeping twisted~
+a weeping soul-tree~
+A pale, twisted tree bends toward you, a face of agony in its bark.
 ~
-d 0 0 S
-0 3 9 0d0+0 0d0+0
-0 0
+The tree is pale and leafless, its bark gathered into the unmistakable
+face of a man or woman, mouth open in a silent scream.  Its branches
+reach toward you, and sap runs from its eyes like tears.  Whoever it
+was, it is not entirely gone; and what is left of it is not friendly.
+~
+bdgp 0 -400 E
+18 39 33 1d80+300 2d8+8
+0 25000
 8 8 0
+BareHandAttack: 7
+E
+>in_file_prog soul_tree.prg~
+|
 #42003
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+ghoul~
+a ghoul~
+A hunched ghoul gnaws on something it has dug up.
 ~
-d 0 0 S
-0 3 1 0d0+0 0d0+0
-0 0
+The ghoul was a man once, or something like one.  Now it is gray,
+hairless and gaunt, with long cracked nails and a mouth full of yellow
+teeth, and it smells of the grave.  It looks up from its meal with flat,
+hungry eyes.
+~
+dfgl k -700 E
+18 39 33 15d20+190 3d6+6
+150 30000
 8 8 0
+BareHandAttack: 8
+E
 #42004
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+wight barrow~
+a barrow wight~
+A barrow wight stalks among the tombs, its eyes like cold stars.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+The wight is a tall, gaunt figure in the rotted finery of a lord of
+House Gemmar, a circlet of tarnished silver on its brow.  Its flesh is
+gray and dry, and its eyes are two points of cold, pale light.  The air
+around it is bitterly cold.
+~
+dfgl dk -800 E
+21 45 50 20d20+250 3d8+8
+400 45000
+8 8 1
+BareHandAttack: 3
+E
 #42005
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+skeleton crypt guard skeletal~
+a skeletal crypt guard~
+A skeleton in rusted mail stands guard, a spear in its bony hands.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+The skeleton wears a coat of rusted mail and a helm that hangs crookedly
+on its skull, and it holds a spear with the patience of something that
+has stood guard for a hundred years and will stand for a hundred more.
+~
+dfgl k -500 E
+20 43 40 20d20+200 3d6+8
+50 40000
 8 8 0
+BareHandAttack: 11
+E
 #42006
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+light pale spirit aurelle~
+a pale, radiant light~
+A pale, radiant light hovers above the crypt, almost taking the shape of a young woman.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
+The light is soft and golden, warm in this cold place, and as you watch
+it it gathers itself into the shape of a young woman with a sad, gentle
+face.  The shape never quite holds; it wavers and fades and gathers
+itself again, like a candle flame in a draft.
+~
+bdenopq k 1000 E
+20 43 40 1d1+30000 1d1+0
 0 0
-8 8 0
+8 8 2
+E
+>in_file_prog aurelle.prg~
+|
 #42007
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+banshee wailing spirit~
+a banshee~
+A banshee rises from the well, her endless wail cutting through you.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+She is a ghost of a woman, gray and translucent, her hair drifting about
+her as though she were under water.  Her face is twisted with grief, and
+her wail never stops, rising and falling but never ending.
+~
+dfgl bk -700 E
+22 47 54 20d20+280 3d8+10
+0 50000
+8 8 2
+BareHandAttack: 8
+E
 #42008
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+worm grave corpse-fed~
+a corpse-fed grave worm~
+A pale grave worm, thick as a man's thigh, writhes out of the earth.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+It is a worm, but one as long as a horse and as thick as a man's thigh,
+pale and glistening, with a round mouth ringed by tiny hooked teeth.  It
+has grown fat on the dead of House Gemmar, and it is not particular
+about whether its meals are dead yet.
+~
+dfgb k 0 E
+19 41 30 18d20+200 2d10+8
+0 35000
 8 8 0
+BareHandAttack: 4
+E
 #42009
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+bone sentinel guardian~
+a bone sentinel~
+A towering sentinel of fused bones stands guard here, motionless.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+Built from the bones of many bodies fused into one huge frame, the
+sentinel stands half again as tall as a man, with four arms and a skull
+for a head that turns, slowly, to follow you.  It does not breathe, and
+it does not blink.
+~
+bdfglq k -600 E
+24 51 60 25d20+300 4d8+10
+0 80000
 8 8 0
+BareHandAttack: 6
+E
 #42010
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+hobb gravedigger old man~
+old Hobb the gravedigger~
+Old Hobb the gravedigger sits on his cot, sharpening a shovel and talking to himself.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+Hobb is ancient, bent nearly double, with a fringe of white hair and a
+face like a dried apple.  He has dug graves here for longer than he can
+remember, for a family long dead and for the strangers the Fiend brings,
+and somewhere along the way he stopped being entirely sane.  He talks to
+himself constantly, and to his shovel, and occasionally to you.
+~
+bden 0 0 E
+12 25 16 10d10+100 2d6+3
+20 0
+8 8 1
+BareHandAttack: 5
+E
+>in_file_prog hobb.prg~
+|
 #42011
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+door white marble face fixture~
+the white marble door~
+A white marble door, carved with the face of a sleeping woman, stands in the west wall.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42012
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42013
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42014
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42015
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42016
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42017
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42018
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42019
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42020
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42021
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42022
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42023
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42024
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42025
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42026
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42027
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42028
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42029
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42030
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42031
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42032
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42033
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42034
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42035
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42036
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42037
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42038
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42039
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42040
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42041
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42042
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42043
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42044
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42045
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42046
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42047
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42048
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42049
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42050
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42051
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42052
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42053
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42054
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42055
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42056
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42057
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42058
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42059
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42060
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42061
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42062
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42063
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42064
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42065
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42066
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42067
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42068
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42069
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42070
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42071
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42072
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42073
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42074
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42075
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42076
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42077
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42078
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42079
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42080
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42081
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42082
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42083
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42084
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42085
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42086
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42087
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42088
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42089
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42090
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42091
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42092
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42093
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42094
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42095
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42096
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42097
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42098
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#42099
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+A door of pale marble, carved with the face of a sleeping young woman.
+It has no handle, no lock and no seam.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
+bdenopq k 0 E
+1 0 0 1d1+30000 1d1+0
 0 0
 8 8 0
+E
+>in_file_prog pz_whitedoor.prg~
+|
 $~

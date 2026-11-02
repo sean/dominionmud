@@ -1,610 +1,559 @@
 #43000
-Room 43000~
-You are walking along the lush trail in the forest of Zxyer trees, heavy under
-lay covers the forest floor like a giant green quilt. The sun barely shines
-through. With the Huge canopy like crest of the Zxyer trees. But some light
-does manage to com through in arrays of dancing spectres. You see sev
-eral small creatures playing about and lookin for food. To the
-north the forest get a litt more dense.
+A Lush Trail among the Zxyer Trees~
+   You are walking along a lush trail through a forest of Zxyer trees,
+giants with smooth, silver-green bark and crowns so broad that they meet
+overhead like the roof of a great hall.  A thick undergrowth covers the
+forest floor like a green quilt.  The sun barely reaches the ground, but
+here and there its light breaks through in shifting spears that dance
+like spirits, and small creatures play among the roots and search for
+food.  To the north the forest grows denser.  To the south, the ancient
+archway stands among the trees, its stones strangely blurred, as if seen
+through water.
 ~
-430 fgst 3
+430 0 3
 D0
 ~
 ~
-0 0 43001
+0 -1 43001
+D2
+~
+~
+0 -1 32621
 S
 #43001
-Room 43001~
-  This lovely room has yet to be written.
+Deeper among the Zxyer Trees~
+   The Zxyer trees crowd closer here, and their silver trunks rise like
+the pillars of a temple.  The air is warm and still and smells of green
+things growing.  A soft hum fills the forest, so low you feel it more
+than hear it, as though the whole wood were quietly singing to itself.
+The trail continues north, a mossy hollow opens to the east, and the way
+back lies south.
 ~
-430 0 0
+430 0 3
+D0
+~
+~
+0 -1 43003
+D1
+~
+~
+0 -1 43002
+D2
+~
+~
+0 -1 43000
 S
 #43002
-Room 43002~
-  This lovely room has yet to be written.
+A Mossy Hollow~
+   The ground dips here into a round hollow carpeted with thick, springy
+moss of a deep emerald green.  Fallen Zxyer leaves, each as big as a
+shield, lie scattered about, and small creatures have made nests beneath
+them.  The hollow is warm and sheltered and very quiet.  The trail lies
+back to the west.
 ~
-430 0 0
+430 0 3
+D3
+~
+~
+0 -1 43001
 S
 #43003
-Room 43003~
-  This lovely room has yet to be written.
+The Rim of the Valley~
+   The forest opens suddenly at the edge of a great green valley.  Below
+you, cupped between wooded slopes, lie meadows of silver grass, a
+winding brook, an orchard heavy with golden fruit and, at the valley's
+far end, a waterfall spilling down from the heights in a veil of mist.
+Over it all hangs a strange stillness, as though the valley were waiting
+for something.  A path winds down the slope, and the forest lies to the
+south.
 ~
-430 0 0
+430 0 4
+D2
+~
+~
+0 -1 43001
+D5
+~
+~
+0 -1 43004
+E
+valley meadows waterfall~
+From up here the valley's paths look almost like threads, winding and
+crossing and coming together at its heart, where three roads meet beside
+a still, round pool.
+~
 S
 #43004
-Room 43004~
-  This lovely room has yet to be written.
+A Switchback Path~
+   The path zigzags down the valley side between boulders furred with
+moss, doubling back on itself again and again.  Every few turns you
+catch a glimpse of the valley floor below through the trees.  The path
+leads up to the rim and down to the valley floor.
 ~
-430 0 0
+430 0 4
+D4
+~
+~
+0 -1 43003
+D5
+~
+~
+0 -1 43005
 S
 #43005
-Room 43005~
-  This lovely room has yet to be written.
+The Valley Floor~
+   You stand at the foot of the switchback path, on the floor of the
+Valley of Fate.  The air down here is warm and fragrant, and the silence
+is broken only by the chuckle of running water somewhere nearby.
+Meadows of silver grass stretch away to the north and east, and a
+thicket of thorns grows close to the west.  The path climbs back up the
+valley side.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43006
+D1
+~
+~
+0 -1 43007
+D3
+~
+~
+0 -1 43023
+D4
+~
+~
+0 -1 43004
 S
 #43006
-Room 43006~
-  This lovely room has yet to be written.
+A Meadow of Silver Grass~
+   Long grass with silver tips ripples in a breeze you cannot feel, and
+when it moves it whispers, a soft, endless murmur like many voices
+talking far away.  Small blue flowers grow among the grass, each one
+turned toward the center of the valley.  The meadow continues north and
+east, and the valley floor lies south.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43010
+D1
+~
+~
+0 -1 43009
+D2
+~
+~
+0 -1 43005
 S
 #43007
-Room 43007~
-  This lovely room has yet to be written.
+The Singing Brook~
+   A clear brook runs here over a bed of round white stones, and the
+sound it makes is so like singing that you find yourself listening for
+words.  Small silver fish dart in the shallows.  The brook flows on to
+the east, where it can be forded, and the valley floor lies to the west.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43009
+D1
+~
+~
+0 -1 43008
+D3
+~
+~
+0 -1 43005
 S
 #43008
-Room 43008~
-  This lovely room has yet to be written.
+A Ford across the Brook~
+   Flat stepping stones cross the brook here, worn smooth and hollowed
+in the middle by countless feet.  On the far bank a great fallen Zxyer
+tree lies across the valley floor to the south, and the brook winds away
+north toward the orchard.  The singing brook lies back to the west.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43011
+D2
+~
+~
+0 -1 43024
+D3
+~
+~
+0 -1 43007
 S
 #43009
-Room 43009~
-  This lovely room has yet to be written.
+The Golden Orchard~
+   Here the Zxyer trees grow smaller and wider, and their branches hang
+heavy with round golden fruit that glows faintly in the shade.  The
+ground is thick with fallen fruit, and the air is sweet and drowsy with
+its scent.  Bees as fat as your thumb drone among the branches.  The
+orchard opens onto meadows to the west and south, and to the east lies a
+ring of standing stones.
 ~
-430 0 0
+430 0 3
+D1
+~
+~
+0 -1 43011
+D2
+~
+~
+0 -1 43007
+D3
+~
+~
+0 -1 43006
 S
 #43010
-Room 43010~
-  This lovely room has yet to be written.
+The Warden's Glade~
+   A small glade opens among the Zxyer trees, where a shelter of woven
+boughs stands beside a fire pit ringed with stones.  The grass has been
+trampled by heavy hooves, and a whetstone and a bundle of arrows lie by
+the fire.  Someone keeps watch over the valley from here.  A path leads
+north toward the sound of falling water, and the meadow lies to the
+south.
 ~
-430 0 0
+430 0 3
+D0
+~
+~
+0 -1 43026
+D2
+~
+~
+0 -1 43006
 S
 #43011
-Room 43011~
-  This lovely room has yet to be written.
+The Ring of Standing Stones~
+   Nine tall gray stones stand in a ring here, each carved with a single
+figure: a child, a youth, a lover, a parent, a warrior, an elder, a
+mourner, a corpse and, on the last stone, nothing at all.  The grass
+inside the ring is short and soft, and no birds sing.  Paths lead north
+and west, and the ford lies to the south.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43012
+D2
+~
+~
+0 -1 43008
+D3
+~
+~
+0 -1 43009
+E
+stones figures ring carvings~
+Each figure is carved with great care, and each is the same person at a
+different age.  The last stone is blank, but when you touch it, it is
+warm.
+~
 S
 #43012
-Room 43012~
-  This lovely room has yet to be written.
+The Path of Threads~
+   The path here passes beneath Zxyer trees whose lower branches are
+hung with threads: thousands upon thousands of them, of every color and
+length, drifting and turning gently in the still air.  Some are bright
+and new, some faded almost to nothing, some cut short.  They brush
+against your face as you walk.  The path leads north, and the ring of
+stones lies to the south.
 ~
-430 0 0
+430 0 3
+D0
+~
+~
+0 -1 43013
+D2
+~
+~
+0 -1 43011
+E
+threads thread~
+Every thread is different.  Some are tied together in knots; some run
+side by side for a long way before they part; a few have been cut very
+short.  You have the uncomfortable feeling that one of them is yours.
+~
 S
 #43013
-Room 43013~
-  This lovely room has yet to be written.
+The Grove of Hanging Threads~
+   The threads grow so thick here that they form a shimmering curtain
+between the trees.  Behind it, the heart of the valley opens: a still
+pool and a place where three roads meet.  The path of threads leads back
+south, and the pool lies to the east.
 ~
-430 0 0
+430 0 3
+D1
+~
+~
+0 -1 43014
+D2
+~
+~
+0 -1 43012
 S
 #43014
-Room 43014~
-  This lovely room has yet to be written.
+The Pool of Reflections~
+   A round pool lies here, perfectly still, its water so clear and dark
+that it shows the sky above like a mirror, though the sky it shows is
+not the one overhead.  When you lean over it, the face that looks back
+at you is not quite your own: older, perhaps, or younger, or wearing an
+expression you have never worn.  Just to the north three roads meet, and
+the grove of threads lies to the west.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43015
+D3
+~
+~
+0 -1 43013
+E
+pool water reflection~
+The pool shows you yourself, and then, if you keep looking, others: a
+young woman at a spinning wheel, a woman with a measuring rod, an old
+woman with shears, and behind them all, very faint, a vast loom whose
+threads go on forever.
+~
 S
 #43015
-Room 43015~
-  This lovely room has yet to be written.
+The Meeting of Three Roads~
+   Three roads meet here north of the pool, each paved with a different
+stone.  The western road is paved in white, worn and familiar, and an
+old sign beside it reads "What Was".  The northern road is paved in gray
+and reads "What Is".  The eastern road is paved in black, its stones so
+new they might have been laid this morning, and its sign reads "What
+Will Be".  The pool lies to the south.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43018
+D1
+~
+~
+0 -1 43020
+D2
+~
+~
+0 -1 43014
+D3
+~
+~
+0 -1 43016
 S
 #43016
-Room 43016~
-  This lovely room has yet to be written.
+The Road of What Was~
+   The white road winds west between trees that seem older than the
+rest, their bark deeply furrowed.  As you walk, half-remembered things
+come back to you: voices, places, the smell of a kitchen you have not
+stood in for years.  The road leads on to the west and back east to the
+crossroads.
 ~
-430 0 0
+430 0 3
+D1
+~
+~
+0 -1 43015
+D3
+~
+~
+0 -1 43017
 S
 #43017
-Room 43017~
-  This lovely room has yet to be written.
+The Spinner's Glade~
+   In a sunlit glade at the end of the white road a spinning wheel
+stands on the grass, and the wool it spins is mist drawn from the air
+itself, pulled into a fine, shining thread that winds endlessly onto a
+growing spindle.  Flowers of every season bloom here at once.  The white
+road leads back east.
 ~
-430 0 0
+430 e 2
+D1
+~
+~
+0 -1 43016
 S
 #43018
-Room 43018~
-  This lovely room has yet to be written.
+The Road of What Is~
+   The gray road runs straight and level to the north, and here the
+valley is exactly as it is: no warmer, no colder, no brighter, no
+dimmer.  Even the wind seems to have chosen a speed and kept to it.  The
+road leads north and back south to the crossroads.
 ~
-430 0 0
+430 0 3
+D0
+~
+~
+0 -1 43019
+D2
+~
+~
+0 -1 43015
 S
 #43019
-Room 43019~
-  This lovely room has yet to be written.
+The Measurer's Glade~
+   At the end of the gray road lies a glade where long tables of
+polished Zxyer wood stand among the trees, covered in threads laid out
+side by side and marked off with tiny knots.  Measuring rods of every
+length lean against the trunks.  The gray road leads back south.
 ~
-430 0 0
+430 e 2
+D2
+~
+~
+0 -1 43018
 S
 #43020
-Room 43020~
-  This lovely room has yet to be written.
+The Road of What Will Be~
+   The black road runs east into a mist that thickens with every step,
+and you cannot see more than a few paces ahead.  Things move at the
+edges of the mist, shapes that might be anything, and they are gone when
+you turn to look.  The road leads east and back west to the crossroads.
 ~
-430 0 0
+430 0 3
+D1
+~
+~
+0 -1 43021
+D3
+~
+~
+0 -1 43015
 S
 #43021
-Room 43021~
-  This lovely room has yet to be written.
+The Cutter's Glade~
+   The black road ends in a twilit glade where the trees are bare and
+the grass is gray.  An old stump stands in the middle of the clearing,
+and on it lie a great pair of iron shears, worn bright along the blades.
+Around the stump the ground is littered with short, cut threads.  The
+black road leads back west.
 ~
-430 0 0
+430 e 2
+D3
+~
+~
+0 -1 43020
 S
 #43022
-Room 43022~
-  This lovely room has yet to be written.
+The Loom of Fate~
+   You stand inside the pool, or beneath it, or somewhere beyond it, in
+a vast, dim hall with no walls that you can find.  In the middle of it
+stands the Loom: a frame of silver-green Zxyer wood so tall that its top
+is lost in shadow, strung with more threads than there are stars, and
+the cloth it weaves stretches away into the darkness in every direction.
+It is weaving now, slowly, with no hands at the shuttle.  High above, a
+shimmer of light like the surface of water leads back up to the pool.
 ~
-430 0 0
+430 e 0
+D4
+~
+~
+0 -1 43014
+E
+loom cloth threads~
+Look closely at the cloth and you can see the pictures woven into it:
+kingdoms rising and falling, lovers meeting, battles, births, a kobold
+king on a lopsided throne.  Somewhere in it, you are sure, is a picture
+of you, standing right here, looking at the cloth.
+~
 S
 #43023
-Room 43023~
-  This lovely room has yet to be written.
+A Thicket of Thorns~
+   A dense thicket of thorny bushes grows here at the western edge of
+the valley floor, their branches tangled into a wall and hung with
+small, blood-red berries.  Narrow animal trails worm through the
+thicket, but none of them goes anywhere you could follow.  The valley
+floor lies to the east.
 ~
-430 0 0
+430 0 3
+D1
+~
+~
+0 -1 43005
 S
 #43024
-Room 43024~
-  This lovely room has yet to be written.
+The Fallen Zxyer~
+   A Zxyer tree of enormous size has fallen here across the valley
+floor, its roots torn out of the earth in a great wall of soil and stone
+taller than a house.  Its trunk, hollow with age, lies like a tunnel
+along the ground, and something large has been going in and out of it,
+judging by the trampled earth and the scratches on the bark.  The ford
+lies to the north, and an opening in the hollow trunk leads in.
 ~
-430 0 0
+430 0 2
+D0
+~
+~
+0 -1 43008
+D1
+~
+~
+0 -1 43025
 S
 #43025
-Room 43025~
-  This lovely room has yet to be written.
+Inside the Fallen Zxyer~
+   The hollow trunk of the fallen tree forms a long, dim tunnel, its
+floor deep in shredded wood, leaves and old bones.  The air is thick
+with the musky smell of a large animal.  The way out lies back west.
 ~
-430 0 0
+430 d 0
+D3
+~
+~
+0 -1 43024
 S
 #43026
-Room 43026~
-  This lovely room has yet to be written.
+The Waterfall at the Valley's Head~
+   At the head of the valley a waterfall spills from the heights in a
+long white veil, roaring into a deep pool and filling the air with
+drifting mist and rainbows.  The spray is cool and clean on your face.
+A narrow ledge leads behind the falling water, and the warden's glade
+lies back to the south.
 ~
-430 0 0
+430 0 2
+D2
+~
+~
+0 -1 43010
+D3
+~
+~
+0 -1 43027
 S
 #43027
-Room 43027~
-  This lovely room has yet to be written.
+Behind the Waterfall~
+   Behind the curtain of falling water lies a shallow cave, its walls
+glistening with damp and its floor scattered with smooth pebbles.  The
+roar of the falls is muffled here to a deep, steady thunder, and the
+light comes through the water in wavering ripples.  Someone has
+scratched words into the rock.  The ledge leads back east to the falls.
+~
+430 d 0
+D1
+~
+~
+0 -1 43026
+E
+words rock scratched~
+The words have been scratched by many hands over many years, one beneath
+another: "I came to change my fate."  "So did I."  "So did I."  At the
+very bottom, in a newer hand: 'The pool knows the name of the one who
+weaves.'
 ~
-430 0 0
-S
-#43028
-Room 43028~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43029
-Room 43029~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43030
-Room 43030~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43031
-Room 43031~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43032
-Room 43032~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43033
-Room 43033~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43034
-Room 43034~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43035
-Room 43035~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43036
-Room 43036~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43037
-Room 43037~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43038
-Room 43038~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43039
-Room 43039~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43040
-Room 43040~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43041
-Room 43041~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43042
-Room 43042~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43043
-Room 43043~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43044
-Room 43044~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43045
-Room 43045~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43046
-Room 43046~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43047
-Room 43047~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43048
-Room 43048~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43049
-Room 43049~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43050
-Room 43050~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43051
-Room 43051~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43052
-Room 43052~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43053
-Room 43053~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43054
-Room 43054~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43055
-Room 43055~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43056
-Room 43056~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43057
-Room 43057~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43058
-Room 43058~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43059
-Room 43059~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43060
-Room 43060~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43061
-Room 43061~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43062
-Room 43062~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43063
-Room 43063~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43064
-Room 43064~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43065
-Room 43065~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43066
-Room 43066~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43067
-Room 43067~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43068
-Room 43068~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43069
-Room 43069~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43070
-Room 43070~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43071
-Room 43071~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43072
-Room 43072~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43073
-Room 43073~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43074
-Room 43074~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43075
-Room 43075~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43076
-Room 43076~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43077
-Room 43077~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43078
-Room 43078~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43079
-Room 43079~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43080
-Room 43080~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43081
-Room 43081~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43082
-Room 43082~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43083
-Room 43083~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43084
-Room 43084~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43085
-Room 43085~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43086
-Room 43086~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43087
-Room 43087~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43088
-Room 43088~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43089
-Room 43089~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43090
-Room 43090~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43091
-Room 43091~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43092
-Room 43092~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43093
-Room 43093~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43094
-Room 43094~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43095
-Room 43095~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43096
-Room 43096~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43097
-Room 43097~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43098
-Room 43098~
-  This lovely room has yet to be written.
-~
-430 0 0
-S
-#43099
-Room 43099~
-  This lovely room has yet to be written.
-~
-430 0 0
 S
 $~

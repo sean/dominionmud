@@ -1,723 +1,187 @@
 #5800
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+key iron practice~
+an iron practice key~
+A small iron key lies here, tagged 'Hall of Locks'.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+18 0 a
+0 0 0 0 0 0 0 18 14
+1 1 0
 #5801
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+pin academy graduate~
+an Academy graduate's pin~
+A small brass pin in the shape of an open book lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ac
+1 0 0 0 0 0 0 11 14
+1 50 5
+E
+pin academy brass~
+A brass pin in the shape of an open book, engraved: 'Proving Halls -
+Passed'.
+~
+A
+13 5
 #5802
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+sword wooden practice~
+a wooden practice sword~
+A wooden practice sword lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 1 5 3 0 0 0 10 14
+3 5 1
 #5803
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+battleaxe axe kinthalas red~
+a Kinthalas battleaxe~
+A heavy battleaxe with a red-painted haft lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 3 5 3 0 0 0 18 24
+18 400 40
 #5804
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+scale armor kinthalas red~
+a suit of red scale armor~
+A suit of red-enameled scale armor lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ad
+8 0 0 0 0 0 0 18 24
+30 700 70
+A
+2 -1
 #5805
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+helm horned skull~
+a horned skull helm~
+A helm made from the skull of a great horned beast lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ae
+4 0 0 0 0 0 0 0 24
+6 500 50
+A
+18 1
 #5806
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+robe gray byterian~
+a gray Byterian robe~
+A long gray robe embroidered with a white axe lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ad
+4 0 0 0 0 0 0 5 24
+4 400 40
+A
+12 20
 #5807
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+staff oak byterian~
+a Byterian oak staff~
+A staff of polished oak, crackling faintly, lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 g am
+0 2 6 5 0 0 0 10 14
+6 600 60
+A
+12 15
 #5808
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+axe red krommyon great~
+Krommyon's red axe~
+An enormous double-bladed axe, stained dark red, lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 g am
+0 4 6 3 0 0 0 18 24
+25 9000 900
+E
+axe red~
+The axe is as tall as a man, its twin blades notched and stained so dark
+a red that it is almost black.  Only a minotaur, or someone very strong,
+could swing it.
+~
+A
+18 3
+A
+19 3
 #5809
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+axe white kerkyon~
+Kerkyon's white axe~
+A great axe with a blade of white-enameled steel lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 g am
+0 4 5 3 0 0 0 18 24
+22 8000 800
+A
+18 2
+A
+19 2
+A
+13 20
 #5810
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+robe singed dhak~
+a singed robe~
+A badly singed robe, smelling of smoke, lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 g ad
+3 0 0 0 0 0 0 4 24
+3 2500 250
+A
+12 40
+A
+3 1
 #5811
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+chart star skeiron~
+a Byterian star chart~
+A large star chart, covered in notes, lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+8 0 a
+0 0 0 0 0 0 0 22 14
+1 1500 0
+E
+chart star notes~
+The chart shows the stars above Karras, with the path of a single red
+star traced across them over many years.  In the margin Skeiron has
+written: 'When the red star crosses the white, the clans will be one
+again, or there will be only one clan.'
+~
 #5812
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+rod iron measuring prokrustes~
+an iron measuring rod~
+A long rod of iron marked with notches lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 3 6 5 0 0 0 18 14
+12 2000 200
+A
+18 2
 #5813
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+pelt panther black~
+a black panther pelt~
+A sleek black panther pelt lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 aj
+3 0 0 0 0 0 0 8 14
+4 600 60
+A
+2 1
 #5814
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+belt serpent skin~
+a serpent-skin belt~
+A belt made from olive and black snakeskin lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ak
+2 0 0 0 0 0 0 8 14
+2 400 40
+A
+5 1
 #5815
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+fruit jungle mango~
+a ripe jungle fruit~
+A large, ripe jungle fruit lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+19 0 a
+10 0 0 0 0 0 0 0 14
+1 5 1
 #5816
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5817
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5818
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5819
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5820
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5821
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5822
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5823
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5824
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5825
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5826
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5827
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5828
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5829
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5830
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5831
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5832
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5833
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5834
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5835
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5836
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5837
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5838
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5839
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5840
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5841
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5842
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5843
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5844
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5845
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5846
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5847
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5848
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5849
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5850
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5851
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5852
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5853
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5854
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5855
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5856
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5857
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5858
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5859
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5860
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5861
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5862
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5863
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5864
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5865
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5866
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5867
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5868
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5869
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5870
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5871
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5872
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5873
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5874
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5875
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5876
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5877
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5878
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5879
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5880
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5881
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5882
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5883
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5884
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5885
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5886
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5887
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5888
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5889
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+loaf bread black~
+a loaf of black bread~
+A heavy loaf of black bread lies here.~
+~
+19 0 a
+20 0 0 0 0 0 0 0 14
+2 10 2
 #5890
 silverleaf~
 a silverleaf~
@@ -749,14 +213,6 @@ A
 12 5
 A
 13 -5
-#5892
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
 #5893
 log~
 a hallow log~
@@ -770,852 +226,4 @@ log~
    The log is about 2 feet in length and is about 6 inches
 in width.  You notice that it is hallow.
 ~
-#5894
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5895
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5896
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5897
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5898
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5899
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5900
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5901
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5902
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5903
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5904
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5905
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5906
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5907
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5908
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5909
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5910
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5911
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5912
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5913
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5914
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5915
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5916
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5917
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5918
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5919
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5920
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5921
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5922
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5923
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5924
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5925
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5926
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5927
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5928
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5929
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5930
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5931
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5932
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5933
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5934
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5935
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5936
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5937
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5938
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5939
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5940
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5941
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5942
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5943
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5944
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5945
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5946
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5947
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5948
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5949
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5950
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5951
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5952
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5953
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5954
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5955
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5956
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5957
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5958
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5959
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5960
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5961
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5962
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5963
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5964
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5965
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5966
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5967
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5968
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5969
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5970
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5971
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5972
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5973
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5974
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5975
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5976
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5977
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5978
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5979
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5980
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5981
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5982
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5983
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5984
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5985
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5986
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5987
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5988
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5989
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5990
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5991
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5992
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5993
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5994
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5995
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5996
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5997
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5998
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#5999
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
 $~

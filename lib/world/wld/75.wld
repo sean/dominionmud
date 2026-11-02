@@ -856,10 +856,19 @@ D3
 0 -1 7542
 S
 #7544
-Room #7544~
-This description is yet unfinished...
+The Weeping Edge~
+   The Blackwood comes to an end here.  To the east the dead, dripping
+trees give way to a grove of pale, twisted trunks shrouded in a cold
+mist, and from somewhere within it comes a faint sound like weeping.
+Even the ravens of the Blackwood will not perch on those branches.  The
+dark forest lies back to the west.
 ~
 75 a 3
+D1
+A pale grove shrouded in mist lies to the east.
+~
+~
+0 -1 42000
 D3
 ~
 ~

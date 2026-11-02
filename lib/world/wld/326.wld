@@ -417,13 +417,20 @@ D2
 S
 #32621
 The ancient archway~
-   Large stones cut square have been stacked high here to make some sort
-of archway.  Strange etchings run across its top stone, unreadable now,
+   Large stones cut square have been stacked high here to make an
+archway.  Strange etchings run across its top stone, worn almost smooth,
 though their meaning lingers somehow.  To the east a road leads through
 gentle rolling hills, and to the west begins the majestic Pelarinne
-Forest, with a trail leading into it.
+Forest, with a trail leading into it.  When you look north through the
+arch, the forest beyond it seems greener and stranger than it has any
+right to be.
 ~
 326 p 2
+D0
+Through the arch you can see a lush forest of great silver-green trees.
+~
+~
+0 -1 43000
 D1
 ~
 ~
@@ -432,6 +439,12 @@ D3
 ~
 ~
 0 -1 32620
+E
+etchings arch top stone archway~
+The etchings are worn almost away, but you can still make out three
+women: one spinning, one holding a measuring rod, and one, bent and old,
+holding a pair of shears.
+~
 S
 #32622
 Turn in the road~

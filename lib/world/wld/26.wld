@@ -94,6 +94,10 @@ interesting patterns and a carving of a huge compass dominates the far wall.
 You feel comfortable just standing here.
 ~
 26 d 0
+D1
+~
+~
+0 -1 1144
 D2
 The room of meeting.
 ~
@@ -173,6 +177,10 @@ The room of meeting.
 ~
 ~
 0 -1 2609
+D2
+~
+~
+0 -1 3084
 D4
 To the practicing hall.
 ~
@@ -332,6 +340,10 @@ The room of meeting.
 ~
 ~
 0 -1 2617
+D2
+~
+~
+0 -1 3010
 D4
 To the practicing hall.
 ~
@@ -405,6 +417,10 @@ musicians.  The place has a definitive elven feel to it and you sigh
 contentedly thanks to the atmosphere.
 ~
 26 d 0
+D2
+~
+~
+0 -1 19028
 D3
 To the meeting hall.
 ~
@@ -487,10 +503,9 @@ The Dominion.
 ~
 26 d 0
 D0
-This will put you back out onto Silverstream Way.
 ~
 ~
-0 0 3060
+0 -1 3053
 D3
 The room of meeting.
 ~
@@ -566,6 +581,10 @@ Fraternity of Order by slashing them with blades, torturing them with hot coals
 or simply running them down underneath the hooves of their warhorses.
 ~
 26 d 0
+D0
+~
+~
+0 -1 5008
 D3
 The room of meeting.
 ~
@@ -643,6 +662,10 @@ chamber are the names of every knight that gave his life defending this
 religion and this guild.
 ~
 26 d 0
+D1
+~
+~
+0 -1 3046
 D3
 The room of meeting.
 ~
@@ -727,6 +750,10 @@ To the practice area.
 ~
 ~
 0 -1 2638
+D4
+~
+~
+0 -1 10037
 D5
 The room of meeting.
 ~
@@ -804,6 +831,10 @@ To the practice area.
 ~
 ~
 0 -1 2642
+D4
+~
+~
+0 -1 10030
 D5
 The room of meeting.
 ~
@@ -876,10 +907,9 @@ this clan out of the tower.
 ~
 26 d 0
 D3
-You see the trees of the Sacred Grove....
 ~
 ~
-0 0 3078
+0 -1 3078
 D4
 To the storeroom.
 ~
@@ -958,6 +988,10 @@ with the torches burning, the entryway still feels a bit chilled.  A large
 spiral staircase leads up into the darkness and further into the tower.
 ~
 26 d 0
+D2
+~
+~
+0 -1 10017
 D4
 To the storeroom.
 ~

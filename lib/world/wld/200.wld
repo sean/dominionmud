@@ -602,7 +602,8 @@ choose.  The Sea of Tears surrounds you, stretching all the way to every
 horizon, gray-green and endless.  The constant slap of the crests
 against your hull begins to grate on your ears, and you know it will be
 some time before you reach dry land... if you can ever find it again.  A
-long strand of seaweed drifts past.
+long strand of seaweed drifts past.  Far to the east, a dark smudge of
+land crowned with green breaks the horizon.
 ~
 200 0 7 -268437728 0
 D0
@@ -610,9 +611,10 @@ D0
 ~
 0 0 20029
 D1
+A black beach and a wall of green jungle lie to the east.
 ~
 ~
-0 0 20029
+0 -1 5810
 D2
 ~
 ~
@@ -1332,8 +1334,9 @@ S
 Hole in the Floor~
    You have entered a cramped room, about ten feet on each side, nearly
 filled by a hole some eight feet across that gapes in the middle of the
-floor.  Its edges are rough and broken, and a cold draft rises from the
-darkness below.  An oaken door leads east.
+floor.  A huge wooden staircase spirals down through it into the depths
+of the earth, and a cold draft rises from the darkness below, carrying
+the distant clatter of many small feet.  An oaken door leads east.
 ~
 200 ad 0
 D1
@@ -1341,6 +1344,11 @@ You see a roughly hewn hallway.
 ~
 ~
 0 -1 20066
+D5
+A rickety wooden staircase spirals down into the darkness.
+~
+~
+0 -1 2724
 E
 hole floor~
 Upon closer examination of the hole in the floor you realize that it is a 

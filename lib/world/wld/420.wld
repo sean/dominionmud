@@ -1,720 +1,600 @@
 #42000
-Room 42000~
-  This lovely room has yet to be written.
+Where the Blackwood Weeps~
+   The black, dripping trees of the Blackwood thin out here, and
+something about the forest changes.  The mist grows thicker and colder,
+and the trees ahead are of another kind altogether, pale and twisted,
+their bark gathered into knots and hollows that look disturbingly like
+faces.  A faint path, little more than a parting in the mist, leads
+north between them.  The Blackwood lies to the west.
 ~
-420 0 0
+420 0 3
+D0
+~
+~
+0 -1 42001
+D3
+~
+~
+0 -1 7544
 S
 #42001
-Room 42001~
-     As you enter this seemingly un-holy grove of trees a thick mist begins
-to swirl around you.  The denseness of the trees blocks out almost all the 
-light of the outside world, your lantern seems barely able to push back
-the enclosing darkness, creating only more shadows which play tricks with 
-your mind.  As you strain to see what's little more than an arm's length
-in front of you, you believe you can make out a dark form moving away
-from you in the dark distance.
+An Unholy Grove~
+   As you enter this unholy grove, a thick mist begins to swirl around
+you.  The trees grow so densely that they shut out almost all the light
+of the outside world, and your light seems barely able to push back the
+enclosing darkness, creating only more shadows to play tricks on your
+mind.  As you strain to see what lies little more than an arm's length
+ahead, you believe you can make out a dark form moving away from you
+into the distance, to the north.  The way out of the grove lies south.
 ~
 420 0 3
 D0
 ~
 ~
-0 0 42002
+0 -1 42002
+D2
+~
+~
+0 -1 42000
 S
 #42002
-Room 42002~
-     The darkness seems to close in even further upon you, your lantern
-casting all the more bizarre and spectral shadows.  As you peer at the 
-trees surrounding you they look more like trapped souls, frozen in twisted
-horror and eternal suffering.  Yet you still trust your sanity, and casting
-your fears aside take refuge in the belief you are still surrounded only by
-The forest is completely silent, no chirping birds, no animals 
-rustling the foliage around you.  Yet still in the distance, you make out 
-the dark figure, still moving ahead of you with a swiftness and silence
-which seems to mock your years of practice at stealth in such thick
-undergrowth.
+Among the Weeping Trees~
+   The darkness closes in even further, and your light casts ever more
+bizarre and spectral shadows.  The trees around you look more and more
+like trapped souls, frozen in twisted horror and eternal suffering.  The
+forest is completely silent: no birdsong, no rustle of small animals in
+the undergrowth.  And still, in the distance, the dark figure moves
+ahead of you with a swiftness and silence that mocks your best efforts
+to follow.  The path continues north and south.
 ~
 420 0 3
 D0
 ~
 ~
-0 0 42003
+0 -1 42003
 D2
 ~
 ~
-0 0 42001
+0 -1 42001
 S
 #42003
-Room 42003~
-     The darkness for now seems to be satisfied with the shadow it has cast
-upon you thus far, and although you still cannot see well your lantern seems
-to cast an easier glow here.  Something strange begins to take place now,
-for although the forest is still silent as a tomb, an eerie wind begins to
-blow about you.  Coming from seemingly nowhere it is a gentle yet unnerving
-wind, yet it stirs no leaves about your feet as it whistles through the
-trees.  Then suddenly you hear a wailing, a cry sounding as though it is
-straining to reach your ears from very far away place.  Still clinging to 
-what's left of your sanity you dismiss this as only the wind playing tricks
-with your ears.  And still looming just ahead of you is that fleeting dark
-figure.  Will you ever catch up to him?  If you do, do you really wish to
-know the secret of his stealth and agility?
+The Wailing Wind~
+   Although the forest is as silent as a tomb, an eerie wind begins to
+blow about you here.  It comes from nowhere, gentle yet unnerving, and
+though it whistles through the trees it stirs not a single leaf at your
+feet.  Then you hear a wailing, a cry straining to reach your ears from
+some very far away place.  You tell yourself that it is only the wind.
+Ahead of you, still, looms that fleeting dark figure.  Will you ever
+catch up to him?  And if you do, do you really wish to learn the secret
+of his stealth?  The path leads north and south.
 ~
 420 0 3
 D0
 ~
 ~
-0 0 42004
+0 -1 42004
 D2
 ~
 ~
-0 0 42002
+0 -1 42002
 S
 #42004
-Room 42004~
-     You venture further into the seemingly dead forest and suddenly realize
-the depressing, maddening darkness is now being shunned by an eerie, illusive
-almost ghostly light.  Looking about you trying to gain your wits, you 
-realize that in fact the trees seem to be more than trees.  Their bark
-gathering in strange formations to seemingly make the trees have faces,
-horribly sad faces.  The limbs now more like outstretched arms, reaching
-out for some form of help, although there is none.  The wind is still
-swirling about you, still sounding like echoed cries for help and release,
-] making the scene all the more disheartening.  But now, with the help of the
-new light to aid you, you can see that the figure ahead of you appears to
-be nothing more than a cloaked human, now either resting, or perhaps
-awaiting your arrival.  His seemingly carefree attitude toward your approach
-and his surroundings makes you wary as you venture forth.
+In the Ghost-Light~
+   The maddening darkness is giving way here to an eerie, ghostly light
+that seems to come from nowhere and everywhere at once.  In it you can
+see that the trees are more than trees: their bark has gathered into
+faces, horribly sad faces, and their limbs reach out like arms begging
+for a help that never comes.  The wind still swirls about you, sounding
+like echoed cries for release.  By the new light you can see that the
+figure ahead of you is a cloaked man, now either resting or perhaps
+awaiting your arrival.  His careless air makes you wary.  The path
+continues north and south.
 ~
 420 0 3
 D0
 ~
 ~
-0 0 42005
+0 -1 42005
 D2
 ~
 ~
-0 0 42003
+0 -1 42003
 S
 #42005
-Room 42005~
-     The light here, although not more than twice as bright as the eerie 
-glow cast on you earlier, is almost blinding after your being accustomed to
-these woods which are darker than night itself.  You can still see the 
-twisted horror upon the "faces" of the surrounding trees, all the more
-detailed in this brighter light.  The wind has stopped just as suddenly as
-it started.  What was once only superstitious fear is now becoming an
-overwhelming feeling of dread, in this strange un-explained forest.  And
- finally before you is the object that has continued to push you thus far,
-the fleeting, noiseless dark figure.  He casts aside his cloak and you now
-see why he moved with such stealth, luring you to this spot.
+The Fiend's Clearing~
+   The light here, though barely twice as bright as the glow that led
+you this far, is almost blinding after the darkness of these woods.  You
+can see the twisted horror on the faces of the surrounding trees in
+terrible detail.  The wind has stopped as suddenly as it began, and what
+was only a superstitious fear is becoming an overwhelming dread.  This
+is where the fleeting, noiseless figure was leading you.  To the west a
+tall iron gate, topped by a glowing skull, closes off a walled yard,
+while to the east the trees open onto a vast, forgotten graveyard.  The
+path leads back south.
 ~
-420 c 3
+420 0 3
 D1
 ~
 ~
-0 0 42007
+0 -1 42007
 D2
 ~
 ~
-0 0 42004
+0 -1 42004
 D3
-A gate is here with a glowing skull atop it.
+A tall iron gate stands here, a skull of pale stone set atop it, glowing
+with a cold light.
 ~
-Gate~
+gate iron~
 1 42003 42006
 S
 #42006
-Room 42006~
-     After struggling for a short time with the gate's lock, you stumble into
-a horrifying scene.  You are what in appears to be a removed section of the
-grave-yard you just viewed, yet there is but one single crypt here.  The sight
-of a solitary grave isn't enough to unnerve you, but the demonic portrayals and
-strange, ancient glyphs carved into the crypt seem to push you to the end of
-your wits.
-     Finally, your brain settling down, you see before you the source of the
-strange light which has dully illumed your path thus far.  However, now at its
-source it is no longer a dull light, but a vibrant radiance.  It seems to take
-shape before you.
+The Solitary Crypt~
+   Beyond the gate lies a walled-off corner of the graveyard holding
+just one crypt.  The sight of a single grave would not unnerve you, but
+the demonic figures and strange, ancient glyphs carved into this one
+push you to the end of your wits.  Here, too, is the source of the
+strange light that has lit your way: no longer dull, but a vibrant
+radiance hovering above the crypt, which seems to take shape as you
+watch.  A heavy stone door in the crypt leads down, and the gate leads
+back east.
 ~
 420 0 3
 D1
-A gate is here with a glowing skull atop it.
+A tall iron gate stands here, a skull of pale stone set atop it, glowing
+with a cold light.
 ~
-gate~
+gate iron~
 1 42003 42005
 D5
+A heavy stone door seals the crypt.
 ~
-Crypt~
-1 0 42008
+door crypt stone~
+1 -1 42008
+E
+glyphs figures crypt carvings~
+The carvings show two figures, a man and a woman so alike that they must
+be twins, standing back to back.  Around them demons dance and trees
+grow with faces in their bark.  Above them, worn but still legible, is a
+name: GEMMAR.
+~
 S
 #42007
-Room 42007~
-     You seem to have stumbled upon an immense, and expansive grave yard. 
-But here?  In the middle of a seemingly endless black forest?  The graves
-are crumbling from years of neglect, the headstones overgrown with weeds.
+The Forgotten Graveyard~
+   You have stumbled upon an immense graveyard, here in the middle of an
+endless black forest.  The graves are crumbling from years of neglect,
+and the headstones are overgrown with weeds and pale, dead-looking moss.
 Perhaps now would be a good time to reflect upon the life you once knew,
-and ponder the pain you may be forced to endure if you should decide to
-continue with your adventure through this accursed forest.
+and to ponder the pain you may be forced to endure if you continue
+through this accursed place.  The graves stretch away to the north and
+south, a great black mausoleum looms to the east, and the clearing lies
+to the west.
 ~
-420 0 3
+420 0 2
+D0
+~
+~
+0 -1 42010
+D1
+~
+~
+0 -1 42015
+D2
+~
+~
+0 -1 42012
 D3
 ~
 ~
-0 0 42005
+0 -1 42005
 S
 #42008
-Room 42008~
-  This lovely room has yet to be written.
+The Crypt Stair~
+   Narrow stone steps lead down from the crypt door into a cold, close
+darkness that smells of dust and old incense.  The walls are carved with
+the same demonic figures as the crypt above, and the glyphs between them
+seem to shift when you are not looking straight at them.  Another heavy
+door leads further down.
 ~
-420 0 0
+420 ad 0
+D4
+The crypt door leads back up.
+~
+door crypt stone~
+1 -1 42006
 D5
+A heavy wooden door, bound in black iron, leads down.
 ~
-Door~
-1 0 42009
+door wooden~
+1 -1 42009
 S
 #42009
-Room 42009~
-  This lovely room has yet to be written.
+The Lower Crypt~
+   The stair ends in a low, vaulted chamber where the dead of House
+Gemmar were laid to rest in niches cut into the rock.  Many of the
+niches are empty now, and those bones that remain have been disturbed.
+A passage leads north into the catacombs, and the door leads back up.
 ~
-420 0 0
+420 ad 0
+D0
+~
+~
+0 -1 42016
+D4
+The iron-bound door leads back up.
+~
+door wooden~
+1 -1 42008
 S
 #42010
-Room 42010~
-  This lovely room has yet to be written.
+Among the Toppled Headstones~
+   Headstones lie toppled and broken all around, as though something had
+shouldered its way up out of the earth and knocked them aside.  Several
+of the graves here are empty, their earth heaped beside them, and long
+scratches score the inside of the open coffins.  The graveyard continues
+east and back south.
 ~
-420 0 0
+420 0 2
+D1
+~
+~
+0 -1 42013
+D2
+~
+~
+0 -1 42007
 S
 #42011
-Room 42011~
-  This lovely room has yet to be written.
+The Gravedigger's Hut~
+   A tumbledown hut of gray planks leans against an old yew tree at the
+edge of the graveyard.  Inside are a cot, a cold stove, a rack of
+shovels worn down to stubs, and a wall covered from floor to ceiling in
+scratched tally marks, one for every grave its owner has ever dug, and a
+good many more besides.  The door leads back east into the graveyard.
 ~
-420 0 0
+420 d 0
+D1
+~
+~
+0 -1 42012
+E
+tally marks wall~
+There are thousands of them, scratched into the planks with a nail.
+Near the door, newer marks have been added beneath a crude drawing of
+two faces side by side, one smiling and one scowling.
+~
 S
 #42012
-Room 42012~
-  This lovely room has yet to be written.
+A Row of Open Graves~
+   A long row of graves has been dug here, all open and all empty,
+waiting.  Each has a headstone already set at its head, but the stones
+are blank.  A cold draft rises out of the open earth, and the bottom of
+every grave is lost in shadow.  The graveyard continues north and east,
+and a tumbledown hut leans against an old yew tree to the west.
 ~
-420 0 0
+420 0 2
+D0
+~
+~
+0 -1 42007
+D1
+~
+~
+0 -1 42014
+D3
+~
+~
+0 -1 42011
 S
 #42013
-Room 42013~
-  This lovely room has yet to be written.
+The Weeping Angel~
+   A great marble statue of a winged woman stands among the graves here,
+her face buried in her hands.  Water seeps from between her stone
+fingers and runs down her robes to pool at her feet, though there has
+been no rain.  Around the statue's base the grass is green, the only
+living green in this whole dead place.  Paths lead west and south.
 ~
-420 0 0
+420 0 2
+D2
+~
+~
+0 -1 42015
+D3
+~
+~
+0 -1 42010
+E
+statue angel woman~
+The statue's face is hidden, but her robes are carved with the sign of
+two stars side by side, one bright and one dark.  The water that seeps
+from her hands is warm, and tastes of salt.
+~
 S
 #42014
-Room 42014~
-  This lovely room has yet to be written.
+The Ossuary Wall~
+   A long wall has been built here entirely of bones: skulls, thighbones
+and ribs, set in careful patterns and packed with gray mortar.
+Thousands of empty eye sockets stare out across the graveyard.  Here and
+there a skull has been turned to face the wall, as if in shame.  The
+graveyard continues north and west.
 ~
-420 0 0
+420 0 2
+D0
+~
+~
+0 -1 42015
+D3
+~
+~
+0 -1 42012
 S
 #42015
-Room 42015~
-  This lovely room has yet to be written.
+The Mausoleum of House Gemmar~
+   A great mausoleum of black marble rises at the heart of the
+graveyard, its doors long since broken in.  Within, the floor is lined
+with the sealed tombs of a noble house, generation after generation of
+them.  At the far end two empty niches stand side by side beneath a
+carved inscription.  The mausoleum opens north, south and west.
 ~
-420 0 0
+420 d 0
+D0
+~
+~
+0 -1 42013
+D2
+~
+~
+0 -1 42014
+D3
+~
+~
+0 -1 42007
+E
+inscription niches~
+The inscription reads: "Morvane and Aurelle, last of House Gemmar, born
+beneath one star.  What one began, the other shall end."  Both niches
+are empty.
+~
 S
 #42016
-Room 42016~
-  This lovely room has yet to be written.
+A Catacomb Passage~
+   A narrow passage winds between walls lined with burial niches, each
+holding a bundle of rotted cloth and bones.  The ceiling is low enough
+that you must stoop, and every footstep sends dust trickling from the
+cracks.  Passages lead north, east and south.
 ~
-420 0 0
+420 ad 0
+D0
+~
+~
+0 -1 42017
+D1
+~
+~
+0 -1 42018
+D2
+~
+~
+0 -1 42009
 S
 #42017
-Room 42017~
-  This lovely room has yet to be written.
+The Niches of the Dead~
+   The walls here are honeycombed with niches from floor to ceiling, and
+in every one a skull has been placed facing outward.  They are all
+turned slightly, very slightly, toward the north, as though watching
+something in that direction.  The passage leads north and south.
 ~
-420 0 0
+420 ad 0
+D0
+~
+~
+0 -1 42019
+D2
+~
+~
+0 -1 42016
 S
 #42018
-Room 42018~
-  This lovely room has yet to be written.
+A Collapsed Gallery~
+   Part of the ceiling has fallen in here, burying the burial niches
+under a slope of earth and broken stone.  Something has been burrowing
+through the spoil, leaving round tunnels as wide as your arm, and the
+earth is wet and glistening around their mouths.  The only way out is
+back west.
 ~
-420 0 0
+420 ad 0
+D3
+~
+~
+0 -1 42016
 S
 #42019
-Room 42019~
-  This lovely room has yet to be written.
+The Bone Chapel~
+   This small chapel has been decorated entirely in bone.  Arches of
+thighbones frame the walls, a chandelier of ribs and vertebrae hangs
+from the ceiling, and the altar is built of stacked skulls.  On the
+altar lies a stone tablet carved with the sign of two stars, one bright
+and one dark.  Passages lead east, west and south.
 ~
-420 0 0
+420 ad 0
+D1
+~
+~
+0 -1 42020
+D2
+~
+~
+0 -1 42017
+D3
+~
+~
+0 -1 42021
 S
 #42020
-Room 42020~
-  This lovely room has yet to be written.
+The Hall of Urns~
+   Long shelves line this hall, crowded with funeral urns of clay,
+bronze and alabaster.  Many have been smashed, their ashes scattered
+across the floor in gray drifts.  In the dust you can make out the
+prints of bare, bony feet.  The hall leads north and west.
 ~
-420 0 0
+420 ad 0
+D0
+~
+~
+0 -1 42022
+D3
+~
+~
+0 -1 42019
 S
 #42021
-Room 42021~
-  This lovely room has yet to be written.
+The Weeping Well~
+   A round well, rimmed with white stone, stands in the middle of this
+chamber.  It is full almost to the brim, but not with water: when you
+look closely, the liquid is faintly salt, and very warm.  A thin,
+endless sobbing echoes up from somewhere far below.  Passages lead north
+and east.
 ~
-420 0 0
+420 ad 0
+D0
+~
+~
+0 -1 42023
+D1
+~
+~
+0 -1 42019
 S
 #42022
-Room 42022~
-  This lovely room has yet to be written.
+The Passage of Whispers~
+   Faint voices whisper here, just too low to make out, rising and
+falling like breath.  They seem to come from the walls themselves.
+Once, for a moment, you are sure you hear your own name.  The passage
+leads south and west.
 ~
-420 0 0
+420 ad 0
+D2
+~
+~
+0 -1 42020
+D3
+~
+~
+0 -1 42024
 S
 #42023
-Room 42023~
-  This lovely room has yet to be written.
+The Passage of Sighs~
+   The air in this passage is heavy and still, and it is filled with a
+soft, endless sighing, as if from some great creature asleep nearby.
+The walls are slick with damp.  The passage leads east and south.
 ~
-420 0 0
+420 ad 0
+D1
+~
+~
+0 -1 42024
+D2
+~
+~
+0 -1 42021
 S
 #42024
-Room 42024~
-  This lovely room has yet to be written.
+The Twin Stair~
+   Two passages meet here at the head of a broad stair that descends
+into the deepest part of the catacombs.  The stair is split down the
+middle by a low wall: the steps on the left are of white stone, worn
+smooth, and those on the right of black stone, sharp-edged and new.
+Passages lead east and west, and the stair leads down.
 ~
-420 0 0
+420 ad 0
+D1
+~
+~
+0 -1 42022
+D3
+~
+~
+0 -1 42023
+D5
+~
+~
+0 -1 42025
 S
 #42025
-Room 42025~
-  This lovely room has yet to be written.
+The Landing of Two Doors~
+   The twin stair ends at a narrow landing before an archway carved with
+two faces, one weeping and one laughing.  Cold air flows out of the
+archway to the north.  The stair leads back up.
 ~
-420 0 0
+420 ad 0
+D0
+~
+~
+0 -1 42026
+D4
+~
+~
+0 -1 42024
 S
 #42026
-Room 42026~
-  This lovely room has yet to be written.
+The Hall of Two Faces~
+   This long hall is divided down its length by a line of black and
+white tiles.  To the west, on the white side, stands a door of pale
+marble carved with the face of a young woman, her eyes closed as if in
+sleep; it has no handle, no lock and no seam that you can find.  To the
+east, on the black side, an open archway carved with the face of a
+laughing young man leads into darkness.  The landing lies to the south.
 ~
-420 0 0
+420 ad 0
+D1
+~
+~
+0 -1 42027
+D2
+~
+~
+0 -1 42025
+E
+white door marble woman face~
+The marble face is serene and beautiful.  Beneath it is carved a single
+line: "Speak the name we shared, and I will wake."  The door has no
+handle, no lock and no seam.
+~
 S
 #42027
-Room 42027~
-  This lovely room has yet to be written.
+The Sanctum of Morvane~
+   This is the heart of the catacombs and the source of the curse upon
+the forest above.  A great circle of glyphs has been inlaid in silver in
+the floor, and from it run hundreds of black roots, or veins, or both,
+climbing the walls and vanishing into the ceiling toward the trees and
+the trapped souls within them.  A throne of black stone stands in the
+center of the circle.  The only way out is back west.
 ~
-420 0 0
+420 ad 0
+D3
+~
+~
+0 -1 42026
+E
+glyphs circle roots veins~
+The roots pulse faintly, like veins, and each pulse brings a far-off
+moan from somewhere above.  Whatever is being drawn down through them is
+flowing to the throne at the center of the circle.
+~
 S
 #42028
-Room 42028~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42029
-Room 42029~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42030
-Room 42030~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42031
-Room 42031~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42032
-Room 42032~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42033
-Room 42033~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42034
-Room 42034~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42035
-Room 42035~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42036
-Room 42036~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42037
-Room 42037~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42038
-Room 42038~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42039
-Room 42039~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42040
-Room 42040~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42041
-Room 42041~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42042
-Room 42042~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42043
-Room 42043~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42044
-Room 42044~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42045
-Room 42045~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42046
-Room 42046~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42047
-Room 42047~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42048
-Room 42048~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42049
-Room 42049~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42050
-Room 42050~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42051
-Room 42051~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42052
-Room 42052~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42053
-Room 42053~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42054
-Room 42054~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42055
-Room 42055~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42056
-Room 42056~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42057
-Room 42057~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42058
-Room 42058~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42059
-Room 42059~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42060
-Room 42060~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42061
-Room 42061~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42062
-Room 42062~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42063
-Room 42063~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42064
-Room 42064~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42065
-Room 42065~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42066
-Room 42066~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42067
-Room 42067~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42068
-Room 42068~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42069
-Room 42069~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42070
-Room 42070~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42071
-Room 42071~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42072
-Room 42072~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42073
-Room 42073~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42074
-Room 42074~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42075
-Room 42075~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42076
-Room 42076~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42077
-Room 42077~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42078
-Room 42078~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42079
-Room 42079~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42080
-Room 42080~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42081
-Room 42081~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42082
-Room 42082~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42083
-Room 42083~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42084
-Room 42084~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42085
-Room 42085~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42086
-Room 42086~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42087
-Room 42087~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42088
-Room 42088~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42089
-Room 42089~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42090
-Room 42090~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42091
-Room 42091~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42092
-Room 42092~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42093
-Room 42093~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42094
-Room 42094~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42095
-Room 42095~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42096
-Room 42096~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42097
-Room 42097~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42098
-Room 42098~
-  This lovely room has yet to be written.
-~
-420 0 0
-S
-#42099
-Room 42099~
-  This lovely room has yet to be written.
-~
-420 0 0
+The Tomb of Aurelle~
+   Behind the white door lies a small, quiet tomb, untouched by the
+curse that fills the rest of the catacombs.  The walls are white, the
+air is clean, and on a bier in the center of the room lies a young woman
+of white marble, her hands folded on her breast, so lifelike that she
+might only be sleeping.  A warm golden glow fills the room.  A narrow
+opening leads back east to the hall.
+~
+420 d 0
+D1
+~
+~
+0 -1 42026
 S
 $~

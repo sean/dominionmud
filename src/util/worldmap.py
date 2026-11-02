@@ -217,7 +217,7 @@ del shade, wn, dunen, crackn, base
 log("land colour")
 
 # ---------------------------------------------------------------- compass rhumb lines (water only)
-CX, CY = 0.585, 0.905
+CX, CY = 0.355, 0.905
 cxp, cyp = P(CX, CY)
 rl = np.zeros((H, W), np.uint8)
 for i in range(32):

@@ -1,503 +1,413 @@
 #5800
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+oldric master teacher old~
+Master Oldric~
+Master Oldric, the last teacher of the Academy, stands at the lectern.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
+Oldric is a white-bearded old warrior with one eye, a wooden leg and a
+voice that could still carry across a battlefield.  He has taught at the
+Academy for longer than anyone can remember, and he has outlived every
+other teacher it ever had.  He still wears his old sword at his hip, and
+he still looks at every new face as if wondering how long it will last.
+~
+bdenopq dk 800 E
+20 43 45 1d1+30000 1d1+0
 0 0
-8 8 0
+8 8 1
+Race: 0
+E
+>in_file_prog oldric.prg~
+|
 #5801
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+dummy training straw~
+a straw training dummy~
+A straw training dummy stands here, painted with targets.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+It is a sack of straw tied to a post, with a bucket for a head and a
+painted target on its chest.  Someone has given it a scowling face.  It
+does not fight back much.
+~
+bdg 0 0 E
+1 20 2 2d4+8 1d2+0
+0 100
 8 8 0
+BareHandAttack: 7
+E
 #5802
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+rat shadow~
+a shadow rat~
+A small gray rat scurries about in the darkness.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+A thin gray rat with very large eyes, perfectly at home in the dark.
+~
+dgu k 0 E
+1 20 4 2d4+6 1d3+0
+0 100
 8 8 0
+BareHandAttack: 4
+E
 #5803
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+golem clay practice~
+a clay practice golem~
+A squat clay golem stands here, waiting for a sparring partner.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+A crude little figure of fired clay, about the size of a dwarf, with
+stubby arms and a blank face.  It was made to give young fighters
+something to practice on, and it takes its job very seriously.
+~
+bdg 0 0 E
+3 16 6 3d8+18 1d4+1
+0 350
 8 8 0
+BareHandAttack: 13
+E
 #5804
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+panther jungle black~
+a black jungle panther~
+A black panther watches you from a branch, its tail twitching.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+It is a great black cat, longer than a man is tall, its coat so dark
+that it seems to drink the light.  Its eyes are golden and unblinking,
+and the muscles of its shoulders ripple as it shifts its weight.
+~
+dfg s 0 E
+14 7 29 15d10+90 2d8+4
+0 16000
+8 8 2
+BareHandAttack: 8
+E
 #5805
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+constrictor serpent giant snake~
+a giant constrictor~
+A giant constrictor lies coiled among the bones, as thick as a man's waist.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+The snake is so long that you cannot see where it ends, coil upon coil
+of muscle covered in olive and black scales.  Its head is as big as a
+horse's, and it tastes the air with a forked black tongue as it watches
+you.
+~
+bdfg k 0 E
+16 6 38 16d16+150 2d10+6
+0 25500
 8 8 0
+BareHandAttack: 4
+E
 #5806
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+ape jungle~
+a jungle ape~
+A shaggy jungle ape hoots and beats its chest at you.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+It is a great ape with long red-brown fur, arms that hang to its ankles
+and a face that is almost human.  It hoots, beats its chest and throws
+fruit, and if that does not frighten you away it will try its fists.
+~
+dg 0 0 E
+12 9 8 5d10+120 2d8+4
+0 10750
+8 8 1
+BareHandAttack: 13
+E
 #5807
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+frog poison jeweled~
+a jewel-bright poison frog~
+A tiny frog, bright as a jewel, sits on a wet stone.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+It is no bigger than your thumb, and it is the most brilliant blue you
+have ever seen, spotted with black.  Something that pretty in a place
+like this is surely warning you of something.
+~
+dgb 0 0 E
+10 10 9 10d10+60 1d8+4
+0 6000
 8 8 0
+BareHandAttack: 1
+E
 #5808
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+bloodvine vine carnivorous~
+a carnivorous bloodvine~
+A tangle of red vines hangs here, twitching as you come near.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+What you took for a curtain of creepers is a single plant: a mass of
+thick, blood-red vines lined with hooked thorns, all of them stirring
+hungrily at the scent of you.  Among them, half-digested, hangs the
+skeleton of a monkey.
+~
+bdg k 0 E
+15 6 30 1d80+180 2d6+6
+0 20000
 8 8 0
+BareHandAttack: 2
+E
 #5809
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+minotaur warrior kinthalas~
+a Kinthalas warrior~
+A huge Kinthalas warrior swaggers past, a battleaxe over his shoulder.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+He stands well over seven feet, with a bull's head, a mane of coarse
+black hair and horns tipped with brass.  A red axe is branded on his
+shoulder.  Like every Kinthalas warrior, he is waiting for his chance to
+fight his way up the red stair, and he would be happy to practice on you
+in the meantime.
+~
+dgl 0 -200 E
+17 7 43 20d10+210 3d6+6
+300 18000
+8 8 1
+Race: 9
+BareHandAttack: 3
+Str: 18
+Height: 90
+Weight: 400
+E
 #5810
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+gate guard minotaur kinthalas~
+a Kinthalas gate guard~
+A minotaur in red-enameled armor guards the gate, leaning on a long axe.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+She is broad and scarred, with one horn broken off short, and she wears
+armor enameled red.  She guards the gates of Karras for the Kinthalas,
+and she looks at every visitor as though deciding which of their limbs
+to remove first.
+~
+bdglm 0 -100 E
+19 2 7 3d6+250 3d5+6
+400 35000
+8 8 2
+Race: 9
+BareHandAttack: 3
+Str: 18
+E
 #5811
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+officer minotaur kinthalas~
+a Kinthalas officer~
+A Kinthalas officer bellows orders, a whip coiled at his belt.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+The officer is older and heavier than the warriors, with gray in his
+mane and a wide, cruel mouth.  He wears a helm made from the skull of a
+great horned beast, and carries both an axe and a whip, and it is not
+clear which he uses more.
+~
+dglm 0 -400 E
+22 4 54 22d22+220 3d6+10
+800 49750
+8 8 1
+Race: 9
+BareHandAttack: 3
+Str: 19
+E
 #5812
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+krommyon king minotaur kinthalas~
+Krommyon, King of the Kinthalas~
+Krommyon, King of the Kinthalas, lounges on his ancient throne, chewing a bone.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+Krommyon is the largest minotaur you have ever seen, a mountain of
+muscle and black fur nine feet tall, his horns capped with gold and his
+snout pierced with a heavy iron ring.  He calls himself the king of the
+Kinthalas, and none of his warriors has yet been brave enough, or
+foolish enough, to argue.  The red axe across his knees is stained to
+the haft.
+~
+bdglnpq dk -700 E
+30 63 60 30d20+1200 5d10+20
+6000 350000
+8 8 1
+Race: 9
+BareHandAttack: 3
+Str: 21
+Con: 20
+Height: 108
+Weight: 700
+E
+>in_file_prog krommyon.prg~
+|
 #5813
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+dhak mad minotaur~
+Dhak the Mad~
+Dhak the Mad paces in circles, singed and twitching, muttering to himself.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+Dhak was once the Kinthalas' only battle-mage, until one of his
+experiments went very badly wrong.  His fur is singed in patches, one
+horn is blackened, and his eyes never stop moving.  Little sparks
+crackle between his fingers when he mutters, and the walls of his
+chamber show what happens when the sparks get away from him.
+~
+bdglnp dk -500 E
+27 57 30 20d20+800 4d10+12
+2000 155000
+8 8 1
+Race: 9
+BareHandAttack: 12
+Int: 19
+E
+>in_file_prog dhak.prg~
+|
 #5814
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+scholar minotaur byterian~
+a Byterian scholar~
+A minotaur in a gray robe walks by, reading a book as she goes.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+She is tall and lean for a minotaur, with short gray fur and small, neat
+horns, and a pair of spectacles perched on her broad nose.  A white axe
+is embroidered on her robe.  The Byterians value learning above
+everything, and she looks at you with polite interest, as if you might
+turn out to be a footnote.
+~
+dgl 0 300 E
+18 39 30 15d20+190 2d8+6
+300 30000
+8 8 2
+Race: 9
+BareHandAttack: 5
+Int: 18
+E
+>in_file_prog byterian.prg~
+|
 #5815
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+battle-mage battlemage minotaur byterian mage~
+a Byterian battle-mage~
+A Byterian battle-mage stands watch, an oak staff crackling with light.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+He wears a gray robe over a shirt of fine mail, and the oak staff in his
+hands hums with gathered power.  The Byterians do not fight often, but
+when they do, it is with spells their warrior cousins can only envy, and
+he watches the Kinthalas side of the courtyard with open contempt.
+~
+dglm 0 300 E
+21 45 50 20d20+250 3d8+6
+500 45000
+8 8 1
+Race: 9
+BareHandAttack: 5
+Int: 19
+E
 #5816
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+skeiron lorekeeper minotaur byterian~
+Skeiron the Lorekeeper~
+Skeiron the Lorekeeper sits at his huge desk, buried in books and star charts.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+Skeiron is the eldest of the three who rule the Byterians, his fur gone
+white and his horns worn smooth with age.  He has read every book in the
+Great Library at least twice and written a good many of them, and he
+speaks slowly, as though each word were being looked up in an index.
+~
+bdglnp dk 400 E
+27 57 30 20d20+800 3d10+12
+2500 155000
+8 8 1
+Race: 9
+BareHandAttack: 5
+Int: 20
+Wis: 19
+E
+>in_file_prog skeiron.prg~
+|
 #5817
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+kerkyon axe-lord axelord minotaur byterian~
+Kerkyon the Axe-lord~
+Kerkyon the Axe-lord stands among the paintings of his ancestors, a white axe in hand.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+Kerkyon is the warrior of the three Byterian lords, as big as any
+Kinthalas and twice as disciplined.  He wears gray plate trimmed with
+silver, and the great axe he carries has a blade of white enameled
+steel.  He believes that the Byterians must one day settle their quarrel
+with the Kinthalas, and he intends to be ready.
+~
+bdglnpq dk 300 E
+28 59 66 25d20+1000 5d8+16
+3000 250000
+8 8 1
+Race: 9
+BareHandAttack: 3
+Str: 20
+E
 #5818
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+prokrustes measurer minotaur byterian~
+Prokrustes~
+Prokrustes studies you from his plain chair, a long iron rod across his knees.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+Prokrustes is the third of the Byterian lords, and the strangest.  He
+keeps his room bare and too brightly lit, and he cannot abide anything
+that does not fit: a crooked picture, an uneven step, a guest of the
+wrong size.  He carries an iron measuring rod everywhere, and when he
+looks at you, you can see him measuring.
+~
+bdglnp dk -200 E
+27 57 30 20d20+800 4d8+14
+2000 155000
+8 8 1
+Race: 9
+BareHandAttack: 5
+E
+>in_file_prog prokrustes.prg~
+|
 #5819
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+cook minotaur kitchen~
+a minotaur cook~
+A minotaur cook in a filthy apron roars at you to get out of his kitchen.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+He is enormous and sweaty, with a cleaver in one hand, a ladle in the
+other and an apron so stained that it might once have been any color at
+all.  He has no patience for visitors, Kinthalas, Byterians, or anyone
+else who is not a pot.
+~
+bdg 0 0 E
+12 9 8 5d10+120 2d8+4
+50 10750
+8 8 1
+Race: 9
+BareHandAttack: 3
+E
 #5820
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+prisoner shackled sailor human~
+a shackled prisoner~
+A ragged human prisoner sits shackled in a cell, staring at the wall.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
+He is thin and sunburned, with the remains of a sailor's tattoos on his
+arms and a beard that has not seen a razor in months.  His ship ran
+aground on the reef off the black beach, and the Kinthalas have kept him
+here ever since, though no one has told him why.
+~
+bden 0 200 E
+5 13 6 1d1+55 1d4+1
 0 0
-8 8 0
+8 8 1
+Race: 0
+E
+>in_file_prog karras_prisoner.prg~
+|
 #5821
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+librarian minotaur byterian~
+the Byterian librarian~
+An elderly Byterian librarian peers at you over a stack of books.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
+The librarian is a small, stooped minotaur with spectacles on a chain,
+ink on her fingers and a pencil tucked behind each ear.  She has
+catalogued every book in the Great Library and knows exactly where each
+one is, and she would very much like you not to touch any of them.
+~
+bdenp 0 500 E
+20 43 41 20d20+200 3d6+6
 0 0
-8 8 0
+8 8 2
+Race: 9
+E
+>in_file_prog librarian.prg~
+|
 #5822
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+smith minotaur kinthalas~
+the Kinthalas smith~
+A minotaur smith hammers at a glowing axe-head on the anvil.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5823
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+Bare to the waist and glistening with sweat, the smith is all shoulders
+and forearms, his fur burned away in patches by flying sparks.  He works
+without a pause, hammer ringing, and he does not look up.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5824
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5825
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5826
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5827
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5828
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5829
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5830
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5831
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5832
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5833
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5834
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5835
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5836
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5837
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5838
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5839
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5840
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5841
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5842
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5843
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5844
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5845
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5846
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5847
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5848
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5849
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+bdg 0 0 E
+15 6 30 1d80+180 2d8+6
+100 20000
+8 8 1
+Race: 9
+BareHandAttack: 7
+E
 #5850
 goblin~
 the black goblin~
@@ -518,396 +428,6 @@ Con: 15
 Cha: 17
 Race: 25
 E
-#5851
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 9 0d0+0 0d0+0
-0 0
-8 8 0
-#5852
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 1 0d0+0 0d0+0
-0 0
-8 8 0
-#5853
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5854
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5855
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5856
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5857
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5858
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5859
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5860
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5861
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5862
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5863
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5864
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5865
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5866
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5867
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5868
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5869
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5870
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5871
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5872
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5873
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5874
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5875
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5876
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5877
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5878
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5879
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5880
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5881
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5882
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5883
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5884
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5885
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5886
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5887
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5888
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5889
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
 #5890
 curdine man drunk~
 Curdine~
@@ -940,76 +460,6 @@ bd 0 -250 E
 BareHandAttack: 13
 E
 
-#5892
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 3 0d0+0 0d0+0
-0 0
-8 8 0
-#5893
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5894
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5895
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5896
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5897
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5898
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
 #5899
 ogre brigand~
 an ogre brigand~
@@ -1030,1004 +480,4 @@ Con: 14
 Cha: 12
 Race: 17
 E
-#5900
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 14 0d0+0 0d0+0
-0 0
-8 8 0
-#5901
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 2 0d0+0 0d0+0
-0 0
-8 8 0
-#5902
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5903
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5904
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5905
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5906
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5907
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5908
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5909
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5910
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5911
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5912
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5913
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5914
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5915
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5916
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5917
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5918
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5919
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5920
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5921
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5922
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5923
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5924
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5925
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5926
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5927
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5928
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5929
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5930
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5931
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5932
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5933
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5934
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5935
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5936
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5937
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5938
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5939
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5940
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5941
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5942
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5943
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5944
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5945
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5946
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5947
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5948
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5949
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5950
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5951
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5952
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5953
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5954
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5955
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5956
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5957
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5958
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5959
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5960
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5961
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5962
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5963
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5964
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5965
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5966
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5967
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5968
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5969
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5970
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5971
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5972
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5973
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5974
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5975
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5976
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5977
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5978
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5979
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5980
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5981
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5982
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5983
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5984
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5985
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5986
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5987
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5988
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5989
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5990
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5991
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5992
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5993
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5994
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5995
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5996
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5997
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5998
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
-#5999
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
-~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
 $~

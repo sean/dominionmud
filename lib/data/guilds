@@ -17,7 +17,7 @@ Champion~
 Missionary~
 Acolyte~
 A silver tattoo of a half-moon encircles $s left eye.~
-0 35056 1 35017
+0 35056 2 35017
 ; Leader
 Cyndre 5
 ; Petitioners (Max of 20)
@@ -66,4 +66,136 @@ $e has a flaming eclisped sun painted about $s left eye.~
 Avien 5
 ; Petitioners (Max of 20)
 Mafidus~
-$~
+$
+#5
+The Dustmen~
+Lord Cartographer~
+Pathfinder~
+Wayfarer~
+Footsore~
+$e has a small compass rose inked on the back of $s right hand.~
+0 1144 4 2601
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#6
+The Harmonium~
+First Voice~
+Concordant~
+Steward~
+Novice~
+A plain blue cord with a single knot is tied around $s left wrist.~
+0 3084 1 2602
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#7
+The Mercykillers~
+Master of the Sash~
+Blade of Mercy~
+Sashbearer~
+Greensleeve~
+$e wears a sash of bright green silk knotted at $s hip.~
+0 3010 1 2603
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#8
+The Xaositects~
+Elder of the Grove~
+Songweaver~
+Bowsinger~
+Seedling~
+A tiny silver leaf hangs from $s left ear.~
+0 19028 1 2604
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#9
+The Sign of One~
+Lightbearer~
+Radiant~
+Lamplighter~
+Candle~
+A golden ankh of Glasgian gleams on a chain about $s neck.~
+0 3053 3 2605
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#10
+The Doomguard~
+Warlord~
+Knight of Cair~
+Blackblade~
+Squire~
+A black iron gauntlet is tattooed on the back of $s sword hand.~
+0 5008 3 2606
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#11
+The Fraternity of Order~
+Lord Justiciar~
+Knight of Justice~
+Warden~
+Aspirant~
+A small white rune of justice is branded on $s left palm.~
+0 3046 4 2607
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#12
+The Athar~
+Keeper of the Ledger~
+Shadowbroker~
+Tallyman~
+Cutpurse~
+$e has a tiny gold coin tattooed beneath $s left eye.~
+0 10037 6 2608
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#13
+The Believers of the Source~
+the Hidden Hand~
+Nightblade~
+Silent One~
+Whisper~
+A grinning skull no larger than a thumbnail is inked behind $s right ear.~
+0 10030 6 2609
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#14
+The Transcendent Order~
+High Magister~
+Archmage~
+Adept~
+Apprentice~
+The palm of $s right hand has been dyed a pure, chalky white.~
+0 3078 2 2610
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$
+#15
+The Fated~
+Dread Magister~
+Warlock~
+Hexer~
+Acolyte~
+The palm of $s left hand has been stained a deep, inky black.~
+0 10017 1 2611
+; Leader
+NoOne 5
+; Petitioners (Max of 20)
+$

@@ -857,7 +857,9 @@ Rithrin Street~
 monolith standing at the center of the loop it makes with Darkmin Lane,
 which can be reached directly to the north.  To the east is a doorway
 leading into a small shop, beneath a sign that reads: "Iron Cross Armor
-Shop".  The street continues south around the monolith.
+Shop".  The street continues south around the monolith.  A narrow
+doorway in the west side of the street is marked with a carved compass
+rose: the hall of the Dustmen.
 ~
 11 0 1
 D0
@@ -872,6 +874,11 @@ D2
 ~
 ~
 0 -1 1156
+D3
+The entrance to the hall of the Dustmen.
+~
+~
+0 -1 2604
 S
 #1145
 Iron Cross Armor Shop~

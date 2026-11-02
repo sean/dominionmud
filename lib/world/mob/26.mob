@@ -11,4 +11,208 @@ bdglm fr 150 S
 30 30 10 10d75+10 5d5+20
 1250 750000
 8 8 1
+#2601
+doorwarden dustman warden traveler~
+the Dustman doorwarden~
+A weathered traveler in dusty boots leans on a staff beside a narrow doorway.
+~
+Her face is brown and lined from years of sun and wind, and her boots
+are so caked with the dust of a hundred roads that their original color
+is anyone's guess.  A battered compass hangs from a thong around her
+neck.  She keeps the door of the Dustmen's hall, and she has a way of
+looking at strangers as though measuring how far they have come and how
+far they will get.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 2
+Race: 0
+BareHandAttack: 16
+E
+#2602
+steward harmonium guard keeper~
+the Harmonium steward~
+A calm man in a plain blue robe stands before a modest bluestone doorway.
+~
+He wears a robe of undyed wool, bleached and patched, with only a
+knotted blue cord at his wrist to mark his order.  He owns nothing he
+could not give away in a moment, and it shows in his easy, unhurried
+calm.  He greets passers-by politely, but he does not step aside for
+anyone who is not one of the Harmonium.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 1
+Race: 0
+BareHandAttack: 16
+E
+#2603
+sashbearer mercykiller youth guard~
+the Mercykiller sashbearer~
+A sharply dressed young swordsman lounges against a freshly painted doorway.
+~
+He cannot be more than twenty, and he is dressed in the very latest
+fashion, from the slashed sleeves of his doublet to the polished toes of
+his boots.  A sash of bright green silk is knotted at his hip, beside a
+rapier that has seen more use than its owner's age would suggest.  He
+smiles easily, and the smile never reaches his eyes.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 1
+Race: 0
+BareHandAttack: 16
+E
+#2604
+bowsinger xaositect elf archer guard~
+the Xaositect bowsinger~
+A slender elf with a longbow across her back stands among the trees, humming softly.
+~
+She is tall and fine-boned, with hair the color of autumn leaves bound
+back by a cord of braided grass.  A tiny silver leaf hangs from her left
+ear, and a longbow of pale wood is slung across her back.  She hums an
+old Tarmirnae melody under her breath, and though her eyes are half
+closed, you have the distinct feeling she has already marked every step
+you have taken.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 2
+Race: 1
+BareHandAttack: 16
+E
+#2605
+lamplighter sign guard paladin~
+the Lamplighter of the Sign~
+A paladin in white and gold stands before a marble doorway, a lantern at his belt.
+~
+His armor is enameled white and trimmed with gold, and not a speck of
+dirt mars it anywhere.  A golden ankh of Glasgian hangs at his breast,
+and a small brass lantern burns at his belt even in broad daylight, for
+the Sign of One holds that no shadow should ever be suffered to fall on
+its door.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 1
+Race: 0
+BareHandAttack: 16
+E
+#2606
+blackblade doomguard knight guard~
+the Doomguard blackblade~
+A knight in black-enameled plate stands before an onyx doorway, his blade bared.
+~
+Every plate of his armor has been enameled black, and the only
+decoration on it is the symbol of Cair, God of War, picked out in dull
+red on the breastplate.  He holds his greatsword bare and point-down
+before him, both hands resting on the pommel.  The Doomguard believe
+that war is the only honest prayer, and he looks as though he would
+welcome a chance to pray.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 1
+Race: 0
+BareHandAttack: 16
+E
+#2607
+warden fraternity knight justice guard~
+the Fraternity warden~
+A stern knight in whitestone-gray plate guards a door set into the city wall.
+~
+His armor is plain, gray and spotless, and a white rune of justice is
+painted on his shield.  He is old for a knight still in service, his
+close-cropped hair gone iron gray, but he stands as straight as a spear.
+The knights of the Fraternity of Order serve Malachi, God of Justice,
+and he watches the passers-by with the patient attention of a man who
+has heard every excuse there is.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 1
+Race: 0
+BareHandAttack: 16
+E
+#2608
+tallyman athar thief guard~
+the Athar tallyman~
+A thin man with ink-stained fingers sits on a crate beside a trapdoor, counting coins.
+~
+He is narrow-shouldered and sallow, with quick, ink-stained fingers that
+never stop moving: counting coins, stacking them, sweeping them into a
+purse and starting again.  A tiny gold coin is tattooed beneath his left
+eye.  The Athar hold that everything has a price, and from the way he
+looks you over, he is already working out yours.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 1
+Race: 0
+BareHandAttack: 16
+E
+#2609
+silent one believer assassin guard~
+a Silent One~
+A figure wrapped in black silk crouches motionless in the shadows of the alley.
+~
+You can make out very little of the figure beyond a wrapping of black
+silk and the gleam of two dark eyes.  It does not speak and does not
+move, and if not for those eyes you might take it for a heap of rags.
+The Believers of the Source guard their door with silence, and with the
+long, thin knife you only now notice resting across its knees.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 0
+Race: 0
+BareHandAttack: 16
+E
+#2610
+adept transcendent mage guard~
+the Transcendent adept~
+A young mage in white robes stands before a slender tower, a blue flame in her palm.
+~
+Her robes are spotless white, and the palm of her right hand has been
+dyed a pure, chalky white.  A small blue flame dances in that palm,
+casting no heat but lighting her face from below.  The Transcendent
+Order teaches that magic is a gift to be used for others, and she
+regards visitors with friendly curiosity, though the runes of warding on
+the tower door glow a little brighter whenever she frowns.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 2
+Race: 0
+BareHandAttack: 16
+E
+#2611
+hexer fated warlock guard~
+the Fated hexer~
+A gaunt warlock in black robes stands before a door of black stone, smiling thinly.
+~
+He is pale and gaunt, with sunken cheeks and long, yellowed fingernails,
+and the palm of his left hand is stained a deep, inky black.  Runes
+drawn in something dark and dried cover the sleeves of his robe.  The
+Fated believe that power belongs to whoever is ruthless enough to take
+it, and the warlock studies you the way a butcher studies a side of
+beef.
+~
+abdenopqrs adhr 0 E
+38 50 50 1d1+20000 10d10+80
+1 1
+8 8 1
+Race: 0
+BareHandAttack: 16
+E
 $~
