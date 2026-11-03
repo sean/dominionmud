@@ -13,6 +13,72 @@ Legend: - Not Done; / Started; * Complete
 * Move to an ASCII (plain-text) character save file system (one file per account in lib/accounts).
 - Move to an ASCII (plain-text) file to manage skills/spells.
 
+## Ideas for making the game more fun
+
+Suggestions (November 2026), roughly from cheapest to most ambitious. Each builds on something the game
+already has. None of them is started.
+
+- **Daily routines for more NPCs.** The Emperor of Llyndyr (`castle.c`) shows how cheap a believable
+  schedule is: a path string and a few hours. Give town mobs the same treatment: Elrhinn's shopkeepers
+  closing up at night, guards changing watch, a lamplighter at dusk, a market that only exists in the
+  morning. A generic "path" field in the mob file (or a mobprog trigger on the hour) would avoid writing C
+  for each one.
+- **Use the weather.** Zones already track temperature and sky every hour (`weather.c`), but nothing reads
+  temperature. Cold could slow movement regeneration in the mountains unless you wear something warm;
+  storms could put out unshielded torches and blow arrows off course (`shoot`); rivers could flood in
+  spring. Fishing and foraging could depend on the season.
+- **Mobprogs that hand out quests.** There is a `quest` toggle but no quests. A small quest board (or an
+  NPC like Master Oldric) could hand out kill, fetch and escort tasks drawn from a data file, with the
+  reward and a timer, so the long tail of finished zones gets visited. Daily quests for each town would
+  give players a reason to log in.
+- **More puzzles, and a puzzle log.** The `pz_*` puzzles (Ancalador, Mytherandil, Ganin's World, House
+  Gemmar, the Valley of Fate...) are the most distinctive content in the game, but nothing records which
+  ones a player has solved. A `lore` command listing the puzzles and lore fragments found so far (stored
+  in the account file) would turn them into a collection to complete, and hint at the ones still out there.
+- **Bounties on named mobs.** Post a bounty board in each capital listing the big named mobs on the world
+  map (the Emperor, Krommyon, the SaberBeast, Morvane...) with a reward that grows the longer they go
+  unkilled. It gives groups a goal and spreads players across the map.
+- **Crafting from lodged and dropped materials.** Combat already leaves things behind: arrows stuck in
+  bodies, body parts from heavy blows (`create_bodypart()`), pelts and fangs from beasts like the SaberBeast.
+  A smith, a fletcher and a tanner in the towns could turn these into gear (pelts into cloaks, fangs into
+  daggers, feathers into arrows), using the material list (`material_list[]`) for quality.
+- **Make ranged combat a real choice.** Now that `shoot` and `throw` work, add ammunition shops, quivers (a
+  container that `load` draws from), and an archery skill line for rangers: aimed shots at a chosen body
+  location (the `locations[]` table is already there), pinning a fleeing enemy, and firing down a line of
+  rooms with `scan`.
+- **Religion that matters day to day.** Characters have piety and a religion, and there's a `worship`
+  social. Shrines in each temple could let players pray for small blessings (a temporary affect), with
+  piety earned by deeds that fit the god (slaying undead, healing, tithing gold) and lost by ones that
+  don't. Rival faiths could have holy days that change shop prices or open hidden rooms.
+- **Guild wars over territory.** The eleven faction guilds (5-15) now have halls and guardians. Let them
+  claim a zone by holding its "seat" (a room with a banner object) for a day, earning a small tax on the
+  shops there, with the guardian mob defending the hall. A weekly ranking on a board in Elrhinn would
+  keep it visible.
+- **Mounted travel and stables.** `mount` and `ride` exist, but horses are rare. Stables in the cities that
+  rent mounts (returned at another stable for a refund), faster movement on roads and fields, and mounts
+  that refuse to enter caves would make the large overland map feel more like a journey.
+- **Ships between the coasts.** The Sea of Tears, the Isle of Karras and the coral shore below Llyndyr are
+  all reachable only by walking or one boat room. A ferry that sails on a schedule between ports (a
+  moving room, like the Emperor's path but for a vehicle) with pirates that sometimes board it would
+  connect them.
+- **A rest-and-gossip loop at inns.** Inns could restore movement faster, sell rumours (hints to a random
+  puzzle, the location of a bounty target, which zone was last reset) and let players buy a round that
+  gives everyone in the room a small temporary bonus.
+- **Seasonal and server-wide events.** Copyover and zone resets make it easy to swap content in: a harvest
+  festival in Elrhinn with games at the Arena (zone 53), a winter night when undead walk in every
+  graveyard, an invasion where the Emperor's army marches on Gnishmire along the new road and players
+  defend the gates.
+- **Remort with a twist.** `remort` exists for immortals only. Opening it to max-level players, letting
+  them keep one skill or a racial trait from their previous life, and marking remorted characters on
+  `who` would give the endgame a long tail.
+- **Achievements and titles.** Track milestones that already happen in the code (first kill of each named
+  mob, every puzzle solved, every zone visited, a full set of crafted gear) and award titles players can
+  choose for `who`. The world map (`src/util/worldmap.py`) could even draw a player's explored zones.
+- **Better feedback for new players.** The Adventurer's Academy and its Proving Halls are a good start.
+  A `hint` command that suggests a zone that fits the player's level (from the zone level ranges), and a
+  newbie channel with experienced players opted in as guides, would keep new characters from wandering
+  into the Emperor's throne room at level 5.
+
 ## Known issues
 
 These were section 8 of AGENTS.md (verified October-November 2026; good starter tasks).
