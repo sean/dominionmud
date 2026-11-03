@@ -223,8 +223,8 @@ void hunt_victim(struct char_data * ch)
       found = 1;
 
   if (!found) {
+    /* the prey has been extracted: the pointer is stale, don't touch it */
     do_say(ch, "Damn!  My prey is gone!!", 0, 0);
-    remember(ch, HUNTING(ch));
     HUNTING(ch) = 0;
     return;
   }

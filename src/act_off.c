@@ -34,6 +34,9 @@ void   make_head(struct obj_data *i, int j, struct char_data *c);
 int    find_door(struct char_data *ch, char *t, char *d, char *cmdname);
 void   learn_from_mistake(struct char_data *ch, int ski);
 void   hunt_victim(struct  char_data *hunter);
+int    ok_damage_shopkeeper(struct char_data * ch, struct char_data * victim);
+void   check_killer(struct char_data * ch, struct char_data * vict);
+void   forget(struct char_data * ch, struct char_data * victim);
 ACMD(do_remove);
 ACMD(do_wield);
 ACMD(do_say);
@@ -1166,10 +1169,10 @@ ACMD(do_flee)
 	    GET_MOVE(ch) -= (GET_MOVE(ch) >> 4);
             if (IS_MOB(oppo) && MOB_FLAGGED(oppo, MOB_MEMORY) && 
                 !MOB_FLAGGED(oppo, MOB_WIMPY) && !MOB_FLAGGED(oppo, MOB_SENTINEL)) {
-	      /* the hunter may catch and kill ch at once, freeing a mob:
-		 nothing may touch ch after this */
+	      /* The hunter gives chase on its next turn in mobile_activity().
+		 Chasing at once could kill (and free) ch while damage() --
+		 which called us when ch panicked -- is still using it. */
 	      HUNTING(oppo)  = ch;
-              hunt_victim(oppo);
             }
 	    return;
 	  } else {
@@ -1431,11 +1434,163 @@ void unlodge_obj_in_char(struct char_data *vict, struct obj_data *missile, int l
  *   v[2] = Num Dam Dice
  *   v[3] = Size Dam Dice
  */
+/*
+ * Shared by shoot and throw.  Can the shot be taken at all?  Shopkeepers
+ * and immortals are protected here as they are in damage().
+ */
+static int ranged_ok(struct char_data *ch, struct char_data *vict)
+{
+  if (ROOM_FLAGGED(ch->in_room, ROOM_PEACEFUL) ||
+      ROOM_FLAGGED(vict->in_room, ROOM_PEACEFUL)) {
+    send_to_char("The room just has such a peaceful, easy feeling...\r\n", ch);
+    return FALSE;
+  }
+  if (!IS_NPC(ch) && !IS_NPC(vict) && (GET_LEVEL(ch) <= 5 || GET_LEVEL(vict) <= 5)) {
+    send_to_char("A wall of air prevents you!\r\n", ch);
+    return FALSE;
+  }
+  if (GET_POS(vict) <= POS_DEAD)
+    return FALSE;
+  if (!ok_damage_shopkeeper(ch, vict))
+    return FALSE;
+  return TRUE;
+}
+
+
+/*
+ * Tells everyone who can see it (other than ch and vict) that missile
+ * struck vict.  ch and vict may be in different rooms.
+ */
+static void ranged_show(struct char_data *ch, struct char_data *vict,
+			struct obj_data *missile, const char *where)
+{
+  sprintf(buf, "$p flies through the air, lodging in $N's %s.", where);
+  if (vict->in_room == ch->in_room)
+    act(buf, FALSE, ch, missile, vict, TO_NOTVICT);
+  else {
+    sprintf(buf, "$p flies into the room, lodging in $n's %s.", where);
+    act(buf, FALSE, vict, missile, 0, TO_ROOM);
+  }
+}
+
+
+/*
+ * Shared by shoot and throw: missile has struck vict (who may be in
+ * another room) for dam points at body location loc.  Applies the damage,
+ * lodges the missile, and handles wounds, fleeing, experience and death.
+ * Returns TRUE if vict died, in which case vict may have been freed and
+ * must not be used again.  how is used in the death log ("an arrow").
+ */
+static int ranged_damage(struct char_data *ch, struct char_data *vict,
+			 struct obj_data *missile, int dam, int loc,
+			 const char *how)
+{
+  long exp;
+
+  /* you can't damage an immortal unless you're an immortal or an NPC */
+  if (IS_IMMORT(vict) && !IS_NPC(ch) && !IS_IMMORT(ch))
+    dam = 0;
+  dam = MAX(0, MIN(dam, MAX_DAMAGE));
+
+  check_killer(ch, vict);
+  GET_HIT(vict) -= dam;
+  lodge_obj_in_char(vict, missile, loc);
+  update_pos(vict);
+
+  switch (GET_POS(vict)) {
+  case POS_MORTALLYW:
+    act("$n is mortally wounded, and will die soon, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
+    send_to_char("You are mortally wounded, and will die soon, if not aided.\r\n", vict);
+    break;
+  case POS_INCAP:
+    act("$n is incapacitated and will slowly die, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
+    send_to_char("You are incapacitated and will slowly die, if not aided.\r\n", vict);
+    break;
+  case POS_STUNNED:
+    act("$n is stunned, but will probably regain consciousness again.", TRUE, vict, 0, 0, TO_ROOM);
+    send_to_char("You're stunned, but will probably regain consciousness again.\r\n", vict);
+    break;
+  case POS_DEAD:
+    act("$n is dead!  R.I.P.", FALSE, vict, 0, 0, TO_ROOM);
+    send_to_char("You are dead!  Sorry...\r\n", vict);
+    break;
+  default:                      /* >= POSITION SLEEPING */
+    if (dam > (GET_MAX_HIT(vict) >> 2))
+      act("That really did HURT!", FALSE, vict, 0, 0, TO_CHAR);
+
+    if (GET_HIT(vict) < (GET_MAX_HIT(vict) >> 2) || GET_WOUNDS(vict) > 5) {
+      sprintf(buf2, "%sYou wish that your wounds would stop BLEEDING so much!%s\r\n",
+	      CCRED(vict, C_SPR), CCNRM(vict, C_SPR));
+      send_to_char(buf2, vict);
+      if (MOB_FLAGGED(vict, MOB_WIMPY))
+	do_flee(vict, "", 0, 0);
+    }
+    if (!IS_NPC(vict) && GET_WIMP_LEV(vict) && GET_HIT(vict) < GET_WIMP_LEV(vict)) {
+      send_to_char("You wimp out, and attempt to flee!\r\n", vict);
+      do_flee(vict, "", 0, 0);
+    }
+    break;
+  }
+
+  if (GET_POS(vict) != POS_DEAD)
+    return FALSE;
+
+  if (IS_NPC(vict) || vict->desc) {
+    if (IS_AFFECTED2(ch, AFF_GROUP))
+      group_gain(ch, vict);
+    else {
+      exp = MIN((long)max_exp_gain, (long)GET_EXP(vict));
+      /* Calculate level-difference bonus */
+      exp += MAX(0L, (long)(exp * MIN(8, (GET_LEVEL(vict) - GET_LEVEL(ch)))) >> 3);
+      exp =  MAX(exp, 1L);
+      if (exp > 1)
+	send_to_char("You receive some experience points.\r\n", ch);
+      else
+	send_to_char("You receive one lousy experience point.\r\n", ch);
+      gain_exp(ch, exp);
+      change_alignment(ch, vict);
+    }
+  }
+  if (!IS_NPC(vict)) {
+    sprintf(buf2, "%s killed by %s's %s at %s", GET_NAME(vict), GET_NAME(ch), how,
+	    world[vict->in_room].name);
+    mudlog(buf2, BRF, LVL_IMMORT, TRUE);
+    if (MOB_FLAGGED(ch, MOB_MEMORY))
+      forget(ch, vict);
+  }
+  if (FIGHTING(ch) == vict)
+    stop_fighting(ch);
+  die(vict, ch);                /* vict is gone after this */
+  return TRUE;
+}
+
+
+/*
+ * A mob that has been shot at, or had something thrown at it, goes after
+ * whoever did it.  This must be the last thing the command does: the mob
+ * may reach ch and kill it at once.
+ */
+static void ranged_retaliate(struct char_data *ch, struct char_data *vict)
+{
+  if (!IS_NPC(vict) || !AWAKE(vict) || FIGHTING(vict) || MOB_FLAGGED(vict, MOB_WIMPY))
+    return;
+
+  if (vict->in_room == ch->in_room)
+    hit(vict, ch, TYPE_UNDEFINED);
+  else {
+    if (IS_HUMANOID(vict))
+      act("$n snarls, 'I'm gonna kill you for that!'", TRUE, vict, 0, 0, TO_ROOM);
+    HUNTING(vict) = ch;
+    hunt_victim(vict);
+  }
+}
+
+
 ACMD(do_shoot)
 {
   struct char_data *vict;
-  struct obj_data  *missile;
-  int    percent, prob, loc, dam = 0, exp = 0;
+  struct obj_data  *missile, *bow;
+  int    percent, prob, loc, dam;
 
   extern char *locations[];
 
@@ -1458,24 +1613,14 @@ ACMD(do_shoot)
     send_to_char("Aren't we funny today...\r\n", ch);
     return;
   }
-  if (ROOM_FLAGGED(ch->in_room, ROOM_PEACEFUL) ||
-      ROOM_FLAGGED(vict->in_room, ROOM_PEACEFUL)) {
-    send_to_char("The room just has such a peaceful, easy feeling...\r\n", ch);
+  if (!ranged_ok(ch, vict))
     return;
-  }
-  if (!IS_NPC(ch) && !IS_NPC(vict) && (GET_LEVEL(ch) <= 5 || GET_LEVEL(vict) <= 5)) {
-    send_to_char("A wall of air prevents you!\r\n", ch);
-    return;
-  }
-  if (!GET_EQ(ch, WEAR_WIELD)) {
+  if (!(bow = GET_EQ(ch, WEAR_WIELD)) || GET_OBJ_TYPE(bow) != ITEM_FIREWEAPON) {
     send_to_char("You need to wield a ranged weapon to shoot something.\r\n", ch);
     return;
   }
-  if (GET_OBJ_TYPE(GET_EQ(ch, WEAR_WIELD)) != ITEM_FIREWEAPON) {
-    send_to_char("You need to wield a ranged weapon to shoot something.\r\n", ch);
-    return;
-  }
-  if ((missile = read_object(GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD), 3), VNUMBER)) == NULL) {
+  if (GET_OBJ_VAL(bow, 1) <= 0 || GET_OBJ_VAL(bow, 3) < 0 ||
+      (missile = read_object(GET_OBJ_VAL(bow, 3), VNUMBER)) == NULL) {
     send_to_char("You need to load your ranged weapon to shoot something.\r\n", ch);
     return;
   }
@@ -1486,118 +1631,50 @@ ACMD(do_shoot)
 
   percent = number(1, 101);     /* 101% is a complete failure */
   prob    = (IS_NPC(ch) ? number(GET_SKILL(ch, SKILL_RANGE), 100) : GET_SKILL(ch, SKILL_RANGE)) + (GET_DEX(ch) >> 1);
-  /* We're making the shot no matter what happens, so let's remove the ammo */
-  GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD), 1) -= 1;
-  /* reset the vnum of the loaded missile to -1 i.e. NONE */
-  if (GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD), 1) <= 0)
-    GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD), 3) = -1;
-  /* now take the shot */
+
+  /* We're making the shot no matter what happens, so use up the ammo; */
+  /* once the last one is gone the weapon is no longer loaded.         */
+  GET_OBJ_VAL(bow, 1) -= 1;
+  if (GET_OBJ_VAL(bow, 1) <= 0)
+    GET_OBJ_VAL(bow, 3) = -1;
+  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+
+  act("$n shoots $p at $N.", TRUE, ch, missile, vict, TO_ROOM);
+  act("You shoot $p at $N.", TRUE, ch, missile, vict, TO_CHAR);
+
   if (percent > prob && !IS_IMMORT(ch)) {
-    act("$n shoots $p at $N.", TRUE, ch, missile, vict, TO_ROOM);
-    act("You shoot $p at $N.", TRUE, ch, missile, vict, TO_CHAR);
-    act("$p misses it's mark.", FALSE, ch, missile, NULL, TO_CHAR);
+    act("$p misses its mark.", FALSE, ch, missile, NULL, TO_CHAR);
     obj_to_room(missile, vict->in_room);
-    act("$p flies into the room and lands harmlessly on the ground.",
-	TRUE, NULL, missile, NULL, TO_ROOM);
+    if (vict->in_room != ch->in_room)
+      act("$p flies into the room and lands harmlessly on the ground.",
+	  TRUE, NULL, missile, NULL, TO_ROOM);
+    else
+      act("$p lands harmlessly on the ground.", TRUE, NULL, missile, NULL, TO_ROOM);
     if (number(0, 10) == 10)
       learn_from_mistake(ch, SKILL_RANGE);
   } else {
-    act("$n shoots $p at $N.", TRUE, ch, missile, vict, TO_ROOM);
-    act("You shoot $p at $N.", TRUE, ch, missile, vict, TO_CHAR);
-    sprintf(buf, "$p shot from your bow lodges into $N's %s!", locations[loc]);
+    sprintf(buf, "$p shot from your bow lodges in $N's %s!", locations[loc]);
     act(buf, FALSE, ch, missile, vict, TO_CHAR);
-    GET_HIT(vict) -= dice(GET_OBJ_VAL(missile, 2), GET_OBJ_VAL(missile, 3));
-    sprintf(buf, "$p flies through the air lodging into $N's %s.", locations[loc]);
-    act(buf, TRUE, NULL, missile, vict, TO_NOTVICT);
-    sprintf(buf, "$p flies through the air lodging into your %s.", locations[loc]);
+    ranged_show(ch, vict, missile, locations[loc]);
+    sprintf(buf, "$p flies through the air, lodging in your %s.", locations[loc]);
     act(buf, TRUE, vict, missile, NULL, TO_CHAR);
-    lodge_obj_in_char(vict, missile, loc);
     WAIT_STATE(vict, PULSE_VIOLENCE);
-    update_pos(vict);
-    switch (GET_POS(vict)) {
-      case POS_MORTALLYW:
-      act("$n is mortally wounded, and will die soon, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
-      send_to_char("You are mortally wounded, and will die soon, if not aided.\r\n", vict);
-      break;
-      case POS_INCAP:
-      act("$n is incapacitated and will slowly die, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
-      send_to_char("You are incapacitated an will slowly die, if not aided.\r\n", vict);
-      break;
-      case POS_STUNNED:
-      act("$n is stunned, but will probably regain consciousness again.", TRUE, vict, 0, 0, TO_ROOM);
-      send_to_char("You're stunned, but will probably regain consciousness again.\r\n", vict);
-      break;
-      case POS_DEAD:
-        act("$n is dead!  R.I.P.", FALSE, vict, 0, 0, TO_ROOM);
-        send_to_char("You are dead!  Sorry...\r\n", vict);
-        break;
-      default:                      /* >= POSITION SLEEPING */
-        if (dam > (GET_MAX_HIT(vict) >> 2))
-          act("That really did HURT!", FALSE, vict, 0, 0, TO_CHAR);
-
-        if (GET_HIT(vict) < (GET_MAX_HIT(vict) >> 2) || GET_WOUNDS(vict) > 5) {
-          sprintf(buf2, "%sYou wish that your wounds would stop BLEEDING so much!%s\r\n",
-  	          CCRED(vict, C_SPR), CCNRM(vict, C_SPR));
-          send_to_char(buf2, vict);
-          if (MOB_FLAGGED(vict, MOB_WIMPY) && (ch != vict))
-	    do_flee(vict, "", 0, 0);
-        }
-        if (!IS_NPC(vict) && GET_WIMP_LEV(vict) && (vict != ch) &&
-  	    GET_HIT(vict) < GET_WIMP_LEV(vict)) {
-          send_to_char("You wimp out, and attempt to flee!\r\n", vict);
-          do_flee(vict, "", 0, 0);
-        }
-        break;
-    }   
-    if (GET_POS(vict) == POS_DEAD) {
-      if (IS_NPC(vict) || vict->desc) {
-        if (IS_AFFECTED2(ch, AFF_GROUP))
-	  group_gain(ch, vict);
-        else {
-	  exp = MIN((long)max_exp_gain, (long)GET_EXP(vict));
-	  /* Calculate level-difference bonus */
- 	  exp += MAX(0L, (long)(exp * MIN(8, (GET_LEVEL(vict) - GET_LEVEL(ch)))) >> 3);
-	  exp =  MAX((long)exp, 1L);
-	  if (exp > 1)
-	    send_to_char("You receive some experience points.\r\n", ch);
-	  else
-	    send_to_char("You receive one lousy experience point.\r\n", ch);
-	  gain_exp(ch, exp);
-	  change_alignment(ch, vict);
-        }
-      }
-      if (!IS_NPC(vict)) {
-        sprintf(buf2, "%s killed by %s's volley of arrows at %s", GET_NAME(vict), GET_NAME(ch),
-                world[vict->in_room].name);
-        mudlog(buf2, BRF, LVL_IMMORT, TRUE);
-        if (MOB_FLAGGED(ch, MOB_MEMORY))
-          forget(ch, vict);
-      }
-      die(vict, ch);
-    }    
+    dam = dice(GET_OBJ_VAL(missile, 2), GET_OBJ_VAL(missile, 3));
+    if (ranged_damage(ch, vict, missile, dam, loc, "arrow"))
+      return;                   /* vict is dead and gone */
   }
-  if (IS_NPC(vict)) {
-    if (vict->in_room != ch->in_room) {
-      HUNTING(vict) = ch;
-      hunt_victim(vict);
-    } else
-      hit(vict, ch, TYPE_UNDEFINED);
-  }
-  GET_OBJ_VAL(GET_EQ(ch, WEAR_WIELD), 3) = -1;
-  WAIT_STATE(ch, PULSE_VIOLENCE * 2);
+  ranged_retaliate(ch, vict);   /* must be last: ch may die */
 }
 
 /* throw obj vict */
 ACMD(do_throw)
 {
-  int  i, prob, percent, loc, equipped = 0, exp = 0, dam = 0;
-  long vnum;
+  int  i, prob, percent, loc, pos = -1, dam;
   char arg1[MAX_INPUT_LENGTH];
   char arg2[MAX_INPUT_LENGTH];
   struct char_data *vict;
   struct obj_data *missile;
   extern char *locations[];
-  extern struct index_data *obj_index;
 
   two_arguments(argument, arg1, arg2);
 
@@ -1610,7 +1687,7 @@ ACMD(do_throw)
       if (GET_EQ(ch, i) && (isname(arg1, GET_EQ(ch, i)->name) ||
 	  is_abbrev(arg1, GET_EQ(ch, i)->name))) {
 	missile = GET_EQ(ch, i);
-        equipped = 1;
+	pos = i;
       }
     }
   }
@@ -1636,16 +1713,9 @@ ACMD(do_throw)
     act("$n bonks $mself on the head with $p.", TRUE, ch, missile, 0, TO_ROOM);
     return;
   }
-  if (ROOM_FLAGGED(ch->in_room, ROOM_PEACEFUL) ||
-      ROOM_FLAGGED(vict->in_room, ROOM_PEACEFUL)) {
-    send_to_char("The room just has such a peaceful, easy feeling...\r\n", ch);
+  if (!ranged_ok(ch, vict))
     return;
-  }
-  if (!IS_NPC(ch) && !IS_NPC(vict) && (GET_LEVEL(ch) <= 5 || GET_LEVEL(vict) <= 5)) {
-    send_to_char("A wall of air prevents you!\r\n", ch);
-    return;
-  }
-  if (equipped && missile != GET_EQ(ch, WEAR_WIELD)) {
+  if (pos >= 0 && pos != WEAR_WIELD) {
     act("You need to WIELD $p to throw it at $N!", FALSE, ch, missile, vict, TO_CHAR);
     return;
   }
@@ -1661,107 +1731,50 @@ ACMD(do_throw)
   percent = number(1, 101);     /* 101% is a complete failure */
   prob    = (IS_NPC(ch) ? number(GET_SKILL(ch, SKILL_THROWING), 100) : GET_SKILL(ch, SKILL_THROWING)) + (GET_DEX(ch) >> 1);
 
-  vnum = GET_OBJ_VNUM(missile);
-  extract_obj(missile);
-  missile = read_object(vnum, VNUMBER);
-
-  if (equipped) {
+  /* The object itself is thrown (it used to be destroyed and a fresh */
+  /* copy made from its prototype, losing anything done to it).       */
+  if (pos >= 0) {
+    missile = unequip_char(ch, pos);
     act("$n throws $p at $N.", TRUE, ch, missile, vict, TO_ROOM);
     act("You throw $p at $N.", TRUE, ch, missile, vict, TO_CHAR);
     WAIT_STATE(vict, PULSE_VIOLENCE);
   } else {
+    obj_from_char(missile);
     act("$n pulls out $p and throws it at $N.", TRUE, ch, missile, vict, TO_ROOM);
     act("You grasp $p and throw it at $N.", TRUE, ch, missile, vict, TO_CHAR);
     WAIT_STATE(vict, 2 * PULSE_VIOLENCE);
   }
+  WAIT_STATE(ch, PULSE_VIOLENCE);
 
   if (percent > prob && !IS_IMMORT(ch)) {
+    obj_to_room(missile, vict->in_room);
     act("$p flies past $N and lands harmlessly on the ground.",
 	TRUE, NULL, missile, vict, TO_NOTVICT);
     act("$p flies past you and lands harmlessly on the ground.",
 	TRUE, vict, missile, NULL, TO_CHAR);
-    obj_to_room(missile, vict->in_room);
+    if (vict->in_room != ch->in_room)
+      act("$p misses $N.", FALSE, ch, missile, vict, TO_CHAR);
     if (number(0, 10) == 10)
       learn_from_mistake(ch, SKILL_THROWING);
+
+    /* an unarmed humanoid picks up what was thrown at it and uses it */
+    if (IS_NPC(vict) && IS_HUMANOID(vict) && AWAKE(vict) && !FIGHTING(vict) &&
+	!GET_EQ(vict, WEAR_WIELD) && GET_OBJ_TYPE(missile) == ITEM_WEAPON &&
+	CAN_WEAR(missile, ITEM_WEAR_TAKE)) {
+      obj_from_room(missile);
+      obj_to_char(missile, vict);
+      act("$n picks up $p.", TRUE, vict, missile, 0, TO_ROOM);
+      do_wield(vict, fname(missile->name), 0, 0);
+    }
   } else {
-    GET_HIT(vict) -= dice(GET_OBJ_VAL(missile, 1), GET_OBJ_VAL(missile, 2));
-    sprintf(buf, "$p flies through the air, lodging into $N's %s.", locations[loc]);
-    act(buf, TRUE, NULL, missile, vict, TO_NOTVICT);
+    ranged_show(ch, vict, missile, locations[loc]);
     sprintf(buf, "$p flies through the air and lodges in your %s.", locations[loc]);
     act(buf, TRUE, vict, missile, NULL, TO_CHAR);
     act("$p looks like it made its mark!", TRUE, ch, missile, NULL, TO_CHAR);
-    lodge_obj_in_char(vict, missile, loc);
-    update_pos(vict);
-    switch (GET_POS(vict)) {
-      case POS_MORTALLYW:
-      act("$n is mortally wounded, and will die soon, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
-      send_to_char("You are mortally wounded, and will die soon, if not aided.\r\n", vict);
-      break;
-      case POS_INCAP:
-      act("$n is incapacitated and will slowly die, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
-      send_to_char("You are incapacitated an will slowly die, if not aided.\r\n", vict);
-      break;
-      case POS_STUNNED:
-      act("$n is stunned, but will probably regain consciousness again.", TRUE, vict, 0, 0, TO_ROOM);
-      send_to_char("You're stunned, but will probably regain consciousness again.\r\n", vict);
-      break;
-      case POS_DEAD:
-        act("$n is dead!  R.I.P.", FALSE, vict, 0, 0, TO_ROOM);
-        send_to_char("You are dead!  Sorry...\r\n", vict);
-        break;
-      default:                      /* >= POSITION SLEEPING */
-        if (dam > (GET_MAX_HIT(vict) >> 2))
-          act("That really did HURT!", FALSE, vict, 0, 0, TO_CHAR);
-
-        if (GET_HIT(vict) < (GET_MAX_HIT(vict) >> 2) || GET_WOUNDS(vict) > 5) {
-          sprintf(buf2, "%sYou wish that your wounds would stop BLEEDING so much!%s\r\n",
-  	          CCRED(vict, C_SPR), CCNRM(vict, C_SPR));
-          send_to_char(buf2, vict);
-          if (MOB_FLAGGED(vict, MOB_WIMPY) && (ch != vict))
-	    do_flee(vict, "", 0, 0);
-        }
-        if (!IS_NPC(vict) && GET_WIMP_LEV(vict) && (vict != ch) &&
-  	    GET_HIT(vict) < GET_WIMP_LEV(vict)) {
-          send_to_char("You wimp out, and attempt to flee!\r\n", vict);
-          do_flee(vict, "", 0, 0);
-        }
-        break;
-    }   
-    if (GET_POS(vict) == POS_DEAD) {
-      if (IS_NPC(vict) || vict->desc) {
-        if (IS_AFFECTED2(ch, AFF_GROUP))
-	  group_gain(ch, vict);
-        else {
-	  exp = MIN((long)max_exp_gain, (long)GET_EXP(vict));
-	  /* Calculate level-difference bonus */
- 	  exp += MAX(0L, (long)(exp * MIN(8, (GET_LEVEL(vict) - GET_LEVEL(ch)))) >> 3);
-	  exp =  MAX((long)exp, 1L);
-	  if (exp > 1)
-	    send_to_char("You receive some experience points.\r\n", ch);
-	  else
-	    send_to_char("You receive one lousy experience point.\r\n", ch);
-	  gain_exp(ch, exp);
-	  change_alignment(ch, vict);
-        }
-      }
-      if (!IS_NPC(vict)) {
-        sprintf(buf2, "%s killed by %s's volley of arrows at %s", GET_NAME(vict), GET_NAME(ch),
-                world[vict->in_room].name);
-        mudlog(buf2, BRF, LVL_IMMORT, TRUE);
-        if (MOB_FLAGGED(ch, MOB_MEMORY))
-          forget(ch, vict);
-      }
-      die(vict, ch);
-    }
+    dam = dice(GET_OBJ_VAL(missile, 1), GET_OBJ_VAL(missile, 2));
+    if (ranged_damage(ch, vict, missile, dam, loc, "thrown weapon"))
+      return;                   /* vict is dead and gone */
   }
-  if (IS_NPC(vict)) {
-    HUNTING(vict) = ch;
-    hunt_victim(vict);
-    if (IS_HUMANOID(vict)) {
-      act("$N says, 'I'm gonna kill $n!", TRUE, ch, 0, vict, TO_NOTVICT);
-      if (!GET_EQ(vict, WEAR_WIELD))
-       do_wield(vict, OBJN(missile, vict), 0, 0);
-    }
-  } /* End of IS_NPC */
+  ranged_retaliate(ch, vict);   /* must be last: ch may die */
 }
 

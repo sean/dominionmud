@@ -19,121 +19,159 @@ Portal~
 S
 #38301
 In Front of the Castle~
-   Here is a huge castle, its silver walls gleaming in
-the sunlight. The top of the castle is lined with archers with
-loaded bows, ready to fire at any intruders. The glinting tips
-of arrows can be seen through slits in the castle walls. Banners
-on the top of the castle wave wildly in the strong winds. A large
-oak drawbridge sits directly in front of you.
+   Here is a huge castle, its silver walls gleaming in the sunlight.
+The top of the castle is lined with archers with loaded bows, ready to
+fire at any intruders.  The glinting tips of arrows can be seen through
+slits in the castle walls.  Banners on the top of the castle wave wildly
+in the strong winds.  A large oak drawbridge sits directly in front of
+you, and the Emperor's road runs back down the hill to the south.
 ~
-383 0 2
+383 c 2
 D0
 ~
-Drawbridge~
-1 0 38302
+drawbridge~
+1 -1 38302
+D2
+~
+~
+0 -1 38393
+E
+banners banner~
+Black banners, each bearing a black crown on a field of silver.
+~
 S
 #38302
 Inside of the Castle~
-   Inside of the mighty castle of Llyndyr, there are racks of 
-weapons on the wall and ancient battle-worn suits in each corner of
-the room. Scrolls and tapestries from another era line the walls, telling
-ancient tells of warriors and mages. The room is lined in torches, which sit
-in golden holsters. There are two statues of Dragons beside the entrance to a
-very long hallway to the north.
+   Inside the mighty castle of Llyndyr there are racks of weapons on the
+walls and ancient, battle-worn suits of armor in each corner of the
+room.  Scrolls and tapestries from another era line the walls, telling
+ancient tales of warriors and mages.  The room is lit by torches that
+sit in golden holders.  Two statues of dragons flank the entrance to a
+very long hallway to the north, and a narrow stair climbs to the
+battlements.
 ~
 383 d 0
 D0
 ~
 ~
-0 0 38303
+0 -1 38303
 D2
 ~
-Drawbridge~
-1 0 38301
+drawbridge~
+1 -1 38301
+D4
+~
+~
+0 -1 38328
+E
+tapestries tapestry~
+The tapestries show the same story again and again: an army under a
+black crown, a city burning, and a line of kneeling kings.
+~
 S
 #38303
 In a Long Hallway~
-   This is one of the largest Hallways ever made, with an
-eleven foot ceiling and it is almost half of a mile long. Scores
-of medals and trophies hang upon the walls. This room is also lined with 
-resting in their golden holsters. With the aid of the many torches, the
-almost magical shroud of darkness is lifted from the room.
+   This is one of the largest hallways ever made, with an eleven foot
+ceiling, and it runs on for almost half a mile.  Scores of medals and
+trophies hang upon the walls, taken from the armies of conquered lands.
+The hall is lined with torches resting in golden holders, and with their
+aid the almost magical shroud of darkness is lifted from the room.
 ~
 383 d 0
 D0
 ~
 ~
-0 0 38304
+0 -1 38304
 D2
 ~
 ~
-0 0 38302
+0 -1 38302
+E
+medals trophies~
+Banners, shields and crowns of a dozen fallen kingdoms, each hung upside
+down.
+~
 S
 #38304
 A Two-Way Passage~
-   The Hallway splits here in two directions, east and
-west. Each hallway is lined with the same golden torches as all
-of the other rooms, and commotion can be heard from both directions
-in the passageways. To the north is a large strong door, with a glowing
-lock. Engraved in the door is the image of a Black Crown.
+   The hallway splits here in two directions, east and west.  Each
+hallway is lined with the same golden torches as all of the other rooms,
+and commotion can be heard from both directions in the passageways.  To
+the north is a large, strong door with a glowing lock.  Engraved in the
+door is the image of a black crown.
 ~
 383 d 0
 D0
 ~
-Door~
-1 0 38305
+door crown~
+1 38310 38305
 D1
 ~
 ~
-0 0 38307
+0 -1 38307
 D2
 ~
 ~
-0 0 38302
+0 -1 38303
 D3
 ~
 ~
-0 0 38310
+0 -1 38310
+E
+door crown lock~
+The door is banded with black iron, and a crown has been engraved into
+it.  The lock glows faintly; it takes a heavy black iron key.
+~
 S
 #38305
 The Domain of the Emperor~
-   This room is decorated in Black silk and covered with diamonds.
-The walls of the room are made of steel and the floor is composed of
-marble. The Ruler stands here in front of his throne, enraged at the 
-intrusion. Behind him sits his Golden throne embedded with various
-gems, and behind the throne lies a door constructed of solid gold. The 
-lock on the door glows with an odd aura.
+   This room is hung with black silk and glitters with diamonds set into
+the walls.  The walls are made of steel and the floor is of polished
+marble.  A golden throne embedded with gems stands on a dais at the
+north end, and behind it lies a door constructed of solid gold, its lock
+glowing with an odd aura.  A smaller door of dark wood, carved with
+sleeping lions, leads east.
 ~
 383 d 0
 D0
 ~
-Gold Door~
-1 0 38306
+door gold golden~
+2 38314 38306
+D1
+~
+door lions~
+1 38313 38324
 D2
 ~
-Door~
-1 0 38304
+door crown~
+1 38310 38304
+E
+throne golden dais~
+The throne is carved from a single block of gold and set with rubies,
+emeralds and black pearls.  The arms end in lions' heads, and the seat
+is worn smooth.
+~
 S
 #38306
-The Treasure room of Llyndyr!~
-   The room is coated in gold and silver pieces, up to an
-average mans knees. Chest full of riches from many lands are scattered
-about the room and gems are mixed in with the gold all over
-the ruby-studded floor. The room itself was created from the gold of 
-defeated lands, which the evil Ruler of Llyndyr has looted.
+The Treasure Room of Llyndyr~
+   The room is coated in gold and silver pieces, up to an average man's
+knees.  Chests full of riches from many lands are scattered about the
+room and gems are mixed in with the gold all over the ruby-studded
+floor.  The room itself was built from the gold of defeated lands, which
+the evil ruler of Llyndyr has looted.
 ~
 383 d 0
 D2
 ~
-Gold Door~
-1 0 38305
+door gold golden~
+2 38314 38305
 S
 #38307
 The Beginning of an Eastern Passage~
-   This castle leads along the southeastern wall of the castle of
-Llyndyr. The hallway has the castles traditional torches in golden
-holsters lining the wall in a seemingly endless path down the hall. To
-the east footsteps and low voices can be heard, and the marble stones on the
+   This hallway runs along the southeastern wall of the castle of
+Llyndyr.  It has the castle's traditional torches in golden holders
+lining the wall in a seemingly endless line down the hall.  To the east
+footsteps and low voices can be heard, and the marble stones of the
 floor look well worn this way.
 ~
 383 d 0
@@ -148,13 +186,17 @@ D3
 S
 #38308
 The Guard Post~
-   Here is what appears to be a guard station. Many guards sit
-here resting on their break. Behind a line of wooden chairs is a weapon
-rack, containing many of the guards swords and daggers. On the other side
-of the rack is a hanger, where dark blue cloaks rest. One of the guards has
-spotted you and is requesting your name and purpose for being here.....
+   Here is what appears to be a guard station.  Guards sit here resting
+between watches.  Behind a line of wooden chairs is a weapon rack
+holding many of the guards' swords and daggers.  On the other side of
+the rack is a row of pegs, where dark blue cloaks hang.  A doorway to
+the north opens on the barracks.
 ~
 383 d 0
+D0
+~
+~
+0 -1 38329
 D1
 ~
 ~
@@ -166,29 +208,36 @@ D3
 S
 #38309
 The Southeastern Corner of the Castle~
-   This room is the dirtiest room in the castle. In the corner there
-are huge spiderwebs, with large black spiders in them. The floor is 
-smudged with mud from a tired warrior or knights boots. Oddly enough
-there is only one torch in the room and it is in a steel holster.
-Much of the walls are covered in blood...human blood...
+   This is the dirtiest room in the castle.  In the corner there are
+huge spiderwebs, with large black spiders in them.  The floor is smudged
+with mud from a tired knight's boots.  Oddly enough there is only one
+torch in the room, and it is in a steel holder.  Much of the walls are
+covered in blood... human blood.  To the north a rough hole has been
+clawed through the castle wall.
 ~
 383 d 0
 D0
 ~
 ~
-0 0 38317
+0 -1 38317
 D3
 ~
 ~
 0 -1 38308
+E
+hole wall claw marks~
+The stones around the hole are scored with claw marks as deep as a
+finger.  Something came through here from the other side, and the guards
+have not dared to brick it up again.
+~
 S
 #38310
-The Beginning of a Western passage~
+The Beginning of a Western Passage~
    This room has a bright and happy feeling to it for some reason.
-It has shields on the wall with two swords crossed over its surface.
-Lances engraved with the name of many famous people rest in glass
-cases on the wall here as well. The torches on the wall glow with a neon red
-and almost magical flame, welcoming guests this way, to the west
+Shields hang on the walls with two swords crossed over each.  Lances
+engraved with the names of famous knights rest in glass cases.  The
+torches here burn with a red, almost magical flame, welcoming guests
+this way, to the west.
 ~
 383 d 0
 D1
@@ -198,20 +247,29 @@ D1
 D3
 ~
 ~
-0 0 38311
+0 -1 38311
 S
 #38311
 Near the Equipment Storage Rooms~
-   This room has exits in all four directions, however the doors
-to the north and south are closed. Loud noises and the crashing of metal 
-can be heard very near by to the east, and many more red flaming torches
-lead the way on a bright path to the west.
+   This room has exits in all four directions.  A heavy door to the
+north is marked with a crossed sword and hammer, and the sound of a
+hammer on steel rings out from behind it.  The door to the south is
+painted with a lantern and a coil of rope.  Many more red flaming
+torches lead the way on a bright path to the west.
 ~
 383 d 0
+D0
+~
+door armory~
+1 -1 38325
 D1
 ~
 ~
-0 0 38310
+0 -1 38310
+D2
+~
+door storeroom~
+1 -1 38326
 D3
 ~
 ~
@@ -219,108 +277,141 @@ D3
 S
 #38312
 The Southwestern Corner of the Castle~
-   Loud commotion can be heard to the north as well as bright flashes 
-of light, in many different colors. On the wall there is a sign read ing the 
-words INN in bold letters the marble floor has a full color map
-of the region painted on it.
+   Loud commotion can be heard to the north, along with bright flashes
+of light in many different colors.  On the wall there is a sign reading
+INN in bold letters, and the marble floor has a full color map of the
+region painted on it.
 ~
 383 d 0
 D0
 ~
 ~
-0 0 38313
+0 -1 38313
 D1
 ~
 ~
-0 0 38311
+0 -1 38311
+E
+map floor~
+The map shows Llyndyr at its heart, its borders pushed far out in every
+direction in fresh black paint over older lines.  Gnishmire lies to the
+south-west, marked with a small black crown and the word SOON.
+~
 S
 #38313
 A Large, Circular Room~
-   The room widens into an almost circular shape, the walls spread
-out then close in, leaving an archway for an exit to the north. To the
-west is a sign above a door reading INN ENTRANCE in bright red letters.
-This rooms is composed of marble and is spotless.
+   The room widens into an almost circular shape; the walls spread out,
+then close in again, leaving an archway for an exit to the north.  To
+the west is a sign above a door reading INN ENTRANCE in bright red
+letters, and the clash of practice swords rings out from the east.  This
+room is built of marble and is spotless.
 ~
 383 d 0
 D0
 ~
 ~
-0 0 38315
+0 -1 38315
 D1
 ~
 ~
-0 0 38314
+0 -1 38314
 D2
 ~
 ~
-0 0 38312
+0 -1 38312
+D3
+~
+~
+0 -1 38327
 S
 #38314
-AN AMBUSH!~
-This description is yet unfinished...
+The Training Hall~
+   This long hall is where the soldiers of Llyndyr learn their trade.
+Sand has been spread over the marble to soak up the blood, and straw
+targets stand along one wall.  Racks hold blunted swords and padded
+shields.  Painted in red over the door are the words AN AMBUSH! - the
+master-at-arms' favourite drill, in which recruits are set upon without
+warning by their own instructors.
 ~
 383 d 0
 D3
 ~
 ~
-0 0 38313
+0 -1 38313
+E
+words ambush red~
+Under the painted words someone has added, in smaller letters: 'Expect
+it.  Always.'
+~
 S
 #38315
 A Dim Passage to the North~
-Faint shimmers of torchlight trickle throughout the room from unseen castle
-guardians. Glimmers of light touch shadows of vermin running amongst
-the stone floor,revealing a metal peg on the wall to the east...
+   Faint shimmers of torchlight trickle through the room from unseen
+castle guardians.  Glimmers of light touch the shadows of vermin running
+across the stone floor, and reveal a metal peg on the wall to the east.
 ~
 383 d 0
 D0
 ~
 ~
-0 0 38323
+0 -1 38323
 D1
 ~
-peg~
-1 0 38316
+door peg~
+1 -1 38316
 D2
 ~
 ~
 0 -1 38313
+E
+peg metal~
+Pulling on the peg would open a narrow door in the wall.
+~
 S
 #38316
-Medical Storage Facility~
-You have discovered Llyndyr`s Army`s medical supply room, which
-is filled with bandages, herbs and many more remedies. Although
- most of them are locked away in cabinets, some have been
-carelessly tossed onto the floor!
+The Infirmary~
+   This is the infirmary of the army of Llyndyr, its shelves filled with
+bandages, herbs and many more remedies.  Most of them are locked away in
+cabinets, though some have been carelessly tossed onto the floor.  A row
+of narrow cots lines the wall, and the air smells of vinegar and boiled
+linen.
 ~
 383 dr 0
 D3
 ~
-peg~
-1 0 38315
+door peg~
+1 -1 38315
 S
 #38317
-Room #38317~
-It appears that you have walked into the lair of some unknown creature. 
-Your stomach begins to churns as the putrid smell of rotting flesh
-reaches your nose...
+The SaberBeast's Lair~
+   It appears that you have walked into the lair of some unknown
+creature.  Your stomach churns as the putrid smell of rotting flesh
+reaches your nose.  Gnawed bones are piled against the walls - some of
+them still wearing scraps of dark blue cloth - and a tunnel drops away
+into the darkness below.
 ~
-383 d 0
+383 cd 0
 D2
 ~
 ~
-0 0 38309
+0 -1 38309
 D5
 ~
 ~
-0 0 38318
+0 -1 38318
+E
+bones cloth~
+Most of the bones are human, and the scraps of cloth are the dark blue
+of the castle guard.
+~
 S
 #38318
 Tunnel Beginning~
-You have entered a series of underground tunnels and passages. Apparently,
-this was the SaberBeast`s method of transportation. The tunnels are
-misty and appear to end up in a clearing of some sort.
+   You have entered a series of underground tunnels and passages.
+Apparently this is how the SaberBeast comes and goes.  The tunnels are
+misty and seem to lead toward a clearing of some sort to the east.
 ~
-383 d 0
+383 ad 0
 D1
 ~
 ~
@@ -328,20 +419,21 @@ D1
 D4
 ~
 ~
-0 0 38317
+0 -1 38317
 S
 #38319
 Further Into the Tunnels~
-As you continue down the tunnel of this underground labyrinth,
-the path splits in two directions. The northern passage is filled
- with a dampening mist, while the eastern route is up to your
-waist in a murky green water.
+   As you continue down the tunnels of this underground labyrinth, the
+path splits.  A low, claw-scored passage leads north, filled with a
+dampening mist and a heavy animal smell, while the eastern route is
+waist deep in murky green water.  Above you, a square flagstone is set
+into the roof of the tunnel.
 ~
-383 d 0
+383 ad 0
 D0
 ~
 ~
-0 0 38323
+0 -1 38340
 D1
 ~
 ~
@@ -350,17 +442,20 @@ D3
 ~
 ~
 0 -1 38318
+D4
+~
+flagstone stone~
+1 -1 38323
 S
 #38320
-A Split In the Tunnel~
-You manage to slowly slosh you way through this murky tunnel,and you
-discover a large opening up ahead that fills the tunnel with extremely
-reflections of light from the sun. The cool water is quickly becoming
-clearer and is beginning to pick up speed, causing a very loud and almost
-loud, overwhelming sound of rushing water flowing through this
-magnificent cavern.
+A Split in the Tunnel~
+   You manage to slosh slowly through this murky tunnel, and you
+discover a large opening ahead that fills the tunnel with dazzling
+reflections of sunlight.  The cool water is quickly growing clearer and
+is beginning to pick up speed, with a loud, overwhelming roar of rushing
+water flowing through this magnificent cavern.
 ~
-383 d 0
+383 d 7
 D1
 ~
 ~
@@ -372,17 +467,16 @@ D3
 S
 #38321
 Coral Reef Shoreline~
-After exiting the vast cavern and freeing yourself of the murky
-green water, you manage to stumble onto the shoreline. It is covered in
-beautiful teal coral, which extends for mile after mile. The colors
-of the waters have turned from a dull green to a crystal clear
-blue.
+   After leaving the vast cavern and freeing yourself of the murky green
+water, you manage to stumble onto the shoreline.  It is covered in
+beautiful teal coral, which stretches away for mile after mile.  The
+water has turned from a dull green to a crystal clear blue.
 ~
-383 d 0
+383 0 2
 D1
 ~
 ~
-0 0 38322
+0 -1 38322
 D3
 ~
 ~
@@ -390,331 +484,299 @@ D3
 S
 #38322
 The Flatlands~
-After leaving the beaches, you have arrived here, on a small path leading
-towards the lush, green hills. Over the hills the faint image of a distant 
-city can be seen. You also notice that the well-traveled path that you are
-on now leads through the hills and onward to this great city.
+   Leaving the beaches behind, you come out on a small path that leads
+up into lush, green hills.  Over the hills the silver walls of a great
+castle can be seen, and a well-travelled path climbs north toward a
+broad black road.
 ~
-383 d 0
+383 0 2
+D0
+~
+~
+0 -1 38392
 D3
 ~
 ~
 0 -1 38321
 S
 #38323
-Room #38323~
-The rather lengthy corridor ends here abruptly, at a smooth stone wall.
-Oddly, the wall is covered in blood.......
-I wonder why???
+A Bloody Dead End~
+   The rather lengthy corridor ends here abruptly, at a smooth stone
+wall.  Oddly, the wall is covered in blood, and a dark trail of it runs
+across the floor to a square flagstone that does not quite match the
+others.
 ~
 383 d 0
 D2
 ~
 ~
-0 0 38315
+0 -1 38315
+D5
+~
+flagstone stone~
+1 -1 38319
+E
+trail blood flagstone~
+The blood has been dragged across the floor, not spilled.  It ends at
+the edge of the flagstone, which is loose in its setting.  It looks as
+though it could be opened.
+~
 S
 #38324
-Room #38324~
-This description is yet unfinished...
+The Emperor's Bedchamber~
+   A great bed hung with black silk curtains fills most of this room.
+Its posts are carved as rearing lions, and the coverlet is sewn with a
+crown in thread of gold.  A tall wardrobe stands against one wall and a
+small writing desk against another, its papers covered in lists of names
+- some crossed out in red.  The only door leads west, back to the throne
+room.
+~
+383 d 0
+D3
+~
+door lions~
+1 38313 38305
+E
+papers lists names desk~
+Lists of names, towns and sums of gold.  Beside some of the names is
+written 'paid'; beside the ones crossed out in red is written 'fed'.
+~
+S
+#38325
+The Armory~
+   This vaulted room rings with the sound of the armorer's hammer.  A
+forge glows red in one corner, and every wall is hung with blades, mail
+and helms of black-enamelled steel.  A long counter of scarred oak
+separates the armorer's work from his customers.
+~
+383 d 0
+D2
+~
+door armory~
+1 -1 38311
+S
+#38326
+The Quartermaster's Storeroom~
+   Shelves climb to the ceiling of this narrow room, packed with
+everything an army needs on the march: lanterns, waterskins, packs,
+cloaks and coils of rope.  A ledger lies open on a desk by the door,
+every item accounted for.
 ~
 383 d 0
 D0
 ~
-~
-0 -1 38315
-D3
-~
-~
-0 -1 38323
+door storeroom~
+1 -1 38311
 S
-#38325
-Room #38325~
-This description is yet unfinished...
+#38327
+The Black Crown Inn~
+   This low, smoky common room is where the soldiers of Llyndyr spend
+their pay.  Long tables are scarred with knife marks and dice games, and
+a fire roars in a hearth big enough to roast an ox.  Behind the bar,
+kegs of dark ale are stacked to the rafters.  The only way out is east.
 ~
 383 d 0
 D1
 ~
 ~
-0 -1 38326
+0 -1 38313
+S
+#38328
+Upon the Battlements~
+   A walk runs along the top of the silver walls, behind merlons tall
+enough to hide a man.  From up here you can see the black road running
+away to the west, the hills rolling down to the sea, and, far to the
+south-west, the smoke of Gnishmire.  Bundles of arrows are stacked by
+every arrow slit.
+~
+383 0 1
+D5
+~
+~
+0 -1 38302
+S
+#38329
+The Barracks~
+   Rows of narrow bunks fill this long room, each with a footlocker and
+a dark blue cloak folded at its foot with military neatness.  A table at
+the far end is covered in duty rosters and maps, and a door in the
+corner leads to the captain's quarters - currently he works out here,
+among his men.
+~
+383 d 0
 D2
 ~
 ~
-0 -1 38338
+0 -1 38308
 S
-#38326
-Room #38326~
-This description is yet unfinished...
+#38340
+A Clawed Passage~
+   The tunnel here has been dug, not built: its walls are raw earth and
+rock gouged by enormous claws.  The mist thickens, and the animal stench
+grows stronger the further north you go.
 ~
-383 d 0
+383 ad 0
+D0
+~
+~
+0 -1 38341
+D2
+~
+~
+0 -1 38319
+S
+#38341
+A Fork in the Warren~
+   The burrow forks here.  One passage carries on north, while another
+slants off to the east.  Tufts of coarse, tawny fur are caught on the
+rough stone at shoulder height.
+~
+383 ad 0
+D0
+~
+~
+0 -1 38342
 D1
 ~
 ~
-0 -1 38327
-D3
-~
-~
-0 -1 38325
-S
-#38327
-Room #38327~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38328
-D3
-~
-~
-0 -1 38326
-S
-#38328
-Room #38328~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38329
-D3
-~
-~
-0 -1 38327
-S
-#38329
-Room #38329~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38330
-D3
-~
-~
-0 -1 38328
-S
-#38330
-Room #38330~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38331
-D3
-~
-~
-0 -1 38329
-S
-#38331
-Room #38331~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38332
-D3
-~
-~
-0 -1 38330
-S
-#38332
-Room #38332~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38333
-D3
-~
-~
-0 -1 38331
-S
-#38333
-Room #38333~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38334
-D3
-~
-~
-0 -1 38332
-S
-#38334
-Room #38334~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38335
-D3
-~
-~
-0 -1 38333
-S
-#38335
-Room #38335~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38336
-D3
-~
-~
-0 -1 38334
-S
-#38336
-Room #38336~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38337
-D3
-~
-~
-0 -1 38335
-S
-#38337
-Room #38337~
-This description is yet unfinished...
-~
-383 d 0
+0 -1 38343
 D2
 ~
 ~
 0 -1 38340
-D3
-~
-~
-0 -1 38336
 S
-#38338
-Room #38338~
-This description is yet unfinished...
+#38342
+A Low Burrow~
+   The ceiling drops so low that you have to stoop.  Scratches cover
+every surface, and the earth floor is churned by the passing of heavy
+paws.  A side passage opens to the west.
 ~
-383 d 0
+383 ad 0
 D0
 ~
 ~
-0 -1 38325
+0 -1 38345
 D2
 ~
 ~
 0 -1 38341
-S
-#38339
-Room #38339~
-This description is yet unfinished...
+D3
 ~
-383 d 0
+~
+0 -1 38344
+S
+#38343
+A Twisting Tunnel~
+   The tunnel twists back and forth as if the beast that dug it had no
+plan but hunger.  Passages lead north and east, and back to the west.
+~
+383 ad 0
+D0
+~
+~
+0 -1 38347
 D1
 ~
 ~
-0 -1 38340
+0 -1 38346
+D3
+~
+~
+0 -1 38341
+S
+#38344
+The Bone Midden~
+   This dead-end chamber is where the creature throws what it does not
+eat.  Bones of men, horses and cattle lie in a heap as high as your
+waist, picked clean and cracked for their marrow.  In the middle of the
+floor a sinkhole drops away into darkness.
+~
+383 ad 0
+D1
+~
+~
+0 -1 38342
+D5
+~
+~
+0 -1 38348
+S
+#38345
+A Narrow Squeeze~
+   The passage narrows to a crack barely wide enough for a man to
+squeeze through.  Whatever made these tunnels must be able to flatten
+itself like a cat.  The way opens out again to the east.
+~
+383 ad 0
+D1
+~
+~
+0 -1 38349
+D2
+~
+~
+0 -1 38342
+S
+#38346
+A Muddy Tunnel~
+   Water seeps from the walls here and the floor is slick with mud.
+Huge paw prints, each as wide as a shield, are pressed deep into it, all
+heading north.
+~
+383 ad 0
+D0
+~
+~
+0 -1 38350
+D3
+~
+~
+0 -1 38343
+S
+#38347
+A Gnawed Passage~
+   The roots of the hills poke through the ceiling of this passage, and
+every one of them has been gnawed through.  The tunnel runs north and
+south.
+~
+383 ad 0
+D0
+~
+~
+0 -1 38349
 D2
 ~
 ~
 0 -1 38343
 S
-#38340
-Room #38340~
-This description is yet unfinished...
+#38348
+A Flooded Gallery~
+   You have dropped into a lower gallery, half flooded with cold, black
+water.  The sinkhole opens in the ceiling above you, and the gallery
+runs east into the dark.
 ~
-383 d 0
-D0
+383 ad 0
+D1
 ~
 ~
-0 -1 38337
-D2
+0 -1 38351
+D4
 ~
 ~
 0 -1 38344
-D3
-~
-~
-0 -1 38339
 S
-#38341
-Room #38341~
-This description is yet unfinished...
+#38349
+A Warren Crossroads~
+   Several tunnels meet in this rough chamber.  The air is warm and
+close, and heavy with the smell of a great cat.  Passages lead south,
+west and east.
 ~
-383 d 0
-D0
-~
-~
-0 -1 38338
+383 ad 0
 D1
 ~
 ~
-0 -1 38342
-S
-#38342
-Room #38342~
-This description is yet unfinished...
-~
-383 d 0
-D3
-~
-~
-0 -1 38341
-S
-#38343
-Room #38343~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38339
-S
-#38344
-Room #38344~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38340
-S
-#38345
-Room #38345~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38346
-S
-#38346
-Room #38346~
-This description is yet unfinished...
-~
-383 d 0
-D1
+0 -1 38352
+D2
 ~
 ~
 0 -1 38347
@@ -723,206 +785,94 @@ D3
 ~
 0 -1 38345
 S
-#38347
-Room #38347~
-This description is yet unfinished...
-~
-383 d 0
-D3
-~
-~
-0 -1 38346
-S
-#38348
-Room #38348~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38349
-Room #38349~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38350
-D2
-~
-~
-0 -1 38352
-S
 #38350
-Room #38350~
+A Scratching Post~
+   A great pillar of rock stands in the middle of this chamber, scored
+so deeply with claw marks that it has been worn to half its thickness.
+Passages lead east and south.
 ~
-383 d 0
-D3
-~
-~
-0 -1 38349
-S
-#38351
-Room #38351~
-This description is yet unfinished...
-~
-383 d 0
-D2
-~
-~
-0 -1 38357
-S
-#38352
-Room #38352~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38349
-D2
-~
-~
-0 -1 38358
-S
-#38353
-Room #38353~
-This description is yet unfinished...
-~
-383 d 0
-D2
-~
-~
-0 -1 38361
-S
-#38354
-Room #38354~
-This description is yet unfinished...
-~
-383 d 0
+383 ad 0
 D1
-~
-~
-0 -1 38355
-S
-#38355
-Room #38355~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38356
-D3
-~
-~
-0 -1 38354
-S
-#38356
-Room #38356~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38357
-D2
-~
-~
-0 -1 38363
-D3
-~
-~
-0 -1 38355
-S
-#38357
-Room #38357~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38351
-D3
-~
-~
-0 -1 38356
-S
-#38358
-Room #38358~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38352
-D1
-~
-~
-0 -1 38359
-D2
-~
-~
-0 -1 38364
-S
-#38359
-Room #38359~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38360
-D3
-~
-~
-0 -1 38358
-S
-#38360
-Room #38360~
-This description is yet unfinished...
-~
-383 d 0
-D3
-~
-~
-0 -1 38359
-S
-#38361
-Room #38361~
-This description is yet unfinished...
-~
-383 d 0
-D0
 ~
 ~
 0 -1 38353
 D2
 ~
 ~
-0 -1 38370
+0 -1 38346
 S
-#38362
-Room #38362~
-This description is yet unfinished...
+#38351
+A Drowned Passage~
+   The water rises to your chest as the gallery dips.  Something brushes
+past your legs and is gone.  The passage climbs out of the water to the
+north, and a rough chimney leads up.
 ~
-383 d 0
+383 ad 0
+D0
+~
+~
+0 -1 38354
+D3
+~
+~
+0 -1 38348
+D4
+~
+~
+0 -1 38353
+S
+#38352
+Outside the Den~
+   The tunnel widens and the walls are worn smooth by the rubbing of a
+huge body.  The stench is overpowering now.  From the north comes a low,
+rumbling sound, like a great cat purring - or growling.
+~
+383 ad 0
+D0
+~
+~
+0 -1 38355
+D3
+~
+~
+0 -1 38349
+S
+#38353
+A Hunting Ledge~
+   This narrow ledge looks down a chimney into flooded darkness below.
+It is littered with feathers and small bones: the beast's cubs practise
+their hunting here.
+~
+383 ad 0
+D3
+~
+~
+0 -1 38350
+D5
+~
+~
+0 -1 38351
+S
+#38354
+The Drinking Pool~
+   A still, clear pool fills this cavern, fed by a trickle from the
+rock.  Its floor glitters: the beast drags its kills here to drink, and
+the coins and rings of its victims have fallen into the water over the
+years.
+~
+383 ad 0
 D2
 ~
 ~
-0 -1 38373
+0 -1 38351
 S
-#38363
-Room #38363~
-This description is yet unfinished...
+#38355
+The Antechamber of the Den~
+   Gnawed armor lies scattered across the floor of this chamber: helms
+bitten through, breastplates torn open like tins.  The den lies just to
+the north.
 ~
-383 d 0
+383 ad 0
 D0
 ~
 ~
@@ -930,342 +880,104 @@ D0
 D2
 ~
 ~
-0 -1 38375
+0 -1 38352
 S
-#38364
-Room #38364~
-This description is yet unfinished...
+#38356
+The SaberBeast's Den~
+   This vast cavern is the den of the SaberBeast.  The floor is a nest
+of straw, fur and bones, and the walls are painted with old blood.  At
+the back of the cave lie the bones of the castle guards who came here to
+kill the beast, still in their dented helms and torn blue cloaks.
 ~
-383 d 0
-D0
+383 ad 0
+D2
 ~
 ~
-0 -1 38358
-D1
-~
-~
-0 -1 38365
-S
-#38365
-Room #38365~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38366
-D3
-~
-~
-0 -1 38364
-S
-#38366
-Room #38366~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38367
-D3
-~
-~
-0 -1 38365
-S
-#38367
-Room #38367~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38368
-D3
-~
-~
-0 -1 38366
-S
-#38368
-Room #38368~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38369
-D3
-~
-~
-0 -1 38367
-S
-#38369
-Room #38369~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38370
-D3
-~
-~
-0 -1 38368
-S
-#38370
-Room #38370~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38361
-D1
-~
-~
-0 -1 38371
-D3
-~
-~
-0 -1 38369
-S
-#38371
-Room #38371~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38372
-D3
-~
-~
-0 -1 38370
-S
-#38372
-Room #38372~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38373
-D3
-~
-~
-0 -1 38371
-S
-#38373
-Room #38373~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38362
-D1
-~
-~
-0 -1 38374
-D3
-~
-~
-0 -1 38372
-S
-#38374
-Room #38374~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38375
-D3
-~
-~
-0 -1 38373
-S
-#38375
-Room #38375~
-This description is yet unfinished...
-~
-383 d 0
-D0
-~
-~
-0 -1 38363
-D3
-~
-~
-0 -1 38374
-S
-#38376
-Room #38376~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38377
-Room #38377~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38378
-Room #38378~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38379
-Room #38379~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38380
-S
-#38380
-Room #38380~
-This description is yet unfinished...
-~
-383 d 0
-D1
-~
-~
-0 -1 38381
-D3
-~
-~
-0 -1 38379
-S
-#38381
-Room #38381~
-This description is yet unfinished...
-~
-383 d 0
-D3
-~
-~
-0 -1 38380
-S
-#38382
-Room #38382~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38383
-Room #38383~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38384
-Room #38384~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38385
-Room #38385~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38386
-Room #38386~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38387
-Room #38387~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38388
-Room #38388~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38389
-Room #38389~
-This description is yet unfinished...
-~
-383 d 0
+0 -1 38355
 S
 #38390
-Room #38390~
-This description is yet unfinished...
+A Faded Track in the Hills~
+   A faded track leaves the old Gnishmire road here and climbs north
+into the hills.  Its paving stones were laid with care long ago and are
+now half buried in grass, but each one is still stamped with the same
+small device: a black crown.  Far to the north-east, something silver
+catches the sun on a hilltop.
 ~
-383 d 0
+383 0 4
+D0
+~
+~
+0 -1 38391
+D2
+~
+~
+0 -1 35106
+E
+stones device crown~
+Each paving stone bears a crown stamped into it in black pitch, renewed
+so often that the stone beneath has worn away around it.  Someone still
+cares very much that travellers know whose road this is.
+~
 S
 #38391
-Room #38391~
-This description is yet unfinished...
+A Climbing Track~
+   The track winds steeply up between grassy shoulders of hill.  A
+wooden post stands beside it, hung with an iron cage in which the bones
+of some long-dead wretch still sit, facing the road.  Beyond the next
+rise the track widens into a proper road running east.
 ~
-383 d 0
+383 0 4
+D1
+~
+~
+0 -1 38392
+D2
+~
+~
+0 -1 38390
+E
+cage post bones~
+A rusted plaque on the post reads: 'HE SPOKE AGAINST THE EMPEROR.'  The
+bones have been arranged so that the skull grins at everyone who passes.
+~
 S
 #38392
-Room #38392~
-This description is yet unfinished...
+The Emperor's Road~
+   A broad road of black flagstones runs east along the crest of the
+hills, wide enough for a column of soldiers to march six abreast.  To
+the east the silver walls of a great castle rise against the sky.  A
+narrow path drops away south through the grass toward the distant sound
+of the sea.
 ~
-383 d 0
+383 0 2
+D1
+~
+~
+0 -1 38393
+D2
+~
+~
+0 -1 38322
+D3
+~
+~
+0 -1 38391
 S
 #38393
-Room #38393~
-This description is yet unfinished...
+Below the Silver Walls~
+   The road ends at the foot of a steep rise crowned by the castle of
+Llyndyr.  Its walls are faced with a pale metal that gleams like silver,
+and every merlon along the battlements hides an archer.  The road climbs
+north, under their gaze, to the drawbridge.
 ~
-383 d 0
-S
-#38394
-Room #38394~
-This description is yet unfinished...
+383 0 2
+D0
 ~
-383 d 0
-S
-#38395
-Room #38395~
-This description is yet unfinished...
 ~
-383 d 0
-S
-#38396
-Room #38396~
-This description is yet unfinished...
+0 -1 38301
+D3
 ~
-383 d 0
-S
-#38397
-Room #38397~
-This description is yet unfinished...
 ~
-383 d 0
-S
-#38398
-Room #38398~
-This description is yet unfinished...
-~
-383 d 0
-S
-#38399
-Room #38399~
-This description is yet unfinished...
-~
-383 d 0
+0 -1 38392
 S
 $~

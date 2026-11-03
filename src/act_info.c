@@ -154,7 +154,9 @@ char *show_obj_condition(struct obj_data *obj)
   };
 
   condition = GET_OBJ_VAL(obj, 9);
-  tenth = (material_list[GET_OBJ_VAL(obj, 7)].sturdiness / 10);
+  /* at least 1, or anything of glass or paper (sturdiness < 10) always
+     showed as "destroyed" */
+  tenth = MAX(1, material_list[GET_OBJ_VAL(obj, 7)].sturdiness / 10);
  
   if (GET_OBJ_TYPE(obj) == ITEM_FOOD) {
      if (condition <= 48)

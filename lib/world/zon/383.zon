@@ -1,28 +1,122 @@
 #383
 The Castle of Llyndyr~
 Cloak~
-BUILDING~
+ALL~
 3001 1
 38399 24 2
 *
-* Last Updated: Tue Feb 25 00:34:27 
-*           By: Cloak
+* Last Updated: Mon Nov  2 2026
+*           By: Claude
 *
-M 0 38305 2 38308 100 	* A Castle Guardian at The Guard Post. (Max: 2)
-M 0 38304 1 38323 100 	* a Demon Knight at Room #38323. (Max: 1)
-E 0 38312 1 18 100 			* And equip it with the DemonsBane. (Max: 1)
-D 0 38304 0 2 100 		* Lock and Close Northern door at A Two-Way Passage
-D 0 38315 1 1 100 		* Close Eastern door at A Dim Passage to the North
-O 0 38308 2 38316 80 	* a Scroll of Healing at Medical Storage Facility. (Max: 2)
+* The Emperor's daily routine (castle.c) opens and locks the throne-room,
+* bedchamber and treasury doors; the resets below put them back in their
+* daytime state.
+*
+O 0 38302 1 38300 100 	* a black fountain at A Shadowy Lair. (Max: 1)
+D 0 38300 4 2 100 		* Lock the recall door at A Shadowy Lair.
 M 0 38300 2 38301 100 	* Undead Guardian at In Front of the Castle. (Max: 2)
-E 0 38309 2 18 100 			* And equip it with a Spectrum Amulet. (Max: 2)
-O 0 38303 3 38306 100 	* a big pile of Coins at The Treasure room of Llyndyr!. (Max: 3)
-O 0 38304 2 38306 100 	* a Chest at The Treasure room of Llyndyr!. (Max: 2)
-P 0 38305 2 38304 100 	* Put Mound of Coins in a Chest. (Max: 2)
+E 1 38309 2 2 100 			* And equip it with a spectrum amulet. (Max: 2)
+M 0 38300 2 38301 100 	* Undead Guardian at In Front of the Castle. (Max: 2)
+E 1 38309 2 2 100 			* And equip it with a spectrum amulet. (Max: 2)
+M 0 38320 3 38328 100 	* a castle archer Upon the Battlements. (Max: 3)
+E 1 38345 3 17 100 			* And equip him with a black longbow. (Max: 3)
+E 1 38343 6 13 100 			* And a dark blue cloak. (Max: 6)
+M 0 38320 3 38328 100 	* a castle archer Upon the Battlements. (Max: 3)
+E 1 38345 3 17 100 			* And equip him with a black longbow. (Max: 3)
+M 0 38320 3 38328 100 	* a castle archer Upon the Battlements. (Max: 3)
+E 1 38345 3 17 100 			* And equip him with a black longbow. (Max: 3)
+D 0 38304 0 1 100 		* Close the throne-room door (hall side).
+D 0 38305 2 1 100 		* Close the throne-room door (throne side).
+D 0 38305 1 2 100 		* Lock the bedchamber door (throne side).
+D 0 38324 3 2 100 		* Lock the bedchamber door (bed side).
+D 0 38305 0 2 100 		* Lock the golden treasury door.
+D 0 38306 2 2 100 		* Lock the golden treasury door (inside).
+M 0 38308 1 38304 100 	* Orso the warden at A Two-Way Passage. (Max: 1)
+E 1 38320 2 17 100 			* And equip him with a warden's halberd. (Max: 2)
+M 0 38309 1 38304 100 	* Ildo the warden at A Two-Way Passage. (Max: 1)
+E 1 38320 2 17 100 			* And equip him with a warden's halberd. (Max: 2)
 M 0 38303 1 38305 100 	* the Emperor at The Domain of the Emperor. (Max: 1)
-D 1 38305 2 2 100 		* Lock and Close Southern door at The Domain of the Emperor
-D 0 38305 0 2 100 		* Lock and Close Northern door at The Domain of the Emperor
-D 0 38300 4 2 100 		* Lock and Close Southern door at A Shadowy Lair
-O 0 38302 1 38300 100 	* a Fountain at A Shadowy Lair. (Max: 1)
+E 1 38306 1 17 100 			* And equip him with the Shadow Blade. (Max: 1)
+E 1 38317 1 5 100 			* And the Black Crown of Llyndyr. (Max: 1)
+G 1 38314 1 100 			* And give him the golden key. (Max: 1)
+G 1 38313 1 100 			* And the silver lion key. (Max: 1)
+G 1 38310 2 100 			* And a black iron key. (Max: 2)
+M 0 38306 1 38305 100 	* Varn the bodyguard at The Domain of the Emperor. (Max: 1)
+E 1 38321 2 5 100 			* And equip him with a black lion mask. (Max: 2)
+E 1 38344 4 17 100 			* And a guardsman's longsword. (Max: 4)
+M 0 38307 1 38305 100 	* Vorn the bodyguard at The Domain of the Emperor. (Max: 1)
+E 1 38321 2 5 100 			* And equip him with a black lion mask. (Max: 2)
+E 1 38344 4 17 100 			* And a guardsman's longsword. (Max: 4)
+M 0 38310 1 38303 100 	* Malvo the chamberlain at In a Long Hallway. (Max: 1)
+E 1 38319 1 2 100 			* And equip him with a silver chain of office. (Max: 1)
+M 0 38311 1 38310 100 	* Hesta the chambermaid at The Beginning of a Western Passage. (Max: 1)
+O 0 38304 1 38306 100 	* a golden chest in The Treasure Room of Llyndyr. (Max: 1)
+P 1 38305 2 38304 100 		* Put a mound of coins in the golden chest. (Max: 2)
+P 1 38307 1 38304 30 		* Put the shadow armor in the golden chest. (Max: 1)
+O 0 38303 1 38306 100 	* a pile of gold coins in The Treasure Room of Llyndyr. (Max: 1)
+M 0 38305 6 38308 100 	* A Castle Guardian at The Guard Post. (Max: 6)
+E 1 38344 4 17 100 			* And equip him with a guardsman's longsword. (Max: 4)
+E 1 38343 6 13 100 			* And a dark blue cloak. (Max: 6)
+M 0 38305 6 38308 100 	* A Castle Guardian at The Guard Post. (Max: 6)
+E 1 38333 4 17 100 			* And equip him with a guardsman's spear. (Max: 4)
+M 0 38301 1 38329 100 	* Captain Dorrek at The Barracks. (Max: 1)
+E 1 38344 4 17 100 			* And equip him with a guardsman's longsword. (Max: 4)
+E 1 38334 2 4 100 			* And a chain-mail hauberk. (Max: 2)
+G 1 38310 2 100 			* And a black iron key. (Max: 2)
+M 0 38305 6 38329 100 	* A Castle Guardian at The Barracks. (Max: 6)
+E 1 38343 6 13 100 			* And equip him with a dark blue cloak. (Max: 6)
+M 0 38305 6 38329 100 	* A Castle Guardian at The Barracks. (Max: 6)
+E 1 38334 2 4 100 			* And equip him with a chain-mail hauberk. (Max: 2)
+M 0 38305 6 38327 100 	* A Castle Guardian at The Black Crown Inn. (Max: 6)
+M 0 38312 1 38327 100 	* Corporal Hask at The Black Crown Inn. (Max: 1)
+G 1 38318 1 100 			* And give him a pair of bone dice. (Max: 1)
+M 0 38313 1 38327 100 	* Bertolt the innkeeper at The Black Crown Inn. (Max: 1)
+G 1 38330 50 100 			* And give him a mug of dark ale (for sale).
+G 1 38331 50 100 			* And a loaf of castle bread (for sale).
+G 1 38332 50 100 			* And a roast haunch (for sale).
+M 0 38314 1 38325 100 	* Gunnar the armorer at The Armory. (Max: 1)
+G 1 38301 50 100 			* And give him a well-crafted sword (for sale).
+G 1 38333 50 100 			* And a guardsman's spear (for sale).
+G 1 38344 50 100 			* And a guardsman's longsword (for sale).
+G 1 38334 50 100 			* And a chain-mail hauberk (for sale).
+G 1 38335 50 100 			* And a black steel helm (for sale).
+G 1 38336 50 100 			* And a pair of steel gauntlets (for sale).
+M 0 38323 1 38326 100 	* Pell the quartermaster at The Quartermaster's Storeroom. (Max: 1)
+G 1 38340 50 100 			* And give him a brass lantern (for sale).
+G 1 38341 50 100 			* And a leather waterskin (for sale).
+G 1 38342 50 100 			* And a canvas backpack (for sale).
+G 1 38343 50 100 			* And a dark blue cloak (for sale).
+M 0 38302 1 38314 100 	* Ulfric the master-at-arms at The Training Hall. (Max: 1)
+E 1 38322 3 17 100 			* And equip him with a blunted practice sword. (Max: 3)
+M 0 38321 1 38314 100 	* Aldric the recruit at The Training Hall. (Max: 1)
+E 1 38322 3 17 100 			* And equip him with a blunted practice sword. (Max: 3)
+M 0 38322 1 38314 100 	* Bren the recruit at The Training Hall. (Max: 1)
+E 1 38322 3 17 100 			* And equip her with a blunted practice sword. (Max: 3)
+D 0 38315 1 1 100 		* Close the peg door at A Dim Passage to the North.
+D 0 38316 3 1 100 		* Close the peg door (infirmary side).
+M 0 38315 1 38316 100 	* Sister Ysolde at The Infirmary. (Max: 1)
+G 1 38337 50 100 			* And give her a red healing draught (for sale).
+G 1 38338 50 100 			* And a green healing draught (for sale).
+G 1 38339 50 100 			* And a clear antidote (for sale).
+G 1 38308 50 100 			* And a scroll of healing (for sale).
+O 0 38308 2 38316 60 	* a scroll of healing at The Infirmary. (Max: 2)
+D 0 38323 5 1 100 		* Close the flagstone at A Bloody Dead End.
+D 0 38319 4 1 100 		* Close the flagstone (tunnel side).
+M 0 38304 1 38323 100 	* a Demon Knight at A Bloody Dead End. (Max: 1)
+E 1 38312 1 17 100 			* And equip it with the DemonsBane. (Max: 1)
+M 0 38317 4 38318 100 	* a giant tunnel rat at Tunnel Beginning. (Max: 4)
+M 0 38317 4 38342 100 	* a giant tunnel rat at A Low Burrow. (Max: 4)
+M 0 38317 4 38344 100 	* a giant tunnel rat at The Bone Midden. (Max: 4)
+M 0 38317 4 38351 100 	* a giant tunnel rat at A Drowned Passage. (Max: 4)
+M 0 38318 2 38343 100 	* a blind cave stalker at A Twisting Tunnel. (Max: 2)
+M 0 38318 2 38349 100 	* a blind cave stalker at A Warren Crossroads. (Max: 2)
+M 0 38319 3 38321 100 	* a giant reef crab at Coral Reef Shoreline. (Max: 3)
+M 0 38319 3 38321 100 	* a giant reef crab at Coral Reef Shoreline. (Max: 3)
+M 0 38324 2 38353 100 	* a SaberBeast cub at A Hunting Ledge. (Max: 2)
+M 0 38324 2 38356 100 	* a SaberBeast cub at The SaberBeast's Den. (Max: 2)
+M 0 38316 1 38356 100 	* the SaberBeast at The SaberBeast's Den. (Max: 1)
+G 1 38315 1 60 			* And give it a sabre-fang dagger. (Max: 1)
+G 1 38316 1 100 			* And a SaberBeast pelt. (Max: 1)
+O 0 38346 1 38354 100 	* a sodden heap of coins and rings at The Drinking Pool. (Max: 1)
 S
 $~

@@ -22,7 +22,7 @@ CFLAGS = -g -O2 $(MYFLAGS) $(PROFILE)
 
 OBJFILES = comm.o act_comm.o act_info.o act_item.o act_move.o \
 	act_off.o act_othr.o act_socl.o act_wizd.o alias.o \
-	ban.o boards.o config.o constant.o creation.o db.o \
+	ban.o boards.o castle.o config.o constant.o creation.o db.o \
 	fight.o guild.o graph.o handler.o house.o interpre.o \
 	limits.o magic.o mail.o mobact.o mobcmd.o mobprog.o \
 	modify.o objsave.o olc.o password.o race.o random.o religion.o save.o pfile.o account.o \

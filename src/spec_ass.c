@@ -100,10 +100,10 @@ void ASSIGNROOM(long room, SPECIAL(fname))
 /* assign special procedures to mobiles */
 void assign_mobiles(void)
 {
-#if 0
-  void assign_kings_castle(void);
-  assign_kings_castle();
-#endif
+  /* The Castle of Llyndyr (castle.c) */
+  void assign_llyndyr(void);
+  assign_llyndyr();
+
   /* Immortal Zone */
   ASSIGNMOB(2,  receptionist);
   ASSIGNMOB(3,  postmaster);
@@ -300,10 +300,6 @@ void assign_mobiles(void)
   ASSIGNMOB(12030, magic_user);
   ASSIGNMOB(12031, magic_user);
   ASSIGNMOB(12032, magic_user);
-
-  /* King Welmar's Castle (not covered in castle.c) */
-  ASSIGNMOB(15015, thief);      /* Ergan... have a better idea? */
-  ASSIGNMOB(15032, magic_user); /* Pit Fiend, have something better?  Use it */
 
   /* DWARVEN KINGDOM */
   ASSIGNMOB(6500, cityguard);

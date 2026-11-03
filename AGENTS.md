@@ -45,7 +45,7 @@ Rules for agents:
 ```
 Makefile            Top-level: `make` → `cd src && make`; `make clean`
 configure           Autoconf 2.x script; generates src/conf.h, src/Makefile, src/util/Makefile
-README.md, TODO.md  History; migration TODO (races/religions/guilds/exp and player files to text: done; skills & accounts: not done)
+README.md, TODO.md  History; TODO.md tracks open work and known issues (text-file migration: all done but skills/spells)
 bin/                Built binaries go here (gitignored) + legacy csh/sh run scripts
 src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell_pa.c, act_othr.c ...)
   structs.h         Core structs, flags, MAX_LEVEL (50), LVL_* (LVL_IMMORT = 43), PULSE_* timing
@@ -71,7 +71,8 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   password.c/.h     PBKDF2-HMAC-SHA256 password hashing; self-contained (see §7)
   spec_pro.c, spec_ass.c   SPECIAL() procedures and their assignment
   shop.c, house.c, mail.c, boards.c, ban.c, weather.c, graph.c, alias.c, modify.c ...
-  castle.c, opinion.c      NOT compiled (not in OBJFILES); dead code
+  castle.c          SPECIAL()s for the Castle of Llyndyr (zone 383): the Emperor's daily routine and his household
+  opinion.c         NOT compiled (not in OBJFILES); dead code
   Makefile.{amiga,arc,bcc,bcc55,lcc,msvc,os2}, Smakefile, conf.h.{amiga,arc,mac,os2,vms,win}  Legacy ports; untested
   util/             Offline tools: autowiz, listrent, mapwld, mudpasswd, purgeplay, showplay, sign, split (built by
                     `make utils`); wld2html and others aren't built
@@ -223,6 +224,15 @@ ACMD(do_foo) { ... }                            /* 3. body in the matching act_*
 4. Add the name in the spell names table and the guild/class levels (see `spell_pa.c` / `guild.c`), plus a help entry in `lib/text/help/help.hlp`.
 
 **Special procedures:** `SPECIAL(name)` in `spec_pro.c`, attached to mob, obj or room vnums in `spec_ass.c`.
+A mob's procedure only runs on its own (each `PULSE_MOBILE`, and each combat round) if the mob has
+`MOB_SPEC` (flag `a`); it is always offered the commands typed in its room. For a command, `ch` is whoever
+typed it and `me` is the mob. `mobile_activity()` skips sleeping and fighting mobs. `castle.c` (assigned by
+`assign_llyndyr()`) drives the Emperor of Llyndyr (38303) through a day: woken at 8:00 in his bedchamber
+(38324) by his bodyguards or the castle bell, he walks to the throne room (38305) and opens it; at 12:00 he
+addresses the court in the hall (38304); at 21:00 he locks up and goes to bed. The paths are strings near
+the top of `SPECIAL(emperor)`. The household (vnums listed in `member_of_staff()`) attacks anyone fighting
+one of them, the twin bodyguards keep players out of the bedchamber and the two wardens out of the throne
+room (staff and immortals pass), and the chambermaid and chamberlain pick up rubbish.
 
 **Timing:** `structs.h` `OPT_USEC 100000` gives 10 passes/sec. `PULSE_VIOLENCE` = 2 s, `PULSE_ZONE`/`PULSE_MOBILE` = 10 s, etc.
 
@@ -324,112 +334,10 @@ Gitignored runtime files: `lib/accounts/`, `lib/etc/plrmail`, `lib/etc/mudtime`,
 
 ---
 
-## 8. Known issues (verified October 2026; good starter tasks)
+## 8. Known issues
 
-Security
-- Simultaneous connections per IP address are capped (`max_conns_per_site` in `config.c`, default 5,
-  0 = off). The *rate* of new connections isn't limited, though. A client can connect, try 3 passwords
-  (about 0.3 s of game-loop time) and reconnect in a loop. A per-site rate limit or failed-login
-  back-off would close that gap, and so would moving password hashing off the game loop.
-- Every new connection does a blocking reverse-DNS lookup (`gethostbyaddr`) unless `slowns` is on.
-- The server is IPv4-only (`AF_INET` sockets), and so is the per-site limit.
-- Some `fscanf("%s")` calls have no field width (e.g. `ban.c`, copyover recovery in `comm.c`). The input
-  files are local, but widths should be added.
-
-Crashes and undefined behavior
-- Fixed November 2026 (found with an AddressSanitizer build, `make CFLAGS="-g -O1 -fsanitize=address"
-  LIBS=-fsanitize=address`, worth repeating after big changes): the clone spell freed the doppleganger
-  prototype's strings (now gives the clone its own copies, scaled to the victim's level); `stat <mob>` on a
-  mob with no race read `races[-1]` and crashed; `relg_name()` allowed an index one past the end; shops whose
-  keeper mob doesn't exist wrote to `mob_index[-1]` at boot (now logged as "Shop #N disabled" and skipped;
-  10 such shops, in zones 65, 120 and 150); `get_number()` ("2.guard") and three other places used
-  overlapping `strcpy`; so did `half_chop()` (`set`). `stat file` read `world[]` with a load-room vnum.
-  Loops over `player_table` stopped one player short (`<` instead of `<=`). `do_flee()` used a fleeing
-  mob after the hunter it provoked had killed and freed it (mob-vs-mob fights, at random).
-- Zone `temperature` (`weather.c`) is updated every hour but never read and never clamped. Nothing in
-  the game uses it yet.
-- Mob hit regeneration (`hit_gain()` via the shared `dummy_mob` `player_specials`) differs between `-O0`
-  and `-O2` builds: `stat <mob>` shows `+0` at `-O2`. Something reads uninitialised or shared state.
-- `FreeHates`/`FreeFears` (`mobact.c`) are never called, so a mob's hate/fear lists leak when it is extracted.
-
-Housekeeping
-- `castle.c` and `opinion.c` aren't built. `opinion.c`'s functions were partly moved into `mobact.c`, and
-  its copies of `FreeHates`/`FreeFears` still have the old free-the-wrong-node bug.
-- `src/util/Makefile` (generated from `src/util/Makefile.in`) is a separate legacy Makefile that the normal
-  build doesn't use. The utilities are built by `src/Makefile`. It still has hand-listed header
-  dependencies and targets for utilities that don't compile.
-- Generated `src/Makefile`/`conf.h` are committed and macOS-flavoured. The legacy non-Unix Makefiles and
-  `conf.h.*` are unmaintained.
-- About 1,000 rooms are still unnamed placeholders ("Room NNNN", "This lovely room has yet to be written")
-  in unfinished or unconnected areas.
-- `TODO.md` (accounts system, skills/spells in text files), `lib/data/README`, and the 1990s player
-  reports in `lib/misc/{bugs,ideas,typos,todo}` are the historical backlog.
-
-Fixed in October 2026 (for history)
-- `parse_fuzzy_mob()` used the prototype index instead of the race, giving fuzzy mobs garbage HP. `-c` mode
-  didn't load the race tables and crashed. `FreeHates`/`FreeFears` freed the wrong node.
-- All ~520 gcc warnings were cleared. Real bugs fixed along the way: overlapping `sprintf`s that wiped
-  `score`/`stat`/`show` output; the `set` field list was never shown; good mobs used the neutral line
-  (`IS_NEUTRAL(ch) < 250`); summon success messages used the failure table, which was also missing a comma;
-  OLC wrote zone headers with a user-controlled format string and logged the wrong file name on open
-  failure; `rent_adjust()` read an uninitialised struct; mob prototypes were `memset` with the pointer size;
-  `save.c` stored pointers in `int`; `alias.c` read file-controlled lengths into a 127-byte buffer; boot
-  hung forever on an index file with no `$` or a data file with no final newline; copyover recovery could
-  spin on a truncated file; a short rent-file read could delete a player's crash file; and
-  `file_to_string()`/`get_line()`/the ban list wrote before their buffers on a failed read.
-- clang-only warnings, now also 0. **Gameplay change:** `IS_CARRYING_W` lacked parentheses, so carried
-  weight (items, plus gold/100 for mortals) was always 0 and carry limits were never enforced. They are
-  enforced now, so a mortal holding lots of gold can be over the limit. Winter in `weather.c` used `&&`
-  where `||` was meant; this has no visible effect yet because nothing reads temperature.
-- `src/Makefile` hand-listed only `conf.h sysdep.h protos.h` per object, so header edits didn't trigger
-  rebuilds. It now uses compiler-generated dependencies (`-MMD -MP`).
-- Passwords were stored in plaintext: `CRYPT()` was a no-op because `configure` defined `CIRCLE_CRYPT`
-  but `utils.h` tested `HAVE_CRYPT`, and the 12-character field couldn't hold a real hash anyway. They
-  are now PBKDF2 hashes (see §7), and old plaintext entries are upgraded at the next login. This
-  changed the player-file record size. `util/mudpasswd` builds again (missing include path) and writes
-  hashes.
-- Per-site connection limit added. `new_descriptor()` (`comm.c`) counts live connections from the
-  peer's IP (`descriptor_data.ip_addr`, also restored after copyover) before the DNS lookup and refuses
-  extras with a message. Refusals are logged at most once a minute, with a count.
-- "You last logged on from ..." printed garbage for **every** player, because it read `nanny()`'s local
-  `tmp_store` on a later call than the one that loaded it. The previous host and time are now kept on the
-  descriptor (`last_host`, `last_logon`). The line is shown only to existing characters, and the time is
-  that of the last save, i.e. when the player last left.
-- Zone resets: `reset_zone()` skipped a 100%-chance command 1 time in 100 (`>=` instead of `>`), and a
-  skipped command left `last_cmd` set, so the E/G/P commands that depend on it acted on the previously
-  loaded mob. That caused the random `Char is already equipped` SYSERRs. A lost roll now counts as a
-  failed command. `obj/54.obj` repeated 95 records from `53.obj` (vnums 5400-5496) in an old format,
-  which also broke the sorted object index; it now holds only its own objects (5570-5582).
-- World text (Nov 2026): about 1,060 misspellings and 100 grammar slips fixed in rooms, mobs, objects
-  and shops; stray carriage returns removed; ~600 short or empty room descriptions written or expanded
-  (`Room NNNN` / "yet to be written" placeholders in unconnected areas were left alone), and the whole of
-  Elrhinn (zone 30) rewritten. Data fixes: swapped diagonal exits in rooms 3039 and 2711, a corrupted
-  extra description in 32194, `(null)` keywords/names/messages in rooms 5896, 25574, 38350 and shop 11,
-  and two vandalised extra descriptions in Elrhinn.
-- Unfinished zones finished (Nov 2026): Immortal Paradise (0: illusion mobs 29/30, blank mobs removed),
-  The Guilds (26: eleven faction halls made real guilds 5-15 with guardians and entrances), Ganin's
-  World (27: the kobold war cavern below the Kobold Catacombs, stair at 20065), Gemini's Zone (420:
-  the Weeping Wood, graveyard and catacombs of House Gemmar, east of Blackwood room 7544), Valley of Fate
-  (430: through the ancient archway in Pelarinne, 32621), and The Jungle (58: the Academy's Proving Halls,
-  and the Isle of Karras, reached by boat east from Sea of Tears room 20029). Leftover placeholder rooms,
-  mobs and objects in 58, 420 and 430 were removed (the vnum ranges stay reserved). The Fiend (42001) was
-  cut from ~6,500 hp/137 dmg to ~1,200 hp/36 dmg, and the Teeth of Gwahlur (42001, a 10000d50 weapon with
-  +100s) became a 4d6 dagger with +2/+2/+20 hp. Guild bugs: `save_guilds()` wrote a count line that
-  `load_guilds()` can't read (the first petition, accept or reject stopped the next boot); guilds were
-  `malloc`ed, so unused petitioner slots were garbage and `petition` crashed; the Bleak Cabal's guard
-  blocked north instead of east (direction 1, now 2).
-- Strength table (Nov 2026): `STRENGTH_APPLY_INDEX` maps 18/01-18/100 strength to rows 26-30, but
-  `str_app[]` had only 26 rows, so those characters read past the end of the array and got garbage
-  to-hit, to-damage, wield and carry limits (a new 18/56 character could carry nothing). `str_app[]` now has
-  `NUM_STR_APPLY` (31) rows, and `lib/data/attributes` has five new `Str` rows (26-30) between the
-  values for 18 and 19.
-  `affect_total()` also rerolled exceptional strength at random (18/01-18/100) on every affect change, so
-  those limits jumped around; it now keeps the character's own `real_abils.str_add` (and zeroes it
-  when strength isn't exactly 18).
-- `unaffect` (Nov 2026) removed nothing unless the victim also had a harmful affect; when it did, it
-  called `affect_remove(..., TRUE)` on the helpful list, which returns without removing anything, so the
-  loop never ended and the server hung. It also cleared the *immortal's* AFF flags. It now removes both
-  lists and leaves other AFF bits alone.
+The list of known issues, open work and fixes made so far now lives in `TODO.md` (with each item marked
+not done, started or complete). Check it before starting work, and update it when you fix or find something.
 
 ---
 

@@ -1,0 +1,116 @@
+CircleMUD v3.0 Shop File~
+#38313~
+38330
+38331
+38332
+-1
+1.30
+0.40
+17
+19
+-1
+%s We're out of that, friend.~
+%s You haven't got one of those.~
+%s I don't buy that.  This is an inn.~
+%s I can't afford that - the Emperor's taxes, you know.~
+%s No coin, no ale.~
+%s That'll be %d coins.~
+%s Here's %d coins for it.~
+0
+0
+38313
+0
+38327
+-1
+0
+28
+0
+0
+#38314~
+38301
+38333
+38344
+38334
+38335
+38336
+-1
+1.60
+0.50
+5
+9
+-1
+%s I don't make that.~
+%s You don't have that.~
+%s I only deal in weapons and armor.~
+%s Good work, that.  More than I can pay.~
+%s Come back when you can pay for it.~
+%s %d coins, and it's yours.  Keep it sharp.~
+%s I'll give you %d coins for it.~
+0
+0
+38314
+0
+38325
+-1
+0
+28
+0
+0
+#38315~
+38337
+38338
+38339
+38308
+-1
+1.50
+0.50
+10
+2
+-1
+%s I have no such remedy.~
+%s You don't have that.~
+%s I only buy potions and scrolls.~
+%s I cannot afford that.~
+%s Healing is not free, child.~
+%s That will be %d coins.  Use it wisely.~
+%s Here are %d coins for it.~
+0
+0
+38315
+0
+38316
+-1
+0
+28
+0
+0
+#38323~
+38340
+38341
+38342
+38343
+-1
+1.40
+0.40
+1
+15
+17
+-1
+%s That's not on my ledger.~
+%s You don't have that.~
+%s I've no use for that.~
+%s That's beyond my budget.~
+%s You can't afford that.~
+%s %d coins.  Sign here.~
+%s %d coins, then.  I'll note it down.~
+0
+0
+38323
+0
+38326
+-1
+0
+28
+0
+0
+$~

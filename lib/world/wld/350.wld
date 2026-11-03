@@ -1599,9 +1599,14 @@ S
 A Deserted Trail~
    Grass pokes up through the cracks of what is left of the road.  The
 trail leads east toward the dark, lone mountain, and to the west the
-road turns south.
+road turns south.  A faded track, its stones stamped with a small black
+crown, climbs away north into the hills.
 ~
 350 0 4
+D0
+~
+~
+0 -1 38390
 D1
 A Deserted Trail
 ~

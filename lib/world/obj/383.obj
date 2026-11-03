@@ -7,109 +7,106 @@ A blue, hovering orb hovers here with a faint buzzing.~
 3 0 33 0 0 0 0 20 4
 3 0 0
 #38301
-get SWORD~
-a Well-crafted Sword~
-A Well-crafted Sword~
+sword well-crafted~
+a well-crafted sword~
+A well-crafted sword lies here.~
 ~
-5 as ahm
-3 2 5 3 0 0 0 18 4
-5 2048 0
+5 0 am
+0 3 5 3 0 0 0 18 14
+5 2000 200
 A
-2 1
+1 1
 #38302
-fou fou fountain water~
-a Fountain~
-A Fountain flowing with a Black Liquid is here~
+fountain black~
+a black fountain~
+A fountain flowing with a black liquid is here.~
 ~
-23 a 0
-100000 100000 4 0 0 0 0 21 8
-1000000 100209 0
-A
-15 100
+23 0 0
+1000 1000 4 0 0 0 0 9 14
+1000 0 0
 #38303
-gold coins money~
-a big pile of Coins~
-A big pile of coins lies here~
-~
-20 0 am
-100000 144 142 175 0 0 0 16 8
-32 784 0
-#38304
-chest~
-a Chest~
-A Golden Chest sits here~
-~
-15 0 0
-10000000 7 -1 0 0 0 0 16 4
-1000000 500 0
-#38305
-coins gold~
-Mound of Coins~
-A mound of coins is here~
+gold coins pile money~
+a pile of gold coins~
+A pile of gold coins glitters here.~
 ~
 20 0 a
-30000 0 0 0 0 0 0 16 4
-54 0 0
+2500 0 0 0 0 0 0 16 14
+25 2500 0
+#38304
+chest golden~
+a golden chest~
+A golden chest sits here.~
+~
+15 0 0
+500 5 -1 0 0 0 0 16 14
+300 500 0
+#38305
+coins gold mound~
+a mound of coins~
+A mound of coins is here.~
+~
+20 0 a
+1500 0 0 0 0 0 0 16 14
+15 1500 0
 #38306
-shadow blade sword~
+shadow blade sword black~
 the Shadow Blade~
-The Shadow Blade floats above the floor here~
+A black sword lies here, drinking the light.~
 ~
-5 abgjkmnopyzAB am
-100 200 50 3 0 0 0 19 8
-0 0 0
+5 agj am
+0 5 7 3 0 0 0 20 14
+9 15000 1500
+E
+shadow blade sword black~
+The blade is so dark that it seems to be a hole in the world rather than
+a thing of steel.  It is cold to the touch, and shadows lean toward it.
+~
 A
-12 100
+1 1
 A
-1 100
+18 2
 A
-17 100
+19 3
 #38307
-armor shadow~
-Shadow Armor~
-Shadow Armor lies here~
+armor shadow plate black~
+a suit of shadow armor~
+A suit of black plate armor lies here.~
 ~
-9 0 ad
-9000 0 0 0 0 0 0 19 0
-0 0 0
+9 gj ad
+10 0 0 0 0 0 0 20 14
+20 12000 1200
 A
-17 100
+13 30
 A
-13 100
+18 1
 A
-18 90
-A
-19 90
-A
-18 100
-A
-19 100
+19 1
 #38308
 scroll healing heal~
-a Scroll of Healing~
-A scroll of healing glows brightly through the shadows here~
+a scroll of healing~
+A scroll of healing glows brightly here.~
 ~
-2 0 am
-40 116 -1 -1 0 0 0 20 2
-2 0 0
+2 0 a
+30 116 -1 -1 0 0 0 22 14
+1 300 30
 #38309
-Spectrum Amulet~
-a Spectrum Amulet~
-A glowing Amulet has been carefully placed here~
+amulet spectrum glowing~
+a spectrum amulet~
+A glowing amulet has been placed here.~
 ~
-1 a a
-0 0 400 0 0 0 0 20 2
-1 0 0
+1 a ac
+0 0 -1 0 0 0 0 21 14
+1 800 80
 A
 4 1
 #38310
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+key black iron crown~
+a black iron key~
+A heavy black iron key lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+18 0 a
+0 0 0 0 0 0 0 18 14
+1 10 0
 #38311
 Shadow Blast~
 A Shadow Blast~
@@ -119,701 +116,258 @@ Some Shadow Blasts lie here~
 3 11 3 7 0 0 0 20 2
 1 0 0
 #38312
-Demon Bane Sword Blade~
-The DemonsBane~
-A Sinister Blade lies here~
+demonsbane sword blade sinister~
+the DemonsBane~
+A sinister blade lies here.~
 ~
-5 btB am
-10 3 7 11 0 0 0 17 8
-7 0 0
+5 gj am
+0 3 7 11 0 0 0 17 14
+8 6000 600
+A
+18 1
+A
+19 2
 #38313
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+key silver lion~
+a silver lion key~
+A small silver key with a lion's head lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+18 0 a
+0 0 0 0 0 0 0 15 14
+1 10 0
 #38314
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+key golden gold~
+a golden key~
+A heavy golden key lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+18 0 a
+0 0 0 0 0 0 0 16 14
+1 10 0
 #38315
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+fang saber dagger~
+a sabre-fang dagger~
+A dagger made from a great curved fang lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 4 6 14 0 0 0 0 14
+2 5000 500
+E
+fang saber dagger~
+One of the SaberBeast's great fangs, bound with leather at the root to
+make a grip.  The point is still wickedly sharp.
+~
+A
+18 2
+A
+19 2
 #38316
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+pelt saberbeast tawny~
+a SaberBeast pelt~
+A huge tawny pelt striped with black lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 aj
+5 0 0 0 0 0 0 8 14
+6 4000 400
+A
+2 1
+A
+13 20
 #38317
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+crown black llyndyr~
+the Black Crown of Llyndyr~
+A crown of black iron set with dark gems lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 gj ae
+5 0 0 0 0 0 0 18 14
+3 10000 1000
+A
+4 1
+A
+12 25
 #38318
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+dice bone pair~
+a pair of bone dice~
+A pair of bone dice lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+12 0 a
+0 0 0 0 0 0 0 0 14
+1 5 0
 #38319
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+chain silver office~
+a silver chain of office~
+A silver chain of office lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ac
+2 0 0 0 0 0 0 15 14
+1 600 60
+A
+3 1
 #38320
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+halberd warden~
+a warden's halberd~
+A tall halberd lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 3 6 3 0 0 0 18 24
+15 1500 150
+A
+19 1
 #38321
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+mask lion steel black~
+a black lion mask~
+A mask of black steel shaped like a snarling lion lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ae
+5 0 0 0 0 0 0 18 14
+4 3000 300
+A
+18 1
+A
+17 -5
 #38322
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+sword practice blunted~
+a blunted practice sword~
+A blunted practice sword lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38323
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38324
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38325
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38326
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38327
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38328
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38329
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 1 6 5 0 0 0 18 14
+4 20 2
 #38330
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+mug ale dark~
+a mug~
+A pewter mug stands here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+17 0 a
+4 4 4 0 0 0 0 10 14
+2 8 1
 #38331
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+bread loaf castle~
+a loaf of castle bread~
+A round loaf of bread lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+19 0 a
+12 0 0 0 0 0 0 0 14
+1 6 1
 #38332
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+haunch roast beef~
+a roast haunch~
+A steaming roast haunch lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+19 0 a
+24 0 0 0 0 0 0 0 14
+3 20 2
 #38333
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+spear guard llyndyr~
+a guardsman's spear~
+A long spear with a black pennant lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 2 8 11 0 0 0 18 14
+8 400 40
 #38334
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+hauberk chain mail~
+a chain-mail hauberk~
+A chain-mail hauberk lies here in a heap.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ad
+6 0 0 0 0 0 0 18 14
+20 900 90
 #38335
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+helm steel black~
+a black steel helm~
+A black-enamelled steel helm lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ae
+3 0 0 0 0 0 0 18 14
+5 450 45
 #38336
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+gauntlets steel~
+a pair of steel gauntlets~
+A pair of steel gauntlets lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 ah
+2 0 0 0 0 0 0 18 14
+3 300 30
 #38337
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+potion red healing light~
+a red healing draught~
+A small vial of red liquid stands here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+10 0 a
+15 66 -1 -1 0 0 0 21 14
+1 120 12
 #38338
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+potion green healing serious~
+a green healing draught~
+A vial of thick green liquid stands here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+10 0 a
+25 116 -1 -1 0 0 0 21 14
+1 350 35
 #38339
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+potion antidote clear~
+a clear antidote~
+A vial of clear, bitter-smelling liquid stands here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+10 0 a
+20 184 -1 -1 0 0 0 21 14
+1 200 20
 #38340
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+lantern brass~
+a brass lantern~
+A brass lantern lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+1 0 am
+0 0 48 0 0 0 0 11 14
+3 60 6
 #38341
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+waterskin skin leather~
+a leather waterskin~
+A leather waterskin lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+17 0 a
+20 20 0 0 0 0 0 8 14
+2 30 3
 #38342
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+backpack pack canvas~
+a canvas backpack~
+A canvas backpack lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+15 0 aj
+60 1 -1 0 0 0 0 4 14
+2 80 8
 #38343
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+cloak blue dark guard~
+a dark blue cloak~
+A dark blue cloak lies here in a heap.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+9 0 aj
+2 0 0 0 0 0 0 5 14
+2 120 12
 #38344
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+longsword sword guard~
+a guardsman's longsword~
+A plain steel longsword lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 2 7 3 0 0 0 18 14
+6 350 35
 #38345
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+longbow bow~
+a black longbow~
+A tall black longbow lies here.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+5 0 am
+0 2 6 5 0 0 0 10 14
+3 300 30
 #38346
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
+coins gold rings sodden~
+a sodden heap of coins and rings~
+A heap of coins and rings glitters under the water.~
 ~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38347
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38348
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38349
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38350
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38351
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38352
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38353
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38354
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38355
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38356
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38357
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38358
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38359
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38360
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38361
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38362
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38363
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38364
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38365
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38366
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38367
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38368
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38369
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38370
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38371
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38372
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38373
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38374
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38375
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38376
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38377
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38378
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38379
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38380
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38381
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38382
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38383
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38384
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38385
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38386
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38387
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38388
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38389
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38390
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38391
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38392
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38393
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38394
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38395
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38396
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38397
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
-#38398
-unfinished obj~
-an unfinished obj~
-An unfinished object has been carelessly left here.~
-~
-0 0 a
-0 0 0 0 0 0 0 0 0
-0 0 0
+20 0 a
+1200 0 0 0 0 0 0 16 14
+12 1200 0
 #38399
 trap~
 a trap~
