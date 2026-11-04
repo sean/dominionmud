@@ -217,4 +217,17 @@ bdglq k 500 E
 8 8 0
 BareHandAttack: 6
 E
+#43013
+pilgrim weary~
+a weary pilgrim~
+A weary pilgrim leans on a staff, looking for the way.
+~
+A traveller in a dusty cloak with a pilgrim's shell on a cord.  He has
+come a very long way to look into a pool.
+~
+d 0 500 E
+10 20 5 10d10+80 1d4+0
+0 0
+8 8 1
+E
 $~

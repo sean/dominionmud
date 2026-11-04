@@ -1515,6 +1515,8 @@ struct mob_special_data {
    int  routine_at;         /* 'go' step it has settled at, or -1      */
    byte routine_stuck;      /* failed steps toward its destination     */
    byte routine_shelter;    /* 1 waiting out a downpour, 2 running for cover */
+   long escort_for;         /* quest.c: idnum of the player escorting it */
+   int  escort_quest;       /* ... on that quest; -1 = done, to be removed */
 };
 
 

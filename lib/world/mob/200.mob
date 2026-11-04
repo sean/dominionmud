@@ -110,6 +110,19 @@ bcfgh dfkt 0 S
 7 10 10 5d10+0 2d4+3
 1294 3000
 8 8 0
+#20009
+kobold miner runaway~
+a runaway kobold miner~
+A runaway kobold miner clutches his pick and looks over his shoulder.
+~
+A thin kobold with whip scars on his back and a pick he won't let go of.
+He has never been outside.
+~
+d 0 500 E
+3 20 5 3d10+24 1d4+0
+0 0
+8 8 1
+E
 $
 
 

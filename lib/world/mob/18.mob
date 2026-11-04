@@ -256,4 +256,17 @@ bdenopqr k 0 S
 8 8 0
 >in_file_prog pz_drerim.prg~
 |
+#1819
+scout young~
+a young scout~
+A young scout of the adventurers' party checks his bowstring for the third time.
+~
+A lanky youth with a short bow and a nervous grin.  He has never seen an
+ogre and very much wants to, from a distance.
+~
+d 0 500 E
+6 20 5 6d10+48 1d4+0
+0 0
+8 8 1
+E
 $~

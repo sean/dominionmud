@@ -406,4 +406,17 @@ d 0 0 S
 1 1 0 1d1+1 1d1+1
 1 1
 8 8 1
+#8031
+apprentice dwarf dwarven young~
+a young dwarven apprentice~
+A young dwarven apprentice smooths his new beard nervously.
+~
+A young dwarf with a beard only just worth combing and soot on his nose,
+on his way to be sworn in at the castle.
+~
+d 0 500 E
+4 20 5 4d10+32 1d4+0
+0 0
+8 8 1
+E
 $~

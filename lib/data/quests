@@ -23,6 +23,18 @@
 ;                           94 a wrapped parcel, 95 a small leather pouch,
 ;                           96 a stoppered flask); giving it to the mob
 ;                           completes the quest
+;   escort <mob> <room>     a new copy of the mob follows the player; the
+;                           quest is done when it reaches the room with him
+;                           (the mob then says the "done" line and leaves),
+;                           and failed if it is killed.  Give escorts their
+;                           own mob, not one that is loaded elsewhere, and a
+;                           room mobiles may enter; the giver can't hand it
+;                           out while standing in that room.
+;
+; and optionally
+;
+;   limit <minutes>         real minutes from taking it on; not done in time,
+;                           the quest fails (it can be taken on again)
 ;
 ; and the words:
 ;
@@ -30,10 +42,14 @@
 ;                   offer lines run together into one speech)
 ;   done <text>     what the giver (or recipient) says at the end
 ;
+; Start the text with '*' for narration ("*The fungus folk sway..."), shown
+; as it is rather than as speech; text with a '"' in it is narration too.
+;
 ; Rewards: with no "reward" line, gold and experience are worked out from
 ; the level and the objective (default_reward() in quest.c: generous,
 ; 5-10 kills' worth of experience at the player's own level, a third of
-; that for daily errands).  "reward <gold> <kills' worth of exp> [<obj>]"
+; that for daily errands; escorts 8; a time limit adds a quarter to the gold
+; and one kill's worth).  "reward <gold> <kills' worth of exp> [<obj>]"
 ; sets them by hand.
 ;
 ; Text may not contain '$'.  Quest givers in a zone with no mobiles of its
@@ -46,6 +62,7 @@
 #3001 Pies for the Dalkyst Inn
 giver 3001
 level 1 10
+limit 10
 daily
 deliver 3005 94
 offer Yarl at the Dalkyst Inn takes a dozen of my meat pies every day, and
@@ -108,6 +125,16 @@ offer come up in people's cellars.  Get down into their catacombs below the
 offer docks and thin out their soldiers.  Six should teach them.
 done Six of them?  That will quiet the cellars for a while.  Well done.
 
+#3008 A Lost Little Girl
+giver 3069
+level 1
+limit 15
+escort 3112 3088
+offer This little one wandered into my shop crying.  Her mother works at the
+offer Dalkyst Inn, at the north end of town, and will be frantic by now.
+offer Walk her there, would you?  Quickly - and hold her hand.
+done The girl runs to her mother, who sweeps her up.  "Oh!  Thank you, thank you!"
+
 ; ===================================================================
 ; Mytherandil (zone 11)
 ; ===================================================================
@@ -166,6 +193,15 @@ offer The dragoons have posted a bounty on the brigands of Darkweir Hollows.
 offer There is a party of adventurers camped in a clearing there; their
 offer leader will want this notice.  Take it to him.
 done The leader reads the notice and laughs.  "Brigands?  We'll have them by supper."
+
+#1107 The Merchant's Boy
+giver 1108
+level 2
+escort 1132 1251
+offer A gnome merchant's boy has to meet his father's cart at the southern
+offer gates, and he's scared of the big folk in the streets.  Walk him
+offer there?  He won't go with me - I smell of the forge.
+done The gnomish boy waves from the back of his father's cart.  "Thank you, big friend!"
 
 ; ===================================================================
 ; Elrhinn Hills (zone 55)
@@ -272,6 +308,7 @@ done The shaman squints at the note.  "Big folk handwriting.  This is bad.  Very
 #20003 Break the Whips
 giver 20003
 level 2
+limit 20
 kill 20006 3
 offer The taskmasters whip the miners to dig faster, deeper.  Three fewer
 offer whips and the tunnels will be kinder.  They are in the dead-ends,
@@ -295,6 +332,16 @@ offer want it brought into the light, away from the miners' greedy picks.
 offer Bring it to me.
 done The shaman holds the AmberStone up to the torch and hums.  "Good.  Very good."
 
+#20006 Out of the Mines
+giver 20003
+level 3
+limit 20
+escort 20009 20043
+offer This one wants to leave.  He has never seen the sky.  Take him to the
+offer entryway, past the soldiers, before the taskmasters miss him.  Quick,
+offer quick.
+done The kobold blinks at the daylight, then grins with every tooth.  "Big sky!"
+
 ; ===================================================================
 ; Haon-Dor, Dark Forest (zone 61)
 ; ===================================================================
@@ -302,6 +349,7 @@ done The shaman holds the AmberStone up to the torch and hums.  "Good.  Very goo
 #6101 Wargs on the Trail
 giver 6115
 level 5
+limit 30
 kill 6100 2
 offer Vicious wargs prowl the small paths, and they've eaten two of my
 offer cousins and most of my mushrooms.  Two wargs, big fellow.  That's all I
@@ -342,6 +390,15 @@ offer There's a door inside the great tree, and stairs going down, and
 offer chanting.  Shargugh doesn't go there.  Will you go and look, and tell
 offer Shargugh what they are doing?
 done A temple?  Under MY forest?  Shargugh doesn't like it.  Shargugh will tell the trees.
+
+#6106 The Littlest Brownie
+giver 6115
+level 5
+escort 6118 6152
+offer This is my littlest cousin, and she's lost her way to the circle of
+offer trees where we brownies dance.  The wolves would eat her in one bite.
+offer You take her.  Shargugh will follow.  Later.  Much later.
+done *The little brownie runs into the circle of trees and starts dancing at once.
 
 ; ===================================================================
 ; Darkweir Hollows (zone 18)
@@ -397,6 +454,16 @@ deliver 3021 93
 offer Please.  I was a farmer in Elrhinn, before.  Take this to Jaran, the
 offer priest at the church there.  He knew my family.  Tell him I'm alive.
 done Jaran reads the letter and closes his eyes.  "Alive.  The gods be thanked.  I'll tell them."
+
+#1807 The Scout and the Ogres
+giver 1810
+level 6
+limit 30
+escort 1819 1873
+offer My new scout needs to see the silent clearing where the ogres lie in
+offer ambush, and count them, before we go in.  He's green.  Get him there
+offer and keep him alive, and be quick - we march within the half hour.
+done The young scout ducks behind a tree and counts, lips moving.  "Four.  Got it.  Thanks!"
 
 ; ===================================================================
 ; The High Tower of Magic (zone 37)
@@ -468,6 +535,7 @@ done The balance is restored.  For now.  It never lasts.  Take this, with my tha
 #3708 Strick's Order
 giver 3705
 level 8 20
+limit 10
 daily
 deliver 3706 94
 offer Tatorious down in the magic shop orders his lunch from my tavern every
@@ -650,6 +718,15 @@ offer rubble wall.  My grandmother's music box is in there!  Bring the heap
 offer to me and I'll sort them out.
 done Grandmother's music box!  It still plays!  Oh, thank you, thank you.
 
+#2707 Pibb's Cousin
+giver 2711
+level 6
+escort 2713 2707
+offer My cousin Fizzwick slipped his chains!  He has to reach the tunnel
+offer above the chasm, where the burrows begin, before the kobolds notice.
+offer Take him!  I'll follow when you've dealt with the king.
+done Fizzwick swings out over the chasm on a rope, cackling.  "Tell Pibb I owe him one!"
+
 ; ===================================================================
 ; Caverns of the Underdark (zone 52)
 ; ===================================================================
@@ -658,27 +735,27 @@ done Grandmother's music box!  It still plays!  Oh, thank you, thank you.
 giver 5213
 level 28
 kill 5220 2
-offer The myconoid's thoughts bloom in your mind like spores: the grey
+offer *The myconoid's thoughts bloom in your mind like spores: the grey
 offer dwarves dig in the large cavern and their picks wound the deep stone.
 offer Two of them.  Make them stop.
-done Gratitude drifts into your mind like a warm, damp breeze.
+done *Gratitude drifts into your mind like a warm, damp breeze.
 
 #5202 The Mining Leader
 giver 5201
 level 36
 kill 5221 1
-offer The mindflayer's voice slides into your thoughts: the duergar who
+offer *The mindflayer's voice slides into your thoughts: the duergar who
 offer leads the mining in the large cavern has found something that belongs
 offer to us.  Remove him.  We will not ask twice.
-done Satisfactory, the voice says.  You may keep your brain.  And this.
+done *Satisfactory, the voice says.  You may keep your brain.  And this.
 
 #5203 The Drider
 giver 5213
 level 28
 kill 5211 1
-offer A thought like rot and silk: the drider in the sloping passage hunts
+offer *A thought like rot and silk: the drider in the sloping passage hunts
 offer the young myconoids and spins them into its web.  End it.
-done The fungus folk sway together.  A feeling of peace washes over you.
+done *The fungus folk sway together.  A feeling of peace washes over you.
 
 #5204 The Underground Lake
 giver 5201
@@ -687,7 +764,7 @@ visit 5205
 offer There is a lake far beneath the stone.  Something lives in it that
 offer we cannot read.  Go to the shore.  Look.  Come back.  We will read what
 offer you saw.
-done You feel a cold touch in your mind as the spy reads your memories.  Interesting.
+done *You feel a cold touch in your mind as the spy reads your memories.  Interesting.
 
 #5205 The Wandering Dwarf
 giver 5213
@@ -695,7 +772,7 @@ level 24
 kill 5212 1
 offer A grey dwarf wanders the damp passage on his way home, trampling the
 offer young caps.  Every day, the same way.  Please.
-done The young caps will grow.  The myconoid bows, slowly, like a toppling tree.
+done *The young caps will grow.  The myconoid bows, slowly, like a toppling tree.
 
 ; ===================================================================
 ; Arena and the Desert of Demise (zone 53)
@@ -741,7 +818,7 @@ level 16
 kill 5309 3
 offer The ogres in the arena are the crowd's favourite, and I hate them.
 offer They cheat!  Three ogres down and I'll cheer myself hoarse for you.
-done The fan screams himself hoarse.  You don't catch a word of it, but he means well.
+done *The fan screams himself hoarse.  You don't catch a word of it, but he means well.
 
 #5306 A Peasant's Reprieve
 giver 5313
@@ -750,7 +827,7 @@ kill 5308 2
 offer They threw me in here to die for the crowd.  The arena fighters will
 offer come for me next.  If two of them fall first, the crowd might call for
 offer mercy.  Please.
-done The crowd roars - for you, not for blood.  The peasant weeps with relief.
+done *The crowd roars - for you, not for blood.  The peasant weeps with relief.
 
 #5307 The Oasis
 giver 5305
@@ -850,6 +927,7 @@ done The Earl glances at the letter and tucks it away.  "The courier sends his r
 #5002 Pastries for the Princess
 giver 5028
 level 3 20
+limit 10
 daily
 deliver 5013 94
 offer There's a foreign princess at the Dragon's Wrath who orders my honey
@@ -1052,6 +1130,7 @@ done A dead end, and the marks of picks that stopped?  Then they found nothing. 
 #8005 Mutton for the Guardian
 giver 8006
 level 5 25
+limit 10
 daily
 deliver 8004 94
 offer The castle guardian stands his post from dawn to dark and I send him
@@ -1068,6 +1147,16 @@ offer turn of the season.  Here's mine.  Take it to him in the castle, at
 offer the top of the stairs.
 done The King weighs the pouch.  "Trimbleshield is honest as his hammer.  Thank him."
 
+#8007 Sworn at the Castle
+giver 8005
+level 4
+limit 20
+escort 8031 8042
+offer My apprentice is to be sworn to the King's service today, before the
+offer castle, and he's so nervous he'll walk into the river.  See him there,
+offer and be quick about it - the guardian won't wait.
+done *The young dwarf straightens his beard and marches up to the guardian, proud as a king.
+
 ; ===================================================================
 ; Blackwood Forest (zone 75)
 ; ===================================================================
@@ -1078,7 +1167,7 @@ level 18
 kill 7501 3
 offer The trolls of the heart were men once, before the Blackwood took
 offer them.  Now they are only hunger.  Three of them.  It is a mercy.
-done A mercy, yes.  The old man bows his cowled head.  Take this.
+done *A mercy, yes.  The old man bows his cowled head.  Take this.
 
 #7502 Ravens of Ill Omen
 giver 7500
@@ -1131,9 +1220,9 @@ done Spine is dead?  Spine is DEAD?  The citizen bursts into tears and presses g
 giver 10016
 level 30
 kill 10011 1
-offer The child on the table whispers: the man in the mask comes back every
+offer *The child on the table whispers: the man in the mask comes back every
 offer night.  Please make him stop.  Please.
-done The child stops shaking.  Somewhere, a guard comes to cut the straps.
+done *The child stops shaking.  Somewhere, a guard comes to cut the straps.
 
 #10003 Drunks in the Alley
 giver 10002
@@ -1246,7 +1335,7 @@ level 30
 kill 10506 1
 offer The fat harem master keeps us on this beach in pretty dresses until
 offer we drop.  We cannot fight him.  You can.  Please.
-done The women stop trudging and look at each other.  For the first time in years, they smile.
+done *The women stop trudging and look at each other.  For the first time in years, they smile.
 
 #10502 The Stone Key
 giver 10505
@@ -1270,7 +1359,7 @@ level 15
 kill 10511 1
 offer At night we hear a ghost wailing in the building on the hill.  It is
 offer one of us, who went in and never came out.  Give her rest.
-done The wailing stops.  The woman in white whispers a prayer.
+done *The wailing stops.  The woman in white whispers a prayer.
 
 #10505 The Priest of Fear
 giver 10503
@@ -1378,6 +1467,7 @@ done ...Burned to the ground, then.  Thank you for going.  It's better to know.
 #11005 Vegetables for the Inn
 giver 11004
 level 3 20
+limit 15
 daily
 deliver 11010 94
 offer The innkeeper at the Stanneg Inn buys my vegetables every morning,
@@ -1461,6 +1551,15 @@ deliver 3099 93
 offer The old sage of Elrhinn and I have argued by letter for a hundred
 offer years.  Take him my latest.  I believe I have won.
 done The old sage reads the letter and chuckles.  "He has not won.  But it was close."
+
+#19007 Sunrise for a Child
+giver 19031
+level 4
+escort 19033 19033
+offer This little one has been promised the sunrise from the Platform of the
+offer Sun, across the rope bridge.  I am too old for the bridge.  Take her,
+offer and hold her hand on it.
+done *The elven child stands at the edge of the platform, open-mouthed, as the sun comes up.
 
 ; ===================================================================
 ; Western Mountain (zone 250)
@@ -1596,7 +1695,7 @@ done The scout closes her eyes.  "Our lore, still there.  One day we will bring 
 giver 26013
 level 25
 deliver 19031 93
-offer The prisoner whispers through cracked lips: take this to the old sage
+offer *The prisoner whispers through cracked lips: take this to the old sage
 offer of the Elven woods.  Tell him we live.  Tell him to hope.
 done The old elven sage reads the scrap and grips his staff.  "They live.  We will come for them."
 
@@ -1657,6 +1756,15 @@ offer burrows are.  My son says there is a rabbit there as big as a horse.
 offer Go and look, so he will stop saying it.
 done As big as a horse?  No?  I shall tell him.  He will be disappointed.
 
+#28007 The Lost Calf
+giver 28007
+level 2
+escort 28009 28055
+offer This calf strayed into the village and its mother will be at the
+offer watering hole.  Take it there.  Don't let the plainsmen see it, or it
+offer will be dinner.
+done The calf lows and trots to its mother.  The great buffalo snorts at you, gratefully.
+
 ; ===================================================================
 ; Serdim-ir-Lesk (zone 320)
 ; ===================================================================
@@ -1708,6 +1816,7 @@ done Dry as a bone, eh?  I TOLD them.  Here, have a smoke.  No?  Gold, then.
 #32006 Stew for the Waypost
 giver 32003
 level 5 20
+limit 15
 daily
 deliver 32004 94
 offer The wayguards at the waypost live on hardtack.  Take them a pot of my
@@ -1797,7 +1906,7 @@ done The fisherman nods, not looking away from the mountains.  "Obliged."
 giver 32802
 level 19
 kill 32804 1
-offer The Troll King's voice rumbles: there is a troll who lives alone in a
+offer *The Troll King's voice rumbles: there is a troll who lives alone in a
 offer dark cave and eats travellers raw, without even a fire.  He shames all
 offer trollkind.  End him.
 done Kehrn gazes into the distance.  "Good.  Trolls are not beasts.  Not all of us."
@@ -1845,6 +1954,7 @@ done They said nothing?  They said nothing to me either.  We have that in common
 #35001 Sweetrolls for the Inn
 giver 35010
 level 1 15
+limit 10
 daily
 deliver 35005 94
 offer Violet at the Wave's Crest takes two dozen of my sweetrolls every
@@ -1905,6 +2015,15 @@ visit 35083
 offer Nobody comes to hear my lectures on the Undersea Temple!  Nobody!
 offer Go and see it, so at least someone in Gnishmire knows I'm right.
 done You saw it!  Then I'm right!  Here, a fee for my one and only listener.
+
+#35008 A Field Trip to the Pier
+giver 35030
+level 2
+escort 35041 35076
+offer My best student has never seen the sea.  Walk her to the end of the
+offer pier, please, and make sure she doesn't fall in.  She takes notes
+offer while walking.
+done The student scribbles furiously at the end of the pier.  "Waves!  Seventeen of them!"
 
 ; ===================================================================
 ; Castle Black (zone 360)
@@ -2029,6 +2148,7 @@ done Ulfric unfolds his arms at last.  "My student can rest.  Thank you."
 #38308 Bread for the Battlements
 giver 38313
 level 15 30
+limit 10
 daily
 deliver 38320 94
 offer The archers on the battlements won't leave their merlons for supper.
@@ -2117,7 +2237,7 @@ done Hobb wipes his shovel.  "Good riddance.  Here, for your trouble."
 giver 42006
 level 22
 kill 42007 1
-offer The pale light whispers: in the weeping well there is a banshee who
+offer *The pale light whispers: in the weeping well there is a banshee who
 offer was once my maid.  Her wailing keeps the dead of this house awake.
 offer Let her rest.
 done The light grows a little brighter, and the wailing far below falls silent.
@@ -2134,7 +2254,7 @@ done Hobb sits down heavily.  "No more burying strangers.  Thank you."
 giver 42006
 level 26
 visit 42028
-offer The pale light flickers: my sister sealed me in my tomb and took the
+offer *The pale light flickers: my sister sealed me in my tomb and took the
 offer house.  Find my tomb, beyond the hall of two faces.  Stand in it, so
 offer someone has.
 done The light holds the shape of a young woman for a moment, and smiles.
@@ -2172,7 +2292,7 @@ done Corrin turns the tusk in his hands.  "A fine one.  The herd will remember."
 giver 43008
 level 8
 fetch 43000 1
-offer The Spinner smiles over her wheel: a golden fruit hangs in the
+offer *The Spinner smiles over her wheel: a golden fruit hangs in the
 offer orchard, ripe this morning and no other.  Bring it to me, and I shall
 offer spin you a little luck.
 done The Spinner takes the fruit, and the mist on her wheel shines gold for a moment.
@@ -2181,7 +2301,7 @@ done The Spinner takes the fruit, and the mist on her wheel shines gold for a mo
 giver 43010
 level 15
 kill 43007 2
-offer The Cutter turns her shears: two shades walk the road of what will
+offer *The Cutter turns her shears: two shades walk the road of what will
 offer be, looking for a future that was cut long ago.  Help them stop
 offer looking.
 done The Cutter nods.  "Their threads are ended.  As all threads are.  Thank you."
@@ -2199,10 +2319,19 @@ done Only stone and the sound of water?  Then it keeps its secret still.
 giver 43012
 level 9
 kill 43005 2
-offer The treeherd's voice creaks like old branches: the pixies of the
+offer *The treeherd's voice creaks like old branches: the pixies of the
 offer standing stones tie knots in my leaves for fun.  Two of them, please.
 offer I am very old.
 done The ancient tree sighs, a long, leafy sigh.  Its leaves untangle themselves.
+
+#43007 The Pilgrim's Way
+giver 43004
+level 10
+escort 43013 43014
+offer A pilgrim has come to look into the Pool of Reflections, and the
+offer valley does not always let strangers find it.  Walk with him.  The
+offer pool is beyond the threads.
+done The pilgrim kneels at the pool and gazes into it for a long time.  Then he smiles.
 
 ; ===================================================================
 ; Arachnos (zone 63)
@@ -2238,7 +2367,7 @@ done Still alive?  Remarkable.  Go back now.  No?  Then take this.
 giver 6317
 level 25
 kill 6302 1
-offer The elder wormkin speaks slowly: the gold dragon Yevaud eats our
+offer *The elder wormkin speaks slowly: the gold dragon Yevaud eats our
 offer young.  He is ancient and evil.  We are not strong.  You may be.
 done The wormkin bows its whole body.  "The young will grow.  We will remember you."
 
@@ -2284,6 +2413,7 @@ done Thank you, child.  The monk opens it at once and dips his pen.
 #6402 Beer for the Gate
 giver 6417
 level 5 20
+limit 10
 daily
 deliver 6420 96
 offer The Guard of the Monastery stands at the training grounds all day and
@@ -2367,7 +2497,7 @@ done The gate is open!  The King can go for his walk.  Bless you.
 giver 6607
 level 30
 kill 6604 1
-offer The Eternity Dragon's voice is like the turning of ages: the spirit
+offer *The Eternity Dragon's voice is like the turning of ages: the spirit
 offer of the Ice Dragon will not rest.  It guards a treasure it can no longer
 offer use.  Release it.
 done The Eternity Dragon closes its eyes for a moment.  "It rests.  Thank you, mortal."
@@ -2561,7 +2691,7 @@ done Grem tips the stones out and grunts.  "Worth smelting.  Tell him to keep di
 giver 19018
 level 28
 kill 5850 2
-offer The keeper of the Torch speaks in a dry whisper: black goblins crawl
+offer *The keeper of the Torch speaks in a dry whisper: black goblins crawl
 offer out of the wasteland at dusk.  The torch keeps them back, but not
 offer forever.  Two of them.
 done Two fewer in the dark.  The torch burns a little brighter.

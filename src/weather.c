@@ -90,6 +90,7 @@ void another_hour(int mode)
 
   weather_hour();               /* temperature, floods, storms (below) */
   routines_hour();              /* NPC daily routines (routine.c) */
+  quest_hour();                 /* time limits, lost escorts (quest.c) */
 }
 
 

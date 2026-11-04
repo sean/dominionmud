@@ -21,6 +21,13 @@
  *   deliver <mob> <obj>     the giver hands over a letter or parcel (obj),
  *                           to be given to the mobile; the quest is done
  *                           when it is
+ *   escort <mob> <room>     a new copy of the mobile follows the player;
+ *                           the quest is done when it reaches the room
+ *                           with him, and failed if it is killed
+ *
+ * and may have a time limit ("limit <minutes>", real minutes from taking
+ * it on); a quest not done in time is failed.  Escorts and timed quests
+ * pay a little more.
  *
  * Kill, fetch and visit quests are handed in with "quest complete" in the
  * giver's presence (fetch items may also simply be given to him).  The
@@ -63,8 +70,9 @@ ACMD(do_gen_tog);
 #define QT_FETCH    1
 #define QT_VISIT    2
 #define QT_DELIVER  3
+#define QT_ESCORT   4
 
-static const char *quest_type_names[] = { "kill", "fetch", "visit", "deliver" };
+static const char *quest_type_names[] = { "kill", "fetch", "visit", "deliver", "escort" };
 
 struct quest_data {
   int   vnum;
@@ -76,7 +84,9 @@ struct quest_data {
   int   type;
   long  target;                 /* mob, obj or room vnum                  */
   int   count;
-  long  item;                   /* deliver: the obj vnum handed over      */
+  long  item;                   /* deliver: the obj vnum handed over;     */
+				/* escort: the mob vnum that follows      */
+  int   limit;                  /* real minutes to do it in, or 0         */
   int   gold, exp;              /* exp in kills' worth                    */
   long  reward_obj;             /* or 0                                   */
   int   has_reward;             /* a reward line was given                */
@@ -144,11 +154,16 @@ static void default_reward(struct quest_data *q)
   case QT_KILL:    q->exp = MIN(10, 5 + q->count / 2); break;
   case QT_FETCH:   q->exp = 7; break;
   case QT_VISIT:   q->exp = 6; break;
+  case QT_ESCORT:  q->exp = 8; break;
   default:         q->exp = 5; break;
   }
   if (q->daily) {
     q->gold = q->gold * 2 / 5;
     q->exp = 3;
+  }
+  if (q->limit) {                       /* against the clock: a bonus */
+    q->gold = q->gold * 5 / 4;
+    q->exp++;
   }
   q->gold = MAX(10, (q->gold + 5) / 10 * 10);
 }
@@ -175,6 +190,11 @@ static int check_quest(struct quest_data *q, int line)
     quest_error(line, q->vnum, "no such room to visit");
   else if (q->type == QT_DELIVER && real_object(q->item) < 0)
     quest_error(line, q->vnum, "no such object to deliver");
+  else if (q->type == QT_ESCORT && real_mobile(q->item) < 0)
+    quest_error(line, q->vnum, "no such mobile to escort");
+  else if (q->type == QT_ESCORT && (real_room(q->target) == NOWHERE ||
+	   ROOM_FLAGGED(real_room(q->target), ROOM_NOMOB | ROOM_DEATH)))
+    quest_error(line, q->vnum, "no such room to escort to, or mobiles can't go there");
   else if (q->reward_obj && real_object(q->reward_obj) < 0)
     quest_error(line, q->vnum, "no such reward object");
   else if (!q->offer)
@@ -284,7 +304,15 @@ void load_quests(void)
       cur->target = a;
       cur->item = b;
       cur->count = 1;
-    } else if (!str_cmp(word, "reward")) {
+    } else if (!str_cmp(word, "escort")) {
+      cur->type = QT_ESCORT;
+      sscanf(p, "%ld %ld", &a, &b);
+      cur->item = a;
+      cur->target = b;
+      cur->count = 1;
+    } else if (!str_cmp(word, "limit"))
+      cur->limit = MAX(1, atoi(p));
+    else if (!str_cmp(word, "reward")) {
       sscanf(p, "%ld %ld %ld", &a, &b, &c);
       cur->gold = (int) a;
       cur->exp = (int) b;
@@ -424,6 +452,15 @@ static const char *zone_name_of(long vnum)
 }
 
 
+/* Whole minutes left on a timed quest (at least 0). */
+static int minutes_left(struct quest_data *q, struct quest_active *a)
+{
+  long left = a->taken + q->limit * 60L - time(0);
+
+  return left <= 0 ? 0 : (int) ((left + 59) / 60);
+}
+
+
 /* "Slay 4 of the kobold scouts" and so on, with progress if active. */
 static void objective(struct quest_data *q, struct quest_active *a, char *out)
 {
@@ -451,13 +488,21 @@ static void objective(struct quest_data *q, struct quest_active *a, char *out)
   case QT_DELIVER:
     sprintf(out, "Take %s to %s", obj_name(q->item), mob_name(q->target));
     break;
+  case QT_ESCORT:
+    r = real_room(q->target);
+    sprintf(out, "See %s safely to %s (%s)", mob_name(q->item),
+	    r == NOWHERE ? "the place" : world[r].name, zone_name_of(q->target));
+    break;
   default:
     strcpy(out, "Something");
   }
   if (a && q->count > 1 && q->type != QT_VISIT)
     sprintf(out + strlen(out), " (%d/%d)", (int) MIN(a->count, q->count), q->count);
-  if (a && quest_complete_now(q, a) && q->type != QT_DELIVER)
+  if (a && quest_complete_now(q, a) && q->type != QT_DELIVER && q->type != QT_ESCORT)
     strcat(out, " - done, go back to collect your reward");
+  if (a && q->limit && !quest_complete_now(q, a))
+    sprintf(out + strlen(out), " (%d minute%s left)", minutes_left(q, a),
+	    minutes_left(q, a) == 1 ? "" : "s");
 }
 
 
@@ -514,12 +559,19 @@ static void qmsg(struct char_data *ch, const char *text)
 }
 
 
+/* What the giver (or the recipient) says to ch.  Text that starts with */
+/* '*', or that quotes someone itself, is narration and shown as it is. */
 static void giver_says(struct char_data *giver, struct char_data *ch, const char *text)
 {
   char msg[MAX_STRING_LENGTH];
 
-  snprintf(msg, sizeof(msg), "$n says to you, '%s'", text);
-  act(msg, FALSE, giver, 0, ch, TO_VICT);
+  if (*text == '*' || strchr(text, '"')) {
+    snprintf(msg, sizeof(msg), "%s\r\n", *text == '*' ? text + 1 : text);
+    send_to_char(msg, ch);
+  } else {
+    snprintf(msg, sizeof(msg), "$n says to you, '%s'", text);
+    act(msg, FALSE, giver, 0, ch, TO_VICT);
+  }
   act("$n speaks quietly with $N.", TRUE, giver, 0, ch, TO_NOTVICT);
 }
 
@@ -586,6 +638,164 @@ static void finish_quest(struct char_data *ch, struct quest_data *q,
 
 
 /* ------------------------------------------------------------------ */
+/* Escorts and time limits                                            */
+/* ------------------------------------------------------------------ */
+
+/* The player escorting mob, if he is in the game. */
+static struct char_data *escort_player(struct char_data *mob)
+{
+  struct char_data *c;
+
+  if (!mob->mob_specials.escort_for)
+    return NULL;
+  for (c = character_list; c; c = c->next)
+    if (!IS_NPC(c) && GET_IDNUM(c) == mob->mob_specials.escort_for)
+      return c;
+  return NULL;
+}
+
+
+/* ch's companion on escort quest q, wherever it is. */
+static struct char_data *find_escortee(struct char_data *ch, struct quest_data *q)
+{
+  struct char_data *m;
+
+  for (m = character_list; m; m = m->next)
+    if (IS_NPC(m) && m->mob_specials.escort_quest == q->vnum &&
+	m->mob_specials.escort_for == GET_IDNUM(ch))
+      return m;
+  return NULL;
+}
+
+
+/* The escortee is done with (home, or given up on): it stops following */
+/* and goes on its way at the next mobile pulse (quest_mob_pulse()).     */
+static void dismiss_escortee(struct char_data *m)
+{
+  m->mob_specials.escort_quest = -1;
+  m->mob_specials.escort_for = 0;
+  if (m->master)
+    stop_follower(m);
+}
+
+
+/* A new companion for ch on escort quest q, following him. */
+static void spawn_escortee(struct char_data *ch, struct quest_data *q,
+			   struct char_data *giver)
+{
+  struct char_data *m;
+  struct follow_type *k;
+
+  if (!(m = read_mobile(q->item, VNUMBER)))
+    return;
+  char_to_room(m, ch->in_room);
+  SET_BIT(MOB_FLAGS(m), MOB_SENTINEL);
+  REMOVE_BIT(MOB_FLAGS(m), MOB_AGGRESSIVE);
+  m->mob_specials.escort_for = GET_IDNUM(ch);
+  m->mob_specials.escort_quest = q->vnum;
+  /* follow him, without add_follower()'s charisma limit on pets */
+  m->master = ch;
+  CREATE(k, struct follow_type, 1);
+  k->follower = m;
+  k->next = ch->followers;
+  ch->followers = k;
+  GET_FOLS(ch)++;
+  act("$N falls in beside you, ready to go.", FALSE, ch, 0, m, TO_CHAR);
+  act("$N falls in beside $n.", TRUE, ch, 0, m, TO_ROOM);
+}
+
+
+/* Fails quest slot a: out of time, or the escort was killed. */
+static void fail_quest(struct char_data *ch, struct quest_active *a, const char *why)
+{
+  struct quest_data *q = find_quest(a->vnum);
+  struct char_data *m;
+  char msg[MAX_STRING_LENGTH];
+
+  if (q && q->type == QT_ESCORT && (m = find_escortee(ch, q))) {
+    act("$n shakes $s head sadly and goes $s own way.", TRUE, m, 0, 0, TO_ROOM);
+    dismiss_escortee(m);
+  }
+  sprintf(msg, "Quest failed: %s - %s", q ? q->title : "(gone)", why);
+  send_to_char(CCRED(ch, C_NRM), ch);
+  send_to_char(msg, ch);
+  send_to_char(CCNRM(ch, C_NRM), ch);
+  send_to_char("\r\n", ch);
+  memset(a, 0, sizeof(*a));
+}
+
+
+/* Fails ch's timed quests whose time is up. */
+static void check_expiry(struct char_data *ch)
+{
+  struct quest_active *a;
+  struct quest_data *q;
+  int i;
+
+  if (IS_NPC(ch))
+    return;
+  for (i = 0; i < MAX_ACTIVE_QUESTS; i++) {
+    a = &QREC(ch)->active[i];
+    if (a->vnum && (q = find_quest(a->vnum)) && q->limit &&
+	!quest_complete_now(q, a) && time(0) > a->taken + q->limit * 60L)
+      fail_quest(ch, a, "you ran out of time.");
+  }
+}
+
+
+/* A companion is dying or vanishing (extract_char()): its player's */
+/* quest fails.                                                       */
+void quest_escort_lost(struct char_data *mob, const char *why)
+{
+  struct char_data *p = escort_player(mob);
+  struct quest_active *a;
+  int vnum = mob->mob_specials.escort_quest;
+
+  mob->mob_specials.escort_quest = 0;   /* so fail_quest() leaves it be */
+  mob->mob_specials.escort_for = 0;
+  if (p && vnum > 0 && (a = active_slot(p, vnum)))
+    fail_quest(p, a, why);
+}
+
+
+/* Every mud hour: time limits, and companions whose player has gone. */
+void quest_hour(void)
+{
+  struct char_data *c, *p;
+  struct quest_data *q;
+
+  if (!num_quests)
+    return;
+  for (c = character_list; c; c = c->next) {
+    if (!IS_NPC(c)) {
+      check_expiry(c);
+      continue;
+    }
+    if (c->mob_specials.escort_quest <= 0)
+      continue;
+    p = escort_player(c);
+    q = find_quest(c->mob_specials.escort_quest);
+    if (!p || !q || !active_slot(p, q->vnum)) {
+      act("$n gives up waiting and goes $s own way.", TRUE, c, 0, 0, TO_ROOM);
+      dismiss_escortee(c);
+    }
+  }
+}
+
+
+/* From mobile_activity(): TRUE if mob was a finished escort and has */
+/* now been extracted.                                                */
+int quest_mob_pulse(struct char_data *mob)
+{
+  if (mob->mob_specials.escort_quest != -1)
+    return FALSE;
+  act("$n waves to you and goes on $s way.", TRUE, mob, 0, 0, TO_ROOM);
+  extract_char(mob);
+  return TRUE;
+}
+
+
+/* ------------------------------------------------------------------ */
 /* Hooks                                                              */
 /* ------------------------------------------------------------------ */
 
@@ -598,6 +808,7 @@ static void kill_credit(struct char_data *ch, struct char_data *victim)
 
   if (IS_NPC(ch) || !ch->desc)
     return;
+  check_expiry(ch);
   for (i = 0; i < MAX_ACTIVE_QUESTS; i++) {
     a = &QREC(ch)->active[i];
     if (!a->vnum || !(q = find_quest(a->vnum)) || q->type != QT_KILL ||
@@ -620,6 +831,8 @@ void quest_kill(struct char_data *victim, struct char_data *killer)
   struct char_data *pc, *leader;
   struct follow_type *f;
 
+  if (IS_NPC(victim) && victim->mob_specials.escort_quest > 0)
+    quest_escort_lost(victim, "your companion has been killed.");
   if (!num_quests || !IS_NPC(victim) || !killer || GET_MOB_RNUM(victim) < 0)
     return;
   pc = killer;
@@ -653,6 +866,8 @@ int quest_give(struct char_data *ch, struct char_data *vict, struct obj_data *ob
 
   if (!num_quests || IS_NPC(ch) || !IS_NPC(vict) || GET_OBJ_RNUM(obj) < 0)
     return FALSE;
+  if (test)
+    check_expiry(ch);
   for (i = 0; i < MAX_ACTIVE_QUESTS; i++) {
     a = &QREC(ch)->active[i];
     if (!a->vnum || !(q = find_quest(a->vnum)))
@@ -693,16 +908,44 @@ void quest_arrive(struct char_data *ch)
   int i;
   char msg[MAX_STRING_LENGTH];
 
-  if (!num_quests || IS_NPC(ch) || !ch->desc || ch->in_room == NOWHERE)
+  struct char_data *m, *p;
+
+  if (!num_quests || ch->in_room == NOWHERE)
     return;
+
+  /* a companion reaches the end of the road (it follows its player in) */
+  if (IS_NPC(ch)) {
+    if (ch->mob_specials.escort_quest <= 0 ||
+	!(q = find_quest(ch->mob_specials.escort_quest)) ||
+	world[ch->in_room].number != q->target || !(p = escort_player(ch)) ||
+	p->in_room != ch->in_room || !(a = active_slot(p, q->vnum)))
+      return;
+    check_expiry(p);
+    if (!a->vnum)
+      return;                           /* just too late */
+    a->count = 1;
+    finish_quest(p, q, ch);
+    dismiss_escortee(ch);               /* leaves at the next pulse */
+    return;
+  }
+
+  if (!ch->desc)
+    return;
+  check_expiry(ch);
   for (i = 0; i < MAX_ACTIVE_QUESTS; i++) {
     a = &QREC(ch)->active[i];
-    if (a->vnum && (q = find_quest(a->vnum)) && q->type == QT_VISIT &&
-	!a->count && world[ch->in_room].number == q->target) {
+    if (!a->vnum || !(q = find_quest(a->vnum)))
+      continue;
+    if (q->type == QT_VISIT && !a->count && world[ch->in_room].number == q->target) {
       a->count = 1;
       sprintf(msg, "Quest: %s - you have found it.  Go back to %s.",
 	      q->title, mob_name(q->giver));
       qmsg(ch, msg);
+    } else if (q->type == QT_ESCORT && world[ch->in_room].number == q->target &&
+	       (m = find_escortee(ch, q)) && m->in_room == ch->in_room) {
+      a->count = 1;                     /* he came in after it, somehow */
+      finish_quest(ch, q, m);
+      dismiss_escortee(m);
     }
   }
 }
@@ -752,6 +995,7 @@ static const char *state_words[] = {
 
 static void quest_log(struct char_data *ch)
 {
+  struct char_data *m;
   struct quest_active *a;
   struct quest_data *q;
   char line[MAX_STRING_LENGTH], obj[512];
@@ -766,6 +1010,11 @@ static void quest_log(struct char_data *ch)
     sprintf(line, "  %d. %s, for %s (%s)\r\n       %s.\r\n", ++n, q->title,
 	    mob_name(q->giver), zone_name_of(q->vnum), obj);
     strcat(buf, line);
+    if (q->type == QT_ESCORT && (!(m = find_escortee(ch, q)) || m->master != ch)) {
+      sprintf(line, "       You have lost %s; ask %s again.\r\n", mob_name(q->item),
+	      mob_name(q->giver));
+      strcat(buf, line);
+    }
   }
   if (!n)
     strcat(buf, "  None.  Quest givers catch your eye as you pass; type QUEST near one.\r\n");
@@ -845,6 +1094,9 @@ static void quest_info(struct char_data *ch, struct quest_data *q)
   sprintf(line, "%s: %s.\r\nSuggested level %d%s%s.  Reward:", q->title, obj,
 	  q->min_level, q->daily ? "; can be done once a day" : "",
 	  quest_state(ch, q) == QS_DONE ? "; you have done it" : "");
+  if (q->limit)
+    sprintf(line + strlen(line) - strlen(".  Reward:"),
+	    "; you will have %d minutes.  Reward:", q->limit);
   if (q->gold)
     sprintf(line + strlen(line), " %d gold,", q->gold);
   if (q->exp)
@@ -860,7 +1112,7 @@ static void quest_info(struct char_data *ch, struct quest_data *q)
 
 static void quest_accept(struct char_data *ch, struct quest_data *q)
 {
-  struct char_data *giver = giver_here(ch, q);
+  struct char_data *giver = giver_here(ch, q), *m;
   struct quest_active *a;
   struct obj_data *obj;
   int st = quest_state(ch, q), i;
@@ -878,6 +1130,13 @@ static void quest_accept(struct char_data *ch, struct quest_data *q)
     return;
   }
   if (st == QS_ACTIVE || st == QS_READY) {
+    if (q->type == QT_ESCORT && (!(m = find_escortee(ch, q)) || m->master != ch)) {
+      if (m)                            /* strayed: send it home */
+	dismiss_escortee(m);
+      act("$N sighs.  \"Lost already?  Here, try again.\"", FALSE, ch, 0, giver, TO_CHAR);
+      spawn_escortee(ch, q, giver);
+      return;
+    }
     if (q->type == QT_DELIVER) {        /* lost the parcel?  another one */
       for (obj = ch->carrying; obj; obj = obj->next_content)
 	if (GET_OBJ_VNUM(obj) == q->item)
@@ -889,6 +1148,10 @@ static void quest_accept(struct char_data *ch, struct quest_data *q)
       }
     }
     send_to_char("You are already on that quest.  (QUEST LOG)\r\n", ch);
+    return;
+  }
+  if (q->type == QT_ESCORT && world[ch->in_room].number == q->target) {
+    giver_says(giver, ch, "Not now - ask me again when I'm somewhere else.");
     return;
   }
   for (i = 0, a = NULL; i < MAX_ACTIVE_QUESTS; i++)
@@ -913,8 +1176,14 @@ static void quest_accept(struct char_data *ch, struct quest_data *q)
     act("$N hands you $p.", FALSE, ch, obj, giver, TO_CHAR);
     act("$N hands $n $p.", TRUE, ch, obj, giver, TO_ROOM);
   }
+  if (q->type == QT_ESCORT)
+    spawn_escortee(ch, q, giver);
   if (q->type == QT_VISIT && world[ch->in_room].number == q->target)
     a->count = 1;
+  if (q->limit) {
+    sprintf(buf, "You have %d minutes.", q->limit);
+    qmsg(ch, buf);
+  }
   save_char(ch, NOWHERE);
 }
 
@@ -948,8 +1217,8 @@ static void quest_complete(struct char_data *ch)
 	}
       }
     }
-    if (q->type == QT_DELIVER)
-      continue;                         /* done by giving it to the recipient */
+    if (q->type == QT_DELIVER || q->type == QT_ESCORT)
+      continue;                         /* done by giving it, or by getting there */
     any = TRUE;
     if (quest_complete_now(q, a))
       finish_quest(ch, q, giver);
@@ -965,6 +1234,7 @@ static void quest_abandon(struct char_data *ch, char *arg)
 {
   struct quest_active *a;
   struct quest_data *q;
+  struct char_data *m;
   int i, n = 0, want = atoi(arg);
 
   for (i = 0; i < MAX_ACTIVE_QUESTS; i++) {
@@ -975,6 +1245,10 @@ static void quest_abandon(struct char_data *ch, char *arg)
       q = find_quest(a->vnum);
       sprintf(buf, "You give up the quest: %s.\r\n", q ? q->title : "(gone)");
       send_to_char(buf, ch);
+      if (q && q->type == QT_ESCORT && (m = find_escortee(ch, q))) {
+	act("$n looks at you reproachfully and goes $s own way.", TRUE, m, 0, ch, TO_VICT);
+	dismiss_escortee(m);
+      }
       memset(a, 0, sizeof(*a));
       save_char(ch, NOWHERE);
       return;
@@ -995,6 +1269,7 @@ ACMD(do_quest)
     return;
   half_chop(argument, sub, rest);
 
+  check_expiry(ch);
   /* drop quests that have vanished from the file */
   for (i = 0; i < MAX_ACTIVE_QUESTS; i++) {
     a = &QREC(ch)->active[i];

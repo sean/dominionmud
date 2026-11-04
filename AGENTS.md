@@ -266,10 +266,17 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
   scrambles to the nearest shore. Heat: a mortal outdoors at 36 degrees or more drinks a unit an hour
   from any drink container he carries, and with none suffers like the cold (`feels_hot()`); hunger and
   thirst themselves are switched off in `gain_condition()`.
-- `lib/data/quests`: 286 quests (`quest.c`; format in the file's header), numbered in their zone's
+- `lib/data/quests`: 297 quests (`quest.c`; format in the file's header), numbered in their zone's
   range, 4-8 per zone. Each names a giver mob, a level, an objective (`kill <mob> <n>`, `fetch <obj> <n>`,
-  `visit <room>`, `deliver <mob> <obj>`; the parcels are objs 93-96 in obj/0.obj) and the giver's lines;
-  `daily` and `after <quest>` are optional. With no `reward` line, `default_reward()` sets gold from the
+  `visit <room>`, `deliver <mob> <obj>`, `escort <mob> <room>`; the parcels are objs 93-96 in obj/0.obj)
+  and the giver's lines (`*` first for narration); `daily`, `after <quest>` and `limit <minutes>` are
+  optional. An escort loads a new copy of its mob, marked with `mob_specials.escort_for/escort_quest`,
+  that follows the player; arriving in the room finishes the quest (`quest_arrive()`, called from
+  `char_to_room()` for players and companions), and its death or extraction fails it
+  (`quest_escort_lost()` from `extract_char()`). Finished companions are removed at the next mobile
+  pulse (`quest_mob_pulse()`), and `quest_hour()` (each mud hour) fails timed quests that ran out and
+  sends home companions whose player has gone. Escort mobs: 1132, 1819, 2713, 3112, 6118, 8031, 19033,
+  20009, 28009, 35041, 43013. With no `reward` line, `default_reward()` sets gold from the
   level and experience in "kills' worth" (5-10 at the player's own level, 3 for daily errands; halved
   for every 5 levels a player is past the quest's max). A character's quests are saved in his account
   record as `QuestActive <vnum> <count> <taken>` and `QuestDone <vnum> <when>` lines

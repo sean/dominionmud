@@ -112,6 +112,9 @@ int     quest_give(struct char_data *ch, struct char_data *vict, struct obj_data
                    int test);
 void    quest_enter(struct char_data *ch);
 void    quest_arrive(struct char_data *ch);
+void    quest_hour(void);
+int     quest_mob_pulse(struct char_data *mob);
+void    quest_escort_lost(struct char_data *mob, const char *why);
 void    quest_show(struct char_data *ch, char *arg);
 
 /* routine.c: NPC daily routines (lib/data/routines) */

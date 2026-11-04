@@ -228,4 +228,17 @@ bdenopq k 0 E
 E
 >in_file_prog pz_rubble.prg~
 |
+#2713
+gnome tinker fizzwick~
+Fizzwick the tinker~
+A gnome tinker in a leather apron jingles with tools.
+~
+A cheerful gnome with a pack full of springs and cogs, rubbing his wrists
+where the chains were.
+~
+d 0 500 E
+6 20 5 6d10+48 1d4+0
+0 0
+8 8 1
+E
 $~

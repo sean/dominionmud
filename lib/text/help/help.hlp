@@ -2220,9 +2220,12 @@ in the room as you walk in, they catch your eye.
 You may name a quest by a word of its title instead of its number, as in
 QUEST ACCEPT KOBOLDS.  Quests ask you to slay something (your group gets
 the credit too), to bring something back (give it to the person who asked,
-or use QUEST COMPLETE), to find a place, or to carry a letter or parcel to
-someone and give it to them.  If you lose the parcel, ask again for
-another.  The reward is gold and experience; the experience is worth less
+or use QUEST COMPLETE), to find a place, to carry a letter or parcel to
+someone and give it to them, or to see someone safely somewhere: they
+follow you, and the quest is done when you arrive together.  If your
+companion is killed, the quest fails.  If you lose the parcel, or your
+companion, ask again.  Some quests must be done against the clock, in
+real minutes from when you take them on; QUEST LOG shows the time left.  The reward is gold and experience; the experience is worth less
 once you have outgrown the quest.  Most quests can be done once, but small
 errands in the towns can be done again each day.
 

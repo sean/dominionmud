@@ -771,15 +771,18 @@ d 0 0 S
 0 0
 8 8 0
 #3112
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+girl little lost child~
+a lost little girl~
+A lost little girl stands here, clutching a rag doll and trying not to cry.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
+A small girl in a pinafore, her face smudged from crying.  She keeps
+looking up at every passing woman, hoping.
+~
+d 0 500 E
+2 20 5 2d10+16 1d4+0
 0 0
-8 8 0
+8 8 2
+E
 #3113
 unfinished mob~
 the unfinished mob~

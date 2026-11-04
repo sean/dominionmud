@@ -112,4 +112,16 @@ bdelor dfhkrs 0 E
 BareHandAttack: 8
 Race: 14
 E
+#28009
+calf buffalo~
+a buffalo calf~
+A buffalo calf bleats and nuzzles at your hand.
+~
+A shaggy calf on wobbly legs, lowing for its mother.
+~
+d 0 500 E
+2 20 5 2d10+16 1d4+0
+0 0
+8 8 0
+E
 $~

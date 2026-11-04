@@ -398,4 +398,17 @@ bdenopqr k 0 S
 8 8 0
 >in_file_prog pz_monolith.prg~
 |
+#1132
+boy gnome gnomish nervous~
+a nervous gnomish boy~
+A nervous gnomish boy fidgets here with a heavy sample case.
+~
+A young gnome in his father's too-big coat, hugging a case of samples.
+He jumps at every loud noise.
+~
+d 0 500 E
+3 20 5 3d10+24 1d4+0
+0 0
+8 8 1
+E
 $~

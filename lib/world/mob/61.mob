@@ -163,4 +163,17 @@ bdlm dks -1000 E
 8 8 2
 Race: 4
 E
+#6118
+brownie little~
+a little brownie~
+A little brownie peeks out from behind your legs.
+~
+A tiny brownie, no taller than your knee, with leaves in her hair and
+her thumb in her mouth.
+~
+d 0 500 E
+4 20 5 4d10+32 1d4+0
+0 0
+8 8 2
+E
 $~

@@ -497,4 +497,16 @@ bdenopqr k 0 S
 8 8 0
 >in_file_prog pz_fish.prg~
 |
+#35041
+student gnome gnomish~
+a gnomish student~
+A gnomish student clutches a notebook and looks about eagerly.
+~
+A young gnome with ink on her nose and a notebook full of questions.
+~
+d 0 500 E
+2 20 5 2d10+16 1d4+0
+0 0
+8 8 2
+E
 $~

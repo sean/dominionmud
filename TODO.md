@@ -44,7 +44,10 @@ already has.
   daily errands in the towns, chains (Master Oldric's Academy lessons, the Monastery's two chambers).
   Progress is saved in the character's record in the account file. Zones with no mobiles got a quest
   giver (an old shepherd, a ferryman, a lost cartographer...), and the Eastern Plains village, built but
-  never loaded, now resets. Still to do: escort quests and timed quests.
+  never loaded, now resets. Escort and timed quests followed: 11 escorts (a lost girl to the
+  Dalkyst Inn, a runaway kobold out of the mines, a pilgrim to the Pool of Reflections...) where a
+  companion follows the player and must arrive alive, and 15 quests against the clock (the pies must
+  arrive hot), 297 quests in all.
 - **More puzzles, and a puzzle log.** The `pz_*` puzzles (Ancalador, Mytherandil, Ganin's World, House
   Gemmar, the Valley of Fate...) are the most distinctive content in the game, but nothing records which
   ones a player has solved. A `lore` command listing the puzzles and lore fragments found so far (stored

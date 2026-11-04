@@ -381,4 +381,17 @@ bdenopqr k 0 S
 8 8 0
 >in_file_prog pz_obelisk.prg~
 |
+#19033
+child elven elf~
+an elven child~
+An elven child skips along beside you, humming.
+~
+A young elf with silver hair and bare feet, who has never seen the sunrise
+from the platform and has been promised it.
+~
+d 0 500 E
+3 20 5 3d10+24 1d4+0
+0 0
+8 8 2
+E
 $~

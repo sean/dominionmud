@@ -56,6 +56,8 @@ void mobile_activity(void)
   for (ch = character_list; ch; ch = next_ch) {
      next_ch = ch->next;
 
+     if (IS_NPC(ch) && quest_mob_pulse(ch))  /* quest.c: an escort done */
+       continue;
      if (!IS_MOB(ch) || FIGHTING(ch) || !AWAKE(ch))
        continue;
      /* Examine call for special procedure */

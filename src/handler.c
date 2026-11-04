@@ -553,8 +553,9 @@ void char_to_room(struct char_data * ch, long room)
   }
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_INFOBAR))
     do_infobar(ch, 0, 0, SCMDB_NEWROOM);
-  if (!IS_NPC(ch) && ch->in_room != NOWHERE)
-    quest_arrive(ch);                   /* quest.c: visit quests */
+  if (ch->in_room != NOWHERE &&
+      (!IS_NPC(ch) || ch->mob_specials.escort_quest > 0))
+    quest_arrive(ch);                   /* quest.c: visits and escorts */
 
   check_falling(ch);
 }
@@ -1050,6 +1051,9 @@ void extract_char(struct char_data * ch)
 
   assert( ch != NULL );
   assert( ch->in_room != NOWHERE );
+
+  if (IS_NPC(ch) && ch->mob_specials.escort_quest > 0)
+    quest_escort_lost(ch, "your companion is gone.");  /* quest.c */
 
   if (!IS_NPC(ch) && !ch->desc) {
     for (t_desc = descriptor_list; t_desc; t_desc = t_desc->next)
