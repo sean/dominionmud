@@ -2273,6 +2273,7 @@ ACMD(do_show)
     { "guild",          LVL_GOD },
     { "trainers",       LVL_BUILDER },
     { "routines",       LVL_IMMORT },
+    { "quests",         LVL_IMMORT },
     { "\n", 0 }
   };
 
@@ -2423,6 +2424,9 @@ ACMD(do_show)
     break;
   case 13:
     routine_show(ch);
+    break;
+  case 14:
+    quest_show(ch, value);
     break;
 
   default:

@@ -44,5 +44,6 @@ D 0 3917 1 2 		* Lock and Close Southern door at The Third Trial Of Peringuard
 D 0 3918 2 2 		* Lock and Close Southern door at The Fourth Trial Of Peringuard
 D 0 3919 1 2 		* Lock and Close Southern door at The Fifth Trial Of Peringuard
 D 0 3920 2 2 		* Lock and Close Southern door at The Sixth Trial Of Peringuard
+M 0 3912 1 3907 100 	* an old ferryman at room 3907 (quest giver). (Max: 1)
 S
 $~

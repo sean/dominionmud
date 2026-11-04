@@ -145,6 +145,13 @@ int pfile_write_record(FILE *fp, const struct char_file_u *st)
   PUT_LIST(fp, "Addictions", ps->addictions, MAX_COND);
   PUT_LIST(fp, "BodyParts", ps->body_parts, 12);
   put_num(fp, "OlcZone", ps->olc_zone);
+  for (i = 0; i < MAX_ACTIVE_QUESTS; i++)
+    if (ps->quests.active[i].vnum > 0)
+      fprintf(fp, "QuestActive %d %d %lld\n", ps->quests.active[i].vnum,
+	      ps->quests.active[i].count, (long long) ps->quests.active[i].taken);
+  for (i = 0; i < ps->quests.num_done && i < MAX_QUESTS_DONE; i++)
+    fprintf(fp, "QuestDone %d %lld\n", ps->quests.done[i].vnum,
+	    (long long) ps->quests.done[i].when);
   for (i = 0; i <= MAX_SKILLS; i++)
     if (ps->skills[i])
       fprintf(fp, "Skill %d %d\n", i, ps->skills[i]);
@@ -330,6 +337,25 @@ int pfile_read_record(FILE *fp, struct char_file_u *st, int *unknown)
     else if (IS("Addictions"))	GET_LIST(ps->addictions, MAX_COND, ubyte);
     else if (IS("BodyParts"))	GET_LIST(ps->body_parts, 12, long);
     else if (IS("OlcZone"))	ps->olc_zone = (int) n;
+    else if (IS("QuestActive")) {
+      int q;
+      get_nums(val, v, 3);
+      for (q = 0; q < MAX_ACTIVE_QUESTS; q++)
+	if (!ps->quests.active[q].vnum) {
+	  ps->quests.active[q].vnum = (int) v[0];
+	  ps->quests.active[q].count = (int) v[1];
+	  ps->quests.active[q].taken = (time_t) v[2];
+	  break;
+	}
+    }
+    else if (IS("QuestDone")) {
+      get_nums(val, v, 2);
+      if (ps->quests.num_done < MAX_QUESTS_DONE) {
+	ps->quests.done[ps->quests.num_done].vnum = (int) v[0];
+	ps->quests.done[ps->quests.num_done].when = (time_t) v[1];
+	ps->quests.num_done++;
+      }
+    }
     else if (IS("Skill")) {
       get_nums(val, v, 2);
       if (v[0] >= 0 && v[0] <= MAX_SKILLS)

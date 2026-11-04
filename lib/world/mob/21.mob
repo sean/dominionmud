@@ -1,0 +1,14 @@
+#2100
+herder nordman old~
+an old Nordman herder~
+An old Nordman herder leans on his staff by the road, watching his cattle.
+~
+A broad old man in a sheepskin coat, his beard braided in the Nord fashion.
+He has walked these plains all his life and knows every hut and hollow.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
+$~

@@ -133,4 +133,17 @@ dfhq dkp 0 S
 2 7 1 5d2+25 1d5+0
 0 150
 8 8 0
+#3912
+ferryman old~
+an old ferryman~
+An old ferryman sits in his boat by the pier, mending a net.
+~
+A leathery old man with a pipe clamped in his teeth and a net across his
+knees.  He has rowed the Widmans for fifty years and seen everything.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
 $~

@@ -10,5 +10,6 @@ High~
 *
 D 0 11731 1 1 100 		* Close Eastern door at A storeroom
 D 0 11732 3 1 100 		* Close Eastern door at Western Hallway in the Tower
+M 0 11700 1 11700 100 	* a scholar of Rhaylinne at room 11700 (quest giver). (Max: 1)
 S
 $~

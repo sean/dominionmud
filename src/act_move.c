@@ -365,6 +365,7 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
     look_at_room(ch, 0);
   if (ch->desc != NULL && room_frozen(ch->in_room))
     send_to_char("The ice creaks under your feet.\r\n", ch);
+  quest_enter(ch);                      /* quest.c: visits, givers */
   /* check to see if player set off trap entering room */
   check_trigger_trap(ch, NULL, TRIG_ENTER_ROOM);
 

@@ -8,5 +8,19 @@ BUILDING~
 * Last Updated: Thu Jul 25 14:51:34 
 *           By: Garou
 *
+M 0 28000 1 28075 100 	* the Chieftain at room 28075. (Max: 1)
+M 0 28006 1 28075 100 	* the Chieftain's bodyguard at room 28075. (Max: 1)
+M 0 28002 1 28073 100 	* the Tribal Shaman at room 28073. (Max: 1)
+M 0 28007 2 28065 100 	* the villager at room 28065. (Max: 2)
+M 0 28007 2 28064 100 	* the villager at room 28064. (Max: 2)
+M 0 28004 3 28055 100 	* a buffalo at room 28055. (Max: 3)
+M 0 28004 3 28055 100 	* a buffalo at room 28055. (Max: 3)
+M 0 28004 3 28058 100 	* a buffalo at room 28058. (Max: 3)
+M 0 28005 3 28059 100 	* the gazelle at room 28059. (Max: 3)
+M 0 28005 3 28061 100 	* the gazelle at room 28061. (Max: 3)
+M 0 28005 3 28062 100 	* the gazelle at room 28062. (Max: 3)
+M 0 28001 2 28060 100 	* the Plainsman at room 28060. (Max: 2)
+M 0 28001 2 28053 100 	* the Plainsman at room 28053. (Max: 2)
+M 0 28003 1 28049 100 	* the scout at room 28049. (Max: 1)
 S
 $~

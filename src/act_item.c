@@ -545,6 +545,13 @@ void perform_give(struct char_data * ch, struct char_data * vict,
     act("You can't let go of $p!!  Yeech!", FALSE, ch, obj, 0, TO_CHAR);
     return;
   }
+  if (quest_give(ch, vict, obj, TRUE)) {      /* quest.c: always taken */
+    act("You give $p to $N.", FALSE, ch, obj, vict, TO_CHAR);
+    act("$n gives you $p.", FALSE, ch, obj, vict, TO_VICT);
+    act("$n gives $p to $N.", TRUE, ch, obj, vict, TO_NOTVICT);
+    quest_give(ch, vict, obj, FALSE);        /* uses it up */
+    return;
+  }
   if (IS_CARRYING_N(vict) >= CAN_CARRY_N(vict)) {
     act("$N seems to have $S hands full.", FALSE, ch, 0, vict, TO_CHAR);
     return;

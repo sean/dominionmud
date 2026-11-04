@@ -996,6 +996,56 @@ A spiny red cactus fruit lies here.~
 19 0 a
 4 0 0 0 0 0 0 0 14
 1 3 0
+#93
+letter sealed quest~
+a sealed letter~
+A folded letter, sealed with wax, has been dropped here.~
+~
+12 cdq a
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+letter sealed quest~
+A folded letter closed with a blob of wax.  It isn't addressed to you, and
+the seal would show if you broke it.
+~
+#94
+parcel wrapped quest~
+a wrapped parcel~
+A parcel wrapped in oilcloth and tied with string lies here.~
+~
+12 cdq a
+0 0 0 0 0 0 0 0 14
+3 0 0
+E
+parcel wrapped quest~
+A parcel wrapped in oilcloth against the weather and tied with string.
+Something inside shifts when you tilt it.
+~
+#95
+pouch small leather quest~
+a small leather pouch~
+A small leather pouch, drawn shut, lies here.~
+~
+12 cdq a
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+pouch small leather quest~
+A small leather pouch with its drawstring knotted tight.  It clinks.
+~
+#96
+flask stoppered quest~
+a stoppered flask~
+A flask, stoppered with wax, lies here.~
+~
+12 cdq a
+0 0 0 0 0 0 0 0 14
+2 0 0
+E
+flask stoppered quest~
+A clay flask, stoppered and sealed with wax.  Whatever is inside sloshes.
+~
 #97
 mail piece _DO_NOT_FUCK_WITH_THIS_ITEM_~
 a piece of mail~

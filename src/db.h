@@ -105,6 +105,15 @@ void    load_ice(void);
 int     room_frozen(long room);
 void    weather_set_ice(int zone, int level);
 
+/* quest.c: quests handed out by NPCs (lib/data/quests) */
+void    load_quests(void);
+void    quest_kill(struct char_data *victim, struct char_data *killer);
+int     quest_give(struct char_data *ch, struct char_data *vict, struct obj_data *obj,
+                   int test);
+void    quest_enter(struct char_data *ch);
+void    quest_arrive(struct char_data *ch);
+void    quest_show(struct char_data *ch, char *arg);
+
 /* routine.c: NPC daily routines (lib/data/routines) */
 void    load_routines(void);
 void    routines_hour(void);

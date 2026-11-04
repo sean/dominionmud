@@ -509,5 +509,6 @@ E 1 26001 9 17
 O 0 26029 1 26100
 O 0 26037 1 26029
 O 0 26012 1 26024
+M 0 26025 1 26000 100 	* a ragged elven scout at room 26000 (quest giver). (Max: 1)
 S
 $~

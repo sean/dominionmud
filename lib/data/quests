@@ -1,0 +1,2748 @@
+; Quests (read by src/quest.c at boot; "reload quests" rereads it).
+;
+; Each quest starts with "#<vnum> <title>".  Number quests in the range of
+; the zone they belong to (zone 30: 3001-3099), like rooms and mobiles.
+; Lines starting with ';' are comments, and the file ends with '$'.
+;
+;   giver <mob vnum>      who offers it and takes it back (every copy of
+;                         that mobile does)
+;   level <min> [<max>]   offered from level min; past max (default
+;                         min + 15) it pays less, and 10 levels past max
+;                         it isn't offered at all
+;   daily                 may be done again each day (town errands)
+;   after <quest vnum>    only offered once that quest is done
+;
+; and one objective:
+;
+;   kill <mob vnum> <n>     slay n of them (the killer's group in the room
+;                           gets the credit too)
+;   fetch <obj vnum> <n>    bring n of them back (give them to the giver,
+;                           or QUEST COMPLETE in his presence)
+;   visit <room vnum>       find the room, then report back
+;   deliver <mob> <obj>     the giver hands over obj (93 a sealed letter,
+;                           94 a wrapped parcel, 95 a small leather pouch,
+;                           96 a stoppered flask); giving it to the mob
+;                           completes the quest
+;
+; and the words:
+;
+;   offer <text>    what the giver says when asked about it (several
+;                   offer lines run together into one speech)
+;   done <text>     what the giver (or recipient) says at the end
+;
+; Rewards: with no "reward" line, gold and experience are worked out from
+; the level and the objective (default_reward() in quest.c: generous,
+; 5-10 kills' worth of experience at the player's own level, a third of
+; that for daily errands).  "reward <gold> <kills' worth of exp> [<obj>]"
+; sets them by hand.
+;
+; Text may not contain '$'.  Quest givers in a zone with no mobiles of its
+; own were added to that zone's mobile file and reset.
+
+; ===================================================================
+; Elrhinn Township (zone 30)
+; ===================================================================
+
+#3001 Pies for the Dalkyst Inn
+giver 3001
+level 1 10
+daily
+deliver 3005 94
+offer Yarl at the Dalkyst Inn takes a dozen of my meat pies every day, and
+offer my feet are killing me.  Run these round to him, would you?  The inn
+offer is on Dalkyst Road, at the north end of town.
+done Ah, Jynnah's pies!  Tell her they'll be gone by sundown.  Here, for your trouble.
+
+#3002 Word to the Watch
+giver 3011
+level 1 10
+daily
+deliver 3023 93
+offer Hear ye!  The Commissioner's proclamations must reach the Captain of
+offer the Cityguard before I cry them.  Take this to Captain Sental in his
+offer office by the barracks, and be quick about it.
+done Hmph.  Another proclamation.  Very well, you've done your duty, citizen.
+
+#3003 The Shadow on Dagger Lane
+giver 3023
+level 14
+kill 8009 1
+offer There is something living in the shadows at the end of Dagger Lane.
+offer The townsfolk call it Anas the Shadowspawn.  My guards won't go near the
+offer place after dark, and I don't blame them.  Put an end to it.
+done So the Shadowspawn is gone.  Elrhinn owes you, and so do I.
+
+#3004 Holy Water for the Chapel
+giver 3021
+level 1 10
+daily
+deliver 3090 96
+offer The young acolyte in the chapel south of the courtyard keeps a vigil,
+offer and his font is dry.  Carry this blessed water to him.  Walk gently.
+done The acolyte takes the flask with shaking hands.  "Thank you.  The gods saw that."
+
+#3005 Mybius and the Rock of Pheenix
+giver 3068
+level 2
+visit 20015
+offer Worms!  No - maps.  My map says there is a great rock in the Widmans
+offer River below the docks, the Rock of Pheenix, and my apprentice swears
+offer it has moved.  Rocks don't move.  Go and see, and come back and tell me.
+done Exactly where I drew it!  Ha!  Rocks don't move.  Here, take this.
+
+#3006 Letters to the Great Druid
+giver 3099
+level 3
+deliver 25501 93
+offer I am writing a history of the old faiths, and the Great Druid of the
+offer Glade is the only one who remembers them.  He sits in his chamber high in
+offer the forest.  Take him my letter, and mind his guards.
+done The Great Druid reads the sage's letter and smiles faintly.  "Tell him to come himself, next time."
+
+#3007 Kobolds Under the City
+giver 3023
+level 2
+kill 20004 6
+offer Kobolds have been digging under Warrior's Way, and some of the holes
+offer come up in people's cellars.  Get down into their catacombs below the
+offer docks and thin out their soldiers.  Six should teach them.
+done Six of them?  That will quiet the cellars for a while.  Well done.
+
+; ===================================================================
+; Mytherandil (zone 11)
+; ===================================================================
+
+#1101 The Fletcher's Lunch
+giver 1100
+level 1 10
+daily
+deliver 1104 94
+offer The Fletcher forgets to eat when he has a bow on the bench, and then
+offer he's cross all evening at the Orcmeer.  Take him this loaf, would you?
+offer His shop is off the Great Square.
+done The Fletcher grunts and tears off a heel of bread.  "Tell Axxen I'm grateful.  Here."
+
+#1102 A Toadstool from Haon-Dor
+giver 1101
+level 3
+fetch 6106 1
+offer There is a toadstool that grows on the paths of Haon-Dor, the dark
+offer forest, and nowhere else.  Its cap makes a draught that settles a
+offer fever.  Bring me one, and don't eat it on the way.
+done Perfect, and not a nibble out of it.  You'd make an alchemist yet.
+
+#1103 Blue Wood for Blue Bows
+giver 1104
+level 2
+fetch 1814 2
+offer You've seen the blue longbows the Darkweir hunters carry?  The wood
+offer comes from the quasits that haunt the hollows; they hoard it, the
+offer little devils.  Bring me two pieces of dark-blue wood.
+done Look at that grain.  These will make the finest bows in Mytherandil.
+
+#1104 A Rubbing from the Burial Chambers
+giver 1102
+level 3
+visit 1253
+offer The burial chambers beneath the tower of Sand Moriquendi carry an
+offer inscription that I have been copying wrong for forty years.  Go down
+offer and read it properly, then come back and tell me what it says.
+done Ah... so that's what it says.  Forty years!  Here, here.  Off you go.
+
+#1105 Rivets for Durin
+giver 1108
+level 1 10
+daily
+deliver 1112 95
+offer Master Durin wants these rivets at the WhiteFlame forge, and I'm not
+offer allowed to leave the bellows.  Please?  He shouts when he waits.
+done Durin weighs the pouch in his palm.  "About time.  Thank the lad for me."
+
+#1106 A Bounty Notice for the Encampment
+giver 1107
+level 4
+deliver 1810 93
+offer The dragoons have posted a bounty on the brigands of Darkweir Hollows.
+offer There is a party of adventurers camped in a clearing there; their
+offer leader will want this notice.  Take it to him.
+done The leader reads the notice and laughs.  "Brigands?  We'll have them by supper."
+
+; ===================================================================
+; Elrhinn Hills (zone 55)
+; ===================================================================
+
+#5501 The Rope Bridge
+giver 5500
+level 1
+visit 5535
+offer My flock won't cross the rope bridge over the fjord, and sheep know
+offer things.  Would you walk out onto it and see if it's sound?  It's east,
+offer past the steep trail.
+done Still holding, is it?  Then it's the sheep being silly.  Thank you kindly.
+
+#5502 The End of the Fjord
+giver 5500
+level 2
+visit 5528
+offer There's a lamb gone missing, and the last I saw of her she was
+offer trotting down along the waterway toward the end of the fjord.  Have a
+offer look down there for me?
+done No sign of her?  She'll turn up, they always do.  Here, for your boots.
+
+#5503 Wool for the Docks
+giver 5500
+level 1 10
+daily
+deliver 3006 94
+offer This fleece is promised to Jarus the Dockmaster in Elrhinn, for the
+offer river barges.  The southern docks, past the southern gate.  My knees
+offer don't do towns any more.
+done Jarus feels the wool.  "Good fleece.  Tell the old man he'll have his coin."
+
+#5504 Wolves Among the Lambs
+giver 5500
+level 3
+kill 6102 3
+offer Grey wolves come out of Haon-Dor at night and take my lambs.  The
+offer forest's not far, west of the hills.  Kill three of them, and the rest
+offer will think twice.
+done Three!  The flock will sleep easy tonight, and so will I.
+
+; ===================================================================
+; Druid's Glade (zone 255)
+; ===================================================================
+
+#25501 The Evil Furrier
+giver 25501
+level 5
+kill 25507 1
+offer A man called Ki traps and skins the creatures of the Glade, at the
+offer foot of the great maple.  The forest has asked me to stop him.  I am
+offer old, and the forest is patient, but it has asked.
+done The forest is grateful.  Feel it: the leaves are louder.
+
+#25502 Counsel of the Owl
+giver 25501
+level 2
+visit 25540
+offer The brown owl who nests high in the maple has seen more of this
+offer forest than I have.  Climb to his nest and sit with him a while.
+offer Then come back and tell me what you learned.
+done Patience, then.  That is what he always says.  It is good advice.
+
+#25503 The Bluejay's Feast
+giver 25508
+level 4
+kill 25505 1
+offer A giant bluejay has been raiding the nests in the cottonwood, eating
+offer every egg in the Glade.  The Great Druid will not ask it of you, but I
+offer will.  Up the cottonwood, to the high nest.
+done The songbirds will nest again in spring.  Thank you, friend.
+
+#25504 A Peace Offering
+giver 25501
+level 12
+deliver 6116 96
+offer Our brothers in Haon-Dor went astray long ago; their elder keeps a
+offer temple under a great tree there, and he is angry with all the world.
+offer Take him this draught of the Glade's spring.  Perhaps he will remember.
+done The Elder druid stares at the flask a long while.  "...Tell him I remember."
+
+; ===================================================================
+; Kobold Catacombs (zone 200)
+; ===================================================================
+
+#20001 The Shaman's Grudge
+giver 20003
+level 4
+kill 20007 1
+offer Karak, the overseer, works the miners until they drop and keeps the
+offer gold for himself.  The spirits say he must fall.  I say so too.  He is
+offer at the end of the long hallway.
+done Karak is dead?  The miners will sing tonight.  Kobold songs.  Very loud.
+
+#20002 Karak's Orders
+giver 20003
+level 4
+fetch 20011 1
+offer Karak carries a note, orders from someone above.  Kobolds don't write
+offer notes.  Bring me the note, and we'll see who is giving the orders.
+done The shaman squints at the note.  "Big folk handwriting.  This is bad.  Very bad."
+
+#20003 Break the Whips
+giver 20003
+level 2
+kill 20006 3
+offer The taskmasters whip the miners to dig faster, deeper.  Three fewer
+offer whips and the tunnels will be kinder.  They are in the dead-ends,
+offer gloating.
+done Ha!  The miners rest their arms.  You are a good big folk.
+
+#20004 The Wall That Eats
+giver 20003
+level 7
+kill 20008 1
+offer At the end of the tunnels there is a wall that is too smooth.  Miners
+offer who touch it do not come back.  It is not a wall.  Kill it.
+done The eating wall is gone?  Then we can dig there.  Thank you.
+
+#20005 The AmberStone
+giver 20003
+level 5
+fetch 20013 1
+offer There is a crevice in the rock where an AmberStone glows.  The spirits
+offer want it brought into the light, away from the miners' greedy picks.
+offer Bring it to me.
+done The shaman holds the AmberStone up to the torch and hums.  "Good.  Very good."
+
+; ===================================================================
+; Haon-Dor, Dark Forest (zone 61)
+; ===================================================================
+
+#6101 Wargs on the Trail
+giver 6115
+level 5
+kill 6100 2
+offer Vicious wargs prowl the small paths, and they've eaten two of my
+offer cousins and most of my mushrooms.  Two wargs, big fellow.  That's all I
+offer ask.  Hee hee.
+done Two wargs!  Shargugh dances!  Shargugh dances for YOU!
+
+#6102 The Queen of Webs
+giver 6115
+level 16
+kill 6114 1
+offer The giant spiders spin their webs higher every year, and their queen
+offer sits fat in her den above them.  Kill the queen, and the webs will
+offer fall.  Mind the poison.
+done The queen is dead?  Shargugh will sleep in a tree tonight!  No webs!
+
+#6103 Smoke Out the Green Dragon
+giver 6115
+level 20
+kill 6112 1
+offer There is a green dragon in a cave at the end of the dusty trail.  Its
+offer breath kills the trees.  The trees are my friends.  Help my friends.
+done The trees are humming, can you hear?  They say thank you.  Shargugh says it too.
+
+#6104 Shargugh's Supper
+giver 6115
+level 3
+fetch 6107 1
+offer There is a toadstool on the river bank - a fat one - and I can't
+offer reach it because of the wolves.  Bring it to Shargugh?  Shargugh will
+offer pay you!
+done Mmmm.  Shargugh eats it in one bite, grinning.  "Delicious.  Here, take this."
+
+#6105 The Cult Beneath the Tree
+giver 6115
+level 12
+visit 6155
+offer There's a door inside the great tree, and stairs going down, and
+offer chanting.  Shargugh doesn't go there.  Will you go and look, and tell
+offer Shargugh what they are doing?
+done A temple?  Under MY forest?  Shargugh doesn't like it.  Shargugh will tell the trees.
+
+; ===================================================================
+; Darkweir Hollows (zone 18)
+; ===================================================================
+
+#1801 Quasits in the Hollow
+giver 1801
+level 2
+kill 1804 3
+offer The quasits blink in and out between the trees and spoil my hunting.
+offer Three of them, and the deer will come back to the paths.
+done That's better.  The hollow's quieter already.  Here, you've earned this.
+
+#1802 Brigands of Darkweir
+giver 1801
+level 2
+kill 1808 3
+offer Forest brigands work the deep woods with their knives out.  They
+offer robbed me of a season's furs.  Three of them, and I'll call it even.
+done Good.  May the rest of them get the message.
+
+#1803 Shargugh's True Love
+giver 1806
+level 4
+deliver 6115 96
+offer My love!  My true love is a brownie of the dark forest, Haon-Dor,
+offer and he grins so!  Take him this, please, please: my heart in a flask.
+offer Well, honey wine.  But it's the same thing.
+done Shargugh the Forest Brownie sniffs the flask and turns bright red.  "She remembered!"
+
+#1804 The Ogre's Hoard
+giver 1810
+level 6
+visit 1876
+offer The ogres in the silent clearing are guarding something - they ambush
+offer anyone who comes near.  Find their hoard and tell me what's in it.  My
+offer lads are no good at sneaking.
+done An elf, you say?  Dead and picked over.  Poor soul.  Well, we know now.
+
+#1805 The High Druid of Drerim
+giver 1810
+level 15
+kill 1813 1
+offer Below the old temple there is a druid order that sacrifices anything
+offer that breathes.  Their master is Drerimin, in his chamber at the heart
+offer of the place.  Kill him and the rest will scatter.
+done Drerimin's dead?  Then the forest can heal.  You have my thanks, and this.
+
+#1806 Word from the Slaves
+giver 1811
+level 2
+deliver 3021 93
+offer Please.  I was a farmer in Elrhinn, before.  Take this to Jaran, the
+offer priest at the church there.  He knew my family.  Tell him I'm alive.
+done Jaran reads the letter and closes his eyes.  "Alive.  The gods be thanked.  I'll tell them."
+
+; ===================================================================
+; The High Tower of Magic (zone 37)
+; ===================================================================
+
+#3701 Edgar's Way Home
+giver 3702
+level 1
+deliver 3003 93
+offer I'm lost.  I came to learn magic and they laughed at me, and now I
+offer can't find the way out of this grove.  Will you take a letter to my
+offer old master, Rastrad the Weaponsmith in Elrhinn?  He'll come for me.
+done Rastrad reads the letter and snorts.  "That boy.  I'll fetch him.  Thanks for this."
+
+#3702 Shadows in the Grove
+giver 3701
+level 9
+kill 3700 3
+offer The shadow guardians...  they won't let me leave the grove.  Every time
+offer I try, they scream and come at me.  Kill three of them and I might make
+offer a run for it.  Please.  I haven't eaten in days.
+done You did it!  I can see the path.  Here, take everything I have left.
+
+#3703 A Lesson in Manners
+giver 3707
+level 7
+kill 3718 2
+offer Some of those young apprentices have cornered my kitten in the
+offer hallway and are throwing sparks at her.  Teach two of them a lesson
+offer they won't forget.  I'd do it myself, but the soup would burn.
+done My poor kitten.  You've a good heart.  Have some of this - no, take it, I insist.
+
+#3704 The Mad Alchemist's Spoon
+giver 3707
+level 24
+fetch 3756 1
+offer That mad alchemist upstairs borrowed my silver stirring spoon for one
+offer of his potions and now he won't give it back.  He keeps it in his belt
+offer pouch.  He bites.  Get it back for me, dearie.
+done My spoon!  Oh, it smells of sulphur.  I'll scrub it.  Thank you, dearie.
+
+#3705 The Necromancer's Lair
+giver 3764
+level 25
+kill 3749 1
+offer One of our order has turned to raising the dead in his lair below.
+offer The Tower will not tolerate it, but I cannot be seen to act against a
+offer brother.  You, however, can.  Do it quietly.
+done It is done, then.  The Tower thanks you, though it will never say so aloud.
+
+#3706 The Jailor's Key
+giver 3709
+level 17
+fetch 3722 1
+offer Pssst.  The jailor sleeps all day in his office, with my key on his
+offer belt.  I was only a thief.  I've been chained here three years.  Bring
+offer me that old key and I'll make it worth your while.
+done Free!  The prisoner rattles his shackles open, grinning.  "As promised.  Don't tell."
+
+#3707 Balance of the Masters
+giver 3764
+level 30
+kill 3759 1
+offer The Master of the Black Robes plots in his inner chamber, and the
+offer balance of the Tower tips toward darkness.  Restore it.  The Master of
+offer Neutrality will not help you, but he will not stop you either.
+done The balance is restored.  For now.  It never lasts.  Take this, with my thanks.
+
+#3708 Strick's Order
+giver 3705
+level 8 20
+daily
+deliver 3706 94
+offer Tatorious down in the magic shop orders his lunch from my tavern every
+offer day, and every day I can't leave the bar.  Levitating drinks takes
+offer concentration, you know.  Run this over to him?
+done Tatorious counts the coins for his lunch twice.  "Tell Strick it was cold yesterday."
+
+; ===================================================================
+; River Island of Peringuard (zone 39)
+; ===================================================================
+
+#3901 Hags in the Seaweed
+giver 3912
+level 4
+kill 3909 2
+offer Two sea hags lie in the seaweed by the bank and pull swimmers down.
+offer They've had two of my passengers this season.  Kill them, and I'll
+offer row you anywhere you like.
+done The hags are dead?  The river's safe again.  Thank you, friend.
+
+#3902 The Waterfall
+giver 3912
+level 3
+visit 3909
+offer They say there's a waterfall upriver that sings when the moon is
+offer full.  I've never had the nerve to row that far.  Would you go and
+offer see it, and tell an old ferryman what it's like?
+done Singing, you say?  Well, I'll be.  Maybe I'll row up myself, one day.
+
+#3903 The First Trial
+giver 3912
+level 32
+kill 3900 1
+offer King Peringuard keeps trials on his island for anyone who calls
+offer himself a warrior.  The first is the golden sentries at the gate.  Beat
+offer one, and come back and tell me you're still alive.
+done Still alive!  That's more than most.  You'll go further, I think.
+
+#3904 The Golden Dragon
+giver 3912
+level 25
+kill 3903 1
+offer The fourth trial is a golden dragon, and its breath boils the river
+offer when it's angry.  The fish float belly up for a mile.  Kill it, and
+offer the fishermen will drink to your name.
+done The river's cool again.  The fishermen will drink to you tonight.
+
+#3905 Peringuard's Assassin
+giver 3912
+level 30
+kill 3905 1
+offer The king keeps an assassin, Kelis, in the sixth trial, and Kelis
+offer sometimes comes ashore at night to keep his knives sharp on travellers.
+offer See that he doesn't come ashore again.
+done Kelis is dead?  I'll sleep with both eyes shut tonight.  Here, for your trouble.
+
+; ===================================================================
+; The Guilds (zone 26)
+; ===================================================================
+
+#2601 Dust to Dust
+giver 2601
+level 10
+visit 1898
+offer The Dustmen honour the dead, all of them, even those of the black
+offer druids.  There is a crypt beneath the Drerim temple in Darkweir that
+offer no one has paid their respects to.  Go, and stand there a while.
+done You stood among the dead and did not flinch.  The Dustmen remember such things.
+
+#2602 Orders Between the Halls
+giver 2602
+level 5 25
+daily
+deliver 2607 93
+offer The Harmonium and the Fraternity of Order keep each other informed,
+offer as befits two houses of law.  Carry these orders to the Fraternity's
+offer warden on Eastwall Road in Elrhinn.
+done The warden breaks the seal and nods once.  "Order is kept.  Go in peace."
+
+#2603 The Mercykiller's Warrant
+giver 2603
+level 5
+kill 1815 1
+offer There is a warrant out for a fanatical druid of Drerim, for the murder
+offer of pilgrims on the old path.  Justice is not mercy.  He hides in his
+offer master's chamber in the Darkweir temple.  Serve the warrant.
+done Justice is served.  The Mercykillers will remember your name.
+
+#2604 Dance with the Korreds
+giver 2604
+level 8
+visit 1846
+offer Chaos is the truest order, friend!  In the light forest of Darkweir
+offer the korreds dance in a circle of flowers, for no reason at all.  Go and
+offer dance with them.  Then come back and tell me why.
+done There is no why?  Exactly!  Ha!  You have a Xaositect's heart.
+
+#2605 Oil for the Lamps
+giver 2605
+level 3 20
+daily
+deliver 3012 96
+offer The Sign of One lights the way for all.  Take this oil to the
+offer lamplighter of Elrhinn - he works the streets at dusk and sleeps at the
+offer Dalkyst Inn.  Every lamp lit is a mind awakened.
+done The lamplighter sniffs the oil.  "Good stuff.  Tell the paladin the streets thank him."
+
+#2606 The Doomguard's Due
+giver 2606
+level 10
+kill 6113 3
+offer Entropy takes all things in the end, but sometimes it needs a hand.
+offer The poisonous spiders of Haon-Dor have grown too many.  Return three of
+offer them to the dust.
+done Three returned to the dust.  The blade is pleased.  So am I.
+
+#2607 The Athar's Tally
+giver 2608
+level 10
+deliver 3022 95
+offer The Athar keep no gods, but we keep accounts.  This pouch is owed to
+offer Turrin Deathstalker at his hideout beneath Elrhinn.  He'll count it.
+offer Twice.  Don't let him see you count it first.
+done Turrin tips the coins into his palm and counts them.  Twice.  "Fair.  Off you go."
+
+; ===================================================================
+; Ganin's World (zone 27)
+; ===================================================================
+
+#2701 Pibb's Compass
+giver 2711
+level 5
+fetch 2712 1
+offer The kobolds took my clockwork compass with everything else, and
+offer they've piled it all up behind the rubble.  With that compass I could
+offer find my way home.  Bring it to me?  Please?
+done My compass!  And it still ticks!  North is... that way.  Thank you!
+
+#2702 The King's War Map
+giver 2711
+level 10
+fetch 2709 1
+offer King Vrask has drawn a war map.  A war map!  He's planning to raid the
+offer gnome burrows.  If you bring me the map I can warn them.  He keeps it
+offer on him, the big-headed toad.
+done The gnome studies the map with growing horror.  "Ten raids!  I must warn them!  Thank you!"
+
+#2703 Down with King Vrask
+giver 2711
+level 10
+kill 2700 1
+offer King Vrask chained me here to make traps for his warriors.  I'm a
+offer gnome!  I make toys!  End his reign, and the kobolds will go back to
+offer digging instead of fighting.
+done The king is dead?  Hooray!  Pibb dances in his chains.
+
+#2704 Rats in the Tunnels
+giver 2711
+level 2
+kill 2708 3
+offer The cave rats come at night and nibble my toes.  The kobolds think
+offer it's funny.  It is not funny.  Three rats, please.  Big ones.
+done No more nibbling!  Pibb's toes thank you.
+
+#2705 The Troll Envoy
+giver 2711
+level 13
+kill 2709 1
+offer There's a troll at the king's throne, an envoy from the troll clans.
+offer If the trolls join the kobolds' war, the gnome burrows are done for.
+offer Make sure he doesn't carry a treaty home.
+done No troll treaty!  The burrows are saved.  You are a hero to the gnomes.
+
+#2706 Stolen Trinkets
+giver 2711
+level 6
+fetch 2710 1
+offer All the gnomish trinkets the kobolds stole are heaped up behind the
+offer rubble wall.  My grandmother's music box is in there!  Bring the heap
+offer to me and I'll sort them out.
+done Grandmother's music box!  It still plays!  Oh, thank you, thank you.
+
+; ===================================================================
+; Caverns of the Underdark (zone 52)
+; ===================================================================
+
+#5201 The Duergar Miners
+giver 5213
+level 28
+kill 5220 2
+offer The myconoid's thoughts bloom in your mind like spores: the grey
+offer dwarves dig in the large cavern and their picks wound the deep stone.
+offer Two of them.  Make them stop.
+done Gratitude drifts into your mind like a warm, damp breeze.
+
+#5202 The Mining Leader
+giver 5201
+level 36
+kill 5221 1
+offer The mindflayer's voice slides into your thoughts: the duergar who
+offer leads the mining in the large cavern has found something that belongs
+offer to us.  Remove him.  We will not ask twice.
+done Satisfactory, the voice says.  You may keep your brain.  And this.
+
+#5203 The Drider
+giver 5213
+level 28
+kill 5211 1
+offer A thought like rot and silk: the drider in the sloping passage hunts
+offer the young myconoids and spins them into its web.  End it.
+done The fungus folk sway together.  A feeling of peace washes over you.
+
+#5204 The Underground Lake
+giver 5201
+level 25
+visit 5205
+offer There is a lake far beneath the stone.  Something lives in it that
+offer we cannot read.  Go to the shore.  Look.  Come back.  We will read what
+offer you saw.
+done You feel a cold touch in your mind as the spy reads your memories.  Interesting.
+
+#5205 The Wandering Dwarf
+giver 5213
+level 24
+kill 5212 1
+offer A grey dwarf wanders the damp passage on his way home, trampling the
+offer young caps.  Every day, the same way.  Please.
+done The young caps will grow.  The myconoid bows, slowly, like a toppling tree.
+
+; ===================================================================
+; Arena and the Desert of Demise (zone 53)
+; ===================================================================
+
+#5301 Water for the Lost
+giver 5306
+level 10
+deliver 5315 96
+offer There's a poor soul stumbling about in the Desert of Demise, dried
+offer out like a raisin.  I'd go myself but my camel won't.  Take him this
+offer water, before the scorpions get him.
+done The traveler gulps the water down, sobbing.  "Bless you.  Bless you."
+
+#5302 Scorpions of the Desert
+giver 5306
+level 15
+kill 5316 3
+offer The giant scorpions are eating my customers.  Three of them, and my
+offer caravan can cross to the oasis again.  Mind the stingers.
+done Three!  The road's open.  Business is good again.  Here's your cut.
+
+#5303 The Strange Fruit
+giver 5306
+level 12
+fetch 5302 1
+offer Under the oasis there's a strange fruit that never rots.  A merchant
+offer could make a fortune if he knew where it grew.  Bring me one, and
+offer we'll say no more about it.
+done The merchant turns the fruit over in his hands.  "Never rots, eh?  My fortune is made."
+
+#5304 Champion of the Arena
+giver 5303
+level 34
+kill 5307 1
+offer The gladiator has won every bout for a year and it's boring!  BORING!
+offer Beat him!  I've got money on you!  Well, I will have, if you go in!
+done YOU BEAT HIM!  I'm rich!  Well, richer.  Here, take a share!
+
+#5305 The Arena Ogres
+giver 5303
+level 16
+kill 5309 3
+offer The ogres in the arena are the crowd's favourite, and I hate them.
+offer They cheat!  Three ogres down and I'll cheer myself hoarse for you.
+done The fan screams himself hoarse.  You don't catch a word of it, but he means well.
+
+#5306 A Peasant's Reprieve
+giver 5313
+level 16
+kill 5308 2
+offer They threw me in here to die for the crowd.  The arena fighters will
+offer come for me next.  If two of them fall first, the crowd might call for
+offer mercy.  Please.
+done The crowd roars - for you, not for blood.  The peasant weeps with relief.
+
+#5307 The Oasis
+giver 5305
+level 10
+visit 5440
+offer There's an oasis in the Desert of Demise, so they say, with a pond of
+offer clear water and a strange tree.  I think it's a mirage.  Prove me wrong.
+done Real, then.  I'll fill my skins there tomorrow.  Thank you, friend.
+
+; ===================================================================
+; The Jungle and the Adventurer's Academy (zone 58)
+; ===================================================================
+
+#5801 First Lessons
+giver 5800
+level 1 8
+kill 5801 3
+offer Every adventurer starts somewhere.  You start in the Hall of Dummies.
+offer Three of them.  Hit them until they fall over.  Then come back to me.
+done Good.  You hit things.  That's the first lesson, and the least of them.
+
+#5802 The Hall of Shadows
+giver 5800
+level 1 8
+after 5801
+kill 5802 2
+offer Now, the dark.  The Hall of Shadows is full of rats that bite the
+offer careless.  Two of them.  Learn to fight what you can barely see.
+done You came back with all your fingers.  That's the second lesson.
+
+#5803 Graduation
+giver 5800
+level 1 8
+after 5802
+visit 5809
+offer The halls of locks, of doors, of patience: find your way through them
+offer to the Graduation Hall.  Nobody will help you.  That's the lesson.
+done You found it.  You are an adventurer now, for whatever that's worth.  Well done.
+
+#5804 Beyond the Academy
+giver 5800
+level 5
+after 5803
+visit 5815
+offer Outside these walls is the jungle, and in it an old shrine to Karras,
+offer overgrown and forgotten.  Find it.  The world is bigger than my halls.
+done The shrine still stands?  Then the old gods still listen.  Go well, student.
+
+#5805 The Serpent's Hollow
+giver 5821
+level 16
+kill 5805 1
+offer A giant constrictor has made its nest in a hollow below the walls,
+offer among the bones of our scholars.  Three of them, this year.  Please.
+done The old librarian bows his horned head.  "The scholars may walk the path again."
+
+#5806 The Lost Star Chart
+giver 5821
+level 27
+fetch 5811 1
+offer Skeiron the Lorekeeper borrowed the library's star chart forty years
+offer ago and has never returned it.  Forty years!  Bring it back to me, by
+offer whatever means.  I don't wish to know.
+done The star chart!  Back where it belongs.  Thank you.  I don't wish to know.
+
+#5807 A Letter to the Academy
+giver 5820
+level 12
+deliver 5800 93
+offer I trained at the Academy, years ago, under Master Oldric.  Take him
+offer this letter, so he knows what became of me.  Maybe he'll be ashamed.
+offer Maybe he'll come.
+done Oldric reads the letter in silence.  "I remember him.  I will see what can be done."
+
+#5808 Panther Hides
+giver 5822
+level 14
+kill 5804 2
+offer The black panthers of the jungle trail have the toughest hides there
+offer are.  Good for the grips of axes.  Two panthers.  Go.
+done Good hides.  You can hunt, for a hornless one.  Here.
+
+; ===================================================================
+; Cair-Irynthar (zone 50)
+; ===================================================================
+
+#5001 The Courier's Backlog
+giver 5064
+level 5 25
+daily
+deliver 5000 93
+offer Letters for the Earl, every day, and every day he's out strolling
+offer along the cliffs instead of in his hall.  I'm not chasing him.  You
+offer chase him.  He's the one in the fine cloak with the guards.
+done The Earl glances at the letter and tucks it away.  "The courier sends his regards, I suppose."
+
+#5002 Pastries for the Princess
+giver 5028
+level 3 20
+daily
+deliver 5013 94
+offer There's a foreign princess at the Dragon's Wrath who orders my honey
+offer cakes every day and never comes to fetch them.  Royalty!  Run them over
+offer to the alehouse for me, dearie.
+done The princess licks honey off her fingers.  "Divine.  Tell the little cook she's a treasure."
+
+#5003 A Thief in the Lane
+giver 5060
+level 6
+kill 5007 1
+offer There is a thief in the shaded lane who robs anyone foolish enough to
+offer walk it alone.  The Black Watch has better things to do.  You,
+offer apparently, do not.  See to him.
+done The Lord of the Black Watch raises his glass.  "One fewer.  The lane is yours."
+
+#5004 Lampreys in the Pool
+giver 5022
+level 20
+kill 5062 2
+offer My birds drink at the black-bottom pool, and the lampreys have been
+offer taking them.  Lost two kestrels this month.  Two lampreys for two
+offer kestrels - that's fair.
+done Fair trade.  My birds thank you, in their way.  So do I.
+
+#5005 The Wanted Thief
+giver 5002
+level 17
+kill 5043 1
+offer There's a thief with a price on his head, hiding out in a secret
+offer hideaway from the bounty hunters.  I had a rope ready for him.  Dead
+offer will do just as well.  Saves on rope.
+done The hangman sighs and coils his rope.  "Next time bring him alive.  I do so like a crowd."
+
+#5006 Is It Safe Out There?
+giver 5036
+level 3
+visit 5131
+offer I can't go out there.  Out there is where the things are.  Will you
+offer walk out to the blackberry orchard and tell me if it's safe?  It's
+offer probably not safe.  Is it safe?
+done Safe?  Really?  ...I still don't believe you.  But here, for trying.
+
+#5007 Mapping the Mossy Cliffs
+giver 5023
+level 5
+visit 5165
+offer My map of the cliffs has a hole in it right about... here.  A short,
+offer mossy cliff, if the shepherds are to be believed.  Go and stand on it
+offer and come back and tell me how high it is.
+done Mossy, yes, yes.  Splendid!  The hole in my map is filled.  Here.
+
+#5008 Tea for the Blind Mage
+giver 5034
+level 2 20
+daily
+deliver 5061 96
+offer The poor blind mage sits out at Blind Man's Bluff all day talking to
+offer the birds, and nobody brings him anything warm.  Take him this tea.
+offer And tell him to wear a hat.
+done The old blind mage wraps his hands round the flask.  "Tell her I'll wear the hat."
+
+; ===================================================================
+; Chree'zen (zone 56)
+; ===================================================================
+
+#5601 The Bloody Beasty
+giver 5673
+level 15
+kill 5608 1
+offer There's a thing lives in the Blood Pond in the forest - a clot of
+offer blood, if you can believe it, that clings to whoever wades in.  It's
+offer had three of my patrol.  Kill it.
+done The night watchman lowers his lantern.  "Three good men.  Thank you."
+
+#5602 The Survivor's Tale
+giver 5674
+level 10
+visit 5617
+offer Gather round, gather round.  They say a man survived the burning of
+offer Naz'ol and hides in a cave in the deep forest to this day.  Is it true?
+offer Go and see, and I'll tell it right forever after.
+done True!  Then the story has a new ending.  Sit, sit, have a coin.
+
+#5603 Hot Nuts for the Watch
+giver 5669
+level 3 20
+daily
+deliver 5673 94
+offer The night watchman walks all night in the smoke and never has a bite.
+offer Take him a bag of my roasted nuts, love, still warm.  He walks the
+offer alleys after dark, with his lantern up.
+done The night watchman cracks a nut and smiles.  "Tell Mother Tibb she's a saint."
+
+#5604 Scouts in the Smoke
+giver 5601
+level 16
+kill 5636 2
+offer The scouts!  The scouts in the smoke!  They watch me.  They watch
+offer everyone.  Two of them, please, two, and then they can't watch so much.
+done Fewer eyes...  fewer eyes...  The horrified man presses a coin into your hand.
+
+#5605 A Message from the Cave
+giver 5617
+level 12
+deliver 5674 93
+offer No one must know I'm here.  No one!  Except...  the old storyteller in
+offer the square.  He was my friend.  Take him this.  Tell no one else.
+done Old Brannoc reads it and his eyes fill.  "Alive.  I'll keep his secret.  And yours."
+
+#5606 Down the Old Mine
+giver 5668
+level 8
+visit 5619
+offer My brother went down the abandoned mine shaft after the fire, looking
+offer for copper, and never came up.  I can't go down there, I'm afraid of
+offer the dark.  Silly, for a lamplighter.  Will you look?
+done Nothing?  Then he got out another way.  He must have.  Thank you for looking.
+
+; ===================================================================
+; Battlelands (zone 47)
+; ===================================================================
+
+#4701 Hold the Line
+giver 4704
+level 15
+kill 4700 2
+offer Some of our own warriors have turned in the madness of this battle
+offer and fight anyone they see.  I cannot hold the hordes and them too.
+offer Two of them.  Forgive me for asking.
+done It is done?  Then the line holds a little longer.  Go with Irynthar's thanks.
+
+#4702 Reinforcements
+giver 4704
+level 12
+deliver 5018 93
+offer We need fresh swords, and only the Knightmaster of Cair-Irynthar can
+offer send them.  Carry this to him at the sparring hall.  Run, if you
+offer can.
+done The Knightmaster reads the plea and swears.  "Squire!  Saddle every horse!"
+
+#4703 Word to the Earl
+giver 4704
+level 12
+deliver 5000 93
+offer The Earl of Sundhaven must know how the battle goes, and from someone
+offer who has seen it.  You have seen it.  Take him this, and tell him the
+offer truth of it.
+done The Earl reads the letter twice.  "So it goes badly.  I shall see what I can spare."
+
+#4704 Scout the Far Field
+giver 4704
+level 14
+visit 4799
+offer The far end of the field is lost in smoke and I cannot see what is
+offer coming.  Get out there, look, and come back alive.  The last scout did
+offer not.
+done Nothing coming?  For now.  You have bought us an hour.  Thank you.
+
+; ===================================================================
+; Bryn Mawr (zone 80)
+; ===================================================================
+
+#8001 The Black Wyrm
+giver 8003
+level 12
+kill 8011 1
+offer A black wyrm has made its lair in the great cave before our gates,
+offer and our traders will not pass it.  The dwarves of Bryn Mawr have dealt
+offer with worse.  But you are here, and we are busy.
+done The King strokes his beard.  "Well struck.  Bryn Mawr pays its debts."
+
+#8002 Rats in the Old Passage
+giver 8006
+level 2
+kill 8014 2
+offer There's rats in the old passage under the castle, and they're
+offer skeletal - walking bones, eating my stores!  Two of them.  Don't ask me
+offer what they eat with.
+done Ha!  Let's see them nibble my cheese now.  Take some mutton with you.
+
+#8003 Spiders in the Tunnels
+giver 8005
+level 1
+kill 8008 2
+offer The abandoned tunnels are crawling with little black spiders, and my
+offer apprentices won't fetch ore from there any more.  Two spiders, and
+offer they'll stop whining.  Maybe.
+done Grem bangs the anvil in approval.  "The lads'll go back down now."
+
+#8004 The Abandoned Tunnels
+giver 8003
+level 4
+visit 8012
+offer The old tunnels of the mine were abandoned in my grandfather's day.
+offer I would know why.  Walk them to their end and come back and tell me
+offer what you found there.
+done A dead end, and the marks of picks that stopped?  Then they found nothing.  Good.
+
+#8005 Mutton for the Guardian
+giver 8006
+level 5 25
+daily
+deliver 8004 94
+offer The castle guardian stands his post from dawn to dark and I send him
+offer his supper.  Before the Castle, at the top of the road.  Don't make
+offer him wait; he gets grumpy.
+done The guardian unwraps the mutton and his scowl softens.  "My thanks to Garin."
+
+#8006 Tribute from the Forge
+giver 8005
+level 3
+deliver 8003 95
+offer Every smith in Bryn Mawr owes the King a tribute in silver at the
+offer turn of the season.  Here's mine.  Take it to him in the castle, at
+offer the top of the stairs.
+done The King weighs the pouch.  "Trimbleshield is honest as his hammer.  Thank him."
+
+; ===================================================================
+; Blackwood Forest (zone 75)
+; ===================================================================
+
+#7501 The Twisted Trolls
+giver 7500
+level 18
+kill 7501 3
+offer The trolls of the heart were men once, before the Blackwood took
+offer them.  Now they are only hunger.  Three of them.  It is a mercy.
+done A mercy, yes.  The old man bows his cowled head.  Take this.
+
+#7502 Ravens of Ill Omen
+giver 7500
+level 12
+kill 7502 2
+offer The ravens of the dark paths are the forest's eyes.  Every traveller
+offer they see, the forest knows of.  Put out two of its eyes.
+done Half blind, now, the forest.  For a while.
+
+#7503 The Walking Trees
+giver 7500
+level 20
+kill 7503 2
+offer Some of the trees here walk, and reach for throats.  Darktrees.  They
+offer were seedlings when I was young.  Fell two of them.
+done Two fewer.  The paths will be quieter.  Thank you, woodsman.
+
+#7504 The Heart of Blackwood
+giver 7500
+level 15
+visit 7555
+offer At the heart of the Blackwood there is a place where the darkness is
+offer thickest.  I have not been there in forty years.  Go, and tell me if
+offer it still beats.
+done It still beats?  Then I shall stay, and keep watch, as I always have.
+
+#7505 The Weeping Edge
+giver 7500
+level 12
+visit 7544
+offer There is a place the trees weep sap like tears.  The Weeping Edge.
+offer Someone I loved is buried there.  Go and stand by it for me.  My
+offer legs will not take me any more.
+done You stood there?  Thank you.  Thank you.  She would have liked you.
+
+; ===================================================================
+; Charing Cross (zone 100)
+; ===================================================================
+
+#10001 Spine the Usurper
+giver 10007
+level 38
+kill 10010 1
+offer Spine took Charing Cross by the throat and squeezed.  His henchmen
+offer are everywhere.  He sits in his chamber under the watchtowers, safe as
+offer houses.  Make him not safe.
+done Spine is dead?  Spine is DEAD?  The citizen bursts into tears and presses gold on you.
+
+#10002 The Masked Menace
+giver 10016
+level 30
+kill 10011 1
+offer The child on the table whispers: the man in the mask comes back every
+offer night.  Please make him stop.  Please.
+done The child stops shaking.  Somewhere, a guard comes to cut the straps.
+
+#10003 Drunks in the Alley
+giver 10002
+level 5
+kill 10003 2
+offer Two drunks in the alley take my coins, and then they take my supper.
+offer They hit hard.  I'm too old to be hit.
+done The beggar woman pats your hand.  "Bless you, dearie.  Have a copper."
+
+#10004 Jarr's Rivals
+giver 10008
+level 8
+kill 10017 2
+offer The Assassins' Guild thinks Usurp Street is theirs.  It is mine.  Two
+offer of their men loiter there in black, eyeing my customers.  Fix that.
+done Jarr smiles without warmth.  "Good work.  Very discreet.  Here's your cut."
+
+#10005 Protection Money
+giver 10031
+level 10 30
+daily
+deliver 10008 95
+offer Every tavern in Charing Cross pays Jarr for protection, and every day
+offer I'm short a runner.  Take this to the Thief King in his room.  Don't
+offer count it.  He'll know.
+done Jarr weighs the pouch.  "Merl's always on time.  Tell him I said so."
+
+#10006 Henchmen on the Walls
+giver 10023
+level 14
+kill 10004 3
+offer Spine's henchmen hold the watchtowers and shake down anyone who passes
+offer underneath.  Three of them, off the walls.  Kirahn smiles on such work.
+done The buff elf flexes in approval.  "Kirahn is pleased.  So am I."
+
+#10007 The Temple of Darkshade
+giver 10025
+level 18
+visit 10103
+offer Beneath the city there is a temple to Darkshade, older than Charing
+offer Cross.  The Overlords grin in its corridors.  Find the entrance, and
+offer tell me if the doors are still sealed.
+done Open?  Then the Gray must know at once.  Thank you, seeker.
+
+; ===================================================================
+; Ancalador (zone 104)
+; ===================================================================
+
+#10401 Crystal Spiders
+giver 10408
+level 7
+kill 10412 3
+offer You came!  Company!  Oh, do stay.  The yellow spiders in the acid
+offer forest won't let me gather my moss.  Three of them, and I'll make
+offer moss tea.  You'll like moss tea.
+done Lovely!  Moss tea for two.  Sit, sit.  Here, have this as well.
+
+#10402 Slime by the Tonsils
+giver 10408
+level 6
+kill 10409 2
+offer This great stone dragon has slime in its throat, can you imagine?
+offer Green slime, that drops on you by the tonsils.  Two blobs, please.
+offer It's ruining the acoustics.
+done Hello!  Hello!  Ahh, hear that echo now.  Wonderful.
+
+#10403 The Heart of the Dragon
+giver 10408
+level 10
+visit 10410
+offer They say this mountain was a dragon once, and its heart still sits in
+offer the middle of it.  I've never dared.  Go and see if it beats.  Then
+offer come back and tell me everything.
+done Still?  Cold and still?  Oh, I'd hoped...  well.  Thank you for looking.
+
+#10404 The Crypt Keeper
+giver 10408
+level 25
+kill 10407 1
+offer Down in the darken pit, beneath the guild of the living dead, there is
+offer a crypt keeper who grins.  He sends asps up to my valley.  Make him
+offer stop grinning.
+done No more asps!  The hermit claps his hands.  "Stay for supper.  Please."
+
+#10405 The Guild of the Living Dead
+giver 10408
+level 23
+kill 10403 1
+offer Morticia, the guildhead of the living dead, wants my bones for her
+offer zombies.  She's said so, in writing.  It was a very polite letter.
+offer Please, kill her first.
+done Oh, thank you.  I shall write her a very polite letter of my own.  To no one.
+
+#10406 The Dragon's Tail
+giver 10408
+level 14
+visit 10447
+offer If this is a dragon, it must have a tail, and if it has a tail, I
+offer want to know where it ends.  All the way through, past the intestines.
+offer Sorry.  Mind the jellies.
+done The tail!  So it IS a dragon.  I knew it.  Here, for the walk.
+
+; ===================================================================
+; Vice Island (zone 105)
+; ===================================================================
+
+#10501 Freedom for the Harem
+giver 10502
+level 30
+kill 10506 1
+offer The fat harem master keeps us on this beach in pretty dresses until
+offer we drop.  We cannot fight him.  You can.  Please.
+done The women stop trudging and look at each other.  For the first time in years, they smile.
+
+#10502 The Stone Key
+giver 10505
+level 30
+fetch 10530 1
+offer The master carries a stone key that opens the way off this island.
+offer Bring it to me.  How you get it, I won't ask, and I won't care.
+done The slave clutches the stone key and weeps.  "Tonight, we sail."
+
+#10503 Crabs on the Beach
+giver 10504
+level 2
+kill 10507 3
+offer The red crabs nip at our ankles as we walk, and we walk all day.
+offer Three of them.  Please.  My ankles are raw.
+done Oh, that's better.  Here - I hid this from him.  Take it.
+
+#10504 The Wailing Ghost
+giver 10503
+level 15
+kill 10511 1
+offer At night we hear a ghost wailing in the building on the hill.  It is
+offer one of us, who went in and never came out.  Give her rest.
+done The wailing stops.  The woman in white whispers a prayer.
+
+#10505 The Priest of Fear
+giver 10503
+level 30
+kill 10510 1
+offer The Priest of Fear walks his office, pompous as a peacock, and every
+offer week he takes one of us.  End his walking.
+done The woman in white closes her eyes.  "No more Fridays.  Thank you."
+
+#10506 The Boiling Tar Pit
+giver 10501
+level 8
+visit 10527
+offer There's a tar pit along Tarry Road that boils and stinks.  The master
+offer threatens to throw us in.  I want to know how deep it is.  Look for me?
+done Bottomless?  Oh dear.  Well.  I'll be very good, then.  Thank you.
+
+; ===================================================================
+; Cliffs of Rhaylinne (zone 106)
+; ===================================================================
+
+#10601 The Firbolgs of the Ledge
+giver 10600
+level 18
+kill 10602 2
+offer The giants on the ledge below roll rocks down on anyone climbing up.
+offer That is how I came to live up here: I could not get down again.  Two
+offer of them, and perhaps I shall walk home.
+done Two fewer rocks rolling.  Perhaps I shall go down in the spring.  Perhaps.
+
+#10602 The Iron Golems
+giver 10600
+level 25
+kill 10601 2
+offer The tower in the cavern is guarded by iron golems that never sleep.
+offer They were made to guard something.  I should like to know what.  Two
+offer of them stand before the stairway.
+done Two fallen.  The stairway is open.  Go carefully, if you go further.
+
+#10603 The Spire
+giver 10600
+level 10
+visit 10702
+offer Above even this peak there is a spire of stone, and steps winding
+offer round it.  I have looked at it every day for thirty years.  Climb it
+offer for me, and tell me what you see from the top.
+done The whole world, you say?  I thought so.  I thought so.  Thank you.
+
+#10604 The Tower in the Cavern
+giver 10600
+level 20
+visit 10655
+offer Far below, inside the cliffs, there is a cavern, and in the cavern a
+offer tower.  Who builds a tower inside a mountain?  Find its entryway and
+offer come back and tell me.
+done A tower inside a mountain.  Madness.  Wonderful madness.  Here.
+
+#10605 The Flatlands Basin
+giver 10600
+level 8
+visit 10601
+offer Before I climbed up here I lived in the basin, at the foot of the
+offer cliffs.  I wonder if my house still stands.  Go and look across the
+offer basin for me.
+done Gone, is it?  Well.  Houses are only houses.  Take this.
+
+; ===================================================================
+; Three of Swords (zone 110)
+; ===================================================================
+
+#11001 Bandits in the Caves
+giver 11007
+level 16
+kill 11015 3
+offer The bandits in the caves above the town think the mountain road is
+offer theirs.  I think my sword disagrees.  I'm busy.  You aren't.  Three of
+offer them should make the point.
+done Salle doesn't look up from her blade.  "Good.  Take the coin and go."
+
+#11002 Duwick
+giver 11017
+level 22
+kill 11008 1
+offer Duwick runs the bandits and works us in the mines until we drop.  He
+offer laughs while he does it.  He's in the big cavern.  He's huge.  Please.
+done The slave drops his pick.  "No more laughing.  We're going home."
+
+#11003 The Cyclops Path
+giver 11000
+level 16
+kill 11006 2
+offer The small, dangerous path to the peak is held by cyclopses.  They
+offer can't judge distance, so they throw everything.  Two of them and I
+offer can get my supplies over the ridge.
+done Two down!  The path's mine again.  Thanks, friend.
+
+#11004 The Torched Cottage
+giver 11010
+level 5
+visit 11062
+offer My sister's cottage up the mountain trail was burned last month.  No
+offer one's been up to see.  Will you go?  I don't think I can bear it.
+done ...Burned to the ground, then.  Thank you for going.  It's better to know.
+
+#11005 Vegetables for the Inn
+giver 11004
+level 3 20
+daily
+deliver 11010 94
+offer The innkeeper at the Stanneg Inn buys my vegetables every morning,
+offer and every morning my husband forgets to take them.  Would you carry
+offer them over?
+done The innkeeper sorts through the basket.  "Fine carrots.  Tell her thank you."
+
+#11006 The Dragon Prince
+giver 11001
+level 35
+kill 11005 1
+offer The dragon prince Aglandiir sleeps on a hoard in his lair up the
+offer mountain, and every spring he comes down and eats a mule train - my
+offer mule train.  Put an end to him and I'll pay you more gold than you've
+offer ever seen.
+done The storekeeper stares at you.  "Aglandiir, dead?  Then the road's mine.  Here - take it all."
+
+#11007 The Arumb in the Pasture
+giver 11002
+level 1
+kill 11020 2
+offer Those arumbs - the bison things with stag's feet - come over the
+offer fence and eat all the horses' grass.  Two of them.  My horses will
+offer thank you.
+done The horses whinny.  I think that's a thank you.  Here's mine.
+
+; ===================================================================
+; The Elven Woods (zone 190)
+; ===================================================================
+
+#19001 The Heart of the Wood
+giver 19031
+level 5
+visit 19091
+offer At the heart of these woods there is a place where the trees are
+offer older than the elves.  Go and stand there, young one, and listen.  Then
+offer come back and tell me what they said.
+done Nothing, you heard?  That is what they always say.  It is enough.
+
+#19002 Quintor's Order
+giver 19007
+level 3 20
+daily
+deliver 19004 93
+offer Here is the weaponsmith's order for the week, written fair.  He is
+offer two doors down and never reads his messages unless they are brought
+offer by hand.  Elves!
+done The weaponsmith glances at the order.  "Quintor again.  Very well."
+
+#19003 Wine for the Guard Room
+giver 19008
+level 3 20
+daily
+deliver 19011 96
+offer The guards play cards all night in the guard room and drink me dry
+offer every morning.  Take them this, and tell them it's the last on credit.
+offer It never is.
+done The guard uncorks the flask with a grin.  "On credit, he says.  Ha!"
+
+#19004 The Platform of the Sun
+giver 19031
+level 4
+visit 19033
+offer Across the rope bridge there is a platform where the sun strikes
+offer first in the morning.  The young should see it.  Go.
+done You saw the sun come?  Then you saw what the elves see.  Good.
+
+#19005 The Temple of Kelloran
+giver 19031
+level 15
+visit 19041
+offer Beneath the woods, down a dark stairway, there is a temple to
+offer Kelloran that we do not speak of.  A dark figure guards the way.  Find
+offer the foyer and tell me if the candles still burn.
+done Still burning.  Then someone tends them.  That is troubling.  Thank you.
+
+#19006 Letters Between Sages
+giver 19031
+level 3
+deliver 3099 93
+offer The old sage of Elrhinn and I have argued by letter for a hundred
+offer years.  Take him my latest.  I believe I have won.
+done The old sage reads the letter and chuckles.  "He has not won.  But it was close."
+
+; ===================================================================
+; Western Mountain (zone 250)
+; ===================================================================
+
+#25001 Ill-tempered Goats
+giver 25003
+level 10
+kill 25006 3
+offer The mountain goats on the trail butt my workers off the switchbacks.
+offer A stone giant, butted off a mountain by a goat.  It is shameful.  Three
+offer goats.
+done The elder rumbles like a rockslide.  It might be laughter.
+
+#25002 Manticores at the Split
+giver 25003
+level 18
+kill 25015 2
+offer Manticores hunt at the split in the path and take my workers when
+offer they carry stone.  Two of them.  We will build them a cairn after, for
+offer we are not unkind.
+done Two.  We will build the cairn.  You have the thanks of the stone folk.
+
+#25003 Krikus
+giver 25014
+level 31
+kill 25028 1
+offer The charcoal giant Krikus lives in a cave on the secret trail, and he
+offer has written a curse upon the Storm Giant Hero.  I would rather he did
+offer not finish writing it.
+done The sage sets down his pen.  "Unfinished curses are harmless.  Thank you."
+
+#25004 Cloud Scavengers
+giver 25019
+level 10
+kill 25025 3
+offer The cloud scavengers pick over the dead in the clouds, and lately
+offer they've stopped waiting for us to die first.  Three of them.
+done The captain toasts you with his red flask.  "To fewer scavengers!"
+
+#25005 The Peak
+giver 25003
+level 15
+visit 25050
+offer The peak of the Western Mountains is sacred to the stone folk.  We do
+offer not go there; we are too heavy.  Climb it, little one, and tell me
+offer the view.
+done The whole world, small and far away.  Yes.  That is what the old tales say.
+
+#25006 The Bronze Dragon Eggs
+giver 25014
+level 14
+visit 25037
+offer In the tunnels below there is a room where the bronze dragons laid
+offer their eggs, long ago.  I would know if any still lie unhatched.  Look,
+offer and touch nothing.
+done Empty shells?  Then the brood is grown.  I must write this down.
+
+#25007 Above the Clouds
+giver 25019
+level 25
+visit 25081
+offer My trainees have never been above the clouds.  You go first, and if
+offer you come back, I'll send them.
+done You came back!  Trainees!  Up the ladder, all of you!
+
+; ===================================================================
+; Thangorodrim (zone 260)
+; ===================================================================
+
+#26001 Whelps of the Wolves' Den
+giver 26025
+level 15
+kill 26000 4
+offer The wolves' den inside the gates breeds whelps on the bodies of our
+offer dead.  I have watched it from these foothills for a month.  Four
+offer whelps, before they grow.
+done Four fewer to grow into wolves.  The elves will remember this.
+
+#26002 Orcs in the Dark Tunnels
+giver 26025
+level 25
+kill 26002 5
+offer The tunnels beneath Thangorodrim swarm with orcs.  We cannot win
+offer against so many.  But every orc you kill is one fewer at the walls of
+offer our cities.  Five.
+done Five.  The tunnels are no emptier, but our walls are a little safer.
+
+#26003 The Orc Chieftains
+giver 26025
+level 30
+kill 26003 2
+offer Without their chieftains the orcs only squabble.  Two of them bark
+offer orders in the dark tunnels.  Silence them.
+done The tunnels will be loud with squabbling tonight.  Good.
+
+#26004 Carcharoth
+giver 26025
+level 38
+kill 26015 1
+offer At the foot of the dark throne lies Carcharoth, the greatest wolf that
+offer ever was.  His jaws took the hand of a hero once.  Few could do what I
+offer ask.  Perhaps you are one.
+done Carcharoth is dead?  Then the songs will be sung again.  Go with the stars.
+
+#26005 The Silver Dragon
+giver 26025
+level 38
+kill 26007 1
+offer A silver dragon has been bent to the Dark Lord's will and lurks in
+offer Bragollachmar.  It was beautiful once.  Free it, the only way left.
+done It is free, now.  I am sorry it had to be so.  Thank you.
+
+#26006 Gothmog, Captain of Angband
+giver 26025
+level 42
+kill 26012 1
+offer Gothmog leads the Dark Lord's hosts, and walks Melkor's own passage.
+offer A shadow rimmed in flame.  If he falls, the siege falls with him.  I
+offer would not ask it of you if there were anyone else.
+done Gothmog has fallen!  The scout weeps openly.  "The siege is broken.  It is broken!"
+
+#26007 The Ancient Book
+giver 26025
+level 30
+visit 26029
+offer Somewhere in the deeps of Thangorodrim lies an ancient book, stolen
+offer from our libraries in the first age of the world, too heavy with
+offer wards to move.  Find where it lies, so that one day we can come for it.
+done The scout closes her eyes.  "Our lore, still there.  One day we will bring it home."
+
+#26008 Word from the Dungeons
+giver 26013
+level 25
+deliver 19031 93
+offer The prisoner whispers through cracked lips: take this to the old sage
+offer of the Elven woods.  Tell him we live.  Tell him to hope.
+done The old elven sage reads the scrap and grips his staff.  "They live.  We will come for them."
+
+; ===================================================================
+; The Eastern Plains (zone 280)
+; ===================================================================
+
+#28001 Buffalo for the Feast
+giver 28000
+level 2
+kill 28004 2
+offer The tribe feasts at the new moon and the hunters are lazy.  You,
+offer stranger.  Two buffalo from the watering hole.  Prove you are worth
+offer the grass you stand on.
+done The Chieftain grunts.  "You are worth the grass.  Eat with us."
+
+#28002 The Mad Shaman
+giver 28007
+level 4
+kill 28002 1
+offer The shaman wears the mask all the time now and cackles in the night.
+offer The children are afraid.  The Chieftain won't hear a word against him.
+offer You are not of the tribe.  You could...
+done The villager looks away.  "It had to be.  The children will sleep."
+
+#28003 The Watering Hole
+giver 28007
+level 1
+visit 28055
+offer The watering hole is out on the plains past the crossroads.  Go and
+offer see if the water is sweet or bitter this season.  It tells us whether
+offer to move the village.
+done Sweet?  Then we stay another season.  Good news, stranger.
+
+#28004 Gazelle Hides
+giver 28007
+level 2
+kill 28005 2
+offer The gazelle are fast and our children cannot catch them, but the
+offer winter is coming and we need hides.  Two gazelle.
+done Good hides.  The little ones will be warm.  Thank you.
+
+#28005 Hides for the Mountain
+giver 28000
+level 4
+deliver 11001 94
+offer The tribe trades buffalo hides to the storekeeper at Three of Swords,
+offer in the mountains, for iron.  Carry these.  If you cheat us, we will
+offer know.
+done The storekeeper unrolls the hides.  "Plains leather!  Tell the Chieftain he'll have his iron."
+
+#28006 The Rabbit Den
+giver 28007
+level 1
+visit 28005
+offer There is a rabbit den in the hills by the trail, where the little
+offer burrows are.  My son says there is a rabbit there as big as a horse.
+offer Go and look, so he will stop saying it.
+done As big as a horse?  No?  I shall tell him.  He will be disappointed.
+
+; ===================================================================
+; Serdim-ir-Lesk (zone 320)
+; ===================================================================
+
+#32001 Leskbats
+giver 32010
+level 8
+kill 32005 4
+offer The Leskbats hang in the trees and drop on anything that moves.  I've
+offer lost two dogs to them this year.  Four bats, and the dogs can run
+offer again.
+done Four!  You've the makings of a hunter.  Here's a hunter's pay.
+
+#32002 The Flailing Bushes
+giver 32013
+level 9
+kill 32009 2
+offer There are bushes in the Serdim-ir-Lesk that flail at passers-by, and
+offer they've taken a dislike to me.  Bushes!  Two of them, please.  I'll
+offer have my pipe in peace.
+done Ahh.  The old hermit puffs his pipe contentedly.  "Peace at last."
+
+#32003 Something in the Bog
+giver 32004
+level 16
+kill 32006 2
+offer Something in the muddy bog grabs the ankles of travellers and pulls
+offer them under.  The locals call them draduml.  Two of them, and the road
+offer to the waypost is safe again.
+done The wayguard salutes.  "The road's safe.  Well done."
+
+#32004 The Shaman's Gem
+giver 32011
+level 14
+fetch 32005 1
+offer The sessanathi shamans carry bright green gems they use to curse
+offer the trees.  I need one to study.  Their shamans walk the small trail.
+offer Bring me a gem, and I'll show you what it does.
+done Thyet holds the gem to the firelight.  "Fascinating.  And dreadful.  Thank you."
+
+#32005 Behind the Waterfall
+giver 32013
+level 10
+visit 32055
+offer When I was young I swam behind the great waterfall and found a dry
+offer place there.  No one believes me.  Go and find it.  Mind the chute.
+done Dry as a bone, eh?  I TOLD them.  Here, have a smoke.  No?  Gold, then.
+
+#32006 Stew for the Waypost
+giver 32003
+level 5 20
+daily
+deliver 32004 94
+offer The wayguards at the waypost live on hardtack.  Take them a pot of my
+offer stew, and tell them to bring the pot back this time.
+done The wayguard lifts the lid and inhales.  "Bless her.  Tell her we'll bring the pot back."
+
+#32007 Giants in the Garden
+giver 32010
+level 16
+kill 32012 2
+offer There are mushrooms in the garden by the elf's tree that stand as
+offer tall as a man and walk.  They've had a hunter of ours.  Two of them.
+done Mushroom stew for a month!  Well done, friend.
+
+; ===================================================================
+; Pelarinne Forest (zone 326)
+; ===================================================================
+
+#32601 Brigands Behind the Brush
+giver 32602
+level 4
+kill 32600 3
+offer Brigands in tattered mail hide in the clearing behind the brush and
+offer rob my customers on the way here.  Bad for business.  Three of them,
+offer and I'll give you a discount.  Well - gold.
+done Andar puffs his pipe.  "Business will pick up.  Here's your share."
+
+#32602 The Craw Wyrm
+giver 32601
+level 10
+kill 3101 1
+offer A craw wyrm has slithered into the golden forest - a great green
+offer serpent that eats deer whole.  It is no creature of Pelarinne.  Hunt
+offer it.
+done The elf nods slowly.  "The forest is itself again.  Thank you, hunter."
+
+#32603 The White Deer
+giver 32606
+level 8
+visit 32659
+offer There is a white deer that grazes deep in the golden forest.  She is
+offer old, older than the trees.  I have not seen her this season.  Find
+offer her, and tell me she is well.  Do not harm her.
+done She is well?  Then the forest is well.  The druid smiles like sunlight through leaves.
+
+#32604 The Ancient Archway
+giver 32602
+level 5
+visit 32621
+offer There's an old archway in the forest that the elves won't walk under.
+offer Superstition, I say.  Go and walk under it, and come back and tell me
+offer nothing happened.
+done Nothing happened?  Ha!  I knew it.  Elves.  Here, have a root for the road.
+
+#32605 Supplies for the Waypost
+giver 32602
+level 6 25
+daily
+deliver 32004 94
+offer The wayguards at the Serdim-ir-Lesk waypost buy their pipeweed and
+offer bootlaces from me.  Run this out to them, would you?  It's a fair walk,
+offer but you look like you need the exercise.
+done The wayguard sniffs the parcel.  "Andar's pipeweed.  Tell the old dwarf thanks."
+
+#32606 Up the Tall Tree
+giver 32601
+level 4
+visit 32676
+offer There is a tall tree in the forest that our young ones climb to prove
+offer themselves.  You are not one of our young ones.  Climb it anyway.
+done You climbed it?  Then the forest knows you.  Go well.
+
+; ===================================================================
+; Kehrn Mountains (zone 328)
+; ===================================================================
+
+#32801 The Kargin
+giver 32801
+level 18
+kill 32800 2
+offer The kargin - stone things with four arms - come down to the lake and
+offer smash my boats.  I've had three boats this year.  Two kargin, and I
+offer might keep the fourth.
+done The fisherman nods, not looking away from the mountains.  "Obliged."
+
+#32802 The Hermit Troll
+giver 32802
+level 19
+kill 32804 1
+offer The Troll King's voice rumbles: there is a troll who lives alone in a
+offer dark cave and eats travellers raw, without even a fire.  He shames all
+offer trollkind.  End him.
+done Kehrn gazes into the distance.  "Good.  Trolls are not beasts.  Not all of us."
+
+#32803 The Ogre Bandits
+giver 32801
+level 33
+kill 5675 2
+offer The ogre bandits on the ridge rob everyone on the road from
+offer Mytherandil, and they'd rob me if I had anything.  Two of them.
+done That's better.  The road's clear.  Here.
+
+#32804 The Temple of Malakith
+giver 32802
+level 25
+visit 32898
+offer Long ago my queen went up to the dark temple of Malakith to pray,
+offer and never came down.  I cannot go there; the priests would know me.
+offer Go.  Tell me what you find.
+done Nothing?  Only dust and darkness?  ...Then she is truly gone.  Thank you.
+
+#32805 On the Blue Lake
+giver 32801
+level 10
+visit 32890
+offer There's a spot out on the lake where the water's so clear you can see
+offer the bottom a hundred feet down.  Take a boat - or wait for the frost,
+offer when the lake freezes and you can walk out to it.  Tell me if it's
+offer still clear.
+done Still clear.  Good.  Some things don't change.
+
+#32806 The Circle of Stones
+giver 32802
+level 15
+visit 32849
+offer In the mountains there is a circle of standing stones that is older
+offer than trolls.  Stand in its centre.  If the stones speak to you, tell
+offer me what they say.
+done They said nothing?  They said nothing to me either.  We have that in common.
+
+; ===================================================================
+; Gnishmire Town (zone 350)
+; ===================================================================
+
+#35001 Sweetrolls for the Inn
+giver 35010
+level 1 15
+daily
+deliver 35005 94
+offer Violet at the Wave's Crest takes two dozen of my sweetrolls every
+offer morning for her guests, and every morning my legs say no.  Carry them
+offer over, would you?  Mind the icing.
+done Violet looks up from her nails.  "Herrik's sweetrolls.  Lovely.  Here."
+
+#35002 Mail for Elrhinn
+giver 35015
+level 3 20
+daily
+deliver 3010 93
+offer A letter for the Head Postmaster of Elrhinn.  Gnomish post!  Faster
+offer than the river barges.  Well, faster than the river barges on a bad
+offer day.  Off you go!
+done The Head Postmaster stamps the letter twice.  "Gnishmire post.  Late again."
+
+#35003 Tedis' Diving Bell
+giver 35033
+level 2
+visit 35079
+offer My new invention lets you breathe underwater!  Well, probably.  I
+offer haven't tested it.  You go under the pier and see if the water's deep
+offer enough to need it.
+done Deep enough?  Excellent!  Excellent!  I'll test it on my brother.
+
+#35004 A Field Trip
+giver 35030
+level 3
+visit 35077
+offer Class, today's lesson is the Coral Shrine at the end of the pier.
+offer You, there, tall student.  Go and look at it, and come back and tell
+offer the class what you saw.
+done Very good.  Full marks.  Class, the tall student has done the reading.
+
+#35005 Grendel's Lair
+giver 35017
+level 15
+visit 35100
+offer I have waited here a long time for word of the creature in the lair
+offer beyond the walls.  I will not go alone.  You go.  Tell me if it still
+offer lives.
+done The grim knight nods once.  "Then I wait a little longer."
+
+#35006 Trosh's Elixir
+giver 35002
+level 4
+deliver 1101 96
+offer My latest elixir!  The Alchemist of Mytherandil says gnomes can't
+offer brew.  Take this to him, and watch his face when he tastes it.  Then
+offer come back and tell me.  No, wait - just give it to him.
+done The Alchemist sips, splutters, and sips again.  "...The gnome can brew.  Don't tell him I said so."
+
+#35007 Ardanin's Audience
+giver 35032
+level 8
+visit 35083
+offer Nobody comes to hear my lectures on the Undersea Temple!  Nobody!
+offer Go and see it, so at least someone in Gnishmire knows I'm right.
+done You saw it!  Then I'm right!  Here, a fee for my one and only listener.
+
+; ===================================================================
+; Castle Black (zone 360)
+; ===================================================================
+
+#36001 The Closet Monster
+giver 36005
+level 20
+kill 36004 1
+offer There's a monster in the closet off the bedroom.  There really is.
+offer It ate my maid's sister.  Nobody believes me, so I cry.  Please.
+done The crying lady dabs her eyes.  "You believed me.  Thank you."
+
+#36002 The Crying Key
+giver 36005
+level 25
+fetch 36008 1
+offer Somewhere in this castle there is a key that cries the way I do.  It
+offer opens the room where my husband sleeps forever.  Bring it to me.
+done She holds the key to her cheek, and for a moment she stops crying.
+
+#36003 Womprats in the Caverns
+giver 36001
+level 15
+kill 36009 3
+offer The womprats in the caverns below gnaw on the guests.  The guests are
+offer very patient about it, being dead, but it's untidy.  Three, please.
+done The mad butler bows low.  "The guests thank you.  Silently."
+
+#36004 The Ice Monster
+giver 36008
+level 33
+kill 36020 1
+offer Something in an inner chamber is eating whoever falls through the
+offer floor, and it is cold, cold as winter.  The gate cannot be kept while
+offer it lives.
+done The gate watcher inclines his head.  "The gate is kept."
+
+#36005 The Graveyard
+giver 36001
+level 15
+visit 36054
+offer The master's graveyard lies beyond the hollowed woods.  The master
+offer would like to know if his grave is ready.  Do go and look.
+done Ready?  Splendid.  The master will be so pleased.  More tea?
+
+#36006 The Rooftop
+giver 36005
+level 20
+visit 36036
+offer My husband used to stand on the rooftop at dusk and watch for me
+offer coming home.  Go up there and stand where he stood.  Tell me what you
+offer see.
+done Only the road, and no one on it.  Yes.  That's what he saw too.
+
+; ===================================================================
+; The Castle of Llyndyr (zone 383)
+; ===================================================================
+
+#38301 Rats in the Tunnels
+giver 38301
+level 18
+kill 38317 3
+offer There are rats in the tunnels below the castle the size of hounds,
+offer and they've been coming up through the storerooms.  Three of them.  My
+offer men have better things to do.
+done Captain Dorrek nods.  "Three.  Pell will stop complaining.  For a day."
+
+#38302 The SaberBeast
+giver 38301
+level 36
+kill 38316 1
+offer The SaberBeast dens in the warren under the castle, on a nest of
+offer bones, and some of the bones are my men's.  The Emperor wants its head.
+offer So do I.
+done The SaberBeast is dead?  Dorrek grips your arm.  "The Emperor will hear your name."
+
+#38303 The Cubs on the Ledge
+giver 38302
+level 20
+kill 38324 2
+offer The SaberBeast has whelped.  Two cubs on the hunting ledge, already
+offer as big as wolves.  Kill them before they're as big as their mother.
+done Good.  Clean work.  My recruits could learn from you.
+
+#38304 Crab for the Kitchen
+giver 38313
+level 16
+kill 38319 2
+offer Giant reef crabs on the shoreline beyond the tunnels.  My cook says
+offer one of them feeds the whole barracks.  Two, then, and you eat free
+offer tonight.
+done Bertolt grins.  "Crab supper!  Sit down, sit down - and take this."
+
+#38305 A Remedy for the Recruit
+giver 38315
+level 8 25
+daily
+deliver 38322 96
+offer Young Bren took another beating in the training hall and won't come
+offer to the infirmary - too proud.  Take him this remedy.  Tell him to drink
+offer all of it.
+done Bren grimaces and drinks.  "Tell Sister Ysolde thanks.  Don't tell Ulfric."
+
+#38306 The Drowned Gold
+giver 38323
+level 25
+visit 38354
+offer There's a rumour in the barracks of coins and rings in a pool deep in
+offer the warren - the SaberBeast's leavings.  I keep the ledgers.  I'd like
+offer to know if it's true before the men all go looking.
+done True, is it?  Then I'll be writing a new line in the ledger.  Here.
+
+#38307 The Demon Knight
+giver 38302
+level 37
+kill 38304 1
+offer In a dead end off the passages there's a knight in black armour that
+offer isn't a man.  It killed my best student.  I'm too old.  You aren't.
+done Ulfric unfolds his arms at last.  "My student can rest.  Thank you."
+
+#38308 Bread for the Battlements
+giver 38313
+level 15 30
+daily
+deliver 38320 94
+offer The archers on the battlements won't leave their merlons for supper.
+offer Take them up a loaf and a haunch, would you?  Up the stairs from the
+offer barracks.
+done The archer tears the loaf without taking his eyes off the road.  "Thanks."
+
+; ===================================================================
+; Desert of Desolation and the toll road (zone 410)
+; ===================================================================
+
+#41001 Hooded Raiders
+giver 41005
+level 11
+kill 41001 3
+offer Hooded warriors come out of the red desert and hit my wagons at the
+offer edge of the sands.  Three of them, and my drivers'll stop deserting.
+done The caravan master slaps your back.  "Three!  Now we'll make the crossing."
+
+#41002 The Draginne
+giver 41006
+level 14
+kill 41002 1
+offer There's a creature out on the red desert, half dragon and half elf, a
+offer draginne, that robs travellers before they reach my gate.  I lose the
+offer tolls.  End it.
+done The toll keeper counts out your reward from the strongbox, slowly.
+
+#41003 The Darkenguard
+giver 41005
+level 25
+kill 1114 1
+offer A darkenguard walks the red desert, flaying anyone it finds.  My
+offer scouts have seen it twice.  It took a whole wagon team.  Please.
+done The caravan master closes his eyes.  "For the team.  Thank you."
+
+#41004 The Cliff Wall
+giver 41004
+level 10
+visit 41136
+offer There's water at the foot of the cliff wall at the edge of the desert,
+offer they say, if you know where to dig.  I've been wandering three days
+offer looking.  You look.
+done Water?  Then I'll live.  Bless you, stranger.  Take what I have.
+
+#41005 Tolls for Mytherandil
+giver 41006
+level 8 25
+daily
+deliver 1107 95
+offer The day's tolls go to the dragoons of Mytherandil, and the dragoons
+offer don't come to fetch them.  One of the silver dragoons patrols the
+offer Great Square.  Give it to him.
+done The dragoon weighs the pouch.  "Light again.  Tell him we noticed."
+
+#41006 The Smugglers' Tunnel
+giver 41005
+level 12
+visit 41167
+offer Somebody's moving goods past the toll gate without paying - through a
+offer tunnel, the drivers say, from a secret way near the city.  Find it.
+done Underground, eh?  The toll keeper will want to know.  Not from me, mind.
+
+; ===================================================================
+; House Gemmar (zone 420)
+; ===================================================================
+
+#42001 Ghouls in the Graves
+giver 42010
+level 18
+kill 42003 3
+offer Ghouls in among the toppled headstones, digging up my work.  I dig
+offer 'em, they undig 'em.  Three of them and I'll have a week's peace.
+done Old Hobb cackles.  "Peace at last!  They'll stay buried now."
+
+#42002 The Grave Worm
+giver 42010
+level 19
+kill 42008 1
+offer There's a worm in the collapsed gallery as thick as your leg, fat on
+offer what it finds down there.  It's undermining the whole catacomb.  Squash
+offer it.
+done Hobb wipes his shovel.  "Good riddance.  Here, for your trouble."
+
+#42003 The Banshee of the Well
+giver 42006
+level 22
+kill 42007 1
+offer The pale light whispers: in the weeping well there is a banshee who
+offer was once my maid.  Her wailing keeps the dead of this house awake.
+offer Let her rest.
+done The light grows a little brighter, and the wailing far below falls silent.
+
+#42004 The Fiend
+giver 42010
+level 25
+kill 42001 1
+offer There's a fiend in the clearing in the weeping wood, beckoning folk
+offer in.  They don't come out.  I bury what's left.  I'm tired of burying.
+done Hobb sits down heavily.  "No more burying strangers.  Thank you."
+
+#42005 The Tomb of Aurelle
+giver 42006
+level 26
+visit 42028
+offer The pale light flickers: my sister sealed me in my tomb and took the
+offer house.  Find my tomb, beyond the hall of two faces.  Stand in it, so
+offer someone has.
+done The light holds the shape of a young woman for a moment, and smiles.
+
+#42006 Morvane, the Dark Twin
+giver 42006
+level 28
+kill 42000 1
+offer Morvane sits on her black throne in the sanctum, smiling.  She is my
+offer twin.  She will smile until someone stops her.  Stop her.
+done The light flares and steadies.  "It is finished.  House Gemmar can sleep."
+
+; ===================================================================
+; Valley of Fate (zone 430)
+; ===================================================================
+
+#43001 The Thornback Bear
+giver 43004
+level 16
+kill 43006 1
+offer A thornback bear has made its den inside the fallen Zxyer and attacks
+offer anything that comes near.  It is not of this valley.  Drive it out -
+offer the only way it can be driven.
+done Corrin raises his spear in salute.  "The valley is at peace."
+
+#43002 The Boar's Tusk
+giver 43004
+level 14
+fetch 43003 1
+offer The giant boars in the golden orchard have grown too many and too
+offer bold.  Bring me a tusk, so the herd learns respect.
+done Corrin turns the tusk in his hands.  "A fine one.  The herd will remember."
+
+#43003 The Golden Fruit
+giver 43008
+level 8
+fetch 43000 1
+offer The Spinner smiles over her wheel: a golden fruit hangs in the
+offer orchard, ripe this morning and no other.  Bring it to me, and I shall
+offer spin you a little luck.
+done The Spinner takes the fruit, and the mist on her wheel shines gold for a moment.
+
+#43004 The Lost Travellers
+giver 43010
+level 15
+kill 43007 2
+offer The Cutter turns her shears: two shades walk the road of what will
+offer be, looking for a future that was cut long ago.  Help them stop
+offer looking.
+done The Cutter nods.  "Their threads are ended.  As all threads are.  Thank you."
+
+#43005 Behind the Waterfall
+giver 43004
+level 10
+visit 43027
+offer At the head of the valley a waterfall hides a hollow behind it.  The
+offer young of my herd are not allowed there.  You are not of my herd.  Go,
+offer and tell me what you find.
+done Only stone and the sound of water?  Then it keeps its secret still.
+
+#43006 The Pixies' Mischief
+giver 43012
+level 9
+kill 43005 2
+offer The treeherd's voice creaks like old branches: the pixies of the
+offer standing stones tie knots in my leaves for fun.  Two of them, please.
+offer I am very old.
+done The ancient tree sighs, a long, leafy sigh.  Its leaves untangle themselves.
+
+; ===================================================================
+; Arachnos (zone 63)
+; ===================================================================
+
+#6301 Stuck in the Web
+giver 6304
+level 3
+kill 6301 3
+offer Orc stuck!  Orc STUCK!  Little spiders keep floating down and biting
+offer orc.  You kill three little spiders, orc not get eaten today, orc
+offer give you shiny.
+done Orc happy!  Orc still stuck, but orc happy.  Here, shiny.
+
+#6302 The Wolf Spider
+giver 6308
+level 6
+kill 6303 1
+offer The wolf spider in the tree lair takes one of us every night.  The
+offer others say nothing.  I say kill it.  I'll say it quietly.
+done The slave looks round before he speaks.  "Thank you.  Now go, before they see."
+
+#6303 The Queen Wasp
+giver 6311
+level 15
+kill 6305 1
+offer Go back!  Go back before it is too late!  ...Oh, you're still here.
+offer Well, then, if you won't go back, kill the queen in the wasp hive.  Her
+offer brood stings everything.
+done Still alive?  Remarkable.  Go back now.  No?  Then take this.
+
+#6304 Yevaud the Ancient
+giver 6317
+level 25
+kill 6302 1
+offer The elder wormkin speaks slowly: the gold dragon Yevaud eats our
+offer young.  He is ancient and evil.  We are not strong.  You may be.
+done The wormkin bows its whole body.  "The young will grow.  We will remember you."
+
+#6305 The Empress of Spiders
+giver 6308
+level 26
+kill 6314 1
+offer Arachnos, the Empress, sits in her lair at the heart of the web and
+offer we work until we die for her.  If she dies, the web dies.  If the web
+offer dies, we go home.
+done The slaves stop working, one by one.  "Home.  We're going home."
+
+#6306 The Ethereal Web
+giver 6311
+level 12
+visit 6335
+offer There is a web up above the clouds that strings between worlds.  The
+offer ethereal spiders walk it.  Go and see.  Then go back.  Everyone should
+offer go back.
+done You saw the other worlds?  And you came BACK?  Wise.  Very wise.
+
+#6307 The Bird Spider
+giver 6317
+level 14
+kill 6310 1
+offer The bird spider in its lair snaps up our hatchlings when they crawl
+offer too far.  Its jaws are strong.  Be careful, little one.
+done The elder wormkin rumbles with relief.  "Safe.  The crib is safe."
+
+; ===================================================================
+; The Monk's Monastery (zone 64)
+; ===================================================================
+
+#6401 The History Manual
+giver 6402
+level 3
+fetch 6427 1
+offer I am copying the history of the monastery, and the manual I need is
+offer on the short oak shelf in the southern bookshelves.  My knees are bad.
+offer Would you fetch it?
+done Thank you, child.  The monk opens it at once and dips his pen.
+
+#6402 Beer for the Gate
+giver 6417
+level 5 20
+daily
+deliver 6420 96
+offer The Guard of the Monastery stands at the training grounds all day and
+offer never has a drink.  Not right!  Take him this.  Don't tell the Grand
+offer Master.
+done The old guard sniffs the flask and his eyes twinkle.  "Tun-kul.  Of course.  My thanks."
+
+#6403 The Glowing Green Chamber
+giver 6418
+level 8
+visit 6432
+offer Beneath the cellar there is a hole in the wall, and beyond it a
+offer chamber that glows green.  Every student goes there once.  Go, and
+offer come back calmer than you went.
+done Calmer?  A little.  Good.  Now the red.
+
+#6404 The Glowing Red Chamber
+giver 6418
+level 12
+after 6403
+visit 6443
+offer You have seen the green chamber.  Now go further, to the chamber that
+offer glows red.  It is not calm.  That is the lesson.
+done You have seen both.  Calm and fury.  The Grand Master nods.  "Good.  Very good."
+
+#6405 Volume H
+giver 6414
+level 3
+fetch 6438 1
+offer Someone has shelved volume H of the encyclopedia on the tall shelf,
+offer between the maps, where it does not belong.  Find it for me, please.
+offer Order is a discipline.
+done Volume H.  Thank you.  The monk reshelves it with great satisfaction.
+
+#6406 The Edge of the Pit
+giver 6416
+level 10
+visit 6441
+offer In the tunnels below there is a deep, dark pit.  I stood at its edge
+offer for an hour once and learned to be afraid.  Go and stand there.  Then
+offer come back and tell me you're not afraid.  I won't believe you.
+done Not afraid?  Ha!  I don't believe you.  But you went.  That's enough.
+
+; ===================================================================
+; Dragon Spyre (zone 66)
+; ===================================================================
+
+#6601 Wild Pixies
+giver 6608
+level 4
+kill 6602 4
+offer Wild pixies swarm the halls of DragonSpyre and won't bow to the King.
+offer Rebels!  Ruffians!  Four of them, and the King will be pleased.
+done The Pixie Guard snaps a tiny salute.  "His Majesty thanks you!"
+
+#6602 The White Dragon
+giver 6609
+level 20
+kill 6601 1
+offer The White Dragon of Ice has frozen half the King's treasure solid.  I
+offer can't unfreeze it until the dragon's gone.  Would you mind?
+done Hooray!  The ice is melting already.  The Master Pixie Mage showers you in sparks.
+
+#6603 The Copper Dragon of Time
+giver 6609
+level 20
+kill 6600 1
+offer The Copper Dragon of Time keeps making Tuesday happen twice.  We've
+offer had eleven Tuesdays this week.  Please.
+done Wednesday!  At last!  Thank you, thank you.
+
+#6604 The GateKeeper
+giver 6608
+level 10
+kill 6606 1
+offer The GateKeeper looks right through us pixies and won't open the gate
+offer for anyone.  Even the King!  Get his key off him, the hard way.
+done The gate is open!  The King can go for his walk.  Bless you.
+
+#6605 The Spirit of the Ice Dragon
+giver 6607
+level 30
+kill 6604 1
+offer The Eternity Dragon's voice is like the turning of ages: the spirit
+offer of the Ice Dragon will not rest.  It guards a treasure it can no longer
+offer use.  Release it.
+done The Eternity Dragon closes its eyes for a moment.  "It rests.  Thank you, mortal."
+
+#6606 The Spirit of the Time Dragon
+giver 6607
+level 30
+kill 6603 1
+offer The spirit of the Time Dragon lingers in its treasure room,
+offer unravelling the hours.  Even eternity grows weary of it.  End it.
+done Time flows straight again.  The Eternity Dragon is silent, and that is thanks enough.
+
+#6607 The Ledge on the Mountain
+giver 6609
+level 4
+visit 6608
+offer There's a ledge on the mountain outside where you can see the whole
+offer forest.  I used to fly up there, before the King made me Master Mage
+offer and too busy.  Go and look for me?
+done Still beautiful?  Sigh.  One day I'll have a holiday.
+
+; ===================================================================
+; The Tomb of Haqim-Taar (zone 45)
+; ===================================================================
+
+#4501 The Monument of Stones
+giver 4500
+level 5
+visit 4504
+offer The Silver Legion was sent to guard the tomb of Haqim-Taar, and none
+offer of us remember where it lies.  There is a monument of stones on the
+offer trail through the hills.  Find it.  It may be a marker.
+done A monument, but no tomb.  Still, a marker is a start.  My thanks.
+
+#4502 The Chamber Beneath the Hills
+giver 4500
+level 8
+visit 4505
+offer Beneath the hills, the old maps say, there is a chamber.  A chamber
+offer beneath hills is how a tomb begins.  Go and look.
+done Empty?  Then it lies deeper yet.  The knight brushes dust from his armour.
+
+#4503 The Tunnels Beneath the Hills
+giver 4500
+level 10
+visit 4524
+offer There are tunnels at the base of the hills that go down into the
+offer dark.  The Legion would go, but we are sworn to stand at this pass.
+offer You are sworn to nothing.  Go.
+done Down and down, and no end to it.  Haqim-Taar hid himself well.
+
+#4504 Word to the Knightmaster
+giver 4500
+level 6
+deliver 5018 93
+offer We have stood at this pass so long the dust has settled on us.  Take
+offer this to the Knightmaster of Cair-Irynthar, and ask him if the Legion
+offer has been forgotten.
+done The Knightmaster reads the letter and frowns.  "The Silver Legion...  still at the pass?  Gods."
+
+; ===================================================================
+; The Hills of Nord (zone 21)
+; ===================================================================
+
+#2101 The Map of the Nordplains
+giver 2100
+level 1
+visit 2100
+offer My father carved a map of the Nordplains on a board just off the
+offer main road, for travellers.  My eyes aren't what they were.  Go and
+offer read it, and tell me if the weather's worn it away.
+done Still legible?  Every hut and hollow, as he drew them.  Thank you.
+
+#2102 The Edge of the Woods
+giver 2100
+level 2
+visit 2141
+offer Two of my cows wandered off toward the woods at the fringe of the
+offer plains.  I don't go in the woods.  Go to the edge and see if they're
+offer grazing there.
+done Not there?  Then they'll come home when they're hungry.  Cows do.
+
+#2103 The Small Mound
+giver 2100
+level 2
+visit 2127
+offer There's a mound by the road that the old folk say is a barrow, with
+offer a chief in it.  The children dare each other to touch it.  Go and see
+offer that nobody's been digging.
+done Untouched?  Good.  Leave the old chiefs sleep, I say.
+
+#2104 Seed for the Mountain Farms
+giver 2100
+level 3
+deliver 11004 94
+offer The farmer's wife at Three of Swords trades her mountain seed for my
+offer plains barley, and it's her turn to get the barley.  Take it up the
+offer mountain for me.
+done The farmer's wife opens the sack and sniffs.  "Nord barley!  Tell him the seed's on its way."
+
+; ===================================================================
+; The Dark Tower (zone 25)
+; ===================================================================
+
+#2501 The Library of the Priests
+giver 2500
+level 5
+visit 2504
+offer The Bloodlord welcomes the curious.  The library of his priests is
+offer open to you, today.  Go and stand among the books, and feel what they
+offer whisper.
+done The acolyte smiles thinly.  "You felt it.  They always do.  Come back soon."
+
+#2502 The Temple of the Bloodlord
+giver 2500
+level 8
+visit 2500
+offer At the heart of the tower is the temple of the Bloodlord himself.  No
+offer harm will come to you there.  Probably.  Go and kneel.
+done You knelt?  Then he has seen you.  That is a gift, or a debt.
+
+#2503 A Letter for the Mistress
+giver 2500
+level 10
+deliver 5017 93
+offer The Mistress of Assassins in Cair-Irynthar has an understanding with
+offer the Bloodlord.  Carry this to her.  Do not open it.  We would know.
+done The Mistress reads the letter and it crumbles to ash in her hand.  "Tell them yes."
+
+#2504 A Rival Faith
+giver 2500
+level 20
+kill 10013 1
+offer Beneath Charing Cross the Overlords of Darkshade grin in their
+offer corridors and call their god greater than ours.  Show one of them the
+offer error of his ways.
+done The acolyte's smile widens.  "The Bloodlord is pleased.  Take this, with his blessing."
+
+; ===================================================================
+; The Hills and the Mines of Moria (zone 40)
+; ===================================================================
+
+#4001 The Large Cave
+giver 4000
+level 4
+visit 4016
+offer There's a large cave in the mines that my grandfather swore had a
+offer seam of silver running through it.  Go and look at the walls.  If they
+offer glitter, run back and tell me.
+done No glitter?  Grandfather was a liar, then.  Always suspected.
+
+#4002 The Lion's Den
+giver 4000
+level 6
+visit 4041
+offer Somewhere in these hills there's a den where a lion used to sleep on
+offer a pile of the bones of prospectors.  I need to know if it's empty
+offer before I dig there.
+done Empty?  Then I dig tomorrow.  Here, for your nerve.
+
+#4003 The Hill Giant's Cave
+giver 4000
+level 8
+visit 4044
+offer A hill giant lived in a cave in the foothills, and giants hoard.
+offer Find the cave.  If the giant's gone, we'll split whatever's left.
+offer Fair's fair.
+done Nothing but bones and a bad smell?  Ah, well.  Here's your half of nothing, plus a bit.
+
+#4004 The Black Glass Road
+giver 4000
+level 5
+visit 4037
+offer There's a road made of black glass at the base of the mountain.  Who
+offer makes a road of glass?  Walk it, and tell me if it's real.
+done Real glass, solid as stone?  Dwarven work, that.  Very old dwarven work.
+
+#4005 Samples for Bryn Mawr
+giver 4000
+level 5
+deliver 8005 95
+offer These are my best samples.  Take them to Grem Trimbleshield, the smith
+offer of Bryn Mawr.  If he says they're worth smelting, my fortune's made.
+done Grem tips the stones out and grunts.  "Worth smelting.  Tell him to keep digging."
+
+; ===================================================================
+; The Wastelands (zone 81)
+; ===================================================================
+
+#8101 The Black Goblins
+giver 19018
+level 28
+kill 5850 2
+offer The keeper of the Torch speaks in a dry whisper: black goblins crawl
+offer out of the wasteland at dusk.  The torch keeps them back, but not
+offer forever.  Two of them.
+done Two fewer in the dark.  The torch burns a little brighter.
+
+#8102 The Darkenguard
+giver 19018
+level 25
+kill 1114 2
+offer Darkenguards walk the wasteland, flaying all they meet.  They are
+offer what this land makes of men.  Two of them, so they make no more.
+done The keeper bows his hooded head.  "So.  Fewer flayers."
+
+#8103 The End of the Mountain Path
+giver 19018
+level 25
+visit 8120
+offer Beyond the wasteland a steep path climbs into the mountains.  None who
+offer took it have come back to tell me where it ends.  Be the first.
+done It ends?  Truly?  Then there is a way out of the waste.  Thank you.
+
+#8104 A Warning to the Caravans
+giver 19018
+level 25
+deliver 41005 93
+offer The darkenguards walk beyond the wasteland now, into the red desert.
+offer The caravans must know.  Take this to the caravan master on the toll
+offer road.
+done The caravan master reads it and pales.  "Here, too?  Gods.  I'll double the guard."
+
+; ===================================================================
+; Rhaylinne Tower (zone 117)
+; ===================================================================
+
+#11701 The Grand Hallway
+giver 11700
+level 8
+visit 11704
+offer I've drawn the outside of the tower forty times.  I need the inside.
+offer Go in as far as the grand hallway and tell me how the vaulting runs.
+done Ribbed, you say?  Ribbed!  I knew it.  My drawing is perfect.  Here.
+
+#11702 The Storeroom
+giver 11700
+level 10
+visit 11731
+offer There's a storeroom somewhere inside, according to an old floor plan.
+offer Find it.  If there are papers in it, don't touch them, just remember.
+done Empty shelves?  Pity.  Still, now I know.  Thank you.
+
+#11703 The Western Hallway
+giver 11700
+level 10
+visit 11716
+offer The floor plan shows a western hallway that runs off the corner.  Walk
+offer it and count your steps.  I need the length.
+done Forty paces?  Excellent.  You've a scholar's patience.
+
+#11704 A Letter for the Hermit
+giver 11700
+level 10
+deliver 10600 93
+offer The hermit on Rhaylinne's Peak was the tower's last librarian, they
+offer say.  Take him my letter and my questions.  It's a long climb.  Sorry.
+done The hermit reads the letter twice and laughs.  "Tell the boy the answer is in the storeroom."
+
+; ===================================================================
+; The Labyrinth (zone 330)
+; ===================================================================
+
+#33001 The Carousel Room
+giver 33000
+level 5
+visit 33002
+offer I have been drawing this labyrinth for a month and I've lost the way
+offer out.  There's a room that turns like a carousel; find it and come
+offer back, and I'll know which way is which.
+done Turning?  Then my map is upside down.  Of course!  Thank you!
+
+#33002 The Red Labyrinth
+giver 33000
+level 6
+visit 33010
+offer There's more than one labyrinth here: the black, and one that's red.
+offer Find the foyer of the red, and tell me how you got there.
+done That way?  Really?  I'd never have guessed.  Here, take this.
+
+#33003 The Green Labyrinth
+giver 33000
+level 8
+visit 33035
+offer And a green one!  Somewhere beyond the red.  If you can find the green
+offer labyrinth, my map is complete.  Well, more complete.
+done Green, too.  Black, red and green.  Somebody built this for fun.  Horrible fun.
+
+#33004 The Chamber of Color
+giver 33000
+level 8
+visit 33032
+offer All three labyrinths meet, I'm sure of it, in a chamber of many
+offer colours.  Find it, and I'll draw it in the middle of the map, in gold.
+done The middle of the map!  In gold!  You've made an old mapmaker very happy.
+
+#33005 A Map for Mybius
+giver 33000
+level 5
+deliver 3068 93
+offer Take my map to Mybius in Elrhinn.  He'll say it's all wrong.  It
+offer probably is.  But he'll pay for it anyway.  He always does.
+done Mybius unrolls the map, frowns, and mutters about worms.  "All wrong.  I'll buy it."
+
+; ===================================================================
+; Thallin Plains (zone 352)
+; ===================================================================
+
+#35201 Bucks on the Plains
+giver 35200
+level 3
+kill 5671 2
+offer Gnishmire wants venison for the harvest feast, and the bucks are the
+offer best eating.  Two of them.  Clean shots, mind.
+done Two fine bucks.  The feast is saved.  Here's your share.
+
+#35202 Rabbits in the Grass
+giver 35200
+level 1
+kill 5672 3
+offer Rabbits are digging up the grain fields at the edge of the plains.
+offer Three of them.  Quick, they're quicker than you think.
+done Three rabbits.  Stew tonight.  Here, take this.
+
+#35203 The Path to the Monastery
+giver 35200
+level 2
+visit 35249
+offer There's a path across the plains toward the monks' monastery that's
+offer gone to grass.  Walk it, and tell me if it can still be followed.
+done Still there, under the grass.  Good.  The monks will be glad.
+
+#35204 Venison for the Bakery
+giver 35200
+level 2 20
+daily
+deliver 35010 94
+offer Herrik the baker makes venison pies with my game, and he pays well,
+offer but he won't walk out to the plains.  Take him today's.
+done Herrik pats the parcel.  "Pie tonight!  Tell the hunter I'll have the coin ready."
+
+; ===================================================================
+; Gnishmire Forests (zone 353)
+; ===================================================================
+
+#35301 The Limla Cliffs
+giver 35300
+level 3
+visit 35301
+offer The Limla cliffs are crumbling into the lake, a bit more every
+offer spring.  Go and see how much is left, and mind the edge.
+done Less than last year, more than next.  I'll write it down.  Thank you.
+
+#35302 Deep in Spiddel Forest
+giver 35300
+level 5
+visit 35324
+offer There's a part of Spiddel forest so deep the light goes green.  I
+offer need to know if the old oaks there are still standing.  Go and see.
+done Still standing?  Wonderful.  They're older than Gnishmire, those oaks.
+
+#35303 The Creekbed
+giver 35300
+level 2
+visit 35302
+offer The creek has been running low.  Walk down the creekbed and tell me if
+offer anything's damming it.  Beavers, probably.  It's always beavers.
+done Nothing?  Then it's the dry summer.  Not beavers.  Hm.  Thank you.
+
+#35304 Samples for Trosh
+giver 35300
+level 3
+deliver 35002 95
+offer Trosh at the House of Science wants soil from the forest floor for
+offer one of his experiments.  Don't ask me what.  Take him this.
+done Trosh pours the soil into a bubbling flask.  "Perfect!  Stand back.  Further."
+
+$

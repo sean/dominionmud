@@ -1,0 +1,14 @@
+#5500
+shepherd old man~
+an old shepherd~
+An old shepherd leans on his crook here, watching the hills.
+~
+A weathered old man in a patched cloak, with a crook worn smooth by his
+hands.  His flock grazes somewhere over the next rise.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
+$~

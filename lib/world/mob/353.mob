@@ -1,0 +1,14 @@
+#35300
+forester gnome gnomish~
+a gnomish forester~
+A gnomish forester in a green hood is measuring a tree with a knotted string.
+~
+A gnome in a green hood and a leather apron full of pencils, pins and
+little bags of seeds.  She keeps the forests of Gnishmire.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
+$~

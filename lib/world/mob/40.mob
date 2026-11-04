@@ -1,0 +1,14 @@
+#4000
+prospector dwarf dwarven~
+a dwarven prospector~
+A dwarven prospector sits on a rock here, sorting stones into little piles.
+~
+A grizzled dwarf with a pick across his back and a magnifying glass on a
+string.  Every stone he picks up gets a long, hard look.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
+$~

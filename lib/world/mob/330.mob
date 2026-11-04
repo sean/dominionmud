@@ -1,0 +1,14 @@
+#33000
+cartographer lost~
+a lost cartographer~
+A lost cartographer sits here, turning a map round and round.
+~
+A cartographer in a dusty coat, surrounded by crumpled maps of the
+labyrinth.  None of them agree with each other.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
+$~

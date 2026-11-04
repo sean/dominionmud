@@ -254,7 +254,10 @@ wizlist		immlist		news		credits
 motd		imotd		help		info
 policy		handbook	background	xhelp
 wizhelp		exp		attr		races
-religions	routines
+religions	routines	quests
+
+RELOAD QUESTS rereads lib/data/quests.  Quests a character has on that are
+no longer in the file are dropped the next time he uses QUEST.
 
 RELOAD ROUTINES rereads lib/data/routines, the NPC daily timetables, and
 puts every NPC back on its routine.  Bad lines are logged as SYSERRs.
@@ -409,6 +412,9 @@ of valid modes.
 SHOW ROUTINES lists every NPC in the game with a daily routine: where it is,
 where it should be at this hour, and whether it has settled, is on its way,
 is asleep or is stuck.  STAT on such an NPC shows the same.
+
+SHOW QUESTS [zone] lists the quests in lib/data/quests (all of them, or one
+zone's): number, title, level, kind and objective.
 
 #
 SHUTDOWN

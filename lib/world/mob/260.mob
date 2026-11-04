@@ -366,4 +366,17 @@ bdfg dhk -1000 E
 BareHandAttack: 16
 Race: 28
 E
+#26025
+scout elven ragged elf~
+a ragged elven scout~
+A ragged elven scout crouches among the ashen foothills, watching the gates.
+~
+An elf in a grey cloak gone black with ash, a bow across her back.  Her
+eyes never leave the gates of Thangorodrim.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
 $~

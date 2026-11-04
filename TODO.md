@@ -38,10 +38,13 @@ already has.
   step out into it; the shops, pubs and temples of Mytherandil, Gnishmire, the toll road and the
   Traveller's Tradepost were flagged INDOORS so their keepers count as under cover. Note that hunger and thirst are switched off game-wide (`gain_condition()` in `limits.c`
   sets every condition to -1), which is why heat works through water carried rather than thirst.
-- **Mobprogs that hand out quests.** There is a `quest` toggle but no quests. A small quest board (or an
-  NPC like Master Oldric) could hand out kill, fetch and escort tasks drawn from a data file, with the
-  reward and a timer, so the long tail of finished zones gets visited. Daily quests for each town would
-  give players a reason to log in.
+* **Quests handed out by NPCs.** Done (Nov 2026): `quest.c` and `lib/data/quests` give 286 quests, 4-8
+  in every zone in the world (Immortal Paradise and the one-room Ganin's Zone aside), written to suit
+  each zone: kill, fetch, visit and deliver quests, generous rewards worked out from the quest's level,
+  daily errands in the towns, chains (Master Oldric's Academy lessons, the Monastery's two chambers).
+  Progress is saved in the character's record in the account file. Zones with no mobiles got a quest
+  giver (an old shepherd, a ferryman, a lost cartographer...), and the Eastern Plains village, built but
+  never loaded, now resets. Still to do: escort quests and timed quests.
 - **More puzzles, and a puzzle log.** The `pz_*` puzzles (Ancalador, Mytherandil, Ganin's World, House
   Gemmar, the Valley of Fate...) are the most distinctive content in the game, but nothing records which
   ones a player has solved. A `lore` command listing the puzzles and lore fragments found so far (stored

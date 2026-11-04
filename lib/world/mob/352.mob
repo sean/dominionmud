@@ -1,0 +1,14 @@
+#35200
+hunter plains~
+a plains hunter~
+A plains hunter crouches in the grass here, watching the deer.
+~
+A lean gnome in buckskins with a short bow and a quiver of fletched
+reeds.  She moves through the grass without a sound.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
+$~

@@ -222,6 +222,7 @@ int main(int argc, char **argv)
     parse_religions();
     boot_world();
     load_routines();            /* checks lib/data/routines */
+    load_quests();              /* and lib/data/quests */
     load_floods();              /* and lib/data/floods */
     load_ice();                 /* and lib/data/ice */
     weather_init_climates();    /* and lib/data/climates */

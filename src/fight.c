@@ -530,6 +530,7 @@ void die(struct char_data * ch, struct char_data * killer)
   } if (MOUNTED(ch))
     Dismount(MOUNTED(ch), RIDDEN(ch), POS_SITTING);
 
+  quest_kill(ch, killer);               /* quest.c: kill quests */
   raw_kill(ch, killer);
 }
 

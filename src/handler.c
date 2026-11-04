@@ -553,6 +553,8 @@ void char_to_room(struct char_data * ch, long room)
   }
   if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_INFOBAR))
     do_infobar(ch, 0, 0, SCMDB_NEWROOM);
+  if (!IS_NPC(ch) && ch->in_room != NOWHERE)
+    quest_arrive(ch);                   /* quest.c: visit quests */
 
   check_falling(ch);
 }

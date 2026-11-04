@@ -24,7 +24,7 @@ OBJFILES = comm.o act_comm.o act_info.o act_item.o act_move.o \
 	ban.o boards.o castle.o config.o constant.o creation.o db.o \
 	fight.o guild.o graph.o handler.o house.o interpre.o \
 	limits.o magic.o mail.o mobact.o mobcmd.o mobprog.o \
-	modify.o objsave.o olc.o password.o race.o random.o religion.o routine.o save.o pfile.o account.o \
+	modify.o objsave.o olc.o password.o race.o random.o religion.o quest.o routine.o save.o pfile.o account.o \
 	shop.o spec_ass.o spec_pro.o spell_pa.o spells.o utils.o \
 	weather.o
 

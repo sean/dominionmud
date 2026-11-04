@@ -2199,16 +2199,32 @@ Quaff is used to "drink" a (magical) potion.
 
 See Also: -
 #
-QUEST
+QUEST QUESTS QUEST-LOG QUEST-CHANNEL
 
-This simple toggle command merely informs the Powers that Be that you
-wish to participate in the currently running Quest.  If an immortal
-is running a Quest and needs to know who wishes to participate, he/she
-will ask players to turn on their Quest flags using this QUEST command
-if they are interested in the Quest.  It also allows you to listen in on
-the quest channel and receive information specific to the quest.
+Usage: quest [list | log | info <n> | accept <n> | complete | abandon <n> |
+              channel]
 
-> quest
+All over the world, people want things done: a shopkeeper needs a parcel
+carried across town, a hermit wants to know what lies inside a mountain, a
+captive gnome wants his compass back.  When someone with work for you is
+in the room as you walk in, they catch your eye.
+
+  QUEST              near someone with work: the quests they offer you.
+                     Anywhere else: your own quests (QUEST LOG).
+  QUEST INFO <n>     hear what it's about, and what it pays.
+  QUEST ACCEPT <n>   take it on.  You can have five quests at a time.
+  QUEST COMPLETE     hand in finished quests to whoever gave them.
+  QUEST ABANDON <n>  give one up (the number from QUEST LOG).
+  QUEST CHANNEL      toggles the immortals' quest channel (see QSAY).
+
+You may name a quest by a word of its title instead of its number, as in
+QUEST ACCEPT KOBOLDS.  Quests ask you to slay something (your group gets
+the credit too), to bring something back (give it to the person who asked,
+or use QUEST COMPLETE), to find a place, or to carry a letter or parcel to
+someone and give it to them.  If you lose the parcel, ask again for
+another.  The reward is gold and experience; the experience is worth less
+once you have outgrown the quest.  Most quests can be done once, but small
+errands in the towns can be done again each day.
 
 See also:  QSAY
 #

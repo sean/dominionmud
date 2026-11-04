@@ -73,6 +73,8 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   spec_pro.c, spec_ass.c   SPECIAL() procedures and their assignment
   shop.c, house.c, mail.c, boards.c, ban.c, weather.c, graph.c, alias.c, modify.c ...
   castle.c          SPECIAL()s for the Castle of Llyndyr (zone 383): the Emperor's daily routine and his household
+  quest.c           quests handed out by NPCs, from lib/data/quests (see §6); hooks in fight.c die(),
+                    act_item.c perform_give(), act_move.c and handler.c char_to_room()
   routine.c         NPC daily routines from lib/data/routines (see §6); hooks in mobact.c and weather.c
   opinion.c         NOT compiled (not in OBJFILES); dead code
   Makefile.{amiga,arc,bcc,bcc55,lcc,msvc,os2}, Smakefile, conf.h.{amiga,arc,mac,os2,vms,win}  Legacy ports; untested
@@ -80,7 +82,7 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
                     `make utils`); wld2html and others aren't built
                     worldmap*.py: Python tool that draws the illustrated world map (see below)
 lib/                Runtime data directory (server chdir()s here)
-  data/             races, religions, guilds, exp_table, attributes, routines (text, self-documenting headers); spells (empty)
+  data/             races, religions, guilds, exp_table, attributes, routines, quests, floods, ice, climates (text, self-documenting headers); spells (empty)
   world/{wld,mob,obj,zon,shp}/   CircleMUD-format world files; `index` lists files loaded; `index.mini` for -m
   prog/             MOBprogram files (*.prg), referenced from .mob files via `>in_file_prog name.prg~`
   text/             motd, news, credits, help/help.hlp, help/wizhelp.hlp ...
@@ -264,6 +266,19 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
   scrambles to the nearest shore. Heat: a mortal outdoors at 36 degrees or more drinks a unit an hour
   from any drink container he carries, and with none suffers like the cold (`feels_hot()`); hunger and
   thirst themselves are switched off in `gain_condition()`.
+- `lib/data/quests`: 286 quests (`quest.c`; format in the file's header), numbered in their zone's
+  range, 4-8 per zone. Each names a giver mob, a level, an objective (`kill <mob> <n>`, `fetch <obj> <n>`,
+  `visit <room>`, `deliver <mob> <obj>`; the parcels are objs 93-96 in obj/0.obj) and the giver's lines;
+  `daily` and `after <quest>` are optional. With no `reward` line, `default_reward()` sets gold from the
+  level and experience in "kills' worth" (5-10 at the player's own level, 3 for daily errands; halved
+  for every 5 levels a player is past the quest's max). A character's quests are saved in his account
+  record as `QuestActive <vnum> <count> <taken>` and `QuestDone <vnum> <when>` lines
+  (`player_special_data_saved.quests`). `bin/dominion -c` checks every giver, target, object and room;
+  `show quests [zone]` and `reload quests` for immortals. When adding quests, check the giver is loaded
+  by a reset and not aggressive, kill targets are loaded at least as many times as asked, and fetch
+  objects are loaded and can be taken. Quest givers were added to the zones with no mobiles (mob files
+  21, 25, 40, 55, 117, 330, 352, 353 are new; 3912 in zone 39 and 26025 in zone 260), and zones 45 and
+  280 now reset mobiles that had been built but never loaded.
 - `lib/data/routines`: daily timetables for town NPCs (`routine.c`; format in the file's header). Each
   `#<mob vnum>` block lists where the mob should be from each hour on (`<hour> go <room> [sit|rest|sleep]`),
   lines on arriving or leaving, lines on the hour, and idle chatter. Mobs walk there one room per mobile

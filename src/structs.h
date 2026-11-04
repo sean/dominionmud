@@ -1403,6 +1403,27 @@ struct char_special_data {
  * in your new code.  They will automatically be transferred from the
  * playerfile into memory when players log in.
  */
+/* Quests (quest.c, lib/data/quests): what a character is doing and has done. */
+#define MAX_ACTIVE_QUESTS  5
+#define MAX_QUESTS_DONE    600
+
+struct quest_active {
+   int    vnum;                    /* 0 = empty slot                        */
+   int    count;                   /* kills made, items handed over, ...    */
+   time_t taken;
+};
+
+struct quest_done {
+   int    vnum;
+   time_t when;                    /* last time it was done (daily quests)  */
+};
+
+struct quest_saved {
+   struct quest_active active[MAX_ACTIVE_QUESTS];
+   int    num_done;
+   struct quest_done done[MAX_QUESTS_DONE];
+};
+
 struct player_special_data_saved {
    byte     skills[MAX_SKILLS+1];  /* array of skills plus skill 0          */
    byte     curr_lang;             /* used to be spells_to_learn            */
@@ -1449,6 +1470,8 @@ struct player_special_data_saved {
    suprlong spare23;
    suprlong spare24;
    suprlong spare25;
+
+   struct quest_saved quests;      /* quest.c; "Quest..." lines in pfile.c  */
 };
 
 /*

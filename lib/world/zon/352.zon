@@ -19,5 +19,6 @@ M 0 5672 10 35234 100 	* the rabbit at Thallin Plains. (Max: 10)
 M 0 5671 10 35243 100 	* the buck at Thallin Plains. (Max: 10)
 M 0 5670 10 35241 100 	* the doe at Thallin Plains. (Max: 10)
 M 0 5672 10 35246 100 	* the rabbit at Before the Plains. (Max: 10)
+M 0 35200 1 35246 100 	* a plains hunter at room 35246 (quest giver). (Max: 1)
 S
 $~

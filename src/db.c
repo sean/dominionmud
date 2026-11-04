@@ -233,6 +233,8 @@ ACMD(do_reboot)
     parse_religions( );
   else if (!str_cmp(arg, "routines"))
     load_routines( );
+  else if (!str_cmp(arg, "quests"))
+    load_quests( );
   else if (!str_cmp(arg, "xhelp")) {
 #ifdef OLD_HELP
     if (help_fl)
@@ -304,6 +306,7 @@ ACMD(do_reboot)
                   "\t\traces      - Reload the Races\r\n"
                   "\t\treligions  - Reload the Religions\r\n"
                   "\t\troutines   - Reload the NPC Daily Routines\r\n"
+                  "\t\tquests     - Reload the Quests\r\n"
                   "\t\txhelp      - Reload the Extra Help\r\n"
                   "\t\twizhelp    - Reload the WizHelp\r\n", ch);
     return;
@@ -411,6 +414,8 @@ void boot_db(void)
     assign_the_shopkeepers();
     log("   NPC routines.");
     load_routines();
+    log("   Quests.");
+    load_quests();
     log("   Objects.");
     assign_objects();
     log("   Rooms.");

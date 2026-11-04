@@ -100,6 +100,7 @@ ACMD(do_gen_comm);
 ACMD(do_gen_door);
 ACMD(do_gen_ps);
 ACMD(do_gen_tog);
+ACMD(do_quest);
 ACMD(do_gen_write);
 ACMD(do_get);
 ACMD(do_give);
@@ -600,7 +601,7 @@ const struct command_info cmd_info[] = {
 
   { "quaff"    , POS_RESTING , do_use      , 0, SCMD_QUAFF },
   { "qecho"    , POS_DEAD    , do_qcomm    , LVL_IMMORT, SCMD_QECHO },
-  { "quest"    , POS_DEAD    , do_gen_tog  , 0, SCMD_QUEST },
+  { "quest"    , POS_DEAD    , do_quest    , 0, 0 },
   { "qui"      , POS_DEAD    , do_quit     , 0, 0 },
   { "quit"     , POS_DEAD    , do_quit     , 0, 0 },
   { "quit!"    , POS_DEAD    , do_quit     , 0, SCMD_QUIT },

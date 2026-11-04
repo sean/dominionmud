@@ -1,0 +1,14 @@
+#11700
+scholar rhaylinne~
+a scholar of Rhaylinne~
+A scholar in ink-stained robes stands on the road, sketching the tower.
+~
+A thin scholar with spectacles and a satchel bursting with paper.  He has
+been drawing the tower for weeks and has never dared go inside.
+~
+bdgl 0 500 E
+20 5 0 20d20+200 2d6+4
+0 0
+8 8 1
+E
+$~
