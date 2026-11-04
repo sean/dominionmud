@@ -1,0 +1,32 @@
+; Exits that flood (read by src/weather.c at boot).
+;
+; One exit per line: <room vnum> <direction>.  The exit back the other way
+; floods too, if there is one.  Lines starting with ';' are comments, and
+; the file ends with '$'.
+;
+; A zone's rivers rise during spring rain (+1 an hour for rain, +2 for a
+; downpour, +3 for a thunderstorm or tornado, -1 for any other spring
+; weather, -2 an hour outside spring).  At level 6 of 12 the zone floods
+; and these exits close to everyone but immortals until the level falls
+; back to 2.  Players in the rooms are told when the water rises and falls,
+; 'weather' says when the local rivers are in flood, and NPC routines walk
+; around flooded exits.
+
+; Valley of Fate (430): the ford across the brook
+43007 east
+43024 north
+
+; Spiddel Forest (353): the creekbed below the Limla Cliffs
+35301 east
+35311 south
+35315 north
+35317 north
+
+; Chree'zen forest (56): the small creek
+5605 west
+5607 south
+5612 north
+
+; River Island of Peringuard (39): launching onto the Widmans from the bank
+3901 east
+$

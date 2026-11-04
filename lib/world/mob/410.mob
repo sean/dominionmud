@@ -62,4 +62,34 @@ d 0 0 S
 12 9 71 10d3+28 1d7+6
 500 8000
 8 8 1
+#41005
+caravan master trader~
+the caravan master~
+A sunburnt caravan master is here, shouting at his drivers.
+~
+A leathery man in a sand-coloured robe and a wide straw hat, with a
+voice worn hoarse by years of shouting over the wind.  He has crossed
+the red desert more times than he can count, and he still does not like
+it.
+~
+dn 0 0 E
+14 31 28 12d10+150 2d6+4
+120 12000
+8 8 1
+Race: 0
+E
+#41006
+keeper toll tollkeeper~
+the toll keeper~
+The toll keeper sits behind the toll gate with a strongbox.
+~
+A thin, sharp-nosed man with ink-stained fingers and a ledger.  He
+counts every coin twice and smiles at none of them.
+~
+dn 0 0 E
+10 23 20 10d10+80 1d6+2
+200 5000
+8 8 1
+Race: 0
+E
 $~

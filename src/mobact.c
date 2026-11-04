@@ -70,6 +70,9 @@ void mobile_activity(void)
 	   continue;             /* go to next char */
        }
      }
+     /* daily routines (routine.c): walking somewhere uses up the turn */
+     if (ch->mob_specials.routine && routine_pulse(ch))
+       continue;
      /* rand_progs for mobs */
      if (!is_empty(world[ch->in_room].zone))
        mprog_random_trigger(ch);
@@ -140,7 +143,9 @@ void mobile_activity(void)
      } /* End of scavengers */
      /* Mob Movement */
      if (!MOB_FLAGGED(ch, MOB_SENTINEL) && (GET_POS(ch) == POS_STANDING) &&
+	 !(ch->mob_specials.routine && routine_keeps_place(ch)) &&
 	 ((door = number(0, 18)) < NUM_OF_DIRS) && CAN_GO(ch, door) &&
+	 !routine_shuns_weather(ch, EXIT(ch, door)->to_room) &&
          !IS_AFFECTED(ch, AFF_CHARM) &&
 	 !ROOM_FLAGGED(EXIT(ch, door)->to_room, ROOM_NOMOB | ROOM_DEATH) &&
 	 (!MOB_FLAGGED(ch, MOB_STAY_ZONE) ||

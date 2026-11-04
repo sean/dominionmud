@@ -33,5 +33,7 @@ M 0 41001 20 41032 	* a dark, hooded warrior at The red desert. (Max: 20)
 E 1 5413 20 17 			* And equip it with a scimitar. (Max: 20)
 M 0 41000 4 41145 	* the toll guard at Elrhi-Mytheran Gate House. (Max: 4)
 M 0 41000 4 41159 	* the toll guard at The Elrhi-Mytheran Toll House. (Max: 4)
+M 0 41005 1 41145 100 	* the caravan master at Elrhi-Mytheran Gate House. (Max: 1)
+M 0 41006 1 41159 100 	* the toll keeper at The Elrhi-Mytheran Toll House. (Max: 1)
 S
 $~

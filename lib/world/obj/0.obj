@@ -365,6 +365,19 @@ A
 13 -24
 A
 1 -100
+#32
+sign closed shop~
+a CLOSED sign~
+A sign on the counter reads: CLOSED.~
+~
+12 d 0
+0 0 0 0 0 0 0 10 14
+1 0 0
+E
+sign closed shop~
+CLOSED.  The shopkeeper has gone for the day.  Please come back in the
+morning.
+~
 #33
 spectacles true sight~
 Spectacles of True Sight~
@@ -704,6 +717,78 @@ A soft leather boot has been discarded here.~
 1 1400 175
 A
 14 20
+#70
+trout brown fish small~
+a small brown trout~
+A small brown trout lies here, still glistening.~
+~
+19 0 a
+8 0 0 0 0 0 0 0 14
+1 6 0
+#71
+perch silver fish fat~
+a fat silver perch~
+A fat silver perch lies here.~
+~
+19 0 a
+10 0 0 0 0 0 0 0 14
+2 8 0
+#72
+eel river slippery~
+a slippery river eel~
+A long, slippery eel lies coiled here.~
+~
+19 0 a
+12 0 0 0 0 0 0 0 14
+2 12 0
+#73
+boot old soggy~
+an old soggy boot~
+An old boot, full of pond water, lies here.~
+~
+13 0 a
+0 0 0 0 0 0 0 8 14
+2 0 0
+#74
+berries wild handful~
+a handful of wild berries~
+A handful of wild berries lies here.~
+~
+19 0 a
+4 0 0 0 0 0 0 0 14
+1 2 0
+#75
+greens wild bunch herbs~
+a bunch of wild greens~
+A bunch of wild greens and herbs lies here.~
+~
+19 0 a
+3 0 0 0 0 0 0 0 14
+1 2 0
+#76
+hazelnuts nuts handful~
+a handful of hazelnuts~
+A handful of hazelnuts lies here.~
+~
+19 0 a
+5 0 0 0 0 0 0 0 14
+1 3 0
+#77
+mushrooms wild cluster~
+a cluster of wild mushrooms~
+A cluster of wild mushrooms lies here.~
+~
+19 0 a
+5 0 0 0 0 0 0 0 14
+1 3 0
+#78
+root wild knobbly tuber~
+a knobbly wild root~
+A knobbly wild root, still covered in earth, lies here.~
+~
+19 0 a
+4 0 0 0 0 0 0 0 14
+1 1 0
 #79
 staff green black istolan~
 the Staff of Istolan~
@@ -874,6 +959,14 @@ A
 18 3
 A
 19 3
+#89
+apple wild sweet~
+a sweet wild apple~
+A small, sweet wild apple lies here.~
+~
+19 0 a
+4 0 0 0 0 0 0 0 14
+1 2 0
 #90
 mace newbie standard default~
 a small spiked mace~
@@ -882,6 +975,27 @@ A spiked iron ball rests atop a shaft of pine here.~
 5 0 am
 0 2 4 5 0 0 0 0 14
 4 150 1
+#91
+pole fishing rod~
+a fishing pole~
+A long fishing pole with a line and hook lies here.~
+~
+12 0 am
+0 0 0 0 0 0 0 10 14
+3 25 2
+E
+pole fishing rod~
+A long, springy pole of ash with a line of gut and a bone hook.  Hold it
+and type 'fish' anywhere near water.
+~
+#92
+cactus fruit red~
+a red cactus fruit~
+A spiny red cactus fruit lies here.~
+~
+19 0 a
+4 0 0 0 0 0 0 0 14
+1 3 0
 #97
 mail piece _DO_NOT_FUCK_WITH_THIS_ITEM_~
 a piece of mail~

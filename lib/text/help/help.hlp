@@ -1154,6 +1154,20 @@ person affected by the spell cannot leave the room and will take damage
 trying.  The victim under the spell cannot be attacked until the spell wears
 off.
 #
+FISH FISHING
+
+Usage: fish
+
+Fish in a river, lake or pond: you must be out of doors, in water or
+next to it.  It takes a few seconds and a little energy, and you may catch
+a trout, a perch or an eel to eat (or an old boot).  Holding a fishing pole
+(sold in Elrhinn and Gnishmire) gives you a much better chance; so do dawn,
+dusk, dull and rainy weather, and summer.  Storms and winter make it
+harder.  On a frozen lake you chop a hole in the ice first, which makes
+for slower fishing.
+
+See Also: FORAGE, WEATHER
+#
 FLAGS
 
 Players sometimes have FLAGS after their names in the WHO list.  These
@@ -1220,6 +1234,18 @@ Sphere      :
 If successful this spell will cure the victim of his/her paralysis.
 
 See Also: -
+#
+FORAGE FORAGING
+
+Usage: forage
+
+Search the countryside for something to eat.  What you find depends on the
+season: roots in winter, greens and mushrooms in spring, berries in summer,
+and nuts, apples and mushrooms in the fall (and mushrooms come up after
+rain).  Forests and jungles are the best places to look; mountains, deserts,
+frozen ground and the dark are worse.  Nothing grows in towns or on ice.
+
+See Also: FISH, WEATHER
 #
 "FORCE BOLT"
 Usage       : cast 'force bolt' <victim>
@@ -3361,6 +3387,32 @@ Duration    : Based on level
 Allows the target to walk on water, removing the necessity of a boat.
 
 See Also: -
+#
+WEATHER TEMPERATURE COLD HEAT FLOOD FLOODS ICE
+
+Usage: weather
+
+Tells you about the sky, how warm or cold it is, and the season, when you
+are out of doors.  The weather matters:
+
+  Cold      Out in freezing weather (often at night in winter, and in the
+            mountains) you tire faster and recover your energy more slowly,
+            unless you are dressed for it: a cloak, or anything of fur, wool
+            or leather.
+  Storms    Wind and heavy rain make open flames gutter (lanterns and lamps
+            are safe), and blow arrows and thrown weapons off course.
+  Heat      In sweltering heat (deserts by day, heat waves) you take a swig
+            from any water you carry each hour; with nothing left to drink
+            you tire faster and recover more slowly.  Carry a waterskin.
+  Floods    A wet spring swells the rivers, and some fords, creekbeds and
+            river landings can't be crossed until the water goes down.
+  Ice       After a hard frost some lakes and pools freeze, and you can walk
+            across them without a boat (and fish through a hole in the ice).
+            When the ice breaks up you will have to scramble ashore.
+  Downpours In pouring rain, thunderstorms and snowstorms the townsfolk stay
+            indoors, and the streets empty until the weather eases.
+
+See Also: FISH, FORAGE
 #
 WHERE
 

@@ -1457,7 +1457,7 @@ ACMD(do_weather)
   static char *sky_look[] = {
     "This heat wave is unbearable!",
     "It is very sunny and the temperature is rising.",
-    "It is warm and sunny.",
+    "The sun is shining.",
     "The sky is clear and the weather is mild.",
     "The sky is partly cloudy.",
     "The cloud cover is thick.",
@@ -1470,12 +1470,73 @@ ACMD(do_weather)
     "You are blinded by the blizzard!"
   };
 
+  extern struct time_info_data time_info;
+  static const char *sky_names[] = {
+    "heatwave", "sizzling", "sunny", "clear", "partcloud", "cloudy", "raining",
+    "pouring", "thunderstorm", "tornado", "snowing", "snowstorm", "blizzard", "\n"
+  };
+  struct weather_data *w;
+  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+  int t, i;
+
+  /* immortals: "weather sky <type>" or "weather flood <0-12>" for this zone */
+  two_arguments(argument, arg1, arg2);
+  if (*arg1 && !IS_NPC(ch) && GET_LEVEL(ch) >= LVL_GOD && ch->in_room != NOWHERE) {
+    w = &zone_table[world[ch->in_room].zone].weather_info;
+    if (is_abbrev(arg1, "sky") && (i = search_block(arg2, (char **) sky_names, FALSE)) >= 0) {
+      w->sky = i;
+      update_temperature(world[ch->in_room].zone);
+      sprintf(buf, "The sky in this zone is now %s (%d degrees).\r\n", sky_names[i], w->temperature);
+      send_to_char(buf, ch);
+    } else if (is_abbrev(arg1, "flood") && isdigit((unsigned char) *arg2)) {
+      w->flood = MAX(0, MIN(12, atoi(arg2)));
+      w->flooded = (w->flood >= 6);
+      sprintf(buf, "Flood level %d/12: this zone's flooding exits are %s.\r\n",
+	      w->flood, w->flooded ? "closed" : "open");
+      send_to_char(buf, ch);
+    } else if (is_abbrev(arg1, "ice") && isdigit((unsigned char) *arg2)) {
+      i = MAX(0, MIN(6, atoi(arg2)));
+      /* below 4 the lakes should be open water: break up any ice first */
+      weather_set_ice(world[ch->in_room].zone, (i < 4 && w->iced) ? 0 : i);
+      w->ice = i;
+      sprintf(buf, "Ice %d/6: this zone's lakes are %s.\r\n", w->ice,
+	      w->iced ? "frozen" : "open water");
+      send_to_char(buf, ch);
+    } else
+      send_to_char("Usage: weather [sky <heatwave|sizzling|sunny|clear|partcloud|cloudy|raining|\r\n"
+		   "                    pouring|thunderstorm|tornado|snowing|snowstorm|blizzard>]\r\n"
+		   "               [flood <0-12>] [ice <0-6>]   (changes this zone; for testing)\r\n", ch);
+    return;
+  }
+
   if (OUTSIDE(ch)) {
-    sprintf(buf, "%s\r\n", sky_look[(zone_table[(world[ch->in_room].zone)].weather_info.sky)]);
+    w = &zone_table[(world[ch->in_room].zone)].weather_info;
+    t = w->temperature;
+    if ((time_info.hours >= 21 || time_info.hours <= 4) && w->sky <= SKY_CLEAR)
+      strcpy(buf, "The night sky is clear and full of stars.\r\n");
+    else
+      sprintf(buf, "%s\r\n", sky_look[w->sky]);
     send_to_char(buf, ch);
+    sprintf(buf, "It is %s here, %s %s.\r\n", temperature_word(t),
+	    (time_info.hours >= 21 || time_info.hours <= 5) ? "on a night in" : "on a day in",
+	    season_name(weather_season()));
+    send_to_char(buf, ch);
+    if (feels_cold(ch))
+      send_to_char("You are shivering.  A cloak, or something of fur, wool or leather, would keep the cold out.\r\n", ch);
+    else if (t <= 0 && !IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT && is_outdoors(ch))
+      send_to_char("You are glad of your warm clothes.\r\n", ch);
+    if (feels_hot(ch))
+      send_to_char("You are wilting in the heat.  Carrying water to drink would help.\r\n", ch);
+    if (w->flooded)
+      send_to_char("The rivers and streams hereabouts are in flood.\r\n", ch);
+    if (w->iced)
+      send_to_char("The lakes and pools hereabouts are frozen over.\r\n", ch);
     if (GET_LEVEL(ch) > LVL_IMMORT) {
-      sprintf(buf, "The humidity is at %d percent.\r\n", 
-           zone_table[(world[ch->in_room].zone)].weather_info.humidity);
+      static const char *climates[] = { "temperate", "cold", "arctic", "desert", "tropical" };
+
+      sprintf(buf, "[Humidity %d%%, %d degrees, %s climate, flood level %d/12%s, ice %d/6%s.]\r\n",
+	      w->humidity, t, climates[w->climate % 5], w->flood,
+	      w->flooded ? ", FLOODED" : "", w->ice, w->iced ? ", FROZEN" : "");
       send_to_char(buf, ch);
     }
   } else
@@ -2487,9 +2548,9 @@ ACMD(do_commands)
 
   if (*arg) {
     if (!(vict = get_char_vis(ch, arg)) || IS_NPC(vict)) {
-      vict = NULL;
-      // check if the user just wants to see a list of commands that
-      // begin with a prefix
+      /* not a player: list ch's own commands that begin with arg
+         (vict used to be left NULL here, which crashed) */
+      vict = ch;
       prefix = arg;
     }
     if (vict != NULL && GET_LEVEL(ch) < GET_LEVEL(vict)) {
@@ -2518,8 +2579,8 @@ ACMD(do_commands)
 	(cmd_info[i].minimum_level >= LVL_IMMORT) == wizhelp &&
 	(wizhelp || socials == cmd_sort_info[i].is_social)) {
       /* Don't print those pesky mp commands */
-      if (!strstr(cmd_info[i].command, "mp") ||
-          (prefix != NULL && strstr(cmd_info[i].command, prefix))) {
+      if (prefix ? is_abbrev(prefix, cmd_info[i].command) :
+	  !strstr(cmd_info[i].command, "mp")) {
 	sprintf(buf + strlen(buf), "%-11s", cmd_info[i].command);
 	if (!(no % 7))
 	  strcat(buf, "\r\n");

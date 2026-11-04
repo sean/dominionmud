@@ -1570,3 +1570,248 @@ void practice(struct char_data *ch,
    }
    return;
 }
+
+
+/* ====================================================================
+ * Fishing and foraging (November 2026).  Both depend on the season and
+ * the weather (weather.c), take a few seconds and a little energy, and
+ * need no skill: the chance grows with level.
+ * ==================================================================== */
+
+#define OBJ_TROUT         70
+#define OBJ_PERCH         71
+#define OBJ_EEL           72
+#define OBJ_OLD_BOOT      73
+#define OBJ_BERRIES       74
+#define OBJ_GREENS        75
+#define OBJ_HAZELNUTS     76
+#define OBJ_MUSHROOMS     77
+#define OBJ_ROOT          78
+#define OBJ_WILD_APPLE    89
+#define OBJ_CACTUS_FRUIT  92
+
+#define GATHER_MOVE_COST  5
+
+static int is_water_sector(int sect)
+{
+  return (sect == SECT_WATER_SWIM || sect == SECT_WATER_NOSWIM);
+}
+
+
+/* Water to fish in: this room, or one an exit leads straight into. */
+static int water_nearby(struct char_data *ch)
+{
+  int dir;
+
+  if (is_water_sector(SECT(ch->in_room)))
+    return TRUE;
+  for (dir = 0; dir < NUM_OF_DIRS; dir++)
+    if (EXIT(ch, dir) && EXIT(ch, dir)->to_room != NOWHERE &&
+	!IS_SET(EXIT(ch, dir)->exit_info, EX_CLOSED) &&
+	is_water_sector(SECT(EXIT(ch, dir)->to_room)))
+      return TRUE;
+  return FALSE;
+}
+
+
+/* TRUE if all the water ch could fish in is frozen over (weather.c). */
+static int water_all_frozen(struct char_data *ch)
+{
+  int dir, open_water = FALSE;
+  long to;
+
+  if (is_water_sector(SECT(ch->in_room)))
+    return room_frozen(ch->in_room);
+  for (dir = 0; dir < NUM_OF_DIRS; dir++)
+    if (EXIT(ch, dir) && (to = EXIT(ch, dir)->to_room) != NOWHERE &&
+	!IS_SET(EXIT(ch, dir)->exit_info, EX_CLOSED) &&
+	is_water_sector(SECT(to)) && !room_frozen(to))
+      open_water = TRUE;
+  return !open_water;
+}
+
+
+static int holding_fishing_pole(struct char_data *ch)
+{
+  struct obj_data *o = GET_EQ(ch, WEAR_HOLD);
+
+  return (o && (isname("pole", o->name) || isname("rod", o->name)));
+}
+
+
+/* Gives ch a fresh copy of object vnum and tells the room. */
+static void gather_obj(struct char_data *ch, long vnum, char *to_char,
+		       char *to_room)
+{
+  struct obj_data *obj;
+
+  if (!(obj = read_object(vnum, VNUMBER))) {
+    sprintf(buf, "SYSERR: fishing/foraging object #%ld is missing", vnum);
+    log(buf);
+    return;
+  }
+  obj_to_char(obj, ch);
+  act(to_char, FALSE, ch, obj, 0, TO_CHAR);
+  act(to_room, TRUE, ch, obj, 0, TO_ROOM);
+}
+
+
+static int gather_ready(struct char_data *ch, const char *verb)
+{
+  if (IS_NPC(ch))
+    return FALSE;
+  if (FIGHTING(ch)) {
+    send_to_char("You have more pressing matters to attend to!\r\n", ch);
+    return FALSE;
+  }
+  if (!is_outdoors(ch)) {
+    sprintf(buf, "You can't %s indoors.\r\n", verb);
+    send_to_char(buf, ch);
+    return FALSE;
+  }
+  if (GET_MOVE(ch) < GATHER_MOVE_COST) {
+    send_to_char("You are too tired.\r\n", ch);
+    return FALSE;
+  }
+  return TRUE;
+}
+
+
+ACMD(do_fish)
+{
+  extern struct time_info_data time_info;
+  int chance, sky, season, roll, ice, h = time_info.hours;
+
+  if (!gather_ready(ch, "fish"))
+    return;
+  if (!water_nearby(ch)) {
+    send_to_char("There is no water here to fish in.\r\n", ch);
+    return;
+  }
+  ice = water_all_frozen(ch);
+
+  GET_MOVE(ch) -= GATHER_MOVE_COST;
+  WAIT_STATE(ch, PULSE_VIOLENCE * 3);
+
+  sky = WEATHER(ch->in_room);
+  season = weather_season();
+  chance = 25 + MIN(GET_LEVEL(ch), 35);
+  if (holding_fishing_pole(ch))
+    chance += 20;
+  if (season == SEASON_WINTER)
+    chance -= 15;
+  else if (season == SEASON_SUMMER)
+    chance += 10;
+  if (sky == SKY_CLOUDY || sky == SKY_PARTCLOUD || sky == SKY_RAINING)
+    chance += 10;                       /* the fish rise in dull weather */
+  else if (sky == SKY_THUNDERSTORM || sky == SKY_TORNADO ||
+	   sky == SKY_SNOWSTORM || sky == SKY_BLIZZARD)
+    chance -= 20;
+  if ((h >= 5 && h <= 7) || (h >= 18 && h <= 20))
+    chance += 10;                       /* dawn and dusk */
+  if (ice)
+    chance -= 10;
+
+  if (ice) {
+    act("You chop a hole in the ice and drop your line into the dark water.",
+	FALSE, ch, 0, 0, TO_CHAR);
+    act("$n chops a hole in the ice and starts fishing.", TRUE, ch, 0, 0, TO_ROOM);
+  } else if (holding_fishing_pole(ch)) {
+    act("You cast your line into the water and wait.", FALSE, ch, 0, 0, TO_CHAR);
+    act("$n casts a fishing line into the water.", TRUE, ch, 0, 0, TO_ROOM);
+  } else {
+    act("You kneel at the water's edge and try to tickle a fish with your hands.",
+	FALSE, ch, 0, 0, TO_CHAR);
+    act("$n kneels at the water's edge, hands in the water.", TRUE, ch, 0, 0, TO_ROOM);
+  }
+
+  if (number(1, 100) > chance) {
+    if (!number(0, 15))
+      gather_obj(ch, OBJ_OLD_BOOT, "Something heavy!  ...You land $p.",
+		 "$n hauls $p out of the water and looks disgusted.");
+    else
+      send_to_char(number(0, 1) ? "Nothing bites.\r\n" :
+		   "A fish nibbles, then is gone.\r\n", ch);
+    return;
+  }
+
+  roll = number(1, 100);
+  if (roll <= 50)
+    gather_obj(ch, OBJ_TROUT, "You feel a tug... and land $p!",
+	       "$n lands $p.");
+  else if (roll <= 85)
+    gather_obj(ch, OBJ_PERCH, "Your line goes taut... and you land $p!",
+	       "$n lands $p.");
+  else
+    gather_obj(ch, OBJ_EEL, "Something fights hard... it's $p!",
+	       "$n wrestles $p out of the water.");
+}
+
+
+ACMD(do_forage)
+{
+  extern struct time_info_data time_info;
+  static const long winter[] = { OBJ_ROOT };
+  static const long spring[] = { OBJ_GREENS, OBJ_GREENS, OBJ_MUSHROOMS, OBJ_ROOT };
+  static const long summer[] = { OBJ_BERRIES, OBJ_BERRIES, OBJ_GREENS, OBJ_ROOT };
+  static const long fall[]   = { OBJ_HAZELNUTS, OBJ_WILD_APPLE, OBJ_MUSHROOMS, OBJ_BERRIES };
+  const long *table;
+  int n, chance, sect, season, sky, h = time_info.hours;
+  long vnum;
+
+  if (!gather_ready(ch, "forage"))
+    return;
+
+  sect = SECT(ch->in_room);
+  if (sect == SECT_CITY || sect == SECT_INSIDE || sect == SECT_FLYING ||
+      sect == SECT_UNDERWATER || is_water_sector(sect) || sect == SECT_GLACIER) {
+    send_to_char("Nothing worth eating grows here.\r\n", ch);
+    return;
+  }
+
+  GET_MOVE(ch) -= GATHER_MOVE_COST;
+  WAIT_STATE(ch, PULSE_VIOLENCE * 3);
+
+  season = weather_season();
+  sky = WEATHER(ch->in_room);
+  chance = 30 + MIN(GET_LEVEL(ch) / 2, 30);
+  switch (sect) {
+  case SECT_FOREST:
+  case SECT_JUNGLE:   chance += 15; break;
+  case SECT_MOUNTAIN: chance -= 10; break;
+  case SECT_DESERT:   chance -= 20; break;
+  default:                          break;
+  }
+  if (h >= 21 || h <= 5)
+    chance -= 10;                       /* hard to see at night */
+  if (room_temperature(ch->in_room) <= -5)
+    chance -= 20;                       /* frozen ground */
+
+  act("You search the undergrowth for anything good to eat.", FALSE, ch, 0, 0, TO_CHAR);
+  act("$n searches the undergrowth.", TRUE, ch, 0, 0, TO_ROOM);
+
+  if (number(1, 100) > chance) {
+    send_to_char(season == SEASON_WINTER ?
+		 "The ground is hard and bare.  You find nothing.\r\n" :
+		 "You find nothing worth eating.\r\n", ch);
+    return;
+  }
+
+  if (sect == SECT_DESERT) {
+    gather_obj(ch, OBJ_CACTUS_FRUIT, "You carefully pick $p from a cactus.",
+	       "$n carefully picks $p from a cactus.");
+    return;
+  }
+  switch (season) {
+  case SEASON_WINTER: table = winter; n = 1; break;
+  case SEASON_SPRING: table = spring; n = 4; break;
+  case SEASON_SUMMER: table = summer; n = 4; break;
+  default:            table = fall;   n = 4; break;
+  }
+  vnum = table[number(0, n - 1)];
+  /* mushrooms come up after rain */
+  if ((sky == SKY_RAINING || sky == SKY_POURING) && season != SEASON_WINTER &&
+      !number(0, 2))
+    vnum = OBJ_MUSHROOMS;
+  gather_obj(ch, vnum, "You find $p.", "$n finds $p.");
+}

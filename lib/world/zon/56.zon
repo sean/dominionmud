@@ -52,5 +52,9 @@ M 0 5603 3 5603 100 	* the albino ferret at Edge of the Forest. (Max: 3)
 O 0 5611 1 5611 100 	* a bloody stream at At the marble wall. (Max: 1)
 D 0 5601 0 1 100 		* Close Northern door at Grand entrance to Naz'ol
 D 0 5609 4 2 99 		* Lock and Close Southern door at Deep in the Blood
+M 0 5668 1 5650 100 	* the lamplighter of Chree'zen at Dimly lit, peaceful alley. (Max: 1)
+M 0 5669 1 5654 100 	* Mother Tibb at Central Square. (Max: 1)
+M 0 5673 1 5650 100 	* the night watchman at Dimly lit, peaceful alley. (Max: 1)
+M 0 5674 1 5658 100 	* old Brannoc at Central Square. (Max: 1)
 S
 $~

@@ -765,25 +765,33 @@ Height: 61
 Weight: 100
 E
 #5668
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+lamplighter lamp lighter~
+the lamplighter of Chree'zen~
+A lamplighter is here, a long pole over her shoulder.
 ~
-d 0 0 S
-0 3 19 0d0+0 0d0+0
-0 0
-8 8 0
+A wiry young woman with soot on her cheek, a long brass-tipped pole and
+a can of lamp oil.  She whistles as she works.
+~
+dn 0 500 E
+6 15 14 6d10+40 1d4+1
+10 1500
+8 8 2
+Race: 0
+E
 #5669
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+tibb mother vendor nut~
+Mother Tibb~
+Mother Tibb the street vendor is here with her little cart of roasting nuts.
 ~
-d 0 0 S
-0 3 3 0d0+0 0d0+0
-0 0
-8 8 0
+A round, rosy old woman in three shawls, pushing a cart with a little
+brazier on it.  The smell of roasting nuts follows her everywhere.
+~
+dn 0 800 E
+5 13 10 5d10+30 1d4+0
+30 1000
+8 8 2
+Race: 0
+E
 #5670
 doe deer bambi~
 the doe~
@@ -825,25 +833,34 @@ dg 0 0 E
 BareHandAttack: 4
 E
 #5673
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+watchman night watch~
+the night watchman~
+The night watchman of Chree'zen is here, holding up a lantern.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A tired old soldier with a lantern, a cudgel and a heavy cloak against
+the night air.  He calls out the hours as he walks the streets, and he
+has never once been late.
+~
+dn 0 300 E
+12 27 24 10d10+120 2d6+3
+40 9000
+8 8 1
+Race: 0
+E
 #5674
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+brannoc old storyteller~
+old Brannoc~
+Old Brannoc the storyteller is here, his hands moving as he talks.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A white-bearded old man with a patched cloak and bright, mischievous
+eyes.  He has a story for everything, and most of them are even true.
+~
+dn 0 600 E
+4 11 8 4d10+30 1d3+0
+5 800
+8 8 1
+Race: 0
+E
 #5675
 ogre bandit~
 the wandering ogre bandit~

@@ -1,0 +1,585 @@
+; NPC daily routines (read by src/routine.c at boot; "reload routines" rereads it).
+;
+; Each block starts with #<mob vnum> and gives the timetable of every copy of
+; that mobile.  Hours are mud hours, 0-23.  Lines starting with ';' are
+; comments, and the file ends with '$'.
+;
+;   <hour> go <room vnum> [stand|sit|rest|sleep]
+;            From this hour on the mobile should be in that room.  It walks
+;            there one room per mobile pulse (opening doors on the way), then
+;            takes up the position given (default stand).  The latest 'go' at
+;            or before the current hour is in force, wrapping round midnight,
+;            so a mobile that is killed or reset simply walks to wherever it
+;            should be.  A sleeping mobile wakes when its next 'go' comes up.
+;   arrive say|emote <text>    said or done on reaching the room of the 'go'
+;                              line above it
+;   leave say|emote <text>     said or done on setting off from the room of
+;                              the 'go' line above it, when the next one starts
+;   <hour> say <text>          said on the hour, if awake
+;   <hour> emote <text>        "<name> <text>", e.g. "rings the temple bell."
+;   idle [<from>-<to>] <pct> say|emote <text>
+;            a chance in <pct> percent, each pulse, of one idle line while it
+;            is settled somewhere and a player is there to hear it; the
+;            optional hour range limits when (it may wrap, e.g. 20-4)
+;
+; Text may not contain '$'.  A mobile with no 'go' lines stays where it is
+; and only talks.  A shopkeeper who leaves his shop, or sleeps in it, puts
+; up a CLOSED sign (obj 32), and the shop is shut until he is back and
+; awake.  Give routines only to mobiles that exist once in the world: every
+; copy of a mobile follows the same timetable.
+;
+; Weather: in a downpour (pouring rain, a thunderstorm or tornado, a
+; snowstorm or blizzard) a mobile whose 'go' room is out of doors stays
+; wherever it is indoors, or if it is out in it runs for the nearest indoor
+; room in the zone, and goes back to its timetable when the weather eases.
+; One indoors won't set off through the open while it pours, unless it is
+; going to bed ('sleep').  So give outdoor jobs an indoor room nearby, and
+; flag shops and taverns INDOORS in the world files.
+
+; ===================================================================
+; Elrhinn Township (zone 30)
+; ===================================================================
+
+#3001 Jynnah the grocer
+6 go 3009
+arrive emote unbars the shutters and sets out baskets of apples and fresh bread.
+leave emote counts the day's takings and pulls the shutters closed.
+idle 7-17 3 say Fresh bread!  Apples from the Druid's Glade!  Cheese from the hills!
+idle 7-17 2 emote polishes an apple on her apron and puts it back on the pile.
+18 go 3011 sit
+arrive say A cup of something hot, Yarl, and do not tell me the price of flour.
+idle 18-21 3 emote gossips with the other shopkeepers about the price of grain.
+22 go 3009 sleep
+
+#3002 Sajah of the Shop of Common Goods
+7 go 3021
+arrive emote unlocks the shop and sweeps the step.
+leave emote turns the sign on the door and heads off toward Dagger Lane.
+idle 8-18 2 say Rope, lanterns, packs!  Everything an adventurer forgets to buy!
+19 go 3073 sit
+arrive say Same as always, barkeep.  And keep it coming.
+idle 19-22 3 emote tells a long story about a customer who tried to buy a rope with a live chicken.
+23 go 3021 sleep
+
+#3003 Rastrad the Weaponsmith
+6 go 3025
+arrive emote takes down the shutters and hangs the best swords where the light catches them.
+idle 7-17 2 emote tests the edge of a blade with his thumb and nods.
+12 go 3039
+arrive emote buys a meat pie from a passing vendor and eats it standing up.
+13 go 3025
+20 go 3011 sit
+arrive say Evening, all.  Business is good.  Someone always wants something killed.
+23 go 3025 sleep
+
+#3004 Tyrius the Blacksmith
+5 go 3024
+arrive emote rakes the coals of the forge back to life and works the bellows.
+leave emote banks the forge for the night and wipes his hands on his apron.
+idle 6-18 4 emote hammers a glowing horseshoe into shape on the anvil.  CLANG!  CLANG!
+idle 6-18 2 emote plunges a red-hot bar into the water barrel in a great hiss of steam.
+19 go 3073 sit
+arrive say Ale.  The big mug.  It is hot work at the forge.
+23 go 3024 sleep
+
+#3069 Gwen the healer
+7 go 3052
+arrive emote throws open the windows and sets out clean bandages.
+idle 8-20 2 say Sit down before you fall down, dear, and let me look at that.
+12 go 3016 sit
+arrive emote kneels in a pew and bows her head in prayer.
+13 go 3052
+21 go 3052 sleep
+
+#3068 Mybius the mapmaker
+8 go 3049
+arrive emote unrolls a fresh map across the counter and weighs down the corners.
+idle 9-19 2 emote squints at a map and adds a tiny mountain with a fine pen.
+20 go 3011 sit
+arrive say Has anyone been east of Gnishmire lately?  My maps of the hills are dreadful.
+23 go 3049 sleep
+
+#3070 Tersk of the Repair Smithy
+6 go 3051
+arrive emote lights the small forge and lays out his tools in a neat row.
+idle 7-18 2 emote patiently hammers a dent out of a battered helm.
+19 go 3073 sit
+arrive emote orders an ale and sits with his back to the wall.
+22 go 3051 sleep
+
+#3021 Jaran the priest
+6 go 3015
+arrive emote rings the bell of the church of Elrhinn for the morning prayers.
+9 go 3017
+arrive say The doors of the church are open to all.  Come in and rest your soul.
+12 go 3039
+arrive say Good people of Elrhinn!  Remember the gods, and they will remember you.
+idle 12-13 4 emote blesses a passing child, who giggles.
+14 go 3015
+18 go 3015
+18 emote lights the evening candles on the altar one by one.
+22 go 3014 sleep
+
+#3006 Jarus the Dockmaster
+5 go 3087
+arrive emote checks the moorings and counts the boats tied up overnight.
+idle 6-20 3 say Mind the ropes!  If you are not sailing, you are in the way.
+21 go 3073 sit
+arrive say Rum.  And none of that watered stuff you give the farmers.
+2 go 3087 sleep
+
+#3011 the town crier of Elrhinn
+7 go 3039
+7 say Hear ye, hear ye!  The gates of Elrhinn are open, and the market with them!
+9 go 3001
+arrive say Hear ye!  Travellers are warned that the northern road is unsafe after dark.
+11 go 3039
+11 say Hear ye!  The Template of Elrhinn holds court in City Hall today!
+13 go 3093
+arrive say Hear ye!  Boats for the river islands sail from the southern docks!
+15 go 3034
+arrive say Hear ye!  The Red Guard seeks stout recruits.  Apply at the barracks!
+17 go 3039
+17 say Hear ye!  The market closes at sundown.  Mind your purses in Dagger Lane!
+19 go 3011 sit
+arrive emote sets down his bell and rubs his sore throat.
+22 go 3088 sleep
+idle 7-18 3 emote rings his brass handbell.  CLANG-A-LANG!
+
+#3012 the lamplighter of Elrhinn
+19 go 3005
+arrive emote climbs a ladder and lights the lamps along Northwall Road.
+20 go 3039
+arrive emote lights the great lamps around the Courtyard of Elrhinn, one after another.
+21 go 3062
+arrive emote lights the lanterns along Silverstream Way.
+22 go 3084
+arrive emote lights the lamps of Southwall Road.  The street glows warm and gold.
+23 go 3073 sit
+arrive say One lamp for every street, and one ale for the lamplighter.
+2 go 3088 sleep
+5 go 3039
+arrive emote snuffs out the lamps of the courtyard as the sky grows light.
+6 go 3088 sleep
+
+; ===================================================================
+; Cair-Irynthar (zone 50)
+; ===================================================================
+
+#5028 the hobbit pastry chef
+4 go 5053
+arrive emote ties on a floury apron and lights the ovens.
+leave emote wraps the last of the cakes in a cloth and closes up the Bread Basket.
+idle 5-13 3 emote pulls a tray of honey cakes from the oven.  The smell is heavenly.
+idle 5-13 2 say Second breakfast is the most important meal of the day!
+14 go 5049 sit
+arrive say A small ale, please.  A very small one.  I am up before the sun.
+17 go 5053 sleep
+
+#5048 the butcher
+6 go 5042
+arrive emote hangs a row of fresh sausages and sharpens his cleaver.
+idle 7-19 3 emote brings his cleaver down with a THUNK.
+13 go 5021 sit
+arrive emote has a quick lunch and complains about the price of pigs.
+14 go 5042
+20 go 5049 sit
+arrive say Ale, and a plate of something I did not cut up myself.
+23 go 5042 sleep
+
+#5033 the weaponsmaster
+7 go 5046
+arrive emote unlocks the racks of the Dirk and Dagger.
+17 go 5052
+arrive say Again!  Feet apart, blade up!  Again!
+idle 17-19 4 emote corrects a young squire's grip with a sharp rap of a practice sword.
+20 go 5048 sit
+23 go 5046 sleep
+
+#5032 the armourer
+7 go 5047
+arrive emote polishes the scales of a hauberk until they shine like silver.
+idle 8-18 2 emote tightens the straps on a breastplate.
+19 go 5048 sit
+arrive say Dragon's Wrath it is.  If it does not burn on the way down, it is not working.
+23 go 5047 sleep
+
+#5003 the black-robed priest
+6 go 5003
+arrive emote lights the candles on the altar and begins the morning rite.
+9 go 5001
+12 go 5008
+arrive say Mercy, people of Irynthar!  The Temple of Mercy feeds all who are hungry.
+idle 12-13 3 emote presses a coin into a beggar's hand.
+14 go 5001
+21 go 5003 rest
+arrive emote kneels before the altar for the night vigil.
+1 go 5002 sleep
+
+#5002 the town hangman
+6 go 5019
+arrive emote climbs the gallows and tests the trapdoor.  It drops with a bang.
+leave emote takes down the rope and coils it carefully over his shoulder.
+idle 7-17 3 emote checks the knot on the noose, then checks it again.
+18 go 5048 sit
+arrive emote sits alone.  Nobody sits near the hangman.
+23 go 5024 sleep
+
+#5064 the disgruntled courier
+8 go 5057
+arrive emote sorts a sack of letters, muttering under his breath.
+10 go 5011
+arrive emote delivers a parcel that clinks suspiciously.
+11 go 5053
+arrive emote delivers a letter and steals a honey cake on the way out.
+12 go 5182
+arrive say Sign here.  No, HERE.  Gods, every single day.
+13 go 5057
+idle 13-17 2 say Rain, wind, cliffs and dogs.  And they wonder why the post is late.
+18 go 5021 sit
+22 go 5057 sleep
+
+#5023 the cartographer
+8 go 5181
+arrive emote spreads out a half-finished map of the cliffs.
+18 go 5005 sit
+arrive emote pulls down a dusty atlas and settles in to read.
+22 go 5181 sleep
+
+; ===================================================================
+; Chree'zen (zone 56)
+; ===================================================================
+
+#5668 the lamplighter of Chree'zen
+19 go 5621
+arrive emote lights the lamps of Elijah Square.
+20 go 5643
+arrive emote lights the iron lanterns of Templeton Square.
+21 go 5658
+arrive emote lights the great lamp in the Central Square, and the square glows gold.
+22 go 5650
+arrive emote lights a single small lantern in the peaceful alley.
+23 go 5650 sleep
+5 go 5658
+arrive emote snuffs out the great lamp as the sun comes up.
+6 go 5650 sleep
+
+#5669 Mother Tibb, the street vendor
+6 go 5658
+arrive emote sets up a little cart by the fountain and fills the air with the smell of roasting nuts.
+idle 7-18 4 say Hot nuts!  Hot roasted nuts!  A copper a bag!
+idle 7-18 2 emote hands a bag of nuts to a child and refuses to take the copper.
+13 go 5643
+arrive emote wheels her cart into Templeton Square for the afternoon trade.
+leave emote packs up her cart and wheels it home, creaking.
+19 go 5650 sit
+22 go 5650 sleep
+
+#5673 the night watchman of Chree'zen
+20 go 5601
+arrive say Gates are closing!  In or out, make up your minds!
+22 go 5658
+arrive say Ten o'clock and all is well!
+0 go 5629
+arrive emote peers into the dark alley, holding his lantern high.
+2 go 5643
+arrive say Two o'clock and all is well!
+4 go 5621
+arrive say Four o'clock, and nearly dawn.  All is well!
+6 go 5650 sleep
+idle 20-5 2 emote yawns enormously and stamps his feet against the cold.
+
+#5674 Old Brannoc, the storyteller
+9 go 5658 sit
+arrive emote settles on the rim of the fountain, and a few children gather round.
+idle 9-17 4 say ...and when the dragon woke, the whole mountain shook, and the king's men ran like rabbits!
+idle 9-17 3 say ...so the old woman of the swamp said: three wishes, but each one costs you a year.
+idle 9-17 2 emote pauses dramatically and lowers his voice to a whisper.
+18 go 5650 sit
+21 go 5650 sleep
+
+; ===================================================================
+; Three of Swords (zone 110)
+; ===================================================================
+
+#11004 the Farmer's Wife
+6 go 11050
+arrive emote sets out eggs, butter, cheese and her husband's turnips on the market stall.
+leave emote packs the last of the cheese into a basket.
+idle 7-17 3 say Fresh eggs!  Butter from this morning!
+18 go 11052
+arrive emote puts a pot of stew on to bubble.
+21 go 11052 sleep
+
+#11002 the farm girl
+6 go 11047
+arrive emote opens the corral gate and whistles for the horses.
+10 go 11094
+arrive emote chases a runaway calf across the pasture, laughing.
+17 go 11047
+arrive emote brushes down the horses for the night.
+20 go 11054 sleep
+
+#11001 the Storekeeper
+7 go 11045
+arrive emote unlocks the General Store and puts a kettle on.
+idle 8-19 2 say Rope?  Lantern?  Rations for the mountain?  You will want all three.
+20 go 11057 sit
+23 go 11045 sleep
+
+#11019 the hunter
+5 go 11091
+arrive emote checks his snares along the pasture fence.
+idle 5-15 2 emote studies a set of tracks in the dust.
+16 go 11057 sit
+arrive say Wolves are coming lower every night.  Mark my words.
+23 go 11056 sleep
+
+; ===================================================================
+; Desert of Desolation and the toll road (zone 410)
+; ===================================================================
+
+#41006 the toll keeper
+6 go 41159
+arrive emote unbars the toll gate and sets out the strongbox.
+6 say The toll road is open!  Two silver a head, five for a horse!
+idle 7-20 3 say Toll!  Pay the toll, or walk the desert.
+idle 7-20 2 emote counts a stack of coins, then counts them again.
+21 go 41159 sleep
+21 emote bars the gate and locks the strongbox away for the night.
+
+#41005 the caravan master
+6 go 41145
+arrive say Wagons up!  We make the toll house by noon or we roast!
+12 go 41159
+arrive emote argues with the toll keeper about the price of camels.
+14 go 41153
+arrive emote waves the caravan on down the toll road toward Mytherandil.
+idle 6-18 3 emote shades his eyes and scans the shimmering road ahead.
+18 go 41145
+arrive emote circles the wagons for the night and sets a watch.
+21 go 41145 sleep
+
+; ===================================================================
+; Mytherandil (zone 11)
+; ===================================================================
+
+#1100 Axxen the bread maker
+4 go 1190
+arrive emote kneads a mountain of dough and slides the first loaves into the oven.
+leave emote gives the last loaves to the poor children waiting at the door.
+idle 5-16 3 say Hot bread!  Black bread, white bread, raisin bread!
+17 go 1151 sit
+arrive say Pour me one, and do not let me fall asleep in it.
+20 go 1190 sleep
+
+#1101 the Alchemist
+8 go 1164
+arrive emote unstoppers a bubbling flask and sniffs it cautiously.
+13 go 1191
+arrive emote kneels in the grass and gathers herbs into a little basket.
+15 go 1164
+idle 15-21 3 emote mixes two potions together.  The result smokes, then turns pink.
+22 go 1164 sleep
+
+#1104 the Fletcher
+7 go 1196
+arrive emote sorts a bundle of goose feathers by colour.
+idle 8-18 2 emote sights along an arrow shaft and tosses it on the reject pile.
+19 go 1151 sit
+23 go 1196 sleep
+
+#1112 Durin Whyteflame
+6 go 1147
+arrive emote lays out his finest blades on white velvet.
+12 go 1180
+arrive emote eats his lunch on the steps of the Great Square and watches the crowds.
+13 go 1147
+20 go 1123 sit
+arrive say A dwarf's portion of your strongest, if you please.
+23 go 1147 sleep
+
+#1102 the old mage of the Cryptic Scroll
+10 go 1163
+arrive emote shuffles in and lights a candle that burns with a blue flame.
+16 go 1115 sit
+arrive emote buries himself in a stack of ancient books.
+idle 16-21 2 emote mutters something about the black monolith and turns a page.
+22 go 1163 sleep
+
+; ===================================================================
+; Gnishmire (zone 350)
+; ===================================================================
+
+#35010 Herrik the baker
+4 go 35031
+arrive emote lights the ovens and starts the day's bread.
+idle 5-14 3 say Fresh rolls!  Fish pies!  Seaweed bread, a Gnishmire speciality!
+15 go 35036
+arrive emote haggles with the fishermen over the day's catch.
+16 go 35031
+21 go 35031 sleep
+
+#35011 Amiria the armorer
+6 go 35020
+arrive emote rolls up her sleeves and stokes the smithy fire.
+idle 7-18 2 emote rivets a plate onto a gauntlet with three neat taps.
+19 go 35023 sit
+arrive say Evening!  A pint of the Wave's Crest best, please.
+23 go 35020 sleep
+
+#35016 Gramish the shopkeeper
+8 go 35029
+arrive emote dusts a shelf of clockwork birds and wind-up frogs.
+idle 9-17 3 emote winds up a tin soldier.  It marches off the edge of the counter.
+18 go 35003
+arrive emote feeds the clockwork fish in the fountain a handful of brass shavings.
+20 go 35059 sit
+23 go 35029 sleep
+
+#35018 Drial N'haj
+7 go 35030
+arrive emote oils the blades in the racks of the Sheathed Sword.
+19 go 35023 sit
+23 go 35030 sleep
+
+#35015 the gnomish postmaster
+7 go 35064
+arrive emote stamps a stack of letters very fast and very loudly.
+17 go 35003
+arrive say Post!  Letters for Gnishmire!  Come and get them before the gulls do!
+18 go 35064
+22 go 35064 sleep
+
+#35002 Trosh the scientist
+9 go 35022
+arrive emote adjusts a contraption of brass tubes.  Something inside it squeaks.
+13 go 35118
+arrive say Gentlemen!  I have proved that the sea is, in fact, wet.  Questions?
+idle 13-14 4 emote argues loudly with Ranish about the shape of the moon.
+15 go 35022
+idle 15-21 2 emote scribbles equations on the wall and steps back to admire them.
+23 go 35022 sleep
+
+#35014 Giland the tinkerer
+8 go 35025
+arrive emote spreads out a box of springs, gears and broken blades.
+idle 9-18 2 emote tinkers with a broken lock until it clicks open.
+19 go 35059 sit
+23 go 35025 sleep
+
+; ===================================================================
+; The Elven Woods (zone 190)
+; ===================================================================
+
+#19010 the Chief of the elven guard
+6 go 19003
+arrive say Look sharp!  Inspection!
+12 go 19018
+arrive emote inspects the guards and straightens a crooked bow.
+13 go 19002
+arrive emote walks the guarded path, checking every shadow.
+18 go 19016 sit
+arrive say Elderberry wine, and a seat by the window.
+22 go 19004 sleep
+
+#19005 the Elven armoursmith
+7 go 19010
+arrive emote unwraps a shirt of elven mail as light as silk.
+19 go 19016 sit
+23 go 19010 sleep
+
+#19004 the Elven weaponsmith
+7 go 19011
+arrive emote strings a new bow and tests the pull.
+idle 8-18 2 emote sights down a slender elven blade.
+19 go 19033
+arrive emote watches the last of the sun fade from the treetops.
+21 go 19016 sit
+23 go 19011 sleep
+
+#19007 Quintor
+8 go 19013
+arrive emote arranges his fine wares with great care, and then arranges them again.
+18 go 19033
+arrive say Every evening I come to watch the sun go down.  It never tires.
+21 go 19016 sit
+23 go 19013 sleep
+
+#19006 the Elven mage
+9 go 19014
+arrive emote waves a hand, and the lamps of the shop light themselves.
+20 go 19023 sit
+arrive emote opens a book of star charts.
+23 go 19014 sleep
+
+; ===================================================================
+; Serdim-ir-Lesk (zone 320)
+; ===================================================================
+
+#32011 Thyet Weltinelf
+7 go 32081
+arrive emote stretches and opens the shutters of the great tree.
+12 go 32087
+arrive emote tends the mushroom garden, humming softly.
+idle 12-15 3 emote gently turns over a giant mushroom and inspects its gills.
+16 go 32083 sit
+arrive emote writes in a journal bound in green leather.
+22 go 32082 sleep
+
+#32013 the old hermit
+idle 6-17 2 say Swamp gas.  It is all swamp gas.  Do not listen to the lights.
+idle 6-17 2 emote scratches his beard and mutters at the roots of the tree.
+21 emote curls up among the roots of the great tree and starts to snore.
+6 emote wakes with a snort and looks around suspiciously.
+
+; ===================================================================
+; Charing Cross (zone 100) -- a thieves' town: it wakes at dusk
+; ===================================================================
+
+#10032 Arelen the Shopkeeper
+17 go 10024
+arrive emote unlocks the Cloak and Dagger as the sun goes down.
+leave emote locks the strongbox and slips out into the dawn.
+idle 18-4 3 say Cloaks, daggers, and no questions asked.
+5 go 10048 sit
+arrive say The usual, Merl.  It was a busy night.
+8 go 10024 sleep
+
+#10031 Merl Orcmane, the bartender
+18 say Doors are open!  Drink up, and keep your knives sheathed!
+3 say Last orders!  You do not have to go home, but you cannot stay here.
+idle 18-4 3 emote polishes a mug with a rag that has seen better days.
+
+#10008 Jarr the Thief King
+22 go 10066
+arrive emote surveys his city from the middle of Charing Cross Square, smiling.
+idle 22-1 3 emote nods to a cloaked figure, who melts back into the shadows.
+2 go 10021
+
+#10023 Amnemoth
+0 emote begins the midnight rite of Kirahn, and the candles gutter.
+2 emote finishes the rite and stands silent at the temple door once more.
+
+; ===================================================================
+; Vice Island (zone 105)
+; ===================================================================
+
+#10510 the Priest of Fear
+20 emote lights black candles, one for every soul that has wept in this house.
+idle 20-23 3 emote chants in a low voice, and the shadows seem to lean closer.
+0 say Midnight.  The hour of fear.  Can you not feel it?
+
+#10506 the fat harem master
+9 go 10501
+arrive emote waddles down to Port Harem to haggle with the ship captains.
+idle 9-12 3 say Silk!  Spice!  Do not trouble me with anything cheaper.
+13 go 10504
+arrive emote collapses onto a heap of cushions, exhausted from the walk.
+
+#10519 the Grand Inquisitor
+8 go 10570
+arrive emote lays out his instruments in a neat, gleaming row.
+20 go 10569 sit
+arrive emote sits and waits, smiling, for the next prisoner to be brought in.
+$

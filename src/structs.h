@@ -77,6 +77,7 @@
 #define EX_SECRET               (1 << 4)   /* Exit is secret         16  */
 #define EX_CLIMB                (1 << 5)   /* Must climb up exit     32  */
 #define EX_ARROWSLIT            (1 << 6)   /* Exit is an arrowslit   64  */
+#define EX_FLOODS               (1 << 7)   /* Floods in a wet spring (lib/data/floods; not saved) */
 
 #define NUM_EXIT_TYPES          7
 
@@ -1487,6 +1488,10 @@ struct mob_special_data {
    struct char_data *mesg_about;  /* Char has a mesg about this PC/NPC */
    char *sounds;            /* Sound that the monster makes (in room)  */
    char *distant_snds;      /* Sound that the monster makes (other)    */
+   int  routine;            /* 1 + index into the routines (routine.c) */
+   int  routine_at;         /* 'go' step it has settled at, or -1      */
+   byte routine_stuck;      /* failed steps toward its destination     */
+   byte routine_shelter;    /* 1 waiting out a downpour, 2 running for cover */
 };
 
 
@@ -1751,8 +1756,25 @@ struct weather_data {
   int change;         /* How fast and what way does it change. */
   int sky;            /* How is the sky.                       */
   int sunlight;       /* And how much sun.                     */
-  int temperature;    /* And how cold/hot it is.               */
+  int temperature;    /* And how cold/hot it is (degrees C).   */
+  int climate;        /* CLIMATE_x, from the zone's sectors    */
+  int flood;          /* Water level of its rivers, 0-12       */
+  int flooded;        /* TRUE while its flooding exits are shut */
+  int ice;            /* How thick the ice on its lakes is, 0-6 */
+  int iced;           /* TRUE while its lakes are frozen over   */
 };
+
+/* Seasons (weather_season()) and climates (weather.c) */
+#define SEASON_WINTER     0
+#define SEASON_SPRING     1
+#define SEASON_SUMMER     2
+#define SEASON_FALL       3
+
+#define CLIMATE_TEMPERATE 0
+#define CLIMATE_COLD      1           /* mountains */
+#define CLIMATE_ARCTIC    2           /* glaciers  */
+#define CLIMATE_DESERT    3
+#define CLIMATE_TROPICAL  4           /* jungle    */
 
 
 /* element in monster and object index-tables   */

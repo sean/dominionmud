@@ -1,0 +1,24 @@
+; Still water that freezes in a hard frost (read by src/weather.c at boot).
+;
+; One room vnum, or a range "<first>-<last>", per line.  Only outdoor water
+; rooms (sector 6 or 7) in these ranges count, so a range may cover a whole
+; lake.  Lines starting with ';' are comments; the file ends with '$'.
+;
+; Each zone's ice thickens by 1 an hour at -5 degrees or colder and thins by
+; 2 an hour above freezing (0-6).  At 4 the water bears weight: it can be
+; walked on without a boat, players there are told, 'weather' says so, and
+; fishing means chopping a hole.  When it thins to 0 the ice breaks up, and
+; anyone on deep water without a boat scrambles to the nearest shore.
+; Don't list rivers with a current, or the sea.
+
+; Kehrn Stronghold (328): the blue lake and the lake by the dock
+32879-32932
+
+; Serdim-ir-Lesk (320): the pools below the falls, the stagnant pool and the
+; swampy pool (not the rapids, the falls or the chute)
+32060
+32063
+32066-32074
+32098-32110
+32120
+$

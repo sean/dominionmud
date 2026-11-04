@@ -74,6 +74,7 @@ G 1 3031 100  100 			* And give it a lantern. (Max: 100)
 G 1 3032 100  100 			* And give it a bag. (Max: 100)
 G 1 3012 100  100 			* And give it a Mexican taco. (Max: 100)
 G 1 1811 25  100 			* And give it a leather bound-canteen. (Max: 25)
+G 1 91 10  100 			* And give it a fishing pole. (Max: 10)
 M 0 3060 12 3020 100 	* a member of the Red Guard at Dalkyst Road. (Max: 12)
 E 1 1122 1 17 100 			* And equip it with a long steelsword. (Max: 1)
 D 0 3020 1 0 100 		* Open Eastern door at Dalkyst Road
@@ -227,5 +228,7 @@ M 0 3064 3 3011 100 	* the drunk at The Meeting Room of Dalkyst Inn. (Max: 3)
 E 1 3020 1 17 100 			* And equip it with a dagger. (Max: 1)
 M 0 3062 1 3007 100 	* the common citizen at Eastern Northwall Road. (Max: 1)
 M 0 3060 12 3031 100 	* a member of the Red Guard at Barracks. (Max: 12)
+M 0 3011 1 3039 100 	* the town crier at The Courtyard of Elrhinn. (Max: 1)
+M 0 3012 1 3088 100 	* the lamplighter at Dalkyst Inn. (Max: 1)
 S
 $~

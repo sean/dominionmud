@@ -311,7 +311,7 @@ its header written in the worst handwriting you have ever laid eyes on:
 "The Adventurer's Board".  The training area lies to the east, and the
 street to the north.
 ~
-11 0 1
+11 8 1
 D0
 ~
 ~
@@ -348,7 +348,7 @@ stacked about the room.  Everything is coated with a thin film of soot,
 and the windows are so grimy that the shop is lit only by its own wares.
 The door leads south to Darkmin Lane.
 ~
-11 0 1
+11 8 1
 D2
 ~
 ~
@@ -412,7 +412,7 @@ younger mages giggles at the wonder the ball of fire disappears.  The young
 interrupting mage is cuffed on the ear by the eldest and they join hands
 to start the incantation.
 ~
-11 0 1
+11 8 1
 D0
 ~
 ~
@@ -445,7 +445,7 @@ floor, most of them already taken, and the air is thick with smoke and
 the smell of strange spirits.  Stairs at the far end of the cantina lead
 up to the inn.  The door leads south to Darkmin Lane.
 ~
-11 0 1
+11 8 1
 D2
 ~
 ~
@@ -460,7 +460,7 @@ the front.  A forge has been built into the southern wall which is
 still blazing hot and a cot is pushed into the corner of the room along
 with several large shields in a cluttered heap.
 ~
-11 0 1
+11 8 1
 D1
 ~
 ~
@@ -475,7 +475,7 @@ your recent adventures and requests.  There is also a small basket for
 you to place donations from the people to further the quest for better
 temples and to help out the members of the robed orders.
 ~
-11 0 1
+11 8 1
 D0
 ~
 ~
@@ -889,7 +889,7 @@ beside a comfortable-looking chair, and the glow of a roaring forge for
 melting iron and steel spills out from the back room.  The air is hot
 and smells of coal smoke.  A door leads west to Rithrin Street.
 ~
-11 0 1
+11 8 1
 D3
 ~
 ~
@@ -922,7 +922,7 @@ pikes and the like are on display all about the shop, polished until
 they gleam, and a forge glows in the back room.  The door leads east to
 Maldre Road.
 ~
-11 0 1
+11 8 1
 D1
 ~
 ~
@@ -1001,7 +1001,7 @@ quietly in a small corner, keeping to themselves.  A dagger target board
 hangs on one wall with a picture of the High Lord of Mytherandil nailed
 over it, well-perforated.  The door leads west to Maldre Road.
 ~
-11 0 1
+11 8 1
 D3
 ~
 ~
@@ -1223,7 +1223,7 @@ only the gods know what chaos might be raised if anyone could read them
 all at once.  Ink pots and quills cover a writing desk, and the air
 smells of parchment and wax.  The door leads south to the Main Road.
 ~
-11 0 1
+11 8 1
 D2
 ~
 ~
@@ -1238,7 +1238,7 @@ Strange vapors curl from a bubbling flask on the counter, and every so
 often a small puff of colored smoke rises from somewhere in the back.
 The door leads south to the Main Road.
 ~
-11 0 1
+11 8 1
 D2
 ~
 ~
@@ -1351,7 +1351,7 @@ everywhere.  Amid the mountains of leather a counter stands in the
 corner, covered in awls, needles and spools of waxed thread.  The door
 leads south to the Main Road.
 ~
-11 0 1
+11 8 1
 D2
 ~
 ~
@@ -1780,7 +1780,7 @@ counting their money, making withdrawals and deposits and checking their
 balances, while clerks scratch busily in great leather-bound ledgers.
 Iron bars protect the counter.
 ~
-11 0 1
+11 8 1
 D0
 ~
 ~
@@ -1795,7 +1795,7 @@ more money-minded.  Flour dusts every surface, and the heat of the ovens
 makes the room warm and cozy.  A doorway in the northern wall leads back
 to the Main Road.
 ~
-11 0 1
+11 8 1
 D0
 ~
 ~
@@ -1908,7 +1908,7 @@ teeth with.  The arrows on display are perfect, each with red and yellow
 fletching at its tail to show that it was made here.  Shavings of yew
 and ash litter the floor.  The door leads north to the Main Road.
 ~
-11 0 1
+11 8 1
 D0
 ~
 ~
@@ -1974,7 +1974,7 @@ beneath a window of colored glass.  Candles burn in silver stands along
 the walls, filling the temple with a warm and steady light and the
 faint, sweet smell of beeswax.  The foyer lies back to the east.
 ~
-11 0 1
+11 8 1
 D1
 ~
 ~
@@ -1988,7 +1988,7 @@ The crest of Light, Malachi's symbol, hangs on the far wall opposite the
 doorway that leads back to the street, gleaming as though lit from
 within.  An archway to the west leads deeper into Malachi's Temple.
 ~
-11 0 1
+11 8 1
 D2
 ~
 ~
@@ -2024,7 +2024,7 @@ letters of blue and silver.  The room is dim and peaceful.  To the east
 a small archway leads to the room where His followers worship, and the
 doorway to the south leads back to Tarak's Walk.
 ~
-11 0 1
+11 8 1
 D1
 ~
 ~
@@ -2043,7 +2043,7 @@ the room, carved with the sigil of the god and lit by a ring of tall
 black candles.  The air is cool and hushed, and your footsteps echo
 softly.  The foyer lies back to the west.
 ~
-11 0 1
+11 8 1
 D3
 ~
 ~

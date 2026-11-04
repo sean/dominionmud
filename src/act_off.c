@@ -1590,7 +1590,7 @@ ACMD(do_shoot)
 {
   struct char_data *vict;
   struct obj_data  *missile, *bow;
-  int    percent, prob, loc, dam;
+  int    percent, prob, loc, dam, wind;
 
   extern char *locations[];
 
@@ -1631,6 +1631,8 @@ ACMD(do_shoot)
 
   percent = number(1, 101);     /* 101% is a complete failure */
   prob    = (IS_NPC(ch) ? number(GET_SKILL(ch, SKILL_RANGE), 100) : GET_SKILL(ch, SKILL_RANGE)) + (GET_DEX(ch) >> 1);
+  wind    = weather_ranged_penalty(ch, vict);    /* storms blow shots off course */
+  prob   -= wind;
 
   /* We're making the shot no matter what happens, so use up the ammo; */
   /* once the last one is gone the weapon is no longer loaded.         */
@@ -1643,7 +1645,10 @@ ACMD(do_shoot)
   act("You shoot $p at $N.", TRUE, ch, missile, vict, TO_CHAR);
 
   if (percent > prob && !IS_IMMORT(ch)) {
-    act("$p misses its mark.", FALSE, ch, missile, NULL, TO_CHAR);
+    if (wind && percent <= prob + wind)
+      act("The wind catches $p and carries it wide.", FALSE, ch, missile, NULL, TO_CHAR);
+    else
+      act("$p misses its mark.", FALSE, ch, missile, NULL, TO_CHAR);
     obj_to_room(missile, vict->in_room);
     if (vict->in_room != ch->in_room)
       act("$p flies into the room and lands harmlessly on the ground.",
@@ -1669,7 +1674,7 @@ ACMD(do_shoot)
 /* throw obj vict */
 ACMD(do_throw)
 {
-  int  i, prob, percent, loc, pos = -1, dam;
+  int  i, prob, percent, loc, pos = -1, dam, wind;
   char arg1[MAX_INPUT_LENGTH];
   char arg2[MAX_INPUT_LENGTH];
   struct char_data *vict;
@@ -1730,6 +1735,8 @@ ACMD(do_throw)
 
   percent = number(1, 101);     /* 101% is a complete failure */
   prob    = (IS_NPC(ch) ? number(GET_SKILL(ch, SKILL_THROWING), 100) : GET_SKILL(ch, SKILL_THROWING)) + (GET_DEX(ch) >> 1);
+  wind    = weather_ranged_penalty(ch, vict);    /* storms blow throws off course */
+  prob   -= wind;
 
   /* The object itself is thrown (it used to be destroyed and a fresh */
   /* copy made from its prototype, losing anything done to it).       */
@@ -1752,7 +1759,9 @@ ACMD(do_throw)
 	TRUE, NULL, missile, vict, TO_NOTVICT);
     act("$p flies past you and lands harmlessly on the ground.",
 	TRUE, vict, missile, NULL, TO_CHAR);
-    if (vict->in_room != ch->in_room)
+    if (wind && percent <= prob + wind)
+      act("The wind catches $p and carries it wide of $N.", FALSE, ch, missile, vict, TO_CHAR);
+    else if (vict->in_room != ch->in_room)
       act("$p misses $N.", FALSE, ch, missile, vict, TO_CHAR);
     if (number(0, 10) == 10)
       learn_from_mistake(ch, SKILL_THROWING);

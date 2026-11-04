@@ -128,6 +128,37 @@ abdl d 1000 S
 49 100 44 1d1+30000 1d8+78
 2000 0
 8 8 1
+#3011
+crier town bellman~
+the town crier~
+The town crier of Elrhinn is here, swinging a brass handbell.
+~
+A stout, red-faced man in a blue coat with brass buttons and a hat with
+a feather in it.  He has a voice that could wake the dead, a brass
+handbell, and a scroll of the day's news that he does not really need to
+read.
+~
+dn 0 500 E
+8 19 18 8d10+60 1d6+1
+25 2500
+8 8 1
+Race: 0
+E
+#3012
+lamplighter lamp lighter~
+the lamplighter~
+The lamplighter of Elrhinn is here, a ladder over one shoulder.
+~
+A thin old man with a long pole, a short ladder and a little brass can
+of oil.  He knows every lamp in Elrhinn by name, and he talks to them as
+he lights them.
+~
+dn 0 500 E
+6 15 14 6d10+40 1d4+1
+15 1500
+8 8 1
+Race: 0
+E
 #3020
 Magus guildmaster master mage archmage~
 Magus~

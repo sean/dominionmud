@@ -791,7 +791,7 @@ int mprog_do_ifchck(char *ifchck, struct char_data *mob, struct char_data *actor
     {
       lhsvl = (time_info.hours);
       rhsvl = atoi(val);
-      if (lhsvl > 24 || lhsvl < 1)
+      if (lhsvl > 23 || lhsvl < 0)     /* midnight is hour 0 */
 	return -1;
       else
 	return mprog_veval(lhsvl, opr, rhsvl);

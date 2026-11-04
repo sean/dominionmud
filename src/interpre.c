@@ -90,8 +90,10 @@ ACMD(do_equipment);
 ACMD(do_examine);
 ACMD(do_exit);
 ACMD(do_exits);
+ACMD(do_fish);
 ACMD(do_flee);
 ACMD(do_follow);
+ACMD(do_forage);
 ACMD(do_force);
 ACMD(do_gecho);
 ACMD(do_gen_comm);
@@ -406,6 +408,7 @@ const struct command_info cmd_info[] = {
   { "force"    , POS_SLEEPING, do_force    , LVL_GOD, 0 },
   { "fart"     , POS_RESTING , do_action   , 0, 0 },
   { "fill"     , POS_STANDING, do_pour     , 0, SCMD_FILL },
+  { "fish"     , POS_STANDING, do_fish     , 0, 0 },
   { "flash"    , POS_STANDING, do_action   , 0, 0 },
   { "flee"     , POS_FIGHTING, do_flee     , 1, 0 },
   { "flex"     , POS_STANDING, do_action   , 0, 0 },
@@ -413,6 +416,7 @@ const struct command_info cmd_info[] = {
   { "flirt"    , POS_RESTING , do_action   , 0, 0 },
   { "follow"   , POS_RESTING , do_follow   , 0, 0 },
   { "fondle"   , POS_RESTING , do_action   , 0, 0 },
+  { "forage"   , POS_STANDING, do_forage   , 0, 0 },
   { "freeze"   , POS_DEAD    , do_wizutil  , LVL_FREEZE, SCMD_FREEZE },
   { "french"   , POS_RESTING , do_action   , 0, 0 },
   { "frown"    , POS_RESTING , do_action   , 0, 0 },

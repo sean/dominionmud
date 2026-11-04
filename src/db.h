@@ -83,6 +83,36 @@ void    boot_db(void);
 int     create_entry(char *name, char *email);
 void    zone_update(void);
 long    real_room(long virt);
+
+/* weather.c: temperature, floods, storms */
+int     weather_season(void);
+const char *season_name(int season);
+void    weather_init_climates(void);
+void    update_temperature(int zone);
+const char *temperature_word(int t);
+int     is_outdoors(struct char_data *ch);
+int     room_outdoors(long room);
+int     weather_downpour(int zone);
+const char *downpour_word(int zone);
+int     room_temperature(long room);
+int     is_warmly_dressed(struct char_data *ch);
+int     feels_cold(struct char_data *ch);
+int     weather_ranged_penalty(struct char_data *ch, struct char_data *vict);
+void    load_floods(void);
+int     exit_flooded(long room, int dir);
+int     feels_hot(struct char_data *ch);
+void    load_ice(void);
+int     room_frozen(long room);
+void    weather_set_ice(int zone, int level);
+
+/* routine.c: NPC daily routines (lib/data/routines) */
+void    load_routines(void);
+void    routines_hour(void);
+int     routine_pulse(struct char_data *ch);
+int     routine_keeps_place(struct char_data *ch);
+int     routine_shuns_weather(struct char_data *ch, long to_room);
+void    routine_status(struct char_data *ch, struct char_data *mob);
+void    routine_show(struct char_data *ch);
 char    *fread_string(FILE *fl, char *error);
 void    fread_to_eol( FILE * fl );
 long    fread_long( FILE * fl );

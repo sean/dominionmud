@@ -809,6 +809,23 @@ void shopping_list(char *arg, struct char_data * ch,
 }
 
 
+/* The (first) shop room of a shopkeeper, as a real room number, or */
+/* NOWHERE if ch keeps no shop.  Used by the NPC routines.           */
+long shop_room_of_keeper(struct char_data *keeper)
+{
+  SPECIAL(shop_keeper);
+
+  int shop_nr;
+
+  if (!IS_NPC(keeper) || mob_index[GET_MOB_RNUM(keeper)].func != shop_keeper)
+    return NOWHERE;
+  for (shop_nr = 0; shop_nr < top_shop; shop_nr++)
+    if (SHOP_KEEPER(shop_nr) == keeper->nr && SHOP_ROOM(shop_nr, 0) != NOWHERE)
+      return real_room(SHOP_ROOM(shop_nr, 0));
+  return NOWHERE;
+}
+
+
 int ok_shop_room(int shop_nr, int room)
 {
   int index;
@@ -845,8 +862,15 @@ SPECIAL(shop_keeper)
   if (!ok_shop_room(shop_nr, world[ch->in_room].number))
     return (0);
 
-  if (!AWAKE(keeper))
+  if (!AWAKE(keeper)) {
+    if (CMD_IS("buy") || CMD_IS("sell") || CMD_IS("list") ||
+	CMD_IS("value") || CMD_IS("offer")) {
+      act("$N is asleep, and the shop is closed until morning.",
+	  FALSE, ch, 0, keeper, TO_CHAR);
+      return (TRUE);
+    }
     return (FALSE);
+  }
 
   if (CMD_IS("steal")) {
     /* tricky code for when PC's try to steal shit from keeper */

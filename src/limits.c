@@ -184,6 +184,11 @@ int move_gain(struct char_data * ch)
   if (ch->in_room != NOWHERE && IS_SET(ROOM_FLAGS(ch->in_room), ROOM_REGEN))
      gain <<= 3;                /* x8 */
 
+  /* out in freezing weather without warm clothes, or in sweltering
+     heat with no water (weather.c) */
+  if (feels_cold(ch) || feels_hot(ch))
+     gain >>= 1;
+
   return (gain);
 }
 

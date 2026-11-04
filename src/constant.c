@@ -83,6 +83,7 @@ const char *exit_bits[] = {
   "SECRET",
   "CLIMB",
   "ARROWSLIT",
+  "FLOODS",
   "\n"
 };
 

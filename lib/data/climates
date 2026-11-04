@@ -1,0 +1,18 @@
+; Zone climates (read by src/weather.c at boot).
+;
+; Every zone gets a climate from the sectors of its outdoor rooms (a quarter
+; glacier: arctic; 30% mountain: cold; 30% desert: desert; 30% jungle:
+; tropical; otherwise temperate).  Many zones were built before those sector
+; types existed, so this file overrides the guess: one "<zone> <climate>"
+; per line, the climate being temperate, cold, arctic, desert or tropical.
+; Lines starting with ';' are comments; the file ends with '$'.
+;
+; Relative to temperate: cold -8 degrees, arctic -18, desert +12 by day and
+; -6 at night, tropical +8.
+
+410 desert      ; Desert of Desolation
+53  desert      ; Arena / Desert of Demise
+58  tropical    ; The Jungle (and the Isle of Karras)
+250 cold        ; Western Mountain
+328 cold        ; Kehrn Mountains
+$

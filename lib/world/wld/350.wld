@@ -628,7 +628,7 @@ worthless, but some of it looks useful, and gnomish gadgets of every
 description lie about; like most gnomish things, few of them work.  The
 door leads west to the square.
 ~
-350 hp 1
+350 dhp 1
 D3
 Northeast Center Square
 ~
@@ -641,7 +641,7 @@ The Sheathed Sword~
 many fitted with clever gnomish catches and springs, line the walls, and
 an anvil stands in the back.  The door leads south to the square.
 ~
-350 hp 1
+350 dhp 1
 D2
 Northwest Center Square
 ~
@@ -654,7 +654,7 @@ Herrik's Bakery~
 In the back, ovens glow and racks of bread and rolls cool beside them.
 The door leads south to the square.
 ~
-350 hp 1
+350 dhp 1
 D2
 Northeast Center Square
 ~

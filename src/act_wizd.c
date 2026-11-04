@@ -828,6 +828,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 	    (mob_index[GET_MOB_RNUM(k)].func ? "Exists" : "None"),
 	    k->mob_specials.damnodice, k->mob_specials.damsizedice);
     send_to_char(buf, ch);
+    routine_status(ch, k);
   }
   sprintf(buf, "Carried: weight: %ld/%d, items: %d/%ld; ",
 	  IS_CARRYING_W(k), CAN_CARRY_W(k), IS_CARRYING_N(k), CAN_CARRY_N(k));
@@ -2271,6 +2272,7 @@ ACMD(do_show)
     { "religion",       LVL_GRGOD },                    /* 10 */
     { "guild",          LVL_GOD },
     { "trainers",       LVL_BUILDER },
+    { "routines",       LVL_IMMORT },
     { "\n", 0 }
   };
 
@@ -2418,6 +2420,9 @@ ACMD(do_show)
     break;
   case 12:
     show_guild_trainers(ch);
+    break;
+  case 13:
+    routine_show(ch);
     break;
 
   default:

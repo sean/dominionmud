@@ -243,17 +243,21 @@ reason, PURGE should only be used on players in disciplinary situations.
 
 See also: DC
 #
-REBOOT
+RELOAD
 
-reboot <'*'|file>
+reload <'*'|file>
 
-REBOOT is used to load text files such as the MOTD from disk into memory.
-REBOOT * reads all text files.  Valid files are:
+RELOAD is used to load text files such as the MOTD from disk into memory.
+RELOAD * reads all text files.  Valid files are:
 
 wizlist		immlist		news		credits
 motd		imotd		help		info
 policy		handbook	background	xhelp
-wizhelp		quote
+wizhelp		exp		attr		races
+religions	routines
+
+RELOAD ROUTINES rereads lib/data/routines, the NPC daily timetables, and
+puts every NPC back on its routine.  Bad lines are logged as SYSERRs.
 
 #
 REROLL
@@ -401,6 +405,10 @@ show <mode> [argument]
 The SHOW command displays information.  Some modes of show require additional
 information, such as a player name.  Show without any arguments shows a list
 of valid modes.
+
+SHOW ROUTINES lists every NPC in the game with a daily routine: where it is,
+where it should be at this hour, and whether it has settled, is on its way,
+is asleep or is stuck.  STAT on such an NPC shows the same.
 
 #
 SHUTDOWN
@@ -760,4 +768,22 @@ the mob that is being edited.
 > mstat
 
 See also:  MEDIT MSET
+#
+WEATHER
+
+weather sky <type>
+weather flood <0-12>
+weather ice <0-6>
+
+Changes the weather in the zone you are standing in, for testing.  The sky
+types are heatwave, sizzling, sunny, clear, partcloud, cloudy, raining,
+pouring, thunderstorm, tornado, snowing, snowstorm and blizzard; the
+temperature is worked out again at once.  A flood level of 6 or more closes
+the zone's flooding exits (lib/data/floods), lower opens them.  An ice
+level of 4 or more freezes the zone's lakes (lib/data/ice) so they can be
+walked on; lower breaks the ice up, and anyone on it scrambles ashore.  The normal
+weather takes over again with the next change.  'weather' with no argument
+also shows immortals the humidity, temperature, climate and flood level.
+
+See also: TICK
 #~

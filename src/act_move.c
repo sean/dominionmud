@@ -235,8 +235,10 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   }
 
   /* if this room or the one we're going to needs a boat, check for one */
-  if ((SECT(ch->in_room) == SECT_WATER_NOSWIM) ||
-      (SECT(EXIT(ch, dir)->to_room) == SECT_WATER_NOSWIM)) {
+  /* (frozen lakes, weather.c, can be walked on) */
+  if ((SECT(ch->in_room) == SECT_WATER_NOSWIM && !room_frozen(ch->in_room)) ||
+      (SECT(EXIT(ch, dir)->to_room) == SECT_WATER_NOSWIM &&
+       !room_frozen(EXIT(ch, dir)->to_room))) {
     if (!has_boat(ch)) {
       send_to_char("You need a boat to go there.\r\n", ch);
       return 0;
@@ -269,6 +271,17 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
     }
   }
 
+  /* rivers in flood (weather.c, lib/data/floods) */
+  if (exit_flooded(ch->in_room, dir)) {
+    if (!IS_NPC(ch) && GET_LEVEL(ch) >= LVL_IMMORT)
+      send_to_char("(You walk across the floodwater as if it weren't there.)\r\n", ch);
+    else {
+      send_to_char("The water is in flood: a brown torrent full of branches races past.\r\n"
+		   "You would be swept away.  Wait for it to go down.\r\n", ch);
+      return 0;
+    }
+  }
+
   /* move points needed is avg. move loss for src and destination sect type */
   need_movement = (movement_loss[SECT(ch->in_room)] +
 		   movement_loss[SECT(EXIT(ch, dir)->to_room)]) >> 1;
@@ -281,6 +294,10 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
     else if (WEATHER(ch->in_room) == SKY_TORNADO)
       need_movement = need_movement + 6;
   }
+  /* freezing weather without warm clothes, or sweltering heat without
+     water (weather.c) */
+  if (feels_cold(ch) || feels_hot(ch))
+    need_movement += 1;
 
   if (GET_MOVE(ch) < need_movement && !IS_NPC(ch) && !MOUNTED(ch)) {
     if (need_specials_check && ch->master)
@@ -346,6 +363,8 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 
   if (ch->desc != NULL)
     look_at_room(ch, 0);
+  if (ch->desc != NULL && room_frozen(ch->in_room))
+    send_to_char("The ice creaks under your feet.\r\n", ch);
   /* check to see if player set off trap entering room */
   check_trigger_trap(ch, NULL, TRIG_ENTER_ROOM);
 

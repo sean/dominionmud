@@ -231,6 +231,8 @@ ACMD(do_reboot)
     parse_races( );
   else if (!str_cmp(arg, "religions"))
     parse_religions( );
+  else if (!str_cmp(arg, "routines"))
+    load_routines( );
   else if (!str_cmp(arg, "xhelp")) {
 #ifdef OLD_HELP
     if (help_fl)
@@ -301,6 +303,7 @@ ACMD(do_reboot)
                   "\t\tattr       - Reload the Attribute Map\r\n"
                   "\t\traces      - Reload the Races\r\n"
                   "\t\treligions  - Reload the Religions\r\n"
+                  "\t\troutines   - Reload the NPC Daily Routines\r\n"
                   "\t\txhelp      - Reload the Extra Help\r\n"
                   "\t\twizhelp    - Reload the WizHelp\r\n", ch);
     return;
@@ -406,6 +409,8 @@ void boot_db(void)
     assign_mobiles();
     log("   Shopkeepers.");
     assign_the_shopkeepers();
+    log("   NPC routines.");
+    load_routines();
     log("   Objects.");
     assign_objects();
     log("   Rooms.");
@@ -444,6 +449,8 @@ void boot_db(void)
   }
   log("Restoring the game time:");
   reset_time();
+  load_floods();
+  load_ice();
 
   reset_q.head = reset_q.tail = NULL;
 
@@ -469,7 +476,7 @@ void reset_time(void)
   if ( restore_mud_time( &time_info ) != 0 )
     time_info = mud_time_passed(time(0), beginning_of_time);
 
-  for (i = 0; i < top_of_zone_table; ++i) {
+  for (i = 0; i <= top_of_zone_table; ++i) {
     if (time_info.hours <= 4)
       zone_table[i].weather_info.sunlight = SUN_DARK;
     else if (time_info.hours == 5)
@@ -490,7 +497,12 @@ void reset_time(void)
 
     zone_table[i].weather_info.change = 0;
     zone_table[i].weather_info.sky = SKY_SUNNY;
+    zone_table[i].weather_info.flood = 0;
+    zone_table[i].weather_info.flooded = FALSE;
+    zone_table[i].weather_info.ice = 0;
+    zone_table[i].weather_info.iced = FALSE;
   }
+  weather_init_climates();      /* and each zone's temperature */
 
   sprintf(buf, "   Current Gametime: %dH %dD %dM %dY.",
           time_info.hours, time_info.day,
