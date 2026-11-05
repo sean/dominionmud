@@ -234,6 +234,8 @@ ACMD(do_reboot)
     load_routines( );
   else if (!str_cmp(arg, "quests"))
     load_quests( );
+  else if (!str_cmp(arg, "theater") || !str_cmp(arg, "theatre"))
+    load_theater( );
   else if (!str_cmp(arg, "xhelp")) {
 #ifdef OLD_HELP
     if (help_fl)
@@ -306,6 +308,7 @@ ACMD(do_reboot)
                   "\t\treligions  - Reload the Religions\r\n"
                   "\t\troutines   - Reload the NPC Daily Routines\r\n"
                   "\t\tquests     - Reload the Quests\r\n"
+                  "\t\ttheater    - Reload the Lyceum's plays and schedule\r\n"
                   "\t\txhelp      - Reload the Extra Help\r\n"
                   "\t\twizhelp    - Reload the WizHelp\r\n", ch);
     return;
@@ -417,6 +420,8 @@ void boot_db(void)
     load_routines();
     log("   Quests.");
     load_quests();
+    log("   The Lyceum.");
+    load_theater();
     log("   Objects.");
     assign_objects();
     log("   Rooms.");

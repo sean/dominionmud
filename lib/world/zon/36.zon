@@ -1,0 +1,47 @@
+#36
+The Lyceum Theatre~
+Claude~
+ALL~
+3001 2
+3699 30 2
+*
+* Last Updated: Wed Nov  4 2026
+*           By: Claude
+*
+* The Lyceum, a theatre off Southwall Road in Elrhinn.  The shows, the
+* performers' comings and goings and the audience are run by theater.c
+* from lib/data/theater; the theatregoers (3606-3610) are loaded only for
+* a performance and leave afterwards.
+*
+D 0 3085 2 1 100 		* Close the theatre doors (street side).
+D 0 3600 0 1 100 		* Close the street doors (foyer side).
+D 0 3600 2 1 100 		* Close the padded doors (foyer side).
+D 0 3601 0 1 100 		* Close the padded doors (auditorium side).
+D 0 3601 3 1 100 		* Close the stage door (auditorium side).
+D 0 3602 1 1 100 		* Close the stage door (wings side).
+D 0 3604 5 1 100 		* Close the trapdoor (prop room side).
+D 0 3605 4 1 100 		* Close the trapdoor (cellar side).
+M 0 3600 1 3600 100 	* Madame Orsolya at the box office. (Max: 1)
+M 0 3601 1 3600 100 	* a burly usher in the foyer. (Max: 1)
+M 0 3602 1 3603 100 	* Lysandra Vale in the dressing rooms. (Max: 1)
+M 0 3603 1 3603 100 	* Corvin Ashby in the dressing rooms. (Max: 1)
+M 0 3604 1 3603 100 	* Pip Fennel in the dressing rooms. (Max: 1)
+M 0 3605 1 3602 100 	* Old Bramwell in the wings. (Max: 1)
+O 0 3602 1 3603 100 	* a battered costume trunk in the dressing rooms. (Max: 1)
+M 0 3611 8 3605 100 	* a giant cellar rat in the cellar. (Max: 8)
+M 0 3611 8 3606 100 	* a giant cellar rat in the damp tunnel. (Max: 8)
+M 0 3611 8 3608 100 	* a giant cellar rat at the junction. (Max: 8)
+M 0 3611 8 3609 100 	* a giant cellar rat in the collapsed passage. (Max: 8)
+M 0 3611 8 3609 100 	* a giant cellar rat in the collapsed passage. (Max: 8)
+M 0 3611 8 3610 100 	* a giant cellar rat at the cistern. (Max: 8)
+M 0 3611 8 3611 100 	* a giant cellar rat in the gnawed passage. (Max: 8)
+M 0 3611 8 3611 100 	* a giant cellar rat in the gnawed passage. (Max: 8)
+M 0 3612 2 3607 100 	* a swarm of squeaking rats in the scenery store. (Max: 2)
+M 0 3612 2 3610 100 	* a swarm of squeaking rats at the cistern. (Max: 2)
+M 0 3613 2 3606 100 	* a pale cellar spider in the damp tunnel. (Max: 2)
+M 0 3613 2 3613 100 	* a pale cellar spider in the forgotten dressing room. (Max: 2)
+M 0 3614 1 3612 100 	* the Rat King on his throne. (Max: 1)
+G 1 3603 1 -1 		* a tiny gilt crown. (Max: 1)
+O 0 3601 1 3612 100 	* the golden mask in the Rat King's hoard. (Max: 1)
+S
+$~

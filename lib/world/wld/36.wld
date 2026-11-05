@@ -1,0 +1,359 @@
+#3600
+The Foyer of the Lyceum~
+   A high, gilded foyer, its plaster ceiling painted with masks and
+garlands that the damp has started to peel.  Brass lamps burn in their
+sconces and a worn red carpet runs from the street doors in the north to a
+pair of padded doors in the south, which open into the auditorium.  Beside
+them stands the box office, a little booth of carved wood with a brass
+grille, and a playbill is pasted to the wall beneath a lamp.
+~
+36 d 0
+D0
+~
+door doors street~
+1 -1 3085
+D2
+~
+door doors padded~
+1 -1 3601
+E
+playbill bill wall~
+A playbill, freshly pasted:
+
+            THE LYCEUM, SOUTHWALL ROAD, ELRHINN
+
+     Every evening but the Day of the Moon, curtain at the 7th hour
+     of the evening.  On the Day of the Great Gods and the Day of
+     the Sun, a matinee at the 2nd hour of the afternoon and a late
+     performance at the 9th hour of the evening.
+
+     Tickets at the box office.  Ask Madame Orsolya what is playing
+     tonight (LIST), and BUY a TICKET.
+
+     The management asks patrons NOT to brawl in the auditorium.
+~
+E
+box office booth grille~
+A narrow booth of carved and varnished wood, with a brass grille and a
+little slot for coins.  A cushion on the stool inside has been sat flat by
+years of Madame Orsolya.
+~
+S
+#3601
+The Auditorium of the Lyceum~
+   Rows of red plush seats, worn bald on the arms, slope down toward a
+wide wooden stage framed by a gilded proscenium arch.  Footlights in brass
+cups line the front of the stage, and a heavy velvet curtain the colour of
+old wine hangs above it.  The air smells of greasepaint, candle smoke and
+oranges.  A small door at stage left, half hidden by the curtain, leads
+west into the wings, and the padded doors to the foyer are at the back of
+the hall.
+~
+36 d 0
+D0
+~
+door doors padded~
+1 -1 3600
+D3
+~
+door stage~
+1 -1 3602
+E
+stage boards~
+The boards of the stage are scuffed pale where the actors stand, and in
+places patched with newer wood.  Near the back, behind the painted flats,
+a square of planking sounds hollow under your foot.
+~
+E
+curtain velvet~
+A heavy velvet curtain, faded to the colour of old wine and darned in a
+dozen places.  It is drawn up and down by ropes in the wings.
+~
+E
+footlights lights~
+A row of candles in brass cups, each with a polished reflector to throw
+the light up at the actors' faces.
+~
+E
+seats plush rows~
+Red plush seats, worn bald on the arms by generations of elbows.  Someone
+has carved a heart and two initials into the back of one.
+~
+S
+#3602
+The Wings~
+   Behind the proscenium the theatre is all ropes and shadows.  Lines run
+up from cleats on the wall into the darkness of the fly loft, where the
+painted backdrops hang folded like the wings of great bats.  Flats of
+painted scenery lean against the brickwork: a castle wall, a moonlit
+forest, a ship's rail.  The small door to the stage is east; a passage
+runs south to the dressing rooms, and the prop room is west.
+~
+36 d 0
+D1
+~
+door stage~
+1 -1 3601
+D2
+~
+~
+0 -1 3603
+D3
+~
+~
+0 -1 3604
+E
+ropes lines cleats~
+Ropes as thick as your wrist, each tied off to a cleat and labelled in
+chalk: CURTAIN, MOON, CASTLE, DO NOT TOUCH.
+~
+E
+flats scenery backdrops~
+Canvas stretched on wooden frames and painted, from close up, in great
+crude strokes that only look like anything from the stalls.
+~
+S
+#3603
+The Dressing Rooms~
+   A long, low room lined with mirrors, each framed by a ring of candle
+stubs.  Costumes hang from every hook and rafter: crowns of gilt paper,
+cloaks of dyed sacking, a dragon's head with one eye missing.  The tables
+are crowded with pots of greasepaint, powder puffs and bitten apples, and
+a battered sofa sags beneath a pile of wigs.  The wings are back north.
+~
+36 d 0
+D0
+~
+~
+0 -1 3602
+E
+mirrors candles~
+Your face looks back at you, ringed with guttering candles.  Somebody has
+written BREAK A LEG in greasepaint across the corner of the glass.
+~
+E
+costumes crowns cloaks dragon~
+Everything here is cheaper and shabbier than it looks from the stalls, and
+everything is mended.
+~
+S
+#3604
+The Prop Room~
+   Shelves to the ceiling hold a lifetime of make-believe: wooden swords,
+paste jewels, papier-mache skulls, a stuffed owl, a throne made of painted
+crates.  It is very dusty, and something has been gnawing the corner of a
+painted shield.  In the middle of the floor is a trapdoor with an iron
+ring, once used to make demons rise through the stage; it has been nailed
+shut, and somebody has pulled the nails out again.  The wings are east.
+~
+36 d 0
+D1
+~
+~
+0 -1 3602
+D5
+~
+trapdoor trap door ring~
+1 -1 3605
+E
+trapdoor trap door ring~
+A square trapdoor with an iron ring, set flush with the floor.  The nails
+that held it shut lie in a little heap beside it.  Cold air breathes up
+through the cracks, and with it the smell of rats.
+~
+E
+shelves props swords skulls owl throne~
+A lifetime of make-believe, all of it gnawed.  The rats have been at the
+papier-mache skulls, which must taste of flour paste.
+~
+S
+#3605
+The Cellar Beneath the Stage~
+   A low brick cellar under the boards of the stage.  Light falls in
+stripes between the planks above, and you can hear every footstep made up
+there.  Old machinery rusts in the dark: a winch for the trap, a wooden
+drum for thunder, a trough of sand for rain.  Droppings cover the floor,
+and a hole has been gnawed clean through the east wall, into a tunnel.
+The trapdoor is above you.
+~
+36 d 0
+D1
+~
+~
+0 -1 3606
+D4
+~
+trapdoor trap door~
+1 -1 3604
+E
+winch drum trough machinery~
+The machinery of illusion: the winch that raised the demons, the drum that
+made the thunder.  The rats have nested in the thunder drum.
+~
+S
+#3606
+A Damp Brick Tunnel~
+   An old brick tunnel, arched and slick with damp, older by far than the
+theatre above it.  Water drips from the roots that have pushed through the
+mortar, and the floor is a paste of mud and droppings.  The gnawed hole
+into the cellar is west; the tunnel runs on east, and a low opening leads
+south.
+~
+36 d 0
+D1
+~
+~
+0 -1 3608
+D2
+~
+~
+0 -1 3607
+D3
+~
+~
+0 -1 3605
+S
+#3607
+An Old Scenery Store~
+   A vault where the theatre once stored its scenery, long forgotten.  The
+painted flats have slumped into a heap of rotting canvas, and the rats
+have made tunnels through it.  A crowned king painted on one flat stares
+out with a single gnawed eye.  The way out is north.
+~
+36 d 0
+D0
+~
+~
+0 -1 3606
+E
+king flat canvas~
+A painted king in a painted crown, his face gnawed half away.  Somebody
+has scratched under it, in a child's hand: THE RAT KING LIVES DOWN HERE.
+~
+S
+#3608
+A Junction of Tunnels~
+   Three tunnels meet beneath a brick dome, and the sound of water and
+scratching echoes in from all of them.  An old iron grate in the roof lets
+in a little grey light from the street - you can see boots passing over
+it.  Tunnels lead west, east and south.
+~
+36 d 0
+D1
+~
+~
+0 -1 3609
+D2
+~
+~
+0 -1 3610
+D3
+~
+~
+0 -1 3606
+E
+grate iron roof~
+A rusted grate, much too small to climb through.  Above it is Southwall
+Road; a cart rumbles over and showers you with grit.
+~
+S
+#3609
+A Collapsed Passage~
+   The tunnel ends in a fall of bricks and earth that fills it to the roof.
+Something has dug a dozen burrows into the rubble, and the scratching from
+inside them never quite stops.  The only way out is back west.
+~
+36 d 0
+D3
+~
+~
+0 -1 3608
+S
+#3610
+The Old Cistern~
+   The tunnel opens onto a brick cistern, half full of black water that
+smells of a hundred years.  A narrow ledge runs around its rim.  The
+surface of the water moves now and then, though nothing falls into it.
+Tunnels lead north and south.
+~
+36 d 0
+D0
+~
+~
+0 -1 3608
+D2
+~
+~
+0 -1 3611
+E
+water cistern~
+Black, still and very cold.  Something pale turns over beneath the
+surface and is gone.
+~
+S
+#3611
+The Gnawed Passage~
+   Every inch of this passage has been gnawed: the bricks are pitted, the
+old beams are shredded to splinters, and bones crunch underfoot - bird
+bones, cat bones, and some that are rather bigger.  A rank, warm smell
+comes from the east.  A narrower way leads west, and the cistern is north.
+~
+36 d 0
+D0
+~
+~
+0 -1 3610
+D1
+~
+~
+0 -1 3612
+D3
+~
+~
+0 -1 3613
+S
+#3612
+The Throne of the Rat King~
+   A round chamber heaped with stolen things: buttons, spoons, candle ends,
+paste jewels from the prop room, a single satin shoe.  On top of the heap,
+on a throne of gnawed bones and gilt paper, squats the court of the rats.
+The only way out is west.
+~
+36 d 0
+D3
+~
+~
+0 -1 3611
+E
+heap stolen things buttons spoons shoe~
+A magpie's hoard of a hundred years of the theatre's losses.  Half the
+props that ever went missing from the Lyceum must be here.
+~
+S
+#3613
+The Forgotten Dressing Room~
+   Impossibly, here beneath the city is a dressing room: a mirror ringed
+with candles that have burned down to nubs, a chair with a velvet cushion,
+a gown laid out on a chest as if for tonight's performance.  Everything is
+furred with dust except the mirror, which is perfectly clean.  The gnawed
+passage is east.
+~
+36 d 0
+D1
+~
+~
+0 -1 3611
+E
+mirror~
+Clean as if someone polished it this morning.  Your reflection looks
+tired.  For a moment, behind your shoulder, there seems to be a woman in
+an old-fashioned gown, waiting to go on.  Then there isn't.
+~
+E
+gown chest~
+An actress's gown in a fashion a century old, ivory silk gone the colour of
+weak tea.  A card pinned to it reads: Miss Adelind Rue, The Lady of the
+Lake, opening night.
+~
+S
+$~

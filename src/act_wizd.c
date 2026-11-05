@@ -2274,6 +2274,7 @@ ACMD(do_show)
     { "trainers",       LVL_BUILDER },
     { "routines",       LVL_IMMORT },
     { "quests",         LVL_IMMORT },
+    { "theater",        LVL_IMMORT },
     { "\n", 0 }
   };
 
@@ -2427,6 +2428,9 @@ ACMD(do_show)
     break;
   case 14:
     quest_show(ch, value);
+    break;
+  case 15:
+    theater_show(ch, value);
     break;
 
   default:

@@ -254,7 +254,7 @@ wizlist		immlist		news		credits
 motd		imotd		help		info
 policy		handbook	background	xhelp
 wizhelp		exp		attr		races
-religions	routines	quests
+religions	routines	quests	theater
 
 RELOAD QUESTS rereads lib/data/quests.  Quests a character has on that are
 no longer in the file are dropped the next time he uses QUEST.
@@ -415,6 +415,11 @@ is asleep or is stuck.  STAT on such an NPC shows the same.
 
 SHOW QUESTS [zone] lists the quests in lib/data/quests (all of them, or one
 zone's): number, title, level, kind and objective.
+
+SHOW THEATER shows the Lyceum's state (lib/data/theater): today's shows and
+play, whether the house is open, and how far the play has got.  SHOW
+THEATER OPEN, START and END open the house, raise the curtain and end the
+show at once, for testing.
 
 #
 SHUTDOWN

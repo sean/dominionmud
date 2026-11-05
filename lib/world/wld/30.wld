@@ -1828,8 +1828,9 @@ Eastern Southwall Road~
    Southwall Road runs east and west along the inside of the city wall.
 A house stands on the north side of the road, its windows shuttered.
 You see a turn in the road far off to the east, and close by to the west
-you can see the city gates.  The tall city wall blocks your view to the
-south.
+you can see the city gates.  On the south side, squeezed against the tall
+city wall, stands the narrow gilt front of the Lyceum theatre, its double
+doors under a lamp and a playbill.
 ~
 30 n 1
 D0
@@ -1846,6 +1847,16 @@ D3
 ~
 ~
 0 -1 3084
+D2
+~
+door doors lyceum theatre theater~
+1 -1 3600
+E
+lyceum theatre theater playbill~
+A narrow theatre front of soot-stained plaster squeezed between the warehouses,
+with LYCEUM picked out in flaking gilt over a pair of double doors to the
+south.  A playbill is pasted beside them.
+~
 S
 #3086
 The East End of Southwall Road~

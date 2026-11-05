@@ -1,0 +1,145 @@
+; The Lyceum, Southwall Road, Elrhinn (zone 36): read by src/theater.c at
+; boot and by "reload theater".  Lines starting with ';' are comments, and
+; the file ends with '$'.
+;
+;   price <gold>                    what a ticket costs at the box office
+;   schedule <weekday> [<hour> [<hour>]]
+;                                   curtain times on that day of the week
+;                                   (0 the Day of the Moon ... 6 the Day of
+;                                   the Sun); none means the house is dark.
+;                                   The house opens an hour before.
+;   cast <mob> [<mob> ...]          who plays roles 1, 2, 3...; before the
+;                                   first play it is the company's default,
+;                                   inside a play it is that play's
+;   annoyed <text>                  what a performer does when a fight breaks
+;                                   out ("$n" is put in front; $N is the
+;                                   brawler)
+;
+; Then the plays, one a day in rotation:
+;
+;   #<n> <title>
+;   * <text>                        stage directions, seen by the audience
+;   <role> say <text>               a line ("Lysandra Vale declaims, '...'")
+;   <role> emote <text>             an action ("Pip Fennel trips over...")
+;   <role> audience <text>          an action aimed at someone in the stalls,
+;                                   a player if there is one: $N is him, $E
+;                                   he/she, $M him/her, $S his/her
+;
+; A line is played every 10 seconds; a play of 30 lines runs about five
+; minutes (four hours of game time).  A performer who isn't on the stage
+; (killed, say) has his lines skipped; if role 1 is missing at curtain, the
+; show is cancelled.  Text may only use '$' as above.
+
+price 20
+
+; dark on the Day of the Moon; evenings at 19:00; matinee and late show
+; on the Day of the Great Gods and the Day of the Sun
+schedule 0
+schedule 1 19
+schedule 2 19
+schedule 3 19
+schedule 4 19
+schedule 5 14 21
+schedule 6 14 21
+
+; Lysandra Vale, Corvin Ashby, Pip Fennel
+cast 3602 3603 3604
+
+annoyed stops dead in the middle of a line and glares at $N.  'Do you MIND?  This is a theatre, not a tavern!'
+annoyed throws up $s hands.  'Fighting!  In MY house!  Usher!  USHER!'
+annoyed hisses at $N, 'Some of us are trying to work here!'
+annoyed folds $s arms and taps $s foot until the brawling stops.  'Finished?'
+annoyed sighs theatrically.  'Every night.  Every single night.'
+annoyed points a quivering finger at $N.  'Out!  OUT, you barbarian!'
+
+; ===================================================================
+
+#1 The Fishmonger's Daughter
+
+* The curtain rises on a painted harbour, all blue waves and gulls on strings.  Baskets of wooden fish are piled about the stage.
+3 emote staggers on under a basket of fish, trips over the edge of the curtain, and lands in it.  The stalls roar.
+3 say Tobbit is my name, and fish is my game!  Not that I chose it.  The fish chose me.
+1 emote sweeps on in a fishwife's apron that somehow looks like a ballgown, and the house applauds before she says a word.
+1 say Tobbit, you great herring!  Is that any way to treat my father's mackerel?
+3 audience leans over the footlights and offers $N a wooden fish.  'Fresh this morning, lovey.  Only slightly painted.'
+1 say Oh, to be more than a fishmonger's daughter!  To be loved for my heart and not my halibut!
+2 emote strides on in a fisherman's smock, which does nothing to hide his three-cornered jaw or his noble profile.
+2 say Good morrow, fair maid!  I am but a humble fisherman.  Very humble.  The humblest.  Note my humble hands.
+3 say (Aside.)  Humble?  He's got a signet ring on every finger.  It's Lord Pelham, the great ninny.
+3 audience winks broadly at $N and taps the side of $S nose.  'You won't tell, will you?  Good.'
+1 say A fisherman, you say?  Then tell me, fisherman, which end of the cod goes in the basket?
+2 emote looks at the cod.  He looks at the basket.  He looks at the cod again, and the house howls.
+2 say The... pointy end?
+1 say Well!  You're no fisherman, but you've a kind face.  Come back tomorrow.  Bring a smaller cod.
+* The lights fade to a painted moon.  Somewhere offstage, someone plays a lute badly.
+2 emote kneels beneath a balcony made of fish crates and sings, very loudly and slightly flat.
+3 emote pops up from behind the crates with a bucket.  'Oi!  Some of us have to gut halibut in the morning!'
+2 audience turns to $N with tears in his eyes.  'You, good friend, you have loved.  Tell her I am true!'
+1 emote leans over the balcony.  'Is it true?  Are you a lord?  I could never love a lord!'
+2 say Then I shall give it all up!  My castle!  My carriages!  My extremely nice hats!
+3 say (Aside, to the audience.)  I'll have the hats.
+3 audience tries on an enormous plumed hat and asks $N whether it suits him.  It does not.
+* A painted sun rises over the harbour.  The gulls on their strings bob about.
+1 say Then stay, my lord-who-is-no-lord, and learn the cod.  And I'll learn to wear a hat.
+2 emote sweeps her into his arms and drops a mackerel down the back of his smock.  He carries on regardless.
+3 say And that, good people, is how a fishmonger's daughter caught the biggest fish in Elrhinn!
+* The whole company bursts into a sea shanty, and the stalls stamp and clap along.
+
+#2 The Siege of Llyndyr
+
+* The curtain rises on painted battlements beneath a red sky.  Drums roll in the wings.
+3 emote marches on in a dented helmet two sizes too big, shouldering a spear, and salutes the wrong way.
+3 say Third watch, Castle Llyndyr!  All quiet.  Except for the screaming.  And the beast.
+2 emote enters in an imperial cloak of crimson sacking, his crown of gilt paper catching the footlights.
+2 say Soldier!  What news from the warren beneath my walls?
+3 say The SaberBeast, Your Majesty.  It ate the cook.  And the cook's assistant.  And most of the soup.
+2 say Then by the stones of Llyndyr, I shall face it myself!
+1 emote glides on as the Empress, pale and terrible in black velvet, and the house falls silent.
+1 say You will not, my lord.  An Emperor who dies in a hole is an Emperor no longer.  Send the brave.
+2 audience points straight at $N.  'You!  You have the look of a hero.  Will you go down into the dark for Llyndyr?'
+3 audience hands $N his spear, thinks better of it, and takes it back.
+* A great roar shakes the stage.  The painted battlements wobble alarmingly.
+3 emote dives behind a cardboard merlon.  'That's not in the script!  Is that in the script?'
+1 say Hear it, husband.  It hungers.  It always hungers.  And beneath it, the cubs.
+2 emote draws a wooden sword with a great flourish and strikes a heroic pose that lasts slightly too long.
+2 say Then let it come!  Llyndyr has stood a thousand years and shall stand a thousand more!
+* The stage goes dark but for a single red lamp.  Something enormous, made of fur rugs and two stagehands, lurches out of the wings.
+3 emote screams in a falsetto that brings the house down, and climbs the scenery.
+2 emote duels the SaberBeast across the stage, losing his crown, his cloak and very nearly his trousers.
+1 audience turns to $N with burning eyes.  'Would you stand by, while your Emperor bleeds?  Would YOU?'
+2 emote plunges his sword home.  The SaberBeast collapses with a moan, and one of its back legs walks off on its own.
+3 say Is it dead?  Poke it.  You poke it.
+1 say The beast is dead, but the warren remains.  There will always be a warren, my lord.  Always a dark beneath the stones.
+2 say Then there will always be the brave to go down into it.
+* The drums roll.  The painted sun rises over Llyndyr, slightly crooked.
+2 emote raises his sword to the gods, and the stalls cheer as if he had really done it.
+
+#3 The Lady of the Lake
+
+* An old play, the playbill says: the very one the Lyceum opened with, a hundred years ago.  The curtain rises on a painted lake beneath a silver moon.
+3 emote enters as a ferryman, poling a cardboard boat across the stage on little wheels.
+3 say They say a lady lives beneath the lake.  They say she sings to the drowned.  I say I'm not paid enough.
+1 emote rises slowly through a cloud of white smoke in a gown of silver, wearing a golden mask with an ecstatic, smiling mouth.
+1 say Who rows upon my water in the dead of night?  Who wakes the Lady of the Lake?
+3 emote drops his pole.  'Nobody!  Just a ferryman!  Very small!  Not worth drowning!'
+2 emote strides on as a knight in tin armour, which clanks with every step and gets a laugh every time.
+2 say Lady!  I have come to ask the hand of the drowned princess, whom you keep beneath your waters.
+1 say Many have asked.  None have answered my riddle.  What sings, but has no mouth?
+2 emote thinks very hard.  You can hear him thinking from the back of the stalls.
+2 audience turns desperately to $N.  'You there!  What sings, but has no mouth?'
+1 audience slowly turns the golden mask toward $N, and holds $S gaze far longer than is comfortable.
+3 say (Aside.)  This is the part where the lamps go out.  They always go out.  Every time.  Nobody knows why.
+* The footlights gutter all at once, and for a long moment the theatre is dark.  Somewhere beneath the stage, something scratches.
+3 emote relights a footlight with shaking hands.  'Every time,' he whispers.
+1 say The wind sings, sir knight, and has no mouth.  And so do the drowned.
+2 say Then let me go down to them.  I am not afraid of the dark.
+1 say Everyone is afraid of the dark beneath the stage.  The ones who say otherwise have never been down there.
+3 audience leans to $N and whispers loudly, 'They say the first Lady, Miss Rue, went down below on opening night and never came up.  Her dressing room's still down there.  Sweet dreams!'
+* The painted moon sinks.  The lake turns red, and then black.
+2 emote kneels at the edge of the lake and lays his sword upon the water.  It floats, which it shouldn't, and the house gasps.
+1 emote lifts the golden mask from her face, and beneath it she is weeping real tears.
+1 say Go, then.  Go down.  But remember the way back up.  They always forget the way back up.
+3 emote poles his boat away into the wings, singing a song with no words.
+* The curtain falls very slowly on the empty lake.  For a moment nobody claps.  Then everybody does.
+
+$

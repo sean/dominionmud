@@ -1853,7 +1853,9 @@ void mprog_greet_trigger(struct char_data *ch)
   assert( ch != NULL );
   
   for (vmob = world[ch->in_room].people; vmob != NULL; vmob = vmob->next_in_room)
-    if (IS_NPC(vmob)
+    if (IS_NPC(vmob) && routine_on_outing(vmob))
+      continue;                 /* watching a play (theater.c) */
+    else if (IS_NPC(vmob)
         && ch != vmob
         && CAN_SEE(vmob, ch)
         && (vmob->char_specials.fighting == NULL)

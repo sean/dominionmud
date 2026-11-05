@@ -105,6 +105,13 @@ void    load_ice(void);
 int     room_frozen(long room);
 void    weather_set_ice(int zone, int level);
 
+/* theater.c: the Lyceum in Elrhinn (lib/data/theater) */
+void    load_theater(void);
+void    theater_hour(void);
+void    theater_pulse(void);
+long    theater_outing(struct char_data *mob);
+void    theater_show(struct char_data *ch, char *arg);
+
 /* quest.c: quests handed out by NPCs (lib/data/quests) */
 void    load_quests(void);
 void    quest_kill(struct char_data *victim, struct char_data *killer);
@@ -123,6 +130,7 @@ void    routines_hour(void);
 int     routine_pulse(struct char_data *ch);
 int     routine_keeps_place(struct char_data *ch);
 int     routine_shuns_weather(struct char_data *ch, long to_room);
+int     routine_on_outing(struct char_data *ch);
 void    routine_status(struct char_data *ch, struct char_data *mob);
 void    routine_show(struct char_data *ch);
 char    *fread_string(FILE *fl, char *error);

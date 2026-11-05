@@ -75,8 +75,8 @@ void mobile_activity(void)
      /* daily routines (routine.c): walking somewhere uses up the turn */
      if (ch->mob_specials.routine && routine_pulse(ch))
        continue;
-     /* rand_progs for mobs */
-     if (!is_empty(world[ch->in_room].zone))
+     /* rand_progs for mobs (not while watching a play: theater.c) */
+     if (!is_empty(world[ch->in_room].zone) && !routine_on_outing(ch))
        mprog_random_trigger(ch);
      /* guardian, protects its master */
      if (MOB_FLAGGED(ch, MOB_GUARDIAN) && !FIGHTING(ch) && AWAKE(ch)) {

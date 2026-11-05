@@ -66,6 +66,7 @@ long shop_room_of_keeper(struct char_data *keeper);
 #define ROUTINE_FILE        "data/routines"
 #define ROUTINE_SIGN_VNUM   32          /* "a CLOSED sign", obj/0.obj */
 #define ROUTINE_MAX_STUCK   6           /* pulses before giving up */
+#define ROUTINE_OUTING      1000        /* routine_at at the theatre    */
 #define ROUTINE_SHELTER     -3          /* routine_at of a mobile that
 					   has taken cover from the rain */
 #define ROUTINE_FRESH       -2          /* routine_at of a mobile that has
@@ -425,6 +426,15 @@ static struct routine_step *current_go(struct routine_data *rt, int *idx)
 }
 
 
+/* TRUE if the mobile is in its seat at the Lyceum (theater.c), when */
+/* its mobprogs keep quiet.                                            */
+int routine_on_outing(struct char_data *ch)
+{
+  return IS_NPC(ch) && ch->mob_specials.routine &&
+    ch->mob_specials.routine_at == ROUTINE_OUTING;
+}
+
+
 /* TRUE if the mobile's routine says where it should be (so it shouldn't */
 /* wander about at random).                                              */
 int routine_keeps_place(struct char_data *ch)
@@ -688,9 +698,10 @@ int routine_shuns_weather(struct char_data *ch, long to_room)
 /* TRUE if the mobile did something (and should do nothing else now).    */
 int routine_pulse(struct char_data *ch)
 {
+  static struct routine_step outing;    /* theatre nights (theater.c) */
   struct routine_data *rt;
   struct routine_step *go, *s;
-  long dest, from, shop;
+  long dest, from, shop, out;
   int idx, dir, n, count, rain;
 
   if (!(rt = routine_of(ch)) || ch->in_room == NOWHERE)
@@ -701,6 +712,14 @@ int routine_pulse(struct char_data *ch)
 
   go = current_go(rt, &idx);
   dest = go ? real_room(go->room) : NOWHERE;
+  if ((out = theater_outing(ch)) != NOWHERE) {  /* a night at the Lyceum */
+    outing.kind = RS_TIMED;
+    outing.action = RA_GO;
+    outing.pos = POS_SITTING;
+    go = &outing;
+    dest = out;
+    idx = ROUTINE_OUTING;
+  }
 
   /* the weather: stay in, or run for cover */
   rain = weather_downpour(world[ch->in_room].zone);
@@ -761,7 +780,11 @@ int routine_pulse(struct char_data *ch)
 
   if (go && ch->mob_specials.routine_at != idx) {
     /* arrived (or was already there): settle in */
-    if (ch->mob_specials.routine_at != ROUTINE_FRESH)
+    if (idx == ROUTINE_OUTING) {
+      act("$n finds a seat in the stalls and looks expectantly at the stage.",
+	  TRUE, ch, 0, 0, TO_ROOM);
+      GET_POS(ch) = POS_SITTING;
+    } else if (ch->mob_specials.routine_at != ROUTINE_FRESH)
       step_lines(ch, rt, RS_ARRIVE, idx);
     ch->mob_specials.routine_at = idx;
     ch->mob_specials.routine_stuck = 0;
@@ -789,8 +812,8 @@ int routine_pulse(struct char_data *ch)
 
   /* idle chatter, only when someone is there to hear it */
 chatter:
-  if (!pc_in_room(ch->in_room))
-    return FALSE;
+  if (!pc_in_room(ch->in_room) || ch->mob_specials.routine_at == ROUTINE_OUTING)
+    return FALSE;                       /* (no chatter during the show) */
   for (count = 0, s = rt->steps; s; s = s->next)
     if (s->kind == RS_IDLE)
       count++;

@@ -73,6 +73,9 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
   spec_pro.c, spec_ass.c   SPECIAL() procedures and their assignment
   shop.c, house.c, mail.c, boards.c, ban.c, weather.c, graph.c, alias.c, modify.c ...
   castle.c          SPECIAL()s for the Castle of Llyndyr (zone 383): the Emperor's daily routine and his household
+  theater.c         the Lyceum, Elrhinn's theatre (zone 36), from lib/data/theater (see §6); hooks in
+                    weather.c (theater_hour), comm.c (theater_pulse, every 2 s), routine.c
+                    (theater_outing), spec_ass.c (assign_theater), mobact.c/mobprog.c
   quest.c           quests handed out by NPCs, from lib/data/quests (see §6); hooks in fight.c die(),
                     act_item.c perform_give(), act_move.c and handler.c char_to_room()
   routine.c         NPC daily routines from lib/data/routines (see §6); hooks in mobact.c and weather.c
@@ -82,7 +85,7 @@ src/                ~45 .c files, all C89-era; 8.3 file names (interpre.c, spell
                     `make utils`); wld2html and others aren't built
                     worldmap*.py: Python tool that draws the illustrated world map (see below)
 lib/                Runtime data directory (server chdir()s here)
-  data/             races, religions, guilds, exp_table, attributes, routines, quests, floods, ice, climates, spells (text, self-documenting headers)
+  data/             races, religions, guilds, exp_table, attributes, routines, quests, theater, floods, ice, climates, spells (text, self-documenting headers)
   world/{wld,mob,obj,zon,shp}/   CircleMUD-format world files; `index` lists files loaded; `index.mini` for -m
   prog/             MOBprogram files (*.prg), referenced from .mob files via `>in_file_prog name.prg~`
   text/             motd, news, credits, help/help.hlp, help/wizhelp.hlp ...
@@ -289,6 +292,19 @@ like `MAX_LEVEL-7`, so wrap them in parentheses when you do arithmetic with them
   objects are loaded and can be taken. Quest givers were added to the zones with no mobiles (mob files
   21, 25, 40, 55, 117, 330, 352, 353 are new; 3912 in zone 39 and 26025 in zone 260), and zones 45 and
   280 now reset mobiles that had been built but never loaded.
+- `lib/data/theater`: the Lyceum (zone 36, off Eastern Southwall Road 3085): ticket price, curtain hours
+  per weekday (`schedule <0-6> [h [h]]`; weekday = (35*month + day + 1) % 7, as in `do_time()`), the
+  cast and the plays, one a day in rotation (`* direction`, `<role> say|emote|audience <text>`, $N in an
+  audience line being someone in the stalls). `theater.c` opens the house an hour before curtain (doors
+  open, company to the wings, 2-5 theatregoers 3606-3610 loaded, removed after), plays a line every 10 s,
+  and every 2 s looks for fights in rooms 3600-3604: a performer complains (`annoyed` lines) and the
+  usher (3601) throws the player out and bars him for that show; three brawls abandon the show. Box
+  office (3600, BUY TICKET / LIST) and usher are specs; the auditorium spec keeps players out of the
+  wings during a show. Elrhinn's routine NPCs (vnums 3000-3499) go on two days of the month
+  (`theater_outing()`, `ROUTINE_OUTING` in routine.c), sit in the stalls, and their rand and greet
+  mobprogs are quiet while they do (`routine_on_outing()`). `show theater [open|start|end]` and
+  `reload theater` for immortals. Quests 3601-3606 (rats, the Rat King, Lysandra's golden mask, Miss
+  Rue's dressing room) are in lib/data/quests.
 - `lib/data/routines`: daily timetables for town NPCs (`routine.c`; format in the file's header). Each
   `#<mob vnum>` block lists where the mob should be from each hour on (`<hour> go <room> [sit|rest|sleep]`),
   lines on arriving or leaving, lines on the hour, and idle chatter. Mobs walk there one room per mobile

@@ -38,6 +38,12 @@ already has.
   step out into it; the shops, pubs and temples of Mytherandil, Gnishmire, the toll road and the
   Traveller's Tradepost were flagged INDOORS so their keepers count as under cover. Note that hunger and thirst are switched off game-wide (`gain_condition()` in `limits.c`
   sets every condition to -1), which is why heat works through water carried rather than thirst.
+* **The Lyceum.** Done (Nov 2026): a theatre on Southwall Road in Elrhinn (zone 36, `theater.c`,
+  `lib/data/theater`): an evening show every day but the Day of the Moon, a matinee and a late show on
+  the Day of the Great Gods and the Day of the Sun, three plays in rotation, tickets at the box office,
+  actors who play to the audience and an usher who throws brawlers out, Elrhinn's townsfolk at the
+  theatre a couple of times a month, and six quests in the rat tunnels under the stage. Ideas: more
+  plays; players buying a box; a playbill that changes; an understudy when an actor has been killed.
 * **Quests handed out by NPCs.** Done (Nov 2026): `quest.c` and `lib/data/quests` give 286 quests, 4-8
   in every zone in the world (Immortal Paradise and the one-room Ganin's Zone aside), written to suit
   each zone: kill, fetch, visit and deliver quests, generous rewards worked out from the quest's level,

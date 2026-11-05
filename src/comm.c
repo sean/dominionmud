@@ -224,6 +224,7 @@ int main(int argc, char **argv)
     boot_world();
     load_routines();            /* checks lib/data/routines */
     load_quests();              /* and lib/data/quests */
+    load_theater();             /* and lib/data/theater */
     load_floods();              /* and lib/data/floods */
     load_ice();                 /* and lib/data/ice */
     weather_init_climates();    /* and lib/data/climates */
@@ -752,6 +753,8 @@ void game_loop(int mother_desc)
 	  Crash_save_all();
 	  House_save_all();
 	}
+    if (!(pulse % (2 * PASSES_PER_SEC)))        /* the Lyceum (theater.c) */
+      theater_pulse();
     if (!(pulse % (300 * PASSES_PER_SEC)))      /* 5 minutes */
       record_usage();
 

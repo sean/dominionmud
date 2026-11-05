@@ -1,0 +1,204 @@
+#3600
+orsolya madame box office keeper~
+Madame Orsolya~
+Madame Orsolya sits in the box office, counting tickets through the grille.
+~
+A stout woman of a certain age in a great deal of black lace, with a
+lorgnette on a ribbon and a voice that once filled theatres.  She sells
+the tickets, keeps the books and knows everybody's secrets.
+~
+abdg 0 500 E
+20 5 0 20d20+200 2d6+4
+500 0
+8 8 2
+E
+#3601
+usher burly~
+a burly usher~
+A burly usher in a frogged red coat stands by the padded doors, arms folded.
+~
+A wall of a man in a red coat with brass buttons that strain at their
+threads.  His nose has been broken more than once, and he looks at your
+hands, not your face.
+~
+abdg 0 500 E
+30 0 -2 30d20+400 3d6+8
+50 0
+8 8 1
+E
+#3602
+lysandra vale leading lady actress~
+Lysandra Vale~
+Lysandra Vale, the leading lady of the Lyceum, sweeps about in a cloud of scent.
+~
+A tall woman with a cascade of copper hair, a voice like honey and a gaze
+that can find the cheapest seat in the house.  She has been the toast of
+Elrhinn for fifteen years and will tell you so.
+~
+bdg 0 500 E
+15 10 2 15d12+150 1d6+2
+100 0
+8 8 2
+E
+#3603
+corvin ashby leading man actor~
+Corvin Ashby~
+Corvin Ashby, the Lyceum's leading man, strikes a noble profile.
+~
+A handsome man going gently to seed, with a jaw like a cliff and a
+waistcoat that is losing its battle.  He plays kings, heroes and villains,
+all of them exactly the same way.
+~
+bdg 0 500 E
+15 10 2 15d12+150 1d6+2
+100 0
+8 8 1
+E
+#3604
+pip fennel comic clown actor~
+Pip Fennel~
+Pip Fennel, the company's clown, is juggling three apples and an onion.
+~
+A small, quick man with a rubber face and ears that stick out like jug
+handles.  He plays servants, fools and the back half of the horse, and
+steals every scene he is in.
+~
+bdg 0 500 E
+15 10 2 15d12+150 1d6+2
+100 0
+8 8 1
+E
+#3605
+bramwell old stage manager~
+Old Bramwell~
+Old Bramwell, the stage manager, checks the ropes with a stub of chalk in his teeth.
+~
+A grey, stooped man in a leather apron with a coil of rope over one
+shoulder and a prompt book under his arm.  He has worked the ropes of the
+Lyceum for fifty years and knows every creak of the old place.
+~
+bdg 0 500 E
+18 8 1 18d12+180 1d6+3
+50 0
+8 8 1
+E
+#3606
+merchant well-dressed~
+a well-dressed merchant~
+A well-dressed merchant settles his belly into a seat.
+~
+A prosperous merchant in velvet, with rings on every finger and an orange
+in his pocket for the interval.
+~
+dg 0 500 E
+5 18 6 5d10+40 1d4+0
+20 0
+8 8 1
+E
+#3607
+matron opera glasses~
+a matron with opera glasses~
+A matron peers at the stage through a pair of opera glasses.
+~
+A formidable matron in purple with a pair of gilt opera glasses, which she
+turns upon the audience at least as often as on the stage.
+~
+dg 0 500 E
+5 18 6 5d10+40 1d4+0
+20 0
+8 8 2
+E
+#3608
+couple young giggling~
+a giggling young couple~
+A young couple giggle together, holding hands.
+~
+A young man and a young woman in their best clothes, who are not going
+to notice a single thing that happens on the stage.
+~
+dg 0 500 E
+4 18 6 4d10+30 1d4+0
+10 0
+8 8 0
+E
+#3609
+dockhand~
+a dockhand in his best shirt~
+A dockhand in his best shirt cracks nuts and drops the shells.
+~
+A big, sunburned dockhand who has scrubbed his hands for the occasion and
+wears a shirt that is clearly his only good one.
+~
+dg 0 500 E
+8 15 5 8d10+60 1d6+1
+10 0
+8 8 1
+E
+#3610
+noble young feathered~
+a young noble in a feathered hat~
+A young noble in a feathered hat lounges as if he owns the place.
+~
+A young noble in a hat with an enormous feather, which everyone sitting
+behind him has views about.
+~
+dg 0 500 E
+6 17 5 6d10+50 1d4+0
+50 0
+8 8 1
+E
+#3611
+rat giant cellar~
+a giant cellar rat~
+A giant cellar rat, as big as a terrier, bares its yellow teeth at you.
+~
+A rat the size of a small dog, with a scabbed tail and teeth like yellow
+chisels.  It has eaten things in these tunnels you would rather not think
+about.
+~
+bdfg 0 -200 E
+3 19 7 3d10+25 1d4+1
+5 0
+8 8 0
+E
+#3612
+swarm rats squeaking~
+a swarm of squeaking rats~
+A swarm of rats boils across the floor toward you, squeaking.
+~
+Dozens of rats, all teeth and tails, moving as one heaving, squealing
+carpet.
+~
+bdfg 0 -200 E
+6 17 6 6d10+50 2d4+1
+10 0
+8 8 0
+E
+#3613
+spider pale cellar~
+a pale cellar spider~
+A pale cellar spider hangs above you on a thread, legs folded.
+~
+A spider as big as your hand, pale as a root from never seeing the sun.
+It drops onto anything warm.
+~
+bdfg 0 -200 E
+4 18 7 4d10+30 1d4+2
+5 0
+8 8 0
+E
+#3614
+rat king~
+the Rat King~
+The Rat King sits on his throne of bones, a dozen rats knotted together at the tails.
+~
+A monstrous knot of rats, their tails tangled and grown together into one
+writhing creature, many-headed and many-eyed.  A scrap of gilt paper crown
+sits on the biggest head.  They move as one, and they are hungry.
+~
+bdfg 0 -400 E
+10 14 4 10d12+120 2d6+2
+200 0
+8 8 0
+E
+$~

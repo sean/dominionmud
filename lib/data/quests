@@ -466,6 +466,72 @@ offer and keep him alive, and be quick - we march within the half hour.
 done The young scout ducks behind a tree and counts, lips moving.  "Four.  Got it.  Thanks!"
 
 ; ===================================================================
+; The Lyceum Theatre (zone 36)
+; ===================================================================
+
+#3601 Rats Beneath the Stage
+giver 3605
+level 3
+kill 3611 6
+offer Somebody pulled the nails out of the old trapdoor in the prop room,
+offer and now the rats come up through it during the performances.  Bit a
+offer chorus girl last week.  Go down there and thin them out - six of the
+offer big ones.  Mind the cistern.
+done Six of them?  Good.  The chorus will stop screaming.  Well, they'll stop screaming at rats.
+
+#3602 The Rat King
+giver 3605
+level 8
+after 3601
+kill 3614 1
+offer There's something down there the rats bow to.  I've heard it,
+offer through the boards, of a quiet afternoon: a sort of chittering, like
+offer a crowd.  The old hands called it the Rat King.  Past the cistern,
+offer they said.  Kill it, and the rest will scatter.
+done The Rat King, dead?  Bramwell takes the chalk out of his teeth.  "Fifty years I've listened to that thing.  Thank you."
+
+#3603 The Golden Mask
+giver 3602
+level 6
+limit 30
+fetch 3601 1
+offer Darling, a catastrophe!  My golden mask - the mask of Comedy, the one
+offer I wear in the last act - fell through the trapdoor, and the RATS have
+offer taken it.  I go on in half an hour and I will NOT go on without it.
+offer Fetch it back.  Please.  I'll mention you in my memoirs.
+done My mask!  Oh, it's been nibbled.  Never mind, the gallery won't see.  You're a darling.  Here.
+
+#3604 Violets for the Leading Lady
+giver 3600
+level 1 15
+daily
+deliver 3602 3604
+offer Another nosegay for Miss Vale from an admirer who won't give his name.
+offer They never do.  Take it back to her, dearie - she'll be in the
+offer dressing rooms, or the wings if the house is open.
+done Lysandra sniffs the violets and sighs.  "Violets again.  Tell him I adore him, whoever he is."
+
+#3605 Miss Rue's Dressing Room
+giver 3604
+level 5
+visit 3613
+offer You know the story?  Miss Adelind Rue, the first Lady of the Lake, went
+offer down under the stage on opening night and never came up.  They say her
+offer dressing room's still down there in the tunnels, candles and all.  I
+offer say it's a story.  Go and prove me wrong.  Or right.  Don't tell me
+offer which.
+done It's real?  Pip goes very pale.  "...I'm going to play the Lady of the Lake with every lamp in the house lit."
+
+#3606 Spiders in the Tunnels
+giver 3605
+level 3
+kill 3613 2
+offer There's pale spiders down in the tunnels as big as your hand.  They
+offer come up the ropes and nest in the fly loft, and drop on the actors.
+offer Corvin had one in his crown in the middle of the Siege.  Two of them.
+done Two!  Corvin will be grateful.  He won't say so, but he will be.
+
+; ===================================================================
 ; The High Tower of Magic (zone 37)
 ; ===================================================================
 

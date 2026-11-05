@@ -1,0 +1,62 @@
+#3600
+ticket theatre theater lyceum~
+a ticket to the Lyceum~
+A small printed ticket to the Lyceum has been dropped here.~
+~
+12 0 a
+0 0 0 0 0 0 0 0 14
+0 0 0
+E
+ticket theatre theater lyceum~
+A stiff little card printed in red: THE LYCEUM - ADMIT ONE.  Give it to
+the usher at the padded doors when the house is open.
+~
+#3601
+mask golden gilt~
+the golden mask~
+A golden mask with an ecstatic, open-mouthed smile lies here.~
+~
+12 0 am
+0 0 0 0 0 0 0 16 14
+2 200 0
+E
+mask golden gilt~
+A full-face mask of gilded wood, its mouth open in an ecstatic smile, the
+mask of Comedy that Lysandra Vale wears in the last act of every play.
+Rat teeth have scored the edge of the chin.
+~
+#3602
+trunk costume battered~
+a battered costume trunk~
+A battered costume trunk sits against the wall, its lid propped open.~
+~
+15 0 0
+100 0 -1 0 0 0 0 0 14
+200 0 0
+E
+trunk costume~
+A trunk plastered with labels from every town between here and the sea.
+It is full of moth-eaten costumes.
+~
+#3603
+crown gilt paper tiny~
+a tiny gilt crown~
+A tiny crown of gilt paper and wire lies here, nibbled at the points.~
+~
+9 0 ae
+1 0 0 0 0 0 0 0 14
+1 100 10
+E
+crown gilt paper tiny~
+The Rat King's crown: gilt paper glued over a wire frame, nibbled at every
+point.  It was a prop once.  It still fits a person, just.
+~
+#3604
+nosegay flowers bouquet~
+a nosegay of violets~
+A nosegay of violets tied with a ribbon lies here.~
+~
+12 0 am
+0 0 0 0 0 0 0 0 14
+1 10 0
+$~

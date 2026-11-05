@@ -102,7 +102,9 @@ void assign_mobiles(void)
 {
   /* The Castle of Llyndyr (castle.c) */
   void assign_llyndyr(void);
+  void assign_theater(void);
   assign_llyndyr();
+  assign_theater();             /* the Lyceum (theater.c) */
 
   /* Immortal Zone */
   ASSIGNMOB(2,  receptionist);
