@@ -11,7 +11,7 @@ Legend: - Not Done; / Started; * Complete
 * Change to account system where the account is used to manage multiple
   players (lib/accounts; up to 5 characters each).
 * Move to an ASCII (plain-text) character save file system (one file per account in lib/accounts).
-- Move to an ASCII (plain-text) file to manage skills/spells.
+* Move to an ASCII (plain-text) file to manage skills/spells (lib/data/spells, Nov 2026).
 
 ## Ideas for making the game more fun
 

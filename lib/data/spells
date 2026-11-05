@@ -1,0 +1,1654 @@
+; Spells, skills and spheres (read by load_spells() in src/spell_pa.c at boot).
+;
+; Each entry starts with "#<number> <name>".  The numbers are fixed: the code
+; refers to them (SPELL_ARMOR is 51, SKILL_BACKSTAB 1201, see spells.h) and so
+; do the skills saved with every character, so never renumber an entry or
+; reuse a number.  Spheres are 1-50, spells 51-1200, skills 1201-1700, and
+; special abilities from 1701.  A new spell or skill also needs code to make
+; it do something; this file only says what it costs, who may use it and how.
+; Numbers with no entry are unused.  Lines starting with ';' are comments, and
+; the file ends with '$'.
+;
+;   sphere   <name>        the sphere it belongs to, by the sphere's name
+;                          (spheres themselves belong to one of the five
+;                          main spheres); a sphere must come before anything
+;                          in it
+;   percent  <n>           how far into its sphere a character must be to
+;                          learn it (default 100)
+;   pretime  <n>           rounds of casting before it takes effect
+;   mana     <max> <min> <change>
+;                          mana at the lowest level, the least it ever costs,
+;                          and how much less it costs each level
+;   position <pos>         the least the caster must be: dead mortally incap
+;                          stunned sleeping resting sitting fighting standing
+;                          mounted flying meditating
+;   targets  <flags>       ignore char_room char_world fight_self fight_vict
+;                          self_only not_self obj_inv obj_room obj_world
+;                          obj_equip door must_wield
+;   routines <flags>       the magic routines it uses: damage affects
+;                          unaffects points alter_objs groups masses areas
+;                          summons creations manual
+;   violent                it is an attack (not in peaceful rooms, not on
+;                          yourself)
+;
+; Anything left out is 0 (or none).  Names are what players type and see:
+; "cast 'cure light wounds'", "practice backstab".
+
+; ===================================================================
+; Spheres
+; ===================================================================
+
+#1 General Knowledge
+
+#2 Theomachy
+
+#3 Thaumaturgy
+
+#4 Thievery
+
+#5 Combat Proficiency
+
+#7 Acts of Deities
+sphere   Theomachy
+percent  40
+
+#8 Afflictions
+sphere   Theomachy
+percent  30
+
+#9 Cures
+sphere   Theomachy
+percent  1
+
+#10 Hand of Deities
+sphere   Theomachy
+percent  20
+
+#11 Faith
+sphere   Theomachy
+percent  10
+
+#15 Conjuration
+sphere   Thaumaturgy
+percent  40
+
+#16 Divination
+sphere   Thaumaturgy
+percent  1
+
+#17 Enchantment
+sphere   Thaumaturgy
+percent  10
+
+#18 Entropic
+sphere   Thaumaturgy
+percent  30
+
+#19 Invocation
+sphere   Thaumaturgy
+percent  20
+
+#20 Phantasmic
+sphere   Thaumaturgy
+percent  50
+
+#23 Looting
+sphere   Thievery
+percent  10
+
+#24 Murder
+sphere   Thievery
+percent  20
+
+#25 Deception
+sphere   Thievery
+percent  1
+
+#31 Hand to Hand Combat
+sphere   Combat Proficiency
+percent  10
+
+#32 Martial Arts
+sphere   Combat Proficiency
+percent  20
+
+#33 Weapons Proficiency
+sphere   Combat Proficiency
+percent  1
+
+
+; ===================================================================
+; Spells
+; ===================================================================
+
+#51 armor
+sphere   Hand of Deities
+percent  1
+mana     30 15 3
+position fighting
+targets  char_room
+routines affects
+
+#52 teleport
+sphere   Conjuration
+percent  5
+pretime  1
+mana     75 50 3
+position standing
+targets  char_room
+routines manual
+
+#53 bless
+sphere   Hand of Deities
+percent  2
+mana     35 5 3
+position standing
+targets  char_room obj_inv
+routines affects alter_objs
+
+#54 blind
+sphere   Afflictions
+percent  1
+mana     35 25 1
+position standing
+targets  char_room not_self
+routines affects
+
+#55 burning hands
+sphere   Enchantment
+percent  1
+mana     30 10 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#56 call lightning
+sphere   Acts of Deities
+percent  15
+mana     40 25 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#57 charm person
+sphere   Acts of Deities
+percent  70
+pretime  3
+mana     75 50 2
+position fighting
+targets  char_room not_self
+routines manual
+violent
+
+#58 chill touch
+sphere   Enchantment
+percent  5
+mana     30 10 3
+position fighting
+targets  char_room fight_vict
+routines damage affects
+violent
+
+#59 clone
+sphere   Entropic
+percent  100
+pretime  1
+mana     80 65 5
+position standing
+targets  char_room not_self
+routines summons
+
+#60 color spray
+sphere   Phantasmic
+percent  25
+pretime  2
+mana     30 15 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#61 control weather
+sphere   Acts of Deities
+percent  10
+pretime  2
+mana     75 25 5
+position standing
+targets  ignore
+routines manual
+
+#62 create food
+sphere   Hand of Deities
+percent  10
+mana     30 5 4
+position standing
+targets  ignore
+routines creations
+
+#63 create water
+sphere   Hand of Deities
+percent  10
+mana     30 5 4
+position standing
+targets  obj_inv obj_equip
+routines manual
+
+#64 cure blind
+sphere   Cures
+percent  5
+pretime  1
+mana     30 5 2
+position standing
+targets  char_room
+routines unaffects
+
+#65 cure critical wounds
+sphere   Cures
+percent  30
+pretime  1
+mana     40 20 2
+position fighting
+targets  char_room
+routines points
+
+#66 cure light wounds
+sphere   Cures
+percent  1
+mana     20 10 2
+position fighting
+targets  char_room
+routines points
+
+#67 curse
+sphere   Acts of Deities
+percent  1
+mana     80 50 2
+position standing
+targets  char_room obj_inv
+routines affects alter_objs
+violent
+
+#68 soul search
+sphere   Divination
+percent  1
+mana     20 10 2
+position standing
+targets  char_room self_only
+routines affects
+
+#69 detect invisibility
+sphere   Divination
+percent  5
+mana     20 10 2
+position standing
+targets  char_room
+routines affects
+
+#70 detect magic
+sphere   Divination
+percent  15
+mana     20 10 2
+position standing
+targets  char_room
+routines affects
+
+#71 poison
+sphere   Afflictions
+percent  30
+pretime  2
+mana     50 20 3
+position standing
+targets  char_room not_self obj_inv
+routines affects alter_objs
+violent
+
+#72 dispel evil
+sphere   Faith
+percent  50
+pretime  1
+mana     40 25 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#73 earthquake
+sphere   Acts of Deities
+percent  15
+pretime  4
+mana     40 25 3
+position fighting
+targets  ignore
+routines areas
+violent
+
+#74 enchant weapon
+sphere   Enchantment
+percent  55
+pretime  8
+mana     -106 100 1
+position standing
+targets  obj_inv obj_equip
+routines manual
+
+#75 energy drain
+sphere   Invocation
+percent  10
+pretime  1
+mana     40 25 1
+position fighting
+targets  char_room fight_vict
+routines damage manual
+violent
+
+#76 fireball
+sphere   Invocation
+percent  25
+pretime  1
+mana     -116 30 2
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#77 harm
+sphere   Afflictions
+percent  60
+pretime  5
+mana     75 45 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#78 heal
+sphere   Cures
+percent  60
+pretime  5
+mana     60 40 3
+position fighting
+targets  char_room
+routines affects points
+
+#79 invisibility
+sphere   Phantasmic
+percent  1
+mana     35 25 1
+position standing
+targets  char_room obj_inv obj_room
+routines affects alter_objs
+
+#80 lightning bolt
+sphere   Invocation
+percent  20
+mana     30 15 1
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#81 locate object
+sphere   Divination
+percent  100
+pretime  10
+mana     25 20 1
+position standing
+targets  obj_world
+routines manual
+
+#82 magic missile
+sphere   Invocation
+percent  1
+mana     25 10 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#83 detect poison
+sphere   Divination
+percent  10
+mana     15 5 1
+position standing
+targets  char_room obj_inv obj_room
+routines manual
+
+#84 protection from evil
+sphere   Faith
+percent  10
+mana     40 10 3
+position standing
+targets  char_room self_only
+routines affects
+
+#85 remove curse
+sphere   Hand of Deities
+percent  40
+pretime  1
+mana     45 25 5
+position standing
+targets  char_room obj_inv
+routines unaffects alter_objs
+
+#86 sanctuary
+sphere   Hand of Deities
+percent  60
+pretime  5
+mana     110 85 5
+position standing
+targets  char_room
+routines affects
+
+#87 shocking grasp
+sphere   Enchantment
+percent  10
+mana     30 15 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#88 sleep
+sphere   Enchantment
+percent  5
+pretime  1
+mana     40 25 5
+position standing
+targets  char_room not_self
+routines affects
+violent
+
+#89 strength
+sphere   Enchantment
+percent  10
+pretime  1
+mana     35 30 1
+position standing
+targets  char_room
+routines affects
+
+#90 summon
+sphere   Hand of Deities
+percent  100
+pretime  25
+mana     75 50 3
+position standing
+targets  char_world not_self
+routines manual
+
+#91 ventriloquate
+
+#92 word of recall
+sphere   Hand of Deities
+percent  100
+pretime  50
+mana     20 10 2
+position fighting
+targets  char_room
+routines manual
+
+#93 remove poison
+sphere   Entropic
+percent  20
+pretime  10
+mana     80 20 4
+position standing
+targets  char_room obj_inv obj_room
+routines unaffects alter_objs
+
+#94 sense life
+sphere   Divination
+percent  10
+mana     20 10 2
+position standing
+targets  char_room self_only
+routines affects
+
+#95 animate dead
+sphere   Entropic
+percent  1
+mana     50 15 5
+position standing
+targets  obj_room
+routines summons
+
+#96 dispel good
+sphere   Faith
+percent  50
+pretime  1
+mana     40 25 3
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#97 group armor
+sphere   Hand of Deities
+percent  55
+pretime  2
+mana     50 30 2
+position standing
+targets  ignore
+routines groups
+
+#98 group heal
+sphere   Cures
+percent  95
+pretime  10
+mana     80 60 5
+position standing
+targets  ignore
+routines groups
+
+#99 group recall
+
+#100 infravision
+sphere   Hand of Deities
+percent  15
+mana     25 10 1
+position standing
+targets  char_room
+routines affects
+
+#101 waterwalk
+sphere   Hand of Deities
+percent  35
+mana     70 30 10
+position standing
+targets  char_room
+routines affects
+
+#102 ice shower
+sphere   Invocation
+percent  30
+pretime  10
+mana     120 40 5
+position fighting
+targets  ignore
+routines damage areas
+violent
+
+#103 fire storm
+sphere   Invocation
+percent  50
+pretime  20
+mana     -116 60 5
+position fighting
+targets  ignore
+routines damage areas
+violent
+
+#104 meteor swarm
+sphere   Acts of Deities
+percent  90
+pretime  9
+mana     -91 80 10
+position fighting
+targets  ignore
+routines damage areas
+violent
+
+#105 power word kill
+sphere   Conjuration
+percent  100
+pretime  30
+mana     94 -6 40
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#106 waterbreath
+sphere   Hand of Deities
+percent  30
+mana     70 30 10
+position standing
+targets  char_room
+routines affects
+
+#107 refresh
+sphere   Cures
+percent  50
+pretime  3
+mana     125 35 5
+position standing
+targets  char_room
+routines points
+
+#108 astral walk
+sphere   Hand of Deities
+percent  100
+pretime  10
+mana     75 15 10
+position standing
+targets  char_room
+routines manual
+
+#109 haste
+sphere   Enchantment
+percent  65
+pretime  6
+mana     100 45 5
+position standing
+targets  char_room
+routines affects
+
+#110 minor globe
+sphere   Enchantment
+percent  50
+pretime  5
+
+#111 major globe
+sphere   Enchantment
+percent  75
+pretime  8
+
+#112 fly
+sphere   Enchantment
+percent  35
+pretime  3
+mana     65 25 5
+position standing
+targets  char_room
+routines affects
+
+#113 dispel magic
+sphere   Invocation
+percent  10
+mana     -111 45 5
+position standing
+targets  char_room
+routines manual
+
+#114 portal
+sphere   Acts of Deities
+percent  35
+pretime  5
+mana     -76 15 5
+position standing
+targets  char_world not_self
+routines manual
+
+#115 enchant armor
+sphere   Enchantment
+percent  50
+pretime  8
+mana     -106 100 10
+position standing
+targets  obj_inv obj_equip
+routines manual
+
+#116 cure serious wounds
+sphere   Cures
+percent  10
+mana     30 15 2
+position fighting
+targets  char_room
+routines points
+
+#117 disease
+sphere   Afflictions
+percent  10
+mana     40 20 5
+position standing
+targets  char_room not_self
+routines affects
+violent
+
+#118 monster summon one
+sphere   Conjuration
+percent  1
+mana     80 25 5
+position standing
+targets  ignore
+routines summons
+
+#119 monster summon two
+sphere   Conjuration
+percent  10
+pretime  1
+mana     120 35 5
+position standing
+targets  ignore
+routines summons
+
+#120 monster summon three
+sphere   Conjuration
+percent  20
+pretime  2
+mana     -76 55 5
+position standing
+targets  ignore
+routines summons
+
+#121 monster summon four
+sphere   Conjuration
+percent  30
+pretime  3
+mana     -36 75 15
+position standing
+targets  ignore
+routines summons
+
+#122 gate one
+sphere   Acts of Deities
+percent  20
+mana     80 25 5
+position standing
+targets  ignore
+routines summons
+
+#123 gate two
+sphere   Acts of Deities
+percent  30
+pretime  1
+mana     120 35 5
+position standing
+targets  ignore
+routines summons
+
+#124 gate three
+sphere   Acts of Deities
+percent  40
+pretime  2
+mana     -76 55 5
+position standing
+targets  ignore
+routines summons
+
+#125 gate four
+sphere   Acts of Deities
+percent  50
+pretime  3
+mana     -36 75 15
+position standing
+targets  ignore
+routines summons
+
+#126 sum fire elemental
+sphere   Conjuration
+percent  70
+pretime  20
+mana     -56 -81 10
+position standing
+targets  ignore
+routines summons
+
+#127 sum water elemental
+sphere   Conjuration
+percent  50
+pretime  10
+mana     -106 100 10
+position standing
+targets  ignore
+routines summons
+
+#128 sum earth elemental
+sphere   Conjuration
+percent  60
+pretime  15
+mana     -81 125 10
+position standing
+targets  ignore
+routines summons
+
+#129 sum air elemental
+sphere   Conjuration
+percent  40
+pretime  5
+mana     100 50 10
+position standing
+targets  ignore
+routines summons
+
+#130 aerial servant
+sphere   Conjuration
+percent  90
+pretime  20
+mana     -56 -56 20
+position standing
+targets  ignore
+routines summons
+
+#131 dispel illusion
+sphere   Phantasmic
+percent  40
+pretime  2
+mana     -112 -56 20
+position standing
+targets  char_room
+routines manual
+violent
+
+#132 illus pres one
+sphere   Phantasmic
+percent  10
+pretime  1
+mana     80 20 5
+position standing
+targets  ignore
+routines summons
+
+#133 illus pres two
+sphere   Phantasmic
+percent  20
+pretime  5
+mana     120 40 5
+position standing
+targets  ignore
+routines summons
+
+#134 illus pres three
+sphere   Phantasmic
+percent  30
+pretime  10
+mana     -76 60 5
+position standing
+targets  ignore
+routines summons
+
+#135 illus pres four
+sphere   Phantasmic
+percent  40
+pretime  20
+mana     -36 80 20
+position standing
+targets  ignore
+routines summons
+
+#136 group portal
+sphere   Acts of Deities
+percent  85
+pretime  10
+mana     120 40 5
+position standing
+targets  char_world not_self
+routines groups
+
+#137 pass door
+sphere   Enchantment
+percent  20
+pretime  1
+mana     -106 25 5
+position standing
+targets  ignore
+routines manual
+
+#138 knock
+sphere   Enchantment
+percent  15
+pretime  1
+mana     50 5 5
+position standing
+targets  ignore
+routines manual
+
+#139 free action
+sphere   Cures
+percent  35
+pretime  2
+mana     85 15 5
+position fighting
+targets  char_room
+routines unaffects
+
+#140 silence
+sphere   Hand of Deities
+percent  50
+pretime  2
+mana     100 20 5
+position fighting
+targets  char_room not_self
+routines affects
+violent
+
+#141 trolls blood
+sphere   Enchantment
+percent  85
+pretime  8
+mana     125 75 10
+position standing
+targets  char_room
+routines affects
+
+#142 lifesteal
+sphere   Entropic
+percent  50
+pretime  10
+mana     -96 50 10
+position fighting
+targets  char_room not_self
+routines points
+violent
+
+#143 medusa gaze
+sphere   Acts of Deities
+percent  60
+pretime  6
+mana     -106 45 5
+position fighting
+targets  char_room not_self
+routines affects
+violent
+
+#144 force bolt
+sphere   Invocation
+percent  50
+pretime  12
+mana     -106 55 5
+position fighting
+targets  char_room not_self
+routines damage affects
+violent
+
+#145 purify
+sphere   Hand of Deities
+percent  70
+pretime  8
+mana     -62 -6 50
+position standing
+targets  char_room
+routines manual
+
+#146 group pass door
+sphere   Enchantment
+percent  80
+pretime  2
+mana     -6 50 20
+position standing
+targets  ignore
+routines groups
+
+#147 cure disease
+sphere   Cures
+percent  25
+pretime  1
+mana     95 20 5
+position standing
+targets  char_room
+routines unaffects
+
+#148 wizard eye
+sphere   Divination
+percent  35
+pretime  4
+mana     -56 100 10
+position standing
+targets  char_world
+routines manual
+
+#149 soul shock
+mana     1 1 1
+position fighting
+targets  char_room not_self
+routines damage
+violent
+
+#150 contaminate
+mana     1 1 1
+position standing
+targets  obj_inv obj_equip
+routines manual
+
+#151 undead eyes
+sphere   Enchantment
+percent  15
+pretime  1
+mana     25 10 1
+position standing
+targets  char_room self_only
+routines affects
+
+#152 ghostly shield
+sphere   Enchantment
+percent  1
+mana     30 15 3
+position fighting
+targets  char_room
+routines affects
+
+#153 soul summon one
+sphere   Entropic
+percent  10
+pretime  1
+mana     80 25 5
+position standing
+targets  ignore
+routines summons
+
+#154 soul summon two
+sphere   Entropic
+percent  20
+pretime  2
+mana     80 25 5
+position standing
+targets  ignore
+routines summons
+
+#155 soul summon three
+sphere   Entropic
+percent  30
+pretime  3
+mana     80 25 5
+position standing
+targets  ignore
+routines summons
+
+#156 soul summon four
+sphere   Entropic
+percent  40
+pretime  4
+
+#157 decay
+mana     1 1 1
+position standing
+targets  obj_room
+routines manual
+
+#158 protection
+mana     1 1 1
+position standing
+targets  char_room
+routines affects
+
+#159 cripple
+sphere   Afflictions
+percent  10
+mana     1 1 1
+position standing
+targets  char_room not_self
+routines affects
+violent
+
+#160 curse weapon
+sphere   Enchantment
+percent  45
+pretime  5
+mana     75 5 5
+position standing
+targets  obj_inv obj_equip
+routines manual
+
+#161 curse armor
+sphere   Enchantment
+percent  40
+pretime  5
+mana     75 15 5
+position standing
+targets  obj_inv obj_equip
+routines manual
+
+#162 death knell
+mana     1 1 1
+position fighting
+targets  char_room not_self
+routines damage
+violent
+
+#163 black mantle
+sphere   Enchantment
+percent  60
+pretime  10
+mana     120 25 5
+position standing
+targets  char_room not_self
+routines affects
+violent
+
+#164 plague
+sphere   Acts of Deities
+percent  95
+pretime  12
+mana     -106 75 5
+position standing
+targets  ignore
+routines masses
+violent
+
+#165 mask presence
+sphere   Phantasmic
+percent  25
+pretime  5
+mana     25 10 1
+position standing
+targets  char_room self_only
+routines affects
+
+#166 blinding flash
+mana     1 1 1
+position fighting
+targets  ignore
+routines areas
+violent
+
+#167 false glow
+sphere   Phantasmic
+percent  1
+mana     25 10 1
+position standing
+targets  char_room self_only
+routines affects
+
+#168 lightstrike
+mana     1 1 1
+position fighting
+targets  char_room not_self
+routines damage
+violent
+
+#169 smoke shield
+mana     1 1 1
+position standing
+targets  char_room
+routines affects
+
+#170 calm
+sphere   Enchantment
+percent  25
+pretime  2
+mana     1 1 1
+position fighting
+targets  ignore
+routines manual
+
+#171 fear
+mana     1 1 1
+position standing
+targets  char_room
+routines affects
+violent
+
+#172 vertigo
+mana     1 1 1
+position standing
+targets  char_room
+routines affects
+
+#173 double vision
+sphere   Phantasmic
+percent  15
+mana     1 1 1
+position fighting
+targets  char_room not_self
+routines affects
+violent
+
+#174 vanish
+mana     35 25 1
+position standing
+targets  char_room obj_inv obj_room
+routines affects alter_objs
+
+#175 flame bolt
+sphere   Invocation
+percent  25
+pretime  2
+mana     1 1 1
+position fighting
+targets  char_room not_self
+routines damage
+violent
+
+#176 hypnosis
+sphere   Phantasmic
+percent  70
+pretime  8
+mana     75 50 2
+position fighting
+targets  char_room not_self
+routines manual
+violent
+
+#177 penatrating gaze
+mana     75 50 2
+position standing
+targets  char_room not_self
+routines manual
+
+#178 detect illusion
+sphere   Divination
+percent  20
+pretime  1
+
+#179 resurrection
+sphere   Acts of Deities
+percent  100
+pretime  20
+
+#180 harm light
+sphere   Afflictions
+percent  1
+mana     25 5 5
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#181 harm serious
+sphere   Afflictions
+percent  10
+mana     35 10 5
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#182 harm critical
+sphere   Afflictions
+percent  20
+pretime  1
+mana     45 15 5
+position fighting
+targets  char_room fight_vict
+routines damage
+violent
+
+#183 paralyze
+sphere   Afflictions
+percent  40
+pretime  2
+
+#184 cure poison
+sphere   Cures
+percent  15
+pretime  1
+mana     60 8 4
+position standing
+targets  char_room
+routines unaffects
+
+#185 knit bone
+sphere   Cures
+percent  40
+pretime  2
+
+#186 restore limb
+sphere   Cures
+percent  70
+pretime  6
+
+#187 flamestrike
+sphere   Hand of Deities
+percent  90
+pretime  5
+
+#188 protection from good
+sphere   Faith
+percent  10
+
+#189 firewall
+sphere   Enchantment
+percent  65
+pretime  1
+mana     75 25 5
+position standing
+targets  char_room not_self
+routines affects
+
+#190 blade barrier
+sphere   Conjuration
+percent  75
+pretime  2
+mana     100 25 5
+position standing
+targets  ignore
+routines manual
+
+#191 corrupt
+sphere   Hand of Deities
+percent  70
+pretime  8
+mana     -62 -6 50
+position standing
+targets  char_room
+routines manual
+
+#192 balance
+sphere   Hand of Deities
+percent  70
+pretime  8
+mana     -62 -6 50
+position standing
+targets  char_room
+routines manual
+
+
+; ===================================================================
+; Skills
+; ===================================================================
+
+#1201 backstab
+sphere   Murder
+percent  1
+
+#1202 bash
+sphere   Hand to Hand Combat
+percent  5
+
+#1203 hide
+sphere   Deception
+percent  5
+
+#1204 kick
+sphere   Hand to Hand Combat
+percent  1
+
+#1205 pick lock
+sphere   Looting
+percent  10
+
+#1206 punch
+sphere   Hand to Hand Combat
+percent  5
+
+#1207 rescue
+sphere   Hand to Hand Combat
+percent  50
+
+#1208 sneak
+sphere   Deception
+percent  1
+
+#1209 steal
+sphere   Looting
+percent  10
+
+#1210 track
+sphere   General Knowledge
+percent  1
+
+#1211 garrotte
+sphere   Murder
+percent  95
+
+#1212 quivering palm
+sphere   Martial Arts
+percent  100
+
+#1213 circle
+sphere   Murder
+percent  50
+
+#1214 double attack
+sphere   Hand to Hand Combat
+percent  40
+
+#1215 triple attack
+sphere   Hand to Hand Combat
+percent  90
+
+#1216 treadlight
+sphere   Looting
+percent  30
+
+#1217 riding
+sphere   General Knowledge
+percent  1
+
+#1218 shadow
+sphere   Deception
+percent  40
+
+#1219 berserk
+sphere   Hand to Hand Combat
+percent  70
+
+#1220 doorbash
+sphere   Hand to Hand Combat
+percent  80
+
+#1221 breakneck
+sphere   Hand to Hand Combat
+percent  100
+
+#1222 pummel
+sphere   Hand to Hand Combat
+percent  20
+
+#1223 peek
+sphere   Looting
+percent  1
+
+#1224 hunt
+sphere   General Knowledge
+percent  50
+
+#1225 wrestling
+sphere   Hand to Hand Combat
+percent  70
+
+#1226 pugilism
+sphere   Hand to Hand Combat
+percent  30
+
+#1227 swim
+sphere   General Knowledge
+percent  1
+
+#1228 climb
+sphere   General Knowledge
+percent  1
+
+#1229 detect traps
+sphere   Looting
+percent  10
+
+#1230 dragon riding
+sphere   General Knowledge
+percent  50
+
+#1231 read magic
+sphere   General Knowledge
+percent  1
+
+#1232 bribery
+sphere   General Knowledge
+percent  1
+
+#1233 disarm
+sphere   Hand to Hand Combat
+percent  30
+
+#1234 evaluate
+sphere   General Knowledge
+percent  25
+
+#1235 haggle
+sphere   General Knowledge
+percent  25
+
+#1236 manufacture poisons
+sphere   Murder
+percent  80
+
+#1237 manufacture potions
+
+#1238 manufacture scrolls
+
+#1239 marksmanship
+sphere   General Knowledge
+percent  25
+
+#1240 sign language
+sphere   General Knowledge
+percent  1
+
+#1241 secret language
+
+#1242 polearms
+sphere   Weapons Proficiency
+percent  1
+
+#1243 swords
+sphere   Weapons Proficiency
+percent  1
+
+#1244 blunt weapons
+sphere   Weapons Proficiency
+percent  1
+
+#1245 throwing
+sphere   Weapons Proficiency
+percent  1
+
+#1246 bandage
+sphere   General Knowledge
+percent  1
+
+#1247 know undead
+sphere   General Knowledge
+percent  1
+
+#1248 know veggie
+sphere   General Knowledge
+percent  1
+
+#1249 know demon
+sphere   General Knowledge
+percent  1
+
+#1250 know animal
+sphere   General Knowledge
+percent  1
+
+#1251 know reptile
+sphere   General Knowledge
+percent  1
+
+#1252 know humanoid
+sphere   General Knowledge
+percent  1
+
+#1253 know other
+sphere   General Knowledge
+percent  1
+
+#1254 remove trap
+sphere   Looting
+percent  30
+
+#1255 search
+sphere   Looting
+percent  5
+
+#1256 set trap
+sphere   Looting
+percent  50
+
+#1257 poison weapon
+sphere   Murder
+percent  60
+
+#1258 stab
+sphere   Murder
+percent  20
+
+#1259 cudgel
+sphere   Murder
+percent  90
+
+#1260 disguise
+sphere   Deception
+percent  80
+
+#1261 spy
+sphere   Deception
+percent  20
+
+#1262 bodyslam
+sphere   Hand to Hand Combat
+percent  40
+
+#1263 grapple
+sphere   Hand to Hand Combat
+percent  20
+
+#1264 headbutt
+sphere   Hand to Hand Combat
+percent  10
+
+#1265 switch opponents
+sphere   Hand to Hand Combat
+percent  60
+
+#1266 dodge
+sphere   Martial Arts
+percent  5
+
+#1267 feign death
+sphere   Martial Arts
+percent  60
+
+#1268 first aid
+sphere   Martial Arts
+percent  1
+
+#1269 karate
+sphere   Martial Arts
+percent  75
+
+#1270 pierce
+sphere   Weapons Proficiency
+percent  1
+
+#1271 ranged weapons
+sphere   Weapons Proficiency
+percent  10
+
+#1272 sharpen
+sphere   Weapons Proficiency
+percent  40
+
+#1273 smythe
+sphere   Weapons Proficiency
+percent  60
+
+#1274 tactics
+sphere   Weapons Proficiency
+percent  20
+
+#1275 turn undead
+sphere   Faith
+percent  35
+
+#1276 zen thinking
+sphere   Martial Arts
+percent  50
+
+
+; ===================================================================
+; Special abilities (breath weapons and such; NPCs and items)
+; ===================================================================
+
+#1701 identify
+targets  char_room obj_inv obj_room
+routines manual
+
+#1702 fire breath
+targets  char_room not_self
+routines damage
+violent
+
+#1703 gas breath
+targets  char_room not_self
+routines areas
+violent
+
+#1704 frost breath
+targets  char_room not_self
+routines damage affects
+violent
+
+#1705 acid breath
+targets  char_room not_self
+routines alter_objs areas
+violent
+
+#1706 lightning breath
+targets  char_room not_self
+routines damage
+violent
+
+$

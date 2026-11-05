@@ -122,7 +122,6 @@ void set_bodyparts(struct char_data *ch);
 extern struct descriptor_data *descriptor_list;
 void load_messages(void);
 void weather_and_time(int mode);
-void mag_assign_spells(void);
 void boot_social_messages(void);
 void update_obj_file(void);     /* In objsave.c */
 void sort_commands(void);
@@ -350,10 +349,12 @@ void boot_world(void)
 /* body of the booting system */
 void boot_db(void)
 {
-  void init_spell_spheres(void);
   long i;
 
   log("Boot db -- BEGIN.");
+
+  log("Loading spells, skills and spheres.");
+  load_spells();                /* lib/data/spells */
 
   log("Reading news, credits, help, bground, info & motds.");
   file_to_string_alloc(NEWS_FILE, &news);
@@ -421,12 +422,6 @@ void boot_db(void)
     log("   Rooms.");
     assign_rooms();
   }
-  log("   Spells.");
-  mag_assign_spells();
-
-  log("Assigning spell and skill levels.");
-  init_spell_spheres();
-
   log("Sorting command list and spells.");
   sort_commands();
   sort_spells();

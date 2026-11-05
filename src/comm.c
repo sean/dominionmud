@@ -216,6 +216,7 @@ int main(int argc, char **argv)
 
   if (scheck) {
     /* boot_world() needs the race tables (fuzzy mobs) that boot_db() loads */
+    load_spells();              /* checks lib/data/spells */
     parse_experience();
     parse_attributes();
     parse_races();

@@ -3,8 +3,8 @@ MUD.  You can add new races to the 'races' file by following the
 provided format.  The same goes for new religions, with the
 'religions' file.  Also, if you don't like the amounts of experience
 necessary to advance in levels, just modify the file called
-'exp_table'.  NPC daily timetables are in 'routines' (see its header).
-
-TODO:
-Allow guilds/factions to be defined in a text file.
-Allow spells/skills to be defined in a text file.
+'exp_table'.  Guilds are in 'guilds', and spells, skills and spheres
+(their names, costs, targets and spheres) in 'spells'.  NPC daily
+timetables are in 'routines', quests in 'quests', and the weather's
+floods, ice and climates in 'floods', 'ice' and 'climates' (see each
+file's header).

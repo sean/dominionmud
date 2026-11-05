@@ -30,584 +30,12 @@ extern struct room_data *world;
  * ample slots for skills.
  */
 
-char *spells[] =
-{
-  "!RESERVED!",                 /* 0 - reserved */
-
-  /* Spheres */
-  "General Knowledge",          /* 1 */
-  "Theomachy",
-  "Thaumaturgy",
-  "Thievery",
-  "Combat Proficiency",         /* 5 */
-  "!UNUSED!",
-
-  /* Sub-Spheres */
-  "Acts of Deities",
-  "Afflictions",
-  "Cures",
-  "Hand of Deities",            /* 10 */
-  "Faith",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "Conjuration",                /* 15 */
-  "Divination",
-  "Enchantment",
-  "Entropic",
-  "Invocation",
-  "Phantasmic",                 /* 20 */
-  "!UNUSED!",
-  "!UNUSED!",
-  "Looting",
-  "Murder",
-  "Deception",                   /* 25 */
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",                   /* 30 */
-  "Hand to Hand Combat",
-  "Martial Arts",
-  "Weapons Proficiency",
-  "!UNUSED!",
-  "!UNUSED!",                   /* 35 */
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",                   /* 40 */
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",                   /* 45 */
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",
-  "!UNUSED!",                   /* 50 */
-
-  /* SPELLS start here !! */
-  "armor",                      /* 51 */
-  "teleport",
-  "bless",
-  "blind",
-  "burning hands",
-  "call lightning",
-  "charm person",
-  "chill touch",
-  "clone",
-  "color spray",                /* 60 */
-  "control weather",
-  "create food",
-  "create water",
-  "cure blind",
-  "cure critical wounds",
-  "cure light wounds",
-  "curse",
-  "soul search",
-  "detect invisibility",
-  "detect magic",               /* 70 */
-  "poison",
-  "dispel evil",
-  "earthquake",
-  "enchant weapon",
-  "energy drain",
-  "fireball",
-  "harm",
-  "heal",
-  "invisibility",
-  "lightning bolt",             /* 80 */
-  "locate object",
-  "magic missile",
-  "detect poison",
-  "protection from evil",
-  "remove curse",
-  "sanctuary",
-  "shocking grasp",
-  "sleep",
-  "strength",
-  "summon",                     /* 90 */
-  "ventriloquate",
-  "word of recall",
-  "remove poison",
-  "sense life",
-  "animate dead",
-  "dispel good",
-  "group armor",
-  "group heal",
-  "group recall",
-  "infravision",                /* 100 */
-  "waterwalk",
-  "ice shower",
-  "fire storm",
-  "meteor swarm",
-  "power word kill",
-  "waterbreath",
-  "refresh",
-  "astral walk",
-  "haste",
-  "minor globe",             /* 110 */
-  "major globe",
-  "fly",
-  "dispel magic",
-  "portal",
-  "enchant armor",          /* 115 */
-  "cure serious wounds",
-  "disease",
-  "monster summon one",
-  "monster summon two",
-  "monster summon three",          /* 120 */
-  "monster summon four",
-  "gate one",
-  "gate two",
-  "gate three",
-  "gate four",                     /* 125 */
-  "sum fire elemental",
-  "sum water elemental",
-  "sum earth elemental",
-  "sum air elemental",
-  "aerial servant",                /* 130 */
-  "dispel illusion",
-  "illus pres one  ",
-  "illus pres two  ",
-  "illus pres three",
-  "illus pres four ",              /* 135 */
-  "group portal",
-  "pass door",
-  "knock",
-  "free action",
-  "silence",                       /* 140 */
-  "trolls blood",
-  "lifesteal",
-  "medusa gaze",
-  "force bolt",
-  "purify",                        /* 145 */
-  "group pass door",
-  "cure disease",
-  "wizard eye",
-  "soul shock",
-  "contaminate",                   /* 150 */
-  "undead eyes",
-  "ghostly shield",
-  "soul summon one",
-  "soul summon two",
-  "soul summon three",             /* 155 */
-  "soul summon four",
-  "decay",
-  "protection",
-  "cripple",
-  "curse weapon",                  /* 160 */
-  "curse armor",
-  "death knell",
-  "black mantle",
-  "plague",
-  "mask presence",                 /* 165 */
-  "blinding flash",
-  "false glow",
-  "lightstrike",
-  "smoke shield",
-  "calm",                          /* 170 */
-  "fear",
-  "vertigo",
-  "double vision",                 
-  "vanish",
-  "flame bolt",                    /* 175 */ 
-  "hypnosis",
-  "penatrating gaze",
-  "detect illusion",               
-  "resurrection",
-  "harm light",                    /* 180 */
-  "harm serious",
-  "harm critical",
-  "paralyze",                      
-  "cure poison",
-  "knit bone",                     /* 185 */
-  "restore limb",
-  "flamestrike",
-  "protection from good",
-  "firewall",
-  "blade barrier",                 /* 190 */
-  "corrupt",
-  "balance", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 195 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 200 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 205 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 210 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 215 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 220 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 225 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 230 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 235 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 240 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 245 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 250 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 255 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 260 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 265 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 270 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 275 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 280 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 285 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 290 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 295 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 300 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 305 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 310 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 315 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 320 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 325 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 330 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 335 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 340 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 345 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 350 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 355 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 360 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 365 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 370 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 375 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 380 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 385 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 390 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 395 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 400 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 405 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 410 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 415 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 420 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 425 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 430 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 435 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 440 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 445 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 450 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 455 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 460 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 465 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 470 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 475 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 480 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 485 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 490 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 495 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 500 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 505 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 510 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 515 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 520 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 525 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 530 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 535 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 540 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 545 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 550 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 555 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 560 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 565 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 570 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 575 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 580 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 585 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 590 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 595 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 600 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 605 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 610 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 615 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 620 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 625 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 630 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 635 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 640 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 645 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 650 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 655 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 660 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 665 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 670 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 675 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 680 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 685 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 690 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 695 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 700 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 705 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 710 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 715 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 720 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 725 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 730 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 735 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 740 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 745 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 750 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 755 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 760 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 765 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 770 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 775 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 780 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 785 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 790 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 795 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 800 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 805 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 810 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 815 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 820 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 825 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 830 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 835 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 840 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 845 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 850 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 855 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 860 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 865 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 870 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 875 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 880 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 885 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 890 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 895 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 900 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 905 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 910 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 915 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 920 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 925 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 930 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 935 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 940 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 945 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 950 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 955 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 960 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 965 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 970 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 975 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 980 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 985 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 990 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 995 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1000 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1005 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1010 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1015 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1020 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1025 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1030 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1035 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1040 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1045 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1050 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1055 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1060 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1065 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1070 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1075 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1080 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1085 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1090 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1095 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1100 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1105 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1110 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1115 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1120 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1125 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1130 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1135 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1140 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1145 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1150 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1155 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1160 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1165 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1170 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1175 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1180 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1185 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1190 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1195 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1200 */
-
-  /* SKILLS */
-
-  "backstab",                   /* 1201 */
-  "bash",
-  "hide",
-  "kick",
-  "pick lock",
-  "punch",
-  "rescue",
-  "sneak",
-  "steal",
-  "track",                      /* 1210 */
-  "garrotte",
-  "quivering palm",
-  "circle",
-  "double attack",
-  "triple attack",              /* 1215 */
-  "treadlight",
-  "riding",
-  "shadow",
-  "berserk",
-  "doorbash",                   /* 1220 */
-  "breakneck",
-  "pummel",
-  "peek",
-  "hunt",
-  "wrestling",                  /* 1225 */
-  "pugilism",
-  "swim",
-  "climb",
-  "detect traps",
-  "dragon riding",              /* 1230 */
-  "read magic",
-  "bribery",
-  "disarm",
-  "evaluate",
-  "haggle",                     /* 1235 */
-  "manufacture poisons",
-  "manufacture potions",
-  "manufacture scrolls",
-  "marksmanship",
-  "sign language",              /* 1240 */
-  "secret language",
-  "polearms",
-  "swords",
-  "blunt weapons",              /* 1245 */
-  "throwing",
-  "bandage",
-  "know undead",
-  "know veggie",
-  "know demon",                 /* 1250 */
-  "know animal",
-  "know reptile",
-  "know humanoid",
-  "know other",
-  "remove trap",                /* 1255 */
-  "search",
-  "set trap",
-  "poison weapon",
-  "stab",
-  "cudgel",                     /* 1260 */
-  "disguise",
-  "spy",
-  "bodyslam",
-  "grapple",
-  "headbutt",                   /* 1265 */
-  "switch opponents",
-  "dodge",
-  "feign death",
-  "first aid",
-  "karate",                     /* 1270 */
-  "pierce",
-  "ranged weapons",
-  "sharpen",
-  "smythe",
-  "tactics",                    /* 1275 */
-  "turn undead",
-  "zen thinking",
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1280 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1285 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1290 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1295 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1300 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1305 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1310 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1315 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1320 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1325 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1330 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1335 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1340 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1345 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1350 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1355 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1360 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1365 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1370 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1375 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1380 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1385 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1390 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1395 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1400 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1405 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1410 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1415 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1420 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1425 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1430 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1435 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1440 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1445 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1450 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1455 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1460 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1465 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1470 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1475 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1480 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1485 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1490 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1495 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1500 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1505 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1510 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1515 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1520 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1525 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1530 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1535 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1540 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1545 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1550 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1555 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1560 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1565 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1570 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1575 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1580 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1585 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1590 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1595 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1600 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1605 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1610 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1615 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1620 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1625 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1630 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1635 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1640 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1645 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1650 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1655 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1660 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1665 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1670 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1675 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1680 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1685 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1690 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1695 */
-  "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!", "!UNUSED!",   /* 1700 */
-
-  /* OBJECT SPELLS AND NPC SPELLS/SKILLS */
-
-  "identify",                   /* 1701 */
-  "fire breath",
-  "gas breath",
-  "frost breath",
-  "acid breath",
-  "lightning breath",
-
-  "\n"                          /* the end */
-};
+/*
+ * The names of the spheres, spells and skills, indexed by number, read
+ * from lib/data/spells by load_spells().  Unused numbers are "!UNUSED!",
+ * and the list ends with "\n" just after the highest number in use.
+ */
+char *spells[TOP_SPELL_DEFINE + 2];
 
 
 struct syllable {
@@ -1247,564 +675,180 @@ ACMD(do_cast)
 }
 
 
-void spell_sphere(int spell, int sphere, int num, int time)
-{
-  spell_info[spell].sphere  = sphere;
-  spell_info[spell].percent = num;
-  spell_info[spell].pretime = time;
-}
-
-
-void skill_sphere(int spell, int sphere, int num)
-{
-  spell_info[spell].sphere  = sphere;
-  spell_info[spell].percent = num;
-}
-
-/* Assign the spells on boot up */
-void spello(int spl, int max_mana, int min_mana, int mana_change, int minpos,
-		 int targets, int violent, int routines)
-{
-  spell_info[spl].sphere       = SPHERE_NONE;
-  spell_info[spl].percent      = 100;
-  spell_info[spl].mana_max     = max_mana;
-  spell_info[spl].mana_min     = min_mana;
-  spell_info[spl].mana_change  = mana_change;
-  spell_info[spl].min_position = minpos;
-  spell_info[spl].targets      = targets;
-  spell_info[spl].violent      = violent;
-  spell_info[spl].routines     = routines;
-  spell_info[spl].pretime      = 0;
-}
-
-
-void unused_spell(int spl)
-{
-  spell_info[spl].sphere       = SPHERE_NONE;
-  spell_info[spl].percent      = 100;
-  spell_info[spl].mana_max     = 0;
-  spell_info[spl].mana_min     = 0;
-  spell_info[spl].mana_change  = 0;
-  spell_info[spl].min_position = 0;
-  spell_info[spl].targets      = 0;
-  spell_info[spl].violent      = 0;
-  spell_info[spl].routines     = 0;
-}
-
-#define skillo(skill) spello(skill, 0, 0, 0, 0, 0, 0, 0);
-
-
 /*
- * Arguments for spello calls:
- *
- * spellnum, maxmana, minmana, manachng, minpos, targets, violent?, routines.
- *
- * spellnum:  Number of the spell.  Usually the symbolic name as defined in
- * spells.h (such as SPELL_HEAL).
- *
- * maxmana :  The maximum mana this spell will take (i.e., the mana it
- * will take when the player first gets the spell).
- *
- * minmana :  The minimum mana this spell will take, no matter how high
- * level the caster is.
- *
- * manachng:  The change in mana for the spell from level to level.  This
- * number should be positive, but represents the reduction in mana cost as
- * the caster's level increases.
- *
- * minpos  :  Minimum position the caster must be in for the spell to work
- * (usually fighting or standing). targets :  A "list" of the valid targets
- * for the spell, joined with bitwise OR ('|').
- *
- * violent :  TRUE or FALSE, depending on if this is considered a violent
- * spell and should not be cast in PEACEFUL rooms or on yourself.  Should be
- * set on any spell that inflicts damage, is considered aggressive (i.e.
- * charm, curse), or is otherwise nasty.
- *
- * routines:  A list of magic routines which are associated with this spell
- * if the spell uses spell templates.  Also joined with bitwise OR ('|').
- *
- * See the CircleMUD documentation for a more detailed description of these
- * fields.
+ * Spells, skills and spheres: lib/data/spells (see its header for the
+ * format).  The numbers are fixed by spells.h and by the skills saved
+ * with every character; the file gives each its name, sphere, cost,
+ * position, targets and magic routines.  Without the file the game can't
+ * run, so a missing file, or one that says nothing, is fatal.
  */
 
-/*
- * NOTE: SPELL LEVELS ARE NO LONGER ASSIGNED HERE AS OF Circle 3.0 bpl9.
- * In order to make this cleaner, as well as to make adding new classes
- * much easier, spell levels are now assigned in class.c.  You only need
- * a spello() call to define a new spell; to decide who gets to use a spell
- * or skill, look in class.c.  -JE 5 Feb 1996
- */
+static const char *spell_positions[] = {
+  "dead", "mortally", "incap", "stunned", "sleeping", "resting", "sitting",
+  "fighting", "standing", "mounted", "flying", "meditating", "\n"
+};
 
-void mag_assign_spells(void)
+static const char *spell_targets[] = {
+  "ignore", "char_room", "char_world", "fight_self", "fight_vict",
+  "self_only", "not_self", "obj_inv", "obj_room", "obj_world", "obj_equip",
+  "door", "must_wield", "\n"
+};
+
+static const char *spell_routines[] = {
+  "damage", "affects", "unaffects", "points", "alter_objs", "groups",
+  "masses", "areas", "summons", "creations", "manual", "\n"
+};
+
+
+static void spell_error(int line, int num, const char *msg)
+{
+  sprintf(buf, "SYSERR: " SPELL_FILE " line %d (#%d): %s", line, num, msg);
+  log(buf);
+}
+
+
+/* The index of word in list, or -1. */
+static int spell_word(const char *list[], const char *word)
 {
   int i;
 
-  /* Do not change the loop below */
-  for (i = 1; i <= TOP_SPELL_DEFINE; i++)
-    unused_spell(i);
-  /* Do not change the loop above */
-
-  spello(SPELL_ARMOR, 30, 15, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_BLADEBARRIER, 100, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_MANUAL);
-
-  spello(SPELL_BLESS, 35, 5, 3, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_OBJ_INV, FALSE, MAG_AFFECTS | MAG_ALTER_OBJS);
-
-  spello(SPELL_BLIND, 35, 25, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_BURNING_HANDS, 30, 10, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_CALL_LIGHTNING, 40, 25, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_CHARM, 75, 50, 2, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_MANUAL);
-
-  spello(SPELL_CHILL_TOUCH, 30, 10, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE | MAG_AFFECTS);
-
-  spello(SPELL_CLONE, 80, 65, 5, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_COLOR_SPRAY, 30, 15, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_CONTROL_WEATHER, 75, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_MANUAL);
-
-  spello(SPELL_CREATE_FOOD, 30, 5, 4, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_CREATIONS);
-
-  spello(SPELL_CREATE_WATER, 30, 5, 4, POS_STANDING,
-	TAR_OBJ_INV | TAR_OBJ_EQUIP, FALSE, MAG_MANUAL);
-
-  spello(SPELL_CURE_BLIND, 30, 5, 2, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_UNAFFECTS);
-
-  spello(SPELL_HEAL_CRITIC, 40, 20, 2, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_POINTS);
-
-  spello(SPELL_HEAL_LIGHT, 20, 10, 2, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_POINTS);
-
-  spello(SPELL_HEAL_SERIOUS, 30, 15, 2, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_POINTS);
-
-  spello(SPELL_CURSE, 80, 50, 2, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_OBJ_INV, TRUE, MAG_AFFECTS | MAG_ALTER_OBJS);
-
-  spello(SPELL_SOUL_SEARCH, 20, 10, 2, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_SELF_ONLY, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_DETECT_INVIS, 20, 10, 2, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_DETECT_MAGIC, 20, 10, 2, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_DETECT_POISON, 15, 5, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_OBJ_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_DISPEL_EVIL, 40, 25, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_DISPEL_GOOD, 40, 25, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_EARTHQUAKE, 40, 25, 3, POS_FIGHTING,
-	TAR_IGNORE, TRUE, MAG_AREAS);
-
-  spello(SPELL_ENCHANT_WEAPON, 150, 100, 1, POS_STANDING,
-	TAR_OBJ_INV | TAR_OBJ_EQUIP, FALSE, MAG_MANUAL);
-
-  spello(SPELL_ENCHANT_ARMOR, 150, 100, 10, POS_STANDING,
-	TAR_OBJ_INV | TAR_OBJ_EQUIP, FALSE, MAG_MANUAL);
-
-  spello(SPELL_ENERGY_DRAIN, 40, 25, 1, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE | MAG_MANUAL);
-
-  spello(SPELL_GROUP_ARMOR, 50, 30, 2, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_GROUPS);
-
-  spello(SPELL_FIREBALL, 140, 30, 2, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_FIREWALL, 75, 25, 5, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_GROUP_HEAL, 80, 60, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_GROUPS);
-
-  spello(SPELL_HARM, 75, 45, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_HARM_LIGHT, 25, 5, 5, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_HARM_SERIOUS, 35, 10, 5, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_HARM_CRITICAL, 45, 15, 5, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_HEAL, 60, 40, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_POINTS | MAG_AFFECTS);
-
-  spello(SPELL_INFRAVISION, 25, 10, 1, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_INVISIBLE, 35, 25, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_OBJ_ROOM, FALSE, MAG_AFFECTS | MAG_ALTER_OBJS);
-
-  spello(SPELL_LIGHTNING_BOLT, 30, 15, 1, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_LOCATE_OBJECT, 25, 20, 1, POS_STANDING,
-	TAR_OBJ_WORLD, FALSE, MAG_MANUAL);
-
-  spello(SPELL_MAGIC_MISSILE, 25, 10, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_POISON, 50, 20, 3, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF | TAR_OBJ_INV, TRUE, MAG_AFFECTS | MAG_ALTER_OBJS);
-
-  spello(SPELL_PROT_FROM_EVIL, 40, 10, 3, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_SELF_ONLY, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_REMOVE_CURSE, 45, 25, 5, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_OBJ_INV, FALSE, MAG_UNAFFECTS | MAG_ALTER_OBJS);
-
-  spello(SPELL_SANCTUARY, 110, 85, 5, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_SHOCKING_GRASP, 30, 15, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_SLEEP, 40, 25, 5, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_STRENGTH, 35, 30, 1, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_SUMMON, 75, 50, 3, POS_STANDING,
-	TAR_CHAR_WORLD | TAR_NOT_SELF, FALSE, MAG_MANUAL);
-
-  spello(SPELL_TELEPORT, 75, 50, 3, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_WORD_OF_RECALL, 20, 10, 2, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_REMOVE_POISON, 80, 20, 4, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_OBJ_ROOM, FALSE, MAG_UNAFFECTS | MAG_ALTER_OBJS);
-
-  spello(SPELL_CURE_POISON, 60, 8, 4, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_UNAFFECTS);
-
-  spello(SPELL_SENSE_LIFE, 20, 10, 2, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_SELF_ONLY, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_ICE_SHOWER, 120, 40, 5, POS_FIGHTING,
-	TAR_IGNORE, TRUE, MAG_AREAS | MAG_DAMAGE);
-
-  spello(SPELL_FIRE_STORM, 140, 60, 5, POS_FIGHTING,
-	TAR_IGNORE, TRUE, MAG_AREAS | MAG_DAMAGE);
-
-  spello(SPELL_METEOR_SWARM, 165, 80, 10, POS_FIGHTING,
-	TAR_IGNORE, TRUE, MAG_AREAS | MAG_DAMAGE);
-
-  spello(SPELL_POWER_KILL, 350, 250, 40, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_FIGHT_VICT, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_WATERBREATH, 70, 30, 10, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_WATERWALK, 70, 30, 10, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_REFRESH, 125, 35, 5, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_POINTS);
-
-  spello(SPELL_ASTRAL_WALK, 75, 15, 10, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_HASTE,  100, 45, 5, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_FLY, 65, 25, 5, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_DISPEL_MAGIC, 145, 45, 5, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_PORTAL, 180, 15, 5, POS_STANDING,
-	TAR_CHAR_WORLD | TAR_NOT_SELF, FALSE, MAG_MANUAL);
-
-  spello(SPELL_DISEASE, 40, 20, 5, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_PLAGUE, 150, 75, 5, POS_STANDING,
-	TAR_IGNORE, TRUE, MAG_MASSES);
-
-  spello(SPELL_ANIMATE_DEAD, 50, 15, 5, POS_STANDING,
-	TAR_OBJ_ROOM, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_MONSUM_I, 80, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_MONSUM_II, 120, 35, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_MONSUM_III, 180, 55, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_MONSUM_IV, 220, 75, 15, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_GATE_I, 80, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_GATE_II, 120, 35, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_GATE_III, 180, 55, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_GATE_IV, 220, 75, 15, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_SUM_FIRE_ELE, 200, 175, 10, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_SUM_WATER_ELE, 150, 100, 10, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_SUM_EARTH_ELE, 175, 125, 10, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_SUM_AIR_ELE, 100, 50, 10, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_AERIAL_SERVANT, 200, 200, 20, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_DISPEL_ILLUSION, 400, 200, 20, POS_STANDING,
-	TAR_CHAR_ROOM, TRUE, MAG_MANUAL);
-
-  spello(SPELL_ILLUSIONARY_PRES_I, 80, 20, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_ILLUSIONARY_PRES_II, 120, 40, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_ILLUSIONARY_PRES_III, 180, 60, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_ILLUSIONARY_PRES_IV, 220, 80, 20, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_GROUP_PORTAL, 120, 40, 5, POS_STANDING,
-	TAR_CHAR_WORLD | TAR_NOT_SELF, FALSE, MAG_GROUPS);
-
-  spello(SPELL_PASS_DOOR, 150, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_MANUAL);
-
-  spello(SPELL_KNOCK, 50, 5, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_MANUAL);
-
-  spello(SPELL_CURE_PARALYSIS, 85, 15, 5, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_UNAFFECTS);
-
-  spello(SPELL_SILENCE, 100, 20, 5, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_TROLLS_BLOOD, 125, 75, 10, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_LIFESTEAL, 160, 50, 10, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_POINTS);
-
-  spello(SPELL_MEDUSA_GAZE, 150, 45, 5, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_FORCE_BOLT, 150, 55, 5, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS | MAG_DAMAGE);
-
-  spello(SPELL_PURIFY, 450, 250, 50, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_CORRUPT, 450, 250, 50, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_BALANCE, 450, 250, 50, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_GROUP_PASS_DOOR, 250, 50, 20, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_GROUPS);
-
-  spello(SPELL_CURE_DISEASE, 95, 20, 5, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_UNAFFECTS);
-
-  spello(SPELL_WIZARD_EYE, 200, 100, 10, POS_STANDING,
-	TAR_CHAR_WORLD, FALSE, MAG_MANUAL);
-
-  spello(SPELL_SOUL_SHOCK, 1, 1, 1,  POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_CONTAMINATE, 1, 1, 1, POS_STANDING,
-	 TAR_OBJ_INV | TAR_OBJ_EQUIP, FALSE, MAG_MANUAL);
-
-  spello(SPELL_UNDEAD_EYES, 25, 10, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_SELF_ONLY, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_GHOSTLY_SHIELD, 30, 15, 3, POS_FIGHTING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_SOUL_SUM_I, 80, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_SOUL_SUM_II, 80, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_SOUL_SUM_III, 80, 25, 5, POS_STANDING,
-	TAR_IGNORE, FALSE, MAG_SUMMONS);
-
-  spello(SPELL_DECAY, 1, 1, 1, POS_STANDING,
-	TAR_OBJ_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_PROTECTION, 1, 1, 1, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_CRIPPLE, 1, 1, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_CURSE_WEAPON, 75, 5, 5, POS_STANDING,
-	 TAR_OBJ_INV | TAR_OBJ_EQUIP, FALSE, MAG_MANUAL);
-
-  spello(SPELL_CURSE_ARMOR, 75, 15, 5, POS_STANDING,
-	 TAR_OBJ_INV | TAR_OBJ_EQUIP, FALSE, MAG_MANUAL);
-
-  spello(SPELL_DEATHKNELL, 1, 1, 1, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_BLACKMANTLE, 120, 25, 5, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_MASK_PRESENCE, 25, 10, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_SELF_ONLY, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_BLINDING_FLASH, 1, 1, 1, POS_FIGHTING,
-	TAR_IGNORE, TRUE, MAG_AREAS);
-
-  spello(SPELL_FALSE_GLOW, 25, 10, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_SELF_ONLY, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_LIGHTSTRIKE, 1, 1, 1, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_SMOKE_SHIELD, 1, 1, 1, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_CALM, 1, 1, 1, POS_FIGHTING,
-	TAR_IGNORE, FALSE, MAG_MANUAL);
-
-  spello(SPELL_FEAR, 1, 1, 1, POS_STANDING,
-	TAR_CHAR_ROOM, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_VERTIGO, 1, 1, 1, POS_STANDING,
-	TAR_CHAR_ROOM, FALSE, MAG_AFFECTS);
-
-  spello(SPELL_DOUBLE_VISION, 1, 1, 1, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AFFECTS);
-
-  spello(SPELL_VANISH, 35, 25, 1, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_OBJ_ROOM, FALSE, MAG_AFFECTS | MAG_ALTER_OBJS);
-
-  spello(SPELL_FLAME_BOLT, 1, 1, 1, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_HYPNOSIS, 75, 50, 2, POS_FIGHTING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_MANUAL);
-
-  spello(SPELL_PENATRATING_GAZE, 75, 50, 2, POS_STANDING,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, FALSE, MAG_MANUAL);
-
-  /* NON-castable spells should appear here */
-  spello(SPELL_IDENTIFY, 0, 0, 0, 0,
-	TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_OBJ_ROOM, FALSE, MAG_MANUAL);
-
-  spello(SPELL_FIRE_BREATH, 0, 0, 0, 0,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_DAMAGE);
-
-  spello(SPELL_GAS_BREATH, 0, 0, 0, 0,
-	TAR_CHAR_ROOM |  TAR_NOT_SELF, TRUE, MAG_AREAS);
-
-  spello(SPELL_FROST_BREATH, 0, 0, 0, 0,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_DAMAGE|MAG_AFFECTS);
-
-  spello(SPELL_ACID_BREATH, 0, 0, 0, 0,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_AREAS|MAG_ALTER_OBJS);
-
-  spello(SPELL_LIGHTNING_BREATH, 0, 0, 0, 0,
-	TAR_CHAR_ROOM | TAR_NOT_SELF, TRUE, MAG_DAMAGE);
-
-  /*
-   * Declaration of skills - this actually doesn't do anything except
-   * set it up so that immortals can use these skills by default.  The
-   * min level to use the skill for other classes is set up in class.c.
-   */
-
-  skillo(SKILL_BACKSTAB);
-  skillo(SKILL_BASH);
-  skillo(SKILL_HIDE);
-  skillo(SKILL_KICK);
-  skillo(SKILL_PICK_LOCK);
-  skillo(SKILL_PUNCH);
-  skillo(SKILL_RESCUE);
-  skillo(SKILL_SNEAK);
-  skillo(SKILL_STEAL);
-  skillo(SKILL_TRACK);
-  skillo(SKILL_GARROTTE);
-  skillo(SKILL_QUIVERING_PALM);
-  skillo(SKILL_CIRCLE);
-  skillo(SKILL_DBL_ATTACK);
-  skillo(SKILL_TRI_ATTACK);
-  skillo(SKILL_TREADLIGHT);
-  skillo(SKILL_RIDE);
-  skillo(SKILL_SHADOW);
-  skillo(SKILL_BERSERK);
-  skillo(SKILL_DOORBASH);
-  skillo(SKILL_DEATHSTROKE);
-  skillo(SKILL_PUMMEL);
-  skillo(SKILL_PEEK);
-  skillo(SKILL_HUNT);
-  skillo(SKILL_WRESTLING);
-  skillo(SKILL_PUGILISM);
-  skillo(SKILL_SWIM);
-  skillo(SKILL_CLIMB);
-  skillo(SKILL_DETECT_TRAP);
-  skillo(SKILL_DRAGON_RIDE);
-  skillo(SKILL_READ_MAGIC);
-  skillo(SKILL_BRIBERY);
-  skillo(SKILL_DISARM);
-  skillo(SKILL_EVALUATE);
-  skillo(SKILL_HAGGLE);
-  skillo(SKILL_MANUFACTURE_POISONS);
-  skillo(SKILL_MANUFACTURE_POTIONS);
-  skillo(SKILL_MANUFACTURE_SCROLLS);
-  skillo(SKILL_MARKSMANSHIP);
-  skillo(SKILL_SIGN);
-  skillo(SKILL_SECRET_LANGUAGE);
-  skillo(SKILL_POLEARMS);
-  skillo(SKILL_SWORDS);
-  skillo(SKILL_BLUNT);
-  skillo(SKILL_THROWING);
-  skillo(SKILL_TURN_UNDEAD);
+  for (i = 0; *list[i] != '\n'; i++)
+    if (!str_cmp((char *) list[i], (char *) word))
+      return i;
+  return -1;
+}
+
+
+/* Bit flags named in text ("char_room fight_vict"); -1 if one is unknown. */
+static int spell_flags(const char *list[], char *text)
+{
+  char word[MAX_INPUT_LENGTH];
+  int bits = 0, i;
+
+  for (text = one_argument(text, word); *word; text = one_argument(text, word)) {
+    if ((i = spell_word(list, word)) < 0)
+      return -1;
+    bits |= (1 << i);
+  }
+  return bits;
+}
+
+
+void load_spells(void)
+{
+  FILE *fl;
+  char line[MAX_STRING_LENGTH], word[MAX_INPUT_LENGTH], *p, *e;
+  int num = -1, lineno = 0, i, top = 0, count = 0, a, b, c;
+
+  for (i = 0; i <= TOP_SPELL_DEFINE; i++) {
+    if (i) {
+      spell_info[i].sphere       = SPHERE_NONE;
+      spell_info[i].percent      = 100;
+      spell_info[i].mana_max     = 0;
+      spell_info[i].mana_min     = 0;
+      spell_info[i].mana_change  = 0;
+      spell_info[i].min_position = 0;
+      spell_info[i].targets      = 0;
+      spell_info[i].violent      = 0;
+      spell_info[i].routines     = 0;
+      spell_info[i].pretime      = 0;
+    }
+    spells[i] = "!UNUSED!";
+  }
+  spells[0] = "!RESERVED!";
+
+  if (!(fl = fopen(SPELL_FILE, "r"))) {
+    perror("SYSERR: opening " SPELL_FILE);
+    exit(1);
+  }
+  while (fgets(line, sizeof(line), fl)) {
+    lineno++;
+    if ((p = strchr(line, '\n')))
+      *p = '\0';
+    if ((p = strchr(line, '\r')))
+      *p = '\0';
+    p = line;
+    skip_spaces(&p);
+    if (!*p || *p == ';')
+      continue;
+    if (*p == '$')
+      break;
+
+    if (*p == '#') {
+      num = (int) strtol(p + 1, &e, 10);
+      if (e == p + 1 || num < 1 || num > TOP_SPELL_DEFINE) {
+	spell_error(lineno, num, "bad number");
+	num = -1;
+	continue;
+      }
+      skip_spaces(&e);
+      for (p = e + strlen(e); p > e && isspace((unsigned char) p[-1]); p--)
+	*(p - 1) = '\0';
+      if (!*e) {
+	spell_error(lineno, num, "no name");
+	num = -1;
+	continue;
+      }
+      if (strcmp(spells[num], "!UNUSED!"))
+	spell_error(lineno, num, "number used twice");
+      spells[num] = str_dup(e);
+      top = MAX(top, num);
+      count++;
+      continue;
+    }
+    if (num < 0)
+      continue;                         /* inside a bad entry */
+
+    p = one_argument(p, word);
+    skip_spaces(&p);
+    if (!str_cmp(word, "sphere")) {
+      for (i = 1; i <= MAX_SPHERES; i++)
+	if (!str_cmp(spells[i], p))
+	  break;
+      if (i > MAX_SPHERES)
+	spell_error(lineno, num, "no such sphere (spheres must come first)");
+      else
+	spell_info[num].sphere = i;
+    } else if (!str_cmp(word, "percent"))
+      spell_info[num].percent = atoi(p);
+    else if (!str_cmp(word, "pretime"))
+      spell_info[num].pretime = atoi(p);
+    else if (!str_cmp(word, "mana")) {
+      if (sscanf(p, "%d %d %d", &a, &b, &c) != 3)
+	spell_error(lineno, num, "mana needs max, min and change");
+      else {
+	spell_info[num].mana_max = a;
+	spell_info[num].mana_min = b;
+	spell_info[num].mana_change = c;
+      }
+    } else if (!str_cmp(word, "position")) {
+      if ((i = spell_word(spell_positions, p)) < 0)
+	spell_error(lineno, num, "unknown position");
+      else
+	spell_info[num].min_position = i;
+    } else if (!str_cmp(word, "targets")) {
+      if ((i = spell_flags(spell_targets, p)) < 0)
+	spell_error(lineno, num, "unknown target");
+      else
+	spell_info[num].targets = i;
+    } else if (!str_cmp(word, "routines")) {
+      if ((i = spell_flags(spell_routines, p)) < 0)
+	spell_error(lineno, num, "unknown routine");
+      else
+	spell_info[num].routines = i;
+    } else if (!str_cmp(word, "violent"))
+      spell_info[num].violent = TRUE;
+    else
+      spell_error(lineno, num, "unknown line");
+  }
+  fclose(fl);
+
+  if (!count) {
+    log("SYSERR: " SPELL_FILE " defines no spells or skills.");
+    exit(1);
+  }
+  spells[top + 1] = "\n";
+  sprintf(buf, "Loaded %d spells, skills and spheres.", count);
+  log(buf);
 }
 

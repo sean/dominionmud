@@ -530,8 +530,7 @@ int     cast_spell(struct char_data *ch, struct char_data *tch,
 
 
 /* other prototypes */
-void spell_sphere(int spell, int sphere, int level, int timer);
-void skill_sphere(int spell, int sphere, int level);
+void load_spells(void);              /* lib/data/spells */
 void init_spell_levels(void);
 char *skill_name(int num);
 
