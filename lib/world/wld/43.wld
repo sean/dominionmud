@@ -1,0 +1,327 @@
+#4300
+A Cell in the Brig~
+   A cell cut into the rock beneath Blackwake's fort and floored with old
+ship's planking, black with damp.  A heavy door of iron-bound oak shuts
+it off to the east, with a little barred window you can just see through.
+There is a bucket in the corner and a heap of mouldy straw, and the
+planks of the floor are warped and uneven; in one corner they sit a
+little higher than the rest.  Somewhere beneath you, water slaps and
+gurgles.
+~
+43 d 0
+D1
+~
+door cell~
+2 4301 4305
+D5
+~
+plank planks board boards floor~
+1 -1 4301
+E
+plank planks board boards floor corner~
+The floor is made of old ship's planks, warped by the damp.  In the corner
+one of them rocks when you press on it, and cold air breathes up around
+its edges.  It isn't nailed down.  It might open.
+~
+E
+straw bucket~
+Mouldy straw, a bucket you'd rather not look in, and the scratched tally
+of some earlier prisoner: thirty-one days.
+~
+E
+window bars door~
+Through the little barred window you can see a stone corridor lit by a
+lantern, and the boots of someone sitting in a chair.  The boots aren't
+moving.  Snoring comes from above them.
+~
+S
+#4301
+Beneath the Brig~
+   You have squeezed down into a crawlspace beneath the brig, between the
+planking and the bare rock.  It is barely high enough to crawl, and the
+rock is slick with weed; the tide comes in this far, and the water is
+ankle deep and cold.  The loose plank is above you, and a passage worn by
+the sea leads east, toward the sound of surf.
+~
+43 d 0
+D1
+~
+~
+0 -1 4302
+D4
+~
+plank board floor~
+1 -1 4300
+S
+#4302
+A Tidal Cave~
+   A cave hollowed out of the island by the sea.  Green light comes in
+with the waves from somewhere to the east, and the walls glitter with
+wet shells.  A rope ladder, half rotten, hangs down a cleft in the rock
+to the north, and the crawlspace beneath the brig opens to the west.
+~
+43 d 0
+D0
+~
+~
+0 -1 4303
+D1
+~
+~
+0 -1 4313
+D3
+~
+~
+0 -1 4301
+E
+ladder rope cleft~
+An old smugglers' ladder, more knots than rope.  It leads up the cleft
+into darkness.  It will probably hold.
+~
+S
+#4303
+The Smugglers' Stair~
+   Steps cut into the rock of the cleft climb steeply upward, worn hollow
+by the boots of smugglers long before Blackwake came.  Light and the
+noise of carousing come from above.  The tidal cave is below to the
+south.
+~
+43 d 0
+D2
+~
+~
+0 -1 4302
+D4
+~
+~
+0 -1 4304
+S
+#4304
+The Fort Courtyard~
+   The courtyard of an old stone fort that the pirates have patched with
+ship's timbers and sailcloth.  A flag with a black wake on a red field
+snaps from a mast above the gate.  Barrels, nets and stolen cargo are
+heaped everywhere, and a bonfire smokes in a ring of stones.  The mess
+hall is north, the battlements west, and a stout door to the east is
+marked with a painted padlock.  Steps lead down south to the brig, and a
+cleft in the rock drops away below.
+~
+43 0 0
+D0
+~
+~
+0 -1 4307
+D1
+~
+door store stout~
+2 4302 4306
+D2
+~
+~
+0 -1 4305
+D3
+~
+~
+0 -1 4308
+D5
+~
+~
+0 -1 4303
+E
+flag wake mast~
+A black wake on a red field: the flag of Morrow Blackwake, the Pirate
+King.  Sailors on this coast pray never to see it on the horizon.
+~
+E
+door store padlock~
+A stout oak door with a padlock painted on it in red, in case anyone
+missed the real one.  The quartermaster keeps the key.
+~
+S
+#4305
+The Brig Corridor~
+   A short stone corridor under the fort, lit by a single lantern.  A chair
+and a little table stand by the cell door to the west, with a jug and
+some dice on it.  Steps lead up north to the courtyard.
+~
+43 d 0
+D0
+~
+~
+0 -1 4304
+D3
+~
+door cell~
+2 4301 4300
+S
+#4306
+The Quartermaster's Store~
+   A long storeroom stacked with everything the Pirate King has ever taken:
+bolts of silk, casks of wine, crates of candles, a harp, a ship's
+figurehead of a mermaid, chests and chests and chests.  Prisoners'
+belongings are kept here too, each lot locked in a sea chest with a name
+chalked on the lid, until the ransom is paid.  The door to the courtyard
+is west.
+~
+43 d 0
+D3
+~
+door store stout~
+2 4302 4304
+E
+silk casks crates harp figurehead mermaid chests~
+Plunder from a hundred ships.  None of it is yours, apart from what's in
+the chest with your name on it.
+~
+S
+#4307
+The Mess Hall~
+   A long hall with trestle tables, benches, a cold hearth and the
+remains of a feast.  Bottles roll underfoot.  Hooks along the wall hold
+cloaks, cutlasses and a ring of keys.  A curtained doorway leads north to
+the captain's quarters, and the courtyard is south.
+~
+43 d 0
+D0
+~
+~
+0 -1 4309
+D2
+~
+~
+0 -1 4304
+E
+hooks wall cloaks~
+Hooks along the wall for cloaks and cutlasses.  One of them holds the
+quartermaster's keys, where he hung them before he drank himself to sleep.
+~
+S
+#4308
+The Battlements~
+   The crumbling west wall of the fort, with old cannon rusting in their
+ports and a sentry walk along the top.  The sea is everywhere below, and
+far to the north a smudge on the horizon might be the coast.  A path runs
+off the end of the wall and along the cliffs to the west.  The courtyard
+is east.
+~
+43 0 0
+D1
+~
+~
+0 -1 4304
+D3
+~
+~
+0 -1 4310
+S
+#4309
+The Pirate King's Cabin~
+   The captain's quarters, made from the stern cabin of some captured
+galleon and set into the fort like a jewel in a skull.  Stained glass
+windows, a carved bed, a desk covered in charts, a map of the coast with
+pins in it for every ship he has taken.  It is empty, and in a hurry: a
+chair is overturned and a cloak is gone from its hook.  The mess hall is
+south.
+~
+43 d 0
+D2
+~
+~
+0 -1 4307
+E
+map pins coast~
+A map of the coast stuck with pins, each with a little paper flag: a
+ship's name and a date.  The newest pin, still bright, is in the run off
+the eastern cape.  Its flag reads SEA WREN.
+~
+E
+desk charts~
+Charts and letters and a half-written ransom note.  The ink is still wet.
+~
+S
+#4310
+A Cliff Path~
+   A narrow path along the top of the sea cliffs, with the wind tearing at
+you and the surf booming a hundred feet below.  It leads north to a
+ruined lighthouse on the headland, and back east to the battlements.
+~
+43 0 0
+D0
+~
+~
+0 -1 4311
+D1
+~
+~
+0 -1 4308
+S
+#4311
+The Ruined Lighthouse~
+   The base of an old lighthouse, its door long gone, its stones scorched
+by some ancient fire.  A stair winds up the inside of the tower toward
+the lamp room, and fresh muddy bootprints go up it.  The cliff path is
+south.
+~
+43 d 0
+D2
+~
+~
+0 -1 4310
+D4
+~
+~
+0 -1 4312
+E
+bootprints prints boots~
+Fresh prints of good boots, going up, and none coming down.
+~
+S
+#4312
+The Lamp Room~
+   The top of the lighthouse, open to the sky where the glass has long
+since gone.  The great iron lamp is cold.  From up here you can see the
+whole island, the fort, the cove and the endless sea - and anyone coming
+up the cliff path.  The stair goes down.
+~
+43 0 0
+D5
+~
+~
+0 -1 4311
+S
+#4313
+The Hidden Cove~
+   A little cove of white sand hidden between two arms of black rock, so
+that no ship at sea would ever see it.  The pirates' longboats are
+dragged up on the beach, and one of them is in the water, its oars
+shipped, bobbing at the end of a rope.  The tidal cave is west.
+~
+43 0 0
+D1
+~
+~
+0 -1 4314
+D3
+~
+~
+0 -1 4302
+S
+#4314
+In a Pirate Longboat~
+   You sit in a pirate longboat with the oars in your hands.  The island is
+behind you, and ahead, far off to the north, is the smudge of the coast
+and the stilt-legged docks of Vice Island.  It is a long, hard row.  You
+could go back to the cove to the west, or pull east and north for the
+mainland and freedom.
+~
+43 0 0
+D1
+~
+~
+0 -1 10590
+D3
+~
+~
+0 -1 4313
+S
+$~

@@ -598,8 +598,9 @@ static void give_reward(struct char_data *ch, struct quest_data *q)
     over = q->max_level ? GET_LEVEL(ch) - q->max_level : 0;
     for (; over >= 5 && kills > 1; over -= 5)
       kills /= 2;
-    gap = exp_needed(GET_LEVEL(ch) + 1) - exp_needed(GET_LEVEL(ch));
-    per = MAX(1L, gap / 16);
+    /* a kill's worth: a mob of the player's own level (race.c) */
+    per = MAX(1L, mob_exp_for_level(GET_LEVEL(ch)));
+    (void) gap;
     send_to_char("You feel more experienced.\r\n", ch);
     for (i = 0; i < kills && !CAN_LEV(ch); i++)  /* stops at the cap */
       gain_exp(ch, (int) per);
@@ -634,6 +635,13 @@ static void finish_quest(struct char_data *ch, struct quest_data *q,
   sprintf(buf, "%s completed quest %d (%s).", GET_NAME(ch), q->vnum, q->title);
   mudlog(buf, CMP, LVL_GOD, TRUE);
   save_char(ch, NOWHERE);
+}
+
+
+/* TRUE if ch is on quest vnum and hasn't finished it (ship.c asks). */
+int quest_on(struct char_data *ch, int vnum)
+{
+  return !IS_NPC(ch) && active_slot(ch, vnum) != NULL;
 }
 
 

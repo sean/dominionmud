@@ -4,8 +4,8 @@ Grond~
 An enormous iron war-hammer lies half-buried here.~
 ~
 5 mpqrt am
-2 6 5 6 0 0 0 20 14
-22 20000 20000
+2 7 11 6 0 0 0 20 14
+22 4012 401
 E
 grond~
      Leather straps and runes adorn this ancient weapon.  Evil
@@ -22,8 +22,8 @@ a firewhip~
 A many-thronged whip of fire burns on the ground.~
 ~
 5 0 am
-0 3 6 2 0 0 0 20 14
-11 4000 1000
+0 7 8 2 0 0 0 20 14
+11 2983 298
 A
 19 1
 #26002
@@ -32,8 +32,8 @@ a Flameblade~
 A burning sword chars the very earth on which it lies.~
 ~
 5 0 am
-0 4 5 3 0 0 0 20 14
-14 5000 1250
+0 6 9 3 0 0 0 20 14
+14 2480 248
 A
 19 2
 A
@@ -44,8 +44,8 @@ an orcish helm~
 A green metallic helmet has been dropped here.~
 ~
 9 0 ae
-75 0 0 0 0 0 0 18 14
-7 4000 150
+40 0 0 0 0 0 0 18 14
+7 2093 150
 E
 helm~
 The headpiece has cryptic runes carved all over its green metal.
@@ -58,8 +58,8 @@ orcish bracers~
 A set of green metallic bracers has been dropped here.~
 ~
 9 0 ai
-7 0 0 0 0 0 0 11 14
-7 2000 150
+31 0 0 0 0 0 0 11 14
+7 1618 150
 E
 bracers~
 The bracers are carved with intricate designs and runes.
@@ -72,8 +72,8 @@ an orcish gauntlet~
 An orcish gauntlet lies here in the dust.~
 ~
 9 0 ah
-65 0 0 0 0 0 0 18 14
-7 2000 150
+40 0 0 0 0 0 0 18 14
+7 2093 150
 A
 13 2
 #26006
@@ -82,8 +82,8 @@ an orcish shield~
 A green shield with a black skull has been left here.~
 ~
 9 0 ajm
-6 0 0 0 0 0 0 9 14
-7 2000 150
+29 0 0 0 0 0 0 9 14
+7 1498 149
 E
 shield~
 The black skull seems to move about the green field.
@@ -96,8 +96,8 @@ orcish legplates~
 A pair of green metallic legplates has been left here.~
 ~
 9 0 af
-7 0 0 0 0 0 0 11 14
-7 2000 150
+31 0 0 0 0 0 0 11 14
+7 1618 150
 A
 13 2
 #26008
@@ -106,8 +106,8 @@ orcish platemail~
 A metallic green platemail has been discarded here.~
 ~
 9 0 ad
-8 0 0 0 0 0 0 0 14
-70 8000 200
+33 0 0 0 0 0 0 0 14
+70 1729 172
 E
 platemail~
 The armor has a metallic glimmer to it.
@@ -120,8 +120,8 @@ an orcish belt~
 A metallic green belt has been dropped here.~
 ~
 9 0 ak
-5 0 0 0 0 0 0 0 14
-5 100 10
+26 0 0 0 0 0 0 0 14
+5 1367 10
 A
 13 2
 #26010
@@ -264,8 +264,8 @@ the silver scales of a dragon~
 Strips of silver scaling, probably from the dragon, lay here.~
 ~
 9 ade ai
-9 0 0 0 0 0 0 19 14
-5 5000 500
+37 0 0 0 0 0 0 19 14
+5 1989 198
 E
 scales bragollach~
      The silver strips of scaling reflect your light, causing it to
@@ -274,15 +274,15 @@ dance about the room.
 A
 2 2
 A
-30 30
+30 24
 #26027
 scales carafuin~
 the red scales of a dragon~
 Red scales from the body of the great dragon are here.~
 ~
 9 g af
-10 0 0 0 0 0 0 19 14
-6 5000 10000
+39 0 0 0 0 0 0 19 14
+6 2181 218
 E
 scales carafuin~
 The scales are of a deep red hue, very strong and very flexible.
@@ -292,15 +292,15 @@ A
 A
 1 3
 A
-32 30
+32 24
 #26028
 head daesareg~
 the Head of Daesareg~
 The top half of the head of the black dragon lies here.~
 ~
 9 g ae
-10 0 0 0 0 0 0 19 14
-5 5000 1000
+39 0 0 0 0 0 0 19 14
+5 2181 218
 E
 head daesareg~
      The head is cut extensively, yet all the teeth are intact
@@ -309,7 +309,7 @@ and the eyes still stare menacingly at you.
 A
 1 2
 A
-31 30
+31 24
 #26029
 globe~
 a globe~
@@ -359,8 +359,8 @@ an iron girth~
 A large iron girth lays heavily on the ground.~
 ~
 9 q ak
-20 0 0 0 0 0 0 19 14
-9 2000 500
+43 0 0 0 0 0 0 19 14
+9 2408 240
 E
 girth~
 The girth is very heavy, but feels very powerful.
@@ -373,16 +373,16 @@ an orc mining pick~
 A heavy mining pick has been thrust into the earth.~
 ~
 5 0 a
-0 2 5 10 0 0 0 0 14
-13 1000 100
+0 7 6 10 0 0 0 0 14
+13 2141 100
 #26034
 silmaril~
 a silmaril~
 A Silmaril radiates brightly as you look upon it.~
 ~
 9 gx ac
-4 0 0 0 0 0 0 0 14
-3 50000 20000
+26 0 0 0 0 0 0 0 14
+3 1444 144
 E
 Silmaril~
      Of what material this gem is fashioned none will ever know.
@@ -404,8 +404,8 @@ a silmaril~
 A Silmaril radiates brightly as you look upon it.~
 ~
 9 gx ac
-4 0 0 0 0 0 0 0 14
-3 50000 15000
+26 0 0 0 0 0 0 0 14
+3 1444 144
 E
 Silmaril~
      Of what material this gem is fashioned none will ever know.
@@ -427,8 +427,8 @@ a silmaril~
 A Silmaril radiates brightly as you look upon it.~
 ~
 9 gx ac
-4 0 0 0 0 0 0 0 14
-3 50000 15000
+26 0 0 0 0 0 0 0 14
+3 1444 144
 E
 Silmaril~
      Of what material this gem is fashioned none will ever know.

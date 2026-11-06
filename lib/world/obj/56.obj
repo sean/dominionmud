@@ -4,20 +4,20 @@ dagger~
 An unfinished object has been carelessly left here.~
 ~
 5 abgix am
-300 300 50 11 0 0 0 20 14
-1 1999999 19999999
+300 1 14 11 0 0 0 20 14
+1 75 7
 A
-18 100
+18 1
 A
-19 100
+19 1
 A
-1 10
+1 1
 A
-30 100
+30 7
 A
 29 20
 A
-13 50
+13 5
 #5601
 eyes glowing~
 a pair of glowing amber eyes~
@@ -32,29 +32,29 @@ glowing eyes~
 The glowing amber eyes look back at you...8)
 ~
 A
-2 2
+2 1
 A
-6 -4
+6 -1
 A
-4 -2
+4 -1
 A
 24 2
 A
-31 20
+31 8
 A
-18 6
+18 2
 #5602
 shadow bands ring~
 -=shadow ring=-~
 A shadow twisted into a ring lies at your feet.~
 ~
 9 abgiu ab
-30 0 0 0 0 0 0 20 0
-1 10000 1
+7 0 0 0 0 0 0 20 0
+1 44 1
 A
-19 10
+19 1
 A
-18 10
+18 1
 A
 14 10
 A
@@ -90,7 +90,7 @@ A small red stream runs southward.~
 ~
 8 0 0
 0 0 0 0 0 0 0 0 2
-9999999 0 0
+9999999 10 0
 #5607
 pool~
 a barrel of blood~
@@ -98,7 +98,7 @@ A very deep pool of blood is all around you.~
 ~
 8 d 0
 0 0 0 0 0 0 0 20 16
-999999 0 0
+999999 10 0
 #5608
 bloody key~
 the bloody key~
@@ -113,15 +113,15 @@ You look at the key made from the blood clot of the bloody beasty and
 you see nothing but a blood clot shaped in the form of a skeleton key.
 ~
 A
-6 -3
+6 -1
 A
-18 3
+18 2
 A
-24 5
+24 2
 A
-30 50
+30 9
 A
-31 30
+31 9
 A
 19 1
 #5609
@@ -130,24 +130,24 @@ a steel helm~
 A steel helm lies here on the ground~
 ~
 9 0 ae
-30 0 0 0 0 0 0 19 2
-1 0 1
+7 0 0 0 0 0 0 19 2
+1 44 1
 E
 steel helm~
 A steel helm shines brightly in the sun.
 ~
 A
-2 10
+2 1
 A
-32 20
+32 7
 A
-5 10
+5 1
 A
-3 12
+3 1
 A
-1 9
+1 1
 A
-19 10
+19 1
 #5610
 unfinished obj~
 an unfinished obj~
@@ -163,7 +163,7 @@ Blood freely flows through a crack in the wall here.~
 ~
 8 jkl 0
 0 0 0 0 0 0 0 9 4
-99999999 0 0
+99999999 10 0
 E
 crack blood~
 As you peer at the crack you notice that there is enough space between
@@ -219,8 +219,8 @@ taTteRed bOots~
 A pair of taTteRed old boots lies here to rot.~
 ~
 9 bzA ag
-20 0 0 0 0 0 0 20 2
-2 1000 150
+21 0 0 0 0 0 0 20 2
+2 659 65
 E
 tattered boots~
   You look at the taTteRed bOots and they seem normal in every way.
@@ -626,17 +626,17 @@ A small pouch has been left lying here to rot.~
 500 0 -1 100 0 0 0 19 2
 1 2000000 1
 A
-19 15
+19 1
 A
-4 13
+4 1
 A
-18 8
+18 1
 A
-12 100
+12 10
 A
-31 100
+31 7
 A
-32 50
+32 7
 #5665
 belt pouch~
 a glowing pouch~
@@ -646,17 +646,17 @@ A small glowing beltpouch is lying here unattended.~
 500 0 -1 40 0 0 0 14 2
 2 500000 1000
 A
-2 2
+2 1
 A
-17 10
+17 1
 A
-24 5
+24 2
 A
 18 2
 A
-1 2
+1 1
 A
-31 10
+31 8
 #5666
 headress helmet~
 a Chree'zen battle headdress~
@@ -664,18 +664,18 @@ A spike encrusted helmet is stuck in the ground here.~
  
 ~
 9 bj ae
-40 0 0 0 0 0 0 17 2
-3 1000000 10000
+9 0 0 0 0 0 0 17 2
+3 89 8
 A
-17 10
+17 1
 A
-19 4
+19 2
 A
-1 2
+1 1
 A
-4 -2
+4 -1
 A
-13 30
+13 7
 A
 18 2
 #5667
@@ -684,18 +684,18 @@ a Chree'zen gauntlet~
 A gruesomely spiked gauntlet as been carelessly left here.~
 ~
 9 b ah
-20 0 0 0 0 0 0 17 2
-3 1000000 10000
+7 0 0 0 0 0 0 17 2
+3 64 6
 A
 18 2
 A
-19 3
+19 2
 A
-3 -2
+3 -1
 A
-6 -2
+6 -1
 A
-30 20
+30 8
 A
 2 1
 #5668
@@ -707,11 +707,11 @@ A small candle burns eternally on the ground.~
 0 0 -1 0 0 0 0 11 1
 1 490000 5000
 A
-31 20
+31 7
 A
-30 20
+30 7
 A
-32 20
+32 7
 A
 3 1
 A
@@ -727,15 +727,15 @@ A crude looking waterskin lies here collecting dust.~
 999999 999999 15 0 0 0 0 15 2
 1000004 30000 500
 A
-6 -2
+6 -1
 A
 3 -1
 A
 4 -1
 A
-26 10
+26 1
 A
-13 10
+13 6
 #5670
 altar marble~
 the marble altar~
@@ -789,8 +789,8 @@ a great, stone hammer~
 A heavy hammer made of stone lies here on the ground.~
 ~
 5 p am
-1 5 3 6 0 0 0 9 0
-10 800 400
+1 5 6 6 0 0 0 9 0
+10 968 96
 A
 18 -5
 A
@@ -801,16 +801,16 @@ a battered shield~
 A battered shield lies on the ground here.~
 ~
 9 0 am
-8 0 0 0 0 0 0 14 0
-7 500 250
+16 0 0 0 0 0 0 14 0
+7 544 54
 #5677
 fur shirt~
 a ragged, fur shirt~
 A pile of ragged fur lies on the ground here.~
 ~
 9 0 ad
-5 0 0 0 0 0 0 8 0
-5 80 40
+16 0 0 0 0 0 0 8 0
+5 544 40
 #5678
 unfinished obj~
 an unfinished obj~
@@ -985,18 +985,18 @@ collar~
 A chain made from the shadows lies here in the shadows.~
 ~
 9 abt ac
-200 0 0 0 0 0 0 20 2
-1 100000 0
+7 0 0 0 0 0 0 20 2
+1 45 0
 A
-19 30
+19 1
 A
-18 20
+18 1
 A
-13 50
+13 5
 A
-30 30
+30 7
 A
-24 5
+24 1
 #5700
 unfinished obj~
 an unfinished obj~
@@ -1762,19 +1762,19 @@ A sunstone is here.~
 0 0 0 0 0 0 0 0 0
 0 0 0
 A
-18 40
+18 1
 A
-19 23
+19 1
 #5795
 cloak green~
 glowing green cloak~
 It is made of an emerald fabric.~
 ~
 9 a ad
-10 0 0 0 0 0 0 20 0
-2 1000 7000
+4 0 0 0 0 0 0 20 0
+2 27 2
 A
-14 40
+14 10
 A
 3 1
 #5796
@@ -1783,28 +1783,28 @@ Spear of the Ages~
 A spear with the wisdom of the ages lies here.~
 ~
 5 agiE am
-10000 10000 50 11 0 0 0 20 8
-2 10 1000000
+10000 1 14 11 0 0 0 20 8
+2 75 7
 A
-18 100
+18 1
 A
-19 100
+19 1
 A
-17 100
+17 1
 A
-14 48
+14 10
 A
-13 48
+13 5
 A
-12 48
+12 10
 #5797
 wally~
 moraganti blades~
 The Moraganti blades lie here pulsing with the power of absorbed souls.~
 ~
 5 abcghA am
-10 10 50 3 0 0 0 20 8
-1 0 100000
+10 1 9 3 0 0 0 20 8
+1 48 4
 E
 moraganti blade~
 This blade is made of a glowing black material, it pulses with power
@@ -1812,13 +1812,13 @@ of the former wielders of this great weapon. Rumors say that this blade
 takes the very soul of the people that use it for any length of time.
 ~
 A
-30 100
+30 7
 A
-24 10
+24 1
 A
-17 -20
+17 1
 A
-7 -2
+7 -1
 #5798
 skirt satin diamond~
 a satin skirt~
@@ -1828,9 +1828,9 @@ An piece of clothing glitters on the ground.~
 0 0 0 0 0 0 0 19 4
 14 8500 3000
 A
-17 15
+17 1
 A
-13 10
+13 5
 A
 2 -1
 #5799
@@ -1840,15 +1840,15 @@ A small ring made of malachite lies on the ground.~
 ~
 3 fg abm
 10 20 20 51 0 0 0 20 2
-5 1000 1000
+5 60 6
 E
 inscription~
 You guess too damn much.
 ~
 A
-17 10
+17 1
 A
-18 2
+18 1
 A
-19 2
+19 1
 $~

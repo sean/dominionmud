@@ -4,32 +4,32 @@ a bucket of rocks~
 A wooden bucket filled with rocks is lying here.~
 ~
 5 d a
-0 1 3 6 0 0 0 0 14
-10 0 0
+0 1 4 6 0 0 0 0 14
+10 10 0
 #20001
 pick~
 a pick~
 A poorly fashioned iron pick is lying here.~
 ~
 5 d a
-0 1 4 11 0 0 0 0 14
-5 10 0
+0 1 5 11 0 0 0 0 14
+5 11 0
 #20002
 wooden spear~
 a wooden spear~
 A wooden spear is lying here.~
 ~
 5 dE a
-0 1 4 14 0 0 0 0 14
-5 2 0
+0 1 5 14 0 0 0 0 14
+5 11 0
 #20003
 taskmaster whip~
 a whip~
 A taskmaster's whip is lying here.~
 ~
 5 d am
-0 1 6 2 0 0 0 0 14
-3 5 0
+0 1 8 2 0 0 0 0 14
+3 25 0
 #20004
 stone battleaxe axe~
 a stone battleaxe~
@@ -37,17 +37,17 @@ A stone battleaxe is lying here.~
 ~
 5 d am
 0 1 6 3 0 0 0 0 14
-10 10 0
+10 13 0
 #20005
 bloody whip~
 a bloody whip~
 A bloody, black leather whip is lying here.~
 ~
 5 b am
-0 2 4 2 0 0 0 0 14
-5 500 100
+0 1 11 2 0 0 0 0 14
+5 41 4
 A
-18 2
+18 1
 #20006
 rotten tunic hides~
 a tunic of rotten hides~
@@ -55,7 +55,7 @@ A pile of rotten hides lies here.~
 ~
 9 d ad
 3 0 0 0 0 0 0 0 14
-7 1 0
+7 9 0
 #20007
 holy symbol gnomish head skull~
 a skull-shaped holy symbol~
@@ -70,8 +70,8 @@ an orange, hooded robe~
 A pile of orange cloth lies here.~
 ~
 9 g ak
-1 0 0 0 0 0 0 0 14
-4 200 10
+4 0 0 0 0 0 0 0 14
+4 31 3
 A
 4 1
 #20009
@@ -80,8 +80,8 @@ a fingerbone necklace~
 A pile of rotten fingers tied together with a string lies here.~
 ~
 9 g ac
-1 0 0 0 0 0 0 0 14
-1 200 20
+3 0 0 0 0 0 0 0 14
+1 15 1
 E
 bone rotten fingers~
 Upon closer examination of the rotten fingers you guess they belong to 
@@ -95,10 +95,10 @@ a loose-fitting black chain shirt~
 You see a pile of black chain lying here.~
 ~
 9 d ad
-6 0 0 0 0 0 0 0 14
-10 200 0
+5 0 0 0 0 0 0 0 14
+10 25 0
 A
-2 -2
+2 -1
 #20011
 note~
 a note~
@@ -135,7 +135,7 @@ The much coveted AmberStone is lying here.~
 ~
 8 abdgi ao
 0 0 0 0 0 0 0 0 14
-1000 1000000000 0
+1000 70 0
 E
 amber stone amberstone~
 As you gaze into the glowing Amberstone, you curse your mortal bones that 

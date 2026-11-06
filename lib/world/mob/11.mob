@@ -5,8 +5,8 @@ A rather large woman stands behind the counter preparing another loaf.
 ~
 You see nothing special.~
 bdenop r 1000 S
-42 1 0 1d1+10000 1d1+35
-100000 0
+100 60 30 33d6+144 9d3+0
+1700 81230
 8 8 2
 #1101
 man old alchemist~
@@ -17,8 +17,8 @@ He looks very tired and bored with his job as if he thinks he would make
 a good adventurer.
 ~
 bdenop r 1000 S
-41 1 0 1d1+10000 1d1+35
-100000 0
+99 60 30 33d6+142 9d3+0
+1668 79626
 8 8 1
 #1102
 mage old~
@@ -29,8 +29,8 @@ The mage is quite old and has a wild look in his eye.  His teeth are
 not well kept.
 ~
 bdenop r 1000 S
-41 1 0 1d1+10000 1d1+35
-100000 0
+99 60 30 33d6+142 9d3+0
+1668 79626
 8 8 1
 #1103
 man shopkeeper boy worker apprentice~
@@ -41,8 +41,8 @@ The boy is the apprentice and looks to be in charge of the shop
 while the master is not present.
 ~
 bdenop r 1000 S
-41 1 0 1d1+10000 1d1+35
-100000 0
+99 60 30 33d6+142 9d3+0
+1668 79626
 8 8 1
 #1104
 fletcher man~
@@ -52,8 +52,8 @@ A man sits comfortably in a chair stringing a bow.
 He looks wizened beyond his years.
 ~
 bdenop r 1000 S
-41 1 50 1d1+10000 1d1+35
-100000 0
+99 60 30 33d6+142 9d3+0
+1668 79626
 8 8 1
 #1105
 guard sentry sentinel~
@@ -64,8 +64,8 @@ A sentinel stands here clad in silver steel.  He cares not of your
 presence, only sweeps his gaze along the horizon.
 ~
 bdenop r 1000 S
-23 49 75 1d1+5000 10d7+80
-10 0
+45 32 16 15d6+67 4d3+0
+394 16770
 8 8 1
 #1106
 kruk butcher~
@@ -76,8 +76,8 @@ Kruk is quite large and wears a scowl on his face.  His arms are spattered
 with the blood of the meat he chops hours on end.
 ~
 bde ar 0 S
-38 10 102 30d100+3000 4d10+20
-25000 30000
+95 58 29 31d6+140 8d3+0
+1544 73370
 8 8 1
 #1107
 guard dragoon~
@@ -89,8 +89,8 @@ looks of his outfit.  He wears a strange black mask which covers
 most of his face.
 ~
 dgm mr 800 S
-15 10 92 30d2+120 4d2+8
-1000 10000
+65 42 21 21d6+105 6d3+0
+764 34610
 8 8 1
 #1108
 apprentice~
@@ -102,8 +102,8 @@ the steel he pounds so fervently.  His hair is matted with sweat which
 runs like rivers down his face.
 ~
 bd r 800 S
-23 20 101 10d50+2500 20d2+20
-50000 100000
+75 48 24 25d6+115 7d3+0
+994 45930
 8 8 1
 #1109
 female commoner~
@@ -114,8 +114,8 @@ She has plain, drab features but wears a smile nonetheless.  In her
 eyes you see that she is in a hurry for something.
 ~
 dg 0 800 S
-2 7 106 2d6+3 1d3+1
-9 45
+38 29 14 12d6+57 4d5+0
+293 12038
 8 8 2
 #1110
 commoner male~
@@ -126,8 +126,8 @@ He has a red nose from possibly too many Dragon Flames.  He walks about
 slowly, admiring each and every site as if it were his first viewing.
 ~
 dg 0 700 S
-2 1 69 5d2+5 2d1+3
-6 69
+38 29 14 12d6+57 4d5+0
+293 12038
 8 8 1
 #1111
 gnome merchant~
@@ -139,8 +139,8 @@ compared to his brethren.  He has a pack slung over his shoulder which
 jingles and jangles as the stuff inside rattles about.
 ~
 dg 0 300 S
-3 2 25 2d6+6 2d2+2
-60 89
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 1
 #1112
 durin whyteflame weaponsmith smith~
@@ -151,8 +151,8 @@ Durin pushes a mound of blond hair out of his eyes and looks at you.
 His eyes look to be made of gold like the color of his skin.
 ~
 bd r 800 S
-38 50 43 100d10+500 5d7+50
-50000 125000
+95 58 29 31d6+140 8d3+0
+1544 73370
 8 8 1
 #1113
 lady woman~
@@ -163,8 +163,8 @@ She is outfitted in the latest fashionables.  Her hair is pulled back
 tight and she wears a haughty mask of a smile on her face.
 ~
 dg 0 360 S
-3 1 39 1d12+6 2d2+1
-100 10
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 0
 #1114
 darkenguard~
@@ -176,8 +176,8 @@ Wasteland.  Two dark burning spheres of light peer out from the
 shroud of darkness surrounding it.
 ~
 dgjko kr -1000 E
-25 30 82 80d2+680 7d3+65
-7000 180000
+45 32 16 15d6+67 4d3+0
+394 16770
 8 8 0
 Race: 34
 E
@@ -192,8 +192,8 @@ cloak over his grey, shadowed face.  As he notices you he flips his
 weapon into a fighting position and awaits your next move.
 ~
 bdeq cr 0 E
-13 18 76 2d80+50 3d7+8
-5000 26000
+45 32 16 15d6+67 4d3+0
+394 16770
 8 8 1
 BareHandAttack: 14
 E
@@ -207,8 +207,8 @@ swears obscenities at the object in his hands which seems to be unagreeable
 in getting itself fixed.
 ~
 d 0 1000 E
-35 73 53 70d140+10000 3d20+83
-100000 10000
+91 56 28 30d6+98 8d4+0
+1424 67370
 8 8 1
 Str: 21
 Dex: 18
@@ -226,8 +226,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 50 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1118
 unfinished mob~
@@ -237,8 +237,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 13 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1119
 unfinished mob~
@@ -248,8 +248,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 2 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1120
 sentinel dwarven dwarf~
@@ -261,8 +261,8 @@ to his britches stands here protecting the gates of the castle.
 His armor is silver and covered with strange runes.
 ~
 bdqv hr 1000 E
-20 43 44 10d40+700 5d2+56
-0 89000
+42 31 16 14d6+3 4d2+0
+349 14646
 8 8 1
 Str: 14
 Dex: 12
@@ -281,8 +281,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 17 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1122
 unfinished mob~
@@ -292,8 +292,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 2 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1123
 unfinished mob~
@@ -303,8 +303,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1124
 unfinished mob~
@@ -314,8 +314,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1125
 unfinished mob~
@@ -325,8 +325,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1126
 unfinished mob~
@@ -336,8 +336,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1127
 unfinished mob~
@@ -347,8 +347,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1128
 unfinished mob~
@@ -358,8 +358,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1129
 unfinished mob~
@@ -369,8 +369,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1130
 unfinished mob~
@@ -380,8 +380,8 @@ An unfinished mob is standing here.
 It is unfinished.
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 #1131
 monolith black stone~
@@ -393,8 +393,8 @@ then words seem to stir far beneath its surface, like fish in a deep
 pool.
 ~
 bdenopqr k 0 S
-1 20 -10 1d1+30000 1d1+0
-0 0
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 >in_file_prog pz_monolith.prg~
 |
@@ -407,8 +407,33 @@ A young gnome in his father's too-big coat, hugging a case of samples.
 He jumps at every loud noise.
 ~
 d 0 500 E
-3 20 5 3d10+24 1d4+0
-0 0
+50 35 18 16d6+79 5d5+0
+475 20630
+8 8 1
+E
+#1133
+cutpurse thief~
+a Mytherandil cutpurse~
+A cutpurse loiters in a doorway, eyeing your belt.
+~
+A narrow-faced youth in grey with quick hands and a quicker knife.
+~
+dg 0 0 E
+38 29 14 12d6+57 4d5+0
+293 12038
+8 8 1
+E
+#1134
+vesk knife master thieves~
+Vesk the Knife~
+Vesk the Knife, master of the Mytherandil thieves, lounges here, juggling daggers.
+~
+A slender, smiling man in black silk, master of the Mytherandil thieves.  He
+never stops juggling three daggers, and he never drops one.
+~
+bdg 0 0 E
+47 34 17 15d6+701 4d8+0
+3825 109596
 8 8 1
 E
 $~

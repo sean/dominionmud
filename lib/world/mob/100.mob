@@ -6,8 +6,8 @@ A beggar sits here begging for anything.
 He is dressed in tattered, filthy clothes and is quite gaunt.
 ~
 dg 0 0 S
-3 9 0 2d10+10 2d4+4
-5 80
+55 38 19 18d6+88 5d6+0
+564 24890
 8 8 1
 >in_file_prog beggar.prg~
 |
@@ -20,8 +20,8 @@ She is dressed in tattered rags, you try to steal a quick peek at
 what's behind those tattered clothes.
 ~
 dg 0 0 S
-5 13 0 2d10+5 2d4+2
-15 50
+70 45 22 23d6+110 6d6+0
+875 40070
 6 5 2
 #10003
 drunk~
@@ -31,8 +31,8 @@ A drunk sways in front of you looking for a fight.
 The drunk is big and angry.
 ~
 dfg 0 -300 S
-5 13 0 4d20+5 2d5+2
-40 100
+56 38 19 18d6+91 5d6+0
+582 25790
 8 8 1
 >in_file_prog drunk.prg~
 |
@@ -43,8 +43,8 @@ One of Spine's henchman is standing here.
 ~
 You see nothing special.~
 cdgjklm f -500 E
-14 31 42 2d30+70 2d9+9
-30 8000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 2
 Race: 0
 E
@@ -56,8 +56,8 @@ One of Spine's henchman is standing here.
 You see nothing special.
 ~
 cdgjklm t -500 E
-14 31 54 2d30+50 2d5+10
-20 13000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 1
 Race: 0
 E
@@ -69,8 +69,8 @@ A whore is standing here looking for trick to turn.
 What an ugly bitch.
 ~
 cdgh 0 0 S
-5 13 7 2d15+3 1d5+2
-500 200
+56 38 19 18d6+91 5d6+0
+582 25790
 8 8 2
 >in_file_prog whore.prg~
 |
@@ -81,8 +81,8 @@ A frightened citizen is cowering here.
 ~
 You see nothing special.~
 cdgh 0 0 S
-3 9 1 2d2+13 1d5+0
-3 150
+70 45 22 23d6+110 6d6+0
+875 40070
 8 8 1
 >in_file_prog citizen2.prg~
 |
@@ -94,8 +94,8 @@ Jarr the Thief King is here leering at you.
 He is shrouded in darkness and unfamiliar.
 ~
 abdl hkpu 0 E
-28 59 72 3d400+800 5d5+25
-10000 100000
+88 54 27 29d6+15 8d6+0
+1338 63038
 8 8 1
 Race: 10
 E
@@ -107,8 +107,8 @@ Mecen is standing here looking at you.
 He is shrouded in shadow.
 ~
 bdl hkpu 0 E
-26 55 88 2d400+900 6d4+35
-9500 90000
+87 54 27 29d6+14 8d6+0
+1309 61626
 8 8 1
 Race: 16
 E
@@ -120,8 +120,8 @@ Spine the Usurper of Charing Cross is here.
 Spine stands here grinning with an evil look in his eye.
 ~
 bdfl dfhkr -1000 E
-40 83 62 20d20+8000 14d12+50
-1000 725000
+67 44 22 22d6+657 6d3+0
+9684 293968
 8 8 1
 Race: 0
 E
@@ -133,8 +133,8 @@ The Masked Menace is here with an oversized mask covering his face.
 This evil character is wearing a blood red mask.
 ~
 bdeflm hkt -1000 E
-30 63 84 6d80+1250 4d5+80
-7500 295000
+64 42 21 21d6+15 6d6+0
+742 33566
 8 8 1
 Race: 0
 E
@@ -146,8 +146,8 @@ A shadow is here sitting at a table in the corner.
 You see nothing special.
 ~
 abdem kpu 1000 E
-34 50 71 10d20+1500 2d8+90
-10 9000
+93 56 28 31d6+136 8d6+0
+1483 70338
 8 8 1
 Race: 0
 E
@@ -158,8 +158,8 @@ An Overlord stands here with a wicked grin on his face.
 ~
 You see nothing special.~
 cdgjk cfs -1000 E
-20 43 70 5d20+350 3d5+20
-300 80000
+62 41 20 20d6+102 6d6+0
+701 31526
 8 8 1
 Race: 0
 E
@@ -173,8 +173,8 @@ He appears to be about eight feet tall, and he looks
 VERY mean.  This is not one person you want to piss off!
 ~
 bcdflm dfpu -1000 E
-35 73 81 2d4+780 3d6+85
-1500 150000
+65 42 21 21d6+105 6d6+0
+764 34610
 8 8 1
 Race: 15
 E
@@ -188,8 +188,8 @@ blood clings to his bones and muscles like dew on leaves.  He opens
 his maw wide to bare black teeth sharp and evil.
 ~
 dgjlm fhu -1000 E
-25 53 93 10d20+250 5d6+75
-23000 175000
+86 53 26 28d6+16 8d6+0
+1281 60230
 8 8 1
 Race: 23
 E
@@ -201,8 +201,8 @@ There is a young child here, strapped to the operating table.
 He is covered in blood and is missing his right ear.
 ~
 bd 0 1000 E
-1 5 39 1d1+1 1d1+1
-0 15
+70 45 22 23d6+110 6d6+0
+875 40070
 8 4 1
 Race: 1
 E
@@ -213,8 +213,8 @@ A man dressed in black is standing here eyeing you suspiciously.
 ~
 You see nothing special.~
 dgj 0 0 E
-8 19 32 2d40+15 2d8+34
-50 3500
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 1
 Race: 0
 E
@@ -231,8 +231,8 @@ you notice a tattoo on his left arm, it reads:
 You wonder what it could mean.
 ~
 bd cdfkp -950 E
-28 3 58 12d20+1000 6d8+25
-1 0
+88 54 27 29d6+131 8d6+0
+1338 63038
 8 8 1
 Race: 0
 E
@@ -243,8 +243,8 @@ The Master Assassin is here waiting to train young assassins.
 ~
 You see nothing special.~
 abd hp -975 E
-34 2 84 2d4+8500 8d12+20
-0 0
+93 56 28 31d6+14 8d6+0
+1483 70338
 8 8 1
 Race: 0
 E
@@ -256,8 +256,8 @@ A gaunt man, dressed in a dark cloak is standing here.
 You see nothing special.
 ~
 cdegjlm 0 0 S
-12 27 47 5d20+25 2d4+8
-175 3250
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 1
 >in_file_prog thief.prg~
 |
@@ -269,8 +269,8 @@ A bandit is here looking to cut your throat.
 The bandit is burly and has many wicked scars.
 ~
 bdjkl ptu -500 E
-20 30 15 3d12+90 6d4+20
-300 13200
+62 41 20 20d6+102 6d6+0
+701 31526
 8 8 1
 Race: 0
 E
@@ -285,8 +285,8 @@ you notice a tattoo on his left arm, it reads:
 	     Eat at Grubby's
 ~
 bd p -950 E
-28 3 38 12d20+1000 6d8+25
-0 0
+88 54 27 29d6+131 8d6+0
+1338 63038
 8 8 1
 Race: 0
 E
@@ -300,8 +300,8 @@ armor.  Amnemoth is one of the very few Spellsneaks in the world, and
 as such he is treated with great respect, and usually feared.
 ~
 abd hpu -650 E
-34 2 58 10d5+22500 2d4+80
-10 0
+93 56 28 31d6+14 8d6+0
+1483 70338
 8 8 1
 Race: 4
 E
@@ -314,8 +314,8 @@ Garbed in long flowing white robes, there is not too much you can tell
 about the acolyte.
 ~
 acde knsu -550 E
-8 4 25 10d50+125 2d2+4
-0 2550
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 1
 Race: 0
 E
@@ -328,8 +328,8 @@ Garbed in long flowing black robes, there is not much you tell about
 the acolyte.
 ~
 cde knsu -550 E
-28 4 81 10d50+12500 1d2+2
-0 5000
+88 54 27 29d6+131 8d6+0
+1338 63038
 8 8 2
 Race: 8
 E
@@ -342,8 +342,8 @@ Garbed in a long flowing black cloak, there is not much you can tell
 about the figure except that he is watching you intently.
 ~
 bdl pu 0 E
-28 4 102 10d50+1550 1d2+20
-0 85000
+88 54 27 29d6+131 8d6+0
+1338 63038
 8 8 1
 Race: 24
 E
@@ -356,8 +356,8 @@ A fat, loud drunken orc snarls at you.
 ~
 You see nothing special.~
 bdf 0 0 S
-12 19 47 1d1+80 3d4+10
-300 4000
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 1
 #10028
 drunk sessanathi lizard man~
@@ -366,8 +366,8 @@ A strange half-man, half-lizard staggers around swearing in his language.
 ~
 You see nothing special.~
 bdf 0 0 S
-12 19 10 1d1+80 3d4+10
-300 4000
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 1
 #10029
 drunk hobgoblin~
@@ -376,8 +376,8 @@ A fat hobgoblin stands up and drools at a whore.
 ~
 You see nothing special.~
 bdf 0 0 S
-12 19 5 1d1+80 3d4+10
-300 4000
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 1
 #10030
 whore minotaur~
@@ -390,8 +390,8 @@ There is a tattoo on her butt:
 Kaeliss was here...a lot!
 ~
 bd 0 0 S
-12 16 0 1d1+70 1d10+5
-5000 3000
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 2
 #10031
 bartender orcmane merl~
@@ -402,8 +402,8 @@ He is a big man with a big frown.  Two large pointed teeth poke up
 from his lower lip.  You don't want to fuck with him.
 ~
 bdq hr 0 S
-45 0 45 1d1+28000 1d1+80
-800000 200000
+105 62 31 35d6+13 9d3+0
+1864 89490
 8 8 1
 #10032
 halfelf elf half shopkeeper arelen~
@@ -414,8 +414,8 @@ Arelen has been the proprietor of the Cloak & Dagger Shop for ages.
 No one messes with him for they know he has strong ties to Jarr.
 ~
 bde dhr -1000 S
-45 1 66 1d1+25000 3d10+60
-200 200000
+105 62 31 35d6+13 9d3+0
+1864 89490
 8 8 1
 #10033
 bartender minotaur bareg~
@@ -427,7 +427,7 @@ everything that happens in the room.  A large ring is pierced into his
 nose making his bull-like physique even more so.
 ~
 bdel r 0 S
-45 1 88 1d1+25000 1d1+90
-50000 80000
+105 62 31 35d6+148 9d3+0
+1864 89490
 8 8 1
 $~

@@ -171,34 +171,34 @@ the Dragonsword~
 A sword with an emblem of a dragon is lying here.~
 ~
 5 t am
-30 5 7 3 0 0 0 15 8
-20 0 10500
+30 2 12 3 0 0 0 15 8
+20 288 28
 A
-18 5
+18 3
 A
-19 5
+19 3
 #16
 dragon dragonshield shield~
 the Dragonshield~
 A shield with an emblem of a dragon is here.~
 ~
 9 morst am
-30 0 0 0 0 0 0 15 14
-20 0 4200
+13 0 0 0 0 0 0 15 14
+20 173 17
 A
-23 20
+23 2
 A
-24 25
+24 2
 #17
 bracer dragon~
 a Bracer of the Dragon~
 A Bracer of the Dragon is lying here.~
 ~
 9 ptw ai
-15 0 0 0 0 0 0 15 14
-8 0 1000
+10 0 0 0 0 0 0 15 14
+8 138 13
 A
-13 50
+13 9
 A
 19 3
 #18
@@ -207,12 +207,12 @@ Dragon Platemail~
 A suit of platemail with an emblem of a dragon is here.~
 ~
 9 a ad
-95 0 0 0 0 0 0 20 14
-25 0 2000
+13 0 0 0 0 0 0 20 14
+25 173 17
 A
-13 50
+13 9
 A
-2 -2
+2 -1
 #19
 dominion ring~
 Ring of the Dominion~
@@ -222,9 +222,9 @@ A black and gold ring is here.~
 0 0 0 0 0 0 0 15 14
 3 10000 2000
 A
-18 10
+18 3
 A
-19 10
+19 3
 #20
 mace lightbringer purifier~
 the Mace of Glasgian~
@@ -315,8 +315,8 @@ a black scroll~
 A black scroll is on the ground here.~
 ~
 2 go am
-15 68 100 100 0 0 0 1 2
-1 15739 2000
+35 68 100 100 0 0 0 1 2
+1 248 24
 #28
 necklace power~
 Necklace of Power~
@@ -335,20 +335,20 @@ Belt of the Banished~
 A black belt lies on the ground emanating pure evil.~
 ~
 9 jlq ak
-20 0 0 0 0 0 0 0 14
-2 10000000 4000
+19 0 0 0 0 0 0 0 14
+2 490 49
 A
-1 3
+1 2
 A
-13 30
+13 14
 #30
 ring murana~
 the Ring of Murana~
 A small ring lies in the dirt.~
 ~
 3 adgq ab
-40 10000 10000 29 0 0 0 14 14
-1 10000000 1
+22 10000 10000 29 0 0 0 14 14
+1 134 1
 A
 5 1
 A
@@ -1075,5 +1075,5 @@ symbol glasgian light amulet~
 It is the Holy symbol of Glasgian.
 ~
 A
-17 -15
+17 2
 $~

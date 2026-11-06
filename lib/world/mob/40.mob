@@ -7,8 +7,57 @@ A grizzled dwarf with a pick across his back and a magnifying glass on a
 string.  Every stone he picks up gets a long, hard look.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+74 47 24 24d6+116 7d6+0
+969 44726
+8 8 1
+E
+#4001
+bat cave giant~
+a giant cave bat~
+A giant cave bat hangs from the roof, wings folded.
+~
+A bat with a wingspan wider than a man is tall, and a face like a skinned dog.
+~
+dfg 0 -350 E
+43 32 16 14d6+65 4d6+0
+363 15338
+8 8 0
+E
+#4002
+giant hill~
+a hill giant~
+A hill giant squats here, gnawing a sheep.
+~
+A shaggy, stooped giant twice the height of a man, wrapped in hides.
+~
+dg 0 0 E
+46 33 16 15d6+70 4d7+0
+409 17510
+8 8 1
+E
+#4003
+troll cave~
+a cave troll~
+A cave troll lurches out of the dark.
+~
+A grey-green troll with a hide like wet stone and arms down to its knees.
+~
+dfg 0 -350 E
+48 34 17 16d6+73 5d5+0
+442 19038
+8 8 1
+E
+#4004
+grukk chief hill giant~
+Grukk, chief of the hill giants~
+Grukk, chief of the hill giants, sits on a heap of bones in the cave.
+~
+The biggest hill giant you have ever seen, with a tree trunk for a club and a
+necklace of dwarven helmets.
+~
+bdg 0 0 E
+52 36 18 17d6+788 5d7+0
+4590 133716
 8 8 1
 E
 $~

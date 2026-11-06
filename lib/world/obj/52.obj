@@ -4,28 +4,28 @@ a small mining pick~
 A small mining pick made of what appears to be silver lies on the ground.~
 ~
 5 js a
-0 1 9 6 0 0 0 0 14
-3 0 0
+0 6 8 6 0 0 0 0 14
+3 2090 0
 #5201
 suit mail banded~
 a glowing suit of banded mail~
 A glowing suit of banded mail lies on the ground.~
 ~
 9 ag ad
-7 0 0 0 0 0 0 0 14
-0 1000 0
+32 0 0 0 0 0 0 0 14
+0 1709 0
 A
 2 2
 A
-17 -4
+17 4
 #5202
 halberd~
 a halberd~
 A mighty halberd lies against the wall.~
 ~
 5 gi a
-0 3 5 3 0 0 0 0 14
-16 150 0
+0 7 10 3 0 0 0 0 14
+16 3561 0
 A
 18 2
 A
@@ -37,7 +37,7 @@ A mushroom-shaped amulet lies on the ground.~
 ~
 9 g ac
 0 0 0 0 0 0 0 0 14
-2 430 0
+2 1572 0
 A
 5 2
 #5205
@@ -46,6 +46,6 @@ a large leg bone~
 A large leg bone rests on the ground.~
 ~
 5 s a
-0 1 4 1 0 0 0 0 14
-5 0 0
+0 6 6 1 0 0 0 0 14
+5 1672 0
 $~

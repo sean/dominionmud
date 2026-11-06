@@ -7,8 +7,8 @@ It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
 quickly from its long, white fangs.  It looks quite dangerous and very angry.
 ~
 dfg k -350 S
-5 13 0 1d12+60 2d4+0
-0 1000
+34 27 14 11d6+50 3d7+0
+241 9686
 8 8 0
 #6101
 warg ferocious~
@@ -19,8 +19,8 @@ It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
 quickly from its long, white fangs.  It looks quite dangerous and very angry.
 ~
 dfg k -350 S
-5 13 0 1d12+80 2d4+4
-0 1000
+34 27 14 11d6+50 3d7+0
+241 9686
 8 8 0
 #6102
 wolf grey~
@@ -30,8 +30,8 @@ A large, grey wolf is here, glaring hungrily at you.
 The large, grey wolf eyes you with interest while licking its lips.
 ~
 dfg k -150 S
-3 9 0 1d12+35 1d7+0
-0 450
+32 26 13 10d6+48 3d7+0
+218 8606
 8 8 0
 #6103
 wolf black~
@@ -41,8 +41,8 @@ A large, black wolf is here, glaring hungrily at you.
 The large, black wolf eyes you with interest while licking its lips.
 ~
 dfg k -150 S
-3 9 0 1d12+45 1d7+3
-0 450
+32 26 13 10d6+48 3d7+0
+218 8606
 8 8 0
 #6110
 tree ancient~
@@ -55,8 +55,8 @@ Something about it makes you think that this is not a normal oak tree.
 The enormous grey trunk shivers slightly, as if sighing deeply.
 ~
 dglnopqr dfkpst 0 S
-30 0 48 1d1+1299 4d4+22
-0 500000
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 0
 #6111
 tree ancient~
@@ -69,8 +69,8 @@ Something about it makes you think that this is not a normal oak tree.
 The enormous grey trunk emits a deep, moaning sound.
 ~
 dglnopqr dfkpst 0 S
-30 0 62 1d1+999 4d4+18
-0 400000
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 0
 #6112
 dragon green~
@@ -83,8 +83,8 @@ does the nicks in the horns on its head.  It smells as disgusting as only
 dragons do.
 ~
 abdfgnoq dk -1000 E
-20 1 18 1d12+1248 2d6+9
-0 40000
+42 31 16 14d6+615 4d7+0
+3141 87876
 8 8 0
 Race: 33
 E
@@ -98,8 +98,8 @@ has eight hairy legs that gives it a tremendous speed on almost any surface
 and sharp poisonous fangs to paralyze or kill its prey.
 ~
 abdfg dk -350 E
-8 13 3 1d12+98 2d5+1
-0 4000
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 0
 Race: 43
 E
@@ -113,8 +113,8 @@ huge, hairy legs that would give it a tremendous speed on almost any surface
 if it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.
 ~
 abdfgjl dfkp -1000 E
-16 43 42 32d64+128 6d3+44
-0 46875
+37 28 14 12d6+55 4d5+0
+279 11426
 8 8 2
 BareHandAttack: 8
 Race: 43
@@ -129,8 +129,8 @@ long tangled brown beard.  He wears ragged brown and green clothing and looks
 as if he is having great fun.
 ~
 acdghl bdfgkpst 1000 S
-10 1 31 1d12+47 1d8+0
-1000 11000
+54 37 18 18d6+85 5d6+0
+545 24006
 8 8 1
 #6116
 elder druid~
@@ -142,8 +142,8 @@ know he would be a tough foe.  He has an evil glint in his eye as if he's
 hiding something in here.
 ~
 abdim cdfhku -1000 S
-19 2 7 1d12+536 3d6+24
-5000 45000
+67 44 22 22d6+15 6d6+0
+807 36746
 8 8 1
 #6117
 isha elf~
@@ -158,8 +158,8 @@ cloak as black as her skin and in her broad silver belt hangs a long,
 slender sword in a silver scabbard.
 ~
 bdlm dks -1000 E
-20 60 76 1d12+2045 4d6+45
-1000 100000
+38 29 14 12d6+57 4d5+0
+293 12038
 8 8 2
 Race: 4
 E
@@ -172,8 +172,8 @@ A tiny brownie, no taller than your knee, with leaves in her hair and
 her thumb in her mouth.
 ~
 d 0 500 E
-4 20 5 4d10+32 1d4+0
-0 0
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 2
 E
 $~

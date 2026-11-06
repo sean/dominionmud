@@ -7,8 +7,70 @@ A young acolyte in a deep red hood.  Only a pale chin and a thin smile
 show beneath it.  The sleeves of the robe are stained darker at the cuffs.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+79 50 25 26d6+121 7d6+0
+1094 50906
+8 8 1
+E
+#2501
+knight bloodlord~
+a knight of the Bloodlord~
+A knight of the Bloodlord drills with a black sword.
+~
+A knight in blood-red plate, his face hidden behind a skull-faced helm.
+~
+dfg 0 -350 E
+55 38 19 18d6+88 5d6+0
+564 24890
+8 8 1
+E
+#2502
+wizard bloodlord~
+a wizard of the Bloodlord~
+A wizard of the Bloodlord mutters over a bowl of blood.
+~
+A gaunt wizard in red robes, his fingers stained to the wrist.
+~
+dg 0 0 E
+56 38 19 18d6+91 5d6+0
+582 25790
+8 8 1
+E
+#2503
+rogue bloodlord~
+a rogue of the Bloodlord~
+A rogue of the Bloodlord watches you from the shadows.
+~
+A silent figure in dark leathers with a curved knife.
+~
+dfg 0 -350 E
+54 37 18 18d6+85 5d6+0
+545 24006
+8 8 1
+E
+#2504
+priest bloodlord~
+a priest of the Bloodlord~
+A priest of the Bloodlord reads from a book bound in skin.
+~
+An old priest with a shaven, tattooed head and eyes like a dead fish.
+~
+dg 0 0 E
+57 38 19 19d6+91 5d6+0
+601 26706
+8 8 1
+E
+#2505
+bloodlord lord blood~
+the Bloodlord~
+The Bloodlord stands before his altar, and the air tastes of iron.
+~
+A towering figure in armour the colour of old blood, with a crown of iron
+thorns.  His order worships him as a god, and he does nothing to dissuade
+them.
+~
+bdg 0 0 E
+62 41 20 20d6+1303 6d7+0
+8412 252208
 8 8 1
 E
 $~

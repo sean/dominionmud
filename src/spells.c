@@ -139,6 +139,16 @@ ASPELL(spell_wizard_eye)
   ch->in_room = temp_room;
 }
 
+/* What purify, corrupt and the like burn or mend: about 30% of the hit */
+/* points of a player of the caster's level (Nov 2026 rebalance).       */
+static int align_amount(int level)
+{
+  int avg = (int) ((15 + 3.5 * MAX(1, level)) * 30 / 100);
+
+  return MAX(1, number(avg * 3 / 4, avg * 5 / 4));
+}
+
+
 ASPELL(spell_purify)
 {
   if (victim == NULL || ch == NULL)
@@ -155,7 +165,7 @@ ASPELL(spell_purify)
     /* First move the align towards good */
     GET_ALIGNMENT(victim) = MIN(1000, GET_ALIGNMENT(victim) + dice(5, 20));
     /* then burn the victim a bit */
-    GET_HIT(victim) = MAX(1, (int)GET_HIT(victim) - (GET_LEVEL(ch)*dice(2, 4)));
+    GET_HIT(victim) = MAX(1, (int)GET_HIT(victim) - align_amount(GET_LEVEL(ch)));
     /* now set the new perm align */
     if (GET_ALIGNMENT(victim) < -250)
       GET_PERMALIGN(victim) = ALIGN_EVIL;
@@ -173,7 +183,7 @@ ASPELL(spell_purify)
       act("You cleanse your soul.", FALSE, ch, 0, victim, TO_CHAR);
       act("$n attempts to cleanse $s soul.", FALSE, ch, 0, victim, TO_ROOM);
     }
-    GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + (GET_LEVEL(ch)*dice(2, 4)));
+    GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + align_amount(GET_LEVEL(ch)));
     GET_ALIGNMENT(victim) = MIN(1000, GET_ALIGNMENT(victim) + dice(5, 20));
     if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_I))
       REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_I);
@@ -210,7 +220,7 @@ ASPELL(spell_corrupt)
     /* First move the align towards evil */
     GET_ALIGNMENT(victim) = MAX(-1000, GET_ALIGNMENT(victim) - dice(5, 20));
     /* then burn the victim a bit */
-    GET_HIT(victim) = MAX(1, GET_HIT(victim) - (GET_LEVEL(ch)*dice(2, 4)));
+    GET_HIT(victim) = MAX(1, GET_HIT(victim) - align_amount(GET_LEVEL(ch)));
     /* now set the new perm align */
     if (GET_ALIGNMENT(victim) < -250)
       GET_PERMALIGN(victim) = ALIGN_EVIL;
@@ -228,7 +238,7 @@ ASPELL(spell_corrupt)
       act("You cleanse your soul.", FALSE, ch, 0, victim, TO_CHAR);
       act("$n attempts to cleanse $s soul.", FALSE, ch, 0, victim, TO_ROOM);
     }
-    GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + (GET_LEVEL(ch)*dice(2, 4)));
+    GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + align_amount(GET_LEVEL(ch)));
     GET_ALIGNMENT(victim) = MAX(-1000, GET_ALIGNMENT(victim) - dice(5, 20));
     if (IS_SET(AFF2_FLAGS(victim), AFF_POISON_I))
       REMOVE_BIT(AFF2_FLAGS(victim), AFF_POISON_I);
@@ -268,7 +278,7 @@ ASPELL(spell_balance)
     else
       GET_ALIGNMENT(victim) = MAX(-1000, GET_ALIGNMENT(victim) - dice(5, 20));
     /* then burn the victim a bit */
-    GET_HIT(victim) = MAX(1, GET_HIT(victim) - (GET_LEVEL(ch)*dice(2, 4)));
+    GET_HIT(victim) = MAX(1, GET_HIT(victim) - align_amount(GET_LEVEL(ch)));
     /* now set the new perm align */
     if (GET_ALIGNMENT(victim) < -250)
       GET_PERMALIGN(victim) = ALIGN_EVIL;
@@ -286,7 +296,7 @@ ASPELL(spell_balance)
       act("You balance your soul.", FALSE, ch, 0, victim, TO_CHAR);
       act("$n attempts to balance $s soul.", FALSE, ch, 0, victim, TO_ROOM);
     }
-    GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + (GET_LEVEL(ch)*dice(2, 4)));
+    GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + align_amount(GET_LEVEL(ch)));
     if (GET_ALIGNMENT(victim) < 0)
       GET_ALIGNMENT(victim) = MIN(1000, GET_ALIGNMENT(victim) + dice(5, 20));
     else
@@ -580,7 +590,7 @@ ASPELL(spell_identify)
     sprintf(buf, "Object '%s', Item type: ", obj->short_description);
     sprinttype(GET_OBJ_TYPE(obj), item_types, buf2);
     strcat(buf, buf2);
-    strcat(buf, "\r\n");
+    sprintf(buf + strlen(buf), ", Item level: %d\r\n", obj_level(obj));
     send_to_char(buf, ch);
 
     if (obj->obj_flags.bitvector) {

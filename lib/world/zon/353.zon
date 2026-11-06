@@ -1,7 +1,7 @@
 #353
 Gnishmire Forests~
 Grendel/Sand~
-BUILDING~
+24-32~
 3001 1
 35399 48 2
 *
@@ -9,5 +9,15 @@ BUILDING~
 *           By: Grendel
 *
 M 0 35300 1 35344 100 	* a gnomish forester at room 35344 (quest giver). (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 35301 3 35330 100 	* a Spiddel boar (level 26)
+M 0 35301 3 35332 100 	* a Spiddel boar (level 26)
+M 0 35301 3 35335 100 	* a Spiddel boar (level 26)
+M 0 35302 3 35336 100 	* a giant forest spider (level 28)
+M 0 35302 3 35324 100 	* a giant forest spider (level 28)
+M 0 35302 3 35343 100 	* a giant forest spider (level 28)
+M 0 35303 2 35305 100 	* a creek lurker (level 30)
+M 0 35303 2 35302 100 	* a creek lurker (level 30)
+M 0 35304 1 35342 100 	* the Old Tusker (group boss)
 S
 $~

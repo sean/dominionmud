@@ -9,8 +9,8 @@ breastplate bears the crest of the Silver Legion, an ancient group of
 knights that followed the teachings of Sand. . . .
 ~
 bdlo 0 650 E
-20 53 52 10d40+40 5d15+57
-0 93750
+94 57 28 31d6+138 8d6+0
+1513 71846
 8 8 1
 BareHandAttack: 3
 Str: 14
@@ -22,60 +22,67 @@ Cha: 13
 Height: 78
 E
 #4501
-unfinished mob~
-an unfinished mob~
-An unfinished mob is standing here.
+wraith sand~
+a sand wraith~
+A sand wraith whirls up out of the dust of the pass.
 ~
-Err....It's unfinished.
+A shape of whirling sand and old bones, with two pits of darkness for eyes.
 ~
-d 0 0 S
-0 3 7 1d1+1 1d1+1
-0 0
+dfg 0 -350 E
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 0
+E
 #4502
-unfinished mob~
-an unfinished mob~
-An unfinished mob is standing here.
+legionnaire skeletal~
+a skeletal legionnaire~
+A skeletal legionnaire stands guard, spear grounded.
 ~
-Err....It's unfinished.
+The bones of a soldier of an empire long dead, still in its rusted harness.
 ~
-d 0 0 S
-0 3 1 1d1+1 1d1+1
-0 0
+dfg 0 -350 E
+84 52 26 28d6+126 8d6+0
+1226 57486
 8 8 0
+E
 #4503
-unfinished mob~
-an unfinished mob~
-An unfinished mob is standing here.
+mummy guardian tomb~
+a tomb guardian~
+A tomb guardian shambles out of a niche, trailing wrappings.
 ~
-Err....It's unfinished.
+A mummified warrior wrapped in brown linen, its eyes two gleaming gems.
 ~
-d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+dfg 0 -350 E
+82 51 26 27d6+124 7d6+0
+1173 54806
 8 8 0
+E
 #4504
-unfinished mob~
-an unfinished mob~
-An unfinished mob is standing here.
+priest haqim~
+a priest of Haqim-Taar~
+A priest of Haqim-Taar chants over a bowl of smoking incense.
 ~
-Err....It's unfinished.
+A withered priest, more than half a corpse, who has served his king for a
+thousand years.
 ~
-d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+dg 0 0 E
+86 53 26 28d6+130 8d6+0
+1281 60230
 8 8 0
+E
 #4505
-unfinished mob~
-an unfinished mob~
-An unfinished mob is standing here.
+haqim taar undying king~
+Haqim-Taar, the Undying King~
+Haqim-Taar, the Undying King, sits on a throne of bones, and his eyes burn.
 ~
-Err....It's unfinished.
+A towering mummy in a golden mask and a mantle of ancient purple, who ruled
+these hills before Elrhinn was a village and means to rule them again.
 ~
-d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
-8 8 0
+bdg 0 0 E
+90 55 28 30d6+2268 8d7+0
+20925 659100
+8 8 1
+E
 #4506
 unfinished mob~
 an unfinished mob~
@@ -84,8 +91,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4507
 unfinished mob~
@@ -95,8 +102,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4508
 unfinished mob~
@@ -106,8 +113,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4509
 unfinished mob~
@@ -117,8 +124,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4510
 unfinished mob~
@@ -128,8 +135,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4511
 unfinished mob~
@@ -139,8 +146,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4512
 unfinished mob~
@@ -150,8 +157,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4513
 unfinished mob~
@@ -161,8 +168,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4514
 unfinished mob~
@@ -172,8 +179,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4515
 unfinished mob~
@@ -183,8 +190,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4516
 unfinished mob~
@@ -194,8 +201,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4517
 unfinished mob~
@@ -205,8 +212,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4518
 unfinished mob~
@@ -216,8 +223,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4519
 unfinished mob~
@@ -227,8 +234,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4520
 unfinished mob~
@@ -238,8 +245,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4521
 unfinished mob~
@@ -249,8 +256,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4522
 unfinished mob~
@@ -260,8 +267,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4523
 unfinished mob~
@@ -271,8 +278,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4524
 unfinished mob~
@@ -282,8 +289,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4525
 unfinished mob~
@@ -293,8 +300,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4526
 unfinished mob~
@@ -304,8 +311,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4527
 unfinished mob~
@@ -315,8 +322,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4528
 unfinished mob~
@@ -326,8 +333,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4529
 unfinished mob~
@@ -337,8 +344,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4530
 unfinished mob~
@@ -348,8 +355,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4531
 unfinished mob~
@@ -359,8 +366,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4532
 unfinished mob~
@@ -370,8 +377,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4533
 unfinished mob~
@@ -381,8 +388,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4534
 unfinished mob~
@@ -392,8 +399,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4535
 unfinished mob~
@@ -403,8 +410,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4536
 unfinished mob~
@@ -414,8 +421,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4537
 unfinished mob~
@@ -425,8 +432,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4538
 unfinished mob~
@@ -436,8 +443,8 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 #4539
 unfinished mob~
@@ -447,7 +454,7 @@ An unfinished mob is standing here.
 Err....It's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 0
 $~

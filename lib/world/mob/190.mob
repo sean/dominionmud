@@ -6,8 +6,8 @@ An Elven Guardian is standing here guarding the portal.
 This is a robust built elf in his best years and as far as you can tell.
 ~
 bd d 1000 S
-19 15 36 3d6+240 3d5+6
-100 15000
+9 14 7 3d6+22 1d8+0
+30 786
 8 8 1
 #19002
 Elf Soldier guard elven~
@@ -18,8 +18,8 @@ This is an elf in his youth, sent by the chief of the village guards,
 to guard the path from any intruder not wanted here.
 ~
 bcdm d 1000 S
-10 10 100 1d12+123 1d8+3
-654 7000
+8 14 7 2d6+24 1d7+0
+26 638
 8 8 1
 #19003
 Elf Soldier guard elven~
@@ -30,8 +30,8 @@ This is an elf in her youth, sent by the chief of the village guards,
 to guard the village from unwanted intruders.
 ~
 cdm d 1000 E
-10 10 92 1d12+123 1d8+3
-654 7000
+8 14 7 2d6+24 1d7+0
+26 638
 8 8 2
 Race: 9
 Height: 62
@@ -45,8 +45,8 @@ A Large Elven weaponsmith is walking behind the counter.
 You notice a tired look on his face.
 ~
 bd 0 900 S
-23 2 90 6d10+390 1d8+12
-10000 80000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 1
 #19005
 Elf armoursmith smith elven~
@@ -56,8 +56,8 @@ A Large Elven armoursmith is walking around behind the counter.
 You notice a tired look on his face.
 ~
 bd 0 900 S
-23 2 91 6d10+390 1d8+12
-10000 80000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 1
 #19006
 Elf mage elven~
@@ -67,8 +67,8 @@ A Tiny Elven mage is floating behind the counter.
 You notice a tired look on his face.
 ~
 bd 0 900 S
-23 2 104 6d10+390 1d8+12
-10000 80000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 1
 #19007
 Elf Quintor grocer~
@@ -78,8 +78,8 @@ An Elf named Quintor is here counting money behind the counter.
 You notice a tired look on his face.
 ~
 bd 0 900 S
-23 2 71 6d10+390 1d8+12
-10000 80000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 1
 #19008
 elf bartender elven~
@@ -89,8 +89,8 @@ A fat Elf is standing behind the bar taking orders.
 You notice a tired look on his face.
 ~
 bd 0 900 S
-23 22 94 6d10+1500 5d8+55
-2000 80000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 1
 #19009
 elf receptionist elven~
@@ -100,8 +100,8 @@ A nice-looking Elf is standing in the reception.
 You notice a tired look on her face.
 ~
 abd 0 900 S
-23 12 85 6d10+1555 4d8+12
-2000 20000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 2
 #19010
 elf chief elven guard~
@@ -114,8 +114,8 @@ You notice some scars on the hands and one on the neck of the elf. He has
 obviously been in battle in his days.
 ~
 abd dh 1000 E
-25 0 80 1d50+500 4d6+28
-500 130000
+65 42 21 21d6+16 6d6+0
+764 34610
 4 4 1
 Race: 9
 Height: 68
@@ -130,8 +130,8 @@ This is an elf in his youth, sent by the chief of the village guards,
 to guard the path from any intruder not wanted here.
 ~
 bd d 1000 S
-10 10 80 1d12+123 1d8+3
-654 9000
+34 27 14 11d6+50 3d7+0
+241 9686
 6 6 1
 #19012
 Elf bard Elven~
@@ -142,8 +142,8 @@ This Elf is dressed in green, with brown pants. He is playing on a
 fine rose-tree lute with silver strings.
 ~
 bd d 750 S
-39 2 70 3d6+6200 6d3+16
-100 113500
+12 16 8 4d6+25 2d4+0
+46 1326
 6 6 1
 #19013
 druid old man human~
@@ -154,8 +154,8 @@ This is a human in his old days. He is dressed in a heavy cloak and
 holds a Staff made of oak in his hands.
 ~
 abcdg dht 1 S
-40 10 67 13d12+9233 5d8+13
-1000 250000
+13 16 8 4d6+6 2d5+0
+51 1538
 8 8 1
 #19014
 elemental fire huge~
@@ -165,8 +165,8 @@ A Huge Fire Elemental is standing here burning everything.
 You see only Flames in the shape of a humanoid.
 ~
 adg d 1 S
-45 0 85 1d12+12200 4d8+22
-1000 300000
+14 17 8 4d6+28 2d5+0
+57 1766
 8 8 0
 #19015
 large enlarged animal bear~
@@ -176,8 +176,8 @@ An enlarged Bear is looming around the glade.
 It is large, brown and furry.
 ~
 df 0 0 S
-23 2 69 2d10+190 1d6+6
-0 25000
+11 16 8 3d6+26 1d9+0
+40 1130
 8 8 0
 #19016
 enlarged animal large tiger~
@@ -187,8 +187,8 @@ A Enlarged Tiger is looming around in the glade.
 You notice that it is large, striped and furry.
 ~
 df 0 0 S
-23 2 69 2d10+1600 4d8+8
-0 60000
+11 16 8 3d6+26 1d9+0
+40 1130
 8 8 0
 #19017
 elf elven champion~
@@ -198,8 +198,8 @@ An elven Champion is standing here looking proud.
 The elf in front of you is quite good looking and robust build (for an elf).
 ~
 abdmor gmnop 1000 S
-30 63 72 1d4000+14128 6d6+43
-145 350000
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 1
 #19018
 keeper torch gaunt figure~
@@ -215,8 +215,8 @@ the edge of this wasteland for a very long time, lighting the way for
 those who come through the mirror.
 ~
 bdeno k -800 S
-27 60 65 12d50+520 6d4+60
-300 100000
+54 37 18 18d6+823 5d7+0
+4905 144036
 8 8 0
 >in_file_prog torch_keeper.prg~
 |
@@ -228,8 +228,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 4 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19020
 unfinished mob~
@@ -239,8 +239,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19021
 unfinished mob~
@@ -250,8 +250,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19022
 unfinished mob~
@@ -261,8 +261,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19023
 unfinished mob~
@@ -272,8 +272,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19024
 unfinished mob~
@@ -283,8 +283,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19025
 unfinished mob~
@@ -294,8 +294,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19026
 unfinished mob~
@@ -305,8 +305,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19027
 unfinished mob~
@@ -316,8 +316,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19028
 unfinished mob~
@@ -327,8 +327,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19029
 unfinished mob~
@@ -338,8 +338,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19030
 unfinished mob~
@@ -349,8 +349,8 @@ An unfinished mob stands here.
 Its unfinished.
 ~
 d 0 1000 S
-0 3 0 1d1+1 1d1+1
-0 0
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 #19031
 sage elven old~
@@ -362,8 +362,8 @@ eyes are the green of new leaves, and he studies you with a patient,
 gentle curiosity.
 ~
 bdenopq k 900 S
-15 20 0 5d10+150 1d6+2
-50 0
+45 32 16 15d6+67 4d6+0
+394 16770
 8 8 1
 >in_file_prog pz_sage.prg~
 |
@@ -376,8 +376,8 @@ The light seems to come from within the stone itself, moving slowly over
 the runes as though reading them.
 ~
 bdenopqr k 0 S
-1 20 -10 1d1+30000 1d1+0
-0 0
+7 14 7 2d6+22 1d7+0
+21 506
 8 8 0
 >in_file_prog pz_obelisk.prg~
 |
@@ -390,8 +390,8 @@ A young elf with silver hair and bare feet, who has never seen the sunrise
 from the platform and has been promised it.
 ~
 d 0 500 E
-3 20 5 3d10+24 1d4+0
-0 0
+20 20 10 6d6+34 2d7+0
+100 3470
 8 8 2
 E
 $~

@@ -17,8 +17,8 @@ a bracelet of woven fate-thread~
 A bracelet woven from shimmering threads lies here.~
 ~
 9 g al
-2 0 0 0 0 0 0 20 14
-1 3000 300
+8 0 0 0 0 0 0 20 14
+1 86 8
 E
 bracelet thread~
 The bracelet is woven from threads of every color, so fine that they
@@ -26,17 +26,17 @@ shimmer, and no matter how closely you look you cannot find where it
 begins or ends.
 ~
 A
-24 -3
+24 -2
 A
-13 15
+13 7
 #43002
 spear ash centaur~
 a centaur's ash spear~
 A long spear with a shaft of pale ash lies here.~
 ~
 5 0 am
-0 3 5 11 0 0 0 10 24
-9 600 60
+0 4 9 11 0 0 0 10 24
+9 1172 60
 A
 18 1
 #43003
@@ -53,18 +53,18 @@ a thornback bear pelt~
 A heavy brown pelt studded with quills lies here.~
 ~
 9 0 aj
-4 0 0 0 0 0 0 8 14
-12 800 80
+12 0 0 0 0 0 0 8 14
+12 149 14
 A
-13 10
+13 8
 #43005
 staff heartwood zxyer~
 a staff of Zxyer heartwood~
 A staff of silver-green wood lies here.~
 ~
 5 g am
-0 2 8 5 0 0 0 10 14
-6 1500 150
+0 5 8 5 0 0 0 10 14
+6 1327 132
 E
 staff heartwood~
 The staff is cut from the heartwood of a Zxyer tree, smooth and
@@ -80,8 +80,8 @@ a silver spindle brooch~
 A silver brooch shaped like a thread and spindle lies here.~
 ~
 9 0 ac
-1 0 0 0 0 0 0 15 14
-1 700 70
+16 0 0 0 0 0 0 15 14
+1 528 52
 A
 7 1
 $~

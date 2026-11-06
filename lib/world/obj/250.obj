@@ -55,8 +55,8 @@ a large stone helm~
 There is a large stone helm lying here.~
 ~
 9 g ae
-45 0 0 0 0 0 0 9 28
-7 4500 500
+33 0 0 0 0 0 0 9 28
+7 1351 135
 E
 stone helmet elder~
 The large stone helmet looks very old, yet very well built.
@@ -85,8 +85,8 @@ a giant sword~
 A giant sword has been left here.~
 ~
 5 op am
-1 3 9 3 0 0 0 18 14
-16 4000 2000
+1 3 8 3 0 0 0 18 14
+16 452 45
 E
 giant sword~
 The sword looks as if it might be too big for you to wield.
@@ -101,8 +101,8 @@ a grey skirt~
 A charcoal grey skirt is lying here.~
 ~
 9 giopr af
-10 0 0 0 0 0 0 20 14
-4 8000 600
+11 0 0 0 0 0 0 20 14
+4 208 20
 E
 grey skirt~
 This piece of armor is covered with the claw marks of the dying.
@@ -118,7 +118,7 @@ A yellow-brown pelt is here.~
 ~
 9 0 aj
 10 0 0 0 0 0 0 14 14
-7 2000 200
+7 157 15
 E
 pelt manticore~
 The hide looks like it came off of some cat, but it would have to be
@@ -127,15 +127,15 @@ a gigantic cat.
 A
 5 1
 A
-23 5
+23 2
 #25009
 spiked shield~
 a spiked shield~
 A large black shield with nasty spikes has been left here.~
 ~
 9 aop am
-15 0 0 0 0 0 0 19 14
-30 20000 9000
+13 0 0 0 0 0 0 19 14
+30 255 25
 E
 spiked~
 Through all the spikes you see a golden lightning bolt.
@@ -150,8 +150,8 @@ a thick, silver chain~
 Someone has dropped a thick chain made of silver here.~
 ~
 9 0 ak
-15 0 0 0 0 0 0 15 14
-3 2000 200
+11 0 0 0 0 0 0 15 14
+3 170 17
 E
 chain~
 The chain is well made out of black steel.
@@ -159,7 +159,7 @@ The chain is well made out of black steel.
 A
 19 1
 A
-2 -2
+2 -1
 #25011
 flask~
 a red flask~
@@ -191,7 +191,7 @@ This staff has been created out of the highest magic, textured
 with the personal touches of many of the finest mages in the land.
 ~
 A
-12 75
+12 22
 A
 23 2
 A
@@ -202,8 +202,8 @@ a breast plate~
 A breast plate with a large lightningbolt burnt in the center is here.~
 ~
 9 mno ad
-90 0 0 0 0 0 0 20 14
-80 7000 8000
+17 0 0 0 0 0 0 20 14
+80 336 33
 E
 plate breast~
 This breast plate looks very protective and the burnt symbol of
@@ -219,10 +219,10 @@ a pair of iron bracers~
 A pair of large iron bracers have been dropped here.~
 ~
 9 0 ai
-7 0 0 0 0 0 0 19 14
-30 7000 3000
+8 0 0 0 0 0 0 19 14
+30 111 11
 A
-1 2
+1 1
 #25015
 parchment notes~
 a piece of parchment~
@@ -256,17 +256,17 @@ blood red dragonscale cloak~
 A blood red dragonscale cloak has been discarded here.~
 ~
 9 g aj
-10 0 0 0 0 0 0 16 14
-8 3000 1500
+11 0 0 0 0 0 0 16 14
+8 219 21
 E
 dragonscale cloak~
 Made from the scales of a butchered red dragon, this cloak looks
 like it would be very good protection.
 ~
 A
-4 3
+4 2
 A
-24 5
+24 3
 #25018
 cabinet blue~
 a sky blue cabinet~
@@ -323,8 +323,8 @@ a curved dagger~
 A solitary dagger has been stuck in the wall.~
 ~
 5 giE am
-0 4 8 11 0 0 0 20 14
-3 50000 9000
+0 3 8 11 0 0 0 20 14
+3 396 39
 E
 dagger ages~
 The blade of this weapon curves up into a very sharp point.  The
@@ -334,15 +334,15 @@ before, capped with a crimson stone.
 A
 18 2
 A
-19 4
+19 3
 #25023
 silver lance~
 a silver lance~
 A silver lance is on the ground.~
 ~
 5 mnorstu am
-0 2 12 11 0 0 0 0 14
-20 1000 100
+0 3 7 11 0 0 0 0 14
+20 337 33
 #25024
 kings sword~
 a jewel-hilted sword~
@@ -350,7 +350,7 @@ A large jeweled sword has been dropped here.~
 ~
 5 s am
 3 3 8 3 0 0 0 20 14
-18 10000 50000
+18 452 45
 E
 sword~
 This blade is very heavy, forged for a giant's hand.  Two emeralds
@@ -358,17 +358,17 @@ have been delicately placed in the hilt of the sword, reminding
 you of a pair of eyes.
 ~
 A
-18 4
+18 3
 A
-19 4
+19 3
 #25025
 hammer stone~
 a stone hammer~
 A big stone hammer has been discarded.~
 ~
 5 mort am
-7 4 4 6 0 0 0 9 14
-16 600 55
+7 5 6 6 0 0 0 9 14
+16 1051 55
 E
 hammer stone~
 The hammer is very crude, basically a big stick with a big rock
@@ -384,25 +384,25 @@ a pair of bronze dragon wings~
 A pair of large bronze wing is on the ground.~
 ~
 9 gi ak
-5 0 0 0 0 0 0 20 14
-5 100000 20000
+11 0 0 0 0 0 0 20 14
+5 223 22
 E
 wing~
 The wing is leathery to the touch, but extremely shiny.  The wing
 looks like it could support a very large creature in flight.
 ~
 A
-4 3
+4 2
 A
-13 20
+13 12
 #25027
 boot scale~
 a brass-scale boot~
 A brass-scale boot has been carelessly discarded here.~
 ~
 9 g ag
-38 0 0 0 0 0 0 11 14
-7 3000 2000
+17 0 0 0 0 0 0 11 14
+7 319 31
 E
 boots~
 Some poor brass dragon must've been hacked apart in order to
@@ -416,8 +416,8 @@ Brass-scaled leggings~
 Some scale leggings have been left here.~
 ~
 9 gmort af
-60 0 0 0 0 0 0 11 14
-7 3000 1000
+17 0 0 0 0 0 0 11 14
+7 319 31
 E
 leggings~
 This piece of armor seems quite sturdy.  Pieced together from
@@ -426,21 +426,21 @@ the scales of a brass dragon.
 A
 3 1
 A
-23 -10
+23 -3
 #25029
 sleeve scale~
 a brass-scaled sleeve~
 A brass-scaled sleeve has been left here.~
 ~
 9 gmort ai
-38 0 0 0 0 0 0 11 14
-7 3000 2000
+17 0 0 0 0 0 0 11 14
+7 319 31
 E
 sleeves~
 The scales of these sleeves shine brightly, almost annoying.
 ~
 A
-24 -10
+24 -3
 A
 19 1
 #25030
@@ -450,7 +450,7 @@ A gorgeous crown is here.~
 ~
 8 goprt ae
 0 0 0 0 0 0 0 16 14
-3 100000 100
+3 2410 100
 E
 crown~
 The jewels of this crown are very precious, coming from
@@ -468,8 +468,8 @@ a green and black bottle~
 A green-black bottle is standing on end.~
 ~
 5 bgj am
-0 1 3 9 0 0 0 20 14
-4 5000 11000
+0 3 7 9 0 0 0 20 14
+4 396 39
 E
 bottle souls~
 There seems to be something alive, or at least kind of alive,
@@ -481,5 +481,5 @@ artifact, taken in the Great War.
 A
 19 2
 A
-13 20
+13 12
 $~

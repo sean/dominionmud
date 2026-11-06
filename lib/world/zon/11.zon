@@ -1,7 +1,7 @@
 #11
 Mytherandil~
 Gray~
-ALL~
+35-45~
 3001 1
 1299 10 2
 *
@@ -94,5 +94,10 @@ M 0 1105 1 1197 100 	* a silver-clad sentinel at Scarelle's Outfitting. (Max: 1)
 * puzzle
 M 0 1131 1 1154             the black monolith (puzzle)
 O 0 1152 256 1296            scroll of recall (puzzle reward)
+* Nov 2026 rebalance: residents
+M 0 1133 3 1127 100 	* a Mytherandil cutpurse (level 38)
+M 0 1133 3 1195 100 	* a Mytherandil cutpurse (level 38)
+M 0 1133 3 1136 100 	* a Mytherandil cutpurse (level 38)
+M 0 1134 1 1152 100 	* Vesk the Knife (group boss)
 S
 $~

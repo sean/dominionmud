@@ -26,7 +26,7 @@ extern int max_exp_loss;
 /* TD - SPM */
 static char make_title_buf[128];
 extern struct race_data *races;
-int    exp_needed(int level);
+long   exp_needed(int level);
 extern int regen_gain[];
 ACMD(do_infobar);
 int has_mail(long recip);
@@ -239,7 +239,7 @@ void gain_exp(struct char_data * ch, int gain)
 
   max_exp_number = (exp_needed((GET_LEVEL(ch)+1)) -
 		    exp_needed(GET_LEVEL(ch)));
-  max_exp_number /= 16;        /* Min of 16 kills per level */
+  max_exp_number /= 4;         /* no one kill gives more than a quarter of a level */
 
   if (IS_NPC(ch)) {
     GET_EXP(ch) += gain;

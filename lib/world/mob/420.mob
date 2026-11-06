@@ -13,8 +13,8 @@ beneath one star; he swore that he would never die, and he has kept his
 word at the cost of everyone around him.
 ~
 bdfglnpt adk -1000 E
-28 59 66 25d20+1300 5d10+18
-3000 250000
+32 26 13 10d6+466 3d8+0
+1962 51636
 8 8 1
 BareHandAttack: 10
 Int: 18
@@ -35,8 +35,8 @@ nothing human lurks behind them.  It is Morvane's huntsman, and it
 brings the souls that feed the trees.
 ~
 bdfglpt adk -1000 E
-25 53 63 20d20+1000 4d10+14
-0 169375
+30 25 12 10d6+34 3d6+0
+195 7590
 8 8 1
 BareHandAttack: 10
 Str: 13
@@ -58,8 +58,8 @@ reach toward you, and sap runs from its eyes like tears.  Whoever it
 was, it is not entirely gone; and what is left of it is not friendly.
 ~
 bdgp 0 -400 E
-18 39 33 1d80+300 2d8+8
-0 25000
+23 22 11 7d6+37 2d8+0
+125 4538
 8 8 0
 BareHandAttack: 7
 E
@@ -76,8 +76,8 @@ teeth, and it smells of the grave.  It looks up from its meal with flat,
 hungry eyes.
 ~
 dfgl k -700 E
-18 39 33 15d20+190 3d6+6
-150 30000
+23 22 11 7d6+37 2d8+0
+125 4538
 8 8 0
 BareHandAttack: 8
 E
@@ -92,8 +92,8 @@ gray and dry, and its eyes are two points of cold, pale light.  The air
 around it is bitterly cold.
 ~
 dfgl dk -800 E
-21 45 50 20d20+250 3d8+8
-400 45000
+27 24 12 9d6+39 3d6+0
+163 6186
 8 8 1
 BareHandAttack: 3
 E
@@ -107,8 +107,8 @@ on its skull, and it holds a spear with the patience of something that
 has stood guard for a hundred years and will stand for a hundred more.
 ~
 dfgl k -500 E
-20 43 40 20d20+200 3d6+8
-50 40000
+25 22 11 8d6+38 3d5+0
+144 5330
 8 8 0
 BareHandAttack: 11
 E
@@ -123,8 +123,8 @@ face.  The shape never quite holds; it wavers and fades and gathers
 itself again, like a candle flame in a draft.
 ~
 bdenopq k 1000 E
-20 43 40 1d1+30000 1d1+0
-0 0
+63 42 21 21d6+101 6d6+0
+721 32538
 8 8 2
 E
 >in_file_prog aurelle.prg~
@@ -139,8 +139,8 @@ her as though she were under water.  Her face is twisted with grief, and
 her wail never stops, rising and falling but never ending.
 ~
 dfgl bk -700 E
-22 47 54 20d20+280 3d8+10
-0 50000
+28 24 12 9d6+42 3d6+0
+174 6638
 8 8 2
 BareHandAttack: 8
 E
@@ -155,8 +155,8 @@ has grown fat on the dead of House Gemmar, and it is not particular
 about whether its meals are dead yet.
 ~
 dfgb k 0 E
-19 41 30 18d20+200 2d10+8
-0 35000
+24 22 11 8d6+36 3d5+0
+134 4926
 8 8 0
 BareHandAttack: 4
 E
@@ -171,8 +171,8 @@ for a head that turns, slowly, to follow you.  It does not breathe, and
 it does not blink.
 ~
 bdfglq k -600 E
-24 51 60 25d20+300 4d8+10
-0 80000
+29 24 12 9d6+44 3d6+0
+184 7106
 8 8 0
 BareHandAttack: 6
 E
@@ -188,8 +188,8 @@ and somewhere along the way he stopped being entirely sane.  He talks to
 himself constantly, and to his shovel, and occasionally to you.
 ~
 bden 0 0 E
-12 25 16 10d10+100 2d6+3
-20 0
+50 35 18 16d6+79 5d5+0
+475 20630
 8 8 1
 BareHandAttack: 5
 E
@@ -204,8 +204,8 @@ A door of pale marble, carved with the face of a sleeping young woman.
 It has no handle, no lock and no seam.
 ~
 bdenopq k 0 E
-1 0 0 1d1+30000 1d1+0
-0 0
+22 21 10 7d6+35 2d7+0
+117 4166
 8 8 0
 E
 >in_file_prog pz_whitedoor.prg~

@@ -28,24 +28,24 @@ the prism of light scatterazation~
 A small crystal lies here making rainbows out of light.~
 ~
 3 0 am
-12 5 5 79 0 0 0 21 14
-2 2300 23
+22 5 5 79 0 0 0 21 14
+2 134 13
 #35004
 prism light coehesion~
 the prism of light cohesion~
 A small crystal lies here focusing light.~
 ~
 3 0 a
-12 2 2 69 0 0 0 21 14
-9 1000 20
+22 2 2 69 0 0 0 21 14
+9 134 13
 #35005
 forcefield field generator~
 the forcefield generator~
 A small mechanical device lies here humming~
 ~
 3 0 am
-12 1 1 51 0 0 0 18 14
-8 2000 10
+22 1 1 51 0 0 0 18 14
+8 134 10
 #35006
 unfinished object~
 an unfinished object~
@@ -84,8 +84,8 @@ the Watcher signet ring~
 A small gold and ruby ring lies here.~
 ~
 9 deh ab
-2 0 0 0 0 0 0 0 14
-1 1 1
+9 0 0 0 0 0 0 0 14
+1 120 1
 #35011
 unfinished object~
 an unfinished object~
@@ -244,6 +244,6 @@ the blade of black~
 A rune covered black bladed sword with a silver handle lies here.~
 ~
 5 axE am
-100 99999 50 3 0 0 0 20 14
-1 1 1
+100 2 9 3 0 0 0 20 14
+1 199 1
 $~

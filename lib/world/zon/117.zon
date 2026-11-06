@@ -1,7 +1,7 @@
 #117
 Rhaylinne Tower~
 Kirahn~
-High~
+65-75~
 3001 1
 11799 24 2
 *
@@ -11,5 +11,17 @@ High~
 D 0 11731 1 1 100 		* Close Eastern door at A storeroom
 D 0 11732 3 1 100 		* Close Eastern door at Western Hallway in the Tower
 M 0 11700 1 11700 100 	* a scholar of Rhaylinne at room 11700 (quest giver). (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 11701 3 11732 100 	* a stone guardian (level 68)
+M 0 11701 3 11704 100 	* a stone guardian (level 68)
+M 0 11701 3 11716 100 	* a stone guardian (level 68)
+M 0 11702 3 11761 100 	* an animated suit of armour (level 70)
+M 0 11702 3 11724 100 	* an animated suit of armour (level 70)
+M 0 11702 3 11742 100 	* an animated suit of armour (level 70)
+M 0 11703 2 11733 100 	* a tower apprentice (level 66)
+M 0 11703 2 11745 100 	* a tower apprentice (level 66)
+M 0 11704 2 11738 100 	* a bound air elemental (level 72)
+M 0 11704 2 11774 100 	* a bound air elemental (level 72)
+M 0 11705 1 11762 100 	* Archmage Ysolde of Rhaylinne (group boss)
 S
 $~

@@ -9,8 +9,8 @@ it glide from tree to tree.  It regards you with frank curiosity,
 chewing busily.
 ~
 dgu 0 300 E
-3 16 6 4d6+20 1d4+1
-0 350
+15 18 9 5d6+27 2d5+0
+64 2010
 8 8 0
 BareHandAttack: 4
 E
@@ -24,8 +24,8 @@ spots like sunlight through leaves.  It raises its head to watch you
 with great dark eyes, ready to bound away at the first sign of trouble.
 ~
 dgh 0 200 E
-8 13 10 8d10+60 1d8+2
-0 3750
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 2
 BareHandAttack: 0
 E
@@ -39,8 +39,8 @@ brush is nearly as long as its body.  It moves with quick, delicate
 steps and pauses now and then to listen, one forepaw raised.
 ~
 dgh 0 0 E
-10 10 9 10d10+80 2d4+3
-0 6000
+19 20 10 6d6+32 2d7+0
+92 3146
 8 8 1
 BareHandAttack: 4
 E
@@ -55,8 +55,8 @@ tusks as long as daggers.  It is drunk on fermented fruit and spoiling
 for a fight.
 ~
 dg 0 0 E
-14 7 29 15d10+90 2d8+6
-0 16000
+20 20 10 6d6+34 2d7+0
+100 3470
 8 8 1
 BareHandAttack: 3
 E
@@ -73,8 +73,8 @@ valley since before most kingdoms had names, and he has seen a great
 many people come here hoping to change their fate.
 ~
 bdeglm d 600 E
-20 43 45 20d20+200 3d6+8
-200 0
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 1
 Race: 10
 BareHandAttack: 11
@@ -94,8 +94,8 @@ She giggles constantly, and every time you look away something of yours
 seems to have moved.
 ~
 dgh b 400 E
-9 12 12 8d10+70 1d6+2
-25 6000
+17 18 9 5d6+31 2d6+0
+77 2546
 8 8 2
 BareHandAttack: 1
 E
@@ -109,8 +109,8 @@ ridge of long, stiff quills like a porcupine's.  It has made its den in
 the hollow of the fallen Zxyer, and it does not like visitors.
 ~
 dfg 0 0 E
-16 6 38 16d16+150 3d6+6
-0 25500
+22 21 10 7d6+35 2d7+0
+117 4166
 8 8 1
 BareHandAttack: 8
 E
@@ -125,8 +125,8 @@ fate, and he is still looking for the way.  He does not seem to
 understand that he is dead, and he does not like being reminded.
 ~
 dgl k -300 E
-15 6 30 1d80+160 2d6+6
-0 20000
+21 20 10 7d6+33 2d7+0
+108 3810
 8 8 1
 BareHandAttack: 2
 E
@@ -144,8 +144,8 @@ thread leaves her spindle and floats away among the trees.  She is the
 first of the Fates, who begins every life.
 ~
 bdenopq dk 1000 E
-30 0 0 1d1+30000 1d1+0
-0 0
+24 22 11 8d6+228 3d6+0
+804 19704
 8 8 2
 E
 >in_file_prog fate_spinner.prg~
@@ -162,8 +162,8 @@ without a word.  She is the second of the Fates, who decides how long
 each life shall be.
 ~
 bdenopq dk 0 E
-30 0 0 1d1+30000 1d1+0
-0 0
+24 22 11 8d6+228 3d6+0
+804 19704
 8 8 2
 E
 >in_file_prog fate_measurer.prg~
@@ -180,8 +180,8 @@ blades.  She is the last of the Fates, who ends every life, and she does
 not seem in the least unkind.
 ~
 bdenopq dk 0 E
-30 0 0 1d1+30000 1d1+0
-0 0
+24 22 11 8d6+228 3d6+0
+804 19704
 8 8 2
 E
 >in_file_prog fate_cutter.prg~
@@ -194,8 +194,8 @@ The still pool reflects a sky that is not the one overhead.
 A still, round pool of dark water.
 ~
 bdenopq k 0 E
-1 0 0 1d1+30000 1d1+0
-0 0
+14 17 8 4d6+28 2d5+0
+57 1766
 8 8 0
 E
 >in_file_prog pz_pool.prg~
@@ -212,8 +212,8 @@ terrible strength.  It tends the trees of the valley, and it does not
 take kindly to anyone who harms them.
 ~
 bdglq k 500 E
-22 47 54 22d20+300 3d8+10
-0 50000
+63 42 21 21d6+101 6d6+0
+721 32538
 8 8 0
 BareHandAttack: 6
 E
@@ -226,8 +226,8 @@ A traveller in a dusty cloak with a pilgrim's shell on a cord.  He has
 come a very long way to look into a pool.
 ~
 d 0 500 E
-10 20 5 10d10+80 1d4+0
-0 0
+41 30 15 13d6+62 4d6+0
+334 13970
 8 8 1
 E
 $~

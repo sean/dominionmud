@@ -32,7 +32,7 @@ extern char   *class_abbrevs[];
 /* For TD 3/19/95 */
 extern struct race_data *races;
 extern struct zone_data *zone_table;
-extern int top_of_zone_table;
+extern long top_of_zone_table;
 extern int NUM_RACES;
 
 /* extern procedures */
@@ -94,7 +94,7 @@ ACMD(do_quit)
     }
 
    save_room = ch->in_room;
-   if (free_rent)
+   if (free_rent || ship_captive(ch))   /* ship.c: captives are ransomed */
       Crash_rentsave(ch, 0);
     extract_char(ch);           /* Char is saved in extract char */
 

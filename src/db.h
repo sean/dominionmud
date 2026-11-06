@@ -122,6 +122,39 @@ void    quest_arrive(struct char_data *ch);
 void    quest_hour(void);
 int     quest_mob_pulse(struct char_data *mob);
 void    quest_escort_lost(struct char_data *mob, const char *why);
+int     quest_on(struct char_data *ch, int vnum);
+
+/* ship.c: the Sea Wren and Blackwake's pirates (lib/data/ships) */
+void    load_ships(void);
+void    ship_hour(void);
+void    ship_pulse(void);
+void    ship_show(struct char_data *ch, char *arg);
+int     ship_lend_gear(struct char_data *ch, int lend);
+void    ship_release(struct char_data *ch, int quietly);
+void    ship_rent(struct char_data *ch);
+int     ship_captive(struct char_data *ch);
+void    ship_login(struct char_data *ch);
+long    ship_corpse_room(struct char_data *ch);
+long    mob_exp_for_level(int level);   /* race.c */
+long    kill_exp(struct char_data *victim);  /* fight.c */
+
+/* levels.c: zone brackets (zone files' levelrec, "12-20") and item levels */
+void    compute_levels(void);
+int     zone_level_low(int znum);
+int     zone_level_high(int znum);
+int     obj_level(struct obj_data *obj);
+int     level_can_use(struct char_data *ch, struct obj_data *obj);
+void    mob_set_level(struct char_data *mob, int level, int party);
+int     skill_dam(int level, int pct);  /* fight.c */
+void    obj_level_set(long rnum, int level);
+
+/* arena.c: bouts, betting and challenges at the Arena (lib/data/arena) */
+void    load_arena(void);
+void    arena_hour(void);
+void    arena_pulse(void);
+void    arena_login(struct char_data *ch);
+int     arena_spare(struct char_data *ch, struct char_data *victim, int dam);
+void    arena_show(struct char_data *ch, char *arg);
 void    quest_show(struct char_data *ch, char *arg);
 
 /* routine.c: NPC daily routines (lib/data/routines) */

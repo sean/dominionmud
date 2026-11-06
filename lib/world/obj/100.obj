@@ -4,8 +4,8 @@ a redbone mask~
 A mask made of redbone is here with an evil grin on it.~
 ~
 9 gj ae
-5 0 0 0 0 0 0 20 14
-2 50000 151
+26 0 0 0 0 0 0 20 14
+2 917 91
 A
 5 2
 A
@@ -24,16 +24,16 @@ a bloody sword~
 A sword covered in dried blood is lying on the ground here.~
 ~
 5 jl am
-0 1 10 3 0 0 0 13 14
-10 1 1200
+0 5 6 3 0 0 0 13 14
+10 1030 103
 #10004
 crown darkshade brilliant ebony~
 a brilliant, ebony crown~
 A brilliant crown made of ebony is lying in the corner.~
 ~
 9 jmns ae
-20 0 0 0 0 0 0 20 14
-3 100000 7100
+27 0 0 0 0 0 0 20 14
+3 908 90
 A
 3 2
 A
@@ -45,11 +45,11 @@ A cloak made of heavy dark fabric lies here.~
 ~
 9 x aj
 0 0 0 0 0 0 0 20 14
-3 30000 3500
+3 726 72
 A
 14 20
 A
-24 10
+24 5
 #10006
 bag holding~
 a small bag~
@@ -75,7 +75,7 @@ An iron maiden is hanging in the corner of the room.~
 0 0 0 0 0 0 0 0 14
 200 10 1
 A
-13 24
+13 18
 #10009
 table operation~
 an operating table~
@@ -112,24 +112,24 @@ a dagger~
 A dagger has been left here.~
 ~
 5 E am
-10 3 6 11 0 0 0 19 14
-3 9599 8000
+10 6 9 11 0 0 0 19 14
+3 2651 265
 #10013
 potion bottle~
 a dark green potion~
 A flask filled with a dark green liquid is here.~
 ~
 10 0 a
-15 86 83 53 0 0 0 0 14
-1 25000 1250
+88 86 83 53 0 0 0 0 14
+1 1058 105
 #10014
 crystal ball~
 a crystal ball~
 A crystal ball is hovering in midair here.~
 ~
 9 kloprt 0
-2 0 0 0 0 0 0 0 14
-2 500000 245
+15 0 0 0 0 0 0 0 14
+2 462 46
 E
 crystal ball~
 The quest of the Overseer.  This probably wont be too much fun for
@@ -146,9 +146,9 @@ Anyhow...your first clue to find the second ball (the ball besides this one)
 is this:  Deep in the heart of Sir-dem-Ir-Lesk
 ~
 A
-12 50
+12 32
 A
-24 -20
+24 -4
 #10015
 skeleton hand~
 a skeletal hand~
@@ -163,24 +163,24 @@ a silver ring~
 A silver ring has carelessly been left here.~
 ~
 9 i ab
-1 0 0 0 0 0 0 15 14
-2 5000 501
+17 0 0 0 0 0 0 15 14
+2 633 63
 A
 2 2
 A
-23 25
+23 5
 #10017
 sword longsword long crooked~
 a crooked longsword~
 A crooked longsword has been carelessly left here.~
 ~
 5 dhjmn am
-0 3 2 3 0 0 0 14 14
-8 4800 3150
+0 5 6 3 0 0 0 14 14
+8 999 99
 A
 18 -5
 A
-23 -25
+23 -5
 #10018
 robe white~
 a white robe~
@@ -197,8 +197,8 @@ a black cloak~
 A pile of black fabric is lying here.~
 ~
 9 0 ad
-4 0 0 0 0 0 0 15 14
-1 8 2
+21 0 0 0 0 0 0 15 14
+1 703 2
 #10020
 pick lockpick~
 a lock pick~
@@ -213,8 +213,8 @@ a ruby bracelet~
 A loop made of ruby lies here.~
 ~
 9 0 al
-2 0 0 0 0 0 0 18 14
-1 10000 2400
+23 0 0 0 0 0 0 18 14
+1 1129 112
 A
 14 10
 #10026
@@ -223,10 +223,10 @@ Lance of Guardians~
 A white lance with a diamond fitted onto the end is on the ground here.~
 ~
 5 adg am
-0 7 2 11 0 0 0 0 14
-15 0 0
+0 4 10 11 0 0 0 0 14
+15 1110 0
 A
-5 5
+5 2
 A
 18 5
 #10027
@@ -235,8 +235,8 @@ a sharp dirk~
 A very small weapon is lying here with a very short blade.~
 ~
 5 0 am
-3 2 4 11 0 0 0 15 14
-2 2000 300
+3 4 7 11 0 0 0 15 14
+2 908 90
 #10101
 key black spine~
 a small black key~
@@ -283,8 +283,8 @@ a double bladed dagger~
 A dagger with two razor sharp blades lies here collecting dust.~
 ~
 5 E am
-5 5 3 11 0 0 0 15 14
-2 12000 1000
+5 4 9 11 0 0 0 15 14
+2 1083 108
 A
 18 4
 A
@@ -295,8 +295,8 @@ a small, black dirk~
 A small black weapon is stuck in the ground here.~
 ~
 5 0 am
-2 3 5 11 0 0 0 15 14
-1 100000 2000
+2 4 9 11 0 0 0 15 14
+1 1028 102
 #10108
 glasgian light golden shield~
 a golden shield~
@@ -304,9 +304,9 @@ A golden shield with the ankh of Glasgian on its face lies here.~
 ~
 9 adklq am
 25 0 0 0 0 0 0 19 14
-12 1000000 5000
+12 771 77
 A
-13 50
+13 16
 A
 19 2
 $~

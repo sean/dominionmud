@@ -1,0 +1,28 @@
+#42
+The Sea Wren~
+Claude~
+34-42~
+4200 2
+4299 30 2
+*
+* Last Updated: Thu Nov  5 2026
+*           By: Claude
+*
+* The Sea Wren, a coastal trader on a route between Gnishmire, the coral
+* shore of Llyndyr, Vice Island, the Isle of Karras and Elrhinn.  Its
+* sailing, docking (the gangplank west from the main deck), fares and the
+* pirates who board it (4210-4213) are run by ship.c from lib/data/ships.
+*
+M 0 4200 1 4202 100 	* Captain Halloran Gray on the quarterdeck. (Max: 1)
+M 0 4201 1 4200 100 	* the purser on the main deck. (Max: 1)
+M 0 4202 4 4200 100 	* a sailor on the main deck. (Max: 4)
+M 0 4202 4 4200 100 	* a sailor on the main deck. (Max: 4)
+M 0 4202 4 4201 100 	* a sailor on the forecastle. (Max: 4)
+M 0 4202 4 4203 100 	* a sailor up the rigging. (Max: 4)
+M 0 4203 1 4205 100 	* the ship's cook in the galley. (Max: 1)
+M 0 4204 1 4200 100 	* a ship's boy on the main deck. (Max: 1)
+M 0 4205 3 4206 100 	* a bilge rat in the hold. (Max: 3)
+M 0 4205 3 4206 100 	* a bilge rat in the hold. (Max: 3)
+M 0 4205 3 4206 100 	* a bilge rat in the hold. (Max: 3)
+S
+$~

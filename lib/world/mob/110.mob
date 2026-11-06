@@ -7,8 +7,8 @@ This mountaineer is a passerby in Stanneg by the Western Mountains
 like everyone else.
 ~
 cdgh 0 500 E
-7 17 0 3d5+83 2d4+1
-1000 259
+33 26 13 11d6+48 3d7+0
+229 9138
 8 8 1
 Race: 0
 E
@@ -21,8 +21,8 @@ The bored storekeeper keeps a lazy eye on you as he
 waits for you to buy something.  Whee.
 ~
 bd 0 750 E
-20 1 26 3d5+245 3d6+6
-10000 1000
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 1
 Race: 11
 E
@@ -35,8 +35,8 @@ This woman seems ready for anything you might do...
 she is truly a woman to be reckoned with...
 ~
 bd dtu 750 E
-20 1 59 3d5+245 3d6+4
-8000 4000
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 2
 Race: 0
 E
@@ -49,8 +49,8 @@ This horse looks like a nice horse.  It looks at you
 with soft brown eyes and you want to give it a carrot.
 ~
 abd 0 250 E
-5 13 30 1d10+60 2d4+0
-0 1
+14 17 8 4d6+28 2d5+0
+57 1766
 8 8 1
 Race: 22
 E
@@ -63,8 +63,8 @@ This woman has many different types of fruits and
 vegetables for you to buy.  She looks bored, though.
 ~
 bd 0 500 E
-20 1 61 3d5+245 3d6+6
-10000 1000
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 2
 Race: 0
 E
@@ -77,8 +77,8 @@ Aglandiir is a prince of his kind, and he didn't get where
 he is today by letting people steal from his horde!
 ~
 abdf dh 750 E
-35 73 76 100d3+8000 3d5+75
-15000 500000
+22 21 10 7d6+94 2d9+0
+702 16664
 8 8 1
 Race: 39
 E
@@ -92,8 +92,8 @@ hitting the target is another matter.  He looks at you and
 growls as he misses again!
 ~
 bcdf 0 -500 E
-16 35 35 3d5+295 2d8+50
-10000 24000
+18 19 10 6d6+30 2d6+0
+85 2838
 8 8 1
 Race: 24
 E
@@ -109,8 +109,8 @@ to show great intelligence.  Her mouth twitches into a
 sneer...
 ~
 bd 0 -600 E
-15 6 52 3d5+200 2d6+6
-6500 2400
+49 34 17 16d6+76 5d5+0
+458 19826
 8 8 2
 Race: 0
 E
@@ -126,8 +126,8 @@ An ornate scabbard slaps by his side, with the pommel of a
 silvered dagger sticking out...a tiny weapon for such a large man!
 ~
 bd 0 -900 E
-22 40 82 3d5+9400 3d6+40
-15000 70000
+20 20 10 6d6+34 2d7+0
+100 3470
 8 8 1
 Race: 15
 E
@@ -140,8 +140,8 @@ A receptionist offers you a room.
 in an inn.  More power to him!
 ~
 abd 0 400 E
-12 9 67 3d5+140 2d7+1
-8000 800
+43 32 16 14d6+65 4d6+0
+363 15338
 8 8 1
 Race: 0
 E
@@ -157,8 +157,8 @@ blue eyes dance with amusement as he notices your weapons,
 but he doesn't seem too terribly startled.
 ~
 bd 0 750 E
-10 11 42 3d5+120 2d6+1
-2000 900
+39 30 15 13d6+57 4d6+0
+306 12666
 8 8 1
 Race: 2
 E
@@ -173,8 +173,8 @@ his face weathered, his eyes cold and dark.  Others are
 standing out of his way as he walks on by.
 ~
 cdg 0 500 E
-11 10 61 3d5+133 2d6+2
-1200 11000
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 1
 Race: 9
 E
@@ -188,8 +188,8 @@ rushes in the back to get food, and to the bar for drinks.
 He doesn't even spare you a glance as he passes by.
 ~
 bd 0 0 E
-5 13 96 3d5+60 2d4+0
-500 250
+14 17 8 4d6+28 2d5+0
+57 1766
 8 8 1
 Race: 8
 E
@@ -203,8 +203,8 @@ in the back to get food, and to the bar for drinks.  She doesn't even
 spare you a glance as she passes by.
 ~
 bd 0 0 E
-5 13 71 3d5+60 2d4+0
-500 250
+14 17 8 4d6+28 2d5+0
+57 1766
 8 8 2
 Race: 0
 E
@@ -219,8 +219,8 @@ rag.  The glass is completely clean, but he polishes it anyway.
 Go figure.
 ~
 d 0 200 E
-15 6 55 3d5+180 2d8+2
-10000 1000
+17 18 9 5d6+31 2d6+0
+77 2546
 8 8 1
 Race: 3
 E
@@ -234,8 +234,8 @@ nearly every bit of him is covered with grime, dust, dirt and
 decay.  His sword is polished and cleaned though...
 ~
 cdfh 0 -500 E
-16 5 41 3d5+195 2d8+3
-1000 2400
+18 19 10 6d6+30 2d6+0
+85 2838
 8 8 1
 Race: 16
 E
@@ -251,8 +251,8 @@ to pull a good guard duty...
 (boy is this guy DIRTY!!!)
 ~
 bdf 0 -500 E
-18 3 61 3d5+220 3d6+2
-2400 900
+19 20 10 6d6+32 2d7+0
+92 3146
 8 8 1
 Race: 0
 E
@@ -267,8 +267,8 @@ tight, and you wonder if you should set him free, and
 if you even can.
 ~
 bd 0 1000 E
-6 15 79 3d5+70 1d8+1
-0 500
+31 26 13 10d6+46 3d6+0
+206 8090
 8 8 1
 Race: 13
 E
@@ -281,8 +281,8 @@ This farmer is a resident of Stanneg by the Mountains,
 and as such, is one of the most boring people on earth.
 ~
 bcdgh 0 500 E
-7 17 39 3d5+83 2d4+1
-1000 500
+15 18 9 5d6+27 2d5+0
+64 2010
 8 8 1
 Race: 3
 E
@@ -297,8 +297,8 @@ his face weathered, his eyes cold and dark.  Others are
 standing out of his way as he walks on by.
 ~
 bcdg 0 500 E
-11 10 64 3d5+133 2d6+2
-1200 700
+41 30 15 13d6+62 4d6+0
+334 13970
 8 8 1
 Race: 0
 E
@@ -312,7 +312,7 @@ also is a great staple to mountain towns.  They are very large and very
 dumb and lives off of grass.
 ~
 d 0 0 S
-1 5 76 1d1+20 1d4+2
-0 80
+12 16 8 4d6+25 2d4+0
+46 1326
 8 8 0
 $~

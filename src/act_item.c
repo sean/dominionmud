@@ -1298,6 +1298,8 @@ void perform_wear(struct char_data * ch, struct obj_data * obj, int where)
      send_to_char("You cannot use a broken item!\r\n", ch);
      return;
   }
+  if (!level_can_use(ch, obj))          /* levels.c: item levels */
+    return;
 
   /* second, make sure that the wear position is valid. */
   if (!CAN_WEAR(obj, wear_bitvectors[where])) {

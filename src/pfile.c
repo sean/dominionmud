@@ -149,6 +149,8 @@ int pfile_write_record(FILE *fp, const struct char_file_u *st)
     if (ps->quests.active[i].vnum > 0)
       fprintf(fp, "QuestActive %d %d %lld\n", ps->quests.active[i].vnum,
 	      ps->quests.active[i].count, (long long) ps->quests.active[i].taken);
+  if (ps->pirate_captive)                        /* ship.c */
+    fprintf(fp, "PirateGold %ld\n", ps->pirate_gold);
   for (i = 0; i < ps->quests.num_done && i < MAX_QUESTS_DONE; i++)
     fprintf(fp, "QuestDone %d %lld\n", ps->quests.done[i].vnum,
 	    (long long) ps->quests.done[i].when);
@@ -347,6 +349,10 @@ int pfile_read_record(FILE *fp, struct char_file_u *st, int *unknown)
 	  ps->quests.active[q].taken = (time_t) v[2];
 	  break;
 	}
+    }
+    else if (IS("PirateGold")) {               /* ship.c: a captive */
+      ps->pirate_gold = (long) n;
+      ps->pirate_captive = 1;
     }
     else if (IS("QuestDone")) {
       get_nums(val, v, 2);

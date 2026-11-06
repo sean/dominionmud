@@ -92,48 +92,48 @@ a steel dagger~
 A dagger with a long steel blade is here.~
 ~
 5 E am
-0 1 4 11 0 0 0 18 14
-1 10 10
+0 1 6 11 0 0 0 18 14
+1 22 2
 #1121
 sword small steel~
 a small steelsword~
 A small steelsword lies here.~
 ~
 5 0 am
-0 1 6 11 0 0 0 18 14
-3 60 12
+0 3 7 11 0 0 0 18 14
+3 406 12
 #1122
 sword long steel~
 a long steelsword~
 A long steelsword has been left here.~
 slash~
 5 0 am
-0 2 7 3 0 0 0 14 14
-8 600 10
+0 1 12 3 0 0 0 14 14
+8 48 4
 #1123
 club wooden~
 a wooden club~
 A simple looking wooden club is here.~
 pound~
 5 0 a
-0 1 3 7 0 0 0 7 14
-3 12 10
+0 3 6 7 0 0 0 7 14
+3 358 10
 #1124
 warhammer steel hammer~
 a steel warhammer~
 A medium sized warhammer with a steel head is here.~
 pound~
 5 0 a
-0 1 9 7 0 0 0 0 14
-6 50 10
+0 3 9 7 0 0 0 0 14
+6 485 10
 #1125
 flail steel large~
 a steel flail~
 A large steel flail is here.~
 pound~
 5 0 a
-0 2 5 7 0 0 0 0 14
-6 625 10
+0 3 10 7 0 0 0 0 14
+6 532 10
 #1130
 torch~
 a torch~
@@ -203,64 +203,64 @@ a steel breast plate~
 A steel breast plate is lying on the ground.~
 ~
 9 0 ad
-65 0 0 0 0 0 0 18 14
-100 18000 150
+29 0 0 0 0 0 0 18 14
+100 1056 105
 #1141
 chain mail shirt~
 a chain mail shirt~
 A steel chain mail shirt is lying on the ground.~
 ~
 9 0 ad
-7 0 0 0 0 0 0 0 14
-60 2800 50
+14 0 0 0 0 0 0 0 14
+60 268 26
 #1142
 shield steel~
 a steel shield~
 A small steel shield is lying on the ground.~
 ~
 9 0 aj
-5 0 0 0 0 0 0 0 14
-3 300 10
+11 0 0 0 0 0 0 0 14
+3 227 10
 #1143
 jacket soft leather~
 a leather jacket~
 A soft leather jacket is lying on the ground.~
 ~
 9 0 ad
-2 0 0 0 0 0 0 0 14
-10 200 10
+10 0 0 0 0 0 0 0 14
+10 201 10
 #1144
 jacket studded~
 a studded leather jacket~
 A studded leather jacket is lying on the ground.~
 ~
 9 0 ad
-3 0 0 0 0 0 0 0 14
-20 500 10
+10 0 0 0 0 0 0 0 14
+20 201 10
 #1145
 jacket scale mail~
 a scale mail jacket~
 A scale mail jacket is lying on the ground.~
 ~
 9 0 ad
-4 0 0 0 0 0 0 0 14
-40 1000 10
+10 0 0 0 0 0 0 0 14
+40 203 10
 #1146
 battle breast plate~
 a battle breast plate~
 A battle breast plate is lying on the ground.~
 ~
 9 0 ad
-65 0 0 0 0 0 0 18 14
-80 10000 100
+17 0 0 0 0 0 0 18 14
+80 336 33
 #1150
 scroll identify~
 a scroll of identify~
 A scroll has carelessly been left here.~
 ~
 2 g ao
-12 1701 99 99 0 0 0 0 14
-1 2001 10
+35 1701 99 99 0 0 0 0 14
+1 248 10
 E
 scroll identify~
 The scroll has a magic formula drawn upon it:
@@ -277,8 +277,8 @@ a yellow potion~
 A small yellow potion has carelessly been left here.~
 ~
 10 g ao
-12 69 99 99 0 0 0 0 14
-1 400 10
+35 69 99 99 0 0 0 0 14
+1 248 10
 E
 potion yellow~
 The potion has a small label 'Detect The Invisible'.
@@ -289,8 +289,8 @@ a scroll of recall~
 A scroll has carelessly been left here.~
 ~
 2 g ao
-30 92 100 100 0 0 0 0 14
-4 2001 10
+40 92 100 100 0 0 0 0 14
+4 300 10
 E
 scroll~
 The scroll has written a formulae of 'Word of Recall' upon it.
@@ -301,8 +301,8 @@ a wand of invisibility~
 A wand has carelessly been left here.~
 ~
 3 g ao
-12 2 2 29 0 0 0 0 14
-2 4000 100
+35 2 2 29 0 0 0 0 14
+2 248 24
 E
 wand~
 The wand is an old dark stick.  You notice a small symbol etched at the
@@ -318,8 +318,8 @@ a staff of sleep~
 A staff has carelessly been left here.~
 ~
 4 g ao
-12 1 1 38 0 0 0 0 14
-17 7000 5000
+35 1 1 38 0 0 0 0 14
+17 248 24
 E
 staff~
 The staff is made of old oak, and is around five feet long. It fits
@@ -338,8 +338,8 @@ a staff of healing~
 A staff has carelessly been left here.~
 ~
 4 g ao
-10 8 8 15 0 0 0 0 14
-7 8500 300
+35 8 8 15 0 0 0 0 14
+7 248 24
 E
 staff~
 The staff is made of metals unknown to you.
@@ -374,8 +374,8 @@ a battle gauntlet~
 A battle gauntlet lies here on the ground.~
 ~
 9 0 ah
-65 0 0 0 0 0 0 15 14
-8 1850 100
+17 0 0 0 0 0 0 15 14
+8 336 33
 #1171
 glove leather~
 a leather glove~
@@ -383,79 +383,79 @@ A leather glove lies here on the ground.~
 ~
 9 0 ah
 17 0 0 0 0 0 0 8 14
-3 75 10
+3 336 10
 #1175
 helmet battle~
 a battle helmet~
 A battle helmet is lying on the ground.~
 ~
 9 0 ae
-65 0 0 0 0 0 0 18 14
-8 3500 100
+17 0 0 0 0 0 0 18 14
+8 336 33
 #1176
 cap leather~
 a leather cap~
 A leather cap is lying on the ground.~
 ~
 9 0 ae
-3 0 0 0 0 0 0 0 14
-3 150 10
+10 0 0 0 0 0 0 0 14
+3 201 10
 #1180
 greave battle~
 a battle greave~
 A strong looking battle greave lie here.~
 ~
 9 0 af
-8 0 0 0 0 0 0 15 14
-8 600 100
+15 0 0 0 0 0 0 15 14
+8 287 28
 #1181
 pants leather~
 a pair of leather pants~
 A pair of leather pants is lying on the ground.~
 ~
 9 0 af
-3 0 0 0 0 0 0 0 14
-8 150 10
+10 0 0 0 0 0 0 0 14
+8 201 10
 #1185
 vambraces vambrace battle~
 some battle vambraces~
 Some vambraces perfect for battle lie here.~
 ~
 9 0 ai
-8 0 0 0 0 0 0 15 14
-8 400 100
+15 0 0 0 0 0 0 15 14
+8 287 28
 #1186
 bracer leather~
 a leather bracer~
 A leather arm bracer lies here.~
 ~
 9 0 ai
-2 0 0 0 0 0 0 0 14
-4 75 10
+10 0 0 0 0 0 0 0 14
+4 201 10
 #1187
 elixer magical bottle green liquid~
 Stirin's magical elixir~
 A small bottle, full of orange liquid, is lying here.~
 ~
 10 g ao
-30 83 57 100 0 0 0 0 14
-1 750000 50000
+35 83 57 100 0 0 0 0 14
+1 248 24
 #1188
 dark green vial~
 a dark green vial~
 A small bottle, full of dark green liquid, is lying here.~
 ~
 10 g ao
-16 86 99 99 0 0 0 0 14
-1 500000 50000
+35 86 99 99 0 0 0 0 14
+1 248 24
 #1189
 red vial~
 a red vial~
 A small bottle, full of deep red liquid, is lying here.~
 ~
 10 g ao
-2 78 99 99 0 0 0 0 14
-1 500000 50000
+35 78 99 99 0 0 0 0 14
+1 248 24
 #1190
 diamond gem~
 a small diamond~
@@ -463,13 +463,13 @@ A small diamond lies here, collecting dust.~
 ~
 8 0 ao
 0 -1 -1 -1 0 0 0 0 14
-1 5500 10
+1 2540 10
 #1191
 poison potion vial black~
 a small black vial~
 A small black vial has been carelessly left here.~
 ~
 10 0 ao
-20 83 99 99 0 0 0 0 14
-1 10000 10
+35 83 99 99 0 0 0 0 14
+1 248 10
 $~

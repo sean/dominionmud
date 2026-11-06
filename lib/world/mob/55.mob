@@ -7,8 +7,47 @@ A weathered old man in a patched cloak, with a crook worn smooth by his
 hands.  His flock grazes somewhere over the next rise.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+55 38 19 18d6+88 5d6+0
+564 24890
+8 8 1
+E
+#5501
+wolf hill grey~
+a hill wolf~
+A grey hill wolf pads through the heather.
+~
+A lean grey wolf with yellow eyes, one of a pack that follows the flocks.
+~
+dg 0 0 E
+8 14 7 2d6+24 1d7+0
+26 638
+8 8 1
+E
+#5502
+brigand bandit~
+a hill brigand~
+A hill brigand lurks beside the trail, hand on his sword.
+~
+A weathered man in mismatched leathers and a stolen cloak, one of Red
+Garreth's band who rob the drovers on the hill roads.
+~
+dfg 0 -350 E
+10 15 8 3d6+24 1d9+0
+35 950
+8 8 1
+E
+#5503
+garreth red bandit captain~
+Red Garreth, the bandit captain~
+Red Garreth, the bandit captain, leans on his sword by the rope bridge, grinning.
+~
+A big red-bearded man with a broken nose and a sword as long as a man is
+tall.  He has held the rope bridge for three summers, and he takes a toll
+in gold or in blood.
+~
+bdg 0 0 E
+16 18 9 5d6+168 2d7+0
+420 9080
 8 8 1
 E
 $~

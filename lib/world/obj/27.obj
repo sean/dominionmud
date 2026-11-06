@@ -4,24 +4,24 @@ a short kobold spear~
 A short spear with a fire-hardened point lies here.~
 ~
 5 0 am
-0 1 6 11 0 0 0 10 14
-4 20 2
+0 4 7 11 0 0 0 10 14
+4 889 2
 #2701
 jerkin hides patched~
 a jerkin of patched hides~
 A jerkin stitched together from a dozen different hides lies here.~
 ~
 9 0 ad
-3 0 0 0 0 0 0 8 14
-6 25 3
+25 0 0 0 0 0 0 8 14
+6 781 3
 #2702
 crown copper beaten~
 a crown of beaten copper~
 A dented crown of beaten copper lies here.~
 ~
 9 0 ae
-2 0 0 0 0 0 0 13 14
-2 400 40
+23 0 0 0 0 0 0 13 14
+2 820 40
 E
 crown copper~
 The crown has been hammered out of a single sheet of copper, crudely but
@@ -38,8 +38,8 @@ a scepter of gnome bone~
 A scepter made from a long bone and copper wire lies here.~
 ~
 5 0 am
-0 2 5 5 0 0 0 13 14
-4 300 30
+0 5 9 5 0 0 0 13 14
+4 1497 30
 E
 scepter bone~
 It is a thighbone, probably a gnome's, bound with copper wire and capped
@@ -65,8 +65,8 @@ a battered kobold pick~
 A battered little pick lies here.~
 ~
 5 0 am
-0 1 7 11 0 0 0 18 14
-5 15 1
+0 4 7 11 0 0 0 18 14
+5 857 1
 #2706
 rope coil~
 a coil of rope~
@@ -81,8 +81,8 @@ a necklace of boar tusks~
 A necklace of yellowed boar tusks lies here.~
 ~
 9 0 ac
-1 0 0 0 0 0 0 0 14
-2 250 25
+17 0 0 0 0 0 0 0 14
+2 579 25
 A
 1 1
 A
@@ -93,8 +93,8 @@ a nail-studded troll club~
 A huge club studded with iron nails lies here.~
 ~
 5 0 am
-0 2 8 5 0 0 0 10 24
-20 120 12
+0 5 10 5 0 0 0 10 24
+20 1609 12
 A
 19 2
 #2709

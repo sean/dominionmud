@@ -20,6 +20,11 @@ rock large flat~
 The rock is a rather large piece of smooth granite that you can sit down on
 and lean back and rest on the tree.
 ~
+D5
+A trail drops away down the mountainside to the south.
+~
+~
+0 -1 32838
 S
 #2101
 Room #2101~
@@ -42,6 +47,11 @@ D3
 ~
 ~
 0 -1 2100
+D0
+A cleft in the hillside leads north into darkness and smoke.
+~
+~
+0 -1 36000
 S
 #2102
 In the field~

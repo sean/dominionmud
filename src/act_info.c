@@ -51,7 +51,7 @@ extern char *room_bits[];
 extern char *spells[];
 /* TD 5/24/95 */
 long find_race_bitvector(char arg);
-int  exp_needed(int level);
+long exp_needed(int level);
 char *show_obj_condition(struct obj_data *obj);
 const char * align_to_name( enum aligns align );
 bool align_out_of_sync( struct char_data * ch );
@@ -1985,11 +1985,11 @@ ACMD(do_users)
 	continue;
 
       if (d->original) {
-	sprintf(levbuf, " %2d", GET_LEVEL(d->original));
+	sprintf(levbuf, "%3d", GET_LEVEL(d->original));
 	SNPRINTF(classname, sizeof(classname), "[ %3s ]",
 		(GET_MAX_LEVEL(d->original) >= LVL_IMPL ? "IMP" : levbuf));
       } else {
-	sprintf(levbuf, " %2d", GET_LEVEL(d->character));
+	sprintf(levbuf, "%3d", GET_LEVEL(d->character));
 	SNPRINTF(classname, sizeof(classname), "[ %3s ]",
 		(GET_MAX_LEVEL(d->character) >= LVL_IMPL ? "IMP" : levbuf));
       }
@@ -2234,7 +2234,7 @@ ACMD(do_levels)
   if (!*argument) {
      /* Changed for TD - 3/16/95 - SPM */
      for (i = 1; i < LVL_IMMORT; i++) {
-	 sprintf(buf + strlen(buf), "[%2d] %8d-%-8d\r\n", i,
+	 sprintf(buf + strlen(buf), "[%3d] %10ld-%-10ld\r\n", i,
 	    exp_needed(i), exp_needed(i+1));
      }
   } else

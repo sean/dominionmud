@@ -66,7 +66,7 @@ int level_can_shout = 1;
 int holler_move_cost = 20;
 
 /* exp change limits */
-int max_exp_gain = 50000;	/* max gainable per kill */
+int max_exp_gain = 5000000;	/* max gainable per kill (gain_exp() caps it at a quarter level) */
 int max_exp_loss = 100000;	/* max losable per death */
 
 /* number of tics (usually 75 seconds) before PC/NPC corpses decompose */

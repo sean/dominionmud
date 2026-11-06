@@ -105,6 +105,13 @@ void assign_mobiles(void)
   void assign_theater(void);
   assign_llyndyr();
   assign_theater();             /* the Lyceum (theater.c) */
+  {
+    void assign_ships(void);
+    void assign_arena(void);
+
+    assign_ships();             /* the Sea Wren (ship.c) */
+    assign_arena();             /* the Arena (arena.c) */
+  }
 
   /* Immortal Zone */
   ASSIGNMOB(2,  receptionist);

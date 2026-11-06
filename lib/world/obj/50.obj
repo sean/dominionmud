@@ -11,7 +11,7 @@ noose~
 Its a thick rope coiled into a fatal knot. Feeling like suicide today?
 ~
 A
-13 -50
+13 -27
 #5001
 kaleidoscope light~
 a kaleidoscope~
@@ -33,8 +33,8 @@ a frayed golden tunic~
 A frayed golden tunic lies crumpled here.~
 ~
 9 0 ad
-3 0 0 0 0 0 0 0 14
-2 30 10
+8 0 0 0 0 0 0 0 14
+2 115 10
 E
 tunic gold~
 It's thin and frayed at more than just the seams. Since you have been
@@ -54,29 +54,29 @@ leggings black~
 They are pitch black and merely a thin covering.
 ~
 A
-17 -3
+17 2
 #5004
 boot leather~
 an old leather boot~
 An old leather boot has been carelessly left here.~
 ~
 9 0 ag
-16 0 0 0 0 0 0 8 14
-2 10 10
+13 0 0 0 0 0 0 8 14
+2 186 10
 E
 boots leather~
 They are close to wearing holes at the toes and the heels.
 ~
 A
-17 -2
+17 2
 #5005
 dagger black~
 a small black dagger~
 A tiny black dagger has been left here.~
 ~
 5 E am
-0 1 4 11 0 0 0 13 14
-1 20 10
+0 2 7 11 0 0 0 13 14
+1 198 10
 E
 dagger black~
 This tiny dagger serves well for around town and the neighboring village.
@@ -88,8 +88,8 @@ a gnarled staff~
 A thin gnarled staff has been dropped here.~
 ~
 5 0 am
-0 1 4 7 0 0 0 0 14
-2 20 10
+0 2 7 7 0 0 0 0 14
+2 198 10
 E
 staff gnarled~
 The staff is carved from holly wood, and serves well for around town
@@ -102,8 +102,8 @@ an iron mace~
 An iron mace is lying here.~
 ~
 5 0 am
-0 1 4 5 0 0 0 0 14
-2 20 10
+0 3 6 5 0 0 0 0 14
+2 358 10
 E
 mace iron~
 It is wrought from strong iron, but small and slightly rusty.
@@ -116,8 +116,8 @@ a short sword~
 A short sword is lying on the ground.~
 ~
 5 0 am
-0 1 4 3 0 0 0 0 14
-2 20 10
+0 2 7 3 0 0 0 0 14
+2 198 10
 E
 sword short~
 The blade is dull, but it serves well for around town and the neighboring
@@ -155,8 +155,8 @@ a chipped axe~
 A bloody axe has been left here.~
 ~
 5 mn am
-0 3 4 15 0 0 0 0 14
-10 1000 10
+0 7 10 15 0 0 0 0 14
+10 3707 10
 E
 axe severance~
 This massive weapon takes much of your strength to carry. It would
@@ -445,7 +445,7 @@ The hardy deer leather sack has straps to allow slinging over the
 shoulder.
 ~
 A
-17 -2
+17 2
 #5035
 torch light~
 a torch~
@@ -496,22 +496,22 @@ a quartz hilted sword~
 A sword with a pale quartz hilt has been left here.~
 ~
 5 0 am
-3 3 4 3 0 0 0 16 14
-8 550 10
+3 2 12 3 0 0 0 16 14
+8 303 10
 E
 sword quartz~
 You see a long, slender-tapered sword with a carved hilt of white quartz.
 ~
 A
-18 4
+18 3
 #5040
 dagger crescent mithril~
 a mithril dagger~
 A dagger with a blade curved like a crescent is lying here.~
 ~
 5 E am
-12 2 4 11 0 0 0 19 14
-3 2535 10
+12 2 10 11 0 0 0 19 14
+3 248 10
 E
 dagger crescent mithril~
 It's a silver-colored dagger, with a crescent-like blade.
@@ -524,25 +524,25 @@ a fire-headed mace~
 Still hot from the forge, a mace burns a black space on the ground.~
 ~
 5 0 am
-8 2 8 15 0 0 0 18 14
-8 2545 4110
+8 2 12 15 0 0 0 18 14
+8 309 30
 E
 mace fire~
 The barbed head of the mace is still hot from the forge, and crafted
 to look like the rising spikes of flames.
 ~
 A
-18 5
+18 3
 A
-19 5
+19 3
 #5042
 staff rock crystal~
 a rock crystal staff~
 A staff crowned with a cloudy crystal is lying here.~
 ~
 5 0 am
-0 1 6 6 0 0 0 0 14
-4 540 10
+0 2 8 6 0 0 0 0 14
+4 207 10
 E
 staff rock crystal~
 A slender staff, carved from ash and embedded with a cloudy crystal
@@ -556,8 +556,8 @@ a black sandstone shield~
 A dark sandstone plate is lying here.~
 ~
 9 0 am
-9 0 0 0 0 0 0 15 14
-6 4000 1800
+35 0 0 0 0 0 0 15 14
+6 1605 160
 E
 shield black sandstone~
 Molded from local black cliff sandstone and lacquered with a special
@@ -571,8 +571,8 @@ a guard's golden tunic~
 A tunic of dark gold is crumpled here.~
 ~
 9 0 ad
-4 0 0 0 0 0 0 0 14
-4 158 10
+25 0 0 0 0 0 0 0 14
+4 1149 10
 E
 tunic golden~
 The guard's tunic is made of a sturdy, canvas-like material.
@@ -583,8 +583,8 @@ a sturdy black boot~
 A sturdy black boot lies here on the ground.~
 ~
 9 0 ag
-8 0 0 0 0 0 0 18 14
-3 800 500
+35 0 0 0 0 0 0 18 14
+3 1605 160
 E
 boots black~
 They are made from heavy black leather, and make a small clump-clump
@@ -596,8 +596,8 @@ a silver broadsword~
 A silver, straight-edge sword has been left here.~
 ~
 5 g am
-3 2 9 3 0 0 0 15 14
-10 770 2300
+3 6 10 3 0 0 0 15 14
+10 2675 267
 E
 sword broadsword silver~
 You see a silver sword with a straight, tapering blade, forged by the
@@ -657,8 +657,8 @@ a shattered dagger~
 Something that used to be a dagger has been abandoned here.~
 ~
 5 E am
-0 1 1 11 0 0 0 21 14
-2 1 1
+0 3 7 11 0 0 0 21 14
+2 521 1
 E
 dagger shattered~
 Some poor fool tried to fight something ten times his strength, and was
@@ -679,9 +679,9 @@ You think you can see a curse?
 You sense its evil presence all around you.
 ~
 A
-18 -5
+18 -4
 A
-4 -3
+4 -2
 #5052
 gallows platform death~
 the gallows platform~
@@ -704,7 +704,7 @@ A remnant of ages long past is here in the form of a destroyed fountain.~
 ~
 8 0 0
 -1 -1 0 0 0 0 0 0 14
-200 0 0
+200 10 0
 E
 fountain cracked stone~
 The circular fountain was created from solid stone eons ago,
@@ -732,8 +732,8 @@ a meat cleaver~
 A large meat cleaver is stuck in the ground.~
 ~
 5 0 a
-0 1 6 15 0 0 0 0 14
-5 115 10
+0 6 7 15 0 0 0 0 14
+5 1749 10
 E
 cleaver meat~
 It is wide and sharp, the blade's edge stained a dark red.
@@ -745,7 +745,7 @@ An amber stone glints dully in the light.~
 ~
 8 0 am
 0 0 0 0 0 0 0 0 14
-3 50000 300
+3 1440 144
 E
 amber gem~
 You see a hunk of amber stone in excellent condition, and possibly
@@ -758,7 +758,7 @@ An amethyst of pure violet glints from the ground.~
 ~
 8 0 am
 0 0 0 0 0 0 0 0 14
-3 100000 1000
+3 1440 144
 E
 amethyst violet gem~
 It's a beautiful amethyst in excellent condition, and possibly worth
@@ -771,7 +771,7 @@ A small diamond twinkles from the ground.~
 ~
 8 0 am
 0 0 0 0 0 0 0 0 14
-3 500000 5000
+3 1440 144
 E
 diamond gem~
 You see a tiny diamond in excellent condition, and likely worth
@@ -783,17 +783,17 @@ a sunstone~
 A golden sunstone shines with a celestial glow.~
 ~
 3 0 am
-30 1000 20 190 0 0 0 20 14
-3 100000 3000
+25 1000 20 190 0 0 0 20 14
+3 158 15
 E
 sunstone gem~
 The golden sunstone is very pretty to look at, but is probably worth
 more than the hand that carries it.
 ~
 A
-12 25
+12 17
 A
-13 20
+13 9
 #5060
 necklace tiger eye eyes~
 a necklace of tiger eyes~
@@ -801,7 +801,7 @@ A gold and brown necklace lies on the ground.~
 ~
 8 0 ac
 0 0 0 0 0 0 0 0 14
-1 75000 1
+1 1440 1
 E
 necklace tiger eyes~
 Small but delightful to the eye. Golden and brown bands shimmer from
@@ -820,15 +820,15 @@ A black agate ring lies half-buried on the ground.~
 ~
 8 g ab
 0 0 0 0 0 0 0 20 14
-1 350000 8000
+1 1440 144
 E
 agate black ring~
 The agate is an opaque black and set in a ring of silver.
 ~
 A
-13 20
+13 9
 A
-19 4
+19 3
 #5062
 shard obsidian gem~
 a shard of snowflake obsidian~
@@ -842,15 +842,15 @@ shard obsidian~
 It's a pointed shard of obsidian flecked with white cloud-like patterns.
 ~
 A
-17 -2
+17 2
 #5063
 suit chain mail~
 a suit of chain mail~
 A heap of chain mail is lying here.~
 ~
 9 0 ad
-5 0 0 0 0 0 0 0 14
-10 900 10
+10 0 0 0 0 0 0 0 14
+10 148 10
 E
 suit chain mail~
 The silvery chain mail looks sturdy and close-fitting.
@@ -861,8 +861,8 @@ a bright helm~
 A bright helm has been left nearby.~
 ~
 9 0 ae
-70 0 0 0 0 0 0 19 14
-8 1780 650
+13 0 0 0 0 0 0 19 14
+8 186 18
 E
 helm bright~
 The helm is small and brightly silver-colored. Fitting snugly on the head,
@@ -875,8 +875,8 @@ a silver bracer~
 A silver bracer lies here on the ground.~
 ~
 9 0 ai
-10 0 0 0 0 0 0 15 14
-7 2000 2000
+13 0 0 0 0 0 0 15 14
+7 186 18
 E
 bracers silver~
 They extend from elbow to wrist, and are forged from bright silver.
@@ -889,8 +889,8 @@ a sharp-toed boot~
 A boot with a razor-sharp toes is sitting here.~
 ~
 9 0 ag
-10 0 0 0 0 0 0 17 14
-6 8000 2000
+13 0 0 0 0 0 0 17 14
+6 186 18
 E
 boots sharp~
 The knee-height black boots are fashioned with a razor-sharp point at
@@ -905,8 +905,8 @@ a scale shield~
 A shield of the scales of an unknown creature is lying here.~
 ~
 9 0 aj
-5 0 0 0 0 0 0 0 14
-10 1100 10
+10 0 0 0 0 0 0 0 14
+10 148 10
 E
 shield scale~
 It's a large, thin shield fashioned of the scales of an old creature
@@ -963,8 +963,8 @@ a gilded fencing sword~
 A beautiful gilded sword lies at your feet.~
 ~
 5 g am
-0 4 2 3 0 0 0 0 14
-7 8500 3000
+0 3 9 3 0 0 0 0 14
+7 490 49
 E
 sword gilded fencing~
 The silvery sword is slender and light, suitable for fencing maneuvers.
@@ -994,8 +994,8 @@ a stone-hilted sword~
 A short sword with a hilt of finished stone has been dropped here.~
 ~
 5 0 am
-0 2 8 3 0 0 0 0 14
-10 200 1200
+0 3 10 3 0 0 0 0 14
+10 476 47
 E
 sword stone~
 It is rather crudely made, it must be acknowledged. The use of stone
@@ -1112,8 +1112,8 @@ a black sword~
 A beautiful black sword emblazoned with a triskelion lies here.~
 ~
 5 fo am
-0 3 5 3 0 0 0 0 14
-15 25000 7100
+0 3 11 3 0 0 0 0 14
+15 618 61
 E
 sword black watch~
 The sword is beautifully crafted in order to serve the elite
@@ -1121,17 +1121,17 @@ members of the Black Watch of Cair-Irynthar, charged with the work
 of keeping the town clean from ill-meaning rogues and killers.
 ~
 A
-18 5
+18 4
 A
-19 5
+19 4
 #5083
 blade iron~
 an iron blade~
 A short iron blade has been left here.~
 ~
 5 0 am
-0 1 4 1 0 0 0 0 14
-6 2000 10
+0 3 7 1 0 0 0 0 14
+6 396 10
 E
 blade iron~
 The hilt of the short iron blade is still warm from the hand
@@ -1143,8 +1143,8 @@ a plate of black steel~
 A black breast plate is lying face up.~
 ~
 9 o ad
-10 0 0 0 0 0 0 19 14
-10 2500 10
+34 0 0 0 0 0 0 19 14
+10 1493 10
 E
 plate black steel~
 The breast plate seems to be forged from some sort of black iron,
@@ -1158,8 +1158,8 @@ a handsome black and gold cloak~
 A handsome black and gold cloak is folded on the ground.~
 ~
 9 g ak
-7 0 0 0 0 0 0 0 14
-5 5000 8000
+17 0 0 0 0 0 0 0 14
+5 351 35
 E
 cloak black gold~
 The flowing knee length cloak is fashioned from wool and chased
@@ -1168,7 +1168,7 @@ in gold corded thread.
 A
 13 10
 A
-19 5
+19 4
 #5086
 scotch scotch glass drink~
 a glass of scotch on the rocks~
@@ -1195,8 +1195,8 @@ a colorful gypsy skirt~
 A patchwork of red and purple lies on the ground.~
 ~
 9 0 af
-4 0 0 0 0 0 0 0 14
-3 53 10
+10 0 0 0 0 0 0 0 14
+3 162 10
 E
 skirt gypsy red~
 The patched skirt is a sturdy cross-stitching of bright red and
@@ -1208,8 +1208,8 @@ a blood red blouse~
 A dark red blouse is crumpled here.~
 ~
 9 0 ad
-4 0 0 0 0 0 0 0 14
-3 40 10
+10 0 0 0 0 0 0 0 14
+3 162 10
 E
 blouse red blood~
 The gypsy blouse is of a rugged muslin fabric, rough and somewhat
@@ -1221,8 +1221,8 @@ an old violin~
 An old violin has been tossed in the dust.~
 ~
 9 0 am
-2 0 0 0 0 0 0 0 14
-4 220 10
+9 0 0 0 0 0 0 0 14
+4 136 10
 E
 violin old~
 The instrument seems to have seen some rough times. The gypsies
@@ -1288,8 +1288,8 @@ a dusty red tunic~
 A dusty pile of red canvas is here.~
 ~
 9 0 ad
-4 0 0 0 0 0 0 0 14
-5 70 10
+10 0 0 0 0 0 0 0 14
+5 142 10
 E
 tunic red dusty~
 The tunic is frayed and layered with the dust of the road from many
@@ -1470,8 +1470,8 @@ a crystal potion~
 A crystalline potion sits here.~
 ~
 10 g am
-13 53 99 99 0 0 0 0 14
-2 2000 10
+25 53 99 99 0 0 0 0 14
+2 158 10
 E
 potion crystal~
 The potion sparkles with a diamond-like shine.
@@ -1482,8 +1482,8 @@ a twisted staff~
 A corkscrew wooden staff lies here discarded.~
 ~
 4 g am
-13 10 10 10 0 0 0 0 14
-10 4000 10
+25 10 10 10 0 0 0 0 14
+10 158 10
 E
 staff twisted~
 The staff has been carved into a twisting spiral from a light
@@ -1526,8 +1526,8 @@ a heraldry sword~
 A sword marked with the insignia of a noble house is lying here.~
 ~
 5 0 am
-0 2 3 3 0 0 0 0 14
-10 8000 10
+0 3 7 3 0 0 0 0 14
+10 360 10
 E
 sword heraldry~
 The sword is of silver with a slender, tapering point, sharp as
@@ -1540,16 +1540,16 @@ a mithril dagger~
 A shining mithril dagger lies here.~
 ~
 5 E am
-0 10 10 11 0 0 0 19 14
-1 50000 10
+0 3 9 11 0 0 0 19 14
+1 425 10
 E
 dagger mithril~
 It's a silver-colored dagger, with a crescent-like blade.
 ~
 A
-18 10
+18 3
 A
-19 10
+19 3
 #5115
 wall~
 a wall~
@@ -1568,8 +1568,8 @@ a flowing taupe cloak~
 A billowing cloak blows in the wind nearby.~
 ~
 9 0 aj
-4 0 0 0 0 0 0 0 14
-5 2000 10
+12 0 0 0 0 0 0 0 14
+5 216 10
 E
 cloak taupe~
 It is long with full folds that catch the wind, and soft as angora
@@ -1657,8 +1657,8 @@ a white potion~
 A misty-white potion sits here.~
 ~
 10 g am
-20 69 99 99 0 0 0 0 14
-1 700 10
+25 69 99 99 0 0 0 0 14
+1 158 10
 E
 potion white~
   A mist whirls about the surface of the liquid, which is milky-
@@ -1670,8 +1670,8 @@ a bubbling potion~
 Bubbles rise and pop from a potion on the ground.~
 ~
 10 g am
-20 69 70 99 0 0 0 0 14
-1 2100 10
+25 69 70 99 0 0 0 0 14
+1 158 10
 E
 potion bubbling~
   The potion is multi-colored, with small bubbles shivering
@@ -1684,7 +1684,7 @@ A silvery wand rests here.~
 ~
 3 fg am
 25 1 1 29 0 0 0 0 14
-4 3000 10
+4 158 10
 E
 wand silver silvery~
   The short silver wand is inscribed with runes for a single spell 
@@ -1710,8 +1710,8 @@ a green, glinting rapier~
 A gallant rapier of enlibar steel is lying here.~
 ~
 5 a am
-0 6 3 3 0 0 0 0 14
-10 10000 10000
+0 7 10 3 0 0 0 0 14
+10 3783 378
 E
 foil fencing rapier~
 Forged entirely from enlibar but for a hilt of black ruby, it was

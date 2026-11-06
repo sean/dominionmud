@@ -7,8 +7,60 @@ A gnome in a green hood and a leather apron full of pencils, pins and
 little bags of seeds.  She keeps the forests of Gnishmire.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+64 42 21 21d6+103 6d6+0
+742 33566
+8 8 1
+E
+#35301
+boar spiddel wild~
+a Spiddel boar~
+A bristling Spiddel boar roots among the leaves.
+~
+A black, bristling boar with tusks as long as daggers.
+~
+dg 0 0 E
+26 23 12 8d6+41 3d5+0
+153 5750
+8 8 1
+E
+#35302
+spider forest giant~
+a giant forest spider~
+A giant forest spider hangs in its web between the trees.
+~
+A spider the size of a pony, glossy and black, with a red hourglass on its
+back.
+~
+dfg 0 -350 E
+28 24 12 9d6+42 3d6+0
+174 6638
+8 8 0
+E
+#35303
+lurker creek~
+a creek lurker~
+Something long and scaly lies half-hidden in the creek.
+~
+A long, flat, scaly thing like a crocodile crossed with a newt, with too many
+teeth.
+~
+dfg 0 -350 E
+30 25 12 10d6+43 3d6+0
+195 7590
+8 8 0
+E
+#35304
+tusker old boar monstrous~
+the Old Tusker~
+The Old Tusker, a monstrous boar, glares at you with tiny red eyes.
+~
+A boar the size of a bull, grey with age, its hide bristling with the broken
+shafts of a dozen hunters' arrows.  The gnomish foresters say it has killed
+more of them than any wolf.
+~
+dg 0 0 E
+34 27 14 11d6+493 3d8+0
+2169 58116
 8 8 1
 E
 $~

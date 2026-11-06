@@ -56,8 +56,8 @@ a long, grey branch~
 A long, grey branch rests heavily on the ground.~
 ~
 5 0 a
-0 2 6 7 0 0 0 0 14
-18 60 20
+0 3 8 7 0 0 0 0 14
+18 471 20
 E
 branch grey long~
 It is very heavy and looks as if it has been dropped from great height.  It
@@ -123,8 +123,8 @@ a blue potion~
 A blue potion has been left here.~
 ~
 10 g am
-20 60 78 0 0 0 0 21 14
-2 68000 5000
+35 60 78 0 0 0 0 21 14
+2 248 24
 E
 potion blue~
 It has a nice deep blue color and a smell like peppermint.
@@ -135,8 +135,8 @@ a musky yellow potion~
 A yellow potion has been left here.~
 ~
 10 g a
-15 89 99 99 0 0 0 0 14
-2 1000 200
+42 89 99 99 0 0 0 0 14
+2 322 32
 E
 potion yellow musky~
 It has a deep yellow color and a strong spicy smell.
@@ -147,8 +147,8 @@ a large round shield~
 A large round shield has been left here.~
 ~
 9 0 aj
-5 0 0 0 0 0 0 0 14
-15 300 800
+13 0 0 0 0 0 0 0 14
+15 258 25
 E
 shield round large~
 It is made from hard wood that has been reinforced with heavy iron bands.
@@ -159,8 +159,8 @@ an iron crown~
 An iron crown rests on the ground.~
 ~
 9 g ae
-6 0 0 0 0 0 0 0 14
-20 7000 500
+16 0 0 0 0 0 0 0 14
+20 374 37
 E
 crown iron~
 It is a heavy human-sized crown made from solid iron.
@@ -191,7 +191,7 @@ It is a quite heavy human-sized ring made from solid iron.  It lacks
 decorations of any kind.
 ~
 A
-17 -4
+17 3
 A
 2 1
 #6115
@@ -200,8 +200,8 @@ the morning star~
 The morning star is here collecting dust while it lies on the ground.~
 ~
 5 g a
-0 2 9 7 0 0 0 0 14
-10 15000 2000
+0 5 10 7 0 0 0 0 14
+10 1782 178
 A
 18 2
 #6116
@@ -210,8 +210,8 @@ a black dragon scale shirt~
 A black dragon scale shirt has been left here.~
 ~
 9 g ad
-6 0 0 0 0 0 0 0 14
-10 10000 100
+13 0 0 0 0 0 0 0 14
+10 229 22
 E
 shirt scale~
 It is a sleeveless shirt made from big, black dragon scales joined
@@ -225,8 +225,8 @@ a black dragon scale skirt~
 A black dragon scale skirt has been left here.~
 ~
 9 g af
-6 0 0 0 0 0 0 0 14
-8 5000 100
+13 0 0 0 0 0 0 0 14
+8 229 22
 E
 skirt scale~
 It is a short skirt made from big, black dragon scales joined with
@@ -248,17 +248,17 @@ It is a heavy, black cloak with a large hood.  The word 'Isha' is written
 inside it with a silver thread.
 ~
 A
-2 3
+2 1
 A
-24 -4
+24 -3
 #6119
 belt silver~
 a broad silver belt~
 A broad silver belt has been left here.~
 ~
 9 ag ak
-6 0 0 0 0 0 0 0 14
-4 5000 3500
+13 0 0 0 0 0 0 0 14
+4 229 22
 E
 belt silver~
 It is a broad belt made from tiny silver rings woven together.
@@ -269,15 +269,15 @@ a long, slender sword~
 A long, slender sword lies on the ground.~
 ~
 5 agj am
-5 2 6 3 0 0 0 0 14
-4 30000 6000
+5 3 7 3 0 0 0 0 14
+4 381 38
 E
 sword long slender~
 It is a long, slender sword that seems to be made from silver.  The word
 'Isha' has been engraved on the hilt.
 ~
 A
-18 4
+18 3
 A
 19 2
 $~

@@ -1,12 +1,22 @@
 #25
 Dark Tower~
 Gray~
-ANY~
+50-60~
 3001 0
 2599 24 2
 *
 * The New Guilds for TD
 *
 M 0 2500 1 2515 100 	* a hooded acolyte at room 2515 (quest giver). (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 2501 3 2506 100 	* a knight of the Bloodlord (level 55)
+M 0 2501 3 2503 100 	* a knight of the Bloodlord (level 55)
+M 0 2501 3 2502 100 	* a knight of the Bloodlord (level 55)
+M 0 2502 2 2505 100 	* a wizard of the Bloodlord (level 56)
+M 0 2502 2 2513 100 	* a wizard of the Bloodlord (level 56)
+M 0 2503 2 2511 100 	* a rogue of the Bloodlord (level 54)
+M 0 2503 2 2505 100 	* a rogue of the Bloodlord (level 54)
+M 0 2504 1 2504 100 	* a priest of the Bloodlord (level 57)
+M 0 2505 1 2500 100 	* the Bloodlord (group boss)
 S
 $

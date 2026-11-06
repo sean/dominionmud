@@ -4,38 +4,38 @@ a halberd~
 A strong, silver halberd is lying here in the dust.~
 ~
 5 0 am
-0 4 4 11 0 0 0 15 14
-10 1000 120
+0 5 8 11 0 0 0 15 14
+10 1673 120
 #4701
 armor plate black gold breastplate~
 a steel breastplate~
 A steel breastplate with a black and gold crest is lying here.~
 ~
 9 0 ad
-10 0 0 0 0 0 0 18 0
-13 1000 120
+25 0 0 0 0 0 0 18 0
+13 1004 100
 #4702
 lance silver~
 a silver lance~
 A strong, silver lance is stuck into the ground here.~
 ~
 5 0 am
-3 4 5 11 0 0 0 15 14
-15 3000 175
+3 5 9 11 0 0 0 15 14
+15 1692 169
 A
 18 2
 A
 19 2
 A
-24 10
+24 5
 #4703
 shield~
 a black and gold shield~
 A shield with the crest of Iryntharis lying here.~
 ~
 9 0 am
-12 0 0 0 0 0 0 17 14
-10 500 1000
+26 0 0 0 0 0 0 17 14
+10 1015 101
 #4704
 hammer war~
 a heavy warhammer~
@@ -52,24 +52,24 @@ a spiked club~
 A spiked club lies discarded upon the ground here.~
 ~
 5 0 am
-2 3 4 6 0 0 0 10 14
-12 180 45
+2 5 7 6 0 0 0 10 14
+12 1338 45
 #4706
 wooden shield~
 a wooden shield~
 A shield with the crest of the Blazing Eye upon it lies here.~
 ~
 9 0 am
-8 0 0 0 0 0 0 10 14
-7 0 0
+21 0 0 0 0 0 0 10 14
+7 829 0
 #4707
 mace steel spiked~
 a spiked mace~
 A wicked, spiked mace lies upon the ground here.~
 ~
 5 0 am
-2 4 4 15 0 0 0 18 14
-9 300 80
+2 5 8 15 0 0 0 18 14
+9 1545 80
 #4708
 corpse triton~
 a half-eaten Triton corpse~
@@ -108,18 +108,18 @@ a Trident called Gore~
 A Trident covered in blood and gore lies here.~
 ~
 5 bjxE am
-5 8 7 14 0 0 0 20 14
-15 70000 20000
+5 5 11 14 0 0 0 20 14
+15 2025 202
 A
 1 2
 A
-6 -6
+6 -3
 A
 19 3
 A
-31 -40
+31 -19
 A
-30 -30
+30 -19
 #4713
 cloak green scaled~
 a Green Scaled Cloak~
@@ -129,13 +129,13 @@ A Green Scaled Cloak lies here in a puddle of cloth.~
 60 5 -1 0 0 0 0 19 14
 10 8000 2000
 A
-31 100
+31 19
 A
-12 -100
+12 -40
 A
-12 -100
+12 -40
 A
-17 10
+17 4
 #4714
 unfinished obj~
 an unfinished obj~
@@ -2406,8 +2406,8 @@ a true potion~
 A true potion has been left here.~
 ~
 10 0 a
-50 94 94 94 0 0 0 20 14
-10 100000 100000
+70 94 94 94 0 0 0 20 14
+10 720 72
 A
 16 50
 #4998
@@ -2416,16 +2416,16 @@ Bloody Skinned Chest Muscles~
 Some bloody skinned chest muscles have been left here.~
 ~
 9 ahimnopqyzAB ad
-95 0 0 0 0 0 0 20 14
-10 0 0
+31 0 0 0 0 0 0 20 14
+10 1215 0
 A
-12 100
+12 40
 A
-30 95
+30 19
 A
-24 95
+24 5
 A
-23 95
+23 5
 A
 29 30
 #4999
@@ -2434,10 +2434,10 @@ Saji's Wrath~
 An unfinished object has been carelessly left here.~
 ~
 5 aghimnopqrstuyzAB am
-100 100 20 12 0 0 0 20 0
-0 0 0
+100 5 11 12 0 0 0 20 0
+0 2025 0
 A
-19 100
+19 6
 A
-18 100
+18 6
 $~

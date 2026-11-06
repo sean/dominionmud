@@ -7,8 +7,8 @@ The guard looks extremely bored with his job as toll collector.
 Looks as if he spends his time off at the bar too.
 ~
 bdor fr 0 S
-28 20 0 1d1+20000 5d5+25
-1000 10000
+22 21 10 7d6+213 2d4+0
+702 16664
 8 8 1
 #41001
 figure dark~
@@ -22,8 +22,8 @@ His hood is drawn forth over his head.  He asks you if your soul is
 prepared for the Return.
 ~
 cdgi cr 1000 S
-11 8 91 4d5+50 4d2+7
-100 13500
+16 18 9 5d6+29 2d3+0
+70 2270
 8 8 1
 #41002
 dragon elf draginne~
@@ -36,8 +36,8 @@ very strong looking scales instead of skin.  His eyes look wise
 and knowing, there is a sadness deep within.
 ~
 dgl bm 800 S
-14 7 85 4d3+80 2d2+6
-90 11000
+20 20 10 6d6+34 2d7+0
+100 3470
 8 8 0
 #41003
 lizard giant~
@@ -48,8 +48,8 @@ The lizard looks like any other lizard...cept this one is much larger.
 His scales look very tough.
 ~
 dgh r 0 S
-7 12 78 2d10+80 1d8+5
-0 9099
+12 16 8 4d6+25 2d2+0
+46 1326
 8 8 0
 #41004
 traveller man~
@@ -59,8 +59,8 @@ A man is here in the midst of wandering the red sands.
 He looks to be a traveller from the clothes and the provisions he carries.
 ~
 d 0 0 S
-12 9 71 10d3+28 1d7+6
-500 8000
+43 32 16 14d6+65 4d6+0
+363 15338
 8 8 1
 #41005
 caravan master trader~
@@ -73,8 +73,8 @@ the red desert more times than he can count, and he still does not like
 it.
 ~
 dn 0 0 E
-14 31 28 12d10+150 2d6+4
-120 12000
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 1
 Race: 0
 E
@@ -87,8 +87,8 @@ A thin, sharp-nosed man with ink-stained fingers and a ledger.  He
 counts every coin twice and smiles at none of them.
 ~
 dn 0 0 E
-10 23 20 10d10+80 1d6+2
-200 5000
+39 30 15 13d6+57 4d6+0
+306 12666
 8 8 1
 Race: 0
 E

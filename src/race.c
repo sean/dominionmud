@@ -817,8 +817,19 @@ long exp_needed(int level)
 {
     if ((unsigned) level > MAX_LEVEL) {
       plog("SYSERR: level argument (%d) to min_exp out of range!", level);
+      level = (level < 0) ? 0 : MAX_LEVEL;
     }
     return (min_exp_by_level[level]);
+}
+
+
+/* The experience a mob of this level is worth to a player of the same */
+/* level: see the curve in lib/data/exp_table.                         */
+long mob_exp_for_level(int level)
+{
+  long l = MAX(0, MIN(level, LVL_IMPL));
+
+  return 8 * l * l + 12 * l + 30;
 }
 
 
@@ -828,9 +839,11 @@ long exp_needed(int level)
  * @param
  * @return
  */
+/* Backstab multiplies a blow: x2 at level 1, x4 at 42, x7 at 100, so */
+/* that it about kills an ordinary mob of the thief's level outright.  */
 int backstab_mult(int level)
 {
-  return MAX(1, ( level / 4 ) - 1);
+  return 2 + MAX(0, level) / 20;
 }
 
 int race_lookup( const char * name )

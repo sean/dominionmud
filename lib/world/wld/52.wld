@@ -13,11 +13,6 @@ D1
 ~
 ~
 0 -1 5202
-D3
-There appear to be some bars here, making passage to the west difficult.
-~
-~
-0 -1 0
 S
 #5202
 A Long Tunnel~
@@ -139,10 +134,6 @@ abrupt end. The burning sands of the desert can be made out. To the west,
 the narrow tunnel can be seen leading back to the underground lake.
 ~
 52 ad 5
-D1
-~
-~
-0 -1 0
 D3
 ~
 ~
@@ -220,10 +211,6 @@ appear to be the bones of previous brave adventurers who tried to explore the
 underworld.
 ~
 52 ad 5
-D0
-~
-~
-0 -1 0
 D2
 ~
 ~
@@ -593,10 +580,10 @@ D1
 ~
 ~
 0 -1 5228
-D5
-The path slopes steeply downward here.
+D4
+The passage climbs toward the kobolds' winding tunnels.
 ~
 ~
-0 -1 0
+0 -1 2719
 S
 $~

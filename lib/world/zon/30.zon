@@ -1,7 +1,7 @@
 #30
 Elrhinn Township~
 Landrin & Glasgian~
-ALL~
+2-8~
 3001 2
 3499 5 2
 *
@@ -230,5 +230,9 @@ M 0 3062 1 3007 100 	* the common citizen at Eastern Northwall Road. (Max: 1)
 M 0 3060 12 3031 100 	* a member of the Red Guard at Barracks. (Max: 12)
 M 0 3011 1 3039 100 	* the town crier at The Courtyard of Elrhinn. (Max: 1)
 M 0 3012 1 3088 100 	* the lamplighter at Dalkyst Inn. (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 3008 2 3079 100 	* an Atharian smuggler (level 5)
+M 0 3008 2 3080 100 	* an Atharian smuggler (level 5)
+M 0 3009 1 3080 100 	* Black Dace, the Atharian ringleader (group boss)
 S
 $~

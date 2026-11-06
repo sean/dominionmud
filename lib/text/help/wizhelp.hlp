@@ -421,6 +421,28 @@ play, whether the house is open, and how far the play has got.  SHOW
 THEATER OPEN, START and END open the house, raise the curtain and end the
 show at once, for testing.
 
+SHOW ARENA shows the Arena (lib/data/arena): whether a card is posted or a
+bout is on, the fighters' true chances and the board's prices, the bets
+and winnings owed, and any challenger in the ring.  SHOW ARENA CARD posts
+the next card at once, SHOW ARENA BOUT rings the bell, and SHOW ARENA END
+stops a bout with stakes returned.
+
+SHOW SHIPS shows the Sea Wren (lib/data/ships): docked, sailing or captured,
+where she is bound and when, any pirate raid under way, and how many
+players Blackwake is holding.  SHOW SHIPS SAIL, ARRIVE, RAID and KING cast
+off, make port, start an ordinary pirate raid or bring the Pirate King
+alongside at once; SHOW SHIPS FREE sends the boarders home.  For testing.
+
+#
+WORLD
+
+WORLD lists every zone with its number, its recommended levels (the "levels
+recommended" line of the zone file, e.g. "12-20"; AREAS shows the same to
+players), its builder and whether it allows player killing.  The levels are
+what item levels are worked out from (src/levels.c): an item's level is the
+level of the mob that carries it, the middle of the zone's range if it lies
+in a room, the low end of the zone's range if a shop there sells it.
+
 #
 SHUTDOWN
 

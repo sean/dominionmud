@@ -20,6 +20,11 @@ D0
 ~
 ~
 0 0 33001
+D4
+A spiral stair climbs toward a brilliant light.
+~
+~
+0 -1 3883
 S
 #33001
 Black Labyrinth~
@@ -37,10 +42,6 @@ Thus, it will always be an adventure for the travelers, and never the
 same place twice, making it even more so difficult to complete.
 ~
 330 0 0
-D0
-~
-~
-0 0 8
 D2
 ~
 ~

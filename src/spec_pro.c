@@ -30,7 +30,7 @@ extern struct religion_data * religions;
 
 /* extern functions */
 void add_follower(struct char_data * ch, struct char_data * leader);
-int  exp_needed(int level);
+long exp_needed(int level);
 void clone_char(struct char_data *, struct char_data *);
   ACMD(do_tell);
   ACMD(do_gen_door);

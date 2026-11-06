@@ -7,10 +7,12 @@ Bronzed-skin, big muscles, and battle-scarred.  He seems older that most of
 the other plainsmen that you've seen, his eyes flash with intelligence, and at
 the moment, anger.
 ~
-bdlm fkr 0 A
-7 3 0 0d0+0 0d0+0
-0 0
+bdlm fkr 0 E
+72 46 23 24d6+1479 7d3+0
+11064 338928
 8 8 1
+Race: 3
+E
 #28001
 warrior plainsman fighter~
 the Plainsman~
@@ -20,10 +22,12 @@ Strong, fierce-looking, and decorated with several tattoos depicting his tribe
 and rank.  He boldly looks you up and down, sizing you up just in case you
 decide to attack him.
 ~
-cdgm f 0 A
-4 0 0 0d0+0 0d0+0
-0 0
+cdgm f 0 E
+66 43 22 22d6+104 6d6+0
+785 35670
 8 8 1
+Race: 0
+E
 #28002
 headman doctor shaman witch~
 the Tribal Shaman~
@@ -32,10 +36,12 @@ A Shaman in a horrific-looking mask stands here, cackling madly.
 He looks older than dirt, but the eyes behind the mask sparkle with madness
 and intelligence.  You'd be wise to approach this one with caution.
 ~
-cdglm dfk -250 A
-4 0 0 0d0+0 0d0+0
-0 0
+cdglm dfk -250 E
+66 43 22 22d6+104 6d6+0
+785 35670
 8 8 1
+Race: 0
+E
 #28003
 scout plainman spy~
 the scout~
@@ -44,10 +50,12 @@ A plainsman scout silently watches you from the tall grass.
 Thin, quick, and nimble, the scout blends in so well with the grass you can
 barely see him.
 ~
-cdeghm ks 0 A
-3 2 0 0d0+0 0d0+0
-0 0
+cdeghm ks 0 E
+64 42 21 21d6+103 6d6+0
+742 33566
 8 8 1
+Race: 2
+E
 #28004
 buffalo animal~
 a buffalo~
@@ -56,10 +64,12 @@ A large buffalo stands here, grazing contentedly.
 It's big, furry, it's got horns, and four legs.  It's eating.  What more do
 you want??
 ~
-dgh f 400 A
-2 3 0 0d0+0 0d0+0
-0 0
+dgh f 400 E
+62 41 20 20d6+102 6d6+0
+701 31526
 8 8 0
+Race: 3
+E
 #28005
 gazelle deer~
 the gazelle~
@@ -68,10 +78,12 @@ A slender gazelle pauses from it's meal of grass to give you a curious glance.
 Short fur, long horns, and four legs....it stands here, happily eating the
 grass that grows all around you.
 ~
-dgh f 600 A
-2 3 0 0d0+0 0d0+0
-0 0
+dgh f 600 E
+62 41 20 20d6+102 6d6+0
+701 31526
 8 8 0
+Race: 3
+E
 #28006
 bodyguard guard~
 the Chieftain's bodyguard~
@@ -79,10 +91,12 @@ A thick-chested bodyguard stand here, obviously on duty.
 ~
 This guy is very, very big.  Huge, even.  We're talking arms bigger than your
 head.  He glowers at you as you look him over.~
-bdelm k 0 A
-5 3 0 0d0+0 0d0+0
-0 0
+bdelm k 0 E
+68 44 22 22d6+109 6d6+0
+830 37838
 8 8 1
+Race: 3
+E
 #28007
 villager citizen plainsman~
 the villager~
@@ -92,10 +106,12 @@ The villager looks like a normal member of the tribe, not too tall, not too
 skinny, but the look that is returned is one of definite....hunger?  Hmmm...
 this might be a good idea to think about leaving.
 ~
-bdghlm k 0 A
-3 3 0 0d0+0 0d0+0
-0 0
+bdghlm k 0 E
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 1
+Race: 3
+E
 #28008
 wolf kithyna great~
 Kithyna~
@@ -106,8 +122,8 @@ you, sensing to see if you are a threat.  Her dark gray coat nearly glows and
 she grins at you, finally deciding that you have no hostile intentions.
 ~
 bdelor dfhkrs 0 E
-50 2 41 5000d2+15 8d8+2
-0 0
+70 45 22 23d6+15 6d3+0
+875 40070
 6 6 2
 BareHandAttack: 8
 Race: 14
@@ -120,8 +136,8 @@ A buffalo calf bleats and nuzzles at your hand.
 A shaggy calf on wobbly legs, lowing for its mother.
 ~
 d 0 500 E
-2 20 5 2d10+16 1d4+0
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 E
 $~

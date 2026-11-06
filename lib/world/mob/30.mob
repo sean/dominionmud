@@ -8,8 +8,8 @@ wizard. He is equipped with fine clothing, and is wearing many fine
 rings and bracelets.
 ~
 abdl d 900 E
-49 100 47 1d1+30000 2d8+50
-30000 16000
+105 62 31 35d6+148 9d7+0
+1864 89490
 8 8 1
 Race: 0
 Height: 56
@@ -26,8 +26,8 @@ A slim, nice looking baker. But you can see that she has worked hard all
 of her life.
 ~
 abdl d 900 E
-33 69 53 1d1+30000 2d8+78
-100 16000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 2
 Height: 62
 Weight: 108
@@ -43,8 +43,8 @@ A woman, with rings under her tired eyes, and fingers turning brittle
 in her old age.
 ~
 abdl d 900 S
-33 69 55 1d1+30000 2d8+78
-30000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 2
 >in_file_prog sajah.prg~
 |
@@ -57,8 +57,8 @@ carnage and destruction.
 He's a young weaponsmith, who still has lots to learn.
 ~
 abdl d 900 S
-33 69 64 1d1+30000 2d8+78
-30000 16000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 >in_file_prog rastrad.prg~
 |
@@ -71,8 +71,8 @@ An old but very strong armorer.  He has made more armors in his life than you
 have ever seen.
 ~
 abdl d 900 S
-33 69 52 1d1+30000 2d8+78
-28500 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 >in_file_prog tyrius.prg~
 |
@@ -85,8 +85,8 @@ You notice a tired look in his face.  He looks like he isn't paid well
 enough to put up with too much crap from anyone.
 ~
 abdl f 900 S
-33 69 94 1d1+30000 2d8+72
-0 0
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 >in_file_prog innkeep.prg~
 |
@@ -98,8 +98,8 @@ Jarus the Dockmaster stands here, selling boats.
 Jarus is the Dockmaster, you may buy boats off of him.
 ~
 abdl d 900 S
-33 69 103 1d1+30000 2d8+92
-2000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 >in_file_prog jarus.prg~
 |
@@ -111,9 +111,36 @@ A Sailor stands here, waiting to help you.
 He looks like a strong, fit sailor.
 ~
 bdl 0 900 S
-33 0 68 1d1+30000 2d8+12
-2000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
+#3008
+smuggler atharian~
+an Atharian smuggler~
+An Atharian smuggler counts crates by lamplight.
+~
+A wiry man in a dark coat, with a cudgel at his belt and ink-stained fingers.
+The Atharians move whatever pays, and they do not like visitors.
+~
+dfg 0 -350 E
+5 12 6 1d6+22 1d5+0
+14 290
+8 8 1
+E
+#3009
+dace black ringleader atharian~
+Black Dace, the Atharian ringleader~
+Black Dace, the Atharian ringleader, sits on a crate with a long knife across his knees.
+~
+A lean, pockmarked man with a black beard and a gold tooth, ringleader of the
+Atharian smugglers.  Half the contraband in Elrhinn passes under his hands,
+and the town watch pretends not to know where he keeps it.
+~
+bdg 0 0 E
+10 15 8 3d6+129 1d10+0
+210 3800
+8 8 1
+E
 #3010
 Frank postmaster post master~
 the Head Postmaster~
@@ -125,8 +152,8 @@ seem to think that it's slow.  Perhaps if he were to brush the cobwebs
 from his uniform it'd help to make a better impression.
 ~
 abdl d 1000 S
-49 100 44 1d1+30000 1d8+78
-2000 0
+105 62 31 35d6+148 9d7+0
+1864 89490
 8 8 1
 #3011
 crier town bellman~
@@ -139,8 +166,8 @@ handbell, and a scroll of the day's news that he does not really need to
 read.
 ~
 dn 0 500 E
-8 19 18 8d10+60 1d6+1
-25 2500
+26 23 12 8d6+41 3d5+0
+153 5750
 8 8 1
 Race: 0
 E
@@ -154,8 +181,8 @@ of oil.  He knows every lamp in Elrhinn by name, and he talks to them as
 he lights them.
 ~
 dn 0 500 E
-6 15 14 6d10+40 1d4+1
-15 1500
+21 20 10 7d6+33 2d7+0
+108 3810
 8 8 1
 Race: 0
 E
@@ -169,8 +196,8 @@ amount of knowledge he possesses.  He is wearing fine magic clothing,
 and you notice that he is surrounded by a blue shimmering aura.
 ~
 abdl dh 1000 S
-34 71 99 6d10+640 1d8+84
-18794 100000
+82 51 26 27d6+15 7d6+0
+1173 54806
 8 8 1
 #3021
 Jaran priest young trainer cleric master curate~
@@ -181,8 +208,8 @@ You are in no doubt that this priest is truly close to god; he has
 a peaceful, loving look.  You notice that he is surrounded by a white aura.
 ~
 abdl dh 1000 E
-34 71 107 6d10+6400 1d8+64
-94 100000
+82 51 26 27d6+15 7d6+0
+1173 54806
 8 8 1
 Race: 0
 E
@@ -195,8 +222,8 @@ He looks like he has seen many an encounter in dark alleys.  Upon his left
 shoulder he bears the Symbol of the Athas.
 ~
 abdl dh 1000 E
-34 71 78 6d10+640 1d8+74
-1000 0
+82 51 26 27d6+15 7d6+0
+1173 54806
 8 8 1
 BareHandAttack: 14
 Race: 14
@@ -213,8 +240,8 @@ across his body prove that he was using arms before you were born. He
 has a calm look on his face.
 ~
 abdl 0 1000 S
-34 71 71 6d10+740 1d8+94
-18794 100000
+82 51 26 27d6+124 7d6+0
+1173 54806
 8 8 1
 >in_file_prog sental.prg~
 |
@@ -228,8 +255,8 @@ He is here to guard the Mage's Guild and his superior knowledge of offensive as
 well as defensive spells make him a deadly opponent.
 ~
 bdl dh 900 S
-33 69 93 6d10+990 1d8+92
-2000 60000
+80 50 25 26d6+16 7d6+0
+1120 52190
 8 8 1
 #3025
 knight templar guard~
@@ -242,8 +269,8 @@ his religious devotion combined with his superior skill makes him a deadly
 opponent.
 ~
 abdl dh 1000 S
-33 0 93 6d10+990 1d8+22
-2000 160000
+80 50 25 26d6+16 7d6+0
+1120 52190
 8 8 1
 #3026
 assassin guard~
@@ -255,8 +282,8 @@ using all sorts of weapons.  His superior knowledge of how and where to use
 them combined with his extraordinary stealth makes him a deadly opponent.
 ~
 abdl bdhtu 400 S
-33 0 72 6d10+990 1d8+25
-2000 160000
+80 50 25 26d6+16 7d6+0
+1120 52190
 8 8 1
 #3027
 knight guard~
@@ -269,8 +296,8 @@ extreme skill combined with his experience in warfare makes him a deadly
 opponent.
 ~
 abdl d 800 S
-33 0 74 6d10+990 1d8+40
-2000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 #3040
 bartender~
@@ -280,8 +307,8 @@ A Bartender watches you calmly, while he skillfully mixes a drink.
 A tired looking Bartender who hates trouble in his bar.
 ~
 bd 0 900 S
-23 2 83 6d10+990 1d8+12
-2000 80000
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 1
 #3041
 vivisectionist man old~
@@ -293,8 +320,8 @@ blood.  His wire-rimmed glasses are seated on the tip of his nose
 which he peers through with his sharp eyes.
 ~
 abd 0 -900 S
-23 49 89 6d10+2390 8d8+92
-2000 800
+84 52 26 28d6+126 8d6+0
+1226 57486
 8 8 1
 #3042
 Kerille magus man~
@@ -305,8 +332,8 @@ A man who in his young days was a famous sorcerer but now dwells in the
 darkness of the Shadow Grove.
 ~
 ad 0 -600 S
-33 69 72 6d10+2390 12d8+92
-2000 800
+96 58 29 32d6+139 9d6+0
+1574 74910
 8 8 1
 #3043
 Anuire illusionist dragon trainer~
@@ -316,8 +343,8 @@ A dragon with wings of gold and fangs of silver turns its gaze to you.
 You see nothing special.
 ~
 abd 0 600 S
-23 31 66 16d10+1390 12d8+12
-2000 8000
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 1
 #3044
 waiter~
@@ -326,8 +353,8 @@ A waiter who knows where all his costumers has their money.
 ~
 You see nothing special.~
 bd 0 600 S
-23 1 104 6d10+390 1d8+12
-2000 80000
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 1
 #3045
 waiter~
@@ -337,8 +364,8 @@ quite a few firebreathers.
 ~
 You see nothing special.~
 bd 0 600 S
-23 1 86 6d10+390 1d8+12
-2000 80000
+58 39 20 19d6+94 5d6+0
+621 27638
 8 8 1
 #3046
 Maubaus bartender~
@@ -349,8 +376,8 @@ Maubaus looks real, ehm, dirty.  He likes to keep his costumers happy,
 but do not mess with him or else he'll get upset.
 ~
 bd d 600 S
-33 69 60 1d1+30000 1d8+92
-2000 80000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 #3059
 Johann sentry~
@@ -360,8 +387,8 @@ A strong Sentry is here, ready to jump in at the first sign of trouble.
 He looks very strong and wise.  Looks like he doesn't answer to ANYONE.
 ~
 adghlm d 1000 S
-17 37 64 5d6+225 3d3+73
-2500 30000
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 1
 #3060
 Ulric member cityguard guard red~
@@ -371,8 +398,8 @@ A member of the Red Guard stands here.
 A big, strong, helpful, trustworthy guard.
 ~
 d d 1000 E
-18 39 85 1d12+5250 2d8+85
-500 45000
+7 14 7 2d6+22 1d7+0
+21 506
 8 8 1
 Race: 0
 Height: 72
@@ -387,8 +414,8 @@ A janitor is walking around, cleaning up.
 ~
 You see nothing special.~
 adl 0 800 S
-1 5 84 2d6+10 1d5+0
-34 100
+13 16 8 4d6+27 2d5+0
+51 1538
 8 8 1
 >in_file_prog sweeper.prg~
 |
@@ -400,8 +427,8 @@ A citizen of Elrhinn is walking around, tending to her daily business.
     Just a common citizen, nothing really important.
 ~
 dh 0 1000 S
-0 3 36 1d1+2 1d4+0
-1 65
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 2
 >in_file_prog citizen.prg~
 |
@@ -413,8 +440,8 @@ A mercenary is waiting for a job here.
 He looks pretty mean, and you imagine he'd do anything for money.
 ~
 cdl 0 -330 S
-2 0 77 1d6+6 1d6+1
-87 250
+4 12 6 1d6+21 1d5+0
+10 206
 8 8 1
 #3064
 Urnst drunk~
@@ -424,8 +451,8 @@ A pitiful, slobbering drunk sways left and right here.
 A drunk who seems to be too happy, and to carry too much money.
 ~
 bd 0 400 S
-2 7 41 1d6+10 1d6+0
-53 350
+4 12 6 1d6+21 1d5+0
+10 206
 8 8 1
 >in_file_prog drunk.prg~
 |
@@ -437,8 +464,8 @@ A beggar is here, asking for a few coins.
 The beggar looks like she is fed up with life.
 ~
 bd 0 400 S
-1 5 17 1d8+0 1d5+0
-0 85
+3 12 6 1d6+19 1d4+0
+7 138
 8 8 2
 >in_file_prog beggar.prg~
 |
@@ -451,8 +478,8 @@ A big, strong, helpful, trustworthy guard.  He looks slightly discontent
 with his job however.
 ~
 bdgl 0 1000 E
-26 55 89 1d12+18200 12d8+65
-500 69000
+65 42 21 21d6+105 6d6+0
+764 34610
 8 8 1
 Height: 78
 Weight: 19
@@ -468,8 +495,8 @@ A small, befuddled wizard stands here, muttering something about worms.
 cannot even remember what he sells, much less his own name.
 ~
 abdg df 900 S
-33 69 78 1d8+30000 2d8+88
-30000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 >in_file_prog mybius.prg~
 |
@@ -483,8 +510,8 @@ temple.  She is working in this shop to try and raise money to support the
 order.
 ~
 abdg df 1000 S
-33 69 84 1d8+30000 2d8+88
-30000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 2
 #3070
 tersk man smith blacksmith~
@@ -495,8 +522,8 @@ A large, well built man stands here, fixing weapons and armor.
 probably due to his days of mining gems.
 ~
 abdg df 250 S
-33 69 68 1d8+30000 2d8+98
-30000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 #3071
 man dealer~
@@ -507,8 +534,8 @@ A small, wiry man stands here, waiting eagerly for buying customers.
 looking for.
 ~
 bdg df -1000 S
-33 69 65 1d8+30000 2d8+98
-600000 160000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 #3089
 man dealer dice casino~
@@ -519,8 +546,8 @@ The table operator smiles at you.
 The table operator says, 'step right up and test your luck.'
 ~
 bdenopqrs dprs -750 S
-43 89 99 1d8+30000 7d8+98
-600000 100000
+105 62 31 35d6+148 9d3+0
+1864 89490
 8 8 1
 #3090
 acolyte man priest young~
@@ -532,8 +559,8 @@ at you and smiles, his eyes show that he possesses knowledge beyond his
 years.
 ~
 abdo 0 1000 S
-7 5 56 2d6+11 1d4+40
-0 100
+23 22 11 7d6+37 2d8+0
+125 4538
 6 6 1
 >in_file_prog priest.prg~
 |
@@ -548,8 +575,8 @@ as he sorts and fills out and logs and envelopes important documents
 pertaining to the welfare of Elrhinn.
 ~
 bd 0 100 S
-48 75 79 1d6+11111 9d4+100
-5000000 100
+105 62 31 35d6+148 9d7+0
+1864 89490
 8 8 1
 >in_file_prog commission.prg~
 |
@@ -562,10 +589,12 @@ There is something strange about the woman's eyes.   Upon further
 examination you notice that there is nothing within the sockets though
 she seems to know her way  about well enough.   
 ~
-dgo 0 0 A
-16 0 0 0d0+0 0d0+0
-0 0
+dgo 0 0 E
+43 32 16 14d6+65 4d6+0
+363 15338
 8 8 2
+Race: 0
+E
 #3093
 rottweiler~
 the rottweiler~
@@ -574,8 +603,8 @@ A large, loyal rottweiler is here.
 The rottweiler looks like a strong, fierce fighter.
 ~
 bcd 0 -200 S
-3 9 67 1d12+35 1d7+0
-0 800
+5 12 6 1d6+22 1d5+0
+14 290
 8 8 0
 #3094
 sheep~
@@ -585,8 +614,8 @@ A small, white sheep is here.
  It's a sheep!  What did you expect?
 ~
 acdh 0 -200 E
-4 11 54 1d12+47 1d8+0
-0 1600
+25 22 11 8d6+38 3d5+0
+144 5330
 8 8 0
 Race: 22
 E
@@ -598,8 +627,8 @@ A citizen of Elrhinn is walking around, tending to his daily business.
     Just a common citizen, nothing really important.
 ~
 dh 0 351 S
-0 3 37 1d1+2 1d4+0
-1 50
+13 16 8 4d6+27 2d5+0
+51 1538
 8 8 1
 >in_file_prog citizen2.prg~
 |
@@ -610,8 +639,8 @@ An ancient wizard stands here, guarding the tower entrance.
 ~
 You see nothing special.~
 bdl dh 900 S
-33 69 86 6d10+990 1d8+82
-2000 60000
+80 50 25 26d6+16 7d6+0
+1120 52190
 8 8 1
 #3097
 Annin'Nerof gasgal template grand man mayor~
@@ -621,8 +650,8 @@ The Grand Template of Elrhinn stands here contemplating the law.
 You see nothing special.
 ~
 abdelmnopqr dfhkpr 1000 S
-49 100 73 1d10+8000 2d100+50
-1 750000
+105 62 31 35d6+13 9d3+0
+1864 89490
 8 8 1
 >in_file_prog template.prg~
 |
@@ -635,8 +664,8 @@ The old man peers down into the scroll looking for more clues into his quest.
 He looks up at you and says, 'What do you need from this old Sage?'
 ~
 abdelnopr dfkpr 0 S
-40 83 92 1d2+10000 1d2+72
-1 1
+96 58 29 32d6+139 9d3+0
+1574 74910
 8 8 1
 #3100
 thief catcher man~
@@ -648,8 +677,8 @@ apart from anyone else.  His cowl is pulled tight, leaving
 his face encompassed in shadow.
 ~
 d 0 0 S
-20 43 42 2d8+700 2d7+66
-0 0
+52 36 18 17d6+82 5d6+0
+510 22286
 8 8 1
 #3101
 wyrm green craw~
@@ -662,8 +691,8 @@ revealing razor-like jaws and a blood-red forked tongue which lashes
 about like a whip searching for food.
 ~
 dfg 0 -500 E
-10 32 39 5d20+50 2d18+17
-0 12000
+12 16 8 4d6+140 2d5+0
+276 5304
 8 8 0
 BareHandAttack: 4
 Race: 22
@@ -677,8 +706,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 5 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3103
 unfinished mob~
@@ -687,8 +716,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3104
 unfinished mob~
@@ -697,8 +726,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3105
 unfinished mob~
@@ -707,8 +736,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3106
 unfinished mob~
@@ -717,8 +746,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3107
 unfinished mob~
@@ -727,8 +756,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3108
 unfinished mob~
@@ -737,8 +766,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3109
 unfinished mob~
@@ -747,8 +776,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3110
 unfinished mob~
@@ -757,8 +786,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3111
 unfinished mob~
@@ -767,8 +796,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3112
 girl little lost child~
@@ -779,8 +808,8 @@ A small girl in a pinafore, her face smudged from crying.  She keeps
 looking up at every passing woman, hoping.
 ~
 d 0 500 E
-2 20 5 2d10+16 1d4+0
-0 0
+13 16 8 4d6+27 2d5+0
+51 1538
 8 8 2
 E
 #3113
@@ -790,8 +819,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3114
 unfinished mob~
@@ -800,8 +829,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3115
 unfinished mob~
@@ -810,8 +839,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3116
 unfinished mob~
@@ -820,8 +849,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3117
 unfinished mob~
@@ -830,8 +859,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3118
 unfinished mob~
@@ -840,8 +869,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3119
 unfinished mob~
@@ -850,8 +879,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3120
 unfinished mob~
@@ -860,8 +889,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3121
 unfinished mob~
@@ -870,8 +899,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3122
 unfinished mob~
@@ -880,8 +909,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3123
 unfinished mob~
@@ -890,8 +919,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3124
 unfinished mob~
@@ -900,8 +929,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3125
 unfinished mob~
@@ -910,8 +939,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3126
 unfinished mob~
@@ -920,8 +949,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3127
 unfinished mob~
@@ -930,8 +959,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3128
 unfinished mob~
@@ -940,8 +969,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3129
 unfinished mob~
@@ -950,8 +979,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3130
 unfinished mob~
@@ -960,8 +989,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3131
 unfinished mob~
@@ -970,8 +999,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3132
 unfinished mob~
@@ -980,8 +1009,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3133
 unfinished mob~
@@ -990,8 +1019,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3134
 unfinished mob~
@@ -1000,8 +1029,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3135
 unfinished mob~
@@ -1010,8 +1039,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3136
 unfinished mob~
@@ -1020,8 +1049,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3137
 unfinished mob~
@@ -1030,8 +1059,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3138
 unfinished mob~
@@ -1040,8 +1069,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3139
 unfinished mob~
@@ -1050,8 +1079,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3140
 unfinished mob~
@@ -1060,8 +1089,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3141
 unfinished mob~
@@ -1070,8 +1099,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3142
 unfinished mob~
@@ -1080,8 +1109,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3143
 unfinished mob~
@@ -1090,8 +1119,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3144
 unfinished mob~
@@ -1100,8 +1129,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3145
 unfinished mob~
@@ -1110,8 +1139,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3146
 unfinished mob~
@@ -1120,8 +1149,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3147
 unfinished mob~
@@ -1130,8 +1159,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3148
 unfinished mob~
@@ -1140,8 +1169,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3149
 unfinished mob~
@@ -1150,8 +1179,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3150
 unfinished mob~
@@ -1160,8 +1189,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3151
 unfinished mob~
@@ -1170,8 +1199,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3152
 unfinished mob~
@@ -1180,8 +1209,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3153
 unfinished mob~
@@ -1190,8 +1219,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3154
 unfinished mob~
@@ -1200,8 +1229,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3155
 unfinished mob~
@@ -1210,8 +1239,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3156
 unfinished mob~
@@ -1220,8 +1249,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3157
 unfinished mob~
@@ -1230,8 +1259,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3158
 unfinished mob~
@@ -1240,8 +1269,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3159
 unfinished mob~
@@ -1250,8 +1279,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3160
 unfinished mob~
@@ -1260,8 +1289,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3161
 unfinished mob~
@@ -1270,8 +1299,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3162
 unfinished mob~
@@ -1280,8 +1309,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3163
 unfinished mob~
@@ -1290,8 +1319,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3164
 unfinished mob~
@@ -1300,8 +1329,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3165
 unfinished mob~
@@ -1310,8 +1339,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3166
 unfinished mob~
@@ -1320,8 +1349,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3167
 unfinished mob~
@@ -1330,8 +1359,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3168
 unfinished mob~
@@ -1340,8 +1369,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3169
 unfinished mob~
@@ -1350,8 +1379,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3170
 unfinished mob~
@@ -1360,8 +1389,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3171
 unfinished mob~
@@ -1370,8 +1399,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3172
 unfinished mob~
@@ -1380,8 +1409,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3173
 unfinished mob~
@@ -1390,8 +1419,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3174
 unfinished mob~
@@ -1400,8 +1429,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3175
 unfinished mob~
@@ -1410,8 +1439,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3176
 unfinished mob~
@@ -1420,8 +1449,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3177
 unfinished mob~
@@ -1430,8 +1459,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3178
 unfinished mob~
@@ -1440,8 +1469,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3179
 unfinished mob~
@@ -1450,8 +1479,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3180
 unfinished mob~
@@ -1460,8 +1489,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3181
 unfinished mob~
@@ -1470,8 +1499,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3182
 unfinished mob~
@@ -1480,8 +1509,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3183
 unfinished mob~
@@ -1490,8 +1519,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3184
 unfinished mob~
@@ -1500,8 +1529,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3185
 unfinished mob~
@@ -1510,8 +1539,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3186
 unfinished mob~
@@ -1520,8 +1549,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3187
 unfinished mob~
@@ -1530,8 +1559,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3188
 unfinished mob~
@@ -1540,8 +1569,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3189
 unfinished mob~
@@ -1550,8 +1579,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3190
 unfinished mob~
@@ -1560,8 +1589,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3191
 unfinished mob~
@@ -1570,8 +1599,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3192
 unfinished mob~
@@ -1580,8 +1609,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3193
 unfinished mob~
@@ -1590,8 +1619,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3194
 unfinished mob~
@@ -1600,8 +1629,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3195
 unfinished mob~
@@ -1610,8 +1639,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3196
 unfinished mob~
@@ -1620,8 +1649,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3197
 unfinished mob~
@@ -1630,8 +1659,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3198
 unfinished mob~
@@ -1640,8 +1669,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3199
 unfinished mob~
@@ -1650,8 +1679,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3200
 unfinished mob~
@@ -1660,8 +1689,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3201
 unfinished mob~
@@ -1670,8 +1699,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3202
 unfinished mob~
@@ -1680,8 +1709,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3203
 unfinished mob~
@@ -1690,8 +1719,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3204
 unfinished mob~
@@ -1700,8 +1729,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3205
 unfinished mob~
@@ -1710,8 +1739,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3206
 unfinished mob~
@@ -1720,8 +1749,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3207
 unfinished mob~
@@ -1730,8 +1759,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3208
 unfinished mob~
@@ -1740,8 +1769,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3209
 unfinished mob~
@@ -1750,8 +1779,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3210
 unfinished mob~
@@ -1760,8 +1789,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3211
 unfinished mob~
@@ -1770,8 +1799,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3212
 unfinished mob~
@@ -1780,8 +1809,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3213
 unfinished mob~
@@ -1790,8 +1819,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3214
 unfinished mob~
@@ -1800,8 +1829,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3215
 unfinished mob~
@@ -1810,8 +1839,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3216
 unfinished mob~
@@ -1820,8 +1849,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3217
 unfinished mob~
@@ -1830,8 +1859,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3218
 unfinished mob~
@@ -1840,8 +1869,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3219
 unfinished mob~
@@ -1850,8 +1879,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3220
 unfinished mob~
@@ -1860,8 +1889,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3221
 unfinished mob~
@@ -1870,8 +1899,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3222
 unfinished mob~
@@ -1880,8 +1909,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3223
 unfinished mob~
@@ -1890,8 +1919,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3224
 unfinished mob~
@@ -1900,8 +1929,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3225
 unfinished mob~
@@ -1910,8 +1939,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3226
 unfinished mob~
@@ -1920,8 +1949,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3227
 unfinished mob~
@@ -1930,8 +1959,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3228
 unfinished mob~
@@ -1940,8 +1969,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3229
 unfinished mob~
@@ -1950,8 +1979,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3230
 unfinished mob~
@@ -1960,8 +1989,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3231
 unfinished mob~
@@ -1970,8 +1999,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3232
 unfinished mob~
@@ -1980,8 +2009,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3233
 unfinished mob~
@@ -1990,8 +2019,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3234
 unfinished mob~
@@ -2000,8 +2029,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3235
 unfinished mob~
@@ -2010,8 +2039,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3236
 unfinished mob~
@@ -2020,8 +2049,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3237
 unfinished mob~
@@ -2030,8 +2059,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3238
 unfinished mob~
@@ -2040,8 +2069,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3239
 unfinished mob~
@@ -2050,8 +2079,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3240
 unfinished mob~
@@ -2060,8 +2089,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3241
 unfinished mob~
@@ -2070,8 +2099,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3242
 unfinished mob~
@@ -2080,8 +2109,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3243
 unfinished mob~
@@ -2090,8 +2119,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3244
 unfinished mob~
@@ -2100,8 +2129,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3245
 unfinished mob~
@@ -2110,8 +2139,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3246
 unfinished mob~
@@ -2120,8 +2149,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3247
 unfinished mob~
@@ -2130,8 +2159,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3248
 unfinished mob~
@@ -2140,8 +2169,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3249
 unfinished mob~
@@ -2150,8 +2179,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3250
 unfinished mob~
@@ -2160,8 +2189,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3251
 unfinished mob~
@@ -2170,8 +2199,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3252
 unfinished mob~
@@ -2180,8 +2209,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3253
 unfinished mob~
@@ -2190,8 +2219,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3254
 unfinished mob~
@@ -2200,8 +2229,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3255
 unfinished mob~
@@ -2210,8 +2239,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3256
 unfinished mob~
@@ -2220,8 +2249,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3257
 unfinished mob~
@@ -2230,8 +2259,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3258
 unfinished mob~
@@ -2240,8 +2269,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3259
 unfinished mob~
@@ -2250,8 +2279,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3260
 unfinished mob~
@@ -2260,8 +2289,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3261
 unfinished mob~
@@ -2270,8 +2299,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3262
 unfinished mob~
@@ -2280,8 +2309,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3263
 unfinished mob~
@@ -2290,8 +2319,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3264
 unfinished mob~
@@ -2300,8 +2329,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3265
 unfinished mob~
@@ -2310,8 +2339,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3266
 unfinished mob~
@@ -2320,8 +2349,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3267
 unfinished mob~
@@ -2330,8 +2359,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3268
 unfinished mob~
@@ -2340,8 +2369,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3269
 unfinished mob~
@@ -2350,8 +2379,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3270
 unfinished mob~
@@ -2360,8 +2389,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3271
 unfinished mob~
@@ -2370,8 +2399,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3272
 unfinished mob~
@@ -2380,8 +2409,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3273
 unfinished mob~
@@ -2390,8 +2419,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3274
 unfinished mob~
@@ -2400,8 +2429,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3275
 unfinished mob~
@@ -2410,8 +2439,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3276
 unfinished mob~
@@ -2420,8 +2449,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3277
 unfinished mob~
@@ -2430,8 +2459,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3278
 unfinished mob~
@@ -2440,8 +2469,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3279
 unfinished mob~
@@ -2450,8 +2479,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3280
 unfinished mob~
@@ -2460,8 +2489,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3281
 unfinished mob~
@@ -2470,8 +2499,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3282
 unfinished mob~
@@ -2480,8 +2509,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3283
 unfinished mob~
@@ -2490,8 +2519,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3284
 unfinished mob~
@@ -2500,8 +2529,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3285
 unfinished mob~
@@ -2510,8 +2539,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3286
 unfinished mob~
@@ -2520,8 +2549,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3287
 unfinished mob~
@@ -2530,8 +2559,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3288
 unfinished mob~
@@ -2540,8 +2569,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3289
 unfinished mob~
@@ -2550,8 +2579,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3290
 unfinished mob~
@@ -2560,8 +2589,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3291
 unfinished mob~
@@ -2570,8 +2599,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3292
 unfinished mob~
@@ -2580,8 +2609,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3293
 unfinished mob~
@@ -2590,8 +2619,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3294
 unfinished mob~
@@ -2600,8 +2629,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3295
 unfinished mob~
@@ -2610,8 +2639,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3296
 unfinished mob~
@@ -2620,8 +2649,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3297
 unfinished mob~
@@ -2630,8 +2659,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3298
 unfinished mob~
@@ -2640,8 +2669,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3299
 unfinished mob~
@@ -2650,8 +2679,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3300
 unfinished mob~
@@ -2660,8 +2689,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3301
 unfinished mob~
@@ -2670,8 +2699,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3302
 unfinished mob~
@@ -2680,8 +2709,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3303
 unfinished mob~
@@ -2690,8 +2719,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3304
 unfinished mob~
@@ -2700,8 +2729,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3305
 unfinished mob~
@@ -2710,8 +2739,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3306
 unfinished mob~
@@ -2720,8 +2749,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3307
 unfinished mob~
@@ -2730,8 +2759,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3308
 unfinished mob~
@@ -2740,8 +2769,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3309
 unfinished mob~
@@ -2750,8 +2779,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3310
 unfinished mob~
@@ -2760,8 +2789,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3311
 unfinished mob~
@@ -2770,8 +2799,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3312
 unfinished mob~
@@ -2780,8 +2809,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3313
 unfinished mob~
@@ -2790,8 +2819,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3314
 unfinished mob~
@@ -2800,8 +2829,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3315
 unfinished mob~
@@ -2810,8 +2839,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3316
 unfinished mob~
@@ -2820,8 +2849,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3317
 unfinished mob~
@@ -2830,8 +2859,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3318
 unfinished mob~
@@ -2840,8 +2869,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3319
 unfinished mob~
@@ -2850,8 +2879,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3320
 unfinished mob~
@@ -2860,8 +2889,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3321
 unfinished mob~
@@ -2870,8 +2899,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3322
 unfinished mob~
@@ -2880,8 +2909,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3323
 unfinished mob~
@@ -2890,8 +2919,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3324
 unfinished mob~
@@ -2900,8 +2929,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3325
 unfinished mob~
@@ -2910,8 +2939,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3326
 unfinished mob~
@@ -2920,8 +2949,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3327
 unfinished mob~
@@ -2930,8 +2959,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3328
 unfinished mob~
@@ -2940,8 +2969,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3329
 unfinished mob~
@@ -2950,8 +2979,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3330
 unfinished mob~
@@ -2960,8 +2989,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3331
 unfinished mob~
@@ -2970,8 +2999,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3332
 unfinished mob~
@@ -2980,8 +3009,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3333
 unfinished mob~
@@ -2990,8 +3019,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3334
 unfinished mob~
@@ -3000,8 +3029,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3335
 unfinished mob~
@@ -3010,8 +3039,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3336
 unfinished mob~
@@ -3020,8 +3049,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3337
 unfinished mob~
@@ -3030,8 +3059,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3338
 unfinished mob~
@@ -3040,8 +3069,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3339
 unfinished mob~
@@ -3050,8 +3079,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3340
 unfinished mob~
@@ -3060,8 +3089,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3341
 unfinished mob~
@@ -3070,8 +3099,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3342
 unfinished mob~
@@ -3080,8 +3109,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3343
 unfinished mob~
@@ -3090,8 +3119,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3344
 unfinished mob~
@@ -3100,8 +3129,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3345
 unfinished mob~
@@ -3110,8 +3139,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3346
 unfinished mob~
@@ -3120,8 +3149,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3347
 unfinished mob~
@@ -3130,8 +3159,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3348
 unfinished mob~
@@ -3140,8 +3169,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3349
 unfinished mob~
@@ -3150,8 +3179,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3350
 unfinished mob~
@@ -3160,8 +3189,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3351
 unfinished mob~
@@ -3170,8 +3199,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3352
 unfinished mob~
@@ -3180,8 +3209,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3353
 unfinished mob~
@@ -3190,8 +3219,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3354
 unfinished mob~
@@ -3200,8 +3229,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3355
 unfinished mob~
@@ -3210,8 +3239,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3356
 unfinished mob~
@@ -3220,8 +3249,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3357
 unfinished mob~
@@ -3230,8 +3259,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3358
 unfinished mob~
@@ -3240,8 +3269,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3359
 unfinished mob~
@@ -3250,8 +3279,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3360
 unfinished mob~
@@ -3260,8 +3289,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3361
 unfinished mob~
@@ -3270,8 +3299,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3362
 unfinished mob~
@@ -3280,8 +3309,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3363
 unfinished mob~
@@ -3290,8 +3319,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3364
 unfinished mob~
@@ -3300,8 +3329,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3365
 unfinished mob~
@@ -3310,8 +3339,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3366
 unfinished mob~
@@ -3320,8 +3349,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3367
 unfinished mob~
@@ -3330,8 +3359,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3368
 unfinished mob~
@@ -3340,8 +3369,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3369
 unfinished mob~
@@ -3350,8 +3379,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3370
 unfinished mob~
@@ -3360,8 +3389,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3371
 unfinished mob~
@@ -3370,8 +3399,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3372
 unfinished mob~
@@ -3380,8 +3409,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3373
 unfinished mob~
@@ -3390,8 +3419,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3374
 unfinished mob~
@@ -3400,8 +3429,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3375
 unfinished mob~
@@ -3410,8 +3439,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3376
 unfinished mob~
@@ -3420,8 +3449,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3377
 unfinished mob~
@@ -3430,8 +3459,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3378
 unfinished mob~
@@ -3440,8 +3469,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3379
 unfinished mob~
@@ -3450,8 +3479,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3380
 unfinished mob~
@@ -3460,8 +3489,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3381
 unfinished mob~
@@ -3470,8 +3499,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3382
 unfinished mob~
@@ -3480,8 +3509,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3383
 unfinished mob~
@@ -3490,8 +3519,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3384
 unfinished mob~
@@ -3500,8 +3529,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3385
 unfinished mob~
@@ -3510,8 +3539,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3386
 unfinished mob~
@@ -3520,8 +3549,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3387
 unfinished mob~
@@ -3530,8 +3559,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3388
 unfinished mob~
@@ -3540,8 +3569,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3389
 unfinished mob~
@@ -3550,8 +3579,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3390
 unfinished mob~
@@ -3560,8 +3589,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3391
 unfinished mob~
@@ -3570,8 +3599,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3392
 unfinished mob~
@@ -3580,8 +3609,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3393
 unfinished mob~
@@ -3590,8 +3619,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3394
 unfinished mob~
@@ -3600,8 +3629,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3395
 unfinished mob~
@@ -3610,8 +3639,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3396
 unfinished mob~
@@ -3620,8 +3649,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3397
 unfinished mob~
@@ -3630,8 +3659,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3398
 unfinished mob~
@@ -3640,8 +3669,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3399
 unfinished mob~
@@ -3650,8 +3679,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3400
 unfinished mob~
@@ -3660,8 +3689,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3401
 unfinished mob~
@@ -3670,8 +3699,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3402
 unfinished mob~
@@ -3680,8 +3709,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3403
 unfinished mob~
@@ -3690,8 +3719,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3404
 unfinished mob~
@@ -3700,8 +3729,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3405
 unfinished mob~
@@ -3710,8 +3739,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3406
 unfinished mob~
@@ -3720,8 +3749,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3407
 unfinished mob~
@@ -3730,8 +3759,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3408
 unfinished mob~
@@ -3740,8 +3769,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3409
 unfinished mob~
@@ -3750,8 +3779,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3410
 unfinished mob~
@@ -3760,8 +3789,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3411
 unfinished mob~
@@ -3770,8 +3799,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3412
 unfinished mob~
@@ -3780,8 +3809,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3413
 unfinished mob~
@@ -3790,8 +3819,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3414
 unfinished mob~
@@ -3800,8 +3829,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3415
 unfinished mob~
@@ -3810,8 +3839,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3416
 unfinished mob~
@@ -3820,8 +3849,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3417
 unfinished mob~
@@ -3830,8 +3859,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3418
 unfinished mob~
@@ -3840,8 +3869,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3419
 unfinished mob~
@@ -3850,8 +3879,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3420
 unfinished mob~
@@ -3860,8 +3889,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3421
 unfinished mob~
@@ -3870,8 +3899,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3422
 unfinished mob~
@@ -3880,8 +3909,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3423
 unfinished mob~
@@ -3890,8 +3919,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3424
 unfinished mob~
@@ -3900,8 +3929,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3425
 unfinished mob~
@@ -3910,8 +3939,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3426
 unfinished mob~
@@ -3920,8 +3949,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3427
 unfinished mob~
@@ -3930,8 +3959,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3428
 unfinished mob~
@@ -3940,8 +3969,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3429
 unfinished mob~
@@ -3950,8 +3979,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3430
 unfinished mob~
@@ -3960,8 +3989,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3431
 unfinished mob~
@@ -3970,8 +3999,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3432
 unfinished mob~
@@ -3980,8 +4009,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3433
 unfinished mob~
@@ -3990,8 +4019,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3434
 unfinished mob~
@@ -4000,8 +4029,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3435
 unfinished mob~
@@ -4010,8 +4039,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3436
 unfinished mob~
@@ -4020,8 +4049,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3437
 unfinished mob~
@@ -4030,8 +4059,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3438
 unfinished mob~
@@ -4040,8 +4069,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3439
 unfinished mob~
@@ -4050,8 +4079,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3440
 unfinished mob~
@@ -4060,8 +4089,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3441
 unfinished mob~
@@ -4070,8 +4099,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3442
 unfinished mob~
@@ -4080,8 +4109,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3443
 unfinished mob~
@@ -4090,8 +4119,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3444
 unfinished mob~
@@ -4100,8 +4129,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3445
 unfinished mob~
@@ -4110,8 +4139,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3446
 unfinished mob~
@@ -4120,8 +4149,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3447
 unfinished mob~
@@ -4130,8 +4159,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3448
 unfinished mob~
@@ -4140,8 +4169,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3449
 unfinished mob~
@@ -4150,8 +4179,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3450
 unfinished mob~
@@ -4160,8 +4189,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3451
 unfinished mob~
@@ -4170,8 +4199,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3452
 unfinished mob~
@@ -4180,8 +4209,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3453
 unfinished mob~
@@ -4190,8 +4219,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3454
 unfinished mob~
@@ -4200,8 +4229,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3455
 unfinished mob~
@@ -4210,8 +4239,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3456
 unfinished mob~
@@ -4220,8 +4249,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3457
 unfinished mob~
@@ -4230,8 +4259,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3458
 unfinished mob~
@@ -4240,8 +4269,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3459
 unfinished mob~
@@ -4250,8 +4279,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3460
 unfinished mob~
@@ -4260,8 +4289,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3461
 unfinished mob~
@@ -4270,8 +4299,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3462
 unfinished mob~
@@ -4280,8 +4309,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3463
 unfinished mob~
@@ -4290,8 +4319,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3464
 unfinished mob~
@@ -4300,8 +4329,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3465
 unfinished mob~
@@ -4310,8 +4339,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3466
 unfinished mob~
@@ -4320,8 +4349,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3467
 unfinished mob~
@@ -4330,8 +4359,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3468
 unfinished mob~
@@ -4340,8 +4369,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3469
 unfinished mob~
@@ -4350,8 +4379,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3470
 unfinished mob~
@@ -4360,8 +4389,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3471
 unfinished mob~
@@ -4370,8 +4399,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3472
 unfinished mob~
@@ -4380,8 +4409,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3473
 unfinished mob~
@@ -4390,8 +4419,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3474
 unfinished mob~
@@ -4400,8 +4429,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3475
 unfinished mob~
@@ -4410,8 +4439,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3476
 unfinished mob~
@@ -4420,8 +4449,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3477
 unfinished mob~
@@ -4430,8 +4459,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3478
 unfinished mob~
@@ -4440,8 +4469,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3479
 unfinished mob~
@@ -4450,8 +4479,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3480
 unfinished mob~
@@ -4460,8 +4489,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3481
 unfinished mob~
@@ -4470,8 +4499,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3482
 unfinished mob~
@@ -4480,8 +4509,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3483
 unfinished mob~
@@ -4490,8 +4519,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3484
 unfinished mob~
@@ -4500,8 +4529,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3485
 unfinished mob~
@@ -4510,8 +4539,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3486
 unfinished mob~
@@ -4520,8 +4549,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3487
 unfinished mob~
@@ -4530,8 +4559,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3488
 unfinished mob~
@@ -4540,8 +4569,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3489
 unfinished mob~
@@ -4550,8 +4579,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3490
 unfinished mob~
@@ -4560,8 +4589,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3491
 unfinished mob~
@@ -4570,8 +4599,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3492
 unfinished mob~
@@ -4580,8 +4609,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3493
 unfinished mob~
@@ -4590,8 +4619,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3494
 unfinished mob~
@@ -4600,8 +4629,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3495
 unfinished mob~
@@ -4610,8 +4639,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3496
 unfinished mob~
@@ -4620,8 +4649,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3497
 unfinished mob~
@@ -4630,8 +4659,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3498
 unfinished mob~
@@ -4640,8 +4669,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 #3499
 unfinished mob~
@@ -4650,7 +4679,7 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+2 11 6 1d6+18 1d3+0
+5 86
 8 8 0
 $~

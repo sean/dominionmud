@@ -7,8 +7,57 @@ A broad old man in a sheepskin coat, his beard braided in the Nord fashion.
 He has walked these plains all his life and knows every hut and hollow.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+86 53 26 28d6+130 8d6+0
+1281 60230
+8 8 1
+E
+#2101
+wolf frost~
+a frost wolf~
+A frost wolf, white as snow, watches you from the grass.
+~
+A huge white wolf with ice in its fur and breath that steams.
+~
+dfg 0 -350 E
+67 44 22 22d6+107 6d6+0
+807 36746
+8 8 1
+E
+#2102
+raider nordman~
+a Nordman raider~
+A Nordman raider sharpens his axe.
+~
+A tall, fair-bearded warrior in mail and furs, with a round shield.
+~
+dg 0 0 E
+68 44 22 22d6+109 6d6+0
+830 37838
+8 8 1
+E
+#2103
+berserker nordman~
+a Nordman berserker~
+A Nordman berserker howls and bites his shield!
+~
+A huge man in a bearskin, eyes rolling, foam on his lips.
+~
+dfg 0 -350 E
+72 46 23 24d6+111 7d5+0
+922 42366
+8 8 1
+E
+#2104
+hrothgar jarl frostborn~
+Jarl Hrothgar the Frostborn~
+Jarl Hrothgar the Frostborn sits on a carved chair, his great axe across his knees.
+~
+The jarl of the Nordmen, grey-bearded and broad as a door, his mail rimed with
+frost.  They say he was born in a snowdrift and has never been warm since.
+~
+bdg 0 0 E
+76 48 24 25d6+1551 7d7+0
+12216 377200
 8 8 1
 E
 $~

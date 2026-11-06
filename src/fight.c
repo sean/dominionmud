@@ -285,11 +285,13 @@ void make_corpse(struct char_data * ch, int dam_type)
   struct obj_data *corpse, *o;
   struct obj_data *money;
   int i;
+  long corpse_room;
   extern int max_npc_corpse_time, max_pc_corpse_time;
 
   struct obj_data *create_money(long amount);
 
   assert( ch != NULL );
+  corpse_room = ship_corpse_room(ch);   /* ship.c: captives wash ashore */
 
   corpse = create_obj();
 
@@ -347,7 +349,7 @@ void make_corpse(struct char_data * ch, int dam_type)
   IS_CARRYING_N(ch) = 0;
   IS_CARRYING_WEIGHT(ch) = 0;
 
-  obj_to_room(corpse, ch->in_room);
+  obj_to_room(corpse, corpse_room);
 }
 
 struct obj_data *make_headless_corpse(struct obj_data * ocorpse,
@@ -512,9 +514,9 @@ void die(struct char_data * ch, struct char_data * killer)
   assert( ch != NULL );
   assert( killer != NULL );
   
-  GET_EXP(ch) = (GET_LEVEL(ch) >= 4 ?
-                 MAX(1L, (long)exp_needed(MAX(0, (GET_LEVEL(ch)-1)))) :
-                 MAX(1L, (long)GET_EXP(ch) - (GET_EXP(ch) >> 3)));
+  /* Dying costs the progress made in the current level. */
+  if (!IS_NPC(ch) && GET_LEVEL(ch) < LVL_IMMORT)
+    GET_EXP(ch) = MIN((long)GET_EXP(ch), MAX(1L, (long)exp_needed(GET_LEVEL(ch))));
 
   if (!IS_NPC(ch))
     REMOVE_BIT(PLR_FLAGS(ch), PLR_KILLER | PLR_THIEF);
@@ -548,6 +550,16 @@ void perform_group_gain(struct char_data * ch, int base, struct char_data * vict
   change_alignment(ch, victim);
 }
 
+/* What killing victim is worth: what is left of a mob's experience, */
+/* or for a player what a mob of his level would be worth.           */
+long kill_exp(struct char_data *victim)
+{
+  if (IS_NPC(victim))
+    return MAX(1L, (long)GET_EXP(victim));
+  return mob_exp_for_level(GET_LEVEL(victim));
+}
+
+
 void group_gain(struct char_data * ch, struct char_data * victim)
 {
   int    base, tmp = 0;
@@ -568,7 +580,7 @@ void group_gain(struct char_data * ch, struct char_data * victim)
       tmp += GET_LEVEL(f->follower);
   }
   /* Divide the kill's exp into shares based on levels */
-  base = (GET_EXP(victim)/tmp);
+  base = (kill_exp(victim)/MAX(1, tmp));
   /* changed for TD as a test - SPM 5/24/95   */
   /* round up to the next highest tot_members */
   /* base = (GET_EXP(victim) / 3) + tot_members - 1; */
@@ -1445,15 +1457,30 @@ void damage(struct char_data * ch,
   /* Make sure we hit the guy if he's incap */
   if (GET_HIT(victim) <= 0)
     dam = MAX(MIN((int)MAX_DAMAGE, (int)GET_STR(ch)), 0);
+  /* A challenger at the Arena yields instead of dying (arena.c) */
+  if (arena_spare(ch, victim, dam))
+    return;
+
   /* Subtract the vict's hit as damage */
   GET_HIT(victim) -= dam;
   /* apply wounds = 1/16 of damage */
   if (GET_HIT(victim) < (GET_MAX_HIT(victim) >> 4))
     GET_WOUNDS(victim) += (dam >> 4);
 
-  if (ch != victim) {
-    gain_exp(ch, GET_LEVEL(victim) * dam);
-    GET_EXP(victim) = MAX(1L, (long)GET_EXP(victim) - (GET_LEVEL(victim)*dam));
+  /* Hurting a mob earns a share of its experience: half the part of  */
+  /* it that this blow's share of its remaining hit points is worth.  */
+  /* The rest (about a quarter, over a fight) goes to whoever kills    */
+  /* it.  Players lose nothing for being hit, and mobs gain nothing.   */
+  if (ch != victim && IS_NPC(victim) && !IS_NPC(ch) && dam > 0 &&
+      GET_EXP(victim) > 1) {
+    long share = ((long)GET_EXP(victim) * MIN((long)dam, (long)MAX(1, GET_HIT(victim) + dam))) /
+                 MAX(1L, (long)(GET_HIT(victim) + dam)) / 2;
+
+    if (share > 0) {
+      share = MIN(share, (long)GET_EXP(victim) - 1);
+      GET_EXP(victim) -= share;
+      gain_exp(ch, (int) share);
+    }
   }
 
   update_pos(victim);
@@ -1539,7 +1566,7 @@ void damage(struct char_data * ch,
       if (IS_AFFECTED2(ch, AFF_GROUP))
 	group_gain(ch, victim);
       else {
-	exp = MIN((long)max_exp_gain, (long)GET_EXP(victim));
+	exp = MIN((long)max_exp_gain, kill_exp(victim));
 
 	/* Calculate level-difference bonus */
 	exp += MAX(0L, (long)(exp * MIN((int)8, (int)(GET_LEVEL(victim) - GET_LEVEL(ch)))) >> 3);
@@ -1830,7 +1857,7 @@ void hit(struct char_data * ch, struct char_data * victim, int type)
 	stop_fighting(FIGHTING(ch));
         stop_fighting(ch);
       } else
-	damage(ch, victim, dice(GET_LEVEL(ch), GET_STR(ch)), SKILL_CUDGEL, -1);
+	damage(ch, victim, skill_dam(GET_LEVEL(ch), 200), SKILL_CUDGEL, -1);
     } else
       damage(ch, victim, dam, w_type, hitloc);
   }
@@ -2003,8 +2030,32 @@ void perform_violence(void)
   }
 }
 
+/* Damage for a combat skill: pct percent of a blow from a player of  */
+/* this level in gear of his level (5 + 0.36 x level), give or take a  */
+/* quarter (Nov 2026 rebalance; spells use the same scale).            */
+int skill_dam(int level, int pct)
+{
+  double blow = 5 + 0.3625 * MAX(1, level);
+  int avg = (int) (blow * pct / 100);
+
+  return MAX(1, number(avg * 3 / 4, avg * 5 / 4));
+}
+
+
 /* Routine for determining monk damage - SPM 5/26/95 */
+/* Bare hands in Zen Thinking hit as hard as a weapon of the monk's level. */
 int monk_damage(struct char_data *ch)
+{
+  int avg = 3 + (3 * GET_LEVEL(ch)) / 10;
+
+  assert( ch != NULL );
+  return MAX(1, number(avg * 3 / 4, avg * 5 / 4));
+}
+
+
+/* The old table, kept for reference: */
+#if 0
+int monk_damage_old(struct char_data *ch)
 {
   int damage = 0;
   assert( ch != NULL );
@@ -2024,3 +2075,4 @@ int monk_damage(struct char_data *ch)
   
   return (damage);
 }
+#endif

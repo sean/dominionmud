@@ -4,8 +4,8 @@ a diamond-edged sword~
 A long sharp-edged sword is stuck half into a stone.~
 ~
 5 kox am
-2 4 5 3 0 0 0 20 14
-15 16384 1000
+2 6 10 3 0 0 0 20 14
+15 2309 230
 E
 diamond edge edged sword long~
 This is a long slim sword with diamond edges on its silver blade.
@@ -23,40 +23,40 @@ a longsword~
 A shiny longsword with elvish runes on it lies here.~
 ~
 5 k am
-0 3 4 3 0 0 0 18 14
-8 6000 800
+0 1 9 3 0 0 0 18 14
+8 33 3
 #19002
 armor elven chain chainmail~
 some sturdy chainmail~
 A nice looking chainmail is lying on the ground here.~
 ~
 9 k ad
-6 0 0 0 0 0 0 18 14
-45 5500 2000
+3 0 0 0 0 0 0 18 14
+45 15 1
 #19003
 mithril elven armor chain~
 mithril chainmail~
 A white chainmail is lying on the ground.~
 ~
 9 k ad
-75 0 0 0 0 0 0 19 14
-60 14000 2500
+7 0 0 0 0 0 0 19 14
+60 39 3
 A
-13 10
+13 5
 A
-12 10
+12 9
 #19004
 mithril sword twohanded~
 a Two-handed Mithril Sword~
 A large sword is stuck into the ground.~
 ~
 5 agik am
-0 3 4 3 0 0 0 19 14
-18 32768 5000
+0 1 10 3 0 0 0 19 14
+18 52 5
 A
 18 1
 A
-19 2
+19 1
 #19005
 scope telescope large~
 telescope~
@@ -71,58 +71,58 @@ an Elven hunting bow~
 A wooden bow has been left here lying on the ground.~
 ~
 5 k am
-0 2 6 7 0 0 0 15 14
-1 1000 330
+0 1 8 7 0 0 0 15 14
+1 32 3
 A
-18 2
+18 1
 #19007
 cap coif chain elven~
 an Elven Chaincoif~
 A chainmail coif has been left here on the ground.~
 ~
 9 k aer
-6 0 0 0 0 0 0 0 14
-20 1750 500
+16 0 0 0 0 0 0 0 14
+20 562 56
 #19008
 leggings chain elven~
 a pair of chain leggings~
 Some chain leggings has been left here unguarded.~
 ~
 9 abk af
-90 0 0 0 0 0 0 18 14
-25 1750 500
+27 0 0 0 0 0 0 18 14
+25 936 93
 #19009
 green leafgreen potion~
 a Leaf-green potion~
 A green potion is standing on the ground.~
 ~
 10 gk ao
-22 65 78 100 0 0 0 0 14
-1 500000 100000
+6 65 78 100 0 0 0 0 14
+1 42 4
 #19010
 oak branch staff~
 an oak branch staff~
 A long, grey branch rests heavily on the ground. ~
 ~
 4 gk ao
-20 10 10 184 0 0 0 20 14
-2 5000 200
+6 10 10 184 0 0 0 20 14
+2 42 4
 #19011
 potion ocean blue~
 an Ocean-blue potion~
 An ocean-blue potion is resting on the ground.~
 ~
 10 gk ao
-45 87 53 86 0 0 0 20 14
-2 8750 850
+6 87 53 86 0 0 0 20 14
+2 42 4
 #19012
 flute mithril~
 a Mithril flute~
 A glittering flute has carelessly been dropped here.~
 ~
 3 gk am
-26 5 5 112 0 0 0 20 14
-2 3750 678
+61 5 5 112 0 0 0 20 14
+2 575 57
 #19013
 bag green small~
 a small green bag~
@@ -161,8 +161,8 @@ a small glass jar with a glowing worm in it~
 A small glass jar has been left on the ground.~
 ~
 10 0 am
-30 66 112 51 0 0 0 21 2
-4 35 4
+6 66 112 51 0 0 0 21 2
+4 42 4
 E
 small jar glass~
 you see a small perfectly made glass jar. In the jar you can
@@ -204,16 +204,16 @@ a warm woolen cape~
 Some one has left something wooly on the ground.~
 ~
 9 0 aj
-14 0 0 0 0 0 0 0 14
-10 1000 200
+5 0 0 0 0 0 0 0 14
+10 21 2
 #19022
 ring fire opal bracelet hoop~
 a small fire-opal bracelet~
 A small glowing hoop has been left on the ground.~
 ~
 9 fk al
-10 0 0 0 0 0 0 15 14
-10 9500 1000
+24 0 0 0 0 0 0 15 14
+10 1012 101
 E
 ring fire opal hoop bracelet~
 a small red opal is set into the platinum hoop, the opal glows with a

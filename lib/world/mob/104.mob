@@ -7,8 +7,8 @@ It is a prime example of the undead:  sickly green skin, sunken eyes with a
 yellowish tinge, and sharp, dirt-encrusted claws.
 ~
 bd 0 -255 E
-13 8 0 1d6+165 2d7+1
-1 16000
+42 31 16 14d6+62 4d6+0
+349 14646
 8 8 0
 Race: 23
 E
@@ -20,8 +20,8 @@ A poisonous asp slithers here.
 You see nothing special.
 ~
 adf 0 0 E
-12 9 0 2d6+150 3d6+0
-0 14000
+41 30 15 13d6+62 4d6+0
+334 13970
 8 8 0
 Race: 44
 E
@@ -36,8 +36,8 @@ wrote, 'You could tell she was practiced at the art of deception/ by
 her bloodstained hands.'
 ~
 abcd dh -1000 E
-23 0 40 3d6+425 2d8+7
-24786 80000
+46 33 16 15d6+9 4d7+0
+409 17510
 8 8 2
 Race: 23
 E
@@ -52,8 +52,8 @@ him...the necromancers just reanimate him.
 
 ~
 abd h -900 E
-19 2 12 2d8+222 2d10+2
-13238 35900
+45 32 16 15d6+7 4d6+0
+394 16770
 8 8 1
 Race: 23
 E
@@ -67,8 +67,8 @@ with no need for food nor water.  A most economical mount--and sporty
 too!
 ~
 bd 0 -300 E
-11 10 1 1d6+150 2d6+1
-1 11000
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 1
 Race: 23
 E
@@ -82,8 +82,8 @@ Necromancers got their hold on him.  Now he just awaits, blade drawn,
 like some ethereal beefeater.
 ~
 bdf 0 -800 E
-15 6 0 1d8+185 2d8+2
-1555 21000
+43 32 16 14d6+65 4d6+0
+363 15338
 8 8 1
 Race: 23
 E
@@ -97,8 +97,8 @@ you.  He twitches from excitement so much that his scraggly hair
 jostles as he flashes his dull yellow teeth.
 ~
 abdf d -1000 E
-25 9 0 3d6+500 3d6+8
-25225 130000
+48 34 17 16d6+716 5d6+0
+3978 114228
 8 8 1
 Race: 23
 E
@@ -130,8 +130,8 @@ With that the Hermit begins to cackle madly, tears running down his
 leathery face.  You can get no more out of him.
 ~
 bd 0 500 E
-10 11 0 2d8+125 2d6+1
-23 9000
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 0
 Race: 0
 E
@@ -143,8 +143,8 @@ A blob of Green Slime drops upon you!
 It looks like animated mucous, dissolving and eating all it touches.
 ~
 bdf 0 0 E
-6 15 0 1d10+75 1d8+1
-0 1500
+39 30 15 13d6+57 4d6+0
+306 12666
 8 8 0
 Race: 28
 E
@@ -158,8 +158,8 @@ resemble a serpent, the next, a man.  It seems to be thoroughly
 enjoying itself.
 ~
 bd 0 -50 E
-14 7 0 1d10+175 2d8+1
-18000 18000
+42 31 16 14d6+62 4d6+0
+349 14646
 6 6 0
 Race: 28
 E
@@ -173,8 +173,8 @@ is giving off a green light.  It clicks it's crystal mandibles in
 irritation with you.
 ~
 adh 0 -400 E
-8 13 0 2d6+96 2d5+1
-0 3750
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 0
 Race: 43
 E
@@ -187,8 +187,8 @@ Slightly smaller than it's green cousin, this creature also appears to
 be made of living crystalline substance which glows yellow.
 ~
 adf 0 -350 E
-7 17 0 1d8+85 2d4+1
-351 2250
+39 30 15 13d6+57 4d6+0
+306 12666
 8 8 0
 Race: 43
 E
@@ -200,8 +200,8 @@ A Petrified Warden guards the way.
 He wears the sneer of cold command upon his stony visage.
 ~
 bd C -700 E
-13 40 36 26d52+104 3d5+34
-40 11718
+42 31 16 14d6+62 4d6+0
+349 14646
 8 8 1
 Race: 0
 E
@@ -215,8 +215,8 @@ eyes set between unreadable insect eyes.  The effect is
 confusing.
 ~
 df 0 -750 E
-18 3 5 3d6+225 3d6+2
-0 30000
+45 32 16 15d6+67 4d6+0
+394 16770
 8 8 0
 E
 #10415
@@ -228,8 +228,8 @@ As it oozes slowly at you, you can make out items undigested within
 it.  From past unfortunates, you presume.
 ~
 df 0 -700 E
-16 5 0 2d6+196 2d8+2
-1576 25000
+44 32 16 14d6+68 4d6+0
+378 16046
 8 8 0
 Race: 28
 E
@@ -243,8 +243,8 @@ candles have been set in its empty eye sockets, and their flames lean
 toward you as though the skull were breathing.
 ~
 bdenopqr k 0 S
-1 20 -10 1d1+30000 1d1+0
-0 0
+38 29 14 12d6+57 4d5+0
+293 12038
 8 8 0
 >in_file_prog pz_skull.prg~
 |
@@ -258,8 +258,8 @@ wicked nails which are stained with the ichor of embalmers and
 malignant salves.
 ~
 abdfh 0 -900 E
-17 6 0 1d6+210 2d8+2
-6666 28000
+44 32 16 14d6+68 4d6+0
+378 16046
 8 8 1
 Race: 0
 E

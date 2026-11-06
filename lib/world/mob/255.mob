@@ -7,8 +7,8 @@ The sunlight glistening off the wet leaves surround the Great Druid
 in an extremely bright light, making it impossible to look right at him.
 ~
 bdlm defhu 0 S
-25 5 44 2d8+10700 1d2+4
-0 10
+36 28 14 12d6+240 4d6+0
+2394 64980
 8 8 2
 #25502
 chipmunk~
@@ -18,8 +18,8 @@ A chipmunk is here, collecting nuts for the long winter ahead.
 The chipmunk runs around, looking very paranoid of everything.
 ~
 cdg fs 0 S
-1 5 13 1d6+4 1d4+0
-1 300
+26 23 12 8d6+41 3d5+0
+153 5750
 8 8 2
 #25503
 black squirrel~
@@ -30,8 +30,8 @@ The big black squirrel almost seems to be snickering to himself
 at the look of anger in your eyes.
 ~
 dg 0 -10 S
-2 7 7 2d10+8 1d6+1
-1 500
+28 24 12 9d6+42 3d6+0
+174 6638
 8 8 1
 #25504
 brown owl~
@@ -42,8 +42,8 @@ Covered with brown speckles on tan feathers, the owl fluffs his
 feathers, in an attempt to scare you off.
 ~
 bdg 0 0 S
-4 11 3 2d8+60 1d8+1
-10 1000
+30 25 12 10d6+43 3d6+0
+195 7590
 8 8 1
 #25505
 bluejay~
@@ -54,8 +54,8 @@ The bluejay, probably the most unpleasant bird you have ever seen,
 works to get a piece of egg off of his beak.
 ~
 cdg 0 0 S
-5 13 4 2d8+70 2d5+0
-10 1200
+32 26 13 10d6+48 3d7+0
+218 8606
 8 8 1
 #25506
 caterpillar~
@@ -65,8 +65,8 @@ A green caterpillar slowly crawls along the branch.
 The caterpillar seems to have all the time in the world.
 ~
 dg 0 0 S
-1 5 9 1d6+4 1d4+0
-1 300
+26 23 12 8d6+41 3d5+0
+153 5750
 8 8 2
 #25507
 furrier ki~
@@ -77,8 +77,8 @@ Ki has been banished from Phalar for breaking many laws,
 and has turned his evil to killing forest animals for their fur.
 ~
 cdfg 0 -1000 S
-5 13 5 2d8+75 2d6+0
-250 2500
+32 26 13 10d6+48 3d7+0
+218 8606
 8 8 1
 #25508
 guard druid~
@@ -88,8 +88,8 @@ The Druid Guard stands here protecting the entrance to the Druid Hall.
 The Druid Guard looks very big, mean, stupid, and hairy.
 ~
 bdg dhu 0 S
-24 4 1 1d8+12000 2d8+4
-0 0
+72 46 23 24d6+14 7d5+0
+922 42366
 8 8 1
 #25509
 guardofgaroustemple tg~
@@ -101,8 +101,8 @@ Garou.  His huge frame is covered by a long flowing brown robe -
 standard issue wear for members of Garou's religion.
 ~
 abdgl 0 0 S
-24 4 0 2d8+16000 2d8+4
-0 1000
+72 46 23 24d6+111 7d5+0
+922 42366
 8 8 1
 #25510
 guardofsandstemple~
@@ -113,8 +113,8 @@ his sword.
 The guard is very large.
 ~
 bd 0 1000 S
-40 0 0 1d2+14500 1d2+50
-1 1
+34 27 14 11d6+50 3d7+0
+241 9686
 8 8 1
 #25511
 guardofgaeyastemple~
@@ -123,8 +123,8 @@ A figure wrapped in flowing, deep-blue robes stands here guarding the entrance.
 ~
 You see nothing special.~
 bd 0 1000 S
-40 0 0 1d2+14500 1d2+50
-1 1
+34 27 14 11d6+50 3d7+0
+241 9686
 8 8 1
 #25512
 guardofcairstemple~
@@ -133,7 +133,7 @@ A huge apparition adorned in the armor of ancient warriors guards the passage.
 ~
 You see nothing special.~
 bdelmnopqr dfhkpr -1000 S
-40 0 0 1d2+14500 1d2+50
-1 1
+34 27 14 11d6+6 3d3+0
+241 9686
 8 8 2
 $~

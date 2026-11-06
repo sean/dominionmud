@@ -67,8 +67,13 @@ byte saving_throws(struct char_data *ch, int save)
       case 6: /* FIRE   */
       case 7: /* ACID   */
       case 8: /* ELEC   */
-      default: /* negative of their level - 100 / their level */
-	return ((-(GET_LEVEL(ch)-100))/(GET_LEVEL(ch)+1));
+      default:
+	/* Everyone saves about 35% of the time, whatever his level (Nov */
+	/* 2026: the old (100 - level) / (level + 1) meant that above     */
+	/* level 10 nearly every spell was halved and nearly every sleep  */
+	/* or blindness failed).  Items' saving-throw affects shift it:   */
+	/* negative is better.                                            */
+	return 65;
 	break;
    }
 }
@@ -243,6 +248,38 @@ int mag_materials(struct char_data * ch, int item0, int item1, int item2,
  * tests for save and calls damage().
  */
 
+/* Spell damage (Nov 2026 rebalance): pct percent of a blow from a */
+/* player of the caster's level in gear of his level (about        */
+/* 5 + 0.36 x level), give or take a quarter.  Magic missile is one  */
+/* blow, fireball two and a half, meteor swarm four.                 */
+static int spell_dam(int level, int pct)
+{
+  double blow = 5 + 0.3625 * MAX(1, level);
+  int avg = (int) (blow * pct / 100);
+
+  return MAX(1, number(avg * 3 / 4, avg * 5 / 4));
+}
+
+/* Healing: pct percent of the hit points of a player of the caster's */
+/* level, give or take a quarter (cure light 12, serious 25, critic    */
+/* 40, heal a full 100).                                                */
+static int heal_amount(int level, int pct)
+{
+  int avg = (int) ((15 + 3.5 * MAX(1, level)) * pct / 100);
+
+  return MAX(1, number(avg * 3 / 4, avg * 5 / 4));
+}
+
+/* Breath: pct percent of the hit points of a player of the breather's */
+/* level (15 + 3.5 x level), give or take a quarter.                   */
+static int breath_dam(int level, int pct)
+{
+  int avg = (int) ((15 + 3.5 * MAX(1, level)) * pct / 100);
+
+  return MAX(1, number(avg * 3 / 4, avg * 5 / 4));
+}
+
+
 void mag_damage(int level, struct char_data * ch, struct char_data * victim,
 		     int spellnum, int savetype)
 {
@@ -255,31 +292,31 @@ void mag_damage(int level, struct char_data * ch, struct char_data * victim,
     case SPELL_MAGIC_MISSILE:
     case SPELL_CHILL_TOUCH:       /* chill touch also has an affect */
       savetype = SAVING_COLD;
-      dam = dice(1, 8) + level;
+      dam = spell_dam(level, 100);
       break;
     case SPELL_BURNING_HANDS:
       savetype = SAVING_FIRE;
-      dam = dice(3, 8) + 3;
+      dam = spell_dam(level, 120);
       heat_blind(victim);
       break;
     case SPELL_SHOCKING_GRASP:
       savetype = SAVING_ELEC;
-      dam = dice(5, 8) + 5;
+      dam = spell_dam(level, 140);
       break;
     case SPELL_LIGHTNING_BOLT:
       savetype = SAVING_ELEC;
-      dam = dice(7, 8) + level;
+      dam = spell_dam(level, 180);
       break;
     case SPELL_COLOR_SPRAY:
-      dam = dice(9, 8) + 9;
+      dam = spell_dam(level, 200);
       break;
     case SPELL_FIREBALL:
       savetype = SAVING_FIRE;
-      dam = 2 * level;
+      dam = spell_dam(level, 250);
       heat_blind(victim);
       break;
     case SPELL_DISPEL_EVIL:
-      dam = dice(6, 8) + 6;
+      dam = spell_dam(level, 200);
       if (IS_EVIL(ch)) {
 	victim = ch;
 	dam = GET_HIT(ch) - 1;
@@ -290,7 +327,7 @@ void mag_damage(int level, struct char_data * ch, struct char_data * victim,
       }
       break;
     case SPELL_DISPEL_GOOD:
-      dam = dice(6, 8) + 6;
+      dam = spell_dam(level, 200);
       if (IS_GOOD(ch)) {
 	victim = ch;
 	dam = GET_HIT(ch) - 1;
@@ -302,32 +339,32 @@ void mag_damage(int level, struct char_data * ch, struct char_data * victim,
       break;
     case SPELL_CALL_LIGHTNING:
       savetype = SAVING_ELEC;
-      dam = dice(7, 8) + 7;
+      dam = spell_dam(level, 200);
       break;
     case SPELL_HARM_LIGHT:
       savetype = SAVING_SPELL;
-      dam = dice(1, 8) + 1 + (level >> 3);
+      dam = spell_dam(level, 100);
       break;
     case SPELL_HARM_SERIOUS:
       savetype = SAVING_SPELL;
-      dam = dice(2, 8) + 1 + (level >> 2);
+      dam = spell_dam(level, 150);
       break;
     case SPELL_HARM_CRITICAL:
       savetype = SAVING_SPELL;
-      dam = dice(3, 8) + 1 + (level >> 2);
+      dam = spell_dam(level, 200);
       break;
     case SPELL_HARM:
       if (GET_LEVEL(victim) <= (level >> 1))
 	dam = GET_HIT(victim) - dice(2, 4);
       else
-	dam = dice(GET_LEVEL(ch) >> 1, 8) + 8;
+	dam = spell_dam(level, 300);
       GET_ALIGNMENT(ch) = MAX(-1000, GET_ALIGNMENT(ch) - dam);
       break;
     case SPELL_ENERGY_DRAIN:
       if (GET_LEVEL(victim) <= (GET_LEVEL(ch) >> 2))
 	dam = GET_HIT(victim);
       else
-	dam = dice(GET_LEVEL(ch) >> 2, 10);
+	dam = spell_dam(level, 150);
       GET_ALIGNMENT(ch) = MAX(-1000, GET_ALIGNMENT(ch) - dam);
       GET_EXP(victim) = MAX(0L, (long)GET_EXP(victim) - dam);
       GET_MOVE(ch) = MIN(GET_MAX_MOVE(ch), GET_MOVE(ch) + (dam >> 1));
@@ -342,21 +379,21 @@ void mag_damage(int level, struct char_data * ch, struct char_data * victim,
       }
       break;
     case SPELL_EARTHQUAKE:
-      dam = dice(4, 8) + level;
+      dam = spell_dam(level, 150);
       break;
     case SPELL_ICE_SHOWER:
       savetype = SAVING_COLD;
       if (world[victim->in_room].sector_type == SECT_INSIDE)
 	dam = 0;
       else
-	dam = dice(level, 20) + (level*2);
+	dam = spell_dam(level, 300);
       break;
     case SPELL_FIRE_STORM:
       savetype = SAVING_FIRE;
       if (world[victim->in_room].sector_type == SECT_INSIDE)
 	dam = 0;
       else {
-	dam = dice((level<<1), 40) + (level*2);
+	dam = spell_dam(level, 350);
 	heat_blind(victim);
       }
       break;
@@ -365,32 +402,39 @@ void mag_damage(int level, struct char_data * ch, struct char_data * victim,
       if (world[victim->in_room].sector_type == SECT_INSIDE)
 	dam = 0;
       else {
-	dam = dice((level << 2), 50);
+	dam = spell_dam(level, 400);
 	heat_blind(victim);  /* Don't meteors get red hot too? */
       }
       break;
     case SPELL_FIRE_BREATH:
       savetype = SAVING_FIRE;
-      dam = dice(level, 5);
+      dam = breath_dam(level, 30);
       heat_blind(victim);
       break;
     case SPELL_GAS_BREATH:
       savetype = SAVING_ACID;
-      dam = dice(level >> 1, level >> 2);
+      dam = breath_dam(level, 20);
       break;
     case SPELL_FROST_BREATH:
       savetype = SAVING_COLD;
-      dam = dice(level, 4);
+      dam = breath_dam(level, 25);
       break;
     case SPELL_ACID_BREATH:
       savetype = SAVING_ACID;
-      dam = dice(level, level >> 2);
+      dam = breath_dam(level, 30);
       break;
     case SPELL_LIGHTNING_BREATH:
       savetype = SAVING_ELEC;
-      dam = dice(level >> 2, level << 1);
+      dam = breath_dam(level, 30);
       break;
   } /* switch(spellnum) */
+
+  /* A mob's spells (not its breath) hit players at 30%: the scale above */
+  /* is a player's, and a casting mob's spec may fire several times a   */
+  /* round on top of its blows.                                         */
+  if (IS_NPC(ch) && !IS_NPC(victim) &&
+      (spellnum < SPELL_FIRE_BREATH || spellnum > SPELL_LIGHTNING_BREATH))
+    dam = MAX(1, dam * 3 / 10);
 
   /* divide damage by two if victim makes his saving throw */
   if (mag_savingthrow(victim, savetype))
@@ -1234,22 +1278,22 @@ void mag_points(int level, struct char_data * ch, struct char_data * victim,
 
   switch (spellnum) {
     case SPELL_HEAL_LIGHT:
-      hit = dice(1, 8) + 1 + (level >> 2);
+      hit = heal_amount(level, 12);
       send_to_char("You feel a little bit better.\r\n", victim);
       act("A few of $N's wounds close up.", TRUE, ch, 0, victim, TO_NOTVICT);
       break;
     case SPELL_HEAL_SERIOUS:
-      hit = dice(2, 8) + 2 + (level >> 2);
+      hit = heal_amount(level, 25);
       send_to_char("You feel better.\r\n", victim);
       act("Several of $N's wounds close up.", TRUE, ch, 0, victim, TO_NOTVICT);
       break;
     case SPELL_HEAL_CRITIC:
-      hit = dice(3, 10) + level;
+      hit = heal_amount(level, 40);
       send_to_char("You feel a lot better!\r\n", victim);
       act("Many of $N's wounds close up.", TRUE, ch, 0, victim, TO_NOTVICT);
       break;
     case SPELL_HEAL:
-      hit = (25 * level) + dice(5, 8);
+      hit = heal_amount(level, 100);
       send_to_char("A warm feeling floods your body.\r\n", victim);
       act("$N's wounds glow blue for a moment then disappear!", TRUE, ch, 0, victim, TO_NOTVICT);
       break;
@@ -1259,7 +1303,7 @@ void mag_points(int level, struct char_data * ch, struct char_data * victim,
       send_to_char("You feel fully rested.\r\n", victim);
       break;
     case SPELL_LIFESTEAL:
-      hit = (dice(4, 5) + level);
+      hit = spell_dam(level, 120);
       for (i = 0; i < 4; i++)
 	GET_COND(victim, i) = 0;
       GET_HIT(ch) = MIN(GET_MAX_HIT(ch), GET_HIT(ch) + hit);

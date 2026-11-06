@@ -7,8 +7,8 @@ The soldier looks very ferocious and won't be an easy fight
 no matter what.  
 ~
 cdgijm cgkr 0 S
-12 2 88 1d10+60 1d10+9
-2000 12000
+25 22 11 8d6+38 3d2+0
+144 5330
 8 8 1
 >in_file_prog sess.prg~
 |
@@ -21,8 +21,8 @@ The shaman looks to be some kind of monk in touch with his god.
 A symbol of a 5 headed dragon is printed on his armband.
 ~
 dgijmo cdgkt 0 S
-14 3 92 2d10+100 1d8+8
-100 13000
+27 24 12 9d6+39 3d6+0
+163 6186
 8 8 1
 >in_file_prog lizshaman.prg~
 |
@@ -34,8 +34,8 @@ An old woman stirs a pot of stew over a fire.
 The woman has an evil glimmer in her eye.
 ~
 bcdelo hkmnr -1000 S
-35 3 87 1d1+400 1d15+5
-1 150000
+88 54 27 29d6+15 8d3+0
+1338 63038
 8 8 2
 >in_file_prog witch.prg~
 |
@@ -49,8 +49,8 @@ He says gruffly, 'Beware the witch!  She'll eat yer
 skin while yer still alive!'.
 ~
 bdelmq k 500 S
-15 8 92 1d1+100 1d10+7
-1000 7000
+54 37 18 18d6+85 5d6+0
+545 24006
 8 8 1
 >in_file_prog wayguard.prg~
 |
@@ -64,8 +64,8 @@ into the Serdim-ir-Lesk.  They come out of nowhere and attack
 without quarter.
 ~
 defghq fgkp -500 E
-8 2 80 3d10+20 2d6+5
-0 7000
+23 22 11 7d6+37 2d8+0
+125 4538
 8 8 0
 Race: 43
 E
@@ -81,8 +81,8 @@ The tentacle wraps itself around the prey and stings it then draws it down
 into the body and digests the prey.
 ~
 bdf fkpt 0 S
-16 2 88 1d20+100 1d9+9
-0 15000
+28 24 12 9d6+42 3d6+0
+174 6638
 8 8 0
 #32007
 black-bird-raven~
@@ -93,8 +93,8 @@ It is a black bird...a raven.  He looks at you with intelligent
 eyes but pays you no mind.
 ~
 bd gkp -1000 S
-40 1 91 1d1+500 1d20+50
-0 10000
+97 58 29 32d6+141 9d6+0
+1605 76466
 8 8 0
 #32008
 thestrangemirror~
@@ -104,8 +104,8 @@ A strange, tall mirror stands here reflecting your image back at you.
 Goddamn!  How'd you figure out the keyword of this???
 ~
 bdelnopqr cdeghkmnpr 1000 S
-49 100 42 1d1+30000 5d10+90
-0 1000000
+30 25 12 10d6+200 3d3+0
+1755 45540
 8 8 0
 >in_file_prog mirror.prg~
 |
@@ -121,8 +121,8 @@ but strong scales of armor in the same shape, color, feel
 of normal leaves.
 ~
 dfgh bgkrst 0 S
-9 4 61 1d30+70 1d8+9
-0 9000
+24 22 11 8d6+36 3d2+0
+134 4926
 8 8 0
 >in_file_prog bush.prg~
 |
@@ -135,8 +135,8 @@ He has a very rugged look to his face and his eyes look back at
 you keenly.  His beard is getting very long but hasn't grayed yet.
 ~
 cdg gk 500 S
-11 5 65 1d50+45 1d10+5
-3000 9000
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 1
 #32011
 thyet weltinelf elf man old~
@@ -148,8 +148,8 @@ is forgotten today as most people thought him to have been killed.
 But he is now just a mistaken hermit in the Serdim-ir-Lesk.
 ~
 bdo mp 1000 S
-20 2 32 1d50+400 1d20+13
-1000 30000
+62 41 20 20d6+102 6d6+0
+701 31526
 8 8 1
 >in_file_prog thyet.prg~
 |
@@ -163,8 +163,8 @@ the giant mushroom, tiny, razor sharp needles.  This thing
 does not look like a good trip.
 ~
 bdfqx f 0 S
-16 3 49 1d30+90 1d10+11
-0 10000
+28 24 12 9d6+42 3d6+0
+174 6638
 8 8 0
 #32013
 old hermit man~
@@ -176,8 +176,8 @@ That's where ye go when ye have become a Hero to the people.  Only
 the strongest survive.  
 ~
 bd 0 700 S
-14 4 63 1d30+80 1d10+10
-1000 10000
+52 36 18 17d6+82 5d6+0
+510 22286
 8 8 1
 #32014
 light eyes statue gaze~
@@ -188,8 +188,8 @@ The light seems to come from far behind the statue's eyes, patient and
 watchful.
 ~
 bdenopqr k 0 S
-1 20 -10 1d1+30000 1d1+0
-0 0
+20 20 10 6d6+34 2d7+0
+100 3470
 8 8 0
 >in_file_prog pz_statue.prg~
 |

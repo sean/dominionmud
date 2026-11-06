@@ -1,7 +1,7 @@
 #330
 The Labyrinth~
 Malachi~
-BUILDING~
+85-95~
 3001 0
 33999 120 2
 *
@@ -9,5 +9,18 @@ BUILDING~
 *           By: Malachi
 *
 M 0 33000 1 33000 100 	* a lost cartographer at room 33000 (quest giver). (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 33001 5 33030 100 	* a minotaur (level 88)
+M 0 33001 5 33034 100 	* a minotaur (level 88)
+M 0 33001 5 33015 100 	* a minotaur (level 88)
+M 0 33001 5 33028 100 	* a minotaur (level 88)
+M 0 33001 5 33022 100 	* a minotaur (level 88)
+M 0 33002 4 33045 100 	* a labyrinth stalker (level 90)
+M 0 33002 4 33051 100 	* a labyrinth stalker (level 90)
+M 0 33002 4 33041 100 	* a labyrinth stalker (level 90)
+M 0 33002 4 33055 100 	* a labyrinth stalker (level 90)
+M 0 33003 2 33001 100 	* a chromatic horror (level 92)
+M 0 33003 2 33032 100 	* a chromatic horror (level 92)
+M 0 33004 1 33002 100 	* Asterion, Lord of the Labyrinth (group boss)
 S
 $~

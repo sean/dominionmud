@@ -409,6 +409,9 @@ void boot_db(void)
   log("Loading guilds.");
   load_guilds();
 
+  log("Working out item levels.");
+  compute_levels();
+
   log("Assigning function pointers:");
 
   if (!no_specials) {
@@ -422,6 +425,10 @@ void boot_db(void)
     load_quests();
     log("   The Lyceum.");
     load_theater();
+    log("   The Sea Wren.");
+    load_ships();
+    log("   The Arena.");
+    load_arena();
     log("   Objects.");
     assign_objects();
     log("   Rooms.");
@@ -1146,10 +1153,7 @@ void parse_fuzzy_mob(FILE *mob_f, unsigned long i, unsigned long nr)
   mob_proto[i].points.max_mana = mob_proto[i].points.mana;
   mob_proto[i].points.max_move = mob_proto[i].points.move;
 
-  if (GET_LEVEL(mob_proto + i) <= 50)
-    GET_EXP(mob_proto + i) = (exp_needed(GET_LEVEL(mob_proto + i))/6);
-  else
-    GET_EXP(mob_proto + i) = (exp_needed(40) + (exp_needed(25)*100000)/4);
+  GET_EXP(mob_proto + i) = mob_exp_for_level(GET_LEVEL(mob_proto + i));
 
   if (IS_HUMANOID(mob_proto + i))
     GET_GOLD(mob_proto + i) = (GET_LEVEL(mob_proto + i)*number(1, 50));
@@ -1178,7 +1182,7 @@ void parse_fuzzy_mob(FILE *mob_f, unsigned long i, unsigned long nr)
     GET_COND(mob_proto + i, j) = -1;
   
   for (j = 0; j < 5; j++)
-    GET_SAVE(mob_proto + i, j) = saving_throws( mob_proto + i, j );
+    GET_SAVE(mob_proto + i, j) = 0;   /* the base is in saving_throws() */
 
   mob_proto[i].mob_specials.sounds       = NULL;
   mob_proto[i].mob_specials.distant_snds = NULL;
@@ -3588,7 +3592,7 @@ void recalc_stats(struct char_data *mob)
 {
   int i = 0;
 
-  GET_EXP(mob)     = ((exp_needed(GET_LEVEL(mob))) >> 5);
+  GET_EXP(mob)     = mob_exp_for_level(GET_LEVEL(mob));
   GET_HITROLL(mob) = (GET_LEVEL(mob) << 1) + dice(2, 10);
   GET_DAMROLL(mob) = (GET_LEVEL(mob) << 1) + dice(2, 10);
   /* Num of damage dice */

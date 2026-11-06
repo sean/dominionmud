@@ -719,7 +719,21 @@ void Crash_calculate_rent(struct obj_data * obj, int *cost)
 }
 
 
+static void Crash_crashsave_real(struct char_data * ch);
+
+/* A pirate captive's things are in a sea chest on Blackwake's Isle */
+/* (ship.c); his crash file holds them as if he were carrying them.  */
 void Crash_crashsave(struct char_data * ch)
+{
+  int lent = ship_lend_gear(ch, TRUE);
+
+  Crash_crashsave_real(ch);
+  if (lent)
+    ship_lend_gear(ch, FALSE);
+}
+
+
+static void Crash_crashsave_real(struct char_data * ch)
 {
   char buf[MAX_INPUT_LENGTH];
   struct rent_info rent;
@@ -770,6 +784,7 @@ void Crash_idlesave(struct char_data * ch)
 
   if (IS_NPC(ch))
     return;
+  ship_rent(ch);                /* ship.c: a captive leaves with his things */
 
   if (!get_filename(GET_NAME(ch), buf, CRASH_FILE))
     return;
@@ -850,6 +865,7 @@ void Crash_rentsave(struct char_data * ch, int cost)
 
   if (IS_NPC(ch))
     return;
+  ship_rent(ch);                /* ship.c: a captive leaves with his things */
 
   if (!get_filename(GET_NAME(ch), buf, CRASH_FILE))
     return;
@@ -901,6 +917,7 @@ void Crash_cryosave(struct char_data * ch, int cost)
 
   if (IS_NPC(ch))
     return;
+  ship_rent(ch);                /* ship.c: a captive leaves with his things */
 
   if (!get_filename(GET_NAME(ch), buf, CRASH_FILE))
     return;

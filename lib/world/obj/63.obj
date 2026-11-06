@@ -12,8 +12,8 @@ a very sharp knife~
 A very sharp knife lies here.~
 ~
 5 glmnp an
-0 8 1 11 0 0 0 0 14
-9 1000 2500
+0 3 10 11 0 0 0 0 14
+9 651 65
 E
 knife thief~
 A keen knife, very sharp -- you could cut the air in two!
@@ -28,8 +28,8 @@ a wizard's hat~
 A blue wizard's hat lies here.~
 ~
 9 fgnop ae
-6 0 0 0 0 0 0 0 14
-5 20000 10000
+17 0 0 0 0 0 0 0 14
+5 442 44
 E
 hat wizard~
 A hat made of blue cloth.  It looks very comfortable.
@@ -44,14 +44,14 @@ a pontiff's headdress~
 A white cone-shaped head ornament with religious symbols lies here.~
 ~
 9 fgmop ae
-6 0 0 0 0 0 0 0 14
-5 20000 10000
+17 0 0 0 0 0 0 0 14
+5 442 44
 E
 headress pontiff ornament cone head~
 A starchy headdress worn by powerful secular types.
 ~
 A
-4 3
+4 2
 A
 12 13
 #6304
@@ -60,8 +60,8 @@ a black knight's visor~
 A black visor sits here.~
 ~
 9 fgmno ae
-8 0 0 0 0 0 0 0 14
-5 20000 10000
+19 0 0 0 0 0 0 0 14
+5 451 45
 E
 visor black knight~
 A visor that protects the head, good for warriors.
@@ -76,8 +76,8 @@ a thick white potion~
 A thick white potion has been left here.~
 ~
 10 g a
-25 15 35 19 0 0 0 0 14
-9 21000 1000
+37 15 35 19 0 0 0 0 14
+9 268 26
 E
 potion thick white~
 It is disgusting thick white gunk which looks like liquid web and smells like

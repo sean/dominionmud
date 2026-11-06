@@ -8,8 +8,8 @@ its copper scales seems to stop time.  The Dragon does not seem happy
 that you are here.  It ATTACKS.
 ~
 abdfl dfh 350 E
-20 43 57 1d12+400 2d15+20
-0 85999
+50 35 18 16d6+11 5d5+0
+475 20630
 8 8 1
 BareHandAttack: 8
 Race: 37
@@ -23,8 +23,8 @@ A intimidating Dragon stands before you.  The icy
 glare blinds you long enough for the Ice Dragon to devour you.
 ~
 abdfgl dfhw -350 E
-20 30 68 1d12+450 3d6+40
-0 73000
+50 35 18 16d6+11 5d5+0
+475 20630
 8 8 1
 Race: 35
 E
@@ -38,8 +38,8 @@ He loves to pick on travelers, and guess what....
 It's your turn :).
 ~
 dfghi 0 500 S
-4 11 39 1d6+50 1d6+2
-50 500
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 0
 #6603
 Time Dragon Spirit~
@@ -51,8 +51,8 @@ the copper dragons who have stood sentinel over this spot.
 The Spirit lunges for your SOUL!!!!!!!
 ~
 abdfgl bdfhswz 0 E
-30 21 43 1d12+550 3d6+31
-50000 90000
+55 38 19 18d6+12 5d6+0
+564 24890
 8 8 0
 Race: 40
 E
@@ -66,8 +66,8 @@ previous white dragon guardians.
 The Spirit attempts to leech you life blood from your body.
 ~
 abdfgl bdfhswz 0 E
-30 25 52 1d12+550 3d2+26
-50000 85000
+55 38 19 18d6+12 5d6+0
+564 24890
 8 8 0
 BareHandAttack: 8
 Race: 35
@@ -82,8 +82,8 @@ The King loves to frolic and play, especially with new friends.
 He asks you "Will you be my fwiend?".
 ~
 bdfgil df 1000 S
-10 10 24 1d10+80 2d6+2
-0 2000
+45 32 16 15d6+67 4d6+0
+394 16770
 8 8 1
 #6606
 gate keeper gatekeeper~
@@ -95,8 +95,8 @@ carrying a large burden for some time.  You feel sorry for him, but
 he does have the key that you need to continue on through the cave.
 ~
 bdfgil df 0 S
-10 10 9 1d5+170 3d5+16
-0 5000
+45 32 16 15d6+67 4d6+0
+394 16770
 8 8 1
 #6607
 eternity dragon~
@@ -110,8 +110,8 @@ completely filled by the dragon.  At the time it seems peaceful, but you
 can tell that attacking it would be the dumbest, and last thing you ever did.
 ~
 abdeglp dfhkmnpsu 1000 E
-42 99 30 1d1+29000 12d12+99
-100000 3500000
+57 38 19 19d6+406 5d7+0
+5409 160236
 8 8 0
 Race: 34
 E
@@ -123,8 +123,8 @@ The Pixie Guard doesn't really do much to inspire fear in your heart, but you
 suppose that if pressed, he could fight quite viciously compared to most
 Pixies.~
 bdgm t 1000 S
-10 5 21 1d1+149 2d4+2
-200 2000
+66 43 22 22d6+104 6d6+0
+785 35670
 8 8 1
 #6609
 mage pixie master~
@@ -137,7 +137,7 @@ at you maliciously.  The Staff he carries seems familiar, but you are not
 sure from where you remember it.
 ~
 bdl dh -500 S
-15 0 4 1d1+499 1d1+1
-2000 20000
+71 46 23 23d6+16 6d6+0
+898 41210
 8 8 1
 $~

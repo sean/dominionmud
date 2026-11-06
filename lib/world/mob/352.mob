@@ -7,8 +7,35 @@ A lean gnome in buckskins with a short bow and a quiver of fletched
 reeds.  She moves through the grass without a sound.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+51 36 18 17d6+79 5d6+0
+492 21450
+8 8 1
+E
+#35201
+coyote plains~
+a plains coyote~
+A scrawny plains coyote slinks through the grass.
+~
+A rangy, yellow-grey coyote with a torn ear, all ribs and teeth.  It watches you
+sideways and keeps its distance - for now.
+~
+dg 0 0 E
+3 12 6 1d6+19 1d4+0
+7 138
+8 8 1
+E
+#35202
+bear great plains grizzly~
+a great plains bear~
+A great humped plains bear rears up out of the grass, huffing!
+~
+A grizzled old bear the size of a hay wagon, with claws like sickles and a
+hide scarred by every hunter who ever tried for it.  Hunters from the
+monastery go after it in twos and threes, and not all of them come back.
+~
+dg 0 0 E
+8 14 7 2d6+118 1d9+0
+156 2552
 8 8 1
 E
 $~

@@ -1,7 +1,7 @@
 #53
 Arena/Desert of Demise~
 Airc~
-All~
+48-58~
 3001 1
 5499 10 2
 *
@@ -96,5 +96,9 @@ M 0 5301 5 5327 100 	* the sniper at Atop the Arena Wall. (Max: 5)
 M 0 5301 5 5328 100 	* the sniper at Atop the Arena Wall. (Max: 5)
 M 0 5301 5 5330 100 	* the sniper at Atop the Arena Wall. (Max: 5)
 M 0 5301 5 5331 100 	* the sniper at Atop the Arena Wall. (Max: 5)
+* Nov 2026: the bookmaker and the arena master (arena.c, lib/data/arena)
+M 0 5318 1 5470 100 	* Ossian Vell, the bookmaker
+O 0 5316 1 5470 100 	* the odds board
+M 0 5319 1 5320 100 	* the arena master at the Northern Gate
 S
 $~

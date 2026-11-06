@@ -5,8 +5,8 @@ A falchion lies discarded here.~
 It is a short sword of the hacking variety, it seems a bit worn.
 ~
 5 0 am
-0 2 6 3 0 0 0 0 14
-5 900 800
+0 3 7 3 0 0 0 0 14
+5 406 40
 #10402
 chalice cup~
 a chalice~
@@ -29,8 +29,8 @@ a tonic of comfrey root~
 A tonic of comfrey root has been discarded here.~
 ~
 10 g a
-15 89 89 83 0 0 0 0 14
-1 600 200
+42 89 89 83 0 0 0 0 14
+1 322 32
 E
 tonic potion comfrey~
 What doesn't kill you makes you stronger, right?
@@ -41,8 +41,8 @@ an elixir of Adder's Tongue~
 An elixir of Adder's Tongue lies here.~
 ~
 10 g a
-25 83 71 100 0 0 0 0 14
-1 600 200
+35 83 71 100 0 0 0 0 14
+1 248 24
 #10406
 key skeleton~
 a skeleton key~
@@ -61,8 +61,8 @@ a blowgun~
 A long, bamboo blowgun rest on the ground.~
 ~
 5 0 a
-0 9 2 5 0 0 0 0 14
-5 16000 3000
+0 4 9 5 0 0 0 0 14
+5 884 88
 A
 18 1
 #10408
@@ -79,8 +79,8 @@ the Bloodstone~
 A large, dull red stone awaits, invitingly, to be picked up.~
 ~
 4 begj am
-13 7 7 25 0 0 0 0 14
-8 30000 15000
+48 7 7 25 0 0 0 0 14
+8 394 39
 E
 bloodstone stone~
 It glows malignantly with its own ruddy light.  You peer within the
@@ -90,15 +90,15 @@ trapped within.
 A
 4 -2
 A
-5 3
+5 2
 #10410
 heartseeker stiletto~
 the heartseeker~
 A nasty looking stiletto with a shiny black blade lies amid the dust.~
 ~
 5 begj am
-0 3 3 11 0 0 0 0 14
-3 10000 3500
+0 4 6 11 0 0 0 0 14
+3 619 61
 A
 18 3
 A
@@ -109,8 +109,8 @@ a scarab shield~
 A shield with a large, dead scarab mounted in the center lies here.~
 ~
 9 eg ai
-6 0 0 0 0 0 0 0 14
-17 9000 3000
+14 0 0 0 0 0 0 0 14
+17 361 36
 A
 13 5
 #10412
@@ -119,8 +119,8 @@ the Mace of the Skull~
 A skull-headed mace has been left here.~
 ~
 5 bgj am
-0 3 6 7 0 0 0 0 14
-14 12000 4000
+0 4 9 7 0 0 0 0 14
+14 886 88
 A
 19 2
 A
@@ -138,7 +138,7 @@ buckler arsenal~
 The buckler has a circle of throwing knives set around its center spike.
 ~
 A
-17 -5
+17 3
 #10414
 knife~
 a throwing knife~
@@ -166,8 +166,8 @@ a guisarme~
 A long, sharp polearm has been left here.~
 ~
 5 0 am
-3 2 8 3 0 0 0 18 14
-16 1500 500
+3 3 10 3 0 0 0 18 14
+16 641 64
 A
 18 -2
 A
@@ -178,8 +178,8 @@ a minstrels glove~
 A single, white minstrel's glove has been discarded here.~
 ~
 9 ag ah
-35 0 0 0 0 0 0 19 14
-8 4500 1000
+19 0 0 0 0 0 0 19 14
+8 428 42
 A
 18 2
 #10418
@@ -188,8 +188,8 @@ a suit of shabby mail~
 A worn and shabby suit of ring mail has been cast away here.~
 ~
 9 g ac
-9 0 0 0 0 0 0 0 14
-20 70000 1000
+16 0 0 0 0 0 0 0 14
+20 407 40
 E
 mail shabby~
 It seems about ready to fall apart!
@@ -216,8 +216,8 @@ a flail~
 A rusty grave beater flail has been dropped here.~
 ~
 5 0 am
-0 2 7 7 0 0 0 0 14
-12 1500 2150
+0 3 9 7 0 0 0 0 14
+12 659 65
 E
 flail beater grave~
 This flail seems only to have been used to keep the dead in their place.

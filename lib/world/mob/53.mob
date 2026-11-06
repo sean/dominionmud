@@ -6,8 +6,8 @@ A wandering fan is standing here screaming.
 The fan pays you no attention.  He has his full attention tuned to The Arena.
 ~
 d 0 0 E
-8 19 0 4d16+16 2d6+30
-300 5000
+49 34 17 16d6+76 5d5+0
+458 19826
 8 8 1
 Race: 0
 Height: 60
@@ -21,8 +21,8 @@ A sniper is standing here prepared to shoot.
 The sniper glances at you briefly as if to wonder what your business is here.
 ~
 bd 0 100 E
-20 43 38 100d40+40 4d4+50
-500 100000
+53 36 18 17d6+70 5d6+0
+527 23138
 8 8 1
 BareHandAttack: 11
 Str: 12
@@ -44,8 +44,8 @@ The female marksman is sitting and paying you no attention.  She obviously
 has more important things to worry about than you.
 ~
 bdlnopr 0 0 E
-22 47 54 80d100+50 2d12+50
-10000 180000
+54 37 18 18d6+77 5d6+0
+545 24006
 8 8 2
 Str: 15
 Dex: 12
@@ -65,8 +65,8 @@ A fanatical fan is standing here screaming.
 The fan pays you no attention.  He has his full attention tuned to The Arena.
 ~
 bd 0 0 E
-8 19 84 6d20+25 3d4+29
-250 4000
+66 43 22 22d6+104 6d6+0
+785 35670
 8 8 1
 Race: 0
 Height: 60
@@ -82,12 +82,12 @@ The Dominion.  You stare at it and it stares back seemingly unafraid
 of your presence.
 ~
 abdlnopr fhmt 1000 E
-36 75 68 80d100+50 8d2+65
-0 200000
+57 38 19 15d6+2 5d3+0
+601 26706
 8 8 2
 BareHandAttack: 6
-Str: 22
-Dex: 22
+Str: 19
+Dex: 17
 Int: 21
 Wis: 19
 Con: 21
@@ -105,8 +105,8 @@ You look at her and she looks away pretending not to notice you.  She looks
 very weary and in desperate need of food and water.
 ~
 cdh 0 50 E
-8 19 62 8d14+16 1d6+25
-50 2500
+66 43 22 22d6+104 6d6+0
+785 35670
 8 8 2
 Race: 0
 Height: 62
@@ -121,8 +121,8 @@ The merchant looks weather beaten, hardened by his years in the sun.  He
 peers at you with a look of concern that you might be after his wealth.
 ~
 cd 0 0 E
-8 19 72 12d12+16 2d4+30
-100 2500
+66 43 22 22d6+104 6d6+0
+785 35670
 8 8 1
 BareHandAttack: 7
 Race: 0
@@ -138,12 +138,12 @@ This man is massive.  His eyes glow red from all the blood on the
 battlefield.  He is ready to make you part of that battlefield.
 ~
 cdnopr 0 0 E
-36 75 91 100d100+100 10d4+80
-10000 200000
+60 40 20 20d6+805 6d4+0
+7920 236400
 8 8 1
 BareHandAttack: 15
-Str: 21
-Dex: 19
+Str: 20
+Dex: 18
 Int: 21
 Wis: 22
 Con: 20
@@ -163,8 +163,8 @@ that will be scars in the future.  He glares at you as you
 approach.
 ~
 di 0 1000 E
-16 35 97 100d10+100 4d4+50
-0 30000
+52 36 18 17d6+74 5d6+0
+510 22286
 8 8 1
 BareHandAttack: 7
 Str: 9
@@ -187,8 +187,8 @@ caked to him makes him even uglier.  He seems very weary from his
 long hours spent in the arena.
 ~
 dj 0 -1000 E
-16 35 98 100d10+100 4d4+50
-0 30000
+52 36 18 17d6+82 5d6+0
+510 22286
 8 8 1
 BareHandAttack: 7
 Str: 12
@@ -209,11 +209,11 @@ of The Dominion.  It stands proudly and walks toward you.
 Will you be its next meal?
 ~
 ad r 0 E
-30 63 76 100d100+100 8d8+75
-0 200000
+56 38 19 18d6+52 5d2+0
+582 25790
 8 8 0
 BareHandAttack: 9
-Str: 18
+Str: 17
 Dex: 16
 Int: 17
 Wis: 17
@@ -232,8 +232,8 @@ This bear looks very hungry.  And he appears to be ready to
 take it out on you.
 ~
 adfijkt 0 0 E
-20 43 58 50d100+100 4d4+50
-0 60000
+53 36 18 17d6+85 5d6+0
+527 23138
 8 8 0
 BareHandAttack: 8
 Con: 13
@@ -251,8 +251,8 @@ no intention of giving away its presence until you are within
 leaping distance.
 ~
 adft 0 0 E
-20 43 54 50d100+40 4d4+50
-0 60000
+53 36 18 17d6+77 5d6+0
+527 23138
 8 8 0
 BareHandAttack: 9
 Str: 13
@@ -271,8 +271,8 @@ A terrified peasant is here preparing himself to die.
 He looks really really worried about something...
 ~
 cd 0 1000 E
-8 19 54 8d16+16 4d4+50
-0 5000
+66 43 22 22d6+104 6d6+0
+785 35670
 8 8 1
 BareHandAttack: 13
 Race: 0
@@ -287,8 +287,8 @@ A massive timberwolf prepares to devour you where you stand.
 This huge canine is very very hungry and you could be its next meal.
 ~
 adft 0 0 E
-20 43 52 50d100+40 4d4+50
-0 60000
+53 36 18 17d6+85 5d6+0
+527 23138
 8 8 0
 Race: 22
 Height: 60
@@ -303,8 +303,8 @@ He attempts to peek into your inventory for any possible sign of
 water.
 ~
 cdt 0 0 E
-10 23 37 5d20+20 4d2+20
-200 6500
+68 44 22 22d6+109 6d6+0
+830 37838
 8 8 1
 BareHandAttack: 13
 Race: 0
@@ -321,8 +321,8 @@ to step on, and it appears to have no fear of fighting you for its
 meal.  It is about three feet in length.
 ~
 adnopqrt 0 0 E
-15 33 55 5d30+30 4d4+50
-0 15000
+50 35 18 16d6+86 5d5+0
+475 20630
 8 8 2
 BareHandAttack: 1
 Str: 8
@@ -342,12 +342,12 @@ Swirling colors converge here to surround a female figure.
 Aryn sparkles before you prepared to help you in any way she can.
 ~
 bdlnopqr ahk 1000 E
-42 80 87 80d80+20 20d20+80
-100 100000
+58 39 20 16d6+0 5d4+0
+621 27638
 8 8 2
 BareHandAttack: 16
-Str: 25
-Dex: 22
+Str: 19
+Dex: 17
 Int: 25
 Wis: 24
 Con: 25
@@ -357,135 +357,178 @@ Height: 65
 Weight: 125
 E
 #5318
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+bookmaker bookie ossian vell~
+Ossian Vell, the bookmaker~
+Ossian Vell, the bookmaker, leans on his counter, chalk in hand.
 ~
-d 0 0 S
-0 3 12 0d0+0 0d0+0
+A small, neat man with ink-black hair oiled flat, a waistcoat of yellow silk
+and eyes that never stop counting.  He has kept the Arena's book for thirty
+years.  They say he has never lost a day, and never carries a single coin
+on him - the takings go straight down a pipe into a strongroom nobody has
+ever found.
+~
+abdenopqr 0 0 E
+105 62 31 35d6+148 9d7+0
 0 0
-8 8 0
+8 8 1
+E
 #5319
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+master arena~
+the arena master~
+The arena master stands by the gate with a list of names, sizing up the fighters.
 ~
-d 0 0 S
-0 3 1 0d0+0 0d0+0
+A one-eyed veteran of a thousand bouts, broad as a door, with a scarred
+scalp and a voice like a gravel cart.  He matches challengers against the
+Arena's gladiators (CHALLENGE, or LIST for the terms).
+~
+abdenopqr 0 0 E
+105 62 31 35d6+148 9d7+0
 0 0
-8 8 0
+8 8 1
+E
 #5320
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+brakka orc unbroken~
+Brakka the Unbroken~
+Brakka the Unbroken, an orc pit-fighter, cracks his knuckles.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A slab-shouldered orc covered in old scars, who has never yet been knocked
+from his feet - or so the crowd chants.
+~
+bdgno 0 0 E
+55 38 19 18d6+88 5d3+0
+564 24890
+8 8 1
+Str: 19
+E
 #5321
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+sela quickblade~
+Sela Quickblade~
+Sela Quickblade spins a pair of short swords, grinning.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A lithe swordswoman in a scrap of leather armour, faster than the eye can
+follow, and well aware of it.
+~
+bdgno r 0 E
+52 36 18 17d6+37 5d3+0
+510 22286
+8 8 2
+Dex: 19
+E
 #5322
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+bull red~
+the Red Bull~
+The Red Bull, a monstrous red-hided bull, paws the sand.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A bull the size of a cart, dyed crimson, with brass caps on its horns.
+~
+bdgno 0 0 E
+56 38 19 18d6+91 5d3+0
+582 25790
+8 8 1
+Str: 19
+E
 #5323
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+ironjaw old bear~
+Old Ironjaw~
+Old Ironjaw, a grizzled arena bear, sways and grumbles.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A huge grey bear with an iron band riveted around one broken jaw.
+~
+bdgno 0 0 E
+54 37 18 18d6+85 5d6+0
+545 24006
+8 8 1
+E
 #5324
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+tomas net retiarius~
+Tomas the Net~
+Tomas the Net swings a weighted net and a long trident.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A lean, patient fighter with a net, a trident and nothing else - and a
+long record of opponents who laughed at that.
+~
+bdgno 0 0 E
+50 35 18 16d6+36 5d5+0
+475 20630
+8 8 1
+Dex: 18
+E
 #5325
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+ghazhul troll sand~
+Ghazhul the sand troll~
+Ghazhul the sand troll squats on its haunches, gnawing a bone.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A sand-coloured troll whose hide turns aside all but the best blows.
+~
+bdgno h 0 E
+58 39 20 19d6+14 5d6+0
+621 27638
+8 8 1
+E
 #5326
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+vexa lady twin blades~
+Lady Vexa of the Twin Blades~
+Lady Vexa of the Twin Blades salutes the crowd with both swords.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A tall noblewoman who fights for the love of it, in silvered mail, a
+sword in each hand.
+~
+bdgno r 0 E
+53 36 18 17d6+85 5d3+0
+527 23138
+8 8 2
+E
 #5327
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+mantis giant~
+the Mantis~
+The Mantis, a giant green insect, folds its bladed forelegs.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+A praying mantis as tall as a horse, its forelegs edged like scythes.
+~
+bdgno 0 0 E
+51 36 18 17d6+35 5d6+0
+492 21450
 8 8 0
+Dex: 20
+E
 #5328
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+korg dwarf axes two-axes~
+Korg Two-Axes~
+Korg Two-Axes, a dwarf, tests the edge of an axe with his thumb.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A barrel-chested dwarf with a braided red beard and an axe in each fist.
+~
+bdgno 0 0 E
+57 38 19 19d6+91 5d3+0
+601 26706
+8 8 1
+Str: 19
+E
 #5329
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+isolde silent~
+Isolde the Silent~
+Isolde the Silent stands perfectly still, her spear grounded.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
-8 8 0
+A grey-eyed spearwoman who has not spoken a word in the ring in ten years.
+~
+bdgno 0 0 E
+49 34 17 16d6+76 5d5+0
+458 19826
+8 8 2
+E
 #5330
-unfinished mob~
-the unfinished mob~
-An unfinished mob is standing here.~
-You see nothing special.
+gladiator arena~
+an arena gladiator~
+An arena gladiator rolls his shoulders and raises his shield.
 ~
-d 0 0 S
-0 3 0 0d0+0 0d0+0
+A professional gladiator in a crested helm, with a short sword and a round
+shield, who has seen every trick a challenger can try.
+~
+bdgno 0 0 E
+50 35 18 16d6+79 5d5+0
 0 0
-8 8 0
+8 8 1
+E
 #5331
 unfinished mob~
 the unfinished mob~
@@ -493,8 +536,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5332
 unfinished mob~
@@ -503,8 +546,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5333
 unfinished mob~
@@ -513,8 +556,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5334
 unfinished mob~
@@ -523,8 +566,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5335
 unfinished mob~
@@ -533,8 +576,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5336
 unfinished mob~
@@ -543,8 +586,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5337
 unfinished mob~
@@ -553,8 +596,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5338
 unfinished mob~
@@ -563,8 +606,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5339
 unfinished mob~
@@ -573,8 +616,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5340
 unfinished mob~
@@ -583,8 +626,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5341
 unfinished mob~
@@ -593,8 +636,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5342
 unfinished mob~
@@ -603,8 +646,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5343
 unfinished mob~
@@ -613,8 +656,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5344
 unfinished mob~
@@ -623,8 +666,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5345
 unfinished mob~
@@ -633,8 +676,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5346
 unfinished mob~
@@ -643,8 +686,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5347
 unfinished mob~
@@ -653,8 +696,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5348
 unfinished mob~
@@ -663,8 +706,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5349
 unfinished mob~
@@ -673,8 +716,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5350
 unfinished mob~
@@ -683,8 +726,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5351
 unfinished mob~
@@ -693,8 +736,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5352
 unfinished mob~
@@ -703,8 +746,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5353
 unfinished mob~
@@ -713,8 +756,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5354
 unfinished mob~
@@ -723,8 +766,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5355
 unfinished mob~
@@ -733,8 +776,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5356
 unfinished mob~
@@ -743,8 +786,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5357
 unfinished mob~
@@ -753,8 +796,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5358
 unfinished mob~
@@ -763,8 +806,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5359
 unfinished mob~
@@ -773,8 +816,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5360
 unfinished mob~
@@ -783,8 +826,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5361
 unfinished mob~
@@ -793,8 +836,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5362
 unfinished mob~
@@ -803,8 +846,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5363
 unfinished mob~
@@ -813,8 +856,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5364
 unfinished mob~
@@ -823,8 +866,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5365
 unfinished mob~
@@ -833,8 +876,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5366
 unfinished mob~
@@ -843,8 +886,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5367
 unfinished mob~
@@ -853,8 +896,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5368
 unfinished mob~
@@ -863,8 +906,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5369
 unfinished mob~
@@ -873,8 +916,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5370
 unfinished mob~
@@ -883,8 +926,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5371
 unfinished mob~
@@ -893,8 +936,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5372
 unfinished mob~
@@ -903,8 +946,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5373
 unfinished mob~
@@ -913,8 +956,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5374
 unfinished mob~
@@ -923,8 +966,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5375
 unfinished mob~
@@ -933,8 +976,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5376
 unfinished mob~
@@ -943,8 +986,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5377
 unfinished mob~
@@ -953,8 +996,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5378
 unfinished mob~
@@ -963,8 +1006,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5379
 unfinished mob~
@@ -973,8 +1016,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5380
 unfinished mob~
@@ -983,8 +1026,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5381
 unfinished mob~
@@ -993,8 +1036,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5382
 unfinished mob~
@@ -1003,8 +1046,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5383
 unfinished mob~
@@ -1013,8 +1056,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5384
 unfinished mob~
@@ -1023,8 +1066,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5385
 unfinished mob~
@@ -1033,8 +1076,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5386
 unfinished mob~
@@ -1043,8 +1086,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5387
 unfinished mob~
@@ -1053,8 +1096,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5388
 unfinished mob~
@@ -1063,8 +1106,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5389
 unfinished mob~
@@ -1073,8 +1116,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5390
 unfinished mob~
@@ -1083,8 +1126,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5391
 unfinished mob~
@@ -1093,8 +1136,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5392
 unfinished mob~
@@ -1103,8 +1146,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5393
 unfinished mob~
@@ -1113,8 +1156,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5394
 unfinished mob~
@@ -1123,8 +1166,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5395
 unfinished mob~
@@ -1133,8 +1176,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5396
 unfinished mob~
@@ -1143,8 +1186,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5397
 unfinished mob~
@@ -1153,8 +1196,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5398
 unfinished mob~
@@ -1163,8 +1206,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 #5399
 unfinished mob~
@@ -1173,7 +1216,7 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 0
 $~

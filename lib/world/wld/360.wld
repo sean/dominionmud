@@ -8,14 +8,20 @@ walls that surround the entire room. A pair of encircled stairs rise up,
 leading to a trapdoor.
 ~
 360 dlmr 0
-D4
-~
-~
-0 0 8
 D5
 ~
 ~
 0 0 3039
+D0
+North, an onyx pathway glimmers through the smoke.
+~
+~
+0 -1 36001
+D2
+South, a cleft in the rock opens on the hills of Nord.
+~
+~
+0 -1 2101
 S
 #36001
 A large onyx pathway~
@@ -35,6 +41,11 @@ sign~
 Sorceress Sethra Lavode. She does not take kindly to unwanted strangers.
 Be you forewarned.
 ~
+D2
+South, the onyx pathway ends in a dark, smoky chamber.
+~
+~
+0 -1 36000
 S
 #36002
 The large onyx pathway~

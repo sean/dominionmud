@@ -1,7 +1,7 @@
 #21
 The Hills of Nord~
 Fade~
-All~
+66-74~
 3001 2
 2150 15 2
 *
@@ -10,5 +10,17 @@ All~
 *
 O 0 2100 1 2100 100 	* a map of the Nordplains at Just off the main road. (Max: 1)
 M 0 2100 1 2130 100 	* an old Nordman herder at room 2130 (quest giver). (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 2101 4 2132 100 	* a frost wolf (level 67)
+M 0 2101 4 2133 100 	* a frost wolf (level 67)
+M 0 2101 4 2115 100 	* a frost wolf (level 67)
+M 0 2101 4 2112 100 	* a frost wolf (level 67)
+M 0 2102 4 2130 100 	* a Nordman raider (level 68)
+M 0 2102 4 2139 100 	* a Nordman raider (level 68)
+M 0 2102 4 2126 100 	* a Nordman raider (level 68)
+M 0 2102 4 2128 100 	* a Nordman raider (level 68)
+M 0 2103 2 2130 100 	* a Nordman berserker (level 72)
+M 0 2103 2 2124 100 	* a Nordman berserker (level 72)
+M 0 2104 1 2130 100 	* Jarl Hrothgar the Frostborn (group boss)
 S
 $~

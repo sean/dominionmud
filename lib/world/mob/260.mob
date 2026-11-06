@@ -6,8 +6,8 @@ A whelp gnaws on the putrid corpses of fallen warriors.
 Even this young wolf has a fell look about him.
 ~
 abdfg k -1000 E
-15 25 44 5d4+250 2d9+10
-0 20000
+89 54 27 29d6+134 8d6+0
+1366 64466
 8 8 1
 BareHandAttack: 4
 Race: 22
@@ -21,8 +21,8 @@ This monstrous creature gazes back at you with evil,
 piercing eyes.
 ~
 abdfgjk k -1000 E
-20 43 71 5d4+330 2d10+14
-0 25000
+90 55 28 30d6+132 8d6+0
+1395 65910
 8 8 1
 BareHandAttack: 8
 Race: 22
@@ -35,8 +35,8 @@ An orc scurries to and fro.
 The orc curses you in his black tongue.
 ~
 cdfg 0 -1000 E
-25 35 38 3d4+210 2d8+8
-0 500
+92 56 28 30d6+137 8d6+0
+1454 68846
 8 8 1
 BareHandAttack: 13
 E
@@ -48,8 +48,8 @@ An orc chieftain barks orders to his minions.
 The orc chieftain becomes insane with rage at your entrance.
 ~
 cdfg dk -1000 E
-30 63 7 1d10+330 3d3+13
-1000 40000
+93 56 28 31d6+136 8d6+0
+1483 70338
 8 8 1
 BareHandAttack: 13
 E
@@ -61,8 +61,8 @@ A demonic creature flies in on bat-like wings.
 The demon comes toward you with frightening speed.
 ~
 dfg dko -1000 E
-35 50 1 5d4+390 2d6+20
-1000 70000
+95 58 29 31d6+140 8d6+0
+1544 73370
 8 8 0
 BareHandAttack: 16
 Race: 27
@@ -76,8 +76,8 @@ This demon looks as if it was created by Melkor in
    mockery of human suffering and pain.
 ~
 dfg dhko -1000 E
-40 50 13 5d4+590 3d5+30
-0 80000
+99 60 30 33d6+13 9d6+0
+1668 79626
 8 8 0
 BareHandAttack: 16
 Race: 27
@@ -91,8 +91,8 @@ The troll looks at you murkily, not understanding what
    you are but knowing what he wants to do to you.
 ~
 dfg ar -1000 E
-36 70 75 5d4+290 4d6+20
-0 70000
+96 58 29 32d6+139 9d3+0
+1574 74910
 8 8 1
 BareHandAttack: 6
 E
@@ -105,8 +105,8 @@ in shadow.
 The worm crawls in your direction slowly.
 ~
 abdfg dhkr -1000 E
-38 1 98 1d10+12000 2d26+44
-10000 150000
+97 58 29 32d6+15 9d3+0
+1605 76466
 8 8 2
 BareHandAttack: 8
 Race: 38
@@ -119,8 +119,8 @@ A huge red dragon leisurely rips out a wall in sell-amusement.
 The dragon spies you and hurls himself in your direction.
 ~
 abdfg dhknpr -1000 E
-40 70 107 1d10+12300 2d18+75
-50000 180000
+99 60 30 33d6+13 9d3+0
+1668 79626
 6 6 2
 BareHandAttack: 8
 Race: 31
@@ -134,8 +134,8 @@ A black dragon, immersed in smoke, stretches across the platform.
 upon you.
 ~
 abcdfg dhkpr -1000 E
-40 75 88 1d10+14000 2d8+50
-10000 100
+99 60 30 33d6+13 9d3+0
+1668 79626
 5 5 1
 BareHandAttack: 8
 Race: 34
@@ -149,8 +149,8 @@ The sentry hastily blows a bone horn, alerting those inside
    of your presence.
 ~
 bcdfg ku -1000 E
-30 30 85 1d10+240 4d6+15
-0 50000
+93 56 28 31d6+136 8d6+0
+1483 70338
 8 8 1
 BareHandAttack: 13
 E
@@ -163,8 +163,8 @@ The shadow seems to be of man shape -but is far greater- and is
    immersed in flames.
 ~
 dfg dhknr -1000 E
-41 75 81 10d10+16000 5d10+80
-40000 730000
+100 60 30 33d6+14 9d3+0
+1700 81230
 8 8 0
 BareHandAttack: 16
 Race: 28
@@ -178,8 +178,8 @@ The terrifying creature of Balrog-shape raises his sword
    and grins with evil delight at the thought of crushing you.
 ~
 bdfg dhknr -1000 E
-41 85 102 5d10+15800 5d10+90
-300000 1000000
+100 60 30 33d6+14 9d3+0
+1700 81230
 8 8 0
 BareHandAttack: 16
 Race: 28
@@ -193,8 +193,8 @@ The elf shivers saying, "Leave while you can!  You will only
    find death here!"
 ~
 bdg 0 1000 E
-4 11 78 2d4+15 1d4+1
-0 100
+105 62 31 35d6+148 9d7+0
+1864 89490
 8 8 1
 BareHandAttack: 13
 Race: 7
@@ -207,8 +207,8 @@ A haggard elf, seeming lost, crouches near the floor.
 The elf cowers saying, "You will only find death here!"
 ~
 bdfg 0 -1000 E
-4 11 36 2d4+15 2d8+5
-0 100
+88 54 27 29d6+131 8d6+0
+1338 63038
 8 8 1
 BareHandAttack: 13
 Race: 8
@@ -222,8 +222,8 @@ The wolf's eyes, resembling the bottomless pits of Hell,
    open slowly to meet yours.
 ~
 abdfg dkn -1000 E
-35 73 78 4d4+9000 3d6+40
-0 400000
+95 58 29 31d6+140 8d6+0
+1544 73370
 5 5 1
 BareHandAttack: 9
 Race: 22
@@ -245,11 +245,11 @@ and pride thou shalt live only as I allow thee, with honour
 forgotten, love debased, and life lessened."
 ~
 abcdgnopr dhknr -1000 E
-42 87 53 1d10+5000 10d4+95
-65 2687500
+102 61 30 34d6+763 9d2+0
+26475 844860
 8 8 1
-Str: 25
-Dex: 25
+Str: 20
+Dex: 23
 Int: 24
 Wis: 25
 Con: 22
@@ -264,8 +264,8 @@ An orc scurries to and fro.
 The orc curses you in his black tongue.
 ~
 bcdfg k -1000 E
-25 25 88 3d4+210 2d8+2
-0 40000
+92 56 28 30d6+137 8d6+0
+1454 68846
 8 8 1
 BareHandAttack: 6
 E
@@ -277,8 +277,8 @@ An orc chieftain barks orders to his minions.
 The orc chieftain becomes insane with rage at your entrance.
 ~
 bcdfg adk -1000 E
-30 45 42 1d10+280 3d3+45
-1000 70000
+93 56 28 31d6+136 8d6+0
+1483 70338
 8 8 1
 E
 #26019
@@ -289,8 +289,8 @@ A demonic creature flies in on bat-like wings.
 The demon comes toward you with frightening speed.
 ~
 bdfg adhk -1000 E
-35 30 64 5d4+390 2d6+20
-1000 90000
+95 58 29 31d6+16 8d6+0
+1544 73370
 8 8 0
 BareHandAttack: 9
 Race: 27
@@ -304,8 +304,8 @@ This demon looks as if it was created by Melkor in
    mockery of human suffering and pain.
 ~
 bdfg dhk -1000 E
-40 50 102 5d4+12590 5d5+50
-0 750000
+99 60 30 33d6+13 9d6+0
+1668 79626
 8 8 0
 BareHandAttack: 16
 Race: 27
@@ -319,8 +319,8 @@ The troll looks at you murkily, not understanding what
    you are but knowing what he wants to do to you.
 ~
 bdfg ak -1000 E
-35 30 74 5d4+550 4d6+30
-0 100000
+95 58 29 31d6+140 8d6+0
+1544 73370
 8 8 1
 E
 #26022
@@ -332,8 +332,8 @@ The orc miner barks in surprise.  He looks much happier
      to be able to use his pick on you, rather than the wall.
 ~
 bdfg k -1000 E
-24 20 85 3d4+200 2d8+30
-0 40000
+91 56 28 30d6+135 8d6+0
+1424 67370
 8 8 1
 BareHandAttack: 9
 E
@@ -347,8 +347,8 @@ The orc drummer cries with bizarre pleasure.  You assume
    he is very happy that the battle came to him.
 ~
 bdfg k -1000 E
-24 3 43 3d4+200 2d8+2
-0 40000
+91 56 28 30d6+135 8d6+0
+1424 67370
 8 8 1
 E
 #26024
@@ -360,8 +360,8 @@ The shadow seems to be of man shape -but is far greater- and is
    immersed in flames.
 ~
 bdfg dhk -1000 E
-39 60 81 10d10+11525 5d10+60
-4000 500000
+98 59 30 32d6+16 9d6+0
+1637 78038
 8 8 0
 BareHandAttack: 16
 Race: 28
@@ -375,8 +375,8 @@ An elf in a grey cloak gone black with ash, a bow across her back.  Her
 eyes never leave the gates of Thangorodrim.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+105 62 31 35d6+148 9d7+0
+1864 89490
 8 8 1
 E
 $~

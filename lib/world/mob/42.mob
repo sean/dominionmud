@@ -1,0 +1,134 @@
+#4200
+captain halloran gray~
+Captain Halloran Gray~
+Captain Halloran Gray stands at the wheel, squinting out to sea.
+~
+A weathered, grey-bearded sea captain in a salt-stained blue coat, with a
+spyglass in his belt and a cutlass he has used more often than he would
+like.  He has sailed this coast for forty years and lost two ships to
+Blackwake's pirates.
+~
+bdg 0 600 E
+83 52 26 27d6+127 7d6+0
+1199 56138
+8 8 1
+E
+#4201
+purser thin~
+the purser~
+A thin purser with a ledger and an inkpot stands by the rail, counting heads.
+~
+A thin, careful man in black with ink on his fingers, a ledger under one
+arm and a purse on his belt that he keeps one hand on at all times.
+~
+abdg 0 500 E
+63 42 21 21d6+101 6d6+0
+721 32538
+8 8 1
+E
+#4202
+sailor~
+a sailor~
+A sailor in a striped shirt is hauling on a rope.
+~
+A weathered sailor with tarry hands, a knife on a lanyard and a tattoo of
+a wren on each forearm.  He moves about the rolling deck as easily as you
+walk down a street.
+~
+bdg 0 400 E
+61 40 20 20d6+99 6d5+0
+680 30530
+8 8 1
+E
+#4203
+cook ship's ships~
+the ship's cook~
+The ship's cook stirs a pot that smells better than you expected.
+~
+A one-eyed cook with a ladle he swings like a club, and a voice that can
+be heard from the crow's nest.
+~
+bdg 0 500 E
+59 40 20 19d6+98 5d6+0
+640 28586
+8 8 1
+E
+#4204
+boy ship's ships cabin~
+a ship's boy~
+A ship's boy is coiling rope and pretending not to watch you.
+~
+A barefoot boy of eleven or twelve, brown as a nut, who knows every rope
+on the ship and every story about Blackwake the Pirate King.
+~
+bdg 0 500 E
+36 28 14 12d6+52 4d5+0
+266 10830
+8 8 1
+E
+#4205
+rat bilge~
+a bilge rat~
+A bilge rat sits up on a cask and stares at you with beady eyes.
+~
+A sleek, wet rat that lives off the ship's biscuit and anything else it
+can reach.
+~
+bdfg 0 -200 E
+34 27 14 11d6+50 3d7+0
+241 9686
+8 8 0
+E
+#4210
+pirate cutthroat~
+a pirate cutthroat~
+A pirate cutthroat swaggers across the deck, knife in hand.
+~
+A scarred pirate with a knife in each hand and a red scarf over his head,
+grinning with three teeth.
+~
+dfg 0 -500 E
+38 29 14 12d6+57 4d5+0
+293 12038
+8 8 1
+E
+#4211
+pirate boarder~
+a pirate boarder~
+A pirate boarder swings in on a rope with a cutlass between his teeth.
+~
+A big, tattooed pirate in a leather jerkin, with a boarding axe and a
+cutlass and no patience at all.
+~
+dfg 0 -500 E
+40 30 15 13d6+60 4d6+0
+320 13310
+8 8 1
+E
+#4212
+pirate bosun~
+the pirate bosun~
+The pirate bosun roars orders at the boarders, waving a cutlass.
+~
+A barrel-chested pirate with a boatswain's whistle on a chain and a voice
+like a foghorn.  He leads the boarding party, from slightly behind.
+~
+dfg 0 -600 E
+44 32 16 14d6+650 4d7+0
+3402 96276
+8 8 1
+E
+#4213
+reaver blackwake~
+a Blackwake reaver~
+A Blackwake reaver in a red sash stalks the deck, blades out.
+~
+One of the Pirate King's own crew, the reavers of the Red Maw: lean,
+silent, red-sashed killers with two cutlasses each and dead eyes.
+~
+dfg 0 -800 E
+42 31 16 14d6+62 4d6+0
+349 14646
+8 8 1
+E
+$~

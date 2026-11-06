@@ -6,8 +6,8 @@ The gray rat scurries about, searching for food.
 The rat is a sickly gray in coloration, with beady red eyes.
 ~
 fgh k 0 S
-1 20 10 1d3+0 1d2+2
-0 50
+1 10 5 1d6+16 1d3+0
+2 50
 8 8 0
 #20001
 kobold miner~
@@ -19,8 +19,8 @@ Weak with exhaustion, there is trepidation in her eyes as she notices
 your interest in her.
 ~
 cfghm k -366 S
-1 20 10 2d3+0 1d2+2
-11 50
+1 10 5 1d6+16 1d3+0
+2 50
 8 8 2
 #20002
 kobold miner~
@@ -33,8 +33,8 @@ whip. Upon realizing your presence, the kobold stops and takes a
 defensive stance.
 ~
 bcfghm k -366 S
-1 20 10 2d3+0 1d2+2
-11 50
+1 10 5 1d6+16 1d3+0
+2 50
 8 8 1
 #20003
 kobold shaman~
@@ -45,8 +45,8 @@ You see a female kobold.  From her dress and endless chanting, you
 suspect she is a shaman.  She is oblivious to your presence.
 ~
 gh k -496 S
-1 20 10 2d3+0 1d2+2
-37 75
+11 16 8 3d6+26 1d9+0
+40 1130
 8 8 2
 #20004
 kobold soldier~
@@ -57,8 +57,8 @@ You see a stout kobold warrior on patrol.  He seems quite displeased
 at your intrusion.
 ~
 cfglm k -366 S
-1 20 10 2d4+0 1d2+1
-13 100
+1 10 5 1d6+16 1d3+0
+2 50
 8 8 1
 #20005
 kobold warrior guard~
@@ -69,8 +69,8 @@ You see a stout kobold standing here quite bored until your intrusion.
 He screams in a primitive language and attacks.
 ~
 bcfglm k -366 S
-1 20 10 2d4+0 1d2+1
-19 125
+1 10 5 1d6+16 1d3+0
+2 50
 8 8 1
 #20006
 kobold taskmaster~
@@ -82,8 +82,8 @@ finer points of swinging a pick.  He breaks off his session of
 negative reinforcement to deal with you.
 ~
 bcfglm k -446 S
-2 18 10 4d4+0 1d2+1
-113 200
+4 12 6 1d6+21 1d5+0
+10 206
 8 8 1
 #20007
 kobold Karak~
@@ -95,8 +95,8 @@ in height.  Karak looks like he is having a bad day, and your arrival
 has done nothing to improve his demeanor.
 ~
 cfglm kr -502 S
-4 14 10 1d4+18 1d2+1
-364 750
+6 13 6 2d6+21 1d3+0
+17 390
 8 8 1
 #20008
 wall north gelatinous cube~
@@ -107,8 +107,8 @@ You see a glistening, smooth wall here.  The only break in the shiny
 surface is the hand of a kobold protruding from it.
 ~
 bcfgh dfkt 0 S
-7 10 10 5d10+0 2d4+3
-1294 3000
+8 14 7 2d6+118 1d9+0
+156 2552
 8 8 0
 #20009
 kobold miner runaway~
@@ -119,8 +119,8 @@ A thin kobold with whip scars on his back and a pick he won't let go of.
 He has never been outside.
 ~
 d 0 500 E
-3 20 5 3d10+24 1d4+0
-0 0
+13 16 8 4d6+27 2d5+0
+51 1538
 8 8 1
 E
 $

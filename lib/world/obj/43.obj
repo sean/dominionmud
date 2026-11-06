@@ -1,0 +1,82 @@
+#4300
+chest sea~
+a sea chest~
+A sea chest with a name chalked on the lid stands here.~
+~
+15 0 0
+500 0 -1 0 0 0 0 0 14
+50 0 0
+E
+chest sea lid name~
+A battered sea chest, iron-cornered, with a prisoner's name chalked on the
+lid.  The pirates keep prisoners' belongings in these until the ransom is
+paid.
+~
+#4301
+key cell iron~
+an iron cell key~
+A heavy iron key lies here.~
+~
+18 0 a
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+key cell iron~
+A heavy iron key, rusty at the teeth.  It opens the cells of the brig.
+~
+#4302
+keys ring storeroom key~
+a ring of keys~
+A ring of keys lies here.~
+~
+18 0 a
+0 0 0 0 0 0 0 0 14
+1 0 0
+E
+keys ring storeroom key~
+A ring of keys on a loop of tarry string; the biggest, a brass one, is
+stamped STORE.
+~
+#4303
+logbook log book blackwake~
+Blackwake's logbook~
+A leather-bound logbook lies open on the desk.~
+~
+12 0 a
+0 0 0 0 0 0 0 0 14
+2 50 0
+E
+logbook log book blackwake~
+The Pirate King's log, in a sloping, elegant hand.  The last entry reads:
+"Took the Sea Wren off the cape.  Fine haul.  Prisoners to the brig.  If
+they ever come for me - and one day someone will - I shall go up to my
+light, where I can see them coming, and they shall have to come up the
+stair one at a time.  I will not hang in Elrhinn.  I will not."
+~
+#4304
+cutlass blackwake~
+Blackwake's cutlass~
+A gold-hilted cutlass lies here, its blade notched from a hundred fights.~
+~
+5 0 am
+0 3 10 3 0 0 0 18 14
+7 679 67
+E
+cutlass blackwake~
+A heavy cutlass with a hilt of gold wire and a blade notched from a
+hundred fights.  The pommel is shaped like a breaking wave.
+~
+#4305
+tricorn hat battered~
+a battered tricorn hat~
+A battered tricorn hat with a red plume lies here.~
+~
+9 0 ae
+16 0 0 0 0 0 0 0 14
+2 407 40
+E
+tricorn hat battered plume~
+The Pirate King's hat, stained with salt and smoke, with a red plume that
+has seen better days.  It looks very fine on you.
+~
+$~

@@ -1,7 +1,7 @@
 #350
 Gnishmire Town~
 Grendel~
-All~
+22-30~
 3001 1
 35199 10 2
 *
@@ -84,5 +84,7 @@ G 1 35001 25  100 			* And give it a sweetroll. (Max: 25)
 G 1 35002 25  100 			* And give it a loaf of bread. (Max: 25)
 * puzzle
 M 0 35040 1 35003             clockwork fish (puzzle)
+* Nov 2026 rebalance: residents
+M 0 35000 1 35116 100 	* a runaway clockwork golem (group boss)
 S
 $~

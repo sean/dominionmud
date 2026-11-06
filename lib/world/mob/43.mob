@@ -1,0 +1,96 @@
+#4300
+blackwake morrow pirate king captain~
+Morrow Blackwake, the Pirate King~
+Morrow Blackwake, the Pirate King, crouches by the cold lamp with a cutlass in each hand.
+~
+A tall, lean man in a red coat gone black with salt, with a beard braided
+with gold rings and eyes like a winter sea.  He is the most notorious
+pirate on the coast, and he knows exactly what the hangman in Elrhinn has
+waiting for him.  He will not be taken alive.
+~
+bdfg 0 -1000 E
+44 32 16 14d6+650 4d7+0
+3402 96276
+8 8 1
+E
+#4301
+jailer pirate~
+the pirate jailer~
+The pirate jailer snores in his chair, a ring of keys on his belt.
+~
+A fat pirate with a bald head and a beard full of crumbs, asleep with
+his boots on the table.
+~
+bdg 0 -300 E
+39 30 15 13d6+57 4d6+0
+306 12666
+4 4 1
+E
+#4302
+quartermaster pirate~
+the pirate quartermaster~
+The pirate quartermaster lies under a table, snoring, with a bottle in his arms.
+~
+A small, sharp-nosed pirate who keeps the King's accounts and the key to
+his storeroom.  At the moment he is very drunk and very asleep.
+~
+bdg 0 -300 E
+37 28 14 12d6+55 4d5+0
+279 11426
+4 4 1
+E
+#4303
+pirate drunken~
+a drunken pirate~
+A drunken pirate waves a bottle and sings about a girl in every port.
+~
+A pirate who has been celebrating the latest capture since it happened,
+and is not about to stop.  He can still swing a cutlass, more or less.
+~
+dfg 0 -400 E
+34 27 14 11d6+50 3d7+0
+241 9686
+8 8 1
+E
+#4304
+pirate sentry~
+a pirate sentry~
+A pirate sentry leans on a rusty cannon, watching the sea.
+~
+A sober pirate, for once, with a crossbow and a cutlass, keeping watch
+from the walls.
+~
+bdfg 0 -400 E
+42 31 16 14d6+62 4d6+0
+349 14646
+8 8 1
+E
+#4305
+prisoner old merchant tobias venn~
+Tobias Venn~
+Tobias Venn, an old merchant in ragged finery, sits against the wall of the cell.
+~
+A thin old man in what was once a merchant's velvet coat, with a long
+white beard and sharp, clever eyes.  He was taken off a wine ship two
+years ago, and nobody has paid his ransom.
+~
+bdg 0 500 E
+53 36 18 17d6+85 5d6+0
+527 23138
+5 5 1
+E
+#4306
+girl nell captive~
+Nell~
+A thin, sharp-faced girl in a torn dress stands here, ready to run.
+~
+A girl of twelve or so, freckled and filthy, with a cabin boy's knife
+tucked in her sash and her eyes on every door.  The pirates took her off
+a fishing boat a month ago, and she has not stopped planning since.
+~
+dg 0 400 E
+48 34 17 16d6+73 5d5+0
+442 19038
+8 8 2
+E
+$~

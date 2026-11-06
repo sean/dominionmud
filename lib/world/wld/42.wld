@@ -1,0 +1,159 @@
+#4200
+The Main Deck of the Sea Wren~
+   The broad, scrubbed deck of the Sea Wren, a fat-bellied coastal trader
+with two masts and patched brown sails.  Coils of rope, water casks and
+lashed crates crowd the rails, and the deck rises and falls under your
+feet.  The forecastle is forward to the north and the quarterdeck aft to
+the south.  A hatch leads down below decks, and the rigging climbs up
+into the sails.  When the ship is in port, a gangplank runs down from the
+rail on the west side.
+~
+42 0 0
+D0
+~
+~
+0 -1 4201
+D2
+~
+~
+0 -1 4202
+D4
+~
+~
+0 -1 4203
+D5
+~
+hatch~
+0 -1 4204
+E
+rail rails sea water~
+Over the rail the water slides past, green and white.  Gulls hang in the
+wind above the wake.
+~
+E
+crates casks rope~
+Cargo for the next port, lashed down tight: salt fish, nails, wine, wool
+and a crate of something that ticks.
+~
+S
+#4201
+The Forecastle~
+   The raised deck at the bow, where the ship's bell hangs from a little
+gallows and the anchor chains run out through their hawse holes.  The
+figurehead below the bowsprit is a carved wren with its wings spread.
+Spray comes over the bow when the sea is up.  The main deck is aft.
+~
+42 0 0
+D2
+~
+~
+0 -1 4200
+E
+bell~
+A brass bell, green with salt.  It is rung every half hour of the watch,
+and like mad when pirates are sighted.
+~
+E
+figurehead wren~
+A carved wren, painted brown and cream, beak up into the wind.  Sailors
+touch it for luck as they pass.
+~
+S
+#4202
+The Quarterdeck~
+   The raised deck at the stern, where the ship is steered.  A great
+spoked wheel stands before the binnacle, and a chart table is bolted to
+the deck under a canvas hood.  From here the captain can see the whole
+ship and a long way out to sea.  The main deck is forward.
+~
+42 0 0
+D0
+~
+~
+0 -1 4200
+E
+chart table charts~
+A sea chart of the coast, weighted down with a dagger: Gnishmire, the
+coral shore of Llyndyr, the long run round the eastern cape, Vice Island,
+Karras and the mouth of the Widmans.  Off the cape someone has drawn a
+little skull and crossbones in red ink, and written BLACKWAKE beside it.
+~
+E
+wheel binnacle~
+The ship's wheel, its spokes polished by forty years of hands.  The
+compass in the binnacle swings lazily.
+~
+S
+#4203
+Up the Rigging~
+   You cling to the ratlines high above the deck, with the sails cracking
+and bellying around you and the whole ship swinging beneath like a
+pendulum.  A small barrel of a crow's nest is lashed to the mast just
+above.  From here you can see for miles.  The deck is a long way down.
+~
+42 0 0
+D5
+~
+~
+0 -1 4200
+E
+crow's nest crows nest barrel~
+The lookout's barrel, just big enough for one.  Someone has carved a
+tally of pirate sails into the rim: eleven, and then the word MORE.
+~
+S
+#4204
+The Passenger Cabin~
+   A low cabin under the main deck, lit by a swinging lantern.  Bunks are
+built two high into the curved walls, each with a canvas curtain, and
+passengers' bags are stowed under them.  It smells of tar, wet wool and
+seasickness.  A ladder climbs to the hatch above, a narrow door leads aft
+to the galley, and another hatch goes down into the hold.
+~
+42 d 0
+D2
+~
+~
+0 -1 4205
+D4
+~
+hatch~
+0 -1 4200
+D5
+~
+hatch~
+0 -1 4206
+E
+bunks bunk curtain~
+Narrow bunks with straw mattresses and canvas curtains.  Someone has
+scratched a little ship and the word BORED into the wood.
+~
+S
+#4205
+The Galley~
+   A cramped galley with an iron stove fenced in by a rail, so that the
+pots don't fly off in a swell.  Strings of onions and dried fish hang
+from the beams, and a barrel of ship's biscuit stands in the corner.  The
+passenger cabin is forward.
+~
+42 d 0
+D0
+~
+~
+0 -1 4204
+S
+#4206
+The Hold~
+   The dark belly of the ship, below the waterline.  Bales and barrels are
+stacked to the beams and roped in place, and bilge water sloshes over the
+boards with every roll.  The timbers creak and groan like an old man
+getting out of bed.  Something scurries away between the casks.  The
+hatch is above.
+~
+42 d 0
+D4
+~
+hatch~
+0 -1 4204
+S
+$~

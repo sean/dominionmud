@@ -9,8 +9,8 @@ In his eyes you see a blankness which neither describes his spirit as
 good or evil.
 ~
 bdiq 0 -1000 S
-20 43 47 10d40+400 4d5+51
-1000 51115
+60 40 20 20d6+97 6d5+0
+660 29550
 8 8 1
 >in_file_prog blackwood.prg~
 |
@@ -25,8 +25,8 @@ the arms of a bear and the tail of some reptilian creature.  The eyes are
 cold and red, peering at you through the darkness.
 ~
 dgj ack -800 E
-18 39 61 9d36+250 4d4+47
-0 70312
+24 22 11 8d6+36 3d5+0
+134 4926
 8 8 0
 BareHandAttack: 8
 Str: 10
@@ -46,8 +46,8 @@ daggers scratch at its perch tearing holes into the wood.  It stares
 at you with hallow, black eyes.
 ~
 dghjkq cknpr -800 E
-12 34 64 6d24+54 3d4+31
-0 30000
+20 20 10 6d6+34 2d3+0
+100 3470
 8 8 0
 BareHandAttack: 8
 Race: 22
@@ -65,8 +65,8 @@ walking abomination but a sticky, black substance oozes from its
 branches.
 ~
 dgjkq crt -1000 E
-20 50 59 10d40+100 5d5+49
-0 93750
+26 23 12 8d6+246 3d3+0
+918 23000
 8 8 0
 BareHandAttack: 8
 Str: 12
@@ -80,8 +80,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 8 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7505
 unfinished mob~
@@ -90,8 +90,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 1 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7506
 unfinished mob~
@@ -100,8 +100,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7507
 unfinished mob~
@@ -110,8 +110,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7508
 unfinished mob~
@@ -120,8 +120,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7509
 unfinished mob~
@@ -130,8 +130,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7510
 unfinished mob~
@@ -140,8 +140,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7511
 unfinished mob~
@@ -150,8 +150,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7512
 unfinished mob~
@@ -160,8 +160,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7513
 unfinished mob~
@@ -170,8 +170,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7514
 unfinished mob~
@@ -180,8 +180,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7515
 unfinished mob~
@@ -190,8 +190,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7516
 unfinished mob~
@@ -200,8 +200,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7517
 unfinished mob~
@@ -210,8 +210,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7518
 unfinished mob~
@@ -220,8 +220,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7519
 unfinished mob~
@@ -230,8 +230,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7520
 unfinished mob~
@@ -240,8 +240,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7521
 unfinished mob~
@@ -250,8 +250,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7522
 unfinished mob~
@@ -260,8 +260,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7523
 unfinished mob~
@@ -270,8 +270,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7524
 unfinished mob~
@@ -280,8 +280,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7525
 unfinished mob~
@@ -290,8 +290,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7526
 unfinished mob~
@@ -300,8 +300,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7527
 unfinished mob~
@@ -310,8 +310,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7528
 unfinished mob~
@@ -320,8 +320,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7529
 unfinished mob~
@@ -330,8 +330,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7530
 unfinished mob~
@@ -340,8 +340,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7531
 unfinished mob~
@@ -350,8 +350,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7532
 unfinished mob~
@@ -360,8 +360,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7533
 unfinished mob~
@@ -370,8 +370,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7534
 unfinished mob~
@@ -380,8 +380,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7535
 unfinished mob~
@@ -390,8 +390,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7536
 unfinished mob~
@@ -400,8 +400,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7537
 unfinished mob~
@@ -410,8 +410,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7538
 unfinished mob~
@@ -420,8 +420,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7539
 unfinished mob~
@@ -430,8 +430,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7540
 unfinished mob~
@@ -440,8 +440,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7541
 unfinished mob~
@@ -450,8 +450,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7542
 unfinished mob~
@@ -460,8 +460,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7543
 unfinished mob~
@@ -470,8 +470,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7544
 unfinished mob~
@@ -480,8 +480,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7545
 unfinished mob~
@@ -490,8 +490,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7546
 unfinished mob~
@@ -500,8 +500,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7547
 unfinished mob~
@@ -510,8 +510,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7548
 unfinished mob~
@@ -520,8 +520,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7549
 unfinished mob~
@@ -530,8 +530,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7550
 unfinished mob~
@@ -540,8 +540,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7551
 unfinished mob~
@@ -550,8 +550,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7552
 unfinished mob~
@@ -560,8 +560,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7553
 unfinished mob~
@@ -570,8 +570,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7554
 unfinished mob~
@@ -580,8 +580,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7555
 unfinished mob~
@@ -590,8 +590,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7556
 unfinished mob~
@@ -600,8 +600,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7557
 unfinished mob~
@@ -610,8 +610,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7558
 unfinished mob~
@@ -620,8 +620,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7559
 unfinished mob~
@@ -630,8 +630,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7560
 unfinished mob~
@@ -640,8 +640,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7561
 unfinished mob~
@@ -650,8 +650,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7562
 unfinished mob~
@@ -660,8 +660,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7563
 unfinished mob~
@@ -670,8 +670,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7564
 unfinished mob~
@@ -680,8 +680,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7565
 unfinished mob~
@@ -690,8 +690,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7566
 unfinished mob~
@@ -700,8 +700,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7567
 unfinished mob~
@@ -710,8 +710,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7568
 unfinished mob~
@@ -720,8 +720,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7569
 unfinished mob~
@@ -730,8 +730,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7570
 unfinished mob~
@@ -740,8 +740,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7571
 unfinished mob~
@@ -750,8 +750,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7572
 unfinished mob~
@@ -760,8 +760,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7573
 unfinished mob~
@@ -770,8 +770,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7574
 unfinished mob~
@@ -780,8 +780,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7575
 unfinished mob~
@@ -790,8 +790,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7576
 unfinished mob~
@@ -800,8 +800,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7577
 unfinished mob~
@@ -810,8 +810,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7578
 unfinished mob~
@@ -820,8 +820,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7579
 unfinished mob~
@@ -830,8 +830,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7580
 unfinished mob~
@@ -840,8 +840,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7581
 unfinished mob~
@@ -850,8 +850,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7582
 unfinished mob~
@@ -860,8 +860,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7583
 unfinished mob~
@@ -870,8 +870,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7584
 unfinished mob~
@@ -880,8 +880,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7585
 unfinished mob~
@@ -890,8 +890,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7586
 unfinished mob~
@@ -900,8 +900,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7587
 unfinished mob~
@@ -910,8 +910,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7588
 unfinished mob~
@@ -920,8 +920,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7589
 unfinished mob~
@@ -930,8 +930,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7590
 unfinished mob~
@@ -940,8 +940,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7591
 unfinished mob~
@@ -950,8 +950,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7592
 unfinished mob~
@@ -960,8 +960,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7593
 unfinished mob~
@@ -970,8 +970,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7594
 unfinished mob~
@@ -980,8 +980,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7595
 unfinished mob~
@@ -990,8 +990,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7596
 unfinished mob~
@@ -1000,8 +1000,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7597
 unfinished mob~
@@ -1010,8 +1010,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7598
 unfinished mob~
@@ -1020,8 +1020,8 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 #7599
 unfinished mob~
@@ -1030,7 +1030,7 @@ An unfinished mob is standing here.~
 You see nothing special.
 ~
 d 0 0 S
-0 3 0 0d0+0 0d0+0
-0 0
+16 18 9 5d6+29 2d6+0
+70 2270
 8 8 0
 $~

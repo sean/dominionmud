@@ -7,8 +7,8 @@ A human monk is quietly resting here.
 not quite a master in unarmed combat.
 ~
 bdg f 200 E
-10 15 55 1d1+130 2d4+1
-100 2550
+12 16 8 4d6+25 2d4+0
+46 1326
 5 5 1
 Race: 0
 E
@@ -21,8 +21,8 @@ A human monk is sitting here, copying some manuscripts.
 skills in unarmed combat by copying fading manuscripts and books.
 ~
 bdg f 200 E
-10 15 79 1d1+130 2d4+1
-100 1550
+36 28 14 12d6+52 4d5+0
+266 10830
 6 6 1
 Race: 0
 E
@@ -35,8 +35,8 @@ A dwarven monk is quietly resting here.
 not quite a master in unarmed combat.
 ~
 bdg fp 100 E
-10 15 93 1d1+130 2d5+3
-100 2150
+12 16 8 4d6+25 2d4+0
+46 1326
 5 5 1
 BareHandAttack: 2
 Race: 2
@@ -51,8 +51,8 @@ feet, it would be advisable for you not to try anything on her that might
 get her upset.
 ~
 bdg f 300 E
-17 7 53 1d1+222 3d4+8
-100 7000
+16 18 9 5d6+29 2d6+0
+70 2270
 6 6 3
 Race: 0
 E
@@ -66,8 +66,8 @@ he is fairly new to being a monk as he seems too much like a normal person
 (except for the monk robes he is wearing).
 ~
 dgh 0 0 E
-4 11 101 1d1+60 1d6+4
-100 375
+8 14 7 2d6+24 1d7+0
+26 638
 8 8 1
 Race: 0
 E
@@ -80,8 +80,8 @@ A human monk is sitting here praying and humming.
 occasionally he slightly stumbles over a difficult phrase in his prayers.
 ~
 dgh 0 0 E
-4 11 75 1d1+48 1d6+4
-100 385
+8 14 7 2d6+24 1d7+0
+26 638
 6 6 1
 Race: 0
 E
@@ -95,8 +95,8 @@ eating few small meals. All he really wants to do is just stay here and
 rest for a week.
 ~
 dgh 0 0 E
-4 11 64 1d1+80 1d6+5
-100 475
+8 14 7 2d6+24 1d7+0
+26 638
 5 5 1
 Race: 0
 E
@@ -110,8 +110,8 @@ tired body a rest while he goes through the books - sorting and dusting as
 he goes around.
 ~
 dgh 0 0 E
-4 11 69 1d1+50 1d6+4
-100 375
+8 14 7 2d6+24 1d7+0
+26 638
 8 8 1
 Race: 0
 E
@@ -125,8 +125,8 @@ does he have to clean the floors and walls, but he has to pick all of the
 loose trash and stuff that the occasional adventurer leaves lying around.
 ~
 dgh 0 0 E
-4 11 61 1d1+48 1d6+4
-100 280
+8 14 7 2d6+24 1d7+0
+26 638
 8 8 1
 Race: 0
 E
@@ -140,8 +140,8 @@ so they come to the monastery to find out how to defend themselves. This
 one is probably no exception to the majority.
 ~
 bdg 0 0 E
-4 11 58 1d1+50 1d6+6
-100 475
+8 14 7 2d6+24 1d7+0
+26 638
 5 5 2
 Race: 0
 E
@@ -154,8 +154,8 @@ A dwarven monk is here going about his daily duties.
 still fairly new as he grumbles as much as most dwarves when looked at.
 ~
 dg p 0 E
-5 13 64 1d1+71 1d6+4
-100 485
+10 15 8 3d6+24 1d9+0
+35 950
 8 8 1
 BareHandAttack: 13
 Race: 2
@@ -170,8 +170,8 @@ monk. Though no one could probably sleep through his snores, it would not
 be a good idea to wake him and tell him about it.
 ~
 bdg p 0 E
-5 13 64 1d1+61 1d6+4
-100 485
+10 15 8 3d6+24 1d9+0
+35 950
 4 4 1
 BareHandAttack: 13
 Race: 2
@@ -186,8 +186,8 @@ this guy is quite confident in his abilities to handle any problems that
 might come his way.
 ~
 dg f 100 E
-13 10 74 1d1+80 1d4+15
-100 10500
+14 17 8 4d6+28 2d5+0
+57 1766
 8 8 1
 Race: 0
 E
@@ -201,8 +201,8 @@ likes to spend a lot of his time taking care of the library and trying to
 increase the contents of the library.
 ~
 bdg f 100 E
-13 10 73 1d1+161 2d7+8
-100 7500
+42 31 16 14d6+62 4d6+0
+349 14646
 6 6 1
 Race: 0
 E
@@ -216,8 +216,8 @@ and you get the impression that a lot of time went into getting them that
 way.
 ~
 bdg f 100 E
-13 10 72 1d1+161 2d7+8
-100 7500
+14 17 8 4d6+28 2d5+0
+57 1766
 6 6 1
 Race: 0
 E
@@ -230,8 +230,8 @@ Dorek the human monk is walking around looking big and strong.
 probably find this guy working as a bouncer at a bar.
 ~
 dg f 0 E
-12 7 83 1d1+166 2d7+12
-100 10750
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 1
 Race: 0
 E
@@ -245,8 +245,8 @@ serving in Phalar's Red Guard. He also seems to be able put down a good
 amount of beer as he is often draining his mug.
 ~
 bdg 0 0 E
-20 7 66 1d1+250 3d6+7
-1000 11500
+56 38 19 18d6+91 5d6+0
+582 25790
 6 6 1
 Race: 0
 E
@@ -261,8 +261,8 @@ that he can chop those logs. He also carries around a pouch with the money
 of the monastery (after all, can you think of a safer place?).
 ~
 bdg dft 0 E
-50 1 80 1d1+11000 8d4+34
-100 25000
+18 19 10 6d6+182 2d7+0
+510 11352
 8 8 4
 BareHandAttack: 6
 Race: 0
@@ -276,8 +276,8 @@ The old man looks too old to be alive, yet when he finally looks up at
 you, in his eyes you sense a strange youthfulness within.
 ~
 abd h 1000 E
-40 1 88 8d8+25000 3d5+42
-0 5000
+96 58 29 32d6+13 9d6+0
+1574 74910
 8 8 1
 Race: 0
 E
@@ -288,8 +288,8 @@ A wise, old monk is here making sure monks complete their daily training.
 ~
 You see nothing special.~
 bdl h 1000 E
-34 1 56 6d8+10000 12d12+56
-1001 1350000
+84 52 26 28d6+14 8d6+0
+1226 57486
 8 8 1
 Race: 0
 E

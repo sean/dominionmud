@@ -1,12 +1,23 @@
 #40
 Hills~
 Kirahn~
-ALL~
+42-50~
 3001 1
 4099 24 2
 *
 *
 *
 M 0 4000 1 4000 100 	* a dwarven prospector at room 4000 (quest giver). (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 4001 3 4035 100 	* a giant cave bat (level 43)
+M 0 4001 3 4043 100 	* a giant cave bat (level 43)
+M 0 4001 3 4036 100 	* a giant cave bat (level 43)
+M 0 4002 3 4000 100 	* a hill giant (level 46)
+M 0 4002 3 4049 100 	* a hill giant (level 46)
+M 0 4002 3 4033 100 	* a hill giant (level 46)
+M 0 4003 3 4044 100 	* a cave troll (level 48)
+M 0 4003 3 4043 100 	* a cave troll (level 48)
+M 0 4003 3 4043 100 	* a cave troll (level 48)
+M 0 4004 1 4042 100 	* Grukk, chief of the hill giants (group boss)
 S
 $~

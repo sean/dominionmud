@@ -280,17 +280,19 @@ BACKSTAB
 
 Backstab is a way to sneak up on a person and attempt to place your dagger
 in his back, at exactly the point where it does most damage.  A successful
-backstab gives a damage multiplier, depending on level:
+backstab multiplies the blow, more as you rise in level:
 
 Levels  Multiplier
 ------  ----------
- 1-7        2
- 8-13       3
-14-20       4
-21-30       5
-31-40       6
-41-50       7
-51-55       8
+ 1-19       2
+20-39       3
+40-59       4
+60-79       5
+80-99       6
+100         7
+
+A good backstab will often finish an ordinary foe of your own level
+outright - but not one of the great foes that call for a group.
 
 The chance of successfully backstabbing a person depends on how well you
 have practiced backstab at your guild.  You can always backstab sleeping
@@ -505,8 +507,8 @@ This spell will use the "force of nature" to make a lightning
 strike the victim. It is therefore only possible to call lightning
 outside, and it has to be raining (or worse).
 
-The lightning will inflict (level)d8 points of damage, up to a
-maximum of 15d8 damage points.
+The lightning strikes about as hard as two blows from a fighter of the
+caster's level.
 
 See Also: WEATHER and CONTROL WEATHER
 #
@@ -732,7 +734,8 @@ Accumulative: -
 Sphere      :
 Duration    : Instantaneous
 
-This spell cures 3d8+3 hitpoints of damage.
+This spell cures about two-fifths of the hit points of a typical adventurer
+of the caster's level.
 
 See Also: -
 #
@@ -742,7 +745,8 @@ Accumulative: -
 Sphere      :
 Duration    : Instantaneous
 
-This spell cures 1d8 hitpoints of damage.
+This spell cures about an eighth of the hit points of a typical adventurer
+of the caster's level.
 
 See Also: -
 #
@@ -752,7 +756,8 @@ Accumulative: -
 Sphere      :
 Duration    : Instantaneous
 
-This spell cures 2d8+2 hitpoints of damage.
+This spell cures about a quarter of the hit points of a typical adventurer
+of the caster's level.
 
 See Also: -
 #
@@ -893,7 +898,8 @@ This spell will only affect evil creatures. An evil person of level
 equal or less than caster will suffer 100 damage points.
 
 If the victim is higher level than caster, the spell will inflict
-(caster_level)d4 damage points, saving throw versus half damage.
+about two blows' worth of damage from a fighter of the caster's level,
+saving throw versus half damage.
 
 See Also: -
 #
@@ -908,7 +914,8 @@ This spell will only affect good creatures. An good person of level
 equal or less than caster will suffer 100 damage points.
 
 If the victim is higher level than caster, the spell will inflict
-(caster_level)d4 damage points, saving throw versus half damage.
+about two blows' worth of damage from a fighter of the caster's level,
+saving throw versus half damage.
 
 See Also: -
 #
@@ -975,8 +982,8 @@ Duration    : Instantaneous
 Sphere      :
 Save        : -
 
-This spell will damage everybody except the caster by
-1d8+level_of_caster hitpoints.
+This spell damages everybody except the caster, about a blow and a half
+from a fighter of the caster's level.
 
 See Also: -
 #
@@ -1092,11 +1099,20 @@ enough experience points are earned, you raise a level.
 
 Things you should know about experience points:
 
-  * When damaging a monster, you get experience points.
+  * Every blow you land on a monster earns you a share of what it is worth,
+    so everyone who fights it is rewarded; whoever kills it (or his group)
+    gets the rest.  Being hit costs you nothing.
 
-  * If you kill a monster of higher level than yourself, you get bonus
-    experience points. If killing a monster of lower level you'll gain
-    less experience points
+  * Monsters are worth more the higher their level: one of your own level
+    is worth the same at every stage of your career, and one of higher
+    level gives a bonus.  The great foes that call for a group are worth
+    several times as much.
+
+  * There are 100 levels.  The early ones come quickly; past level 50 each
+    one takes a good deal longer.
+
+  * Dying costs you the experience you have earned toward your next
+    level, never a level itself.
 
   * When you successfully complete a quest, or one of the many puzzles
     within the game you gain experience.
@@ -1374,11 +1390,10 @@ GROUP with no arguments shows the status of your group.  GROUP <player>
 adds or removes <player> from your group.  GROUP ALL adds everyone who is
 following you to your group.
 
-If you are a group member, then you will share experience points for killing
-monsters equally among the group. Experience points will only be shared among
-group members that are in the same location, at the time of the killing
-blow. Sharing is regardless of whether the group members have been
-participating in the fight.
+Every blow you land earns you a share of a monster's experience.  What is
+left when it dies is shared among the group members in the same place at the
+killing blow, by level, whether or not they fought.  Every land has great
+foes that only a group can bring down (see AREAS).
 
 Group with no argument shows a list of people with whom you are grouped.
 "group all" groups all people who are following you.
@@ -1457,7 +1472,8 @@ Save        : Versus spell for half damage.
 
 This spell removes all but 2d4 hitpoints from the victim IF he or she
 is less than or equal to half of the caster's level.  Otherwise,
-the spell does 8d8 damage to the victim.
+the spell does about three blows' worth of damage from a fighter of the
+caster's level.
 It is not possible to kill using this spell (but almost).
 
 See Also: -
@@ -2220,6 +2236,80 @@ up and the curtain comes down early.
 Elrhinn's townsfolk go to the theatre too, a couple of times a month, and
 a shopkeeper at the play is not minding his shop.  The theatre's staff
 have work for adventurers: there are rats under the stage.
+
+See also: QUEST
+#
+AREAS ZONES "ITEM LEVEL" "ITEM LEVELS" BOSS BOSSES "GROUP BOSS" DIFFICULTY
+
+AREAS lists the lands of the realm by the levels they suit, from the kobold
+catacombs and the Thallin Plains for those just setting out (levels 1-6) to
+Thangorodrim at the far end of the world (88-100).  Those that suit you are
+shown in green and those still beyond you in red.  As a rule, the farther a
+land lies from Elrhinn, the more dangerous it is.
+
+Every land has at least one great foe - a bandit captain, a dragon, a king -
+that no adventurer of its level can hope to beat alone.  In the gentler
+lands two companions will do, or one adventurer of ten levels more; in the
+far reaches it takes a band of four or five, and nobody manages it alone.
+They are worth a great deal of experience and carry fine things.
+
+Every item has a level, from where in the world it is found, and you can
+wear, wield or hold it from five levels below that.  IDENTIFY tells you an
+item's level.  Shops in the towns farther from Elrhinn sell better goods.
+
+See also: GROUP EXPERIENCE WORLD
+#
+ARENA BET BETS BETTING ODDS BOOKMAKER BOOKIE CHALLENGE GLADIATOR GLADIATORS
+
+The Arena of the Desert of Demise, west of Mytherandil, stages a bout four
+times a day, at the 9th hour of the morning and the 1st, 5th and 9th hours
+of the evening.  Two of the Arena's fighters meet in the ring, and the
+crowd in the stands hears every blow.  Two hours before each bout the
+herald calls the card and betting opens.
+
+The bookmaker keeps his booth beneath the bleachers.  LOOK BOARD (or ODDS)
+shows the fighters and the odds; BET <amount> <fighter> places a bet (the
+fighter by name, or 1 or 2); BETS shows your tickets.  The smallest stake
+is 10 gold and there is no largest.  Odds are a bookmaker's: "7 to 4"
+means a winning 4 gold pays 7 more, and "2 to 1 on" means a winning 2 gold
+pays 1 more.  The house always has the edge.  Betting closes at the bell;
+winners are paid when the bout ends, wherever they are.
+
+The arena master at the Northern Gate will match you against a gladiator
+of your own level: CHALLENGE NOVICE, VETERAN or CHAMPION, adding GOLD or
+WEAPON for the prize you want (LIST there gives the terms).  Win and you
+are paid in gold, or given a prize weapon fit for your level; lose and
+you are dragged from the ring before the gladiator can finish you.  The
+ring is closed while a bout is on the card, and you must catch your
+breath for a few minutes between challenges.
+
+See also: AREAS
+#
+SHIP SHIPS SEA-WREN FERRY PIRATES PIRATE PASSAGE FARE SURRENDER BLACKWAKE
+
+The Sea Wren, a coastal trader under Captain Halloran Gray, carries
+passengers along the coast: from Gnishmire pier to the coral shore below
+Castle Llyndyr, round the eastern cape to Port by the Forest on Vice
+Island, on to the Black Sand Beach on the Isle of Karras and the Southern
+Dock of Elrhinn, and back again the same way.  She stays two hours in each
+port, with her gangplank down; walk aboard, and ask the purser (LIST)
+where she is bound and when.  The passage is 25 gold a port, collected as
+she casts off.  Anyone who cannot pay is walked back down the gangplank.
+Once she is at sea there is no getting off until the next port, and the
+captain will not put out in a downpour.
+
+Pirates work these waters, above all off the cape.  When they board, the
+crew fight, and the passengers had better fight too.  Beat them off and
+they flee; lose the captain, or let the fight drag on, and they cut every
+passenger's purse before they go.
+
+Worst of all is Morrow Blackwake, the Pirate King, and his Red Maw.  He
+does not take purses.  He takes the ship, and the passengers to hold for
+ransom.  SURRENDER, while he is boarding, gives him what he wants.  What
+becomes of his prisoners, and whether any of them ever comes back with
+his head, is between them and Blackwake.  (If you leave the game while
+his prisoner, your ransom is paid: you come back at Vice Island with all
+your things.)
 
 See also: QUEST
 #

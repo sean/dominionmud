@@ -1,7 +1,7 @@
 #45
 The Tomb of Haqim-Taar~
 Garou~
-BUILDING~
+78-88~
 3001 1
 4699 20 1
 *
@@ -9,5 +9,20 @@ BUILDING~
 *           By: Kirahn
 *
 M 0 4500 1 4500 100 	* A knight of the Silver Legion at room 4500. (Max: 1)
+* Nov 2026 rebalance: residents
+M 0 4501 3 4524 100 	* a sand wraith (level 80)
+M 0 4501 3 4512 100 	* a sand wraith (level 80)
+M 0 4501 3 4506 100 	* a sand wraith (level 80)
+M 0 4502 4 4516 100 	* a skeletal legionnaire (level 84)
+M 0 4502 4 4520 100 	* a skeletal legionnaire (level 84)
+M 0 4502 4 4517 100 	* a skeletal legionnaire (level 84)
+M 0 4502 4 4522 100 	* a skeletal legionnaire (level 84)
+M 0 4503 4 4600 100 	* a tomb guardian (level 82)
+M 0 4503 4 4505 100 	* a tomb guardian (level 82)
+M 0 4503 4 4527 100 	* a tomb guardian (level 82)
+M 0 4503 4 4528 100 	* a tomb guardian (level 82)
+M 0 4504 2 4528 100 	* a priest of Haqim-Taar (level 86)
+M 0 4504 2 4504 100 	* a priest of Haqim-Taar (level 86)
+M 0 4505 1 4505 100 	* Haqim-Taar, the Undying King (group boss)
 S
 $~

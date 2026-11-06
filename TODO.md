@@ -44,7 +44,32 @@ already has.
   actors who play to the audience and an usher who throws brawlers out, Elrhinn's townsfolk at the
   theatre a couple of times a month, and six quests in the rat tunnels under the stage. Ideas: more
   plays; players buying a box; a playbill that changes; an understudy when an actor has been killed.
-* **Quests handed out by NPCs.** Done (Nov 2026): `quest.c` and `lib/data/quests` give 286 quests, 4-8
+* **Ships between the coasts.** Done (Nov 2026): the Sea Wren (zone 42, `ship.c`, `lib/data/ships`)
+  sails Gnishmire, the coral shore below Llyndyr, Vice Island, the Isle of Karras and Elrhinn's Southern
+  Dock and back, 25 gold a port, 2 hours in each, with a gangplank that comes and goes. Pirates
+  sometimes board her (more often off the cape) and plunder a tenth of each passenger's gold if they
+  win. A player on the captain's quest (4201) who sails round the cape brings Morrow Blackwake: he takes
+  the ship and carries the passengers, stripped of gear and gold, to his brig on Blackwake's Isle
+  (zone 43), where they escape through the floor, take the store keys from the sleeping quartermaster,
+  open their sea chests and hunt him to the lighthouse. Crash-safe (PirateGold in the player file).
+  Ideas: a second ship on another route; buying passage for a mount; a navy ship that hunts the
+  pirates; ransoming other prisoners.
+* **Bouts and betting at the Arena.** Done (Nov 2026): four scheduled bouts a day between the Arena's
+  ten fighters, watched from the stands; a bookmaker below the bleachers with an odds board, priced
+  from simulated fights with a house edge (stakes from 10 gold, losing stakes destroyed); and
+  challenges against a gladiator of your own level for gold or a prize weapon, not to the death
+  (`arena.c`, `lib/data/arena`). Ideas: betting on player challenges; a champion's title for a run of
+  wins; tournaments on festival days.
+* **Rebalance for levels 1-100.** Done (Nov 2026): mortals now reach level 100 (immortals 101-108), on a
+  curve that keeps the early levels quick and makes 50-100 a longer climb (about 12 times the play
+  of reaching 42 before). Every zone has a level bracket by its distance from Elrhinn (AREAS lists
+  them), every mob and item was rescaled to it from one balance model (AGENTS.md §5), every zone has
+  a group boss, ten unreachable zones were connected as the high-level lands and seven empty ones
+  populated, quests were re-levelled, items have levels, experience is shared per blow, death costs
+  only the current level's progress, and spell, skill and breath damage scale with level. Ideas: a
+  NEWBIE zone tour; a level-appropriate gear vendor in each town; re-tuning class skills (backstab,
+  double attack) by class once classes are in; more 70-100 zones.
+* **Quests handed out by NPCs.** Done (Nov 2026): `quest.c` and `lib/data/quests` give 314 quests, 4-8
   in every zone in the world (Immortal Paradise and the one-room Ganin's Zone aside), written to suit
   each zone: kill, fetch, visit and deliver quests, generous rewards worked out from the quest's level,
   daily errands in the towns, chains (Master Oldric's Academy lessons, the Monastery's two chambers).
@@ -80,10 +105,6 @@ already has.
 - **Mounted travel and stables.** `mount` and `ride` exist, but horses are rare. Stables in the cities that
   rent mounts (returned at another stable for a refund), faster movement on roads and fields, and mounts
   that refuse to enter caves would make the large overland map feel more like a journey.
-- **Ships between the coasts.** The Sea of Tears, the Isle of Karras and the coral shore below Llyndyr are
-  all reachable only by walking or one boat room. A ferry that sails on a schedule between ports (a
-  moving room, like the Emperor's path but for a vehicle) with pirates that sometimes board it would
-  connect them.
 - **A rest-and-gossip loop at inns.** Inns could restore movement faster, sell rumours (hints to a random
   puzzle, the location of a bounty target, which zone was last reset) and let players buy a round that
   gives everyone in the room a small temporary bonus.

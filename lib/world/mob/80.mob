@@ -8,8 +8,8 @@ eyes you see a certain amount of wariness.  His beard is long, scraggly
 and braided in several spots.
 ~
 dglm r 150 S
-17 10 0 1d1+500 2d8+15
-90 15000
+52 36 18 17d6+82 5d3+0
+510 22286
 8 8 1
 #8001
 villager dwarven dwarf~
@@ -21,8 +21,8 @@ He has a long beard which he seems to be quite proud of and his eyes
 are a deep shade of blue.
 ~
 cdg 0 0 S
-5 4 0 1d20+20 1d6+4
-45 500
+49 34 17 16d6+76 5d5+0
+458 19826
 8 8 1
 #8002
 villager dwarf dwarven~
@@ -34,8 +34,8 @@ She has a tiny beard which she seems to be quite proud of and her eyes
 are a deep shade of blue.
 ~
 cdg 0 0 S
-5 4 0 1d20+20 1d6+4
-45 500
+49 34 17 16d6+76 5d5+0
+458 19826
 8 8 2
 #8003
 king dwarf Bryn mawr~
@@ -47,8 +47,8 @@ his knees and his face has a rough look to it.  He is much taller than
 the average dwarf and looks like a powerful adversary.
 ~
 bdelmo hp 500 S
-14 20 16 1d100+900 1d20+10
-200 70000
+69 44 22 23d6+14 6d6+0
+852 38946
 8 8 1
 #8004
 guardian dwarf~
@@ -60,8 +60,8 @@ him well in battle.  A long white beard flows out from beneath his helm
 down along his chest.
 ~
 degq cr 400 S
-25 20 37 1d100+200 1d20+10
-50 80000
+81 50 25 27d6+122 7d3+0
+1146 53490
 8 8 2
 #8005
 grem trimbleshield smith~
@@ -73,8 +73,8 @@ Grem Trimbleshield is about 3 feet tall but must weigh nearly
 braided and slung over his shoulder so as to not get in his way.
 ~
 bd 0 200 S
-30 10 63 30d50+500 5d5+10
-10000 50000
+56 38 19 18d6+862 5d7+0
+5238 154740
 8 8 1
 #8006
 Garin Meridan shopkeeper keeper shop~
@@ -86,8 +86,8 @@ food for the town.  He has a good reputation for being honest
 as well as holding down a keg or two of beer.
 ~
 bde ar 200 S
-30 20 75 30d2+1000 5d10+20
-10000 100000
+87 54 27 29d6+129 8d3+0
+1309 61626
 8 8 1
 #8007
 isyndir storekeeper keeper~
@@ -99,8 +99,8 @@ of his excursions and wanderings.  Most people take him with a 500 lb.
 bag of salt however.
 ~
 bd ar 200 S
-30 20 51 20d2+1000 11d1+11
-10000 100000
+54 37 18 18d6+85 5d3+0
+545 24006
 8 8 1
 #8008
 spider black~
@@ -111,8 +111,8 @@ It is black, small and has tiny hairs covering the oversized lobe
 on its aft end.  
 ~
 adg 0 0 E
-1 1 87 3d1+2 2d1+1
-0 50
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 0
 BareHandAttack: 4
 Race: 43
@@ -127,8 +127,8 @@ them of valuables.  Maybe he can show you a thing or two about
 his profession.
 ~
 d ks -200 E
-16 20 100 50d2+25 3d4+7
-4000 45000
+43 32 16 14d6+65 4d6+0
+363 15338
 8 8 1
 BareHandAttack: 14
 E
@@ -142,8 +142,8 @@ on it as he looks down at you.  His breath smells of cheap ale
 and yet his eyes show nothing but true cunning.
 ~
 cdg r -200 S
-15 15 73 20d9+100 4d5+8
-3000 75988
+51 36 18 17d6+79 5d3+0
+492 21450
 8 8 1
 #8011
 dragon wyrm black~
@@ -155,8 +155,8 @@ black scales covering its entire body and fangs which drip a steaming
 fluid.  It's eyes turn to slits as it notices you looking at it.
 ~
 abdjo h -1000 E
-10 10 40 5d30+40 3d5+10
-2000 15000
+50 35 18 16d6+11 5d5+0
+475 20630
 8 8 1
 BareHandAttack: 8
 Race: 34
@@ -171,8 +171,8 @@ average dwarf only this particular species of dwarf is quite tardy
 on the evolution clock.
 ~
 d 0 100 E
-5 4 70 1d12+3 2d1+4
-35 200
+14 17 8 4d6+28 2d5+0
+57 1766
 8 8 1
 BareHandAttack: 4
 E
@@ -185,8 +185,8 @@ He looks to be the shaman of the tribe of furred dwarves.  He utters
 strange guttural words which have no meaning to you but much to him.
 ~
 bdq k -200 E
-3 5 39 2d5+5 3d2+5
-75 300
+13 16 8 4d6+27 2d5+0
+51 1538
 8 8 1
 BareHandAttack: 4
 E
@@ -199,8 +199,8 @@ The rat is very undernourished and its bulbous eyes stare up
 at you in fear.
 ~
 dg 0 0 E
-2 2 13 2d6+4 2d2+2
-0 150
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 0
 BareHandAttack: 8
 E
@@ -213,8 +213,8 @@ He looks like he doesn't have very much to do with himself.  He wanders
 about staring at the town.
 ~
 dg 0 400 S
-3 5 3 2d3+7 2d2+3
-30 239
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 1
 #8016
 dwarf child young~
@@ -225,8 +225,8 @@ She is a thin dwarf, her age in undeterminable.  Her hair is long
 and tousled.  
 ~
 dg 0 500 E
-3 4 0 1d13+5 1d3+2
-5 100
+48 34 17 16d6+73 5d5+0
+442 19038
 8 8 2
 Race: 19
 E
@@ -239,8 +239,8 @@ The streetsweeper looks quite bland and tired.  His hair is matted
 against his brow and a subtle odor hangs about him.
 ~
 cdg 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+13 16 8 4d6+27 2d5+0
+51 1538
 8 8 1
 #8018
 gate guardian~
@@ -252,11 +252,11 @@ in strange runes.  His long, braided beard hangs down to his chest, a
 symbol of his maturity.
 ~
 d 0 800 E
-30 63 65 15d60+8000 7d4+71
-120 204687
+54 37 18 18d6+39 5d4+0
+545 24006
 8 8 1
 Str: 18
-Dex: 19
+Dex: 17
 Int: 18
 Wis: 18
 Con: 16
@@ -273,8 +273,8 @@ out. Maggots crawl about the loose flesh hanging from the bones.
 The black, twisted bones are in the form of a dragon.
 ~
 bdf pr -1000 E
-25 53 80 12d50+2000 6d2+62
-0 10000
+53 36 18 17d6+47 5d2+0
+527 23138
 8 8 0
 BareHandAttack: 8
 Str: 16
@@ -293,8 +293,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 18 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8021
 unfinished mob~
@@ -304,8 +304,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 2 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8022
 unfinished mob~
@@ -315,8 +315,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8023
 unfinished mob~
@@ -326,8 +326,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8024
 unfinished mob~
@@ -337,8 +337,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8025
 unfinished mob~
@@ -348,8 +348,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8026
 unfinished mob~
@@ -359,8 +359,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8027
 unfinished mob~
@@ -370,8 +370,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8028
 unfinished mob~
@@ -381,8 +381,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8029
 unfinished mob~
@@ -392,8 +392,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8030
 unfinished mob~
@@ -403,8 +403,8 @@ An unfinished mob is here
 It is unfinished
 ~
 d 0 0 S
-1 1 0 1d1+1 1d1+1
-1 1
+46 33 16 15d6+70 4d7+0
+409 17510
 8 8 1
 #8031
 apprentice dwarf dwarven young~
@@ -415,8 +415,8 @@ A young dwarf with a beard only just worth combing and soot on his nose,
 on his way to be sworn in at the castle.
 ~
 d 0 500 E
-4 20 5 4d10+32 1d4+0
-0 0
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 1
 E
 $~

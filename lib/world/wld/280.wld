@@ -10,6 +10,11 @@ D0
 ~
 ~
 0 0 28001
+D3
+The trail runs west to the boarded southern gate of Charing Cross.
+~
+~
+0 -1 10077
 S
 #28001
 Trail leading into the hills~
@@ -134,10 +139,6 @@ D2
 ~
 ~
 0 0 28004
-D3
-~
-~
-0 0 0
 S
 #28008
 An unfinished room~
@@ -214,14 +215,15 @@ An unfinished room~
 You are in an unfinished room.
 ~
 280 0 0
-D0
-~
-~
-0 0 0
 D2
 ~
 ~
 0 0 28012
+D1
+East, the hills open out onto the wide grass of the plains.
+~
+~
+0 -1 28049
 S
 #28048
 Blocked off in the plains~
@@ -253,6 +255,11 @@ Continuing on through the plains....
 ~
 ~
 0 0 28050
+D3
+West, a thin trail climbs into the hills.
+~
+~
+0 -1 28013
 S
 #28050
 On a path in the plains~
@@ -308,10 +315,6 @@ out several huts off in the distance.  The smoke seems to be coming from
 there.  Perhaps it's a village of some kind.
 ~
 280 0 2
-D0
-~
-~
-0 0 0
 D2
 ~
 ~
@@ -353,10 +356,6 @@ D0
 ~
 ~
 0 0 28053
-D3
-~
-~
-0 0 0
 S
 #28055
 A watering hole~
@@ -434,11 +433,6 @@ More grass this way.
 ~
 ~
 0 0 28059
-D3
-In the distance, you think you see a canyon.
-~
-~
-0 0 0
 S
 #28059
 On the plains~

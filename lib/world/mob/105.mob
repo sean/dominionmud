@@ -8,8 +8,8 @@ a sound continues along. How strange--her eyes are a very dull grey. Doesn't
 seem to work with her beautiful face.
 ~
 cdegh 0 0 E
-5 13 0 2d6+45 2d4+0
-20 350
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 2
 Race: 0
 E
@@ -23,8 +23,8 @@ a sound continues along. How strange--her eyes are a very dull grey. Doesn't
 seem to work with her beautiful face.
 ~
 cdegh 0 0 E
-5 13 1 2d6+45 2d4+0
-20 350
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 2
 Race: 0
 E
@@ -38,8 +38,8 @@ a sound continues along. How strange--her eyes are a very dull grey. Doesn't
 seem to work with her beautiful face.
 ~
 cdegh 0 0 E
-5 13 0 2d6+45 2d4+0
-20 350
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 2
 Race: 0
 E
@@ -53,8 +53,8 @@ a sound continues along. How strange--her eyes are a very dull grey. Doesn't
 seem to work with her beautiful face.
 ~
 cdegh 0 0 E
-5 13 0 2d6+45 2d4+0
-20 350
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 2
 Race: 1
 E
@@ -68,8 +68,8 @@ a sound continues along. How strange--her eyes are a very dull grey. Doesn't
 seem to work with her beautiful face.
 ~
 cdegh 0 0 E
-5 13 0 2d6+45 2d4+0
-20 350
+47 34 17 15d6+73 4d7+0
+425 18266
 8 8 2
 Race: 8
 E
@@ -83,8 +83,8 @@ women, because he certainly doesn't have the face for it. He looks somewhat
 like a cross between a pear and a potato, but without the good looks.
 ~
 bdg d -1000 E
-30 1 52 12d12+2400 6d7+9
-24000 1157500
+83 52 26 27d6+127 7d6+0
+1199 56138
 8 8 1
 Race: 11
 E
@@ -97,8 +97,8 @@ A small, red crab scuttles along the beach.
 benign, but probably wouldn't appreciate being attacked.
 ~
 de 0 0 E
-2 7 25 1d10+20 1d5+4
-0 75
+30 25 12 10d6+43 3d6+0
+195 7590
 8 8 0
 Race: 29
 E
@@ -111,8 +111,8 @@ A cute, cuddly little tar baby is here, ready to follow the first person it sees
 first sign of human life. And it's just so cute you can't want to kill it!
 ~
 acdeh d 500 E
-30 11 4 1d12+120 3d5+4
-20 1200
+38 29 14 12d6+57 4d5+0
+293 12038
 8 8 1
 Race: 22
 E
@@ -125,8 +125,8 @@ A seagull flies about the cliff.
 you look closely at it or not.
 ~
 abdeg B 0 E
-5 13 1 1d12+50 2d2+2
-0 650
+32 26 13 10d6+48 3d7+0
+218 8606
 10 10 0
 Race: 22
 E
@@ -140,8 +140,8 @@ meet on the street every day. He certainly inspires fear in your heart. You'd
 most likely *NOT* want to attempt to kill this man! He's one mean fellow!
 ~
 dgjkl hstu -1000 E
-30 0 27 10d12+15200 6d7+31
-30000 2000000
+83 52 26 27d6+16 7d6+0
+1199 56138
 8 8 1
 Race: 0
 E
@@ -154,8 +154,8 @@ A wailing ghost floats about the halls.
 faint outline of something making the wall shimmer.
 ~
 defgh acfhilmpqtu -750 E
-15 6 5 1d12+250 2d8+5
-0 24000
+33 26 13 11d6+5 3d7+0
+229 9138
 8 8 0
 Race: 23
 E
@@ -170,8 +170,8 @@ and almost naked--his rags barely cover him. He is covered in his own filth.
 Just looking at him makes you want to retch.
 ~
 bcdf d -900 E
-25 1 53 5d10+750 4d6+4
-0 175000
+35 28 14 11d6+53 3d7+0
+254 10250
 8 8 1
 Race: 0
 E
@@ -183,8 +183,8 @@ The butcher stands here, waiting for his next kill.
   He's rather ordinary, except for the humongous knife he holds in his hand.
 ~
 bdg h -1000 E
-30 1 70 6d10+1200 4d6+3
-2000 400000
+38 29 14 12d6+8 4d5+0
+293 12038
 8 8 1
 Race: 0
 E
@@ -200,8 +200,8 @@ strong, she is also quite voluptuous. She looks at you with the most
 sympathetic eyes--you just want to give yourself over to her.
 ~
 dfgl hnpu -1000 E
-35 49 66 10d15+8000 3d7+42
-50000 3000000
+40 30 15 13d6+7 4d6+0
+320 13310
 8 8 2
 Race: 4
 E
@@ -214,8 +214,8 @@ The Keeper of the Shrine of Vice guards the alter from desecration.
 he would like to make you his next. Keep clear of this guy.
 ~
 bdjk h -800 E
-35 1 91 5d10+2750 4d6+24
-2000 125000
+40 30 15 13d6+7 4d6+0
+320 13310
 8 8 1
 Race: 13
 E
@@ -233,8 +233,8 @@ intelligence and a little bit of resignation, as though it knows you will
 eventually get around to attacking it.
 ~
 bcdnp hku -750 E
-40 0 93 15d20+24000 7d8+38
-50000 8000000
+42 31 16 14d6+283 4d7+0
+3141 87876
 5 5 0
 Race: 41
 E
@@ -248,8 +248,8 @@ the air with a mad cackle, and looks at you. With an evil grin, he says,
 "ah, my next victim! yessssss" and launches himself at you.
 ~
 bdefg dh -1000 E
-29 1 80 5d10+1100 4d6+5
-20000 350000
+37 28 14 12d6+6 4d5+0
+279 11426
 8 8 1
 Race: 0
 E
@@ -263,8 +263,8 @@ dangerous to attack. He looks at you with steel-rimmed glasses and says,
 "shall ve beegeen?"
 ~
 degh 0 -1000 E
-35 1 23 1d13+500 3d6+4
-1000 40000
+40 30 15 13d6+60 4d6+0
+320 13310
 6 6 1
 Race: 0
 E
@@ -278,8 +278,8 @@ in his eye. He looks quite sinister, as though he expects to get information
 out of you--whether you know it or not.
 ~
 degh h -1000 E
-35 1 49 1d100+13000 6d7+30
-20000 1600000
+90 55 28 30d6+14 8d6+0
+1395 65910
 8 8 1
 Race: 0
 E
@@ -292,8 +292,8 @@ The Priest of Hopelessness stands here, waiting to remove all hope of leaving.
 look at me!?" and promptly attacks you.
 ~
 bdfg tu -1000 E
-35 1 63 7d12+12000 5d6+27
-5000 1000000
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 1
 Race: 0
 E

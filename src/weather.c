@@ -92,6 +92,8 @@ void another_hour(int mode)
   routines_hour();              /* NPC daily routines (routine.c) */
   quest_hour();                 /* time limits, lost escorts (quest.c) */
   theater_hour();               /* the Lyceum's performances (theater.c) */
+  ship_hour();                  /* the Sea Wren's voyages (ship.c) */
+  arena_hour();                 /* the Arena's bouts (arena.c) */
 }
 
 

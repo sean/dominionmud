@@ -8,8 +8,8 @@ The stone giant worker looks as if he too busy moving rocks
 around to pay any attention to you.
 ~
 dg 0 -90 S
-15 20 0 5d4+580 2d8+50
-200 25000
+28 24 12 9d6+42 3d6+0
+174 6638
 8 8 1
 #25001
 giant guard stone~
@@ -20,8 +20,8 @@ The stone giant guard watches you carefully wondering exactly
 what business you have here.
 ~
 dg 0 850 E
-16 25 15 5d4+595 2d8+40
-300 90000
+60 40 20 20d6+97 6d5+0
+660 29550
 8 8 1
 Race: 24
 E
@@ -35,8 +35,8 @@ The Elite Giant Sentry looks much less than pleased that you have
 entered his domain.
 ~
 bdfg fu 850 S
-17 30 55 5d4+1305 3d6+26
-3000 99000
+61 40 20 20d6+99 6d5+0
+680 30530
 8 8 1
 #25003
 giant elder stone~
@@ -48,8 +48,8 @@ look in his eyes tells you he has sent more than his share of
 enemies to an early grave.
 ~
 dg h 850 E
-25 43 101 5d4+2317 3d6+35
-3000 110000
+74 47 24 24d6+16 7d6+0
+969 44726
 8 8 1
 Race: 24
 E
@@ -62,8 +62,8 @@ The Mature Brass Dragon Hatchling looks like she will be using
 the rainbow trail soon.
 ~
 adg 0 400 E
-15 33 94 5d4+2180 2d8+32
-100 210000
+28 24 12 9d6+42 3d6+0
+174 6638
 8 8 2
 Race: 36
 E
@@ -76,8 +76,8 @@ A Small Brass Dragon Hatchling is here.
 angry.
 ~
 adfg 0 400 E
-13 21 99 3d4+260 3d7+21
-0 60000
+26 23 12 8d6+41 3d5+0
+153 5750
 8 8 1
 Race: 36
 E
@@ -90,8 +90,8 @@ The mountain goat stops searching for grass and watches you
 watch him.
 ~
 adfgl 0 0 E
-10 10 90 2d5+120 2d6+10
-0 2000
+26 23 12 8d6+41 3d5+0
+153 5750
 8 8 0
 Race: 22
 E
@@ -104,8 +104,8 @@ This humanoid dwarfs the other giants.  Confidently he sits
 and watches for your next move.
 ~
 bd dhu 450 E
-32 67 109 1d6+8500 2d18+75
-4000 180000
+34 27 14 11d6+6 3d7+0
+241 9686
 6 6 1
 BareHandAttack: 6
 E
@@ -118,8 +118,8 @@ The giant soldier seems to be in deep thought, but you know
 he won't hesitate to dispatch you back to where you came from.
 ~
 dg 0 100 S
-25 1 71 1d6+1000 3d8+20
-25 150000
+31 26 13 10d6+46 3d6+0
+206 8090
 8 8 1
 #25009
 storm giant wife~
@@ -129,8 +129,8 @@ A Storm Giant Wife stand here protecting her children.
 The storm giant wife looks very displeased.
 ~
 dfg 0 0 S
-23 49 107 1d6+900 2d8+28
-1000 90000
+30 25 12 10d6+43 3d6+0
+195 7590
 8 8 2
 #25010
 storm giant boy~
@@ -141,8 +141,8 @@ The boy has been raised knowing to die in battle is the
 best death possible.  He is ready to defend himself to the end.
 ~
 dfg 0 0 S
-21 25 61 1d6+1500 1d8+18
-2000 90000
+29 24 12 9d6+44 3d6+0
+184 7106
 8 8 1
 #25011
 stormgiant bodyguard~
@@ -153,8 +153,8 @@ The Bodyguard looks especially mean and nasty when rubbed
 the wrong way...like right now.
 ~
 bdgm r 450 E
-32 67 60 1d6+2500 2d7+22
-3000 100000
+85 52 26 28d6+128 8d3+0
+1254 58850
 8 8 1
 Race: 24
 E
@@ -167,8 +167,8 @@ The guard believes this is his dominion, and furthermore
 believes you are not the one to tell him otherwise.
 ~
 bdf 0 200 S
-25 45 51 1d6+2000 3d8+20
-1000 100000
+74 47 24 24d6+116 7d6+0
+969 44726
 8 8 1
 #25013
 ashes bronze dragon~
@@ -179,8 +179,8 @@ Ashes, chosen by Umbra himself as a mount and confidant,
 relaxes next to the throne, exhaling smoke with every breath.
 ~
 abdglm hpuw 350 E
-32 67 84 1d600+8000 5d2+50
-0 300000
+34 27 14 11d6+6 3d7+0
+241 9686
 5 5 1
 BareHandAttack: 8
 Race: 36
@@ -194,8 +194,8 @@ The Storm Giant Sage looks back at you wondering what
 business you have here.
 ~
 dg 0 850 E
-24 45 76 1d6+1000 3d8+20
-100 150000
+72 46 23 24d6+111 7d5+0
+922 42366
 6 6 1
 Race: 24
 E
@@ -207,8 +207,8 @@ A manticore roars as you approach, sending chills up your spine.
 The manticore growls and licks his lips at the sight of you.
 ~
 adfg 0 -100 E
-18 54 26 3d8+990 3d8+24
-0 80000
+29 24 12 9d6+44 3d6+0
+184 7106
 8 8 1
 Race: 22
 E
@@ -221,8 +221,8 @@ The Guardian of the Clouds clenches his giant hand into a fist and
 prepares to knock you back down to the ground.
 ~
 dfg defu 0 S
-27 50 78 3d4+700 3d8+20
-2000 100000
+31 26 13 10d6+46 3d6+0
+206 8090
 8 8 1
 #25017
 cloud trainee~
@@ -233,8 +233,8 @@ The Cloud Giant Trainee may not be perfect with his lance yet,
 but he looks like he would be able to manage if pressed.
 ~
 dg 0 0 S
-25 1 101 3d4+450 2d8+15
-175 30000
+31 26 13 10d6+46 3d6+0
+206 8090
 8 8 1
 #25018
 cloud lieutenant~
@@ -245,8 +245,8 @@ The Cloud Giant Lieutenant stops to take a look at you, the
 strangers here.
 ~
 dg 0 100 S
-28 20 104 3d4+600 2d8+15
-200 110000
+32 26 13 10d6+48 3d7+0
+218 8606
 8 8 1
 #25019
 cloud captain~
@@ -257,8 +257,8 @@ The Cloud Giant Captain looks as if he has been working
 hard all day and is taking his well-deserved rest.
 ~
 bdg 0 200 S
-29 45 99 3d4+950 2d8+20
-400 90000
+80 50 25 26d6+123 7d6+0
+1120 52190
 8 8 1
 #25020
 tower protector~
@@ -270,8 +270,8 @@ he looks as if he would not hesitate laying down his life to protect
 those inside.
 ~
 bd 0 900 E
-28 59 105 6d4+2700 2d8+98
-2000 170000
+78 49 24 26d6+119 7d6+0
+1069 49638
 8 8 1
 BareHandAttack: 6
 Race: 24
@@ -285,8 +285,8 @@ The Brass Dragon impresses you with the way she can glide her
 enormous self around the sky.
 ~
 adg 0 500 E
-28 45 94 5d6+3500 2d8+55
-4000 300000
+32 26 13 10d6+48 3d7+0
+218 8606
 8 8 1
 Race: 36
 E
@@ -299,8 +299,8 @@ The Bronze Dragon looks like he would rather be in battle
 now instead he's training for one that might not happen for years.
 ~
 adg u 500 E
-29 56 87 5d6+7000 5d8+40
-5000 250000
+33 26 13 11d6+48 3d7+0
+229 9138
 8 8 1
 Race: 36
 E
@@ -313,8 +313,8 @@ The Tower Guard will under no circumstances allow you entry
 to the next room without going through him first.
 ~
 bdfg 0 200 E
-28 59 59 3d6+1850 2d8+90
-2000 200000
+32 26 13 10d6+48 3d7+0
+218 8606
 8 8 1
 BareHandAttack: 6
 E
@@ -329,8 +329,8 @@ says, "This was on the last fool mortal to enter this Tower.  SPARE
 YOUR LIFE AND LEAVE NOW!!!".
 ~
 bdgi hu 400 E
-33 35 90 1d10+20000 6d8+80
-20000 600000
+35 28 14 11d6+7 3d7+0
+254 10250
 8 8 1
 Race: 24
 E
@@ -344,8 +344,8 @@ cloud to cloud looking for corpses to feed on.  You have a feeling
 they stay well fed thanks to the Guardians.
 ~
 cdgh dep 0 S
-10 18 81 1d2+10 1d2+10
-1 400
+26 23 12 8d6+41 3d5+0
+153 5750
 8 8 0
 #25026
 war dog~
@@ -356,8 +356,8 @@ The War Dog looks very small compared to Gmra, but you know
 that his teeth would not feel good around your neck.
 ~
 abdg 0 0 E
-14 27 93 1d6+950 3d6+15
-0 65000
+27 24 12 9d6+39 3d6+0
+163 6186
 8 8 0
 BareHandAttack: 4
 Race: 22
@@ -373,8 +373,8 @@ wind and the sky he has humbled many that have had the same
 thoughts you are having now.
 ~
 abdgik hrw 400 E
-41 85 94 100d100+18500 3d8+75
-100000 1000000
+37 28 14 12d6+248 4d3+0
+2511 68556
 5 5 1
 BareHandAttack: 8
 Race: 39
@@ -390,8 +390,8 @@ has received banishment from the Giant Kingdom for his deeds,
 and lives here feasting on the luckless adventure.
 ~
 bcdfg h -1000 E
-31 40 73 1d10+10500 8d4+80
-40000 1000000
+34 27 14 11d6+6 3d7+0
+241 9686
 8 8 1
 Race: 24
 E

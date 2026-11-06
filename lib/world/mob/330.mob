@@ -7,8 +7,57 @@ A cartographer in a dusty coat, surrounded by crumpled maps of the
 labyrinth.  None of them agree with each other.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+100 60 30 33d6+144 9d6+0
+1700 81230
+8 8 1
+E
+#33001
+minotaur~
+a minotaur~
+A minotaur paws the floor and lowers its horns.
+~
+A bull-headed giant with a double axe and a ring through its nose.
+~
+dfg 0 -350 E
+88 54 27 29d6+131 8d6+0
+1338 63038
+8 8 1
+E
+#33002
+stalker labyrinth~
+a labyrinth stalker~
+Something invisible breathes close by.
+~
+A thing of shifting colours, nearly invisible against the labyrinth walls.
+~
+dfg 0 -350 E
+90 55 28 30d6+132 8d6+0
+1395 65910
+8 8 0
+E
+#33003
+horror chromatic~
+a chromatic horror~
+A chromatic horror pulses in every colour at once.
+~
+A mass of shifting colour that hurts to look at, with too many mouths.
+~
+dfg 0 -350 E
+92 56 28 30d6+137 8d6+0
+1454 68846
+8 8 0
+E
+#33004
+asterion lord labyrinth~
+Asterion, Lord of the Labyrinth~
+Asterion, Lord of the Labyrinth, waits in the centre of the carousel.
+~
+The father of all minotaurs, black as night, with gold-capped horns and an axe
+no man could lift.  The Labyrinth was built to hold him, and it has.
+~
+bdg 0 0 E
+97 58 29 32d6+2420 9d7+0
+24075 764660
 8 8 1
 E
 $~

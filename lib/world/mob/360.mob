@@ -8,8 +8,8 @@ same materials as the castle walls. His only purpose is to protect this
 castle, and protect he will.
 ~
 abdfglmqs dfkr 0 E
-30 30 34 50d100+60 5d5+45
-15000 404687
+81 50 25 27d6+97 7d2+0
+1146 53490
 8 8 1
 Str: 17
 Dex: 16
@@ -30,8 +30,8 @@ A butler is here, tending to the souls of all who have come before.
 lanky, and does not look to be a fighter. He asks you how you wish to die.
 ~
 abdgh 0 -1000 E
-15 1 73 7d30+30 3d5+1
-0 35156
+90 55 28 30d6+132 8d6+0
+1395 65910
 8 8 1
 Str: 8
 Dex: 8
@@ -49,8 +49,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 99 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36003
 golden knight statue~
@@ -61,8 +61,8 @@ A golden statue of a knight is here, watching you closely.
 knight, and looks like it may very well be alive...
 ~
 bdlq df 0 S
-35 73 109 60d500+70 3d7+66
-20000 934375
+84 52 26 28d6+126 8d6+0
+1226 57486
 8 8 1
 #36004
 closet monster~
@@ -72,8 +72,8 @@ The closet monster is here, awaiting you!
      What do you expect the closet monster to look like?
 ~
 bdefgmq bdfh -1000 S
-20 30 55 50d800+40 5d6+50
-20000 93750
+79 50 25 26d6+15 7d6+0
+1094 50906
 8 8 0
 #36005
 crying lady~
@@ -85,8 +85,8 @@ softly to herself. As she looks up at you, it seems she does not like that
 you are here. Perhaps it would be best for you to leave her be..?
 ~
 bdgijq at 333 E
-28 50 96 100d56+56 3d6+50
-10 281250
+95 58 29 31d6+109 8d5+0
+1544 73370
 8 8 2
 BareHandAttack: 2
 Str: 18
@@ -108,8 +108,8 @@ The maid is sleeping here, snoring softly.
 It is covered in a drab cloth, and looks to be tired from a long days work.
 ~
 bdl mn 0 E
-10 23 99 10d20+20 2d8+80
-1000 2812
+76 48 24 25d6+117 7d6+0
+1018 47150
 4 4 0
 Race: 26
 Height: 60
@@ -123,8 +123,8 @@ A old, hunched humanoid stands here, eyes shining brightly.
 It looks, err, unfinished.
 ~
 d av -1000 S
-30 40 59 1d1+0 1d1+30
-0 0
+81 50 25 27d6+122 7d6+0
+1146 53490
 8 8 1
 #36008
 watcher~
@@ -136,11 +136,11 @@ looks to contain a power above most as well. He is the watcher of these
 strange gates, and is indeed powerful enough to do what he is told.  
 ~
 abdegs dfkr 0 E
-40 83 70 100d80+80 10d10+88
-25000 1968750
+87 54 27 29d6+1141 8d2+0
+15708 493008
 8 8 1
 BareHandAttack: 15
-Str: 24
+Str: 18
 Dex: 21
 Int: 24
 Wis: 24
@@ -157,8 +157,8 @@ A womprat is here, scavenging for food.
 He is covered with a thick shell, and is dark brown in color.
 ~
 acdh r 0 E
-15 33 64 15d15+30 3d3+45
-1 35156
+78 49 24 26d6+119 7d3+0
+1069 49638
 8 8 0
 Str: 10
 Int: 9
@@ -177,8 +177,8 @@ The castle guard is here, awaiting you.
 in an onyx armor that looks to be quite tough.
 ~
 bdfl df 0 E
-30 30 42 100d20+60 3d6+50
-250 404687
+81 50 25 27d6+87 7d5+0
+1146 53490
 8 8 0
 Str: 18
 Dex: 17
@@ -197,8 +197,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 15 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36012
 unfinished mob~
@@ -208,8 +208,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 3 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36013
 unfinished mob~
@@ -219,8 +219,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36014
 unfinished mob~
@@ -230,8 +230,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36015
 unfinished mob~
@@ -241,8 +241,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36016
 unfinished mob~
@@ -252,8 +252,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36017
 unfinished mob~
@@ -263,8 +263,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36018
 unfinished mob~
@@ -274,8 +274,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36019
 unfinished mob~
@@ -285,8 +285,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36020
 ice monster~
@@ -297,8 +297,8 @@ A large ice creature is here, devouring a corpse.
 He is VERY large, and could easily rip you apart.
 ~
 abdfg 0 0 E
-33 69 12 100d66+66 8d10+25
-20 675000
+82 51 26 27d6+68 7d4+0
+1173 54806
 8 8 0
 Str: 20
 Dex: 19
@@ -316,8 +316,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 2 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36022
 unfinished mob~
@@ -327,8 +327,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36023
 unfinished mob~
@@ -338,8 +338,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36024
 unfinished mob~
@@ -349,8 +349,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36025
 ruler~
@@ -360,8 +360,8 @@ The ruler is here, teaching.
 it's unfinished.
 ~
 d 0 0 S
-40 0 0 100d1000+80 10d35+0
-0 1968750
+85 52 26 28d6+128 8d6+0
+1254 58850
 8 8 0
 #36026
 unfinished mob~
@@ -371,8 +371,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36027
 unfinished mob~
@@ -382,8 +382,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36028
 unfinished mob~
@@ -393,8 +393,8 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 #36029
 unfinished mob~
@@ -404,7 +404,7 @@ An unfinished mob is here.
 it's unfinished.
 ~
 d 0 0 S
-0 3 0 1d1+1 1d1+1
-0 0
+75 48 24 25d6+115 7d6+0
+994 45930
 8 8 0
 $~

@@ -225,6 +225,9 @@ int main(int argc, char **argv)
     load_routines();            /* checks lib/data/routines */
     load_quests();              /* and lib/data/quests */
     load_theater();             /* and lib/data/theater */
+    load_ships();               /* and lib/data/ships */
+    compute_levels();           /* zone brackets, item levels */
+    load_arena();               /* and lib/data/arena */
     load_floods();              /* and lib/data/floods */
     load_ice();                 /* and lib/data/ice */
     weather_init_climates();    /* and lib/data/climates */
@@ -755,6 +758,10 @@ void game_loop(int mother_desc)
 	}
     if (!(pulse % (2 * PASSES_PER_SEC)))        /* the Lyceum (theater.c) */
       theater_pulse();
+    if (!(pulse % (2 * PASSES_PER_SEC)))        /* the Sea Wren (ship.c) */
+      ship_pulse();
+    if (!(pulse % (2 * PASSES_PER_SEC)))        /* the Arena (arena.c) */
+      arena_pulse();
     if (!(pulse % (300 * PASSES_PER_SEC)))      /* 5 minutes */
       record_usage();
 

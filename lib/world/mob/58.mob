@@ -10,8 +10,8 @@ other teacher it ever had.  He still wears his old sword at his hip, and
 he still looks at every new face as if wondering how long it will last.
 ~
 bdenopq dk 800 E
-20 43 45 1d1+30000 1d1+0
-0 0
+54 37 18 18d6+85 5d6+0
+545 24006
 8 8 1
 Race: 0
 E
@@ -27,8 +27,8 @@ painted target on its chest.  Someone has given it a scowling face.  It
 does not fight back much.
 ~
 bdg 0 0 E
-1 20 2 2d4+8 1d2+0
-0 100
+5 12 6 1d6+22 1d5+0
+14 290
 8 8 0
 BareHandAttack: 7
 E
@@ -40,8 +40,8 @@ A small gray rat scurries about in the darkness.
 A thin gray rat with very large eyes, perfectly at home in the dark.
 ~
 dgu k 0 E
-1 20 4 2d4+6 1d3+0
-0 100
+5 12 6 1d6+22 1d5+0
+14 290
 8 8 0
 BareHandAttack: 4
 E
@@ -55,8 +55,8 @@ stubby arms and a blank face.  It was made to give young fighters
 something to practice on, and it takes its job very seriously.
 ~
 bdg 0 0 E
-3 16 6 3d8+18 1d4+1
-0 350
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 BareHandAttack: 13
 E
@@ -70,8 +70,8 @@ that it seems to drink the light.  Its eyes are golden and unblinking,
 and the muscles of its shoulders ripple as it shifts its weight.
 ~
 dfg s 0 E
-14 7 29 15d10+90 2d8+4
-0 16000
+7 14 7 2d6+22 1d7+0
+21 506
 8 8 2
 BareHandAttack: 8
 E
@@ -86,8 +86,8 @@ horse's, and it tastes the air with a forked black tongue as it watches
 you.
 ~
 bdfg k 0 E
-16 6 38 16d16+150 2d10+6
-0 25500
+8 14 7 2d6+24 1d7+0
+26 638
 8 8 0
 BareHandAttack: 4
 E
@@ -101,8 +101,8 @@ and a face that is almost human.  It hoots, beats its chest and throws
 fruit, and if that does not frighten you away it will try its fists.
 ~
 dg 0 0 E
-12 9 8 5d10+120 2d8+4
-0 10750
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 1
 BareHandAttack: 13
 E
@@ -116,8 +116,8 @@ have ever seen, spotted with black.  Something that pretty in a place
 like this is surely warning you of something.
 ~
 dgb 0 0 E
-10 10 9 10d10+60 1d8+4
-0 6000
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 0
 BareHandAttack: 1
 E
@@ -132,8 +132,8 @@ hungrily at the scent of you.  Among them, half-digested, hangs the
 skeleton of a monkey.
 ~
 bdg k 0 E
-15 6 30 1d80+180 2d6+6
-0 20000
+8 14 7 2d6+24 1d7+0
+26 638
 8 8 0
 BareHandAttack: 2
 E
@@ -149,12 +149,12 @@ fight his way up the red stair, and he would be happy to practice on you
 in the meantime.
 ~
 dgl 0 -200 E
-17 7 43 20d10+210 3d6+6
-300 18000
+8 14 7 2d6+24 1d5+0
+26 638
 8 8 1
 Race: 9
 BareHandAttack: 3
-Str: 18
+Str: 15
 Height: 90
 Weight: 400
 E
@@ -169,12 +169,12 @@ and she looks at every visitor as though deciding which of their limbs
 to remove first.
 ~
 bdglm 0 -100 E
-19 2 7 3d6+250 3d5+6
-400 35000
+10 15 8 3d6+24 1d7+0
+35 950
 8 8 2
 Race: 9
 BareHandAttack: 3
-Str: 18
+Str: 15
 E
 #5811
 officer minotaur kinthalas~
@@ -187,12 +187,12 @@ great horned beast, and carries both an axe and a whip, and it is not
 clear which he uses more.
 ~
 dglm 0 -400 E
-22 4 54 22d22+220 3d6+10
-800 49750
+11 16 8 3d6+26 1d5+0
+40 1130
 8 8 1
 Race: 9
 BareHandAttack: 3
-Str: 19
+Str: 16
 E
 #5812
 krommyon king minotaur kinthalas~
@@ -207,12 +207,12 @@ foolish enough, to argue.  The red axe across his knees is stained to
 the haft.
 ~
 bdglnpq dk -700 E
-30 63 60 30d20+1200 5d10+20
-6000 350000
+14 17 8 4d6+156 2d4+0
+342 7064
 8 8 1
 Race: 9
 BareHandAttack: 3
-Str: 21
+Str: 16
 Con: 20
 Height: 108
 Weight: 700
@@ -231,8 +231,8 @@ crackle between his fingers when he mutters, and the walls of his
 chamber show what happens when the sparks get away from him.
 ~
 bdglnp dk -500 E
-27 57 30 20d20+800 4d10+12
-2000 155000
+12 16 8 4d6+25 2d4+0
+46 1326
 8 8 1
 Race: 9
 BareHandAttack: 12
@@ -252,8 +252,8 @@ everything, and she looks at you with polite interest, as if you might
 turn out to be a footnote.
 ~
 dgl 0 300 E
-18 39 30 15d20+190 2d8+6
-300 30000
+9 14 7 3d6+22 1d8+0
+30 786
 8 8 2
 Race: 9
 BareHandAttack: 5
@@ -272,8 +272,8 @@ when they do, it is with spells their warrior cousins can only envy, and
 he watches the Kinthalas side of the courtyard with open contempt.
 ~
 dglm 0 300 E
-21 45 50 20d20+250 3d8+6
-500 45000
+10 15 8 3d6+24 1d9+0
+35 950
 8 8 1
 Race: 9
 BareHandAttack: 5
@@ -290,8 +290,8 @@ Great Library at least twice and written a good many of them, and he
 speaks slowly, as though each word were being looked up in an index.
 ~
 bdglnp dk 400 E
-27 57 30 20d20+800 3d10+12
-2500 155000
+12 16 8 4d6+25 2d4+0
+46 1326
 8 8 1
 Race: 9
 BareHandAttack: 5
@@ -312,12 +312,12 @@ steel.  He believes that the Byterians must one day settle their quarrel
 with the Kinthalas, and he intends to be ready.
 ~
 bdglnpq dk 300 E
-28 59 66 25d20+1000 5d8+16
-3000 250000
+12 16 8 4d6+25 2d2+0
+46 1326
 8 8 1
 Race: 9
 BareHandAttack: 3
-Str: 20
+Str: 16
 E
 #5818
 prokrustes measurer minotaur byterian~
@@ -331,8 +331,8 @@ wrong size.  He carries an iron measuring rod everywhere, and when he
 looks at you, you can see him measuring.
 ~
 bdglnp dk -200 E
-27 57 30 20d20+800 4d8+14
-2000 155000
+12 16 8 4d6+25 2d4+0
+46 1326
 8 8 1
 Race: 9
 BareHandAttack: 5
@@ -350,8 +350,8 @@ all.  He has no patience for visitors, Kinthalas, Byterians, or anyone
 else who is not a pot.
 ~
 bdg 0 0 E
-12 9 8 5d10+120 2d8+4
-50 10750
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 1
 Race: 9
 BareHandAttack: 3
@@ -367,8 +367,8 @@ aground on the reef off the black beach, and the Kinthalas have kept him
 here ever since, though no one has told him why.
 ~
 bden 0 200 E
-5 13 6 1d1+55 1d4+1
-0 0
+22 21 10 7d6+35 2d7+0
+117 4166
 8 8 1
 Race: 0
 E
@@ -385,8 +385,8 @@ catalogued every book in the Great Library and knows exactly where each
 one is, and she would very much like you not to touch any of them.
 ~
 bdenp 0 500 E
-20 43 41 20d20+200 3d6+6
-0 0
+54 37 18 18d6+85 5d6+0
+545 24006
 8 8 2
 Race: 9
 E
@@ -402,8 +402,8 @@ and forearms, his fur burned away in patches by flying sparks.  He works
 without a pause, hammer ringing, and he does not look up.
 ~
 bdg 0 0 E
-15 6 30 1d80+180 2d8+6
-100 20000
+43 32 16 14d6+65 4d6+0
+363 15338
 8 8 1
 Race: 9
 BareHandAttack: 7
@@ -417,8 +417,8 @@ The goblin is a fat tub of slime and other nasty things.  His red eyes
 share nothing but a hatred and want to rip your body to shreds.
 ~
 cdjk cn -1000 E
-28 66 67 14d56+560 7d4+66
-0 111250
+52 36 18 17d6+45 5d5+0
+510 22286
 8 8 1
 Str: 15
 Dex: 16
@@ -438,8 +438,8 @@ and his voice is but a croak in his throat.  Drool creeps from
 one corner of his mouth and slowly drips off his chin.
 ~
 bd 0 -250 E
-10 10 18 2d30+60 1d6+8
-97 2812
+5 12 6 1d6+22 1d5+0
+14 290
 8 8 1
 BareHandAttack: 13
 E
@@ -454,8 +454,8 @@ and his voice is but a croak in his throat.  Drool creeps from
 one corner of his mouth and slowly drips off his chin.
 ~
 bd 0 -250 E
-10 10 21 2d30+60 1d6+8
-97 2812
+6 13 6 2d6+21 1d6+0
+17 390
 8 8 1
 BareHandAttack: 13
 E
@@ -470,10 +470,10 @@ dirty, black hair.  His eyes are bloodshot and he seethes in anger
 at your presence.
 ~
 d 0 -600 E
-20 43 44 40d80+160 1d40+48
-115 93750
+10 15 8 3d6+22 1d9+0
+35 950
 8 8 1
-Dex: 14
+Dex: 12
 Int: 12
 Wis: 14
 Con: 14

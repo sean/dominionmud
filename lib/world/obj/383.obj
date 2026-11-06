@@ -12,8 +12,8 @@ a well-crafted sword~
 A well-crafted sword lies here.~
 ~
 5 0 am
-0 3 5 3 0 0 0 18 14
-5 2000 200
+0 3 9 3 0 0 0 18 14
+5 519 51
 A
 1 1
 #38302
@@ -54,8 +54,8 @@ the Shadow Blade~
 A black sword lies here, drinking the light.~
 ~
 5 agj am
-0 5 7 3 0 0 0 20 14
-9 15000 1500
+0 4 10 3 0 0 0 20 14
+9 1075 107
 E
 shadow blade sword black~
 The blade is so dark that it seems to be a hole in the world rather than
@@ -73,10 +73,10 @@ a suit of shadow armor~
 A suit of black plate armor lies here.~
 ~
 9 gj ad
-10 0 0 0 0 0 0 20 14
-20 12000 1200
+20 0 0 0 0 0 0 20 14
+20 488 48
 A
-13 30
+13 13
 A
 18 1
 A
@@ -87,8 +87,8 @@ a scroll of healing~
 A scroll of healing glows brightly here.~
 ~
 2 0 a
-30 116 -1 -1 0 0 0 22 14
-1 300 30
+38 116 -1 -1 0 0 0 22 14
+1 278 27
 #38309
 amulet spectrum glowing~
 a spectrum amulet~
@@ -121,8 +121,8 @@ the DemonsBane~
 A sinister blade lies here.~
 ~
 5 gj am
-0 3 7 11 0 0 0 17 14
-8 6000 600
+0 4 9 11 0 0 0 17 14
+8 921 92
 A
 18 1
 A
@@ -149,8 +149,8 @@ a sabre-fang dagger~
 A dagger made from a great curved fang lies here.~
 ~
 5 0 am
-0 4 6 14 0 0 0 0 14
-2 5000 500
+0 4 10 14 0 0 0 0 14
+2 956 95
 E
 fang saber dagger~
 One of the SaberBeast's great fangs, bound with leather at the root to
@@ -166,20 +166,20 @@ a SaberBeast pelt~
 A huge tawny pelt striped with black lies here.~
 ~
 9 0 aj
-5 0 0 0 0 0 0 8 14
-6 4000 400
+17 0 0 0 0 0 0 8 14
+6 460 46
 A
 2 1
 A
-13 20
+13 14
 #38317
 crown black llyndyr~
 the Black Crown of Llyndyr~
 A crown of black iron set with dark gems lies here.~
 ~
 9 gj ae
-5 0 0 0 0 0 0 18 14
-3 10000 1000
+18 0 0 0 0 0 0 18 14
+3 516 51
 A
 4 1
 A
@@ -198,8 +198,8 @@ a silver chain of office~
 A silver chain of office lies here.~
 ~
 9 0 ac
-2 0 0 0 0 0 0 15 14
-1 600 60
+11 0 0 0 0 0 0 15 14
+1 256 25
 A
 3 1
 #38320
@@ -208,8 +208,8 @@ a warden's halberd~
 A tall halberd lies here.~
 ~
 5 0 am
-0 3 6 3 0 0 0 18 24
-15 1500 150
+0 4 8 3 0 0 0 18 24
+15 764 76
 A
 19 1
 #38321
@@ -218,20 +218,20 @@ a black lion mask~
 A mask of black steel shaped like a snarling lion lies here.~
 ~
 9 0 ae
-5 0 0 0 0 0 0 18 14
-4 3000 300
+17 0 0 0 0 0 0 18 14
+4 442 44
 A
 18 1
 A
-17 -5
+17 3
 #38322
 sword practice blunted~
 a blunted practice sword~
 A blunted practice sword lies here.~
 ~
 5 0 am
-0 1 6 5 0 0 0 18 14
-4 20 2
+0 3 7 5 0 0 0 18 14
+4 435 2
 #38330
 mug ale dark~
 a mug~
@@ -262,56 +262,56 @@ a guardsman's spear~
 A long spear with a black pennant lies here.~
 ~
 5 0 am
-0 2 8 11 0 0 0 18 14
-8 400 40
+0 3 9 11 0 0 0 18 14
+8 519 40
 #38334
 hauberk chain mail~
 a chain-mail hauberk~
 A chain-mail hauberk lies here in a heap.~
 ~
 9 0 ad
-6 0 0 0 0 0 0 18 14
-20 900 90
+16 0 0 0 0 0 0 18 14
+20 341 34
 #38335
 helm steel black~
 a black steel helm~
 A black-enamelled steel helm lies here.~
 ~
 9 0 ae
-3 0 0 0 0 0 0 18 14
-5 450 45
+11 0 0 0 0 0 0 18 14
+5 241 24
 #38336
 gauntlets steel~
 a pair of steel gauntlets~
 A pair of steel gauntlets lies here.~
 ~
 9 0 ah
-2 0 0 0 0 0 0 18 14
-3 300 30
+11 0 0 0 0 0 0 18 14
+3 234 23
 #38337
 potion red healing light~
 a red healing draught~
 A small vial of red liquid stands here.~
 ~
 10 0 a
-15 66 -1 -1 0 0 0 21 14
-1 120 12
+38 66 -1 -1 0 0 0 21 14
+1 278 12
 #38338
 potion green healing serious~
 a green healing draught~
 A vial of thick green liquid stands here.~
 ~
 10 0 a
-25 116 -1 -1 0 0 0 21 14
-1 350 35
+38 116 -1 -1 0 0 0 21 14
+1 278 27
 #38339
 potion antidote clear~
 a clear antidote~
 A vial of clear, bitter-smelling liquid stands here.~
 ~
 10 0 a
-20 184 -1 -1 0 0 0 21 14
-1 200 20
+38 184 -1 -1 0 0 0 21 14
+1 278 20
 #38340
 lantern brass~
 a brass lantern~
@@ -342,24 +342,24 @@ a dark blue cloak~
 A dark blue cloak lies here in a heap.~
 ~
 9 0 aj
-2 0 0 0 0 0 0 5 14
-2 120 12
+11 0 0 0 0 0 0 5 14
+2 234 12
 #38344
 longsword sword guard~
 a guardsman's longsword~
 A plain steel longsword lies here.~
 ~
 5 0 am
-0 2 7 3 0 0 0 18 14
-6 350 35
+0 3 8 3 0 0 0 18 14
+6 490 35
 #38345
 longbow bow~
 a black longbow~
 A tall black longbow lies here.~
 ~
 5 0 am
-0 2 6 5 0 0 0 10 14
-3 300 30
+0 6 6 5 0 0 0 10 14
+3 1629 30
 #38346
 coins gold rings sodden~
 a sodden heap of coins and rings~

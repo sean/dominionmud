@@ -1097,6 +1097,11 @@ D4
 ~
 ~
 0 0 5354
+D3
+West, a smoky booth hung with a bookmaker's sign.
+~
+~
+0 -1 5470
 S
 #5354
 First Row of the Bleachers~
@@ -3597,6 +3602,11 @@ D2
 ~
 ~
 0 0 5465
+D3
+West of the dunes a pass climbs into steep and silent hills.
+~
+~
+0 -1 4500
 S
 #5465
 The Desert of Demise~
@@ -3704,22 +3714,40 @@ D4
 0 0 5440
 S
 #5470
-Room 5470~
-  This lovely room has yet to be written
+The Bookmaker's Booth~
+   A low, smoky booth wedged in among the beams beneath the stands, where the
+roar of the crowd comes down through the planks like weather.  A long
+counter scarred with knife-cuts and ale-rings runs across the back, and
+behind it a great slate board is chalked with the names of the day's
+fighters and the odds against them.  Nobody brawls in here: the
+bookmaker's friends see to that.  The way out is east, beneath the
+bleachers.
 ~
-53 0 0
+53 cde 0
+D1
+East, the shadows beneath the bleachers.
+~
+~
+0 -1 5353
 S
 #5471
-Room 5471~
-  This lovely room has yet to be written
+The Ring~
+   A round pit of raked white sand, sunk below the level of the battlefield
+and walled in by smooth stone twice the height of a man, so that nothing
+that goes in comes out without leave.  Iron gates on either side lead to
+the pens.  Above the wall the stands climb away on every side, and the
+noise of the crowd beats down like heat.  Dark stains in the sand are
+raked over between bouts, and never quite go away.
 ~
-53 0 0
+53 cgj 0
 S
 #5472
-Room 5472~
-  This lovely room has yet to be written
+The Fighters' Pens~
+   A row of stone stalls behind iron bars, where the Arena's fighters wait
+their turn in the ring.  It smells of sweat, straw and old blood.  A
+trainer's whip hangs on a hook by the gate.
 ~
-53 0 0
+53 cdgj 0
 S
 #5473
 Room 5473~

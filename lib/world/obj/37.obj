@@ -120,8 +120,8 @@ a mithril hammer~
 A mithril hammer has been left here~
 ~
 5 g a
-0 2 6 7 0 0 0 18 14
-19 10000 1000
+0 6 7 7 0 0 0 18 14
+19 1785 178
 A
 18 2
 A
@@ -148,8 +148,8 @@ a long sword~
 A long sword has been left here.~
 ~
 5 0 am
-0 1 8 3 0 0 0 9 14
-8 10000 1000
+0 3 7 3 0 0 0 9 14
+8 521 52
 A
 18 1
 A
@@ -160,8 +160,8 @@ a silver dagger~
 A finely crafted dagger made of silver is on the ground here.~
 ~
 5 jE am
-0 3 3 11 0 0 0 15 14
-5 15000 50
+0 6 7 11 0 0 0 15 14
+5 1652 50
 A
 18 2
 A
@@ -173,7 +173,7 @@ A curved scimitar is here in a jewel-covered sheath.~
 ~
 5 0 am
 0 2 7 3 0 0 0 15 14
-10 3000 950
+10 123 12
 A
 13 3
 #3719
@@ -182,8 +182,8 @@ a wooden staff~
 A wooden staff is against the wall here.~
 ~
 5 0 a
-0 1 4 8 0 0 0 10 14
-6 10 5
+0 6 6 8 0 0 0 10 14
+6 1478 5
 #3720
 cabinet silver~
 a silver chased cabinet~
@@ -230,40 +230,40 @@ a red and white staff~
 A red and white staff is leaning against the wall here~
 ~
 4 0 ao
-20 3 3 28 0 0 0 15 14
-8 5500 500
+75 3 3 28 0 0 0 15 14
+8 808 80
 #3726
 staff burnt~
 a burnt staff~
 A burnt staff is leaning against the wall here.~
 ~
 4 0 ao
-20 4 4 4 0 0 0 15 14
-6 1100 600
+75 4 4 4 0 0 0 15 14
+6 808 80
 #3727
 rod black~
 a black rod~
 A black rod has been left here.~
 ~
 3 0 ao
-20 3 3 22 0 0 0 15 14
-4 1200 200
+75 3 3 22 0 0 0 15 14
+4 808 80
 #3728
 wand wooden~
 a wooden stick~
 A wooden stick is here~
 ~
 3 0 ao
-20 10 10 3 0 0 0 10 14
-4 600 60
+75 10 10 3 0 0 0 10 14
+4 808 60
 #3729
 wand metal~
 a metal wand~
 A metal wand is here.~
 ~
 3 0 ao
-20 20 4 25 0 0 0 14 14
-5 2000 350
+75 20 4 25 0 0 0 14 14
+5 808 80
 #3730
 cauldron black~
 a black cauldron~
@@ -303,7 +303,7 @@ A pair of wire-rimmed spectacles has been left here.~
 ~
 9 g ae
 0 0 0 0 0 0 0 14 14
-4 10000 5000
+4 1108 110
 A
 3 1
 A
@@ -323,7 +323,7 @@ A heart shaped medallion is here.~
 ~
 9 bdei ac
 0 0 0 0 0 0 0 14 14
-3 10000 1000
+3 1108 110
 A
 4 2
 A
@@ -361,9 +361,9 @@ A travel worn cloak has carelessly been left here.~
 ~
 9 0 ac
 0 0 0 0 0 0 0 14 14
-5 2000 250
+5 1108 110
 A
-17 -5
+17 4
 A
 24 -3
 #3741
@@ -373,19 +373,19 @@ Some multicolored cloth is on the ground here~
 ~
 9 g ak
 0 0 0 0 0 0 0 14 14
-4 15000 5000
+4 1108 110
 A
 2 2
 A
-17 -3
+17 3
 #3742
 worn boot leather~
 an old boot~
 An old boot is here, it appears quite comfortable.~
 ~
 9 g ag
-16 0 0 0 0 0 0 8 14
-2 3500 900
+33 0 0 0 0 0 0 8 14
+2 1386 138
 A
 14 15
 #3743
@@ -426,8 +426,8 @@ a meat cleaver~
 A meat cleaver is sticking in the wall here.~
 ~
 5 0 a
-0 3 4 1 0 0 0 0 14
-8 600 100
+0 7 8 1 0 0 0 0 14
+8 2620 100
 #3748
 shackles chain~
 some chain shackles~
@@ -437,17 +437,17 @@ Some chain shackles have been discarded here~
 0 0 0 0 0 0 0 0 14
 15 750 1000
 A
-12 -100
+12 -49
 A
-14 -82
+14 -49
 #3749
 dagger silvery~
 a silvery dagger~
 A long dagger that seems to be made of silver is here.~
 ~
 5 gE am
-0 2 4 11 0 0 0 15 14
-5 1200 500
+0 5 7 11 0 0 0 15 14
+5 1396 139
 A
 18 1
 #3750
@@ -456,18 +456,18 @@ a scroll~
 A scroll is here.~
 ~
 2 0 ao
-21 54 67 88 0 0 0 0 14
-5 3000 1000
+78 54 67 88 0 0 0 0 14
+5 862 86
 #3751
 scroll bound~
 a bound scroll~
 A bound scroll is here blowing in the breeze.~
 ~
 2 g ao
-9 97 100 100 0 0 0 0 14
-3 9500 3000
+35 97 100 100 0 0 0 0 14
+3 248 24
 A
-17 -6
+17 2
 #3752
 tube cylinder~
 a long cylindrical tube~
@@ -482,16 +482,16 @@ an old scroll~
 An old scroll has been left here.~
 ~
 2 0 ao
-10 112 99 100 0 0 0 4 14
-2 500 100
+75 112 99 100 0 0 0 4 14
+2 808 80
 #3754
 scroll blue~
 a scroll written on blue paper~
 A blue scroll has been left here.~
 ~
 2 g ao
-50 74 100 100 0 0 0 0 14
-5 20000 15000
+78 74 100 100 0 0 0 0 14
+5 862 86
 #3755
 pouch leather~
 a leather pouch~
@@ -516,32 +516,32 @@ a blue potion~
 A blue potion is here.~
 ~
 10 g ao
-24 77 77 77 0 0 0 0 14
-2 9000 500
+70 77 77 77 0 0 0 0 14
+2 720 72
 #3758
 potion red~
 a bright red potion~
 A bright red potion is here.~
 ~
 10 g ao
-15 65 99 99 0 0 0 0 14
-2 1500 500
+79 65 99 99 0 0 0 0 14
+2 881 88
 #3759
 potion green~
 a green potion~
 A green potion is here.~
 ~
 10 g ao
-20 54 52 64 0 0 0 0 14
-2 1500 150
+79 54 52 64 0 0 0 0 14
+2 881 88
 #3760
 potion effervescent~
 an effervescent potion~
 An effervescent potion is bubbling away here~
 ~
 10 g ao
-16 68 69 70 0 0 0 0 14
-2 1000 150
+79 68 69 70 0 0 0 0 14
+2 881 88
 E
 potion effervescent~
 Ahh!  Schweppes Sparkling Soda a refreshing drink.
@@ -552,34 +552,34 @@ a milky white potion~
 A milky white potion is here.~
 ~
 10 0 ao
-14 92 99 99 0 0 0 0 14
-2 750 50
+79 92 99 99 0 0 0 0 14
+2 881 50
 #3762
 staff black~
 a black staff~
 A black staff is leaning against the wall here.~
 ~
 4 g ao
-18 2 2 2 0 0 0 0 14
-5 500 50
+78 2 2 2 0 0 0 0 14
+5 862 50
 #3763
 flute golden~
 a golden flute~
 A golden flute has been left here.~
 ~
 4 fg ao
-22 1 1 7 0 0 0 14 14
-4 15000 5000
+78 1 1 7 0 0 0 14 14
+4 862 86
 A
-3 -6
+3 -3
 #3764
 figurine~
 a small figurine~
 A small figurine in the shape of a humanoid is standing here.~
 ~
 4 g ao
-21 15 15 61 0 0 0 0 14
-4 6000 650
+78 15 15 61 0 0 0 0 14
+4 862 86
 #3765
 belt holster~
 a holstered belt~
@@ -594,16 +594,16 @@ a blackened wand~
 A blackened wand is here.~
 ~
 3 g ao
-17 5 1 26 0 0 0 0 14
-4 2500 500
+78 5 1 26 0 0 0 0 14
+4 862 86
 #3767
 chisel runed~
 a runed chisel~
 A runed chisel is here.~
 ~
 5 ag a
-0 2 3 11 0 0 0 0 14
-6 1500 500
+0 6 6 11 0 0 0 0 14
+6 1554 155
 A
 2 1
 #3768
@@ -620,8 +620,8 @@ some sparkling dust~
 Some sparkling dust is in a pile here.~
 ~
 4 0 ao
-20 1 1 38 0 0 0 0 14
-2 1000 150
+77 1 1 38 0 0 0 0 14
+2 844 84
 #3770
 cowl dark~
 a dark cowl~
@@ -629,9 +629,9 @@ A dark cowl is here.~
 ~
 9 abgj ac
 0 0 0 0 0 0 0 14 14
-5 1200 400
+5 1224 122
 A
-17 -8
+17 4
 A
 24 -3
 #3771
@@ -640,16 +640,16 @@ an ashen wand~
 An ashen wand is here~
 ~
 3 j amo
-20 50 20 107 0 0 0 0 14
-4 2000 60
+79 50 20 107 0 0 0 0 14
+4 881 60
 #3772
 club spiked~
 a huge spiked club~
 A huge spiked club has been left here.~
 ~
 5 0 a
-0 3 5 8 0 0 0 14 14
-29 750 200
+0 6 8 8 0 0 0 14 14
+29 2076 200
 #3773
 robe grey~
 a grey robe~
@@ -659,7 +659,7 @@ A pile of grey cloth has been left here.~
 50 0 -1 0 0 0 0 15 14
 8 5000 750
 A
-17 -9
+17 4
 A
 24 -2
 #3774
@@ -669,7 +669,7 @@ A glinting hoop of silvery metal is here.~
 ~
 9 gjk al
 0 0 0 0 0 0 0 15 14
-5 5000 500
+5 1224 122
 A
 13 8
 #3775
@@ -679,9 +679,9 @@ A pile of grey cloth has been left here.~
 ~
 9 gjk ac
 0 0 0 0 0 0 0 15 14
-7 12000 1200
+7 1254 125
 A
-17 -12
+17 5
 A
 24 -3
 #3776
@@ -690,8 +690,8 @@ an iron shod staff~
 A grey piece of wood shod in iron has been left here.~
 ~
 5 gjk a
-0 2 7 8 0 0 0 15 14
-7 9000 3000
+0 6 8 8 0 0 0 15 14
+7 2159 215
 A
 18 3
 #3777
@@ -701,9 +701,9 @@ A small clear cube is sitting here.~
 ~
 9 ag ao
 0 0 0 0 0 0 0 14 14
-5 5000 1000
+5 1254 125
 A
-17 -5
+17 5
 #3778
 robe black~
 a black robe~
@@ -713,7 +713,7 @@ A pile of black cloth is on the ground here.~
 50 0 -1 0 0 0 0 15 14
 8 5000 750
 A
-17 -9
+17 4
 A
 24 -2
 #3779
@@ -722,8 +722,8 @@ an onyx bracelet~
 A hoop of black onyx is here.~
 ~
 9 gjx al
-6 0 0 0 0 0 0 15 14
-6 85000 8500
+21 0 0 0 0 0 0 15 14
+6 903 90
 A
 19 5
 #3780
@@ -733,9 +733,9 @@ A pile of black cloth is on the ground here.~
 ~
 9 gjl ac
 0 0 0 0 0 0 0 14 14
-8 9000 950
+8 1254 125
 A
-17 -12
+17 5
 A
 24 -3
 #3781
@@ -744,8 +744,8 @@ a sharp shard of obsidian~
 A piece of black glass is here.~
 ~
 5 gjl amo
-1 2 8 11 0 0 0 20 14
-8 9000 2000
+1 6 9 11 0 0 0 20 14
+8 2289 228
 A
 18 3
 #3782
@@ -757,7 +757,7 @@ A pile of white cloth is on the ground here.~
 50 0 -1 0 0 0 0 0 14
 7 7500 750
 A
-17 -9
+17 4
 A
 24 -2
 #3783
@@ -767,7 +767,7 @@ A hoop of silvery metal is here.~
 ~
 9 gkl al
 0 0 0 0 0 0 0 15 14
-5 5000 1000
+5 1166 116
 A
 18 1
 #3784
@@ -777,9 +777,9 @@ A pile of white cloth is on the ground here.~
 ~
 9 gikl ac
 0 0 0 0 0 0 0 15 14
-7 9000 1500
+7 1254 125
 A
-17 -12
+17 5
 A
 24 -3
 #3785
@@ -788,8 +788,8 @@ an ivory hilted dagger~
 An ivory hilted dagger has been left here~
 ~
 5 giklE am
-1 2 7 11 0 0 0 15 14
-8 12000 1500
+1 6 8 11 0 0 0 15 14
+8 2159 215
 A
 18 1
 A
@@ -801,7 +801,7 @@ A small spiked collar is here.~
 ~
 9 g ac
 0 0 0 0 0 0 0 15 14
-9 10000 5000
+9 1224 122
 A
 13 5
 A
@@ -815,7 +815,7 @@ A multi-colored pile of cloth is here.~
 100 0 -1 0 0 0 0 15 14
 8 25000 5500
 A
-17 -15
+17 5
 A
 24 -5
 #3788
@@ -825,7 +825,7 @@ A small ring with a green gemstone is here.~
 ~
 9 g ab
 0 0 0 0 0 0 0 20 14
-5 50000 5000
+5 1315 131
 A
 12 10
 #3789
@@ -835,9 +835,9 @@ A beautifully crafted hoop of emerald is here.~
 ~
 9 g al
 0 0 0 0 0 0 0 20 14
-5 30000 3500
+5 1315 131
 A
-17 -5
+17 5
 A
 3 1
 #3790
@@ -847,9 +847,9 @@ A large clear crystal cube is here.~
 ~
 9 ag ao
 0 0 0 0 0 0 0 20 14
-6 20000 2000
+6 1315 131
 A
-17 -10
+17 5
 A
 24 -2
 #3791
@@ -858,8 +858,8 @@ the ebony kris~
 A wavy bladed knife made of ebony is here.~
 ~
 5 g am
-2 4 5 11 0 0 0 20 14
-9 60000 5000
+2 6 10 11 0 0 0 20 14
+9 2739 273
 A
 2 2
 A
@@ -870,8 +870,8 @@ a tight fitting green dragon scale shirt~
 Some green dragon scales which have been sewn together are here.~
 ~
 9 g ad
-10 0 0 0 0 0 0 20 14
-4 10000 1000
+29 0 0 0 0 0 0 20 14
+4 1315 131
 E
 green scale shirt~
 this Green dragon scale shirt was made from a poor unfortunate green dragon.

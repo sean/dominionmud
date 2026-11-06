@@ -4,8 +4,8 @@ a very tiny sword~
 A very petite sword lies here on the ground, you almost didn't see it.~
 ~
 5 k am
-0 1 4 11 0 0 0 0 14
-1 10 1
+0 3 7 11 0 0 0 0 14
+1 465 1
 E
 sword pixie~
 This elegant sword appears to have served its previous owner very well, but
@@ -84,8 +84,8 @@ a white dragon scale pendant~
 Upon the ground lies a solid white pendant, it issues forth an aura of cold.~
 ~
 9 agi ac
-5 0 0 0 0 0 0 0 14
-5 1000 50
+15 0 0 0 0 0 0 0 14
+5 462 46
 E
 white pendant dragon scale~
 This pendant appears to be very ancient.  It is solid white, with a blue diamond
@@ -101,8 +101,8 @@ a copper dragon scale pendant~
 Upon the ground lies a solid copper pendant, as you reach for it, time seems to slow.~
 ~
 9 agi ac
-12 0 0 0 0 0 0 0 14
-5 1000 50
+15 0 0 0 0 0 0 0 14
+5 462 46
 E
 copper pendant dragon scale~
 The pendant you now own appears to be very new, in fact it looks freshly forged.
@@ -135,17 +135,17 @@ the pendant of eternity~
 A small pendant is here on the ground, you almost ignore it, til it calls out your name.~
 ~
 9 agi ac
-5 0 0 0 0 0 0 0 14
-1 200000 20000
+15 0 0 0 0 0 0 0 14
+1 494 49
 E
 pendant eternity~
 As you stare at the pendant, you begin to feel as if you are being sucked in.
 it is all you can do to look away.
 ~
 A
-13 50
+13 17
 A
-12 50
+12 33
 A
 19 4
 #6610
@@ -154,8 +154,8 @@ a white dragonscale breast plate~
 A shimmering white breast plate lies here, it is cold to the touch.~
 ~
 9 klmn ad
-75 0 0 0 0 0 0 19 14
-12 2000 1000
+21 0 0 0 0 0 0 19 14
+12 603 60
 E
 white dragon scale breast plate~
 This is a very quickly strewn together breast plate.  It looks like it was
@@ -171,8 +171,8 @@ a copper dragonscale breast plate~
 An elegant copper breast plate lies here, it looks very new.~
 ~
 9 jlmn ad
-78 0 0 0 0 0 0 19 14
-12 2000 2000
+22 0 0 0 0 0 0 19 14
+12 614 61
 E
 copper dragon scale breast plate~
 This is a very hastily strewn together breast plate.  It looks like it was
@@ -188,8 +188,8 @@ a corpse~
 A corpse is lying on the ground, mangled beyond recognition.~
 ~
 9 0 ad
-200 0 0 0 0 0 0 0 14
-999999 0 0
+22 0 0 0 0 0 0 0 14
+999999 575 0
 E
 corpse~
 This corpse appears to be that of an adventurer who wasn't as lucky as you.  
@@ -202,16 +202,16 @@ a can of spraypaint~
 A can of spraypaint is sitting here.~
 ~
 5 0 0
-0 1 1 3 0 0 0 0 14
-5 10 25000
+0 3 7 3 0 0 0 0 14
+5 456 45
 #6614
 pixie stick~
 a Pixie Stick~
 A Pixie Stick lies here on the ground, it looks tasty.~
 ~
 5 a ano
-0 2 4 6 0 0 0 0 14
-2 1 1
+0 5 10 6 0 0 0 0 14
+2 1673 1
 E
 pixie stick~
 This is a Pixie Stick.  While you may be used to eating these "sugar sticks",
@@ -226,24 +226,24 @@ a Pixie breast plate~
 There is a very small piece of metal lying here.~
 ~
 9 a ad
-65 0 0 0 0 0 0 20 3
-5 1000 100
+26 0 0 0 0 0 0 20 3
+5 945 94
 E
 plate pixie breast~
 This is a piece of Pixie armor.  It looks very well crafted, but has an odd
 aura about it.~
 A
-1 -3
+1 -2
 A
-17 -5
+17 4
 #6616
 pixie greaves~
 a pair of Pixie greaves~
 A pair of very small metallic pants lie here.~
 ~
 9 a af
-3 0 0 0 0 0 0 0 14
-3 1000 100
+18 0 0 0 0 0 0 0 14
+3 652 65
 E
 pixie greaves~
 These are VERY small pants....although they do seem fairly stretchy.....
@@ -251,15 +251,15 @@ These are VERY small pants....although they do seem fairly stretchy.....
 A
 5 -2
 A
-3 3
+3 2
 #6617
 pixie arm plates~
 a pair of Pixie armplates~
 A pair of small metal sleeves lie here, glowing~
 ~
 9 a ai
-3 0 0 0 0 0 0 0 14
-3 1000 100
+18 0 0 0 0 0 0 0 14
+3 652 65
 E
 pixie arm plates~
 These arm plates would be a tad bit to small for you.....IF YOU WERE A
@@ -281,7 +281,7 @@ flame wisp dragon fyre fire~
 You aren't quite sure how it is, but the DragonFyre is existing without its
 dragon.~
 A
-26 10
+26 4
 A
 19 5
 #6619
@@ -290,14 +290,14 @@ a white dragon scale helm~
 A white dragon scale helm with a plume of dragon mane lies here.~
 ~
 9 a ae
-85 0 0 0 0 0 0 19 14
-6 5000 900
+23 0 0 0 0 0 0 19 14
+6 641 64
 E
 helm dragon~
 This helm appears to have been created from the scales of a freshly dead dragon.
 The plume is made from the mane of said dragon.~
 A
-1 3
+1 2
 A
 2 -2
 #6620
@@ -306,8 +306,8 @@ a copper dragon scale helm~
 A copper helm made from the scales of a dragon is here.~
 ~
 9 a ae
-55 0 0 0 0 0 0 13 14
-5 5000 500
+18 0 0 0 0 0 0 13 14
+5 516 51
 E
 helm dragon~
 This helm appears to be made from the scales of a recently dead dragon.
@@ -324,15 +324,15 @@ the Staff of the Magius~
 A gnarled wooden shaft lies here, pulsing slightly.~
 ~
 5 abcfg ano
-0 3 4 7 0 0 0 0 14
-4 90000 10000
+0 5 11 7 0 0 0 0 14
+4 2080 208
 E
 staff magius~
 This is the Staff of the Magius.  Rumored to bring untold mystical power to the
 one who owns it, it is also rumored to completely destroy the person physically.
 ~
 A
-13 56
+13 20
 A
-12 -56
+12 -40
 $~

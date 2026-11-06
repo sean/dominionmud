@@ -1,0 +1,39 @@
+; lib/data/arena - the Arena of the Desert of Demise (src/arena.c)
+;
+;   bouts <hour> ...        the mud hours of the day a bout is fought (0-23)
+;   card <hours>            how long before a bout its card is posted and
+;                           betting opens (1-6)
+;   edge <percent>          the house's margin on the odds (the board always
+;                           pays less than a fighter's true chance is worth)
+;   minbet <gold>           the smallest stake the bookmaker takes
+;   fighter <mob vnum>      a fighter on the roster (two are drawn for a bout)
+;   watch <room>[-<room>]   rooms that hear the herald and the crowd
+;   prize <level> <obj>     a prize weapon for challengers, and its level
+;
+bouts 9 13 17 21
+card 2
+edge 12
+minbet 10
+fighter 5320
+fighter 5321
+fighter 5322
+fighter 5323
+fighter 5324
+fighter 5325
+fighter 5326
+fighter 5327
+fighter 5328
+fighter 5329
+watch 5309 5320 5327-5331 5353-5376 5470
+prize 5 5305
+prize 10 5306
+prize 20 5307
+prize 30 5308
+prize 40 5309
+prize 50 5310
+prize 60 5311
+prize 70 5312
+prize 80 5313
+prize 90 5314
+prize 100 5315
+$

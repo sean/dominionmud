@@ -1,0 +1,39 @@
+#43
+Blackwake's Isle~
+Claude~
+34-42~
+4300 2
+4399 30 2
+*
+* Last Updated: Thu Nov  5 2026
+*           By: Claude
+*
+* The Pirate King's island, reached only as his prisoner (ship.c moves the
+* Sea Wren's passengers to the brig when Blackwake takes the ship, and
+* locks their belongings in sea chests, obj 4300, in the store).  Escape
+* through the loose plank, the store key on the mess hall hooks, the
+* King's logbook, the King in the lighthouse, and the longboat home to
+* Vice Island (one way).
+*
+D 0 4300 1 2 100 		* Lock the cell door (cell side).
+D 0 4305 3 2 100 		* Lock the cell door (corridor side).
+D 0 4300 5 1 100 		* Close the loose plank (cell side).
+D 0 4301 4 1 100 		* Close the loose plank (crawlspace side).
+D 0 4304 1 2 100 		* Lock the store door (courtyard side).
+D 0 4306 3 2 100 		* Lock the store door (store side).
+M 0 4305 1 4300 100 	* Tobias Venn in the cell. (Max: 1)
+M 0 4301 1 4305 100 	* the pirate jailer asleep in the corridor. (Max: 1)
+G 1 4301 1 -1 		* an iron cell key. (Max: 1)
+M 0 4302 1 4307 100 	* the pirate quartermaster asleep in the mess. (Max: 1)
+O 0 4302 1 4307 100 	* a ring of keys on the hooks in the mess. (Max: 1)
+O 0 4303 1 4309 100 	* Blackwake's logbook in his cabin. (Max: 1)
+M 0 4303 4 4304 100 	* a drunken pirate in the courtyard. (Max: 4)
+M 0 4303 4 4304 100 	* a drunken pirate in the courtyard. (Max: 4)
+M 0 4303 4 4307 100 	* a drunken pirate in the mess. (Max: 4)
+M 0 4303 4 4307 100 	* a drunken pirate in the mess. (Max: 4)
+M 0 4304 1 4308 100 	* a pirate sentry on the battlements. (Max: 1)
+M 0 4300 1 4312 100 	* Morrow Blackwake in the lamp room. (Max: 1)
+E 1 4304 1 17 		* Blackwake's cutlass, wielded. (Max: 1)
+E 1 4305 1 5 		* a battered tricorn hat, worn. (Max: 1)
+S
+$~

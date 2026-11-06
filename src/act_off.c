@@ -566,7 +566,7 @@ ACMD(do_berserk)
        if (tch == ch)
 	 continue;
        GET_POS(ch) = POS_STANDING;
-       damage(ch, tch, (GET_LEVEL(ch)*number(1,3)), TYPE_UNDEFINED, -1);
+       damage(ch, tch, skill_dam(GET_LEVEL(ch), 150), TYPE_UNDEFINED, -1);
      }
   } else {
     send_to_char("You try to berserk, but fall on your face!\r\n", ch);
@@ -684,7 +684,7 @@ ACMD(do_circle)
     act("You circle around behind $N and backstab $M!", FALSE, ch, 0, vict, TO_CHAR);
     act("$n circles around behind $N and backstabs $M.", FALSE, ch, 0, vict, TO_ROOM);
     act("$n has plunged a dagger into your back! How sneaky!", FALSE, ch, 0, vict, TO_VICT);
-    damage(ch, FIGHTING(ch), (backstab_mult(GET_LEVEL(ch)) >> 1), SKILL_CIRCLE, -1);
+    damage(ch, FIGHTING(ch), skill_dam(GET_LEVEL(ch), 150), SKILL_CIRCLE, -1);
     WAIT_STATE(ch, PULSE_VIOLENCE * 3);
   } else {
     send_to_char("Uh, oh, your target caught you trying to circle around.\r\n",ch);
@@ -887,7 +887,7 @@ ACMD(do_pummel)
     act("$n pummels $N into submission.", FALSE, ch, 0, vict, TO_ROOM);
     act("$n pummels you into submission!\r\n", FALSE, ch, 0, vict, TO_VICT);
     GET_POS(vict) = POS_STUNNED;
-    damage(ch, vict, (GET_LEVEL(ch)*2), TYPE_UNDEFINED, -1);
+    damage(ch, vict, skill_dam(GET_LEVEL(ch), 150), TYPE_UNDEFINED, -1);
   } else
     hit(ch, vict, TYPE_UNDEFINED);
 
@@ -1065,7 +1065,7 @@ ACMD(do_gore)
      } else {
        act("Warm blood flows down into your eyes as you rend $N limb from limb!", FALSE, ch, 0, vict, TO_CHAR);
        act("$n lunges at $N and begins gore $M deeply.", TRUE, ch, 0, vict,TO_NOTVICT);
-       damage(ch, vict, (GET_LEVEL(ch) * number(1,3)), TYPE_UNDEFINED, -1);
+       damage(ch, vict, skill_dam(GET_LEVEL(ch), 150), TYPE_UNDEFINED, -1);
        GET_POS(vict) = POS_SITTING;
        WAIT_STATE(ch, PULSE_VIOLENCE * 4);
      }
@@ -1338,7 +1338,7 @@ ACMD(do_kick)
     if (number(0, 10) > 8)
       learn_from_mistake(ch, SKILL_KICK);
   } else
-    damage(ch, vict, GET_LEVEL(ch) >> 1, SKILL_KICK, -1);
+    damage(ch, vict, skill_dam(GET_LEVEL(ch), 100), SKILL_KICK, -1);
   WAIT_STATE(ch, PULSE_VIOLENCE * 3);
 }
 
@@ -1539,7 +1539,7 @@ static int ranged_damage(struct char_data *ch, struct char_data *vict,
     if (IS_AFFECTED2(ch, AFF_GROUP))
       group_gain(ch, vict);
     else {
-      exp = MIN((long)max_exp_gain, (long)GET_EXP(vict));
+      exp = MIN((long)max_exp_gain, kill_exp(vict));
       /* Calculate level-difference bonus */
       exp += MAX(0L, (long)(exp * MIN(8, (GET_LEVEL(vict) - GET_LEVEL(ch)))) >> 3);
       exp =  MAX(exp, 1L);

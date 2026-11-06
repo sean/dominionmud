@@ -31,7 +31,7 @@ extern struct index_data *obj_index;
 extern struct int_app_type int_app[];
 extern struct wis_app_type wis_app[];
 extern struct zone_data *zone_table;
-extern int  top_of_zone_table;
+extern long top_of_zone_table;
 extern int  game_restrict;
 extern long top_of_world;
 extern long top_of_mobt;
@@ -75,7 +75,7 @@ extern int NUM_RACES;
 extern struct race_data * races;
 extern int NUM_RELIGIONS;
 extern struct material_type const material_list[];
-int exp_needed(int level);
+long exp_needed(int level);
 int parse_race(char arg);
 void Crash_rentsave(struct char_data * ch, int cost);
 void newbie_basket(struct char_data * ch);
@@ -514,6 +514,8 @@ void do_stat_object(struct char_data * ch, struct obj_data * j)
     strcpy(buf2, "None");
   SNPRINTF(buf, sizeof(buf), "VNum: [%s%8ld%s], RNum: [%8ld], Type: %s, SpecProc: %s\r\n",
    CCGRN(ch, C_NRM), vnumber, CCNRM(ch, C_NRM), GET_OBJ_RNUM(j), buf1, buf2);
+  send_to_char(buf, ch);
+  sprintf(buf, "Item level: %d\r\n", obj_level(j));
   send_to_char(buf, ch);
   sprintf(buf, "L-Des: %s\r\n", ((j->description) ? j->description : "None"));
   send_to_char(buf, ch);
@@ -2275,6 +2277,8 @@ ACMD(do_show)
     { "routines",       LVL_IMMORT },
     { "quests",         LVL_IMMORT },
     { "theater",        LVL_IMMORT },
+    { "ships",          LVL_IMMORT },
+    { "arena",          LVL_IMMORT },
     { "\n", 0 }
   };
 
@@ -2368,7 +2372,7 @@ ACMD(do_show)
     sprintf(buf + strlen(buf), "  %5d registered\r\n", top_of_p_table + 1);
     sprintf(buf + strlen(buf), "  %5ld mobiles          %5ld prototypes\r\n", j, top_of_mobt + 1);
     sprintf(buf + strlen(buf), "  %5ld objects          %5ld prototypes\r\n", k, top_of_objt + 1);
-    sprintf(buf + strlen(buf), "  %5ld rooms            %5d zones\r\n", top_of_world + 1, top_of_zone_table + 1);
+    sprintf(buf + strlen(buf), "  %5ld rooms            %5ld zones\r\n", top_of_world + 1, top_of_zone_table + 1);
     sprintf(buf + strlen(buf), "  %5d large bufs\r\n", buf_largecount);
     sprintf(buf + strlen(buf), "  %5d buf switches     %5d overflows\r\n",
 	    buf_switches, buf_overflows);
@@ -2431,6 +2435,12 @@ ACMD(do_show)
     break;
   case 15:
     theater_show(ch, value);
+    break;
+  case 16:
+    ship_show(ch, value);
+    break;
+  case 17:
+    arena_show(ch, value);
     break;
 
   default:

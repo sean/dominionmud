@@ -12,8 +12,8 @@ an Academy graduate's pin~
 A small brass pin in the shape of an open book lies here.~
 ~
 9 0 ac
-1 0 0 0 0 0 0 11 14
-1 50 5
+4 0 0 0 0 0 0 11 14
+1 20 2
 E
 pin academy brass~
 A brass pin in the shape of an open book, engraved: 'Proving Halls -
@@ -27,24 +27,24 @@ a wooden practice sword~
 A wooden practice sword lies here.~
 ~
 5 0 am
-0 1 5 3 0 0 0 10 14
-3 5 1
+0 1 8 3 0 0 0 10 14
+3 36 1
 #5803
 battleaxe axe kinthalas red~
 a Kinthalas battleaxe~
 A heavy battleaxe with a red-painted haft lies here.~
 ~
 5 0 am
-0 3 5 3 0 0 0 18 24
-18 400 40
+0 1 9 3 0 0 0 18 24
+18 43 4
 #5804
 scale armor kinthalas red~
 a suit of red scale armor~
 A suit of red-enameled scale armor lies here.~
 ~
 9 0 ad
-8 0 0 0 0 0 0 18 24
-30 700 70
+6 0 0 0 0 0 0 18 24
+30 34 3
 A
 2 -1
 #5805
@@ -53,8 +53,8 @@ a horned skull helm~
 A helm made from the skull of a great horned beast lies here.~
 ~
 9 0 ae
-4 0 0 0 0 0 0 0 24
-6 500 50
+7 0 0 0 0 0 0 0 24
+6 47 4
 A
 18 1
 #5806
@@ -63,28 +63,28 @@ a gray Byterian robe~
 A long gray robe embroidered with a white axe lies here.~
 ~
 9 0 ad
-4 0 0 0 0 0 0 5 24
-4 400 40
+6 0 0 0 0 0 0 5 24
+4 36 3
 A
-12 20
+12 9
 #5807
 staff oak byterian~
 a Byterian oak staff~
 A staff of polished oak, crackling faintly, lies here.~
 ~
 5 g am
-0 2 6 5 0 0 0 10 14
-6 600 60
+0 1 9 5 0 0 0 10 14
+6 51 5
 A
-12 15
+12 10
 #5808
 axe red krommyon great~
 Krommyon's red axe~
 An enormous double-bladed axe, stained dark red, lies here.~
 ~
 5 g am
-0 4 6 3 0 0 0 18 24
-25 9000 900
+0 1 16 3 0 0 0 18 24
+25 116 11
 E
 axe red~
 The axe is as tall as a man, its twin blades notched and stained so dark
@@ -92,33 +92,33 @@ a red that it is almost black.  Only a minotaur, or someone very strong,
 could swing it.
 ~
 A
-18 3
+18 2
 A
-19 3
+19 2
 #5809
 axe white kerkyon~
 Kerkyon's white axe~
 A great axe with a blade of white-enameled steel lies here.~
 ~
 5 g am
-0 4 5 3 0 0 0 18 24
-22 8000 800
+0 1 14 3 0 0 0 18 24
+22 86 8
 A
 18 2
 A
 19 2
 A
-13 20
+13 6
 #5810
 robe singed dhak~
 a singed robe~
 A badly singed robe, smelling of smoke, lies here.~
 ~
 9 g ad
-3 0 0 0 0 0 0 4 24
-3 2500 250
+6 0 0 0 0 0 0 4 24
+3 46 4
 A
-12 40
+12 11
 A
 3 1
 #5811
@@ -128,7 +128,7 @@ A large star chart, covered in notes, lies here.~
 ~
 8 0 a
 0 0 0 0 0 0 0 22 14
-1 1500 0
+1 460 0
 E
 chart star notes~
 The chart shows the stars above Karras, with the path of a single red
@@ -142,8 +142,8 @@ an iron measuring rod~
 A long rod of iron marked with notches lies here.~
 ~
 5 0 am
-0 3 6 5 0 0 0 18 14
-12 2000 200
+0 1 13 5 0 0 0 18 14
+12 80 8
 A
 18 2
 #5813
@@ -152,8 +152,8 @@ a black panther pelt~
 A sleek black panther pelt lies here.~
 ~
 9 0 aj
-3 0 0 0 0 0 0 8 14
-4 600 60
+5 0 0 0 0 0 0 8 14
+4 23 2
 A
 2 1
 #5814
@@ -162,8 +162,8 @@ a serpent-skin belt~
 A belt made from olive and black snakeskin lies here.~
 ~
 9 0 ak
-2 0 0 0 0 0 0 8 14
-2 400 40
+4 0 0 0 0 0 0 8 14
+2 22 2
 A
 5 1
 #5815
@@ -201,8 +201,8 @@ a blazing, blue eye~
 A blue eye blazes brightly as it hovers in mid-air here.~
 ~
 3 g am
-20 20 20 130 0 0 0 20 0
-1 0 0
+5 20 20 130 0 0 0 20 0
+1 38 0
 E
 eye~
 The blazing blue is none other than the Eye of Sul-Katur.
@@ -212,7 +212,7 @@ around the shell of the Eye.
 A
 12 5
 A
-13 -5
+13 -4
 #5893
 log~
 a hallow log~

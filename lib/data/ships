@@ -1,0 +1,46 @@
+; lib/data/ships - the Sea Wren's route (src/ship.c)
+;
+;   ship <name>
+;   deck <room vnum>          the main deck; the gangplank is its west exit
+;   fare <gold>               per port, paid by each mortal as she casts off
+;   docked <hours>            hours she waits at each port
+;   captured <hours>          hours before a captured ship is ransomed back
+;   port <room> <dir> <name>  a port, and the side of the port room the
+;                             gangplank leaves from (not west)
+;   leg <hours> [<pirate %>] [cape]
+;                             the passage from one port to the next, in
+;                             order; "cape" legs are Blackwake's water
+;   sea <line>                a line of scenery at sea
+;   cape <line>               a line of scenery off the cape
+;   haven <room>              where the ransomed ship and freed captives go
+;
+ship Sea Wren
+deck 4200
+fare 25
+docked 2
+captured 6
+port 35076 east Gnishmire pier
+port 38321 south the coral shore below Castle Llyndyr
+port 10590 east Port by the Forest on Vice Island
+port 5810 north the Black Sand Beach on the Isle of Karras
+port 20002 south the Southern Dock of Elrhinn
+leg 3 5
+leg 5 35 cape
+leg 3 15
+leg 3 5
+haven 10590
+sea The Sea Wren heels to a fresh breeze, spray bursting over her bow.
+sea Gulls wheel and cry about the masthead, hoping for scraps from the galley.
+sea A school of silver fish flickers alongside, just beneath the surface.
+sea The sails crack and fill, and the rigging hums like a plucked string.
+sea A sailor sings a slow shanty as he coils down a line.
+sea Far off, a whale blows; the spout hangs a moment in the air like smoke.
+sea Captain Gray squints at the horizon, then at the sky, and grunts.
+sea The deck rolls long and easy under a steady swell.
+sea The ship's bell rings the change of the watch.
+cape The water off the cape is a dark, cold green, and the swell runs high and confused.
+cape Black rocks break the surface off the cape, white water creaming about them.
+cape The lookout scans the haze to the south and does not sing.
+cape The crew keep their cutlasses close; these are Blackwake's waters.
+cape A broken spar drifts past, black with weed and old tar.
+$

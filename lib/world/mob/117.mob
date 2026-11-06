@@ -7,8 +7,71 @@ A thin scholar with spectacles and a satchel bursting with paper.  He has
 been drawing the tower for weeks and has never dared go inside.
 ~
 bdgl 0 500 E
-20 5 0 20d20+200 2d6+4
-0 0
+87 54 27 29d6+129 8d6+0
+1309 61626
 8 8 1
+E
+#11701
+guardian stone~
+a stone guardian~
+A stone guardian stands motionless by the wall.
+~
+A statue of a robed warrior, carved from grey granite, that turns its head
+to follow you.
+~
+dg 0 0 E
+68 44 22 22d6+109 6d6+0
+830 37838
+8 8 0
+E
+#11702
+armour suit animated~
+an animated suit of armour~
+An empty suit of armour clanks along the corridor.
+~
+A suit of old plate armour, quite empty, that walks and fights by itself.
+~
+dfg 0 -350 E
+70 45 22 23d6+110 6d6+0
+875 40070
+8 8 0
+E
+#11703
+apprentice tower~
+a tower apprentice~
+A tower apprentice hurries past with an armful of scrolls.
+~
+A pale young scholar in the grey robes of Rhaylinne.
+~
+dg 0 0 E
+66 43 22 22d6+104 6d6+0
+785 35670
+8 8 2
+E
+#11704
+elemental air bound~
+a bound air elemental~
+A bound air elemental howls in a circle of runes.
+~
+A whirling column of wind and dust with two burning eyes, straining against
+its bindings.
+~
+dfg 0 -350 E
+72 46 23 24d6+111 7d5+0
+922 42366
+8 8 0
+E
+#11705
+ysolde archmage~
+Archmage Ysolde of Rhaylinne~
+Archmage Ysolde of Rhaylinne studies a floating sphere of light.
+~
+A tall, silver-haired woman in midnight-blue robes, mistress of the tower.
+Power crackles at her fingertips.
+~
+bdg 0 0 E
+77 48 24 25d6+1570 7d7+0
+12516 387088
+8 8 2
 E
 $~

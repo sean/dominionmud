@@ -771,7 +771,7 @@
  * Other changes throughout the code are required.  See coding.doc for
  * details.
  */
-#define MAX_LEVEL       50
+#define MAX_LEVEL       108             /* mortals 1-100, immortals 101-108 */
 #define LVL_CREATOR     MAX_LEVEL
 #define LVL_IMPL        MAX_LEVEL-1
 #define LVL_SUP         MAX_LEVEL-2
@@ -1472,6 +1472,8 @@ struct player_special_data_saved {
    suprlong spare25;
 
    struct quest_saved quests;      /* quest.c; "Quest..." lines in pfile.c  */
+   long pirate_gold;               /* ship.c: gold the Pirate King took   */
+   int  pirate_captive;            /* ship.c: held on Blackwake's Isle    */
 };
 
 /*

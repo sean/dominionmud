@@ -176,6 +176,7 @@ ACMD(do_snoop);
 ACMD(do_spec_comm);
 ACMD(do_split);
 ACMD(do_stand);
+ACMD(do_surrender);
 ACMD(do_stat);
 ACMD(do_steal);
 ACMD(do_switch);
@@ -224,6 +225,7 @@ ACMD(do_mana);            /* TD 03/17/95 */
 ACMD(do_shadow);          /* TD 04/09/95 */
 ACMD(do_tick);            /* TD 09/11/95 */
 ACMD(do_world);           /* TD 09/22/95 */
+ACMD(do_areas);           /* levels.c */
 ACMD(do_meditate);        /* TD 09/30/95 */
 //ACMD(do_edit);            /* TD 12/29/95 */
 ACMD(do_sign);            /* TD 01/21/96 */
@@ -301,7 +303,7 @@ const struct command_info cmd_info[] = {
   { "apologize", POS_RESTING , do_action   , 0, 0 },
   { "applaud"  , POS_STANDING, do_action   , 0, 0 },
   { "appraise" , POS_STANDING, do_not_here , 0, 0 },
-  { "areas"    , POS_DEAD    , do_world    , 0, 0 },
+  { "areas"    , POS_DEAD    , do_areas    , 0, 0 },
   { "assist"   , POS_FIGHTING, do_assist   , 1, 0 },
   { "ask"      , POS_RESTING , do_spec_comm, 0, SCMD_ASK },
   { "autoassist", POS_DEAD    , do_gen_tog  , 0, SCMD_AUTOASS },
@@ -324,6 +326,8 @@ const struct command_info cmd_info[] = {
   { "beg"      , POS_SITTING , do_action   , 0, 0 },
   { "behead"   , POS_STANDING, do_behead   , 0, 0 },
   { "berserk"  , POS_FIGHTING, do_berserk  , 0, 0 },
+  { "bet"      , POS_STANDING, do_not_here , 0, 0 },
+  { "bets"     , POS_RESTING , do_not_here , 0, 0 },
   { "bighug"   , POS_STANDING, do_action   , 0, 0 },
   { "bird"     , POS_SITTING , do_action   , 0, 0 },
   { "bite"     , POS_STANDING, do_bite     , 0, 0 },
@@ -348,6 +352,7 @@ const struct command_info cmd_info[] = {
   { "chant"    , POS_STANDING, do_cast     , 0, 0 },
   { "cheer"    , POS_STANDING, do_action   , 0, 0 },
   { "check"    , POS_STANDING, do_not_here , 1, 0 },
+  { "challenge", POS_STANDING, do_not_here , 0, 0 },
   { "chuckle"  , POS_RESTING , do_action   , 0, 0 },
   { "choke"    , POS_RESTING , do_action   , 0, 0 },
   { "circle"   , POS_FIGHTING, do_circle   , 1, 0 },
@@ -554,6 +559,7 @@ const struct command_info cmd_info[] = {
   { "nuzzle"   , POS_RESTING , do_action   , 0, 0 },
 
   { "order"    , POS_RESTING , do_order    , 1, 0 },
+  { "odds"     , POS_RESTING , do_not_here , 0, 0 },
   { "offer"    , POS_STANDING, do_not_here , 1, 0 },
   { "ooc"      , POS_SLEEPING, do_gen_comm , 0, SCMD_OOC },
   { "ooo"      , POS_RESTING , do_action   , 0, 0 },
@@ -713,6 +719,7 @@ const struct command_info cmd_info[] = {
   { "strut"    , POS_STANDING, do_action   , 0, 0 },
   { "study"    , POS_RESTING , do_study    , 0, 0 },
   { "sulk"     , POS_RESTING , do_action   , 0, 0 },
+  { "surrender", POS_RESTING , do_surrender, 0, 0 },
   { "swear"    , POS_RESTING , do_action   , 0, 0 },
   { "switch"   , POS_DEAD    , do_switch   , LVL_BUILDER, 0 },
   { "swoon"    , POS_STANDING, do_action   , 0, 0 },
@@ -787,6 +794,7 @@ const struct command_info cmd_info[] = {
   { "wiznet"   , POS_DEAD    , do_wiznet   , LVL_IMMORT, 0 },
   { ";"        , POS_DEAD    , do_wiznet   , LVL_IMMORT, 0 },
   { "wizhelp"  , POS_SLEEPING, do_commands , LVL_IMMORT, SCMD_WIZHELP },
+  { "world"    , POS_DEAD    , do_world    , LVL_IMMORT, 0 },
   { "wizlist"  , POS_DEAD    , do_gen_ps   , 0, SCMD_WIZLIST },
   { "wizlock"  , POS_DEAD    , do_wizlock  , LVL_SUP, 0 },
   { "worship"  , POS_RESTING , do_action   , 0, 0 },
@@ -1565,6 +1573,8 @@ int enter_player_game (struct descriptor_data *d)
   character_list = d->character;
   char_to_room(d->character, load_room);
   load_result = Crash_load(d->character);
+  ship_login(d->character);         /* ship.c: freed pirate captives */
+  arena_login(d->character);        /* arena.c: winnings owed */
   save_char(d->character, NOWHERE);
   
   return load_result;

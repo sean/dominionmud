@@ -4,8 +4,8 @@ a club~
 A large club with an iron spike lies here.~
 ~
 5 m am
-0 2 4 6 0 0 0 15 14
-2 10 2
+0 1 14 6 0 0 0 15 14
+2 102 2
 #1801
 buckler small~
 a small, wooden buckler~
@@ -13,7 +13,7 @@ A small round wooden buckler has been left here.~
 ~
 9 m am
 5 0 0 0 0 0 0 14 14
-1 20 20
+1 44 4
 #1802
 bow darkweir longbow long~
 a blue wooden longbow~
@@ -30,16 +30,16 @@ a chainmail vest~
 A pile of steel chains linked together lies here.~
 ~
 9 m ad
-6 0 0 0 0 0 0 12 14
-4 250 75
+5 0 0 0 0 0 0 12 14
+4 35 3
 #1804
 plate breast blue dark-blue breastplate~
 a blue wooden breastplate~
 A large piece of dark-blue wood has been carved into a breastplate here.~
 ~
 9 ort ad
-22 0 0 0 0 0 0 5 14
-8 1000 250
+9 0 0 0 0 0 0 5 14
+8 73 7
 A
 13 5
 #1805
@@ -72,16 +72,16 @@ a wooden quarterstaff~
 A long, finely sanded-down quarterstaff lies on the ground.~
 ~
 5 ir am
-0 2 5 7 0 0 0 10 14
-3 100 300
+0 2 8 7 0 0 0 10 14
+3 137 13
 #1808
 leather boot~
 a leather boot~
 A worn leather boot has been left here.~
 ~
 9 0 ag
-18 0 0 0 0 0 0 8 14
-2 500 50
+9 0 0 0 0 0 0 8 14
+2 73 7
 A
 14 5
 #1809
@@ -91,19 +91,19 @@ A hideous mask lies on the ground, it emanates pure evil.~
 ~
 9 adhsu ae
 -5 0 0 0 0 0 0 13 14
-5 0 1000
+5 36 3
 A
-6 -10
+6 -1
 A
-1 -5
+1 -1
 #1810
 blue short shortsword~
 a dark-blue shortsword~
 A shortsword made of dark-blue wood gleams in the sun here.~
 ~
 5 gr am
-0 3 2 3 0 0 0 16 14
-4 3000 100
+0 2 10 3 0 0 0 16 14
+4 265 26
 A
 18 1
 #1811
@@ -120,10 +120,10 @@ a pair of dark-blue leggings~
 A pair of dark-blue leggings made of tree leaves are here.~
 ~
 9 0 af
-15 0 0 0 0 0 0 7 14
-2 5000 100
+8 0 0 0 0 0 0 7 14
+2 68 6
 A
-1 2
+1 1
 A
 18 1
 #1813
@@ -132,8 +132,8 @@ a dark-blue shirt~
 A shirt made of dark-blue leaves lies on the ground here.~
 ~
 9 0 ad
-15 0 0 0 0 0 0 15 14
-5 5000 100
+8 0 0 0 0 0 0 15 14
+5 68 6
 #1814
 wood dark dark-blue blue~
 some dark-blue wood~
@@ -156,8 +156,8 @@ a dark-blue cap~
 A dark-blue cap made from Darkweir leaves is here on the ground.~
 ~
 9 0 ae
-3 0 0 0 0 0 0 14 14
-2 2000 50
+5 0 0 0 0 0 0 14 14
+2 44 4
 A
 4 1
 #1817
@@ -166,16 +166,16 @@ a wooden knife~
 A tiny crudely fashioned wooden knife is here.~
 ~
 5 r a
-0 2 2 11 0 0 0 10 14
-3 20 5
+0 1 5 11 0 0 0 10 14
+3 15 1
 #1818
 stinger sting stirge~
 a stirge's stinger~
 The bloody stinger of a stirge lies here in a pool of blood, twitching.~
 ~
 5 b am
-3 2 2 1 0 0 0 10 14
-1 5 2
+3 1 9 1 0 0 0 10 14
+1 49 2
 #1819
 headress korred satyr~
 a blue-leaf headdress~
@@ -183,7 +183,7 @@ A Korred's headdress lies in the dirt.~
 ~
 9 ak ae
 0 0 -1 0 0 0 0 14 14
-9 20000 400
+9 71 7
 A
 12 5
 #1820
@@ -193,17 +193,17 @@ A golden-brown feather lies on the ground here.~
 ~
 3 cg am
 10 5 5 42 0 0 0 14 14
-1 100000 6000
+1 60 6
 A
-4 3
+4 1
 #1821
 staff druid knotty~
 a knotted staff~
 A knotted staff lies on the ground here.~
 ~
 4 j am
-20 5 5 30 0 0 0 14 14
-3 300 300
+10 5 5 30 0 0 0 14 14
+3 60 6
 #1822
 key blue dark~
 a dark-blue key~
@@ -218,12 +218,12 @@ a black headdress~
 A headdress with long, thick strands of hair attached to it lies here.~
 ~
 9 dghj ae
-7 0 0 0 0 0 0 14 14
-7 1000 200
+4 0 0 0 0 0 0 14 14
+7 29 2
 A
-3 2
+3 1
 A
-5 -2
+5 -1
 A
 4 1
 #1824
@@ -233,7 +233,7 @@ An orb is floating in mid-air here with swirling black fire within.~
 ~
 8 agkq ao
 0 0 0 0 0 0 0 0 14
-8 1000 8000
+8 350 35
 #1899
 card table~
 a card table~

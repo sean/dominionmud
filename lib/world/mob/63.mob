@@ -7,8 +7,8 @@ He looks freshly hatched and sprightly.  His young fangs are just
 growing in as of late.
 ~
 acdg dk 0 E
-3 9 0 1d12+40 1d7+0
-80 350
+36 28 14 12d6+52 4d5+0
+266 10830
 8 8 1
 Race: 43
 E
@@ -20,8 +20,8 @@ Yevaud, the Ancient, Evil Gold Dragon is here, waiting to eat you!
 Old, scaly, but still with a lot of bite in him left.
 ~
 abcdfjkl dk -1000 E
-25 53 58 50d100+200 5d4+64
-0 166250
+43 32 16 14d6+33 4d6+0
+363 15338
 8 8 1
 BareHandAttack: 8
 Str: 15
@@ -40,8 +40,8 @@ The wolf spider is here, licking its bloody fangs.
 The wolf spider is hairy, very hairy.
 ~
 abdf 0 -300 E
-6 15 40 3d8+70 2d5+3
-1250 6000
+37 28 14 12d6+55 4d5+0
+279 11426
 8 8 2
 Race: 43
 E
@@ -54,8 +54,8 @@ You notice an evil look in his eyes, but he seems quite drained of life,
 and all he can do is glare at you while he's stuck in this web.
 ~
 bd 0 -400 S
-2 7 13 2d10+10 2d3+0
-10 300
+49 34 17 16d6+76 5d5+0
+458 19826
 6 6 1
 #6305
 wasp queen~
@@ -65,8 +65,8 @@ The queen wasp is here, thinking how tasty you look.
 You notice a glazed look in her eyes.
 ~
 abdf 0 -800 E
-15 33 42 3d90+120 5d2+33
-0 35156
+41 30 15 13d6+62 4d6+0
+334 13970
 8 8 2
 Race: 43
 E
@@ -78,8 +78,8 @@ A drone spider walks around doing its master's bidding.
 An ordinary drone spider.
 ~
 acdg 0 -200 E
-6 15 9 3d8+70 2d4+1
-200 1600
+37 28 14 12d6+55 4d5+0
+279 11426
 8 8 0
 Race: 43
 E
@@ -92,8 +92,8 @@ She winks in and out of reality.  It looks like it'd be difficult to hit her
 without a magical weapon.
 ~
 acdg bcfgs 300 E
-13 9 22 1d12+163 2d4+4
-1250 16000
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 2
 Race: 43
 E
@@ -107,8 +107,8 @@ He serves the spider Empress, Arachnos, though whether it is by choice
 or because he was beguiled, you are not fully certain.
 ~
 cdgl 0 -50 E
-11 8 10 1d12+130 2d7+1
-1000 13500
+59 40 20 19d6+98 5d6+0
+640 28586
 8 8 1
 Race: 0
 E
@@ -121,8 +121,8 @@ Demoniac in nature, but more mischievous.  He twiddles his thumbs
 and creates a magical treasure!
 ~
 cdgh bdfs -300 S
-10 1 60 1d12+47 1d8+0
-1500 11000
+39 30 15 13d6+57 4d6+0
+306 12666
 8 8 1
 #6310
 spider bird~
@@ -132,8 +132,8 @@ The bird spider snaps its powerful jaws.
 The Bird Spider has very powerful jaws.
 ~
 abdf dk -800 E
-14 7 45 1d8+100 2d9+2
-1750 18000
+40 30 15 13d6+60 4d6+0
+320 13310
 8 8 2
 Race: 43
 E
@@ -146,8 +146,8 @@ A dishevelled veteran warrior in disguise is what he is, but he
 means well.
 ~
 bcdl dk 750 S
-7 13 12 3d10+90 2d5+2
-750 2500
+53 36 18 17d6+85 5d6+0
+527 23138
 8 8 1
 #6312
 donjonkeeper keeper~
@@ -158,8 +158,8 @@ He delves deeper into you as you stare at him.  Only those free of taint
 will be allowed to remain here safely.
 ~
 abcdfil dk 1000 S
-25 0 63 1d12+600 2d8+8
-16000 125000
+43 32 16 14d6+65 4d6+0
+363 15338
 8 8 1
 #6313
 guardian~
@@ -169,8 +169,8 @@ The guardian is obviously not doing his job.
 He looks like a lazy bum who sleeps half the time.
 ~
 dfg dks 250 S
-17 4 43 1d12+200 2d8+8
-1000 24000
+42 31 16 14d6+62 4d6+0
+349 14646
 4 4 1
 #6314
 arachnos spider empress~
@@ -183,8 +183,8 @@ fangs of normal spiders, but then, as you realize, she does not need
 them.
 ~
 abcdfjlnoq dfhkp -1000 E
-26 55 65 6d10+8650 5d18+70
-30000 355000
+46 33 16 15d6+315 4d8+0
+3681 105060
 8 8 2
 Race: 43
 E
@@ -200,8 +200,8 @@ magical energies.  She will never give up here fight against evil,
 though, and will continue her work in whatever manner presents itself.
 ~
 abcdfilno dk 1000 S
-26 50 73 10d8+2500 5d4+22
-15000 170000
+44 32 16 14d6+68 4d6+0
+378 16046
 8 8 2
 #6316
 dragon wormkin young~
@@ -211,8 +211,8 @@ A wormkin with no teeth plays here.
 It is a rather small dragon, and you almost feel sad about killing it.
 ~
 abd dk 50 E
-9 12 36 5d4+110 2d5+2
-1000 6500
+38 29 14 12d6+57 4d5+0
+293 12038
 8 8 1
 Race: 33
 Height: 122
@@ -227,8 +227,8 @@ A medium-sized dragon -- seems it hasn't killed anything yet by itself,
 though there is a first time for everything...
 ~
 abd dk -300 E
-16 5 7 5d4+210 2d6+4
-5000 24000
+65 42 21 21d6+105 6d6+0
+764 34610
 8 8 1
 Race: 32
 E
