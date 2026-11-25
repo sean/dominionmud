@@ -97,6 +97,9 @@ tools/
   rebalance/        Python 3 (stdlib) tools from the Nov 2026 level rebalance: statline.py (stat lines for
                     a new mob), sim.py (simulated fights by zone), and the pipeline that rescaled the world
                     (rebalance.sh). See tools/rebalance/README.md
+web/
+  elrhinn/          three.js top-down RPG of the Town of Elrhinn built from zones 30 and 36
+                    (export.py writes elrhinn.html). See web/elrhinn/README.md
 lib/                Runtime data directory (server chdir()s here)
   data/             races, religions, guilds, exp_table, attributes, routines, quests, theater, ships, arena, floods, ice, climates, spells (text, self-documenting headers)
   world/{wld,mob,obj,zon,shp}/   CircleMUD-format world files; `index` lists files loaded; `index.mini` for -m

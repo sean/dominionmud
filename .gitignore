@@ -23,4 +23,5 @@ lib/etc/players
 lib/etc/plrmail
 lib/accounts/
 __pycache__
+web/
 autom4te.cache/
